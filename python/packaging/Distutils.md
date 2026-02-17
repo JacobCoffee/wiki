@@ -26,7 +26,7 @@ The rest of this page and its subpages relate to a previous attempt at improving
 
 ## Historical distutils2 focused content 
 
-- [Distutils/DiscussionOverview](./Distutils(2f)DiscussionOverview.html)
+- [Distutils/DiscussionOverview](Distutils/DiscussionOverview)
 
 - plugin systems, entry points
 
@@ -36,21 +36,21 @@ The rest of this page and its subpages relate to a previous attempt at improving
 
 ### Past distutils2 work 
 
-- [Distutils/Terminology](./Distutils(2f)Terminology.html): New terminology
+- [Distutils/Terminology](Distutils/Terminology): New terminology
 
-- [Distutils/VersionComparison](./Distutils(2f)VersionComparison.html) : the goal is to come up with a version comparison system that superseds Distutils\' current one
+- [Distutils/VersionComparison](Distutils/VersionComparison) : the goal is to come up with a version comparison system that superseds Distutils\' current one
 
-- [Distutils/StandardizeEggInfo](./Distutils(2f)StandardizeEggInfo.html) : the goal is to finalize PEP 376
+- [Distutils/StandardizeEggInfo](Distutils/StandardizeEggInfo) : the goal is to finalize PEP 376
 
-- [Distutils/Metadata](./Distutils(2f)Metadata.html) : the goal is to finalize PEP 345
+- [Distutils/Metadata](Distutils/Metadata) : the goal is to finalize PEP 345
 
-- [Distutils/StaticMetadata](./Distutils(2f)StaticMetadata.html) : the goal is to come out with a proposal to split setup.py into a static metadata file + a lighter, almost empty script.
+- [Distutils/StaticMetadata](Distutils/StaticMetadata) : the goal is to come out with a proposal to split setup.py into a static metadata file + a lighter, almost empty script.
 
-- [Distutils/Friends](./Distutils(2f)Friends.html) : the goal is to try to find a project, a person or a group of person on each platform that is willing to maintain a third-party tool that build system-specific distros out of python package.
+- [Distutils/Friends](Distutils/Friends) : the goal is to try to find a project, a person or a group of person on each platform that is willing to maintain a third-party tool that build system-specific distros out of python package.
 
-- [Distutils/PluginSystem](./Distutils(2f)PluginSystem.html) : a Plugin system to extend commands
+- [Distutils/PluginSystem](Distutils/PluginSystem) : a Plugin system to extend commands
 
-- [Distutils/TestingInfrastructure](./Distutils(2f)TestingInfrastructure.html) : Testing infrastructure
+- [Distutils/TestingInfrastructure](Distutils/TestingInfrastructure) : Testing infrastructure
 
 ### Learning Distutils 
 
@@ -66,19 +66,19 @@ The rest of this page and its subpages relate to a previous attempt at improving
 
 - [PyPI\'s XML-RPC interface](http://wiki.python.org/moin/PyPiXmlRpc) for querying the packages database
 
-- [/Cookbook](./Distutils(2f)Cookbook.html)
+- [/Cookbook](Distutils/Cookbook)
 
-- [/FAQ](./Distutils(2f)FAQ.html)
+- [/FAQ](Distutils/FAQ)
 
 #### Projects 
 
-- [/Projects](./Distutils(2f)Projects.html) - please add a listing to this page if you\'re working on Distutils (and help us reduce duplication of effort)
+- [/Projects](Distutils/Projects) - please add a listing to this page if you\'re working on Distutils (and help us reduce duplication of effort)
 
-- [/Extensions](./Distutils(2f)Extensions.html) is a repository of extensions for your \"setup.py\".
+- [/Extensions](Distutils/Extensions) is a repository of extensions for your \"setup.py\".
 
 #### Tutorials 
 
-- [/Tutorial](./Distutils(2f)Tutorial.html) is a small tutorial to introduce the topic. It includes a complete demo, from start to finish.
+- [/Tutorial](Distutils/Tutorial) is a small tutorial to introduce the topic. It includes a complete demo, from start to finish.
 
 - [CheeseShopTutorial](CheeseShopTutorial) is a related tutorial that just covers submitting information to the [Python Package Index](http://pypi.python.org/pypi)
 
@@ -90,8 +90,8 @@ Distutils module was included in standard distribution in Python 1.6. It was bac
 
 #### Misc. 
 
-[Distutils/DistributeSprint](./Distutils(2f)DistributeSprint.html) : Sprint ideas
+[Distutils/DistributeSprint](Distutils/DistributeSprint) : Sprint ideas
 
-[/Proposals](./Distutils(2f)Proposals.html)
+[/Proposals](Distutils/Proposals)
 
 #distutils - irc channel for Distutils

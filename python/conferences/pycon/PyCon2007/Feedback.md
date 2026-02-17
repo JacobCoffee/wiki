@@ -10,7 +10,7 @@ These are the results from the feedback forms (both online and paper) for [PyCon
 
 Numbers in parentheses are the counts of how many times an item was mentioned.
 
-See [/Comments](./PyCon2007(2f)Feedback(2f)Comments.html) for the essay-type comments from the feedback forms.
+See [/Comments](Feedback/Comments) for the essay-type comments from the feedback forms.
 
 # Overall ratings 
 

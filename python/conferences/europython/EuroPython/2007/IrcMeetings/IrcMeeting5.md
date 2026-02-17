@@ -27,11 +27,11 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
   - David suggested contacting Ron Stephens for the Python411 podcast.
 
-  - Paul reminded everyone about [EuroPython2007/ArticleForPythonPapers](./EuroPython2007(2f)ArticleForPythonPapers.html) (and will edit it some more).
+  - Paul reminded everyone about [EuroPython2007/ArticleForPythonPapers](../../../EuroPython2007/ArticleForPythonPapers) (and will edit it some more).
 
   - Aiste will translate the CFP into Russian and try and promote it in the Russian speaking world.
 
-  - Other \"channels\" have been informed - see [EuroPython/2007/PublicRelations](./EuroPython(2f)2007(2f)PublicRelations.html) for a table and feel free to update it!
+  - Other \"channels\" have been informed - see [EuroPython/2007/PublicRelations](../PublicRelations) for a table and feel free to update it!
 - Opening times: Aiste will inform the mailing list about facilities and their opening times/availability.
 - Sponsorship:
   - Contact points:
@@ -68,13 +68,13 @@ No agenda yet. Suggestions:
 
 - Finishing the theme descriptions in Indico: \"education\" and \"social skills\" are missing; \"agile\" needs reviewing; suggestions welcome about the others.
 
-- Promotion: we\'re on python.org now, but what other channels should be involved? See [EuroPython/2007/PublicRelations](./EuroPython(2f)2007(2f)PublicRelations.html) for interesting avenues, along with some materials used by the [PyCon](PyCon) organisers.
+- Promotion: we\'re on python.org now, but what other channels should be involved? See [EuroPython/2007/PublicRelations](../PublicRelations) for interesting avenues, along with some materials used by the [PyCon](PyCon) organisers.
 
 - Sponsorship. Any motion here?
   - [EuroPython](EuroPython) sponsorship has become fairly unobtrusive: Web site banners, some promotional activity at the conference.
 
   - In contrast, [PyCon](PyCon) has maintained the previous \"sophisticated\" sponsorship plans: [http://us.pycon.org/TX2007/HowToSponsor](http://us.pycon.org/TX2007/HowToSponsor)
 
-  - Some resistance to promotional keynotes and lightning talks is detectable in the [PyCon](PyCon) feedback: [PyCon2007/Feedback/Comments](./PyCon2007(2f)Feedback(2f)Comments.html)
+  - Some resistance to promotional keynotes and lightning talks is detectable in the [PyCon](PyCon) feedback: [PyCon2007/Feedback/Comments](../../../../pycon/PyCon2007/Feedback/Comments)
 
   - Perhaps a dialogue with potential sponsors is better than the usual bronze/silver/gold categories.

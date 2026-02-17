@@ -8,19 +8,19 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Guido\'s keynote online at [http://www.python.org/doc/essays/ppt/](http://www.python.org/doc/essays/ppt/) (scroll to the end).
 
-See conference photos at [/Photos](./PyConDC2003(2f)Photos.html).
+See conference photos at [/Photos](PyConDC2003/Photos).
 
-Sprints were free. See [/SprintPlan](./PyConDC2003(2f)SprintPlan.html).
+Sprints were free. See [/SprintPlan](PyConDC2003/SprintPlan).
 
 Paul Graham gave a keynote on the \"hundred-year language\" (his vision of the programming language people will be using a hundred years from now). The text is here: [http://www.paulgraham.com/hundred.html](http://www.paulgraham.com/hundred.html) . The talk is reviewed by Ziggy in his blog: [http://use.perl.org/\~ziggy/journal/11248](http://use.perl.org/~ziggy/journal/11248) See also how Paul Prescod made Paul Graham famous: [http://www.prescod.net/python/IsPythonLisp.html](http://www.prescod.net/python/IsPythonLisp.html)
 
-[/OpenSpaceSessions](./PyConDC2003(2f)OpenSpaceSessions.html) - Session Notes from [PyCon](PyCon) [OpenSpace](OpenSpace)
+[/OpenSpaceSessions](PyConDC2003/OpenSpaceSessions) - Session Notes from [PyCon](PyCon) [OpenSpace](OpenSpace)
 
-**[/Papers](./PyConDC2003(2f)Papers.html)** - Quick index to papers/slides/links for PyCon talks. (I\'ve indexed all the papers I have found announced on this wiki, python-announce, etc. - Please consider adding links to your papers on this page so we can find them!)
+**[/Papers](PyConDC2003/Papers)** - Quick index to papers/slides/links for PyCon talks. (I\'ve indexed all the papers I have found announced on this wiki, python-announce, etc. - Please consider adding links to your papers on this page so we can find them!)
 
 # Speakers shows the emerging conference 
 
-Talk to the speakers via the ***[/Speakers](./PyConDC2003(2f)Speakers.html)*** page, where each presentation is listed
+Talk to the speakers via the ***[/Speakers](PyConDC2003/Speakers)*** page, where each presentation is listed
 
 # Want to get involved? Confused by chaotic wiki web pages? 
 
@@ -44,13 +44,13 @@ If you have something you\'d like to ask or add concerning [PyCon](PyCon), go to
 
 ### PyCon Schedule and Floorplan 
 
-- I\'ve provided a wiki-based version of the preliminary schedule, with hyperlinks to the presentation descriptions. See [/Schedule](./PyConDC2003(2f)Schedule.html). \--Jeff Kunce
+- I\'ve provided a wiki-based version of the preliminary schedule, with hyperlinks to the presentation descriptions. See [/Schedule](PyConDC2003/Schedule). \--Jeff Kunce
 
   I\'ve posted a (somewhat) annotated floorplan at [http://perspex.com/pycon/floorplan/pycon-space-plan.html](http://perspex.com/pycon/floorplan/pycon-space-plan.html) \--[TrippLilley](./TrippLilley.html)
 
 ## Topics for PyCon DC 2003 - Build Your Own Conference!!!! 
 
-[PyCon DC 2003](http://www.python.org/pycon/) is not going to be an elitist conference. It needs your help to ensure that there is something for everybody! Matt Croydon\'s notes in [/ForCheap](./PyConDC2003(2f)ForCheap.html) might help.
+[PyCon DC 2003](http://www.python.org/pycon/) is not going to be an elitist conference. It needs your help to ensure that there is something for everybody! Matt Croydon\'s notes in [/ForCheap](PyConDC2003/ForCheap) might help.
 
 What can you do? Well, firstly you can ***contribute your ideas on this page***. It\'s easy to edit Wiki content, so get to it - just click on **Edit Text** below! The more contributors we have, the more relevant and interesting [PyCon](PyCon) DC 2003 will be. A few topics are listed below to get you started, but you should feel free to add others if you believe the [PythonCommunities](PythonCommunities) will benefit from having them covered at this, and future, conferences. You can show your support at [PyConRandomExclamationsOfSupport](PyConRandomExclamationsOfSupport).
 
@@ -82,13 +82,13 @@ See the [PyConHelpers](PyConHelpers) page for areas where volunteers are current
 
 ### Birds of a Feather Sessions 
 
-In many conferences the [/BoFs](./PyConDC2003(2f)BoFs.html) are where much of the real communication takes place. If your particular area of interest doesn\'t manage to generate its own track then at least register your interest on the [/BoFs](./PyConDC2003(2f)BoFs.html) page so people can sign up for it.
+In many conferences the [/BoFs](PyConDC2003/BoFs) are where much of the real communication takes place. If your particular area of interest doesn\'t manage to generate its own track then at least register your interest on the [/BoFs](PyConDC2003/BoFs) page so people can sign up for it.
 
 ### Sprints 
 
 The sprints are intended to benefit the Python core, as well as encouraging more developers to take part in Python\'s development. They will also be a good place to see [ExtremeProgramming](ExtremeProgramming) or other [AgileMethods](http://c2.com/cgi/wiki?AgileMethods "Wiki") in action. What would you like to see done, or at least attempted?
 
-There is a separate [/SprintPlan](./PyConDC2003(2f)SprintPlan.html) page with more details. *Please use it to flesh out the sprint plans.*
+There is a separate [/SprintPlan](PyConDC2003/SprintPlan) page with more details. *Please use it to flesh out the sprint plans.*
 
 ### LightningTalks 
 

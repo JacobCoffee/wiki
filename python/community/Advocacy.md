@@ -30,13 +30,13 @@ Greetings! I\'m the [PythonAdvocacyCoordinator](PythonAdvocacyCoordinator). You 
 
 ## Current Focus 
 
-- [to support and encourage the formation of usergroups](./Advocacy(2f)UsergroupSupport.html)
+- [to support and encourage the formation of usergroups](Advocacy/UsergroupSupport)
 
-- [to create a series of 5-minute videos introducing uses of Python](./Advocacy(2f)5MinuteVideos.html)
+- [to create a series of 5-minute videos introducing uses of Python](Advocacy/5MinuteVideos)
 
 - to write whitepapers as a follow-on to the 5-minute videos
 
-- [exploration of getting non-programmers to start with Python](./Advocacy(2f)ProgrammingForNewprogrammers.html)
+- [exploration of getting non-programmers to start with Python](Advocacy/ProgrammingForNewprogrammers)
 
 ------------------------------------------------------------------------
 
@@ -66,31 +66,31 @@ Want to help with some writing? Check out our list of whitepaper/flyer [Advocacy
 
 [(permalink)](Advocacy#AdvocacyKits)
 
-- [College Student\'s Python Advocacy Kit](./Advocacy(2f)CollegeStudentKit.html) (being developed)
+- [College Student\'s Python Advocacy Kit](Advocacy/CollegeStudentKit) (being developed)
 
-- [IT Department Python Advocacy Kit](./Advocacy(2f)ItDepartmentKit.html) (being developed)
+- [IT Department Python Advocacy Kit](Advocacy/ItDepartmentKit) (being developed)
 
-- [University Educator\'s Python Advocacy Kit](./Advocacy(2f)UniversityEducatorKit.html) (being developed)
+- [University Educator\'s Python Advocacy Kit](Advocacy/UniversityEducatorKit) (being developed)
 
-- [K-12 Educator\'s Python Advocacy Kit](./Advocacy(2f)K12EducatorKit.html) (being developed)
+- [K-12 Educator\'s Python Advocacy Kit](Advocacy/K12EducatorKit) (being developed)
 
-- [Home Schooling Educator\'s Python Advocacy Kit](./Advocacy(2f)HomeSchoolEducatorKit.html) (being developed)
+- [Home Schooling Educator\'s Python Advocacy Kit](Advocacy/HomeSchoolEducatorKit) (being developed)
 
 - [Python for Scientists Advocacy Kit](./Advocacy(2f)PythonForScientists.html) (should be developed)
 
-- [Python Usergroups Advocacy Kit](./Advocacy(2f)UsergroupSupport.html)
+- [Python Usergroups Advocacy Kit](Advocacy/UsergroupSupport)
 
 ### Reusable/Retargetable Teaching Materials 
 
 [(permalink)](Advocacy#TeachingMaterials)
 
-- [Excellent Slide Presentations](./Advocacy(2f)SlidePresentations.html) - we\'re looking for the best out of many
+- [Excellent Slide Presentations](Advocacy/SlidePresentations) - we\'re looking for the best out of many
 
-- [Class Handouts](./Advocacy(2f)ClassHandouts.html)
+- [Class Handouts](Advocacy/ClassHandouts)
 
 ### Other Resources 
 
-- [Promotional Items like shirts, posters, etc.](./Advocacy(2f)WearablesGadgets.html)
+- [Promotional Items like shirts, posters, etc.](Advocacy/WearablesGadgets)
 
 - [Document Library](http://advocacy.python.org/@@/collaterals/)
 
@@ -136,7 +136,7 @@ Want to help with some writing? Check out our list of whitepaper/flyer [Advocacy
 
 Please send me `<advocate AT python DOT org>` any files that might be useful for giving out at user groups or business meetings.
 
-Existing material appears (also) at [evangelism support materials](./evangelism(20)support(20)materials.html) and [PromotingPythonBof](PromotingPythonBof). Note [http://psf.pollenation.net/cgi-bin/trac.cgi/ticket/160](http://psf.pollenation.net/cgi-bin/trac.cgi/ticket/160).
+Existing material appears (also) at [evangelism support materials](../archive/evangelism support materials) and [PromotingPythonBof](PromotingPythonBof). Note [http://psf.pollenation.net/cgi-bin/trac.cgi/ticket/160](http://psf.pollenation.net/cgi-bin/trac.cgi/ticket/160).
 
 ## General Notes 
 

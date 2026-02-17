@@ -40,4 +40,4 @@ An option to the uninstall command would be used to remove the .pth file.
 
 ## Copyright and License Terms 
 
-I, [ÉricAraujo](./(c389)ricAraujo.html), make this document available to anyone for all purposes and intents, including edition and distribution, in the limits allowed by their jurisdictions. (There is no such thing as "placing in the public domain".)
+I, [ÉricAraujo](../../../archive/ÉricAraujo), make this document available to anyone for all purposes and intents, including edition and distribution, in the limits allowed by their jurisdictions. (There is no such thing as "placing in the public domain".)

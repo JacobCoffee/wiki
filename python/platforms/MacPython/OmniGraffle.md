@@ -20,13 +20,13 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 - [/AppscriptingOverview](./MacPython(2f)OmniGraffle(2f)AppscriptingOverview.html)
 
-- [/ProTerminology](./MacPython(2f)OmniGraffle(2f)ProTerminology.html)
+- [/ProTerminology](OmniGraffle/ProTerminology)
 
 **Appscripting in Depth:**
 
 - [/FrequentlyAskedQuestions](./MacPython(2f)OmniGraffle(2f)FrequentlyAskedQuestions.html)
 
-- [/MoreExamples](./MacPython(2f)OmniGraffle(2f)MoreExamples.html)
+- [/MoreExamples](OmniGraffle/MoreExamples)
 
 - [/Annoyances](./MacPython(2f)OmniGraffle(2f)Annoyances.html)
 
@@ -36,4 +36,4 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 - [/MiscNotes](./MacPython(2f)OmniGraffle(2f)MiscNotes.html)
 
-- [/UsefulLinks](./MacPython(2f)OmniGraffle(2f)UsefulLinks.html)
+- [/UsefulLinks](OmniGraffle/UsefulLinks)

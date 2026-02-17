@@ -42,7 +42,7 @@ Be warned that this list is subjective by its very nature - it is only intended 
 
 ## GIS (Geographic Information System) 
 
-- [GIS Web services](./GIS(2f)Web_services.html) - Packages to access to Google Maps, Yahoo! MapsÃ¢Â€Â¦ and more information
+- [GIS Web services](../archive/GIS/Web_services) - Packages to access to Google Maps, Yahoo! MapsÃ¢Â€Â¦ and more information
 
 ## GUI 
 
@@ -62,7 +62,7 @@ Be warned that this list is subjective by its very nature - it is only intended 
 
 ### Console 
 
-- [Ascii Table](./Console(2f)Ascii_table.html) packages
+- [Ascii Table](../archive/Console/Ascii_table) packages
 
 ## Audio / Music 
 

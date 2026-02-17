@@ -36,4 +36,4 @@ Essentially the same list as on the [Contents](Contents) page:
 
 - Chair: ??
 
-- [PSF Meta WG Charter](./MetaWG(2f)Charter.html)
+- [PSF Meta WG Charter](MetaWG/Charter)

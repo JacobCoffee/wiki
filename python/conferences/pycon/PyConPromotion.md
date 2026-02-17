@@ -10,7 +10,7 @@ Promotional tasks:
 
 - Send CFP and registration notices to local Linux UG mailing lists ( [NoVALUG](http://novalug.tux.org) [DC-LUG](http://dclug.tux.org/)), Python user groups.
 
-- Write a one-page flyer. Draft version: [PyConDC2005/Flyer](./PyConDC2005(2f)Flyer.html)
+- Write a one-page flyer. Draft version: [PyConDC2005/Flyer](PyConDC2005/Flyer)
 
 - Issue a press release.
 

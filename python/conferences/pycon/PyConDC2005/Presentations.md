@@ -36,7 +36,7 @@ Other topics discussed in the context of Tactical Language will adress the perfo
 
 #7. **Happy Hooking: Designing Software for Extensibility and Customization**
 
-[Ed Leafe](./Ed(20)Leafe.html) / [The Dabo Project](http://dabodev.com)
+[Ed Leafe](../../../people/Ed Leafe) / [The Dabo Project](http://dabodev.com)
 
 It is rare for anyone to create any non-trivial software project that will not need customization at some point. It is therefore wise to plan for this when designing your code by inserting hook methods that are designed to be customized to add additional functionality later on. By default these methods do nothing, so they can be freely overridden by others without the risk of losing a critical behavior because a superclass method had been overridden. This is especially useful for creators of frameworks and tools that can be extended by their users. As one of the two primary authors of the Dabo framework, I am especially aware that in order to be useful, the code I create needs to be adapted and augmented by developers who build their apps with Dabo. I will show several code examples from Dabo to illustrate my points. [Paper](http://www.python.org/pycon/2005/papers/7/pyconHooking.html)
 
@@ -44,7 +44,7 @@ It is rare for anyone to create any non-trivial software project that will not n
 
 #9. **Dabo, the 3-tier Database Application Framework)**
 
-[Ed Leafe](./Ed(20)Leafe.html) / [The Dabo Project](http://dabodev.com)
+[Ed Leafe](../../../people/Ed Leafe) / [The Dabo Project](http://dabodev.com)
 
 There are several tools available that help a developer create applications for working with data: Visual [FoxPro](./FoxPro.html), Visual Basic, Delphi, etc. They make some of the tedious parts of the app, such as ensuring that a change to a value in a text box gets propagated back to the correct column in the correct record of the correct table in the correct database on the correct host. These tools all have their strengths and weaknesses, but none are Open Source, and none are in Python!
 

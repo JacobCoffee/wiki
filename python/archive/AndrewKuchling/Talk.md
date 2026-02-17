@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Andrew,
 
-Apologies for mishandling the misplaced question on [BeginnersGuide/Overview](./BeginnersGuide(2f)Overview.html). I agree that\'s not the right place for Q&A, but I was trying to answer the anonymous question in a way the author might find the answer without having to be wiki-literate.
+Apologies for mishandling the misplaced question on [BeginnersGuide/Overview](../../getting-started/BeginnersGuide/Overview). I agree that\'s not the right place for Q&A, but I was trying to answer the anonymous question in a way the author might find the answer without having to be wiki-literate.
 
 Unfortunately, it took me some time to understand your comment: \"Question answered by doc/faq/installed.txt.\" Apparently this refers to [http://www.python.org/doc/faq/installed.html](http://www.python.org/doc/faq/installed.html), with a .html extension. Admittedly I\'m not a Python guru, but if I took several minutes to understand this comment, the original author of the question might have just given up (presuming \[s\]he saw the comment at all, which presumes enough wiki-familiarity to check the history to figure out why the question was deleted!).
 

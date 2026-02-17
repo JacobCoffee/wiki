@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Possible Sponsors 
 
-This is a list of sponsors whom we can meet. A good starting point is [BangPypers/PythonCompaniesInIndia](./BangPypers(2f)PythonCompaniesInIndia.html). This is of course predicated on the venue.
+This is a list of sponsors whom we can meet. A good starting point is [BangPypers/PythonCompaniesInIndia](../../../community/BangPypers/PythonCompaniesInIndia). This is of course predicated on the venue.
 
 ::: {}
   --------------------------------------------------- ----------------------------------------------

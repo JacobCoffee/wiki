@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-[boost.python](./boost(2e)python.html) tries hard to provide best possible run-time errors. But often enough they need futher explanation. Some of them are mentioned below:
+[boost.python]() tries hard to provide best possible run-time errors. But often enough they need futher explanation. Some of them are mentioned below:
 
 ### TypeError: bad argument type for built-in operation 
 

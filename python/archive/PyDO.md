@@ -18,7 +18,7 @@ PyDO\'s predecessor (unreleased) was written from the same aspect of [JavaDataOb
 
 The DDL generated for [JavaDataObjects](JavaDataObjects) also (from one of the tutorials I saw anyway \-- [http://www.onjava.com/pub/a/onjava/2002/02/06/jdo1.html](http://www.onjava.com/pub/a/onjava/2002/02/06/jdo1.html)) seems to be a bit much given what is being persisted (one object yields three tables and two \"opaque\" rows), whereby PyDO will work pretty much with any existing schema you can throw at it. I\'ve seen a few middleware packages that come from the same aspect as [JavaDataObjects](JavaDataObjects), and they all (including PyDO\'s predecessor) seem to have this same problem to a lesser or greater extent.
 
-Also, PyDO has tools for reverse engineering an existing database schema. This way, you don\'t often need to write the PyDO classes, at all, but use the generated code. Of course you can edit it to taste :). The reverse engineering tools can even figure out many relations ([Oracle](Oracle), [PostgreSQL](PostgreSQL) and [SAP DB](./SAP(20)DB.html)), assuming that the associated referential integrity constraints are in place.
+Also, PyDO has tools for reverse engineering an existing database schema. This way, you don\'t often need to write the PyDO classes, at all, but use the generated code. Of course you can edit it to taste :). The reverse engineering tools can even figure out many relations ([Oracle](Oracle), [PostgreSQL](PostgreSQL) and [SAP DB](SAP DB)), assuming that the associated referential integrity constraints are in place.
 
 In short, PyDO aims to not to dictate your schema, as client code comes and goes, but schemas seem to live forever.
 

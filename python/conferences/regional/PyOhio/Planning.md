@@ -6,13 +6,13 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-[Ideas for next year](./PyOhio(2f)Ideas.html)
+[Ideas for next year](Ideas)
 
 ::: 
 ### Current tasks
 
-- [Food](./PyOhio(2f)Food.html)
-- [Program Guide](./PyOhio(2f)ProgramGuide.html)
+- [Food](Food)
+- [Program Guide](ProgramGuide)
 - Contact swag providers
 - A/V - availability; a volunteer
 - housing: Blackwell; offsite; volunteer
@@ -24,23 +24,23 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 >
 > > 
 >
-> - [Venue](./PyOhio(2f)Venue.html)
+> - [Venue](Venue)
 >
 > > 
 >
-> - [Staff](./PyOhio(2f)Staff.html) (Volunteers)
+> - [Staff](Staff) (Volunteers)
 >
 > > 
 >
-> - [Supplies](./PyOhio(2f)Supplies.html)
+> - [Supplies](Supplies)
 >
 > > 
 >
-> - [Publicity](./PyOhio(2f)Publicity.html)
+> - [Publicity](Publicity)
 >
 > > 
 
-See notes from the [PyOhio planning huddle](./PyOhio(2f)PyOhioHuddle.html) at PyCon 2009
+See notes from the [PyOhio planning huddle](PyOhioHuddle) at PyCon 2009
 :::
 
 ::: 

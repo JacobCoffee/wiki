@@ -222,7 +222,7 @@ An alternative is to use the `futurize` script from the [future](http://python-f
 
 These are porting notes on differences in third party libraries when run on Python 2 and Python 3.
 
-- [PyQt4](./PortingPythonToPy3k(2f)PyQt4.html)
+- [PyQt4](../gui/PortingPythonToPy3k/PyQt4)
 :::
 
 ::: 

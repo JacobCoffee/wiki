@@ -173,4 +173,4 @@ Below is the code listing for this stage of development. It is very often diffic
 
 The listing is more extensive - the number of lines has about doubled from the previous section. On the other hand, the simple editor now looks like a \"real\" program and is able to do what we expect of a simple, tutorial type, plain text editor!
 
-[Return Home](./PyQt(2f)simple.html)
+[Return Home](simple)

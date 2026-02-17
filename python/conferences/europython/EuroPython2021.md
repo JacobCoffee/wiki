@@ -32,4 +32,4 @@ Please join the [EuroPython](EuroPython) Mailing List to discuss conference topi
 
 Please add sprint proposals to the following page:
 
-- [/Sprints](./EuroPython2021(2f)Sprints.html) - [EuroPython](EuroPython) 2021 sprints
+- [/Sprints](EuroPython2021/Sprints) - [EuroPython](EuroPython) 2021 sprints

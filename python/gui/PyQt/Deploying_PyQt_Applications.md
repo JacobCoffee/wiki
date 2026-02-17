@@ -30,7 +30,7 @@ Creates stand-alone executables and installers for [PyQt](PyQt) applications. Su
 
 A short How-To for using PyInstaller with PyQt on Mac OS-X:
 
-- [PyInstaller On Mac OS X](./PyQt(2f)PyInstallerOnMacOSX.html)
+- [PyInstaller On Mac OS X](PyInstallerOnMacOSX)
 
 ### cx_Freeze 
 

@@ -20,7 +20,7 @@ SiteNavigering er det centrale sted til at udforske denne Wiki. [MoinMoin](MoinM
 
 - [EfterladteSider](EfterladteSider)
 
-- [TilfældigSide](./Tilf(c3a6)ldigSide.html)
+- [TilfældigSide](../archive/TilfældigSide)
 
 - [SideStørrelse](./SideSt(c3b8)rrelse.html)
 

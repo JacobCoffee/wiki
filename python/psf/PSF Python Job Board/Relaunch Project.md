@@ -87,15 +87,15 @@ To get it to a usable state, we\'ll have to work some more on the code and the t
 
 Please run reviews of the existing app and post them on the review page:
 
-- [../Jobs App Reviews](./PSF(20)Python(20)Job(20)Board(2f)Jobs(20)App(20)Reviews.html)
+- [../Jobs App Reviews](Jobs App Reviews)
 
 We collect user stories on this page:
 
-- [../Jobs App User Stories](./PSF(20)Python(20)Job(20)Board(2f)Jobs(20)App(20)User(20)Stories.html)
+- [../Jobs App User Stories](Jobs App User Stories)
 
 These will then be distilled into feature requests / implementation phases on this page:
 
-- [../Jobs App Feature Requests](./PSF(20)Python(20)Job(20)Board(2f)Jobs(20)App(20)Feature(20)Requests.html)
+- [../Jobs App Feature Requests](Jobs App Feature Requests)
 
 ### Job Model Reference 
 
@@ -115,11 +115,11 @@ Notes on how various field in the database should be updated:
 
 We have so far identified these roles in the team:
 
-- [../Drafters](./PSF(20)Python(20)Job(20)Board(2f)Drafters.html) - team members who help with getting existing job board listings and the mailing list backlog entered into the database
+- [../Drafters](Drafters) - team members who help with getting existing job board listings and the mailing list backlog entered into the database
 
-- [../Reviewers](./PSF(20)Python(20)Job(20)Board(2f)Reviewers.html) - team members who review job postings and help giving usability feedback to the developers
+- [../Reviewers](Reviewers) - team members who review job postings and help giving usability feedback to the developers
 
-- [../Developers](./PSF(20)Python(20)Job(20)Board(2f)Developers.html) - team members with Django skills to help with improving the Django app
+- [../Developers](Developers) - team members with Django skills to help with improving the Django app
 
 We will also need leaders of both groups and possibly an overall project lead to coordinate the work of the groups and provide an interface to the PSF board.
 

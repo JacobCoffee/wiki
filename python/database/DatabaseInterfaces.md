@@ -46,15 +46,15 @@ Database systems employing a relational model, with support for SQL.
 
 - [PostgreSQL](PostgreSQL)
 
-- [SAP DB](./SAP(20)DB.html) (also known as \"MaxDB\")
+- [SAP DB](../archive/SAP DB) (also known as \"MaxDB\")
 
-- Microsoft [SQL Server](./SQL(20)Server.html)
+- Microsoft [SQL Server](SQL Server)
 
-- Microsoft [Access](./Microsoft(20)Access.html)
+- Microsoft [Access](../people/Microsoft Access)
 
 - [Sybase](Sybase)
 
-- [InterSystems IRIS](./InterSystems(20)IRIS.html)
+- [InterSystems IRIS](../archive/InterSystems IRIS)
 
 (To add new entries, please choose [DatabaseTemplate](DatabaseTemplate) when creating the page.)
 

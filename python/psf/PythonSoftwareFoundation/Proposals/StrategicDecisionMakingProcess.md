@@ -36,7 +36,7 @@ Secondly, it involves the creation of the psf-discuss mailing list where at leas
 
 ## Significant changes from earlier discussion draft 
 
-The earlier draft proposed a more complex proposal lifecycle that was reflected in the URL of the proposals, but actually moving this proposal through that chain indicated how tedious it was going to be to use. As a result, the proposal states indicated through the URL have been removed, with the proposal status now being tracked within the body of the proposal and in the list of proposals at [PythonSoftwareFoundation/Proposals](./PythonSoftwareFoundation(2f)Proposals.html). This is much closer to the way the Python Enhancement Proposal Process works (at some point in the future, a [MoinMoin](MoinMoin) wiki macro could potentially be used to automate generation of the categorised list of proposals).
+The earlier draft proposed a more complex proposal lifecycle that was reflected in the URL of the proposals, but actually moving this proposal through that chain indicated how tedious it was going to be to use. As a result, the proposal states indicated through the URL have been removed, with the proposal status now being tracked within the body of the proposal and in the list of proposals at [PythonSoftwareFoundation/Proposals](). This is much closer to the way the Python Enhancement Proposal Process works (at some point in the future, a [MoinMoin](MoinMoin) wiki macro could potentially be used to automate generation of the categorised list of proposals).
 
 In a similar vein of simplification, rather than building the notion of Active and Retired policies into the process itself, this specific proposal instead states that the proposal is to adopt this decision making process as a Board policy, and publish it at a particular page in the public wiki.
 
@@ -88,9 +88,9 @@ At their discretion, the PSF Board may choose to include non-binding polls in ba
 
 ### Proposals for Discussion 
 
-Any PSF Member (including Basic Members) may use the [Python wiki](https://wiki.python.org) to submit a proposal for discussion with the full PSF membership. Such proposals should be filed under the [PythonSoftwareFoundation/Proposals](./PythonSoftwareFoundation(2f)Proposals.html) section of the wiki. For example:
+Any PSF Member (including Basic Members) may use the [Python wiki](https://wiki.python.org) to submit a proposal for discussion with the full PSF membership. Such proposals should be filed under the [PythonSoftwareFoundation/Proposals]() section of the wiki. For example:
 
-- [PythonSoftwareFoundation/Proposals/StrategicDecisionMakingProcess](./PythonSoftwareFoundation(2f)Proposals(2f)StrategicDecisionMakingProcess.html)
+- [PythonSoftwareFoundation/Proposals/StrategicDecisionMakingProcess](StrategicDecisionMakingProcess)
 
 Proposals that are open for membership discussion should have a designated editor (or editors) listed at the top of the page and a header indicating that the proposal is a draft being discussed with the broader PSF membership. It is expected that in most cases the initial author(s) of a proposal will also be the designated editor(s). Significant changes to a proposal under discussion should only be made by the designated editors, although other PSF Members should feel free to make minor corrections (such as fixing typos and broken links) directly. If in doubt regarding the appropriateness of an edit, it\'s best to suggest it to the editors on the psf-members mailing list rather than making the change directly.
 

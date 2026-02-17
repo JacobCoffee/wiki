@@ -20,8 +20,8 @@ The [avifile](http://avifile.sourceforge.net/) project provides a Qt 3-based pla
 
 - [PyMedia](http://pymedia.org/) is a Python package that supports various audio and video formats.
 
-- In [a message](http://www.riverbankcomputing.com/pipermail/pyqt/2009-September/024240.html) to [the PyQt mailing list](./PyQt(2f)TheMailingList.html), Baz Walter gives an example of using GStreamer bindings for Python with PyQt (see [Using GStreamer with PyQt](./PyQt(2f)Using(20)GStreamer(20)with(20)PyQt.html)).
+- In [a message](http://www.riverbankcomputing.com/pipermail/pyqt/2009-September/024240.html) to [the PyQt mailing list](TheMailingList), Baz Walter gives an example of using GStreamer bindings for Python with PyQt (see [Using GStreamer with PyQt](Using GStreamer with PyQt)).
 
 ## Out of Process Wrappers 
 
-Henning Schröder posted a link to his PyQt (Qt 3) MPlayer wrapper widget in [a message](http://www.riverbankcomputing.com/pipermail/pyqt/2007-June/016277.html) to [the mailing list](./TheMailingList.html). He has kindly donated the code to the community, and it can also be obtained from the [MPlayerWidget](./PyQt(2f)Multimedia_Resources(2f)MPlayerWidget.html) page.
+Henning Schröder posted a link to his PyQt (Qt 3) MPlayer wrapper widget in [a message](http://www.riverbankcomputing.com/pipermail/pyqt/2007-June/016277.html) to [the mailing list](./TheMailingList.html). He has kindly donated the code to the community, and it can also be obtained from the [MPlayerWidget](Multimedia_Resources/MPlayerWidget) page.

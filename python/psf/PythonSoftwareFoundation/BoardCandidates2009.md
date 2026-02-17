@@ -30,8 +30,8 @@ Incumbent Director Stephan Deibel has decided not to run for the Board this year
 ::: topic
 Links
 
-- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html)
-- [2008 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2008.html)
+- [Duties and Responsibilities of Directors](DutiesAndResponsibilitiesOfDirectors)
+- [2008 Board Candidates](BoardCandidates2008)
 :::
 
 ::: 

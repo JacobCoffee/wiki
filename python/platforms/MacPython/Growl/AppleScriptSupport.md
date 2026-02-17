@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-Translated examples from Growl\'s [AppleScript](./MacPython(2f)AppleScript.html) Support page:
+Translated examples from Growl\'s [AppleScript](../AppleScript) Support page:
 
 - **Basics**
 

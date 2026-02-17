@@ -14,7 +14,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 See [PyCon2012](PyCon2012) for information about the planning of the upcoming conference.
 
-[Organizers Meetings Connection Details](./Organizers(20)Meetings(20)Connection(20)Details.html)
+[Organizers Meetings Connection Details](../../people/Organizers Meetings Connection Details)
 
 # Previous conferences 
 

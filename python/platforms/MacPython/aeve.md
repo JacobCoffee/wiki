@@ -84,8 +84,8 @@ Hard to do:
 
 # see also 
 
-- [../AppleScript](./MacPython(2f)AppleScript.html)
+- [../AppleScript](AppleScript)
 
-- [../AppleScriptNotes](./MacPython(2f)AppleScriptNotes.html)
+- [../AppleScriptNotes](AppleScriptNotes)
 
-- [../AeveNewbieDiscussion](./MacPython(2f)AeveNewbieDiscussion.html)
+- [../AeveNewbieDiscussion](AeveNewbieDiscussion)

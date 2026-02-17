@@ -12,7 +12,7 @@ Topics:
 
 - [MacPython](MacPython)
 
-- [../PyObjC](./MacPython(2f)PyObjC.html)
+- [../PyObjC](PyObjC)
 
 - newbie questions
 

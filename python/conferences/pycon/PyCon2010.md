@@ -16,8 +16,8 @@ PyCon 2010 will take place in Atlanta, Georgia at the Hyatt Regency Atlanta hote
 ### PyCon 2010 Wiki Pages
 
 - [PyCon_2009IdeasFor2010](./PyCon_2009IdeasFor2010.html)
-- [Open Space](./Open(20)Space.html)
-- [Organizers\' Meetings](./PyCon2010(2f)Organizers_Meetings.html) (agendas and info)
+- [Open Space](../../people/Open Space)
+- [Organizers\' Meetings](PyCon2010/Organizers_Meetings) (agendas and info)
 
 ------------------------------------------------------------------------
 

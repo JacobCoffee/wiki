@@ -46,7 +46,7 @@ Mozilla announced a project to port the DLR (well, the underlying Core CLR that 
 
 Some other Python-like languages for .NET and Mono include:
 
-- [BooLanguage](BooLanguage) - Syntax is very similar to Python\'s, yet the language is statically compiled. It implements many features that have been suggested for [Python3.0](./Python3(2e)0.html). See [Gotchas for Python Users (archive)](https://web.archive.org/web/20150504021553/http://boo.codehaus.org/Gotchas+for+Python+Users) for specific comparisons between boo and CPython.
+- [BooLanguage](BooLanguage) - Syntax is very similar to Python\'s, yet the language is statically compiled. It implements many features that have been suggested for [Python3.0](../py3/Python3.0). See [Gotchas for Python Users (archive)](https://web.archive.org/web/20150504021553/http://boo.codehaus.org/Gotchas+for+Python+Users) for specific comparisons between boo and CPython.
 
 - [Cobra Language](http://cobra-language.com/)
 

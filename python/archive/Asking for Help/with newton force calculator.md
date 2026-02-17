@@ -76,7 +76,7 @@ I will run the calculator once for every thruster on the obj. Add them together 
 I have tried to find to find the formulas need to due this for days. I\'m new to python but the program i\'m trying to right this plugin for just started using python and it is simple enough for me to work with. Please please help.
 
 ::: note
-When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](./Asking(20)for(20)Help.html) page.
+When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help]() page.
 :::
 
 ------------------------------------------------------------------------

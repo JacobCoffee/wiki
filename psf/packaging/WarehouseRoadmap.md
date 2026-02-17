@@ -36,7 +36,7 @@ We completed this milestone on **Feb. 23rd, 2018**.
 
 [On GitHub.](https://github.com/pypa/warehouse/milestone/10)
 
-Prepare to [blog](https://pyfound.blogspot.com/2018/03/warehouse-all-new-pypi-is-now-in-beta.html), email, etc. to [invite Python community to test Warehouse](./PackagingWG(2f)PyPIBetaAnnouncement.html). Redirect an increasing portion of *pip install* traffic to Warehouse, [as we did during a load test in mid-March](https://status.python.org/incidents/0gmdf90kkt8n). This thus requires an infrastructure changeover.
+Prepare to [blog](https://pyfound.blogspot.com/2018/03/warehouse-all-new-pypi-is-now-in-beta.html), email, etc. to [invite Python community to test Warehouse](../working-groups/PackagingWG/PyPIBetaAnnouncement). Redirect an increasing portion of *pip install* traffic to Warehouse, [as we did during a load test in mid-March](https://status.python.org/incidents/0gmdf90kkt8n). This thus requires an infrastructure changeover.
 
 We [completed this milestone](https://pyfound.blogspot.com/2018/03/warehouse-all-new-pypi-is-now-in-beta.html) on **March 26th, 2018**.
 

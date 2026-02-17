@@ -90,7 +90,7 @@ I think that we can deprecate the REQUIRES and PROVIDES files by adding Depends,
 
 - Try not to import modules to check versions
 
-- [../PyObjC](./MacPython(2f)PyObjC.html) implementation would be awesome, should also do [WxPython](WxPython) implementation for win32?
+- [../PyObjC](PyObjC) implementation would be awesome, should also do [WxPython](WxPython) implementation for win32?
 
 - Allow user to install from local files (downloaded binary packages or source packages themselves)
 

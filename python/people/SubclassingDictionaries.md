@@ -49,7 +49,7 @@ The `__slots__` line indicates that Msg has no attributes of its own, preserving
 
 ## See Also 
 
-[Python-2.2](./Python(2d)2(2e)2.html), [SubclassingBuiltInTypes](SubclassingBuiltInTypes), [UsingSlots](UsingSlots)
+[Python-2.2](../archive/Python-2.2), [SubclassingBuiltInTypes](SubclassingBuiltInTypes), [UsingSlots](UsingSlots)
 
 ## Questions 
 

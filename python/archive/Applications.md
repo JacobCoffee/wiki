@@ -239,7 +239,7 @@ See also:
 
 - ruleCore - A reactive event-driven rule engine for event pattern detection [http://www.rulecore.com](http://www.rulecore.com/)
 
-- [L.I.S.A](./L(2e)I(2e)S(2e)A.html) - The L.I.S.A project is a Digital Life Assistant for a house. You can ask things to LISA by voice or by text and LISA will execute some actions and/or answers you. LISA can control a home automation system to have an artifical intelligence in the house. [http://www.lisa-project.net/](http://www.lisa-project.net/)
+- [L.I.S.A](L.I.S.A) - The L.I.S.A project is a Digital Life Assistant for a house. You can ask things to LISA by voice or by text and LISA will execute some actions and/or answers you. LISA can control a home automation system to have an artifical intelligence in the house. [http://www.lisa-project.net/](http://www.lisa-project.net/)
 
 - [EF\*CK Chat Keyboard](https://efck-chat-keyboard.github.io) - A PyQT GUI app for quickly filtering and inserting emojis, GIFs and fancy Unicode text in app-agnostic way on X11.
 

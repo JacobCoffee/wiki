@@ -14,7 +14,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 `Collection all my focus Python.org's pages`{.backtick}
 
-- [Ten things people want to know about Python](./Ten(20)things(20)people(20)want(20)to(20)know(20)about(20)Python.html)
+- [Ten things people want to know about Python](../archive/Ten things people want to know about Python)
 
 ## abt.
 

@@ -26,7 +26,7 @@ It\'s not terribly difficult to tell Xcode to launch a Python process and start 
 
 ![](http://undefined.org/python/XPython_0.png "http://undefined.org/python/XPython_0.png")\
 \
-And even scarier.. here\'s the [MacPython/PyObjC](./MacPython(2f)PyObjC.html) class browser demo INSIDE Xcode. Just look at all those proprietary Apple classes:\
+And even scarier.. here\'s the [MacPython/PyObjC](PyObjC) class browser demo INSIDE Xcode. Just look at all those proprietary Apple classes:\
 ![](http://undefined.org/python/XPython_1.png "http://undefined.org/python/XPython_1.png")
 
 # Notes 

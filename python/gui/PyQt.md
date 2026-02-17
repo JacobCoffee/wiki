@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## About PyQt 
 
-PyQt is one of the most popular Python bindings for the Qt cross-platform C++ framework. PyQt was developed by [Riverbank Computing Limited](http://www.riverbankcomputing.com). Qt itself is developed as part of the [Qt Project](http://qt.io). PyQt provides bindings for Qt 4 and Qt 5. PyQt is distributed under a [choice of licences](./PyQt(2f)PyQtLicensing.html): GPL version 3 or a commercial license.
+PyQt is one of the most popular Python bindings for the Qt cross-platform C++ framework. PyQt was developed by [Riverbank Computing Limited](http://www.riverbankcomputing.com). Qt itself is developed as part of the [Qt Project](http://qt.io). PyQt provides bindings for Qt 4 and Qt 5. PyQt is distributed under a [choice of licences](PyQt/PyQtLicensing): GPL version 3 or a commercial license.
 
 PyQt is available in two editions: PyQt4 which will build against Qt 4.x and 5.x and PyQt5 which will only build against 5.x. Both editions can be built for Python 2 and 3. PyQt contains over 620 classes that cover graphical user interfaces, XML handling, network communication, SQL databases, Web browsing and other technologies available in Qt.
 
@@ -20,7 +20,7 @@ PyQt4 runs on Windows, Linux, Mac OS X and various UNIX platforms. PyQt5 also ru
 
 Current documentation is available for [PyQt4](http://pyqt.sourceforge.net/Docs/PyQt4/) and [PyQt5](http://pyqt.sourceforge.net/Docs/PyQt5/).
 
-A collection of links to books can be found on the [Books](./PyQt(2f)Books.html) page.
+A collection of links to books can be found on the [Books](PyQt/Books) page.
 
 - Michael Herrmann\'s **[PyQt5 book](https://build-system.fman.io/pyqt5-book)** quickly shows how to create desktop applications. It includes a foreword by Phil Thompson, the creator of PyQt.
 
@@ -30,7 +30,7 @@ A collection of links to books can be found on the [Books](./PyQt(2f)Books.html)
 
 ## Tutorials 
 
-A comprehensive list of tutorials can also be found on the [Tutorials](./PyQt(2f)Tutorials.html) page, which includes PyQt5 tutorials from the following sites:
+A comprehensive list of tutorials can also be found on the [Tutorials](PyQt/Tutorials) page, which includes PyQt5 tutorials from the following sites:
 
 - [fman build system](https://build-system.fman.io/pyqt5-tutorial)
 
@@ -46,33 +46,33 @@ On this Wiki, you can also find the following tutorials, now mostly of historica
 
 ## Developing with PyQt and PyKDE 
 
-- [Tutorials](./PyQt(2f)Tutorials.html) contains a list of tutorials and walkthroughs
+- [Tutorials](PyQt/Tutorials) contains a list of tutorials and walkthroughs
 
-- [Books](./PyQt(2f)Books.html) contains a list of books about Qt, PyQt, KDE and PyKDE
+- [Books](PyQt/Books) contains a list of books about Qt, PyQt, KDE and PyKDE
 
-- [Development With PyQt](./PyQt(2f)DevelopmentWithPyQt.html) can be made even easier with some extra tools and information
+- [Development With PyQt](PyQt/DevelopmentWithPyQt) can be made even easier with some extra tools and information
 
-- [Sample Code](./PyQt(2f)SampleCode.html) lists some pieces of code to solve some common programming problems
+- [Sample Code](PyQt/SampleCode) lists some pieces of code to solve some common programming problems
 
-- [Overviews and Guides](./PyQt(2f)Overviews_and_Guides.html) provides in-depth information and detailed examples
+- [Overviews and Guides](PyQt/Overviews_and_Guides) provides in-depth information and detailed examples
 
-- [Docs And Howtos](./PyQt(2f)DocsAndHowtos.html) contains links to API documentation and articles about developing with PyQt and PyKDE
+- [Docs And Howtos](PyQt/DocsAndHowtos) contains links to API documentation and articles about developing with PyQt and PyKDE
 
-- [Some Existing Applications](./PyQt(2f)SomeExistingApplications.html) written with PyQt and PyKDE
+- [Some Existing Applications](PyQt/SomeExistingApplications) written with PyQt and PyKDE
 
-- [Third Party Packages and Modules](./PyQt(2f)Third_Party_Packages_and_Modules.html) for use with PyQt and PyKDE
+- [Third Party Packages and Modules](PyQt/Third_Party_Packages_and_Modules) for use with PyQt and PyKDE
 
-- [GUI Testing](./PyQt(2f)GUI_Testing.html)
+- [GUI Testing](PyQt/GUI_Testing)
 
-- [Videos](./PyQt(2f)PyQtVideos.html) about PyQt on various video sites
+- [Videos](PyQt/PyQtVideos) about PyQt on various video sites
 
 ## PyQt Applications 
 
-A list of applications that use PyQt as their UI layer can be found on the [Some Existing Applications](./PyQt(2f)SomeExistingApplications.html) page. This replaces the list previously found here.
+A list of applications that use PyQt as their UI layer can be found on the [Some Existing Applications](PyQt/SomeExistingApplications) page. This replaces the list previously found here.
 
-Similarly, the [Third Party Packages and Modules](./PyQt(2f)Third_Party_Packages_and_Modules.html) page provides a list of resources that can be used to help build applications with certain features.
+Similarly, the [Third Party Packages and Modules](PyQt/Third_Party_Packages_and_Modules) page provides a list of resources that can be used to help build applications with certain features.
 
-A collection of [Sample Code](./PyQt(2f)SampleCode.html) is also available to help with specific problems and use cases.
+A collection of [Sample Code](PyQt/SampleCode) is also available to help with specific problems and use cases.
 
 ## Links to other resources 
 

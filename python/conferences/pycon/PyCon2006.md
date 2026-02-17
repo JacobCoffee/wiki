@@ -31,15 +31,15 @@ The conference schedule is:
 
 # Activities 
 
-- [/Talks](./PyCon2006(2f)Talks.html) \-- Scheduled formal presentations.
+- [/Talks](PyCon2006/Talks) \-- Scheduled formal presentations.
 
-- [/Keynotes](./PyCon2006(2f)Keynotes.html) \-- Keynote speakers
+- [/Keynotes](PyCon2006/Keynotes) \-- Keynote speakers
 
-- [/Tutorials](./PyCon2006(2f)Tutorials.html) \-- Half-day tutorials on various topics.
+- [/Tutorials](PyCon2006/Tutorials) \-- Half-day tutorials on various topics.
 
-- [/Sprints](./PyCon2006(2f)Sprints.html) \-- Focused development sessions after the conference.
+- [/Sprints](PyCon2006/Sprints) \-- Focused development sessions after the conference.
 
-- [/BoF](./PyCon2006(2f)BoF.html) \-- Birds-of-a-feather sessions
+- [/BoF](PyCon2006/BoF) \-- Birds-of-a-feather sessions
 
 - [Lightning talks](http://us.pycon.org/TX2006/LightningTalks)
 
@@ -47,7 +47,7 @@ The conference schedule is:
 
 # Local Information 
 
-- [/NearbyRestaurants](./PyCon2006(2f)NearbyRestaurants.html)
+- [/NearbyRestaurants](PyCon2006/NearbyRestaurants)
 
 - [PointsOfInterest2006](./PointsOfInterest2006.html)
 
@@ -59,45 +59,45 @@ The conference schedule is:
 
 What would you like to see at [PyCon](PyCon) 2006? Please edit these wiki pages, adding your suggestions and ideas.
 
-- [/Panels](./PyCon2006(2f)Panels.html)
+- [/Panels](PyCon2006/Panels)
 
-- [/Topics](./PyCon2006(2f)Topics.html)
+- [/Topics](PyCon2006/Topics)
 
-- [/Social](./PyCon2006(2f)Social.html)
+- [/Social](PyCon2006/Social)
 
-- [/Sprints](./PyCon2006(2f)Sprints.html)
+- [/Sprints](PyCon2006/Sprints)
 
-- [/FeedbackFormIdeas](./PyCon2006(2f)FeedbackFormIdeas.html)
+- [/FeedbackFormIdeas](PyCon2006/FeedbackFormIdeas)
 
-- [/Ideas](./PyCon2006(2f)Ideas.html)
+- [/Ideas](PyCon2006/Ideas)
 
-There is a page of suggestions for speakers at [PyCon2006/SpeakerNotes](./PyCon2006(2f)SpeakerNotes.html), with tips on writing your slides and presenting your talk.
+There is a page of suggestions for speakers at [PyCon2006/SpeakerNotes](PyCon2006/SpeakerNotes), with tips on writing your slides and presenting your talk.
 
-Want to help? Take a look at [PyCon2006/VolunteerTasks](./PyCon2006(2f)VolunteerTasks.html) for ways you can help.
+Want to help? Take a look at [PyCon2006/VolunteerTasks](PyCon2006/VolunteerTasks) for ways you can help.
 
 # For Organizers 
 
 Planning-related pages belong to the [CategoryPyConPlanning](CategoryPyConPlanning) category.
 
-- [/KeynoteIdeas](./PyCon2006(2f)KeynoteIdeas.html)
+- [/KeynoteIdeas](PyCon2006/KeynoteIdeas)
 
 - [/ScheduleDraft](./PyCon2006(2f)ScheduleDraft.html)
 
-- [/Staff](./PyCon2006(2f)Staff.html)
+- [/Staff](PyCon2006/Staff)
 
-- [/ForTutorialInstructors](./PyCon2006(2f)ForTutorialInstructors.html)
+- [/ForTutorialInstructors](PyCon2006/ForTutorialInstructors)
 
 - [PrintShopsNearby2006](./PrintShopsNearby2006.html)
 
-- [/Reviewing](./PyCon2006(2f)Reviewing.html)
+- [/Reviewing](PyCon2006/Reviewing)
 
-- [/Goals](./PyCon2006(2f)Goals.html)
+- [/Goals](PyCon2006/Goals)
 
-- [/IRC](./PyCon2006(2f)IRC.html)
+- [/IRC](PyCon2006/IRC)
 
-- [/Feedback](./PyCon2006(2f)Feedback.html)
+- [/Feedback](PyCon2006/Feedback)
 
-- [/CfpTargets](./PyCon2006(2f)CfpTargets.html)
+- [/CfpTargets](PyCon2006/CfpTargets)
 
 - [/Attendance](./PyCon2006(2f)Attendance.html)
 

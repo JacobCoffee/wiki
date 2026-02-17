@@ -77,4 +77,4 @@ in a file named **simple0.0.01.tar.gz,** which you can download, expand and use.
 
 Have I mentioned that all that I know about PyQt I have learned from an excellent text \"Rapid GUI Programming with Python and Qt\" by Mark Summerfield? Well, I mention it now - it is a great text book. This tutorial is meant to be a \"gentle\" introduction to the PyQt world and it would be a disservice to the reader not to point out the direction to a more thorough treatment of the subject.
 
-[Return Home](./PyQt(2f)simple.html)
+[Return Home](simple)

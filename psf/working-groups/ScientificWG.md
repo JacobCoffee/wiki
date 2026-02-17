@@ -20,7 +20,7 @@ This working group shall draw on the expertise of both the PSF and NumFOCUS, and
 
 - [Scientific Python Working Group google form](http://goo.gl/forms/j9nB4fc9Eo)
 
-- [Scientific Python WG Charter](./ScientificWG(2f)Charter_v3.html) (updated 24Sep19)
+- [Scientific Python WG Charter](ScientificWG/Charter_v3) (updated 24Sep19)
 
 ## Mailing List 
 

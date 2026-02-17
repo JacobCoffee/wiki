@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 This is a top level namespace for organizing [PyCon](PyCon) India 2011. Please link to all important pages here.
 
-- [Action Plan](./PyConIndia2011(2f)InitialActionPlan.html)
+- [Action Plan](PyConIndia2011/InitialActionPlan)
 
 - [Budget Estimates](./PyConIndia2011(2f)BudgetEstimates.html)
 
@@ -20,7 +20,7 @@ This is a top level namespace for organizing [PyCon](PyCon) India 2011. Please l
 
 - [Proposal letter for the college](./PyConIndia2011(2f)CollegeProposalLetter.html)
 
-- [CFP](./PyConIndia2011(2f)CFP.html)
+- [CFP](PyConIndia2011/CFP)
 
 - [Badges](./PyConIndia2011(2f)Badges.html)
 
@@ -30,7 +30,7 @@ This is a top level namespace for organizing [PyCon](PyCon) India 2011. Please l
 
 Pages which we will show to various people
 
-- [Sponsorship Tiers](./PyConIndia2011(2f)SponsorShipTiers.html)
+- [Sponsorship Tiers](PyConIndia2011/SponsorShipTiers)
 
 ## More Pages 
 

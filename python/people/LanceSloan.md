@@ -18,6 +18,6 @@ My Python interests include:
 
 - Zope\'s Document Template - I use this for a couple of production web applications. I\'ve thought about switching to XSLT, but as my Python skills improve, I\'m finding that DTML works pretty well.
 
-- [AppleScript](./MacPython(2f)AppleScript.html)
+- [AppleScript](../platforms/MacPython/AppleScript)
 
 [CategoryHomepage](CategoryHomepage)

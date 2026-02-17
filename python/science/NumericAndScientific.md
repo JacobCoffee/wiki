@@ -170,11 +170,11 @@ Grid is a type of parallel and distributed system that enables the sharing, sele
 
 # Links 
 
-- [NumericAndScientific/Plotting](./NumericAndScientific(2f)Plotting.html) \--
+- [NumericAndScientific/Plotting](NumericAndScientific/Plotting) \--
 
-- [NumericAndScientific/Libraries](./NumericAndScientific(2f)Libraries.html) \-- useful libraries
+- [NumericAndScientific/Libraries](NumericAndScientific/Libraries) \-- useful libraries
 
-- [NumericAndScientific/Formats](./NumericAndScientific(2f)Formats.html) \-- modules for reading and writing various file formats
+- [NumericAndScientific/Formats](NumericAndScientific/Formats) \-- modules for reading and writing various file formats
 
 - [NumericBooks](NumericBooks)
 

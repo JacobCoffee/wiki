@@ -14,7 +14,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 **This page is no longer active. Please use the Open Space bulletin board at PyCon.**
 
-A [full list of sessions](./PyCon2008(2f)OpenSpaceTalkTitles.html) held at PyCon 2008 is available.
+A [full list of sessions](OpenSpaceTalkTitles) held at PyCon 2008 is available.
 
 ::: 
 ### Previous Contents
@@ -23,7 +23,7 @@ Add your ideas here. Schedule \'em if you\'re sure, leave \'em unscheduled other
 
 See the [Open Space instructions page](http://us.pycon.org/2008/conference/openspace/).
 
-Also see: [Birds of a Feather](./Birds(20)of(20)a(20)Feather.html)
+Also see: [Birds of a Feather](../../../archive/Birds of a Feather)
 
 Questions or comments, send a message to the openSpace coordinator - [pkropf+pycon@gmail.com](mailto:pkropf+pycon@gmail.com).
 :::
@@ -88,7 +88,7 @@ Kitty Hawk is not available during the day. OK in the evening.
 - Zenoss (Love Int\'l A & B, 6pm - 11pm)
 - Python Lab (Kitty Hawk, 7:30pm - 9:30pm)
 - [Board Game Social](./PyCon2008(2f)OpenSpace(2f)PyCon2008(2f)BoardGameEvent.html) (Kennedy, 7:00pm(TDB) - 11:00pm)
-- [Secrets of the Framework Creators Lab](./PyCon2008(2f)SecretsFrameworkLab.html) (La Guardia Int\'l, 7:00pm - 9:00pm)
+- [Secrets of the Framework Creators Lab](SecretsFrameworkLab) (La Guardia Int\'l, 7:00pm - 9:00pm)
 - [Texas Pythoneers](TexasPythoneers) (Kennedy Int\'l, 5:45pm - 6:30pm)
 - PyCon Unwind (Templehof Int\'l, 7:00pm - 8:30pm)
 - EduPython BoF (Kai Tak Int\'l 8-11PM)
@@ -101,11 +101,11 @@ Kitty Hawk is not available during the day. OK in the evening.
 
 - PyCon 2010 planning kick-off meeting (Midway, \~12:45pm-2:00pm \[bring your lunch\])
 - [web2py tutorial](http://mdp.cti.depaul.edu/examples/static/web2py_comics.pdf) (Love Int\'l A, 2:10pm to 3:30pm)
-- [Sponsor Thank-you Reception](./PyCon2008(2f)SponsorReception.html) (Kitty Hawk, 6pm to 8pm)
+- [Sponsor Thank-you Reception](SponsorReception) (Kitty Hawk, 6pm to 8pm)
 - Gentoo Foundation (Love Int\'l A, 6pm to 9pm)
 - [Board Game Social](./PyCon2008(2f)OpenSpace(2f)PyCon2008(2f)BoardGameEvent.html) (Kennedy, 7:00pm(TDB) - 11:00pm)
-- [Python + .NET Info Session](./PyCon2008(2f)PythonDotNet.html) (Love Int\'l B, 7:00pm - 8:30 pm)
-- [Teach Me Twisted](./PyCon2008(2f)TeachMeTwisted.html) : (Kai Tak Int\'l, projector desirable, audio recording desirable, 8pm to 10pm)
+- [Python + .NET Info Session](PythonDotNet) (Love Int\'l B, 7:00pm - 8:30 pm)
+- [Teach Me Twisted](TeachMeTwisted) : (Kai Tak Int\'l, projector desirable, audio recording desirable, 8pm to 10pm)
 - [Galcon Tournament](http://www.imitationpickles.org/galcon/forum/7/745/): (Ballroom II, 8pm - 11pm)
 - Help us all: Integrate [bug.gd error network](http://bug.gd) into Python (Sydney Int\'l, projector desirable, 7:00pm - 7:30pm)
 - Writing your first [scripts for Counter-Strike: Source](http://python.eventscripts.com) (Sydney Int\'l, projector desirable, 7:30pm - 9:00pm)

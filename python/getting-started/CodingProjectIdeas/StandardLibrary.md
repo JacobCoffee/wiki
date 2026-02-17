@@ -12,13 +12,13 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 - Implement the [SCSU](http://www.unicode.org/reports/tr6/) codec.
 
-- [../FileSystemVirtualization](./CodingProjectIdeas(2f)FileSystemVirtualization.html)
+- [../FileSystemVirtualization](FileSystemVirtualization)
 
-- [../EnhancedIterTools](./CodingProjectIdeas(2f)EnhancedIterTools.html)
+- [../EnhancedIterTools](EnhancedIterTools)
 
-- [../ExploreFunctionalProgramming](./CodingProjectIdeas(2f)ExploreFunctionalProgramming.html)
+- [../ExploreFunctionalProgramming](ExploreFunctionalProgramming)
 
-- [../TestingImprovements](./CodingProjectIdeas(2f)TestingImprovements.html)
+- [../TestingImprovements](TestingImprovements)
 
 - The modules which deal with both str and unicode sometimes treat them differently \-- which is usually a bug.
 

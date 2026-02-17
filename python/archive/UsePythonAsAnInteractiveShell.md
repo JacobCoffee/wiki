@@ -59,7 +59,7 @@ Some ways to execute the bash-style command:
 
 There is a project that attempts to acheive this. Quasi ([http://quasi-shell.sourceforge.net/](http://quasi-shell.sourceforge.net/)) provides a shell within which Python can be freely mixed with OS (and certain database) commands. \-- [BenLast](./BenLast.html)
 
-- This sounds a lot like [lwickjr/Modules](./lwickjr(2f)Modules.html)/Alias.py when coupled with a module of shell-command functions. See [lwickjr/Modules](./lwickjr(2f)Modules.html) for further information.
+- This sounds a lot like [lwickjr/Modules](lwickjr/Modules)/Alias.py when coupled with a module of shell-command functions. See [lwickjr/Modules](lwickjr/Modules) for further information.
 
   - \--[lwickjr](lwickjr)
 

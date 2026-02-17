@@ -103,4 +103,4 @@ Yes, **ui_simple.py** is full of useful information, but the code should not be 
 
 A plea to you all - if you visit this tutorial, please drop a line to me at the following address: **akabaila\[at\]pcug\[dot\]org\[dot\]au.** It would be great if you would kindly report any glitches that you encounter - that\'s what open source software is all about! Thank you.
 
-[Return Home](./PyQt(2f)simple.html)
+[Return Home](simple)

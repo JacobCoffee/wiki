@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-[/ScrapBook](./ClarkUpdike(2f)ScrapBook.html) My page for temporary content
+[/ScrapBook](ClarkUpdike/ScrapBook) My page for temporary content
 
 # Wiki Tidbits 
 
@@ -66,8 +66,8 @@ Note: moin_config.py is probably here, `<wiki home>/moin/<wiki name>`{.backtic
 
 - Link to a subpage (there several ways to do [this](./HelpOnEditing(2f)SubPages.html))\
 
-[Eclipse notes](./JythonDeveloperGuide(2f)EclipseNotes.html)\
-[JythonDeveloperGuide/EclipseNotes](./JythonDeveloperGuide(2f)EclipseNotes.html)
+[Eclipse notes](../developer-guide/JythonDeveloperGuide/EclipseNotes)\
+[JythonDeveloperGuide/EclipseNotes](../developer-guide/JythonDeveloperGuide/EclipseNotes)
 
     [wiki:Self:JythonDeveloperGuide/EclipseNotes Eclipse notes] <- link on arbitrary text
     JythonDeveloperGuide/EclipseNotes                           <- wiki style link

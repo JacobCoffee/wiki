@@ -18,15 +18,15 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 **Appscripting Overview:**
 
-- [/AppleScriptSupport](./MacPython(2f)Growl(2f)AppleScriptSupport.html)
+- [/AppleScriptSupport](Growl/AppleScriptSupport)
 
-- [/Terminology](./MacPython(2f)Growl(2f)Terminology.html)
+- [/Terminology](Growl/Terminology)
 
 **Appscripting in Depth:**
 
 - [/FrequentlyAskedQuestions](./MacPython(2f)Growl(2f)FrequentlyAskedQuestions.html)
 
-- [/Examples](./MacPython(2f)Growl(2f)Examples.html)
+- [/Examples](Growl/Examples)
 
 - [/Annoyances](./MacPython(2f)Growl(2f)Annoyances.html)
 

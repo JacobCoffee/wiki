@@ -40,7 +40,7 @@ Suggested Agenda (please change ahead of the meeting if you like): (taken from 2
 
 - PR-considerations, mostly thinking about keynote-givers
 
-- [EuroPython2007/ProposedTimeline](./EuroPython2007(2f)ProposedTimeline.html) (can someone prepare a proposal from past experiences?)
+- [EuroPython2007/ProposedTimeline](../../../EuroPython2007/ProposedTimeline) (can someone prepare a proposal from past experiences?)
 
 - schedule next Meeting (mid March ?)
 

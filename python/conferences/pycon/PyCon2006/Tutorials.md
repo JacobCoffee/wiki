@@ -12,27 +12,27 @@ The following tutorials were offered at [PyCon](PyCon) 2006, on Thursday Februar
 
 ## Morning session (9:00-12:20) 
 
-- [Python 102](./PyCon2006(2f)Tutorials(2f)Python102.html), Ken Whitesell
+- [Python 102](Tutorials/Python102), Ken Whitesell
 
-- [Internet Programming with Python](./PyCon2006(2f)Tutorials(2f)InternetProgrammingWithPython.html), [Wesley Chun](http://cyberwebconsulting.com)
+- [Internet Programming with Python](Tutorials/InternetProgrammingWithPython), [Wesley Chun](http://cyberwebconsulting.com)
 
-- [Getting Started with wxPython](./PyCon2006(2f)Tutorials(2f)GettingStartedWithWxPython.html), Steve Holden
+- [Getting Started with wxPython](Tutorials/GettingStartedWithWxPython), Steve Holden
 
-- [Text & Data Processing](./PyCon2006(2f)Tutorials(2f)TextProcessing.html), [David Goodger](http://python.net/~goodger)
+- [Text & Data Processing](Tutorials/TextProcessing), [David Goodger](http://python.net/~goodger)
 
-- Cancelled: [Python without a BusyBox](./PyCon2006(2f)Tutorials(2f)PythonWithoutBusyBox.html), Building small embedded devices quickly, [Alexander Perry](http://www.pamurray.com/)
+- Cancelled: [Python without a BusyBox](Tutorials/PythonWithoutBusyBox), Building small embedded devices quickly, [Alexander Perry](http://www.pamurray.com/)
 
 ## Afternoon session (13:20-16:40) 
 
-- [Plone Rapid Bootcamp](./PyCon2006(2f)Tutorials(2f)PloneRapidBootcamp.html), Joel Burton
+- [Plone Rapid Bootcamp](Tutorials/PloneRapidBootcamp), Joel Burton
 
-- [Using Databases with Python](./PyCon2006(2f)Tutorials(2f)UsingDatabaseWithPython.html), Steve Holden
+- [Using Databases with Python](Tutorials/UsingDatabaseWithPython), Steve Holden
 
-- [A Game-Free Introduction to PyGame](./PyCon2006(2f)Tutorials(2f)GameFreeIntroductionToPyGame.html), [George Paci](http://gpaci.home.tiac.net/blog/)
+- [A Game-Free Introduction to PyGame](Tutorials/GameFreeIntroductionToPyGame), [George Paci](http://gpaci.home.tiac.net/blog/)
 
-- [Getting Started with the Twisted Framework](./PyCon2006(2f)Tutorials(2f)GettingStartedWithTwisted.html), Ken Whitesell
+- [Getting Started with the Twisted Framework](Tutorials/GettingStartedWithTwisted), Ken Whitesell
 
-- Full: [Agile Development and Testing In Python](./PyCon2006(2f)Tutorials(2f)AgileDevelopmentAndTestingInPython.html), [Grig Gheorghiu](http://agiletesting.blogspot.com/) and [Titus Brown](http://www.advogato.org/person/titus)
+- Full: [Agile Development and Testing In Python](Tutorials/AgileDevelopmentAndTestingInPython), [Grig Gheorghiu](http://agiletesting.blogspot.com/) and [Titus Brown](http://www.advogato.org/person/titus)
 
 ------------------------------------------------------------------------
 

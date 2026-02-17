@@ -6,33 +6,33 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-[MacPython](MacPython) can drive many Mac apps (mostly with the [../AppscriptModule](./MacPython(2f)AppscriptModule.html)). Here are links to the collected (but sometimes incomplete) wisdom contained in the wiki about such stuff:
+[MacPython](MacPython) can drive many Mac apps (mostly with the [../AppscriptModule](AppscriptModule)). Here are links to the collected (but sometimes incomplete) wisdom contained in the wiki about such stuff:
 
 - Apple
-  - [../iCal](./MacPython(2f)iCal.html)
+  - [../iCal](iCal)
 
-  - [../iPhoto](./MacPython(2f)iPhoto.html)
+  - [../iPhoto](iPhoto)
 
-  - [../iTunes](./MacPython(2f)iTunes.html)
+  - [../iTunes](iTunes)
 
-  - [../FileMakerPro](./MacPython(2f)FileMakerPro.html)
+  - [../FileMakerPro](FileMakerPro)
 
-  - [../TextEdit](./MacPython(2f)TextEdit.html)
+  - [../TextEdit](TextEdit)
 - Adobe
-  - [../InDesign](./MacPython(2f)InDesign.html)
+  - [../InDesign](InDesign)
 
-  - [../PhotoShop](./MacPython(2f)PhotoShop.html)
+  - [../PhotoShop](PhotoShop)
 - Other
-  - [../iTerm](./MacPython(2f)iTerm.html)
+  - [../iTerm](iTerm)
 
-  - [../VoodooPad](./MacPython(2f)VoodooPad.html)
+  - [../VoodooPad](VoodooPad)
 
-  - [../Growl](./MacPython(2f)Growl.html)
+  - [../Growl](Growl)
 
-  - [../QuarkXPress](./MacPython(2f)QuarkXPress.html)
+  - [../QuarkXPress](QuarkXPress)
 
-  - [../MediaPro](./MacPython(2f)MediaPro.html)
+  - [../MediaPro](MediaPro)
 
-  - [../OmniGraffle](./MacPython(2f)OmniGraffle.html)
+  - [../OmniGraffle](OmniGraffle)
 
-  - [../SoundtrackPro](./MacPython(2f)SoundtrackPro.html)
+  - [../SoundtrackPro](SoundtrackPro)

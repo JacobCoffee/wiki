@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## Using bjam 
 
-bjam is a standard tool for building boost library itself. Thus it is preferable way to build Python extensions based on [boost.python](./boost(2e)python.html) with bjam. Basic example listed in [tutorial](http://www.boost.org/libs/python/doc/tutorial/doc/html/python/hello.html).
+bjam is a standard tool for building boost library itself. Thus it is preferable way to build Python extensions based on [boost.python]() with bjam. Basic example listed in [tutorial](http://www.boost.org/libs/python/doc/tutorial/doc/html/python/hello.html).
 
 However if you want to add external libraries in your extension (that is why you use boost.python, isn\'t it?), you must add them to the **Jamfile**:
 

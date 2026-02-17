@@ -24,7 +24,7 @@ The [PSF Voting Members\' Wiki](http://wiki.python.org/psf/) is provided for col
 
 - [PSF Members](http://www.python.org/psf/members/#members) \-- Our ever-growing base of people who have a strong interest in Python.
 
-- [PythonSoftwareFoundation/FellowNominations](./PythonSoftwareFoundation(2f)FellowNominations.html) \-- Nominations for PSF Fellowship are listed on this page.
+- [PythonSoftwareFoundation/FellowNominations](PythonSoftwareFoundation/FellowNominations) \-- Nominations for PSF Fellowship are listed on this page.
 
 ## PSF Projects 
 
@@ -54,7 +54,7 @@ The Python job board was run by single volunteers for many years. Since the job 
 
 Project Leaders: [MarcAndreLemburg](MarcAndreLemburg) for the time being
 
-Wiki page: [PSF Python Job Board](./PSF(20)Python(20)Job(20)Board.html)
+Wiki page: [PSF Python Job Board](PSF Python Job Board)
 
 ### 2011: PyPI Cloud Mirroring Project 
 

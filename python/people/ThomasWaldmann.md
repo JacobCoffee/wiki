@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 I am one of the core developers of the [MoinMoin](MoinMoin) Python Wiki Engine (also used here).
 
-I fell in love with wikis some years ago (and decided for [MoinMoin](MoinMoin), written by [JürgenHermann](./J(c3bc)rgenHermann.html), as it looked like the best engine at that time).
+I fell in love with wikis some years ago (and decided for [MoinMoin](MoinMoin), written by [JürgenHermann](../archive/JürgenHermann), as it looked like the best engine at that time).
 
 Soon I began hacking the [MoinMoin](MoinMoin) code and thus fell in love with Python, too. I heard of Python before, but never had a deeper look as I didn\'t feel like learning \"just another script language\". Felt a bit dumb, though, after discovering what a clean, powerful and *productive* language it is and asked myself why I didn\'t discover that great language earlier. I coded in quite some different languages, but Python beats them all.
 

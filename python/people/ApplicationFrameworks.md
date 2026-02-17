@@ -18,7 +18,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 - [PEAK](http://peak.telecommunity.com/) - another enterprise application framework
 
-- [txObject ATK](./txObject(20)ATK.html)- Tom\'s Cross-Platform Object Application Tool Kit features I/O & Timers, Native/Home Grown Threads, and IPC
+- [txObject ATK](../archive/txObject ATK)- Tom\'s Cross-Platform Object Application Tool Kit features I/O & Timers, Native/Home Grown Threads, and IPC
 
 - [Win32All](Win32All) - COM and MFC on Microsoft Windows.
 

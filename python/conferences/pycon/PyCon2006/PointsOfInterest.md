@@ -10,7 +10,7 @@ The idea here is to find out what kind of points of local interest people want t
 
 # Restaurants 
 
-See the [PyCon2006/NearbyRestaurants](./PyCon2006(2f)NearbyRestaurants.html) for more restaurant-finding resources.
+See the [PyCon2006/NearbyRestaurants](NearbyRestaurants) for more restaurant-finding resources.
 
 - Buffalo Wild Wings
 - Denny\'s

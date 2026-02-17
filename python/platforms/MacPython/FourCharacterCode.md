@@ -10,11 +10,11 @@ By convention, Apple uses four character codes in place of integer enumerations 
 
 Notes:
 
-- Four character codes are literally four [../MacRoman](./MacPython(2f)MacRoman.html) characters (including `\x00`, but usually four 7-bit ASCII safe characters).
+- Four character codes are literally four [../MacRoman](MacRoman) characters (including `\x00`, but usually four 7-bit ASCII safe characters).
 
 - When \"packed\" as an integer, they are almost always stored in big endian format as a 32bit signed integer (e.g. `strnAsInteger = struct.unpack(">i", 'strn')`).
 
-- You may see crazy stuff like © or ™ in four character codes (or maybe just garbage, depending on the text editor). The text encoding used is always [MacRoman](./MacRoman.html). Fortunately, the general case is the 7-bit subset of [../MacRoman](./MacPython(2f)MacRoman.html) that overlaps with ASCII.
+- You may see crazy stuff like © or ™ in four character codes (or maybe just garbage, depending on the text editor). The text encoding used is always [MacRoman](./MacRoman.html). Fortunately, the general case is the 7-bit subset of [../MacRoman](MacRoman) that overlaps with ASCII.
 
 - Four character codes are supposed to be globally unique in context, but not in general.
 
@@ -28,7 +28,7 @@ Examples:
 
 - `'8BIM'` - the application signature for Adobe Photoshop.
 
-- `'shor'` - the [../AEDesc](./MacPython(2f)AEDesc.html) type code for a 16bit signed integer, also known as `typeSInt16`, `typeSMInt`, or `typeShortInteger`
+- `'shor'` - the [../AEDesc](AEDesc) type code for a 16bit signed integer, also known as `typeSInt16`, `typeSMInt`, or `typeShortInteger`
 
 In Python, four character codes are passed around as four character `str` (primarily for introspection purposes). Some Python code will automatically interchange four character codes with `str`, `unicode`, `int`, or `long` but that will not be the general case until Python 2.4 at the earliest. [../bgen](./MacPython(2f)bgen.html) may output constants that look like `FOUR_CHAR_CODE('shor')`, however `FOUR_CHAR_CODE` is (currently) a no-op and just returns the input string unchanged.
 
@@ -52,6 +52,6 @@ In C, four character codes are interchangable with 32 bit integer types and will
 
 See also:
 
-- [../AppleEvents](./MacPython(2f)AppleEvents.html)
+- [../AppleEvents](AppleEvents)
 
-- [../AppleScript](./MacPython(2f)AppleScript.html)
+- [../AppleScript](AppleScript)

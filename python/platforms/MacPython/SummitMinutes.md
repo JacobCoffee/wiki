@@ -14,17 +14,17 @@ These are the minutes of a meeting of some of the [MacPython](MacPython) develop
 - If yes: how are we going to organise this?
   - Split [MacPython](MacPython) out from Python?
 
-  - Merge [../PyObjC](./MacPython(2f)PyObjC.html) into Python?
+  - Merge [../PyObjC](PyObjC) into Python?
 
-We decided to keep the [../PyObjC](./MacPython(2f)PyObjC.html) and Python CVS repositories separate. Some things will move from the Python repository to the [../PyObjC](./MacPython(2f)PyObjC.html) repository, or, actually, their replacements will: the next version of the IDE, [../PackMan](./MacPython(2f)PackMan.html) and [../BuildApplet](./MacPython(2f)BuildApplet.html) will live in the PyObjC repository.
+We decided to keep the [../PyObjC](PyObjC) and Python CVS repositories separate. Some things will move from the Python repository to the [../PyObjC](PyObjC) repository, or, actually, their replacements will: the next version of the IDE, [../PackMan](./MacPython(2f)PackMan.html) and [../BuildApplet](./MacPython(2f)BuildApplet.html) will live in the PyObjC repository.
 
-- [../PyObjC](./MacPython(2f)PyObjC.html) will move the the Python license, we have a message from the main
+- [../PyObjC](PyObjC) will move the the Python license, we have a message from the main
 
 old contributors that they are okay with this.
 
 #### What is our timeline? 
 
-We would like to have a [MacPython](MacPython) distribution in summer. This distribution will consist of the new IDE, [PackMan](./PackMan.html), [BuildApplet](./BuildApplet.html), [../PyObjC](./MacPython(2f)PyObjC.html) and bug fixes for the Panther Addon distribution. For the Jaguar distribution it will also contain Python 2.3.X for whatever X is current then, for the Panther Addon distribution it will rely on Apple-installed [MacPython](MacPython).
+We would like to have a [MacPython](MacPython) distribution in summer. This distribution will consist of the new IDE, [PackMan](./PackMan.html), [BuildApplet](./BuildApplet.html), [../PyObjC](PyObjC) and bug fixes for the Panther Addon distribution. For the Jaguar distribution it will also contain Python 2.3.X for whatever X is current then, for the Panther Addon distribution it will rely on Apple-installed [MacPython](MacPython).
 
 #### Who is our audience? 
 
@@ -75,7 +75,7 @@ Because our first aim is the summer [MacPython](MacPython) distribution for 2.3.
 
 Bob is going to go after the icon artist again to try and get glasses on the snake, which will hopefully make it acceptable to people with snake-fobia.
 
-Ronald has a [../PackMan](./MacPython(2f)PackMan.html) in [../PyObjC](./MacPython(2f)PyObjC.html). Jack is going to look at it. The old [../PackMan](./MacPython(2f)PackMan.html) will be dropped as soon as possible.
+Ronald has a [../PackMan](./MacPython(2f)PackMan.html) in [../PyObjC](PyObjC). Jack is going to look at it. The old [../PackMan](./MacPython(2f)PackMan.html) will be dropped as soon as possible.
 
 [BuildApplet](./BuildApplet.html) will be rewritten to be a front-end to bundlebuilder. Usability to the (relative) novice is going to be important. We envision that you drop a script on it, and then get a dialog with options (build standalone, use stdio console, include icns file, include plist file, include nib, etc). Defaults for these will be picked up similar to what old [../BuildApplet](./MacPython(2f)BuildApplet.html) did, i.e. if you drop `foo.py` on [../BuildApplet](./MacPython(2f)BuildApplet.html) it will look for `foo.icns` and if it is found fill it in, etc.
 
@@ -122,9 +122,9 @@ The long term view is to create an IDE that can do everything, but for the summe
 - Integrating external editors would be nice (added when both Bob and Ronald noted that \'vi\' keybindings would be nice to have)
 - It should be possible to work with projects, but standalone python files should also work.
 
-There are various components that could be reused: [../PyObjC](./MacPython(2f)PyObjC.html) has examples containing a classbrowser and python interpreter widget. Drawbot has a python editor widget that includes syntax coloring.
+There are various components that could be reused: [../PyObjC](PyObjC) has examples containing a classbrowser and python interpreter widget. Drawbot has a python editor widget that includes syntax coloring.
 
-The working name for the new IDE is PyDE, the code will be located in the PyDE module of the [../PyObjC](./MacPython(2f)PyObjC.html) repository. The module has been created, but is mostly empty.
+The working name for the new IDE is PyDE, the code will be located in the PyDE module of the [../PyObjC](PyObjC) repository. The module has been created, but is mostly empty.
 
 In the \*very\* long run Jack would like to see a VB/hypercard tool that would allow you to paint a GUI, attach code to interface elements and would then create a normal Cocoa application (a NIB file and a \"normal\" MVC application). The application would be able to read back the generated code to allow modification. This requires a significant amount of work.
 
@@ -137,7 +137,7 @@ In the \*very\* long run Jack would like to see a VB/hypercard tool that would a
 - where to put scripts, includes, etc (i.e. layout for
   - /Library/Python and \~/Library/Python)
 
-We\'re going to investigate the installer problem, it could be that it is 10.2 only. Besides the referenced problem there is also the (null) problem if you build a [../RootDiskOnly](./MacPython(2f)RootDiskOnly.html) installer. The [../PyObjC](./MacPython(2f)PyObjC.html) and Python installer builder modules are going to be merged.
+We\'re going to investigate the installer problem, it could be that it is 10.2 only. Besides the referenced problem there is also the (null) problem if you build a [../RootDiskOnly](./MacPython(2f)RootDiskOnly.html) installer. The [../PyObjC](PyObjC) and Python installer builder modules are going to be merged.
 
 bundlebuilder2 is going to be a package, so it can include [PyMacApp](./PyMacApp.html). It\'s going to have a different name (appbundle and various others flew around, Bob will pick something). It\'s also going to have other new nifty things.
 

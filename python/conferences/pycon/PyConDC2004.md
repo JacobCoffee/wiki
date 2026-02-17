@@ -10,17 +10,17 @@ Your chance to become a Python star.
 
 ### Activities 
 
-- [/TalksByCategory](./PyConDC2004(2f)TalksByCategory.html)
+- [/TalksByCategory](PyConDC2004/TalksByCategory)
 
-- [/SessionChairs](./PyConDC2004(2f)SessionChairs.html)
+- [/SessionChairs](PyConDC2004/SessionChairs)
 
 - [CreatingBuzz](CreatingBuzz)
 
-- [/Sponsors](./PyConDC2004(2f)Sponsors.html)
+- [/Sponsors](PyConDC2004/Sponsors)
 
-- [/SprintPlan](./PyConDC2004(2f)SprintPlan.html)
+- [/SprintPlan](PyConDC2004/SprintPlan)
 
-- [/Bofs](./PyConDC2004(2f)Bofs.html)
+- [/Bofs](PyConDC2004/Bofs)
 
 - [PyCon weblogs](http://now.feedster.com/pycon)
 
@@ -28,19 +28,19 @@ Your chance to become a Python star.
 
 PyConDC2004 Sessions (talks): March 24, 25, 26
 
-PyConDC2004 Sprints scheduled for March 20-23 For details, see [/SprintPlan](./PyConDC2004(2f)SprintPlan.html)
+PyConDC2004 Sprints scheduled for March 20-23 For details, see [/SprintPlan](PyConDC2004/SprintPlan)
 
-[/PsfMemberEvents](./PyConDC2004(2f)PsfMemberEvents.html) for PSF Members: PSF member meeting and key signing party
+[/PsfMemberEvents](PyConDC2004/PsfMemberEvents) for PSF Members: PSF member meeting and key signing party
 
 ### Networking (for Computers) 
 
-- [/Network](./PyConDC2004(2f)Network.html)
+- [/Network](PyConDC2004/Network)
 
 ### Aftermath 
 
-PyConDC2004 is over! Check out the [/Aftermath](./PyConDC2004(2f)Aftermath.html).
+PyConDC2004 is over! Check out the [/Aftermath](PyConDC2004/Aftermath).
 
-A summary of the feedback from attendees is at [PyConDC2004/Feedback](./PyConDC2004(2f)Feedback.html).
+A summary of the feedback from attendees is at [PyConDC2004/Feedback](PyConDC2004/Feedback).
 
 ### Background 
 

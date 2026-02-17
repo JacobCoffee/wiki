@@ -22,7 +22,7 @@ Porting an existing Python module written in C into Java that Jython understands
 
 7.  Revel in the glory of another implemented module
 
-The table below contains modules implemented in C in Python that are missing in Jython. Feel free to grab one of them and get started. If none of them catch your fancy, run dist/Lib/test/regrtest.py. All of the skipped tests are for modules that are present in CPython but not in Jython, so they\'re fair game too. See the \"Missing Modules\" section of [../RegressionTestNotes](./JythonDeveloperGuide(2f)RegressionTestNotes.html) for a list as of 20061123.
+The table below contains modules implemented in C in Python that are missing in Jython. Feel free to grab one of them and get started. If none of them catch your fancy, run dist/Lib/test/regrtest.py. All of the skipped tests are for modules that are present in CPython but not in Jython, so they\'re fair game too. See the \"Missing Modules\" section of [../RegressionTestNotes](RegressionTestNotes) for a list as of 20061123.
 
 ::: {}
   ------------- ------- -------------------------------------

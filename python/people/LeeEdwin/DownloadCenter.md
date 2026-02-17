@@ -12,7 +12,7 @@ Here you can find some downloads of different programs that I have written. I wi
 
 ## Math Tools Series 
 
-The math tools series is a set of programs that I have written that create an I/O interface for the math modules many different functions. I am just now putting in on the Wiki and it is not very advanced yet. I hope to make it a lot more advanced. You can download it at the [LeeEdwin/MathTools](./LeeEdwin(2f)MathTools.html) page.
+The math tools series is a set of programs that I have written that create an I/O interface for the math modules many different functions. I am just now putting in on the Wiki and it is not very advanced yet. I hope to make it a lot more advanced. You can download it at the [LeeEdwin/MathTools](MathTools) page.
 
 ------------------------------------------------------------------------
 

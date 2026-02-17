@@ -61,7 +61,7 @@ In my console, doing `'Olá Mundo'.decode('latin-1')`{.backtick} gives `u'Ol\xe
 The `latin-1`{.backtick} encoding is virtually the same as this one. Maybe you should see which locale you\'re using. \-- [PaulBoddie](PaulBoddie) 2011-11-13 17:16:11
 
 ::: note
-When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](./Asking(20)for(20)Help.html) page.
+When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help]() page.
 :::
 
 ------------------------------------------------------------------------

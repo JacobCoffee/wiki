@@ -98,7 +98,7 @@ Pretty cool! You can\'t do that with an ordinary Python extension type! Of cours
 
     'Hello from Florida, where the weather is fine! Please come soon!'
 
-After all, *invite* calls *hello::greet()*, and you reimplemented that in your Python subclass, *wordy*. In [the next section](./boost(2e)python(2f)OverridableVirtualFunctions.html) we\'ll make *greet* virtual, and we\'ll see how to make C++ code see our overrides from Python.
+After all, *invite* calls *hello::greet()*, and you reimplemented that in your Python subclass, *wordy*. In [the next section](OverridableVirtualFunctions) we\'ll make *greet* virtual, and we\'ll see how to make C++ code see our overrides from Python.
 
 It is important to note that boost::python will not allow you to make dynamic type casts (through polymorphism) if the function/method is considered \"unsafe\". That means that an appropriate method-wrapper will not be created for functions that execute potentially exception-generating code where exceptions do not have python mappings. Let\'s have a look at an example:
 

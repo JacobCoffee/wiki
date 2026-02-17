@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 There\'s a lot to tell about Plone.
 
-\"Plone is a ready-to-run [content management system](./content(20)management(20)system.html) that is built on the powerful and free [Zope](Zope) [application server](./application(20)server.html).\" So says the \"[What is Plone?](http://plone.org/about/plone/)\" page of the [Plone Web site](http://plone.org). Wikipedia also [has plenty to say](http://en.wikipedia.org/wiki/Plone_(content_management_system)).
+\"Plone is a ready-to-run [content management system](../archive/content management system) that is built on the powerful and free [Zope](Zope) [application server](./application(20)server.html).\" So says the \"[What is Plone?](http://plone.org/about/plone/)\" page of the [Plone Web site](http://plone.org). Wikipedia also [has plenty to say](http://en.wikipedia.org/wiki/Plone_(content_management_system)).
 
 \[Explain what this means.\]
 

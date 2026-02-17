@@ -27,11 +27,11 @@ The marketing workgroup will strive to:
 
 - [https://docs.google.com/document/d/1xuoF1o-JKbG8Gj81dcv9wiIfvczXqApm10JDdDvdTxw/edit](https://docs.google.com/document/d/1xuoF1o-JKbG8Gj81dcv9wiIfvczXqApm10JDdDvdTxw/edit)
 
-- [PSF Marketing WG Charter](./MarketingWG(2f)Charter.html)
+- [PSF Marketing WG Charter](MarketingWG/Charter)
 
 ### Logos and images 
 
-- [PSF Logos](./PSF(20)Logos.html) (official versions of the PSF logos; viewable without login)
+- [PSF Logos](../marketing/PSF Logos) (official versions of the PSF logos; viewable without login)
 
 ### PSF Sponsor Badges 
 
@@ -39,13 +39,13 @@ The marketing workgroup will strive to:
 
 ### Marketing Material 
 
-- [PSF Python Brochure](./PSF(20)Python(20)Brochure.html)
+- [PSF Python Brochure](../marketing/PSF Python Brochure)
 
 - [Ideas for creating Marketing Material](./Board(2f)marketing(2d)material.html)
 
 ### Marketing Support Material 
 
-- [PSF Conference Kit](./PSF(20)Conference(20)Kit.html)
+- [PSF Conference Kit](../marketing/PSF Conference Kit)
 
 ### Merchandise 
 
@@ -57,7 +57,7 @@ The marketing workgroup will strive to:
 
 ### Projects 
 
-- [Changes to sponsorship levels - 2016](./MarketingWG(2f)SponsorshipLevels2016.html)
+- [Changes to sponsorship levels - 2016](MarketingWG/SponsorshipLevels2016)
 
 ## Mailing List 
 

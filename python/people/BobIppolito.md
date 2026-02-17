@@ -8,17 +8,17 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Bob Ippolito is a software developer that spends far too much of his spare time developing software for and porting software to OS X. He is the maintainer of this site, the unofficial [PackageManagerRepository](./PackageManagerRepository.html), and has contributed several extensions to the [MacPython](MacPython) community including (but not limited to)
 
-- [py2app](./MacPython(2f)py2app.html)
+- [py2app](../platforms/MacPython/py2app)
 
-- [Authorization](./MacPython(2f)Authorization.html)
+- [Authorization](../platforms/MacPython/Authorization)
 
-- [aeve](./MacPython(2f)aeve.html)
+- [aeve](../platforms/MacPython/aeve)
 
-- [TECManager](./MacPython(2f)TECManager.html)
+- [TECManager](../platforms/MacPython/TECManager)
 
-- [LaunchServices](./MacPython(2f)LaunchServices.html)
+- [LaunchServices](../platforms/MacPython/LaunchServices)
 
-- [potool](./MacPython(2f)potool.html)
+- [potool](../platforms/MacPython/potool)
 
 ::: {}
   ---------- -------------------------------------------------------
@@ -35,19 +35,19 @@ Bob Ippolito is a software developer that spends far too much of his spare time 
 
 - Add [/SysFont](./BobIppolito(2f)SysFont.html) support for OS X to [MacPython/pygame](./MacPython(2f)pygame.html)
 
-- [MacPython/PackageWishList](./MacPython(2f)PackageWishList.html)
+- [MacPython/PackageWishList](../platforms/MacPython/PackageWishList)
 
 - Figure out how to get bit reading/writing better integrated with [MacPython/ptypes](./MacPython(2f)ptypes.html)
 
-- Finish the rewrite of [MacPython/aeve](./MacPython(2f)aeve.html)
+- Finish the rewrite of [MacPython/aeve](../platforms/MacPython/aeve)
 
 - Work on [MacPython/daaptastic](./MacPython(2f)daaptastic.html)
 
-- Work on [MacPython/PySWF](./MacPython(2f)PySWF.html)
+- Work on [MacPython/PySWF](../platforms/MacPython/PySWF)
 
 - Port amfphp (Flash remoting) to Python ([/Twisted](./BobIppolito(2f)Twisted.html))
 
-- Reverse engineer proprietary [MacPython/RTMP](./MacPython(2f)RTMP.html) protocol (Flash Communication Server) and implement Python version ([Twisted](Twisted)).
+- Reverse engineer proprietary [MacPython/RTMP](../platforms/MacPython/RTMP) protocol (Flash Communication Server) and implement Python version ([Twisted](Twisted)).
 
 - Work on [/ajit](./BobIppolito(2f)ajit.html)
 
@@ -61,7 +61,7 @@ Bob Ippolito is a software developer that spends far too much of his spare time 
 
 - Figure out how to write a Contextual Menu [/PlugIn](./BobIppolito(2f)PlugIn.html) by embedding the Python framework
 
-Bob has a bunch of [installed software](./BobIppolito(2f)InstalledSoftware.html).
+Bob has a bunch of [installed software](BobIppolito/InstalledSoftware).
 
 ------------------------------------------------------------------------
 

@@ -29,7 +29,7 @@ We\'ve just started on this but as we get more feedback of what people want to w
 
   - Links to patches/branches/separate projects that provide python3 versions of a python2 module
 
-  - Here\'s a rough example: [PortingToPy3k/Modules](./PortingToPy3k(2f)Modules.html) It\'s labor intensive so possibly not the best way to do this.
+  - Here\'s a rough example: [PortingToPy3k/Modules](Modules) It\'s labor intensive so possibly not the best way to do this.
 
     - Information from [https://fedoraproject.org/wiki/Python3#Porting_status](https://fedoraproject.org/wiki/Python3#Porting_status) with some research of what the packages are using to build/patch
 - Some table to track how best to contact upstreams

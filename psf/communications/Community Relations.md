@@ -18,7 +18,7 @@ With the PSF Community Relations we aim at creating closer bindings with the wor
 
 One of the ways we\'re trying to do this is by showing more presence at international Python conferences and moving the spending side from conference grants more towards signing up for sponsorships which allow us to present the PSF at the conference using the conference kits we created in the last few months and which are slowly being extended to include more versatile setups as well:
 
-- [PSF Conference Kit](./PSF(20)Conference(20)Kit.html)
+- [PSF Conference Kit](../marketing/PSF Conference Kit)
 
 Another way is to have regional PSF representatives which can help give the PSF a closer relation to local groups. We\'re trying to find such representatives and work out a strategy for the local representation with them.
 
@@ -32,7 +32,7 @@ We will be creating more of the portable smaller popup display kits that Ewa use
 
 For more details on the kits, please have a look at the conference kit wiki page:
 
-- [PSF Conference Kit](./PSF(20)Conference(20)Kit.html)
+- [PSF Conference Kit](../marketing/PSF Conference Kit)
 
 ## Local PSF Representation 
 

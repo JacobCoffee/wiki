@@ -12,10 +12,10 @@ Information about old site hosted at [https://legacy.python.org/](https://legacy
 
 Other related pages from this Wiki:
 
-- [PythonWebsite/Conventions](./PythonWebsite(2f)Conventions.html) (need to be revised, because invented for old site)
+- [PythonWebsite/Conventions](PythonWebsite/Conventions) (need to be revised, because invented for old site)
 
-- [PythonWebsite/Learning](./PythonWebsite(2f)Learning.html)
+- [PythonWebsite/Learning](PythonWebsite/Learning)
 
-- [PythonWebsite/Learning/Top](./PythonWebsite(2f)Learning(2f)Top.html)
+- [PythonWebsite/Learning/Top](PythonWebsite/Learning/Top)
 
 - [PythonWebsite/MiscSuggestions](./PythonWebsite(2f)MiscSuggestions.html)

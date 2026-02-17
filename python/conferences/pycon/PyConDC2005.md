@@ -12,13 +12,13 @@ PyConDC2005 was held at George Washington University, the same [location](http:/
 
 ## Sprints 
 
-[/Sprints](./PyConDC2005(2f)Sprints.html)
+[/Sprints](PyConDC2005/Sprints)
 
 ## Refereed Presentations 
 
-[/Schedule](./PyConDC2005(2f)Schedule.html) \-- schedule of formal presentations
+[/Schedule](PyConDC2005/Schedule) \-- schedule of formal presentations
 
-[/Presentations](./PyConDC2005(2f)Presentations.html) \-- list of abstracts for presentations
+[/Presentations](PyConDC2005/Presentations) \-- list of abstracts for presentations
 
 [Notes](http://www.sauria.com/~twl/conferences/pycon2005/) \-- notes from presentations, typically including transcriptions of slides and some extra commentary
 
@@ -26,17 +26,17 @@ PyConDC2005 was held at George Washington University, the same [location](http:/
 
 Manager: Jim Fulton
 
-[/OpenSpace](./PyConDC2005(2f)OpenSpace.html)
+[/OpenSpace](PyConDC2005/OpenSpace)
 
 ## Lightning Talks 
 
 Manager: [JeremyHylton](JeremyHylton)
 
-[/LightningTalks](./PyConDC2005(2f)LightningTalks.html)
+[/LightningTalks](PyConDC2005/LightningTalks)
 
 ## Birds-of-a-feather Sessions 
 
-[/BoF](./PyConDC2005(2f)BoF.html)
+[/BoF](PyConDC2005/BoF)
 
 # Dates and times 
 
@@ -44,7 +44,7 @@ Manager: [JeremyHylton](JeremyHylton)
 
 Sprints took place starting the weekend before the conference, from March 19 to March 22.
 
-A summary of attendee feedback is on the [PyCon2005/Feedback](./PyCon2005(2f)Feedback.html) page.
+A summary of attendee feedback is on the [PyCon2005/Feedback](PyCon2005/Feedback) page.
 
 # Location 
 
@@ -62,19 +62,19 @@ A summary of attendee feedback is on the [PyCon2005/Feedback](./PyCon2005(2f)Fee
 
 # Accommodations 
 
-- [/Accommodation](./PyConDC2005(2f)Accommodation.html)
+- [/Accommodation](PyConDC2005/Accommodation)
 
-- [/ForCheap](./PyConDC2005(2f)ForCheap.html) lists ideas for low-cost accommodations.
+- [/ForCheap](PyConDC2005/ForCheap) lists ideas for low-cost accommodations.
 
 # Recording of Presentations 
 
-- [/TalkRecording](./PyConDC2005(2f)TalkRecording.html)
+- [/TalkRecording](PyConDC2005/TalkRecording)
 
 # Local Information 
 
-- [/NearbyRestaurants](./PyConDC2005(2f)NearbyRestaurants.html)
+- [/NearbyRestaurants](PyConDC2005/NearbyRestaurants)
 
-- [/NearbyChurches](./PyConDC2005(2f)NearbyChurches.html)
+- [/NearbyChurches](PyConDC2005/NearbyChurches)
 
 *(copyright 2005, Python Software Foundation)*
 

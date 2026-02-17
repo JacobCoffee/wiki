@@ -102,7 +102,7 @@ This is just a draft of things that have been identified so far, and is not cast
 
 - Neal Norwitz could use some help on the accounting side
 
-- Venue choice, ?preferably in DC? - see [PyCon2006/Venue](./PyCon2006(2f)Venue.html)
+- Venue choice, ?preferably in DC? - see [PyCon2006/Venue](PyCon2006/Venue)
 
 - someone to run Open Space
 

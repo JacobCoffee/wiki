@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 The community of Python is built on the efforts of many contributors who give of their free time. There are always more tasks and projects than there are volunteers. Helping out can be a lot of fun, a way to meet new people and develop new skills, as well as furthering your professional career. No matter what your interest and time availability, there is something for you.
 
-- [Organizing/Administration](./GetInvolved(2f)Organizing.html)
+- [Organizing/Administration](GetInvolved/Organizing)
 
 - [Documenting/Proofreading/Examples](./GetInvolved(2f)Documenting.html)
 

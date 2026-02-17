@@ -218,7 +218,7 @@ If you find any of the above interesting, this talk is for you. I am proposing a
 
 Related talks: [\"Docutils Developers Tutorial: Architecture, Extending, and Embedding\"](./PyCon2006(2f)Talks.html#A62) is for those interested in the implementation details of Docutils. [\"Easy Slide Shows With reStructuredText & S5\"](./PyCon2006(2f)Talks.html#A64) describes another application of Docutils.
 
-There will also be a [Docutils sprint](./PyCon2006(2f)Sprints(2f)DocutilsSprint.html) following the conference.
+There will also be a [Docutils sprint](Sprints/DocutilsSprint) following the conference.
 
 ------------------------------------------------------------------------
 
@@ -605,7 +605,7 @@ A very quick overview of the [Docutils](http://docutils.sf.net) architecture, fo
 
 Related talks: [\"Easy Slide Shows With reStructuredText & S5\"](./PyCon2006(2f)Talks.html#A64) and [\"What is Nabu?\"](./PyCon2006(2f)Talks.html#A24) both describe applications of Docutils.
 
-There will also be a [Docutils sprint](./PyCon2006(2f)Sprints(2f)DocutilsSprint.html) following the conference, where you can put your new knowledge into practise!
+There will also be a [Docutils sprint](Sprints/DocutilsSprint) following the conference, where you can put your new knowledge into practise!
 
 ------------------------------------------------------------------------
 
@@ -625,7 +625,7 @@ A quick how-to/tutorial: writing slide shows using [reStructuredText](http://doc
 
 Related talks: [\"Docutils Developers Tutorial: Architecture, Extending, and Embedding\"](./PyCon2006(2f)Talks.html#A62) is for those interested in the implementation details of Docutils. [\"What is Nabu?\"](./PyCon2006(2f)Talks.html#A24) describes another application of Docutils.
 
-There will also be a [Docutils sprint](./PyCon2006(2f)Sprints(2f)DocutilsSprint.html) following the conference. Come help make Docutils better!
+There will also be a [Docutils sprint](Sprints/DocutilsSprint) following the conference. Come help make Docutils better!
 
 ------------------------------------------------------------------------
 

@@ -30,7 +30,7 @@ I was trying to use ctypes to get Windows clipboard contents and the value that 
 If I had Hello World on the clipboard the returned output would be **b\'Hello World\'**
 
 ::: note
-When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](./Asking(20)for(20)Help.html) page.
+When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help]() page.
 :::
 
 ------------------------------------------------------------------------

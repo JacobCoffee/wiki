@@ -6,17 +6,17 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-- [/BidRequirements](./PyConPlanning(2f)BidRequirements.html)
+- [/BidRequirements](PyConPlanning/BidRequirements)
 
-- [/Publicity](./PyConPlanning(2f)Publicity.html)
+- [/Publicity](PyConPlanning/Publicity)
 
 - [/RegRequirements](./PyConPlanning(2f)RegRequirements.html)
 
-- [/Shirts](./PyConPlanning(2f)Shirts.html)
+- [/Shirts](PyConPlanning/Shirts)
 
-- [/Swag](./PyConPlanning(2f)Swag.html)
+- [/Swag](PyConPlanning/Swag)
 
-- [/SoftwareRequirements](./PyConPlanning(2f)SoftwareRequirements.html)
+- [/SoftwareRequirements](PyConPlanning/SoftwareRequirements)
 
 - [ConventionHowto](ConventionHowto)
 

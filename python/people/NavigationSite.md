@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 NavigationSite est l\'endroit central pour explorer ce wiki. [MoinMoin](MoinMoin) supporte les schémas d\'indexation de [MeatBall](./MeatBall.html) (voir [IndexingScheme](http://www.usemod.com/cgi-bin/mb.pl?IndexingScheme "MeatBall")s en anglais) :
 
-- [ChangementsRécents](./ChangementsR(c3a9)cents.html)
+- [ChangementsRécents](../archive/ChangementsRécents)
 
 - [IndexTitre](./IndexTitre.html)
 

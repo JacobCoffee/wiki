@@ -248,4 +248,4 @@ The tar ball is meant to have all the required files - the original **simple.ui*
 
 As programs go, the above listing is small - less than 200 lines. If you understand it all and could now program it all yourself, then just go and do it - congratulations, you are done with this tutorial! If you feel a little doubtful or curious how it all developed, then let us go to the beginning of it - **Stage 0**, followed by **Stage 1** and so on. I enjoy your company, stay with it!
 
-[Return Home](./PyQt(2f)simple.html)
+[Return Home](simple)

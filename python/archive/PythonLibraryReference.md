@@ -44,47 +44,47 @@ December 19, 2003
 
 4\. [String Services](./PythonLibraryReference(2f)StringServices.html)
 
-5\. [Miscellaneous Services](./PythonLibraryReference(2f)MiscellaneousServices.html)
+5\. [Miscellaneous Services](../people/PythonLibraryReference/MiscellaneousServices)
 
-6\. [Generic Operating System Services](./PythonLibraryReference(2f)GenericOperatingSystemServices.html)
+6\. [Generic Operating System Services](PythonLibraryReference/GenericOperatingSystemServices)
 
-7\. [Optional Operating System Services](./PythonLibraryReference(2f)OptionalOperatingSystemServices.html)
+7\. [Optional Operating System Services](PythonLibraryReference/OptionalOperatingSystemServices)
 
-8\. [Unix Specific Services](./PythonLibraryReference(2f)UnixSpecificServices.html)
+8\. [Unix Specific Services](PythonLibraryReference/UnixSpecificServices)
 
-9\. [The Python Debugger](./PythonLibraryReference(2f)ThePythonDebugger.html)
+9\. [The Python Debugger](PythonLibraryReference/ThePythonDebugger)
 
-10\. [The Python Profiler](./PythonLibraryReference(2f)ThePythonProfiler.html)
+10\. [The Python Profiler](PythonLibraryReference/ThePythonProfiler)
 
-11\. [Internet Protocols And Support](./PythonLibraryReference(2f)InternetProtocolsAndSupport.html)
+11\. [Internet Protocols And Support](PythonLibraryReference/InternetProtocolsAndSupport)
 
-12\. [Internet Data Handling](./PythonLibraryReference(2f)InternetDataHandling.html)
+12\. [Internet Data Handling](PythonLibraryReference/InternetDataHandling)
 
-13\. [Structured Markup Processing Tools](./PythonLibraryReference(2f)StructuredMarkupProcessingTools.html)
+13\. [Structured Markup Processing Tools](PythonLibraryReference/StructuredMarkupProcessingTools)
 
-14\. [Multimedia Services](./PythonLibraryReference(2f)MultimediaServices.html)
+14\. [Multimedia Services](../people/PythonLibraryReference/MultimediaServices)
 
-15\. [Cryptographic Services](./PythonLibraryReference(2f)CryptographicServices.html)
+15\. [Cryptographic Services](../people/PythonLibraryReference/CryptographicServices)
 
-16\. [Graphical User Interfaces With Tk](./PythonLibraryReference(2f)GraphicalUserInterfacesWithTk.html)
+16\. [Graphical User Interfaces With Tk](PythonLibraryReference/GraphicalUserInterfacesWithTk)
 
-17\. [Restricted Execution](./PythonLibraryReference(2f)RestrictedExecution.html)
+17\. [Restricted Execution](../people/PythonLibraryReference/RestrictedExecution)
 
-18\. [Python Language Services](./PythonLibraryReference(2f)PythonLanguageServices.html)
+18\. [Python Language Services](PythonLibraryReference/PythonLanguageServices)
 
-19\. [Python Compiler Package](./PythonLibraryReference(2f)PythonCompilerPackage.html)
+19\. [Python Compiler Package](PythonLibraryReference/PythonCompilerPackage)
 
-20\. [Sgi Irix Specific Services](./PythonLibraryReference(2f)SgiIrixSpecificServices.html)
+20\. [Sgi Irix Specific Services](PythonLibraryReference/SgiIrixSpecificServices)
 
-21\. [Sun OS Specific Services](./PythonLibraryReference(2f)SunOsSpecificServices.html)
+21\. [Sun OS Specific Services](PythonLibraryReference/SunOsSpecificServices)
 
-22\. [MS Windows Specific Services](./PythonLibraryReference(2f)MsWindowsSpecificServices.html)
+22\. [MS Windows Specific Services](PythonLibraryReference/MsWindowsSpecificServices)
 
-A. [Undocumented Modules](./PythonLibraryReference(2f)UndocumentedModules.html)
+A. [Undocumented Modules](../people/PythonLibraryReference/UndocumentedModules)
 
-B. [Reporting Bugs](./PythonLibraryReference(2f)ReportingBugs.html)
+B. [Reporting Bugs](../people/PythonLibraryReference/ReportingBugs)
 
-C. [History And License](./PythonLibraryReference(2f)HistoryAndLicense.html)
+C. [History And License](PythonLibraryReference/HistoryAndLicense)
 
 [Module Index](./PythonLibraryReference(2f)ModuleIndex.html)
 

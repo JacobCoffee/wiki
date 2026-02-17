@@ -12,7 +12,7 @@ Projects and groups are encouraged to hold meetings, dinners and other activitie
 
 **Be sure to use the Open Space Scheduling Board to confirm room availability.**
 
-Also see: [Open Space](./Open(20)Space.html)
+Also see: [Open Space](../../../people/Open Space)
 
 The following birds-of-a-feather sessions are being planned:
 

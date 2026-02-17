@@ -10,7 +10,7 @@ The Python Software Foundation (PSF) is looking for GSoC students to work on a v
 
 Before submitting an application,
 
-- read the [SummerOfCode/Expectations](./SummerOfCode(2f)Expectations.html) to understand what is expected of you if you participate.
+- read the [SummerOfCode/Expectations](Expectations) to understand what is expected of you if you participate.
 
 - join the [soc2014-general](http://mail.python.org/mailman/listinfo/soc2014-general) list.
 

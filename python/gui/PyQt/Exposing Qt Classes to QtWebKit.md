@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Exposing Qt Classes to QtWebKit 
 
-On the [PyQt mailing list](./PyQt(2f)TheMailingList.html), Christophe [asked for examples](http://www.riverbankcomputing.com/pipermail/pyqt/2010-June/026803.html) that show Qt objects being added to QtWebKit for use with JavaScript.
+On the [PyQt mailing list](TheMailingList), Christophe [asked for examples](http://www.riverbankcomputing.com/pipermail/pyqt/2010-June/026803.html) that show Qt objects being added to QtWebKit for use with JavaScript.
 
 A simple example of this can be found on Mario Boikov\'s blog: [Calling Python from JavaScript in PyQt\'s QWebkit](http://pysnippet.blogspot.com/2010/01/calling-python-from-javascript-in-pyqts.html).
 

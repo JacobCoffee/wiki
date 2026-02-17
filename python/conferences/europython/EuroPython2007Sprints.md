@@ -17,11 +17,11 @@ Add your sprint suggestion to the list below. If you intend to provide more than
   [SchoolToolSprint](SchoolToolSprint)                                    6                                         after: 12 - 14 july                        ?
   [ParsingForEducationalLinguistics](ParsingForEducationalLinguistics)    6                                         after: 12 - 14 july                        ?
   [LocalizingChandler](LocalizingChandler)                                ?                                         after: 12 - 13 july                        ?
-  [EuroPython2007/VisualStudio2005](./EuroPython2007(2f)VisualStudio2005.html)   2-3                                       after: 12 - 14 july                        ?
-  [EuroPython2007/PyPySprint](./EuroPython2007(2f)PyPySprint.html)               ?                                         after: 12 - 14 july                        ?
-  [EuroPython2007/BazaarSprint](./EuroPython2007(2f)BazaarSprint.html)           (4? 5?)                                   after: 12 - 14 july                        ?
-  [EuroPython2007/CheeseshopSprint](./EuroPython2007(2f)CheeseshopSprint.html)   (1? 2?)                                   before or after??: 12 - 14 july            ?
-  [EuroPython2007/Zope3Sprint](./EuroPython2007(2f)Zope3Sprint.html)             (1?)                                      after: 12 - 14 july                        ?
+  [EuroPython2007/VisualStudio2005](EuroPython2007/VisualStudio2005)   2-3                                       after: 12 - 14 july                        ?
+  [EuroPython2007/PyPySprint](EuroPython2007/PyPySprint)               ?                                         after: 12 - 14 july                        ?
+  [EuroPython2007/BazaarSprint](EuroPython2007/BazaarSprint)           (4? 5?)                                   after: 12 - 14 july                        ?
+  [EuroPython2007/CheeseshopSprint](EuroPython2007/CheeseshopSprint)   (1? 2?)                                   before or after??: 12 - 14 july            ?
+  [EuroPython2007/Zope3Sprint](EuroPython2007/Zope3Sprint)             (1?)                                      after: 12 - 14 july                        ?
   (Your topic)                                                                   (How many people - useful for planning)   (Before or after, perhaps precise dates)   (Where, once locations are known)
   ------------------------------------------------------------------------------ ----------------------------------------- ------------------------------------------ -------------------------------------------
 :::

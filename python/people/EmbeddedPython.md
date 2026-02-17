@@ -52,7 +52,7 @@ Examples of such implementations include the following:
 
 - [PyMite](PyMite)
 
-- [Tiny Python](./Tiny(20)Python.html)
+- [Tiny Python](Tiny Python)
 
 - [Zerynth](Zerynth) formerly Viper
 

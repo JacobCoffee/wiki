@@ -20,20 +20,20 @@ Ideally, each project should be expanded into a more full-featured description, 
 
 - [SimpleTodo](SimpleTodo): finite projects that improve (maybe just clean up) part of Python\'s implementation.
 
-- .[/PythonCore](./CodingProjectIdeas(2f)PythonCore.html)
+- .[/PythonCore](CodingProjectIdeas/PythonCore)
 
-- .[/StandardLibrary](./CodingProjectIdeas(2f)StandardLibrary.html)
+- .[/StandardLibrary](CodingProjectIdeas/StandardLibrary)
 
-- [CodingProjectIdeas/Libraries](./CodingProjectIdeas(2f)Libraries.html)
+- [CodingProjectIdeas/Libraries](CodingProjectIdeas/Libraries)
 
-- .[/PythonWebProgrammingIdeas](./CodingProjectIdeas(2f)PythonWebProgrammingIdeas.html)
+- .[/PythonWebProgrammingIdeas](CodingProjectIdeas/PythonWebProgrammingIdeas)
 
-- .[/ApplicationIdeas](./CodingProjectIdeas(2f)ApplicationIdeas.html)
+- .[/ApplicationIdeas](CodingProjectIdeas/ApplicationIdeas)
 
 - Port standard library modules implemented in C to Python
   - This is basically what the [PyPy](PyPy) project is doing. See their site for more details on what parts of the Python standard library have not yet been translated.
 
-- .[/PythonDocInOpenEbook](./CodingProjectIdeas(2f)PythonDocInOpenEbook.html)
+- .[/PythonDocInOpenEbook](CodingProjectIdeas/PythonDocInOpenEbook)
 
 - fix some old, old bugs in sourceforge
   - This is not a high profile, totally new idea, but maybe even helps the community more than founding another web framework

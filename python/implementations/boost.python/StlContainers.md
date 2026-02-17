@@ -164,7 +164,7 @@ To use python construct `key in container` we need to implement `__contains__`
 ### iterators
 
 Also very useful thing is to iterate through our containers.\
-For the vector [boost.python](./boost(2e)python.html) has it:
+For the vector [boost.python]() has it:
 
     .def("__iter__", iterator<Geomery>())
 

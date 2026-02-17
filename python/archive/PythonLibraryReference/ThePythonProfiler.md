@@ -24,7 +24,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 10.4 [What Is Deterministic Profiling?](./PythonLibraryReference(2f)ThePythonProfiler(2f)DeterministicProfiling.html)
 
-10.5 [Reference Manual](./PythonLibraryReference(2f)ThePythonProfiler(2f)ReferenceManual.html)
+10.5 [Reference Manual](../../people/PythonLibraryReference/ThePythonProfiler/ReferenceManual)
 
 10.6 [Limitations](./PythonLibraryReference(2f)ThePythonProfiler(2f)ProfilerLimitations.html)
 

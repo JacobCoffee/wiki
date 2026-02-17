@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-> - [Schedule](./PyOhio2008(2f)Schedule.html)
+> - [Schedule](Schedule)
 >
 > > 
 >
@@ -14,15 +14,15 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 >
 > > 
 >
-> - [Venue](./PyOhio2008(2f)Venue.html)
+> - [Venue](Venue)
 >
 > > 
 >
-> - [Staff](./PyOhio2008(2f)Staff.html) (Volunteers)
+> - [Staff](Staff) (Volunteers)
 >
 > > 
 >
-> - [Supplies](./PyOhio2008(2f)Supplies.html)
+> - [Supplies](Supplies)
 >
 > > 
 

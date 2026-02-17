@@ -6,66 +6,66 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-**Boost.Python** binds C++ and Python. Read [/GettingStarted](./boost(2e)python(2f)GettingStarted.html) for an introduction.
+**Boost.Python** binds C++ and Python. Read [/GettingStarted](boost.python/GettingStarted) for an introduction.
 
 This page serves as a forum to gather peoples\' experience and as a cookbook, as it is more dynamic by nature and open to contributors.
 
 Various items:
 
-- [/GettingStarted](./boost(2e)python(2f)GettingStarted.html)
+- [/GettingStarted](boost.python/GettingStarted)
 
-- [/FAQ](./boost(2e)python(2f)FAQ.html)
+- [/FAQ](boost.python/FAQ)
 
-- [/HowTo](./boost(2e)python(2f)HowTo.html)
+- [/HowTo](../guides/boost.python/HowTo)
 
-- [/BuildingExtensions](./boost(2e)python(2f)BuildingExtensions.html)
+- [/BuildingExtensions](boost.python/BuildingExtensions)
 
-- [/module](./boost(2e)python(2f)module.html) level: def,scope
+- [/module](boost.python/module) level: def,scope
 
-- [/class](./boost(2e)python(2f)class.html)
+- [/class](boost.python/class)
 
-- [/extract](./boost(2e)python(2f)extract.html)
+- [/extract](boost.python/extract)
 
-- [/object](./boost(2e)python(2f)object.html)
+- [/object](boost.python/object)
 
-- [/handle](./boost(2e)python(2f)handle.html)
+- [/handle](boost.python/handle)
 
-- [/list](./boost(2e)python(2f)list.html)
+- [/list](boost.python/list)
 
-- [/iterator](./boost(2e)python(2f)iterator.html)
+- [/iterator](boost.python/iterator)
 
-- [/CallPolicy](./boost(2e)python(2f)CallPolicy.html)
+- [/CallPolicy](boost.python/CallPolicy)
 
-- [/RuntimeErrors](./boost(2e)python(2f)RuntimeErrors.html)
+- [/RuntimeErrors](boost.python/RuntimeErrors)
 
-- [/RelatedProjects](./boost(2e)python(2f)RelatedProjects.html)
+- [/RelatedProjects](boost.python/RelatedProjects)
 
 Tutorial:
 
-1.  [/SimpleExample](./boost(2e)python(2f)SimpleExample.html)
+1.  [/SimpleExample](boost.python/SimpleExample)
 
-2.  [/ExportingClasses](./boost(2e)python(2f)ExportingClasses.html)
+2.  [/ExportingClasses](boost.python/ExportingClasses)
 
-3.  [/OverridableVirtualFunctions](./boost(2e)python(2f)OverridableVirtualFunctions.html)
+3.  [/OverridableVirtualFunctions](boost.python/OverridableVirtualFunctions)
 
-4.  [/FunctionOverloading](./boost(2e)python(2f)FunctionOverloading.html)
+4.  [/FunctionOverloading](boost.python/FunctionOverloading)
 
-5.  [/Inheritance](./boost(2e)python(2f)Inheritance.html)
+5.  [/Inheritance](boost.python/Inheritance)
 
 6.  [/SpecialMethods](./boost(2e)python(2f)SpecialMethods.html)
 
-7.  [/PeekUnderTheHood](./boost(2e)python(2f)PeekUnderTheHood.html)
+7.  [/PeekUnderTheHood](boost.python/PeekUnderTheHood)
 
-8.  [/CrossExtensionModuleDependencies](./boost(2e)python(2f)CrossExtensionModuleDependencies.html)
+8.  [/CrossExtensionModuleDependencies](boost.python/CrossExtensionModuleDependencies)
 
-9.  [/WrappingEnums](./boost(2e)python(2f)WrappingEnums.html)
+9.  [/WrappingEnums](boost.python/WrappingEnums)
 
-10. [/PointersAndSmartPointers](./boost(2e)python(2f)PointersAndSmartPointers.html)
+10. [/PointersAndSmartPointers](boost.python/PointersAndSmartPointers)
 
-11. [/InternalDataStructures](./boost(2e)python(2f)InternalDataStructures.html)
+11. [/InternalDataStructures](boost.python/InternalDataStructures)
 
-12. [/EmbeddingPython](./boost(2e)python(2f)EmbeddingPython.html)
+12. [/EmbeddingPython](boost.python/EmbeddingPython)
 
 Test cases:
 
-- [/StlContainers](./boost(2e)python(2f)StlContainers.html)
+- [/StlContainers](boost.python/StlContainers)

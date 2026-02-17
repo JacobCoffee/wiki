@@ -16,9 +16,9 @@ Email: `<steven.bethard@gmail.com>`
 
 [StrongVsWeakTyping](StrongVsWeakTyping)
 
-[Python3.0](./Python3(2e)0.html)
+[Python3.0](../py3/Python3.0)
 
-[Python3.0Suggestions](./Python3(2e)0Suggestions.html)
+[Python3.0Suggestions](../py3/Python3.0Suggestions)
 
 [WithStatement](WithStatement)
 
@@ -28,7 +28,7 @@ Email: `<steven.bethard@gmail.com>`
 
 [PythonGraphApi](PythonGraphApi)
 
-[PythonSpeed/PerformanceTips](./PythonSpeed(2f)PerformanceTips.html)
+[PythonSpeed/PerformanceTips](../performance/PythonSpeed/PerformanceTips)
 
 [PathClass](PathClass)
 

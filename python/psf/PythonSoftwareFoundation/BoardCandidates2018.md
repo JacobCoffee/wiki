@@ -47,25 +47,25 @@ Nominees
 ::: topic
 Links
 
-- [Letter from PSF Director of Operations - Expectations of Board Directors](./PythonSoftwareFoundation(2f)ExpectationsOfBoardDirectors.html)
-- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html)
-- [2017 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2017.html)
-- [2016 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2016.html)
-- [2015 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2015.html)
-- [2014 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2014.html)
-- [2013 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2013.html)
-- [2012 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2012.html)
-- [2011 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2011.html)
-- [2010 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html)
-- [2009 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2009.html)
-- [2008 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2008.html)
+- [Letter from PSF Director of Operations - Expectations of Board Directors](ExpectationsOfBoardDirectors)
+- [Duties and Responsibilities of Directors](DutiesAndResponsibilitiesOfDirectors)
+- [2017 Board Candidates](BoardCandidates2017)
+- [2016 Board Candidates](BoardCandidates2016)
+- [2015 Board Candidates](BoardCandidates2015)
+- [2014 Board Candidates](BoardCandidates2014)
+- [2013 Board Candidates](BoardCandidates2013)
+- [2012 Board Candidates](BoardCandidates2012)
+- [2011 Board Candidates](BoardCandidates2011)
+- [2010 Board Candidates](BoardCandidates2010)
+- [2009 Board Candidates](BoardCandidates2009)
+- [2008 Board Candidates](BoardCandidates2008)
 :::
 
 **Registering as a PSF Board candidate**
 
 To register as a candidate for the Board elections, add your nomination to this page using the format listed at the end of the page. We\'d like as many groups within the PSF membership as possible to have the option of electing candidates that can directly represent their interests in Board discussions, so if there\'s someone you\'d particularly like to have represent you, you may want to consider getting in touch with them and (politely!) asking if they\'d be interested in nominating themselves
 
-Read through the [Letter from PSF Director of Operations - Expectations of Board Directors](./PythonSoftwareFoundation(2f)ExpectationsOfBoardDirectors.html) & [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html). Please note that the PSF bylaws require that Board candidates disclose significant organizational affiliations (for example, their employer).
+Read through the [Letter from PSF Director of Operations - Expectations of Board Directors](ExpectationsOfBoardDirectors) & [Duties and Responsibilities of Directors](DutiesAndResponsibilitiesOfDirectors). Please note that the PSF bylaws require that Board candidates disclose significant organizational affiliations (for example, their employer).
 
 ::: 
 Note

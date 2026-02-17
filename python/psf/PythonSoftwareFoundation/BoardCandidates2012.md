@@ -32,11 +32,11 @@ Nominees
 ::: topic
 Links
 
-- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html)
-- [2011 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html)
-- [2010 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html)
-- [2009 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2009.html)
-- [2008 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2008.html)
+- [Duties and Responsibilities of Directors](DutiesAndResponsibilitiesOfDirectors)
+- [2011 Board Candidates](BoardCandidates2010)
+- [2010 Board Candidates](BoardCandidates2010)
+- [2009 Board Candidates](BoardCandidates2009)
+- [2008 Board Candidates](BoardCandidates2008)
 :::
 
 ::: 

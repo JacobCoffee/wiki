@@ -34,7 +34,7 @@ Please add your name if you plan on coming to a Twisted-related sprint! If you d
 
 - Jeff Rush
 
-- [Kragen Sitaker](./Kragen(20)Sitaker.html) (maybe)
+- [Kragen Sitaker](../people/Kragen Sitaker) (maybe)
 
 - Kartic Krishnamurthy (Tuesday). Level - Beginner. Not sure which mini-sprint to participate in.
 

@@ -94,7 +94,7 @@ Here is the test:
 
 Perhaps a simple implementation can be constructed using \*count\* and \*islice\* from intertools?. \-- Anon
 
-I think it\'s way too much code, and also it does not accept named parameters. How about this? \-- [JürgenHermann](./J(c3bc)rgenHermann.html) 2005-10-19 20:06:52
+I think it\'s way too much code, and also it does not accept named parameters. How about this? \-- [JürgenHermann](../archive/JürgenHermann) 2005-10-19 20:06:52
 
 - def irange(start, stop=None, step=1):
           """ Generator for a list containing an arithmetic progression of integers.

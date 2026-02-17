@@ -18,7 +18,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Appscripting Overview:
 
-- [/Terminology](./MacPython(2f)iTerm(2f)Terminology.html)
+- [/Terminology](iTerm/Terminology)
 
 Appscripting in Depth:
 

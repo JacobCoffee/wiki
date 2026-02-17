@@ -12,7 +12,7 @@ IdeaRepository is an idea from #python. Every once in a while, someone comes up 
 
 ### 0.1. Ideas 
 
-1.  [PythiusProject](http://purl.net/wiki/python/PythiusProject "EfnetPythonWiki") could use some beta testers \-- [JürgenHermann](./J(c3bc)rgenHermann.html)
+1.  [PythiusProject](http://purl.net/wiki/python/PythiusProject "EfnetPythonWiki") could use some beta testers \-- [JürgenHermann](../archive/JürgenHermann)
 
 2.  Super Ray Gun coded in python: someone implement this NOW please! (thirmite)
 

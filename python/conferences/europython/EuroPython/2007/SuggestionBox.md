@@ -44,7 +44,7 @@ The suggestions are organised into a few mostly separate categories.
 
 ### Infrastructure 
 
-See the [EuroPython/SoftwareRequirements](./EuroPython(2f)SoftwareRequirements.html) for more thoughts.
+See the [EuroPython/SoftwareRequirements](../SoftwareRequirements) for more thoughts.
 
 - Bring up the technology stuff a lot earlier so that if people want to write their own conference software, they have their chance to pitch it in good time.
 

@@ -79,7 +79,7 @@ Here are some coding guidelines for applications that demand peak performance (i
 
 ## More Performance Tips 
 
-More performance tips and examples can be found at [PythonSpeed/PerformanceTips](./PythonSpeed(2f)PerformanceTips.html).
+More performance tips and examples can be found at [PythonSpeed/PerformanceTips](PythonSpeed/PerformanceTips).
 
 ------------------------------------------------------------------------
 

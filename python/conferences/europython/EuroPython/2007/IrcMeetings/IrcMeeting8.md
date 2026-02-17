@@ -24,9 +24,9 @@ The meeting will take place on Monday 30th April (2007-04-30) 18:00 CEST (17:00 
 
   - Michael will chase up two other candidates.
 
-  - We will put out a [EuroPython/2007/CallForSponsors](./EuroPython(2f)2007(2f)CallForSponsors.html).
+  - We will put out a [EuroPython/2007/CallForSponsors](../CallForSponsors).
 - Registration
-  - We need an idea of fees: whether previous years\' fees were about right, whether [RuPy](./RuPy.html) changed anyone\'s perceptions, whether any demographic is excluded. See [EuroPython/2007/FeeStructureAttendees](./EuroPython(2f)2007(2f)FeeStructureAttendees.html) for a comparison between fees in previous years.
+  - We need an idea of fees: whether previous years\' fees were about right, whether [RuPy](./RuPy.html) changed anyone\'s perceptions, whether any demographic is excluded. See [EuroPython/2007/FeeStructureAttendees](../FeeStructureAttendees) for a comparison between fees in previous years.
 
   - The Indico \"workflow\" needs defining: mails shall be exchanged during the week in order to set this up.
 
@@ -42,7 +42,7 @@ Suggestions:
   - David needs to report on what he\'s done and discuss the situation regarding arrangements for speakers.
   - Others also handling keynotes should report on progress.
 - Finishing the theme descriptions for use in Indico.
-  - Status of the Agile and Social Skills theme descriptions ([EuroPython/2007/TrackDescriptions](./EuroPython(2f)2007(2f)TrackDescriptions.html)) - Bea will have approved these, or have provided suggestions for improvements.
+  - Status of the Agile and Social Skills theme descriptions ([EuroPython/2007/TrackDescriptions](../TrackDescriptions)) - Bea will have approved these, or have provided suggestions for improvements.
 - Sponsorship/finance:
   - Laura will have asked about [PyCon](PyCon)\'s sponsorship packages and will give details.
 
@@ -60,7 +60,7 @@ Suggestions:
 
   - Harald mentioned that the information about accommodation and food costs needs to be clarified.
 
-  - Work on the fee structure will be carried out on the mailing list. See [EuroPython/2007/FeeStructureAttendees](./EuroPython(2f)2007(2f)FeeStructureAttendees.html) for a comparison between fees in previous years. *(Ask [PaulBoddie](PaulBoddie) for access to the sponsor-related [EuroPython/2007/FeeStructure](./EuroPython(2f)2007(2f)FeeStructure.html) page.)*
+  - Work on the fee structure will be carried out on the mailing list. See [EuroPython/2007/FeeStructureAttendees](../FeeStructureAttendees) for a comparison between fees in previous years. *(Ask [PaulBoddie](PaulBoddie) for access to the sponsor-related [EuroPython/2007/FeeStructure](./EuroPython(2f)2007(2f)FeeStructure.html) page.)*
 
   - Registration is supposed to open *very soon*, so some idea of fees needs to materialise quickly.
 

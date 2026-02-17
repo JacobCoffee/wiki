@@ -30,7 +30,7 @@ I\'m a software engineer in Silicon Valley.
 
 - Critical thinking [http://www.austhink.org/critical](http://www.austhink.org/critical)
 
-\-\-- The boost.python pages are a great addition, Mike. Thanks! \-- [JürgenHermann](./J(c3bc)rgenHermann.html) 2002-11-16 12:55:19
+\-\-- The boost.python pages are a great addition, Mike. Thanks! \-- [JürgenHermann](../archive/JürgenHermann) 2002-11-16 12:55:19
 
 ------------------------------------------------------------------------
 

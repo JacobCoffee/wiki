@@ -38,9 +38,9 @@ PyQt4:
 
 - [ZetCode\'s PyQT4 tutorial](http://zetcode.com/tutorials/pyqt4/) - Another step by step PyQt4 tutorial
 
-- [Introducing PyQt4 for GUI Application Development](./PyQt(2f)EuroPython2006Talk.html) - a talk presented at [EuroPython](EuroPython) 2006
+- [Introducing PyQt4 for GUI Application Development](../../conferences/europython/PyQt/EuroPython2006Talk) - a talk presented at [EuroPython](EuroPython) 2006
 
-- [Creating GUI Applications with PyQt and Qt Designer](./PyQt(2f)Creating_GUI_Applications_with_PyQt_and_Qt_Designer.html) - a talk presented at PyCon UK 2007
+- [Creating GUI Applications with PyQt and Qt Designer](Creating_GUI_Applications_with_PyQt_and_Qt_Designer) - a talk presented at PyCon UK 2007
 
 - [PyQt by devendra laulkar @ Barcamp pune3](http://www.archive.org/details/Swajanascreencast-PyQtByDevendraLaulkarBarcampPune3573) - a video of a short introduction to PyQt
 
@@ -48,7 +48,7 @@ PyQt4:
 
 - [write a web browser by python](http://i-miss-erin.blogspot.com/2009/03/write-web-browser-by-python.html) - Creating a [WebKit](WebKit)-based browser with [PyQt](PyQt)
 
-- [\"Simple\" Editor - newbie for newbies PyQt4](./PyQt(2f)simple.html)
+- [\"Simple\" Editor - newbie for newbies PyQt4](simple)
 
 - [Learn Python GUI programming using Qt framework](https://www.udemy.com/python-gui-programming)
 
@@ -84,7 +84,7 @@ Authors, please fix the links and move them back into the section above.
 
 - [Test PyQt GUIs with QTest and unittest](http://www.voom.net/pyqt-qtest-example/) - A complete example of how to write unit tests for [PyQt](PyQt) using only the open source modules included in [PyQt](PyQt) and Python
 
-- Also see the [GUI Testing](./PyQt(2f)GUI_Testing.html) and [Unit Testing](./PyQt(2f)Unit_Testing.html) pages for more on the topic of testing
+- Also see the [GUI Testing](GUI_Testing) and [Unit Testing](Unit_Testing) pages for more on the topic of testing
 
 ## Setting Up an Integrated Development Environment (IDE) 
 
@@ -102,4 +102,4 @@ These tutorials and resources are for Qt 3:
 
 - [Jonathan Gardner\'s PyQt tutorial](http://wiki.python.org/moin/JonathanGardnerPyQtTutorial) - writing a GUI for the `at`{.backtick} utility.
 
-- [GUI Programming with Python: QT Edition](http://www.commandprompt.com/community/pyqt) - A very complete document about PyQt development (also mentioned in [Books](./PyQt(2f)Books.html))
+- [GUI Programming with Python: QT Edition](http://www.commandprompt.com/community/pyqt) - A very complete document about PyQt development (also mentioned in [Books](Books))

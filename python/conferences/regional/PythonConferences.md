@@ -12,7 +12,7 @@ The Python community tends to organize regional events around the world. Establi
 
 This page aims to be the **most complete list of Python conferences around the world** and can be [edited by the community](FrontPage#use).
 
-Want to organize an event in your community? Read [our guide to running a conference](./AdvocacyWritingTasks(2f)RunningAConference.html). In particular, if you are considering starting a \"[PyCon](PyCon)\" named conference, please see the [PSF PyCon Trademark Guidelines](https://www.python.org/psf/trademarks/pycon/) and the [PSF Trademark FAQs](https://www.python.org/psf/trademarks-faq/).
+Want to organize an event in your community? Read [our guide to running a conference](../../community/AdvocacyWritingTasks/RunningAConference). In particular, if you are considering starting a \"[PyCon](PyCon)\" named conference, please see the [PSF PyCon Trademark Guidelines](https://www.python.org/psf/trademarks/pycon/) and the [PSF Trademark FAQs](https://www.python.org/psf/trademarks-faq/).
 
 If you are planning a Python conference event, please check the dates in the [Python Event Calendars](https://pycon.org#calendar) to see whether there are any overlaps and [submit your event to the calendars](PythonEventsCalendar#Submitting_an_Event). Also see the [PythonEvents](PythonEvents) page for more schedule information.
 

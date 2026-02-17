@@ -12,4 +12,4 @@ Bids:
 - [Cleveland, OH](http://groups.google.com/group/clepy/web/pycon2010)
 - [SF Bay Area (San Francisco and Silicon Valley, CA)](PyCon2010BayPiggiesBid)
 
-[Bid Requirements](./PyConPlanning(2f)BidRequirements.html)
+[Bid Requirements](PyConPlanning/BidRequirements)

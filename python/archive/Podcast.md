@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Let\'s try to record a monthly round-table podcast that discusses Python-related events and news.
 
-[Podcast/EpisodePlanning](./Podcast(2f)EpisodePlanning.html)
+[Podcast/EpisodePlanning](../people/Podcast/EpisodePlanning)
 
 The [Wikipedia Weekly](http://wikipediaweekly.org/) podcast is a good model for us. Try listening to episode 80 or 81, which are daily wrap-ups from the Wikimania 2009 conference, or episode 78, which is a Skype-recorded episode.
 

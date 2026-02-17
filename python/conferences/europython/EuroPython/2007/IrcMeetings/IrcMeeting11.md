@@ -25,7 +25,7 @@ The meeting will take place on Monday 21st May (2007-05-21) 18:00 CEST (17:00 BS
     - The accommodation options were simplified.
 - Keynote speaker plans need to be confirmed (for #2).
 - Announcements
-  - [EuroPython/2007/CallForSponsorsMessage](./EuroPython(2f)2007(2f)CallForSponsorsMessage.html) was prepared as a draft for further distribution.
+  - [EuroPython/2007/CallForSponsorsMessage](../CallForSponsorsMessage) was prepared as a draft for further distribution.
 
   - Organisers should send new announcements to those channels they have already been responsible for.
 - Sponsorship

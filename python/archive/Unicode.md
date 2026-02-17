@@ -84,7 +84,7 @@ Another is to list aliases from the encodings module.
     >>> aliases.aliases
     {'base64': 'base64_codec', 'us_ascii': 'ascii', ...}
 
-Contributors: [LionKimbro](LionKimbro), [FredDrake](FredDrake), [JürgenHermann](./J(c3bc)rgenHermann.html).
+Contributors: [LionKimbro](LionKimbro), [FredDrake](FredDrake), [JürgenHermann](JürgenHermann).
 
 ### \"The Truth about Unicode in Python\" 
 

@@ -16,17 +16,17 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 **Appscripting Overview:**
 
-- [/AppscriptingOverview](./MacPython(2f)FileMakerPro(2f)AppscriptingOverview.html)
+- [/AppscriptingOverview](FileMakerPro/AppscriptingOverview)
 
-- [../FileMakerProSixTerminology](./MacPython(2f)FileMakerProSixTerminology.html)
+- [../FileMakerProSixTerminology](FileMakerProSixTerminology)
 
 - [../FileMakerProSevenTerminology](./MacPython(2f)FileMakerProSevenTerminology.html)
 
 **Appscripting in Depth:**
 
-- [/FrequentlyAskedQuestions](./MacPython(2f)FileMakerPro(2f)FrequentlyAskedQuestions.html)
+- [/FrequentlyAskedQuestions](FileMakerPro/FrequentlyAskedQuestions)
 
-- [/Annoyances](./MacPython(2f)FileMakerPro(2f)Annoyances.html)
+- [/Annoyances](FileMakerPro/Annoyances)
 
 - [/TipsAndTricks](./MacPython(2f)FileMakerPro(2f)TipsAndTricks.html)
 
@@ -40,10 +40,10 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 **More Examples:**
 
-- [/DeliciousLibrary](./MacPython(2f)FileMakerPro(2f)DeliciousLibrary.html)
+- [/DeliciousLibrary](FileMakerPro/DeliciousLibrary)
 
 - [../FileMakerProAndPostgreSQL](./MacPython(2f)FileMakerProAndPostgreSQL.html)
 
 **Translated Examples:**
 
-- [/AERefs](./MacPython(2f)FileMakerPro(2f)AERefs.html)
+- [/AERefs](FileMakerPro/AERefs)

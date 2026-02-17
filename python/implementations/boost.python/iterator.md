@@ -33,7 +33,7 @@ Python iterator support a highly flexible interface allowing:
         .def("__iter__"
              , range(&std::pair<char*,char*>::first, &std::pair<char*,char*>::second))
 
-- The ability to specify [boost.python/CallPolicy](./boost(2e)python(2f)CallPolicy.html), e.g. to prevent copying of heavyweight values:
+- The ability to specify [boost.python/CallPolicy](CallPolicy), e.g. to prevent copying of heavyweight values:
 
 <!-- -->
 

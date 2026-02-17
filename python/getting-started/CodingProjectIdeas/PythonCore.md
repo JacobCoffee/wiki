@@ -20,9 +20,9 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 - [SpeedUpInterpreterStartup](SpeedUpInterpreterStartup)
 
-- [../PythonGarbageCollected](./CodingProjectIdeas(2f)PythonGarbageCollected.html)
+- [../PythonGarbageCollected](PythonGarbageCollected)
 
-- [../RegisterVirtualMachine](./CodingProjectIdeas(2f)RegisterVirtualMachine.html)
+- [../RegisterVirtualMachine](RegisterVirtualMachine)
 
 - Add regular code-coverage (both C and Python) to the build system (maybe even to Buildbot?)
   - Better introspection support for C functions: ability to expose arguments through inspect. Might require retrofitting existing extensions.

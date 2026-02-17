@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-Counter to the [PythonSpeed/PerformanceTips](./PythonSpeed(2f)PerformanceTips.html), on python 2.4 the following string concatenation is almost twice as fast:
+Counter to the [PythonSpeed/PerformanceTips](../performance/PythonSpeed/PerformanceTips), on python 2.4 the following string concatenation is almost twice as fast:
 
 :::: 
 ::: 
@@ -46,7 +46,7 @@ On the win32 Python 2.4 I\'m seeing the join sample above complete in less than 
 
 - -db
 
-Usually the join() is located *outside* the loop, that code makes this extremely hard though (becuase of the self-referencing of the generated string). But that situation is not the norm. \-- [JürgenHermann](./J(c3bc)rgenHermann.html) 2005-08-01 06:07:51
+Usually the join() is located *outside* the loop, that code makes this extremely hard though (becuase of the self-referencing of the generated string). But that situation is not the norm. \-- [JürgenHermann](JürgenHermann) 2005-08-01 06:07:51
 
 Are you guys kidding? The whole page is contrieved. Correct implementation of \"join\" is:
 
@@ -68,7 +68,7 @@ which gives on [PythonWin](PythonWin) 2.4 (#60, Nov 30 2004, 09:34:21) \[MSC v.1
 
 \-- \-- [MikeRovner](MikeRovner) 2005-08-02 10:19:06
 
-- Mike, that code generates a very different (and much shorter) s. Note how the original code takes the half of the *preconcatenated* s, making the size grow exponentially (which generates megabytes of data). \-- [JürgenHermann](./J(c3bc)rgenHermann.html) 2005-08-30 18:44:05
+- Mike, that code generates a very different (and much shorter) s. Note how the original code takes the half of the *preconcatenated* s, making the size grow exponentially (which generates megabytes of data). \-- [JürgenHermann](JürgenHermann) 2005-08-30 18:44:05
 
 \-- \-- [DavidFord](./DavidFord.html) 2005-10-18 10:19:06 A few notes (your mileage may vary - this is a 4Mb file being stripped of unprintable characters)
 

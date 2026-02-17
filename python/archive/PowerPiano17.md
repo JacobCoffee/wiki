@@ -14,7 +14,7 @@ Email: PowerPiano17@gmail.com
 
 - [FrontPage](FrontPage)
 
-- [PowerPiano17/Doodles](./PowerPiano17(2f)Doodles.html)
+- [PowerPiano17/Doodles](PowerPiano17/Doodles)
 
 - [Code](Code)
 

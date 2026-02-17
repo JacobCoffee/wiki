@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-Stephan Deibel suggested that the PSF could use some printed material to hand out at conferences. (This page overlaps the [evangelism support materials](./evangelism(20)support(20)materials.html) page.)
+Stephan Deibel suggested that the PSF could use some printed material to hand out at conferences. (This page overlaps the [evangelism support materials](../archive/evangelism support materials) page.)
 
 # Brochure 
 

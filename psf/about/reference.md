@@ -8,4 +8,4 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Reference Materials
 
-- [Managing the Nonprofit Organization](./reference(2f)managing_nonprofit.html) by Peter F. Drucker
+- [Managing the Nonprofit Organization](../governance/reference/managing_nonprofit) by Peter F. Drucker

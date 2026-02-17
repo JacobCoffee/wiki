@@ -8,6 +8,6 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Packaging/Sprints
 
-- [DocumentationSprint](./Packaging(2f)Sprints(2f)DocumentationSprint.html)
+- [DocumentationSprint](Sprints/DocumentationSprint)
 
-- [PysetupSprint](./Packaging(2f)Sprints(2f)PysetupSprint.html)
+- [PysetupSprint](Sprints/PysetupSprint)

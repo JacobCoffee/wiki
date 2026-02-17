@@ -32,7 +32,7 @@ Please join the [EuroPython](EuroPython) Mailing List to discuss conference topi
 
 Please add sprint proposals to the following page:
 
-- [/Sprints](./EuroPython2019(2f)Sprints.html) - [EuroPython](EuroPython) 2019 sprints
+- [/Sprints](EuroPython2019/Sprints) - [EuroPython](EuroPython) 2019 sprints
 
 ## Traveling 
 

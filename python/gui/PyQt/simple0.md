@@ -76,4 +76,4 @@ The \"program\" at this stage does not do anything, though it uses the **ui_simp
 
 This kind of program stub occurs in many applications. We have chosen to use Python\'s special feature of **multiple inheritance**, so that the methods of Ui_MainWindow becomes readily accessible without referring explicitly to Ui_MainWindow. The convenience of this will become more apparent after we add to this stub some means to better control the program.
 
-[Return Home](./PyQt(2f)simple.html)
+[Return Home](simple)

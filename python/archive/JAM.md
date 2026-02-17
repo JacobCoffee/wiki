@@ -16,9 +16,9 @@ You can now email me at [jam555691@yahoo.com](mailto:jam555691@yahoo.com). You c
 
 # JAM\'s Other Wiki Pages 
 
-- [JAM/Code](./JAM(2f)Code.html) - Here you can find code written by [JAM](JAM).
+- [JAM/Code](JAM/Code) - Here you can find code written by [JAM](JAM).
 
-- [JAM/News](./JAM(2f)News.html) - Here you can find out the latest on developments of this page.
+- [JAM/News](JAM/News) - Here you can find out the latest on developments of this page.
 
 ------------------------------------------------------------------------
 

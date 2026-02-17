@@ -21,7 +21,7 @@ Contents
 ::: 
 ### [Preliminaries](#id6)
 
-The Docutils sprint at PyConTX2006 was held over 4 days, from 9:00 Monday February 27 through Thursday March 2 inclusive. There was no cost to attend the sprints beyond being present at PyCon. For introductory information and information about the other sprints going on at PyConTX2006, please see [PyCon2006/Sprints](./PyCon2006(2f)Sprints.html). Also see the [Docutils home page](http://docutils.sourceforge.net) and the [reStructuredText home page](http://docutils.sourceforge.net/rst.html). The PyCon DC 2004 Docutils sprint details are here: [DocutilsSprint](DocutilsSprint).
+The Docutils sprint at PyConTX2006 was held over 4 days, from 9:00 Monday February 27 through Thursday March 2 inclusive. There was no cost to attend the sprints beyond being present at PyCon. For introductory information and information about the other sprints going on at PyConTX2006, please see [PyCon2006/Sprints](). Also see the [Docutils home page](http://docutils.sourceforge.net) and the [reStructuredText home page](http://docutils.sourceforge.net/rst.html). The PyCon DC 2004 Docutils sprint details are here: [DocutilsSprint](DocutilsSprint).
 
 Please feel free to add your comments here (prefered); I\'ll be notified of all changes to this page. If you can\'t edit the wiki, you can [email me](mailto:goodger@python.org).
 

@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-**Note:** BundleBuilder is going to be replaced by [py2app](./MacPython(2f)py2app.html), a distutils extension that converts python scripts into executable Mac OS X applications, able to run without requiring an existing Python installation. This is a replacement for bundlebuilder. If you have used the PyObjC 1.2 installer, you do not need this because py2app 0.1.7 is included.
+**Note:** BundleBuilder is going to be replaced by [py2app](../platforms/MacPython/py2app), a distutils extension that converts python scripts into executable Mac OS X applications, able to run without requiring an existing Python installation. This is a replacement for bundlebuilder. If you have used the PyObjC 1.2 installer, you do not need this because py2app 0.1.7 is included.
 
 **Note:** Because py2app\'s development has slowed, BundleBuilder remains a useful alternative if you encounter issues with py2app. BundleBuilder has been removed from Python 3.x but extracting the module from the Python 2.x source tree and modifying as needed should not be difficult. See \* [http://www.pythonmac.org/wiki/BundleBuilder](http://www.pythonmac.org/wiki/BundleBuilder) for more information.
 

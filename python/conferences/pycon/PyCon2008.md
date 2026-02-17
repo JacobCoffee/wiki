@@ -39,16 +39,16 @@ March 17-20 (Monday-Thursday) Sprints
 ::: 
 ### PyCon 2008 Wiki Pages
 
-- [Sprint Accomplishments](./Sprint(20)Accomplishments.html)
-- [Attendee Notes](./Attendee(20)Notes.html) (addenda to [http://us.pycon.org/2008/about/notes/](http://us.pycon.org/2008/about/notes/))
-- [Volunteer Signup](./Volunteer(20)Signup.html)
-- [Open Space](./PyCon2008(2f)OpenSpace.html) ([Open Space Talk Titles](./PyCon2008(2f)OpenSpaceTalkTitles.html))
-- [Sprint Signups](./PyCon2008(2f)SprintSignups.html)
-- [Birds of a Feather](./PyCon2008(2f)BirdsOfAFeather.html)
+- [Sprint Accomplishments](../../sprints/Sprint Accomplishments)
+- [Attendee Notes](../../people/Attendee Notes) (addenda to [http://us.pycon.org/2008/about/notes/](http://us.pycon.org/2008/about/notes/))
+- [Volunteer Signup](../../people/Volunteer Signup)
+- [Open Space](PyCon2008/OpenSpace) ([Open Space Talk Titles](PyCon2008/OpenSpaceTalkTitles))
+- [Sprint Signups](PyCon2008/SprintSignups)
+- [Birds of a Feather](PyCon2008/BirdsOfAFeather)
 - [Room Sharing](./PyCon2008(2f)Room_Sharing.html)
-- [Organizers\' Meetings](./PyCon2008(2f)OrganizersMeetings.html) agenda and info.
-- [Staff](./PyCon2008(2f)Staff.html)
-- [Talk Subjects](./Talk(20)Subjects.html) - Want to talk but not sure what to talk about?
+- [Organizers\' Meetings](PyCon2008/OrganizersMeetings) agenda and info.
+- [Staff](PyCon2008/Staff)
+- [Talk Subjects](../../people/Talk Subjects) - Want to talk but not sure what to talk about?
 - [Bid requirements](http://wiki.python.org/moin/PyConPlanning/BidRequirements) (see its \"[Further Info](http://wiki.python.org/moin/PyConPlanning/BidRequirements#further-info)\" section).
 - Cities that bid:
   - Boston, organizer SJ Klein - sj at laptop .org

@@ -11,7 +11,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 Whenever I copy an executable with macostools.copy, I am denied permission to execute it. However, when I check the file permissions in Finder, they are unchanged. Why does this happen?
 
 ::: note
-When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](./Asking(20)for(20)Help.html) page.
+When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help]() page.
 :::
 
 ------------------------------------------------------------------------

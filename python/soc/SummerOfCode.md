@@ -14,31 +14,31 @@ Summer of Code programs help students get stipends to work on open source projec
 
 # Archive of previous years 
 
-- [SummerOfCode/2005](./SummerOfCode(2f)2005.html)
+- [SummerOfCode/2005](SummerOfCode/2005)
 
-- [SummerOfCode/2006](./SummerOfCode(2f)2006.html)
+- [SummerOfCode/2006](SummerOfCode/2006)
 
-- [SummerOfCode/2007](./SummerOfCode(2f)2007.html)
+- [SummerOfCode/2007](SummerOfCode/2007)
 
-- [SummerOfCode/2008](./SummerOfCode(2f)2008.html)
+- [SummerOfCode/2008](SummerOfCode/2008)
 
-- [SummerOfCode/2009](./SummerOfCode(2f)2009.html)
+- [SummerOfCode/2009](SummerOfCode/2009)
 
-- [SummerOfCode/2010](./SummerOfCode(2f)2010.html)
+- [SummerOfCode/2010](SummerOfCode/2010)
 
-- [SummerOfCode/2011](./SummerOfCode(2f)2011.html)
+- [SummerOfCode/2011](SummerOfCode/2011)
 
-- [SummerOfCode/2012](./SummerOfCode(2f)2012.html)
+- [SummerOfCode/2012](SummerOfCode/2012)
 
-- [SummerOfCode/2013](./SummerOfCode(2f)2013.html)
+- [SummerOfCode/2013](SummerOfCode/2013)
 
-- [SummerOfCode/2014](./SummerOfCode(2f)2014.html)
+- [SummerOfCode/2014](SummerOfCode/2014)
 
 - ESA Summer of Code 2014: [http://sophia.estec.esa.int/socis/](http://sophia.estec.esa.int/socis/)
 
-- [SummerOfCode/2015](./SummerOfCode(2f)2015.html)
+- [SummerOfCode/2015](SummerOfCode/2015)
 
-- [SummerOfCode/2016](./SummerOfCode(2f)2016.html)
+- [SummerOfCode/2016](SummerOfCode/2016)
 
 - [http://python-gsoc.org/2017/](http://python-gsoc.org/2017/)
 

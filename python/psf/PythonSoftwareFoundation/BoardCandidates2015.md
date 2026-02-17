@@ -64,14 +64,14 @@ Nominees
 ::: topic
 Links
 
-- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html)
-- [2014 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2014.html)
-- [2013 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2013.html)
-- [2012 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2012.html)
-- [2011 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2011.html)
-- [2010 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html)
-- [2009 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2009.html)
-- [2008 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2008.html)
+- [Duties and Responsibilities of Directors](DutiesAndResponsibilitiesOfDirectors)
+- [2014 Board Candidates](BoardCandidates2014)
+- [2013 Board Candidates](BoardCandidates2013)
+- [2012 Board Candidates](BoardCandidates2012)
+- [2011 Board Candidates](BoardCandidates2011)
+- [2010 Board Candidates](BoardCandidates2010)
+- [2009 Board Candidates](BoardCandidates2009)
+- [2008 Board Candidates](BoardCandidates2008)
 :::
 
 **Registering as a PSF Board candidate**

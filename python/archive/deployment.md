@@ -20,7 +20,7 @@ Here are typical answers:
 
 - [cx Freeze](./cx(20)Freeze.html)
 
-- [py2app](./MacPython(2f)py2app.html) is for Macintosh
+- [py2app](../platforms/MacPython/py2app) is for Macintosh
 
 - [py2exe](./py2exe.html)
 

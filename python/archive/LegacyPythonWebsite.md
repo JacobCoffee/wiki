@@ -40,7 +40,7 @@ See [PythonWebsiteHomePage](PythonWebsiteHomePage) for discussion on what should
 
 - [SiteImprovements](SiteImprovements)
 
-- [PythonWebsite/Conventions](./PythonWebsite(2f)Conventions.html)
+- [PythonWebsite/Conventions](../infrastructure/PythonWebsite/Conventions)
 
 ------------------------------------------------------------------------
 

@@ -88,7 +88,7 @@ If you find stale pages, please add here, this might be useful work for voluntee
 
 - (done) The first two links at [PythonEditors#Other_Resources](PythonEditors#Other_Resources) are stale
 
-- (done) [MacPython/PythonDistributionsForMac](./MacPython(2f)PythonDistributionsForMac.html) does not mention homebrew
+- (done) [MacPython/PythonDistributionsForMac](../platforms/MacPython/PythonDistributionsForMac) does not mention homebrew
 
 - [MacPython](MacPython) has a link for 10.5 Leopard but MacOS has moved on a number of releases from there. There should be something on the mess with Apple\'s buggy tcl/tk, how to not create conflicts with the system version of Python, etc.
 
@@ -103,7 +103,7 @@ If you find stale pages, please add here, this might be useful work for voluntee
 
 - Shorten URLs - remove /moin/ prefix from [http://wiki.python.org/moin/SiteImprovements#Wiki](SiteImprovements#Wiki)
 
-  - This requires moving Jython wiki from [http://wiki.python.org/jython/](./jython(2f).html) to [http://wiki.jython.org/](http://wiki.jython.org/) and placing a temporary redirect on the previous places. \-- [techtonik](techtonik) 2010-03-16 08:39:34
+  - This requires moving Jython wiki from [http://wiki.python.org/jython/](../../jython/) to [http://wiki.jython.org/](http://wiki.jython.org/) and placing a temporary redirect on the previous places. \-- [techtonik](techtonik) 2010-03-16 08:39:34
 
 - Rationalize the natural language coverage (merging the \"new\" language pages with the old ones)
 
@@ -144,7 +144,7 @@ If you find stale pages, please add here, this might be useful work for voluntee
 
   - [MoinMoin](MoinMoin) is a general purpose wiki like [MediaWiki](./MediaWiki.html) and it may happen that old syntax created problems with porting content between them. However, for software projects, Trac and [Google Code](http://code.google.com/p/support/wiki/WikiSyntax) were inspired by the old variant of markup and there is [no single ticket](http://code.google.com/p/support/issues/list) to switch to [MediaWiki](./MediaWiki.html). I would really like to see reasoning behind the choice in [MoinMoin](MoinMoin) 1.6, and know if there is a preference to turn on the old markup. \-- [techtonik](techtonik) 2010-03-16 08:20:29
 
-  - A good summary of why the syntax was changed was posted in an IRC conversation on the #moin channel, and I\'ve uploaded it [here](./SiteImprovements(2f)WikiSyntaxComparison.html) \-- [PaulBoddie](PaulBoddie) 2010-04-23 11:36:53
+  - A good summary of why the syntax was changed was posted in an IRC conversation on the #moin channel, and I\'ve uploaded it [here](SiteImprovements/WikiSyntaxComparison) \-- [PaulBoddie](PaulBoddie) 2010-04-23 11:36:53
 
 - There should be a \"Logout\" link in the left navigation (Actions)
   - Don\'t you see a \"Logout\" link under \"User\" or are you not using the new (and awesome) default theme? \-- [PaulBoddie](PaulBoddie) 2011-03-25 20:53:00

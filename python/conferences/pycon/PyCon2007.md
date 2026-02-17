@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 [PyCon](PyCon) 2007 was held near Dallas, Texas.
 
-- [Accepted Talks](./PyCon2007(2f)Talks.html)
+- [Accepted Talks](PyCon2007/Talks)
 
 The main conference web site was [http://us.pycon.org/TX2007/](http://us.pycon.org/TX2007/).
 

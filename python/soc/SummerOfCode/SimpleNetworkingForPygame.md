@@ -8,4 +8,4 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Simple Networking For Pygame 
 
-This page has been moved to [SummerOfCode/PythonLibraries/SimpleNetworkingForPygame](./SummerOfCode(2f)PythonLibraries(2f)SimpleNetworkingForPygame.html)
+This page has been moved to [SummerOfCode/PythonLibraries/SimpleNetworkingForPygame](PythonLibraries/SimpleNetworkingForPygame)

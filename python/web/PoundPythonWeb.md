@@ -20,7 +20,7 @@ Sure. Don\'t use mod_python.
 
 It causes people no end of trouble and was never really a good idea in the first place. Yes, this is our opinion, but it\'s an opinion that\'s been borne out by experience. If you think #python.web ought to help people with mod_python, great. Come give help. We can use active people.
 
-[More on mod_python from #python.web](./PoundPythonWeb(2f)mod_python.html)
+[More on mod_python from #python.web](PoundPythonWeb/mod_python)
 
 ### What framework should I use? 
 

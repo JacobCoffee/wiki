@@ -75,7 +75,7 @@ I have a problem with a program for Conway\'s Game of Life. Here\'s the source c
 The program doesn\'t quite do what it should, but I can\'t find anything wrong with the source.
 
 ::: note
-When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](./Asking(20)for(20)Help.html) page.
+When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help]() page.
 :::
 
 ------------------------------------------------------------------------

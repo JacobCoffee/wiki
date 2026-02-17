@@ -34,7 +34,7 @@ There a various tools which make it easier to bridge the gap between Python and 
 
 Tools to make C/C++ functions/methods accessible from Python by generating binding (Python extension or module) from header files.
 
-- [boost.python](./boost(2e)python.html) - Expose C++ classes functions and objects to Python, and vice-versa, using just C++ compiler
+- [boost.python](../implementations/boost.python) - Expose C++ classes functions and objects to Python, and vice-versa, using just C++ compiler
 
 - [PyAutoC](https://github.com/orangeduck/PyAutoC) - Automatically wrap C functions and structs, using just C compiler.
 

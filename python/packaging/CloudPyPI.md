@@ -16,7 +16,7 @@ We are setting up a PyPI mirror of the static content of PyPI in Amazon [CloudFr
 
 ## Proposal 
 
-- [CloudPyPI/Proposal](./CloudPyPI(2f)Proposal.html)
+- [CloudPyPI/Proposal](CloudPyPI/Proposal)
 
 The proposal was accepted by the PSF in their December 2010 board meeting.
 
@@ -38,7 +38,7 @@ We\'ve setup an example CDN which only provides caching services to the PyPI ser
 
 - [https://d1t66zoqn9vlte.cloudfront.net/simple/](https://d1t66zoqn9vlte.cloudfront.net/simple/)
 
-- For more details on the used setup, please see [CloudPyPI/ExampleCDN](./CloudPyPI(2f)ExampleCDN.html)
+- For more details on the used setup, please see [CloudPyPI/ExampleCDN](CloudPyPI/ExampleCDN)
 
 ## Team 
 

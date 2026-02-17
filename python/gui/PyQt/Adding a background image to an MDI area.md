@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Adding a background image to an MDI area 
 
-On [TheMailingList](./PyQt(2f)TheMailingList.html), Sarah Mount asked [whether it was possible to display a non-tiled image](http://www.riverbankcomputing.com/pipermail/pyqt/2011-April/029653.html) in the background of an MDI area widget.
+On [TheMailingList](TheMailingList), Sarah Mount asked [whether it was possible to display a non-tiled image](http://www.riverbankcomputing.com/pipermail/pyqt/2011-April/029653.html) in the background of an MDI area widget.
 
 The following code uses the same technique that the `qtconfig`{.backtick} tool uses to place a message in the background of its preview widget. In this example, setting the `centered`{.backtick} attribute causes the image to be displayed in the centre of the background area; if unset, the image is scaled to fill the background area.
 

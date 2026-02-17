@@ -418,7 +418,7 @@ Suppose you have class \"C\" with methods \"getA\" and \"setA\" and you want to 
 
     .add_property("a", &C::getA, &C::setA)
 
-will work unless you need to assign a [CallPolicy](./boost(2e)python(2f)CallPolicy.html) to them. In that case use \"make_function\":
+will work unless you need to assign a [CallPolicy](../../implementations/boost.python/CallPolicy) to them. In that case use \"make_function\":
 
     .add_property("a",
           make_function(&C::getA, return_value_policy<...>()),
@@ -534,7 +534,7 @@ and get the underlying T this way:
 
     T& t = extract<T&>(pyt);
 
-See [../extract](./boost(2e)python(2f)extract.html)
+See [../extract](../../implementations/boost.python/extract)
 
 ### SWIG exposed C++ object from Python 
 

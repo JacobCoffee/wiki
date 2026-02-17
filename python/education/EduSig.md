@@ -15,7 +15,7 @@ I got this note from one of my Edu-SIG postings, so here it is.
 
 ------------------------------------------------------------------------
 
-[Relevant, Reusable Data for Educational Exercises](./EduSig(2f)DataResources.html)
+[Relevant, Reusable Data for Educational Exercises](EduSig/DataResources)
 
 In Seattle we are discussing [PythonInSchools](http://www.seapig.org/PythonInSchools "SeaPig")
 

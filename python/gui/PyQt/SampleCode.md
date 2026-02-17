@@ -12,149 +12,149 @@ This page contains links to some useful code snippets. Longer, more detailed cod
 
 ## PyQt 5 
 
-- [QML callback function](./PyQt(2f)QML(20)callback(20)function.html): How to pass and execute callback functions with QML.
+- [QML callback function](QML callback function): How to pass and execute callback functions with QML.
 
-- [Threading, Signals and Slots](./PyQt5(2f)Threading(2c)_Signals_and_Slots.html): How to perform work in one thread and use the result in another.
+- [Threading, Signals and Slots](../PyQt5/Threading,_Signals_and_Slots): How to perform work in one thread and use the result in another.
 
 ## PyQt 4 
 
-- [Decoding Japanese Text](./PyQt(2f)Decoding_Japanese_Text.html): The response to a posting on comp.lang.python, asking about decoding text for display in a GUI.
+- [Decoding Japanese Text](Decoding_Japanese_Text): The response to a posting on comp.lang.python, asking about decoding text for display in a GUI.
 
 - [Screenshots](http://home.tampabay.rr.com/dataheli/) of various database and 3D graphics widgets, with code to follow soon. **\[dead link!\]**
 
-- [Using GStreamer with PyQt](./PyQt(2f)Using(20)GStreamer(20)with(20)PyQt.html): How to use the GStreamer bindings for Python with PyQt (see [Multimedia Resources](./PyQt(2f)Multimedia_Resources.html) for more multimedia links).
+- [Using GStreamer with PyQt](Using GStreamer with PyQt): How to use the GStreamer bindings for Python with PyQt (see [Multimedia Resources](Multimedia_Resources) for more multimedia links).
 
 ### Infrastructure 
 
-- [Threading, Signals and Slots](./PyQt(2f)Threading(2c)_Signals_and_Slots.html): How to perform work in one thread and use the result in another. (Qt 4)
+- [Threading, Signals and Slots](Threading,_Signals_and_Slots): How to perform work in one thread and use the result in another. (Qt 4)
 
-- [PyQt/AutoConnectingSlots](./PyQt(2f)AutoConnectingSlots.html): How to have the signals of widgets automatically connected to Python defined slots.
+- [PyQt/AutoConnectingSlots](AutoConnectingSlots): How to have the signals of widgets automatically connected to Python defined slots.
 
-- [Handling Qt\'s internal item MIME type](./PyQt(2f)Handling(20)Qt(27)s(20)internal(20)item(20)MIME(20)type.html): How to implement a drop handler in a model to handle items dragged from standard models.
+- [Handling Qt\'s internal item MIME type](Handling Qt's internal item MIME type): How to implement a drop handler in a model to handle items dragged from standard models.
 
-- [Handling an internal Qt MIME type](./PyQt(2f)Handling(20)an(20)internal(20)Qt(20)MIME(20)type.html): How to handle the internal MIME type used for drag and drop between item views.
+- [Handling an internal Qt MIME type](Handling an internal Qt MIME type): How to handle the internal MIME type used for drag and drop between item views.
 
-- [Binding widget properties to Python variables](./PyQt(2f)Binding(20)widget(20)properties(20)to(20)Python(20)variables.html): Using Python\'s property system to access Qt properties and bind them to variables.
+- [Binding widget properties to Python variables](Binding widget properties to Python variables): Using Python\'s property system to access Qt properties and bind them to variables.
 
-- [Making non-clickable widgets clickable](./PyQt(2f)Making(20)non(2d)clickable(20)widgets(20)clickable.html): How to misuse event filters to add `clicked()`{.backtick} signals to widgets.
+- [Making non-clickable widgets clickable](Making non-clickable widgets clickable): How to misuse event filters to add `clicked()`{.backtick} signals to widgets.
 
-- [Undo and redo with line edits](./PyQt(2f)Undo(20)and(20)redo(20)with(20)line(20)edits.html): An incomplete example showing basic undo/redo handling.
+- [Undo and redo with line edits](Undo and redo with line edits): An incomplete example showing basic undo/redo handling.
 
-- [Using a signal mapper](./PyQt(2f)Using(20)a(20)signal(20)mapper.html): How to associate values with signals from many widgets and use one slot to handle them all.
+- [Using a signal mapper](Using a signal mapper): How to associate values with signals from many widgets and use one slot to handle them all.
 
-- [Sending Python values with signals and slots](./PyQt(2f)Sending(20)Python(20)values(20)with(20)signals(20)and(20)slots.html): How to communicate Python values via Qt\'s signals and slots mechanism.
+- [Sending Python values with signals and slots](Sending Python values with signals and slots): How to communicate Python values via Qt\'s signals and slots mechanism.
 
-- [Using a translation of Qt](./PyQt(2f)Using(20)a(20)translation(20)of(20)Qt.html): How to display standard dialogs and messages in your local language.
+- [Using a translation of Qt](Using a translation of Qt): How to display standard dialogs and messages in your local language.
 
 - [Getting the version numbers of Qt, SIP and PyQt](./PyQt(2f)Getting(20)the(20)version(20)numbers(20)of(20)Qt(2c20)SIP(20)and(20)PyQt.html): How to obtain the version information for the Qt-related modules you are using.
 
-- [Writing a client for a zeromq service](./PyQt(2f)Writing(20)a(20)client(20)for(20)a(20)zeromq(20)service.html): How to access a zeromq service while keeping the GUI responsive.
+- [Writing a client for a zeromq service](Writing a client for a zeromq service): How to access a zeromq service while keeping the GUI responsive.
 
 ### Painting 
 
-- [Drawing highlighted rows in a calendar widget](./PyQt(2f)Drawing(20)highlighted(20)rows(20)in(20)a(20)calendar(20)widget.html): How to highlight the current week in a QCalendarWidget subclass.
+- [Drawing highlighted rows in a calendar widget](Drawing highlighted rows in a calendar widget): How to highlight the current week in a QCalendarWidget subclass.
 
-- [Windows with gradient backgrounds](./PyQt(2f)Windows(20)with(20)gradient(20)backgrounds.html): How to change the background colour of a window to use a gradient instead of the standard colour in the palette.
+- [Windows with gradient backgrounds](Windows with gradient backgrounds): How to change the background colour of a window to use a gradient instead of the standard colour in the palette.
 
-- [Fading Between Widgets](./PyQt(2f)Fading(20)Between(20)Widgets.html): How to create a stacked widget that fades between widgets on different pages.
+- [Fading Between Widgets](Fading Between Widgets): How to create a stacked widget that fades between widgets on different pages.
 
-- [Fading and unfading a widget with a delay](./PyQt(2f)Fading(20)and(20)unfading(20)a(20)widget(20)with(20)a(20)delay.html): How to produce a simple fade-unfade animation.
+- [Fading and unfading a widget with a delay](Fading and unfading a widget with a delay): How to produce a simple fade-unfade animation.
 
-- [Paint on an image](./PyQt(2f)Paint(20)on(20)an(20)image.html): How to paint text and graphics on an image.
+- [Paint on an image](Paint on an image): How to paint text and graphics on an image.
 
-- [Painting and clipping demonstration](./PyQt(2f)Painting(20)and(20)clipping(20)demonstration.html): A demonstration showing how to clip what a painter draws on a widget.
+- [Painting and clipping demonstration](Painting and clipping demonstration): A demonstration showing how to clip what a painter draws on a widget.
 
-- [Clipping SVG output](./PyQt(2f)Clipping(20)SVG(20)output.html): How to clip Scalable Vector Graphics (SVG) output when drawing with QPainter.
+- [Clipping SVG output](Clipping SVG output): How to clip Scalable Vector Graphics (SVG) output when drawing with QPainter.
 
-- [GraphicsView\_-\_SimpleAnimation](./PyQt(2f)GraphicsView_(2d)_SimpleAnimation.html): How to construct a very simple animation using QGraphicsView, QGraphicsItem, QGraphicsItemAnimation and QTimeLine. (Qt4)
+- [GraphicsView\_-\_SimpleAnimation](GraphicsView_-_SimpleAnimation): How to construct a very simple animation using QGraphicsView, QGraphicsItem, QGraphicsItemAnimation and QTimeLine. (Qt4)
 
-- [Python syntax highlighting](./PyQt(2f)Python(20)syntax(20)highlighting.html): How to add syntax highlighting to a QPlainTextEdit widget. (Qt4)
+- [Python syntax highlighting](Python syntax highlighting): How to add syntax highlighting to a QPlainTextEdit widget. (Qt4)
 
-- [Painting an overlay on an image](./PyQt(2f)Painting(20)an(20)overlay(20)on(20)an(20)image.html): How to paint one image onto another.
+- [Painting an overlay on an image](Painting an overlay on an image): How to paint one image onto another.
 
-- [Movie splash screen](./PyQt(2f)Movie(20)splash(20)screen.html): How to paint a movie on a splash screen instead of a static image.
+- [Movie splash screen](Movie splash screen): How to paint a movie on a splash screen instead of a static image.
 
-- [Extend Two QPixmap](./PyQt(2f)Extend(20)Two(20)QPixmap.html): How to paint merge two QPixmaps into one QPixmap.
+- [Extend Two QPixmap](Extend Two QPixmap): How to paint merge two QPixmaps into one QPixmap.
 
 ### Widgets 
 
-- [Widgets in a layout](./PyQt(2f)Widgets(20)in(20)a(20)layout.html): How to create widgets and put them in a layout.
+- [Widgets in a layout](Widgets in a layout): How to create widgets and put them in a layout.
 
-- [Show an image using a label](./PyQt(2f)Show(20)an(20)image(20)using(20)a(20)label.html): How to display an image.
+- [Show an image using a label](Show an image using a label): How to display an image.
 
-- [A full widget waiting indicator](./PyQt(2f)A(20)full(20)widget(20)waiting(20)indicator.html): How to draw a busy/waiting indicator over an entire widget.
+- [A full widget waiting indicator](A full widget waiting indicator): How to draw a busy/waiting indicator over an entire widget.
 
-- [Handling context menus](./PyQt(2f)Handling(20)context(20)menus.html): The different ways you can handle context menus.
+- [Handling context menus](Handling context menus): The different ways you can handle context menus.
 
-- [Five minute steps in a QTimeEdit](./PyQt(2f)Five(20)minute(20)steps(20)in(20)a(20)QTimeEdit.html): Customise the behaviour of QTimeEdit by subclassing.
+- [Five minute steps in a QTimeEdit](Five minute steps in a QTimeEdit): Customise the behaviour of QTimeEdit by subclassing.
 
-- [Customising tab bars](./PyQt(2f)Customising(20)tab(20)bars.html): How to change the size allocated to tabs in tab bars and tab widgets.
+- [Customising tab bars](Customising tab bars): How to change the size allocated to tabs in tab bars and tab widgets.
 
-- [Customising a tab to contain a menu](./PyQt(2f)Customising(20)a(20)tab(20)to(20)contain(20)a(20)menu.html): How to put a menu button in a tab bar.
+- [Customising a tab to contain a menu](Customising a tab to contain a menu): How to put a menu button in a tab bar.
 
-- [Adding auto-completion to a QLineEdit](./PyQt(2f)Adding(20)auto(2d)completion(20)to(20)a(20)QLineEdit.html): How to use a QStringListModel to provide data for auto-completion.
+- [Adding auto-completion to a QLineEdit](Adding auto-completion to a QLineEdit): How to use a QStringListModel to provide data for auto-completion.
 
-- [Adding tab-completion to a QLineEdit](./PyQt(2f)Adding(20)tab(2d)completion(20)to(20)a(20)QLineEdit.html): How to handle key events to enable tab-completion.
+- [Adding tab-completion to a QLineEdit](Adding tab-completion to a QLineEdit): How to handle key events to enable tab-completion.
 
-- [Adding custom signals to a simple painted widget](./PyQt(2f)Adding(20)custom(20)signals(20)to(20)a(20)simple(20)painted(20)widget.html): How to declare and use custom signals.
+- [Adding custom signals to a simple painted widget](Adding custom signals to a simple painted widget): How to declare and use custom signals.
 
-- [Creating a widget with a fixed aspect ratio](./PyQt(2f)Creating(20)a(20)widget(20)with(20)a(20)fixed(20)aspect(20)ratio.html): How to ensure that a widget keeps a certain aspect ratio when it is resized.
+- [Creating a widget with a fixed aspect ratio](Creating a widget with a fixed aspect ratio): How to ensure that a widget keeps a certain aspect ratio when it is resized.
 
-- [Compass widget](./PyQt(2f)Compass(20)widget.html): A simple custom widget, showing how to handle paint events.
+- [Compass widget](Compass widget): A simple custom widget, showing how to handle paint events.
 
-- [Adding a background image to an MDI area](./PyQt(2f)Adding(20)a(20)background(20)image(20)to(20)an(20)MDI(20)area.html): How to display a non-tiled image in the background of an MDI area widget.
+- [Adding a background image to an MDI area](Adding a background image to an MDI area): How to display a non-tiled image in the background of an MDI area widget.
 
-- [Selecting a region of a widget](./PyQt(2f)Selecting(20)a(20)region(20)of(20)a(20)widget.html): How to use a QRubberBand to select part of a widget.
+- [Selecting a region of a widget](Selecting a region of a widget): How to use a QRubberBand to select part of a widget.
 
-- [Distinguishing between click and double click](./PyQt(2f)Distinguishing(20)between(20)click(20)and(20)double(20)click.html): How to handle a double click without acting on the first click.
+- [Distinguishing between click and double click](Distinguishing between click and double click): How to handle a double click without acting on the first click.
 
 ### Item Views 
 
-- [Using a different view with QComboBox](./PyQt(2f)Using(20)a(20)different(20)view(20)with(20)QComboBox.html): How to replace the standard view used for a combo box\'s pop-up menu.
+- [Using a different view with QComboBox](Using a different view with QComboBox): How to replace the standard view used for a combo box\'s pop-up menu.
 
-- [Sorting numbers in columns](./PyQt(2f)Sorting(20)numbers(20)in(20)columns.html): How to sort a table by the numbers in a given column.
+- [Sorting numbers in columns](Sorting numbers in columns): How to sort a table by the numbers in a given column.
 
-- [Animated items using delegates](./PyQt(2f)Animated(20)items(20)using(20)delegates.html): How to animate items in a list view, using a custom delegate, timer events and a signal.
+- [Animated items using delegates](Animated items using delegates): How to animate items in a list view, using a custom delegate, timer events and a signal.
 
-- [Animated items using delegates and movies](./PyQt(2f)Animated(20)items(20)using(20)delegates(20)and(20)movies.html): How to animate items in a list view - an improved version of the previous example.
+- [Animated items using delegates and movies](Animated items using delegates and movies): How to animate items in a list view - an improved version of the previous example.
 
-- [Adding items to a list widget](./PyQt(2f)Adding(20)items(20)to(20)a(20)list(20)widget.html): How to add items to a QListWidget instance.
+- [Adding items to a list widget](Adding items to a list widget): How to add items to a QListWidget instance.
 
-- [A custom Python class-based 1D model](./PyQt(2f)A(20)custom(20)Python(20)class(2d)based(20)1D(20)model.html): A drag and drop-enabled model which holds Python objects.
+- [A custom Python class-based 1D model](A custom Python class-based 1D model): A drag and drop-enabled model which holds Python objects.
 
-- [Reading selections from a selection model](./PyQt(2f)Reading(20)selections(20)from(20)a(20)selection(20)model.html): How to read selections and update an underlying model.
+- [Reading selections from a selection model](Reading selections from a selection model): How to read selections and update an underlying model.
 
-- [Creating a context menu for a tree view](./PyQt(2f)Creating(20)a(20)context(20)menu(20)for(20)a(20)tree(20)view.html): How to determine the level of nesting in a tree view and create an appropriate menu.
+- [Creating a context menu for a tree view](Creating a context menu for a tree view): How to determine the level of nesting in a tree view and create an appropriate menu.
 
-- [Selecting items in unrelated views](./PyQt(2f)Selecting(20)items(20)in(20)unrelated(20)views.html): How to use selection models to relate items in views with different models.
+- [Selecting items in unrelated views](Selecting items in unrelated views): How to use selection models to relate items in views with different models.
 
-- [Showing a subset of a model in a view](./PyQt(2f)Showing(20)a(20)subset(20)of(20)a(20)model(20)in(20)a(20)view.html): How to show a model in one view while showing a subset of the same model in another view.
+- [Showing a subset of a model in a view](Showing a subset of a model in a view): How to show a model in one view while showing a subset of the same model in another view.
 
 ### WebKit 
 
-- [Using a Custom Protocol with QtWebKit](./PyQt(2f)Using(20)a(20)Custom(20)Protocol(20)with(20)QtWebKit.html): How to add support for a custom protocol to an embedded Web browser.
+- [Using a Custom Protocol with QtWebKit](Using a Custom Protocol with QtWebKit): How to add support for a custom protocol to an embedded Web browser.
 
-- [Embedding Widgets in Web Pages](./PyQt(2f)Embedding(20)Widgets(20)in(20)Web(20)Pages.html): How to embed widgets written in Python into Web pages shown with QWebView.
+- [Embedding Widgets in Web Pages](Embedding Widgets in Web Pages): How to embed widgets written in Python into Web pages shown with QWebView.
 
-- [Exposing Qt Classes to QtWebKit](./PyQt(2f)Exposing(20)Qt(20)Classes(20)to(20)QtWebKit.html): How to wrap Qt classes and expose them to an embedded Web browser.
+- [Exposing Qt Classes to QtWebKit](Exposing Qt Classes to QtWebKit): How to wrap Qt classes and expose them to an embedded Web browser.
 
-- [Augmented Web Browser](./PyQt(2f)Augmented(20)Web(20)Browser.html): A Web browser with a side panel that shows a table of contents for the document being displayed.
+- [Augmented Web Browser](Augmented Web Browser): A Web browser with a side panel that shows a table of contents for the document being displayed.
 
 ### Multimedia 
 
-- [Playing a sound with QtMultimedia](./PyQt(2f)Playing(20)a(20)sound(20)with(20)QtMultimedia.html): How to use QAudioOutput to play a sound.
+- [Playing a sound with QtMultimedia](Playing a sound with QtMultimedia): How to use QAudioOutput to play a sound.
 
 ### Drag and Drop 
 
-- [Exporting a file to other applications](./PyQt(2f)Exporting(20)a(20)file(20)to(20)other(20)applications.html): How to drag data as a file for other applications to load.
+- [Exporting a file to other applications](Exporting a file to other applications): How to drag data as a file for other applications to load.
 
 ### Databases 
 
-- [Removing a database](./PyQt(2f)Removing(20)a(20)database.html): How to remove a database and optionally reload it again without getting warnings from Qt.
+- [Removing a database](Removing a database): How to remove a database and optionally reload it again without getting warnings from Qt.
 
 ### Qt Designer and uic 
 
-- [Previewing a form](./PyQt(2f)Previewing(20)a(20)form.html): How to load and display a form created in Qt Designer.
+- [Previewing a form](Previewing a form): How to load and display a form created in Qt Designer.
 
 ## PyQt 3 
 

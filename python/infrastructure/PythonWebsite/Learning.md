@@ -26,7 +26,7 @@ We should probably avoid \'Learning Python\', since that\'s an O\'Reilly book ti
 
 ## Content 
 
-Notes on the current content are at [PythonWebsite/Learning/Top](./PythonWebsite(2f)Learning(2f)Top.html). The site primarily links to resources, so its page architecture is pretty shallow.
+Notes on the current content are at [PythonWebsite/Learning/Top](Learning/Top). The site primarily links to resources, so its page architecture is pretty shallow.
 
 Should it target Python 2, 3 or both? Python 3 would be better, but would mean that initially it couldn\'t cover common third party libraries that haven\'t yet been ported to Python 3.
 

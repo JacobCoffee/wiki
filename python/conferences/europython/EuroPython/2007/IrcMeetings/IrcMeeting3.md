@@ -18,7 +18,7 @@ The meeting will take place on Wednesday 21st of March (2007-03-21) 18:00 CET (1
 
 No agenda has been published yet. The following points are likely to be covered:
 
-- Status of the [EuroPython/2007/CallForProposals](./EuroPython(2f)2007(2f)CallForProposals.html)
+- Status of the [EuroPython/2007/CallForProposals](../CallForProposals)
 
 - Fee structure (100 EUR reference point for early bird registration was mentioned)
 

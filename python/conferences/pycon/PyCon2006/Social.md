@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 A social event is anything that isn\'t strictly technical in nature.
 
-- [../BoardGameSocial](./PyCon2006(2f)BoardGameSocial.html)
+- [../BoardGameSocial](BoardGameSocial)
 
 - GPG keysigning BoF
 

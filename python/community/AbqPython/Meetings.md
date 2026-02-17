@@ -12,4 +12,4 @@ This group is mainly organized as [AbqPython MeetUp](http://www.meetup.com/AbqPy
 
 ## Past Meetings 
 
-- June 2, 2015 [Forrest York on BeautifulSoup.](./AbqPython(2f)Meetings(2f)2015_JUN_02.html)
+- June 2, 2015 [Forrest York on BeautifulSoup.](Meetings/2015_JUN_02)

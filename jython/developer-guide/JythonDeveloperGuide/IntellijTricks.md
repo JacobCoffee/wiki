@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Intellij IDEA Tricks 
 
-This page describes useful tricks for Intellij IDEA users. If you haven\'t created an Intellij project for Jython yet, see [JythonDeveloperGuide/IntellijNotes](./JythonDeveloperGuide(2f)IntellijNotes.html).
+This page describes useful tricks for Intellij IDEA users. If you haven\'t created an Intellij project for Jython yet, see [JythonDeveloperGuide/IntellijNotes](IntellijNotes).
 
 ## Eclipse Code Formatter 
 

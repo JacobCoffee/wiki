@@ -63,19 +63,19 @@ Thank you, Python Magazine, for free July issues for everyone!
 ::: 
 ### Activities
 
-> - [Talks](./PyOhio2008(2f)Talks.html)
+> - [Talks](PyOhio2008/Talks)
 >
 > > 
 >
-> - [Open Spaces](./PyOhio2008(2f)OpenSpaces.html)
+> - [Open Spaces](PyOhio2008/OpenSpaces)
 >
 > > 
 >
-> - [Lightning Talks](./PyOhio2008(2f)LightningTalks.html)
+> - [Lightning Talks](PyOhio2008/LightningTalks)
 >
 > > 
 >
-> - [Poster session](./PyOhio2008(2f)PosterSession.html)
+> - [Poster session](PyOhio2008/PosterSession)
 >
 > > 
 :::
@@ -87,7 +87,7 @@ Thank you, Python Magazine, for free July issues for everyone!
 
 The library has an attached parking garage (maximum charge \$10/day), and there are several privately-managed surface lots around the library.
 
-[Carpool](./PyOhio2008(2f)Carpool.html) to save on gas and parking!
+[Carpool](PyOhio2008/Carpool) to save on gas and parking!
 
 [From the Columbus Greyhound station](http://maps.google.com/maps?daddr=96+S+Grant+Ave,+Columbus,+OH+43215+(Columbus+Metropolitan+Library)&geocode=17469270175289288627,39.959178,-82.996678&dirflg=&saddr=111+E+Town+St,+Columbus,+OH+43215+(Greyhound+Bus+Lines:+Cols)&f=d&dq=greyhound+loc:+96+S+Grant+Ave,+Columbus,+OH+43215+(Columbus+Metropolitan+Library)&sll=39.961165,-82.990625&sspn=1.254027,1.660946&ie=UTF8&hl=en&z=17), exit the station, turn east (right) on Town Street, walk three blocks to Grant Ave, and turn left.
 
@@ -99,11 +99,11 @@ The library has an attached parking garage (maximum charge \$10/day), and there 
 
 Our planning notes have been moved to a separate wiki page:
 
-> - [Planning](./PyOhio2008(2f)Planning.html)
+> - [Planning](PyOhio2008/Planning)
 >
 > > 
 >
-> - [Budget](./PyOhio2008(2f)Budget.html)
+> - [Budget](PyOhio2008/Budget)
 >
 > > 
 :::

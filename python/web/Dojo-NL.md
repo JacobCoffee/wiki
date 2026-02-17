@@ -12,7 +12,7 @@ If you\'ve never heard of a coding dojo see these links: [What Is A Coding Dojo]
 
 ## Next dojo 
 
-\* April 21th [Agenda](./Dojo(2d)NL(2f)dojo210410.html)
+\* April 21th [Agenda](Dojo-NL/dojo210410)
 
 ------------------------------------------------------------------------
 

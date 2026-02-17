@@ -11,7 +11,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 ## 1. Other Pages 
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [/AnnualReports](./IPSS(2f)AnnualReports.html)   [/ByeLaws](./IPSS(2f)ByeLaws.html)   [/CommitteeResolutions](./IPSS(2f)CommitteeResolutions.html)   [/FirstAGMMinutes](./IPSS(2f)FirstAGMMinutes.html)   [/FirstAGMResolutions](./IPSS(2f)FirstAGMResolutions.html)   [/MOA](./IPSS(2f)MOA.html)   [/Registration](./IPSS(2f)Registration.html)  
+  [/AnnualReports](IPSS/AnnualReports)   [/ByeLaws](IPSS/ByeLaws)   [/CommitteeResolutions](IPSS/CommitteeResolutions)   [/FirstAGMMinutes](IPSS/FirstAGMMinutes)   [/FirstAGMResolutions](IPSS/FirstAGMResolutions)   [/MOA](IPSS/MOA)   [/Registration](IPSS/Registration)  
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 2. Links 

@@ -26,7 +26,7 @@ Contributions are welcome but content listed here must be distributable under an
 
 **Fetch Script**
 
-- [CountryCodeFetcher.py](./EduSig(2f)DataResources(2f)CountryCodeFetcher.html)
+- [CountryCodeFetcher.py](DataResources/CountryCodeFetcher)
 
 ------------------------------------------------------------------------
 
@@ -40,7 +40,7 @@ Contributions are welcome but content listed here must be distributable under an
 
 **Fetch Script**
 
-- [CityLocationFetcher.py](./EduSig(2f)DataResources(2f)CityLocationFetcher.html)
+- [CityLocationFetcher.py](DataResources/CityLocationFetcher)
 
 ------------------------------------------------------------------------
 
@@ -54,7 +54,7 @@ Contributions are welcome but content listed here must be distributable under an
 
 **Fetch Script**
 
-- [ElementsFetcher.py](./EduSig(2f)DataResources(2f)ElementsFetcher.html)
+- [ElementsFetcher.py](DataResources/ElementsFetcher)
 
 ------------------------------------------------------------------------
 

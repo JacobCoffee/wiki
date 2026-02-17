@@ -107,7 +107,7 @@ If not mentioned otherwise, this means XSLT 1.0, not XSLT 2.0.
 
 - [XmlBooks](XmlBooks)
 
-- [Tutorials on XML processing with Python](./Tutorials(20)on(20)XML(20)processing(20)with(20)Python.html)
+- [Tutorials on XML processing with Python](Tutorials on XML processing with Python)
 
 ## SIG 
 

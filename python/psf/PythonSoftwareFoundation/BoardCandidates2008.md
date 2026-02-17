@@ -28,8 +28,8 @@ Incumbent Directors David Ascher and Andrew Kuchling have decided not to run for
 ::: topic
 Links
 
-- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html)
-- [2007 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2007.html)
+- [Duties and Responsibilities of Directors](DutiesAndResponsibilitiesOfDirectors)
+- [2007 Board Candidates](BoardCandidates2007)
 :::
 
 ::: 

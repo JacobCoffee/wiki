@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 This page discusses the benefits of replacing the current `print`{.backtick} statement with an equivalent builtin. The `write`{.backtick} and `writeln`{.backtick} functions presented below do everything the `print`{.backtick} statement does without requiring any hacking of the grammar, and also make a number of things significantly easier.
 
-Guido has made it clear he wants to get rid of the `print`{.backtick} statement in [Python3.0](./Python3(2e)0.html). This page considers why we would want to go that way, and how we can actually get there. It should be turned into a PEP eventually.
+Guido has made it clear he wants to get rid of the `print`{.backtick} statement in [Python3.0](../py3/Python3.0). This page considers why we would want to go that way, and how we can actually get there. It should be turned into a PEP eventually.
 
 FYI: Python 3.0 has been released with a print function, and Python 2.6 has `from __future__ import print_function`{.backtick} to enable this on a per-module basis. Further discussion here is therefore quite futile. GvR.
 

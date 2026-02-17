@@ -10,27 +10,27 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 This is a top level namespace for organizing [PyCon](PyCon) India 2010. Please link to all important pages here.
 
-- [Action Plan](./PyConIndia2010(2f)InitialActionPlan.html)
+- [Action Plan](PyConIndia2010/InitialActionPlan)
 
-- [Budget Estimates](./PyConIndia2010(2f)BudgetEstimates.html)
+- [Budget Estimates](PyConIndia2010/BudgetEstimates)
 
-- [Discussions on Sponsorship](./PyConIndia2010(2f)SponsorShip.html)
+- [Discussions on Sponsorship](PyConIndia2010/SponsorShip)
 
-- [Venue Requirements](./PyConIndia2010(2f)VenueRequirements.html)
+- [Venue Requirements](PyConIndia2010/VenueRequirements)
 
-- [Proposal letter for MSRIT college](./PyConIndia2010(2f)CollegeProposalLetter.html)
+- [Proposal letter for MSRIT college](PyConIndia2010/CollegeProposalLetter)
 
-- [CFP](./PyConIndia2010(2f)CFP.html)
+- [CFP](PyConIndia2010/CFP)
 
-- [Badges](./PyConIndia2010(2f)Badges.html)
+- [Badges](PyConIndia2010/Badges)
 
-- [Artwork](./PyConIndia2010(2f)Artwork.html)
+- [Artwork](PyConIndia2010/Artwork)
 
 ## Public pages 
 
 Pages which we will show to various people
 
-- [Sponsorship Tiers](./PyConIndia2010(2f)SponsorShipTiers.html)
+- [Sponsorship Tiers](PyConIndia2010/SponsorShipTiers)
 
 ## Website 
 
@@ -38,4 +38,4 @@ Pages which we will show to various people
 
 ## Non active pages 
 
-- [Venue - Chennai or Bangalore?](./PyConIndia2010(2f)VenueDiscussion.html) - [Link to surveymonkey survey](http://www.surveymonkey.com/s/QKJ93GC)
+- [Venue - Chennai or Bangalore?](PyConIndia2010/VenueDiscussion) - [Link to surveymonkey survey](http://www.surveymonkey.com/s/QKJ93GC)

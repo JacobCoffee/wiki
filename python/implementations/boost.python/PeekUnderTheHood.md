@@ -62,7 +62,7 @@ Big subject. I suggest some background reading: look for relevant info in the LL
 
   Other conversions, like by-reference conversions, are only available for wrapped classes, and are requested explicitly by
 
-  using ref(\...), ptr(\...), or by specifying different [../CallPolicy](./boost(2e)python(2f)CallPolicy.html) for a call, which can cause a different to-python converter to be used. These conversions are never registered anywhere, though they do need to use the registration to find the Python class corresponding to the C++ type being referred to. They just build a new Python instance and stick the appropriate *Holder* instance in it.
+  using ref(\...), ptr(\...), or by specifying different [../CallPolicy](CallPolicy) for a call, which can cause a different to-python converter to be used. These conversions are never registered anywhere, though they do need to use the registration to find the Python class corresponding to the C++ type being referred to. They just build a new Python instance and stick the appropriate *Holder* instance in it.
 
 #### from python to C++ 
 

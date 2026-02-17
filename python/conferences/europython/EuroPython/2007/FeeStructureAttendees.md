@@ -27,9 +27,9 @@ A guide to attendee fees:
   -------------------- ---------- ---------- ---------- ------------------------------ --------------------------- ---------------------------------------
 :::
 
-See the minutes from [EuroPython/2007/IrcMeetings/IrcMeeting2](./EuroPython(2f)2007(2f)IrcMeetings(2f)IrcMeeting2.html) for the agreed price classes.
+See the minutes from [EuroPython/2007/IrcMeetings/IrcMeeting2](IrcMeetings/IrcMeeting2) for the agreed price classes.
 
-See the minutes from [EuroPython/2007/IrcMeetings/IrcMeeting9](./EuroPython(2f)2007(2f)IrcMeetings(2f)IrcMeeting9.html) for the agreed prices.
+See the minutes from [EuroPython/2007/IrcMeetings/IrcMeeting9](IrcMeetings/IrcMeeting9) for the agreed prices.
 
 Note that a fortuitous choice of deadlines (having early registration end on or after speaker acceptance notifications) means that people can sign up tentat ively as a speaker and not be charged extra later on.
 

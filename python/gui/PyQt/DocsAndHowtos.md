@@ -26,17 +26,17 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ### Configuring and Installing PyQt 
 
-- [Mac OS X Installation Notes](./PyQt(2f)Mac_OS_X_Installation_Notes.html)
+- [Mac OS X Installation Notes](Mac_OS_X_Installation_Notes)
 
 - [Installing PyQt 4.1, Qt 4.2 Open Source, Python 2.5 on Windows with MinGW](http://iwiwdsmi.blogspot.com/2007/01/how-to-install-pyqt-41-python-25-and-qt_8340.html)
 
-- [PyQt4 with PostgreSQL Installation Notes (Windows)](./PyQt(2f)PyQt4_with_PostgreSQL_Installation_Notes_(28)Windows(29).html)
+- [PyQt4 with PostgreSQL Installation Notes (Windows)](PyQt4_with_PostgreSQL_Installation_Notes_(Windows))
 
 ### Deployment 
 
-- [Deploying PyQt Applications](./PyQt(2f)Deploying_PyQt_Applications.html)
+- [Deploying PyQt Applications](Deploying_PyQt_Applications)
 
-- [Modular PyQt deployment with PyInstaller](./PyQt(2f)Modular_PyQt_deployment_with_PyInstaller.html) - how to distribute only the subset of [PyQt](PyQt) really needed by an application
+- [Modular PyQt deployment with PyInstaller](Modular_PyQt_deployment_with_PyInstaller) - how to distribute only the subset of [PyQt](PyQt) really needed by an application
 
 # Links for PyQt (for Qt 3) 
 
@@ -50,7 +50,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 - [Programming Qt applications in Python, by Sebastian Kügler](http://vizzzion.org/?id=pyqt) - nice hello world and some more
 
-- [GPL PyQt Windows](./PyQt(2f)GPLPyQtWindows.html) - Getting GPLed Qt/PyQt running on Windows
+- [GPL PyQt Windows](GPLPyQtWindows) - Getting GPLed Qt/PyQt running on Windows
 
 - [Python resources for KDE, by David Boddie](http://www.boddie.org.uk/david/Projects/Python/KDE/):
 
@@ -62,7 +62,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
   - Control Center modules in Python ([KDE documentation](http://developer.kde.org/documentation/library/cvs-api/kdeui/html/classKCModule.html))
 
-  - [IOSlaves Tutorial](./PyQt(2f)IOSlavesTutorial.html) - an IOSlaves Tutorial [from the PythonInfo Wiki](http://www.python.org/cgi-bin/moinmoin/IoSlavesTutorial)
+  - [IOSlaves Tutorial](IOSlavesTutorial) - an IOSlaves Tutorial [from the PythonInfo Wiki](http://www.python.org/cgi-bin/moinmoin/IoSlavesTutorial)
 
 - [Installing qt/pyqt commercial under windows with MinGW](http://www.diotavelli.net/PyQtWiki/InstallingPyQTCommercialWin).
 

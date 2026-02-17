@@ -46,7 +46,7 @@ Chair: TBD Participants:
 
 - Van Lindberg
 
-- [Sponsorship Bundle WG Charter](./SponsorshipBundleWG(2f)Charter.html)
+- [Sponsorship Bundle WG Charter](SponsorshipBundleWG/Charter)
 
 - Mailing List
 

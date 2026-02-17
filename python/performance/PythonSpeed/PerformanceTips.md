@@ -510,7 +510,7 @@ Well, this example is fairly inadequate, but if the \'if\' statement is a pretty
 
 The first step to speeding up your program is learning where the bottlenecks lie. It hardly makes sense to optimize code that is never executed or that already runs fast. I use two modules to help locate the hotspots in my code, profile and trace. In later examples I also use the `timeit` module, which is new in Python 2.3.
 
-![(!)](/wiki/europython/img/idea.png "(!)") The advice in this section is out of date. See the separate [profiling](./PythonSpeed(2f)Profiling.html) document for alternatives to the approaches given below.
+![(!)](/wiki/europython/img/idea.png "(!)") The advice in this section is out of date. See the separate [profiling](Profiling) document for alternatives to the approaches given below.
 
 ### Profiling 
 

@@ -18,8 +18,8 @@ Some project ideas that might work for Google\'s summer of code. The Python folk
 
 There are no accepted projects yet.
 
-See [/PotentialProjects](./SummerOfCode(2f)PotentialProjects.html) for some ideas.
+See [/PotentialProjects](../people/SummerOfCode/PotentialProjects) for some ideas.
 
 ## Past Google Summers of Code 
 
-[/SummerOfCode2007](./SummerOfCode(2f)SummerOfCode2007.html)
+[/SummerOfCode2007](../about/SummerOfCode/SummerOfCode2007)

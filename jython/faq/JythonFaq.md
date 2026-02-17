@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ------------------------------------------------------------------------
 
-- **[JythonFaq/GeneralInfo](./JythonFaq(2f)GeneralInfo.html)**
+- **[JythonFaq/GeneralInfo](JythonFaq/GeneralInfo)**
 
   - What is Jython?
   - What is JPython
@@ -21,7 +21,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ------------------------------------------------------------------------
 
-- **[JythonFaq/InstallingJython](./JythonFaq(2f)InstallingJython.html)**
+- **[JythonFaq/InstallingJython](JythonFaq/InstallingJython)**
 
   - Why do I get [NoClassDefFoundError](NoClassDefFoundError) when running the installer
 
@@ -41,7 +41,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ------------------------------------------------------------------------
 
-- **[JythonFaq/ProgrammingJython](./JythonFaq(2f)ProgrammingJython.html)**
+- **[JythonFaq/ProgrammingJython](JythonFaq/ProgrammingJython)**
 
   - Why can\'t I multiply inherit from two Java classes?
   - Why does dir(someJavaObject) return the empty list?
@@ -57,7 +57,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ------------------------------------------------------------------------
 
-- **[JythonFaq/JythonModules](./JythonFaq(2f)JythonModules.html)**
+- **[JythonFaq/JythonModules](JythonFaq/JythonModules)**
 
   - What parts of the Python library are supported?
   - Can I use the python DB API from Jython?
@@ -65,7 +65,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ------------------------------------------------------------------------
 
-- **[JythonFaq/ExtendingJython](./JythonFaq(2f)ExtendingJython.html)**
+- **[JythonFaq/ExtendingJython](JythonFaq/ExtendingJython)**
 
   - Java classes that emulate Jython Dictionaries and Sequences
   - Emulating Jython object attribute access with a Java class
@@ -73,14 +73,14 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ------------------------------------------------------------------------
 
-- **[JythonFaq/EmbeddingJython](./JythonFaq(2f)EmbeddingJython.html)**
+- **[JythonFaq/EmbeddingJython](JythonFaq/EmbeddingJython)**
 
   - How can I use jython classes from my java application?
   - My modules can not be found when imported from an embedded application
 
 ------------------------------------------------------------------------
 
-- **[JythonFaq/DistributingJythonScripts](./JythonFaq(2f)DistributingJythonScripts.html)**
+- **[JythonFaq/DistributingJythonScripts](JythonFaq/DistributingJythonScripts)**
 
   - How can do others use scripts/applications I\'ve developed?
 

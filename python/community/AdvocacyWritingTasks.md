@@ -33,7 +33,7 @@ For those who would prefer writing magazine articles, we also have an [ArticleId
 ## Documents To Be Written 
 
 [(permalink)](AdvocacyWritingTasks#WhatIsPython)\
-**Title:** *[What is Python?](./AdvocacyWritingTasks(2f)WhatIsPython.html)*\
+**Title:** *[What is Python?](AdvocacyWritingTasks/WhatIsPython)*\
 **Media:** a 2-sided flyer\
 **Assigned-To:** (no one; teaming is possible) (date assigned)
 
@@ -71,7 +71,7 @@ Maybe look at [AppsWithPythonScripting](AppsWithPythonScripting) for inspiration
 [(permalink)](AdvocacyWritingTasks#UsingPythonWithDotNet)\
 **Title:** *[IronPython](IronPython) (Python.NET)*\
 
-- *[Using Python to improve .NET](./AdvocacyWritingTasks(2f)UsingPythonWithDotNet.html)*\
+- *[Using Python to improve .NET](AdvocacyWritingTasks/UsingPythonWithDotNet)*\
 
 **Media:** a 2-sided flyer + whitepaper\
 **Assigned-To:** (no one; teaming is possible) (date assigned)
@@ -81,7 +81,7 @@ For handing out at .NET events - it should bring to their attention the existenc
 ------------------------------------------------------------------------
 
 [(permalink)](AdvocacyWritingTasks#StartingAPythonUserGroup)\
-**Title:** *[How to Start and Run a Successful Python User Group](./AdvocacyWritingTasks(2f)StartingAUserGroup.html)*\
+**Title:** *[How to Start and Run a Successful Python User Group](AdvocacyWritingTasks/StartingAUserGroup)*\
 **Media:** a small whitepaper, reStructuredText format\
 **Assigned-To:** Jeff Rush `<jeff AT taupro DOT com>` (2006-12-13)
 
@@ -123,7 +123,7 @@ A single-sided flyer, for posting around town, to spread the word about Python. 
 ------------------------------------------------------------------------
 
 [(permalink)](AdvocacyWritingTasks#PythonAndDatabases)\
-**Title:** [Python and Databases](./AdvocacyWritingTasks(2f)PythonAndDatabases.html)\
+**Title:** [Python and Databases](AdvocacyWritingTasks/PythonAndDatabases)\
 **Media:** a 2-sided flyer + whitepaper\
 **Assigned-To:**
 
@@ -168,7 +168,7 @@ To keep the size down there won\'t be a lot of graphics. This can be deferred to
 ------------------------------------------------------------------------
 
 [(permalink)](AdvocacyWritingTasks#DataVisualizationWithPython)\
-**Title:** [Python: Data Visualization and Graphing](./AdvocacyWritingTasks(2f)DataVisualizationGraphing.html)\
+**Title:** [Python: Data Visualization and Graphing](AdvocacyWritingTasks/DataVisualizationGraphing)\
 **Media:** a 2-sided flyer + whitepaper\
 **Assigned-To:** Bugra Cakir `<bugracakir AT gmail DOT com>` (2006-12-07)
 
@@ -179,7 +179,7 @@ The whitepaper should survey the various visualization and graphing frameworks a
 ------------------------------------------------------------------------
 
 [(permalink)](AdvocacyWritingTasks#ReplaceMatlabWithPython)\
-**Title:** *[The Python Alternative to Matlab](./AdvocacyWritingTasks(2f)MatlabAlternative.html)*\
+**Title:** *[The Python Alternative to Matlab](AdvocacyWritingTasks/MatlabAlternative)*\
 **Media:** a whitepaper\
 **Assigned-To:** (no one; teaming is possible) (date assigned)
 
@@ -190,7 +190,7 @@ For someone who currently is using Matlab, basically address their concerns poin
 ------------------------------------------------------------------------
 
 [(permalink)](AdvocacyWritingTasks#CoolPythonFeatures)\
-**Title:** *[Cool Programming Features of Python](./AdvocacyWritingTasks(2f)CoolPythonProgramming.html)*\
+**Title:** *[Cool Programming Features of Python](AdvocacyWritingTasks/CoolPythonProgramming)*\
 
 - *Python: The Cool Language*\
   *Python: Have Fun Programming (again)*\
@@ -234,7 +234,7 @@ When comparing languages, don\'t just look at syntax. Do cover the innate clarit
 ------------------------------------------------------------------------
 
 [(permalink)](AdvocacyWritingTasks#PythonInTheClassroom)\
-**Title:** *[Python in the Classroom](./AdvocacyWritingTasks(2f)ClassroomPython.html)*\
+**Title:** *[Python in the Classroom](AdvocacyWritingTasks/ClassroomPython)*\
 **Media:** a 1-sided flyer + whitepaper\
 **Assigned-To:** (no one; teaming is possible) (date assigned)
 
@@ -243,7 +243,7 @@ For use at educational events, posting on campus bulletin boards and to perhaps 
 ------------------------------------------------------------------------
 
 [(permalink)](AdvocacyWritingTasks#GamingWithPython)\
-**Title:** *[Game Development with Python](./AdvocacyWritingTasks(2f)GameDevelopment.html)*\
+**Title:** *[Game Development with Python](AdvocacyWritingTasks/GameDevelopment)*\
 **Media:** a small whitepaper\
 **Assigned-To:** (no one; teaming is possible) (date assigned)
 
@@ -271,7 +271,7 @@ And perhaps some discussion of how Python can be embedded into their existing ap
 ------------------------------------------------------------------------
 
 [(permalink)](AdvocacyWritingTasks#Sprinting)\
-**Title:** [Sprinting](./AdvocacyWritingTasks(2f)Sprinting.html)\
+**Title:** [Sprinting](AdvocacyWritingTasks/Sprinting)\
 **Media:** potential journal article\
 **Assigned-To:** Catherine Devlin `<catherineDOTdevlin AT gmail DOT com>` (2007-09-07)
 
@@ -293,7 +293,7 @@ Briefly cover the availability of the IDEs for Python, as that is a common argum
 ------------------------------------------------------------------------
 
 [(permalink)](AdvocacyWritingTasks#StartingAPythonConference)\
-**Title:** *[Planning a Python Conference](./AdvocacyWritingTasks(2f)RunningAConference.html)*\
+**Title:** *[Planning a Python Conference](AdvocacyWritingTasks/RunningAConference)*\
 **Media:** a small whitepaper, reStructuredText format\
 **Assigned-To:** Andrew Kuchling `<amk AT amk DOT ca>` (2006-12-06)
 
@@ -302,7 +302,7 @@ For putting up on the web.
 ------------------------------------------------------------------------
 
 [(permalink)](AdvocacyWritingTasks#GlueLanguage)\
-**Title:** *[Python As a Glue Language](./AdvocacyWritingTasks(2f)GlueLanguage.html)*\
+**Title:** *[Python As a Glue Language](AdvocacyWritingTasks/GlueLanguage)*\
 **Media:** a whitepaper\
 **Assigned-To:** [AndrewKuchling](AndrewKuchling) (2007-04-03)
 

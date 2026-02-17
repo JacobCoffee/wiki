@@ -28,7 +28,7 @@ Chris Withers made a presentation called [Python Package Management Sucks](http:
 
 - [DistributeSprint #1](./DistributeSprint(20).html#A1) : Starting a PEP series
 
-- [Packaging Survey](./Packaging(20)Survey.html) : Survey for the Python Language Summit 2009
+- [Packaging Survey](Packaging Survey) : Survey for the Python Language Summit 2009
 
 - [distutils-autoconf](./distutils(2d)autoconf.html) : Proposal by David
 
@@ -186,7 +186,7 @@ xxx
 
 - propose an independant tool in a PEP, that knows how to register and upload a package at a PyPI compatible server
 
-  this is started here: [A new pypi module](./A(20)new(20)pypi(20)module.html)
+  this is started here: [A new pypi module](A new pypi module)
 
 ## Setuptools 
 
@@ -206,6 +206,6 @@ Design discussions:
 
 - Split the concerns
 
-- [Uninstall Command](./Distutils(2f)Proposals(2f)UninstallCommand.html)
+- [Uninstall Command](Distutils/Proposals/UninstallCommand)
 
 - [OsVendorsRequirements](./OsVendorsRequirements.html)

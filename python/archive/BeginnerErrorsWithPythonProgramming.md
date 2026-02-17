@@ -24,7 +24,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 - Even for advanced users there are features of the Python language that can cause difficulties. See [PythonWarts](PythonWarts) for resources and observations on such matters. These observations have in part been used to suggest refinements in future Python versions.
 
-- Some [Intermediate Conundrums](./Intermediate(20)Conundrums.html) have been noted with regard to the behavior of some Python features, although these may be outside the scope of beginner problems.
+- Some [Intermediate Conundrums](../people/Intermediate Conundrums) have been noted with regard to the behavior of some Python features, although these may be outside the scope of beginner problems.
 
 ## Comments, Potential Solutions 
 

@@ -11,7 +11,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 I use the GUI Python Shell (Idle V3.2) and I have many files names in the menu File \--\> Recent Files, I hope delete some files because the list is very important, how do this?
 
 ::: note
-When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](./Asking(20)for(20)Help.html) page.
+When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help]() page.
 :::
 
 ------------------------------------------------------------------------

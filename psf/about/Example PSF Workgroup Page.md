@@ -12,7 +12,7 @@ If you would like to begin a new PSF Workgroup, follow these steps:
 
 1\. Make sure the PSF Workgroup topic pertains to the PSF mission. You can read the [PSF mission here](https://www.python.org/psf/mission/).\
 2. Get a group of WG members together. If you are looking for members to recruit to your WG, you can try the [psf-community@python.org](mailto:psf-community@python.org) mailing list.\
-3. Draft a charter up. Here is an example charter to get you started: [PSF Example WG Charter](./ExampleWG(2f)Charter.html). It is also a good idea to check out the WG charters for inspiration\
+3. Draft a charter up. Here is an example charter to get you started: [PSF Example WG Charter](../working-groups/ExampleWG/Charter). It is also a good idea to check out the WG charters for inspiration\
 4. Send the charter to the PSF Board and let them know of any resources you are requesting for your group\
 5. Send monthly reports of your progress to [psf@python.org](mailto:psf@python.org) or to [psf-staff@python.org](mailto:psf-staff@python.org)
 
@@ -36,4 +36,4 @@ List resources useful for the WG.
 
 - Chair: X
 
-- [PSF Example WG Charter](./ExampleWG(2f)Charter.html) (the wiki page should be named: ExampleWG/Charter)
+- [PSF Example WG Charter](../working-groups/ExampleWG/Charter) (the wiki page should be named: ExampleWG/Charter)

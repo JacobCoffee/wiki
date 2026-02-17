@@ -37,4 +37,4 @@ Appscripting in Depth:
 
 - [/UsefulLinks](./MacPython(2f)TextEdit(2f)UsefulLinks.html)
 
-- [/Terminology](./MacPython(2f)TextEdit(2f)Terminology.html)
+- [/Terminology](TextEdit/Terminology)

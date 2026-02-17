@@ -20,7 +20,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 7.3.1 Polling Objects
 
-7.4 [thread](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)ThreadModule.html) \-- Multiple threads of control
+7.4 [thread](../../people/PythonLibraryReference/OptionalOperatingSystemServices/ThreadModule) \-- Multiple threads of control
 
 7.5 [threading](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)ThreadingModule.html) \-- Higher-level threading interface
 

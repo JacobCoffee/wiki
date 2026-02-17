@@ -32,7 +32,7 @@ Discussions will happen on the mailing list.
 
 - Vice-Chair: David Mertz
 
-- [Cuban Pythonistas WG Charter](./PythonCubaWG(2f)Charter.html)
+- [Cuban Pythonistas WG Charter](PythonCubaWG/Charter)
 
 ## Meetings 
 

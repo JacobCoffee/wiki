@@ -403,8 +403,8 @@ This uses pyp\'s built-in string and list variables (p and pp), as well as the v
 
 ## Contributed Code 
 
-- [JAM/Code/PlatformFinder](./JAM(2f)Code(2f)PlatformFinder.html) - This program tells you what platform you are using.
+- [JAM/Code/PlatformFinder](../people/JAM/Code/PlatformFinder) - This program tells you what platform you are using.
 
-- [JAM/Code/ComPYiler](./JAM(2f)Code(2f)ComPYiler.html) - This program compiles every .py file in the Python directory.
+- [JAM/Code/ComPYiler](../archive/JAM/Code/ComPYiler) - This program compiles every .py file in the Python directory.
 
-- [Powerful Python One-Liners/Hostname](./Powerful(20)Python(20)One(2d)Liners(2f)Hostname.html) - This program tells you what your hostname is.
+- [Powerful Python One-Liners/Hostname](Powerful Python One-Liners/Hostname) - This program tells you what your hostname is.

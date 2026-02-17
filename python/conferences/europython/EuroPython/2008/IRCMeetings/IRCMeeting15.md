@@ -12,7 +12,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 The meeting will take place in the #europython channel on freenode at 18:00 CEST on Thursday 12th June.
 
-Please look at the minutes from the last meeting for more background information: [../IRCMeeting14](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting14.html)
+Please look at the minutes from the last meeting for more background information: [../IRCMeeting14](IRCMeeting14)
 
 ## Present 
 

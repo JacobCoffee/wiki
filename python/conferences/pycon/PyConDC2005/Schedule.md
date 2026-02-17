@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-Abstracts for presentations are listed on the [PyConDC2005/Presentations](./PyConDC2005(2f)Presentations.html) page. See also [list of subset of papers and presentations](http://www.python.org/pycon/2005/papers/)
+Abstracts for presentations are listed on the [PyConDC2005/Presentations](Presentations) page. See also [list of subset of papers and presentations](http://www.python.org/pycon/2005/papers/)
 
 # Wednesday, March 23 
 

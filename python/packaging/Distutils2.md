@@ -10,8 +10,8 @@ To implement new features and clean up the code without breaking third-party too
 
 On various mailing lists, forums, Q&A sites and even the Pypi page of distutils2, you may read that distutils2 is included in Python 3.3. This is in fact incorrect, and was a premature statement to make.
 
-See [Distutils2/Contributing](./Distutils2(2f)Contributing.html) for bug and patch submission guidelines.
+See [Distutils2/Contributing](Distutils2/Contributing) for bug and patch submission guidelines.
 
-Setup instructions for the 2012 sprints in Montreal are here: [Distutils2/Sprints](./Distutils2(2f)Sprints.html).
+Setup instructions for the 2012 sprints in Montreal are here: [Distutils2/Sprints](Distutils2/Sprints).
 
 For an historical document discussing problems and features, see [http://bitbucket.org/tarek/distutils2/src/tip/docs/design/wiki.rst](http://bitbucket.org/tarek/distutils2/src/tip/docs/design/wiki.rst)

@@ -14,7 +14,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## 不了解Python？ 
 
-先读一下[Python简介](./BeginnersGuide(2f)OverviewChinese.html)：通过一个简短的介绍了解Python是什么。
+先读一下[Python简介](BeginnersGuide/OverviewChinese)：通过一个简短的介绍了解Python是什么。
 
 ## 获取Python 
 
@@ -24,7 +24,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 目前Python有两个主要版本：Python 2和Python 3。根据[Python2orPython3](Python2orPython3) 页面提供的建议，你可以决定哪个版本最适合你。在撰写本文时（2010年6月21号），以下内容假设你决定使用Python 2。
 
-查看文章 [BeginnersGuide/Download](./BeginnersGuide(2f)Download.html)，按步骤下载正确的Python版本。
+查看文章 [BeginnersGuide/Download](BeginnersGuide/Download)，按步骤下载正确的Python版本。
 
 在某些阶段，你想编辑并保存你的程序代码，可以看一下 [HowToEditPythonCode](HowToEditPythonCode) 以听取一些意见和推荐方法。
 
@@ -32,9 +32,9 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 接下来，阅读教程，并尝试用你的新Python解释器做一些简单的试验。
 
-- 如果你之前没有编程经验，读一下 [编程新手](./BeginnersGuide(2f)NonProgrammersChinese.html)， 里面有适合你的教程列表。
+- 如果你之前没有编程经验，读一下 [编程新手](BeginnersGuide/NonProgrammersChinese)， 里面有适合你的教程列表。
 
-- 如果你之前有编程经验，参考 [BeginnersGuide/Programmers](./BeginnersGuide(2f)Programmers.html), 里面列出了更多高级教程。
+- 如果你之前有编程经验，参考 [BeginnersGuide/Programmers](BeginnersGuide/Programmers), 里面列出了更多高级教程。
 
 - 如果英语不是你的母语，阅读翻译好的教程更适合你。参考 python.org\'s [非英语资源列表](http://wiki.python.org/moin/Languages).
 
@@ -48,11 +48,11 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## 需要帮助吗? 
 
-需要一些帮助吗？加入邮件列表和新闻组，阅读 [BeginnersGuide/Help](./BeginnersGuide(2f)Help.html)。
+需要一些帮助吗？加入邮件列表和新闻组，阅读 [BeginnersGuide/Help](BeginnersGuide/Help)。
 
 绝大多数的Python书籍会包含Python语言的介绍：请查看 [IntroductoryBooks](IntroductoryBooks)中的建议。
 
-参考[BeginnersGuide/Examples](./BeginnersGuide(2f)Examples.html)，里面的简单程序和代码片段会对你的学习有帮助。
+参考[BeginnersGuide/Examples](BeginnersGuide/Examples)，里面的简单程序和代码片段会对你的学习有帮助。
 
 或者，如果你喜欢通过听课的方式学习Python，你可以参加培训课或请一位培训老师到你公司上课。
 
@@ -63,17 +63,17 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 ## 用户手册完整列表 
 
 ::: searchresults
-1.  [**BeginnersGuide/**Download](./BeginnersGuide(2f)Download.html)
-2.  [**BeginnersGuide/**Examples](./BeginnersGuide(2f)Examples.html)
-3.  [**BeginnersGuide/**Help](./BeginnersGuide(2f)Help.html)
-4.  [**BeginnersGuide/**Mathematics](./BeginnersGuide(2f)Mathematics.html)
-5.  [**BeginnersGuide/**NonProgrammers](./BeginnersGuide(2f)NonProgrammers.html)
-6.  [**BeginnersGuide/**NonProgrammersChinese](./BeginnersGuide(2f)NonProgrammersChinese.html)
-7.  [**BeginnersGuide/**Overview](./BeginnersGuide(2f)Overview.html)
-8.  [**BeginnersGuide/**OverviewChinese](./BeginnersGuide(2f)OverviewChinese.html)
-9.  [**BeginnersGuide/**Programmers](./BeginnersGuide(2f)Programmers.html)
+1.  [**BeginnersGuide/**Download](BeginnersGuide/Download)
+2.  [**BeginnersGuide/**Examples](BeginnersGuide/Examples)
+3.  [**BeginnersGuide/**Help](BeginnersGuide/Help)
+4.  [**BeginnersGuide/**Mathematics](BeginnersGuide/Mathematics)
+5.  [**BeginnersGuide/**NonProgrammers](BeginnersGuide/NonProgrammers)
+6.  [**BeginnersGuide/**NonProgrammersChinese](BeginnersGuide/NonProgrammersChinese)
+7.  [**BeginnersGuide/**Overview](BeginnersGuide/Overview)
+8.  [**BeginnersGuide/**OverviewChinese](BeginnersGuide/OverviewChinese)
+9.  [**BeginnersGuide/**Programmers](BeginnersGuide/Programmers)
 10. [BeginnersGuide/Programmers **(Cpp2Python.pdf)**](./BeginnersGuide(2f)Programmers.html?action=AttachFile&do=view&target=Cpp2Python.pdf)
-11. [**BeginnersGuide/**Programmers/SimpleExamples](./BeginnersGuide(2f)Programmers(2f)SimpleExamples.html)
+11. [**BeginnersGuide/**Programmers/SimpleExamples](BeginnersGuide/Programmers/SimpleExamples)
 :::
 
 ## 测试和练习 

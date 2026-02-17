@@ -17,13 +17,13 @@ Add your names here, along with shameless self-glorification Even better, create
 
 ## Recent topics and digested threads 
 
-- [Modular PyQt deployment with PyInstaller](./PyQt(2f)Modular_PyQt_deployment_with_PyInstaller.html)
+- [Modular PyQt deployment with PyInstaller](Modular_PyQt_deployment_with_PyInstaller)
 
 - [CreatingMdiApplications](./PyQt(2f)CreatingMdiApplications.html)
 
 I think we should introduce a bounty for everybody who summarizes a thread here. Any ideas?
 
-Some threads resulted in [SampleCode](./PyQt(2f)SampleCode.html) or [Overviews_and_Guides](./PyQt(2f)Overviews_and_Guides.html) being written.
+Some threads resulted in [SampleCode](SampleCode) or [Overviews_and_Guides](Overviews_and_Guides) being written.
 
 ## History 
 

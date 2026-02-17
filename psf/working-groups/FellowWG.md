@@ -18,7 +18,7 @@ This working group will review PSF Fellow applications and determine if they qua
 
 - No financial resources needed
 
-- [PSF Fellow WG Charter](./FellowWG(2f)Charter.html)
+- [PSF Fellow WG Charter](FellowWG/Charter)
 
 - List of nominees that the WG votes on: [https://wiki.python.org/moin/PythonSoftwareFoundation/FellowNominations](https://wiki.python.org/moin/PythonSoftwareFoundation/FellowNominations)
 

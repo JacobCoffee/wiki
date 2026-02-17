@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # PyCon DC 2005 For Cheap 
 
-See also [PyConDC2005/Accommodation](./PyConDC2005(2f)Accommodation.html).
+See also [PyConDC2005/Accommodation](Accommodation).
 
 ### Register Early 
 
@@ -16,7 +16,7 @@ Registration prices are \$50 cheaper in advance than at the door.
 
 ### Save On Meals 
 
-The conference serves a continental breakfast from 8-9 every morning, and a lunch. There are a number of restaurant choices near by; consult [PyConDC2005/NearbyRestaurants](./PyConDC2005(2f)NearbyRestaurants.html)\] for a list.
+The conference serves a continental breakfast from 8-9 every morning, and a lunch. There are a number of restaurant choices near by; consult [PyConDC2005/NearbyRestaurants](NearbyRestaurants)\] for a list.
 
 ### Hotels 
 

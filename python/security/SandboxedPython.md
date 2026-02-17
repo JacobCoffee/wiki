@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Sandboxed Python 
 
-See also: [How can I run an untrusted Python script safely (i.e. Sandbox)](./Asking(20)for(20)Help(2f)How(20)can(20)I(20)run(20)an(20)untrusted(20)Python(20)script(20)safely(2028)i(2e)e(2e20)Sandbox(29).html) (from the [Asking for Help](./Asking(20)for(20)Help.html) page), [Security](Security).
+See also: [How can I run an untrusted Python script safely (i.e. Sandbox)](./Asking(20)for(20)Help(2f)How(20)can(20)I(20)run(20)an(20)untrusted(20)Python(20)script(20)safely(2028)i(2e)e(2e20)Sandbox(29).html) (from the [Asking for Help](../archive/Asking for Help) page), [Security](Security).
 
 Is there such a thing as \"Sandboxed Python\"? Something where you can run a Python that is limited in what it can do.
 

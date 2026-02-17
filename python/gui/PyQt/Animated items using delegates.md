@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 A nasty hack involving a custom delegate, timer events and a signal to inform a view that it needs to repaint itself. It is just a proof of concept.
 
-Perhaps a better example might be [Animated items using delegates and movies](./PyQt(2f)Animated(20)items(20)using(20)delegates(20)and(20)movies.html).
+Perhaps a better example might be [Animated items using delegates and movies](Animated items using delegates and movies).
 
 Things that are wrong with this code:
 

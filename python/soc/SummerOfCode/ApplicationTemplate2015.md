@@ -20,7 +20,7 @@ It is also recommended that you discuss your proposal with your prospective ment
 
 - Sub-organization with whom you hope to work(\*):
 
-  (e.g. SymPy, NetworkX, etc. See [SummerOfCode/2015](./SummerOfCode(2f)2015.html) for the list of valid sub-organizations)
+  (e.g. SymPy, NetworkX, etc. See [SummerOfCode/2015](2015) for the list of valid sub-organizations)
 
 You must also put your sub-org information in the title of your proposal, as it makes it easier for mentors to find proposals for their sub-orgs in the melange system.
 
@@ -59,7 +59,7 @@ You must also put your sub-org information in the title of your proposal, as it 
 - Proposal Abstract (\*)
   - A short description of your proposed project
 - Proposal Detailed Description/Timeline (\*)
-  - Please include timeline with milestones, preferably weekly ones. You may wish to read [the GSoC student guide](http://en.flossmanuals.net/GSoCStudentGuide/ch008_writing-a-proposal/) which includes several examples of good proposals with timelines, or our own information at [SummerOfCode/Application](./SummerOfCode(2f)Application.html)
+  - Please include timeline with milestones, preferably weekly ones. You may wish to read [the GSoC student guide](http://en.flossmanuals.net/GSoCStudentGuide/ch008_writing-a-proposal/) which includes several examples of good proposals with timelines, or our own information at [SummerOfCode/Application](Application)
 
   - Note that any pre-work such as setup and reading documentation should take place during the community bonding period (April 27-May 24). Students will be expected to start producing code starting on May 25th.
 - Link to a patch/code sample, preferably one you have submitted to your sub-org (\*)
@@ -86,6 +86,6 @@ We strongly recommend that you join the respective IRC channels for the sub-orga
 
 Students should be contacting the mentors and the sub-organizations about projects and proposals. It is ultimately the mentors for each project who select students, so they are your most valuable resource for what constitutes a great proposal.
 
-Mentors are often available on IRC, as well as the respective sub-organizations mailing lists. The mailing list for each sub-org is listed here: [SummerOfCode/2015](./SummerOfCode(2f)2015.html). As a reciprocal courtesy students are expected to also be regularly available on IRC and/or available via e-mail and reasonably responsive to questions and requests for improvements. Students are encouraged to help other students with proposals and help answer questions in IRC or the mailing lists.
+Mentors are often available on IRC, as well as the respective sub-organizations mailing lists. The mailing list for each sub-org is listed here: [SummerOfCode/2015](2015). As a reciprocal courtesy students are expected to also be regularly available on IRC and/or available via e-mail and reasonably responsive to questions and requests for improvements. Students are encouraged to help other students with proposals and help answer questions in IRC or the mailing lists.
 
 If for any reason you have not been able to find a mentor who can help you with your proposal, or you have a question that you think will be relevant to more than just your sub-organization, you can direct your questions to the [soc2015-general@python.org](mailto:soc2015-general@python.org) mailing list. You should sign up here before you post: [http://mail.python.org/mailman/listinfo/soc2015-general/](http://mail.python.org/mailman/listinfo/soc2015-general/) If you absolutely need to get in touch with the Python org admins, you can do so using the mail alias [soc2015-general-owner@python.org](mailto:soc2015-general-owner@python.org)

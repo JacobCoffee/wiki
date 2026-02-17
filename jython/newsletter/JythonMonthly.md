@@ -14,6 +14,6 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ***Jython Monthly is targeted for distribution to users and developers of the Jython programming language. The topics covered will include a broad spectrum of Jython related material.***
 
-All the issues are listed on the [JythonMonthly/Newsletters](./JythonMonthly(2f)Newsletters.html) page.
+All the issues are listed on the [JythonMonthly/Newsletters](JythonMonthly/Newsletters) page.
 
-***If interested in submitting an article, please visit [JythonMonthly/Articles/Submitting](./JythonMonthly(2f)Articles(2f)Submitting.html).***
+***If interested in submitting an article, please visit [JythonMonthly/Articles/Submitting](JythonMonthly/Articles/Submitting).***

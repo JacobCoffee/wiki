@@ -32,7 +32,7 @@ Links
 
 - [Call for Nominations of PSF Directors](http://pyfound.blogspot.com/2006/12/call-for-nominations-of-psf-directors.html)
 - [Agenda of the 2007 PSF Members\' Meeting, February 23, 2007](http://www.python.org/psf/records/members/2007-02-23/)
-- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html)
+- [Duties and Responsibilities of Directors](DutiesAndResponsibilitiesOfDirectors)
 :::
 
 ::: 

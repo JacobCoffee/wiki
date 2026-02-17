@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Please, keep alphabetical order when adding application informations. This will eventually make searching easier, until we get so much entries that we will need to categorize them.
 
-For a list of packages and modules that can be used to build applications, see the [Third Party Packages and Modules](./PyQt(2f)Third_Party_Packages_and_Modules.html) page.
+For a list of packages and modules that can be used to build applications, see the [Third Party Packages and Modules](Third_Party_Packages_and_Modules) page.
 
 ## AlbumArt 
 

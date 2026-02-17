@@ -16,7 +16,7 @@ Jack Jansen is the maintainer of [MacPython](MacPython), and author of many of t
   ---------- --------------------------------------------------------------------------
 :::
 
-Jack has a [test page](./MacPython(2f)JacksTestPage.html) as well\...
+Jack has a [test page](../platforms/MacPython/JacksTestPage) as well\...
 
 ------------------------------------------------------------------------
 

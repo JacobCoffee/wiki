@@ -16,7 +16,7 @@ This working group will review PSF sponsorship applications and determine if the
 
 - No financial resources needed at the moment
 
-- [Sponsor WG Charter](./SponsorWG(2f)Charter.html)
+- [Sponsor WG Charter](SponsorWG/Charter)
 
 ## Mailing List 
 

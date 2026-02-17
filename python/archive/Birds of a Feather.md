@@ -12,7 +12,7 @@ Projects and groups are encouraged to hold meetings, dinners and other activitie
 
 **Be sure to use the Open Space Scheduling Board to confirm room availability.**
 
-Also see: [Open Space](./Open(20)Space.html), [PyCon2008/BirdsOfAFeather](./PyCon2008(2f)BirdsOfAFeather.html).
+Also see: [Open Space](../people/Open Space), [PyCon2008/BirdsOfAFeather](../conferences/pycon/PyCon2008/BirdsOfAFeather).
 
 The following birds-of-a-feather sessions are being planned:
 

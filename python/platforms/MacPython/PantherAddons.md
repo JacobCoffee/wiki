@@ -10,4 +10,4 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 [http://homepages.cwi.nl/\~jack/macpython/download.html](http://homepages.cwi.nl/~jack/macpython/download.html)
 
-As an almost complete [MacPython](MacPython) 2.3 installation is already included in Panther by Apple the only thing you need is the [MacPython](MacPython) 2.3 for Panther addons installer, which contains the IDE, the [../PackageManager](./MacPython(2f)PackageManager.html) and the waste module on which they depend. This is the second build of the additions, in comparison with the first build this version allows you to install the full Python documentation and it fixes an IDE startup bug
+As an almost complete [MacPython](MacPython) 2.3 installation is already included in Panther by Apple the only thing you need is the [MacPython](MacPython) 2.3 for Panther addons installer, which contains the IDE, the [../PackageManager](PackageManager) and the waste module on which they depend. This is the second build of the additions, in comparison with the first build this version allows you to install the full Python documentation and it fixes an IDE startup bug

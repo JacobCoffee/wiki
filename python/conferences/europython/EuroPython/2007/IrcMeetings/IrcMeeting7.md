@@ -16,7 +16,7 @@ The meeting will take place on Monday 23rd of April (2007-04-23) 18:00 CEST (17:
 
 - David will contact Kit Blake about getting Simon Willison to give a keynote ([http://mail.python.org/pipermail/europython/2007-April/006317.html](http://mail.python.org/pipermail/europython/2007-April/006317.html)). **Update:** David contacted Simon directly to discuss the possibility of this.
 
-- Bea will review the Agile and Social Skills theme description ([EuroPython/2007/TrackDescriptions](./EuroPython(2f)2007(2f)TrackDescriptions.html)).
+- Bea will review the Agile and Social Skills theme description ([EuroPython/2007/TrackDescriptions](../TrackDescriptions)).
 
 - Laura will ask about [PyCon](PyCon)\'s sponsorship packages.
 
@@ -40,7 +40,7 @@ Suggestions:
 - Finishing the theme descriptions for use in Indico: \"education\" and \"social skills\" are missing; \"agile\" needs reviewing; suggestions welcome about the others.
 
 - Promotion:
-  - Status of contacts: ZEA (Nicolas), Python411 (David), Python Papers article. Going through the list on the [EuroPython/2007/PublicRelations](./EuroPython(2f)2007(2f)PublicRelations.html) page to work out what\'s left to do.
+  - Status of contacts: ZEA (Nicolas), Python411 (David), Python Papers article. Going through the list on the [EuroPython/2007/PublicRelations](../PublicRelations) page to work out what\'s left to do.
 
 - Sponsorship/finance:
   - Contact points: revitalising the europython-sponsorship mailing list and providing a sponsorship at europython.org address.

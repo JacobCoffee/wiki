@@ -95,7 +95,7 @@ These are the hotels our conference center recommends: [http://cafritz.gwu.edu/A
 - Vienna Comfort Inn
 - Best Western Fairfax VA
 
-See also [PyConDC2005/ForCheap](./PyConDC2005(2f)ForCheap.html).
+See also [PyConDC2005/ForCheap](ForCheap).
 
 ### Tourism 
 

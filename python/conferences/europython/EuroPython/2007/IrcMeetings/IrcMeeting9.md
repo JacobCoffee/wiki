@@ -22,7 +22,7 @@ The meeting will take place on Monday 7th May (2007-05-07) 18:00 CEST (17:00 BST
 
   - Michael is yet to follow up further on his contacts.
 
-  - Refinements of the [EuroPython/2007/CallForSponsors](./EuroPython(2f)2007(2f)CallForSponsors.html) were suggested: dropping certain things like entrance streamers.
+  - Refinements of the [EuroPython/2007/CallForSponsors](../CallForSponsors) were suggested: dropping certain things like entrance streamers.
 
   - Michael added a confidential sponsor contact address.
 
@@ -40,9 +40,9 @@ The meeting will take place on Monday 7th May (2007-05-07) 18:00 CEST (17:00 BST
   - Michael to report back on his sponsorship activities.
   - Any other feedback?
 - Announcements
-  - The text and timing of the keynote announcement, [EuroPython/2007/CallForSponsors](./EuroPython(2f)2007(2f)CallForSponsors.html) and registration announcement will be finalised.
+  - The text and timing of the keynote announcement, [EuroPython/2007/CallForSponsors](../CallForSponsors) and registration announcement will be finalised.
 - Registration
-  - We need to finalise the fee structure. See [EuroPython/2007/FeeStructureAttendees](./EuroPython(2f)2007(2f)FeeStructureAttendees.html) for a comparison between fees in previous years.
+  - We need to finalise the fee structure. See [EuroPython/2007/FeeStructureAttendees](../FeeStructureAttendees) for a comparison between fees in previous years.
 
   - The Indico \"workflow\" needs approving.
 

@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-As it stands, Guido van Rossum has suggested that lambda forms will disappear in [Python3.0](./Python3(2e)0.html). This started a number of threads on comp.lang.python suggesting alternate syntaxes for lambda in the hopes that one of them might be more amenable to GvR\'s tastes. This pages summarizes these suggestions.
+As it stands, Guido van Rossum has suggested that lambda forms will disappear in [Python3.0](../py3/Python3.0). This started a number of threads on comp.lang.python suggesting alternate syntaxes for lambda in the hopes that one of them might be more amenable to GvR\'s tastes. This pages summarizes these suggestions.
 
 - Update: GvR has changed his tune; lambda will remain unchanged.
 

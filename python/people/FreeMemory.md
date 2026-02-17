@@ -20,4 +20,4 @@ Related information:
 
 - [reducing the footprint of python applications](http://wingolog.org/archives/2007/11/27/reducing-the-footprint-of-python-applications)
 
-- [CodingProjectIdeas/PythonGarbageCollected](./CodingProjectIdeas(2f)PythonGarbageCollected.html)
+- [CodingProjectIdeas/PythonGarbageCollected](../getting-started/CodingProjectIdeas/PythonGarbageCollected)

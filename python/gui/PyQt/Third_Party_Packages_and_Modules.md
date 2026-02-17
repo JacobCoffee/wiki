@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 This page contains a list of packages and modules that are designed to be used in PyQt and PyKDE applications. Some of these are also built with PyQt and PyKDE.
 
-For a list of applications built with PyQt and PyKDE, see the [Some Existing Applications](./PyQt(2f)SomeExistingApplications.html) page.
+For a list of applications built with PyQt and PyKDE, see the [Some Existing Applications](SomeExistingApplications) page.
 
 ## Camelot 
 
@@ -119,6 +119,6 @@ Link: [http://code.google.com/p/qcmwidgets/](http://code.google.com/p/qcmwidgets
 
 ## SVGPaintEngine 
 
-(Part of the Veusz project - see the entry on the [SomeExistingApplications](./PyQt(2f)SomeExistingApplications.html) page.)\
+(Part of the Veusz project - see the entry on the [SomeExistingApplications](SomeExistingApplications) page.)\
 Author: Jeremy Sanders\
 Link: [http://svn.gna.org/viewcvs/veusz/trunk/document/svg_export.py?rev=1127&view=markup](http://svn.gna.org/viewcvs/veusz/trunk/document/svg_export.py?rev=1127&view=markup)

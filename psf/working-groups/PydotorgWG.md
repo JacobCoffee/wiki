@@ -40,7 +40,7 @@ Discussions will happen on the mailing list and also during weekly meetings with
 
 - Chair: Van Lindberg
 
-- [Pydotorg WG Charter](./PydotorgWG(2f)Charter.html)
+- [Pydotorg WG Charter](PydotorgWG/Charter)
 
 ## Meetings 
 

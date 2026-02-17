@@ -24,7 +24,7 @@ Suggestions that involve working on various third-party libraries that aren\'t p
 
 - [NotebookInterfaceForIpython](NotebookInterfaceForIpython)
 
-- [../PygameOnCtypes](./CodingProjectIdeas(2f)PygameOnCtypes.html)
+- [../PygameOnCtypes](PygameOnCtypes)
 
 - Develop the Visual Designer and help update the documentation of [Dabo](http://dabodev.com/).
 
@@ -48,9 +48,9 @@ Suggestions that involve working on various third-party libraries that aren\'t p
 
 - [PyGame](PyGame) Projects
 
-  - Implement [CodingProjectIdeas/PygameOnCtypes](./CodingProjectIdeas(2f)PygameOnCtypes.html)
+  - Implement [CodingProjectIdeas/PygameOnCtypes](PygameOnCtypes)
 
-  - Make a pygame plugin for IE, netscape. [CodingProjectIdeas/PythonWebPlugin](./CodingProjectIdeas(2f)PythonWebPlugin.html)
+  - Make a pygame plugin for IE, netscape. [CodingProjectIdeas/PythonWebPlugin](PythonWebPlugin)
 
   - [../PygameGui](./CodingProjectIdeas(2f)PygameGui.html)
 

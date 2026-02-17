@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-[techtonik/ideas](./techtonik(2f)ideas.html)
+[techtonik/ideas](techtonik/ideas)
 
 - prematurely closed: [https://github.com/pypa/pip/issues/2409](https://github.com/pypa/pip/issues/2409)
 

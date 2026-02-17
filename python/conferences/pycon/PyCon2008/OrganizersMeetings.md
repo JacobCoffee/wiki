@@ -212,7 +212,7 @@ A general review, to get back on track after the holidays. Add specifics below.
 
 > [Meeting minutes](http://wiki.python.org/moin-pycon/2007-07-17)
 
-- [Staff roles](./PyCon2008(2f)Staff.html) (sign up now!)
+- [Staff roles](Staff) (sign up now!)
 - Keynote speakers
 - PyCon tech
 - Chicago visit

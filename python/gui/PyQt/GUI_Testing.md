@@ -18,7 +18,7 @@ The following list is a collection of resources that may be useful to people who
 
 - [Squish](http://www.froglogic.com/) (non-free)
 
-The [Unit Testing](./PyQt(2f)Unit_Testing.html) page deals with more general unit testing issues.
+The [Unit Testing](Unit_Testing) page deals with more general unit testing issues.
 
 ## Historical 
 

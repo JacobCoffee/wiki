@@ -26,7 +26,7 @@ Related info:
 
 BTW, the [InterWiki](InterWiki) name of this Wiki is `PythonInfo`{.backtick}.
 
-\-- [JürgenHermann](./J(c3bc)rgenHermann.html) 2002-07-13 01:15:19
+\-- [JürgenHermann](../archive/JürgenHermann) 2002-07-13 01:15:19
 
 ------------------------------------------------------------------------
 

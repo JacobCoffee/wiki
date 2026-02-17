@@ -34,7 +34,7 @@ For sprinters that would like a free license for Wing IDE Professional, please s
 
 - Goal: Same thing we do every night, Pinky Coach: Jacob Kaplan-Moss
 
-  Details: [/DjangoSprint](./PyCon2006(2f)Sprints(2f)DjangoSprint.html)
+  Details: [/DjangoSprint](Sprints/DjangoSprint)
 
 ## Zope 
 
@@ -46,7 +46,7 @@ For sprinters that would like a free license for Wing IDE Professional, please s
 
 - Goal: to port Stackless to Python 2.4.2 Coach: Christian Tismer
 
-  Details: [/StacklessSprint](./PyCon2006(2f)Sprints(2f)StacklessSprint.html)
+  Details: [/StacklessSprint](Sprints/StacklessSprint)
 
 ## Docutils (reStructuredText) 
 
@@ -54,25 +54,25 @@ For sprinters that would like a free license for Wing IDE Professional, please s
 
   Coach: [DavidGoodger](DavidGoodger)
 
-  Details: [/DocutilsSprint](./PyCon2006(2f)Sprints(2f)DocutilsSprint.html) IRC: #docutils
+  Details: [/DocutilsSprint](Sprints/DocutilsSprint) IRC: #docutils
 
 ## Python Core 
 
 - Goal: add functionality, fix bugs, and facilitate applications Coach: Brett Cannon
 
-  Details: [/PythonCore](./PyCon2006(2f)Sprints(2f)PythonCore.html)
+  Details: [/PythonCore](Sprints/PythonCore)
 
 ## TurboGears 
 
 - Goal: add functionality, resolve tricky bugs and facilitate applications Coach: Kevin Dangoor
 
-  Details: [/TurboGearsSprint](./PyCon2006(2f)Sprints(2f)TurboGearsSprint.html)
+  Details: [/TurboGearsSprint](Sprints/TurboGearsSprint)
 
 ## PyPy 
 
 - Goal: work in any area of interest of [PyPy](PyPy) Coach: Michael Hudson, Armin Rigo, Holger Krekel
 
-  Details: [/PyPySprint](./PyCon2006(2f)Sprints(2f)PyPySprint.html)
+  Details: [/PyPySprint](Sprints/PyPySprint)
 
 ## Pydotorg rollout 
 
@@ -80,7 +80,7 @@ For sprinters that would like a free license for Wing IDE Professional, please s
 
   Coach: Tim Parkin (not on site but knows everything) and Stephan Deibel (onsite but knows nothing ![:-)](/wiki/europython/img/smile.png ":-)")
 
-  Details: [/PydotorgSprint](./PyCon2006(2f)Sprints(2f)PydotorgSprint.html)
+  Details: [/PydotorgSprint](Sprints/PydotorgSprint)
 
 ## Conference software 
 
@@ -88,7 +88,7 @@ For sprinters that would like a free license for Wing IDE Professional, please s
 
   Coach: [AndrewKuchling](AndrewKuchling)
 
-  Details: [/ConferenceSprint](./PyCon2006(2f)Sprints(2f)ConferenceSprint.html)
+  Details: [/ConferenceSprint](Sprints/ConferenceSprint)
 
 ## pymon and CoyMon 3 
 
@@ -116,7 +116,7 @@ For sprinters that would like a free license for Wing IDE Professional, please s
 
   Coach: [JeffreyHarris](./JeffreyHarris.html) Dates: Feb 27 and 28 only
 
-  Details: [/VobjectSprint](./PyCon2006(2f)Sprints(2f)VobjectSprint.html)
+  Details: [/VobjectSprint](Sprints/VobjectSprint)
 
 ## MySQL 
 
@@ -134,7 +134,7 @@ For sprinters that would like a free license for Wing IDE Professional, please s
 
 - Goal: Adding a [SciPy](SciPy) inspired Array Interface to the Python Core
 
-  Details: [/ArrayInterfaceSprint](./PyCon2006(2f)Sprints(2f)ArrayInterfaceSprint.html)
+  Details: [/ArrayInterfaceSprint](Sprints/ArrayInterfaceSprint)
 
 # Introduction 
 
@@ -164,7 +164,7 @@ If you wish to participate in a sprint, please contact the sprint organizers in 
 - Writing paper and pens (for notes, sketches, etc.).
 - Ice water.
 
-[PyCon](PyCon) does *not* supply food for the sprint days. Participants will have to go to [PyCon2006/NearbyRestaurants](./PyCon2006(2f)NearbyRestaurants.html), or have food delivered to the hotel.
+[PyCon](PyCon) does *not* supply food for the sprint days. Participants will have to go to [PyCon2006/NearbyRestaurants](NearbyRestaurants), or have food delivered to the hotel.
 
 ## Who makes this possible? 
 

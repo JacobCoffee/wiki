@@ -16,7 +16,7 @@ Anybody can give a lightning talk. You can give a lightning talk on the same top
 
 To reserve a Lightning Talks slot, just edit this page (look for the word-balloon icon at the upper right) and add your name and topic. There will also be a board at [PyOhio](PyOhio) itself for on-site lightning talk signup.
 
-You can see our list of last year\'s pregeristered lightning talks \<[PyOhio2008/LightningTalks](./PyOhio2008(2f)LightningTalks.html)\>\`\_.
+You can see our list of last year\'s pregeristered lightning talks \<[PyOhio2008/LightningTalks](../PyOhio2008/LightningTalks)\>\`\_.
 
 Lightning talk reservations
 

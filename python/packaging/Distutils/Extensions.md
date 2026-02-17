@@ -16,6 +16,6 @@ Know-How:
 
 Extensions (new command classes):
 
-- [/SpecFileManipulation](./Distutils(2f)Extensions(2f)SpecFileManipulation.html) - shows how to modify the SPEC file in a RPM build
+- [/SpecFileManipulation](Extensions/SpecFileManipulation) - shows how to modify the SPEC file in a RPM build
 
-- [/DefendAgainstFruit](./Distutils(2f)Extensions(2f)DefendAgainstFruit.html) - Continuous Deployment focused extension supporting Artifactory Pro as a PyPI server.
+- [/DefendAgainstFruit](Extensions/DefendAgainstFruit) - Continuous Deployment focused extension supporting Artifactory Pro as a PyPI server.

@@ -12,11 +12,11 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 #### 1.1.0.1. Upcoming Sprints 
 
-[Pysetup Sprint](./Packaging(2f)Sprints(2f)PysetupSprint.html) 2011-04-28 to 2011-05-01
+[Pysetup Sprint](Packaging/Sprints/PysetupSprint) 2011-04-28 to 2011-05-01
 
 #### 1.1.0.2. Past Sprints 
 
-[Past and Future Sprints](./Packaging(2f)Sprints.html)
+[Past and Future Sprints](Packaging/Sprints)
 
 ## 1.2. Active Development Repo 
 

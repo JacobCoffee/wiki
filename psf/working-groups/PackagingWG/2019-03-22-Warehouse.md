@@ -74,7 +74,7 @@ Warehouse issues to discuss:
 
   - chewy big system design \..... big enough to get financial help or see if partners will help by implementing it \-- Continuum maybe?
 
-  - TODO: Sumana to list as part of \"if we had money, we could have that thing\" list seeking grants and donations \-- **DONE** at [Fundable Packaging Improvements](./Fundable(20)Packaging(20)Improvements.html)
+  - TODO: Sumana to list as part of \"if we had money, we could have that thing\" list seeking grants and donations \-- **DONE** at [Fundable Packaging Improvements](../../packaging/Fundable Packaging Improvements)
 
 - [https://github.com/pypa/warehouse/issues/3417](https://github.com/pypa/warehouse/issues/3417) Add ability to configure a redirect for documentation previously hosted by PyPI
 

@@ -36,7 +36,7 @@ It has been said that part of Python\'s success is due, at least in part, to the
 +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 | Gatherings of Python users and community members                                       | Python Community Buildbots                                                                    |
 +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
-| [Special Interest Groups](./Special(20)Interest(20)Groups.html) (SIGs)                 | [Python Enhancement Proposals](PythonEnhancementProposals) (PEPs)                      |
+| [Special Interest Groups](../people/Special Interest Groups) (SIGs)                 | [Python Enhancement Proposals](PythonEnhancementProposals) (PEPs)                      |
 +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 | Discussion of improvements in specific areas                                           | How the language evolves                                                                      |
 +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+

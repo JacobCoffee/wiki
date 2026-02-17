@@ -30,7 +30,7 @@ Please join the [EuroPython](EuroPython) Mailing List to discuss conference topi
 
 Please add sprint proposals to the following page:
 
-- [/Sprints](./EuroPython2015(2f)Sprints.html) - [EuroPython](EuroPython) 2015 sprints
+- [/Sprints](EuroPython2015/Sprints) - [EuroPython](EuroPython) 2015 sprints
 
 ## Traveling 
 

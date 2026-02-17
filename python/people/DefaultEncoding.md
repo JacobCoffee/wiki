@@ -16,7 +16,7 @@ Python users who are new to Unicode sometimes are attracted by default encoding 
 :::
 ::::
 
-When you concatenate byte string \"abc\" with unicode string u\"bcd\" Python will first convert \"abc\" into u\"abc\" by calling \"abc\".decode(sys.getdefaultencoding()). If you put non-ascii characters into byte string then .decode(sys.getdefaultencoding()) method will fail with `UnicodeDecodeError`, therefore byte strings should not contain non-ascii characters. In [Python3.0](./Python3(2e)0.html) sys.getdefaultencoding will be removed.
+When you concatenate byte string \"abc\" with unicode string u\"bcd\" Python will first convert \"abc\" into u\"abc\" by calling \"abc\".decode(sys.getdefaultencoding()). If you put non-ascii characters into byte string then .decode(sys.getdefaultencoding()) method will fail with `UnicodeDecodeError`, therefore byte strings should not contain non-ascii characters. In [Python3.0](../py3/Python3.0) sys.getdefaultencoding will be removed.
 
 ------------------------------------------------------------------------
 

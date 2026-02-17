@@ -12,7 +12,7 @@ This is a Wiki page. Users with edit rights can edit it. You are, therefore, enc
 
 ## Python for Programmers 
 
-The tutorials on this page aim at people with previous experience with other programming languages (C, Perl, Lisp, Visual Basic, etc.). Also of potential interest are related pages [BeginnersGuide/Overview](./BeginnersGuide(2f)Overview.html) and [BeginnersGuide/NonProgrammers](./BeginnersGuide(2f)NonProgrammers.html) (it\'s not always easy to distinguish \"for experienced programmers\" and \"for first-time programmers\" and there\'s likely some overlap). Also see the tips in [MovingToPythonFromOtherLanguages](MovingToPythonFromOtherLanguages).
+The tutorials on this page aim at people with previous experience with other programming languages (C, Perl, Lisp, Visual Basic, etc.). Also of potential interest are related pages [BeginnersGuide/Overview](Overview) and [BeginnersGuide/NonProgrammers](NonProgrammers) (it\'s not always easy to distinguish \"for experienced programmers\" and \"for first-time programmers\" and there\'s likely some overlap). Also see the tips in [MovingToPythonFromOtherLanguages](MovingToPythonFromOtherLanguages).
 
 ## Books, Websites, Tutorials (non-interactive) 
 

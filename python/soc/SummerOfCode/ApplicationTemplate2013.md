@@ -18,7 +18,7 @@ It is **HIGHLY RECOMMENDED** that you submit your proposal early and make change
 
 - Sub-organization with whom you hope to work(\*):
 
-  (e.g. GNU Mailman, OpenHatch, etc. See [SummerOfCode/2013](./SummerOfCode(2f)2013.html) for the list of valid sub-organizations)
+  (e.g. GNU Mailman, OpenHatch, etc. See [SummerOfCode/2013](2013) for the list of valid sub-organizations)
 
 ## Student Information 
 
@@ -80,6 +80,6 @@ The information requested above is generally required for us to be able to conta
 
 We strongly recommend that you join the respective IRC channels for the sub-organizations you are applying to, and any relevant development mailing lists to the projects you are interested in working on to learn more about the community. You may wish to get your prospective mentors to read your proposals in advance so they can help you refine them.
 
-**\*PLEASE DO NOT CONTACT THE GSoC ADMINISTRATORS ABOUT YOUR PROPOSALS\*** Students should be contacting the mentors and the sub-organizations about projects and proposals. Mentors are often available on IRC, as well as the respective sub-organizations mailing lists. The mailing list for each sub-org is listed here: [SummerOfCode/2013](./SummerOfCode(2f)2013.html). As a reciprocal courtesy students are expected to also be regularly available on IRC and available via e-mail and reasonably responsive to information. Students helping other students with proposals, helping answer questions in IRC or the mailing lists, etc is highly encouraged.
+**\*PLEASE DO NOT CONTACT THE GSoC ADMINISTRATORS ABOUT YOUR PROPOSALS\*** Students should be contacting the mentors and the sub-organizations about projects and proposals. Mentors are often available on IRC, as well as the respective sub-organizations mailing lists. The mailing list for each sub-org is listed here: [SummerOfCode/2013](2013). As a reciprocal courtesy students are expected to also be regularly available on IRC and available via e-mail and reasonably responsive to information. Students helping other students with proposals, helping answer questions in IRC or the mailing lists, etc is highly encouraged.
 
 If for any reason you have not been able to find a mentor who can help you with your proposal, or you have a question that you think will be relevant to more than just your sub-organization, you can direct your questions to the [soc2013-general@python.org](mailto:soc2013-general@python.org) mailing list. You may sign up here: [http://mail.python.org/mailman/listinfo/soc2013-general/](http://mail.python.org/mailman/listinfo/soc2013-general/)

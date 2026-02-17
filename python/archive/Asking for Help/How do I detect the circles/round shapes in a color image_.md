@@ -80,7 +80,7 @@ The cv.[CvtColor](./CvtColor.html)() call changes the color model that\'s used f
 The cv.[HoughCircles](./HoughCircles.html)() call is what actually finds the circles. Its a rather lengthy computation which results finally in a list of circles. There are some parameters in the call that might need to be adjusted in order for it to do a good job of detection. But alas I did not find documentation for this function on the site I mentioned above.
 
 ::: note
-When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](./Asking(20)for(20)Help.html) page.
+When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](..) page.
 :::
 
 ------------------------------------------------------------------------

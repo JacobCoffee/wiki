@@ -58,19 +58,19 @@ EuroPython resources available in this wiki:
 
 - [EuroPython2009](EuroPython2009) - Wiki for the 2009 conference (Birmingham, United Kingdom)
 
-- [EuroPython2008](EuroPython2008) - Wiki for the 2008 conference (Vilnius, Lithuania, as proposed during [EuroPython2007](EuroPython2007)) (Organisers\' Wiki: [/2008](./EuroPython(2f)2008.html))
+- [EuroPython2008](EuroPython2008) - Wiki for the 2008 conference (Vilnius, Lithuania, as proposed during [EuroPython2007](EuroPython2007)) (Organisers\' Wiki: [/2008](EuroPython/2008))
 
-- [EuroPython2007](EuroPython2007) - Wiki for the 2007 conference (Vilnius, Lithuania, July 9th-11th) (Organisers\' Wiki: [/2007](./EuroPython(2f)2007.html))
+- [EuroPython2007](EuroPython2007) - Wiki for the 2007 conference (Vilnius, Lithuania, July 9th-11th) (Organisers\' Wiki: [/2007](EuroPython/2007))
 
-- [EuroPython2006](EuroPython2006) - Wiki for the 2006 conference (Geneva, Switzerland, July 3rd-5th) (Organisers\' Wiki: [/2006](./EuroPython(2f)2006.html))
+- [EuroPython2006](EuroPython2006) - Wiki for the 2006 conference (Geneva, Switzerland, July 3rd-5th) (Organisers\' Wiki: [/2006](EuroPython/2006))
 
 - [EuroPython2005](EuroPython2005) - Wiki for the 2005 conference (Gothenburg, Sweden)
 
 - [EuroPython2004](EuroPython2004) - Wiki for the 2004 conference (Gothenburg, Sweden, June 7th-9th)
 
-- [/2003](./EuroPython(2f)2003.html) - our second successful conference, again in Charleroi, Belgium.
+- [/2003](EuroPython/2003) - our second successful conference, again in Charleroi, Belgium.
 
-- [/2002](./EuroPython(2f)2002.html) - information pertaining to the first event in 2002
+- [/2002](EuroPython/2002) - information pertaining to the first event in 2002
 
 The [EuroPython mailing list](mailto:europython@python.org) [(info)](http://mail.python.org/mailman/listinfo/europython) [(archives)](http://mail.python.org/pipermail/europython/) is the place for ongoing discussion of previous and future conferences.
 
@@ -82,6 +82,6 @@ Sponsors should see information on the Web site: [http://www.europython.eu/spons
 
 This information is outdated, since the EuroPython organization has moved on since the early days, but we leave it here for reference and inspiration:
 
-For conference organisers, the [/SoftwareRequirements](./EuroPython(2f)SoftwareRequirements.html) page looks at the issues around conference management software.
+For conference organisers, the [/SoftwareRequirements](EuroPython/SoftwareRequirements) page looks at the issues around conference management software.
 
 [EuroPythonImprove](EuroPythonImprove) is a start page for discussing how to improve the conference and the conference web site.

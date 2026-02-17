@@ -38,7 +38,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
   - Friday the 13th lived up to the promise\... several bugs fixed
 
-  - linksThatStartWithLowerCase are not links anymore, thus boost.python/InternalDataStructures stopped to work; but [boost.python/InternalDataStructures](./boost(2e)python(2f)InternalDataStructures.html) works, and on the [boost.python](./boost(2e)python.html) page, `/InternalDataStructures`{.backtick} works too (i.e. use the short form of subpage links).
+  - linksThatStartWithLowerCase are not links anymore, thus boost.python/InternalDataStructures stopped to work; but [boost.python/InternalDataStructures](../implementations/boost.python/InternalDataStructures) works, and on the [boost.python](../implementations/boost.python) page, `/InternalDataStructures`{.backtick} works too (i.e. use the short form of subpage links).
 
 - 2002-11-21 - updated to CVS current (rev 1.163)
 

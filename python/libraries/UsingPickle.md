@@ -63,7 +63,7 @@ See [the pickle documentation](https://docs.python.org/3/library/pickle.html#dat
 
 ## Discussion 
 
-Pickles can cause problems if you save a pickle, then update your code and read the pickle in. Attribute added to your `__init__` may not be present in the unpickled object; also, if pickle can\'t find your class and module (e.g., if you renamed the module) you will get errors. However you can handle renaming modules and classes as described in [UsingPickle/RenamingModules](./UsingPickle(2f)RenamingModules.html)
+Pickles can cause problems if you save a pickle, then update your code and read the pickle in. Attribute added to your `__init__` may not be present in the unpickled object; also, if pickle can\'t find your class and module (e.g., if you renamed the module) you will get errors. However you can handle renaming modules and classes as described in [UsingPickle/RenamingModules](UsingPickle/RenamingModules)
 
 For this reason, you should be wary of using pickles for long-term storage where the underlying code is not highly stable.
 

@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Marketing Python 
 
-Over a period of time, perhaps starting in earnest with the weblog entry [\"Marketing Python - An Idea Whose Time Has Come\"](http://www.artima.com/weblogs/viewpost.jsp?thread=150515), a perception has emerged that the Python community has not been effectively communicating the benefits of the Python language and technologies. Whilst previous and existing promotional efforts at the highest levels of the community have involved ongoing advocacy activities (see [PythonAdvocacyCoordinator](PythonAdvocacyCoordinator) and [Advocacy](Advocacy)), repositories of materials or links to materials (see [evangelism support materials](./evangelism(20)support(20)materials.html)), events (see [PromotingPythonBof](PromotingPythonBof)), and the redevelopment of the [Python Web site](http://www.python.org/), it has been argued that the language and associated technologies are not being effectively \"sold\" to newcomers.
+Over a period of time, perhaps starting in earnest with the weblog entry [\"Marketing Python - An Idea Whose Time Has Come\"](http://www.artima.com/weblogs/viewpost.jsp?thread=150515), a perception has emerged that the Python community has not been effectively communicating the benefits of the Python language and technologies. Whilst previous and existing promotional efforts at the highest levels of the community have involved ongoing advocacy activities (see [PythonAdvocacyCoordinator](PythonAdvocacyCoordinator) and [Advocacy](Advocacy)), repositories of materials or links to materials (see [evangelism support materials](../archive/evangelism support materials)), events (see [PromotingPythonBof](PromotingPythonBof)), and the redevelopment of the [Python Web site](http://www.python.org/), it has been argued that the language and associated technologies are not being effectively \"sold\" to newcomers.
 
 One contentious issue related to marketing activities is the identification of the target audience for any marketing exercise or message. Previously, the \"executive\" audience (or \"management\") has been considered as the primary audience, since good technology supposedly sells itself to a technical audience, but recent developments have suggested that a clear message to a technical audience can promote a \"peer marketing\" effect. In other words, a good (or merely new, interesting or fashionable) technology that is communicated to a technical audience can be adopted through peer influences rather than through the persuasion of a primarily managerial decision-maker using a less technical and more promotional message. A discussion of different audiences can be found [here](http://web.archive.org/web/20061203001145/http://wingware.com/pipermail/marketing-python/2006-March/005610.html).
 
@@ -193,7 +193,7 @@ As described above, some individuals are motivated by particular kinds of applic
 - What the API for the packages looks like.
 - If there are many competing packages, what the cost of choosing, switching is - are there any community standards?
 
-The current library documentation does attempt to categorise modules and packages, but the accumulation of packages of varying relevance does provide a degree of confusion in the presentation. It could be argued that a more coherent library (or library documentation) is required, and such a proposal can be found [here](./CodingProjectIdeas(2f)StandardLibrary(2f)RestructuredStandardLibrary.html).
+The current library documentation does attempt to categorise modules and packages, but the accumulation of packages of varying relevance does provide a degree of confusion in the presentation. It could be argued that a more coherent library (or library documentation) is required, and such a proposal can be found [here](../getting-started/CodingProjectIdeas/StandardLibrary/RestructuredStandardLibrary).
 
 ### Profile: Experienced Python Developer 
 
@@ -219,7 +219,7 @@ Although changes have been suggested with regard to the maintenance and producti
 
 - **Revitalise the FAQs** or make the Wiki the primary FAQ resource.
 
-- **Emphasise the community standards and currently supported APIs** in the library reference; de-emphasise the deprecated modules. (See [here](./CodingProjectIdeas(2f)StandardLibrary(2f)RestructuredStandardLibrary.html) for suggestions which could in part be applied to the structure of the documentation, if not the actual library itself.)
+- **Emphasise the community standards and currently supported APIs** in the library reference; de-emphasise the deprecated modules. (See [here](../getting-started/CodingProjectIdeas/StandardLibrary/RestructuredStandardLibrary) for suggestions which could in part be applied to the structure of the documentation, if not the actual library itself.)
 
 ------------------------------------------------------------------------
 

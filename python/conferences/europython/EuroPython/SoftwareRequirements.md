@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # EuroPython Conference Software Requirements 
 
-This page is derived from [PyConPlanning/SoftwareRequirements](./PyConPlanning(2f)SoftwareRequirements.html) but focuses on things that have proven more relevant to [EuroPython](EuroPython). The requirements here do not directly address general conference Web site issues, such as [http://www.europython.org/](http://www.europython.org/) which focuses on the publishing of general information about the conference.
+This page is derived from [PyConPlanning/SoftwareRequirements](../../pycon/PyConPlanning/SoftwareRequirements) but focuses on things that have proven more relevant to [EuroPython](EuroPython). The requirements here do not directly address general conference Web site issues, such as [http://www.europython.org/](http://www.europython.org/) which focuses on the publishing of general information about the conference.
 
 ------------------------------------------------------------------------
 

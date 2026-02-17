@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Pycon 2009 Volunteer Signup
 
-(PyCon 2008 list of volunteers: see [Volunteer Signup 2008](./Volunteer(20)Signup(20)2008.html).)
+(PyCon 2008 list of volunteers: see [Volunteer Signup 2008](Volunteer Signup 2008).)
 
 Hello interested volunteer! Here\'s where you can find a role that fits your particular on-site volunteer talents. Volunteering at Pycon could possibly be the greatest thing you will ever do. Ever.
 

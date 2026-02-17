@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 To help out, please [join the pycon-organizers list](http://mail.python.org/mailman/listinfo/pycon-organizers).
 
-[PyCon2010 Organizer\'s Planning is here](./PyCon2010(2f)Organizers_Meetings.html).
+[PyCon2010 Organizer\'s Planning is here](../PyCon2010/Organizers_Meetings).
 
 **Next meeting**: Tuesday, March 25, at 19:00 UTC (2PM Eastern, 1PM Central, 12PM Mountain, 11AM Pacific).
 

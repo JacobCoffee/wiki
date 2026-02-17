@@ -21,7 +21,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 [SeaPig](SeaPig) member. Avid wiki user, also participates on: [CommunityWiki](http://communitywiki.org/), [Futures wiki](http://futures.wiki.taoriver.net/)
 
-[lwickjr](lwickjr) 2006-01-02 00:59: Would you care to champion [my module](./lwickjr(2f)Modules.html) for inclusion in the [PythonStandardLibrary](./PythonStandardLibrary.html)?
+[lwickjr](lwickjr) 2006-01-02 00:59: Would you care to champion [my module](../archive/lwickjr/Modules) for inclusion in the [PythonStandardLibrary](./PythonStandardLibrary.html)?
 
 ------------------------------------------------------------------------
 

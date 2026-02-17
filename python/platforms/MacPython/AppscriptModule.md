@@ -8,9 +8,9 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # What is Appscript? 
 
-Appscript is a high-level, user-friendly [MacPython](MacPython)-to-Apple Event Manager bridge that allows you to control scriptable Mac OS X applications using ordinary Python scripts. Appscript makes [MacPython](MacPython) a serious alternative to Apple\'s own [../AppleScript](./MacPython(2f)AppleScript.html) language for automating your Mac.
+Appscript is a high-level, user-friendly [MacPython](MacPython)-to-Apple Event Manager bridge that allows you to control scriptable Mac OS X applications using ordinary Python scripts. Appscript makes [MacPython](MacPython) a serious alternative to Apple\'s own [../AppleScript](AppleScript) language for automating your Mac.
 
-For example, to get the value of the first paragraph of the topmost document in [../TextEdit](./MacPython(2f)TextEdit.html):
+For example, to get the value of the first paragraph of the topmost document in [../TextEdit](TextEdit):
 
     app('TextEdit').documents[1].paragraphs[1].get()
 
@@ -42,44 +42,44 @@ Pages containing additional information on scripting individual applications:
 
 - [../Apple Mail](./MacPython(2f)Apple(20)Mail.html)
 
-- [../Audio Hijack Pro](./MacPython(2f)Audio(20)Hijack(20)Pro.html)
+- [../Audio Hijack Pro](../../multimedia/MacPython/Audio Hijack Pro)
 
-- [../Camino](./MacPython(2f)Camino.html)
+- [../Camino](Camino)
 
-- [../FileMakerPro](./MacPython(2f)FileMakerPro.html)
+- [../FileMakerPro](FileMakerPro)
 
-- [../Firefox](./MacPython(2f)Firefox.html)
+- [../Firefox](Firefox)
 
-- [../Growl](./MacPython(2f)Growl.html)
+- [../Growl](Growl)
 
 - [../Illustrator](./MacPython(2f)Illustrator.html)
 
-- [../InDesign](./MacPython(2f)InDesign.html)
+- [../InDesign](InDesign)
 
-- [../iCal](./MacPython(2f)iCal.html)
+- [../iCal](iCal)
 
-- [../iPhoto](./MacPython(2f)iPhoto.html)
+- [../iPhoto](iPhoto)
 
-- [../iTerm](./MacPython(2f)iTerm.html)
+- [../iTerm](iTerm)
 
-- [../iTunes](./MacPython(2f)iTunes.html)
+- [../iTunes](iTunes)
 
 - [../iView MediaPro](./MacPython(2f)iView(20)MediaPro.html)
 
-- [../Microsoft Powerpoint](./MacPython(2f)Microsoft(20)Powerpoint.html)
+- [../Microsoft Powerpoint](Microsoft Powerpoint)
 
-- [../Microsoft Word](./MacPython(2f)Microsoft(20)Word.html)
+- [../Microsoft Word](Microsoft Word)
 
-- [../OmniGraffle](./MacPython(2f)OmniGraffle.html)
+- [../OmniGraffle](OmniGraffle)
 
-- [../PhotoShop](./MacPython(2f)PhotoShop.html)
+- [../PhotoShop](PhotoShop)
 
-- [../QuarkXPress](./MacPython(2f)QuarkXPress.html)
+- [../QuarkXPress](QuarkXPress)
 
-- [../Safari](./MacPython(2f)Safari.html)
+- [../Safari](Safari)
 
-- [../SoundtrackPro](./MacPython(2f)SoundtrackPro.html)
+- [../SoundtrackPro](SoundtrackPro)
 
-- [../TextEdit](./MacPython(2f)TextEdit.html)
+- [../TextEdit](TextEdit)
 
-- [../VoodooPad](./MacPython(2f)VoodooPad.html)
+- [../VoodooPad](VoodooPad)

@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Sorting numbers in columns 
 
-On the [PyQt mailing list](./PyQt(2f)TheMailingList.html), Bernard Van Der Stichele asked if it was possible to sort a column of numbers in a QTableWidget by their real numeric values instead of treating them as strings.
+On the [PyQt mailing list](TheMailingList), Bernard Van Der Stichele asked if it was possible to sort a column of numbers in a QTableWidget by their real numeric values instead of treating them as strings.
 
 The following example shows how to do this for a QTableView with a model. I don\'t think it\'s possible to apply this to a QTableWidget because its model is private.
 

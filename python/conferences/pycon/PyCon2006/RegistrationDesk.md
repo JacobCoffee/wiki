@@ -10,7 +10,7 @@ PyConTX2006 needs your help! Volunteers at the registration desk will help regis
 
 Filling empty slots is most important, but we need three people at the desk Friday morning. Later on one person per time slot will do.
 
-Here\'s the [talks schedule](http://www.python.org/pycon/2006/schedule.html) and the [list of talks with abstracts](http://wiki.python.org/moin/PyCon2006/Talks). We also need volunteer [session chairs](./PyCon2006(2f)SessionChairs.html).
+Here\'s the [talks schedule](http://www.python.org/pycon/2006/schedule.html) and the [list of talks with abstracts](http://wiki.python.org/moin/PyCon2006/Talks). We also need volunteer [session chairs](SessionChairs).
 
 You may also send email to [David Goodger](mailto:goodger@python.org), the volunteer coordinator. There\'s no need to confirm; I\'m automatically informed of changes to this page.
 

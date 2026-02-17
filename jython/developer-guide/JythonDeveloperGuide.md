@@ -16,7 +16,7 @@ NOTE: The source code of Jython is now mirrored to [Github](http://github.com/jy
 
 - You can use the command line tool `hg`{.backtick}, or [GUI clients are available](http://mercurial.selenic.com/wiki/OtherTools#Graphical_user_interfaces) on most platforms.
 
-- [NetBeans](./NetBeans.html), Eclipse and other Java IDEs also integrate Mercurial support. Eclipse users should see [JythonDeveloperGuide/EclipseNotes](./JythonDeveloperGuide(2f)EclipseNotes.html).
+- [NetBeans](./NetBeans.html), Eclipse and other Java IDEs also integrate Mercurial support. Eclipse users should see [JythonDeveloperGuide/EclipseNotes](JythonDeveloperGuide/EclipseNotes).
 
 - Browse the source code on the Web at [http://hg.python.org/jython](http://hg.python.org/jython) or at the official mirror on [BitBucket](./BitBucket.html), at [http://bitbucket.org/jython/jython](http://bitbucket.org/jython/jython).
 
@@ -48,11 +48,11 @@ Because Jython is an Ant project, it\'s a bit tricky to configure an Integrated 
 
 These notes should help:
 
-- [JythonDeveloperGuide/EclipseNotes](./JythonDeveloperGuide(2f)EclipseNotes.html)
+- [JythonDeveloperGuide/EclipseNotes](JythonDeveloperGuide/EclipseNotes)
 
-- [JythonDeveloperGuide/IntellijNotes](./JythonDeveloperGuide(2f)IntellijNotes.html)
+- [JythonDeveloperGuide/IntellijNotes](JythonDeveloperGuide/IntellijNotes)
 
-- [JythonDeveloperGuide/IntellijTricks](./JythonDeveloperGuide(2f)IntellijTricks.html)
+- [JythonDeveloperGuide/IntellijTricks](JythonDeveloperGuide/IntellijTricks)
 
 ## Ant 
 
@@ -113,7 +113,7 @@ Note the following describes the current trunk/jython. If you are working from a
 
 ## Coding guidance 
 
-- [JythonDeveloperGuide/PortingPythonModulesToJython](./JythonDeveloperGuide(2f)PortingPythonModulesToJython.html) : A good starting task for a Jython developer
+- [JythonDeveloperGuide/PortingPythonModulesToJython](JythonDeveloperGuide/PortingPythonModulesToJython) : A good starting task for a Jython developer
 
 - [CodingStandards](CodingStandards) : The standards for writing Java code for Jython
 
@@ -131,13 +131,13 @@ Note the following describes the current trunk/jython. If you are working from a
 
 - [JythonClassesInJava](JythonClassesInJava) : How to make a Jython class in Java (pre-2.2, deprecated)
 
-- [JythonDeveloperGuide/AttributeLookupMethods](./JythonDeveloperGuide(2f)AttributeLookupMethods.html) : Some explanation for the different methods to lookup attributes on [PyObject](./PyObject.html).
+- [JythonDeveloperGuide/AttributeLookupMethods](JythonDeveloperGuide/AttributeLookupMethods) : Some explanation for the different methods to lookup attributes on [PyObject](./PyObject.html).
 
-- [JythonDeveloperGuide/ImplementingStrAndRepr](./JythonDeveloperGuide(2f)ImplementingStrAndRepr.html) : Tips for implementation of `__str__`{.backtick} and `__unicode__`{.backtick} in Java.
+- [JythonDeveloperGuide/ImplementingStrAndRepr](JythonDeveloperGuide/ImplementingStrAndRepr) : Tips for implementation of `__str__`{.backtick} and `__unicode__`{.backtick} in Java.
 
 - [IntegerConversion](IntegerConversion) : Basics of converting [PyObject](./PyObject.html) numbers to Java primitives
 
-- [JythonDeveloperGuide/UsingPyNewStringFromPythonCode](./JythonDeveloperGuide(2f)UsingPyNewStringFromPythonCode.html) : On the corner case of converting a Java String to a Python String.
+- [JythonDeveloperGuide/UsingPyNewStringFromPythonCode](JythonDeveloperGuide/UsingPyNewStringFromPythonCode) : On the corner case of converting a Java String to a Python String.
 
 - [GeneratedDerivedClasses](GeneratedDerivedClasses) : `gderived.py`, a tool used when implementing new types
 
@@ -151,9 +151,9 @@ Note the following describes the current trunk/jython. If you are working from a
 
 - [VersionTransition](VersionTransition) : Why some tests are excluded in going to a new version and how to go about fixing them
 
-- [JythonDeveloperGuide/RegressionTestNotes](./JythonDeveloperGuide(2f)RegressionTestNotes.html) : Some notes the regression tests
+- [JythonDeveloperGuide/RegressionTestNotes](JythonDeveloperGuide/RegressionTestNotes) : Some notes the regression tests
 
-- [JythonDeveloperGuide/PleaseAdoptMe](./JythonDeveloperGuide(2f)PleaseAdoptMe.html) : Tasks looking for volunteers
+- [JythonDeveloperGuide/PleaseAdoptMe](JythonDeveloperGuide/PleaseAdoptMe) : Tasks looking for volunteers
 
 - [HowToReleaseJython](HowToReleaseJython) : Checklist for building a release and updating the website
 

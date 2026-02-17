@@ -16,17 +16,17 @@ A: In order to install aeve on Panther you need these modules: - ww nov 03
 
 1.  pyrex - [http://www.cosc.canterbury.ac.nz/\~greg/python/Pyrex/](http://www.cosc.canterbury.ac.nz/~greg/python/Pyrex/)
 
-2.  [../LaunchServices](./MacPython(2f)LaunchServices.html) - available on this Mr. Ippolitti\'s website: [http://undefined.org/python/#LaunchServices](http://undefined.org/python/#LaunchServices)
+2.  [../LaunchServices](LaunchServices) - available on this Mr. Ippolitti\'s website: [http://undefined.org/python/#LaunchServices](http://undefined.org/python/#LaunchServices)
 
 3.  TECManager - also at undefined.org
 
 4.  Finally, you can install aeve. I installed all of the above using \"python setup.py build\" and then \"sudo python setup.py install\"
 
-**Q: How do I get started? I know Python, but I don\'t know a thing about [../AppleScript](./MacPython(2f)AppleScript.html).**
+**Q: How do I get started? I know Python, but I don\'t know a thing about [../AppleScript](AppleScript).**
 
-A: To get a primer on how to \"read\" [../AppleScript](./MacPython(2f)AppleScript.html) and understand it as a Python programmer, I found Apple\'s \"AppleScript Language Guide\" the most useful. - [WinstonWolff](WinstonWolff) Nov 03
+A: To get a primer on how to \"read\" [../AppleScript](AppleScript) and understand it as a Python programmer, I found Apple\'s \"AppleScript Language Guide\" the most useful. - [WinstonWolff](WinstonWolff) Nov 03
 
-**Q: I\'ve seen the iCal example of how to \"make\" an object, but I want to automate [../OmniGraffle](./MacPython(2f)OmniGraffle.html). How do I create these properties to pass into make()? I\'ve tried the following, but the iter Objects For Name() doesn\'t work.**
+**Q: I\'ve seen the iCal example of how to \"make\" an object, but I want to automate [../OmniGraffle](OmniGraffle). How do I create these properties to pass into make()? I\'ve tried the following, but the iter Objects For Name() doesn\'t work.**
 
 :::: 
 ::: 

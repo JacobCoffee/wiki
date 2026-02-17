@@ -62,7 +62,7 @@ If you are developing a particular kind of program or library, you might wish to
 
 - [GuiProgramming](GuiProgramming)
 
-- [One-Liners](./Powerful(20)Python(20)One(2d)Liners.html)
+- [One-Liners](../guides/Powerful Python One-Liners)
 
 - [ParallelProcessing](ParallelProcessing)
 
@@ -74,7 +74,7 @@ If you are developing a particular kind of program or library, you might wish to
 
 ## Advanced Topics 
 
-- [Python 3 porting guide](PortingToPy3k) including a [quick reference](./PortingToPy3k(2f)BilingualQuickRef.html)
+- [Python 3 porting guide](PortingToPy3k) including a [quick reference](../py3/PortingToPy3k/BilingualQuickRef)
 
 - [IntegratingPythonWithOtherLanguages](IntegratingPythonWithOtherLanguages)
 

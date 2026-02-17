@@ -47,7 +47,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
   Lodging coordinator                   
   --------------------------------------------------------------------------------------------------------------------------
 
-More information about some of these roles can be found at [PyOhio/Tasks](./PyOhio(2f)Tasks.html).
+More information about some of these roles can be found at [PyOhio/Tasks](Tasks).
 :::
 
 ::: 

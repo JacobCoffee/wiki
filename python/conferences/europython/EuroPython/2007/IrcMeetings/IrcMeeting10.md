@@ -17,7 +17,7 @@ The meeting will take place on Monday 14th May (2007-05-14) 18:00 CEST (17:00 BS
 - Registration
   - It was decided that registration would open as soon as the infrastructure is ready, hopefully Tuesday 15th May, after final testing of the process.
 
-  - Changes to the student rates were agreed. (See [EuroPython/2007/FeeStructureAttendees](./EuroPython(2f)2007(2f)FeeStructureAttendees.html).)
+  - Changes to the student rates were agreed. (See [EuroPython/2007/FeeStructureAttendees](../FeeStructureAttendees).)
 
   - Registration details will be published along with special accommodation details once registration is enabled.
 
@@ -28,7 +28,7 @@ The meeting will take place on Monday 14th May (2007-05-14) 18:00 CEST (17:00 BS
 
   - Michael had nothing to report.
 
-  - The [EuroPython/2007/CallForSponsors](./EuroPython(2f)2007(2f)CallForSponsors.html) was finalised with deadline details.
+  - The [EuroPython/2007/CallForSponsors](../CallForSponsors) was finalised with deadline details.
 - Related to sponsor deadlines, the issue of programmes was discussed with various points of view expressed:
   - Some people prefer paper programmes, others would find PDF versions acceptable.
   - \"On demand\" programmes might be nicer to the environment, but previous experiences with self-service arrangements (eg. in 2005) apparently led to disappointment.
@@ -46,7 +46,7 @@ The meeting will take place on Monday 14th May (2007-05-14) 18:00 CEST (17:00 BS
 
   - The registration form (and Indico \"workflow\") should be approved and published. Benedikt was to complete the e-payment section, but anyone with knowledge in this area might like to assist.
 
-  - Any last minute negotiations about student rates should occur at the meeting so we can make the announcements and forms available. (See [EuroPython/2007/FeeStructureAttendees](./EuroPython(2f)2007(2f)FeeStructureAttendees.html).)
+  - Any last minute negotiations about student rates should occur at the meeting so we can make the announcements and forms available. (See [EuroPython/2007/FeeStructureAttendees](../FeeStructureAttendees).)
 - Keynotes
   - Steve needs to confirm what\'s happening with keynoter #3.
 - Sponsorship
@@ -55,7 +55,7 @@ The meeting will take place on Monday 14th May (2007-05-14) 18:00 CEST (17:00 BS
 - Announcements
   - We should agree to make announcements about the above points this week.
 
-  - The text and timing of the keynote announcement, [EuroPython/2007/CallForSponsors](./EuroPython(2f)2007(2f)CallForSponsors.html) and registration announcement will be finalised.
+  - The text and timing of the keynote announcement, [EuroPython/2007/CallForSponsors](../CallForSponsors) and registration announcement will be finalised.
 
 ## Notes 
 

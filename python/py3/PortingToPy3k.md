@@ -28,13 +28,13 @@ There are two separate issues here:
 
 When finished, these two documents are meant to be a comprehensive guide to porting and maintaining Python 2/3 code. They are authored here in the Wiki and will be included in the official Python documentation when in a good shape.
 
-We also have a [Quick Reference](./PortingToPy3k(2f)BilingualQuickRef.html) to porting code to run on both python2 and python3. At some point, this should be folded into the above pages but currently it contains a quick reference for both Python code and extension modules so it needs some restructuring to fit in.
+We also have a [Quick Reference](PortingToPy3k/BilingualQuickRef) to porting code to run on both python2 and python3. At some point, this should be folded into the above pages but currently it contains a quick reference for both Python code and extension modules so it needs some restructuring to fit in.
 
 # Porting between Python 3 versions 
 
 While Python 2 development has ceased at Python 2.7, new Python 3 versions are released at regular intervals. While all efforts are made to maintain backward compatibility between Python 3 versions, through the application of bug fixes and other changes, some small incompatibilities do creep in. Here are some collections of resources that may help you in porting your code between Python 3 major versions.
 
-- From [Python 3.4 to 3.5](./PortingToPy3k(2f)34to35.html)
+- From [Python 3.4 to 3.5](PortingToPy3k/34to35)
 
 # Contact 
 

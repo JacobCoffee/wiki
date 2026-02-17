@@ -18,7 +18,7 @@ If you want to understand python unicode you have to understand the difference b
 
 In [Python2.4](./Python2(2e)4.html), `str` is a string of bytes, and `unicode` is internally represented unicode. `basestring` is a parent class for `unicode` and `str`.
 
-[Python3.0](./Python3(2e)0.html) will clear up this confusion by getting rid of byte strings and introducing the new type `bytes`{.backtick}. The strings you surround with quotation marks will all be unicode strings, automatically. [1](./(5b).html#b)\]
+[Python3.0](../py3/Python3.0) will clear up this confusion by getting rid of byte strings and introducing the new type `bytes`{.backtick}. The strings you surround with quotation marks will all be unicode strings, automatically. [1](./(5b).html#b)\]
 
 ### See Also 
 

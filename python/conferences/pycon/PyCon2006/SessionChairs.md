@@ -25,7 +25,7 @@ Once the speakers have started, please close the doors to screen out noise from 
 
 Upon conclusion of each presentation, encourage the speakers to disconnect their equipment and move into the hallway for discussions so the next speaker will not be delayed in starting.
 
-Schedule details may change, so be sure to revisit this page to confirm prior to the event. Here\'s the [detailed schedule](http://www.python.org/pycon/2006/schedule.html) and the [list of talks with abstracts](http://wiki.python.org/moin/PyCon2006/Talks). We also need volunteers for the [registration desk](./PyCon2006(2f)RegistrationDesk.html).
+Schedule details may change, so be sure to revisit this page to confirm prior to the event. Here\'s the [detailed schedule](http://www.python.org/pycon/2006/schedule.html) and the [list of talks with abstracts](http://wiki.python.org/moin/PyCon2006/Talks). We also need volunteers for the [registration desk](RegistrationDesk).
 :::
 
 ::: 

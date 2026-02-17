@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 This example was written in response to [a message on the Python-list mailing list](http://mail.python.org/pipermail/python-list/2009-June/714967.html). It shows how to implement support for a new URL scheme in [WebKit](WebKit), so that additional protocols can be used with embedded browsers.
 
-See [Adding the Gopher Protocol to QtWebKit](./PyQt(2f)Adding(20)the(20)Gopher(20)Protocol(20)to(20)QtWebKit.html) for a more complex example.
+See [Adding the Gopher Protocol to QtWebKit](Adding the Gopher Protocol to QtWebKit) for a more complex example.
 
 We begin by importing the PyQt4 modules and defining a simple HTML page:
 

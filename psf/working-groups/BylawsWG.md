@@ -55,7 +55,7 @@ Convert the new membership model description from [NewMembershipModel](NewMember
 
 - Chair: [VanLindberg](./VanLindberg.html)
 
-- [PSF Bylaws WG Charter](./BylawsWG(2f)Charter.html)
+- [PSF Bylaws WG Charter](BylawsWG/Charter)
 
 ## Meetings 
 
@@ -63,4 +63,4 @@ Convert the new membership model description from [NewMembershipModel](NewMember
 
 - December 17, 2013: Changes made during meeting can be seen here: [https://bitbucket.org/vanl/psf-bylaws/commits/all](https://bitbucket.org/vanl/psf-bylaws/commits/all)
 
-- January 24, 2013: Agenda for this meeting can be seen here: [Agenda for January 24, 2014](./BylawsWG(2f)BylawsAgenda.html)
+- January 24, 2013: Agenda for this meeting can be seen here: [Agenda for January 24, 2014](BylawsWG/BylawsAgenda)

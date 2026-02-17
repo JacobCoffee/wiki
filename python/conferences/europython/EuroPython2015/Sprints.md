@@ -15,15 +15,15 @@ Please add your sprint suggestion to the list below. If you intend to provide mo
   **Group/Topic**                                                                                         **Approx. number of people**   **Room (see \"Sprint locations\" below)**
   [PyPy](http://pypy.org/) and/or [using CFFI](http://cffi.readthedocs.org/)                                               
   [Pylint](http://pylint.org/)                                                                                                    
-  [Sphinx](./EuroPython2015(2f)Sphinx.html)                                                                                              Chillida (1st floor)
-  [Mopidy music server](./EuroPython2015(2f)Mopidy.html)                                                  6                              Chillida (1st floor)
-  [Mochi - \"Functional Python\"](./EuroPython2015(2f)Mochi.html)                                         1+                             
+  [Sphinx](Sphinx)                                                                                              Chillida (1st floor)
+  [Mopidy music server](Mopidy)                                                  6                              Chillida (1st floor)
+  [Mochi - \"Functional Python\"](Mochi)                                         1+                             
   [py.test](http://pytest.org)                                                                     5-10?                          
   [borgbackup](http://borgbackup.github.io)                                                        ?                              
   [Panoramisk](https://github.com/gawel/panoramisk)                                               1+?                            
   [Cython](http://cython.org/)                                                                     3                              
   [nameko](http://nameko.readthedocs.org/)                                                         3                              
-  [aioinotify](./EuroPython2015(2f)Aioinotify.html)                                                       1+                             
+  [aioinotify](Aioinotify)                                                       1+                             
   [DjangoGirls](https://www.djangogirls.org) + [Django](https://www.djangoproject.com/)   20                             Chillida (1st floor)
   [Scrapy](https://scrapy.org)                                                                    3-6?                           
   [Bokeh](http://bokeh.pydata.org/en/latest/)                                                                                     

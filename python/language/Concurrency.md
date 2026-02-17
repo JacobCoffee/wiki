@@ -14,11 +14,11 @@ The goal of this article is to clear concurrency-related questions, problems, or
 
 ## Links 
 
-- [Concurrency/99Bottles](./Concurrency(2f)99Bottles.html) - solutions to common problems in different styles/toolkits
+- [Concurrency/99Bottles](Concurrency/99Bottles) - solutions to common problems in different styles/toolkits
 
-- [Concurrency/Patterns](./Concurrency(2f)Patterns.html) - ways to structure your concurrent program
+- [Concurrency/Patterns](Concurrency/Patterns) - ways to structure your concurrent program
 
-- [Concurrency/TipsAndTricks](./Concurrency(2f)TipsAndTricks.html) - Hints for writing better concurrent code
+- [Concurrency/TipsAndTricks](Concurrency/TipsAndTricks) - Hints for writing better concurrent code
 
 - [GlobalInterpreterLock](GlobalInterpreterLock) - a limitation for multithreading in CPython
 

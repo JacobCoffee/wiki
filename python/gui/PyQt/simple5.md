@@ -121,4 +121,4 @@ What this last command achieves has a humorous shading: a human readable **simpl
 
 You will no doubt recall that **qrc_simple** and **ui_simple** are *imported* to the program and thus made available to augment the \"Simple\" **text editor.**
 
-[Return Home](./PyQt(2f)simple.html)
+[Return Home](simple)

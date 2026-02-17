@@ -12,7 +12,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 - Have a newcomer\'s track on the first day: intro to Python, [PyCon](PyCon), open space.
 
-- One person suggested a track at reduced cost aimed at teenagers: [PyCon2006/TeenagerTrack](./PyCon2006(2f)TeenagerTrack.html). That\'s an interesting idea; we could have it on the Friday when attendance is at its lowest, and rustle up speakers on game programming, tutorial topics, and other stuff.
+- One person suggested a track at reduced cost aimed at teenagers: [PyCon2006/TeenagerTrack](TeenagerTrack). That\'s an interesting idea; we could have it on the Friday when attendance is at its lowest, and rustle up speakers on game programming, tutorial topics, and other stuff.
 
 - Make organization of Open Space more apparent.
 

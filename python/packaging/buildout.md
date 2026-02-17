@@ -22,6 +22,6 @@ Other treatments of **buildout** include:
 
 - Jim wrote a [tutorial](http://grok.zope.org/minitutorials/buildout.html);
 
-- [Tutorial class for PyCon 2008](./buildout(2f)pycon2008(20)tutorial.html)
+- [Tutorial class for PyCon 2008](buildout/pycon2008 tutorial)
 
-A proposal is being floated to create a more professional site for buildout. At a first step, let\'s [collect notes](./buildout(2f)newsite(20)notes.html) on what such a site would contain.
+A proposal is being floated to create a more professional site for buildout. At a first step, let\'s [collect notes](buildout/newsite notes) on what such a site would contain.

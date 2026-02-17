@@ -22,4 +22,4 @@ There are several different versions of StructuredText:
 
 One application of StructuredText which is currently discussed on the [DocSig](DocSig) is the generation of documentation from Python [DocStrings](./DocStrings.html).
 
-See [TextFilter](http://c2.com/cgi/wiki?TextFilter "Wiki") for more information on text filters, like StructuredText. We have a bit of information about StructuredText [mark up](./StructuredText(2f)MarkUp.html).
+See [TextFilter](http://c2.com/cgi/wiki?TextFilter "Wiki") for more information on text filters, like StructuredText. We have a bit of information about StructuredText [mark up](StructuredText/MarkUp).

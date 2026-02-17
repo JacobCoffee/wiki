@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-`CallPolicy`{.backtick} allows [boost.python](./boost(2e)python.html) to deal with raw references and pointers. Different policies specifies different strategies of managing object ownership.
+`CallPolicy`{.backtick} allows [boost.python]() to deal with raw references and pointers. Different policies specifies different strategies of managing object ownership.
 
 ## with_custodian_and_ward\<M,N\> 
 
@@ -53,7 +53,7 @@ This class is used in the implementation of return_internal_reference. Also NULL
 
 ### manage_new_object
 
-[BoostPython/ResultConverterGenerator](./BoostPython(2f)ResultConverterGenerator.html) which can be used to wrap C++ functions returning a pointer to an object allocated with a *new-expression* and expecting the caller to take responsibility for deleting that C++ object from heap. [boost.python](./boost(2e)python.html) will do it as part of Python object destruction.
+[BoostPython/ResultConverterGenerator](./BoostPython(2f)ResultConverterGenerator.html) which can be used to wrap C++ functions returning a pointer to an object allocated with a *new-expression* and expecting the caller to take responsibility for deleting that C++ object from heap. [boost.python]() will do it as part of Python object destruction.
 
 Use case:
 

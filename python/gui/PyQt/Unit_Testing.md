@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Unit Testing 
 
-This page covers approaches and solutions for unit testing PyQt applications. The [GUI Testing](./PyQt(2f)GUI_Testing.html) page contains a list of GUI testing resources.
+This page covers approaches and solutions for unit testing PyQt applications. The [GUI Testing](GUI_Testing) page contains a list of GUI testing resources.
 
 ## unittest
 

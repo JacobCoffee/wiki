@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # PyQt5: Threading, Signals and Slots 
 
-This example was ported from the [PyQt4 version](./PyQt(2f)Threading(2c)_Signals_and_Slots.html) by Guðjón Guðjónsson.
+This example was ported from the [PyQt4 version](../PyQt/Threading,_Signals_and_Slots) by Guðjón Guðjónsson.
 
 ## Introduction 
 

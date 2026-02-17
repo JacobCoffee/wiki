@@ -534,7 +534,7 @@ I tried using freeze, and got the following error: c++: /System/Library/Framewor
 
 Anyone know what\'s going on?
 
-On MacOS, try using [py2app](./MacPython(2f)py2app.html), it does a nice job and works perfectly well for MacOS systems.
+On MacOS, try using [py2app](../platforms/MacPython/py2app), it does a nice job and works perfectly well for MacOS systems.
 
 Try manually specifying your python source tree with -p?
 

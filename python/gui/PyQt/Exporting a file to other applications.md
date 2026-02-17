@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Exporting a file to other applications 
 
-On the [mailing list](./PyQt(2f)TheMailingList.html), Hugo Léveillé asked how to drag data from an application into another that accepts a file drop.
+On the [mailing list](TheMailingList), Hugo Léveillé asked how to drag data from an application into another that accepts a file drop.
 
 The following example shows one way to do this. Improvements to this code are welcome.
 

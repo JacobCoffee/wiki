@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## Python for New Programmers 
 
-If you\'ve never programmed before, the tutorials on this page are recommended for you; they don\'t assume that you have previous experience. If you have programming experience, also check out the [BeginnersGuide/Programmers](./BeginnersGuide(2f)Programmers.html) page.
+If you\'ve never programmed before, the tutorials on this page are recommended for you; they don\'t assume that you have previous experience. If you have programming experience, also check out the [BeginnersGuide/Programmers](Programmers) page.
 
 ## Books 
 
@@ -167,7 +167,7 @@ Dead Links / Broken Sites
 
 If these sites come back to life, feel free to move them back up. Perhaps after 6 months, it would be reasonable to delete them.
 
-- Free Python video lectures are also available as a course titled [Intro to programming with Python and Tkinter](./Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter.html), Unix users can view the video using mplayer once you have downloaded the files. Windows users will need to have a DivX player, available from [http://www.divx.com/divx/windows/](http://www.divx.com/divx/windows/). (One user reports success viewing the videos on OS X 10.4 using the VLC player \-- [http://www.videolan.org/](http://www.videolan.org/)) \-- *1/3/14: This is not a dead link but it is a dead option. These videos have been dropped from Blip.tv so the link gets you nothing.*
+- Free Python video lectures are also available as a course titled [Intro to programming with Python and Tkinter](../../archive/Intro to programming with Python and Tkinter), Unix users can view the video using mplayer once you have downloaded the files. Windows users will need to have a DivX player, available from [http://www.divx.com/divx/windows/](http://www.divx.com/divx/windows/). (One user reports success viewing the videos on OS X 10.4 using the VLC player \-- [http://www.videolan.org/](http://www.videolan.org/)) \-- *1/3/14: This is not a dead link but it is a dead option. These videos have been dropped from Blip.tv so the link gets you nothing.*
 
 - [Bioinformatics course in Python](http://www.pasteur.fr/recherche/unites/sis/formation/python/) focuses on preparing people with some programming background for using the [Biopython](http://www.biopython.org) modules.
 

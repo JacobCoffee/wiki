@@ -196,7 +196,7 @@ There\'s an [EditorConfigurationHowto](EditorConfigurationHowto) available.
   [Python 3.7 for iOS](https://github.com/holzschu/python3_ios)                                    iOS            A patch of Python-3.7.1, designed to make it compile on iOS. Python becomes a framework, and your programs call python_main(argc, argv) to execute python scripts.
   [PyPad](http://users.on.net/~jon.dowdall/pypad/)                                                  iOS            IDE for iPad
   [Pythonista](https://apps.apple.com/us/app/pythonista-3/id1085978097)                            iOS            IDE for iOS with native graphic and sound support through high-level API; games and interactive demos included
-  [Python Box](https://itunes.apple.com/us/app/python-box/id1355983473?mt=8)                       iOS            IDE for iPhone and iPad with Python 3 support. Custom library is supported. See [Python Box](./Python(20)Box.html) page for details.
+  [Python Box](https://itunes.apple.com/us/app/python-box/id1355983473?mt=8)                       iOS            IDE for iPhone and iPad with Python 3 support. Custom library is supported. See [Python Box](../archive/Python Box) page for details.
   -------------------------------------------------------------------------------------------------------- -------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 

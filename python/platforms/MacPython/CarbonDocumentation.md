@@ -56,7 +56,7 @@ Python 2.3 Carbon Modules:
 
 - [../Appearance](./MacPython(2f)Appearance.html)
 
-- [../AppleEvents](./MacPython(2f)AppleEvents.html)
+- [../AppleEvents](AppleEvents)
 
 - [../AppleHelp](./MacPython(2f)AppleHelp.html)
 
@@ -156,7 +156,7 @@ Python 2.3 Carbon Modules:
 
 - [../TE](./MacPython(2f)TE.html)
 
-- [../TextEdit](./MacPython(2f)TextEdit.html)
+- [../TextEdit](TextEdit)
 
 - [../WASTEconst](./MacPython(2f)WASTEconst.html)
 

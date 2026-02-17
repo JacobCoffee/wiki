@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Description 
 
-This is a simple [Powerful Python One-Liners](./Powerful(20)Python(20)One(2d)Liners.html). It prints the systems\'s hostname to the screen.
+This is a simple [Powerful Python One-Liners](). It prints the systems\'s hostname to the screen.
 
 # Code 
 

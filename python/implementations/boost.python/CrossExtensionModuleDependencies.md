@@ -25,7 +25,7 @@ On Unix systems, Python is an executable which opens extension modules using the
 
 On Windows, that implicit back-linking is not available, so the Python executable is just a shell which links Explicitly to the Python DLL. Extension modules are loaded by Python using the Insular model but also link to the Python DLL using the Explicit model. I think Python doesn\'t do something similar for AIX only because of a failure of the imagination ;-\>
 
-On Windows, [boost.python](./boost(2e)python.html) extension modules link to the Boost.Python library using the Explicit model. On Unix systems, they use the Global model. Note, however, that the fact that two extension modules are linked to the same library with the Global model does not mean the extension modules share all symbols. In fact (excepton Tru64 when -tlocal is not used to link \-- not recommended), the extension modules will **only** share a symbol which is also present in a library they are both linked to.
+On Windows, [boost.python]() extension modules link to the Boost.Python library using the Explicit model. On Unix systems, they use the Global model. Note, however, that the fact that two extension modules are linked to the same library with the Global model does not mean the extension modules share all symbols. In fact (excepton Tru64 when -tlocal is not used to link \-- not recommended), the extension modules will **only** share a symbol which is also present in a library they are both linked to.
 
 Most of the subtle problems with dynamic linking C++ have to do with symbols C++ generates implicitly:
 

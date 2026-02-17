@@ -26,7 +26,7 @@ Aside from the official CPython distribution available from python.org, other di
 
 - [Portable Python](http://www.portablepython.com): Run Python from USB device - no installation needed.
 
-- [PyIMSL Studio](./PyIMSL(20)Studio.html)
+- [PyIMSL Studio](PyIMSL Studio)
 
 - [PyPy](PyPy): a Python implementation in Python.
 

@@ -14,7 +14,7 @@ Are mostly on [freenode](http://freenode.net) IRC network:
 
 - [irc://chat.freenode.net/python](irc://chat.freenode.net/python) - official web page at [http://pound-python.org/](http://pound-python.org/)
 
-- [irc://chat.freenode.net/macpython](irc://chat.freenode.net/macpython) - see [MacPython/IrcChannel](./MacPython(2f)IrcChannel.html) \|\|
+- [irc://chat.freenode.net/macpython](irc://chat.freenode.net/macpython) - see [MacPython/IrcChannel](../platforms/MacPython/IrcChannel) \|\|
 
 ## Facts 
 

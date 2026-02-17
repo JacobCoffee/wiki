@@ -10,7 +10,7 @@ Here is a quick index of the talks from [PyCon](PyCon) 2003, and links to the pa
 
 - \--[Jeff Kunce](mailto:kuncej@mdc.conservation.state.mo.us)
 
-See also [../OpenSpaceSessions](./PyConDC2003(2f)OpenSpaceSessions.html) and [../SprintPlan](./PyConDC2003(2f)SprintPlan.html).
+See also [../OpenSpaceSessions](OpenSpaceSessions) and [../SprintPlan](SprintPlan).
 
 ------------------------------------------------------------------------
 

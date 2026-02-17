@@ -10,21 +10,21 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ------------------------------------------------------------------------
 
-- [/FAQ](./MacPython(2f)FAQ.html)
+- [/FAQ](MacPython/FAQ)
 
-- [/MacSoftwareUsingPython](./MacPython(2f)MacSoftwareUsingPython.html)
+- [/MacSoftwareUsingPython](MacPython/MacSoftwareUsingPython)
 
-- [/AppleScript](./MacPython(2f)AppleScript.html)
+- [/AppleScript](MacPython/AppleScript)
 
-- [/CoreAudio](./MacPython(2f)CoreAudio.html)
+- [/CoreAudio](MacPython/CoreAudio)
 
-- [/PythonDistributionsForMac](./MacPython(2f)PythonDistributionsForMac.html)
+- [/PythonDistributionsForMac](MacPython/PythonDistributionsForMac)
 
-- [/UniversalLibrariesAndExtensions](./MacPython(2f)UniversalLibrariesAndExtensions.html) (PIL, etc.)
+- [/UniversalLibrariesAndExtensions](MacPython/UniversalLibrariesAndExtensions) (PIL, etc.)
 
-- [/ApplicationInterfaces](./MacPython(2f)ApplicationInterfaces.html)
+- [/ApplicationInterfaces](MacPython/ApplicationInterfaces)
 
-- [/Leopard](./MacPython(2f)Leopard.html) (Mac OS X 10.5.x)
+- [/Leopard](MacPython/Leopard) (Mac OS X 10.5.x)
 
 # Community 
 
@@ -38,37 +38,37 @@ There\'s a new IRC chat room ( #macpython on irc.freenode.net ) for development 
 
 MacPython projects (that have additional information available on this wiki):
 
-- [/Packages](./MacPython(2f)Packages.html)
+- [/Packages](MacPython/Packages)
 
-- [/py2app](./MacPython(2f)py2app.html)
+- [/py2app](MacPython/py2app)
 
-- [/PyInterpreter](./MacPython(2f)PyInterpreter.html)
+- [/PyInterpreter](MacPython/PyInterpreter)
 
-- [/XcodeIntegration](./MacPython(2f)XcodeIntegration.html)
+- [/XcodeIntegration](MacPython/XcodeIntegration)
 
-- [/PackageManagerRepository](./MacPython(2f)PackageManagerRepository.html)
+- [/PackageManagerRepository](MacPython/PackageManagerRepository)
 
-- [/NewPackageManager](./MacPython(2f)NewPackageManager.html)
+- [/NewPackageManager](MacPython/NewPackageManager)
 
-- [/Authorization](./MacPython(2f)Authorization.html)
+- [/Authorization](MacPython/Authorization)
 
-- [/aeve](./MacPython(2f)aeve.html)
+- [/aeve](MacPython/aeve)
 
 - [/TecManager](./MacPython(2f)TecManager.html)
 
-- [/LaunchServices](./MacPython(2f)LaunchServices.html)
+- [/LaunchServices](MacPython/LaunchServices)
 
-- [/potool](./MacPython(2f)potool.html)
+- [/potool](MacPython/potool)
 
-- [/FontTools](./MacPython(2f)FontTools.html)
+- [/FontTools](MacPython/FontTools)
 
-- [/RoboFab](./MacPython(2f)RoboFab.html)
+- [/RoboFab](MacPython/RoboFab)
 
-- [/PyObjC](./MacPython(2f)PyObjC.html)
+- [/PyObjC](MacPython/PyObjC)
 
-- [/DrawBot](./MacPython(2f)DrawBot.html)
+- [/DrawBot](MacPython/DrawBot)
 
-- [/AppscriptModule](./MacPython(2f)AppscriptModule.html)
+- [/AppscriptModule](MacPython/AppscriptModule)
 
 # People 
 

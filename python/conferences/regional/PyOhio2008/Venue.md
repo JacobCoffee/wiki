@@ -16,7 +16,7 @@ The following notes are being left here for future use (planning [PyOhio](PyOhio
 
 - Room for approximately 100-150 attendees.
 
-- A single room or area big enough to hold everyone for a [plenary session](./PyOhio(2f)Schedule.html) or two.
+- A single room or area big enough to hold everyone for a [plenary session](../PyOhio/Schedule) or two.
 
   - (Is a plenary session mandatory? - [CatherineDevlin](CatherineDevlin))
 

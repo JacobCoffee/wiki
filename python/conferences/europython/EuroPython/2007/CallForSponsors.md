@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 **Note: if you change this, bear in mind that a working copy on the [EuroPython](EuroPython) site will also need updating.**
 
-**See the [EuroPython/2007/CallForSponsorsMessage](./EuroPython(2f)2007(2f)CallForSponsorsMessage.html) for a text suitable for sending out to different channels.**
+**See the [EuroPython/2007/CallForSponsorsMessage](CallForSponsorsMessage) for a text suitable for sending out to different channels.**
 
 This year, [EuroPython](EuroPython) will take place from Monday 9th July to Wednesday 11th July in Vilnius, Lithuania. As the premier pan-European Python event, this is a great opportunity to reach dedicated users of Python in business and academia, as well as influential members of the Python community. Last year\'s conference was a great success, and we would like to offer you the chance to participate in this year\'s event as a sponsor or an exhibitor. With your support, your organisation can share in the success of [EuroPython](EuroPython) 2007: the sixth annual conference in the well established and highly regarded conference series for the European Python and Zope communities.
 

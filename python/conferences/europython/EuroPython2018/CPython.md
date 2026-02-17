@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # CPython Sprint at EuroPython 2018 
 
-Go back to [EuroPython 2018 Sprints](./EuroPython2018(2f)Sprints.html).
+Go back to [EuroPython 2018 Sprints](Sprints).
 
 Contact for the sprint: [Victor Stinner](http://vstinner.readthedocs.io/victor_stinner.html) (Python core developer).
 

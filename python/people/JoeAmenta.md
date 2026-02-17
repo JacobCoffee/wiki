@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Email: `<amentajo AT SPAMFREE msu DOT edu>`
 
-I am a student at Michigan State University working on 3to2 for [SummerOfCode/2009](./SummerOfCode(2f)2009.html).
+I am a student at Michigan State University working on 3to2 for [SummerOfCode/2009](../soc/SummerOfCode/2009).
 
 ------------------------------------------------------------------------
 

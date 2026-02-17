@@ -18,4 +18,4 @@ No agenda yet. Suggestions:
 
 - Finishing the theme descriptions in Indico: \"education\" and \"social skills\" are missing; \"agile\" needs reviewing; suggestions welcome about the others.
 
-- Promotion: python.org needs to pick up the CFP announcement and other channels should be involved. See [PyCon2007/Feedback](./PyCon2007(2f)Feedback.html) for interesting avenues, notably mailing lists for other Python-related and Free Software projects.
+- Promotion: python.org needs to pick up the CFP announcement and other channels should be involved. See [PyCon2007/Feedback](../../../../pycon/PyCon2007/Feedback) for interesting avenues, notably mailing lists for other Python-related and Free Software projects.

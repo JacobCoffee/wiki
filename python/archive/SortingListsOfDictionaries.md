@@ -73,4 +73,4 @@ Column names preceded by \'-\' are sorted in descending order:
 
 ## See Also 
 
-- [HowTo/Sorting](./HowTo(2f)Sorting.html)
+- [HowTo/Sorting](../guides/HowTo/Sorting)

@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-(For the Docutils sprint at [PyCon2007](PyCon2007), see [PyCon2007/DocutilsSprint](./PyCon2007(2f)DocutilsSprint.html). For the Docutils sprint at [PyCon2006](PyCon2006), see [PyCon2006/Sprints/DocutilsSprint](./PyCon2006(2f)Sprints(2f)DocutilsSprint.html).)
+(For the Docutils sprint at [PyCon2007](PyCon2007), see [PyCon2007/DocutilsSprint](../conferences/pycon/PyCon2007/DocutilsSprint). For the Docutils sprint at [PyCon2006](PyCon2006), see [PyCon2006/Sprints/DocutilsSprint](../conferences/pycon/PyCon2006/Sprints/DocutilsSprint).)
 
 ## Preliminaries 
 

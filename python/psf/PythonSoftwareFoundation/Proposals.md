@@ -10,13 +10,13 @@ This page provides a historical record of a proposal considered, but never pursu
 
 The core proposal (which was not accepted) was the adoption of a particular approach to make strategic decisions:
 
-- [PythonSoftwareFoundation/Proposals/StrategicDecisionMakingProcess](./PythonSoftwareFoundation(2f)Proposals(2f)StrategicDecisionMakingProcess.html)
+- [PythonSoftwareFoundation/Proposals/StrategicDecisionMakingProcess](Proposals/StrategicDecisionMakingProcess)
 
 Secondary proposals contingent on acceptance of the above process were also put forward:
 
-- [PythonSoftwareFoundation/Proposals/FellowshipRecognitionProgram](./PythonSoftwareFoundation(2f)Proposals(2f)FellowshipRecognitionProgram.html)
+- [PythonSoftwareFoundation/Proposals/FellowshipRecognitionProgram](Proposals/FellowshipRecognitionProgram)
 
-- [PythonSoftwareFoundation/Proposals/StrategicPriorities](./PythonSoftwareFoundation(2f)Proposals(2f)StrategicPriorities.html)
+- [PythonSoftwareFoundation/Proposals/StrategicPriorities](Proposals/StrategicPriorities)
 
 The main concern with the proposal was that overseeing a more participatory decision making process would significantly increased the workload of both volunteer Board members and the PSF staff, without necessarily leading to improved outcomes when it came to the PSFs ability to pursue its overall mission.
 

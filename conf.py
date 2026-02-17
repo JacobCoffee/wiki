@@ -125,7 +125,20 @@ html_theme_options = {
 # -- Rediraffe (redirect) configuration -------------------------------------
 _redirects_file = Path(__file__).parent / "_redirects.json"
 if _redirects_file.exists():
-    rediraffe_redirects = json.loads(_redirects_file.read_text())
+    _all_redirects: dict[str, str] = json.loads(_redirects_file.read_text())
 else:
-    rediraffe_redirects = {}
+    _all_redirects = {}
+
+# When building a single wiki, only keep redirects whose *target* belongs to
+# that wiki.  Redirects for other wikis would always fail ("does not exist")
+# and generate thousands of useless warnings.
+if _wiki_only:
+    rediraffe_redirects = {
+        src: tgt
+        for src, tgt in _all_redirects.items()
+        if tgt.startswith(f"{_wiki_only}/")
+    }
+else:
+    rediraffe_redirects = _all_redirects
+
 rediraffe_branch = "main"

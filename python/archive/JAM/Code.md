@@ -14,11 +14,11 @@ If you make a change to one of the programs in this section of the Wiki, please 
 
 # Programs 
 
-- [JAM/Code/PlatformFinder](./JAM(2f)Code(2f)PlatformFinder.html) - Shows you what platform you\'re using.
+- [JAM/Code/PlatformFinder](../../people/JAM/Code/PlatformFinder) - Shows you what platform you\'re using.
 
-- [JAM/Code/HypotIO](./JAM(2f)Code(2f)HypotIO.html) - An I/O interface for the *hypot(x, y)* function of the math module.
+- [JAM/Code/HypotIO](Code/HypotIO) - An I/O interface for the *hypot(x, y)* function of the math module.
 
-- [JAM/Code/ComPYiler](./JAM(2f)Code(2f)ComPYiler.html) - Compiles every .py file in your Python directory.
+- [JAM/Code/ComPYiler](Code/ComPYiler) - Compiles every .py file in your Python directory.
 
 ------------------------------------------------------------------------
 

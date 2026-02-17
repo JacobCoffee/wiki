@@ -80,12 +80,30 @@ Use [MyST directives](https://myst-parser.readthedocs.io/en/latest/syntax/roles-
 when you need admonitions, toctrees, or tab panels.
 ```
 
+### Redirects from the old wiki
+
+The old MoinMoin wiki used a custom URL encoding for special characters — spaces became `(20)`, slashes became `(2f)`, umlauts like `Ä` became `(c384)`, and so on. The new site uses plain decoded filenames.
+
+All 5400+ redirects live in `_redirects.json`, handled by [sphinxext-rediraffe](https://github.com/wpilibsuite/sphinxext-rediraffe). This file covers two kinds of redirects:
+
+- **Old MoinMoin URLs** — `/jython/Aktuelle(c384)nderungen` redirects to `/jython/AktuelleÄnderungen`
+- **Reorganization moves** — pages that were moved into subdirectories during the migration
+
+If you reorganize pages or move files around, add entries to `_redirects.json` so old links don't break. After moving files, you can regenerate the MoinMoin URL redirects with:
+
+```bash
+make redirects
+```
+
+This scans the raw HTML archive, builds the encoded-to-decoded mapping, and merges it with any existing reorganization redirects. It won't overwrite manual entries.
+
 ## Other make targets
 
 ```
 make help             Show all available targets
 make sync             Pull raw HTML from the wiki server
 make convert          Re-run the MoinMoin-to-Markdown conversion
+make redirects        Regenerate old wiki URL redirects
 make lint             Run pre-commit hooks
 make clean            Remove all build artifacts
 make docs-clean       Remove just the Sphinx build output
@@ -100,6 +118,9 @@ jython/               Jython wiki content
 scripts/              Conversion and maintenance scripts
   convert.py          MoinMoin HTML → MyST Markdown converter
   strip_attrs.py      Strips pandoc attribute syntax from .md files
+  gen_old_wiki_redirects.py
+                      Generates MoinMoin URL → decoded path redirects
+_redirects.json       All redirect mappings (old URLs + reorganization moves)
 _templates/           Sphinx HTML templates
 _static/              CSS and static assets
 conf.py               Sphinx configuration

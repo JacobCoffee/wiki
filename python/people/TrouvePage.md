@@ -10,7 +10,7 @@ Vous pouvez utiliser cette page pour faire des recherches sur le contenu de ce [
 
 De bons points d\'entrée pour explorer ce wiki sont :
 
-- [ChangementsRécents](./ChangementsR(c3a9)cents.html) : voir où les personnes travaillent en ce moment
+- [ChangementsRécents](../archive/ChangementsRécents) : voir où les personnes travaillent en ce moment
 
 - TrouvePage : rechercher ou parcourir les pages de nombreuses façons différentes
 

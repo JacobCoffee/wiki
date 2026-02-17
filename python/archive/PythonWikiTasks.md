@@ -46,7 +46,7 @@ Discussions about Python should be held on comp.lang.python and the SIGs, but it
 
 ***The entire point of a wiki is to capture discussion in such a way that it will be remembered IMO*** - dhl 20020716
 
-- That still means that you can capture from news, or from the wiki itself. Both ways are valid, but always refactoring/summarizing is A Good Thing. \-- [JürgenHermann](./J(c3bc)rgenHermann.html) 2002-07-17 21:24:51
+- That still means that you can capture from news, or from the wiki itself. Both ways are valid, but always refactoring/summarizing is A Good Thing. \-- [JürgenHermann](JürgenHermann) 2002-07-17 21:24:51
 
 What kind of conversation are we talking about?
 
@@ -61,7 +61,7 @@ The only thing that annoys me are pages with questions for names. Instead, the p
 
 ------------------------------------------------------------------------
 
-I think this Wiki would best serve as continuing from where standard Python documentation left off: showing examples of use, adding information about good packages not existing in the standard distribution, and talking about higher-level stuff like \'tips for parallel processing\'. Examples are very important for newcomers, and hey, many people like to learn new things first from examples, and dive into reference when details become important (including me). As for discussing Python in general, I think c.l.p is invaluable and needs no replacement - so I guess I\'m along the same lines as [DanielDittmar](DanielDittmar) and [JürgenHermann](./J(c3bc)rgenHermann.html). \-- [EdvardMajakari](EdvardMajakari) 2005-09-15 15:14:13
+I think this Wiki would best serve as continuing from where standard Python documentation left off: showing examples of use, adding information about good packages not existing in the standard distribution, and talking about higher-level stuff like \'tips for parallel processing\'. Examples are very important for newcomers, and hey, many people like to learn new things first from examples, and dive into reference when details become important (including me). As for discussing Python in general, I think c.l.p is invaluable and needs no replacement - so I guess I\'m along the same lines as [DanielDittmar](DanielDittmar) and [JürgenHermann](JürgenHermann). \-- [EdvardMajakari](EdvardMajakari) 2005-09-15 15:14:13
 
 ------------------------------------------------------------------------
 

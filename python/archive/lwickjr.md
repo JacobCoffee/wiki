@@ -70,7 +70,7 @@ Could someone [please] write a page on [PublishingPythonModules](PublishingPytho
 
 ## Links 
 
-[PublishingPythonModules](PublishingPythonModules) [SkipMontanaro](SkipMontanaro) [Some of my more publishable modules](./lwickjr(2f)Modules.html) [Vaults of Parnassus](http://py.vaults.ca/apyllo.py)
+[PublishingPythonModules](PublishingPythonModules) [SkipMontanaro](SkipMontanaro) [Some of my more publishable modules](lwickjr/Modules) [Vaults of Parnassus](http://py.vaults.ca/apyllo.py)
 
 ------------------------------------------------------------------------
 
@@ -93,7 +93,7 @@ With a real name I meant the one in your passport, not capitalizing your nick in
 
 ------------------------------------------------------------------------
 
-BTW, what do you think of the modules I describe [here](./lwickjr(2f)Modules.html)?
+BTW, what do you think of the modules I describe [here](lwickjr/Modules)?
 
 As for publishing modules, it seems to me that we in the Python community are not yet [as organized as the Ruby community.](http://rubyforge.org/softwaremap/trove_list.php)
 
@@ -113,7 +113,7 @@ Sombody else (Who?): You\`re right, it \*is\* worth revisiting, in case someone 
 
 [lwickjr](lwickjr): Please note: \"[How to publish Python modules](PublishingPythonModules)\" has been superceeded by [PublishingPythonModules](PublishingPythonModules).
 
-I\'m uploading some of my more publishable modules as attachments to [this page](./lwickjr(2f)Modules.html). \"Alias\" is in [lwickjr/Modules:Alias.py](attachments/lwickjr(2f)Modules/Alias.py "lwickjr/Modules:Alias.py"), \"Edit\" is in [lwickjr/Modules:Edit.py](attachments/lwickjr(2f)Modules/Edit.py "lwickjr/Modules:Edit.py"), and \"UT\" is in [lwickjr/Modules:UT.py]( "Upload new attachment "UT.py"") - I \*hope\* they\'re not to big.
+I\'m uploading some of my more publishable modules as attachments to [this page](lwickjr/Modules). \"Alias\" is in [lwickjr/Modules:Alias.py](attachments/lwickjr(2f)Modules/Alias.py "lwickjr/Modules:Alias.py"), \"Edit\" is in [lwickjr/Modules:Edit.py](attachments/lwickjr(2f)Modules/Edit.py "lwickjr/Modules:Edit.py"), and \"UT\" is in [lwickjr/Modules:UT.py]( "Upload new attachment "UT.py"") - I \*hope\* they\'re not to big.
 
 Does Edit interest you? Don\'t forget: it \*does\* require that the default subprocess be turned off, as it REQUIRES interaction between the user dataspace and the I.D.L.E. dataspace, and I don\`t \[currently\] know how to use the IPC \[Inter-Process Communication\] that I.D.L.E. uses for the purpose. Alias has the same requirement, and for the same reason.
 

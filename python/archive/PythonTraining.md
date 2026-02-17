@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Python Training 
 
-**If you are seeking upcoming open-to-the-public training events, check out the [PythonTraining/Events](./PythonTraining(2f)Events.html) page.**
+**If you are seeking upcoming open-to-the-public training events, check out the [PythonTraining/Events](PythonTraining/Events) page.**
 
 ## Adding entries 
 

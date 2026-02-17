@@ -16,7 +16,7 @@ This working group shall review job board listings and give usability feedback t
 
 - Financial resources needed TBD
 
-- [Jobs WG Charter](./JobsWG(2f)Charter.html)
+- [Jobs WG Charter](JobsWG/Charter)
 
 ## Mailing List 
 

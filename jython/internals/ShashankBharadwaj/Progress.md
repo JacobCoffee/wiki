@@ -14,7 +14,7 @@ Saturday, Dec 4 to Friday Dec 10
 
 ### Goals 
 
-- Run [CodeSpeedupExperiments/PyByteCode](./CodeSpeedupExperiments(2f)PyByteCode.html) experiment with server mode and publish the results
+- Run [CodeSpeedupExperiments/PyByteCode](../CodeSpeedupExperiments/PyByteCode) experiment with server mode and publish the results
 
 - First experiment:
   - change the output of the jad and hand compile.

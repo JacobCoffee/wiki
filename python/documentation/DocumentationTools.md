@@ -13,7 +13,7 @@ Tools that support auto-documentation of code can be broadly classified into too
 - import the code to generate documentation based on runtime introspection
 - parse and analyze the code statically (without running it)
 
-See [here](./API(20)Extraction.html) for a longer explanation of the two concepts.
+See [here](../archive/API Extraction) for a longer explanation of the two concepts.
 
 Tools that generate documentation from user-provided input typically use plain text markup formats such as [reStructuredText](reStructuredText) (reST, the markup used for writing the official Python documentation) or [Markdown](http://daringfireball.net/projects/markdown/).
 

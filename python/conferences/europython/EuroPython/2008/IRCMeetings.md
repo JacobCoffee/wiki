@@ -8,37 +8,37 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # EuroPython 2008 IRC Meetings 
 
-- [/IRCMeeting1](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting1.html): 2008-01-28
+- [/IRCMeeting1](IRCMeetings/IRCMeeting1): 2008-01-28
 
-- [/IRCMeeting2](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting2.html): 2008-02-07
+- [/IRCMeeting2](IRCMeetings/IRCMeeting2): 2008-02-07
 
-- [/IRCMeeting3](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting3.html): 2008-02-14
+- [/IRCMeeting3](IRCMeetings/IRCMeeting3): 2008-02-14
 
-- [/IRCMeeting4](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting4.html): 2008-02-24
+- [/IRCMeeting4](IRCMeetings/IRCMeeting4): 2008-02-24
 
-- [/IRCMeeting5](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting5.html): 2008-03-04
+- [/IRCMeeting5](IRCMeetings/IRCMeeting5): 2008-03-04
 
-- [/IRCMeeting6](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting6.html): 2008-03-13
+- [/IRCMeeting6](IRCMeetings/IRCMeeting6): 2008-03-13
 
-- [/IRCMeeting7](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting7.html): 2008-03-21
+- [/IRCMeeting7](IRCMeetings/IRCMeeting7): 2008-03-21
 
-- [/IRCMeeting8](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting8.html): 2008-03-28
+- [/IRCMeeting8](IRCMeetings/IRCMeeting8): 2008-03-28
 
-- [/IRCMeeting9](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting9.html): 2008-04-03
+- [/IRCMeeting9](IRCMeetings/IRCMeeting9): 2008-04-03
 
-- [/IRCMeeting10](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting10.html): 2008-04-24
+- [/IRCMeeting10](IRCMeetings/IRCMeeting10): 2008-04-24
 
-- [/IRCMeeting11](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting11.html): 2008-05-01
+- [/IRCMeeting11](IRCMeetings/IRCMeeting11): 2008-05-01
 
-- [/IRCMeeting12](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting12.html): 2008-05-08
+- [/IRCMeeting12](IRCMeetings/IRCMeeting12): 2008-05-08
 
 - \...
 
-- [/IRCMeeting13](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting13.html): 2008-05-29
+- [/IRCMeeting13](IRCMeetings/IRCMeeting13): 2008-05-29
 
-- [/IRCMeeting14](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting14.html): 2008-06-05
+- [/IRCMeeting14](IRCMeetings/IRCMeeting14): 2008-06-05
 
-- [/IRCMeeting15](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting15.html): 2008-06-12 ![(!)](/wiki/europython/img/idea.png "(!)")
+- [/IRCMeeting15](IRCMeetings/IRCMeeting15): 2008-06-12 ![(!)](/wiki/europython/img/idea.png "(!)")
 
 Channel logs available [here](http://mg.pov.lt/europython-irclog/).
 

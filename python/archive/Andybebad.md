@@ -10,8 +10,8 @@ This is Andy\'s page. Andy is relativly new to python programming. Andy enjoys s
 
 ## Code 
 
-\* [Powerful Python One-Liners/Hostname](./Powerful(20)Python(20)One(2d)Liners(2f)Hostname.html) - This programs tells you what your hostname is (in one line, of course).
+\* [Powerful Python One-Liners/Hostname](../guides/Powerful Python One-Liners/Hostname) - This programs tells you what your hostname is (in one line, of course).
 
-\* [tk md5](./tk(20)md5.html) - Script with a GUI for creating MD5 Hashes
+\* [tk md5](tk md5) - Script with a GUI for creating MD5 Hashes
 
 [CategoryHomepage](CategoryHomepage)

@@ -22,7 +22,7 @@ Here are some experiments we could conduct. For each, we would compare against a
 
 ### Related Speedups 
 
-Before venturing into these experiments, I tried to speedup the `PyByteCode`. You can view the page on that at [CodeSpeedupExperiments/PyByteCode](./CodeSpeedupExperiments(2f)PyByteCode.html)
+Before venturing into these experiments, I tried to speedup the `PyByteCode`. You can view the page on that at [CodeSpeedupExperiments/PyByteCode](CodeSpeedupExperiments/PyByteCode)
 
 ### Repository 
 

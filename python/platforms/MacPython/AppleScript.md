@@ -10,9 +10,9 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 AppleScript is a scripting language developed by Apple, included as standard in Mac OS (System 7 Pro and later) and Mac OS X. It has two important technical features:
 
-- It can communicate with local and remote processes via [../AppleEvents](./MacPython(2f)AppleEvents.html); commonly known as \"application scripting\".
+- It can communicate with local and remote processes via [../AppleEvents](AppleEvents); commonly known as \"application scripting\".
 
-- It is an [../OSA](./MacPython(2f)OSA.html) language component, allowing client applications to load and run scripts via the language agnostic OSA API. Client applications can use the OSA API to implement features such as Folder Actions (System Events), Mail rules, iCal alarm scripts, OSA script editing (Script Editor, Script Debugger), etc.
+- It is an [../OSA](OSA) language component, allowing client applications to load and run scripts via the language agnostic OSA API. Client applications can use the OSA API to implement features such as Folder Actions (System Events), Mail rules, iCal alarm scripts, OSA script editing (Script Editor, Script Debugger), etc.
 
 # Equivalent Python Features 
 
@@ -24,7 +24,7 @@ Python has long supported sending AppleEvents via the high-level `aetools` and `
 
 There is also a low-level extension, `Carbon.AE`, that can be used to construct and send AppleEvents. Using this API requires detailed knowledge of the Apple Event Manager, however, and is rarely used directly.
 
-A modern replacement to `aetools` and `gensuitemodule`, the [../AppscriptModule](./MacPython(2f)AppscriptModule.html), has been available since late 2003. (A second project, aeve, has since been discontinued.)
+A modern replacement to `aetools` and `gensuitemodule`, the [../AppscriptModule](AppscriptModule), has been available since late 2003. (A second project, aeve, has since been discontinued.)
 
 ## Python OSA language components 
 
@@ -40,13 +40,13 @@ There have been several attempts to develop a Python OSA language component, tho
 
 The Python standard library has long provided a basic AppleEvent handing framework, MiniAEFrame, but as with `aetools` and `gensuitemodule` this module is unsupported on Intel Macs and will be removed in future, and its use should be avoided.
 
-The low-level `Carbon.AE` extension can be used to install Apple event handlers, though lacks the ability to install coercion handlers and requires detailed knowledge of the [../AppleEventManager](./MacPython(2f)AppleEventManager.html) to use, so is rarely used directly.
+The low-level `Carbon.AE` extension can be used to install Apple event handlers, though lacks the ability to install coercion handlers and requires detailed knowledge of the [../AppleEventManager](AppleEventManager) to use, so is rarely used directly.
 
 There are two modern, high-level options for implementing AppleEvent handling in Python-based applications:
 
 - aemreceive (bundled with the AppscriptModule) can be used to install AppleEvent handlers although it provides no assistance for resolving object references so is best suited for use in applications that don\'t implement an [../AppleEventObjectModel](./MacPython(2f)AppleEventObjectModel.html).
 
-- PyObjC-based applications can leverage the [/AppKit](./MacPython(2f)AppleScript(2f)AppKit.html) framework\'s built-in Cocoa Scripting support to implement a full AppleEventObjectModel.
+- PyObjC-based applications can leverage the [/AppKit](AppleScript/AppKit) framework\'s built-in Cocoa Scripting support to implement a full AppleEventObjectModel.
 
 ## OSA API access 
 
@@ -58,17 +58,17 @@ There are currently two ways to access the OSA API in Python:
 
 # See also 
 
-- [../aeve](./MacPython(2f)aeve.html)
+- [../aeve](aeve)
 
-- [../AppscriptModule](./MacPython(2f)AppscriptModule.html)
+- [../AppscriptModule](AppscriptModule)
 
-- [../AppleEvents](./MacPython(2f)AppleEvents.html)
+- [../AppleEvents](AppleEvents)
 
-- [../AppleScriptNotes](./MacPython(2f)AppleScriptNotes.html)
+- [../AppleScriptNotes](AppleScriptNotes)
 
-- [../FourCharacterCode](./MacPython(2f)FourCharacterCode.html)
+- [../FourCharacterCode](FourCharacterCode)
 
-- [../OSA](./MacPython(2f)OSA.html)
+- [../OSA](OSA)
 
 - [http://wilbur.acm.uiuc.edu/afs/sig/macwarriors/www/applescript/](http://wilbur.acm.uiuc.edu/afs/sig/macwarriors/www/applescript/)
 

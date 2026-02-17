@@ -8,9 +8,9 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 **Pavlo Shevelo**
 
-- [/About](./PavloShevelo(2f)About.html)
+- [/About](../archive/PavloShevelo/About)
 
-- [/UsefulLinks](./PavloShevelo(2f)UsefulLinks.html)
+- [/UsefulLinks](PavloShevelo/UsefulLinks)
 
 ------------------------------------------------------------------------
 

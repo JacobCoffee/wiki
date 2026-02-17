@@ -12,7 +12,7 @@ You can add additional topics below. Please discuss the specific goals and possi
 
 # CPython 
 
-- CPython 2.5 is slower than CPython 2.4. See [/Slowdown](./NeedForSpeed(2f)Goals(2f)Slowdown.html).
+- CPython 2.5 is slower than CPython 2.4. See [/Slowdown](Goals/Slowdown).
 
 - Can floating point ops be sped-up by avoiding flag/exception checks at every step? Can some floating point ops be in-lined in ceval.c?
   - [TimPeters](TimPeters): By default, CPython does no flag or exception checks on float ops \-- the `PyFPE_START_PROTECT`{.backtick} and `PyFPE_END_PROTECT`{.backtick} macros normally have empty expansions. Inlining is possible but probably undesirable. Doing masses of fp ops in one gulp via the [NumPy](NumPy) (or whatever it\'s called now) extension is the sanest approach.
@@ -66,7 +66,7 @@ You can add additional topics below. Please discuss the specific goals and possi
 
     [TimPeters](TimPeters): what does \"ordered dictionary\" mean? For example, sorted by key value, or sorted by insertion time?
 
-    [PatrickObrien](./PatrickObrien.html): one definition of \"ordered dictionary\" is the order of insertion. The best Python implementation, including extensive unit tests, is available here: [source code](http://schevo.org/trac/browser/trunk/Schevo/schevo/lib/odict.py), [unit tests](http://schevo.org/trac/browser/Schevo/trunk/tests/test_odict.py?rev=2066) ([Anthon van der Neut](./Anthon(20)van(20)der(20)Neut.html): unit tests seem to have been replaced by [doctests](http://schevo.org/trac/browser/trunk/Schevo/schevo/test/test_odict.py)).
+    [PatrickObrien](./PatrickObrien.html): one definition of \"ordered dictionary\" is the order of insertion. The best Python implementation, including extensive unit tests, is available here: [source code](http://schevo.org/trac/browser/trunk/Schevo/schevo/lib/odict.py), [unit tests](http://schevo.org/trac/browser/Schevo/trunk/tests/test_odict.py?rev=2066) ([Anthon van der Neut](../../archive/Anthon van der Neut): unit tests seem to have been replaced by [doctests](http://schevo.org/trac/browser/trunk/Schevo/schevo/test/test_odict.py)).
 
     [OrenTirosh](./OrenTirosh.html): You can find several independent implementations of an order-preserving dictionary, nearly all of them called \"odict\". This kind of \"convergent evolution\" is a good hint that people want it.
 
@@ -124,7 +124,7 @@ You can add additional topics below. Please discuss the specific goals and possi
 - Continue function call speed enhancements.
   - From Neal Norwitz on python-dev: I should probably check in my perf patch for speeding up function calls. It would be great if someone picked that up in the sprint and polished it off. The last version I posted should work in debug and normal modes, adds some simple profiling. i think the only thing that it didn\'t have that Martin requested was more inlining of PyCFunction\_[CallMethod](./CallMethod.html)(?). I\'m not sure if that would be faster or not.
 
-- Update [PythonSpeed/PerformanceTips](./PythonSpeed(2f)PerformanceTips.html)
+- Update [PythonSpeed/PerformanceTips](../PythonSpeed/PerformanceTips)
 
 # Twisted 
 

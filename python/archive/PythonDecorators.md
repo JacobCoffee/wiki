@@ -893,7 +893,7 @@ Note that this differs from J5 (and largely from J4) only in whether the functio
 
 - \- Keyword chosen may conflict with how keyword is used in other languages (like \"using\" in C# or \"extends\" in Java and other languages).
 
-- \- Keyword may be confused with other keywords in current and future versions of Python (like \"with\" in [Python3.0](./Python3(2e)0.html), which is very similar to \"using\"). This would suggest choosing a less generic keyword like \"decorate\", \"meta\", or \"predef\".
+- \- Keyword may be confused with other keywords in current and future versions of Python (like \"with\" in [Python3.0](../py3/Python3.0), which is very similar to \"using\"). This would suggest choosing a less generic keyword like \"decorate\", \"meta\", or \"predef\".
 
 - (- Indented decorators put them visually in line with the function name. When indented below the function declaration line this isn\'t a big deal, but right above the function declaration it can be a problem.) This is so minor that it ought to be ignored.
 

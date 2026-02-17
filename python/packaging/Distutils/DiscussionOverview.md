@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 The way packaging in Python works is currently undergoing big changes. This page tries to summarise the discussion, proposals and ideas that might be incorporated into the PEPs listed below.
 
-If you have an idea, or a use case that is not (sufficiently) supported right now, we would like to know about it and encourage you to add it to the [Ideas & Use cases](./Distutils(2f)DiscussionOverview.html#ideas) section of this page. See also the older [proposals](./Distutils(2f)Proposals.html).
+If you have an idea, or a use case that is not (sufficiently) supported right now, we would like to know about it and encourage you to add it to the [Ideas & Use cases](./Distutils(2f)DiscussionOverview.html#ideas) section of this page. See also the older [proposals](Proposals).
 
 ### PEPS 
 
@@ -46,7 +46,7 @@ List of packaging related PEPs that are under consideration:
 
 It is not possible to retrieve the installation paths of data, or other, files for all installation schemes supported by distutils right now. I propose the inclusion of a PREFIX file within the .egg-info directory that holds information on all prefixes set at installation time and a suitable API within pkgutil.
 
-**Discussion**: [Distutils/DiscussionOverview/FilePrefixes](./Distutils(2f)DiscussionOverview(2f)FilePrefixes.html)
+**Discussion**: [Distutils/DiscussionOverview/FilePrefixes](DiscussionOverview/FilePrefixes)
 
 **Status**: Under Consideration
 

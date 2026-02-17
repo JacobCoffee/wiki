@@ -38,4 +38,4 @@ Once a PEP is complete, altering the document to capture ongoing community input
 
 [PEP3107FunctionAnnotationsRehash](PEP3107FunctionAnnotationsRehash)
 
-[Topically Organized PEP List](./Topically(20)Organized(20)PEP(20)List.html)
+[Topically Organized PEP List](../people/Topically Organized PEP List)

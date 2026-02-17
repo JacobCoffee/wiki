@@ -14,7 +14,7 @@ back to [OtherExamples](OtherExamples)
 
 This Derby example doesn\'t need the use of zxJDBC. I was looking to complete the exercises in the book \"Python programming with Java libraries\" but couldn\'t find anywhere a site to download InstantDB. Trying Apache Derby was quite a pleasant experience. I am attaching files here.
 
-[RSMD.py](./RSMD(2e)py.html) is a database utility I found in IBM.\
+[RSMD.py](RSMD.py) is a database utility I found in IBM.\
 [SimpleApp](SimpleApp).java the original Java demo
 
 If you follow the instructions in this tutorial everything will go smooth. [Derby Tutorial](http://db.apache.org/derby/papers/DerbyTut/install_software.html). (note: there is also a lot of info on their wiki)

@@ -38,9 +38,9 @@ Coverage of Tools, editors and IDE\'s that support Jython or at least Python to 
 
 **Usage notes**
 
-- [EclipseNotes](./JythonDeveloperGuide(2f)EclipseNotes.html)
+- [EclipseNotes](../developer-guide/JythonDeveloperGuide/EclipseNotes)
 
-- [NetbeansGuide](./JythonDeveloperGuide(2f)NetbeansGuide.html)
+- [NetbeansGuide](../developer-guide/JythonDeveloperGuide/NetbeansGuide)
 
 Ok, so these are a bit more *advanced* then is needed here but\...its the general idea.
 

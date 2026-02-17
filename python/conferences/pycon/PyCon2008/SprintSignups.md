@@ -22,7 +22,7 @@ This is a generic sign-up sheet. [Projects and project-specific sign-up sheets a
 
 Please add your name below. Include your email address and the sprint you\'re interested in. See you at PyCon!
 
-- David Goodger ([goodger@python.org](mailto:goodger@python.org)): [PyCon-Tech](./PyCon2008(2f)SprintSignups(2f)PyConTech.html)
+- David Goodger ([goodger@python.org](mailto:goodger@python.org)): [PyCon-Tech](SprintSignups/PyConTech)
 - Mark Ramm (mark dot ramm gmail.com): TurboGears2
 - Christopher Perkins (chris at percious dot com): TurboGears2
 - Ralph Green (rgreen (you know what symbol) zeomega.com

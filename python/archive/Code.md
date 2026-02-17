@@ -10,7 +10,7 @@ There\'s a lot of useful code out there that\'s not big enough to be its own mod
 
 Until we get a lot of code, this little page can serve as a useful focal point.
 
-- [Powerful Python One-Liners](./Powerful(20)Python(20)One(2d)Liners.html)
+- [Powerful Python One-Liners](../guides/Powerful Python One-Liners)
 
 - [ThreadProgramming](ThreadProgramming)
 
@@ -34,17 +34,17 @@ Until we get a lot of code, this little page can serve as a useful focal point.
 
 - [Generators](Generators)
 
-- [LeeEdwin/DownloadCenter](./LeeEdwin(2f)DownloadCenter.html) - programs by [LeeEdwin](./LeeEdwin.html)
+- [LeeEdwin/DownloadCenter](../people/LeeEdwin/DownloadCenter) - programs by [LeeEdwin](./LeeEdwin.html)
 
 - [LeeEdwin/CodeShare](./LeeEdwin(2f)CodeShare.html) - another place to post your code
 
-- [lwickjr/Modules](./lwickjr(2f)Modules.html)/Alias - an alias facility for I.D.L.E.
+- [lwickjr/Modules](lwickjr/Modules)/Alias - an alias facility for I.D.L.E.
 
-- [lwickjr/Modules](./lwickjr(2f)Modules.html)/Edit - an editor enhancement for I.D.L.E.
+- [lwickjr/Modules](lwickjr/Modules)/Edit - an editor enhancement for I.D.L.E.
 
-- [lwickjr/Modules](./lwickjr(2f)Modules.html)/UT - a collection of miscellaneous utility functions.
+- [lwickjr/Modules](lwickjr/Modules)/UT - a collection of miscellaneous utility functions.
 
-- [PowerPiano17/Doodles](./PowerPiano17(2f)Doodles.html) - Various \"Doodles\" made in Python.
+- [PowerPiano17/Doodles](PowerPiano17/Doodles) - Various \"Doodles\" made in Python.
 
 - [BytesIO](BytesIO) - Like StringIO but for raw bytes.
 

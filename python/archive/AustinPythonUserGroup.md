@@ -87,11 +87,11 @@ Parking downtown can be tricky. There are a number of parking garages around. Pl
 
 - February 8th, 2007: Web Development discussions (mostly around Django)
 
-- [January 18th, 2007](./apug(20)meeting(20)01(2d)18(2d)2007.html) Topic: My first Django Site (that I got paid for)
+- [January 18th, 2007](apug meeting 01-18-2007) Topic: My first Django Site (that I got paid for)
 
 - December 7th, 2006. Topic: How Pyro is used at NetworkIP (Eugene Oden)
 
-- [October 12th, 2006](./apug(20)meeting(20)10(2d)12(2d)2006.html). No one volunteered to give a presentation so it was just a social. Here is a [page](./apug(20)meeting(20)10(2d)12(2d)2006.html) describing the meeting.
+- [October 12th, 2006](apug meeting 10-12-2006). No one volunteered to give a presentation so it was just a social. Here is a [page](apug meeting 10-12-2006) describing the meeting.
 
 ### Topic ideas for future events 
 

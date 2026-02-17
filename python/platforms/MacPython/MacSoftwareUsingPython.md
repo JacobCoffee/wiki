@@ -54,7 +54,7 @@ Diagnil ([http://blueherons.org/diagnil/diagnil.html](http://blueherons.org/diag
 
 ------------------------------------------------------------------------
 
-[DrawBot](./MacPython(2f)DrawBot.html) - [http://just.letterror.com/ltrwiki/DrawBot](http://just.letterror.com/ltrwiki/DrawBot)\
+[DrawBot](DrawBot) - [http://just.letterror.com/ltrwiki/DrawBot](http://just.letterror.com/ltrwiki/DrawBot)\
 Author: [JustVanRossum](JustVanRossum)\
 \
 [DrawBot](./DrawBot.html) is a simple application for MacOSX that allows you to write simple Python scripts that generate two-dimensional graphics. The builtin graphics primitives are currently pretty braindead, it currently only supports rectangles, ovals and (bezier) paths and polygons. A future version will also support text and images. Note that [/DrawBot](./MacPython(2f)MacSoftwareUsingPython(2f)DrawBot.html) can export PDF to files and clipboard, so you can bring your [/DrawBot](./MacPython(2f)MacSoftwareUsingPython(2f)DrawBot.html) creations right into applications such as Adobe® Illustrator® as vectors!

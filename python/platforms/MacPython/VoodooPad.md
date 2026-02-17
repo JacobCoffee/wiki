@@ -12,13 +12,13 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 - Product Page: [/VoodooPad 2](http://www.flyingmeat.com/voodoopad/)
 
-- Description: a very nice personal hypertext editor. Its [plugin architecture](http://flyingmeat.com/voodoopad/vpplugindev.html) even [supports](http://www.gusmueller.com/blog/archives/2004/12/30.html#1194) [../PyObjC](./MacPython(2f)PyObjC.html) !
+- Description: a very nice personal hypertext editor. Its [plugin architecture](http://flyingmeat.com/voodoopad/vpplugindev.html) even [supports](http://www.gusmueller.com/blog/archives/2004/12/30.html#1194) [../PyObjC](PyObjC) !
 
 **Appscripting Overview:**
 
-- [/AppscriptingOverview](./MacPython(2f)VoodooPad(2f)AppscriptingOverview.html)
+- [/AppscriptingOverview](VoodooPad/AppscriptingOverview)
 
-- [/Terminology](./MacPython(2f)VoodooPad(2f)Terminology.html)
+- [/Terminology](VoodooPad/Terminology)
 
 **Appscripting in Depth:**
 
@@ -34,4 +34,4 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 - [/MiscNotes](./MacPython(2f)VoodooPad(2f)MiscNotes.html)
 
-- [/UsefulLinks](./MacPython(2f)VoodooPad(2f)UsefulLinks.html)
+- [/UsefulLinks](VoodooPad/UsefulLinks)

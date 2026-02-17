@@ -81,7 +81,7 @@ The PSF does not want contributions of any code other than that which will end u
 
 If your code is going to end up in Python or the standard library, the PSF will require you to:
 
-- License your code under an acceptable open source license. These currently include only the [Academic Free License 2.1](http://www.samurajdata.se/opensource/mirror/licenses/afl-2.1.php) ([local copy](./PythonSoftwareFoundationLicenseFaq(2f)AFL(2d)2(2e)1.html)) and the [Apache License 2.0](http://www.opensource.org/licenses/apache2.0.php) ([local copy](./PythonSoftwareFoundationLicenseFaq(2f)Apache(2d)License(2d)2(2e)0.html)), although this list may be expanded in the future. (No, the PSF License is not acceptable; see below)
+- License your code under an acceptable open source license. These currently include only the [Academic Free License 2.1](http://www.samurajdata.se/opensource/mirror/licenses/afl-2.1.php) ([local copy](PythonSoftwareFoundationLicenseFaq/AFL-2.1)) and the [Apache License 2.0](http://www.opensource.org/licenses/apache2.0.php) ([local copy](PythonSoftwareFoundationLicenseFaq/Apache-License-2.0)), although this list may be expanded in the future. (No, the PSF License is not acceptable; see below)
 
 - Fill out and submit a [contributor agreement](http://www.python.org/psf/contrib/contrib-form/).
 

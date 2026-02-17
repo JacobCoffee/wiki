@@ -95,4 +95,4 @@ So our Simple Editor is functional, as far as it goes. The menu items, generally
 
 One should admire the functionality of our application with so little code. Nice as it is, the \"editor\" is not really useful. At a minimum, we should implement all the menu items - and that is the subject of our following tutorial session!
 
-[Return Home](./PyQt(2f)simple.html)
+[Return Home](simple)

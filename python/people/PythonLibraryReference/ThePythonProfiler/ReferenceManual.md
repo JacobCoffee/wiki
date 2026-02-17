@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 [Python Library Reference](PythonLibraryReference)
 
-[The Python Profiler](./PythonLibraryReference(2f)ThePythonProfiler.html)
+[The Python Profiler](../../../archive/PythonLibraryReference/ThePythonProfiler)
 
 ::: {}
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

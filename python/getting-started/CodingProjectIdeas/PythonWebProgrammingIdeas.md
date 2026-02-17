@@ -12,7 +12,7 @@ The idea has to be substantive enough to be\... well, to be sufficiently substan
 
 If you have questions you can contact [web-sig@python.org](mailto:web-sig@python.org) ([Web-SIG](http://www.python.org/sigs/web-sig/)), or one of the potential advisors listed at the end of this page. (But if you aren\'t willing to do some homework on these projects, that obviously won\'t look good\... ask smart questions!)
 
-See also [../WebServiceStack](./CodingProjectIdeas(2f)WebServiceStack.html)
+See also [../WebServiceStack](WebServiceStack)
 
 ## The Web-Server Gateway Interface 
 
@@ -72,7 +72,7 @@ Anything related to WSGI will benefit [Paste](http://pythonpaste.org), but there
 
 - There are a number of potential [TurboGears](TurboGears) projects that may be interesting related to Kid, SQLAlchemy and [TurboGears](TurboGears) itself (like the [FastData](./FastData.html) package).
 
-- A web-based IDE offering through-the-web editing (with version control), execution, and testing of code (see [SummerOfCode/WebIDE](./SummerOfCode(2f)WebIDE.html))
+- A web-based IDE offering through-the-web editing (with version control), execution, and testing of code (see [SummerOfCode/WebIDE](../../soc/SummerOfCode/WebIDE))
 
 - Help make [Nevow\'s](http://nevow.com) stan a fully separate package, documented. Stan is a DOM-like representation of markup, and could potentially be used by many projects outside of Nevow.
 

@@ -25,10 +25,10 @@ convert: ## Convert HTML to Markdown (requires sync first)
 docs: docs-clean ## Build Sphinx documentation
 	$(UV) run sphinx-build -b html . _build/html -j auto --keep-going
 
-docs-serve: ## Serve docs with live reload
+docs-serve: docs-clean ## Serve docs with live reload
 	$(UV) run sphinx-autobuild . _build/html -j auto --port 0 --re-ignore '_raw/.*' --re-ignore '.claude/.*'
 
-docs-serve-fast: ## Serve single wiki section (WIKI=python|psf|jython [SECTION=subdir])
+docs-serve-fast: docs-clean ## Serve single wiki section (WIKI=python|psf|jython [SECTION=subdir])
 ifndef WIKI
 	$(error Usage: make docs-serve-fast WIKI=python [SECTION=Advocacy])
 endif
@@ -41,6 +41,9 @@ docs-clean: ## Clean built documentation
 
 lint: ## Run pre-commit hooks
 	$(UV) run prek run --all-files
+
+redirects: ## Regenerate old wiki URL redirects into _redirects.json
+	$(UV) run python scripts/gen_old_wiki_redirects.py
 
 ##@ Utility
 

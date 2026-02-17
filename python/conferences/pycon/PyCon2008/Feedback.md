@@ -10,7 +10,7 @@ These are the results from the feedback forms (both online and paper) for [PyCon
 
 Numbers in parentheses are the counts of how many times an item was mentioned.
 
-See [/Comments](./PyCon2008(2f)Feedback(2f)Comments.html) for the essay-type comments from the feedback forms.
+See [/Comments](Feedback/Comments) for the essay-type comments from the feedback forms.
 
 # Overall ratings 
 
@@ -2879,11 +2879,11 @@ No 34.2% (151)
 
 How can we improve [PyCon](PyCon) next year?
 
-See [/Comments](./PyCon2008(2f)Feedback(2f)Comments.html).
+See [/Comments](Feedback/Comments).
 
 Do you have any other comments about [PyCon](PyCon) 2008?
 
-See [/Comments](./PyCon2008(2f)Feedback(2f)Comments.html).
+See [/Comments](Feedback/Comments).
 
 ------------------------------------------------------------------------
 

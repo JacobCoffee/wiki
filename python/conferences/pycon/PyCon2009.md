@@ -20,8 +20,8 @@ Also see: [PyCon home at python.org](http://www.python.org/community/pycon/), [P
 ### PyCon 2009 Wiki Pages
 
 - [PyCon_2009IdeasFor2010](./PyCon_2009IdeasFor2010.html)
-- [Open Space](./Open(20)Space.html)
-- [Birds of a Feather](./Birds(20)of(20)a(20)Feather.html) meetings
+- [Open Space](../../people/Open Space)
+- [Birds of a Feather](../../archive/Birds of a Feather) meetings
 - [PyCon_2008IdeasFor2009](./PyCon_2008IdeasFor2009.html)
 - [Organizers\' Meetings](./PyCon2009(2f)Organizers_Meetings.html) (agendas and info)
 

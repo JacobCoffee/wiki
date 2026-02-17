@@ -36,7 +36,7 @@ These are current tasks at the sprint. Also various people are evaluating patche
 
 - Improve the API for timeit.py \[SH to search python-dev and call Raymond Hettinger for details if necessary\]
 
-- Update [PythonSpeed/PerformanceTips](./PythonSpeed(2f)PerformanceTips.html) Everyone can make suggestions [SeanReifschneider](SeanReifschneider) + [JohnBenediktsson](./JohnBenediktsson.html)
+- Update [PythonSpeed/PerformanceTips](../PythonSpeed/PerformanceTips) Everyone can make suggestions [SeanReifschneider](SeanReifschneider) + [JohnBenediktsson](./JohnBenediktsson.html)
 
 - Evaluate the PEPs for optimizing global and attribute lookups
   - PEP 266 PEP 267 PEP 280

@@ -16,7 +16,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Miscellaneous Services 
 
-5.1 [pydoc](./PythonLibraryReference(2f)MiscellaneousServices(2f)PydocModule.html) \-- Documentation generator and online help system
+5.1 [pydoc](MiscellaneousServices/PydocModule) \-- Documentation generator and online help system
 
 5.2 [doctest](./PythonLibraryReference(2f)MiscellaneousServices(2f)DocTestModule.html) \-- Test docstrings represent reality
 

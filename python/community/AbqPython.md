@@ -16,7 +16,7 @@ Members are encouraged to get themselves into [the editor\'s group of this Wiki]
 
 ## Past Meetings 
 
-- [AbqPython/Meetings/2015_JUN_02](./AbqPython(2f)Meetings(2f)2015_JUN_02.html)
+- [AbqPython/Meetings/2015_JUN_02](AbqPython/Meetings/2015_JUN_02)
 
 ### Members\' Personal Pages 
 

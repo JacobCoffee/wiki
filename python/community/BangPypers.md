@@ -24,11 +24,11 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 # Frequently Asked Questions 
 
-- [BangPypers/PythonEditors](./BangPypers(2f)PythonEditors.html)
+- [BangPypers/PythonEditors](../editors/BangPypers/PythonEditors)
 
-- [BangPypers/PythonCompaniesInIndia](./BangPypers(2f)PythonCompaniesInIndia.html)
+- [BangPypers/PythonCompaniesInIndia](BangPypers/PythonCompaniesInIndia)
 
-- [BangPypers/PresentationTopics](./BangPypers(2f)PresentationTopics.html)
+- [BangPypers/PresentationTopics](BangPypers/PresentationTopics)
 
 # PyCon India 
 
@@ -66,25 +66,25 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## Upcoming Meetings 
 
-- [BangPypers/Meeting25July2009](./BangPypers(2f)Meeting25July2009.html)
+- [BangPypers/Meeting25July2009](BangPypers/Meeting25July2009)
 
 ## Earlier Meetings 
 
-- [BangPypers/Meeting03May2009](./BangPypers(2f)Meeting03May2009.html)
+- [BangPypers/Meeting03May2009](BangPypers/Meeting03May2009)
 
-- [BangPypers/Meeting17May2009](./BangPypers(2f)Meeting17May2009.html)
+- [BangPypers/Meeting17May2009](BangPypers/Meeting17May2009)
 
-- [BangPypers/MeetingPyConDiscussion1](./BangPypers(2f)MeetingPyConDiscussion1.html)
+- [BangPypers/MeetingPyConDiscussion1](BangPypers/MeetingPyConDiscussion1)
 
-- [BangPypers/Meeting21Mar2009](./BangPypers(2f)Meeting21Mar2009.html)
+- [BangPypers/Meeting21Mar2009](BangPypers/Meeting21Mar2009)
 
-- [BangPypers/Meeting21Feb2009](./BangPypers(2f)Meeting21Feb2009.html)
+- [BangPypers/Meeting21Feb2009](BangPypers/Meeting21Feb2009)
 
-- [BangPypers/Meeting26Jan2008](./BangPypers(2f)Meeting26Jan2008.html)
+- [BangPypers/Meeting26Jan2008](BangPypers/Meeting26Jan2008)
 
-- [BangPypers/Meeting11Aug2007](./BangPypers(2f)Meeting11Aug2007.html)
+- [BangPypers/Meeting11Aug2007](BangPypers/Meeting11Aug2007)
 
-- [BangPypers/BoFatFossInBangalore](./BangPypers(2f)BoFatFossInBangalore.html) (what happend to this meeting ?)
+- [BangPypers/BoFatFossInBangalore](BangPypers/BoFatFossInBangalore) (what happend to this meeting ?)
 
 ## Social 
 

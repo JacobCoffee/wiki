@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 This is a program that compiles every .py file in the Python directory. Please note that it only works if you set Python\'s directory to C:\\Python24. If you are using an older version or customized your directory choice. I am not sure what opperating systems it will work on, but I know it will work on win32.
 
-This program is part of the [Powerful Python One-Liners](./Powerful(20)Python(20)One(2d)Liners.html) group. I hope to help expand the [Code](Code) page. Thank you for visiting this page and **HAVE A GREAT DAY!** ![:-)](/wiki/europython/img/smile.png ":-)")
+This program is part of the [Powerful Python One-Liners](../../../guides/Powerful Python One-Liners) group. I hope to help expand the [Code](Code) page. Thank you for visiting this page and **HAVE A GREAT DAY!** ![:-)](/wiki/europython/img/smile.png ":-)")
 
 # Code 
 

@@ -32,7 +32,7 @@ However, you could certainly define your own for educational purposes. It sounds
 So perhaps your class needs to define the `__radd__`{.backtick} method. \-- [PaulBoddie](PaulBoddie) 2011-03-26 23:04:42
 
 ::: note
-When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](./Asking(20)for(20)Help.html) page.
+When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help]() page.
 :::
 
 ------------------------------------------------------------------------
