@@ -1,7 +1,12 @@
 # EmailSprint
 
-::: {#content dir="ltr" lang="en"}
-# Email SIG Sprint {#Email_SIG_Sprint}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Email SIG Sprint 
 
 **There doesn\'t seem to be any interest in the sprint, so I\'m withdrawing it - BAW 17-Mar-2005**
 
@@ -17,9 +22,8 @@ Here are some topics we might address in an email-sig sprint for Pycon 2005. Fee
 - Switching the Python stdlib away from deprecated modules such as rfc822
 - Full format=flowed support for text/plain media types?
 
-# Participants {#Participants}
+# Participants 
 
 Please add your name to this list if you plan on joining us on an email sig sprint.
 
 - Barry Warsaw
-:::

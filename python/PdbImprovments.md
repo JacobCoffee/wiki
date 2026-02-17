@@ -1,11 +1,16 @@
 # PdbImprovments
 
-::: {#content dir="ltr" lang="en"}
-This page point issues related to [Python Debugger](http://docs.python.org/lib/module-pdb.html){.http} that will led to(hopefully) better Python debugging environment:
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+This page point issues related to [Python Debugger](http://docs.python.org/lib/module-pdb.html) that will led to(hopefully) better Python debugging environment:
 
 - bugfixes/functionality improvments in bug/patch tracker
 
-- write pdb\'s unit_tests *\[rocky: the [extended python debugger](http://bashdb.sourceforge.net/pydb){.http} does in fact has such unit tests. Because lots of tests are needed, a diff output file mechanism was added on top of the standard unit test mechanism.\]*
+- write pdb\'s unit_tests *\[rocky: the [extended python debugger](http://bashdb.sourceforge.net/pydb) does in fact has such unit tests. Because lots of tests are needed, a diff output file mechanism was added on top of the standard unit test mechanism.\]*
 
 - look at other debuggers(Python/non-Python) and see if we can learn something from it. (I\'m sure we can;) *\[rocky: pydb mentioned above tries to follow gdb\'s command set.\]*
 
@@ -21,7 +26,7 @@ Here\'s an example:
 
 - {{{(Pdb) for x in \[1,2,3\]:
 
-\*\*\* [SyntaxError](./SyntaxError.html){.nonexistent}: unexpected EOF while parsing (\<stdin\>, line 1) (Pdb) print \"\"\"A multi- \*\*\* [SyntaxError](./SyntaxError.html){.nonexistent}: EOF while scanning triple-quoted string (\<stdin\>, line 1)}}}
+\*\*\* [SyntaxError](./SyntaxError.html): unexpected EOF while parsing (\<stdin\>, line 1) (Pdb) print \"\"\"A multi- \*\*\* [SyntaxError](./SyntaxError.html): EOF while scanning triple-quoted string (\<stdin\>, line 1)}}}
 
 *\[rocky: Both pdb (and pydb) inherit from the Cmd class which handles user interaction. Add this improvement to the Cmd class and virtually no change needs to be done to either pdb or pydb.\]*
 
@@ -31,7 +36,7 @@ Something that\'s really needed is the possibility to stop another Python proces
 
 Running pdb from another code - many times I want to go back again and again to a specific situation, and I turn out to many times do a specific procedure to get there, like setting a breakpoint, hitting it three times, setting another breakpoint, and so on. If there was a way to run all these commands from a Python function, all this would be much simpler - I would write a code to do it, and give me control after the procedure is done.
 
-*\[rocky: to a limited extent this exists. pdb allows for a script file to get run before starting the debugger. I think it reads .pdbrc. The [extended python debugger](http://bashdb.sourceforge.net/pydb){.http} may also be of use here. It uses .pydbrc rather than .pdbrc. But there is a \"source\" command that can run debugger commands at any time, not just on start up. Also there is a \"restart\" command which remembers debugger settings like breakpoints\]*
+*\[rocky: to a limited extent this exists. pdb allows for a script file to get run before starting the debugger. I think it reads .pdbrc. The [extended python debugger](http://bashdb.sourceforge.net/pydb) may also be of use here. It uses .pydbrc rather than .pdbrc. But there is a \"source\" command that can run debugger commands at any time, not just on start up. Also there is a \"restart\" command which remembers debugger settings like breakpoints\]*
 
 It seems to me that the basic interface should be an instance which controls an execution, which can be given commands such as:
 
@@ -83,4 +88,3 @@ Ed Groth
 *rocky: Adding watchpoints is a good thing. A good way to make sure it gets done is to dig in and make a patch. Although I can\'t speak for pdb, but I can assure folks that if the code is reasonably written and follows gdb\'s lingo, it would be added to pydb.*
 
 *With respect to approach (1) versus (2). Perl has this \"tie\" mechanism that allows interception of assignment commands variables at the Perl level efficiently. Unless there\'s something equivalent (and I doubt it), I don\'t see how this could be done short of changing the interpreter (which might be a good thing). Using approach (2) could be done within the existing pdb/pydb by adding more code to the \"user_line\" routine. But downside of approach (2) is that when there are watchpoints, the execution of the code will slow down even more. In fact I think this may already be a criticism of pdb/pydb.*
-:::

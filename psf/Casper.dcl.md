@@ -1,17 +1,21 @@
 # Casper.dcl
 
-::: {#content dir="ltr" lang="en"}
-# Casper da Costa-Luis {#Casper_da_Costa-Luis}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Computational Physicist; PSF Contributing (Voting) Member {#Computational_Physicist.3B_PSF_Contributing_.28Voting.29_Member}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Casper da Costa-Luis 
+
+## Computational Physicist; PSF Contributing (Voting) Member 
 
 - Email: `<casper.dcl AT SPAMFREE physics|ieee DOT org>`
 
-- [GitHub](./GitHub.html){.nonexistent}: [\@casperdcl](https://github.com/casperdcl){.https}
+- [GitHub](./GitHub.html): [\@casperdcl](https://github.com/casperdcl)
 
-- PyPI: [Casper.dcl](https://pypi.org/user/Casper.dcl){.https}
+- PyPI: [Casper.dcl](https://pypi.org/user/Casper.dcl)
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

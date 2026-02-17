@@ -1,13 +1,18 @@
 # PythonWebsitePyramidUsersGuide
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **This page is now largely irrelevant \-- the website no longer uses Pyramid to build.**
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::: {#pyramid-user-s-guide .section}
-### [Pyramid User\'s Guide](#id7){.toc-backref}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+### [Pyramid User\'s Guide](#id7)
 
-:::: {#overview .section}
-#### [Overview](#id8){.toc-backref}
+:::: 
+#### [Overview](#id8)
 
 Pyramid deals with fragments (of html) that can contain any number of slots, each identified by a name. Data are mapped into each slot in the fragment through a dictionary-like interface. A fragment is created by combining an html template and a data mapping. Created fragments may also have slots in them, allowing for further substitutions, and so on.
 
@@ -17,65 +22,65 @@ The system\'s power comes from applying the same technique at multiple levels, a
 
 The final aspect of the system, that allows sites to be built around a common templated structure, is the ability for data items and templates to be inherited from parent directories. A single html \'skin\' can be defined at the root of a directory structure. Each child fragment will, if unable to find the specified template in its own directory, search back towards the root directory looking for the required template.
 
-::: {#table-of-contents .contents .topic}
+::: 
 Table of Contents
 
-- [Pyramid User\'s Guide](#pyramid-user-s-guide){#id7 .reference .internal}
-  - [Overview](#overview){#id8 .reference .internal}
-  - [Introduction](#introduction){#id9 .reference .internal}
-  - [The Templating System](#the-templating-system){#id10 .reference .internal}
-    - [Slots](#slots){#id11 .reference .internal}
-    - [Data Items](#data-items){#id12 .reference .internal}
-    - [Patterns](#patterns){#id13 .reference .internal}
-    - [Renderers](#renderers){#id14 .reference .internal}
-  - [Data Structure](#data-structure){#id15 .reference .internal}
-    - [fragment](#fragment){#id16 .reference .internal}
-    - [rest & restfile](#rest-restfile){#id17 .reference .internal}
-    - [url](#url){#id18 .reference .internal}
-  - [Using Pyramid](#using-pyramid){#id19 .reference .internal}
-  - [Viewing the Generated Pages](#viewing-the-generated-pages){#id20 .reference .internal}
-  - [Adding Pages to the Python Site - Full Description](#adding-pages-to-the-python-site-full-description){#id21 .reference .internal}
-    - [Adding initial files](#adding-initial-files){#id22 .reference .internal}
-      - [index.yml](#index-yml){#id23 .reference .internal}
-      - [content.yml](#content-yml){#id24 .reference .internal}
-      - [content.html](#content-html){#id25 .reference .internal}
-    - [Creating the Restructured Text Content](#creating-the-restructured-text-content){#id26 .reference .internal}
-  - [Alternative Ways to Add Pages](#alternative-ways-to-add-pages){#id27 .reference .internal}
-    - [Using htfiles within pyramid](#using-htfiles-within-pyramid){#id28 .reference .internal}
-      - [index.yml](#id1){#id29 .reference .internal}
-      - [content.yml](#id2){#id30 .reference .internal}
-    - [Using htfiles sourced directly from the pydotorg tree](#using-htfiles-sourced-directly-from-the-pydotorg-tree){#id31 .reference .internal}
-      - [index.yml](#id3){#id32 .reference .internal}
-      - [content.yml](#id4){#id33 .reference .internal}
-    - [Creating htfile pages from the command line](#creating-htfile-pages-from-the-command-line){#id34 .reference .internal}
-    - [Getting content out of wiki pages](#getting-content-out-of-wiki-pages){#id35 .reference .internal}
-  - [How the navigation works](#how-the-navigation-works){#id36 .reference .internal}
-    - [index.yml](#id5){#id37 .reference .internal}
-    - [one/index.yml](#one-index-yml){#id38 .reference .internal}
-  - [Adding Special Features](#adding-special-features){#id39 .reference .internal}
-    - [Sidebars](#sidebars){#id40 .reference .internal}
-      - [construction of typical content page](#construction-of-typical-content-page){#id41 .reference .internal}
-      - [Adding a sidebar to the content.html](#adding-a-sidebar-to-the-content-html){#id42 .reference .internal}
-    - [More complicated structures](#more-complicated-structures){#id43 .reference .internal}
-    - [Continuing navigation as a sidebar](#continuing-navigation-as-a-sidebar){#id44 .reference .internal}
-  - [Pyramid and the Python Site](#pyramid-and-the-python-site){#id45 .reference .internal}
-    - [Don\'t be scared by the homepage setup!!](#don-t-be-scared-by-the-homepage-setup){#id46 .reference .internal}
-    - [FAQ\'s](#faq-s){#id47 .reference .internal}
-      - [How do I include Images and other static assets?](#how-do-i-include-images-and-other-static-assets){#id48 .reference .internal}
-      - [A lot of links seem to be wrong?](#a-lot-of-links-seem-to-be-wrong){#id49 .reference .internal}
-    - [Can you tell me about the Homepage now?](#can-you-tell-me-about-the-homepage-now){#id50 .reference .internal}
-      - [index.yml](#id6){#id51 .reference .internal}
-      - [homepage.yml](#homepage-yml){#id52 .reference .internal}
-      - [sidebar.yml](#sidebar-yml){#id53 .reference .internal}
-      - [success.yml](#success-yml){#id54 .reference .internal}
-      - [quote.yml](#quote-yml){#id55 .reference .internal}
-      - [using-python-for.yml](#using-python-for-yml){#id56 .reference .internal}
-    - [written-in-python.yml](#written-in-python-yml){#id57 .reference .internal}
+- [Pyramid User\'s Guide](#pyramid-user-s-guide)
+  - [Overview](#overview)
+  - [Introduction](#introduction)
+  - [The Templating System](#the-templating-system)
+    - [Slots](#slots)
+    - [Data Items](#data-items)
+    - [Patterns](#patterns)
+    - [Renderers](#renderers)
+  - [Data Structure](#data-structure)
+    - [fragment](#fragment)
+    - [rest & restfile](#rest-restfile)
+    - [url](#url)
+  - [Using Pyramid](#using-pyramid)
+  - [Viewing the Generated Pages](#viewing-the-generated-pages)
+  - [Adding Pages to the Python Site - Full Description](#adding-pages-to-the-python-site-full-description)
+    - [Adding initial files](#adding-initial-files)
+      - [index.yml](#index-yml)
+      - [content.yml](#content-yml)
+      - [content.html](#content-html)
+    - [Creating the Restructured Text Content](#creating-the-restructured-text-content)
+  - [Alternative Ways to Add Pages](#alternative-ways-to-add-pages)
+    - [Using htfiles within pyramid](#using-htfiles-within-pyramid)
+      - [index.yml](#id1)
+      - [content.yml](#id2)
+    - [Using htfiles sourced directly from the pydotorg tree](#using-htfiles-sourced-directly-from-the-pydotorg-tree)
+      - [index.yml](#id3)
+      - [content.yml](#id4)
+    - [Creating htfile pages from the command line](#creating-htfile-pages-from-the-command-line)
+    - [Getting content out of wiki pages](#getting-content-out-of-wiki-pages)
+  - [How the navigation works](#how-the-navigation-works)
+    - [index.yml](#id5)
+    - [one/index.yml](#one-index-yml)
+  - [Adding Special Features](#adding-special-features)
+    - [Sidebars](#sidebars)
+      - [construction of typical content page](#construction-of-typical-content-page)
+      - [Adding a sidebar to the content.html](#adding-a-sidebar-to-the-content-html)
+    - [More complicated structures](#more-complicated-structures)
+    - [Continuing navigation as a sidebar](#continuing-navigation-as-a-sidebar)
+  - [Pyramid and the Python Site](#pyramid-and-the-python-site)
+    - [Don\'t be scared by the homepage setup!!](#don-t-be-scared-by-the-homepage-setup)
+    - [FAQ\'s](#faq-s)
+      - [How do I include Images and other static assets?](#how-do-i-include-images-and-other-static-assets)
+      - [A lot of links seem to be wrong?](#a-lot-of-links-seem-to-be-wrong)
+    - [Can you tell me about the Homepage now?](#can-you-tell-me-about-the-homepage-now)
+      - [index.yml](#id6)
+      - [homepage.yml](#homepage-yml)
+      - [sidebar.yml](#sidebar-yml)
+      - [success.yml](#success-yml)
+      - [quote.yml](#quote-yml)
+      - [using-python-for.yml](#using-python-for-yml)
+    - [written-in-python.yml](#written-in-python-yml)
 :::
 ::::
 
-::: {#introduction .section}
-#### [Introduction](#id9){.toc-backref}
+::: 
+#### [Introduction](#id9)
 
 A simple example template, which perhaps would be used on the news page of a site for a list of news items, should demonstrate the basic concepts. Here is the data structure
 
@@ -146,24 +151,24 @@ This fragment is a single news item which itself is built in the same way as des
 
 Using the above technique we can create html fragments for the \'skin\' of a site and templates for the different types of content page.
 
-In addition to the plain string data type (which does not need a ! prefix) other types of data may be used. One of the more useful types of data for text documents is the !rest and !restfile data types. The !rest data type will parse the data item as [restructured text](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html){.http .reference .external} (see [PEP 287](http://www.python.org/dev/peps/pep-0287/){.http .reference .external}). The !restfile will do the same but for an external file.
+In addition to the plain string data type (which does not need a ! prefix) other types of data may be used. One of the more useful types of data for text documents is the !rest and !restfile data types. The !rest data type will parse the data item as [restructured text](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html) (see [PEP 287](http://www.python.org/dev/peps/pep-0287/)). The !restfile will do the same but for an external file.
 :::
 
-::::::: {#the-templating-system .section}
-#### [The Templating System](#id10){.toc-backref}
+::::::: 
+#### [The Templating System](#id10)
 
-The template system used in pyramid is twisted web\'s nevow. The documentation for this is available at [DivmodNevow](http://divmod.org/trac/wiki/DivmodNevow){.http .reference .external}, but will be described in brief here.
+The template system used in pyramid is twisted web\'s nevow. The documentation for this is available at [DivmodNevow](http://divmod.org/trac/wiki/DivmodNevow), but will be described in brief here.
 
 Nevow has three primary types of directive. These are as follows
 
-::: {#slots .section}
-##### [Slots](#id11){.toc-backref}
+::: 
+##### [Slots](#id11)
 
 A marker into which data is extracted using the name of the slot as a key
 :::
 
-::: {#data-items .section}
-##### [Data Items](#id12){.toc-backref}
+::: 
+##### [Data Items](#id12)
 
 The data directive changes the current \'context\' by drilling into the currently used data. For example, if a dictionary::
 
@@ -210,14 +215,14 @@ would generate:
     </div>
 :::
 
-::: {#patterns .section}
-##### [Patterns](#id13){.toc-backref}
+::: 
+##### [Patterns](#id13)
 
 A piece of html my be marked up as a pattern with an associated name. Renderers can extract patterns for use as fragments of html. The typical usage of the pattern is to mark a fragment of html as an item to be used repeatedly when rendering a list. An example of this is shown below.
 :::
 
-::: {#renderers .section}
-##### [Renderers](#id14){.toc-backref}
+::: 
+##### [Renderers](#id14)
 
 renderers pass the enclosed data back to a python function for processing. The following example shows the \'sequence\' and \'mapping\' renderers, which are built in to nevow.
 
@@ -259,8 +264,8 @@ This html is generated:
 :::
 :::::::
 
-:::::: {#data-structure .section}
-#### [Data Structure](#id15){.toc-backref}
+:::::: 
+#### [Data Structure](#id15)
 
 Although the pyramid idea is data agnostic, the only data reader being used is yaml (converted using the syck parser).
 
@@ -335,16 +340,16 @@ This is useful for blocks of text and also restructured text.
 
 Apart from sequences and mappings, the following types are currently used in the python site configuration.
 
-::: {#fragment .section}
-##### [fragment](#id16){.toc-backref}
+::: 
+##### [fragment](#id16)
 
 The fragment is the core type used. It is either a mapping with template, local and global keys (which default to None, {} and {} respectively); or it is a filename for a yml file which is itself a fragment.
 :::
 
-::: {#rest-restfile .section}
-##### [rest & restfile](#id17){.toc-backref}
+::: 
+##### [rest & restfile](#id17)
 
-The rest type ([http://docutils.sourceforge.net/docs/user/rst/quickref.html#escaping](http://docutils.sourceforge.net/docs/user/rst/quickref.html#escaping){.http .reference .external}) allows inline rst to be used. Two examples follow:
+The rest type ([http://docutils.sourceforge.net/docs/user/rst/quickref.html#escaping](http://docutils.sourceforge.net/docs/user/rst/quickref.html#escaping)) allows inline rst to be used. Two examples follow:
 
     ---
     data: !rest This is **bold**
@@ -368,8 +373,8 @@ would produce:
 The restfile type takes a filename for an argument and parses the contents as restructured text.
 :::
 
-::: {#url .section}
-##### [url](#id18){.toc-backref}
+::: 
+##### [url](#id18)
 
 The url type is used as a shortcut for a link and the link text:
 
@@ -386,8 +391,8 @@ The algorithm behind !url does split on spaces and uses the last segment as the 
 :::
 ::::::
 
-::: {#using-pyramid .section}
-#### [Using Pyramid](#id19){.toc-backref}
+::: 
+#### [Using Pyramid](#id19)
 
 Pyramid is currently configured to create the whole of a website in one process. This can mean that it is quite processor intensive, taking over a minute to build the hundred or so pages that have already been created.
 
@@ -415,8 +420,8 @@ You can now check the simple-out directory and can see the results.
 It is more informative to run with the verbose flag set (possibly a little too informative).
 :::
 
-::: {#viewing-the-generated-pages .section}
-#### [Viewing the Generated Pages](#id20){.toc-backref}
+::: 
+#### [Viewing the Generated Pages](#id20)
 
 Because you will have installed twistd as part of the pre-requisites of the software, there are a couple of simple commands that will allow you to create a fully functional web server. Firstly you can use the mktap command to generate a configuration file specifically for your usage:
 
@@ -429,13 +434,13 @@ This will generate a file called web.tap that can be used with the twistd comman
 The standard mktap command generates a configuration file for a webserver running on port 8080. There is a man page for mktap that will allow you to change the port used and some other variables if necessary.
 :::
 
-:::::::: {#adding-pages-to-the-python-site-full-description .section}
-#### [Adding Pages to the Python Site - Full Description](#id21){.toc-backref}
+:::::::: 
+#### [Adding Pages to the Python Site - Full Description](#id21)
 
 Adding new pages to the python site is fairly straightforward. For most types of page, a simple rest document is all that is needed. This section will talk through the addition of the \'new style classes\' page (currently in /doc/newstyle.html).
 
-:::::: {#adding-initial-files .section}
-##### [Adding initial files](#id22){.toc-backref}
+:::::: 
+##### [Adding initial files](#id22)
 
 First thing is to add a link to the new page into the navigation. If we open up the /doc/nav.yml file we can see the following:
 
@@ -465,8 +470,8 @@ Now we have a link pointing to the newstyle section, we need to add a folder to 
 
 Create a folder \'newstyle\' under \'doc\' and add the following files
 
-::: {#index-yml .section}
-###### [index.yml](#id23){.toc-backref}
+::: 
+###### [index.yml](#id23)
 
 the index.yml is the core filetype and is read first to work out how to build the page. Most content pages will just include a basic index.yml that defines the main template, a page title and where to find the content:
 
@@ -480,8 +485,8 @@ the index.yml is the core filetype and is read first to work out how to build th
 We can either create a new index.yml or typically we can copy one from another content page (typically most of these are very similar). In our case we\'ll copy the index.yml from the /doc folder and change the title attribute.
 :::
 
-::: {#content-yml .section}
-###### [content.yml](#id24){.toc-backref}
+::: 
+###### [content.yml](#id24)
 
 The content.yml file should be similar to the following:
 
@@ -511,8 +516,8 @@ This tells the system that we\'re using the content.html template and the text c
 This file includes the \'externallinks.yml\' file which contains a list of external links with an associated externallinks.html template. If you want to create a sidebar of a similar nature, you can copy the same structure to your new page.
 :::
 
-::: {#content-html .section}
-###### [content.html](#id25){.toc-backref}
+::: 
+###### [content.html](#id25)
 
 A very simple template:
 
@@ -521,12 +526,12 @@ A very simple template:
     <n:slot name="text" />
     </n:invisible>
 
-If you need a new template, please contact one of the pydotorg webmasters or add a ticket to the trac at [http://psf.pollenation.net](http://psf.pollenation.net){.http .reference .external}.
+If you need a new template, please contact one of the pydotorg webmasters or add a ticket to the trac at [http://psf.pollenation.net](http://psf.pollenation.net).
 :::
 ::::::
 
-::: {#creating-the-restructured-text-content .section}
-##### [Creating the Restructured Text Content](#id26){.toc-backref}
+::: 
+##### [Creating the Restructured Text Content](#id26)
 
 Now we need to create a restructured text file (the ideal format for web content). Our current newstyle.ht file is as follows:
 
@@ -619,13 +624,13 @@ NB it may be worth mentioning that the previous example will cause duplicate id 
 :::
 ::::::::
 
-::::::::::: {#alternative-ways-to-add-pages .section}
-#### [Alternative Ways to Add Pages](#id27){.toc-backref}
+::::::::::: 
+#### [Alternative Ways to Add Pages](#id27)
 
 Because the process of moving a lot of legacy content can be very protracted and in order to make sure content can be synchronised from the current python site to the beta site. A new directive has been introduced which allows content of the current site to be directly linked into the beta site. This new directive enhances the functionality of the htfile directive already in use. I will first discuss the htfile directive and then discuss how the expanded htfile directive can be used on htfiles that are not in the build tree.
 
-::::: {#using-htfiles-within-pyramid .section}
-##### [Using htfiles within pyramid](#id28){.toc-backref}
+::::: 
+##### [Using htfiles within pyramid](#id28)
 
 In order to include content in the htfile format that is used by ht2html, two new directives were added \'htfile\' and \'htfiledata\'.
 
@@ -633,8 +638,8 @@ To show how these work, we will use the example above (new style classes) but us
 
 NB In many cases throughout the site we have tried to use the files name \'content.\<suffix\> for the main body of content. This is not essential however and is just a convention to make reading the directory easier.
 
-::: {#id1 .section}
-###### [index.yml](#id29){.toc-backref}
+::: 
+###### [index.yml](#id29)
 
 Our new index.yml file will include the title directly from the htfile:
 
@@ -648,8 +653,8 @@ Our new index.yml file will include the title directly from the htfile:
       content: !fragment content.yml
 :::
 
-::: {#id2 .section}
-###### [content.yml](#id30){.toc-backref}
+::: 
+###### [content.yml](#id30)
 
 This will now include the content directly from the htfile using the !htfile directive:
 
@@ -667,15 +672,15 @@ These are the only changes needed.
 :::
 :::::
 
-::::: {#using-htfiles-sourced-directly-from-the-pydotorg-tree .section}
-##### [Using htfiles sourced directly from the pydotorg tree](#id31){.toc-backref}
+::::: 
+##### [Using htfiles sourced directly from the pydotorg tree](#id31)
 
 Because the process of adding content can take such a long time, a new htfile parser has been added that can use the pydotorg tree root to reference files directory from the pydotorg current site. This will ensure that the files remain uptodate until such time as it is decided to move the content administration over to the new site.
 
 NB: This may be useful at some point but only use it on the pydotorg site if specifically arranged.
 
-::: {#id3 .section}
-###### [index.yml](#id32){.toc-backref}
+::: 
+###### [index.yml](#id32)
 
 Just use the PDO string substitution and add the remaining path to the ht file:
 
@@ -689,8 +694,8 @@ Just use the PDO string substitution and add the remaining path to the ht file:
       content: !fragment content.yml
 :::
 
-::: {#id4 .section}
-###### [content.yml](#id33){.toc-backref}
+::: 
+###### [content.yml](#id33)
 
 Adding the PDO variable to the htfile path
 
@@ -712,8 +717,8 @@ This variable expansion currently only works for prefixes (i.e. you can\'t use i
 :::
 :::::
 
-::: {#creating-htfile-pages-from-the-command-line .section}
-##### [Creating htfile pages from the command line](#id34){.toc-backref}
+::: 
+##### [Creating htfile pages from the command line](#id34)
 
 A command that generates the needed files for a remote htfile page is included in the pyramid distribution. This command is called mkpydir and the help file for it is as follows:
 
@@ -757,8 +762,8 @@ this would create a directory called irc with an index.yml (which would use the 
 The -l option creates data files that pull in content from an original pydotorg source tree. This should only be used on the python site if specifically arranged.
 :::
 
-::: {#getting-content-out-of-wiki-pages .section}
-##### [Getting content out of wiki pages](#id35){.toc-backref}
+::: 
+##### [Getting content out of wiki pages](#id35)
 
 A lot of content on the site is managed through the python wiki. This makes managing the content a lot easier for the community. Content can be pulled into the site directly over the web using the wikiurl directive. The example below pulls in content from the the wiki Applications page
 
@@ -774,15 +779,15 @@ A lot of content on the site is managed through the python wiki. This makes mana
 :::
 :::::::::::
 
-::::: {#how-the-navigation-works .section}
-#### [How the navigation works](#id36){.toc-backref}
+::::: 
+#### [How the navigation works](#id36)
 
 In order to make the navigation as simple as possible to use and to refactor, a special directive has been added that can look at it\'s parent data file and work accumulate a nested navigation structure.
 
 We\'ll start with a simple example.
 
-::: {#id5 .section}
-##### [index.yml](#id37){.toc-backref}
+::: 
+##### [index.yml](#id37)
 
 we\'ll put a basic index.yml data file in the root of a pyramid build:
 
@@ -800,8 +805,8 @@ we\'ll put a basic index.yml data file in the root of a pyramid build:
 The main thing to note is the !sectionnav. This is telling the builder to look in parent directories to find work out what section we are in. If we now add a directory called \'one\'.
 :::
 
-::: {#one-index-yml .section}
-##### [one/index.yml](#id38){.toc-backref}
+::: 
+##### [one/index.yml](#id38)
 
 The second level file does pretty much the same thing and doesn\'t need to reference the parent (although it needs to be the same data key name, in this case \'nav\':
 
@@ -846,16 +851,16 @@ The templates for rendering nested data are complicated and I wouldn\'t touch th
 :::
 :::::
 
-:::::::: {#adding-special-features .section}
-#### [Adding Special Features](#id39){.toc-backref}
+:::::::: 
+#### [Adding Special Features](#id39)
 
-::::: {#sidebars .section}
-##### [Sidebars](#id40){.toc-backref}
+::::: 
+##### [Sidebars](#id40)
 
 Sidebars are included in the template by adding an extra slot in the content template and filling it with content as follows.
 
-::: {#construction-of-typical-content-page .section}
-###### [construction of typical content page](#id41){.toc-backref}
+::: 
+###### [construction of typical content page](#id41)
 
 The content html for most pages is as follows:
 
@@ -888,8 +893,8 @@ And so the content yaml file is generally as follows:
         text: !restfile content.rst
 :::
 
-::: {#adding-a-sidebar-to-the-content-html .section}
-###### [Adding a sidebar to the content.html](#id42){.toc-backref}
+::: 
+###### [Adding a sidebar to the content.html](#id42)
 
 Our new content.html should look like:
 
@@ -962,8 +967,8 @@ This allows you to include arbitrary sidebars, in this case a form for the sourc
 :::
 :::::
 
-::: {#more-complicated-structures .section}
-##### [More complicated structures](#id43){.toc-backref}
+::: 
+##### [More complicated structures](#id43)
 
 The pyramid system allows pretty much arbitray content to be included into sites but still keep the data separate from the presentation. An example of this is the /community/sigs pages where a set of data about the special interest groups is used on multiple pages.
 
@@ -1028,8 +1033,8 @@ This data can now be used to build the table of sigs using the following templat
     </table>
 :::
 
-::: {#continuing-navigation-as-a-sidebar .section}
-##### [Continuing navigation as a sidebar](#id44){.toc-backref}
+::: 
+##### [Continuing navigation as a sidebar](#id44)
 
 As some pages get deeper and deeper, presenting the hiearachical navigation in the left hand side nav becomes unusable. At this point, it makes sense to add a sidebar to continue the representation of the navigation structure on the right hand side of the page. The special interest groups use this to show the navigation around the different groups.
 
@@ -1050,11 +1055,11 @@ The subnav.html template now has access to the whole navigation hierarchy and ca
 :::
 ::::::::
 
-::::::::::::::: {#pyramid-and-the-python-site .section}
-#### [Pyramid and the Python Site](#id45){.toc-backref}
+::::::::::::::: 
+#### [Pyramid and the Python Site](#id45)
 
-::: {#don-t-be-scared-by-the-homepage-setup .section}
-##### [Don\'t be scared by the homepage setup!!](#id46){.toc-backref}
+::: 
+##### [Don\'t be scared by the homepage setup!!](#id46)
 
 The homepage has a lot of yml data files and templates and some of them look pretty complicated. Don\'t let this worry you as it\'s definitely as complicated as it gets and for all of the other pages we\'ve built so far, nothing has come close.
 
@@ -1063,29 +1068,29 @@ My advice for now would be to leave the homepage alone unless you want to just e
 However, if you really want to know a little more about the home page, look at the bottom of this document.
 :::
 
-::::: {#faq-s .section}
-##### [FAQ\'s](#id47){.toc-backref}
+::::: 
+##### [FAQ\'s](#id47)
 
-::: {#how-do-i-include-images-and-other-static-assets .section}
-###### [How do I include Images and other static assets?](#id48){.toc-backref}
+::: 
+###### [How do I include Images and other static assets?](#id48)
 
 Static directories are pulled into the final site which can be used for non content assets. At the moment there is a /files directory which is being used (this appears in the root of the build directory parralel with the data directory).
 :::
 
-::: {#a-lot-of-links-seem-to-be-wrong .section}
-###### [A lot of links seem to be wrong?](#id49){.toc-backref}
+::: 
+###### [A lot of links seem to be wrong?](#id49)
 
 Once the url rewriting is added, links can be mapped in the same way that the 301 redirects will be mapped. When adding content, if possible try to use absolute urls. These will be easier to parse and rewrite if content is moved around.
 :::
 :::::
 
-::::::::: {#can-you-tell-me-about-the-homepage-now .section}
-##### [Can you tell me about the Homepage now?](#id50){.toc-backref}
+::::::::: 
+##### [Can you tell me about the Homepage now?](#id50)
 
 As long as you\'ve read the rest of it.. If you just need to edit something then it should be straightforward. Lets start with the index.yml file.
 
-::: {#id6 .section}
-###### [index.yml](#id51){.toc-backref}
+::: 
+###### [index.yml](#id51)
 
 The index data file looks like this:
 
@@ -1114,8 +1119,8 @@ This file setups up the main data for the page. The page title and metadata are 
 The content is in the local section as the homepage.yml file is very specific to this page and shouldn\'t be inherited.
 :::
 
-::: {#homepage-yml .section}
-###### [homepage.yml](#id52){.toc-backref}
+::: 
+###### [homepage.yml](#id52)
 
 The homepage yaml sets up all of the data for the homepage (surprisingly):
 
@@ -1162,8 +1167,8 @@ as you can see, all of the data is stored in the local section and the top level
 The content uses restructured text inline and also uses the \| symbol to allow you to use blocks of content (don\'t forget that the indent is stripped).
 :::
 
-::: {#sidebar-yml .section}
-###### [sidebar.yml](#id53){.toc-backref}
+::: 
+###### [sidebar.yml](#id53)
 
 The sidebar includes all of the boxes that appear on the right hand side of the home page:
 
@@ -1180,8 +1185,8 @@ The sidebar includes all of the boxes that appear on the right hand side of the 
 Each item in the sidebar is included explicitly (this should really use a list but that can wait for a refactoring later). Each sidebar is shown below
 :::
 
-::: {#success-yml .section}
-###### [success.yml](#id54){.toc-backref}
+::: 
+###### [success.yml](#id54)
 
 The success file merely includes a title image and link
 
@@ -1191,8 +1196,8 @@ The success file merely includes a title image and link
 > :   title: NASA uses python image: /images/success/nasa.jpg link: /about/success#nasa
 :::
 
-::: {#quote-yml .section}
-###### [quote.yml](#id55){.toc-backref}
+::: 
+###### [quote.yml](#id55)
 
 The quote yaml includes the quote in restructured text format:
 
@@ -1211,8 +1216,8 @@ The quote yaml includes the quote in restructured text format:
         -- Eric Raymond, "`Why python? <http://www.linuxjournal.com/article/3882>`_"
 :::
 
-::: {#using-python-for-yml .section}
-###### [using-python-for.yml](#id56){.toc-backref}
+::: 
+###### [using-python-for.yml](#id56)
 
 This is a little complicated as it uses a nested hierarchical set of categories to show the different possible uses of python:
 
@@ -1242,8 +1247,8 @@ The !linktree directive allows indentation based nesting of data and treats each
 :::
 :::::::::
 
-::: {#written-in-python-yml .section}
-##### [written-in-python.yml](#id57){.toc-backref}
+::: 
+##### [written-in-python.yml](#id57)
 
 Similar to the using python for data but not hierarchical, hence a simple list of urls can be used:
 
@@ -1265,4 +1270,3 @@ Similar to the using python for data but not hierarchical, hence a simple list o
 ------------------------------------------------------------------------
 
 [CategoryArchive](CategoryArchive)
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::

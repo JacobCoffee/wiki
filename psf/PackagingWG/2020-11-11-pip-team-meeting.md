@@ -1,6 +1,11 @@
 # PackagingWG/2020-11-11-pip-team-meeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Nov 11th, 2020
 
 Participants:
@@ -20,7 +25,7 @@ Agenda:
   - Nicole: pushed out documentation survey and is doing interviews on that
     - no known blockers
   - Bernard: no real blockers. Working on the report
-    - pip backtracking message PR - probably finished [https://github.com/pypa/pip/pull/9040](https://github.com/pypa/pip/pull/9040){.https}
+    - pip backtracking message PR - probably finished [https://github.com/pypa/pip/pull/9040](https://github.com/pypa/pip/pull/9040)
 
       - TODO: Sumana to re-review
 
@@ -35,22 +40,22 @@ Agenda:
 
         - dnf (Fedora)
 
-        - pacman \[used in Manjaro Linux distro\] ([https://wiki.archlinux.org/index.php/pacman](https://wiki.archlinux.org/index.php/pacman){.https})
+        - pacman \[used in Manjaro Linux distro\] ([https://wiki.archlinux.org/index.php/pacman](https://wiki.archlinux.org/index.php/pacman))
 
           - TODO: Sumana to ping Santiago from Arch - done 17 Nov
       - There are some other package managers where we could learn from their experience/UX/functionality
         - I\'ve not spoken to them but: cargo (from research people have mentioned it\'s nice)
 
-        - ruby, bundler ([https://bundler.io/](https://bundler.io/){.https})
+        - ruby, bundler ([https://bundler.io/](https://bundler.io/))
 - invoices
   - Gedam has been requested to do so
 - issues that need followup
-  - [https://github.com/pypa/pip/issues/9011](https://github.com/pypa/pip/issues/9011){.https}
+  - [https://github.com/pypa/pip/issues/9011](https://github.com/pypa/pip/issues/9011)
 
     - depends on resolvelib (Carry all incompatibilities during backtracking \-- #60)
     - next: Pradyun will do some test writing
 
-  - [https://github.com/pypa/pip/issues/8785](https://github.com/pypa/pip/issues/8785){.https}
+  - [https://github.com/pypa/pip/issues/8785](https://github.com/pypa/pip/issues/8785)
 
     - New resolver: Failure despite correct version numbers, when extras and already-installed package are encountered together
     - next: Pradyun to do deep investigative dive
@@ -64,4 +69,3 @@ Agenda:
   - people offer help - what would be most effective is some virtual coworking time
     - Bernard is free to do this all Thurs, plus Fri morning
     - TODO: This time tomorrow would be ideal!
-:::

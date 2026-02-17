@@ -1,7 +1,12 @@
 # HelpContents
 
-::: {#content dir="ltr" lang="en"}
-# Help Contents {#Help_Contents}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Help Contents 
 
 Welcome to [MoinMoin](MoinMoin). You will find here the help pages for the wiki system itself.
 
@@ -13,9 +18,8 @@ If you would like a quick overview of [MoinMoin](MoinMoin)\'s syntax, have a loo
 
 - [HelpIndex](HelpIndex) - is a list of all available help pages.
 
-![(!)](/wiki/europython/img/idea.png "(!)"){height="16" width="16"} Fulltext search is available on [FindPage](FindPage).
+![(!)](/wiki/europython/img/idea.png "(!)") Fulltext search is available on [FindPage](FindPage).
 
 ------------------------------------------------------------------------
 
-[*If you find any errors on the help pages, please describe them on [HelpErrata](http://moinmo.in/HelpErrata "MoinMoin"){.interwiki}. Please do not edit or create help pages in other wikis than MoinMaster (see [HelpContents](http://master.moinmo.in/HelpContents "MoinMaster"){.interwiki}), because the pages from MoinMaster will overwrite any other changes on wiki engine upgrades. Please follow the established structure of help pages if you want to change pages in MoinMaster. Before doing any major or widespread changes please discuss that on the mailing list or MoinMoin wiki.*]{.small}
-:::
+[*If you find any errors on the help pages, please describe them on [HelpErrata](http://moinmo.in/HelpErrata "MoinMoin"). Please do not edit or create help pages in other wikis than MoinMaster (see [HelpContents](http://master.moinmo.in/HelpContents "MoinMaster")), because the pages from MoinMaster will overwrite any other changes on wiki engine upgrades. Please follow the established structure of help pages if you want to change pages in MoinMaster. Before doing any major or widespread changes please discuss that on the mailing list or MoinMoin wiki.*]

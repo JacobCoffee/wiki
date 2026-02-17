@@ -1,7 +1,12 @@
 # Email SIG/UseCases
 
-::: {#content dir="ltr" lang="en"}
-# Email Package Use Cases {#Email_Package_Use_Cases}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Email Package Use Cases 
 
 The following use cases for the email package API are gleaned from the email-sig mailing list and are collected here for reference. Note that \'strings\' are python3 unicode strings.
 
@@ -73,4 +78,3 @@ issue 3609
 
 reStructuredText
 :   Docutils uses RFC 2822-like fields to parse reST files, e.g. PEPs. It could perhaps benefit from using email instead of regexes.
-:::

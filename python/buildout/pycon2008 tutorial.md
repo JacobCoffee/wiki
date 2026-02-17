@@ -1,6 +1,11 @@
 # buildout/pycon2008 tutorial
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Eggs and Buildout Deployment in Python
 
 ::: figure
@@ -13,15 +18,15 @@ Slides:
 
 > Four-Part In-Depth Presentation Sequence (not presented in class)
 >
-> - [An Introduction to the Virtualenv Sandbox](http://dfwpython.org/static/pycon/0-python-virtualenv.pdf){.http .reference .external} ([.pdf](http://dfwpython.org/static/pycon/0-python-virtualenv.pdf){.http .reference .external}, [.txt](http://dfwpython.org/static/pycon/0-python-virtualenv.txt){.http .reference .external})
-> - [Distutils: Packaging, Metadata and Pushups](http://dfwpython.org/static/pycon/1-python-distutils.pdf){.http .reference .external} ([.pdf](http://dfwpython.org/static/pycon/1-python-distutils.pdf){.http .reference .external}, [.txt](http://dfwpython.org/static/pycon/1-python-distutils.txt){.http .reference .external})
-> - [SetupTools: Python Eggs, Dependencies and Plugins](http://dfwpython.org/static/pycon/2-python-setuptools.pdf){.http .reference .external} ([.pdf](http://dfwpython.org/static/pycon/2-python-setuptools.pdf){.http .reference .external}, [.txt](http://dfwpython.org/static/pycon/2-python-setuptools.txt){.http .reference .external})
-> - [Buildout: Precision Assembly, Repeatability, Islands](http://dfwpython.org/static/pycon/3-python-buildout.pdf){.http .reference .external} ([.pdf](http://dfwpython.org/static/pycon/3-python-buildout.pdf){.http .reference .external}, [.txt](http://dfwpython.org/static/pycon/3-python-buildout.txt){.http .reference .external})
+> - [An Introduction to the Virtualenv Sandbox](http://dfwpython.org/static/pycon/0-python-virtualenv.pdf) ([.pdf](http://dfwpython.org/static/pycon/0-python-virtualenv.pdf), [.txt](http://dfwpython.org/static/pycon/0-python-virtualenv.txt))
+> - [Distutils: Packaging, Metadata and Pushups](http://dfwpython.org/static/pycon/1-python-distutils.pdf) ([.pdf](http://dfwpython.org/static/pycon/1-python-distutils.pdf), [.txt](http://dfwpython.org/static/pycon/1-python-distutils.txt))
+> - [SetupTools: Python Eggs, Dependencies and Plugins](http://dfwpython.org/static/pycon/2-python-setuptools.pdf) ([.pdf](http://dfwpython.org/static/pycon/2-python-setuptools.pdf), [.txt](http://dfwpython.org/static/pycon/2-python-setuptools.txt))
+> - [Buildout: Precision Assembly, Repeatability, Islands](http://dfwpython.org/static/pycon/3-python-buildout.pdf) ([.pdf](http://dfwpython.org/static/pycon/3-python-buildout.pdf), [.txt](http://dfwpython.org/static/pycon/3-python-buildout.txt))
 >
 > Condensed Slide Set Used in Actual Tutorial
 >
-> - [Eggs and Buildout Deployment in Python](http://dfwpython.org/static/pycon/eggs-n-buildout.pdf){.http .reference .external} ([.pdf](http://dfwpython.org/static/pycon/eggs-n-buildout.pdf){.http .reference .external}, [.txt](http://dfwpython.org/static/pycon/eggs-n-buildout.txt){.http .reference .external})
-> - [Additional Topics of Tutorial](http://dfwpython.org/static/pycon/eggs-n-buildout-bonus.pdf){.http .reference .external} ([.pdf](http://dfwpython.org/static/pycon/eggs-n-buildout-bonus.pdf){.http .reference .external}, [.txt](http://dfwpython.org/static/pycon/eggs-n-buildout-bonus.txt){.http .reference .external})
+> - [Eggs and Buildout Deployment in Python](http://dfwpython.org/static/pycon/eggs-n-buildout.pdf) ([.pdf](http://dfwpython.org/static/pycon/eggs-n-buildout.pdf), [.txt](http://dfwpython.org/static/pycon/eggs-n-buildout.txt))
+> - [Additional Topics of Tutorial](http://dfwpython.org/static/pycon/eggs-n-buildout-bonus.pdf) ([.pdf](http://dfwpython.org/static/pycon/eggs-n-buildout-bonus.pdf), [.txt](http://dfwpython.org/static/pycon/eggs-n-buildout-bonus.txt))
 
 Exercises from Tutorial:
 
@@ -32,7 +37,7 @@ Exercises from Tutorial:
 >     :::
 >
 >     ::: line
->     \$ wget [http://peak.telecommunity.com/dist/ez_setup.py](http://peak.telecommunity.com/dist/ez_setup.py){.http .reference .external}
+>     \$ wget [http://peak.telecommunity.com/dist/ez_setup.py](http://peak.telecommunity.com/dist/ez_setup.py)
 >     :::
 >
 >     ::: line
@@ -405,4 +410,3 @@ Exercises from Tutorial:
 >         ::: line
 >         \'/tmp/kkk/sqlobject/sqlobject/\_\_init\_\_.py\'
 >         :::
-::::

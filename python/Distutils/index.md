@@ -3,13 +3,11 @@
 ```{toctree}
 :maxdepth: 1
 
-Contributing
 Cookbook
 DiscussionOverview
 DistributeSprint
 Extensions
 FAQ
-FixingBugs
 Friends
 ManifestPluginSystem
 Metadata

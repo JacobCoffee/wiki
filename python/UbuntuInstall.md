@@ -1,6 +1,11 @@
 # UbuntuInstall
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **Building Python from source on Ubuntu**
 
 The following packages are required install to get a complete build on Ubuntu.
@@ -20,4 +25,3 @@ zlib1g-dev isn\'t on the list as it gets installed automatically as a dependency
 ------------------------------------------------------------------------
 
 [CategoryFaq](CategoryFaq)
-:::

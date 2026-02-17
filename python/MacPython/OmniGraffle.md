@@ -1,35 +1,39 @@
 # MacPython/OmniGraffle
 
-::: {#content dir="ltr" lang="en"}
-**About [OmniGraffle](./OmniGraffle.html){.nonexistent}:**
+```{admonition} Legacy Wiki Page
+:class: note
 
-- Editor: [OmniGroup](http://www.omnigroup.com/){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- Product Page: [OmniGraffle 4](http://www.omnigroup.com/applications/omnigraffle/){.http}, [OmniGraffle 4 Pro](http://www.omnigroup.com/applications/omnigraffle/){.http}
+**About [OmniGraffle](./OmniGraffle.html):**
 
-- Scripting Page: [AppleScript in OmniGraffle](http://www.omnigroup.com/Documentation/OmniGraffle/AppleScript.html){.http}
+- Editor: [OmniGroup](http://www.omnigroup.com/)
+
+- Product Page: [OmniGraffle 4](http://www.omnigroup.com/applications/omnigraffle/), [OmniGraffle 4 Pro](http://www.omnigroup.com/applications/omnigraffle/)
+
+- Scripting Page: [AppleScript in OmniGraffle](http://www.omnigroup.com/Documentation/OmniGraffle/AppleScript.html)
 
 - Description: a full featured, Visio-like diagram editor.
 
 **Appscripting Overview:**
 
-- [/AppscriptingOverview](./MacPython(2f)OmniGraffle(2f)AppscriptingOverview.html){.nonexistent}
+- [/AppscriptingOverview](./MacPython(2f)OmniGraffle(2f)AppscriptingOverview.html)
 
 - [/ProTerminology](./MacPython(2f)OmniGraffle(2f)ProTerminology.html)
 
 **Appscripting in Depth:**
 
-- [/FrequentlyAskedQuestions](./MacPython(2f)OmniGraffle(2f)FrequentlyAskedQuestions.html){.nonexistent}
+- [/FrequentlyAskedQuestions](./MacPython(2f)OmniGraffle(2f)FrequentlyAskedQuestions.html)
 
 - [/MoreExamples](./MacPython(2f)OmniGraffle(2f)MoreExamples.html)
 
-- [/Annoyances](./MacPython(2f)OmniGraffle(2f)Annoyances.html){.nonexistent}
+- [/Annoyances](./MacPython(2f)OmniGraffle(2f)Annoyances.html)
 
-- [/TipsAndTricks](./MacPython(2f)OmniGraffle(2f)TipsAndTricks.html){.nonexistent}
+- [/TipsAndTricks](./MacPython(2f)OmniGraffle(2f)TipsAndTricks.html)
 
-- [/Bugs](./MacPython(2f)OmniGraffle(2f)Bugs.html){.nonexistent}
+- [/Bugs](./MacPython(2f)OmniGraffle(2f)Bugs.html)
 
-- [/MiscNotes](./MacPython(2f)OmniGraffle(2f)MiscNotes.html){.nonexistent}
+- [/MiscNotes](./MacPython(2f)OmniGraffle(2f)MiscNotes.html)
 
 - [/UsefulLinks](./MacPython(2f)OmniGraffle(2f)UsefulLinks.html)
-:::

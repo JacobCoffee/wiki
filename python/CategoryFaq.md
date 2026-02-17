@@ -1,7 +1,12 @@
 # CategoryFaq
 
-:::: {#content dir="ltr" lang="en"}
-[WikiCategories](http://c2.com/cgi/wiki?WikiCategories "Wiki"){.interwiki} tag describing that a page is a FAQ (Frequently Asked Question) page.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[WikiCategories](http://c2.com/cgi/wiki?WikiCategories "Wiki") tag describing that a page is a FAQ (Frequently Asked Question) page.
 
 ::: searchresults
 1.  [Asking for Help](./Asking(20)for(20)Help.html?highlight=%28CategoryFaq%29)
@@ -29,4 +34,3 @@
 ------------------------------------------------------------------------
 
 [CategoryCategory](CategoryCategory)
-::::

@@ -1,6 +1,11 @@
 # JepGuidelines
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 - *JEP: JepGuidelines*
 
 - *Title: JEP Guidelines*
@@ -19,7 +24,7 @@
 
 ------------------------------------------------------------------------
 
-### Contents {#Contents}
+### Contents 
 
 - What is a JEP?
 - Kinds of JEPs
@@ -32,7 +37,7 @@
 - References and Footnotes
 - Copyright
 
-### What is a JEP? {#What_is_a_JEP.3F}
+### What is a JEP? 
 
 JEP stands for Jython Enhancement Proposal. JEPs are strongly based on Python Enhancement Proposals (PEP) (indeed much of the content here is lifted from PEP 1).
 
@@ -40,14 +45,14 @@ A JEP is a design document providing information to the Jython community, or des
 
 JEPs are the primary mechanisms for proposing new features, for collecting community input on an issue, and for documenting the design decisions that have gone into Jython. The JEP author is responsible for building consensus within the community and documenting dissenting opinions.
 
-### Kinds of JEPs {#Kinds_of_JEPs}
+### Kinds of JEPs 
 
 There are two kinds of JEPs.
 
 - A Standards Track JEP, or SJEP, describes a new feature or implementation for Jython.
 - An Informational JEP, or IJEP, describes a Jython design issue, or provides general guidelines or information to the Jython community, but does not propose a new feature. Informational JEPs do not necessarily represent a Jython community consensus or recommendation, so users and implementors are free to ignore Informational JEPs or follow their advice.
 
-### JEP Work Flow {#JEP_Work_Flow}
+### JEP Work Flow 
 
 The JEP process begins with a new idea for Jython. It is highly recommended that a single JEP contain a single key proposal or new idea. The more focussed the JEP, the more successful it tends to be. The community reserves the right to reject JEP proposals if they appear too unfocussed or too broad.
 
@@ -87,11 +92,11 @@ JEP work flow is as follows:
 
 Some Informational JEPs may also have a status of \"Active\" if they are never meant to be completed. E.g. JEP 1 (this JEP).
 
-### What belongs in a successful JEP? {#What_belongs_in_a_successful_JEP.3F}
+### What belongs in a successful JEP? 
 
 Each JEP should have the following parts:
 
-1.  Preamble \-- RFC 822 style headers containing meta-data about the JEP, including the JEP [WikiPage](./WikiPage.html){.nonexistent}, a short descriptive title (limited to a maximum of 44 characters), the names, and optionally the contact info for each author, etc.
+1.  Preamble \-- RFC 822 style headers containing meta-data about the JEP, including the JEP [WikiPage](./WikiPage.html), a short descriptive title (limited to a maximum of 44 characters), the names, and optionally the contact info for each author, etc.
 
 2.  Abstract \-- a short (\~200 word) description of the technical issue being addressed.
 
@@ -109,7 +114,7 @@ Each JEP should have the following parts:
 
 The final implementation must include test code and documentation appropriate for either the Jython language reference or the standard library reference.
 
-### JEP Formats and Templates {#JEP_Formats_and_Templates}
+### JEP Formats and Templates 
 
 Each JEP must begin with an RFC 822 alike header preamble. The headers must appear in the following order. Headers marked with \"?\" are optional and are described below. All other headers are required.
 
@@ -130,13 +135,13 @@ Each JEP must begin with an RFC 822 alike header preamble. The headers must appe
 
 The Author header lists the names, and optionally the email addresses of all the authors/owners of the JEP. The format of the Author header value must be
 
-- Random J. User \<[address@dom.ain](mailto:address@dom.ain){.mailto}\>
+- Random J. User \<[address@dom.ain](mailto:address@dom.ain)\>
 
 if the email address is included, and just
 
 - Random J. User
 
-if the address is not given. For historical reasons the format \"[address@dom.ain](mailto:address@dom.ain){.mailto} (Random J. User)\" may appear in a JEP, however new JEPs must use the mandated format above, and it is acceptable to change to this format when JEPs are updated.
+if the address is not given. For historical reasons the format \"[address@dom.ain](mailto:address@dom.ain) (Random J. User)\" may appear in a JEP, however new JEPs must use the mandated format above, and it is acceptable to change to this format when JEPs are updated.
 
 If there are multiple authors, each should be on a separate line following RFC 2822 continuation line conventions. Note that personal email addresses in JEPs will be obscured as a defense against spam harvesters.
 
@@ -152,23 +157,22 @@ Standards Track JEPs must have a Jython-Version header which indicates the versi
 
 JEPs may have a Requires header, indicating the JEP numbers that this JEP depends on.
 
-JEPs may also have a Replaced-By header indicating that a JEP has been rendered obsolete by a later document; the value is the [WikiPage](./WikiPage.html){.nonexistent} of the JEP that replaces the current document. The newer JEP must have a Replaces header containing the [WikiPage](./WikiPage.html){.nonexistent} of the JEP that it rendered obsolete. Reporting JEP Bugs, or Submitting JEP Updates
+JEPs may also have a Replaced-By header indicating that a JEP has been rendered obsolete by a later document; the value is the [WikiPage](./WikiPage.html) of the JEP that replaces the current document. The newer JEP must have a Replaces header containing the [WikiPage](./WikiPage.html) of the JEP that it rendered obsolete. Reporting JEP Bugs, or Submitting JEP Updates
 
 How you report a bug, or submit a JEP update depends on several factors, such as the maturity of the JEP, the preferences of the JEP author, and the nature of your comments. For the early draft stages of the JEP, it\'s probably best to send your comments and changes directly to the JEP author. For more mature, or finished JEPs you may want to submit corrections to the Jython issue list or better yet as a patch so that your changes don\'t get lost.
 
 When in doubt about where to send your changes, please check first on jython-dev.
 
-### Transferring JEP Ownership {#Transferring_JEP_Ownership}
+### Transferring JEP Ownership 
 
 It occasionally becomes necessary to transfer ownership of JEPs to a new champion. In general, we\'d like to retain the original author as a co-author of the transferred JEP, but that\'s really up to the original author. A good reason to transfer ownership is because the original author no longer has the time or interest in updating it or following through with the JEP process, or has fallen off the face of the \'net (i.e. is unreachable or not responding to email). A bad reason to transfer ownership is because you don\'t agree with the direction of the JEP. We try to build consensus around a JEP, but if that\'s not possible, you can always submit a competing JEP.
 
 If you are interested in assuming ownership of a JEP, send a message asking to take over, addressed to the original author. If the original author doesn\'t respond to email in a timely manner, the community can make a decision.
 
-### Copyright {#Copyright}
+### Copyright 
 
 This document has been placed in the public domain.
 
 ------------------------------------------------------------------------
 
 [CategoryJep](CategoryJep)
-:::

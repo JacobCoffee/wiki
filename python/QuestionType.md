@@ -1,6 +1,11 @@
 # QuestionType
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 \-- [DavidLambert](DavidLambert) 2007-07-18 14:49:27
 
 Nameless functions, nameless types.
@@ -34,4 +39,3 @@ Please, what is purpose of name argument to new type call?
     class C(object):
         pass
     del C
-:::

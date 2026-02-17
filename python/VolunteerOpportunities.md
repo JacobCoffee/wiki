@@ -1,78 +1,50 @@
 # VolunteerOpportunities
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [Volunteer Opportunities in Python](#Volunteer_Opportunities_in_Python)
-    1.  [How To Submit a Volunteer Job](#How_To_Submit_a_Volunteer_Job)
-2.  [POR Game Emulator](#POR_Game_Emulator)
-3.  [GeoPhysics Programmer](#GeoPhysics_Programmer)
-4.  [SpamBayes - Bayesian Spam Filter](#SpamBayes_-_Bayesian_Spam_Filter)
-5.  [Touch-screen photo vending machine application development](#Touch-screen_photo_vending_machine_application_development)
-6.  [The Onco Project](#The_Onco_Project)
-7.  [A Re-narration Web of SWeeTs](#A_Re-narration_Web_of_SWeeTs)
-8.  [GAE framework developer](#GAE_framework_developer)
-9.  [Sharamag ePublishing.](#Sharamag_ePublishing.)
-10. [Python Programmers for Flash/O3D MMO - Vortex Games, Inc.](#Python_Programmers_for_Flash.2FO3D_MMO_-_Vortex_Games.2C_Inc.)
-11. [Volunteer Course Developer - University of the People](#Volunteer_Course_Developer_-_University_of_the_People)
-12. [Script Writing in Bee Dictionary](#Script_Writing_in_Bee_Dictionary)
-13. [Sahana Disaster Management System](#Sahana_Disaster_Management_System)
-14. [Porting Ubiquity in gNewSense](#Porting_Ubiquity_in_gNewSense)
-15. [GliderLab / webhooks.org (Mountain View, CA, USA)](#GliderLab_.2F_webhooks.org_.28Mountain_View.2C_CA.2C_USA.29)
-16. [Pinwheel.org !](#Pinwheel.org_.21)
-17. [PyConference](#PyConference)
-18. [Project Anglea - Open Source Gaming Project](#Project_Anglea_-_Open_Source_Gaming_Project)
-19. [Contribute to a cool opensource Virtualization Project](#Contribute_to_a_cool_opensource_Virtualization_Project)
-20. [Official Python Developer](#Official_Python_Developer)
-21. [Create a Python Soap Client to connect](#Create_a_Python_Soap_Client_to_connect)
-22. [E Screening Room (San Rafael, CA, USA)](#E_Screening_Room_.28San_Rafael.2C_CA.2C_USA.29)
-23. [wxwindows debugger](#wxwindows_debugger)
-24. [Video display hooks needed for off\--screen model.](#Video_display_hooks_needed_for_off--screen_model.)
-25. [SBI Network Project - based on an Open Business Model](#SBI_Network_Project_-_based_on_an_Open_Business_Model)
-26. [Lino application developer](#Lino_application_developer)
-27. [Raspberry Pi Internet Kiosk](#Raspberry_Pi_Internet_Kiosk)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Volunteer Opportunities in Python {#Volunteer_Opportunities_in_Python}
+## Volunteer Opportunities in Python 
 
-The purpose of this page is to act as an adjunct to the [Python Jobs](http://www.python.org/community/jobs/){.http} page, which only allows the posting of paying jobs.
+The purpose of this page is to act as an adjunct to the [Python Jobs](http://www.python.org/community/jobs/) page, which only allows the posting of paying jobs.
 
-This page is dedicated to volunteer opportunities that are not necessarily any different from any other \"real\" job, except for the fact that the work is not done for pay. There\'s a separate page with information if you want to [volunteer to help the PSF](http://www.python.org/psf/volunteer/){.http}.
+This page is dedicated to volunteer opportunities that are not necessarily any different from any other \"real\" job, except for the fact that the work is not done for pay. There\'s a separate page with information if you want to [volunteer to help the PSF](http://www.python.org/psf/volunteer/).
 
-### How To Submit a Volunteer Job {#How_To_Submit_a_Volunteer_Job}
+### How To Submit a Volunteer Job 
 
-There is already a [Python Jobs \[\[HowTo](http://www.python.org/community/jobs/howto/){.http}\]\] page, and it would be best if you could follow those same instructions as closely as possible for this page. Doing so will allow people who are already familiar with this site to access the material quickly. (However, edit this page instead of submitting your position to the Job Board, we just want similar formatting.) Please include a posting date - historically most submitters don\'t swing back and update this page when things change, adding a date provides some indicator of freshness for both volunteers and editors.
+There is already a [Python Jobs \[\[HowTo](http://www.python.org/community/jobs/howto/)\]\] page, and it would be best if you could follow those same instructions as closely as possible for this page. Doing so will allow people who are already familiar with this site to access the material quickly. (However, edit this page instead of submitting your position to the Job Board, we just want similar formatting.) Please include a posting date - historically most submitters don\'t swing back and update this page when things change, adding a date provides some indicator of freshness for both volunteers and editors.
 
-## POR Game Emulator {#POR_Game_Emulator}
+## POR Game Emulator 
 
 Our current team of 16 is looking for some python developers to assist us in developing a game emulator for a game called Pirates Online Retribution; We are lucky enough to have the original devloper\'s approved source code and are working on rewriting the code, but are in need of some quality python developers to assist in speeding up the process. While we are looking for volunteers, benefits of the game and likely monetary rewards will be distributed upon the project\'s completion.
 
-For more information Contact me by email or my supervisor via skype: email: [breedyofficial@gmail.com](mailto:breedyofficial@gmail.com){.mailto} skype: ilovebella991
+For more information Contact me by email or my supervisor via skype: email: [breedyofficial@gmail.com](mailto:breedyofficial@gmail.com) skype: ilovebella991
 
 ------------------------------------------------------------------------
 
-## GeoPhysics Programmer {#GeoPhysics_Programmer}
+## GeoPhysics Programmer 
 
-Live in a tropical country and spend half your time volunteering in the development of geophysical software to monitor volcanoes, earthquakes and tsunamis and half your time traveling or relaxing on the beach. OSOP ([http://www.osop.com.pa](http://www.osop.com.pa){.http}) is located in Volcan, Panama. Applicants must have a strong background in Mathematics and Physics. OSOP will provide transportation to Panama and housing.
+Live in a tropical country and spend half your time volunteering in the development of geophysical software to monitor volcanoes, earthquakes and tsunamis and half your time traveling or relaxing on the beach. OSOP ([http://www.osop.com.pa](http://www.osop.com.pa)) is located in Volcan, Panama. Applicants must have a strong background in Mathematics and Physics. OSOP will provide transportation to Panama and housing.
 
-Send applications (your CV) and inquiries to: [branden.christensen@osop.com.pa](mailto:branden.christensen@osop.com.pa){.mailto}
-
-------------------------------------------------------------------------
-
-## SpamBayes - Bayesian Spam Filter {#SpamBayes_-_Bayesian_Spam_Filter}
-
-The [SpamBayes Project](http://www.spambayes.org/){.http} can use people to help in a couple places: Windows integration - On Windows we need someone who can build and test Windows installers and test changes to the core code in a Windows environment, especially using the Outlook plugin. This need is more urgent since the release of Outlook 2010 and 64-bit Windows 7. Thunderbird integration - There is a new [ThunderBayes](./ThunderBayes.html){.nonexistent} plugin for Thunderbird 3. We can use help putting it through its paces.
-
-- **Contact**: [SpamBayes](./SpamBayes.html){.nonexistent} development team
-
-- **E-mail contact**: [spambayes-dev@python.org](mailto:spambayes-dev@python.org){.mailto}
-
-- **Web**: [http://www.spambayes.org/](http://www.spambayes.org/){.http}
+Send applications (your CV) and inquiries to: [branden.christensen@osop.com.pa](mailto:branden.christensen@osop.com.pa)
 
 ------------------------------------------------------------------------
 
-## Touch-screen photo vending machine application development {#Touch-screen_photo_vending_machine_application_development}
+## SpamBayes - Bayesian Spam Filter 
+
+The [SpamBayes Project](http://www.spambayes.org/) can use people to help in a couple places: Windows integration - On Windows we need someone who can build and test Windows installers and test changes to the core code in a Windows environment, especially using the Outlook plugin. This need is more urgent since the release of Outlook 2010 and 64-bit Windows 7. Thunderbird integration - There is a new [ThunderBayes](./ThunderBayes.html) plugin for Thunderbird 3. We can use help putting it through its paces.
+
+- **Contact**: [SpamBayes](./SpamBayes.html) development team
+
+- **E-mail contact**: [spambayes-dev@python.org](mailto:spambayes-dev@python.org)
+
+- **Web**: [http://www.spambayes.org/](http://www.spambayes.org/)
+
+------------------------------------------------------------------------
+
+## Touch-screen photo vending machine application development 
 
 **Job Description**:
 
@@ -93,15 +65,15 @@ Unicorn Leisure is a small technology driven consumer leisure company based in C
 
 - Contact: A. Telford
 
-- E-mail contact: [alex@unicornleisure.co.uk](mailto:alex@unicornleisure.co.uk){.mailto}
+- E-mail contact: [alex@unicornleisure.co.uk](mailto:alex@unicornleisure.co.uk)
 
-- Web: [http://www.unicornleisure.co.uk](http://www.unicornleisure.co.uk){.http}
+- Web: [http://www.unicornleisure.co.uk](http://www.unicornleisure.co.uk)
 
 - Telecommuting OK
 
 ------------------------------------------------------------------------
 
-## The Onco Project {#The_Onco_Project}
+## The Onco Project 
 
 **Job Description**: We are currently looking for Computer Programmers and Web-Site Designers willing to work voluntarily with a software developer of a virtual table top on an open source RPG project that will be used en masse for the first time in November 2012.All participants in this project must be willing to work as a team and fulfill assignments as given out by the developer. All participants will appear in either the credits on the website and/or within the software.
 
@@ -116,15 +88,15 @@ Unicorn Leisure is a small technology driven consumer leisure company based in C
 
 - Contact: Stephen J. Holodinsky
 
-- E-mail contact: [onco@bell.net](mailto:onco@bell.net){.mailto}
+- E-mail contact: [onco@bell.net](mailto:onco@bell.net)
 
-- Web: [http://www.knowledgearcana.com/traipse-openrpg](http://www.knowledgearcana.com/traipse-openrpg){.http}
+- Web: [http://www.knowledgearcana.com/traipse-openrpg](http://www.knowledgearcana.com/traipse-openrpg)
 
 - Telecommuting OK
 
 ------------------------------------------------------------------------
 
-## A Re-narration Web of SWeeTs {#A_Re-narration_Web_of_SWeeTs}
+## A Re-narration Web of SWeeTs 
 
 (We are in Bangalore, India; but you can be anywhere)
 
@@ -136,21 +108,21 @@ This is a call for volunteer researchers, developers, designers, interns and stu
 
 - **Contact**: Dinesh
 
-- **E-mail contact**: [work@servelots.com](mailto:work@servelots.com){.mailto}
+- **E-mail contact**: [work@servelots.com](mailto:work@servelots.com)
 
-- **Web**: [http://wiki.janastu.org/Jsoc](http://wiki.janastu.org/Jsoc){.http}
+- **Web**: [http://wiki.janastu.org/Jsoc](http://wiki.janastu.org/Jsoc)
 
 ------------------------------------------------------------------------
 
-## GAE framework developer {#GAE_framework_developer}
+## GAE framework developer 
 
 **Job Description**: We look for a talend Python web developers for improve **GAE framework** - flexible stack of applications based on **Google App Engine**.
 
 GAE framework helps people create web sites with simple structure and use already created applications *(such as: article, blog, forum, guestbook, etc)*.
 
-**What Python is used for**: Python is main language for develop backend of GAE framework. Also used jQuery [JavaScript](./JavaScript.html){.nonexistent} library on frontend.
+**What Python is used for**: Python is main language for develop backend of GAE framework. Also used jQuery [JavaScript](./JavaScript.html) library on frontend.
 
-**NOTE** for this postition you need know how to work with [Google App Engine](http://code.google.com/appengine/){.http}
+**NOTE** for this postition you need know how to work with [Google App Engine](http://code.google.com/appengine/)
 
 - **Contact Info:**
 
@@ -158,9 +130,9 @@ GAE framework helps people create web sites with simple structure and use alread
 
 - **E-mail contact**: anton.danilchenko at gmail dot com
 
-- **Web-site**: [http://gae-framework.appspot.com/](http://gae-framework.appspot.com/){.http}
+- **Web-site**: [http://gae-framework.appspot.com/](http://gae-framework.appspot.com/)
 
-## Sharamag ePublishing. {#Sharamag_ePublishing.}
+## Sharamag ePublishing. 
 
 **Job Description**: Developers are needed to work on the database portions of an open-use epublishing concept. The current version is similar to a blog in that people can write & construct articles, as well as collect articles to create issues of publications. Final rendition will have dedicated readers to each platform (iphone, android devices, ipad, tablet systems) that display the created content in a way best suited for that device. The back end of this system is currently targeted to Google App Engine for the scalability.
 
@@ -172,15 +144,15 @@ The concept is to build an open community for publishing on electronic devices w
 
 - **Contact**: Gerry Straathof, student at Alberta College of Art and Design
 
-- **E-mail contact**: [gerry.straathof@acad.ca](mailto:gerry.straathof@acad.ca){.mailto}
+- **E-mail contact**: [gerry.straathof@acad.ca](mailto:gerry.straathof@acad.ca)
 
-- **Other Contact Info**: [nosemonger@gmail.com](mailto:nosemonger@gmail.com){.mailto}
+- **Other Contact Info**: [nosemonger@gmail.com](mailto:nosemonger@gmail.com)
 
-- **Web**: [http://www.ce3c.com/301/?page_id=981](http://www.ce3c.com/301/?page_id=981){.http}
+- **Web**: [http://www.ce3c.com/301/?page_id=981](http://www.ce3c.com/301/?page_id=981)
 
 - **Telecommuting OK**
 
-## Python Programmers for Flash/O3D MMO - Vortex Games, Inc. {#Python_Programmers_for_Flash.2FO3D_MMO_-_Vortex_Games.2C_Inc.}
+## Python Programmers for Flash/O3D MMO - Vortex Games, Inc. 
 
 Vortex Games, Inc. is looking for talented python programmers who would like the opportunity to work on a game for credit and profit share.
 
@@ -190,15 +162,15 @@ Ideal candidates will have expert knowledge of python. Game development experien
 
 - **Contact**: Richard Yale - President / CEO
 
-- **E-mail contact**: [richard.yale@vortexgamesinc.com](mailto:richard.yale@vortexgamesinc.com){.mailto}
+- **E-mail contact**: [richard.yale@vortexgamesinc.com](mailto:richard.yale@vortexgamesinc.com)
 
 - **Web**: www.vortexgamesinc.com
 
-## Volunteer Course Developer - University of the People {#Volunteer_Course_Developer_-_University_of_the_People}
+## Volunteer Course Developer - University of the People 
 
 University of the People is an online university offering programs of study in Business Administration and Computer Science at very low costs.
 
-**Job Description**: [UoPeople](./UoPeople.html){.nonexistent} is searching for a volunteer to create/organize a Basic Programming Course for our students that have no previous experience or specific knowledge in this field. The course should use Python to teach general concepts of computer programming and prepare students for continuing on to study more advanced topics in computer science.
+**Job Description**: [UoPeople](./UoPeople.html) is searching for a volunteer to create/organize a Basic Programming Course for our students that have no previous experience or specific knowledge in this field. The course should use Python to teach general concepts of computer programming and prepare students for continuing on to study more advanced topics in computer science.
 
 Ideal candidates will have a Ph.D. in Computer Science or related-field and experience teaching computer programming, online, at the university level.
 
@@ -208,47 +180,47 @@ University of the People is a member of the Open Courseware Consortium and commi
 
 - \*\*Contact\*\*: Heidi Gartenberg - Academic Resources Director
 
-- \*\*E-mail contact\*\*: [heidi.gartenberg@uopeople.org](mailto:heidi.gartenberg@uopeople.org){.mailto}
+- \*\*E-mail contact\*\*: [heidi.gartenberg@uopeople.org](mailto:heidi.gartenberg@uopeople.org)
 
 - \*\*Web\*\*: www.uopeople.org
 
 ------------------------------------------------------------------------
 
-## Script Writing in Bee Dictionary {#Script_Writing_in_Bee_Dictionary}
+## Script Writing in Bee Dictionary 
 
-**Job Description**: [Bee English Dictionary](http://www.beedictionary.com){.http} is a leading [online english dictionary](http://www.beedictionary.com){.http} providing definitions, roots, usages, synonyms and antonyms. We are looking for volunteers for some backend work.
+**Job Description**: [Bee English Dictionary](http://www.beedictionary.com) is a leading [online english dictionary](http://www.beedictionary.com) providing definitions, roots, usages, synonyms and antonyms. We are looking for volunteers for some backend work.
 
 - **Contact**: Sandeep
 
 - **E-mail contact**: bd.info at beedictionary.com
 
-- **Web**: [http://www.beedictionary.com](http://www.beedictionary.com){.http}
+- **Web**: [http://www.beedictionary.com](http://www.beedictionary.com)
 
 ------------------------------------------------------------------------
 
-## Sahana Disaster Management System {#Sahana_Disaster_Management_System}
+## Sahana Disaster Management System 
 
 **Job Description**: Sahana Eden is an Open Source Humanitarian Platform which can be used to provide solutions for Disaster Management, Development, and Environmental Management sectors. It is written in Python and Javascript.
 
-- **Contact**: [http://eden.sahanafoundation.org/](http://eden.sahanafoundation.org/){.http}
+- **Contact**: [http://eden.sahanafoundation.org/](http://eden.sahanafoundation.org/)
 
 ------------------------------------------------------------------------
 
-## Porting Ubiquity in gNewSense {#Porting_Ubiquity_in_gNewSense}
+## Porting Ubiquity in gNewSense 
 
-**Job Description**: [gNewSense](http://www.gnewsense.org){.http} is a fully free GNU/Linux distribution sponsorship by the FSF. We need a program in Python for porting ubiquity in this system. Contact nyu or Kamping_kaiser on irc.freenode.net in channel #gnewsense-dev or send a mail to [rmh.gnewsense@aybabtu.com](mailto:rmh.gnewsense@aybabtu.com){.mailto}
+**Job Description**: [gNewSense](http://www.gnewsense.org) is a fully free GNU/Linux distribution sponsorship by the FSF. We need a program in Python for porting ubiquity in this system. Contact nyu or Kamping_kaiser on irc.freenode.net in channel #gnewsense-dev or send a mail to [rmh.gnewsense@aybabtu.com](mailto:rmh.gnewsense@aybabtu.com)
 
-## GliderLab / webhooks.org (Mountain View, CA, USA) {#GliderLab_.2F_webhooks.org_.28Mountain_View.2C_CA.2C_USA.29}
+## GliderLab / webhooks.org (Mountain View, CA, USA) 
 
 **Job Description**: Building very simple/focused open source tools and web services to support a more programmable web, a la the vision of webhooks. Current projects include:
 
-- [Scriptlets](http://www.scriptlets.org){.http} - Quick web scripts. Instant cloud-side code for hook scripts in Python,Javascript,PHP, and more.
+- [Scriptlets](http://www.scriptlets.org) - Quick web scripts. Instant cloud-side code for hook scripts in Python,Javascript,PHP, and more.
 
-- [PostBin](http://www.postbin.org){.http} - Webhook debugging tool. Create a URL that collects POST data for inspection. More to come.
+- [PostBin](http://www.postbin.org) - Webhook debugging tool. Create a URL that collects POST data for inspection. More to come.
 
-- [Hookah](http://github.com/progrium/hookah/tree){.http} - Webhook event dispatcher. The \"SMTP daemon\" of webhooks. Eases implementation of webhooks.
+- [Hookah](http://github.com/progrium/hookah/tree) - Webhook event dispatcher. The \"SMTP daemon\" of webhooks. Eases implementation of webhooks.
 
-- [Protocol Droid](http://github.com/progrium/protocol-droid/tree){.http} - Very early HTTP-to-anything adapter. Made for limited cloud-side code environments.
+- [Protocol Droid](http://github.com/progrium/protocol-droid/tree) - Very early HTTP-to-anything adapter. Made for limited cloud-side code environments.
 
 - More soon \... including free short-term storage API (clipboard of the web), library of service integration hooks, webhook plugins for open source projects, other public services \...
 
@@ -256,11 +228,11 @@ University of the People is a member of the Open Courseware Consortium and commi
 
 - **Contact**: Jeff Lindsay
 
-- **E-mail contact**: [progrium+python@gmail.com](mailto:progrium+python@gmail.com){.mailto}
+- **E-mail contact**: [progrium+python@gmail.com](mailto:progrium+python@gmail.com)
 
-- **Web**: [http://progrium.com](http://progrium.com){.http}
+- **Web**: [http://progrium.com](http://progrium.com)
 
-## Pinwheel.org ! {#Pinwheel.org_.21}
+## Pinwheel.org ! 
 
 We need your help!
 
@@ -279,29 +251,29 @@ Required Knowledge and Skills
 - Knowledge of object oriented software development (equivalent to a freshman course in computer programming)
 - Interns must be: teamwork-oriented, self-motivated, proud of Pinwheel\'s vision, idealistic, and fun-loving(!) -just like we are.
 
-We\'ve spent the last 2 years working hard on this idea, and want to get it up and running ASAP. Ideally, you will work in our office in San Francisco, but we are flexible, and could allow programmers to work from Palo Alto or at home. Please contact [exec@pinwheel.org](mailto:exec@pinwheel.org){.mailto} Thanks!
+We\'ve spent the last 2 years working hard on this idea, and want to get it up and running ASAP. Ideally, you will work in our office in San Francisco, but we are flexible, and could allow programmers to work from Palo Alto or at home. Please contact [exec@pinwheel.org](mailto:exec@pinwheel.org) Thanks!
 
-## PyConference {#PyConference}
+## PyConference 
 
 **Conference planning web application plus appropriate frontend (conference website).**
 
-I don\'t know if you know it, but there is an very good conference planning software written in Ruby on Rails, called \"Pentabarf\" - [http://www.pentabarf.org/Main_Page](http://www.pentabarf.org/Main_Page){.http} - and I really would like to see it if we have something like that in python, too.
+I don\'t know if you know it, but there is an very good conference planning software written in Ruby on Rails, called \"Pentabarf\" - [http://www.pentabarf.org/Main_Page](http://www.pentabarf.org/Main_Page) - and I really would like to see it if we have something like that in python, too.
 
-Its not a \"NIH\"-thing, but I am more into Python than into Ruby, as the most of you. And a second reason for starting such a project is especially the planning of python-focused confernces. There it would be a little be embarassing, if someone plans a conference in a RoR conference planning web application or - much worser ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"} - in PHP.
+Its not a \"NIH\"-thing, but I am more into Python than into Ruby, as the most of you. And a second reason for starting such a project is especially the planning of python-focused confernces. There it would be a little be embarassing, if someone plans a conference in a RoR conference planning web application or - much worser ![:-)](/wiki/europython/img/smile.png ":-)") - in PHP.
 
 And using a half-baked Plone or Zope application wouldnt do the job right, also not the using of a wiki like [MoinMoin](MoinMoin), it isnt the right tool for such a job.
 
 I didn\'t start the project yet, but if there are enough people for a good team I would start and host it.
 
-Ruby has a good web framework doing this, Ruby on Rails. But we got two! ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+Ruby has a good web framework doing this, Ruby on Rails. But we got two! ![:)](/wiki/europython/img/smile.png ":)")
 
 - 
 
-PS: The most important thing - if you want to take part, mail me with subject \"[PyConference](./PyConference.html){.nonexistent}\" at: mm ( A-T ) mpathy ( D-O-T ) de
+PS: The most important thing - if you want to take part, mail me with subject \"[PyConference](./PyConference.html)\" at: mm ( A-T ) mpathy ( D-O-T ) de
 
-## Project Anglea - Open Source Gaming Project {#Project_Anglea_-_Open_Source_Gaming_Project}
+## Project Anglea - Open Source Gaming Project 
 
-[http://www.rpg-gamerz.com/smf](http://www.rpg-gamerz.com/smf){.http}
+[http://www.rpg-gamerz.com/smf](http://www.rpg-gamerz.com/smf)
 
 Project Angela is seeking developers to help us take the already open source training simulation enginge, Delta3D, and convert it for use as a gaming engine.
 
@@ -317,23 +289,23 @@ We have a number of interesting areas to contribute :
 
 and more\.....
 
-[http://www.rpg-gamerz.com/smf](http://www.rpg-gamerz.com/smf){.http} (our forums)
+[http://www.rpg-gamerz.com/smf](http://www.rpg-gamerz.com/smf) (our forums)
 
-Contact us at the forum for the project or write to [recentcoin@hotmail.com](mailto:recentcoin@hotmail.com){.mailto}
+Contact us at the forum for the project or write to [recentcoin@hotmail.com](mailto:recentcoin@hotmail.com)
 
 /Morrighu
 
-## Contribute to a cool opensource Virtualization Project {#Contribute_to_a_cool_opensource_Virtualization_Project}
+## Contribute to a cool opensource Virtualization Project 
 
-[Convirt/XenMan](http://xenman.sourceforge.net){.http}
+[Convirt/XenMan](http://xenman.sourceforge.net)
 
-[XenMan](./XenMan.html){.nonexistent} is graphical tool aimed at operational lifecycle management for Xen virtualisation. [XenMan](./XenMan.html){.nonexistent} is built on the belief that ease-of-use and sophistication can, and should, co-exist in a single tool that can serve both novice and expert users alike.
+[XenMan](./XenMan.html) is graphical tool aimed at operational lifecycle management for Xen virtualisation. [XenMan](./XenMan.html) is built on the belief that ease-of-use and sophistication can, and should, co-exist in a single tool that can serve both novice and expert users alike.
 
 We are seeking enthusiastic python developers to make this a defacto tool for Virtualization management.
 
 We have a number of interesting areas to contribute :
 
-- [ConVirt](./ConVirt.html){.nonexistent} LiveCD
+- [ConVirt](./ConVirt.html) LiveCD
 
 - Migration support
 
@@ -353,25 +325,25 @@ We have a number of interesting areas to contribute :
 
 and more\.....
 
-[http://xenman.sourceforge.net](http://xenman.sourceforge.net){.http}
+[http://xenman.sourceforge.net](http://xenman.sourceforge.net)
 
-Contact us at the forum for the project or write to [jd_jedi@users.sourceforge.net](mailto:jd_jedi@users.sourceforge.net){.mailto}
+Contact us at the forum for the project or write to [jd_jedi@users.sourceforge.net](mailto:jd_jedi@users.sourceforge.net)
 
 /Jd
 
-## Official Python Developer {#Official_Python_Developer}
+## Official Python Developer 
 
-![](http://www.eurocv.eu/images/logos/eurocv_little.gif "http://www.eurocv.eu/images/logos/eurocv_little.gif"){.external_image} [EuroCv](http://www.eurocv.eu/page.php?q=eurocv){.http}
+![](http://www.eurocv.eu/images/logos/eurocv_little.gif "http://www.eurocv.eu/images/logos/eurocv_little.gif") [EuroCv](http://www.eurocv.eu/page.php?q=eurocv)
 
-**Project:** We are looking for a Volunteer Python Expert to develop a free Python application. We offer high visibility in all European Companies and we will publish a Promotional text in the [EuroCv](http://www.eurocv.eu){.http} website.
+**Project:** We are looking for a Volunteer Python Expert to develop a free Python application. We offer high visibility in all European Companies and we will publish a Promotional text in the [EuroCv](http://www.eurocv.eu) website.
 
-[EuroCv](http://www.eurocv.eu/page.php?q=eurocv){.http} is a network of professionals around the global whose curriculum vitae are available 24/7 in the European format free-of-charge to anyone through the world wide web.
+[EuroCv](http://www.eurocv.eu/page.php?q=eurocv) is a network of professionals around the global whose curriculum vitae are available 24/7 in the European format free-of-charge to anyone through the world wide web.
 
-Through the [EuroCv](http://www.eurocv.eu/page.php?q=eurocv){.http} Website : [http://www.eurocv.eu](http://www.eurocv.eu){.http}, job-seekers can post and update their curriculum vitae in European Format (in any language) along with a cover letter and photo, free of charge. [EuroCv](http://www.eurocv.eu/page.php?q=eurocv){.http} system allows certain information to be secured or shared publically. Any information stored on the [EuroCv](./EuroCv.html){.nonexistent} system will not expire automatically.
+Through the [EuroCv](http://www.eurocv.eu/page.php?q=eurocv) Website : [http://www.eurocv.eu](http://www.eurocv.eu), job-seekers can post and update their curriculum vitae in European Format (in any language) along with a cover letter and photo, free of charge. [EuroCv](http://www.eurocv.eu/page.php?q=eurocv) system allows certain information to be secured or shared publically. Any information stored on the [EuroCv](./EuroCv.html) system will not expire automatically.
 
-The [EuroCv](http://www.eurocv.eu/page.php?q=eurocv){.http} system provides the job-seeker the flexibility to update the information, in one central location, without modifying the public access code that he or she can distribute to any potential employers. Employers can easily access the [EuroCv](http://www.eurocv.eu/page.php?q=eurocv){.http} system through the same Web site and view or download the information free of charge. For more information about this service: [http://eurocv.eu/page.php?q=EuroCv](http://eurocv.eu/page.php?q=EuroCv){.http}
+The [EuroCv](http://www.eurocv.eu/page.php?q=eurocv) system provides the job-seeker the flexibility to update the information, in one central location, without modifying the public access code that he or she can distribute to any potential employers. Employers can easily access the [EuroCv](http://www.eurocv.eu/page.php?q=eurocv) system through the same Web site and view or download the information free of charge. For more information about this service: [http://eurocv.eu/page.php?q=EuroCv](http://eurocv.eu/page.php?q=EuroCv)
 
-This software must connect itself with a free webservice developed by [EuroCv](http://www.eurocv.eu/page.php?q=eurocv){.http} Community (Free service to publish a European Curriculum).
+This software must connect itself with a free webservice developed by [EuroCv](http://www.eurocv.eu/page.php?q=eurocv) Community (Free service to publish a European Curriculum).
 
 We need help from python developers who also know:
 
@@ -379,9 +351,9 @@ We need help from python developers who also know:
 - XML
 - WSDL (Web Service)
 
-## Create a Python Soap Client to connect {#Create_a_Python_Soap_Client_to_connect}
+## Create a Python Soap Client to connect 
 
-[EuroCv](http://www.eurocv.eu/page.php?q=eurocv){.http} Free webservice.
+[EuroCv](http://www.eurocv.eu/page.php?q=eurocv) Free webservice.
 
 - **Contact**: Michelangelo Turillo
 
@@ -389,15 +361,15 @@ We need help from python developers who also know:
 
 - **Skype**: eurocv
 
-- **Web**: [http://www.eurocv.eu](http://www.eurocv.eu){.http}.
+- **Web**: [http://www.eurocv.eu](http://www.eurocv.eu).
 
-## E Screening Room (San Rafael, CA, USA) {#E_Screening_Room_.28San_Rafael.2C_CA.2C_USA.29}
+## E Screening Room (San Rafael, CA, USA) 
 
 **Job Description:** This is not for the faint of heart ! If you have time to hammer this out in the next three weeks let us know\... We will be building an integration of \"Broadcast Machine\" with Paypal subscription services.\*
 
 We are looking for a volunteer web developer with a passion for documentary films and in support of the freedom of speech, with experience with perl, Python mysql. We are using agile (extreme) programming methods. We can\'t pay you anything but you get to create the cool feature to support the freedom of speech.
 
-The non-profit [E Screening Room](http://www.escreeningroom.org){.http} is dedicated to connect independent documentary film makers with their audience. We have on-line website dedicated to viewing unabridged independent documentary films at [http://escreeningroom.org](http://escreeningroom.org){.http}. We are starting a new website [http://indiewebfest.org](http://indiewebfest.org){.http} which will be an online filmfestival based running on open source \"Broadcast Machine\" from [http://www.getdemocracy.com/broadcast/](http://www.getdemocracy.com/broadcast/){.http}. The neat thing of the \"Broadcast Machine\" is that it is bittorrent based, and thus allows for unlimited band wide without significant funding. In effect this means that you don\'t have to come up with thousands of \$\$ to distribute your idea or your film.
+The non-profit [E Screening Room](http://www.escreeningroom.org) is dedicated to connect independent documentary film makers with their audience. We have on-line website dedicated to viewing unabridged independent documentary films at [http://escreeningroom.org](http://escreeningroom.org). We are starting a new website [http://indiewebfest.org](http://indiewebfest.org) which will be an online filmfestival based running on open source \"Broadcast Machine\" from [http://www.getdemocracy.com/broadcast/](http://www.getdemocracy.com/broadcast/). The neat thing of the \"Broadcast Machine\" is that it is bittorrent based, and thus allows for unlimited band wide without significant funding. In effect this means that you don\'t have to come up with thousands of \$\$ to distribute your idea or your film.
 
 Independent documentary films are born out of the passion -often compassion - for the subject of the film. Often these documentaries are self financed. But there is little financial gain out of documentary film. As a result, documentary producers get discouraged and often leave the field. We think that\'s a shame: to lose an independent voice, is a loss for a free society. At the e screening room we are changing that by connecting documentary filmmakers with their audience.
 
@@ -405,27 +377,27 @@ Independent documentary films are born out of the passion -often compassion - fo
 
 - **Contact:** Ward Bouwman President
 
-- **Email:** [Vol24@escreeningroom.org](mailto:Vol24@escreeningroom.org){.mailto}
+- **Email:** [Vol24@escreeningroom.org](mailto:Vol24@escreeningroom.org)
 
-- **Web:** [http://escreeningroom.org](http://escreeningroom.org){.http}
+- **Web:** [http://escreeningroom.org](http://escreeningroom.org)
 
-## wxwindows debugger {#wxwindows_debugger}
+## wxwindows debugger 
 
 project Dex Tracker
 
-The Dex Tracker Project is looking for someone to help debug a ogl aplication that is almost finished. The file in question is tracker.py currently it is a modified version of the ogl sample with aditional code added. What is needed is to seperate it from the run.py (or run2.py) that it is being forced to use. Windows is required (unless you wish to do alot more coding for a port) Project is at [http://www.stormpages.com/edexter/csound.html](http://www.stormpages.com/edexter/csound.html){.http} and I should be reached through the google board at [http://groups.google.com/group/dexrow-software-and-programming-group](http://groups.google.com/group/dexrow-software-and-programming-group){.http}
+The Dex Tracker Project is looking for someone to help debug a ogl aplication that is almost finished. The file in question is tracker.py currently it is a modified version of the ogl sample with aditional code added. What is needed is to seperate it from the run.py (or run2.py) that it is being forced to use. Windows is required (unless you wish to do alot more coding for a port) Project is at [http://www.stormpages.com/edexter/csound.html](http://www.stormpages.com/edexter/csound.html) and I should be reached through the google board at [http://groups.google.com/group/dexrow-software-and-programming-group](http://groups.google.com/group/dexrow-software-and-programming-group)
 
-## Video display hooks needed for off\--screen model. {#Video_display_hooks_needed_for_off--screen_model.}
+## Video display hooks needed for off\--screen model. 
 
 As many of you may or may not know, there is a freeware open-source screen reader for blind and visually impaired people written in Python called NVDA (Nonvisual Desktop Access.) The software runs on Windows2000, xp (all versions) and vista. The project is coming along quickly however we need video display hooks to create an off-screen model so that NVDA can give more information to the blind computer user, and also implement such things as mouse simulation. Video display hooks will also allow us to support even more applications and enhance the support of the current applications even more-so. These video display hooks for the offscreen model need to be written in Python if possible. To download NVDA, go to
 
-[http://www.nvda-project.org](http://www.nvda-project.org){.http}
+[http://www.nvda-project.org](http://www.nvda-project.org)
 
-We as developers and testers haven\'t been able to figure out how to implement video display hooks so NVDA can utilise an off-screen model so far. Any help would be greatly appreciated. You may contact me about this project at Josh Kennedy [jkenn337@gmail.com](mailto:jkenn337@gmail.com){.mailto} msn messenger contact: Josh Kennedy [kenn6498ku@hotmail.com](mailto:kenn6498ku@hotmail.com){.mailto} skype contact: jkenn337
+We as developers and testers haven\'t been able to figure out how to implement video display hooks so NVDA can utilise an off-screen model so far. Any help would be greatly appreciated. You may contact me about this project at Josh Kennedy [jkenn337@gmail.com](mailto:jkenn337@gmail.com) msn messenger contact: Josh Kennedy [kenn6498ku@hotmail.com](mailto:kenn6498ku@hotmail.com) skype contact: jkenn337
 
-Again any assistance with this project would be greatly apreciated. Video display hooks will greatly increase the abilities of the NVDA screen-reader. Note, this position is not restricted to blind programmers if you have sight and can help please contact me. There is also an email list for NVDA at [nvda@freelists.org](mailto:nvda@freelists.org){.mailto} .
+Again any assistance with this project would be greatly apreciated. Video display hooks will greatly increase the abilities of the NVDA screen-reader. Note, this position is not restricted to blind programmers if you have sight and can help please contact me. There is also an email list for NVDA at [nvda@freelists.org](mailto:nvda@freelists.org) .
 
-## SBI Network Project - based on an Open Business Model {#SBI_Network_Project_-_based_on_an_Open_Business_Model}
+## SBI Network Project - based on an Open Business Model 
 
 NOTE: this is in fact a paid project on the form of shares in a lucrative worldwide project. So, it will be owned by all partners.
 
@@ -467,11 +439,11 @@ We can communicate in French, Spanish, and English
 
 Marc and Paulo
 
-[sbn@wiseshift.com](mailto:sbn@wiseshift.com){.mailto}
+[sbn@wiseshift.com](mailto:sbn@wiseshift.com)
 
-## Lino application developer {#Lino_application_developer}
+## Lino application developer 
 
-Work independently to write your own Rich Internet Application using the [Lino framework](http://www.lino-framework.org/about){.http}, get free support by a core developer and free hosting space for your startup company. Earn money by writing your own application for your customers. Primary target users of Lino applications are agencies and companies who need a customized database application \"more than MS-Access for cheaper than SAP\".
+Work independently to write your own Rich Internet Application using the [Lino framework](http://www.lino-framework.org/about), get free support by a core developer and free hosting space for your startup company. Earn money by writing your own application for your customers. Primary target users of Lino applications are agencies and companies who need a customized database application \"more than MS-Access for cheaper than SAP\".
 
 We also offer paid jobs. Show your interest and competence by working some time as a volunteer on the Lino project.
 
@@ -483,13 +455,13 @@ Requirements:
 
 Contact Info:
 
-- **Contact**: Luc Saffre \<[luc.saffre@gmail.com](mailto:luc.saffre@gmail.com){.mailto}\>
+- **Contact**: Luc Saffre \<[luc.saffre@gmail.com](mailto:luc.saffre@gmail.com)\>
 
-- **Web**: [https://dev.lino-framework.org/welcome.html](https://dev.lino-framework.org/welcome.html){.https}
+- **Web**: [https://dev.lino-framework.org/welcome.html](https://dev.lino-framework.org/welcome.html)
 
 ------------------------------------------------------------------------
 
-## Raspberry Pi Internet Kiosk {#Raspberry_Pi_Internet_Kiosk}
+## Raspberry Pi Internet Kiosk 
 
 Optimization of an existing Python script made for coin validators. Coin validator enables use of a Raspberry Pi kiosk that anyone can use to access their email or do leisure browsing.
 
@@ -503,11 +475,10 @@ Contact Info:
 
 - **Contact**: Elson Cordovez
 
-- **E-mail contact**: [cebudropbox@gmail.com](mailto:cebudropbox@gmail.com){.mailto}
+- **E-mail contact**: [cebudropbox@gmail.com](mailto:cebudropbox@gmail.com)
 
 - Telecommuting OK
 
 ------------------------------------------------------------------------
 
 [CategoryPythonJobs](CategoryPythonJobs)
-::::

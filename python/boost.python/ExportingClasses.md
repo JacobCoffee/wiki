@@ -1,6 +1,11 @@
 # boost.python/ExportingClasses
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Now let\'s expose a C++ class to Python:
 
     #include <iostream>
@@ -132,4 +137,3 @@ Will generate the following error whenever you try to cast an instance of Derive
     TypeError: No registered converter was able to produce a C++ rvalue of type int from this Python object of type method-wrapper
 
 What to do? Simply use try{}catch(){} blocks around any boost::python code that can produce an exception, such as the extract operation.
-:::

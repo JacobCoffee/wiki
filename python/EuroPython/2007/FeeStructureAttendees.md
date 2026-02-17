@@ -1,13 +1,18 @@
 # EuroPython/2007/FeeStructureAttendees
 
-:::: {#content dir="ltr" lang="en"}
-# Fee Structure for Attendees {#Fee_Structure_for_Attendees}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Fee Structure for Attendees 
 
 A guide to attendee fees:
 
 ::: {}
   -------------------- ---------- ---------- ---------- ------------------------------ --------------------------- ---------------------------------------
-  **Level**            **2005**   **2006**   **2007**   **[PyCon](PyCon) UK**   **[PyCon](PyCon)**   **[RuPy](./RuPy.html){.nonexistent}**
+  **Level**            **2005**   **2006**   **2007**   **[PyCon](PyCon) UK**   **[PyCon](PyCon)**   **[RuPy](./RuPy.html)**
   Speakers (early)     70 EUR                *N/A*                                                                 
   Speakers (student)              65 EUR     *N/A*                                                                 
   Speakers             89 EUR     120 EUR    100 EUR                                                               
@@ -28,11 +33,10 @@ See the minutes from [EuroPython/2007/IrcMeetings/IrcMeeting9](./EuroPython(2f)2
 
 Note that a fortuitous choice of deadlines (having early registration end on or after speaker acceptance notifications) means that people can sign up tentat ively as a speaker and not be charged extra later on.
 
-## Notes {#Notes}
+## Notes 
 
 - [PyCon](PyCon) UK is a two-day conference; rates do not include conference dinner.
 
 - [PyCon](PyCon) 2007 was a three-day conference.
 
-- [RuPy](./RuPy.html){.nonexistent} was a two-day conference.
-::::
+- [RuPy](./RuPy.html) was a two-day conference.

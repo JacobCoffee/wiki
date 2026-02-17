@@ -1,15 +1,20 @@
 # NetworkedData
 
-::::: {#content dir="ltr" lang="en"}
-# Networked Data {#Networked_Data}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Networked Data 
 
 I\'ve created something that fits the pattern of \"Networked Data\" which seems to be *the way* right now.
 
 You can do things like this:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3814ee96fba258c2d28edd62b506e9aad1cf9ebc dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> import graph
    2 >>> store = graph.GraphStore()
    3 >>> some_data = { "a": 4547,
@@ -55,11 +60,10 @@ But it\'s really fun to think of things that you can do with this, or just- *thi
 
 For more on this particular work, see:
 
-- [OneBigSoup:nLSDgraphs](http://onebigsoup.wiki.taoriver.net/moin.cgi/nLSDgraphs){.http}
+- [OneBigSoup:nLSDgraphs](http://onebigsoup.wiki.taoriver.net/moin.cgi/nLSDgraphs)
 
-- [CommunityWiki:nLSD](http://communitywiki.org/nLSD){.http}
+- [CommunityWiki:nLSD](http://communitywiki.org/nLSD)
 
-# Discussion {#Discussion}
+# Discussion 
 
 - (none yet!)
-:::::

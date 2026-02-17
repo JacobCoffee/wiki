@@ -1,9 +1,14 @@
 # MacPython/UniversalLibrariesAndExtensions
 
-::: {#content dir="ltr" lang="en"}
-# Universal Libraries and Extensions for OS X 10.4+ {#Universal_Libraries_and_Extensions_for_OS_X_10.4.2B-}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Introduction and Background {#Introduction_and_Background}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Universal Libraries and Extensions for OS X 10.4+ 
+
+## Introduction and Background 
 
 Recent versions of Xcode for Mac OS X 10.4 Tiger introduced the ability to create multi-architecture (PowerPC and x86) executables and libraries, known as *Universal* binaries. Most UNIX libraries' build configurations have not adapted their build \'recipes\' to utilize this capability, so they produce only the approriate binary for the platform on which they were compiled, resulting in slower or no execution on the other platform. This is certainly true of PIL, the Python Imaging Library, as of version 1.1.5. While each build \'recipe\' differs depending upon the tools used by its maker and the libraries it is dependent upon, here are some instructions for builidng a Universal PIL and associated libraries, and a few tips on getting \'off-the-shelf\' UNIX libraries to compile as Universal libraries.
 
@@ -11,13 +16,13 @@ Recent versions of Xcode for Mac OS X 10.4 Tiger introduced the ability to creat
 
 - Prebuilt universal packages for Python 2.4 are available at
 
-[http://pythonmac.org/packages/py24-fat/index.html](http://pythonmac.org/packages/py24-fat/index.html){.http}
+[http://pythonmac.org/packages/py24-fat/index.html](http://pythonmac.org/packages/py24-fat/index.html)
 
 - Prebuilt universal packages for Python 2.5 are available at
 
-[http://pythonmac.org/packages/py25-fat/index.html](http://pythonmac.org/packages/py25-fat/index.html){.http}
+[http://pythonmac.org/packages/py25-fat/index.html](http://pythonmac.org/packages/py25-fat/index.html)
 
-## PIL (Python Imaging Library) Example {#PIL_.28Python_Imaging_Library.29_Example}
+## PIL (Python Imaging Library) Example 
 
 To build a Universal PIL, we must first build Universal versions of its dependent libraries:
 
@@ -26,7 +31,7 @@ To build a Universal PIL, we must first build Universal versions of its dependen
 - zlib\*
   - *\*Since Apple includes zlib with OS X 10.4, we only have to make Universal binaries for freetype2 and jpeg-6b.*
 
-### Notes and Assumptions {#Notes_and_Assumptions}
+### Notes and Assumptions 
 
 1.  The source code versions here are valid at the time of writing but will inevitably become out of date. If we are lucky, newer versions will detect OS X and build Universal versions for us. If not, you\'ll have to adjust the instructions accordingly.
 2.  I assume you are famliar with operating the UNIX shell on OS X and with the typical UNIX install \'recipe\':
@@ -34,9 +39,9 @@ To build a Universal PIL, we must first build Universal versions of its dependen
 3.  I allow the libraries to be installed on my system in the default locations rather than just a temporary build directory because this recipe is about making a working installation and not about building the components to create a package.
 4.  We really don\'t need to make Universal binaries jsut to install on a single paltform, but I am providing this to show the diffrerent techniques I have stumbled upon to coax UNIX libraries to compile \'universally\'
 
-### Universal freetype2 {#Universal_freetype2}
+### Universal freetype2 
 
-1.  first get the source and put it a working directory you choose: [http://easynews.dl.sourceforge.net/sourceforge/freetype/freetype-2.1.10.tar.gz](http://easynews.dl.sourceforge.net/sourceforge/freetype/freetype-2.1.10.tar.gz){.http}
+1.  first get the source and put it a working directory you choose: [http://easynews.dl.sourceforge.net/sourceforge/freetype/freetype-2.1.10.tar.gz](http://easynews.dl.sourceforge.net/sourceforge/freetype/freetype-2.1.10.tar.gz)
 
 2.  open a Terminal window and change your working directory to the local of the archive file: *pushd \<your directory path here\>*
 
@@ -56,9 +61,9 @@ To build a Universal PIL, we must first build Universal versions of its dependen
 
 10. return to the original directory: *popd*
 
-### Universal jpeg-6b {#Universal_jpeg-6b}
+### Universal jpeg-6b 
 
-1.  first get the source and put it a working directory you choose: [http://www.ijg.org/files/jpegsrc.v6b.tar.gz](http://www.ijg.org/files/jpegsrc.v6b.tar.gz){.http}
+1.  first get the source and put it a working directory you choose: [http://www.ijg.org/files/jpegsrc.v6b.tar.gz](http://www.ijg.org/files/jpegsrc.v6b.tar.gz)
 
 2.  open a Terminal window and change your working directory to the local of the archive file: *pushd \<your directory path here\>*
 
@@ -78,9 +83,9 @@ To build a Universal PIL, we must first build Universal versions of its dependen
 
 10. return to the original directory: *popd*
 
-### Universal PIL {#Universal_PIL}
+### Universal PIL 
 
-1.  first get the source and put it a working directory you choose: [http://effbot.org/downloads/Imaging-1.1.5.tar.gz](http://effbot.org/downloads/Imaging-1.1.5.tar.gz){.http} -o Imaging-1.1.5.tar.gz
+1.  first get the source and put it a working directory you choose: [http://effbot.org/downloads/Imaging-1.1.5.tar.gz](http://effbot.org/downloads/Imaging-1.1.5.tar.gz) -o Imaging-1.1.5.tar.gz
 
 2.  open a Terminal window and change your working directory to the local of the archive file: *pushd \<you directory path here\>*
 
@@ -100,7 +105,7 @@ To build a Universal PIL, we must first build Universal versions of its dependen
 
 10. We are done. return to the starting point *pushd* and we should have a working installation of PIL.
 
-### A few More {#A_few_More}
+### A few More 
 
 \"It just goes to show you\--there\'s always *something*\"
 
@@ -121,4 +126,3 @@ Some build \'recipes\' are just not easy to modify because they are inscrutable 
 \[Note on building PIL for Intel Macs: ppc libraries for zlib are not included by default in some versions of OS X. You will either have to install universal zlib libraries yourself or configure distutils to only build for the i386 architecture. You can do the latter by removing all references to \"-arch ppc\" from lib/pythonX.Y/config/Makefile. This procedure works if using the Python installed from python.org which resides by default in /Library/Frameworks/Python.framework/Versions/Current (not the system python).\]
 
 \[Note on building PIL for Snow Leopard: you have to build a 64bit version using -arch x86_64. Otherwise you will get the error: The \_imaging C module is not installed.\]
-:::

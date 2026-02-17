@@ -1,9 +1,14 @@
 # CallForLogos
 
-::: {#content dir="ltr" lang="en"}
-# Call for PSF Logos {#Call_for_PSF_Logos}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Intro {#Intro}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Call for PSF Logos 
+
+## Intro 
 
 *This is an intro adapted from the initial email sent to the members list and the follow-ups to the email.*
 
@@ -11,7 +16,7 @@ Dear members,
 
 the board is looking for volunteers to draw up logos that we would like to make available to supporters and members of the PSF.
 
-If anyone feels inspired, please step forward ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"}
+If anyone feels inspired, please step forward ![:-)](/wiki/europython/img/smile.png ":-)")
 
 Here\'s the list of logos we\'d need from the lowest support level to the highest:
 
@@ -39,7 +44,7 @@ I also think we should consider creating a logo for Python 3, that doesn\'t use 
 
 Ideally, all these logos should be provided in both a wide and tall variant (like the \"Python powered\" logos we have on the website):
 
-[http://www.python.org/community/logos/](http://www.python.org/community/logos/){.http}
+[http://www.python.org/community/logos/](http://www.python.org/community/logos/)
 
 Another often requested logo use is that of an icon for mobile phone apps. Ideally, we should have a standard for these, e.g. a square format version with one line of text below the Python logo:
 
@@ -60,25 +65,25 @@ Submissions would have to be licensed to the PSF with option to relicense, i.e. 
 
 Quite a list indeed, but that\'s what\'s needed if the logos are to be used widely and matches the logo pages of other projects such as Mozilla or Plone:
 
-[http://www.mozilla.com/en-US/press/media/logos/](http://www.mozilla.com/en-US/press/media/logos/){.http} [http://plone.org/foundation/logo](http://plone.org/foundation/logo){.http}
+[http://www.mozilla.com/en-US/press/media/logos/](http://www.mozilla.com/en-US/press/media/logos/) [http://plone.org/foundation/logo](http://plone.org/foundation/logo)
 
 If you need the font files, we can send them to you for the purpose of using them in the logo.
 
 Thanks, \-- Marc-Andre Lemburg
 
-## Candidates {#Candidates}
+## Candidates 
 
 *Please add a new subsection with your name and upload the logos as attachments.*
 
-### David Goodger {#David_Goodger}
+### David Goodger 
 
 See the [Logo](Logo) page for his creations.
 
-### Stephen Hawkes {#Stephen_Hawkes}
+### Stephen Hawkes 
 
 John Pinner has received these from Stephen. here is the general idea:
 
-\"\"\" The community is made up of its component members (from what I can remember from [EuroPython](./EuroPython.html){.nonexistent}) so we\'ve taken that concept and visualised it to form the badges.
+\"\"\" The community is made up of its component members (from what I can remember from [EuroPython](./EuroPython.html)) so we\'ve taken that concept and visualised it to form the badges.
 
 We wanted to convey the different levels of membership, with each feeling equally pythonic.
 
@@ -88,11 +93,10 @@ Members would be represented with different variations with more or less of the 
 
 We have a ton of design rationalisation info on how we arrived at this concept, but often it\'s best to let the work speak for itself. \"\"\"
 
-- [psf.pdf](attachments/CallForLogos/psf.pdf){.attachment}
+- [psf.pdf](attachments/CallForLogos/psf.pdf)
 
-### The Phuse {#The_Phuse}
+### The Phuse 
 
-Proposals by Erik Evensen \<[erik@thephuse.com](mailto:erik@thephuse.com){.mailto}\>:
+Proposals by Erik Evensen \<[erik@thephuse.com](mailto:erik@thephuse.com)\>:
 
-- [python4.pdf](attachments/CallForLogos/python4.pdf){.attachment}
-:::
+- [python4.pdf](attachments/CallForLogos/python4.pdf)

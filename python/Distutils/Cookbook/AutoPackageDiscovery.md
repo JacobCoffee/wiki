@@ -1,11 +1,16 @@
 # Distutils/Cookbook/AutoPackageDiscovery
 
-::: {#content dir="ltr" lang="en"}
-# Problem {#Problem}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Problem 
 
 Distutils requires that you manually specify each package to be included in the distribution. For packages with large and deep sub-package hierarchies it can be a pain to keep this list in sync with the code, particularly as forgetting an entry is not noticable until a user happens to report that an entire sub-package is missing.
 
-# Solution {#Solution}
+# Solution 
 
 Use an automatic sub-package scanning mechanism to generate the package_dir and packages parameters for setup:
 
@@ -45,9 +50,9 @@ Then use `packages` as the source within your call to setup:
         **extra_arguments
         )
 
-You can see a real-world usage example in the [PyTable setup script](http://pytable.cvs.sourceforge.net/pytable/table/setup.py?view=markup){.http}
+You can see a real-world usage example in the [PyTable setup script](http://pytable.cvs.sourceforge.net/pytable/table/setup.py?view=markup)
 
-# Discussion {#Discussion}
+# Discussion 
 
 There should be some way to do this with distutils own machinery, I just don\'t know what it would be.
 
@@ -56,4 +61,3 @@ Idea: Giving "packages=\[\'egg\', \'ham\'\]" should be enough for Distutils2 to 
 ------------------------------------------------------------------------
 
 [CategoryDistutilsCookbook](CategoryDistutilsCookbook)
-:::

@@ -1,13 +1,18 @@
 # PyQt/Using GStreamer with PyQt
 
-::::: {#content dir="ltr" lang="en"}
-# Using GStreamer with PyQt {#Using_GStreamer_with_PyQt}
+```{admonition} Legacy Wiki Page
+:class: note
 
-This example code was posted to the [PyQt mailing list](http://www.riverbankcomputing.com/mailman/listinfo/pyqt){.http} in [a message](http://www.riverbankcomputing.com/pipermail/pyqt/2009-September/024240.html){.http} by Baz Walter.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-de80eefb99601b2894a3d62fc64f523e94bdf0a3 dir="ltr" lang="en"}
+# Using GStreamer with PyQt 
+
+This example code was posted to the [PyQt mailing list](http://www.riverbankcomputing.com/mailman/listinfo/pyqt) in [a message](http://www.riverbankcomputing.com/pipermail/pyqt/2009-September/024240.html) by Baz Walter.
+
+:::: 
+::: 
+``` 
    1 import sys, os
    2 import gobject, pygst
    3 pygst.require('0.10')
@@ -75,4 +80,3 @@ This example code was posted to the [PyQt mailing list](http://www.riverbankcomp
 ```
 :::
 ::::
-:::::

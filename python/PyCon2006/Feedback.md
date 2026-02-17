@@ -1,9 +1,14 @@
 # PyCon2006/Feedback
 
-::::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Topic questions
 
-::: {#what-were-your-3-favorite-talks .section}
+::: 
 ### What were your 3 favorite talks?
 
     Lightning talks (17)
@@ -63,7 +68,7 @@
     particular.  (1)
 :::
 
-::::: {#what-3-topics-should-have-been-covered-at-pycon .section}
+::::: 
 ### What 3 topics should have been covered at PyCon?
 
     Twisted  (8)
@@ -106,7 +111,7 @@
     Audio  (1)
     Applications using various frameworks  (1)
 
-::: {#web-stuff .section}
+::: 
 #### Web stuff
 
     Wiki (Moin) Hacking  (2)
@@ -128,7 +133,7 @@
     Cherry Py  (1)
 :::
 
-::: {#core-python .section}
+::: 
 #### Core Python
 
     Usage of new/advanced python features  (12)
@@ -152,7 +157,7 @@
 :::
 :::::
 
-:::: {#what-3-topics-would-you-like-to-see-repeated-next-year .section}
+:::: 
 ### What 3 topics would you like to see repeated next year?
 
     A Game-Free Introduction to PyGame  (1)
@@ -222,7 +227,7 @@
     tools available for developers  (1)
     wxPython  (3)
 
-::: {#id1 .section}
+::: 
 #### Web stuff
 
     Ajax  (1)
@@ -249,7 +254,7 @@
 :::
 ::::
 
-::: {#where-did-you-stay .section}
+::: 
 ### Where did you stay?
 
     91% Hotel  (72)
@@ -258,7 +263,7 @@
      4% With friends  (3)
 :::
 
-::: {#if-you-stayed-at-a-hotel-other-than-the-conference-hotel-what-was-its-name .section}
+::: 
 ### If you stayed at a hotel other than the conference hotel, what was its name?
 
     Crowne Plaza  (1)
@@ -266,13 +271,13 @@
     Super 8  (1)
 :::
 
-::: {#would-you-recommend-the-hotel-to-other-attendees .section}
+::: 
 ### Would you recommend the hotel to other attendees?
 
     True  (60)
 :::
 
-::: {#what-is-your-maximum-per-person-nightly-room-budget-for-accommodations .section}
+::: 
 ### What is your maximum per-person nightly room budget for accommodations?
 
     21% $75 or less  (15)
@@ -283,7 +288,7 @@
      1% More than $200  (1)
 :::
 
-::: {#if-pycon-were-not-to-be-in-dallas-tx-what-3-cities-regions-would-you-prefer .section}
+::: 
 ### If PyCon were not to be in Dallas TX, what 3 cities/regions would you prefer?
 
     Washington DC  (21)
@@ -340,14 +345,14 @@
     no preference  (1)
 :::
 
-::: {#would-you-be-interested-in-attending-half-day-3-hour-tutorials-next-year .section}
+::: 
 ### Would you be interested in attending half-day (3-hour) tutorials next year?
 
     32% False  (24)
     52% True  (52)
 :::
 
-::: {#how-much-would-you-be-willing-to-pay-for-a-half-day-3-hour-tutorial .section}
+::: 
 ### How much would you be willing to pay for a half-day (3 hour) tutorial?
 
     11% Nothing  (7)
@@ -357,7 +362,7 @@
      8% $150  (5)
 :::
 
-::: {#if-yes-please-list-3-tutorial-subjects-you-would-like-to-attend .section}
+::: 
 ### If yes, please list 3 tutorial subjects you would like to attend:
 
     Django  (8)
@@ -413,7 +418,7 @@
     AJAX with Python  (1)
 :::
 
-::: {#other-comments .section}
+::: 
 ### Other comments
 
 The wxPython tutorial was great! I want a sequel.
@@ -593,13 +598,13 @@ Put company names on name tags.
 I\'d like to learn to use a specific part of Python for applications on Linux, not just overviews of apps written in Python.
 :::
 
-::: {#what-days-did-you-attend-pycon .section}
+::: 
 ### What days did you attend PyCon?
 
 Sunday (74) Friday (78) Saturday (77)
 :::
 
-::: {#please-rate-your-overall-satisfaction-with-pycon-2006 .section}
+::: 
 ### Please rate your overall satisfaction with PyCon 2006
 
     34% very high  (27)
@@ -607,7 +612,7 @@ Sunday (74) Friday (78) Saturday (77)
      6% low  (5)
 :::
 
-::: {#please-rate-your-overall-satisfaction-with-the-keynotes .section}
+::: 
 ### Please rate your overall satisfaction with the keynotes
 
     25% very high  (20)
@@ -615,7 +620,7 @@ Sunday (74) Friday (78) Saturday (77)
     20% low  (16)
 :::
 
-::: {#please-rate-your-overall-satisfaction-with-the-talks .section}
+::: 
 ### Please rate your overall satisfaction with the talks.
 
     14% very high  (11)
@@ -623,7 +628,7 @@ Sunday (74) Friday (78) Saturday (77)
     16% low  (13)
 :::
 
-::: {#please-rate-your-overall-satisfaction-with-the-network .section}
+::: 
 ### Please rate your overall satisfaction with the network.
 
      3% very high  (2)
@@ -632,7 +637,7 @@ Sunday (74) Friday (78) Saturday (77)
     44% very low  (31)
 :::
 
-::: {#please-rate-your-overall-satisfaction-with-the-food .section}
+::: 
 ### Please rate your overall satisfaction with the food.
 
     19% very high  (19)
@@ -641,7 +646,7 @@ Sunday (74) Friday (78) Saturday (77)
      1% very low  (1)
 :::
 
-::: {#please-rate-your-likelihood-of-attending-next-year .section}
+::: 
 ### Please rate your likelihood of attending next year.
 
     45% very high  (35)
@@ -650,7 +655,7 @@ Sunday (74) Friday (78) Saturday (77)
      1% very low  (1)
 :::
 
-::: {#would-you-prefer-a-conference-that-took-place .section}
+::: 
 ### Would you prefer a conference that took place:
 
     just as it was  (1)
@@ -663,7 +668,7 @@ Sunday (74) Friday (78) Saturday (77)
     55% Includes two weekend days  (38)
 :::
 
-::: {#how-can-we-improve-pycon-next-year .section}
+::: 
 ### How can we improve PyCon next year?
 
 The current location felt fairly isolated from the outside world \-- I would prefer a more urban location, however the hotel environment worked much better than the previous DC location as far as feeling spacious, connected. The crowd flow felt smoother than in years past.
@@ -817,7 +822,7 @@ Would be nice to have coffee available before the keynotes!
 
 ------------------------------------------------------------------------
 
-I expanded my thoughts in general in my blog, [http://pyjesse.blogspot.com/2006/02/pycon-my-critique.html](http://pyjesse.blogspot.com/2006/02/pycon-my-critique.html){.http .reference .external} - and I come off as overly critical, but I would like to take some time and take a more proactive role in improving the conference as much as I can.
+I expanded my thoughts in general in my blog, [http://pyjesse.blogspot.com/2006/02/pycon-my-critique.html](http://pyjesse.blogspot.com/2006/02/pycon-my-critique.html) - and I come off as overly critical, but I would like to take some time and take a more proactive role in improving the conference as much as I can.
 
 I believe that as a language conference, we can not concentrate on the \"hype du-jour\" of the day - while that does help recent adoption, I think we need to cover our \"core\" bases as well. I think we need to go back to systems/program design, and showcasing the core feature of the language.
 
@@ -1080,4 +1085,3 @@ The conference was more of a technology fair and not what I expected. More of an
 
 CategoryPyCon2006
 :::
-:::::::::::::::::::::::::::

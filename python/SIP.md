@@ -1,21 +1,26 @@
 # SIP
 
-::: {#content dir="ltr" lang="en"}
-# SIP {#SIP-1}
+```{admonition} Legacy Wiki Page
+:class: note
 
-SIP is a tool for quickly writing Python modules that interface with C++ and C libraries. Its home page is at [http://riverbankcomputing.co.uk/software/sip/intro](http://riverbankcomputing.co.uk/software/sip/intro){.http}. It was written by Phil Thompson who is still actively maintaining it.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-Full documentation can be found at [http://riverbankcomputing.co.uk/static/Docs/sip4/index.html](http://riverbankcomputing.co.uk/static/Docs/sip4/index.html){.http}.
+# SIP 
+
+SIP is a tool for quickly writing Python modules that interface with C++ and C libraries. Its home page is at [http://riverbankcomputing.co.uk/software/sip/intro](http://riverbankcomputing.co.uk/software/sip/intro). It was written by Phil Thompson who is still actively maintaining it.
+
+Full documentation can be found at [http://riverbankcomputing.co.uk/static/Docs/sip4/index.html](http://riverbankcomputing.co.uk/static/Docs/sip4/index.html).
 
 SIP is used principally to support [PyQt](PyQt) and [PyKDE](PyKDE). Without it, it would be near impossible to manage the vast APIs these libraries provide.
 
 Since v4.0 SIP can be used to interface Python with C libraries.
 
-For earlier versions of SIP, a simple wrapper written in C++ was usually necessary. A proof of concept can be found with Jonathan Gardner\'s [sipPQ](sipPQ), a python module that interfaces directly with libpq, which is the C library used to interface with PostgreSQL. You can find this at [http://sourceforge.net/project/showfiles.php?group_id=61057](http://sourceforge.net/project/showfiles.php?group_id=61057){.http}.
+For earlier versions of SIP, a simple wrapper written in C++ was usually necessary. A proof of concept can be found with Jonathan Gardner\'s [sipPQ](sipPQ), a python module that interfaces directly with libpq, which is the C library used to interface with PostgreSQL. You can find this at [http://sourceforge.net/project/showfiles.php?group_id=61057](http://sourceforge.net/project/showfiles.php?group_id=61057).
 
 ------------------------------------------------------------------------
 
-## More Details {#More_Details}
+## More Details 
 
 SIP is really the combination of four components.
 
@@ -26,7 +31,7 @@ SIP is really the combination of four components.
 
 ------------------------------------------------------------------------
 
-*Excerpt from [Programming With Sip](http://www.panix.com/~elflord/unix/siptute/){.http}:*
+*Excerpt from [Programming With Sip](http://www.panix.com/~elflord/unix/siptute/):*
 
 **Introduction**
 
@@ -34,7 +39,7 @@ This is by no means an authoritative discussion about SIP. Rather, it is a chron
 
 - [PyQt](PyQt): an implementation of Python bindings for Qt. Reading the Sip files for these classes is instructive.
 
-- [Official Sip 4 documentation](http://www.riverbankcomputing.co.uk/static/Docs/sip4/index.html){.http} \| [Old documentation](http://www.controlvideo.de/sip/){.http}.
+- [Official Sip 4 documentation](http://www.riverbankcomputing.co.uk/static/Docs/sip4/index.html) \| [Old documentation](http://www.controlvideo.de/sip/).
 
 **A Note About Versions**
 
@@ -42,19 +47,18 @@ sip has changed from version to version. I\'m using python 2.2 and sip 3.0pre7. 
 
 ------------------------------------------------------------------------
 
-## ViM Syntax Script {#ViM_Syntax_Script}
+## ViM Syntax Script 
 
 Jonathan Gardner has written an incomplete sip syntax script. You can use it when you are writing a sip script with the ViM editor.
 
-[http://vim.sourceforge.net/scripts/script.php?script_id=659](http://vim.sourceforge.net/scripts/script.php?script_id=659){.http}
+[http://vim.sourceforge.net/scripts/script.php?script_id=659](http://vim.sourceforge.net/scripts/script.php?script_id=659)
 
-## Tutorials & additional docs staff {#Tutorials_.26_additional_docs_staff}
+## Tutorials & additional docs staff 
 
 Googling the web on SIP tutorials brought up
 
-- [http://www.controlvideo.de/sip/](http://www.controlvideo.de/sip/){.http}
+- [http://www.controlvideo.de/sip/](http://www.controlvideo.de/sip/)
 
-- [Official Documentation](http://www.riverbankcomputing.com/static/Docs/sip4/sipref.html){.http}
+- [Official Documentation](http://www.riverbankcomputing.com/static/Docs/sip4/sipref.html)
 
-- [http://www.panix.com/\~elflord/unix/siptute/index.html](http://www.panix.com/~elflord/unix/siptute/index.html){.http}
-:::
+- [http://www.panix.com/\~elflord/unix/siptute/index.html](http://www.panix.com/~elflord/unix/siptute/index.html)

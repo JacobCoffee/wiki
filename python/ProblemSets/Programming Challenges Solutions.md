@@ -1,19 +1,18 @@
 # ProblemSets/Programming Challenges Solutions
 
-:::: {#content dir="ltr" lang="en"}
-Python solutions and commentary for [Programming Challenges](http://www.programming-challenges.com/pg.php?page=studenthome){.http}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Python solutions and commentary for [Programming Challenges](http://www.programming-challenges.com/pg.php?page=studenthome)
 
 **Index**
 
-::: table-of-contents
-Contents
+# Problem 110101: The 3n + 1 problem 
 
-1.  [Problem 110101: The 3n + 1 problem](#Problem_110101:_The_3n_.2B-_1_problem)
-:::
-
-# Problem 110101: The 3n + 1 problem {#Problem_110101:_The_3n_.2B-_1_problem}
-
-[http://www.programming-challenges.com/pg.php?page=downloadproblem&probid=110101&format=html](http://www.programming-challenges.com/pg.php?page=downloadproblem&probid=110101&format=html){.http}
+[http://www.programming-challenges.com/pg.php?page=downloadproblem&probid=110101&format=html](http://www.programming-challenges.com/pg.php?page=downloadproblem&probid=110101&format=html)
 
         def memoized(fn):
             memoized_lengths = [0] * 1000000
@@ -46,4 +45,3 @@ Contents
             print 900, 100, problem(900, 1000)
         
         if __name__ == '__main__': test_problem()
-::::

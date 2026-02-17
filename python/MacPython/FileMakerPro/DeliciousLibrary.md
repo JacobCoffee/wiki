@@ -1,11 +1,16 @@
 # MacPython/FileMakerPro/DeliciousLibrary
 
-::::: {#content dir="ltr" lang="en"}
-**Transfer data from a [DeliciousLibrary](./DeliciousLibrary.html){.nonexistent} XML database to a [FileMakerPro](./FileMakerPro.html){.nonexistent} database**
+```{admonition} Legacy Wiki Page
+:class: note
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c01b8bcc89299b5657c1b2e146d104fde0b4da33 dir="ltr" lang="en"}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+**Transfer data from a [DeliciousLibrary](./DeliciousLibrary.html) XML database to a [FileMakerPro](./FileMakerPro.html) database**
+
+:::: 
+::: 
+``` 
    1 #!/usr/bin/pythonw
    2  
    3 from pprint import pprint
@@ -59,7 +64,7 @@
 
 **Footnotes:**
 
-1.  [ElementTree](http://effbot.org/zone/element-index.htm){.http}
+1.  [ElementTree](http://effbot.org/zone/element-index.htm)
 
 2.  \...Carbon.File.FSSpec not a good idea\... will correct asap\...
 
@@ -67,7 +72,6 @@
 
 4.  you have to adapt the path\...
 
-5.  [DeliciousLibrary](http://www.delicious-monster.com/){.http}
+5.  [DeliciousLibrary](http://www.delicious-monster.com/)
 
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} **Warning:** you could use [/ElementTree](./MacPython(2f)FileMakerPro(2f)DeliciousLibrary(2f)ElementTree.html){.nonexistent} to edit the [/DeliciousLibrary](./MacPython(2f)FileMakerPro(2f)DeliciousLibrary(2f)DeliciousLibrary.html){.nonexistent} XML file, but don\'t forget it\'s not a database: you could corrupt your [/DeliciousLibrary](./MacPython(2f)FileMakerPro(2f)DeliciousLibrary(2f)DeliciousLibrary.html){.nonexistent} database in case of concurrent access. And no, [/DeliciousLibrary](./MacPython(2f)FileMakerPro(2f)DeliciousLibrary(2f)DeliciousLibrary.html){.nonexistent} is not (yet) scriptable :-/
-:::::
+![/!\\](/wiki/europython/img/alert.png "/!\") **Warning:** you could use [/ElementTree](./MacPython(2f)FileMakerPro(2f)DeliciousLibrary(2f)ElementTree.html) to edit the [/DeliciousLibrary](./MacPython(2f)FileMakerPro(2f)DeliciousLibrary(2f)DeliciousLibrary.html) XML file, but don\'t forget it\'s not a database: you could corrupt your [/DeliciousLibrary](./MacPython(2f)FileMakerPro(2f)DeliciousLibrary(2f)DeliciousLibrary.html) database in case of concurrent access. And no, [/DeliciousLibrary](./MacPython(2f)FileMakerPro(2f)DeliciousLibrary(2f)DeliciousLibrary.html) is not (yet) scriptable :-/

@@ -1,11 +1,16 @@
 # eric
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 eric is a full-featured Python IDE that is written in [PyQt](PyQt) using the QScintilla editor widget.
 
-eric\'s homepage is at [https://eric-ide.python-projects.org/](https://eric-ide.python-projects.org/){.https}
+eric\'s homepage is at [https://eric-ide.python-projects.org/](https://eric-ide.python-projects.org/)
 
-The Python Qt bindings project has gone through some evolution and now has a home page at [https://doc.qt.io/qtforpython-6](https://doc.qt.io/qtforpython-6){.https}. There is also a tracking page on the [Qt Wiki](https://wiki.qt.io/Qt_for_Python){.https}. Also see [https://qscintilla.com](https://qscintilla.com){.https}.
+The Python Qt bindings project has gone through some evolution and now has a home page at [https://doc.qt.io/qtforpython-6](https://doc.qt.io/qtforpython-6). There is also a tracking page on the [Qt Wiki](https://wiki.qt.io/Qt_for_Python). Also see [https://qscintilla.com](https://qscintilla.com).
 
 The following is a partial list of eric\'s features:
 
@@ -38,4 +43,3 @@ Working with eric3 is mostly intuitive but sometimes doubts come out. Below is a
 ------------------------------------------------------------------------
 
 [CategoryIntegratedDevelopmentEnvironment](CategoryIntegratedDevelopmentEnvironment)
-:::

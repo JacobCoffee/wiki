@@ -1,37 +1,41 @@
 # IndonesiaPUG
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The Indonesia Python User Group.
 
 Mainly, we have PUG in these cities:
 
 - [Jakarta](JakartaPUG)
 
-- [Bandung](./BandungPUG.html){.nonexistent}
+- [Bandung](./BandungPUG.html)
 
-# History {#History}
+# History 
 
-# Activity {#Activity}
+# Activity 
 
-## 1. Online Activity {#Online_Activity}
+## 1. Online Activity 
 
-### 1.1. IRC {#IRC}
+### 1.1. IRC 
 
-### 1.2. Mailing List {#Mailing_List}
+### 1.2. Mailing List 
 
-### 1.3. Planet {#Planet}
+### 1.3. Planet 
 
-## 2. Offline Activity {#Offline_Activity}
+## 2. Offline Activity 
 
-## 3. Meetup {#Meetup}
+## 3. Meetup 
 
-## 4. Sprint {#Sprint}
+## 4. Sprint 
 
-# Articles and Books {#Articles_and_Books}
+# Articles and Books 
 
-## 1. Book Translation {#Book_Translation}
+## 1. Book Translation 
 
 ------------------------------------------------------------------------
 
 [CategoryUsergroups](CategoryUsergroups)
-:::

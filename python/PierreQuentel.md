@@ -1,13 +1,17 @@
 # PierreQuentel
 
-::: {#content dir="ltr" lang="en"}
-## Your Name {#Your_Name}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Your Name 
 
 Pierre Quentel Email: `<pierre.quentel AT SPAMFREE gmail DOT com>`
 
-Author of [Karrigell](http://karrigell.sourceforge.net){.http} (web framework), [buzhug](http://buzhug.sourceforge.net){.http} (on-disk pure-Python database engine), [PyDbLite](http://www.pydblite.net){.http} (in-memory pure-Python database engine)
+Author of [Karrigell](http://karrigell.sourceforge.net) (web framework), [buzhug](http://buzhug.sourceforge.net) (on-disk pure-Python database engine), [PyDbLite](http://www.pydblite.net) (in-memory pure-Python database engine)
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

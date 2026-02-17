@@ -1,7 +1,12 @@
 # PythonSoftwareFoundationLicenseV2
 
-::: {#content dir="ltr" lang="en"}
-# Defunct Python Software Foundation License Draft {#Defunct_Python_Software_Foundation_License_Draft}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Defunct Python Software Foundation License Draft 
 
 This is the old draft revision 0.4 of the Python Software Foundation License Version 2 (it was not adopted and is now defunct \-- see [PythonSoftwareFoundationLicenseV2Easy](PythonSoftwareFoundationLicenseV2Easy) for the officially adopted version and [PythonSoftwareFoundationLicenseV2Revised](PythonSoftwareFoundationLicenseV2Revised) for a version that may form the basis of Version 3 in the future):
 
@@ -59,4 +64,3 @@ This is the old draft revision 0.4 of the Python Software Foundation License Ver
     8. By copying, installing or otherwise using the Software, Licensee
     agrees to be bound by the terms and conditions of this License
     Agreement.
-:::

@@ -1,6 +1,11 @@
 # OperatorHook
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
     # This program demos overloading operator and some builtin function's hook。It can be used as a tutorial. 
     # If you find any problem, please tell me.
     # author: Simeon Chaos simeon.chaos@gmail.com
@@ -253,4 +258,3 @@
     except TypeError, e: print e
     try: print 'op+1:',; op+1; 
     except TypeError, e: print e
-:::

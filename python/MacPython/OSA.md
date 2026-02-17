@@ -1,7 +1,12 @@
 # MacPython/OSA
 
-::: {#content dir="ltr" lang="en"}
-Taken from Apple\'s developer website ([http://developer.apple.com/documentation/AppleScript/Conceptual/AppleScriptX/Concepts/osa.html](http://developer.apple.com/documentation/AppleScript/Conceptual/AppleScriptX/Concepts/osa.html){.http})
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Taken from Apple\'s developer website ([http://developer.apple.com/documentation/AppleScript/Conceptual/AppleScriptX/Concepts/osa.html](http://developer.apple.com/documentation/AppleScript/Conceptual/AppleScriptX/Concepts/osa.html))
 
 Open Scripting Architecture
 
@@ -14,4 +19,3 @@ Note: Apple events are not always the most efficient or appropriate mechanism fo
 ------------------------------------------------------------------------
 
 [CategoryFaq](CategoryFaq)
-:::

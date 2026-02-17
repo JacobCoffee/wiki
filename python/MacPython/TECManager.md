@@ -1,9 +1,14 @@
 # MacPython/TECManager
 
-::::: {#content dir="ltr" lang="en"}
-# TECManager {#TECManager}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Pythonic wrapper for the Text to Unicode functionality of Apple\'s [Text Encoding Conversion Manager](http://developer.apple.com/documentation/Carbon/Conceptual/ProgWithTECM/){.http}.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# TECManager 
+
+Pythonic wrapper for the Text to Unicode functionality of Apple\'s [Text Encoding Conversion Manager](http://developer.apple.com/documentation/Carbon/Conceptual/ProgWithTECM/).
 
 # status
 
@@ -11,9 +16,9 @@ TECManager is at it\'s second release, version 0.2. It now supports Python text 
 
 # examples
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-0c75f02ac900dedf0bcf16247dc25b470996ffa9 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >> import TECManager as TM
    2 >> # convert a macRoman bullet to a unicode bullet
    3 >> '\xa5'.decode('mac_roman')
@@ -31,5 +36,4 @@ TECManager is at it\'s second release, version 0.2. It now supports Python text 
 
 # links
 
-[http://undefined.org/python/#TECManager](http://undefined.org/python/#TECManager){.http}
-:::::
+[http://undefined.org/python/#TECManager](http://undefined.org/python/#TECManager)

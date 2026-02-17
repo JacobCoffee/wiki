@@ -1,17 +1,22 @@
 # GlobalInterpreterLock
 
-::: {#content dir="ltr" lang="en"}
-In CPython, the **global interpreter lock**, or **GIL**, is a mutex that protects access to Python objects, preventing multiple threads from executing Python bytecodes at once. The GIL prevents race conditions and ensures thread safety. A nice explanation of [how the Python GIL helps in these areas can be found here](https://python.land/python-concurrency/the-python-gil){.https}. In short, this mutex is necessary mainly because CPython\'s memory management is not thread-safe.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+In CPython, the **global interpreter lock**, or **GIL**, is a mutex that protects access to Python objects, preventing multiple threads from executing Python bytecodes at once. The GIL prevents race conditions and ensures thread safety. A nice explanation of [how the Python GIL helps in these areas can be found here](https://python.land/python-concurrency/the-python-gil). In short, this mutex is necessary mainly because CPython\'s memory management is not thread-safe.
 
 In hindsight, the GIL is not ideal, since it prevents multithreaded CPython programs from taking full advantage of multiprocessor systems in certain situations. Luckily, many potentially blocking or long-running operations, such as I/O, image processing, and [NumPy](NumPy) number crunching, happen *outside* the GIL. Therefore it is only in multithreaded programs that spend a lot of time inside the GIL, interpreting CPython bytecode, that the GIL becomes a bottleneck.
 
 Unfortunately, since the GIL exists, other features have grown to depend on the guarantees that it enforces. This makes it hard to remove the GIL without breaking many official and unofficial Python packages and modules.
 
-[The GIL can degrade performance](http://www.dabeaz.com/python/GIL.pdf){.http} even when it is not a bottleneck. Summarizing the linked slides: The system call overhead is significant, especially on multicore hardware. Two threads calling a function may take twice as much time as a single thread calling the function twice. The GIL can cause I/O-bound threads to be scheduled ahead of CPU-bound threads, and it prevents signals from being delivered.
+[The GIL can degrade performance](http://www.dabeaz.com/python/GIL.pdf) even when it is not a bottleneck. Summarizing the linked slides: The system call overhead is significant, especially on multicore hardware. Two threads calling a function may take twice as much time as a single thread calling the function twice. The GIL can cause I/O-bound threads to be scheduled ahead of CPU-bound threads, and it prevents signals from being delivered.
 
-CPython extensions must be GIL-aware in order to avoid defeating threads. For an explanation, see [Global interpreter lock](https://docs.python.org/3/c-api/init.html#thread-state-and-the-global-interpreter-lock){.https}.
+CPython extensions must be GIL-aware in order to avoid defeating threads. For an explanation, see [Global interpreter lock](https://docs.python.org/3/c-api/init.html#thread-state-and-the-global-interpreter-lock).
 
-## Non-CPython implementations {#Non-CPython_implementations}
+## Non-CPython implementations 
 
 - [Jython](Jython) and [IronPython](IronPython) have no GIL and can fully exploit multiprocessor systems
 
@@ -21,7 +26,7 @@ CPython extensions must be GIL-aware in order to avoid defeating threads. For an
 
 \[Mention place of GIL in [StacklessPython](StacklessPython).\]
 
-## Eliminating the GIL {#Eliminating_the_GIL}
+## Eliminating the GIL 
 
 Getting rid of the GIL is an occasional topic on the python-dev mailing list. No one has managed it yet. The following properties are all highly desirable for any potential GIL replacement; some are hard requirements.
 
@@ -41,14 +46,14 @@ Getting rid of the GIL is an occasional topic on the python-dev mailing list. No
 
         This is normally solved in threads by using locks, but `__del__`{.backtick} may be executed currently holding the same lock you want, resulting in a deadlock. To fix this (without adding a memory model to the language) requires you run `__del__`{.backtick} in a dedicated system thread and require you to use locks (such as those provided by a monitor.) (Non-blocking algorithms are possible in assembly, but insanely overcomplicated from a Python perspect.) \--Rhamphoryncus
 
-- **API compatibility.** The proposal should be source-compatible with the macros used by all existing CPython extensions (`Py_INCREF`{.backtick} and friends). See [Python/C API Reference Manual: Reference Counting](http://docs.python.org/api/countingRefs.html){.http}.
+- **API compatibility.** The proposal should be source-compatible with the macros used by all existing CPython extensions (`Py_INCREF`{.backtick} and friends). See [Python/C API Reference Manual: Reference Counting](http://docs.python.org/api/countingRefs.html).
 
 - **Prompt destruction** (nice to have?). The existing reference-counting scheme destroys objects as soon as they become unreachable, except for objects in reference cycles. Those are collected later by Python\'s cycle collector. Some CPython programs depend on this, e.g. to close `file`{.backtick}s promptly, so it would be nice to keep this feature.
 
 - **Ordered destruction** (nice to have?). Barring cycles, Python currently always destroys an unreachable object *X* before destroying any other objects referenced by *X*. This means all the object\'s attributes are still there when `__del__`{.backtick} runs. (Many garbage collection schemes don\'t guarantee this.)
 
   - I\'d say this is necessary for Python. There\'s very little you can usefully do with a half-destroyed object. That which you can do, you could also do without being exposed to half-destroyed objects. \--Rhamphoryncus
-    - The [language reference](http://docs.python.org/ref/customization.html){.http} doesn\'t require this. I doubt Jython or [IronPython](IronPython) provides it. \--jorendorff
+    - The [language reference](http://docs.python.org/ref/customization.html) doesn\'t require this. I doubt Jython or [IronPython](IronPython) provides it. \--jorendorff
 
       - They seem deliberately vague. Java distinguishes finalized from non-finalized objects, and a single finalizer is ordered with regard to non-finalized objects. The catch is that it\'s not ordered with regard to other finalizers, so you need to program as if they may already be deleted. In practise this means avoiding finalizers unless absolutely necessary, and if necessary they must not depend on each other.
 
@@ -58,7 +63,7 @@ Getting rid of the GIL is an occasional topic on the python-dev mailing list. No
 
           - The implementation doesn\'t distinguish C-level finalizers from Python-level finalizers (except to refuse to delete cycles involving `__del__`{.backtick}), which is why it needs stronger guarantees. If you made `__del__`{.backtick} use a separate pass then you could loosen it to what Java provides. \--Rhamphoryncus
 
-### API compatibility in detail {#API_compatibility_in_detail}
+### API compatibility in detail 
 
 API compatibility is an especially difficult aspect of the problem. All concurrent memory management schemes we\'ve found rely on one or more of the following techniques, all of which are incompatible with the existing Python/C API.
 
@@ -72,15 +77,14 @@ It is barely credible that CPython might someday make `tp_traverse`{.backtick} m
 
 Another issue in this area is that existing C extensions depend on the GIL guarantees. They assume that when extension code is called, all other threads are locked out. If an extension does need to deal with a threaded environment, it explicitly opts in (by releasing the GIL). Therefore any would-be GIL replacement must provide GIL-like guarantees by default. Threading must remain opt-in for extensions.
 
-## Recent discussions {#Recent_discussions}
+## Recent discussions 
 
-- [message on 2009-10-25 by Antoine Pitrou](http://mail.python.org/pipermail/python-dev/2009-October/093321.html){.http}: Reworking the GIL (for 3.2)
+- [message on 2009-10-25 by Antoine Pitrou](http://mail.python.org/pipermail/python-dev/2009-October/093321.html): Reworking the GIL (for 3.2)
 
-- [Understanding the Python GIL](http://www.dabeaz.com/GIL/){.http}: David Beazley at [PyCon](PyCon) 2010
+- [Understanding the Python GIL](http://www.dabeaz.com/GIL/): David Beazley at [PyCon](PyCon) 2010
 
-- [issue #7753](http://bugs.python.org/issue7753){.http}: Backport to 2.7 *(rejected)*
+- [issue #7753](http://bugs.python.org/issue7753): Backport to 2.7 *(rejected)*
 
-- [issue #7946](http://bugs.python.org/issue7946){.http}: Convoy effect with I/O bound threads and New GIL
+- [issue #7946](http://bugs.python.org/issue7946): Convoy effect with I/O bound threads and New GIL
 
-- [issue #8299](http://bugs.python.org/issue8299){.http}: Improve GIL in 2.7
-:::
+- [issue #8299](http://bugs.python.org/issue8299): Improve GIL in 2.7

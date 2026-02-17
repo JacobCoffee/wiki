@@ -1,7 +1,12 @@
 # JohannesGijsbers
 
-::::::: {#content dir="ltr" lang="en"}
-See [JohannesGijsbers](http://c2.com/cgi/wiki?JohannesGijsbers "Wiki"){.interwiki} for more on me, but I\'m subscribed to this page, so leave me messages here.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+See [JohannesGijsbers](http://c2.com/cgi/wiki?JohannesGijsbers "Wiki") for more on me, but I\'m subscribed to this page, so leave me messages here.
 
 *On vacation for a while now.*
 
@@ -11,7 +16,7 @@ See [JohannesGijsbers](http://c2.com/cgi/wiki?JohannesGijsbers "Wiki"){.interwik
 
 So, if we had a nice pattern repository wiki, we could write about *decorate-sort-undecorate* there and link to it\... *{;D}=* \-- [LionKimbro](LionKimbro) 2003-11-21 22:18:39
 
-[PortlandPatternRepository](http://c2.com/cgi/wiki?PortlandPatternRepository "Wiki"){.interwiki}? ![;)](/wiki/europython/img/smile4.png ";)"){height="16" width="16"} \-- JohannesGijsbers
+[PortlandPatternRepository](http://c2.com/cgi/wiki?PortlandPatternRepository "Wiki")? ![;)](/wiki/europython/img/smile4.png ";)") \-- JohannesGijsbers
 
 Two thoughts:
 
@@ -27,9 +32,9 @@ But there are also others, like FirstTimeSeperate versus FirstTimeIntegrated.
 
 That is, do you:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4401fec390458d46cfaa9dd5d36c8707fe299ef4 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 first_time_a()
    2 always_b()
    3 first_time_c()
@@ -44,9 +49,9 @@ That is, do you:
 
 \...or do you\...
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-63673487d10c89e5db070ea3d9ce50e43082c497 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 first=1
    2 
    3 while condition:
@@ -73,7 +78,7 @@ Good talking with you. Feel free to delete whenever you like.
 
 \-- [LionKimbro](LionKimbro) 2003-11-22 04:45:20
 
-What do you mean with a block pattern? It seems like another level of Scope (as in the [DesignPatternsBook](http://c2.com/cgi/wiki?DesignPatternsBook "Wiki"){.interwiki}). \-- JohannesGijsbers
+What do you mean with a block pattern? It seems like another level of Scope (as in the [DesignPatternsBook](http://c2.com/cgi/wiki?DesignPatternsBook "Wiki")). \-- JohannesGijsbers
 
 ------------------------------------------------------------------------
 
@@ -91,9 +96,9 @@ It\'d be nice to have a systematic way to teach those basic \"block\" patterns. 
 
 \-- [LionKimbro](LionKimbro)
 
-I see what you\'re getting at. How about \"[ProceduralPatterns](./ProceduralPatterns.html){.nonexistent}\", with block patterns being one of the scopes involved. The other scope would probably be about splitting things up into functions. \-- JohannesGijsbers
+I see what you\'re getting at. How about \"[ProceduralPatterns](./ProceduralPatterns.html)\", with block patterns being one of the scopes involved. The other scope would probably be about splitting things up into functions. \-- JohannesGijsbers
 
-Yes, yes, that\'s exactly it. Though I don\'t think it should pollute *this* wiki. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} \-- [LionKimbro](LionKimbro)
+Yes, yes, that\'s exactly it. Though I don\'t think it should pollute *this* wiki. ![:)](/wiki/europython/img/smile.png ":)") \-- [LionKimbro](LionKimbro)
 
 ------------------------------------------------------------------------
 
@@ -102,4 +107,3 @@ Johannes, Thanks for the message. I have read the spelling conventions. What bot
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::::::

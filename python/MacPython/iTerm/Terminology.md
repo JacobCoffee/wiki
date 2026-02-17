@@ -1,6 +1,11 @@
 # MacPython/iTerm/Terminology
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 *(iTerm.app terminology, generated from /Applications/iTerm.app)*
 
 ::: {}
@@ -11,11 +16,11 @@
   -------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-## Standard Suite {#Standard_Suite}
+## Standard Suite 
 
 Common classes and commands for most applications.
 
-### Commands {#Commands}
+### Commands 
 
 - **reference.get()** \-- Get the data for an object.\
 
@@ -23,7 +28,7 @@ Common classes and commands for most applications.
 
   **reference.save(\...)** \-- Save an object.\
 
-  - \[**as**=*[UnicodeText](./UnicodeText.html){.nonexistent}*\] \-- The file type in which to save the data.\
+  - \[**as**=*[UnicodeText](./UnicodeText.html)*\] \-- The file type in which to save the data.\
     \[**in\_**=*Alias*\] \-- The file in which to save the object.\
     Result: *None*
 
@@ -39,7 +44,7 @@ Common classes and commands for most applications.
 
   **reference.duplicate(\...)** \-- Copy object(s) and put the copies at a new location.\
 
-  - **to**=*[InsertionLoc](./InsertionLoc.html){.nonexistent}* \-- The location for the new object(s).\
+  - **to**=*[InsertionLoc](./InsertionLoc.html)* \-- The location for the new object(s).\
     \[**with_properties**=*AERecord*\] \-- Properties to be set in the new duplicated object(s).\
     Result: *None*
 
@@ -56,8 +61,8 @@ Common classes and commands for most applications.
   - \[**with_properties**=*AERecord*\] \-- The initial values for properties of the object.\
     **new**=*Type* \-- The class of the new object.\
     \[**with_data**=*Anything*\] \-- The initial data for the object.\
-    \[**at**=*[InsertionLoc](./InsertionLoc.html){.nonexistent}*\] \-- The location at which to insert the object.\
-    Result: *[ObjectSpecifier](./ObjectSpecifier.html){.nonexistent}* \-- the reply for the command
+    \[**at**=*[InsertionLoc](./InsertionLoc.html)*\] \-- The location at which to insert the object.\
+    Result: *[ObjectSpecifier](./ObjectSpecifier.html)* \-- the reply for the command
 
   **application.open(\...)** \-- Open an object.\
 
@@ -77,7 +82,7 @@ Common classes and commands for most applications.
 
   **reference.move(\...)** \-- Move object(s) to a new location.\
 
-  - **to**=*[InsertionLoc](./InsertionLoc.html){.nonexistent}* \-- The new location for the object(s).\
+  - **to**=*[InsertionLoc](./InsertionLoc.html)* \-- The new location for the object(s).\
     Result: *None*
 
   **reference.quit(\...)** \-- Quit an application.\
@@ -85,7 +90,7 @@ Common classes and commands for most applications.
   - \[**saving**=*k.yes \| k.no \| k.ask*\] \-- Specifies whether changes should be saved before quitting.\
     Result: *None*
 
-### Classes {#Classes}
+### Classes 
 
 - **document** \-- A document.
 
@@ -94,8 +99,8 @@ Common classes and commands for most applications.
 
     Properties:
     - **modified** (r/o) *Boolean* \-- Has the document been modified since the last save?\
-      **path** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The document\'s path.\
-      **name** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The document\'s name.\
+      **path** *[UnicodeText](./UnicodeText.html)* \-- The document\'s path.\
+      **name** *[UnicodeText](./UnicodeText.html)* \-- The document\'s name.\
 
   **item** \-- A scriptable object.
 
@@ -114,7 +119,7 @@ Common classes and commands for most applications.
     Properties:
     - **zoomed** *Boolean* \-- Whether the window is currently zoomed.\
       **miniaturized** *Boolean* \-- Whether the window is currently miniaturized.\
-      **name** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The full title of the window.\
+      **name** *[UnicodeText](./UnicodeText.html)* \-- The full title of the window.\
       **floating** (r/o) *Boolean* \-- Whether the window floats.\
       **modal** (r/o) *Boolean* \-- Whether the window is the application\'s current modal window.\
       **miniaturizable** (r/o) *Boolean* \-- Whether the window can be miniaturized.\
@@ -134,9 +139,9 @@ Common classes and commands for most applications.
     - *[item](./MacPython(2f)iTerm(2f)Terminology.html#class_item)*
 
     Properties:
-    - **version** (r/o) *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The version of the application.\
+    - **version** (r/o) *[UnicodeText](./UnicodeText.html)* \-- The version of the application.\
       **frontmost** (r/o) *Boolean* \-- Is this the frontmost (active) application?\
-      **name** (r/o) *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the application.\
+      **name** (r/o) *[UnicodeText](./UnicodeText.html)* \-- The name of the application.\
       **current_terminal** *[k.terminal](./MacPython(2f)iTerm(2f)Terminology.html#class_terminal)* \-- currently active terminal\
 
     Elements:
@@ -149,11 +154,11 @@ Common classes and commands for most applications.
   - Parent:
     - *[item](./MacPython(2f)iTerm(2f)Terminology.html#class_item)*
 
-## Text Suite {#Text_Suite}
+## Text Suite 
 
 A set of basic classes for text processing.
 
-### Classes {#Classes-1}
+### Classes 
 
 - **attachment** \-- Represents an inline text attachment. This class is used mainly for make commands.
 
@@ -161,7 +166,7 @@ A set of basic classes for text processing.
     - *[text](./MacPython(2f)iTerm(2f)Terminology.html#class_text)*
 
     Properties:
-    - **file_name** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The path to the file for the attachment\
+    - **file_name** *[UnicodeText](./UnicodeText.html)* \-- The path to the file for the attachment\
 
   **text** \-- Rich (styled) text
 
@@ -173,7 +178,7 @@ A set of basic classes for text processing.
 
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **color** *[k.color](./MacPython(2f)iTerm(2f)Terminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -190,7 +195,7 @@ A set of basic classes for text processing.
 
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **color** *[k.color](./MacPython(2f)iTerm(2f)Terminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -207,7 +212,7 @@ A set of basic classes for text processing.
 
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **color** *[k.color](./MacPython(2f)iTerm(2f)Terminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -224,7 +229,7 @@ A set of basic classes for text processing.
 
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **color** *[k.color](./MacPython(2f)iTerm(2f)Terminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -241,7 +246,7 @@ A set of basic classes for text processing.
 
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **color** *[k.color](./MacPython(2f)iTerm(2f)Terminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -251,15 +256,15 @@ A set of basic classes for text processing.
       **[words](./MacPython(2f)iTerm(2f)Terminology.html#class_word)** \-- *index \| relative \| range \| test*\
       **[paragraphs](./MacPython(2f)iTerm(2f)Terminology.html#class_paragraph)** \-- *index \| relative \| range \| test*\
 
-## iTerm Suite {#iTerm_Suite}
+## iTerm Suite 
 
 Scripting interface for iTerm.app
 
-### Commands {#Commands-1}
+### Commands 
 
 - **reference.launch(\...)** \-- Launches a default or saved session\
 
-  - **session**=*[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Name of session to be launched\
+  - **session**=*[UnicodeText](./UnicodeText.html)* \-- Name of session to be launched\
     Result: *None*
 
   **reference.terminate()** \-- Terminates a session\
@@ -268,20 +273,20 @@ Scripting interface for iTerm.app
 
   **reference.exec\_(\...)** \-- Executes a command in a session\
 
-  - **command**=*[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Command executed in a session\
+  - **command**=*[UnicodeText](./UnicodeText.html)* \-- Command executed in a session\
     Result: *None*
 
   **reference.write(\...)** \-- Writes text or file contents into a session\
 
-  - \[**contents_of_file**=*[UnicodeText](./UnicodeText.html){.nonexistent}*\] \-- File to be written\
-    \[**text**=*[UnicodeText](./UnicodeText.html){.nonexistent}*\] \-- Text to be written\
+  - \[**contents_of_file**=*[UnicodeText](./UnicodeText.html)*\] \-- File to be written\
+    \[**text**=*[UnicodeText](./UnicodeText.html)*\] \-- Text to be written\
     Result: *None*
 
   **reference.select()** \-- Selects a specified session\
 
   - Result: *None*
 
-### Classes {#Classes-2}
+### Classes 
 
 - **terminal** \-- A pseudo terminal
 
@@ -303,14 +308,13 @@ Scripting interface for iTerm.app
 
     Properties:
     - **background_color** *[k.color](./MacPython(2f)iTerm(2f)Terminology.html#class_color)* \-- Background color\
-      **transparency** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Transparency (0-1)\
+      **transparency** *[ShortFloat](./ShortFloat.html)* \-- Transparency (0-1)\
       **bold_color** *[k.color](./MacPython(2f)iTerm(2f)Terminology.html#class_color)* \-- Bold color\
-      **background_image_path** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Path to background image\
-      **name** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Name of this session\
+      **background_image_path** *[UnicodeText](./UnicodeText.html)* \-- Path to background image\
+      **name** *[UnicodeText](./UnicodeText.html)* \-- Name of this session\
       **foreground_color** *[k.color](./MacPython(2f)iTerm(2f)Terminology.html#class_color)* \-- Foreground color\
-      **id** (r/o) *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- id of session; set to tty name\
+      **id** (r/o) *[UnicodeText](./UnicodeText.html)* \-- id of session; set to tty name\
       **selection_color** *[k.color](./MacPython(2f)iTerm(2f)Terminology.html#class_color)* \-- Selection color\
-      **tty** (r/o) *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- tty device of session\
+      **tty** (r/o) *[UnicodeText](./UnicodeText.html)* \-- tty device of session\
       **contents** (r/o) *[k.text](./MacPython(2f)iTerm(2f)Terminology.html#class_text)* \-- text of the session\
       **number** *SInt32* \-- index of session\
-::::

@@ -1,7 +1,12 @@
 # WithStatement
 
-::: {#content dir="ltr" lang="en"}
-This page is dedicated to the public discussion of [PEP 343](http://www.python.org/peps/pep-0343.html){.http}: Anonymous Block Redux and Generator Enhancements.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+This page is dedicated to the public discussion of [PEP 343](http://www.python.org/peps/pep-0343.html): Anonymous Block Redux and Generator Enhancements.
 
 I think this is a good one; I hope people agree. Its acceptance will obsolete about 4 other PEPs! (A sign that it fulfills a need and that the proposed solution is powerful.)
 
@@ -9,7 +14,7 @@ Please read the PEP; then add your comments here. Please sign your comments with
 
 ------------------------------------------------------------------------
 
-Can someone please speak to the implementation schedule for WithStatement? I am dying to use it, but I don\'t appear able to import it even from the [future]{.u} yet! \-- Barnard Masonry
+Can someone please speak to the implementation schedule for WithStatement? I am dying to use it, but I don\'t appear able to import it even from the [future] yet! \-- Barnard Masonry
 
 ------------------------------------------------------------------------
 
@@ -29,9 +34,9 @@ or
 
 \-- *Eric Nieuwland*
 
-- I\'d be very surprised if an object supporting `__enter__` and `__exit__` would say \"do not use this in a with-statement.\" ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"} What makes sense, however, is to distinguish between objects that can be used at most once in a with-statement (like files) and objects that can be used over and over (like locks). [GvR](GvR)
+- I\'d be very surprised if an object supporting `__enter__` and `__exit__` would say \"do not use this in a with-statement.\" ![:-)](/wiki/europython/img/smile.png ":-)") What makes sense, however, is to distinguish between objects that can be used at most once in a with-statement (like files) and objects that can be used over and over (like locks). [GvR](GvR)
 
-The solution to this problem recommended in PEP 346 is to throw an explicit exception in `__enter__` when a non-reusable template is reused. PEP 343 uses this approach for the [generator-based templates](http://3d2f.com/tags/generator/based/templates/download/){.http}, and I would expect an `__enter__` method on file objects to do the same thing. \-- *Alyssa Coghlan*
+The solution to this problem recommended in PEP 346 is to throw an explicit exception in `__enter__` when a non-reusable template is reused. PEP 343 uses this approach for the [generator-based templates](http://3d2f.com/tags/generator/based/templates/download/), and I would expect an `__enter__` method on file objects to do the same thing. \-- *Alyssa Coghlan*
 
 ------------------------------------------------------------------------
 
@@ -41,7 +46,7 @@ next_throw() is easier to grep with next(). *Niki Spahiev*
 
 I don\'t want to teach beginners why python uses \'raise\' sometimes and \'throw\' other times. I predict: they\'re going to be coming from other languages, they\'re going to accidentally use \'throw\' as the statement, and they\'re going to get mad at \"all of python\'s weird quirks, like how it has both raise and throw\". *Drew Perttula*
 
-- I\'m not so worried. Your tolerance for language quirks seems rather low. ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"} [GvR](GvR)
+- I\'m not so worried. Your tolerance for language quirks seems rather low. ![:-)](/wiki/europython/img/smile.png ":-)") [GvR](GvR)
 
   Raymond Hettinger added on python-dev (copied here by [GvR](GvR)):
 
@@ -58,7 +63,7 @@ A few immediate comments:
 1.  Is g.throw(\...) supposed to let you raise exceptions in other threads (by having g catch the exception you throw it, then raise its own exception for its caller)? The PEP should be clear about this. It would be great if the answer is yes and if that\'s the case, objects like queues and sockets should be turned into generators to permit cross-thread signalling using generator exceptions. But I had the impression that this would be difficult in CPython.
     - This is not the intention at all. The PEP specifically speaks of \"where the generator g is currently suspended\". By definition this implies that it is not running in another thread. You must have had threads on your mind too much
 
-      recently to even think of this. ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"} [GvR](GvR)
+      recently to even think of this. ![:-)](/wiki/europython/img/smile.png ":-)") [GvR](GvR)
 
       - I will read it again, but I don\'t remember seeing anything that made me think the generator couldn\'t be suspended in another thread. phr
         - Generators aren\'t tied to a thread, but they can only be executing in one thread at a time. When a generator yields in one thread, another thread can resume it with next() or throw() \-- but then the resumed generator executes in the thread that called next() or throw(). There\'s nothing new to this \-- it\'s been like this
@@ -88,7 +93,7 @@ I like the idea and the \"with .. as ..\" syntax, where readable keywords are us
 
 Patrick Ellis
 
-- Well, you have a choice not to use generators. ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"} To many who participated in the discussion on python-dev, using generators to write templates is an essential part. The more state you carry over from `__enter__` to `__exit__` the more you will appreciate the generator. [GvR](GvR)
+- Well, you have a choice not to use generators. ![:-)](/wiki/europython/img/smile.png ":-)") To many who participated in the discussion on python-dev, using generators to write templates is an essential part. The more state you carry over from `__enter__` to `__exit__` the more you will appreciate the generator. [GvR](GvR)
 
 ------------------------------------------------------------------------
 
@@ -139,11 +144,11 @@ Adding features is always a problem, but adding them gradually just makes it tha
 
   [GvR](GvR)
 
-  - So you don\'t think we should detect `with open(X)` as a special language construct?!? Sorry, just trying to think about how Perl would approach this\... ![;)](/wiki/europython/img/smile4.png ";)"){height="16" width="16"} I\'m certainly not set on any particular example, I haven\'t
+  - So you don\'t think we should detect `with open(X)` as a special language construct?!? Sorry, just trying to think about how Perl would approach this\... ![;)](/wiki/europython/img/smile4.png ";)") I\'m certainly not set on any particular example, I haven\'t
 
-I would prefer that `__enter__` and `__exit__` be added to `Lock` and `RLock` objects, since it\'s really, REALLY obvious what `with lock:` does. Hey, and nice work on unifying the synchronize keyword, database transactions, etc into the (consistent and intuitive) PEP 343. I see why [IanBicking](IanBicking) thinks PEP 342 and 343 are related: they both do black magic with generators, look weird at first, but end up making a lot of sense and looking Pythonic. I didn\'t think coroutines could be expressed so cleanly in Python, either. It\'s impressive, really. \-- [ConnellyBarnes](./ConnellyBarnes.html){.nonexistent}
+I would prefer that `__enter__` and `__exit__` be added to `Lock` and `RLock` objects, since it\'s really, REALLY obvious what `with lock:` does. Hey, and nice work on unifying the synchronize keyword, database transactions, etc into the (consistent and intuitive) PEP 343. I see why [IanBicking](IanBicking) thinks PEP 342 and 343 are related: they both do black magic with generators, look weird at first, but end up making a lot of sense and looking Pythonic. I didn\'t think coroutines could be expressed so cleanly in Python, either. It\'s impressive, really. \-- [ConnellyBarnes](./ConnellyBarnes.html)
 
-## Using \".something\" syntax {#Using_.22.something.22_syntax}
+## Using \".something\" syntax 
 
 I think many Python programmers hate endless ` self.XXX ` in, for example, ` __init__(self) `. Maybe it could be replaced with ` .XXX `:
 
@@ -156,7 +161,7 @@ I think it may be useful because WITH statement would be often used like ` with
 
 - I think the . in this case is much to easy to overlook. If you really dislike writing self. so much, you could use an editor macro to translate your version to real python
 
-## Flow Control macros {#Flow_Control_macros}
+## Flow Control macros 
 
 I was very impressed with this and associated PEPs (340, 346, etc), but sorely disappointed when it was decided to remove the looping capabilities from the `with`{.backtick} statement. Having read Raymond Chen\'s linked rant about flow control macros, I felt I had to point out some of the differences between the flow control macros he was (quite rightly) complaining about, and those proposed here.
 
@@ -179,4 +184,3 @@ Stephen Dolan
                 retry_if_this_fails()
 
 - \-- *Alyssa Coghlan*
-:::

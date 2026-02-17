@@ -1,9 +1,14 @@
 # WikiTippDesTages
 
-::::: {#content dir="ltr" lang="de"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 :::: blue
 
-::: {#WikiTippDesTages-1.RandomQuote dir="ltr" lang="en"}
+::: 
 In den Einstellungen können Sie Reguläre Ausdrücke für abonnierte Seiten bestimmen; mit \"`.*`{.backtick}\" abonniert man sämtliche Seiten.
 :::
 ::::
@@ -70,7 +75,6 @@ In den Einstellungen können Sie Reguläre Ausdrücke für abonnierte Seiten bes
 
 - Verwenden Sie auf [SeiteFinden](SeiteFinden) \"Exclude underlay\" um die Hilfe-Seiten zum Wiki von der Volltext-Suche auszunehmen.
 
-- Web-Adressen einfach eintippen ([http://www.example.net](http://www.example.net){.http}), das Wiki macht automatisch einen anklickbaren Link daraus.
+- Web-Adressen einfach eintippen ([http://www.example.net](http://www.example.net)), das Wiki macht automatisch einen anklickbaren Link daraus.
 
-- Wikis sind toll - vor allem wenn man die Hilfe gelesen hat (siehe [HilfeInhalt](HilfeInhalt)). ![;)](/wiki/europython/img/smile4.png ";)"){height="16" width="16"}
-:::::
+- Wikis sind toll - vor allem wenn man die Hilfe gelesen hat (siehe [HilfeInhalt](HilfeInhalt)). ![;)](/wiki/europython/img/smile4.png ";)")

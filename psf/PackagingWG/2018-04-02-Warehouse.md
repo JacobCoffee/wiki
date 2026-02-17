@@ -1,11 +1,16 @@
 # PackagingWG/2018-04-02-Warehouse
 
-::: {#content dir="ltr" lang="en"}
-# Warehouse Sync-up Meeting {#Warehouse_Sync-up_Meeting}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Warehouse Sync-up Meeting 
 
 Monday, 2 April, 2018
 
-## Present: {#Present:}
+## Present: 
 
 - Laura
 - Sumana
@@ -15,7 +20,7 @@ Monday, 2 April, 2018
 - (Ernest absent)
 - (Donald absent)
 
-## Blocked/working on/announcements {#Blocked.2Fworking_on.2Fannouncements}
+## Blocked/working on/announcements 
 
 Nicole:
 
@@ -43,7 +48,7 @@ Sumana:
 
 - lots of communication work
 
-- need an OK on the TLS announcement [https://github.com/pypa/warehouse/issues/3293#issuecomment-377934325](https://github.com/pypa/warehouse/issues/3293#issuecomment-377934325){.https} \-- need to tell Mac users on 10.13 to upgrade pip . Can \@ThePSF retweet?
+- need an OK on the TLS announcement [https://github.com/pypa/warehouse/issues/3293#issuecomment-377934325](https://github.com/pypa/warehouse/issues/3293#issuecomment-377934325) \-- need to tell Mac users on 10.13 to upgrade pip . Can \@ThePSF retweet?
 
 Mark:
 
@@ -51,11 +56,11 @@ Mark:
 - Burn rate updated: \[document\]
 - Should be able to announce \[infra\] Credits this week, but still awaiting the transparent logo. Ernest did ping our contact; has not replied yet.
 
-## Proposed April schedule {#Proposed_April_schedule}
+## Proposed April schedule 
 
 Context: we have very few open issues blocking us from launching/redirecting and shutting down legacy, and want to shut down legacy this month so we have a few days in early May to fix things while we\'re still available, pre-PyCon, have budget, etc. And Ernest is unavailable this week so we should not launch/redirect this week.
 
-1.  Sunday April 8th: TLS 1.0/1.1 removal [https://github.com/pypa/warehouse/issues/3411](https://github.com/pypa/warehouse/issues/3411){.https}
+1.  Sunday April 8th: TLS 1.0/1.1 removal [https://github.com/pypa/warehouse/issues/3411](https://github.com/pypa/warehouse/issues/3411)
 
 2.  Monday April 9th: a one-time mass email to all PyPI publishers who haven\'t published a new release since July 1 2017, telling them: \[*we don\'t have in-PyPI infrastructure for sending emails to subsets of users* *(check with Ernest?) - let\'s draw a tighter box around dates, only emailing publishers who HAVEN\'T published a release since mid-2017 but HAVE published a release in the past several years - discuss specific daterange on IRC*
 
@@ -72,45 +77,44 @@ Context: we have very few open issues blocking us from launching/redirecting and
 
 6.  Monday April 30: shut down legacy.
 
-There\'s a [request from JFrog to postpone redirect to 22nd](https://github.com/pypa/warehouse/issues/3275){.https} \-- but they can use the User-Agent redirect exclusion from legacy until we shut down Legacy, so they should be fine.
+There\'s a [request from JFrog to postpone redirect to 22nd](https://github.com/pypa/warehouse/issues/3275) \-- but they can use the User-Agent redirect exclusion from legacy until we shut down Legacy, so they should be fine.
 
-### Resolution {#Resolution}
+### Resolution 
 
 Group approved this plan. Updated the [Warehouse roadmap](WarehouseRoadmap).
 
-## Ask Donald for {#Ask_Donald_for}
+## Ask Donald for 
 
 \[sponsor\] transparent logo
 
-## Issue triage {#Issue_triage}
+## Issue triage 
 
-- Twine/Warehouse error message conflict [https://github.com/pypa/warehouse/issues/3482](https://github.com/pypa/warehouse/issues/3482){.https} [https://github.com/pypa/twine/issues/332](https://github.com/pypa/twine/issues/332){.https}
+- Twine/Warehouse error message conflict [https://github.com/pypa/warehouse/issues/3482](https://github.com/pypa/warehouse/issues/3482) [https://github.com/pypa/twine/issues/332](https://github.com/pypa/twine/issues/332)
 
   - Sumana: seems worth spending a little Twine time on
   - di: we should just revert the error message for now
 
-- give user option to see more search results in pagination [https://github.com/pypa/warehouse/issues/3463](https://github.com/pypa/warehouse/issues/3463){.https}
+- give user option to see more search results in pagination [https://github.com/pypa/warehouse/issues/3463](https://github.com/pypa/warehouse/issues/3463)
 
-  - could Nicole user test about this? Yes ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+  - could Nicole user test about this? Yes ![:)](/wiki/europython/img/smile.png ":)")
 
     - do users search for maintainer names?
 
-- reStructuredText header issue [https://github.com/pypa/warehouse/issues/3311](https://github.com/pypa/warehouse/issues/3311){.https}
+- reStructuredText header issue [https://github.com/pypa/warehouse/issues/3311](https://github.com/pypa/warehouse/issues/3311)
 
   - could Dustin investigate? di: yes, likely a readme_renderer issue
 
-- problem deleting project with a period character in project name [https://github.com/pypa/warehouse/issues/3491](https://github.com/pypa/warehouse/issues/3491){.https}
+- problem deleting project with a period character in project name [https://github.com/pypa/warehouse/issues/3491](https://github.com/pypa/warehouse/issues/3491)
 
   - how many projects are potentially affected? di: lots
   - di: trivial to use the non-normalized name instead
   - How many deletions a day do we get? Would be a good question to answer. deletions are uncommon, more common on Test.
     - a deleted filename cannot be reused \*even if the project name was deleted and recreated\*, but verrrrrry few users ever run into this
 
-- which of the cross-browser bugs [https://github.com/pypa/warehouse/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+label%3A%22cross+browser+bug+%3Abug%3A%22](https://github.com/pypa/warehouse/issues?q=is:open+is:issue+no:milestone+label:%22cross+browser+bug+:bug:%22){.https} do we need to fix before shutting down legacy?
+- which of the cross-browser bugs [https://github.com/pypa/warehouse/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+label%3A%22cross+browser+bug+%3Abug%3A%22](https://github.com/pypa/warehouse/issues?q=is:open+is:issue+no:milestone+label:%22cross+browser+bug+:bug:%22) do we need to fix before shutting down legacy?
 
   - deferring to Nicole - none. Priority is mobile/tablet bugs because there is higher percentage of users there than on ie11. Nothing blocking. ie11 users are \< 3% - 90% confident Nicole has found most bugs - most users use Chrome and site was developed with Chrome
 
-## TODO {#TODO}
+## TODO 
 
-- [Sumana to open issue about users searching for maintainer names]{.strike} \-- filed as [https://github.com/pypa/warehouse/issues/3527](https://github.com/pypa/warehouse/issues/3527){.https}
-:::
+- [Sumana to open issue about users searching for maintainer names] \-- filed as [https://github.com/pypa/warehouse/issues/3527](https://github.com/pypa/warehouse/issues/3527)

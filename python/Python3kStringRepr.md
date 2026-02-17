@@ -1,17 +1,22 @@
 # Python3kStringRepr
 
-::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 PEP:
 
 Title: String representation in Python 3000 Version: \$Revision\$ Last-Modified: \$Date\$ Author: Atsuo Ishimoto \<ishimoto\--at\--gembook.org\> Status: Draft Type: Standards Track Content-Type: text/x-rst Created: Post-History:
 
-::: {#abstract .section}
+::: 
 ### Abstract
 
 This PEP proposes a new string representation form for Python 3000. In Python prior to Python 3000, the repr() built-in function converted arbitrary objects to printable ASCII strings for debugging and logging. For Python 3000, a wider range of characters, based on the Unicode standard, should be considered \'printable\'.
 :::
 
-::: {#motivation .section}
+::: 
 ### Motivation
 
 The current repr() converts 8-bit strings to ASCII using following algorithm.
@@ -34,10 +39,10 @@ Python 3000 has a lot of nice features for non-Latin users such as non-ASCII ide
 
 Some users might be concerned that such output will mess up their console if they print binary data like images. But this is unlikely to happen in practice because bytes and strings are different types in Python 3000, so printing an image to the console won\'t mess it up.
 
-This issue was once discussed by Hye-Shik Chang [\[1\]](#id3){#id1 .footnote-reference} , but was rejected.
+This issue was once discussed by Hye-Shik Chang [\[1\]](#id3) , but was rejected.
 :::
 
-::: {#specification .section}
+::: 
 ### Specification
 
 - Add a new function to the Python C API `int PY_UNICODE_ISPRINTABLE(Py_UNICODE ch)`. This function returns 0 if repr() should escape the Unicode character `ch`; otherwise it returns 1. Characters that should be escaped are defined in the Unicode character database as:
@@ -62,7 +67,7 @@ This issue was once discussed by Hye-Shik Chang [\[1\]](#id3){#id1 .footnote-ref
 - Add an `isprintable()` method to the string type. `str.isprintable()` returns False if repr() should escape any character in the string; otherwise returns True. The `isprintable()` method calls the `PY_UNICODE_ISPRINTABLE()` function internally.
 :::
 
-:::: {#rationale .section}
+:::: 
 ### Rationale
 
 The repr() in Python 3000 should be Unicode not ASCII based, just like Python 3000 strings. Also, conversion should not be affected by the locale setting, because the locale is not necessarily the same as the output device\'s locale. For example, it is common for a daemon process to be invoked in an ASCII setting, but writes UTF-8 to its log files. Also, web applications might want to report the error information in more readable form based on the HTML page\'s encoding.
@@ -71,7 +76,7 @@ Characters not supported by the user\'s console could be hex-escaped on printing
 
 The default error-handler for sys.stdout is \'strict\'. Other applications reading the output might not understand hex-escaped characters, so unsupported characters should be trapped when writing. If you need to escape unsupported characters, you should explicitly change the error-handler. Unlike sys.stdout, sys.stderr doesn\'t raise UnicodeEncodingError by default, because the default error-handler is \'backslashreplace\'\". So printing error messeges containing non-ASCII characters to sys.stderr will not raise an exception. Also, information about uncaught exceptions (exception object, traceback) are printed by the interpreter without raising exceptions.
 
-::: {#alternate-solutions .section}
+::: 
 #### Alternate Solutions
 
 To help debugging in non-Latin languages without changing repr(), other suggestions were made.
@@ -94,7 +99,7 @@ To help debugging in non-Latin languages without changing repr(), other suggesti
 :::
 ::::
 
-::: {#backwards-compatibility .section}
+::: 
 ### Backwards Compatibility
 
 Changing repr() may break some existing code, especially testing code. Five of Python\'s regression tests fail with this modification. If you need repr() strings without non-ASCII character as Python 2, you can use the following function.
@@ -116,12 +121,12 @@ To avoid exceptions being raised, you can explicitly specify the error-handler.
 For a console that uses a Unicode-based encoding, for example, en_US.utf8 or de_DE.utf8, the backslashescape trick doesn\'t work and all printable characters are not escaped. This will cause a problem of similarly drawing characters in Western, Greek and Cyrillic languages. These languages use similar (but different) alphabets (descended from a common ancestor) and contain letters that look similar but have different character codes. For example, it is hard to distinguish Latin \'a\', \'e\' and \'o\' from Cyrillic \'а\', \'е\' and \'о\'. (The visual representation, of course, very much depends on the fonts used but usually these letters are almost indistinguishable.) To avoid the problem, the user can adjust the terminal encoding to get a result suitable for their environment.
 :::
 
-::: {#rejected-proposals .section}
+::: 
 ### Rejected Proposals
 
 - Add encoding and errors arguments to the builtin print() function, with defaults of sys.getfilesystemencoding() and \'backslashreplace\'.
 
-  Complicated to implement, and in general, this is not seen as a good idea. [\[2\]](#id4){#id2 .footnote-reference}
+  Complicated to implement, and in general, this is not seen as a good idea. [\[2\]](#id4)
 
 - Use character names to escape characters, instead of hex character codes. For example, `repr('\u03b1')` can be converted to `"\N{GREEK SMALL LETTER ALPHA}"`.
 
@@ -132,27 +137,26 @@ For a console that uses a Unicode-based encoding, for example, en_US.utf8 or de_
   Stuff written to stdout might be consumed by another program that might misinterpret the escapes. For interactive session, it is possible to make \'backslashreplace\' error-handler to default, but may add confusion of the kind \"it works in interactive mode but not when redirecting to a file\".
 :::
 
-::: {#reference-implementation .section}
+::: 
 ### Reference Implementation
 
-[http://bugs.python.org/issue2630](http://bugs.python.org/issue2630){.http .reference .external}
+[http://bugs.python.org/issue2630](http://bugs.python.org/issue2630)
 :::
 
-::: {#references .section}
+::: 
 ### References
 
   ---------------------------- -------------------------------------------------------------------------------
-  [\[1\]](#id1){.fn-backref}   Multibyte string on string::string_print (http://bugs.python.org/issue479898)
+  [\[1\]](#id1)   Multibyte string on string::string_print (http://bugs.python.org/issue479898)
   ---------------------------- -------------------------------------------------------------------------------
 
   ---------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [\[2\]](#id2){.fn-backref}   \[Python-3000\] Displaying strings containing unicode escapes ([http://mail.python.org/pipermail/python-3000/2008-April/013366.html](http://mail.python.org/pipermail/python-3000/2008-April/013366.html){.http .reference .external})
+  [\[2\]](#id2)   \[Python-3000\] Displaying strings containing unicode escapes ([http://mail.python.org/pipermail/python-3000/2008-April/013366.html](http://mail.python.org/pipermail/python-3000/2008-April/013366.html))
   ---------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-::: {#copyright .section}
+::: 
 ### Copyright
 
 This document has been placed in the public domain.
 :::
-:::::::::::::

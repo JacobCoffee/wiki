@@ -1,6 +1,11 @@
 # PyCon2006/PyConSoftwareTalk
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This talk will cover the [PyCon2006](PyCon2006) software evolution, lessons learned and what to do next.
 
 When:
@@ -17,17 +22,17 @@ Who should Attend:
 
 - People who want to know how we did all those cool things on us.pycon.org
 
-- People who plan on attending the [Conference Software Sprint](http://wiki.python.org/moin/PyCon2006/Sprints/ConferenceSprint){.http}.
+- People who plan on attending the [Conference Software Sprint](http://wiki.python.org/moin/PyCon2006/Sprints/ConferenceSprint).
 
-## Attendees {#Attendees}
+## Attendees 
 
 - Douglas Napoleone
 
-- Jeff Rush ([jeff@taupro.com](mailto:jeff@taupro.com){.mailto})
+- Jeff Rush ([jeff@taupro.com](mailto:jeff@taupro.com))
 
-- Martin Thomas ([martin@martinthomas.net](mailto:martin@martinthomas.net){.mailto})
+- Martin Thomas ([martin@martinthomas.net](mailto:martin@martinthomas.net))
 
-## Overview {#Overview}
+## Overview 
 
 Each web framework has it\'s stregnths and weaknesses. The collaborative nature of Wiki\'s and the minimal change management provided is essential to organizing the convention. The power of Zope to provide long term change management of conference materials and media is essential. The ability to rapidly develop complex data driven applications with Django has proven invaluable.
 
@@ -41,7 +46,7 @@ Django seems to be unlikely solution.
 
 The current Django applications written for the convention are integrated into the site using such features.
 
-## Draft Agenda {#Draft_Agenda}
+## Draft Agenda 
 
 We only have 45min so we need to be focused.
 
@@ -72,4 +77,3 @@ We only have 45min so we need to be focused.
 ------------------------------------------------------------------------
 
 [CategoryPyCon2006](CategoryPyCon2006)
-:::

@@ -1,11 +1,16 @@
 # BelarusianLanguage
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **Беларуская мова**
 
 Python information in Belarusian
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -25,9 +30,8 @@ Where these pages really need help:
 
 ------------------------------------------------------------------------
 
-[вікіпедыя](https://be.wikipedia.org/wiki/Python_(%D0%BC%D0%BE%D0%B2%D0%B0_%D0%BF%D1%80%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F)){.https}
+[вікіпедыя](https://be.wikipedia.org/wiki/Python_(%D0%BC%D0%BE%D0%B2%D0%B0_%D0%BF%D1%80%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F))
 
-[PyCon (archived)](https://web.archive.org/web/20210214080804/https://by.pycon.org/){.https}
+[PyCon (archived)](https://web.archive.org/web/20210214080804/https://by.pycon.org/)
 
 [CategoryLanguage](CategoryLanguage)
-:::

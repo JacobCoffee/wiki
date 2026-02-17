@@ -1,13 +1,18 @@
 # PortingToPy3k/PortingHelpers
 
-::: {#content dir="ltr" lang="en"}
-# Porting Helpers {#Porting_Helpers}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Porting Helpers 
 
 There are quite a few people who are interested in running their application/workflow using python3. In order to do that they need to port the stack of libraries underneath their application to use python3. This page is to start collecting and organizing these people so they don\'t duplicate work when porting libraries to python3, figure out how to get the changes merged upstream, figure out what libraries are important to port, and other sorts of coordination.
 
 We\'ve just started on this but as we get more feedback of what people want to work on what tools would help them do their job we\'ll update the page.
 
-## Knowledge we need {#Knowledge_we_need}
+## Knowledge we need 
 
 - Lists of dependencies between python modules. Modules that are at the base of a lot of important dependency trees are more in need of a port.
   - Possibility \-- Linux distributions have extensive dependency information between packages. We should be able to run a script against the repository metadata on several Linux distributions to get an idea about this.
@@ -26,12 +31,11 @@ We\'ve just started on this but as we get more feedback of what people want to w
 
   - Here\'s a rough example: [PortingToPy3k/Modules](./PortingToPy3k(2f)Modules.html) It\'s labor intensive so possibly not the best way to do this.
 
-    - Information from [https://fedoraproject.org/wiki/Python3#Porting_status](https://fedoraproject.org/wiki/Python3#Porting_status){.https} with some research of what the packages are using to build/patch
+    - Information from [https://fedoraproject.org/wiki/Python3#Porting_status](https://fedoraproject.org/wiki/Python3#Porting_status) with some research of what the packages are using to build/patch
 - Some table to track how best to contact upstreams
   - Whether the code should be branched on bitbucket/github/etc or we need to save patches somewhere
   - Mailing list or personal email to discuss python3 patches
   - Has upstream been asked if they\'ll accept python3 patches?
   - Has upstream professed interest in either a combined source or a separate source?
 
-## Tools we need/could use {#Tools_we_need.2Fcould_use}
-:::
+## Tools we need/could use 

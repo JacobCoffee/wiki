@@ -1,7 +1,12 @@
 # MementoPattern
 
-::::: {#content dir="ltr" lang="en"}
-The memento pattern is defined on [wikipedia](http://en.wikipedia.org/wiki/Memento_pattern){.http}, and discussed on Ward\'s wiki under \[[MementoPattern](http://c2.com/cgi/wiki?MementoPattern "Wiki"){.interwiki}\].
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+The memento pattern is defined on [wikipedia](http://en.wikipedia.org/wiki/Memento_pattern), and discussed on Ward\'s wiki under \[[MementoPattern](http://c2.com/cgi/wiki?MementoPattern "Wiki")\].
 
 The core intent is to capture an object\'s internal state (for later restoration) *without* violating encapsulation (i.e. uncovering internals for the purpose of externalization). Therefore, the state-representing object - called the *memento* - should satisfy 2 criteria:
 
@@ -10,11 +15,11 @@ The core intent is to capture an object\'s internal state (for later restoration
 
 Memento is extremely useful with transactional processing semantics, i.e. when an action is expected to either *entirely* succeed and change the system state in a *defined* way, or, on failure, *not* to change the system state at all.
 
-A [MementoClosure](http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/413838){.http} is a generic python implementation of the memento pattern. An example how to use the memento closure follows:
+A [MementoClosure](http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/413838) is a generic python implementation of the memento pattern. An example how to use the memento closure follows:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a22bc921990788f7dbe96368f3825cb6a1599b9d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Perform a bunch of actions on object obj,
    2 # rollback to prior state on errors
    3 state = Memento(obj)
@@ -29,5 +34,4 @@ A [MementoClosure](http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/41383
 :::
 ::::
 
-## Discussion {#Discussion}
-:::::
+## Discussion 

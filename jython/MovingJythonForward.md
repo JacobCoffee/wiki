@@ -1,36 +1,30 @@
 # MovingJythonForward
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 *This is a facsimile of the proposal submitted to the PSF by Brian Zimmer.*
 
-*The proposal was accepted by the PSF, and partially completed; the remainder of the grant was canceled by mutual agreement on Feb 12, 2007. [More info](http://www.python.org/psf/grants/report-2007-02/){.http}*
+*The proposal was accepted by the PSF, and partially completed; the remainder of the grant was canceled by mutual agreement on Feb 12, 2007. [More info](http://www.python.org/psf/grants/report-2007-02/)*
 
 ------------------------------------------------------------------------
 
-::: table-of-contents
-Contents
-
-1.  [Moving Jython Forward](#Moving_Jython_Forward)
-    1.  [Abstract](#Abstract)
-    2.  [Proposal](#Proposal)
-    3.  [Recruitment of New Developers](#Recruitment_of_New_Developers)
-    4.  [Summary](#Summary)
-    5.  [Qualifications](#Qualifications)
-:::
-
 ------------------------------------------------------------------------
 
-# Moving Jython Forward {#Moving_Jython_Forward}
+# Moving Jython Forward 
 
 ***Proposal Submitted to Python Software Foundation***
 
 Fall 2004 [BrianZimmer](BrianZimmer)
 
-## Abstract {#Abstract}
+## Abstract 
 
 Jython is a popular implementation of the Python programming language targeted for the Java Virtual Machine. It has a very active user community evident from the number of books published, technical articles submitted and constant references to it in articles and blogs. However, it continues to suffer a stagnant growth that can be attributed to a limited and often quiet development team. While other languages such as Groovy are making headlines with their increased release cycles and features Jython has not kept pace. The current release, 2.2b, is unacceptable given the growth of the C implementation. This proposal is interested developing many of the missing features from the C implementation of Python and documenting the current architecture to enable growing the current development team and moving Jython forward.
 
-## Proposal {#Proposal}
+## Proposal 
 
 This proposal will put an end to the constant Jython-Users question, "Is Jython development dead?" It will address many areas of Jython development but the schedule may require refactoring to better suit the needs and requirements of the Jython user community.
 
@@ -58,7 +52,7 @@ Perhaps Jython's strongest feature is its tight integration with Java and the JV
 
 - Logging (PEP 282, there exists a patch proposal for integration with Log4J)
 
-- Flexible [DataType](./DataType.html){.nonexistent} marshalling from the Jython runtime to Java runtime
+- Flexible [DataType](./DataType.html) marshalling from the Jython runtime to Java runtime
 
 - sets module java.util.Set
 
@@ -90,11 +84,11 @@ Community prioritization will dictate the remainder, if any, of the modules to b
 
 A number of built-ins are missing as well methods core classes have grown since 2.1. Some of the missing features have been documented in the whatsnew lists available with each new release.
 
-- [http://www.python.org/doc/2.2.1/whatsnew/whatsnew22.html](http://www.python.org/doc/2.2.1/whatsnew/whatsnew22.html){.http}
+- [http://www.python.org/doc/2.2.1/whatsnew/whatsnew22.html](http://www.python.org/doc/2.2.1/whatsnew/whatsnew22.html)
 
-- [http://python.org/2.3/highlights.html](http://python.org/2.3/highlights.html){.http}
+- [http://python.org/2.3/highlights.html](http://python.org/2.3/highlights.html)
 
-- [http://python.org/2.4/highlights.html](http://python.org/2.4/highlights.html){.http}
+- [http://python.org/2.4/highlights.html](http://python.org/2.4/highlights.html)
 
 The omissions capable of being implemented in 100% Java will be completed and the unit tests provided for the C implementation confirmed to pass.
 
@@ -106,7 +100,7 @@ The omissions capable of being implemented in 100% Java will be completed and th
 
 While the Python programming language is well documented the internal workings of the Jython code base remains relatively poorly documented. This proposal includes creating a developer document that includes an overview of the Jython runtime and how it works as well providing a style guide and coding standard. The current code does not have a consistent style, which has created issues for a distributed development team working with different IDEs and platforms. These inconsistencies will be addressed.
 
-## Recruitment of New Developers {#Recruitment_of_New_Developers}
+## Recruitment of New Developers 
 
 In addition, and perhaps most importantly, is facilitating the growth of the development team. This can be accomplished by actively pursuing through the mailing lists and bug reports individuals who have already expressed interest in developing Jython. The successful addition to the Jython code base of a significant patch or new feature will enable the submitter to be added to the development team and have CVS commit privileges if so desired. This should ensure the growth of the Jython development team and perhaps revitalize its activity. Budget
 
@@ -134,11 +128,10 @@ The funding will be compensation for time spent as well as the resources to purc
 
 The payments for this grant will be made on the successful completion of each delivery of three releases: April 2005, July 2005 and November 2005.
 
-## Summary {#Summary}
+## Summary 
 
 Jython has long held the torch for being the most complete and featurerich language other than Java to run on the JVM. It would be a loss for so much work to have gone into the Jython project only to let it atrophy.
 
-## Qualifications {#Qualifications}
+## Qualifications 
 
 I am currently a Jython developer with commit status at sourceforge as well as the author of the popular DB API implementation, zxJDBC. I have been the technical reviewer on two Jython texts, Jython Essentials and Jython for Java Programmer, as well as have answered numerous questions both privately and publicly on developing with Jython. I have been using the Python programming language since 1996 on various platforms, such as NeXTSTEP, OS X, Linux and Windows. I am also a fulltime Java developer and have a long history with releasing quality Open Source software that others and I have used in development and production environments. I believe I have excellent qualifications to continue the development of Jython and further promote the use of the Python language.
-::::

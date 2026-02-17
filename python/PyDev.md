@@ -1,13 +1,18 @@
 # PyDev
 
-::: {#content dir="ltr" lang="en"}
-Pydev is an **Open Source** Python plugin for Eclipse, and is hosted at [http://pydev.org](http://pydev.org){.http}
+```{admonition} Legacy Wiki Page
+:class: note
 
-**Getting Started** in Pydev: [http://pydev.org/manual_101_root.html](http://pydev.org/manual_101_root.html){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Pydev is an **Open Source** Python plugin for Eclipse, and is hosted at [http://pydev.org](http://pydev.org)
+
+**Getting Started** in Pydev: [http://pydev.org/manual_101_root.html](http://pydev.org/manual_101_root.html)
 
 Below there are some of the features available (version 1.5.0)
 
-# Pydev {#Pydev}
+# Pydev 
 
 - **Python**, **Jython** and **[IronPython](IronPython)** support
 
@@ -61,11 +66,10 @@ Below there are some of the features available (version 1.5.0)
 
 - Quick-outline
 
-The **Complete Feature Matrix** can be found at [http://pydev.org/manual_adv_features.html](http://pydev.org/manual_adv_features.html){.http}
+The **Complete Feature Matrix** can be found at [http://pydev.org/manual_adv_features.html](http://pydev.org/manual_adv_features.html)
 
 **Note**: **Pydev Extensions is now merged with Pydev**, and its once closed source code has become open source. Thus, there is no more Pydev Extensions, only the open source Pydev, with all the capabilities of Pydev Extensions incorporated (version 1.5.0).
 
 ------------------------------------------------------------------------
 
 [CategoryIntegratedDevelopmentEnvironment](CategoryIntegratedDevelopmentEnvironment)
-:::

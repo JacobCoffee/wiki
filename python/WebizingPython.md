@@ -1,21 +1,26 @@
 # WebizingPython
 
-::: {#content dir="ltr" lang="en"}
-# Webizing Python {#Webizing_Python}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Webizing Python 
 
 This is a discussion about getting Python to merge Internet resources and Python.
 
-# Ideas {#Ideas}
+# Ideas 
 
 - syntax changes? are we interested in that?
 
 - a basic URL type
 
-- import hooks for importing from URLs (ex: [http://stdlib.python.org/2.3.4/pickle](http://stdlib.python.org/2.3.4/pickle){.http})
+- import hooks for importing from URLs (ex: [http://stdlib.python.org/2.3.4/pickle](http://stdlib.python.org/2.3.4/pickle))
 
 - [NetworkedData](NetworkedData) - native data, networked across the Internet
 
-- native support for [ComponentBus](http://c2.com/cgi/wiki?ComponentBus "Wiki"){.interwiki} architectures - see notes below
+- native support for [ComponentBus](http://c2.com/cgi/wiki?ComponentBus "Wiki") architectures - see notes below
 
 - native inclusion of Twisted, or something like Twisted
 
@@ -23,7 +28,7 @@ This is a discussion about getting Python to merge Internet resources and Python
 
 Importing a URL is a very bad idea. First, there are security issues, as you are executing code over which you don\'t have control. Also, you don\'t generally want libraries to be upgraded behind your back. The standard library gets upgraded, but a lot of work goes into keep that backward compatible \-- in other libraries, this isn\'t the case. You want to make upgrades explicit in that case. Languages that have the ability to import URLs \-- like PHP \-- almost never use it.
 
-A URL literal doesn\'t seem particularly useful. It would provide an alternative to, say, `url('http://something.com/whatever')` (e.g., `<http://something.com/whatever>`), but since URLs tend to be dynamic or configurable, a literal doesn\'t add significant value. However, a good URL class would be excellent, maybe a class that has an API similar to the [path](http://www.jorendorff.com/articles/python/path/){.http} module. It would be great if both modules were builtins (or at least in the standard library).
+A URL literal doesn\'t seem particularly useful. It would provide an alternative to, say, `url('http://something.com/whatever')` (e.g., `<http://something.com/whatever>`), but since URLs tend to be dynamic or configurable, a literal doesn\'t add significant value. However, a good URL class would be excellent, maybe a class that has an API similar to the [path](http://www.jorendorff.com/articles/python/path/) module. It would be great if both modules were builtins (or at least in the standard library).
 
 \-- [IanBicking](IanBicking)
 
@@ -31,11 +36,11 @@ Rather than be contrary again, I\'ll pose a question: what are the real benefits
 
 \-- [IanBicking](IanBicking)
 
-## XML literals {#XML_literals}
+## XML literals 
 
 Several languages have support for some kind of XML literal, including XEN, XDuce, o:XML, Comega, and others. More later.
 
-## Networked Data {#Networked_Data}
+## Networked Data 
 
 Hi, my name is [LionKimbro](LionKimbro). I wrote a small hack module for [NetworkedData](NetworkedData). Basically, this means that a native data structure can expand, indefinitely, across the Internet. So if you have a list, for example, and three of the lists are defined elsewhere on the Internet, you can just tell those items to resolve, and they\'ll resolve *in place.* A master graph keeps records of how all the sub-graphs and data structures are connected.
 
@@ -47,9 +52,9 @@ You can build arbitrary objects by this system, because there is support (not in
 
 \-- [LionKimbro](LionKimbro) 2004-07-21 00:14:01
 
-## Component Bus Architecture support {#Component_Bus_Architecture_support}
+## Component Bus Architecture support 
 
-[StacklessPython](StacklessPython) would be a great place to start work on a built-in [ComponentBus](http://c2.com/cgi/wiki?ComponentBus "Wiki"){.interwiki} architecture from.
+[StacklessPython](StacklessPython) would be a great place to start work on a built-in [ComponentBus](http://c2.com/cgi/wiki?ComponentBus "Wiki") architecture from.
 
 What does this have to do with Webizing Python? Because these architectures are sort of just Micro-Internets, and naturally blend between the Internet and the programs space.
 
@@ -59,13 +64,12 @@ Most programs, you\'d like people across the world to be able to observe some pa
 
 \-- [LionKimbro](LionKimbro) 2004-07-21 00:14:01
 
-# References {#References}
+# References 
 
-- [Tim Berner\'s Lee: Webizing Python](http://www.w3.org/2002/Talks/0206-python/all.htm){.http}
+- [Tim Berner\'s Lee: Webizing Python](http://www.w3.org/2002/Talks/0206-python/all.htm)
 
-- [Aaron Swartz: Webizing Python](http://logicerror.com/webizingPython){.http} (native URIs, remote objects, URIs for objects)
+- [Aaron Swartz: Webizing Python](http://logicerror.com/webizingPython) (native URIs, remote objects, URIs for objects)
 
-- [Fredrik Lundh: XML literals](http://effbot.org/zone/idea-xml-literal.htm){.http}
+- [Fredrik Lundh: XML literals](http://effbot.org/zone/idea-xml-literal.htm)
 
-- [NetworkedData](NetworkedData), [nLSD graphs](http://onebigsoup.wiki.taoriver.net/moin.cgi/nLSDgraphs){.http} (native data that extends across the network)
-:::
+- [NetworkedData](NetworkedData), [nLSD graphs](http://onebigsoup.wiki.taoriver.net/moin.cgi/nLSDgraphs) (native data that extends across the network)

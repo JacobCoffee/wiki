@@ -1,19 +1,14 @@
 # GoogleGroupsPython
 
-:::::::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [Posting from Google Groups](#Posting_from_Google_Groups)
-2.  [Automatic correction](#Automatic_correction)
-    1.  [Instructions](#Instructions)
-    2.  [Usage](#Usage)
-    3.  [Windows](#Windows)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-# Posting from Google Groups {#Posting_from_Google_Groups}
+# Posting from Google Groups 
 
-Many people find reading the comp.lang.python newsgroup / python-list mailing list on [Google Groups](https://groups.google.com/forum/#!forum/comp.lang.python){.https} to be simple and convenient. It is also possible to post messages to the list from there. But please be aware that your message will be read by many people using mail or Usenet clients, not Google Groups. Posts from Google Groups have some problems that may make your post difficult or annoying to read by these other list participants, and all would appreciate it if you would fix them before clicking the Post button.
+Many people find reading the comp.lang.python newsgroup / python-list mailing list on [Google Groups](https://groups.google.com/forum/#!forum/comp.lang.python) to be simple and convenient. It is also possible to post messages to the list from there. But please be aware that your message will be read by many people using mail or Usenet clients, not Google Groups. Posts from Google Groups have some problems that may make your post difficult or annoying to read by these other list participants, and all would appreciate it if you would fix them before clicking the Post button.
 
 1\. **Please remove extra blank \"\>\" lines.**
 
@@ -55,7 +50,7 @@ Many people find reading the comp.lang.python newsgroup / python-list mailing li
 
 - Because of the above problems, the amount of spam posted via Google Groups and other reasons, there are some regular and knowledgeable list participants that filter out posts made from Google Groups. It is not clear that more than a few people do this and most posters from Google Groups get good responses. If you want every possible person to see your post you may want to try posting using one of the other methods described in [CompLangPython](CompLangPython).
 
-4\. **Follow accepted mailing list netiquette.** These are conventions that all posters should try to follow, they are not specific to Google Groups posters. See for example [http://linux.sgms-centre.com/misc/netiquette.php](http://linux.sgms-centre.com/misc/netiquette.php){.http}. Three in particular often complained about when ignored are:
+4\. **Follow accepted mailing list netiquette.** These are conventions that all posters should try to follow, they are not specific to Google Groups posters. See for example [http://linux.sgms-centre.com/misc/netiquette.php](http://linux.sgms-centre.com/misc/netiquette.php). Three in particular often complained about when ignored are:
 
 - Please don\'t top post. Either put your reply text below any context text, not above it, or interleave your reply text within the context text by inserting each part of your reply immediately below the particular part of the context text to which it applies.
 
@@ -63,7 +58,7 @@ Many people find reading the comp.lang.python newsgroup / python-list mailing li
 
 - Remove (trim) context that is not relevant to your reply.
 
-# Automatic correction {#Automatic_correction}
+# Automatic correction 
 
 ::: caution
 This section is as yet experimental
@@ -81,15 +76,15 @@ Please note that
 - No experience with macs so far or other browsers
 - Assumes a python executable is available
 
-## Instructions {#Instructions}
+## Instructions 
 
-1\. Install the firefox plugin [Its all text](https://addons.mozilla.org/en-US/firefox/addon/its-all-text/){.https}
+1\. Install the firefox plugin [Its all text](https://addons.mozilla.org/en-US/firefox/addon/its-all-text/)
 
 2\. Save the script below as a python file say `~/clean-gg.py` and make it executable. Also adjust the python3 first line to whatever is your executable
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-df270f9d581a42573164b581e0d91488f215ac0a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #!/usr/bin/env python3
    2 
    3 # As far as I know both python2 and 3 work
@@ -152,7 +147,7 @@ Please note that
 
 3\. In firefox go to the tools → addons → extensions → Its all text preferences and set the editor to `~/clean-gg.py` (expanding \~ to your actual home directory)
 
-## Usage {#Usage}
+## Usage 
 
 After the above, in firefox, when editing a text box in google groups a small edit button should appear at bottom right of text box.
 
@@ -173,7 +168,7 @@ In short you need do 2 clicks more than what you would otherwise do.
 
 For fresh posts (not replys) you dont need the first click as there is nothing to clean up.
 
-## Windows {#Windows}
+## Windows 
 
 ::: caution
 Not really tested on windows
@@ -182,4 +177,3 @@ Not really tested on windows
 Evidently Its all text only accepts \'executables\' for editors. Putting the following into a bat file and pointing Its all text to that seems to work.
 
     pythonw c:\clean-gg.py %1
-::::::::

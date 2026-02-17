@@ -1,24 +1,14 @@
 # ConductWG/Charter
 
-:::: {#content dir="ltr" lang="en"}
-# PSF Code of Conduct Workgroup Charter {#PSF_Code_of_Conduct_Workgroup_Charter}
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: table-of-contents
-Contents
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-1.  [PSF Code of Conduct Workgroup Charter](#PSF_Code_of_Conduct_Workgroup_Charter)
-    1.  [Purpose & Common Goals](#Purpose_.26_Common_Goals)
-    2.  [Active Time](#Active_Time)
-    3.  [Core Values](#Core_Values)
-        1.  [Membership](#Membership)
-    4.  [Rules & Guidelines](#Rules_.26_Guidelines)
-    5.  [Decision Making Procedures](#Decision_Making_Procedures)
-    6.  [Communication Plan](#Communication_Plan)
-    7.  [Budget](#Budget)
-    8.  [List of Participants/Who we are](#List_of_Participants.2FWho_we_are)
-:::
+# PSF Code of Conduct Workgroup Charter 
 
-## Purpose & Common Goals {#Purpose_.26_Common_Goals}
+## Purpose & Common Goals 
 
 The workgroup\'s purpose is to foster a diverse and inclusive Python community by enforcing the PSF code of conduct, along with providing guidance and recommendations to the Python community on codes of conduct, that supports the PSF mission of "ongoing development of Python-related technology and educational resources".
 
@@ -30,11 +20,11 @@ We work toward this common goal in three ways:
 
 3.  Develop training materials and other processes to support Python community organizers in implementing and enforcing the code of conduct.
 
-## Active Time {#Active_Time}
+## Active Time 
 
 It will continue to exist as long as the workgroup and the PSF Board determines it is needed.
 
-## Core Values {#Core_Values}
+## Core Values 
 
 The core values for this group are:
 
@@ -43,9 +33,9 @@ The core values for this group are:
 - Constructiveness
 - Integrity
 
-The workgroup adopts the PSF Code of Conduct ([https://www.python.org/psf/codeofconduct/](https://www.python.org/psf/codeofconduct/){.https}). Any actions made against the principles in the Code of Conduct (found by a simple majority of 51%+) will result in the acting person being removed from the workgroup.
+The workgroup adopts the PSF Code of Conduct ([https://www.python.org/psf/codeofconduct/](https://www.python.org/psf/codeofconduct/)). Any actions made against the principles in the Code of Conduct (found by a simple majority of 51%+) will result in the acting person being removed from the workgroup.
 
-### Membership {#Membership}
+### Membership 
 
 - Code of Conduct Workgroup voting members are required to confirm continuing participating in the workgroup within one month of a new board election. This will be led by chair/vice-chairs. If there is no response within two weeks, then the individual is automatically removed.
 
@@ -53,16 +43,16 @@ The workgroup adopts the PSF Code of Conduct ([https://www.python.org/psf/codeof
 
 - If a member fails to attend more than 50% of meetings over a 3-month span (4 out of 6 meetings), they will be moved to the Past Members list unless they make arrangements with the Workgroup in advance. They are welcome to rejoin at any time.
 
-- Folks that would like to join the Code of Conduct Work Group should send an email to the WG ([conduct-wg@python.org](mailto:conduct-wg@python.org){.mailto}) introducing themselves. The WG will vote on new member requests verbally at their every meeting.
+- Folks that would like to join the Code of Conduct Work Group should send an email to the WG ([conduct-wg@python.org](mailto:conduct-wg@python.org)) introducing themselves. The WG will vote on new member requests verbally at their every meeting.
 
-## Rules & Guidelines {#Rules_.26_Guidelines}
+## Rules & Guidelines 
 
 \* \"The Code of Conduct Workgroup will strive to include and understand a diverse group of perspectives as it implements its mission
 
 - The workgroup reserves the right to consult with outside experts.
 - The Code of Conduct Workgroup will submit a monthly report to the PSF board of directors.
 
-## Decision Making Procedures {#Decision_Making_Procedures}
+## Decision Making Procedures 
 
 - Discussions will happen via phone, video chat, or mailing list.
 - With respect to new code of conduct standards and policy recommendations:
@@ -70,17 +60,17 @@ The workgroup adopts the PSF Code of Conduct ([https://www.python.org/psf/codeof
   - The workgroup will consider outside input, edit the document, then vote for final approval.
   - The workgroup will vote on new standards and will require half of all voting members plus one to be present for quorum and new motions will require approval of half of all voting members plus one.
 
-## Communication Plan {#Communication_Plan}
+## Communication Plan 
 
-The team will communicate via the [conduct-wg@python.org](mailto:conduct-wg@python.org){.mailto} mailing list. If needed, conference calls may be set up. The method of voting on projects and proposals will be determined by the workgroup. Preferred method of voting will be electronically (email or chat) and the vote results will be reported via email to the board in the monthly report.
+The team will communicate via the [conduct-wg@python.org](mailto:conduct-wg@python.org) mailing list. If needed, conference calls may be set up. The method of voting on projects and proposals will be determined by the workgroup. Preferred method of voting will be electronically (email or chat) and the vote results will be reported via email to the board in the monthly report.
 
 We will attempt to limit information shared about specific instances. Our priority is ensuring community members\' safety, but we protect individuals\' privacy to the greatest extent possible. Calls and face-to-face meetings are preferred for discussions of specific incidence.
 
-## Budget {#Budget}
+## Budget 
 
 \$5,000
 
-## List of Participants/Who we are {#List_of_Participants.2FWho_we_are}
+## List of Participants/Who we are 
 
 Chairs: Tania Allard and Jessica Greene
 
@@ -132,4 +122,3 @@ Past members:
 - Mercedes Wyss
 - Tereza Iofciu
 - Łukasz Langa
-::::

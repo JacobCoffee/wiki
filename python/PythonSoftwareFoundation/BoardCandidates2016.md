@@ -1,70 +1,75 @@
 # PythonSoftwareFoundation/BoardCandidates2016
 
-::::::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Candidates for the 2016 PSF Board of Directors
 
 The following people have been nominated as Directors of the Python Software Foundation for the term beginning in May 2016. Their self-written summaries follow. The specific dates of relevance to the election are:
 
 > - Day 1: May 5, 2016 AoE - announcement is made
-> - Day 10: May 15, 2016 AoE - nominations and voting eligibility closes at [2016-05-15 23:59:59 UTC-12](http://www.timeanddate.com/worldclock/fixedtime.html?msg=Nomination+Deadline&iso=2016-05-15T23:59:59&p1=3926){.http .reference .external}
+> - Day 10: May 15, 2016 AoE - nominations and voting eligibility closes at [2016-05-15 23:59:59 UTC-12](http://www.timeanddate.com/worldclock/fixedtime.html?msg=Nomination+Deadline&iso=2016-05-15T23:59:59&p1=3926)
 > - Day 15: May 20, 2016 AoE - Ballots are sent
-> - Day 25: May 30, 2016 AoE - election closes at [2016-05-30 23:59:59 UTC-12](http://www.timeanddate.com/worldclock/fixedtime.html?msg=Election+Deadline&iso=2016-05-30T23:59:59&p1=3926){.http .reference .external}
+> - Day 25: May 30, 2016 AoE - election closes at [2016-05-30 23:59:59 UTC-12](http://www.timeanddate.com/worldclock/fixedtime.html?msg=Election+Deadline&iso=2016-05-30T23:59:59&p1=3926)
 
-The above closing times are given in the [\"Anywhere on Earth\" (AOE) timezone](http://en.wikipedia.org/wiki/Anywhere_on_Earth){.http .reference .external}.
+The above closing times are given in the [\"Anywhere on Earth\" (AOE) timezone](http://en.wikipedia.org/wiki/Anywhere_on_Earth).
 
 There are currently 11 seats on the Board of Directors (last changed in the 2012 PSF Members vote).
 
-::: {#nominees .contents .topic}
+::: 
 Nominees
 
-- [Lorena Mesa](#lorena-mesa){#id1 .reference .internal}
-- [Trey Hunner](#trey-hunner){#id2 .reference .internal}
-- [Jackie Kazil](#jackie-kazil){#id3 .reference .internal}
-- [Naomi Ceder](#naomi-ceder){#id4 .reference .internal}
-- [Carol Willing](#carol-willing){#id5 .reference .internal}
-- [Philip James](#philip-james){#id6 .reference .internal}
-- [Carrie Anne Philbin](#carrie-anne-philbin){#id7 .reference .internal}
-- [Younggun Kim](#younggun-kim){#id8 .reference .internal}
-- [Diana Clarke](#diana-clarke){#id9 .reference .internal}
-- [Van Lindberg](#van-lindberg){#id10 .reference .internal}
-- [Chris Clifton](#chris-clifton){#id11 .reference .internal}
-- [Annapoornima Koppad](#annapoornima-koppad){#id12 .reference .internal}
-- [Monty Taylor](#monty-taylor){#id13 .reference .internal}
-- [Raphael Pierzina](#raphael-pierzina){#id14 .reference .internal}
-- [Kushal Das](#kushal-das){#id15 .reference .internal}
-- [Raghav Hanumantharau](#raghav-hanumantharau){#id16 .reference .internal}
-- [Ed Leafe](#ed-leafe){#id17 .reference .internal}
-- [Simon Cross](#simon-cross){#id18 .reference .internal}
-- [Massimo Di Pierro](#massimo-di-pierro){#id19 .reference .internal}
-- [James Powell](#james-powell){#id20 .reference .internal}
-- [Don Sheu](#don-sheu){#id21 .reference .internal}
+- [Lorena Mesa](#lorena-mesa)
+- [Trey Hunner](#trey-hunner)
+- [Jackie Kazil](#jackie-kazil)
+- [Naomi Ceder](#naomi-ceder)
+- [Carol Willing](#carol-willing)
+- [Philip James](#philip-james)
+- [Carrie Anne Philbin](#carrie-anne-philbin)
+- [Younggun Kim](#younggun-kim)
+- [Diana Clarke](#diana-clarke)
+- [Van Lindberg](#van-lindberg)
+- [Chris Clifton](#chris-clifton)
+- [Annapoornima Koppad](#annapoornima-koppad)
+- [Monty Taylor](#monty-taylor)
+- [Raphael Pierzina](#raphael-pierzina)
+- [Kushal Das](#kushal-das)
+- [Raghav Hanumantharau](#raghav-hanumantharau)
+- [Ed Leafe](#ed-leafe)
+- [Simon Cross](#simon-cross)
+- [Massimo Di Pierro](#massimo-di-pierro)
+- [James Powell](#james-powell)
+- [Don Sheu](#don-sheu)
 :::
 
 ::: topic
 Links
 
-- [Letter from PSF Director of Operations - Expectations of Board Directors](./PythonSoftwareFoundation(2f)ExpectationsOfBoardDirectors.html){.reference .external}
-- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html){.reference .external}
-- [2015 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2015.html){.reference .external}
-- [2014 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2014.html){.reference .external}
-- [2013 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2013.html){.reference .external}
-- [2012 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2012.html){.reference .external}
-- [2011 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2011.html){.reference .external}
-- [2010 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html){.reference .external}
-- [2009 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2009.html){.reference .external}
-- [2008 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2008.html){.reference .external}
+- [Letter from PSF Director of Operations - Expectations of Board Directors](./PythonSoftwareFoundation(2f)ExpectationsOfBoardDirectors.html)
+- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html)
+- [2015 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2015.html)
+- [2014 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2014.html)
+- [2013 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2013.html)
+- [2012 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2012.html)
+- [2011 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2011.html)
+- [2010 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html)
+- [2009 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2009.html)
+- [2008 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2008.html)
 :::
 
 **Registering as a PSF Board candidate**
 
 To register as a candidate for the Board elections, add your nomination to this page using the format listed at the end of the page. We\'d like as many groups within the PSF membership as possible to have the option of electing candidates that can directly represent their interests in Board discussions, so if there\'s someone you\'d particularly like to have represent you, you may want to consider getting in touch with them and (politely!) asking if they\'d be interested in nominating themselves.
 
-Read through the [Letter from PSF Director of Operations - Expectations of Board Directors](./PythonSoftwareFoundation(2f)ExpectationsOfBoardDirectors.html){.reference .external} & [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html){.reference .external}. Please note that the PSF bylaws require that Board candidates disclose significant organizational affiliations (for example, their employer).
+Read through the [Letter from PSF Director of Operations - Expectations of Board Directors](./PythonSoftwareFoundation(2f)ExpectationsOfBoardDirectors.html) & [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html). Please note that the PSF bylaws require that Board candidates disclose significant organizational affiliations (for example, their employer).
 
-::: {.admonition .note}
+::: 
 Note
 
-Please follow the instructions on the [FrontPage](FrontPage){.reference .external} to gain wiki edit access.
+Please follow the instructions on the [FrontPage](FrontPage) to gain wiki edit access.
 :::
 
 **Registering to vote on PSF ballots**
@@ -77,9 +82,9 @@ While PSF Membership is open to anyone that chooses to join, Basic Members are n
 - PSF Fellows
 - Sponsor Delegates for Sponsor Members
 
-To register as a Managing or Contributing member, refer to [this post](http://pyfound.blogspot.com.au/2015/02/enroll-as-psf-voting-member.html){.http .reference .external} on the PSF blog.
+To register as a Managing or Contributing member, refer to [this post](http://pyfound.blogspot.com.au/2015/02/enroll-as-psf-voting-member.html) on the PSF blog.
 
-To register as a Supporting Member, please use the [PSF Associate Membership site](https://psfmember.org/){.https .reference .external}.
+To register as a Supporting Member, please use the [PSF Associate Membership site](https://psfmember.org/).
 
 PSF Fellows and Sponsor Members must themselves be approved through a PSF ballot, and thus only existing Fellows and Sponsor Delegates will be entitled to vote on the upcoming ballot.
 
@@ -107,8 +112,8 @@ Please use the following format:
 
     ----
 
-::: {#lorena-mesa .section}
-### [Lorena Mesa](#id1){.toc-backref}
+::: 
+### [Lorena Mesa](#id1)
 
 *New Board Member. (Nominated by Anna Ossowski)*
 
@@ -127,7 +132,7 @@ As a founder and organizer for PyLadies Chicago, increasing the visibility of wo
 My goals for 2016/2017 as a board member would continue to build upon the work I\'ve done as a PyLadies organizer and as a teacher. Namely my goals as a board member would be to:
 
 - **Promote diversity:** Diversity without a question is a primary concern for me. I think historically we think of diversity as largely gender and race, but there is so much more to it than that. Namely age, national origin, and class. I think the PSF\'s support of PyLadies through the Grants Working Group have empowered me to become an active Python community member and has done great working in promoting gender diversity. I want to continue to promote the PSF\'s diversity initiative by becoming a member of the Grants Working Group and dedicate myself to working on diversity relentlessly and attempt to empower Python\'s diversity to include even younger coders and those from a broader population of national identities and class backgrounds.
-- **Broaden education initiatives:** I was excited to read a recent thread in the Education Working Group about the PSF potentially expanding it\'s \[outreach to high schools\]([https://mail.python.org/pipermail/pythonedu-wg/2016-February/000049.html](https://mail.python.org/pipermail/pythonedu-wg/2016-February/000049.html){.https .reference .external}). Youth education is a passion of mine and something I often volunteer to do in my free time with free Python youth classes and organizing and mentoring DjangoGirls in Chicago and at various PyCons. Therefore I want to help support the Education Working Group as a group member.
+- **Broaden education initiatives:** I was excited to read a recent thread in the Education Working Group about the PSF potentially expanding it\'s \[outreach to high schools\]([https://mail.python.org/pipermail/pythonedu-wg/2016-February/000049.html](https://mail.python.org/pipermail/pythonedu-wg/2016-February/000049.html)). Youth education is a passion of mine and something I often volunteer to do in my free time with free Python youth classes and organizing and mentoring DjangoGirls in Chicago and at various PyCons. Therefore I want to help support the Education Working Group as a group member.
 - **Overhaul institutional infrastructure:** The changing face of the PSF has been fascinating for me to see and experience. What does it mean to be a foundation that supports the Python community and how can the PSF build a transparent organization that promotes it, these are the type of questions I want to contribute to. Governance is at best difficult but I am passionate about it.
 - **Build outreach in new areas:** I\'ve been fortunate to travel to participate in PyCon USA, Django Under the Hood (Amsterdam), and DjangoCon Europe (Budapest). I will be participating in EuroPython this year and it is my hope to expand upon my Python travels by visiting Latin America. While traveling is one form of promotion for Python, I am dedicated to broadening the PSF\'s reach by finding other means of outreach.
 
@@ -154,7 +159,7 @@ My goals for 2016/2017 as a board member would continue to build upon the work I
 
 **Affiliation**
 
-- Platform Engineer, Sprout Social, [http://sproutsocial.com](http://sproutsocial.com){.http .reference .external}
+- Platform Engineer, Sprout Social, [http://sproutsocial.com](http://sproutsocial.com)
 - PyLadies Chicago Founder, Principle Organizer
 - Write/Speak/Code Conference (2016.writespeakcode.com) Speaker Outreach
 - Founding Member of Chi Tech Diversity (chitechdiversity.com)
@@ -174,8 +179,8 @@ Lorena Mesa
 
 ------------------------------------------------------------------------
 
-::: {#trey-hunner .section}
-### [Trey Hunner](#id2){.toc-backref}
+::: 
+### [Trey Hunner](#id2)
 
 *New Board Member. (Nominated by Anna Ossowski)*
 
@@ -225,8 +230,8 @@ Affiliations: Truthful Technology LLC, San Diego Python, EditorConfig
 
 ------------------------------------------------------------------------
 
-::: {#jackie-kazil .section}
-### [Jackie Kazil](#id3){.toc-backref}
+::: 
+### [Jackie Kazil](#id3)
 
 *New Board Member. (Nominated by Anna Ossowski)*
 
@@ -282,8 +287,8 @@ Affiliations: 18F, PyLadies, DCFemTech, PyJournos, IRE/NICAR
 
 ------------------------------------------------------------------------
 
-::: {#naomi-ceder .section}
-### [Naomi Ceder](#id4){.toc-backref}
+::: 
+### [Naomi Ceder](#id4)
 
 *2015 Board Member*
 
@@ -324,8 +329,8 @@ Affiliation: W. W. Grainger, Trans\*Code, Chi Tech Diversity (chitechdiversity.c
 
 ------------------------------------------------------------------------
 
-::: {#carol-willing .section}
-### [Carol Willing](#id5){.toc-backref}
+::: 
+### [Carol Willing](#id5)
 
 *2015 Board Member.*
 
@@ -338,7 +343,7 @@ With hard work by PSF board members, PSF Operations staff, and many volunteers i
 - *PSF Sustainability*: Approved the expansion of the PSF staff to provide continuity in PSF operations and support and grow the community and language. Hiring an Event Coordinator and Administrator, IT Manager, additional blog writer.
 - *Transparency*: Reorganized the PSF mailing lists to provide greater transparency to the community about the PSF. Retired psf-members. Created psf-vote, psf-community.
 - *Governance and Organizational Structure*: PSF Grants, Scientific Python, Python Cuba, Python Education workgroups. Retired Sprints, Outreach & Education groups.
-- *Community recognition*: Community service awards and Frank Willison award. Recognition of Google Summer of Code organizer, mentors, and its [participants](http://terri.toybox.ca/python-soc/){.http .reference .external}
+- *Community recognition*: Community service awards and Frank Willison award. Recognition of Google Summer of Code organizer, mentors, and its [participants](http://terri.toybox.ca/python-soc/)
 - *Advancing the Python Language*: Supported trial development to port Twisted functionality to Python 3 and projects including pytest, tox, and open source conference registration software.
 
 **My Contribution to the PSF community**
@@ -369,8 +374,8 @@ Thank you.
 Affiliation: Project Jupyter, Cal Poly San Luis Obispo, Willing Consulting, Fab Lab San Diego.
 :::
 
-::: {#philip-james .section}
-### [Philip James](#id6){.toc-backref}
+::: 
+### [Philip James](#id6)
 
 *New Board Member.*
 
@@ -387,12 +392,12 @@ Affiliations: PSF, DjangoCon US, OpenHatch, Eventbrite
 
 ------------------------------------------------------------------------
 
-::: {#carrie-anne-philbin .section}
-### [Carrie Anne Philbin](#id7){.toc-backref}
+::: 
+### [Carrie Anne Philbin](#id7)
 
 *2015 Board Member.*
 
-I have been a part of the Python community for since 2012, and a member of the Board of Directors in 2015. I\'m an award winning secondary Computing & ICT Teacher, Author, and YouTuber from the UK. I am the Director of Education at the [Raspberry Pi Foundation](https://www.raspberrypi.org/){.https .reference .external} and also a [Computing At School Board Member](./Computing(20)At(20)School(20)Board(20)Member.html){.nonexistent .reference .external}. I am the author of \'Adventures in Raspberry Pi\' a computing book for teenagers wanting to get started with Raspberry Pi and programming (including Python). Winner of Teach Secondary magazine\'s Technology & Innovation Best Author award 2014 and Talk Talk\'s Digital Hero Award in 2013. I speak at conferences and events about Computing education (see [EuroPython 2015 Keynote](https://www.youtube.com/watch?v=_gU7sfTrz4c){.https .reference .external} and [PyConAU 2015 Keynote](https://www.youtube.com/watch?v=gaFk0Sya_HI){.https .reference .external}). I\'ve supported the PSF\'s involvement in the BBC micro:bit project in the UK.
+I have been a part of the Python community for since 2012, and a member of the Board of Directors in 2015. I\'m an award winning secondary Computing & ICT Teacher, Author, and YouTuber from the UK. I am the Director of Education at the [Raspberry Pi Foundation](https://www.raspberrypi.org/) and also a [Computing At School Board Member](./Computing(20)At(20)School(20)Board(20)Member.html). I am the author of \'Adventures in Raspberry Pi\' a computing book for teenagers wanting to get started with Raspberry Pi and programming (including Python). Winner of Teach Secondary magazine\'s Technology & Innovation Best Author award 2014 and Talk Talk\'s Digital Hero Award in 2013. I speak at conferences and events about Computing education (see [EuroPython 2015 Keynote](https://www.youtube.com/watch?v=_gU7sfTrz4c) and [PyConAU 2015 Keynote](https://www.youtube.com/watch?v=gaFk0Sya_HI)). I\'ve supported the PSF\'s involvement in the BBC micro:bit project in the UK.
 
 As a PSF board member, my two primary concerns would be to encourage the use of Python in formal and informal education contexts, as well as continuing to address the long term challenges of Python in education.
 
@@ -400,8 +405,8 @@ Key perspectives I believe I bring to Board discussions:
 
 - Formal computing education experience, including use of Python in schools and classrooms
 - Computing curriculum development experience, teaching young people from age 5 upwards to learn to program with Python
-- Experience with outreach, particularly encouraging diversity (see [CAS #include](http://casinclude.org.uk){.http .reference .external} & [Geek Gurl Diaries](https://www.youtube.com/user/GeekGurlDiaries){.https .reference .external})
-- Developing and running teacher training and professional development (see [Picademy](https://www.raspberrypi.org/picademy/){.https .reference .external} and [PyConUK Teacher Track](http://2016.pyconuk.org/teachers/){.http .reference .external})
+- Experience with outreach, particularly encouraging diversity (see [CAS #include](http://casinclude.org.uk) & [Geek Gurl Diaries](https://www.youtube.com/user/GeekGurlDiaries))
+- Developing and running teacher training and professional development (see [Picademy](https://www.raspberrypi.org/picademy/) and [PyConUK Teacher Track](http://2016.pyconuk.org/teachers/))
 
 Specific initiatives I would personally be aiming to advocate for and participate in over the 2016/2017 Board term include:
 
@@ -415,8 +420,8 @@ Affiliation: Raspberry Pi Foundation
 
 ------------------------------------------------------------------------
 
-::: {#younggun-kim .section}
-### [Younggun Kim](#id8){.toc-backref}
+::: 
+### [Younggun Kim](#id8)
 
 *New Board Member. (Nominated by Carol Willing)*
 
@@ -448,8 +453,8 @@ Affiliations: PyCon KR/APAC, Open Source Advocate at NIPA, Smart Study
 
 ------------------------------------------------------------------------
 
-::: {#diana-clarke .section}
-### [Diana Clarke](#id9){.toc-backref}
+::: 
+### [Diana Clarke](#id9)
 
 *2015 Board Member.*
 
@@ -488,8 +493,8 @@ Affiliations: PSF, Red Hat, OpenStack
 
 ------------------------------------------------------------------------
 
-::: {#van-lindberg .section}
-### [Van Lindberg](#id10){.toc-backref}
+::: 
+### [Van Lindberg](#id10)
 
 *2015 Board Member.*
 
@@ -513,8 +518,8 @@ Affiliations: Rackspace, OpenStack
 
 ------------------------------------------------------------------------
 
-::: {#chris-clifton .section}
-### [Chris Clifton](#id11){.toc-backref}
+::: 
+### [Chris Clifton](#id11)
 
 *New Board Member*
 
@@ -532,8 +537,8 @@ Affiliations: United Airlines
 
 ------------------------------------------------------------------------
 
-::: {#annapoornima-koppad .section}
-### [Annapoornima Koppad](#id12){.toc-backref}
+::: 
+### [Annapoornima Koppad](#id12)
 
 *New Board Member.*
 
@@ -547,7 +552,7 @@ Self Nomination
 >
 > I founded Pyladies Bangalore in July, 2013 to encourage women to learn programming. This chapter is a pro-women organization and is open to people from all spheres of life. I encourage women to bring their kids along with them to foster the scientific interest in both the women and their children. I encourage women who have taken break in their careers to get back on their feet both financially and emotionally.
 >
-> In March 2016, I restarted the meetup group here, [http://www.meetup.com/Bangalore-PyLadies-Foundation/](http://www.meetup.com/Bangalore-PyLadies-Foundation/){.http .reference .external}. The membership grew from 0 to 83 members within a period of one and half month.
+> In March 2016, I restarted the meetup group here, [http://www.meetup.com/Bangalore-PyLadies-Foundation/](http://www.meetup.com/Bangalore-PyLadies-Foundation/). The membership grew from 0 to 83 members within a period of one and half month.
 >
 > I am expecting at least 50 regular attendees for each workshop that I conduct this year including men who want to help my cause.
 
@@ -567,7 +572,7 @@ Self Nomination
 >
 > I did a hackathon at Thoughtworks Company, Bangalore, India funded by Python Software Foundation.
 >
-> I conducted a second event of a hand on workshop titled, "Introduction to Python programming" at Bangalore. The details of the event can be found here, [http://akoppad.blogspot.in/2016/05/introduction-to-python-programming-from.html](http://akoppad.blogspot.in/2016/05/introduction-to-python-programming-from.html){.http .reference .external}.
+> I conducted a second event of a hand on workshop titled, "Introduction to Python programming" at Bangalore. The details of the event can be found here, [http://akoppad.blogspot.in/2016/05/introduction-to-python-programming-from.html](http://akoppad.blogspot.in/2016/05/introduction-to-python-programming-from.html).
 >
 > I have been instrumental in running the shows as a one woman army. I have done Facebook advertising, posted Linkedin ads, and leveraged Twitter for generating interest in the activities of Pyladies Bangalore. I have contacted people who have cared, and come forward to help grow Pyladies Bangalore.
 >
@@ -578,8 +583,8 @@ Self Nomination
 
 ------------------------------------------------------------------------
 
-::: {#monty-taylor .section}
-### [Monty Taylor](#id13){.toc-backref}
+::: 
+### [Monty Taylor](#id13)
 
 *New Board Member. (nominated by Morgan Fainberg)*
 
@@ -617,8 +622,8 @@ More specifically \... I\'ve been quite successful over the last six years with 
 Affiliation: OpenStack, IBM, Ansible (project, not company)
 :::
 
-::: {#raphael-pierzina .section}
-### [Raphael Pierzina](#id14){.toc-backref}
+::: 
+### [Raphael Pierzina](#id14)
 
 *New Board Member.*
 
@@ -630,14 +635,14 @@ I found Python and never went back.
 
 For the past couple of years, I have been using Python every single day - both at work and in my Open Source projects. I have made friends with fellow Pythonistas at conferences like EuroPython, WriteTheDocs and the local user groups in Scotland but also online - I find this very inspiring. I am grateful for the ever-improving environment that the Python community provides.
 
-Who am I? I am a person who gives back. For starters, I [contribute time](https://github.com/hackebrot?tab=activity){.https .reference .external} to the following Open Source projects:
+Who am I? I am a person who gives back. For starters, I [contribute time](https://github.com/hackebrot?tab=activity) to the following Open Source projects:
 
-- Core contributor of the [Cookiecutter](https://github.com/audreyr/cookiecutter){.https .reference .external} project
-- Creator of [Poyo](https://github.com/hackebrot/poyo){.https .reference .external}, a pure Python PyYAML replacement that works painlessly everywhere
-- Maintainer of the [cookiecutter-pytest-plugin](https://github.com/pytest-dev/cookiecutter-pytest-plugin){.https .reference .external} template
-- Writer at [pytest-tricks](http://hackebrot.github.io/pytest-tricks/){.http .reference .external}, a blog dedicated to teach Pytest
+- Core contributor of the [Cookiecutter](https://github.com/audreyr/cookiecutter) project
+- Creator of [Poyo](https://github.com/hackebrot/poyo), a pure Python PyYAML replacement that works painlessly everywhere
+- Maintainer of the [cookiecutter-pytest-plugin](https://github.com/pytest-dev/cookiecutter-pytest-plugin) template
+- Writer at [pytest-tricks](http://hackebrot.github.io/pytest-tricks/), a blog dedicated to teach Pytest
 
-Last year at EuroPython, I helped run a Pytest workshop and spoke about [Cookiecutter and Jinja2](https://speakerdeck.com/hackebrot/cookiecutter-come-to-the-dark-side){.https .reference .external}. I gave a [similar talk](https://speakerdeck.com/hackebrot/cookiecutter-at-python-glasgow){.https .reference .external} at the Python Glasgow User Group, volunteered my expertise in Python testing during [Adopt Pytest Month](https://pytest.org/latest/adopt.html){.https .reference .external} to help the Qutebrowser project and worked as technical reviewer for \"Kivy Blueprints\", a book on Python for NUI apps on mobile devices in my spare time.
+Last year at EuroPython, I helped run a Pytest workshop and spoke about [Cookiecutter and Jinja2](https://speakerdeck.com/hackebrot/cookiecutter-come-to-the-dark-side). I gave a [similar talk](https://speakerdeck.com/hackebrot/cookiecutter-at-python-glasgow) at the Python Glasgow User Group, volunteered my expertise in Python testing during [Adopt Pytest Month](https://pytest.org/latest/adopt.html) to help the Qutebrowser project and worked as technical reviewer for \"Kivy Blueprints\", a book on Python for NUI apps on mobile devices in my spare time.
 
 As a member of the PSF board, I will try my best to foster diversity and openness across our community. I would like to help newcomers to begin their creative journey with code and find their way into the Python community. Often times the barrier from a Python script to a fully-fledged package can be intimidating - but it doesn\'t need to be. I would like to kick off initiatives that address this problem to encourage new developers to publish their first package on PyPI and share their creations with the Python community.
 
@@ -648,8 +653,8 @@ I believe it becomes increasingly important to raise awareness for issues around
 Affiliation: FanDuel, Cookiecutter, Pytest, Python Edinburgh, Python Glasgow
 :::
 
-:::: {#kushal-das .section}
-### [Kushal Das](#id15){.toc-backref}
+:::: 
+### [Kushal Das](#id15)
 
 *Previously on 2014/15 Board*
 
@@ -657,9 +662,9 @@ I am a CPython core developer, and also a fellow at PSF. I am also co-chairing t
 
 I am an active volunteer in PyCon, and also work as the sprint-coordinator for the last few years. This year I worked with the microbit upstream to push the development/usage effort in the Fedora project.
 
-I am organizing [an online summer training](https://dgplug.org/summertraining16/){.https .reference .external} for the last 9 years where people from all over the world participate and learn about FOSS in general and then learn how to use Python to solve their daily life problems. This training goes on for almost 3 months over IRC. The goal of this training is to get more global developers, diversity is a key factor in that training.
+I am organizing [an online summer training](https://dgplug.org/summertraining16/) for the last 9 years where people from all over the world participate and learn about FOSS in general and then learn how to use Python to solve their daily life problems. This training goes on for almost 3 months over IRC. The goal of this training is to get more global developers, diversity is a key factor in that training.
 
-::: {#goals-for-2016-17 .section}
+::: 
 #### Goals for 2016-17
 
 - To help PSF to grow the community base outside USA. There are too many people using Python in world, I believe that we can do better in reaching out to them, and grow together.
@@ -670,8 +675,8 @@ Affiliation: PSF, Red Hat
 :::
 ::::
 
-:::: {#raghav-hanumantharau .section}
-### [Raghav Hanumantharau](#id16){.toc-backref}
+:::: 
+### [Raghav Hanumantharau](#id16)
 
 *New Board Member*
 
@@ -683,7 +688,7 @@ I would like for an opportunity to help other community members experience the s
 
 I am active in Bay Area Meetups and have experience volunteering in various organizations.
 
-::: {#my-goals-for-2016-2017 .section}
+::: 
 #### My Goals for 2016/2017
 
 Having gone through all the previously listed goals, I\'m truly honored to be associated with such exemplary individuals.
@@ -696,8 +701,8 @@ Affiliations: None.
 
 ------------------------------------------------------------------------
 
-::: {#ed-leafe .section}
-### [Ed Leafe](#id17){.toc-backref}
+::: 
+### [Ed Leafe](#id17)
 
 *New Board Member.* (Nominated by Carl Karsten)
 
@@ -712,7 +717,7 @@ We may not have always agreed on everything, but you don\'t stay in in these pos
 2.  Business
 
 > - IBM, working on OpenStack, blogs about it:
-> - [https://developer.rackspace.com/blog/openstack-miniconf-at-pycon-au-2013/](https://developer.rackspace.com/blog/openstack-miniconf-at-pycon-au-2013/){.https .reference .external}
+> - [https://developer.rackspace.com/blog/openstack-miniconf-at-pycon-au-2013/](https://developer.rackspace.com/blog/openstack-miniconf-at-pycon-au-2013/)
 > - RackSpace, maintainer of the PyRax module.
 > - Independent Consultant - over 5 years of using Python for consulting projects.
 > - Microsoft -- worked with the community to create MCP tests to evaluate a person\'s proficiency.
@@ -723,15 +728,15 @@ Dabo-dev is the public mail list of his flagship project\'s development discussi
 
 OpenStack, his current full time job, has a documented transparency policy:
 
-:   - "OpenStack favors disclosure and transparency to promote sharing and collaboration within the OpenStack community." - [https://www.openstack.org/legal/transparency-policy/](https://www.openstack.org/legal/transparency-policy/){.https .reference .external}
-    - Meetings and discussions are held on public IRC channels, example: [http://eavesdrop.openstack.org/irclogs/%23openstack-sdks/index.html](http://eavesdrop.openstack.org/irclogs/%23openstack-sdks/index.html){.http .reference .external}
+:   - "OpenStack favors disclosure and transparency to promote sharing and collaboration within the OpenStack community." - [https://www.openstack.org/legal/transparency-policy/](https://www.openstack.org/legal/transparency-policy/)
+    - Meetings and discussions are held on public IRC channels, example: [http://eavesdrop.openstack.org/irclogs/%23openstack-sdks/index.html](http://eavesdrop.openstack.org/irclogs/%23openstack-sdks/index.html)
     - Applicants have been disqualified from becoming an OpenStack Partner because their current practices were not transparent.
 :::
 
 ------------------------------------------------------------------------
 
-::: {#simon-cross .section}
-### [Simon Cross](#id18){.toc-backref}
+::: 
+### [Simon Cross](#id18)
 
 *New Board Member.* (Nominated by Carl Karsten)
 
@@ -748,8 +753,8 @@ Simon's efforts also extend around the Python community, where he's a maintainer
 
 ------------------------------------------------------------------------
 
-::: {#massimo-di-pierro .section}
-### [Massimo Di Pierro](#id19){.toc-backref}
+::: 
+### [Massimo Di Pierro](#id19)
 
 *New Board Member.* (Nominated by Carl Karsten)
 
@@ -759,9 +764,9 @@ M. Di Pierro, "Annotated Algorithms in Python" 2013 (388 pages, E4S Press, ISBN:
 
 Open Source projects:
 
-:   - [https://github.com/mdipierro](https://github.com/mdipierro){.https .reference .external}
-    - [http://web2py.com](http://web2py.com){.http .reference .external} - Framework for rapid development of database driven web applications
-    - [https://github.com/mdipierro/evote](https://github.com/mdipierro/evote){.https .reference .external} Electronic Voting Platform (used by the Python Software Foundation)
+:   - [https://github.com/mdipierro](https://github.com/mdipierro)
+    - [http://web2py.com](http://web2py.com) - Framework for rapid development of database driven web applications
+    - [https://github.com/mdipierro/evote](https://github.com/mdipierro/evote) Electronic Voting Platform (used by the Python Software Foundation)
 
 Affiliations
 
@@ -773,8 +778,8 @@ Affiliations
 
 ------------------------------------------------------------------------
 
-::: {#james-powell .section}
-### [James Powell](#id20){.toc-backref}
+::: 
+### [James Powell](#id20)
 
 *New Board Member.* (Nominated by Carl Karsten)
 
@@ -782,17 +787,17 @@ I work with open source data science tools, with a focus on technologies written
 
 I am interested in building a richer community surrounding these tools and technologies, and dedicate a significant amount of my time to organising events and groups that support this ecosystem.
 
-I have chaired a number of conferences, including over eight PyData ([http://pydata.org](http://pydata.org){.http .reference .external}) events, one regional Python conference ([http://pygotham.org](http://pygotham.org){.http .reference .external}), two finance industry conferences ([http://forpythonquants.com](http://forpythonquants.com){.http .reference .external}), and one data science and machine learning conference ([http://opendatascicon.com](http://opendatascicon.com){.http .reference .external})
+I have chaired a number of conferences, including over eight PyData ([http://pydata.org](http://pydata.org)) events, one regional Python conference ([http://pygotham.org](http://pygotham.org)), two finance industry conferences ([http://forpythonquants.com](http://forpythonquants.com)), and one data science and machine learning conference ([http://opendatascicon.com](http://opendatascicon.com))
 
 I have also given over 40 talks on advanced Python topics at over 25 conferences in over 8 countries.
 
-Organised and co-ordinated programmes supported by NumFOCUS ([http://numfocus.org](http://numfocus.org){.http .reference .external}) including PyData ([http://pydata.org](http://pydata.org){.http .reference .external}), Women in Technology, and the John Hunter Fellowship.
+Organised and co-ordinated programmes supported by NumFOCUS ([http://numfocus.org](http://numfocus.org)) including PyData ([http://pydata.org](http://pydata.org)), Women in Technology, and the John Hunter Fellowship.
 
 NumFOCUS Vice President
 :::
 
-::: {#don-sheu .section}
-### [Don Sheu](#id21){.toc-backref}
+::: 
+### [Don Sheu](#id21)
 
 *New Board Member.* (Nominated by Yannick Gingras)
 
@@ -844,4 +849,3 @@ In Seattle, Seattle Data/Analytics/Machine Learning was dormant for over a year.
 
 Affiliation: PuPPy cofounder, PyCon organizing Startup Row, 10two1 (self-employed)
 :::
-:::::::::::::::::::::::::::::

@@ -1,7 +1,12 @@
 # MembershipModelVisualization
 
-::::: {#content dir="ltr" lang="en"}
-# Membership Model Visualization {#Membership_Model_Visualization}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Membership Model Visualization 
 
 The newly proposed PSF membership model is a great idea and the echo from the PSF members is overwhelmingly positive.
 
@@ -13,11 +18,11 @@ This is by no means complete but can serve as a basis for coming up with further
 
 So far there is no code in methods. It should be possible to add algorithms and make the membership rules executable. Since code is primarily a means of communication between humans and only in the second place instructions for the computer, this little program may help to better understand what we want to express.
 
-- [![\[ATTACH\]](/wiki/europython/img/attach.png "[ATTACH]"){height="32" width="32"}]( "Upload new attachment "classes_membership_model.png""){.nonexistent}
+- [![\[ATTACH\]](/wiki/europython/img/attach.png "[ATTACH]")]( "Upload new attachment "classes_membership_model.png"")
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-b3db09a7043a0fb1c5993f52d3deddff6828852d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #! /usr/bin/env python3
    2 
    3 """The new PSF membership model in code.
@@ -115,4 +120,3 @@ So far there is no code in methods. It should be possible to add algorithms and 
 ```
 :::
 ::::
-:::::

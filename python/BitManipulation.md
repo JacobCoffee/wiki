@@ -1,6 +1,11 @@
 # BitManipulation
 
-::::::::::::::::::::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Here is some information and goals related to Python bit manipulation, binary manipulation.
 
 Some tasks include:
@@ -14,25 +19,25 @@ Some tasks include:
 
 Relevant libraries include:
 
-- [ctypes --- A foreign function library for Python --- Python Documentation](https://docs.python.org/library/ctypes.html){.https} - part of the standard library
+- [ctypes --- A foreign function library for Python --- Python Documentation](https://docs.python.org/library/ctypes.html) - part of the standard library
 
-- [bitarray - efficient arrays of booleans \-- C extension](https://pypi.python.org/pypi/bitarray/){.https}
+- [bitarray - efficient arrays of booleans \-- C extension](https://pypi.python.org/pypi/bitarray/)
 
-- [python-bitstring - A Python module to help you manage your bits. - Google Project Hosting](https://code.google.com/p/python-bitstring/){.https}
+- [python-bitstring - A Python module to help you manage your bits. - Google Project Hosting](https://code.google.com/p/python-bitstring/)
 
-- [bitstruct - This module performs conversions between Python values and C bit field structs represented as Python bytearrays.](https://pypi.python.org/pypi/bitstruct/){.https}
+- [bitstruct - This module performs conversions between Python values and C bit field structs represented as Python bytearrays.](https://pypi.python.org/pypi/bitstruct/)
 
-Some simple code is at [ActiveState Code Recipes: Bit-field manipulation](https://code.activestate.com/recipes/113799-bit-field-manipulation/){.https} (in Python 2 syntax).
+Some simple code is at [ActiveState Code Recipes: Bit-field manipulation](https://code.activestate.com/recipes/113799-bit-field-manipulation/) (in Python 2 syntax).
 
 Here are some other examples.
 
-## Manipulations {#Manipulations}
+## Manipulations 
 
 To integer.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-e4593f9992ce50f859365ff020755d0ed8402ed1 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> print(int('00100001', 2))
    2 33
 ```
@@ -41,9 +46,9 @@ To integer.
 
 To hex string. Note that you don\'t need to use x8 bits.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-47a8935f37baae76347ad75d20c61f2ea9f93e8e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> print("0x%x" % int('11111111', 2))
    2 0xff
    3 >>> print("0x%x" % int('0110110110', 2))
@@ -56,9 +61,9 @@ To hex string. Note that you don\'t need to use x8 bits.
 
 To character. 8 bits max.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-fccf2d517048b50675812f67e5eb2923126b3651 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> chr(int('111011', 2))
    2 ';'
    3 >>> chr(int('1110110', 2))
@@ -71,9 +76,9 @@ To character. 8 bits max.
 
 Characters to integers, but not to strings of 1\'s and 0\'s.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-61435dd77ad66f291a7772ddd768cb35446dbda2 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> int('01110101', 2)
    2 117
    3 >>> chr(int('01110101', 2))
@@ -86,9 +91,9 @@ Characters to integers, but not to strings of 1\'s and 0\'s.
 
 Individual bits.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-49ae8bfa05a9fea2b956363f9f9837d763bac0d6 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> 1 << 0
    2 1
    3 >>> 1 << 1
@@ -109,7 +114,7 @@ Individual bits.
 :::
 ::::
 
-## Transformations Summary {#Transformations_Summary}
+## Transformations Summary 
 
 Strings to Integers:
 
@@ -133,13 +138,13 @@ Integers to Strings:
 
 We are still left without a technique for producing binary strings, and decyphering hex strings.
 
-## Hex String to Integer {#Hex_String_to_Integer}
+## Hex String to Integer 
 
 Use the int type with the base argument:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-fab8e2d7b9945991f3f8337648b09506103c33cf dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> int('0xff',16)
    2 255
    3 >>> int('d484fa894e',16)
@@ -150,13 +155,13 @@ Use the int type with the base argument:
 
 Do not use alternatives that utilize eval. eval will execute code passed to it and can thus compromise the security of your program.
 
-## Integer to Bin String {#Integer_to_Bin_String}
+## Integer to Bin String 
 
 Python 3 supports binary literals (e.g. 0b10011000) and has a bin() function. For older versions:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-0c526863e5a3b7cf40d5fcbdb042bf62350f7b27 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> def bin(a):
    2         s=''
    3         t={'0':'000','1':'001','2':'010','3':'011',
@@ -170,16 +175,16 @@ Python 3 supports binary literals (e.g. 0b10011000) and has a bin() function. Fo
 
 or better:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f6b7b170c951d9e8c394adb1891731f017271057 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def bin(s):
    2     return str(s) if s<=1 else bin(s>>1) + str(s&1)
 ```
 :::
 ::::
 
-## Python Integers {#Python_Integers}
+## Python Integers 
 
 From \"The Python Language Reference\" page on the Data Model:
 
@@ -193,11 +198,11 @@ The number of the highest bit set is the highest power of 2 less than or equal t
 
 In versions before 3.1, the easiest way to determine the highest bit set is\*:
 
-\* There is a long discussion on this topic, and why this method is not good, in \"Issue 3439\" at Python.org: [http://bugs.python.org/issue3439](http://bugs.python.org/issue3439){.http} This discussion led up to the addition of bit_length() in Python 3.1.
+\* There is a long discussion on this topic, and why this method is not good, in \"Issue 3439\" at Python.org: [http://bugs.python.org/issue3439](http://bugs.python.org/issue3439) This discussion led up to the addition of bit_length() in Python 3.1.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-cefe734dfd2fafec9b326a52e5d6a3ead58b79eb dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import math
    2 
    3 hiBit = math.floor(math.log(int_type, 2))
@@ -205,19 +210,19 @@ In versions before 3.1, the easiest way to determine the highest bit set is\*:
 :::
 ::::
 
-An input less than or equal to 0 results in a \"[ValueError](./ValueError.html){.nonexistent}: math domain error\"
+An input less than or equal to 0 results in a \"[ValueError](./ValueError.html): math domain error\"
 
 The section \"Finding integer log base 2 of an integer\" on the \"Bit Twiddling Hacks\"(ref.1) web page includes a number of methods for determining this value for integers of known magnitude, presumably when no math coprocessor is available. The only method generally applicable to Python integers of unknown magnitude is the \"obvious way\" of counting the number of bitwise shift operations needed to reduce the input to 0.
 
-### Bit Length Of a Python Integer {#Bit_Length_Of_a_Python_Integer}
+### Bit Length Of a Python Integer 
 
 bitLen() counts the actual bit length of a Python integer, that is, the number of the highest non-zero bit *plus 1*. Zero, with no non-zero bit, returns 0. As should be expected from the quote above about \"the illusion of an infinite string of sign bits extending to the left,\" a negative number throws the computer into an infinite loop.
 
 The function can return any result up to the length of the largest integer your computer\'s memory can hold.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f1ba5374cee1542d4d1e04d633c496f7d6cc83d2 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def bitLen(int_type):
    2     length = 0
    3     while (int_type):
@@ -235,13 +240,13 @@ The function can return any result up to the length of the largest integer your 
 
 The method using the math module is much faster, especially on huge numbers with hundreds of decimal digits.
 
-### bitLenCount() {#bitLenCount.28.29}
+### bitLenCount() 
 
 In common usage, the \"bit count\" of an integer is the number of set (1) bits, not the bit length of the integer described above. bitLen() can be modified to also provide the count of the number of set bits in the integer. There are faster methods to get the count below.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c78d89ff5d0699c43296b19c2dbf70a3f3397b5d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def bitLenCount(int_type):
    2     length = 0
    3     count = 0
@@ -254,11 +259,11 @@ In common usage, the \"bit count\" of an integer is the number of set (1) bits, 
 :::
 ::::
 
-## Operations on Integers of Unknown Magnitude {#Operations_on_Integers_of_Unknown_Magnitude}
+## Operations on Integers of Unknown Magnitude 
 
 Some procedures don\'t need to know the magnitude of an integer to give meaningful results.
 
-### bitCount() {#bitCount.28.29}
+### bitCount() 
 
 The procedure and the information below were found in \"Bit Twiddling Hacks\"(ref.1)
 
@@ -266,9 +271,9 @@ The procedure and the information below were found in \"Bit Twiddling Hacks\"(re
 
 Counting bits set, Brian Kernighan\'s way\*
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-629d67c7c6d0a5bd0f72ad3f1434c9058539bcf4 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 unsigned int v;          // count the number of bits set in v
    2 unsigned int c;          // c accumulates the total bits set in v
    3 for (c = 0; v; c++)
@@ -289,9 +294,9 @@ Kernighan and Knuth, potent endorsements!
 
 This works because each subtraction \"borrows\" from the lowest 1-bit. For example:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1ed43f201b4dbb84dbb5552104bdde79171a184c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #       loop pass 1                 loop pass 2
    2 #      101000     101000           100000     100000
    3 #    -   #!python
@@ -304,9 +309,9 @@ This works because each subtraction \"borrows\" from the lowest 1-bit. For examp
 
 It is an excellent technique for Python, since the size of the integer need not be determined beforehand.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8a4270f706bae502366d3d0db78ac93aad6ac04a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def bitCount(int_type):
    2     count = 0
    3     while(int_type):
@@ -317,15 +322,15 @@ It is an excellent technique for Python, since the size of the integer need not 
 :::
 ::::
 
-### parityOf() {#parityOf.28.29}
+### parityOf() 
 
 From \"Bit Twiddling Hacks\"
 
 Code almost identical to bitCount(), above, calculates the parity of an integer, returning 0 if there are an even number of set bits, and -1 if there are an odd number. In fact, counting the bits and checking whether the result is odd with **bitcount & 1** is about the same speed as the parity function.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-5c7783acf7e2b7db73c5797b910b4b7569c471b5 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def parityOf(int_type):
    2     parity = 0
    3     while (int_type):
@@ -336,13 +341,13 @@ Code almost identical to bitCount(), above, calculates the parity of an integer,
 :::
 ::::
 
-### lowestSet() {#lowestSet.28.29}
+### lowestSet() 
 
 To determine the bit number of the *lowest* bit set in an integer, in twos-complement notation **i & -i** zeroes all but the lowest set bit. The bitLen() proceedure then determines its position. Obviously, negative numbers return the same result as their opposite. In this version, an input of 0 returns -1, in effect an error condition.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-425ec5715ee0052d194415b377bb5080f04b53e3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 For example:
    2 #    00111000     # 56
    3 #    11001000     # twos complement, -56
@@ -351,9 +356,9 @@ To determine the bit number of the *lowest* bit set in an integer, in twos-compl
 :::
 ::::
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1178cf9396649a083ba51ba10623f1cd266908f9 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def lowestSet(int_type):
    2     low = (int_type & -int_type)
    3     lowBit = -1
@@ -365,13 +370,13 @@ To determine the bit number of the *lowest* bit set in an integer, in twos-compl
 :::
 ::::
 
-### Single bits {#Single_bits}
+### Single bits 
 
 The usual single-bit operations will work on any Python integer. It is up to the programmer to be sure that the value of \'offset\' makes sense in the context of the program.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-5fce4654beefd606e811773a32c8e7111c1b369f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # testBit() returns a nonzero result, 2**offset, if the bit at 'offset' is one.
    2 
    3 def testBit(int_type, offset):
@@ -399,13 +404,13 @@ The usual single-bit operations will work on any Python integer. It is up to the
 :::
 ::::
 
-## Bit fields, e.g. for communication protocols {#Bit_fields.2C_e.g._for_communication_protocols}
+## Bit fields, e.g. for communication protocols 
 
 If you need to interpret individual bits in some data, e.g. a byte stream in a communications protocol, you can use the ctypes module.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-007138d29004bd2b820fedfdbbd7ba99fcce9e22 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import ctypes
    2 c_uint8 = ctypes.c_uint8
    3 
@@ -437,9 +442,9 @@ If you need to interpret individual bits in some data, e.g. a byte stream in a c
 :::
 ::::
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a2e6db15f9f4e6cbbf719b444e981f2b2945b3c8 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> 
    2 logout: 0
    3 logout: 0
@@ -450,35 +455,34 @@ If you need to interpret individual bits in some data, e.g. a byte stream in a c
 :::
 ::::
 
-## References {#References}
+## References 
 
 ref.1. \"Bit Twiddling Hacks\" By Sean Eron Anderson
 
-- [http://graphics.stanford.edu/\~seander/bithacks.html](http://graphics.stanford.edu/~seander/bithacks.html){.http}
+- [http://graphics.stanford.edu/\~seander/bithacks.html](http://graphics.stanford.edu/~seander/bithacks.html)
 
 ref.2. \"The Art of Assembly Language\" by Randall Hyde
 
-- [http://webster.cs.ucr.edu/AoA/index.html](http://webster.cs.ucr.edu/AoA/index.html){.http} Volume 4, Chapter 5 \"Bit Manipulation\"
+- [http://webster.cs.ucr.edu/AoA/index.html](http://webster.cs.ucr.edu/AoA/index.html) Volume 4, Chapter 5 \"Bit Manipulation\"
 
 ref.3. Hacker\'s Delight
 
-- [http://www.hackersdelight.org/](http://www.hackersdelight.org/){.http}
+- [http://www.hackersdelight.org/](http://www.hackersdelight.org/)
 
-## Research Links {#Research_Links}
+## Research Links 
 
 this is the sort of thing we\'re looking for:
 
-- [https://code.activestate.com/recipes/113799-bit-field-manipulation/](https://code.activestate.com/recipes/113799-bit-field-manipulation/){.https} (in Python 2 syntax).
+- [https://code.activestate.com/recipes/113799-bit-field-manipulation/](https://code.activestate.com/recipes/113799-bit-field-manipulation/) (in Python 2 syntax).
 
 related modules:
 
-- [array module](http://www.python.org/doc/current/lib/module-array.html){.http} \-- (issued with Python)
+- [array module](http://www.python.org/doc/current/lib/module-array.html) \-- (issued with Python)
 
-- [struct module](http://www.python.org/doc/current/lib/module-struct.html){.http} \-- (issued with Python)
+- [struct module](http://www.python.org/doc/current/lib/module-struct.html) \-- (issued with Python)
 
-- [binascii module](http://www.python.org/doc/current/lib/module-binascii.html){.http} \-- (issued with Python)
+- [binascii module](http://www.python.org/doc/current/lib/module-binascii.html) \-- (issued with Python)
 
-- [pySerial module](http://pyserial.sourceforge.net/){.http} \-- access the serial port
+- [pySerial module](http://pyserial.sourceforge.net/) \-- access the serial port
 
 see also: [BitwiseOperators](BitwiseOperators)
-:::::::::::::::::::::::::::::::::::::::::::

@@ -1,7 +1,12 @@
 # CategoryPyCon2009
 
-:::: {#content dir="ltr" lang="en"}
-# Pages Related to PyCon 2009 {#Pages_Related_to_PyCon_2009}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Pages Related to PyCon 2009 
 
 ::: searchresults
 1.  [Birds of a Feather](./Birds(20)of(20)a(20)Feather.html?highlight=%28CategoryPyCon2009%29)
@@ -21,4 +26,3 @@
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon)
-::::

@@ -1,13 +1,18 @@
 # Django
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 A framework for [WebProgramming](WebProgramming).
 
-### Masthead {#Masthead}
+### Masthead 
 
 URL
 
-:   [https://www.djangoproject.com/](https://www.djangoproject.com/){.https}
+:   [https://www.djangoproject.com/](https://www.djangoproject.com/)
 
 version
 :   1.6.2
@@ -22,41 +27,41 @@ Python versions
 
 :   \>= 2.6
 
-### Deployment Platforms {#Deployment_Platforms}
+### Deployment Platforms 
 
 mod_python is preferred, but it has full WSGI support, so it can run with FCGI, etc. It also comes with a standalone Web server for development purposes.
 
-### Suitability {#Suitability}
+### Suitability 
 
 Django was originally developed and mainly used for content management, but its rich features \-- templating, and automatic generation of database, database access layer, and admin interface generation from a model description given in straight python code \-- are useful in other kinds of web applications.
 
-### URL dispatching {#URL_dispatching}
+### URL dispatching 
 
 URLs are mapped to request handler functions using simple regular expressions. A regex may capture parts of the URL, which are then passed to the function as arguments.
 
-### Environment Access {#Environment_Access}
+### Environment Access 
 
-Django creates an [HttpRequest](./HttpRequest.html){.nonexistent} object that contains metadata about the request. This is automatically passed to the function that the URL is mapped to, and gets to create the response.
+Django creates an [HttpRequest](./HttpRequest.html) object that contains metadata about the request. This is automatically passed to the function that the URL is mapped to, and gets to create the response.
 
-### Session, Identification and Authentication {#Session.2C_Identification_and_Authentication}
+### Session, Identification and Authentication 
 
 Sessions are propagated using cookies, the session data stored in a dictionary within the request object. Identification / Authentication: For each application, a pretty sophisticated admin interface is generated that knows about superusers, groups, users and privileges. Support for normal users registering themselves exists but isn\'t yet documented.
 
-### Persistence Support {#Persistence_Support}
+### Persistence Support 
 
 Django\'s object-relational mapper provides the core of the framework, currently supports PostgreSQL, MySQL, SQLite3, and MSSQL. Django generates production-ready CRUD interfaces from the ORM. The automatic creation of database tables and database abstraction layer from Pythonic model definition is really quite elegant and probably Django\'s most distinctive feature. A very nice feature is that you can still embed SQL in an unobtrusive way within your model\'s methods if you have to, e.g. for complex queries with joins over multiple tables. Thus, the mapper can handle the 90% of the cases that are simple, yet will step aside elegantly where it should.
 
-### Presentation Support {#Presentation_Support}
+### Presentation Support 
 
 Django has a Smarty-like template language. It looks like this:
 
 {% block title %}section.title{% endblock %}
 
-### Documentation {#Documentation}
+### Documentation 
 
 Not 100% complete yet, but what\'s there is phenomenally good. It\'s no coincidence that one of Django\'s lead developers is a professional journalist.
 
-### InTheirOwnWords {#InTheirOwnWords}
+### InTheirOwnWords 
 
 Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
 
@@ -66,23 +71,22 @@ Includes a template system, object-relational mapper and a framework for dynamic
 
 Ruby on Rails is similar to it, but Django is written in Python and has a few more advanced conveniences for super-quick Web development.
 
-Read the [Django overview](https://www.djangoproject.com/overview/){.https}.
+Read the [Django overview](https://www.djangoproject.com/overview/).
 
-### Hosting {#Hosting}
+### Hosting 
 
-See [https://code.djangoproject.com/wiki/DjangoFriendlyWebHosts](https://code.djangoproject.com/wiki/DjangoFriendlyWebHosts){.https}
+See [https://code.djangoproject.com/wiki/DjangoFriendlyWebHosts](https://code.djangoproject.com/wiki/DjangoFriendlyWebHosts)
 
-### Django Jobs and Developers {#Django_Jobs_and_Developers}
+### Django Jobs and Developers 
 
-[The Django Jobs Board](https://djangojobsboard.com/){.https} : \[NOT UP ANYMORE\] The Django Jobs Board was built by members of the Django community *for* the Django community. Unfortunately, the platform was recently shut down.
+[The Django Jobs Board](https://djangojobsboard.com/) : \[NOT UP ANYMORE\] The Django Jobs Board was built by members of the Django community *for* the Django community. Unfortunately, the platform was recently shut down.
 
-[Django Python Jobs and Developers](https://www.djangojobs.org/){.https} [DjangoJobs](./DjangoJobs.html){.nonexistent}.org is for listing permanent or freelance jobs for Django / Python developers,it is also a portal for the Django Python community.
+[Django Python Jobs and Developers](https://www.djangojobs.org/) [DjangoJobs](./DjangoJobs.html).org is for listing permanent or freelance jobs for Django / Python developers,it is also a portal for the Django Python community.
 
-[Fully Remote Django (Python) Jobs](https://django.on-remote.com/){.https} The best resource to find fully remote Django Jobs. Very useful since it\'s 100% free and the jobs are really high quality.
+[Fully Remote Django (Python) Jobs](https://django.on-remote.com/) The best resource to find fully remote Django Jobs. Very useful since it\'s 100% free and the jobs are really high quality.
 
-### Django Packages {#Django_Packages}
+### Django Packages 
 
 List and comparison of Django packages.
 
-[https://djangopackages.com/](https://djangopackages.com/){.https}
-:::
+[https://djangopackages.com/](https://djangopackages.com/)

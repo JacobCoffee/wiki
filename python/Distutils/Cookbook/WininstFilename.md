@@ -1,11 +1,16 @@
 # Distutils/Cookbook/WininstFilename
 
-::: {#content dir="ltr" lang="en"}
-# Problem {#Problem}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Problem 
 
 Windows binary installers often have dependencies on other binary libraries which one would like to include in the filename for the installer such as PyOpenGL-2.0.1-Numpy23.exe
 
-# Solution {#Solution}
+# Solution 
 
 Subclass bdist_wininst to introduce a customisation point for acquiring the filename.
 
@@ -75,11 +80,10 @@ Subclass bdist_wininst to introduce a customisation point for acquiring the file
             file.write(header)
             file.write(open(arcname, "rb").read())
 
-# Discussion {#Discussion}
+# Discussion 
 
 This might be better introduced as part of the core rather than as a seperate recipe, as the customisation point doesn\'t alter the base operation, just provides a hook for the customisation.
 
 ------------------------------------------------------------------------
 
 [CategoryDistutilsCookbook](CategoryDistutilsCookbook)
-:::

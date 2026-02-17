@@ -1,7 +1,12 @@
 # Asking for Help/Why don't my list and generator comprehensions work?
 
-::: {#content dir="ltr" lang="en"}
-# Asking for Help: Why don\'t my list and generator comprehensions work? {#Asking_for_Help:_Why_don.27t_my_list_and_generator_comprehensions_work.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: Why don\'t my list and generator comprehensions work? 
 
 [lwickjr](lwickjr): \[2008-Jul-09\]
 
@@ -58,9 +63,9 @@ Answer from [PaulBoddie](PaulBoddie):
 
 - In the third example, you have to remember that the loops read from left to right, starting with the outermost loop and ending at the innermost. The way to think about this is to move the expression from the beginning to the end and then write the loops out as you normally would:
 
-  :::: {.highlight .python}
-  ::: {.codearea dir="ltr" lang="en"}
-  ``` {#CA-8753c2542830a79ecddadc54518ffb9407ed912e dir="ltr" lang="en"}
+  :::: 
+  ::: 
+  ``` 
      1  os.path.join(S, t) for t in os.listdir(S) for S in Source[1:]
      2 
      3  # becomes...
@@ -83,4 +88,3 @@ Answer from [PaulBoddie](PaulBoddie):
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::

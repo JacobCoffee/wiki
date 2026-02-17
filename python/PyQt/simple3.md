@@ -1,13 +1,18 @@
 # PyQt/simple3
 
-::::: {#content dir="ltr" lang="en"}
-## \"Simple\" Stage 3 {#A.22Simple.22_Stage_3}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## \"Simple\" Stage 3 
 
 Here is listing of the next stage, namely **Stage 3**:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-7027a6b5b898dad8f2c392ab3cffa8c0d848dd75 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #!/usr/bin/env python
    2 # .../simple_1/simple.py
    3 '''A really simple editor program in PyQt4 - simple.py'''
@@ -82,7 +87,7 @@ Here is listing of the next stage, namely **Stage 3**:
 :::
 ::::
 
-We will put this snipped of a code again to [http://akabaila.pcug.org.au/data_sample/](http://akabaila.pcug.org.au/data_sample/){.http} directory and will name it **simple0.0.04.tar.gz.** Please download it and save it for testing the program. This version is a bit longer than that of **Stage 2,** but it is already a fully working program - you start a new document, type the text and save it as **some_file_name;** open a file and edit it and save it with the same name; you can exit the program. Of course, right from the **Stage 0,** the edit window can be resized, the window can be moved to any desired location. The typed part of program is still only some 70 lines long.
+We will put this snipped of a code again to [http://akabaila.pcug.org.au/data_sample/](http://akabaila.pcug.org.au/data_sample/) directory and will name it **simple0.0.04.tar.gz.** Please download it and save it for testing the program. This version is a bit longer than that of **Stage 2,** but it is already a fully working program - you start a new document, type the text and save it as **some_file_name;** open a file and edit it and save it with the same name; you can exit the program. Of course, right from the **Stage 0,** the edit window can be resized, the window can be moved to any desired location. The typed part of program is still only some 70 lines long.
 
 So why don\'t we stop here, pat ourselves on the shoulder for a job well done and retire? Well, to begin with, it is unusual for modern GUIs to only have menus to invoke various actions, so we need some tool bars and populate them with icons that have the same effect as the menu items. Icons will need images and we may as well append those images to the menu items. We also should help the user avoid shooting himself or herself in the foot and warn about destructive actions. So if there is a text in the window that has been altered from the originally loaded source of it and the user requests to open a new file, we should issue a **warning** about it. There probably are other situations that we should draw user attention to.
 
@@ -99,4 +104,3 @@ Yes, **ui_simple.py** is full of useful information, but the code should not be 
 A plea to you all - if you visit this tutorial, please drop a line to me at the following address: **akabaila\[at\]pcug\[dot\]org\[dot\]au.** It would be great if you would kindly report any glitches that you encounter - that\'s what open source software is all about! Thank you.
 
 [Return Home](./PyQt(2f)simple.html)
-:::::

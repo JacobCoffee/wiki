@@ -1,9 +1,14 @@
 # EuroPython/2007/IrcMeetings/IrcMeeting5
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #5 {#IRC_Meeting_.235}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Minutes {#Minutes}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# IRC Meeting #5 
+
+## Minutes 
 
 (From an incomplete IRC log - thanks a lot, X-Chat!)
 
@@ -16,7 +21,7 @@
 
   - The CFP should be sent to europython-announce.
 
-  - Armin and the [PyPy](PyPy) people could mention [EuroPython](EuroPython) at [RuPy](./RuPy.html){.nonexistent}.
+  - Armin and the [PyPy](PyPy) people could mention [EuroPython](EuroPython) at [RuPy](./RuPy.html).
 
   - Bea suggested contacting ZEA in order to get the word around in the Zope community.
 
@@ -53,11 +58,11 @@
 - A time limit of one hour was suggested for subsequent meetings.
 - Next meeting was suggested for Monday 16th April.
 
-## Time/Location {#Time.2FLocation}
+## Time/Location 
 
 The meeting will take place on Monday 2nd of April (2007-04-02) 18:00 CEST (17:00 BST, 16:00 UTC/GMT) in the #europython channel on freenode.net. *That\'s 5pm UK time, 6pm in most of Western Europe.*
 
-## Agenda {#Agenda}
+## Agenda 
 
 No agenda yet. Suggestions:
 
@@ -68,9 +73,8 @@ No agenda yet. Suggestions:
 - Sponsorship. Any motion here?
   - [EuroPython](EuroPython) sponsorship has become fairly unobtrusive: Web site banners, some promotional activity at the conference.
 
-  - In contrast, [PyCon](PyCon) has maintained the previous \"sophisticated\" sponsorship plans: [http://us.pycon.org/TX2007/HowToSponsor](http://us.pycon.org/TX2007/HowToSponsor){.http}
+  - In contrast, [PyCon](PyCon) has maintained the previous \"sophisticated\" sponsorship plans: [http://us.pycon.org/TX2007/HowToSponsor](http://us.pycon.org/TX2007/HowToSponsor)
 
   - Some resistance to promotional keynotes and lightning talks is detectable in the [PyCon](PyCon) feedback: [PyCon2007/Feedback/Comments](./PyCon2007(2f)Feedback(2f)Comments.html)
 
   - Perhaps a dialogue with potential sponsors is better than the usual bronze/silver/gold categories.
-:::

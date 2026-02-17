@@ -1,6 +1,11 @@
 # PythonBooks
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 There are a variety of books about Python. Here\'s a guide to them:
 
 - [IntroductoryBooks](IntroductoryBooks) (gentle overviews of the language)
@@ -65,11 +70,10 @@ There\'s also a [Courses](Courses) page, filled with links to video courses.
 
 External sources of information about (Python) books:
 
-- [PythonBooks.org](https://pythonbooks.org){.https} - A collection of Python books featuring popularity based ranking.
+- [PythonBooks.org](https://pythonbooks.org) - A collection of Python books featuring popularity based ranking.
 
-- [101+ Free Python Books](https://blog.finxter.com/free-python-books/){.https} - You don\'t have to pay money to read great Python books. Many are free!
+- [101+ Free Python Books](https://blog.finxter.com/free-python-books/) - You don\'t have to pay money to read great Python books. Many are free!
 
-- [Python Kindle & Paperback Collection](https://www.w3basic.com/python/python-books/){.https} - A good collection of Kindle and Paperback books on Python 3, Django, Flask, FastAPI, and Scientific Computing ([NumPy](NumPy), [SciPy](SciPy), and Pandas)
+- [Python Kindle & Paperback Collection](https://www.w3basic.com/python/python-books/) - A good collection of Kindle and Paperback books on Python 3, Django, Flask, FastAPI, and Scientific Computing ([NumPy](NumPy), [SciPy](SciPy), and Pandas)
 
 There is also a list of [OutOfPrintBooks](OutOfPrintBooks).
-:::

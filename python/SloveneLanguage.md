@@ -1,7 +1,12 @@
 # SloveneLanguage
 
-::: {#content dir="ltr" lang="en"}
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -25,9 +30,8 @@ ISO 639-1 Code: sl
 
 **slovenščina**
 
-[forum thread](http://www.fri-info.net/forum/viewtopic.php?f-5&t-14144&p=160475){.http} - looks like a debate about programming languages, but lots of nifty code snippets with explanations in Slovene.
+[forum thread](http://www.fri-info.net/forum/viewtopic.php?f-5&t-14144&p=160475) - looks like a debate about programming languages, but lots of nifty code snippets with explanations in Slovene.
 
-[Wikipedia - Python stub](http://sl.wikipedia.org/wiki/Python){.http}
+[Wikipedia - Python stub](http://sl.wikipedia.org/wiki/Python)
 
 [CategoryLanguage](CategoryLanguage)
-:::

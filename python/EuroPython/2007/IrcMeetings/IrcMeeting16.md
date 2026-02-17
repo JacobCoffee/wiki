@@ -1,13 +1,18 @@
 # EuroPython/2007/IrcMeetings/IrcMeeting16
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #16 {#IRC_Meeting_.2316}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Time/Location {#Time.2FLocation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# IRC Meeting #16 
+
+## Time/Location 
 
 The meeting will take place on Monday 25th June (2007-06-25) 18:00 CEST (17:00 BST, 16:00 UTC/GMT) in the #europython channel on freenode.net. *That\'s 5pm UK time, 6pm in most of Western Europe.* The suggested duration of the meeting is at most *one hour*.
 
-## Minutes {#Minutes}
+## Minutes 
 
 - Timetable
   - Talk slots were \"decided long ago\" to be 30 minutes long
@@ -21,11 +26,11 @@ The meeting will take place on Monday 25th June (2007-06-25) 18:00 CEST (17:00 B
 
 - No observations or objections were made to exhibitors selling products
 
-- Paul will make an end of online registration announcement ([/EuroPython/2007/FinalCallForRegistration](./EuroPython(2f)2007(2f)IrcMeetings(2f)IrcMeeting16(2f)EuroPython(2f)2007(2f)FinalCallForRegistration.html){.nonexistent})
+- Paul will make an end of online registration announcement ([/EuroPython/2007/FinalCallForRegistration](./EuroPython(2f)2007(2f)IrcMeetings(2f)IrcMeeting16(2f)EuroPython(2f)2007(2f)FinalCallForRegistration.html))
 
-## Agenda {#Agenda}
+## Agenda 
 
-- [Timetable](http://www.europython.org/timetable){.http}
+- [Timetable](http://www.europython.org/timetable)
 
   - Times and durations (length of talks, breaks, sessions)
   - Content (more talks, panels, Open Space ideas?)
@@ -38,4 +43,3 @@ The meeting will take place on Monday 25th June (2007-06-25) 18:00 CEST (17:00 B
 - Exhibitor interest and questions
 
 - Announcements (end of online registration, sponsors, keynotes, a combination?)
-:::

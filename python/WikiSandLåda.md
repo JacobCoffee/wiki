@@ -1,13 +1,18 @@
 # WikiSandLåda
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Här kan du experimentera med att göra ändringar. Börja efter de fyra strecken längre ner. Snälla, skapa **INTE** nya sidor utan meningsfullt innehåll bara för att prova.
 
 **Tips:** Shift-clicka \"[HelpOnEditing](HelpOnEditing)\" för att öppna ett extra fönster med en hjälpsida.
 
 ------------------------------------------------------------------------
 
-## Formattering {#Formattering}
+## Formattering 
 
 *kursiv* **fetstil** `skrivmaskinsstil`
 
@@ -15,17 +20,17 @@ Här kan du experimentera med att göra ändringar. Börja efter de fyra strecke
 
     förformatterat
 
-## Länkar {#L.2BAOQ-nkar}
+## Länkar 
 
-[HelpOnEditing](HelpOnEditing) [InterWiki](http://moinmo.in/InterWiki "MoinMoin"){.interwiki}
+[HelpOnEditing](HelpOnEditing) [InterWiki](http://moinmo.in/InterWiki "MoinMoin")
 
-[http://purl.net/wiki/moin/](http://purl.net/wiki/moin/){.http} [Python](http://www.python.org/){.http}
+[http://purl.net/wiki/moin/](http://purl.net/wiki/moin/) [Python](http://www.python.org/)
 
-[someone@the.inter.net](mailto:someone@the.inter.net){.mailto}
+[someone@the.inter.net](mailto:someone@the.inter.net)
 
-## Listor {#Listor}
+## Listor 
 
-### Med svart prick {#Med_svart_prick}
+### Med svart prick 
 
 - första
   1.  nested och numrerade
@@ -33,16 +38,16 @@ Här kan du experimentera med att göra ändringar. Börja efter de fyra strecke
 - andra blockcitat
   - djupare
 
-### Ordlista {#Ordlista}
+### Ordlista 
 
 Term
 :   Definition
 
-### Blandade tester {#Blandade_tester}
+### Blandade tester 
 
 [SidStorlek](SidStorlek)
 
-### Våra små försök {#V.2BAOU-ra_sm.2BAOU_f.2BAPY-rs.2BAPY-k}
+### Våra små försök 
 
 Här är en liten demonstration av vad man kan göra Man kan skriva i *kursiv* och **fetstil** När man skriver finns det olika punkter man kan tänka på
 
@@ -52,5 +57,4 @@ Här är en liten demonstration av vad man kan göra Man kan skriva i *kursiv* o
     - det kan vara opraktiskt ibland
 3.  Det här är sista punkten
 
-##### Ett ministycke {#Ett_ministycke}
-:::
+##### Ett ministycke 

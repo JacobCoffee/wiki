@@ -1,6 +1,10 @@
 # HungarianPythonBooks
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
 ------------------------------------------------------------------------
 
@@ -16,9 +20,9 @@ Kiadó: Deuteron Kft.
 
 Forma: e-könyv
 
-[https://play.google.com/store/books/details?id=KpGCEQAAQBAJ](https://play.google.com/store/books/details?id=KpGCEQAAQBAJ){.https}
+[https://play.google.com/store/books/details?id=KpGCEQAAQBAJ](https://play.google.com/store/books/details?id=KpGCEQAAQBAJ)
 
-(A könyv internet kapcsolat nélkül is olvasható az alábbi linken található útmutató szerint: [https://support.google.com/googleplay/answer/179863?hl=hu&co=GENIE.Platform%3DDesktop&oco=0](https://support.google.com/googleplay/answer/179863?hl=hu&co=GENIE.Platform%3DDesktop&oco=0){.https} )
+(A könyv internet kapcsolat nélkül is olvasható az alábbi linken található útmutató szerint: [https://support.google.com/googleplay/answer/179863?hl=hu&co=GENIE.Platform%3DDesktop&oco=0](https://support.google.com/googleplay/answer/179863?hl=hu&co=GENIE.Platform%3DDesktop&oco=0) )
 
 ------------------------------------------------------------------------
 
@@ -32,7 +36,7 @@ Kiadás éve: 2020
 
 EPUB formátumban
 
-[https://eutlantis.k2os.hu/books](https://eutlantis.k2os.hu/books){.https}
+[https://eutlantis.k2os.hu/books](https://eutlantis.k2os.hu/books)
 
 ------------------------------------------------------------------------
 
@@ -46,7 +50,7 @@ Kiadás éve: 2020
 
 Kiadó: Panem Kiadó
 
-[https://panem.hu/webshop/informatika-szamitastechnika/szoftverfejleszt%C3%A9s-okosan-pythonnal-agilis-csapatok-k%C3%B6z%C3%B6s-nyelve-detail](https://panem.hu/webshop/informatika-szamitastechnika/szoftverfejleszt%C3%A9s-okosan-pythonnal-agilis-csapatok-k%C3%B6z%C3%B6s-nyelve-detail){.https}
+[https://panem.hu/webshop/informatika-szamitastechnika/szoftverfejleszt%C3%A9s-okosan-pythonnal-agilis-csapatok-k%C3%B6z%C3%B6s-nyelve-detail](https://panem.hu/webshop/informatika-szamitastechnika/szoftverfejleszt%C3%A9s-okosan-pythonnal-agilis-csapatok-k%C3%B6z%C3%B6s-nyelve-detail)
 
 ------------------------------------------------------------------------
 
@@ -58,7 +62,7 @@ A kezdő lépésektől a középhaladó szintig közel 370 oldalon. Ingyen letö
 
 Kiadás éve: eredeti: 2012., magyar fordítás: 2018
 
-[https://mtmi.unideb.hu/course/view.php?id=9](https://mtmi.unideb.hu/course/view.php?id=9){.https}
+[https://mtmi.unideb.hu/course/view.php?id=9](https://mtmi.unideb.hu/course/view.php?id=9)
 
 ------------------------------------------------------------------------
 
@@ -70,7 +74,7 @@ Néhány kidolgozott feladat és az elemi programozási tételek PDF formátumú
 
 Kiadás éve: 2016
 
-[https://eutlantis.k2os.hu/infoktatas/erettsegi](https://eutlantis.k2os.hu/infoktatas/erettsegi){.https}
+[https://eutlantis.k2os.hu/infoktatas/erettsegi](https://eutlantis.k2os.hu/infoktatas/erettsegi)
 
 ------------------------------------------------------------------------
 
@@ -81,9 +85,9 @@ Kiadás éve: 2016
 
 Kiadás éve: 2017
 
-[http://harp.pythonanywhere.com/python_doc/tutorial/index.html](http://harp.pythonanywhere.com/python_doc/tutorial/index.html){.http}
+[http://harp.pythonanywhere.com/python_doc/tutorial/index.html](http://harp.pythonanywhere.com/python_doc/tutorial/index.html)
 
-(Az eredeti angol itt található: [https://docs.python.org/3/tutorial/index.html](https://docs.python.org/3/tutorial/index.html){.https} )
+(Az eredeti angol itt található: [https://docs.python.org/3/tutorial/index.html](https://docs.python.org/3/tutorial/index.html) )
 
 ------------------------------------------------------------------------
 
@@ -93,7 +97,7 @@ Kiadás éve: 2017
 
 Kiadás éve: 2009
 
-[http://www.kiskapu.hu/konyvek/python-3-programozas/](http://www.kiskapu.hu/konyvek/python-3-programozas/){.http}
+[http://www.kiskapu.hu/konyvek/python-3-programozas/](http://www.kiskapu.hu/konyvek/python-3-programozas/)
 
 ------------------------------------------------------------------------
 
@@ -105,7 +109,7 @@ Kiadás éve: 2009
 
 Kiadás éve: 2006
 
-[http://pythontutorial.pergamen.hu/](http://pythontutorial.pergamen.hu/){.http}
+[http://pythontutorial.pergamen.hu/](http://pythontutorial.pergamen.hu/)
 
 ------------------------------------------------------------------------
 
@@ -117,7 +121,7 @@ Kiadás éve: 2006
 
 Kiadás éve: 2005
 
-[http://mek.oszk.hu/08400/08435/08435.pdf](http://mek.oszk.hu/08400/08435/08435.pdf){.http}
+[http://mek.oszk.hu/08400/08435/08435.pdf](http://mek.oszk.hu/08400/08435/08435.pdf)
 
 Gérard Swinnen könyve pedagógiailag átgondolt, rendkívül logikus bevezetés a Python programozási nyelvbe. Viszonylag kis terjedelme ellenére számos alkalmazási területre ad rálátást a példaprogramok és alapos elemzésük segítségével. A könyv szerves részét képezik a példák, illetve a külön is letölthető működő példaprogramok.
 
@@ -133,7 +137,7 @@ A fordítással egy középiskolai tanításra alkalmas kiváló könyv vált ma
 
 Kiadás éve: 2006
 
-[http://mek.oszk.hu/08400/08436/](http://mek.oszk.hu/08400/08436/){.http}
+[http://mek.oszk.hu/08400/08436/](http://mek.oszk.hu/08400/08436/)
 
 ------------------------------------------------------------------------
 
@@ -143,5 +147,4 @@ Kiadás éve: 2006
 
 Kiadás éve: 2008
 
-[http://kiskapukiado.hu](http://kiskapukiado.hu){.http}
-:::
+[http://kiskapukiado.hu](http://kiskapukiado.hu)

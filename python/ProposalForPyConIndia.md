@@ -1,7 +1,12 @@
 # ProposalForPyConIndia
 
-::: {#content dir="ltr" lang="en"}
-# Proposal for PyCon India {#Proposal_for_PyCon_India}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Proposal for PyCon India 
 
 [PyCon](PyCon) is a global community event. We intend to have an Indian edition of the same, in association with [BangPypers](BangPypers). The idea is to have all pythonistas from around the country come together and have a good fun pythonic time. The general outline is something as follows:
 
@@ -11,7 +16,7 @@
 - Lightning Talks
 - Programming Sprints
 
-## TODO List {#TODO_List}
+## TODO List 
 
 - Contact David Goodger of PSF to express the idea for an Indian edition of the conference, and for using the [PyCon](PyCon) title. (Ramakrishna Reddy)
 
@@ -44,25 +49,25 @@
 
 - Create one website with event details and co-ordinating proposals. May be use the same code used by [PyCon](PyCon) ?
 
-# Community Discussion {#Community_Discussion}
+# Community Discussion 
 
-## Decisions to be made {#Decisions_to_be_made}
+## Decisions to be made 
 
 Please add your name to what you have to say, and try not to edit the opinions of others, you may reorder them though, I guess. \-- [RoshanMathews](RoshanMathews)
 
-### Budgets/Sponsorship/Travel {#Budgets.2FSponsorship.2FTravel}
+### Budgets/Sponsorship/Travel 
 
 - Speaker travel sponsorship : International speakers (may) need travel funding. \[svaksha\]
 - Local speakers : Budgets/sponsorship for local (other cities) speakers travel and stay ? \[svaksha\]
 - Conf entry : Is it free or will attendees be charged? This is not mentioned explicitly. \[svaksha\]
 
-### Target audience {#Target_audience}
+### Target audience 
 
 We have to decide who the target audience is, or at least the types of different targets. Make tracks accordingly.
 
-## Opinions {#Opinions}
+## Opinions 
 
-### Anand B Pillai (abpillai at gmail dot com) {#Anand_B_Pillai_.28abpillai_at_gmail_dot_com.29}
+### Anand B Pillai (abpillai at gmail dot com) 
 
 - [PyCon](PyCon) India should be a conference, not an unconference.
 
@@ -74,7 +79,7 @@ We have to decide who the target audience is, or at least the types of different
 
 - Dates for forming a draft formal proposal ? - This is required for even approaching someone for sponsorship. I suggest creating one in 3 months. I can take the lead in this. Let me know who else will be interested in working on the proposal.
 
-### Noufal Ibrahim (noufal at nibrahim dot net dot in) {#Noufal_Ibrahim_.28noufal_at_nibrahim_dot_net_dot_in.29}
+### Noufal Ibrahim (noufal at nibrahim dot net dot in) 
 
 - I can get probably help to get a draft for the \'formal proposal\' ready along with someone else. I think it should be possible to create a first draft in a week or so. If anyone has any pointers, please send them to me.
 
@@ -82,7 +87,7 @@ We have to decide who the target audience is, or at least the types of different
 
 - I\'m not so sure about September anymore. [ConventionHowto](ConventionHowto) indicates a much longer planning period. We need to discuss this.
 
-### Parthan (python dot technofreak at gmail dot com) {#Parthan_.28python_dot_technofreak_at_gmail_dot_com.29}
+### Parthan (python dot technofreak at gmail dot com) 
 
 - +1 for September, but that means we have to start the publicity measures soon
 
@@ -92,17 +97,17 @@ We have to decide who the target audience is, or at least the types of different
 
 - We should also involve all known companies who run as a python shop to increase the awareness within local communities.
 
-- A conference w/o tee is like having a south Indian meal w/o pickle. At least we can have pay for your tees or have delegate fees with and without goodies ![;-)](/wiki/europython/img/smile4.png ";-)"){height="16" width="16"}
+- A conference w/o tee is like having a south Indian meal w/o pickle. At least we can have pay for your tees or have delegate fees with and without goodies ![;-)](/wiki/europython/img/smile4.png ";-)")
 
-- If we consider [ConventionHowto](ConventionHowto) , we have 18 months to September 2010 ![;-)](/wiki/europython/img/smile4.png ";-)"){height="16" width="16"}
+- If we consider [ConventionHowto](ConventionHowto) , we have 18 months to September 2010 ![;-)](/wiki/europython/img/smile4.png ";-)")
 
-### Venkat (venkat83 at gmail dot com) {#Venkat_.28venkat83_at_gmail_dot_com.29}
+### Venkat (venkat83 at gmail dot com) 
 
 - +1 for a \'dedicated\' event.
 - Willing to volunteer for proposal, filtering/scheduling the talks.
 - Am not sure about September - as it looks very aggressive.
 
-### Roshan Mathews (rmathews gmail com) {#Roshan_Mathews_.28rmathews_gmail_com.29}
+### Roshan Mathews (rmathews gmail com) 
 
 - Having the conference be a \"[PyCon](PyCon)\" is serious stuff, which can\'t be a damp squib like one of the local meets.
 
@@ -123,7 +128,7 @@ We have to decide who the target audience is, or at least the types of different
 
   - If this idea seems cool, I can elide the rant \"To Tee or Not To\" from above. \-- [RoshanMathews](RoshanMathews)
 
-[Anurag Priyam](http://anurag-priyam.blogspot.com/){.http} (anurag08priyam \[AT\] gmail.com)
+[Anurag Priyam](http://anurag-priyam.blogspot.com/) (anurag08priyam \[AT\] gmail.com)
 
 - wont the month of July be a better time for college students, considering the fact that we want participation of students from all over India.
 - i think we can get some publishing company like TMH to sponsor svaksha\'s idea of giving Python books.
@@ -136,4 +141,3 @@ We have to decide who the target audience is, or at least the types of different
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon) [CategoryPyConIndia2009](CategoryPyConIndia2009)
-:::

@@ -1,7 +1,12 @@
 # MacPython/Authorization
 
-::::: {#content dir="ltr" lang="en"}
-# Authorization {#Authorization}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Authorization 
 
 - Authorization is a Python wrapper for Apple\'s Authorization API. Basically, it allows you to spawn arbitrary processes as root after successfully authenticating as an administrator. This is useful for installers, twiddling kernel settings (via sysctl or the like), etc.
 
@@ -11,9 +16,9 @@ Authorization is currently at its first public release, 0.1.
 
 # examples
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d2fc728a38604278f8dd06b370e4f05ab61bc3e0 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import os, sys, struct, tempfile
    2 from Authorization import Authorization, kAuthorizationFlagDestroyRights
    3 
@@ -44,7 +49,7 @@ Authorization is currently at its first public release, 0.1.
 :::
 ::::
 
-## Leopard {#Leopard}
+## Leopard 
 
 This will not compile directly on Leopard. You will need to change line 14 of Authorization.pxi from \"raise\" to \"raise \_err\".
 
@@ -81,4 +86,3 @@ The following shows a concrete example for using this with Leopard.
     # I'm root!
 
 # homepage
-:::::

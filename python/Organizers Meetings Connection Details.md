@@ -1,6 +1,11 @@
 # Organizers Meetings Connection Details
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Organizers\' meetings use the #pycon IRC channel. To access it from Pidgin:
 
 If you don\'t yet have an IRC protocol account, open the Buddy List window, select menu \"Accounts\" -\> \"Add/Edit\", click the \"Add\" button, then:
@@ -22,5 +27,4 @@ Once you have an account, return to the Buddy List and choose \"Buddies\" -\> \"
 
 ------------------------------------------------------------------------
 
-[CategoryPyConPlanning](CategoryPyConPlanning){.reference .external}
-:::
+[CategoryPyConPlanning](CategoryPyConPlanning)

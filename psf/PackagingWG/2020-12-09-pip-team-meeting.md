@@ -1,6 +1,11 @@
 # PackagingWG/2020-12-09-pip-team-meeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Wednesday 9 Dec
 
 Participants
@@ -16,13 +21,13 @@ Agenda
   - Note to PyPA committers has gone out to start scheduling UX trainings
 
 - \[talking with folks a little about yesterday\'s CZI keynotes and discussions\]
-  - [https://spatial.chat/](https://spatial.chat/){.https}
+  - [https://spatial.chat/](https://spatial.chat/)
 
-  - [http://www.lauradabbish.com/](http://www.lauradabbish.com/){.http}
+  - [http://www.lauradabbish.com/](http://www.lauradabbish.com/)
 
-  - [https://www.diversityinoss.org/](https://www.diversityinoss.org/){.https}
+  - [https://www.diversityinoss.org/](https://www.diversityinoss.org/)
 
-  - [http://2i2c.org/](http://2i2c.org/){.http} \> Chris Holdgraf\'s new initiative for Jupyter environments as infrastructure
+  - [http://2i2c.org/](http://2i2c.org/) \> Chris Holdgraf\'s new initiative for Jupyter environments as infrastructure
 
   - 2 UX interviews done yesterday during unstructured time
     - notes: in a notion page that Sumana is not linking to because it has some private login credentials
@@ -33,11 +38,10 @@ Agenda
 
 - future plans for PSF, hiring/funding, packaging & product management
 
-  - money ![:-(](/wiki/europython/img/sad.png ":-("){height="16" width="16"} this year ![:-(](/wiki/europython/img/sad.png ":-("){height="16" width="16"}
+  - money ![:-(](/wiki/europython/img/sad.png ":-(") this year ![:-(](/wiki/europython/img/sad.png ":-(")
 
   - if we could get a multiyear grant for this that would be awesome
 
   - Simply Secure\'s lessons learned from MOSS work\.... people and projects learn how to think about project & product management
 
     - SustainOSS efforts
-:::

@@ -1,9 +1,14 @@
 # CategoryPythonJobs
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 A category page to hold pages which are related to Python Jobs.
 
-# Pages Related to Python Jobs {#Pages_Related_to_Python_Jobs}
+# Pages Related to Python Jobs 
 
 ::: searchresults
 1.  [**CategoryPythonJobs**](./CategoryPythonJobs.html?highlight=%28CategoryPythonJobs%29)
@@ -15,4 +20,3 @@ A category page to hold pages which are related to Python Jobs.
 ------------------------------------------------------------------------
 
 [CategoryCategory](CategoryCategory)
-::::

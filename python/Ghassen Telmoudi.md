@@ -1,7 +1,12 @@
 # Ghassen Telmoudi
 
-::: {#content dir="ltr" lang="en"}
-## Ghassen Telmoudi {#Ghassen_Telmoudi}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Ghassen Telmoudi 
 
 Email: `<ghassen.telmoudi@gmail.com>`
 
@@ -11,9 +16,8 @@ Unfortunately only few people have heard about python in Tunisia, and that becau
 
 I started a google group called \"Python Tunisia. My objective is creating a Python community in my home counrty Tunisia.
 
-[http://groups.google.com/group/python-tunisia](http://groups.google.com/group/python-tunisia){.http}
+[http://groups.google.com/group/python-tunisia](http://groups.google.com/group/python-tunisia)
 
 ------------------------------------------------------------------------
 
 [CategoryUsergroups](CategoryUsergroups)
-:::

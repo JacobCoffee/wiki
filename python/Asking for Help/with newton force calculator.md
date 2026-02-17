@@ -1,13 +1,18 @@
 # Asking for Help/with newton force calculator
 
-:::::::::: {#content dir="ltr" lang="en"}
-# Asking for Help: with newton force calculator {#Asking_for_Help:_with_newton_force_calculator}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Verables: {#Verables:}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-fe2744776f7edcb20937cd07cb9025c89c174290 dir="ltr" lang="en"}
+# Asking for Help: with newton force calculator 
+
+## Verables: 
+
+:::: 
+::: 
+``` 
 N = newton force,
 M = Mass,
 X = X axis,
@@ -27,11 +32,11 @@ obj = 3D object
 :::
 ::::
 
-## get values from main app: {#get_values_from_main_app:}
+## get values from main app: 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a50b7c4c9e1f6ab33300cfe24cac0d4f3989c0f9 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 obj_Main.M = 3000 MTons,
 obj_thruster is parented to obj_main,
 obj_thruster.X = 10,
@@ -45,17 +50,17 @@ Obj_thruster.N.X = 400 MTons
 :::
 ::::
 
-## calculate acceleration: {#calculate_acceleration:}
+## calculate acceleration: 
 
-### Need help finding code to go here {#Need_help_finding_code_to_go_here}
+### Need help finding code to go here 
 
 the calculator gives me
 
-## out put to main app: {#out_put_to_main_app:}
+## out put to main app: 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3b0d8b023d947fa6c9fdfb3e181c0ea1f404ae42 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 obj_main.XA,
 obj_main.ZA,
 obj_main.YA,
@@ -77,4 +82,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp)
-::::::::::

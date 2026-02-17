@@ -1,6 +1,11 @@
 # NumericAndScientificRecipes
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
     """
     sinc(x) = sin(\pi x) / (\pi x),  if x != 0
             = 1,  if x = 0
@@ -379,7 +384,7 @@
     """
     Convolution of 2 causal signals, x(t<0) = y(t<0) = 0, using discrete
     summation.
-        x*y(t) = \int_{u=0}^t x(u) y(t-u) du = y*x(t)
+        x*y(t) = \int_^t x(u) y(t-u) du = y*x(t)
     where the size of x[], y[], x*y[] are P, Q, N=P+Q-1 respectively.
     """
     def conv(x, y):
@@ -393,7 +398,7 @@
     """
     Correlation of 2 causal signals, x(t<0) = y(t<0) = 0, using discrete
     summation.
-        Rxy(t) = \int_{u=0}^{\infty} x(u) y(t+u) du = Ryx(-t)
+        Rxy(t) = \int_^{\infty} x(u) y(t+u) du = Ryx(-t)
     where the size of x[], y[], Rxy[] are P, Q, N=P+Q-1 respectively.
 
     The Rxy[i] data is not shifted, so relationship with the continuous
@@ -582,4 +587,3 @@
         print "s^2= %g" % ss
 
         return a, b
-:::

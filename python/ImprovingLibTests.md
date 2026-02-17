@@ -1,13 +1,18 @@
 # ImprovingLibTests
 
-::::: {#content dir="ltr" lang="en"}
-This page documents all tests that should be added (or improved) to enhance the Python distribution\'s test suite for the standard library. Checking [Coverage](http://coverage.livinglogic.de/coverage/web/waf.do){.http} to see if there are any tests that could be improved or are missing, would be a real help. Also if you just generally think that a unit test needs improving, please add it here with a list of what could be improved.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+This page documents all tests that should be added (or improved) to enhance the Python distribution\'s test suite for the standard library. Checking [Coverage](http://coverage.livinglogic.de/coverage/web/waf.do) to see if there are any tests that could be improved or are missing, would be a real help. Also if you just generally think that a unit test needs improving, please add it here with a list of what could be improved.
 
 If you feel that you would like to work on a test, please write your name in the \'Volunteer\' column of the table below, alongside the name of the test you wish to work on.
 
 Please try to get all tests in alphabetical order
 
-### New Tests {#New_Tests}
+### New Tests 
 
 ::: {}
   --------------------------------- ---------------
@@ -74,7 +79,7 @@ Please try to get all tests in alphabetical order
   --------------------------------- ---------------
 :::
 
-## Improve Tests {#Improve_Tests}
+## Improve Tests 
 
 ::: {}
   ------------------------ ----------------------------- -----------
@@ -84,4 +89,3 @@ Please try to get all tests in alphabetical order
 :::
 
 \[1\] The current tests for the runpy module don\'t cover the case of running a module from inside a zip file because the normal tests should still run even if the zipfile module isn\'t available. For Python 2.5, testing that runpy works with modules in zip files was done manually instead. To avoid regressions, this should be covered by the unit tests in 2.6. Doing this as a separate test_runpy_zip.py module is probably the easiest way to avoid messing with the results of the tests for normal filesystem based imports.
-:::::

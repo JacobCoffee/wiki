@@ -1,11 +1,16 @@
 # LoadingModulesDynamically
 
-::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 You can load a module dynamically like so:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f476c1e100a564d645fd3329050e4969996bc89d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 __import__("os")
 ```
 :::
@@ -13,9 +18,9 @@ You can load a module dynamically like so:
 
 If you do that, though, \"os\" isn\'t bound to anything.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-fce0b4ef1a9b8d399daf91c0188a4d6d7e7d863b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> __import__("os")
    2 <module 'os' from '/usr/lib/python2.3/os.pyc'>
    3 >>> os
@@ -31,9 +36,9 @@ Once you have the module, you probably want to find classes and functions and da
 
 Use `getattr`:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-5fc07efc65d1c3a54972f90e10c9fe1f450fd42f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> m=__import__("mine")
    2 >>> m
    3 <module 'mine' from 'mine.pyc'>
@@ -44,4 +49,3 @@ Use `getattr`:
 ```
 :::
 ::::
-:::::::::

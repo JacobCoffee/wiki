@@ -1,6 +1,11 @@
 # Zope3Sprint
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This will be a good opportunity to:
 
 - Learn about Zope 3 development
@@ -24,4 +29,3 @@ If you don\'t sign up, you can still come and participate. The sign up is to giv
 ------------------------------------------------------------------------
 
 [CategoryPyCon2005](CategoryPyCon2005)
-:::

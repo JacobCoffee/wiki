@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 from datetime import datetime
 
 project = "Python Wiki"
@@ -22,6 +23,13 @@ exclude_patterns = [
     "**/_attachments",
 ]
 
+# Allow building a single wiki section: WIKI=python|psf|jython
+_wiki_only = os.environ.get("WIKI")
+if _wiki_only:
+    _all_wikis = {"python", "psf", "jython"}
+    for _w in _all_wikis - {_wiki_only}:
+        exclude_patterns.append(f"{_w}/**")
+
 source_suffix = {
     ".rst": "restructuredtext",
     ".md": "markdown",
@@ -37,13 +45,13 @@ myst_enable_extensions = [
     "fieldlist",
     "html_admonition",
     "html_image",
-    "linkify",
+    # "linkify",  # disabled: very slow on 3500+ files of converted wiki content
     "replacements",
     "smartquotes",
     "strikethrough",
     "tasklist",
 ]
-myst_heading_anchors = 3
+myst_heading_anchors = 0
 
 # Suppress warnings from converted MoinMoin content
 suppress_warnings = [
@@ -52,9 +60,11 @@ suppress_warnings = [
     "myst.directive_unknown",
     "myst.substitution",
     "toc.not_readable",
+    "toc.excluded",
     "misc.highlighting_failure",
     "image.not_readable",
     "toc.not_included",
+    "ref.doc",
     "docutils",
 ]
 
@@ -70,9 +80,18 @@ html_static_path = ["_static"]
 html_css_files = ["custom.css"]
 html_show_sourcelink = False
 
+html_context = {
+    "source_type": "github",
+    "source_user": "JacobCoffee",
+    "source_repo": "wiki",
+}
+
 html_theme_options = {
     "accent_color": "blue",
     "github_url": "https://github.com/JacobCoffee/wiki",
+    "twitter_url": "https://x.com/ThePSF",
+    "mastodon_url": "https://fosstodon.org/@ThePSF",
+    "linkedin_url": "https://www.linkedin.com/company/thepsf",
     "nav_links": [
         {"title": "Python Wiki", "url": "python/index"},
         {"title": "PSF Wiki", "url": "psf/index"},

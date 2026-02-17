@@ -1,13 +1,18 @@
 # ReferenceBooks
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The following books aim to be definitive references, either by publishing the Python documentation or by writing new reference-style material, and therefore should be useful throughout your Python programming career.
 
 Most of these books will contain short, highly condensed introductions to Python, and if you\'re an experienced programmer these titles may be all you need. See the list of [IntroductoryBooks](IntroductoryBooks) if you\'d prefer a book with more examples and a slower pace.
 
 ------------------------------------------------------------------------
 
-[The Quick Python Book, 4th Edition](https://shortener.manning.com/1GBV){.https}
+[The Quick Python Book, 4th Edition](https://shortener.manning.com/1GBV)
 
 By Naomi Ceder
 
@@ -15,7 +20,7 @@ By Naomi Ceder
 - ISBN 9781633436336 580 pages
 - Publication Feb, 2025
 
-Sample chapters, liveBook, and source code available on the Manning Publications web site: [The Quick Python Book, 4th Edition](https://shortener.manning.com/1GBV){.https}
+Sample chapters, liveBook, and source code available on the Manning Publications web site: [The Quick Python Book, 4th Edition](https://shortener.manning.com/1GBV)
 
 **Book overview:**
 
@@ -49,9 +54,9 @@ This book is for someone who knows how to program, who whats to learn Python qui
 
 **Flexible and Functional** Packed with more than 100 customizable code snippets---so you can readily code functional Python in just about any situation.
 
-[Home Page](http://www.samspublishing.com/bookstore/product.asp?isbn=0672329107&rl=1/){.http}
+[Home Page](http://www.samspublishing.com/bookstore/product.asp?isbn=0672329107&rl=1/)
 
-[Review by James Pyles](http://www.linux-tutorial.info/modules.php?name=MReviews&op=show&rid=23){.http}
+[Review by James Pyles](http://www.linux-tutorial.info/modules.php?name=MReviews&op=show&rid=23)
 
 ------------------------------------------------------------------------
 
@@ -63,7 +68,7 @@ This book is for someone who knows how to program, who whats to learn Python qui
 
 This is a printed edition of the official Python language reference manual by Guido van Rossum. For each copy sold \$1 will be donated to the Python Software Foundation.
 
-[Home Page](http://www.network-theory.co.uk/python/language/){.http} (includes electronic version)
+[Home Page](http://www.network-theory.co.uk/python/language/) (includes electronic version)
 
 ------------------------------------------------------------------------
 
@@ -81,11 +86,11 @@ The comments below apply to the 1st and 2nd editions.
 
 A concise reference for Python 2.1, about as close as you can get to the K&R for Python. The first hundred pages are a complete but very compressed introduction to the language; the rest of the book is reference material on all of the standard library modules.
 
-[Home Page](https://dabeaz.com/per.html){.https}
+[Home Page](https://dabeaz.com/per.html)
 
 The reviews below are for earlier editions of the book.
 
-[Review by Jonathan Corbet](http://www.lwn.net/Reviews/PythonEssentialReference.phtml){.http} [Review by Phil Hughes](http://www2.linuxjournal.com/lj-issues/issue73/3851.html){.http} [Review by AMK](http://www.amk.ca/python/books/ess-ref.html){.http} [Review by Danny Yee](http://dannyreviews.com/h/Python_Reference.html){.http}
+[Review by Jonathan Corbet](http://www.lwn.net/Reviews/PythonEssentialReference.phtml) [Review by Phil Hughes](http://www2.linuxjournal.com/lj-issues/issue73/3851.html) [Review by AMK](http://www.amk.ca/python/books/ess-ref.html) [Review by Danny Yee](http://dannyreviews.com/h/Python_Reference.html)
 
 ------------------------------------------------------------------------
 
@@ -103,7 +108,7 @@ Recommended By: bookauthority.org
 
 Links:
 
-[publisher](https://www.amazon.com/dp/1094777978){.https} [author](https://www.pyofpython.wordpress.com){.https}
+[publisher](https://www.amazon.com/dp/1094777978) [author](https://www.pyofpython.wordpress.com)
 
 ------------------------------------------------------------------------
 
@@ -115,7 +120,7 @@ Links:
 
 A reference-only book, designed to serve as a companion to both Learning Python and Programming Python. This edition is updated to cover both Python 3.X and 2.X. It is specifically based on 3.4 and 2.7, but is applicable to other releases.
 
-Links: [author](http://www.rmi.net/~lutz/about-pyref4e.html){.http}, [publisher](http://shop.oreilly.com/product/0636920028338.do){.http}.
+Links: [author](http://www.rmi.net/~lutz/about-pyref4e.html), [publisher](http://shop.oreilly.com/product/0636920028338.do).
 
 ------------------------------------------------------------------------
 
@@ -129,11 +134,11 @@ Links: [author](http://www.rmi.net/~lutz/about-pyref4e.html){.http}, [publisher]
 
 A concise desktop reference for Python 3/5 and 2.7 (with mention of 3.6 features). Covers the language itself, built-in types and functions, the standard library, and crucial third-party extensions such as Numeric, Tkinter, twisted.internet, Cheetah. Also covers Extending and Embedding Python, with C, Java, and other languages and tools.
 
-[Publisher link](http://shop.oreilly.com/product/0636920012610.do){.http}
+[Publisher link](http://shop.oreilly.com/product/0636920012610.do)
 
 The reviews are for earlier editions of the book.
 
-[Review by Cameron Laird](http://www.unixreview.com/documents/s=7781/ur0303j/){.http} [Review by Danny Yee](http://dannyreviews.com/h/Python_Nutshell.html){.http} [Reader reviews at amazon.com](http://tinyurl.com/c3vp){.http} [Publisher\'s page, with a link to the sample chapter &c](http://www.oreilly.com/catalog/pythonian/){.http} [Publisher\'s page for the second edition, with a link to the sample chapter](http://www.oreilly.com/catalog/pythonian2/){.http} [Slashdot discussion](http://books.slashdot.org/books/03/04/13/2227208.shtml?tid=192&tid=156){.http}
+[Review by Cameron Laird](http://www.unixreview.com/documents/s=7781/ur0303j/) [Review by Danny Yee](http://dannyreviews.com/h/Python_Nutshell.html) [Reader reviews at amazon.com](http://tinyurl.com/c3vp) [Publisher\'s page, with a link to the sample chapter &c](http://www.oreilly.com/catalog/pythonian/) [Publisher\'s page for the second edition, with a link to the sample chapter](http://www.oreilly.com/catalog/pythonian2/) [Slashdot discussion](http://books.slashdot.org/books/03/04/13/2227208.shtml?tid=192&tid=156)
 
 ------------------------------------------------------------------------
 
@@ -157,9 +162,9 @@ Note there are other unrelated books that go by some version of the title \"Pyth
 - ISBN: 9780134291055
 - Addison-Wesley Professional; June 11, 2017; 1456 pages
 
-The meat of the book is a compendium of articles that were written by Doug over an extended period for the [Python 3 Module of the Week](https://pymotw.com/3/){.https} website.
+The meat of the book is a compendium of articles that were written by Doug over an extended period for the [Python 3 Module of the Week](https://pymotw.com/3/) website.
 
-Links: [author](https://doughellmann.com/blog/the-python-3-standard-library-by-example/){.https} [publisher](https://www.informit.com/store/python-3-standard-library-by-example-9780134291055){.https}
+Links: [author](https://doughellmann.com/blog/the-python-3-standard-library-by-example/) [publisher](https://www.informit.com/store/python-3-standard-library-by-example-9780134291055)
 
 ------------------------------------------------------------------------
 
@@ -167,7 +172,7 @@ Links: [author](https://doughellmann.com/blog/the-python-3-standard-library-by-e
 
 - Sean Bradley
 
-- ASIN : [B08XLJ8Z2J](https://www.amazon.com/dp/B08XLJ8Z2J){.https} / [B08Z282SBC](https://www.amazon.com/dp/B08Z282SBC){.https}
+- ASIN : [B08XLJ8Z2J](https://www.amazon.com/dp/B08XLJ8Z2J) / [B08Z282SBC](https://www.amazon.com/dp/B08Z282SBC)
 
 - Independently published (February 27, 2021); 238 pages
 
@@ -215,9 +220,8 @@ If you want a break from your computer and read from a book for a while, then th
 
 Links:
 
-[Design Patterns in Python : Paperback](https://www.amazon.com/dp/B08XLJ8Z2J){.https}
+[Design Patterns in Python : Paperback](https://www.amazon.com/dp/B08XLJ8Z2J)
 
-[Design Patterns in Python : Kindle](https://www.amazon.com/dp/B08Z282SBC){.https}
+[Design Patterns in Python : Kindle](https://www.amazon.com/dp/B08Z282SBC)
 
-[Sean Bradley : Author](https://www.amazon.com/stores/Mr-Sean-Bradley/author/B091CV4KY5){.https}
-:::
+[Sean Bradley : Author](https://www.amazon.com/stores/Mr-Sean-Bradley/author/B091CV4KY5)

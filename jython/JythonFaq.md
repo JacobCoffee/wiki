@@ -1,7 +1,12 @@
 # JythonFaq
 
-::: {#content dir="ltr" lang="en"}
-# Jython Frequently Asked Questions {#Jython_Frequently_Asked_Questions}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Jython Frequently Asked Questions 
 
 ------------------------------------------------------------------------
 
@@ -80,4 +85,3 @@
   - How can do others use scripts/applications I\'ve developed?
 
 ------------------------------------------------------------------------
-:::

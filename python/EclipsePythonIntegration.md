@@ -1,7 +1,12 @@
 # EclipsePythonIntegration
 
-:::: {#content dir="ltr" lang="en"}
-# Using Eclipse as a Python editor {#Using_Eclipse_as_a_Python_editor}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Using Eclipse as a Python editor 
 
 It is not known which version of Eclipse these comments refer to, please be careful and read the release notes for the plugin you choose.
 
@@ -11,17 +16,17 @@ A few plugins for [Eclipse](Eclipse) are in progress that will enable Eclipse to
 +-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+--------------+------------------+-------------------------+---------------------------------------+--------------------------------------------------+
 | Name                                                  | URL                                                                                                                 | Version      | Last Update      | Licensing               | Supports Jython                       | Remarks                                          |
 +-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+--------------+------------------+-------------------------+---------------------------------------+--------------------------------------------------+
-| Dynamic Languages Toolkit                             | [http://www.eclipse.org/dltk/](http://www.eclipse.org/dltk/){.http}                                                 | 4.0.0        | June 25, 2012    | EPL\*                   | ?                                     |                                                  |
+| Dynamic Languages Toolkit                             | [http://www.eclipse.org/dltk/](http://www.eclipse.org/dltk/)                                                 | 4.0.0        | June 25, 2012    | EPL\*                   | ?                                     |                                                  |
 +-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+--------------+------------------+-------------------------+---------------------------------------+--------------------------------------------------+
-| Pydev                                                 | [http://pydev.org](http://pydev.org/){.http}/                                                                       | 3.3.3        | January 27, 2014 | EPL\*                   | Yes                                   | It also supports [IronPython](IronPython) |
+| Pydev                                                 | [http://pydev.org](http://pydev.org/)/                                                                       | 3.3.3        | January 27, 2014 | EPL\*                   | Yes                                   | It also supports [IronPython](IronPython) |
 +-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+--------------+------------------+-------------------------+---------------------------------------+--------------------------------------------------+
-| [PythonMonkey](./PythonMonkey.html){.nonexistent}     | [http://code.google.com/p/jrfonseca/wiki/PythonMonkey](http://code.google.com/p/jrfonseca/wiki/PythonMonkey){.http} | 0.1.0        | October 21, 2007 |                         | Yes                                   |                                                  |
+| [PythonMonkey](./PythonMonkey.html)     | [http://code.google.com/p/jrfonseca/wiki/PythonMonkey](http://code.google.com/p/jrfonseca/wiki/PythonMonkey) | 0.1.0        | October 21, 2007 |                         | Yes                                   |                                                  |
 +-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+--------------+------------------+-------------------------+---------------------------------------+--------------------------------------------------+
-| [TruStudio](./TruStudio.html){.nonexistent}           | [http://www.xored.com/trustudio](http://www.xored.com/trustudio){.http} (defunct)                                   | 1.0.1a / 1.1 | May 18, 2005     | no more available       | [Merged](http://www.eclipse.org/proposals/dltk/){.http} into DLTK project                |
+| [TruStudio](./TruStudio.html)           | [http://www.xored.com/trustudio](http://www.xored.com/trustudio) (defunct)                                   | 1.0.1a / 1.1 | May 18, 2005     | no more available       | [Merged](http://www.eclipse.org/proposals/dltk/) into DLTK project                |
 +-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+--------------+------------------+-------------------------+---------------------------------------+--------------------------------------------------+
-| JyDT                                                  | [http://www.redrobinsoftware.net/jydt/](http://www.redrobinsoftware.net/jydt/){.http}                               | 1.4.15       | June 23, 2006    | CPL                     | Jython only                           |                                                  |
+| JyDT                                                  | [http://www.redrobinsoftware.net/jydt/](http://www.redrobinsoftware.net/jydt/)                               | 1.4.15       | June 23, 2006    | CPL                     | Jython only                           |                                                  |
 +-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+--------------+------------------+-------------------------+---------------------------------------+--------------------------------------------------+
-| [EclipseColorer](./EclipseColorer.html){.nonexistent} | [http://colorer.sf.net/](http://colorer.sf.net/){.http}                                                             | 0.9.9        | July 22, 2011    | Mozilla PL / GPL / LGPL | Yes?                                  | Syntax highlighting only                         |
+| [EclipseColorer](./EclipseColorer.html) | [http://colorer.sf.net/](http://colorer.sf.net/)                                                             | 0.9.9        | July 22, 2011    | Mozilla PL / GPL / LGPL | Yes?                                  | Syntax highlighting only                         |
 +-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+--------------+------------------+-------------------------+---------------------------------------+--------------------------------------------------+
 :::
 
@@ -29,9 +34,9 @@ A few plugins for [Eclipse](Eclipse) are in progress that will enable Eclipse to
 
 To point out the obvious, it would be nice if some of these teams would combine their efforts.
 
-## Some Features {#Some_Features}
+## Some Features 
 
-*The next seven sections of documentation, up to and including \"Supplying parameters to your jython or python program\" are contributed by Andy Bulka [abulka@netspace.net.au](mailto:abulka@netspace.net.au){.mailto} .*
+*The next seven sections of documentation, up to and including \"Supplying parameters to your jython or python program\" are contributed by Andy Bulka [abulka@netspace.net.au](mailto:abulka@netspace.net.au) .*
 
 ------------------------------------------------------------------------
 
@@ -49,21 +54,21 @@ To point out the obvious, it would be nice if some of these teams would combine 
 
 - Instead of importing a folder into eclipse (which copies the files into c:\\eclipse\\workspace\\\...) you can instead create a linked folder which means that you can edit files on your regular file system. To do this, create a new folder, then when prompted, click \"Advanced\" and select the folder on your file system to link to. Sometimes you have to \'refresh\' the list by r.clicking on the folder and selecting \'refresh\'.
 
-## Which plug-in is the best? {#Which_plug-in_is_the_best.3F}
+## Which plug-in is the best? 
 
-Both [PyDev](PyDev) and [TruStudio](./TruStudio.html){.nonexistent} are undergoing active development and both feature and extensive set of useful tools for developing in Eclipse. It\'s not hard to try either of them out, so you might as well just try them both out and see which you enjoy more.
+Both [PyDev](PyDev) and [TruStudio](./TruStudio.html) are undergoing active development and both feature and extensive set of useful tools for developing in Eclipse. It\'s not hard to try either of them out, so you might as well just try them both out and see which you enjoy more.
 
 Going by the popularity on Google, (using a very unscientific method of just searching for the two words *python eclipse*) it seems as though [PyDev](PyDev) is more popular.
 
-### PyDev {#PyDev}
+### PyDev 
 
-*added by [KirbyUrner](KirbyUrner) [urnerk@python.org](mailto:urnerk@python.org){.mailto}*
+*added by [KirbyUrner](KirbyUrner) [urnerk@python.org](mailto:urnerk@python.org)*
 
 I saw a demo of this at OSCON 2004, presented by Dana Moore. Alex Totek has done the majority of the work so far, with help from Fabio Zadrozny. pydev includes a debugger. Dana previewed auto-completion but as of this writing it\'s not in the most recent release (0.5.3). I also saw the Python shell integrated into Eclipse. The development language for the plugin itself is Java, not Jython.
 
-# Configuring Eclipse for running Python and Jython {#Configuring_Eclipse_for_running_Python_and_Jython}
+# Configuring Eclipse for running Python and Jython 
 
-## Jython {#Jython}
+## Jython 
 
 To configure Eclipse to run jython on the current file you are editing:
 
@@ -79,7 +84,7 @@ then fill in the following values:
 
 - **Tool Arguments**: -\> Browse Variables -\> \${resource_name}
 
-#### Supplying parameters to your jython or python program {#Supplying_parameters_to_your_jython_or_python_program}
+#### Supplying parameters to your jython or python program 
 
 If you need to run an app which requires arguments, you will need to make another tool configuration (just copy the jython one) and simply add the necessary arguments to the **Tool Arguments** field.
 
@@ -93,19 +98,19 @@ For example instead of just
 
 Notice I have supplied the argument **c:\\\\**
 
-# Embedding Jython into Eclipse {#Embedding_Jython_into_Eclipse}
+# Embedding Jython into Eclipse 
 
 Don Coleman has written a jython code completion shell which he says he would be happy to rewrite for Eclipse.
 
-- [http://don.freeshell.org/jython/](http://don.freeshell.org/jython/){.http}
+- [http://don.freeshell.org/jython/](http://don.freeshell.org/jython/)
 
 This URL was given by Don Coleman in an ASPN jython users newsgroup,
 
-- [http://aspn.activestate.com/ASPN/Mail/Message/Jython-users/1620125](http://aspn.activestate.com/ASPN/Mail/Message/Jython-users/1620125){.http}
+- [http://aspn.activestate.com/ASPN/Mail/Message/Jython-users/1620125](http://aspn.activestate.com/ASPN/Mail/Message/Jython-users/1620125)
 
-How to make Jython unit tests\... and see them inside Junit plugin : [here](http://www.devx.com/Java/Article/26602/1954?pf=true){.http} and modification and completion [here](http://lauploix.blogspot.com/2005/03/test-driven-development-why-using.html){.http}
+How to make Jython unit tests\... and see them inside Junit plugin : [here](http://www.devx.com/Java/Article/26602/1954?pf=true) and modification and completion [here](http://lauploix.blogspot.com/2005/03/test-driven-development-why-using.html)
 
-# Running SCons from CDT Eclipse {#Running_SCons_from_CDT_Eclipse}
+# Running SCons from CDT Eclipse 
 
 SCons is a powerful software construction tool in python, more flexible than ant and simpler than make. It is primarily intended to manage builts for C/C++ programs. To set up SCons as the builder from CDT, add it as a custom builder:
 
@@ -117,11 +122,11 @@ SCons is a powerful software construction tool in python, more flexible than ant
 
 Note: Eclipse cannot currently spawn arbitrary shell programs, so even if the .py extension is registered, calling scons.py will fail from Eclipse.
 
-There is now an [Scons Builder Plugin](http://nic-nac-project.de/~lothar/eclipse/update/SConsBuilderPlugin.html){.http} for the Eclipse CDT.
+There is now an [Scons Builder Plugin](http://nic-nac-project.de/~lothar/eclipse/update/SConsBuilderPlugin.html) for the Eclipse CDT.
 
-For more information about SCons, see [http://www.scons.org/](http://www.scons.org/){.http}
+For more information about SCons, see [http://www.scons.org/](http://www.scons.org/)
 
-# Some Eclipse features people want with Jython/Python {#Some_Eclipse_features_people_want_with_Jython.2FPython}
+# Some Eclipse features people want with Jython/Python 
 
 - project/file management (module organization)
 - package explorer
@@ -140,7 +145,7 @@ For more information about SCons, see [http://www.scons.org/](http://www.scons.o
 - support for pyunit (unittest)
 - a Jython console, where one could try short snippets of code, with access to the current project classpath
 
-# Eclipse would gain {#Eclipse_would_gain}
+# Eclipse would gain 
 
 - Python/Jython support in the editor
   - this is what the existing plug-ins address, but they are incomplete
@@ -150,7 +155,7 @@ For more information about SCons, see [http://www.scons.org/](http://www.scons.o
 - simplifies mixing Jython/Java to broaden range of problems that can be solved
 - large user base of Jython/Python programmers
 
-# Other Links {#Other_Links}
+# Other Links 
 
 - [Jython](Jython)
 
@@ -161,4 +166,3 @@ For more information about SCons, see [http://www.scons.org/](http://www.scons.o
 ------------------------------------------------------------------------
 
 [CategoryJython](CategoryJython)
-::::

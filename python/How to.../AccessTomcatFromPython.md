@@ -1,6 +1,11 @@
 # How to.../AccessTomcatFromPython
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 How to store the variables, \"HSstatsValue\[i\]\" below?? The syntax is wrong, what is the actual syntax to store the variable or value???
 
                 for i in range(countTill):
@@ -27,4 +32,3 @@ How to store the variables, \"HSstatsValue\[i\]\" below?? The syntax is wrong, w
                         #oPutFile.write('\t')
                         oPutFile.write('\t')
                     zum = 0
-:::

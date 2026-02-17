@@ -1,13 +1,18 @@
 # EuroPython/2007/IrcMeetings/IrcMeeting13
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #13 {#IRC_Meeting_.2313}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Time/Location {#Time.2FLocation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# IRC Meeting #13 
+
+## Time/Location 
 
 The meeting will take place on Monday 4th June (2007-06-04) 18:00 CEST (17:00 BST, 16:00 UTC/GMT) in the #europython channel on freenode.net. *That\'s 5pm UK time, 6pm in most of Western Europe.* The suggested duration of the meeting is at most *one hour*.
 
-## Minutes {#Minutes}
+## Minutes 
 
 - Bea reported that her contact has submitted a costed proposal for travel, accommodation and other minor expenses.
   - We proposed to accept this, and Bea will chase up funding.
@@ -19,7 +24,7 @@ The meeting will take place on Monday 4th June (2007-06-04) 18:00 CEST (17:00 BS
 - Bea reported that there was interest in having some speakers/guests from other programming language communities.
   - She\'ll chase up some leads and report to the program group.
 
-- [WorldPay](./WorldPay.html){.nonexistent} support has been abandoned for this year. Laura suggested that registration for [WorldPay](./WorldPay.html){.nonexistent} should begin immediately after [EuroPython](EuroPython) this year.
+- [WorldPay](./WorldPay.html) support has been abandoned for this year. Laura suggested that registration for [WorldPay](./WorldPay.html) should begin immediately after [EuroPython](EuroPython) this year.
 
 - Sponsorship
   - Paul will contact sponsor \"I\".
@@ -32,7 +37,7 @@ The meeting will take place on Monday 4th June (2007-06-04) 18:00 CEST (17:00 BS
 - Aiste will arrange printing facilities tomorrow and report back next Monday.
 
 - Keynotes
-  - Guido can be left unsupervised. ![;-)](/wiki/europython/img/smile4.png ";-)"){height="16" width="16"}
+  - Guido can be left unsupervised. ![;-)](/wiki/europython/img/smile4.png ";-)")
 
   - David will follow up on Simon.
 
@@ -49,15 +54,15 @@ The meeting will take place on Monday 4th June (2007-06-04) 18:00 CEST (17:00 BS
   - Michael volunteered to add (some of) the scheduling information to Indico when it is complete.
   - The mailing list should be notified so that the Web site can be updated and announcements sent out.
 
-## Agenda {#Agenda}
+## Agenda 
 
 This week\'s meeting will focus on the programme, but may also cover any other issues that arise.
 
-- Bea will report on progress with the plan to enhance the open space experience at the conference, as suggested [in a message to the europython mailing list](http://mail.python.org/pipermail/europython/2007-May/006403.html){.http}.
+- Bea will report on progress with the plan to enhance the open space experience at the conference, as suggested [in a message to the europython mailing list](http://mail.python.org/pipermail/europython/2007-May/006403.html).
 
 - The programme needs to be finalised and published. The track chairs will select talks and approve the schedule.
 
-- Status of the [WorldPay](./WorldPay.html){.nonexistent} application process.
+- Status of the [WorldPay](./WorldPay.html) application process.
 
 - Status of potential sponsors.
 
@@ -67,7 +72,6 @@ This week\'s meeting will focus on the programme, but may also cover any other i
 
 - Announcements shall be planned: keynotes, early registration reminder, \...
 
-## Notes {#Notes}
+## Notes 
 
-See [the calendar](http://www.europython.org/sections/calendar){.http} to get an idea of where we should be at this point in time.
-:::
+See [the calendar](http://www.europython.org/sections/calendar) to get an idea of where we should be at this point in time.

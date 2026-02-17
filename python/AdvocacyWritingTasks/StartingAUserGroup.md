@@ -1,19 +1,24 @@
 # AdvocacyWritingTasks/StartingAUserGroup
 
-::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Starting and Running a Successful Python User Group
 
-::: {.abstract .topic}
+::: 
 Abstract
 
 Discuss the resources available to user groups, such as mailing lists hosts, free wikis and blogs. Mention that user groups can be listed on www.python.org, with python.meetup.com and also Craig\'s list. Discuss how to reach out and find people, advise patience for growth, and suggest various group activities. When you can\'t find a speaker, suggest other activities that can be done on a spur of the moment.
 :::
 
-::: {#finding-a-meeting-place .section}
+::: 
 ### Finding a Meeting Place
 :::
 
-::: {#spreading-the-word .section}
+::: 
 ### Spreading the Word
 
 > - example flyers and places to post them
@@ -22,7 +27,7 @@ Discuss the resources available to user groups, such as mailing lists hosts, fre
 > - producing club t-shirts
 :::
 
-::: {#establishing-services-online .section}
+::: 
 ### Establishing Services Online
 
 > - mailing list
@@ -30,7 +35,7 @@ Discuss the resources available to user groups, such as mailing lists hosts, fre
 > - subversion repository
 :::
 
-::: {#what-to-do-at-your-meetings .section}
+::: 
 ### What To Do At Your Meetings
 
 > - arranging speakers
@@ -39,7 +44,7 @@ Discuss the resources available to user groups, such as mailing lists hosts, fre
 > - a selection of good videos (video can be watched as a group, audios less so)
 :::
 
-::: {#making-your-group-succeed .section}
+::: 
 ### Making Your Group Succeed
 
 > - what makes a usergroup succeed
@@ -53,7 +58,7 @@ Discuss the resources available to user groups, such as mailing lists hosts, fre
 
 With a few new local Python user groups getting off the ground, it\'s worth reminding ourselves that o\'Reilly offer good support to groups who register with them.
 
-Full details are at [http://ug.oreilly.com](http://ug.oreilly.com){.http .reference .external}. You have to register your group (not too onerous) and in return you can get
+Full details are at [http://ug.oreilly.com](http://ug.oreilly.com). You have to register your group (not too onerous) and in return you can get
 
 > - review copies of o\'Reilly books
 > - discounts on o\'Reilly products, a nice benefit for members
@@ -61,4 +66,3 @@ Full details are at [http://ug.oreilly.com](http://ug.oreilly.com){.http .refere
 
 and, no doubt, a few other things, like I think it\'s possible to get o\'Reilly authors to speak at meetings.
 :::
-:::::::::

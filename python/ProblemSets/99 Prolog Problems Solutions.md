@@ -1,65 +1,20 @@
 # ProblemSets/99 Prolog Problems Solutions
 
-:::: {#content dir="ltr" lang="en"}
-Python Solutions to [99 Prolog Problems](https://prof.ti.bfh.ch/hew1/informatik3/prolog/p-99/){.https}.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Python Solutions to [99 Prolog Problems](https://prof.ti.bfh.ch/hew1/informatik3/prolog/p-99/).
 
 **Index**
 
-::: table-of-contents
-Contents
+# Problems 1-6 
 
-1.  [Problems 1-6](#Problems_1-6)
-2.  [Problem 7: Flatten a nested list structure](#Problem_7:_Flatten_a_nested_list_structure)
-3.  [Problem 8: Eliminate consecutive duplicates of list elements](#Problem_8:_Eliminate_consecutive_duplicates_of_list_elements)
-4.  [Problem 9: Pack consecutive duplicates of list elements into sublists](#Problem_9:_Pack_consecutive_duplicates_of_list_elements_into_sublists)
-5.  [Problem 10: Run-length encoding of a list](#Problem_10:_Run-length_encoding_of_a_list)
-6.  [Problem 11: Modified run-length encoding](#Problem_11:_Modified_run-length_encoding)
-7.  [Problem 12: Decode a run-length encoded list](#Problem_12:_Decode_a_run-length_encoded_list)
-8.  [Problem 13: Run-length encoding of a list (direct solution)](#Problem_13:_Run-length_encoding_of_a_list_.28direct_solution.29)
-9.  [Problem 14: Duplicate the elements of a list](#Problem_14:_Duplicate_the_elements_of_a_list)
-10. [Problem 15: Duplicate the elements of a list a given number of times](#Problem_15:_Duplicate_the_elements_of_a_list_a_given_number_of_times)
-11. [Problem 16: Drop every N\'th element from a list](#Problem_16:_Drop_every_N.27th_element_from_a_list)
-12. [Problem 17: Split a list into two parts; the length of the first part is given](#Problem_17:_Split_a_list_into_two_parts.3B_the_length_of_the_first_part_is_given)
-13. [Problem 18: Extract a slice from a list](#Problem_18:_Extract_a_slice_from_a_list)
-14. [Problem 19: Rotate a list N places to the left](#Problem_19:_Rotate_a_list_N_places_to_the_left)
-15. [Problem 20: Remove the K\'th element from a list](#Problem_20:_Remove_the_K.27th_element_from_a_list)
-16. [Problem 21: Insert an element at a given position into a list](#Problem_21:_Insert_an_element_at_a_given_position_into_a_list)
-17. [Problem 22: Create a list containing all integers within a given range](#Problem_22:_Create_a_list_containing_all_integers_within_a_given_range)
-18. [Problem 23: Extract a given number of randomly selected elements from a list](#Problem_23:_Extract_a_given_number_of_randomly_selected_elements_from_a_list)
-19. [Problem 24: Lotto: Draw N different random numbers from the set 1](#Problem_24:_Lotto:_Draw_N_different_random_numbers_from_the_set_1)
-20. [Problem 25: Generate a random permutation of the elements of a list](#Problem_25:_Generate_a_random_permutation_of_the_elements_of_a_list)
-21. [Problem 26: Generate the combinations of K distinct objects chosen from the N elements of a list](#Problem_26:_Generate_the_combinations_of_K_distinct_objects_chosen_from_the_N_elements_of_a_list)
-22. [Problem 27: Group the elements of a set into disjoint subsets](#Problem_27:_Group_the_elements_of_a_set_into_disjoint_subsets)
-23. [Problem 28: Sorting a list of lists according to length of sublists](#Problem_28:_Sorting_a_list_of_lists_according_to_length_of_sublists)
-24. [Problem 29: there is no problem 29 in the original problem set](#Problem_29:_there_is_no_problem_29_in_the_original_problem_set)
-25. [Problem 30: there is no problem 30 in the original problem set](#Problem_30:_there_is_no_problem_30_in_the_original_problem_set)
-26. [Problem 31: Determine whether a given integer number is prime](#Problem_31:_Determine_whether_a_given_integer_number_is_prime)
-27. [Problem 32: Calculate the Greatest Common Divisor (GCD) using Euclid\'s algorithm](#Problem_32:_Calculate_the_Greatest_Common_Divisor_.28GCD.29_using_Euclid.27s_algorithm)
-28. [Problem 33: Determine if two numbers are coprime](#Problem_33:_Determine_if_two_numbers_are_coprime)
-29. [Problem 34: Calculate Euclid\'s totient function](#Problem_34:_Calculate_Euclid.27s_totient_function)
-30. [Problem 35: Determine prime factors of a number](#Problem_35:_Determine_prime_factors_of_a_number)
-31. [Problem 36: Determine prime factorization of a number](#Problem_36:_Determine_prime_factorization_of_a_number)
-32. [Problem 37: A more efficient totient function](#Problem_37:_A_more_efficient_totient_function)
-33. [Problem 38: Compare totient functions](#Problem_38:_Compare_totient_functions)
-34. [Problem 39: Generate a list of primes in a given range](#Problem_39:_Generate_a_list_of_primes_in_a_given_range)
-35. [Problem 40: Goldbach Conjecture](#Problem_40:_Goldbach_Conjecture)
-36. [Problem 41: Print list of Goldbach compositions](#Problem_41:_Print_list_of_Goldbach_compositions)
-37. [Problem 42: there is no problem 42 in the original problem set](#Problem_42:_there_is_no_problem_42_in_the_original_problem_set)
-38. [Problem 43: there is no problem 43 in the original problem set](#Problem_43:_there_is_no_problem_43_in_the_original_problem_set)
-39. [Problem 44: there is no problem 44 in the original problem set](#Problem_44:_there_is_no_problem_44_in_the_original_problem_set)
-40. [Problem 45: there is no problem 45 in the original problem set](#Problem_45:_there_is_no_problem_45_in_the_original_problem_set)
-41. [Problem 46: Print a truth table for a logical expression of two variables](#Problem_46:_Print_a_truth_table_for_a_logical_expression_of_two_variables)
-42. [Problem 47: Print a truth table for an infix logical expression of two variables](#Problem_47:_Print_a_truth_table_for_an_infix_logical_expression_of_two_variables)
-43. [Problem 48: Print truth table for logical infix expression having an arbitrary number of variables](#Problem_48:_Print_truth_table_for_logical_infix_expression_having_an_arbitrary_number_of_variables)
-44. [Problem 49: Generate list of n-bit Gray codes.](#Problem_49:_Generate_list_of_n-bit_Gray_codes.)
-45. [Problem 50: Generate Huffman codes](#Problem_50:_Generate_Huffman_codes)
-:::
+André Roberge has a zip file with solutions to the first six problems, in Crunchy format: [First six](http://crunchy.googlecode.com/files/first_6_of_99_problems.zip)
 
-# Problems 1-6 {#Problems_1-6}
-
-André Roberge has a zip file with solutions to the first six problems, in Crunchy format: [First six](http://crunchy.googlecode.com/files/first_6_of_99_problems.zip){.http}
-
-# Problem 7: Flatten a nested list structure {#Problem_7:_Flatten_a_nested_list_structure}
+# Problem 7: Flatten a nested list structure 
 
 Based on the standard library documentation:
 
@@ -112,25 +67,25 @@ If you\'re not allowed to dismantle the input argument, you can take a prelimina
             result.reverse()
             return result
 
-# Problem 8: Eliminate consecutive duplicates of list elements {#Problem_8:_Eliminate_consecutive_duplicates_of_list_elements}
+# Problem 8: Eliminate consecutive duplicates of list elements 
 
         from itertools import groupby
         def compress(alist):
             return [key for key, group in groupby(alist)]
 
-# Problem 9: Pack consecutive duplicates of list elements into sublists {#Problem_9:_Pack_consecutive_duplicates_of_list_elements_into_sublists}
+# Problem 9: Pack consecutive duplicates of list elements into sublists 
 
         from itertools import groupby
         def pack(alist):
             return [list(group) for key, group in groupby(alist)]
 
-# Problem 10: Run-length encoding of a list {#Problem_10:_Run-length_encoding_of_a_list}
+# Problem 10: Run-length encoding of a list 
 
         from itertools import groupby
         def encode(alist):
             return [[len(list(group)), key] for key, group in groupby(alist)]
 
-# Problem 11: Modified run-length encoding {#Problem_11:_Modified_run-length_encoding}
+# Problem 11: Modified run-length encoding 
 
         def encode_modified(alist):
             def aux(lg):
@@ -138,7 +93,7 @@ If you\'re not allowed to dismantle the input argument, you can take a prelimina
                 else: return lg[0]
             return [aux(list(group)) for key, group in groupby(alist)]
 
-# Problem 12: Decode a run-length encoded list {#Problem_12:_Decode_a_run-length_encoded_list}
+# Problem 12: Decode a run-length encoded list 
 
         def decode(alist):
             def aux(g):
@@ -146,7 +101,7 @@ If you\'re not allowed to dismantle the input argument, you can take a prelimina
                 else: return [(g, [0])]
             return [x for g in alist for x, R in aux(g) for i in R]
 
-# Problem 13: Run-length encoding of a list (direct solution) {#Problem_13:_Run-length_encoding_of_a_list_.28direct_solution.29}
+# Problem 13: Run-length encoding of a list (direct solution) 
 
         def encode_direct(alist):
             def aux(k, g):
@@ -155,66 +110,66 @@ If you\'re not allowed to dismantle the input argument, you can take a prelimina
                 else: return k
             return [aux(key, group) for key, group in groupby(alist)]
 
-# Problem 14: Duplicate the elements of a list {#Problem_14:_Duplicate_the_elements_of_a_list}
+# Problem 14: Duplicate the elements of a list 
 
         def dupli(L):
           return [x for x in L for i in (1,2)]
 
-# Problem 15: Duplicate the elements of a list a given number of times {#Problem_15:_Duplicate_the_elements_of_a_list_a_given_number_of_times}
+# Problem 15: Duplicate the elements of a list a given number of times 
 
         def dupli(L, N):
           return [x for x in L for i in range(N)]
 
-# Problem 16: Drop every N\'th element from a list {#Problem_16:_Drop_every_N.27th_element_from_a_list}
+# Problem 16: Drop every N\'th element from a list 
 
         def drop(L, N):
           return [x for i,x in enumerate(L) if (i+1) % N]
 
-# Problem 17: Split a list into two parts; the length of the first part is given {#Problem_17:_Split_a_list_into_two_parts.3B_the_length_of_the_first_part_is_given}
+# Problem 17: Split a list into two parts; the length of the first part is given 
 
         def split(L, N):
             return L[:N], L[N:]
 
-# Problem 18: Extract a slice from a list {#Problem_18:_Extract_a_slice_from_a_list}
+# Problem 18: Extract a slice from a list 
 
 Given two indices, I and K, the slice is the list containing the elements between the I\'th and K\'th element of the original list (both limits included). Start counting the elements with 1.
 
         def slice(L, I, K):
             return L[I-1:K]
 
-# Problem 19: Rotate a list N places to the left {#Problem_19:_Rotate_a_list_N_places_to_the_left}
+# Problem 19: Rotate a list N places to the left 
 
         def rotate(L, N):
             return L[N:] + L[:N]
 
-# Problem 20: Remove the K\'th element from a list {#Problem_20:_Remove_the_K.27th_element_from_a_list}
+# Problem 20: Remove the K\'th element from a list 
 
         def remove_at(L, N):
             return L[N-1], L[:N-1] + L[N:]
 
-# Problem 21: Insert an element at a given position into a list {#Problem_21:_Insert_an_element_at_a_given_position_into_a_list}
+# Problem 21: Insert an element at a given position into a list 
 
         def insert_at(x, L, N):
             return L[:N-1]+[x]+L[N-1:]
 
-# Problem 22: Create a list containing all integers within a given range {#Problem_22:_Create_a_list_containing_all_integers_within_a_given_range}
+# Problem 22: Create a list containing all integers within a given range 
 
         def irange(I, J):
             return range(I, J+1)
 
-# Problem 23: Extract a given number of randomly selected elements from a list {#Problem_23:_Extract_a_given_number_of_randomly_selected_elements_from_a_list}
+# Problem 23: Extract a given number of randomly selected elements from a list 
 
         import random
         def rnd_select(L, N):
             return random.sample(L, N)
 
-# Problem 24: Lotto: Draw N different random numbers from the set 1 {#Problem_24:_Lotto:_Draw_N_different_random_numbers_from_the_set_1}
+# Problem 24: Lotto: Draw N different random numbers from the set 1 
 
         import random
         def rnd_select(N, M):
             return random.sample(range(1, M+1), N)
 
-# Problem 25: Generate a random permutation of the elements of a list {#Problem_25:_Generate_a_random_permutation_of_the_elements_of_a_list}
+# Problem 25: Generate a random permutation of the elements of a list 
 
         import random
         def rnd_permu(L):
@@ -228,7 +183,7 @@ or
             random.shuffle(result)
             return result
 
-# Problem 26: Generate the combinations of K distinct objects chosen from the N elements of a list {#Problem_26:_Generate_the_combinations_of_K_distinct_objects_chosen_from_the_N_elements_of_a_list}
+# Problem 26: Generate the combinations of K distinct objects chosen from the N elements of a list 
 
         def combination(K, L):
             if K<=0:
@@ -245,7 +200,7 @@ in Python 2.6+:
         def combination(K, L):
             return itertools.combinations(L, K)
 
-# Problem 27: Group the elements of a set into disjoint subsets {#Problem_27:_Group_the_elements_of_a_set_into_disjoint_subsets}
+# Problem 27: Group the elements of a set into disjoint subsets 
 
 A natural recursive approach requires \"temporarily modifying\" certain things (the main list, the list of sublists, the list of counts of remaining lengths desired in the sublists); one way to express this is by the \`with\' statement and the \"resource allocation is initialization\" (RAII) idiom it enables\...:
 
@@ -333,7 +288,7 @@ A more compact, if much less readable, solution (through the use of recursion an
 
 This solution was tested on IDLE 3.1, apologies to anyone for whom it doesn\'t work.
 
-# Problem 28: Sorting a list of lists according to length of sublists {#Problem_28:_Sorting_a_list_of_lists_according_to_length_of_sublists}
+# Problem 28: Sorting a list of lists according to length of sublists 
 
     # Part A
         def lsort(L):
@@ -348,11 +303,11 @@ This solution was tested on IDLE 3.1, apologies to anyone for whom it doesn\'t w
             def bylenfreq(sublist): return lencounts[len(sublist)]
             return sorted(L, key=bylenfreq)
 
-# Problem 29: there is no problem 29 in the original problem set {#Problem_29:_there_is_no_problem_29_in_the_original_problem_set}
+# Problem 29: there is no problem 29 in the original problem set 
 
-# Problem 30: there is no problem 30 in the original problem set {#Problem_30:_there_is_no_problem_30_in_the_original_problem_set}
+# Problem 30: there is no problem 30 in the original problem set 
 
-# Problem 31: Determine whether a given integer number is prime {#Problem_31:_Determine_whether_a_given_integer_number_is_prime}
+# Problem 31: Determine whether a given integer number is prime 
 
 Simplest approach: generate all primes, stop when the number N under test equals a prime, or is divisible by it without being equal, or when no higher prime is of interest because we\'ve checked all primes \<= sqrt(N).
 
@@ -379,13 +334,13 @@ Simplest approach: generate all primes, stop when the number N under test equals
                 elif p*p > N: return True
                 elif N%p == 0: return False
 
-or (from [http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/](http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/){.http})
+or (from [http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/](http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/))
 
         import re
         def is_prime(N):
             return not re.match(r'^1?$|^(11+?)\1+$', '1' * n)
 
-# Problem 32: Calculate the Greatest Common Divisor (GCD) using Euclid\'s algorithm {#Problem_32:_Calculate_the_Greatest_Common_Divisor_.28GCD.29_using_Euclid.27s_algorithm}
+# Problem 32: Calculate the Greatest Common Divisor (GCD) using Euclid\'s algorithm 
 
     def gcd(a,b):
         """Return the gcd of two positive integers.
@@ -400,7 +355,7 @@ or (from [http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-chec
             a, b = b, a%b
         return a
 
-# Problem 33: Determine if two numbers are coprime {#Problem_33:_Determine_if_two_numbers_are_coprime}
+# Problem 33: Determine if two numbers are coprime 
 
 Two numbers are coprime if the gcd is 1. So, using gcd() from problem 32.
 
@@ -413,7 +368,7 @@ Two numbers are coprime if the gcd is 1. So, using gcd() from problem 32.
 
        return gcd(a,b) == 1
 
-# Problem 34: Calculate Euclid\'s totient function {#Problem_34:_Calculate_Euclid.27s_totient_function}
+# Problem 34: Calculate Euclid\'s totient function 
 
 Use a primitive method to calculate Euclid\'s totient function.
 
@@ -432,7 +387,7 @@ Use a primitive method to calculate Euclid\'s totient function.
             r = [n for n in range(1,m) if coprime(m,n)]
             return len(r)
 
-# Problem 35: Determine prime factors of a number {#Problem_35:_Determine_prime_factors_of_a_number}
+# Problem 35: Determine prime factors of a number 
 
     import itertools
 
@@ -449,7 +404,7 @@ Use a primitive method to calculate Euclid\'s totient function.
                     yield this
         yield value
 
-# Problem 36: Determine prime factorization of a number {#Problem_36:_Determine_prime_factorization_of_a_number}
+# Problem 36: Determine prime factorization of a number 
 
 Similar to problem P35, except the result is a list of pairs \[p,m\] where prime factor, *p*, occurs *m* times in the factorization of the number.
 
@@ -465,7 +420,7 @@ Uses the function prime_factors() defined in problem P35.
         res = list(prime_factors(n))
         return sorted([fact, res.count(fact)] for fact in set(res))
 
-# Problem 37: A more efficient totient function {#Problem_37:_A_more_efficient_totient_function}
+# Problem 37: A more efficient totient function 
 
 See Problem 34, for a simpler implementation.
 
@@ -488,7 +443,7 @@ See Problem 34, for a simpler implementation.
 
         return reduce(mult, [(p-1) * p**(m-1) for p,m in prime_factors_mult(n)])
 
-# Problem 38: Compare totient functions {#Problem_38:_Compare_totient_functions}
+# Problem 38: Compare totient functions 
 
 Compare the function for calculating the totient function in problems 34 and 37.
 
@@ -517,7 +472,7 @@ Compare the function for calculating the totient function in problems 34 and 37.
         for funcname in sorted( result.keys(), key=lambda k:result[k] ):
             print "%10s %s" % (funcname, result[funcname] if printtimes else '')
 
-# Problem 39: Generate a list of primes in a given range {#Problem_39:_Generate_a_list_of_primes_in_a_given_range}
+# Problem 39: Generate a list of primes in a given range 
 
 Uses primeGenerator() from problem 35.
 
@@ -534,7 +489,7 @@ Uses primeGenerator() from problem 35.
 
         return list(dropwhile(partial(ge,lower),primeGenerator(upper)))
 
-# Problem 40: Goldbach Conjecture {#Problem_40:_Goldbach_Conjecture}
+# Problem 40: Goldbach Conjecture 
 
 Write a function that returns the Goldbach composition of a number.
 
@@ -567,7 +522,7 @@ Using only functions defined in previous problems, we could also implement this 
         if x % 2 == 1: return None
         return next(y for y in combination(2, dupli(primes(1,x))) if sum(y) == x)
 
-# Problem 41: Print list of Goldbach compositions {#Problem_41:_Print_list_of_Goldbach_compositions}
+# Problem 41: Print list of Goldbach compositions 
 
 Given a range of integers by its lower and upper limit, print a list of all even numbers and their Goldbach composition.
 
@@ -612,15 +567,15 @@ Part 2: print Goldbach compositions in which both primes are greater than a thre
             if gb[0] > threshold:
                 print "%d = %d + %d" % (n, gb[0], gb[1])
 
-# Problem 42: there is no problem 42 in the original problem set {#Problem_42:_there_is_no_problem_42_in_the_original_problem_set}
+# Problem 42: there is no problem 42 in the original problem set 
 
-# Problem 43: there is no problem 43 in the original problem set {#Problem_43:_there_is_no_problem_43_in_the_original_problem_set}
+# Problem 43: there is no problem 43 in the original problem set 
 
-# Problem 44: there is no problem 44 in the original problem set {#Problem_44:_there_is_no_problem_44_in_the_original_problem_set}
+# Problem 44: there is no problem 44 in the original problem set 
 
-# Problem 45: there is no problem 45 in the original problem set {#Problem_45:_there_is_no_problem_45_in_the_original_problem_set}
+# Problem 45: there is no problem 45 in the original problem set 
 
-# Problem 46: Print a truth table for a logical expression of two variables {#Problem_46:_Print_a_truth_table_for_a_logical_expression_of_two_variables}
+# Problem 46: Print a truth table for a logical expression of two variables 
 
     def table(expr):
         """
@@ -660,7 +615,7 @@ Part 2: print Goldbach compositions in which both primes are greater than a thre
                 # defined above (AND, NAND, ...)
                 print format % (A, B, eval(expr,locals()))
 
-# Problem 47: Print a truth table for an infix logical expression of two variables {#Problem_47:_Print_a_truth_table_for_an_infix_logical_expression_of_two_variables}
+# Problem 47: Print a truth table for an infix logical expression of two variables 
 
     def table( expr ):
         """
@@ -773,7 +728,7 @@ Part 2: print Goldbach compositions in which both primes are greater than a thre
         import doctest
         doctest.testmod(verbose=True)
 
-# Problem 48: Print truth table for logical infix expression having an arbitrary number of variables {#Problem_48:_Print_truth_table_for_logical_infix_expression_having_an_arbitrary_number_of_variables}
+# Problem 48: Print truth table for logical infix expression having an arbitrary number of variables 
 
     def table(expr):
         '''
@@ -950,7 +905,7 @@ Part 2: print Goldbach compositions in which both primes are greater than a thre
         import doctest
         doctest.testmod(verbose=True)
 
-# Problem 49: Generate list of n-bit Gray codes. {#Problem_49:_Generate_list_of_n-bit_Gray_codes.}
+# Problem 49: Generate list of n-bit Gray codes. 
 
     def binaryString(n,w=0):
         """return binary representation of 'n' as a 'w'-width string.
@@ -988,13 +943,13 @@ Part 2: print Goldbach compositions in which both primes are greater than a thre
         import doctest
         doctest.testmod(verbose=True)
 
-A much briefer, recursive solution (employing the mirror, concatenate, prepend \'0\' and \'1\' technique found on the [Wikipedia](http://en.wikipedia.org/wiki/Gray_code#Constructing_an_n-bit_Gray_code){.http} page):
+A much briefer, recursive solution (employing the mirror, concatenate, prepend \'0\' and \'1\' technique found on the [Wikipedia](http://en.wikipedia.org/wiki/Gray_code#Constructing_an_n-bit_Gray_code) page):
 
     def gray (n):
         if n == 0: return ['']
         return ['0'+x for x in gray(n-1)]+['1'+y for y in gray(n-1)[::-1]]
 
-# Problem 50: Generate Huffman codes {#Problem_50:_Generate_Huffman_codes}
+# Problem 50: Generate Huffman codes 
 
     def huffman(freqtable):
         """Return a dictionary mapping keys to huffman codes
@@ -1040,4 +995,3 @@ A much briefer, recursive solution (employing the mirror, concatenate, prepend \
         doctest.testmod(verbose=True)
 
 **Note**: problems 51-99 still to be done (PLEASE edit this place-holder as you do more problems!)
-::::

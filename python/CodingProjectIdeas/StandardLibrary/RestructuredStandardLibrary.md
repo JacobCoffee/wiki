@@ -1,33 +1,12 @@
 # CodingProjectIdeas/StandardLibrary/RestructuredStandardLibrary
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [A Restructured Standard Library](#A_Restructured_Standard_Library)
-    1.  [A Note on Backward Compatibility](#A_Note_on_Backward_Compatibility)
-2.  [Potential Areas of Improvement](#Potential_Areas_of_Improvement)
-    1.  [Activities, Grouping and Redundancy](#Activities.2C_Grouping_and_Redundancy)
-        1.  [Overlapping Module Groups](#Overlapping_Module_Groups)
-        2.  [Functional Module Groups](#Functional_Module_Groups)
-        3.  [Recommendations](#Recommendations)
-    2.  [Naming](#Naming)
-        1.  [Recommendations](#Recommendations-1)
-    3.  [Top-level Organisation](#Top-level_Organisation)
-        1.  [Recommendations](#Recommendations-2)
-    4.  [Module Functionality](#Module_Functionality)
-        1.  [Styles of Organisation/Interaction in Modules](#Styles_of_Organisation.2FInteraction_in_Modules)
-        2.  [Recommendations](#Recommendations-3)
-3.  [Proposals](#Proposals)
-    1.  [Additional Categorisation](#Additional_Categorisation)
-    2.  [Difficult Categories and Packages](#Difficult_Categories_and_Packages)
-    3.  [System Packages](#System_Packages)
-    4.  [Runtime Packages](#Runtime_Packages)
-    5.  [Editorial Notes](#Editorial_Notes)
-    6.  [Open Issues](#Open_Issues)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-# A Restructured Standard Library {#A_Restructured_Standard_Library}
+# A Restructured Standard Library 
 
 Despite the continuous introduction of many new language features to Python, and compounded by the steady addition of new modules to the standard library over the years, the structure of the Python standard library has remained relatively static throughout most of Python\'s lifetime until the present day. However, new additions to the library have made the selection of appropriate library facilities relatively difficult, even for experienced developers. For example:
 
@@ -37,19 +16,19 @@ Despite the continuous introduction of many new language features to Python, and
 
 A persuasive argument once upon a time was the simplicity of the Python standard library\'s layout in comparison to the \"aggressively hierarchical\" layout of the standard Java APIs, for example. But with a large number of overlapping modules and packages within the Python standard library reducing its relative coherency to Java\'s API proliferation (see java.sun.com for details), it seems appropriate to perform a reorganisation of the library\'s layout in order to promote a more memorable and intuitive structure that can be more coherently documented.
 
-## A Note on Backward Compatibility {#A_Note_on_Backward_Compatibility}
+## A Note on Backward Compatibility 
 
 One argument against reorganising the standard library is that \"if you ignore them, they won\'t bother you\" - that is, the presence of many apparently haphazardly named modules is not a problem unless you need to import many of them. Fortunately, this observation can be used to work in favour of a reorganisation: the old module and package names can be retained in addition to a new layout, existing software will continue to work by importing modules via their old names, improved documentation can focus on the new layout, reference material describing the old layout could also be provided to assist those working with older software. One disadvantage might be the additional space requirement of two different library layouts, however. Another disadvantage, more serious than the first is the case where a top-level module is replaced by one with the same name but with different functionality; strict backward compatibility measures would be necessary to avoid migration issues in such cases.
 
-# Potential Areas of Improvement {#Potential_Areas_of_Improvement}
+# Potential Areas of Improvement 
 
 The following sections present observations about the current situation and possible recommendations for future editions of the standard library.
 
-## Activities, Grouping and Redundancy {#Activities.2C_Grouping_and_Redundancy}
+## Activities, Grouping and Redundancy 
 
 The current standard library employs many modules as siblings at the top level of a relatively shallow namespace hierarchy. Many modules have been introduced to remedy, augment or partially replace existing modules, leading to problems of redundancy and incoherency. However, a policy of preserving APIs which resemble \"system\", \"native\" or \"platform\" APIs has also been maintained, leading to the provision of numerous functions and abstractions in modules such as os, select, mmap, errno, getopt, and so on.
 
-### Overlapping Module Groups {#Overlapping_Module_Groups}
+### Overlapping Module Groups 
 
 The following groups of modules exhibit overlapping functionality:
 
@@ -61,13 +40,13 @@ The following groups of modules exhibit overlapping functionality:
 
 Modules in the above groups would be consolidated either within a single module or organised into a more intuitive package layout in a restructured standard library.
 
-### Functional Module Groups {#Functional_Module_Groups}
+### Functional Module Groups 
 
 The following groups of modules may intentionally provide similar functionality through different implementations, or may provide complementary functionality that belongs within a common \"functional group\":
 
 - StringIO, cStringIO (different implementations)
 
-- [UserDict](./UserDict.html){.nonexistent}, [UserList](./UserList.html){.nonexistent}, [UserString](./UserString.html){.nonexistent} (common theme: built-in type emulation)
+- [UserDict](./UserDict.html), [UserList](./UserList.html), [UserString](./UserString.html) (common theme: built-in type emulation)
 
 - base64, binhex, binascii, quopri, uu (common theme: encodings)
 
@@ -103,7 +82,7 @@ The following groups of modules may intentionally provide similar functionality 
 
 Modules in the above groups would be placed in intuitively named packages, possibly with improved names.
 
-### Recommendations {#Recommendations}
+### Recommendations 
 
 Just as the current standard library documentation divides the modules into particular groups, albeit with only moderate success, the above functional groupings could be used to define package boundaries that are more useful in distinguishing between different activities. A cursory review of the above could suggest the following set of packages:
 
@@ -129,7 +108,7 @@ The names employed above may not be entirely suitable, and due to the ambiguity 
 
 The issue remains of providing access to \"system\", \"native\" or \"platform\" APIs, especially since developers with a systems programming background may wish to make use of such APIs in preference to others, possibly to implement other abstractions or to maintain compatibility with (or resemblance to) other works. We may decide to retain a package for such APIs and not to remove them entirely from the standard library, despite the duplication of functionality that this might suggest.
 
-## Naming {#Naming}
+## Naming 
 
 The current standard library employs a number of naming conventions:
 
@@ -145,25 +124,25 @@ The current standard library employs a number of naming conventions:
 
 - difflib, httplib (lib-suffixed names, often using foreshortenings and acronyms)
 
-- StringIO, [UserDict](./UserDict.html){.nonexistent} (mixed-cased variants of combinations)
+- StringIO, [UserDict](./UserDict.html) (mixed-cased variants of combinations)
 
 - rfc822, netrc (specific references to specifications or technical details)
 
 - copy_reg, dummy_thread (combinations involving underscores)
 
-### Recommendations {#Recommendations-1}
+### Recommendations 
 
-In order to simplify the recollection process, names should follow a consistent naming scheme, arguably favouring descriptive names which mention the nature of the activity supported. We might decide to permit only lower-case characters, together with numbers (only where absolutely necessary), although this can often appear confusing with acronyms and word combinations (eg. stringio, cstringio). However, since the use of acronyms may potentially be relegated to the level of class names, we may at that level employ mixed-case class names, along with upper-case acronyms as apparently tolerated by [PEP 8 \"Style Guide for Python Code\"](http://www.python.org/dev/peps/pep-0008/){.http}. Thus, StringIO.StringIO would not become stringio.StringIO, but perhaps something like stringfile.StringIO or something even more descriptive.
+In order to simplify the recollection process, names should follow a consistent naming scheme, arguably favouring descriptive names which mention the nature of the activity supported. We might decide to permit only lower-case characters, together with numbers (only where absolutely necessary), although this can often appear confusing with acronyms and word combinations (eg. stringio, cstringio). However, since the use of acronyms may potentially be relegated to the level of class names, we may at that level employ mixed-case class names, along with upper-case acronyms as apparently tolerated by [PEP 8 \"Style Guide for Python Code\"](http://www.python.org/dev/peps/pep-0008/). Thus, StringIO.StringIO would not become stringio.StringIO, but perhaps something like stringfile.StringIO or something even more descriptive.
 
 In some situations it may be advisable to retain technical names instead of employing names which obscure the purpose of the module. For example, the base64 module refers to a specific kind of encoding, but any invented descriptive name for this module may prove be verbose and yet fail to accurately communicate the same information.
 
-## Top-level Organisation {#Top-level_Organisation}
+## Top-level Organisation 
 
 Currently, the standard library \"owns\" a number of top-level module names; indeed, since the library is relatively flat, a large number of module names are effectively reserved. Here is some anecdotal evidence of the confusion caused when standard library names are inadvertently chosen for other things:
 
-*\"Some care is required in picking a name for the application. I thought \'calendar\' would be a good name for a test application - but it turns out that this conflicts with the Python calendar library.\"* \-- [Comment on the Django tutorial](http://www.djangoproject.com/documentation/tutorial1/#c2363){.http}
+*\"Some care is required in picking a name for the application. I thought \'calendar\' would be a good name for a test application - but it turns out that this conflicts with the Python calendar library.\"* \-- [Comment on the Django tutorial](http://www.djangoproject.com/documentation/tutorial1/#c2363)
 
-### Recommendations {#Recommendations-2}
+### Recommendations 
 
 In a standard library organisation where no encapsulating top-level package exists (eg. std), care must be taken not to conflict with existing or likely independent package names. One potential conflict involves the config package, already registered in the Python Package Index. A solution may involve minimising the footprint of the library by creating as few packages as possible and by giving those packages distinct, meaningful, and possibly unlikely names.
 
@@ -174,13 +153,13 @@ Alternatively, an encapsulating top-level package could be chosen, with a name l
 - py (or python)
 - std (or stdlib, standard)
 
-## Module Functionality {#Module_Functionality}
+## Module Functionality 
 
 The diversity of module naming provides an \"archaeological\" guide to the accumulation processes operating within the standard library, yet more fundamental changes in style, recommended practices and techniques exist within the code of the modules themselves. Since the results of such differing implementation techniques manifest themselves as differently organised class hierarchies or interaction patterns, users of standard library modules must often master styles of usage which are often unnecessarily complicated for the task at hand or which diverge from previously accepted abstractions for similar tasks.
 
 However, for certain kinds of tasks it is appropriate to employ differing approaches and thus expose differing representations to users. For example, the choice of XML parsing module may involve trade-offs with respect to resource usage, convenience and performance, and no single approach is likely to satisfy the needs of all users.
 
-### Styles of Organisation/Interaction in Modules {#Styles_of_Organisation.2FInteraction_in_Modules}
+### Styles of Organisation/Interaction in Modules 
 
 The following styles of class organisation or interaction patterns appear in the standard library:
 
@@ -188,7 +167,7 @@ The following styles of class organisation or interaction patterns appear in the
 
 - Abstract superclass plus handler subclasses and separate processor classes (compiler, BaseHTTPServer)
 
-- Static mix-in hierarchies ([SocketServer](./SocketServer.html){.nonexistent})
+- Static mix-in hierarchies ([SocketServer](./SocketServer.html))
 
 - Dynamic mix-in hierarchies (urllib2)
 
@@ -198,13 +177,13 @@ The following styles of behaviour configuration are employed in the standard lib
 - Functionality registration mechanisms (copy_reg, xml.dom)
 - Environment variable access (urllib2)
 
-### Recommendations {#Recommendations-3}
+### Recommendations 
 
 Clearly, a diversity of patterns, mechanisms and styles are necessary to provide different approaches to particular tasks (as noted above). However, the revision of certain approaches and the subsequent \"archaeological\" accumulation of modules suggests that contributors have not been able to settle, at least initially, on a style widely regarded as being satisfactory to many standard library users.
 
 An interesting example of evolving styles, as well as a number of peculiarities in the APIs provided, can be found in the urllib and urllib2 modules. Here, a moderately simple initial API has evolved into a more complicated (and presumably more powerful) subsequent API, but despite the conveniences provided in \"loading up\" the configured objects with specific handler functionality in advance, an alternative might involve \"flattening\" the style of interactions by having users process responses explicitly using separate objects or functions.
 
-# Proposals {#Proposals}
+# Proposals 
 
 The most natural starting point for the definition of a restructured standard library is the package hierarchy itself. Taking the grouping recommendations into consideration, in order to identify broad categories, and taking the naming recommendations into account, we might define a more complete hierarchy:
 
@@ -371,7 +350,7 @@ The most natural starting point for the definition of a restructured standard li
   - shellsyntax (replaces shlex)
   - xml (contains the top-level xml package)
 
-- types (augments types, contains [UserDict](./UserDict.html){.nonexistent} as dict, [UserList](./UserList.html){.nonexistent} as list, [UserString](./UserString.html){.nonexistent} as str)
+- types (augments types, contains [UserDict](./UserDict.html) as dict, [UserList](./UserList.html) as list, [UserString](./UserString.html) as str)
 
   - array
   - collections
@@ -383,11 +362,11 @@ The most natural starting point for the definition of a restructured standard li
   - set (replaces sets)
   - weakref
 
-## Additional Categorisation {#Additional_Categorisation}
+## Additional Categorisation 
 
 Here, additional categorisation is introduced in order to distinguish between categories in different contexts. For example, http packages appear in both the client and server top-level packages. Instead of dividing the previously identified http category in this way, we might have decided to preserve a single http package and divide it into client and server subpackages. However, as suggested above, we regard the client and server categorisations as being more important than one of many technologies that may be relevant to both of these categorisations.
 
-## Difficult Categories and Packages {#Difficult_Categories_and_Packages}
+## Difficult Categories and Packages 
 
 Some categories may be established at the top level despite their nature suggesting a placement in some other category. For example, the email package could in certain respects be placed in either the archive or text packages, but since this might appear counterintuitive to different users of the package, a separate placement hopefully eliminates confusion and gives the package a deservedly more prominent status in the library.
 
@@ -395,19 +374,19 @@ Some modules or sections of functionality can be awkward to categorise. For exam
 
 Some categories are difficult to justify from the selection of modules available. For example, an io package (input/output) may contain all modules involving things like streams and files, but it may be the case that such modules belong elsewhere, or perhaps the name of such a top-level package should be more suggestive, such as files or streams, even if such names are arguably too specific or start to cover other topics: a files package might include file metadata processing, too.
 
-## System Packages {#System_Packages}
+## System Packages 
 
 As noted above, a special \"system\" (\"native\" or \"platform\") package could be established. Care should be taken, however, to avoid filling such a package with other packages that really ought to be disassembled, reorganised or recategorised.
 
-## Runtime Packages {#Runtime_Packages}
+## Runtime Packages 
 
 The current standard library has a sys package along with other auxilliary packages which affect the behaviour of the runtime system. It is suggested that these packages be available under the runtime top-level package. Although sys might be a more compatible name with existing programmers\' expectations, if that name were to be preserved, the system package would need to take one of the other proposed names instead.
 
-## Editorial Notes {#Editorial_Notes}
+## Editorial Notes 
 
 This is currently a draft, featuring a number of points that should be discussed rather than being interpreted as a final opinion or a final set of recommendations. \-- [PaulBoddie](PaulBoddie)
 
-## Open Issues {#Open_Issues}
+## Open Issues 
 
 1.  Should there be a top-level package representing the entire standard distribution, e.g., \"std\"? `from std.database import anydbm` \-- [SkipMontanaro](SkipMontanaro)
 
@@ -432,4 +411,3 @@ This is currently a draft, featuring a number of points that should be discussed
     - *Yes, it\'s something which is potentially important enough to have its own category.* \-- [PaulBoddie](PaulBoddie)
 
 5.  Are the io package and files package too close in purpose? Could things like tempfile (with a nicer API) be part of the files package? \-- [PaulBoddie](PaulBoddie)
-::::

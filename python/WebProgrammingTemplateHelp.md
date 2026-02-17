@@ -1,7 +1,12 @@
 # WebProgrammingTemplateHelp
 
-::: {#content dir="ltr" lang="en"}
-### Masthead {#Masthead}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### Masthead 
 
 URL
 
@@ -19,7 +24,7 @@ platforms
 Python versions
 :   see platforms
 
-### Deployment Platforms {#Deployment_Platforms}
+### Deployment Platforms 
 
 It is usual for Web application frameworks to make use of existing technological infrastructure to provide an environment for application development. In other words, such frameworks do not always implement all of the services required to deploy and run a Web-based application. Therefore, developers who wish to use a particular framework need to be aware of how that framework integrates with other software components - these other components are the software platforms which the framework itself is deployed on.
 
@@ -27,19 +32,19 @@ Many Python frameworks for Web applications integrate with (or are deployed on) 
 
 The deployment platforms (and issues) can exclude certain frameworks from certain environments; for example, restrictive application hosting environments forbid the execution of \"long-running processes\". Coverage of the suitability of a framework will therefore be included in the description of each framework.
 
-### Suitability {#Suitability}
+### Suitability 
 
-### Development Interfaces {#Development_Interfaces}
+### Development Interfaces 
 
 Whilst Python frameworks are likely to encourage the use of Python source code to implement functionality, the nature of this code can take a number of different forms. An example of a recognisable development style is that of a CGI-based program which uses the Python library\'s cgi module (or an equivalent replacement) to provide access to the details of incoming Web requests. Some frameworks may encourage the \"CGI style\" whilst others encourage a \"servlet style\", inspired by Java servlets, which promotes object-based \"request handlers\", as opposed to Python programs or modules.
 
 This document describes the nature of the code required to implement an application by associating each coding style with a number of recognisable style types, at least where this is appropriate.
 
-### Environment Access {#Environment_Access}
+### Environment Access 
 
 In order for \"handler\" components to integrate with other application functionality, such as common \"business logic\" which may be shared between applications or different application portions, certain mechanisms may be provided to locate such functionality, as well as shared or external resources and the general environment of the underlying platform. Some frameworks may principally use the standard Python import mechanism to find packages, whereas some frameworks may provide other means to access different environments - Zope\'s object database offers an environment which combines resource and component access, for example.
 
-### Session, Identification and Authentication {#Session.2C_Identification_and_Authentication}
+### Session, Identification and Authentication 
 
 The use of the term \"session\" on its own can be confusing, especially in the context of the terminology of particular Web frameworks. Therefore, this document uses the following terms:
 
@@ -49,15 +54,15 @@ Identity and Identification:: The identification of a visitor permits the contin
 
 Authentication:: The assignment of additional meaning to a visitor\'s identity, relevant to the application, making that visitor a genuine user of the application. Such additional information can be used by an application to determine which actions are available to the user.
 
-### Persistence Support {#Persistence_Support}
+### Persistence Support 
 
 In the context of Web applications, the term persistence is frequently used to mean \"the recording of visitor-related information which can be reused upon subsequent visits by the same visitor\". Thus, persistence is often used to record session information, although certain kinds of Web applications may involve the interaction of users with shared or underlying resources, and persistence can also be taken to mean \"convenient access to application resources\".
 
-### Presentation Support {#Presentation_Support}
+### Presentation Support 
 
 Although other documents and resources exist which catalogue template and presentation system implementations, it is still worth documenting the presentation mechanisms which are supported as \"first class\" in the different frameworks. Such integration between frameworks and presentation systems can be seen in certain systems such as PHP and ASP, while JSP remains a \"preferred\" presentation technology for many J2EE-based applications.
 
-### InTheirOwnWords {#InTheirOwnWords}
+### InTheirOwnWords 
 
 A short abstract by the developers:
 
@@ -71,11 +76,10 @@ A short abstract by the developers:
 
 The current entries are mostly taken from the home page of the projects.
 
-### Comments {#Comments}
+### Comments 
 
 These are from users of the framework, those that tried and failed and those that tried multiple frameworks and then decided on one. Framework authors may reply to comments, but should use the [InTheirOwnWords](InTheirOwnWords) tag.
 
-### Hosting {#Hosting}
+### Hosting 
 
 This should be a list of websites where applications using this framework can be hosted. This could also be a comment along the lines *any CGI with Python \>= 2.1 will do*
-:::

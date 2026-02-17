@@ -1,11 +1,16 @@
 # PlatsNavigering
 
-::: {#content dir="ltr" lang="en"}
-PlatsNavigering är den centrala platsen for att utforska denna Wiki. [MoinMoin](MoinMoin) förstår dessa typer av indexingscheman utav [IndexingScheme](http://www.usemod.com/cgi-bin/mb.pl?IndexingScheme "MeatBall"){.interwiki}:
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+PlatsNavigering är den centrala platsen for att utforska denna Wiki. [MoinMoin](MoinMoin) förstår dessa typer av indexingscheman utav [IndexingScheme](http://www.usemod.com/cgi-bin/mb.pl?IndexingScheme "MeatBall"):
 
 - [SenasteÄndringar](./Senaste(c384)ndringar.html) - ger en lista på de sidor som sist har ändrats
 
-- [TitelRegister](./TitelRegister.html){.nonexistent} - ger en lista på alla sidtitlar
+- [TitelRegister](./TitelRegister.html) - ger en lista på alla sidtitlar
 
 - [OrdRegister](OrdRegister) - ger en lista på alla ord som finns i sidtitlar
 
@@ -26,4 +31,3 @@ Längst ner på varje sida finns det knappar för att navigera till andra sidor 
 - LokalPlatsKarta
 
 Dessutom finns `[[PageList]]`, `[[FullSearch('text')]]` och `[[TableOfContents]]`, som ger dig möjlighet att automatiskt generera index för sammanhängande delar av en Wiki.
-:::

@@ -1,6 +1,11 @@
 # PackagingWG/2020-10-12-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Tues Oct 12
 
 Participants
@@ -20,7 +25,7 @@ Agenda
     - Does Pradyun have wording to implement? Yes, and will need Bernard to review the PR
 
 - Issues - anything you\'re waiting on?
-  - Nicole: error message suggestions \-- [https://github.com/pypa/pip/issues/8495](https://github.com/pypa/pip/issues/8495){.https} \-- Pradyun & Bernard \-- re: #8494 .
+  - Nicole: error message suggestions \-- [https://github.com/pypa/pip/issues/8495](https://github.com/pypa/pip/issues/8495) \-- Pradyun & Bernard \-- re: #8494 .
 
   - Issue 7744: a survey we need to analyze. Nicole to discuss with Georgia & Bernard
 
@@ -40,4 +45,3 @@ Agenda
 - CZI convening
   - TODO: Sumana to follow up and look at hours, whether we are attending, etc.
   - Could Ernest come? Could other team members come?
-:::

@@ -1,13 +1,18 @@
 # PyQt/Decoding_Japanese_Text
 
-::::: {#content dir="ltr" lang="en"}
-# Decoding Japanese Text {#Decoding_Japanese_Text}
+```{admonition} Legacy Wiki Page
+:class: note
 
-The following code was written in response to a [post on comp.lang.python](http://groups.google.com/group/comp.lang.python/msg/cbb6377999249b2c?dmode=source){.http} to show how to obtain a unicode representation of text stored in the Shift-JIS encoding. The original text has also been Base64 encoded for delivery in an e-mail message:
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-974a3fa1a11e5a644a102ddd08bf81117576e2c6 dir="ltr" lang="en"}
+# Decoding Japanese Text 
+
+The following code was written in response to a [post on comp.lang.python](http://groups.google.com/group/comp.lang.python/msg/cbb6377999249b2c?dmode=source) to show how to obtain a unicode representation of text stored in the Shift-JIS encoding. The original text has also been Base64 encoded for delivery in an e-mail message:
+
+:::: 
+::: 
+``` 
    1 import base64, sys
    2 from qt import *
    3 
@@ -43,4 +48,3 @@ The following code was written in response to a [post on comp.lang.python](http:
 This script decodes the Base64 string, uses the appropriate codec to convert the contents into a unicode representation, and shows the result in a label.
 
 Note that you will need suitable fonts installed on your system to see the result.
-:::::

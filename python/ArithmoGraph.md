@@ -1,7 +1,12 @@
 # ArithmoGraph
 
-::: {#content dir="ltr" lang="en"}
-An [arithmograph](http://de.wikipedia.org/wiki/Arithmograph){.http} is a kind of a numeric crossword puzzle, where instead of filling the rows and columns with words, digits must be found that give numbers that fit the equations. In this example a following arithmograph has been used:
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+An [arithmograph](http://de.wikipedia.org/wiki/Arithmograph) is a kind of a numeric crossword puzzle, where instead of filling the rows and columns with words, digits must be found that give numbers that fit the equations. In this example a following arithmograph has been used:
 
     ABC - BBD = DEF
      /     +     -
@@ -75,4 +80,3 @@ All resulting constraints are specified in the CONSTRAINTS array. As a result, w
     if __name__ == "__main__":
         eqns = [Equation(x) for x in EQUATIONS]
         check_permutations(CONSTRAINTS, eqns, [])
-:::

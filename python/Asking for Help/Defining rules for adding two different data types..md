@@ -1,7 +1,12 @@
 # Asking for Help/Defining rules for adding two different data types.
 
-:::::: {#content dir="ltr" lang="en"}
-# Asking for Help: Defining rules for adding two different data types {#Asking_for_Help:_Defining_rules_for_adding_two_different_data_types}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: Defining rules for adding two different data types 
 
 I\'m a beginner with Python and am trying to create a Complex number class. The problem I am having is as follows, if z is a complex number (or other special type) how can I find 1+z? I am able to handle z+1, but it would be much nicer to have the operation be commutative. Whenever I attempt to compute 1+z I receive a [TypeError](TypeError).
 
@@ -9,9 +14,9 @@ I\'m a beginner with Python and am trying to create a Complex number class. The 
 
 You do know that Python has a complex number type? For example:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-e2f374a3465d6b1a040b6b9b5cfb42a6dd804291 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 1 + 1j
 # gives (1+1j) - a complex number
 ```
@@ -33,4 +38,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-::::::

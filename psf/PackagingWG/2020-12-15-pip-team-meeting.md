@@ -1,6 +1,11 @@
 # PackagingWG/2020-12-15-pip-team-meeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Tuesday 15 Dec
 
 Participants
@@ -69,4 +74,3 @@ Agenda
 - UX training \[move to tomorrow\'s call\]
   - \~5 so far have responded
 - wrapping up and handing over UX stuff by end of year or Jan (this may move to tomorrow\'s call)
-:::

@@ -1,11 +1,16 @@
 # SwahiliLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Swahili
 
 ISO 639-1 Code: sw
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -27,9 +32,9 @@ Where these pages really need help:
 
 **Kiswahili**
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-649969d764d88f6507aed25301837e633d707290 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # python 3.0 or 3.1
    2 
    3 # Jambo 
@@ -49,4 +54,3 @@ Where these pages really need help:
 ::::
 
 [CategoryLanguage](CategoryLanguage)
-:::::

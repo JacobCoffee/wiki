@@ -1,63 +1,55 @@
 # ProjectFundingWG
 
-:::: {#content dir="ltr" lang="en"}
-# Project Funding Working Group {#Project_Funding_Working_Group}
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: table-of-contents
-Contents
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-1.  [Project Funding Working Group](#Project_Funding_Working_Group)
-    1.  [Purpose](#Purpose)
-    2.  [Resources](#Resources)
-    3.  [Governance](#Governance)
-        1.  [Administration and Contact](#Administration_and_Contact)
-        2.  [Members](#Members)
-        3.  [Meetings](#Meetings)
-    4.  [Current Projects](#Current_Projects)
-:::
+# Project Funding Working Group 
 
-The Project Funding Working Group is a volunteer [work group of the Python Software Foundation](https://www.python.org/psf/committees/#project-funding-work-group){.https}.
+The Project Funding Working Group is a volunteer [work group of the Python Software Foundation](https://www.python.org/psf/committees/#project-funding-work-group).
 
-## Purpose {#Purpose}
+## Purpose 
 
-This Working Group researches, and advises Python community volunteers on applying for external grants and similar funding to advance the mission of the PSF, which includes, but is not limited to, things such as advancing the Python core, Python-related infrastructure, key Python projects, and Python education and awareness. Read the [charter](https://wiki.python.org/psf/ProjectFundingWG/Charter){.https} for more about the Work Group\'s purpose and goals.
+This Working Group researches, and advises Python community volunteers on applying for external grants and similar funding to advance the mission of the PSF, which includes, but is not limited to, things such as advancing the Python core, Python-related infrastructure, key Python projects, and Python education and awareness. Read the [charter](https://wiki.python.org/psf/ProjectFundingWG/Charter) for more about the Work Group\'s purpose and goals.
 
-## Resources {#Resources}
+## Resources 
 
-See [our public GitHub repository](https://github.com/psf/project-funding-wg/){.https} for:
+See [our public GitHub repository](https://github.com/psf/project-funding-wg/) for:
 
-- [Available grants and similar funds](https://github.com/psf/project-funding-wg/blob/master/funders.md){.https}
+- [Available grants and similar funds](https://github.com/psf/project-funding-wg/blob/master/funders.md)
 
 Coming soon:
 
-- Ideas for fundable projects, like [the list of fundable Python packaging improvements](https://github.com/psf/fundable-packaging-improvements/){.https}
+- Ideas for fundable projects, like [the list of fundable Python packaging improvements](https://github.com/psf/fundable-packaging-improvements/)
 
 - Reusable grant application materials
 
 - Advice for volunteers on:
-  - Developing budgets, using resources like [the OSAOS Handbook budgeting guide](https://osaos.codeforscience.org/budgeting/){.https}
+  - Developing budgets, using resources like [the OSAOS Handbook budgeting guide](https://osaos.codeforscience.org/budgeting/)
 
   - Grantcraft (submitting proposals, drafting interim reports, and keeping up relationships with funders afterward)
 
   - Coordinating with the PSF, other WGs, and the Steering Council to decide priorities.)
 
-## Governance {#Governance}
+## Governance 
 
-Decisions on what fundraising and projects/efforts to support, and whether to engage paid grantwriting or project management services, will be done using the voting procedures outlined in [the charter](https://wiki.python.org/psf/ProjectFundingWG/Charter){.https}.
+Decisions on what fundraising and projects/efforts to support, and whether to engage paid grantwriting or project management services, will be done using the voting procedures outlined in [the charter](https://wiki.python.org/psf/ProjectFundingWG/Charter).
 
-### Administration and Contact {#Administration_and_Contact}
+### Administration and Contact 
 
 - Eric Holscher (chair)
 
 - Jacqueline Kazil (chair)
 
-- Ewa Jodlowska \< [ewa@python.org](mailto:ewa@python.org){.mailto} \>
+- Ewa Jodlowska \< [ewa@python.org](mailto:ewa@python.org) \>
 
-- [Funding Work Group Charter](https://wiki.python.org/psf/ProjectFundingWG/Charter){.https}
+- [Funding Work Group Charter](https://wiki.python.org/psf/ProjectFundingWG/Charter)
 
-- [project-funding-wg@python.org](mailto:project-funding-wg@python.org){.mailto}
+- [project-funding-wg@python.org](mailto:project-funding-wg@python.org)
 
-### Members {#Members}
+### Members 
 
 - Eric Holscher
 - Jacqueline Kazil
@@ -67,11 +59,10 @@ Decisions on what fundraising and projects/efforts to support, and whether to en
 - Dustin Ingram
 - Cristina Muñoz
 
-### Meetings {#Meetings}
+### Meetings 
 
 As needed. At least every alternate month (six times per year).
 
-## Current Projects {#Current_Projects}
+## Current Projects 
 
 \[to be added\]
-::::

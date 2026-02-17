@@ -1,11 +1,16 @@
 # ThinkSQL
 
-::: {#content dir="ltr" lang="en"}
-# ThinkSQL {#ThinkSQL-1}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# ThinkSQL 
 
 URL
 
-:   [http://www.thinksql.co.uk](http://www.thinksql.co.uk){.http}
+:   [http://www.thinksql.co.uk](http://www.thinksql.co.uk)
 
 licence
 :   commercial/proprietary with free developer licence
@@ -14,4 +19,3 @@ platforms
 :   Windows, Linux
 
 Includes a DB-API 2.0 driver.
-:::

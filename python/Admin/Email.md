@@ -1,9 +1,14 @@
 # Admin/Email
 
-::: {#content dir="ltr" lang="en"}
-# Mail and Mailman administration {#Mail_and_Mailman_administration}
+```{admonition} Legacy Wiki Page
+:class: note
 
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} *Please note: The administration pages have all been migrated to the new [PSF Systems Wiki](https://psf.projecthut.com/trac/psfsystems/wiki){.https}. Please no longer add information to these pages. If you need access to the new wiki, please contact [psf@python.org](mailto:psf@python.org){.mailto} for details.*
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Mail and Mailman administration 
+
+![/!\\](/wiki/europython/img/alert.png "/!\") *Please note: The administration pages have all been migrated to the new [PSF Systems Wiki](https://psf.projecthut.com/trac/psfsystems/wiki). Please no longer add information to these pages. If you need access to the new wiki, please contact [psf@python.org](mailto:psf@python.org) for details.*
 
   ----------------------------------------------------
   [/SpamBayes](./Admin(2f)Email(2f)SpamBayes.html)  
@@ -31,4 +36,3 @@ Skip says::
     to restore the hold-all-spam-even-really-obvious-stuff behavior.  Note that
     the next block below handles "unsure" posts.  Those will still require
     moderator approval.
-:::

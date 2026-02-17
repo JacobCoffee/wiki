@@ -1,13 +1,17 @@
 # RecipeTemplate
 
-::: {#content dir="ltr" lang="en"}
-# Problem {#Problem}
+```{admonition} Legacy Wiki Page
+:class: note
 
-# Solution {#Solution}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-# Discussion {#Discussion}
+# Problem 
+
+# Solution 
+
+# Discussion 
 
 ------------------------------------------------------------------------
 
 [CategoryDistutilsCookbook](CategoryDistutilsCookbook)
-:::

@@ -1,21 +1,18 @@
 # DatabaseExamples
 
-:::: {#content dir="ltr" lang="en"}
-# Database Examples in Jython {#Database_Examples_in_Jython}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Database Examples in Jython 
 
 [DocumentationAndEducation](DocumentationAndEducation)
 
-::: table-of-contents
-Contents
-
-1.  [Database Examples in Jython](#Database_Examples_in_Jython)
-    1.  1.  [SQLite using JDBC](#SQLite_using_JDBC)
-        2.  [SQLite using ziclix](#SQLite_using_ziclix)
-:::
-
 ------------------------------------------------------------------------
 
-### SQLite using JDBC {#SQLite_using_JDBC}
+### SQLite using JDBC 
 
 jdbc:
 
@@ -140,7 +137,7 @@ jdbc:
     if __name__ == '__main__':
         main()
 
-### SQLite using ziclix {#SQLite_using_ziclix}
+### SQLite using ziclix 
 
 ziclix:
 
@@ -244,4 +241,3 @@ ziclix:
 
     if __name__ == '__main__':
         main()
-::::

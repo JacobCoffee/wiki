@@ -1,17 +1,22 @@
 # PyQt/Python syntax highlighting
 
-::::::: {#content dir="ltr" lang="en"}
-If you need a code editor with syntax highlighting, but don\'t want something as heavyweight as [QsciScintilla](http://www.riverbankcomputing.co.uk/static/Docs/QScintilla2/classQsciScintilla.html){.http}, you can use the [QSyntaxHighlighter](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/qsyntaxhighlighter.html){.http} class to apply highlighting to a [QPlainTextEdit](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/qplaintextedit.html){.http} widget.
+```{admonition} Legacy Wiki Page
+:class: note
 
-This example was based on existing work by [Carson Farmer](http://www.carsonfarmer.com/?p=333){.http} and [Christophe Kibleur](http://lateral.netmanagers.com.ar/weblog/2009/09/21.html#BB831){.http}, and an [example on the SciPres wiki](http://artis.inrialpes.fr/Membres/Xavier.Decoret/resources/scipres/wiki/index.php/Python.py){.http}. One aspect not addressed by this prior work is handling of Python\'s triple-quoted strings, which may span multiple lines; the QSyntaxHighlighter documentation includes an example for C++ comments, but those have different beginning and ending delimiters `/* ... */`{.backtick}, whereas Python\'s triple-quoted strings have the same delimiter at the beginning and end. These are handled by the `match_multiline`{.backtick} method and by treating the triple-quotes within strings as an special case \--there may be an easier way to do this, but it seems to work pretty well.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-I have placed this code under the [Modified BSD License](http://directory.fsf.org/wiki/License:BSD_3Clause){.http} because I believe the author intended it to be freely used. However, I don\'t believe that I originally wrote this example, though I was responsible for migrating it to the Python Wiki. \-- [DavidBoddie](DavidBoddie) 2017-01-19 20:34:17
+If you need a code editor with syntax highlighting, but don\'t want something as heavyweight as [QsciScintilla](http://www.riverbankcomputing.co.uk/static/Docs/QScintilla2/classQsciScintilla.html), you can use the [QSyntaxHighlighter](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/qsyntaxhighlighter.html) class to apply highlighting to a [QPlainTextEdit](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/qplaintextedit.html) widget.
 
-I modified this code to fix a problem when triple-quotes were embedded inside strings. \-- [Artemio Garza Reyna](./Artemio(20)Garza(20)Reyna.html){.nonexistent} 2021-08-08 20:26:00
+This example was based on existing work by [Carson Farmer](http://www.carsonfarmer.com/?p=333) and [Christophe Kibleur](http://lateral.netmanagers.com.ar/weblog/2009/09/21.html#BB831), and an [example on the SciPres wiki](http://artis.inrialpes.fr/Membres/Xavier.Decoret/resources/scipres/wiki/index.php/Python.py). One aspect not addressed by this prior work is handling of Python\'s triple-quoted strings, which may span multiple lines; the QSyntaxHighlighter documentation includes an example for C++ comments, but those have different beginning and ending delimiters `/* ... */`{.backtick}, whereas Python\'s triple-quoted strings have the same delimiter at the beginning and end. These are handled by the `match_multiline`{.backtick} method and by treating the triple-quotes within strings as an special case \--there may be an easier way to do this, but it seems to work pretty well.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-6b0d5e41d78c40b7f50c179b7c3b0a103a4395c4 dir="ltr" lang="en"}
+I have placed this code under the [Modified BSD License](http://directory.fsf.org/wiki/License:BSD_3Clause) because I believe the author intended it to be freely used. However, I don\'t believe that I originally wrote this example, though I was responsible for migrating it to the Python Wiki. \-- [DavidBoddie](DavidBoddie) 2017-01-19 20:34:17
+
+I modified this code to fix a problem when triple-quotes were embedded inside strings. \-- [Artemio Garza Reyna](./Artemio(20)Garza(20)Reyna.html) 2021-08-08 20:26:00
+
+:::: 
+::: 
+``` 
    1 # syntax.py
    2 
    3 import sys
@@ -212,9 +217,9 @@ I modified this code to fix a problem when triple-quotes were embedded inside st
 
 Here\'s a simple editor application that demonstrates it (not including save/load features). Really all you need to do is instantiate the `syntax.PythonHighlighter`{.backtick} class, passing the `QPlainTextEdit`{.backtick} widget\'s document to the constructor:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-9e37943e51c694ea08a766a809842cc75af8344b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # editor.py
    2 
    3 from PyQt4 import QtGui
@@ -233,4 +238,3 @@ Here\'s a simple editor application that demonstrates it (not including save/loa
 ```
 :::
 ::::
-:::::::

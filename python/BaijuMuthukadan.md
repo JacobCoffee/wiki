@@ -1,11 +1,16 @@
 # BaijuMuthukadan
 
-::: {#content dir="ltr" lang="en"}
-I am Baiju M from [Kerala](http://en.wikipedia.org/wiki/Kerala){.http}. I love Python.
+```{admonition} Legacy Wiki Page
+:class: note
 
-[My Email Address](http://bit.ly/baiju-email-address){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-My Journal: [http://baijum81.livejournal.com/](http://baijum81.livejournal.com/){.http}
+I am Baiju M from [Kerala](http://en.wikipedia.org/wiki/Kerala). I love Python.
+
+[My Email Address](http://bit.ly/baiju-email-address)
+
+My Journal: [http://baijum81.livejournal.com/](http://baijum81.livejournal.com/)
 
 [LearnByObservation](LearnByObservation) - An experimetal page, let me see whether it is becoming somthing or not\...
 
@@ -20,4 +25,3 @@ My Journal: [http://baijum81.livejournal.com/](http://baijum81.livejournal.com/)
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

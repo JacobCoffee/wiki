@@ -1,19 +1,24 @@
 # BangPypers/Meeting03May2009
 
-::: {#content dir="ltr" lang="en"}
-## Details {#Details}
+```{admonition} Legacy Wiki Page
+:class: note
 
-- Venue: [ThoughtWorks](./ThoughtWorks.html){.nonexistent}, 2nd floor, Tower C, Diamond District, Airport Road, Bangalore (opp TGIF, Near Indira Nagar 100 FT flyover).
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-[map](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Diamond+District,+Airport,+Bangalore,+Bengaluru,+Karnataka,+India&sll=37.0625,-95.677068&sspn=40.681389,93.164063&ie=UTF8&ll=12.95908,77.644833&spn=0.006127,0.011373&t=h&z=17){.http}
+## Details 
+
+- Venue: [ThoughtWorks](./ThoughtWorks.html), 2nd floor, Tower C, Diamond District, Airport Road, Bangalore (opp TGIF, Near Indira Nagar 100 FT flyover).
+
+[map](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Diamond+District,+Airport,+Bangalore,+Bengaluru,+Karnataka,+India&sll=37.0625,-95.677068&sspn=40.681389,93.164063&ie=UTF8&ll=12.95908,77.644833&spn=0.006127,0.011373&t=h&z=17)
 
 - Time: 3pm to 5pm on 03 May 2009
 
-## Agenda {#Agenda}
+## Agenda 
 
 - Discuss [PyCon](PyCon) India
 
-## Participants {#Participants}
+## Participants 
 
 - Anand Chitipothu
 - Sriram Narayanan
@@ -23,13 +28,13 @@
 - Senthil Kumaran
 - Ravi Shankar
 
-## Summary {#Summary}
+## Summary 
 
-### Attendees {#Attendees}
+### Attendees 
 
 Anand B Pillai, Anand C, Harish M, Ravi Shankar, Senthil Kumaran, Sriram Narayan, S Ramdas.
 
-### Minutes {#Minutes}
+### Minutes 
 
 We discussed the venue, the format, the cost aspects, organizing committee etc. The meeting lasted from around 3.30pm to 5.15pm.
 
@@ -62,4 +67,3 @@ Here are the tasks that the participants have assigned to themselves for the nex
 - Senthil Kumaran - Advertise [PyCon](PyCon) India with user group mailing lists, do the initial grass-roots activity
 
 - Everyone - Work contacts in companies using Python to spread the word and find out about sponsorships & internal Python projects which they want to demo.
-:::

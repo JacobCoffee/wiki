@@ -1,6 +1,11 @@
 # IPSSCommittee
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Office Bearers of the Indian Python Software Society sep 2011 - sep 2012
 
 ::: {}
@@ -42,4 +47,3 @@ Office Bearers of the Indian Python Software Society feb 2010 - sep 2011
 ------------------------------------------------------------------------
 
 [CategoryIndianPythonSoftwareSociety](CategoryIndianPythonSoftwareSociety)
-:::::

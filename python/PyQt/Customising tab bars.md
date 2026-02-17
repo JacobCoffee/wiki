@@ -1,17 +1,22 @@
 # PyQt/Customising tab bars
 
-::::::: {#content dir="ltr" lang="en"}
-# Customising tab bars {#Customising_tab_bars}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Customising tab bars 
 
 On the `#pyqt`{.backtick} channel on Freenode, `felipe__`{.backtick} asked if it was possible to make the tabs in a QTabBar widget fill the available space.
 
-There is a property to do this in Qt 4.5 ([http://doc.trolltech.com/4.5/qtabbar.html#expanding-prop](http://doc.trolltech.com/4.5/qtabbar.html#expanding-prop){.http}), but earlier versions require some trickery.
+There is a property to do this in Qt 4.5 ([http://doc.trolltech.com/4.5/qtabbar.html#expanding-prop](http://doc.trolltech.com/4.5/qtabbar.html#expanding-prop)), but earlier versions require some trickery.
 
 In the following example, we subclass QTabBar and reimplement `tabSizeHint()`{.backtick} to treat the last tab differently to the others, calculating the available space left by the other tabs and returning this value instead of the tab\'s normal size.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-129f2917d8b5d3912f41d8f5adae4cddca3b2988 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from PyQt4.QtCore import QSize
    2 from PyQt4.QtGui import *
    3 
@@ -61,9 +66,9 @@ In the following example, we subclass QTabBar and reimplement `tabSizeHint()`{.b
 
 The following code does this, but does not take into account the space required to display the label of each tab. As a result, the tabs may not appear quite as you might wish.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-57ff2fa9487616b9e07e9685a24ec4df761ff588 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 class TabBar(QTabBar):
    2 
    3     def tabSizeHint(self, index):
@@ -71,4 +76,3 @@ The following code does this, but does not take into account the space required 
 ```
 :::
 ::::
-:::::::

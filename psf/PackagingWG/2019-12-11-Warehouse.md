@@ -1,32 +1,37 @@
 # PackagingWG/2019-12-11-Warehouse
 
-::: {#content dir="ltr" lang="en"}
-# PyPI Project Kickoff - 2019 Q4 RFP Milestone 2 - Automated Detection of Malicious Uploads {#PyPI_Project_Kickoff_-_2019_Q4_RFP_Milestone_2_-_Automated_Detection_of_Malicious_Uploads}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Attendees {#Attendees}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PyPI Project Kickoff - 2019 Q4 RFP Milestone 2 - Automated Detection of Malicious Uploads 
+
+## Attendees 
 
 - Ernest W. Durbin III - PSF
 - Cristina Muñoz - Independent Contractor
 - William Woodruff - Trail of Bits
 - Mike Myers - Trail of Bits
 
-## Introductions {#Introductions}
+## Introductions 
 
 - Ernest: PSF Dir of Infra. Overseeing project, available for review, design discusisons, and project onboarding.
 - Cristina: Contractor - Proposed for Milestone 2. Will be working on implementation of Milestone 2
 - Trail of Bits: William - Security Engineer at ToB, will be working on design and review of Milestone 2 work. Mike - engineering practice manager, point of contact for administrative concerns.
 
-## Logistics and Communications {#Logistics_and_Communications}
+## Logistics and Communications 
 
-- [GitHub](./GitHub.html){.nonexistent}: [https://github.com/pypa/warehouse](https://github.com/pypa/warehouse){.https} - Code Review, Design discussion, and Project tracking
+- [GitHub](./GitHub.html): [https://github.com/pypa/warehouse](https://github.com/pypa/warehouse) - Code Review, Design discussion, and Project tracking
 
-- Slack: [https://thepsf.slack.com](https://thepsf.slack.com){.https} for synchronous comms related to onboarding/development and higher throughput conversations.
+- Slack: [https://thepsf.slack.com](https://thepsf.slack.com) for synchronous comms related to onboarding/development and higher throughput conversations.
 
 - William and Mike from ToB already present as single-channel guests, Need invitation email for Cristina.
 
 - Meetings: Scheduled as needed, or monthly.
 
-## Project Timeline and Availability {#Project_Timeline_and_Availability}
+## Project Timeline and Availability 
 
 Known unavailability:
 
@@ -36,20 +41,19 @@ Known unavailability:
 
 - William: Dec 16 - 20
 
-- Cristina: Generally around ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+- Cristina: Generally around ![:)](/wiki/europython/img/smile.png ":)")
 
-## Next Steps {#Next_Steps}
+## Next Steps 
 
 - Project on-boarding: Will should be up to speed, Cristina can work with Ernest as needed.
 
-- Cristina: Share design proposal, after discussion: create [GitHub](./GitHub.html){.nonexistent} Issue to capture and discuss design from proposal.
+- Cristina: Share design proposal, after discussion: create [GitHub](./GitHub.html) Issue to capture and discuss design from proposal.
 
-- Ernest: Reference related issues to above and create Milestone: [https://github.com/pypa/warehouse/milestones](https://github.com/pypa/warehouse/milestones){.https}.
+- Ernest: Reference related issues to above and create Milestone: [https://github.com/pypa/warehouse/milestones](https://github.com/pypa/warehouse/milestones).
 
-- Trail of Bits: Interview point of contact: Ernest, [https://python-security.readthedocs.io/packages.html#pypi-typo-squatting](https://python-security.readthedocs.io/packages.html#pypi-typo-squatting){.https}.
+- Trail of Bits: Interview point of contact: Ernest, [https://python-security.readthedocs.io/packages.html#pypi-typo-squatting](https://python-security.readthedocs.io/packages.html#pypi-typo-squatting).
 
   - Initial Qs:
     - Survey of the history of packages removed from PyPI
     - Expected/desired incident response workflow
     - Tolerance for false positives/false negatives
-:::

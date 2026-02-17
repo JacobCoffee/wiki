@@ -1,32 +1,37 @@
 # EuroPython/2008/IRCMeetings/IRCMeeting10
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #10 {#IRC_Meeting_.2310}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Time/Location {#Time.2FLocation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# IRC Meeting #10 
+
+## Time/Location 
 
 The meeting will take place in the #europython channel on freenode at 18:00 CEST on Thursday 24th April.
 
 Please look at the minutes from the last meeting for more background information: [../IRCMeeting9](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting9.html)
 
-## Present {#Present}
+## Present 
 
 Aiste, David, Eugene, Harald, Lennart, Paul, Zeth.
 
-## Agenda/Minutes {#Agenda.2FMinutes}
+## Agenda/Minutes 
 
 - Registration/Budget
   - *Aiste/Laura/Jacob* to report on the progress of the budget and fees. **Most details appear to be in order.**
 
   - Details of fees are required for registration. Discussion required! **It would appear that fees will be the same as last year.**
 
-  - *Laura* to indicate any change in the status of payment systems, [WorldPay](./WorldPay.html){.nonexistent}, and so on. **Laura couldn\'t make it to the meeting, but based on previous reports, [PayPal](./PayPal.html){.nonexistent} and \"pay later\" via bank transfer (and cash at the door) are assumed.**
+  - *Laura* to indicate any change in the status of payment systems, [WorldPay](./WorldPay.html), and so on. **Laura couldn\'t make it to the meeting, but based on previous reports, [PayPal](./PayPal.html) and \"pay later\" via bank transfer (and cash at the door) are assumed.**
 
-  - T-shirts - any proposals or plans? **See [this page](http://www.europython.org/community/T_Shirts){.http}!**
+  - T-shirts - any proposals or plans? **See [this page](http://www.europython.org/community/T_Shirts)!**
 - Keynotes
   - We have preliminary acceptance by one keynoter. What now?
 - Sponsorship
-  - *Aiste* to provide information on venue costs (booths, streamers, etc.) in order to help with sponsor rate planning. **[Apparently, booths/tables/streamers incur no extra venue-specific costs.](http://mg.pov.lt/europython-irclog/%23europython.2008-04-10.log.html#t2008-04-10T19:10:05){.http}**
+  - *Aiste* to provide information on venue costs (booths, streamers, etc.) in order to help with sponsor rate planning. **[Apparently, booths/tables/streamers incur no extra venue-specific costs.](http://mg.pov.lt/europython-irclog/%23europython.2008-04-10.log.html#t2008-04-10T19:10:05)**
 
   - Further discussion of the [SponsorOffers](SponsorOffers) document.
 
@@ -34,7 +39,7 @@ Aiste, David, Eugene, Harald, Lennart, Paul, Zeth.
 - Feedback/Surveys
   - Progress on the processing of last year\'s surveys
 - Talks/Themes
-  - *Paul* put out a [Call for Participation](http://www.europython.org/community/CallForParticipation){.http}
+  - *Paul* put out a [Call for Participation](http://www.europython.org/community/CallForParticipation)
 
   - *Paul* set up some python.org mailing lists for talks/contact. Anyone needing access should speak up!
 
@@ -48,7 +53,6 @@ Aiste, David, Eugene, Harald, Lennart, Paul, Zeth.
 - General discussion (if necessary)
   - Sprints
 
-## Actions {#Actions}
+## Actions 
 
 - See the bold sections above\...
-:::

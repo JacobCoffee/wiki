@@ -1,31 +1,36 @@
 # TextProcessingInPython
 
-::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **Text Processing in Python** is a book by [DavidMertz](DavidMertz).
 
 The free text is available at:
 
-[http://gnosis.cx/TPiP/](http://gnosis.cx/TPiP/){.http}
+[http://gnosis.cx/TPiP/](http://gnosis.cx/TPiP/)
 
 Buy the dead-trees version at:
 
-[http://tinyurl.com/jskh](http://tinyurl.com/jskh){.http}
+[http://tinyurl.com/jskh](http://tinyurl.com/jskh)
 
-A review by Danny Yee at: [http://dannyreviews.com/h/Text_Python.html](http://dannyreviews.com/h/Text_Python.html){.http}
+A review by Danny Yee at: [http://dannyreviews.com/h/Text_Python.html](http://dannyreviews.com/h/Text_Python.html)
 
-# Notes {#Notes}
+# Notes 
 
-I\'m uploading some notes I kept from section 1.1, on his combinatorial [HigherOrderFunction](./HigherOrderFunction.html){.nonexistent}s, in the thought that someone might gain some use or insight out of it. \-- [LionKimbro](LionKimbro)
+I\'m uploading some notes I kept from section 1.1, on his combinatorial [HigherOrderFunction](./HigherOrderFunction.html)s, in the thought that someone might gain some use or insight out of it. \-- [LionKimbro](LionKimbro)
 
-## Chapter 1, Section 1 {#Chapter_1.2C_Section_1}
+## Chapter 1, Section 1 
 
-### Combinatorial.py {#Combinatorial.py}
+### Combinatorial.py 
 
-![mertz_chof.png](attachments/TextProcessingInPython/mertz_chof.png "mertz_chof.png"){.attachment}
+![mertz_chof.png](attachments/TextProcessingInPython/mertz_chof.png "mertz_chof.png")
 
-[mertz_chof.svg](attachments/TextProcessingInPython/mertz_chof.svg){.attachment}
+[mertz_chof.svg](attachments/TextProcessingInPython/mertz_chof.svg)
 
-### Question 3 {#Question_3}
+### Question 3 
 
 I took a particular interest in question 3. Question 3 asks: \"Why is ident() important?\"
 
@@ -154,9 +159,9 @@ Perhaps I just don\'t have a very good answer to question 3. Perhaps I\'ve misse
 
 But, here was my answer to the hint:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-7c3285d2fdb1276b750d2af6da8b9bb6294209af dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 return filter(lambda x:x.startswith("#"), lines)
 ```
 :::
@@ -206,9 +211,9 @@ Just to see something a little different, we\'ll look at using `ident()` to gene
 
 `apply_each(funcs, args)` is a function that applies the arguments to a series of functions, and gives you back the results in a list.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ac6e3a81c2e655e664b3d8d18a206b6a3b6f90c8 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 apply_each = lambda fns, args=[]: map(apply, fns, [args]*len(fns))
 ```
 :::
@@ -216,9 +221,9 @@ Just to see something a little different, we\'ll look at using `ident()` to gene
 
 Or, in the preferred Python list-comprehension form:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-221b7d66c58cb5bb604dc8757f13b61266b1f6c4 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 apply_each = lambda fns, args=[]: [f(*args) for f in fns]
 ```
 :::
@@ -228,9 +233,9 @@ So, if you wanted to make a function that constructs: `[f(x), x]`
 
 \...for whatever, reason, you can:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-cb8d0be22d300d94742cbf390963a862ef2d9cd4 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 my_func = apply_each(f, ident)
 ```
 :::
@@ -241,4 +246,3 @@ So, if you wanted to make a function that constructs: `[f(x), x]`
 So, just to remind you: Why is `ident()` useful?
 
 It\'s useful because it makes it possible to take advantage of the raw functionality of combinatorial higher order functions.
-:::::::::::

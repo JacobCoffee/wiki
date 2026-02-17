@@ -1,33 +1,38 @@
 # PyConIndia2011
 
-::: {#content dir="ltr" lang="en"}
-# PyCON India 2011 {#PyCON_India_2011}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PyCON India 2011 
 
 This is a top level namespace for organizing [PyCon](PyCon) India 2011. Please link to all important pages here.
 
 - [Action Plan](./PyConIndia2011(2f)InitialActionPlan.html)
 
-- [Budget Estimates](./PyConIndia2011(2f)BudgetEstimates.html){.nonexistent}
+- [Budget Estimates](./PyConIndia2011(2f)BudgetEstimates.html)
 
-- [Discussions on Sponsorship](./PyConIndia2011(2f)SponsorShip.html){.nonexistent}
+- [Discussions on Sponsorship](./PyConIndia2011(2f)SponsorShip.html)
 
-- [Venue Requirements](./PyConIndia2011(2f)VenueRequirements.html){.nonexistent}
+- [Venue Requirements](./PyConIndia2011(2f)VenueRequirements.html)
 
-- [Proposal letter for the college](./PyConIndia2011(2f)CollegeProposalLetter.html){.nonexistent}
+- [Proposal letter for the college](./PyConIndia2011(2f)CollegeProposalLetter.html)
 
 - [CFP](./PyConIndia2011(2f)CFP.html)
 
-- [Badges](./PyConIndia2011(2f)Badges.html){.nonexistent}
+- [Badges](./PyConIndia2011(2f)Badges.html)
 
-- [Artwork](./PyConIndia2011(2f)Artwork.html){.nonexistent}
+- [Artwork](./PyConIndia2011(2f)Artwork.html)
 
-## Public pages {#Public_pages}
+## Public pages 
 
 Pages which we will show to various people
 
 - [Sponsorship Tiers](./PyConIndia2011(2f)SponsorShipTiers.html)
 
-## More Pages {#More_Pages}
+## More Pages 
 
 - [PyConIndiaTShirt](PyConIndiaTShirt)
 
@@ -35,11 +40,11 @@ Pages which we will show to various people
 
 - [PyConIndiaLogos](PyConIndiaLogos)
 
-- [PyConIndiaPublicity](./PyConIndiaPublicity.html){.nonexistent}
+- [PyConIndiaPublicity](./PyConIndiaPublicity.html)
 
 - [PyConIndiaCallForProposals](PyConIndiaCallForProposals)
 
-- [PyConIN_Sponsors](http://wiki.python.org/moin/PyConIN_Sponsors){.http}
+- [PyConIN_Sponsors](http://wiki.python.org/moin/PyConIN_Sponsors)
 
 - [PyConIndiaInvitation](PyConIndiaInvitation)
 
@@ -47,9 +52,8 @@ Pages which we will show to various people
 
 - [PyConIndiaFlyer](PyConIndiaFlyer)
 
-## Website {#Website}
+## Website 
 
-[http://in.pycon.org/2011/](http://in.pycon.org/2011/){.http}
+[http://in.pycon.org/2011/](http://in.pycon.org/2011/)
 
-## Non active pages {#Non_active_pages}
-:::
+## Non active pages 

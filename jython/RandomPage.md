@@ -1,6 +1,11 @@
 # RandomPage
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 A list of 25 randomly-selected pages (out of 692 total):
 
 - [EventStats/UserAgents](./EventStats(2f)UserAgents.html)
@@ -28,4 +33,3 @@ A list of 25 randomly-selected pages (out of 692 total):
 - [WikiKurs/50 Wiki-Etikette](./WikiKurs(2f)50(20)Wiki(2d)Etikette.html)
 - [WikiKurs/51 Anwendungen](./WikiKurs(2f)51(20)Anwendungen.html)
 - [WordIndex](WordIndex)
-:::

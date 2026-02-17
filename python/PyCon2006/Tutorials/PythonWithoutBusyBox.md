@@ -1,11 +1,16 @@
 # PyCon2006/Tutorials/PythonWithoutBusyBox
 
-::: {#content dir="ltr" lang="en"}
-*This talk has been cancelled. Anyone with questions about this topic is welcome to contact \[Mailto:alex[.perry@ieee.org](mailto:.perry@ieee.org){.mailto}\].*
+```{admonition} Legacy Wiki Page
+:class: note
 
-# Python without a Busybox - Building small embedded devices quickly {#Python_without_a_Busybox_-_Building_small_embedded_devices_quickly}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-*This talk has been cancelled. Anyone with questions about this topic is welcome to contact \[Mailto:alex[.perry@ieee.org](mailto:.perry@ieee.org){.mailto}\].*
+*This talk has been cancelled. Anyone with questions about this topic is welcome to contact \[Mailto:alex[.perry@ieee.org](mailto:.perry@ieee.org)\].*
+
+# Python without a Busybox - Building small embedded devices quickly 
+
+*This talk has been cancelled. Anyone with questions about this topic is welcome to contact \[Mailto:alex[.perry@ieee.org](mailto:.perry@ieee.org)\].*
 
 The software of a future product can be quickly implemented using portable Python, whether on Linux, Mac, Windows, or another platform. Once tested to ensure that it meets all requirements, one can just merge those directories of Python code with a board support package, directly generating the download image for the device\'s Flash.
 
@@ -14,4 +19,3 @@ Small embedded devices, using Linux or a similar kernel, have often used Busybox
 This talk explains how to omit all non-Python software components and demonstrates the procedure with a simple Twisted Python program.
 
 *Audience: Beginning programmers with an embedded need or background*
-:::

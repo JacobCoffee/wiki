@@ -1,6 +1,11 @@
 # EuroPython2006/PyPiSprint
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 I\'d hope to knock over most of the items currently in [CheeseShopDev](CheeseShopDev) and would welcome others to participate in doing so.
 
 \-- [RichardJones](RichardJones)
@@ -9,9 +14,8 @@ I\'m there, though I might be hijacking the sprint a little bit for other pydoto
 
 We\'re working\... and yes, we\'re hijacking it for pydotorg purposes a little bit as well. Two introductory links:
 
-[http://www.python.org/dev/pydotorg/website/](http://www.python.org/dev/pydotorg/website/){.http}
+[http://www.python.org/dev/pydotorg/website/](http://www.python.org/dev/pydotorg/website/)
 
-[http://psf.pollenation.net/](http://psf.pollenation.net/){.http}
+[http://psf.pollenation.net/](http://psf.pollenation.net/)
 
-It was good meeting you guys there, I had fun. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} \-- [BjornStabell](BjornStabell) ([my blog](http://stabell.org/){.http})
-:::
+It was good meeting you guys there, I had fun. ![:)](/wiki/europython/img/smile.png ":)") \-- [BjornStabell](BjornStabell) ([my blog](http://stabell.org/))

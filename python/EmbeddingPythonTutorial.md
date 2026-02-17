@@ -1,7 +1,12 @@
 # EmbeddingPythonTutorial
 
-::: {#content dir="ltr" lang="en"}
-While a decent amount has been written about extending Python, or in other words writing C/C++ code that plugs into Python as a module, for a variety of reasons, less has been written about embedding Python. The [Python official documentation](http://docs.python.org/ext/lower-level-embedding.html){.http} wisely suggests one of the big reasons:
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+While a decent amount has been written about extending Python, or in other words writing C/C++ code that plugs into Python as a module, for a variety of reasons, less has been written about embedding Python. The [Python official documentation](http://docs.python.org/ext/lower-level-embedding.html) wisely suggests one of the big reasons:
 
     It should be noted that extending Python and embedding Python is quite the same activity, despite the different intent. Most
     topics discussed in the previous chapters are still valid. To show this, consider what the extension code from Python to C really does:
@@ -24,7 +29,7 @@ The official documentation in general does a good job introducing one to the int
 
 The first thing you need to do is initialize the parser. Make sure that you have included Python.h, and are linking to the python library (for example python2.5.so on \*NIX or python2.5.dll on Windows), and have set up your compiler and linker with the proper directories for both the include file and the library file. Then the initialization itself is quite easy; a simple call to Py_Initialize() does the job. If you\'re going to be using Python a lot, you might as well leave it initialized for the duration of your application. When you are done with it, simple call Py_Finalize(). If you need to use Python again at some point after you have called Py_Finalize(), simply call Py_Initialize() again.
 
-The next thing you need to do is set up the environment in which your Python fragments run. The easiest way to do that is to get a reference to the [main]{.u} module and namespace:
+The next thing you need to do is set up the environment in which your Python fragments run. The easiest way to do that is to get a reference to the [main] module and namespace:
 
         PyObject *main_module = PyImport_ImportModule("__main__");
         PyObject *main_dict   = PyModule_GetDict(main_module);
@@ -41,7 +46,7 @@ This acts just like \"import sys\" would within Python. Additionally, you can us
         char *version_string = PyString_AsString(version_obj);
         printf("%s\n", version_string);
 
-You can now use the environment you created to call functions and run scripts at will. You can use the data transferring routines to pass variables into and retrieve variables out of the [main]{.u} namespace of the embedded Python interpreter. Here is a simple, but complete example you can compile to try it out:
+You can now use the environment you created to call functions and run scripts at will. You can use the data transferring routines to pass variables into and retrieve variables out of the [main] namespace of the embedded Python interpreter. Here is a simple, but complete example you can compile to try it out:
 
     #include <Python.h>
 
@@ -109,4 +114,3 @@ You may also extend the embedded environment just like you would make a normal e
 ------------------------------------------------------------------------
 
 - [CategoryDocumentation](CategoryDocumentation)
-:::

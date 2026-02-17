@@ -1,11 +1,16 @@
 # PyConJython
 
-::: {#content dir="ltr" lang="en"}
-## Jython track at PyCon DC 2003 - Build Your Own Conference!!!! {#Jython_track_at_PyCon_DC_2003_-_Build_Your_Own_Conference.21.21.21.21}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Hm\...judging by the [PyConSchedule](./PyConSchedule.html){.nonexistent}, there won\'t be much Jython discussion in the official talks. Perhaps we can organize some [BoFs](./BoFs.html){.nonexistent} or [OpenSpace](OpenSpace) discussions at the conference.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Jython topics {#Jython_topics}
+## Jython track at PyCon DC 2003 - Build Your Own Conference!!!! 
+
+Hm\...judging by the [PyConSchedule](./PyConSchedule.html), there won\'t be much Jython discussion in the official talks. Perhaps we can organize some [BoFs](./BoFs.html) or [OpenSpace](OpenSpace) discussions at the conference.
+
+## Jython topics 
 
 Add your own ideas.
 
@@ -19,15 +24,14 @@ Add your own ideas.
 - Inside the Jython interpreter
 - Extending Jython with Java code
 
-## Jython BOF {#Jython_BOF}
+## Jython BOF 
 
 We did end up having a Jython BOF on Friday, March 28, at 9 a.m. It was attended by about a dozen people (add your name if you feel like it). Since the theme of the conference was \"Popularizing Python,\" much of the discussion centered around how Jython is used and how that could help popularize Python. We have started a [CategoryJython](CategoryJython) page on this wiki to help track issues related to Jython.
 
 I was at the Jython BOF:
 
-- [TomBryan](TomBryan) \-- I scheduled the BOF. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+- [TomBryan](TomBryan) \-- I scheduled the BOF. ![:)](/wiki/europython/img/smile.png ":)")
 
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon)
-:::

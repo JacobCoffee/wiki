@@ -1,23 +1,14 @@
 # boost.python/CallPolicy
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 `CallPolicy`{.backtick} allows [boost.python](./boost(2e)python.html) to deal with raw references and pointers. Different policies specifies different strategies of managing object ownership.
 
-::: table-of-contents
-Contents
-
-1.  [with_custodian_and_ward\<M,N\>](#with_custodian_and_ward.3CM.2CN.3E)
-2.  [with_custodian_and_ward_postcall\<M,N\>](#with_custodian_and_ward_postcall.3CM.2CN.3E)
-3.  [return_internal_reference](#return_internal_reference)
-4.  [return_value_policy\<T\>](#return_value_policy.3CT.3E)
-    1.  [reference_existing_object](#reference_existing_object)
-    2.  [copy_non_const_reference](#copy_non_const_reference)
-    3.  [copy_const_reference](#copy_const_reference)
-    4.  [manage_new_object](#manage_new_object)
-    5.  [return_by_value](#return_by_value)
-:::
-
-## with_custodian_and_ward\<M,N\> {#with_custodian_and_ward.3CM.2CN.3E}
+## with_custodian_and_ward\<M,N\> 
 
 Keeps N-th argument as long as M-th is alive.
 
@@ -29,7 +20,7 @@ Use of template parameters M,N:
 
 For example, container operation *append* usualy uses `with_custodian_and_ward<1,2>` which means keep argument alive while container itself is alive.
 
-## with_custodian_and_ward_postcall\<M,N\> {#with_custodian_and_ward_postcall.3CM.2CN.3E}
+## with_custodian_and_ward_postcall\<M,N\> 
 
 ties lifetimes of the arguments and results
 
@@ -39,7 +30,7 @@ M,N same as before but also you can use 0 - result
 
 Builds a Python object around a pointer to the C++ result object (which must have a class\_\<\> wrapper somewhere), and applies some lifetime management to keep the \"self\" object alive as long as the Python result is alive. NULL pointer returning as None.
 
-## return_value_policy\<T\> {#return_value_policy.3CT.3E}
+## return_value_policy\<T\> 
 
 with T one of:
 
@@ -47,7 +38,7 @@ with T one of:
 
 naïve (dangerous) approach
 
-[boost.python/ResultConverterGenerator](./boost(2e)python(2f)ResultConverterGenerator.html){.nonexistent} which can be used to wrap C++ functions returning a reference or pointer to a C++ object.
+[boost.python/ResultConverterGenerator](./boost(2e)python(2f)ResultConverterGenerator.html) which can be used to wrap C++ functions returning a reference or pointer to a C++ object.
 
 When the wrapped function is called, the value referenced by its return value is not copied.\
 A new Python object is created which contains an unowned U\* pointer to the referent of the wrapped function\'s return value, and no attempt is made to ensure that the lifetime of the referent is at least as long as that of the corresponding Python object.
@@ -62,7 +53,7 @@ This class is used in the implementation of return_internal_reference. Also NULL
 
 ### manage_new_object
 
-[BoostPython/ResultConverterGenerator](./BoostPython(2f)ResultConverterGenerator.html){.nonexistent} which can be used to wrap C++ functions returning a pointer to an object allocated with a *new-expression* and expecting the caller to take responsibility for deleting that C++ object from heap. [boost.python](./boost(2e)python.html) will do it as part of Python object destruction.
+[BoostPython/ResultConverterGenerator](./BoostPython(2f)ResultConverterGenerator.html) which can be used to wrap C++ functions returning a pointer to an object allocated with a *new-expression* and expecting the caller to take responsibility for deleting that C++ object from heap. [boost.python](./boost(2e)python.html) will do it as part of Python object destruction.
 
 Use case:
 
@@ -74,6 +65,5 @@ Use case:
 
 ### return_by_value
 
-[boost.python/ResultConverterGenerator](./boost(2e)python(2f)ResultConverterGenerator.html){.nonexistent} which can be used to wrap C++ functions returning any reference or value type.\
+[boost.python/ResultConverterGenerator](./boost(2e)python(2f)ResultConverterGenerator.html) which can be used to wrap C++ functions returning any reference or value type.\
 The return value is copied into a new Python object.
-::::

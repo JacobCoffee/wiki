@@ -1,6 +1,11 @@
 # PyOhio2008/Budget
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [PyOhio](PyOhio) 2008 Actuals
 
 A. 2008 Expenditures
@@ -33,4 +38,3 @@ B. Estimated Income
 3.  Sponsorships:
 
 C. Estimated Post 2009 Balance
-:::

@@ -1,11 +1,16 @@
 # AmharicLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Amharaic
 
 ISO 639-1 Code: am
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -27,11 +32,11 @@ Where these pages really need help:
 
 **አማርኛ**
 
-snippet translations courtesy of [Omniglot](http://www.omniglot.com/language/phrases/amharic.php){.http}
+snippet translations courtesy of [Omniglot](http://www.omniglot.com/language/phrases/amharic.php)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8a0b3ce513e5b094a1f761e54086de16a37d710c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Python 3.0/3.1
    2 
    3 # English
@@ -68,4 +73,3 @@ snippet translations courtesy of [Omniglot](http://www.omniglot.com/language/phr
 ::::
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode)
-:::::

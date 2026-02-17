@@ -1,13 +1,18 @@
 # BitwiseOperators
 
-::: {#content dir="ltr" lang="en"}
-## FAQ: What do the operators \<\<, \>\>, &, \|, \~, and \^ do? {#FAQ:_What_do_the_operators_.3C.3C.2C_.3E.3E.2C_.26.2C_.7C.2C_.2BAH4.2C_and_.5E_do.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## FAQ: What do the operators \<\<, \>\>, &, \|, \~, and \^ do? 
 
 These are Python\'s bitwise operators.
 
-### Preamble: Two\'s Complement Numbers {#Preamble:_Two.27s_Complement_Numbers}
+### Preamble: Two\'s Complement Numbers 
 
-All of these operators share something in common \-- they are \"bitwise\" operators. That is, they operate on numbers (normally), but instead of treating that number as if it were a single value, they treat it as if it were a string of bits, written in two\'s complement binary. A two\'s complement binary is the same as the classical binary representation for positive integers, but is slightly different for negative numbers. Negative numbers are represented by performing the [two\'s complement](https://en.wikipedia.org/wiki/Two's_complement){.https} operation on their absolute value. So a brief summary of two\'s complement binary is in order:
+All of these operators share something in common \-- they are \"bitwise\" operators. That is, they operate on numbers (normally), but instead of treating that number as if it were a single value, they treat it as if it were a string of bits, written in two\'s complement binary. A two\'s complement binary is the same as the classical binary representation for positive integers, but is slightly different for negative numbers. Negative numbers are represented by performing the [two\'s complement](https://en.wikipedia.org/wiki/Two's_complement) operation on their absolute value. So a brief summary of two\'s complement binary is in order:
 
 **Two\'s Complement binary for Positive Integers:**
 
@@ -29,7 +34,7 @@ Of course, Python doesn\'t use 8-bit numbers. It USED to use however many bits w
 
 Whew! With that preamble out of the way (and hey, you probably knew this already), the operators are easy to explain:
 
-### The Operators: {#The_Operators:}
+### The Operators: 
 
 x \<\< y
 :   Returns x with the bits shifted to the left by y places (and new bits on the right-hand-side are zeros). This is the same as multiplying x by 2\*\*y.
@@ -51,15 +56,14 @@ x \^ y
 
 Just remember about that infinite series of 1 bits in a negative number, and these should all make sense.
 
-### Other Classes {#Other_Classes}
+### Other Classes 
 
 One more point: Python allows operator overloading, so some classes may be written to allow the bitwise operators, but with some other meaning. For instance, operations on the Python `set`{.backtick} and `frozenset`{.backtick} types have specific meanings for `|`{.backtick} (union), `&`{.backtick} (intersection) and `^`{.backtick} (symmetric difference).
 
-## See Also {#See_Also}
+## See Also 
 
 \* [BitManipulation](BitManipulation) \* [BitArrays](BitArrays)
 
 ------------------------------------------------------------------------
 
 [CategoryFaq](CategoryFaq)
-:::

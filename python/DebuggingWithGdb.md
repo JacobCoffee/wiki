@@ -1,6 +1,11 @@
 # DebuggingWithGdb
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 There are types of bugs that are difficult to debug from within Python:
 
 - segfaults (not uncaught Python exceptions)
@@ -11,7 +16,7 @@ There are types of bugs that are difficult to debug from within Python:
 
 In these cases, you can try `gdb`.
 
-## Prerequisites {#Prerequisites}
+## Prerequisites 
 
 You need to have `gdb`{.backtick} on your system and Python debugging extensions. Extensions package includes debugging symbols and adds Python-specific commands into `gdb`{.backtick}. On a modern Linux system, you can easily install these with:
 
@@ -31,11 +36,11 @@ Centos\*:
 
 - `sudo yum install gdb python-debuginfo`
 
-##### \* tested on Centos 7. python-debuginfo is installable after the first two commands. {#A.2A_tested_on_Centos_7._python-debuginfo_is_installable_after_the_first_two_commands.}
+##### \* tested on Centos 7. python-debuginfo is installable after the first two commands. 
 
 For `gdb`{.backtick} support on legacy systems, look at the end of this page.
 
-## Running with \`gdb\` {#Running_with_.60gdb.60}
+## Running with \`gdb\` 
 
 There are two possible ways:
 
@@ -63,13 +68,13 @@ If the process is already running, you can attach to it provided you know the pr
 
 Attaching to a running process like this will cause it to stop. You can tell it to continue running with `c`{.backtick} command.
 
-## Debugging process {#Debugging_process}
+## Debugging process 
 
 If your program segfaulted, `gdb`{.backtick} will automatically pause the program, so you can switch into `gdb`{.backtick} console to inspect its state. You can also manually interrupt program execution by pressing Ctrl+C in the console.
 
-See the page [EasierPythonDebugging](https://fedoraproject.org/wiki/Features/EasierPythonDebugging){.https} for the list of Python helper commands for `gdb`{.backtick}.
+See the page [EasierPythonDebugging](https://fedoraproject.org/wiki/Features/EasierPythonDebugging) for the list of Python helper commands for `gdb`{.backtick}.
 
-### Getting a C Stack Trace {#Getting_a_C_Stack_Trace}
+### Getting a C Stack Trace 
 
 If you are debugging a segfault, this is probably the first thing you want to do.
 
@@ -90,7 +95,7 @@ With luck, this will give some idea of where the problem is occurring and if it 
 
 The quality of the results will depend greatly on the amount of debug information available.
 
-### Getting a Python Stack Trace {#Getting_a_Python_Stack_Trace}
+### Getting a Python Stack Trace 
 
 If you have Python extensions installed, you can enter:
 
@@ -98,7 +103,7 @@ If you have Python extensions installed, you can enter:
 
 to get stack trace with familiar Python source code.
 
-### Working With Hung Processes {#Working_With_Hung_Processes}
+### Working With Hung Processes 
 
 If a process appears hung, it will either be waiting on something (a lock, IO, etc), or be in a busy loop somewhere. In either case, attaching to the process and getting a back trace can help.
 
@@ -164,23 +169,23 @@ To see Python code positions for all threads, use:
        203            return _socketobject(_sock=sock), addr
       ...
 
-## References {#References}
+## References 
 
-- [http://fedoraproject.org/wiki/Features/EasierPythonDebugging](http://fedoraproject.org/wiki/Features/EasierPythonDebugging){.http}
+- [http://fedoraproject.org/wiki/Features/EasierPythonDebugging](http://fedoraproject.org/wiki/Features/EasierPythonDebugging)
 
-- [https://github.com/spyder-ide/spyder/wiki/How-to-debug-Spyder-deadlock-freeze-hang](https://github.com/spyder-ide/spyder/wiki/How-to-debug-Spyder-deadlock-freeze-hang){.https}
+- [https://github.com/spyder-ide/spyder/wiki/How-to-debug-Spyder-deadlock-freeze-hang](https://github.com/spyder-ide/spyder/wiki/How-to-debug-Spyder-deadlock-freeze-hang)
 
-## GDB on Legacy systems {#GDB_on_Legacy_systems}
+## GDB on Legacy systems 
 
 It may happen that you need to use `gdb`{.backtick} on a legacy system without advanced Python support. In this case you may find the following information useful.
 
-#### GDB Macros {#GDB_Macros}
+#### GDB Macros 
 
-A set of GDB macros are distributed with Python that aid in debugging the Python process. You can install them by adding the contents of `Misc/gdbinit`{.backtick} in the Python sources to `~/.gdbinit`{.backtick} \-- or copy it [from Subversion](http://svn.python.org/view/python/branches/release27-maint/Misc/gdbinit?view=log){.http}. Be sure to use the correct version for your version of Python or some features will not work.
+A set of GDB macros are distributed with Python that aid in debugging the Python process. You can install them by adding the contents of `Misc/gdbinit`{.backtick} in the Python sources to `~/.gdbinit`{.backtick} \-- or copy it [from Subversion](http://svn.python.org/view/python/branches/release27-maint/Misc/gdbinit?view=log). Be sure to use the correct version for your version of Python or some features will not work.
 
 Note that the new GDB commands this file adds will only work correctly if debugging symbols are available.
 
-Depending on how you\'ve compiled Python, some calls may have had their frame pointers (i.e. `$fp` in GDB) optimised away, which means GDB won\'t have access to local variables like `co` that can be inspected for Python callstack information. For example, if you compile using `-g -O3` using GCC 4.1, then this occurs. Similarly, with gcc 4.5.2 on Ubuntu (at least) the macros fail for the same reason. The usual symptom is that you\'ll see the **call_function** routine appearing to be between **[PyEval](./PyEval.html){.nonexistent}\_[EvalFrameEx](./EvalFrameEx.html){.nonexistent}** and **[PyEval](./PyEval.html){.nonexistent}\_[EvalCodeEx](./EvalCodeEx.html){.nonexistent}**, and the macro failing with **No symbol \"co\" in current context.**. There are two work-arounds for the issue:
+Depending on how you\'ve compiled Python, some calls may have had their frame pointers (i.e. `$fp` in GDB) optimised away, which means GDB won\'t have access to local variables like `co` that can be inspected for Python callstack information. For example, if you compile using `-g -O3` using GCC 4.1, then this occurs. Similarly, with gcc 4.5.2 on Ubuntu (at least) the macros fail for the same reason. The usual symptom is that you\'ll see the **call_function** routine appearing to be between **[PyEval](./PyEval.html)\_[EvalFrameEx](./EvalFrameEx.html)** and **[PyEval](./PyEval.html)\_[EvalCodeEx](./EvalCodeEx.html)**, and the macro failing with **No symbol \"co\" in current context.**. There are two work-arounds for the issue:
 
 - Recompiling python with **make \"CFLAGS=-g -fno-inline -fno-strict-aliasing\"** solves this problem.
 
@@ -189,9 +194,9 @@ Depending on how you\'ve compiled Python, some calls may have had their frame po
   -     <<<<         if $pc > PyEval_EvalFrameEx && $pc < PyEval_EvalCodeEx
             >>>>         if $pc > PyEval_EvalFrameEx && $pc < PyEval_EvalCodeEx && $fp != 0
 
-Also note that the stop condition for the while-loops in the `pystack` and `pystackv` routines were originally designed for the case where you\'re running the Python interpreter directly, and not running the interpreter withing another program (by loading the shared library and manually bootstrapping the interpreter). So you may need to tweak the while-loops depending on the program you\'re intending to debug. See, for example, [this StackOverflow post](http://stackoverflow.com/questions/22856807/stop-condition-for-stack-tracing-in-legacy-gdb-script){.http} for another (putative) stop condition.
+Also note that the stop condition for the while-loops in the `pystack` and `pystackv` routines were originally designed for the case where you\'re running the Python interpreter directly, and not running the interpreter withing another program (by loading the shared library and manually bootstrapping the interpreter). So you may need to tweak the while-loops depending on the program you\'re intending to debug. See, for example, [this StackOverflow post](http://stackoverflow.com/questions/22856807/stop-condition-for-stack-tracing-in-legacy-gdb-script) for another (putative) stop condition.
 
-#### Getting Python Stack Traces With GDB Macros {#Getting_Python_Stack_Traces_With_GDB_Macros}
+#### Getting Python Stack Traces With GDB Macros 
 
 At the gdb prompt, you can get a Python stack trace:
 
@@ -201,7 +206,6 @@ Alternatively, you can get a list of the Python locals along with each stack fra
 
 - (gdb) pystackv
 
-#### More useful macros not in python\'s gdbinit file {#More_useful_macros_not_in_python.27s_gdbinit_file}
+#### More useful macros not in python\'s gdbinit file 
 
-See [http://web.archive.org/web/20070915134837/http://www.mashebali.com/?Python_GDB_macros:The_Macros](http://web.archive.org/web/20070915134837/http://www.mashebali.com/?Python_GDB_macros:The_Macros){.http} for some more handy python gdb macros.
-:::
+See [http://web.archive.org/web/20070915134837/http://www.mashebali.com/?Python_GDB_macros:The_Macros](http://web.archive.org/web/20070915134837/http://www.mashebali.com/?Python_GDB_macros:The_Macros) for some more handy python gdb macros.

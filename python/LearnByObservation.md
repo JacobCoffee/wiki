@@ -1,15 +1,20 @@
 # LearnByObservation
 
-::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Note : This is an experimental page, Python can be learned interactively from a prompt, and learning by observations is a good habit, so this page. \-- [BaijuMuthukadan](BaijuMuthukadan)
 
 (This page is not linked from main pages yet.)
 
-### Creating Integer Objects {#Creating_Integer_Objects}
+### Creating Integer Objects 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-b791545199cde1b17d7099c67945c78237d0b10d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> a = 1
    2 >>> a
    3 1
@@ -24,11 +29,11 @@ Note : This is an experimental page, Python can be learned interactively from a 
 :::
 ::::
 
-### \_\_del\_\_ workings {#A__del___workings}
+### \_\_del\_\_ workings 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a8c8e49e81b1c4a5a363dd5b87f9b4f73255ce0d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> class C:
    2 ...     def __del__(self):
    3 ...         print "HI"
@@ -57,11 +62,11 @@ Note : This is an experimental page, Python can be learned interactively from a 
 :::
 ::::
 
-### list append and assignment {#list_append_and_assignment}
+### list append and assignment 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-52051f4aa1667fe0b3ced09d8b02bf379e9b0ab0 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> a=[1,2,3]
    2 >>> print a
    3 [1, 2, 3]
@@ -72,11 +77,11 @@ Note : This is an experimental page, Python can be learned interactively from a 
 :::
 ::::
 
-### staticmethod vs. classmethod {#staticmethod_vs._classmethod}
+### staticmethod vs. classmethod 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a5bbfc08447dc7e2615da07042ce68d940125b6f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> class C:
    2 ...     a=1
    3 ...     @staticmethod
@@ -96,4 +101,3 @@ Note : This is an experimental page, Python can be learned interactively from a 
 ```
 :::
 ::::
-:::::::::::

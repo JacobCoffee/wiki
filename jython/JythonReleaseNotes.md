@@ -1,9 +1,14 @@
 # JythonReleaseNotes
 
-::: {#content dir="ltr" lang="en"}
-# Jython 2.7.0 Release Notes {#Jython_2.7.0_Release_Notes}
+```{admonition} Legacy Wiki Page
+:class: note
 
-# Installing Jython {#Installing_Jython}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Jython 2.7.0 Release Notes 
+
+# Installing Jython 
 
 Use the Jython installation jar to install Jython. Three installation modes are provided:
 
@@ -28,9 +33,9 @@ From java -jar jython-installer-2.7.0.jar \--help, we can some examples of how t
 
 A standalone Jython jar is also provided for users who intend to embded Jython.
 
-# Running Jython {#Running_Jython}
+# Running Jython 
 
-Jython has a new launcher that is written in Python and executed by CPython 2.7. For Windows, CPython is bundled into the launcher (bin\\jython.exe) by the [PyInstaller](./PyInstaller.html){.nonexistent} program. For other systems, the installer determines if CPython 2.7 is available, and if so, uses CPython 2.7 to launch Jython.
+Jython has a new launcher that is written in Python and executed by CPython 2.7. For Windows, CPython is bundled into the launcher (bin\\jython.exe) by the [PyInstaller](./PyInstaller.html) program. For other systems, the installer determines if CPython 2.7 is available, and if so, uses CPython 2.7 to launch Jython.
 
 You can always see the command the launcher will use via the \--print option:
 
@@ -39,7 +44,7 @@ You can always see the command the launcher will use via the \--print option:
 
 Often it may make more sense to directly execute Jython in this fashion.
 
-The following environment variables do not usually have to be set, but if they are, they must be set correctly (see [http://bugs.jython.org/issue2346](http://bugs.jython.org/issue2346){.http}):
+The following environment variables do not usually have to be set, but if they are, they must be set correctly (see [http://bugs.jython.org/issue2346](http://bugs.jython.org/issue2346)):
 
 - JAVA_ENCODING - Character set encoding, such as UTF-8
 
@@ -57,15 +62,15 @@ The following environment variables do not usually have to be set, but if they a
 
 Empty settings are currently assumed to be significant, so use unset to remove if on a Unix-like system; on Windows, you can unset an environment variable via set ENVVAR=.
 
-# Backwards-breaking changes {#Backwards-breaking_changes}
+# Backwards-breaking changes 
 
 FIXME
 
-# New features {#New_features}
+# New features 
 
 FIXME
 
-# NEWS {#NEWS}
+# NEWS 
 
 More details can be found in the NEWS file, which is incorporated here:
 
@@ -350,4 +355,3 @@ More details can be found in the NEWS file, which is incorporated here:
     Jython 2.7a1
       Bugs Fixed
         - [ 1880 ] Sha 224 library not present in Jython
-:::

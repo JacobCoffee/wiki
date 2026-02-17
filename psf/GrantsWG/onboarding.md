@@ -1,23 +1,28 @@
 # GrantsWG/onboarding
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 You have now been added to the PSF\'s Grants Work Group mailing list.
 
 Below is information on how the work group works. Don\'t hesitate to ask questions here on the list or ping the chair people!
 
 List of resources for you:
 
-- Mailing List (both have access): [https://mail.python.org/mailman/listinfo/psf-grants](https://mail.python.org/mailman/listinfo/psf-grants){.https}
+- Mailing List (both have access): [https://mail.python.org/mailman/listinfo/psf-grants](https://mail.python.org/mailman/listinfo/psf-grants)
 
-- Wiki info page: [https://wiki.python.org/psf/GrantsWG](https://wiki.python.org/psf/GrantsWG){.https}
+- Wiki info page: [https://wiki.python.org/psf/GrantsWG](https://wiki.python.org/psf/GrantsWG)
 
-- Grants Work Group Charter: [https://wiki.python.org/psf/GrantsWG/Charter](https://wiki.python.org/psf/GrantsWG/Charter){.https}
+- Grants Work Group Charter: [https://wiki.python.org/psf/GrantsWG/Charter](https://wiki.python.org/psf/GrantsWG/Charter)
 
-- Online Grant Info page: [https://www.python.org/psf/grants/](https://www.python.org/psf/grants/){.https}
+- Online Grant Info page: [https://www.python.org/psf/grants/](https://www.python.org/psf/grants/)
 
-- Online FAQ: [https://www.python.org/psf/grants/faq/](https://www.python.org/psf/grants/faq/){.https}
+- Online FAQ: [https://www.python.org/psf/grants/faq/](https://www.python.org/psf/grants/faq/)
 
-- Online free resources for virtual events: [https://www.python.org/psf/grants/free-resources/](https://www.python.org/psf/grants/free-resources/){.https}
+- Online free resources for virtual events: [https://www.python.org/psf/grants/free-resources/](https://www.python.org/psf/grants/free-resources/)
 
 Info about the members:
 
@@ -25,7 +30,7 @@ We now have 12 voting members (all are listed on the charter) and I (Ewa) am the
 
 The process flow usually is:
 
-- We receive the grant via our online web form: [https://psfmember.org/node/2](https://psfmember.org/node/2){.https}
+- We receive the grant via our online web form: [https://psfmember.org/node/2](https://psfmember.org/node/2)
 
 - I review it and decide if it should go to the Grants WG or the PSF Board
 
@@ -42,4 +47,3 @@ The process flow usually is:
 - If you have any questions, please do not hesitate to contact the work group as a whole or ping me directly!
 
 Once again, WELCOME!
-:::

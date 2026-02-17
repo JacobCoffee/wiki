@@ -1,6 +1,11 @@
 # PyCon2006/Sprints/DjangoSprint
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 We\'ll have an introductory session Sunday (2/26) afternoon (around 3:30) to get to know each other and plan out the goals, followed by four days (2/27-3/2) of sprinting. Exactly what we\'ll work on will be determined at the planning meeting. Below are the ideas we\'ll discuss at the planning meeting:
 
 - Wrap up magic-removal (and merge to trunk if we get that far).
@@ -25,9 +30,9 @@ We\'ll have an introductory session Sunday (2/26) afternoon (around 3:30) to get
 
 - Shooting each other in the face.
 
-- [other easy stuff.](http://code.djangoproject.com/wiki/LittleEasyImprovements){.http}
+- [other easy stuff.](http://code.djangoproject.com/wiki/LittleEasyImprovements)
 
-## Participants {#Participants}
+## Participants 
 
 List your name here if you think you\'ll make it.
 
@@ -37,4 +42,3 @@ List your name here if you think you\'ll make it.
 - Rock Howard (Feb 26-Mar 1)
 - Martin Thomas (Feb 26-Mar 1)
 - Eugene Lazutkin
-:::

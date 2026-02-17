@@ -1,6 +1,11 @@
 # PackagingWG/2020-06-24-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Teamwide meeting
 
 Wednesday, 24 June 2020
@@ -8,7 +13,7 @@ Wednesday, 24 June 2020
 Agenda:
 
 - Prioritize and finalize the blockers to the beta
-  - [https://github.com/pypa/pip/projects/6](https://github.com/pypa/pip/projects/6){.https}
+  - [https://github.com/pypa/pip/projects/6](https://github.com/pypa/pip/projects/6)
 
     - 7871 - testing the new resolver - tracking issue for the remaining tests that are still failing. Needs to be finished before prod. Would love to have it before beta, but it will get finished by spinoff tickets. Paul\'s remaining paid work days are tomorrow (25th June 2020).
       - TP: FYI the count of `fails_on_new_resolver`{.backtick} in master is now 3, and all are actively being addressed.
@@ -89,7 +94,7 @@ Agenda:
       - OK, we may have a solution \-- in progress
       - moved to prod milestone
 
-    - Write \"implications of this change\" document (migration guide like [https://warehouse.readthedocs.io/api-reference/integration-guide/#migrating-to-the-new-pypi](https://warehouse.readthedocs.io/api-reference/integration-guide/#migrating-to-the-new-pypi){.https} to link to in release notes)
+    - Write \"implications of this change\" document (migration guide like [https://warehouse.readthedocs.io/api-reference/integration-guide/#migrating-to-the-new-pypi](https://warehouse.readthedocs.io/api-reference/integration-guide/#migrating-to-the-new-pypi) to link to in release notes)
 
       - Sumana needs to develop this
 
@@ -100,7 +105,7 @@ Agenda:
       - PR exists - WIP
 
     - More verbose explanation why \"Could not find a version that satisfies the requirement\"            #6526
-      - [https://github.com/pypa/pip/issues/6526](https://github.com/pypa/pip/issues/6526){.https} - Maybe need to remind the user pip ignores incompatible distributions (data-requires-python, wheel tags, eggs, etc.); files they see on PyPI is not always installable
+      - [https://github.com/pypa/pip/issues/6526](https://github.com/pypa/pip/issues/6526) - Maybe need to remind the user pip ignores incompatible distributions (data-requires-python, wheel tags, eggs, etc.); files they see on PyPI is not always installable
 
         - TP: current `ResolutionImpossible`{.backtick} message \.... the union of all the specifiers results in an empty set. But user may be confused if they do not think it is an empty set! Version 1.0 with only wheel for Windows. They install on Linux and pip will not select a Windows wheel and we do not know why. Address in REsolutionImpossible message
 
@@ -124,7 +129,7 @@ Agenda:
     - 6628 Declaring extras in constraints file installs also extra dependencies even if not instructed to            #6628
       - before beta: We just need to document what\'s up 
 
-  - [https://github.com/pypa/pip/projects/5](https://github.com/pypa/pip/projects/5){.https}
+  - [https://github.com/pypa/pip/projects/5](https://github.com/pypa/pip/projects/5)
 
     - what flag will we use? in progress in Zulip
 
@@ -138,7 +143,7 @@ Agenda:
     - We are reaching halfway point, we have an oppotunity to consider publicity around what\'s been done, what progress has been made, where we are standing with funding, where we plan to go. recognizing that the world has been a weird place this year. Board and community would be interested in a summary in the last 5.5 months
       - TODO: Ernest & Sumana - might take an hour to do a writing sprint on this
 
-- [https://github.com/pypa/pip/issues/8492](https://github.com/pypa/pip/issues/8492){.https} - is this something we can do with remaining funding? - Nicole
+- [https://github.com/pypa/pip/issues/8492](https://github.com/pypa/pip/issues/8492) - is this something we can do with remaining funding? - Nicole
 
   - Sumana: yes, in Phase III
 
@@ -146,20 +151,19 @@ Agenda:
 
     - Wait for a week or 2 til SaveInternetFreedom campaign calms down (Bernard: +1)
 
-      - [https://saveinternetfreedom.tech/](https://saveinternetfreedom.tech/){.https} for more info
+      - [https://saveinternetfreedom.tech/](https://saveinternetfreedom.tech/) for more info
 
-      - [https://www.theguardian.com/media/2020/jun/18/voice-of-america-independence-fears-after-trump-ally-purges-senior-officials](https://www.theguardian.com/media/2020/jun/18/voice-of-america-independence-fears-after-trump-ally-purges-senior-officials){.https}
+      - [https://www.theguardian.com/media/2020/jun/18/voice-of-america-independence-fears-after-trump-ally-purges-senior-officials](https://www.theguardian.com/media/2020/jun/18/voice-of-america-independence-fears-after-trump-ally-purges-senior-officials)
 
-      - [https://www.nytimes.com/2020/06/23/us/politics/michael-pack-global-media.html](https://www.nytimes.com/2020/06/23/us/politics/michael-pack-global-media.html){.https}
+      - [https://www.nytimes.com/2020/06/23/us/politics/michael-pack-global-media.html](https://www.nytimes.com/2020/06/23/us/politics/michael-pack-global-media.html)
 
   - Paul: Pradyun did some work on visualisation - is that likely to be relevant?
     - Might be!
 
-- TODO: \[outside of call\] Please review Nicole\'s latest documentation for ResolutionImpossible. Pull request in progress: [https://github.com/pypa/pip/pull/8493](https://github.com/pypa/pip/pull/8493){.https}
+- TODO: \[outside of call\] Please review Nicole\'s latest documentation for ResolutionImpossible. Pull request in progress: [https://github.com/pypa/pip/pull/8493](https://github.com/pypa/pip/pull/8493)
 
   - please try to do this by the end of your workday today
 
 Let\'s try to get this beta out by the end of June!
 
 Also: Pradyun, TP, Paul, and Bernard are speaking on a podcast tomorrow! Test & Code
-:::

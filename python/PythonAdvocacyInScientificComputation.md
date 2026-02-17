@@ -1,7 +1,12 @@
 # PythonAdvocacyInScientificComputation
 
-::: {#content dir="ltr" lang="en"}
-This page originated as an essay [MichaelTobis](MichaelTobis) posted [http://groups.google.com/group/comp.lang.python/msg/06d6b58b963fa10e](http://groups.google.com/group/comp.lang.python/msg/06d6b58b963fa10e){.http} on Usenet.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+This page originated as an essay [MichaelTobis](MichaelTobis) posted [http://groups.google.com/group/comp.lang.python/msg/06d6b58b963fa10e](http://groups.google.com/group/comp.lang.python/msg/06d6b58b963fa10e) on Usenet.
 
 ------------------------------------------------------------------------
 
@@ -19,29 +24,28 @@ One slogan of the Python community is that the language \"fits your brain\". Why
 
 The synergies among these programming modes is in some ways harder to explain than to experience. The Python novice may nevertheless observe that a single language can take the place of shell scripts, makefiles, desktop computation environments, compiled languages to build GUIs, and scripting languages to build web interfaces. In addition, Python is useful as a wrapper for Fortran modules, facilitating the implementation of true test-driven design processes in Fortran models.
 
-Another Python advocacy slogan is \"batteries included\". The point here is that (in part because Python is dramatically easier to write than other languages) there is a very broad range of very powerful standard libraries that make many tasks which are difficult in other languages astonishingly easy in Python. For instance, drawing upon the standard libraries (no additional download required) a portable webserver (runnable on both Microsoft and Unix-based platforms) can be implemented in seven lines of code. (See [http://effbot.org/librarybook/simplehttpserver.htm](http://effbot.org/librarybook/simplehttpserver.htm){.http} ) Installation of pure python packages is also very easy, and installation of mixed language products with a Python component is generally not significantly harder than a comparable product with no Python component.
+Another Python advocacy slogan is \"batteries included\". The point here is that (in part because Python is dramatically easier to write than other languages) there is a very broad range of very powerful standard libraries that make many tasks which are difficult in other languages astonishingly easy in Python. For instance, drawing upon the standard libraries (no additional download required) a portable webserver (runnable on both Microsoft and Unix-based platforms) can be implemented in seven lines of code. (See [http://effbot.org/librarybook/simplehttpserver.htm](http://effbot.org/librarybook/simplehttpserver.htm) ) Installation of pure python packages is also very easy, and installation of mixed language products with a Python component is generally not significantly harder than a comparable product with no Python component.
 
 Among the Python components and Python bindings of special interest to scientists are the elegant and powerful matplotlib plotting package, which began by emulating and now surpasses the plotting features of Matlab, SWIG, which allows for runtime interoperability with various languages, f2py which specifically interoperates with Fortran, NetCDF libraries (which cope with NetCDF files with dramatically less fuss than the standard C or Fortran bindings), statistics packages including bindings to the R language, linear algebra packages, various platform-specific and portable GUI libraries, genetic algorithms, optimization libraries, and bindings for high performance differential equation solvers (notably, using the Argonne National Laboratory package PetSC). An especially interesting Python trick for runtime visualization in models that were not designed to support it, pioneered by David Beazley\'s SWILL, embeds a web server in your model code.
 
-See especially [http://starship.python.net/\~hinsen/ScientificPython/](http://starship.python.net/~hinsen/ScientificPython/){.http} and [http://scipy.org](http://scipy.org){.http} as good starting points to learn about scientific uses of Python.
+See especially [http://starship.python.net/\~hinsen/ScientificPython/](http://starship.python.net/~hinsen/ScientificPython/) and [http://scipy.org](http://scipy.org) as good starting points to learn about scientific uses of Python.
 
 ------------------------------------------------------------------------
 
-[JuhoSchultz](./JuhoSchultz.html){.nonexistent} followed up, \"A slight broadening of the perspective could show another advantage: Python is also used for data processing, at least in astronomy. Modeling and processing the data in the same environment is very practical. Spend more time on modeling and processing the critical data sections - critical data section may depend on model parameters and sampling (which is often incomplete and uneven). You also avoid wasting CPU cycles to model things not in the data.
+[JuhoSchultz](./JuhoSchultz.html) followed up, \"A slight broadening of the perspective could show another advantage: Python is also used for data processing, at least in astronomy. Modeling and processing the data in the same environment is very practical. Spend more time on modeling and processing the critical data sections - critical data section may depend on model parameters and sampling (which is often incomplete and uneven). You also avoid wasting CPU cycles to model things not in the data.
 
 A theorist may be perfectly happy with Fortran, and an observer could do his stuff with simple scripts. But if they need to work together, Python is a very good option.\"
 
-[PeterTillotson](./PeterTillotson.html){.nonexistent} added, \"\... an area that doesn\'t come out strongly enough for me is Python\'s ability to drop down to and integrate with low level algorithms. This allows me to to optimise the key bits of design in python very quickly and then if I still need more poke i can drop down to low level programming languages. Optimise design, not code unless I really need to.
+[PeterTillotson](./PeterTillotson.html) added, \"\... an area that doesn\'t come out strongly enough for me is Python\'s ability to drop down to and integrate with low level algorithms. This allows me to to optimise the key bits of design in python very quickly and then if I still need more poke i can drop down to low level programming languages. Optimise design, not code unless I really need to.
 
 To be fair the same is at least partly true for Java ( though supporting JNI code scares me ) but my prototyping productivity isn\'t as high.
 
-The distributed / HPC packages may also be worth noting - PyMPI and [PyGlobus](./PyGlobus.html){.nonexistent}.\"
+The distributed / HPC packages may also be worth noting - PyMPI and [PyGlobus](./PyGlobus.html).\"
 
-[CameronLaird](CameronLaird) focused on a few details in a follow-up [http://groups.google.com/group/comp.lang.python/msg/39906e2430f72925](http://groups.google.com/group/comp.lang.python/msg/39906e2430f72925){.http}
+[CameronLaird](CameronLaird) focused on a few details in a follow-up [http://groups.google.com/group/comp.lang.python/msg/39906e2430f72925](http://groups.google.com/group/comp.lang.python/msg/39906e2430f72925)
 
-comp.lang.fortran responded to the essay in a long and contentious thread [http://groups.google.com/group/comp.lang.fortran/browse_thread/thread/e772dd0847d445c/](http://groups.google.com/group/comp.lang.fortran/browse_thread/thread/e772dd0847d445c/){.http} that brought out needs for specific explanations of Python\'s advantages in testing, as well as differential affection for Ruby (!).
+comp.lang.fortran responded to the essay in a long and contentious thread [http://groups.google.com/group/comp.lang.fortran/browse_thread/thread/e772dd0847d445c/](http://groups.google.com/group/comp.lang.fortran/browse_thread/thread/e772dd0847d445c/) that brought out needs for specific explanations of Python\'s advantages in testing, as well as differential affection for Ruby (!).
 
-\'Python Scripting for Computational Science\' by Hans Petter Langtangen is a good introduction to Python for scientific computing. Its early chapters also have good explanatory material for scientists considering expanding their toolkit to include a dynamic scripting language like Python. [http://folk.uio.no/hpl/scripting/](http://folk.uio.no/hpl/scripting/){.http}
+\'Python Scripting for Computational Science\' by Hans Petter Langtangen is a good introduction to Python for scientific computing. Its early chapters also have good explanatory material for scientists considering expanding their toolkit to include a dynamic scripting language like Python. [http://folk.uio.no/hpl/scripting/](http://folk.uio.no/hpl/scripting/)
 
 I (the original author of the article) added an introductory sentence at the top, to clarify the intended original audience for the article. Many of the points here also apply to the individual researcher doing one-off coding, but a few do not. Perhaps that should be in a separate article, or perhaps in a rewrite.
-:::

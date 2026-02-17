@@ -1,11 +1,16 @@
 # AdapterRegistry
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 An **adapter registry** is a piece of software that knows how to adapt one interface to another interface.
 
 (In this explanation, \"**interface**\" is some promise about what an object has and what it can do. Without getting into particulars, we probably mean what attributes and methods the object supports.)
 
-## Why Do We Care? {#Why_Do_We_Care.3F}
+## Why Do We Care? 
 
 Let\'s say you have the following classes:
 
@@ -33,11 +38,11 @@ Then you can write:
 
 \...and you get a backup of the entire wiki.
 
-## More Examples {#More_Examples}
+## More Examples 
 
 If you have a Eggs, and you need to plug it into some Spam, then you can have them automatically figure each other out. Or a third party mechanism can help the two figure each other out.
 
-The example is given in [Using the Adapter Registry](http://webforce.at/Interface/human.txt/view){.http} of having a file object (that supports IFile) that indirectly supports ISize.
+The example is given in [Using the Adapter Registry](http://webforce.at/Interface/human.txt/view) of having a file object (that supports IFile) that indirectly supports ISize.
 
 That is:
 
@@ -50,7 +55,7 @@ That is:
 
 Whenever I\'m programming, and I find a situation where this would be useful, I\'ll put a note here as a use case. I feel like it comes up a lot.
 
-## Culture of Interfaces {#Culture_of_Interfaces}
+## Culture of Interfaces 
 
 (I\'m about to say a bunch of things. I can\'t substantiate them with links right at this moment, though. If you know the links, though, please provide them, so it doesn\'t look like I\'m just making this stuff up. Of course, I may just well be flat wrong, or have seriously misunderstood. Caveat Emptor.)
 
@@ -60,21 +65,21 @@ People disagree about whether it\'s a good or not. But the point is, it\'s plaus
 
 You may find something interesting in the bottom of the page: \"[PythonThreeDotOh](PythonThreeDotOh).\" You should perhaps also read: \"[PythonFederalEnterpriseArchitecture](PythonFederalEnterpriseArchitecture).\"
 
-## Zope Adapter Registry {#Zope_Adapter_Registry}
+## Zope Adapter Registry 
 
 Zope includes the concepts of interfaces and adapters. Zope is referenced a lot in talk about an adapter registry; Conversation about adapter registries in Python seems inseperable from the Zope adapter registry.
 
-(There\'s also something called [PyProtocols](./PyProtocols.html){.nonexistent} that I don\'t know anything about, and there are also interfaces and adapters (I believe) in [PEAK](./PEAK.html){.nonexistent}, which is very complicated.)
+(There\'s also something called [PyProtocols](./PyProtocols.html) that I don\'t know anything about, and there are also interfaces and adapters (I believe) in [PEAK](./PEAK.html), which is very complicated.)
 
-- [Using the Adapter Registry](http://webforce.at/Interface/human.txt/view){.http}
+- [Using the Adapter Registry](http://webforce.at/Interface/human.txt/view)
 
-If you study the Zope adapter registry, \[[http://www.emacswiki.org/cw/WikiAsYouLearn](http://www.emacswiki.org/cw/WikiAsYouLearn){.http} you may want to keep public notes, in which case, you should know about the Zope Interfaces wiki:
+If you study the Zope adapter registry, \[[http://www.emacswiki.org/cw/WikiAsYouLearn](http://www.emacswiki.org/cw/WikiAsYouLearn) you may want to keep public notes, in which case, you should know about the Zope Interfaces wiki:
 
-- [Zope Interfaces wiki](http://www.zope.org/Wikis/Interfaces/FrontPage){.http}
+- [Zope Interfaces wiki](http://www.zope.org/Wikis/Interfaces/FrontPage)
 
-# Discussion {#Discussion}
+# Discussion 
 
-I don\'t mean to be inflammatory; This is just something that interests me, and that I\'m trying to understand. I don\'t really have anyone to talk with about these things in [my local community.](http://www.seapig.org/){.http}
+I don\'t mean to be inflammatory; This is just something that interests me, and that I\'m trying to understand. I don\'t really have anyone to talk with about these things in [my local community.](http://www.seapig.org/)
 
 If I\'ve seriously missed the mark, please correct me; And, if you know something, and can help us understand these things, please explain, preferably in some form of plain language.
 
@@ -83,4 +88,3 @@ re: use cases, it strikes me that it\'s perhaps not just the uses in code, but a
 We may not be able to find striking use cases, (\"look at how fewer lines this takes!\"), because the utility might come from the pragmatics of our use of our language.
 
 \-- [LionKimbro](LionKimbro) 2005-04-01 20:54:27
-:::

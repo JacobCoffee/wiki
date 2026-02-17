@@ -1,14 +1,19 @@
 # EnhancedPyPI
 
-::: {#content dir="ltr" lang="en"}
-# Abstract {#Abstract}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Abstract 
 
 This document provides:
 
 - a list of enhancements to make Distutils packaging system support several index servers;
 - changes to be made in the central server index implementation, a.k.a PyPI;
 
-# Rationale {#Rationale}
+# Rationale 
 
 The PyPI is playing a very important role in the standardization of Python package distribution since Python 2.4. Together with Distutils and the third-party library Setuptools, most Python programmers are releasing their packages in eggs, and are making them available in PyPI.
 
@@ -27,7 +32,7 @@ The rest of the document presents the actions to take, and the work to be done f
 
 - making PyPI permissive for Trove classification
 
-# Making .pypirc support multiple servers {#Making_.pypirc_support_multiple_servers}
+# Making .pypirc support multiple servers 
 
 Right now, the `.pypirc` file is intended to keep username and password for registering a package. The file looks like
 
@@ -50,7 +55,7 @@ or adding it in the `.pypirc` file:
 
 In both cases, if your username differs from a server to another, it is not possible to keep a username/password for each server. Furthermore the realm associated with the server is hardcoded to \"pypi\".
 
-## Several sections in .pypirc {#Several_sections_in_.pypirc}
+## Several sections in .pypirc 
 
 A simple way to enhance it, is to be able to add several sections in `.pypirc`. The root section would be the `[distutils]` section, with a list of sections that represent a server.
 
@@ -111,9 +116,9 @@ Backward compatibility will be kept, and a file that uses the old format:
       username:tarek2
       password:secret
 
-## Making PyPI permissive for Trove classification {#Making_PyPI_permissive_for_Trove_classification}
+## Making PyPI permissive for Trove classification 
 
-PyPI is based on a Trove classification, see [http://www.python.org/dev/peps/pep-0301/#distutils-trove-classification](http://www.python.org/dev/peps/pep-0301/#distutils-trove-classification){.http}. Another server may have its own trove classification though, that differs from PyPI. This is intended because the server can provide a \"package center\" that has its own domain-specific categories.
+PyPI is based on a Trove classification, see [http://www.python.org/dev/peps/pep-0301/#distutils-trove-classification](http://www.python.org/dev/peps/pep-0301/#distutils-trove-classification). Another server may have its own trove classification though, that differs from PyPI. This is intended because the server can provide a \"package center\" that has its own domain-specific categories.
 
 For example, a package might have this classification:
 
@@ -142,4 +147,3 @@ When registering it to several servers, the expected output would be::
             200 - OK
 
 This will allow visual checking when a typo is made. The package will then be available in each server, but only under the categories known to the server.
-:::

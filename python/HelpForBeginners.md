@@ -1,7 +1,12 @@
 # HelpForBeginners
 
-::: {#content dir="ltr" lang="en"}
-# Help for Beginners {#Help_for_Beginners}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Help for Beginners 
 
 A [WikiWikiWeb](WikiWikiWeb) is a collaborative hypertext environment, with an emphasis on easy access to and modification of information.
 
@@ -9,7 +14,7 @@ You can edit any page by pressing the \"edit\" link. Depending on the selected u
 
 You are encouraged to edit the [WikiSandBox](WikiSandBox) whichever way you like. Please restrain yourself from editing other pages until you feel at home with the ways a wiki works.
 
-To learn more about what a [WikiWikiWeb](http://c2.com/cgi/wiki?WikiWikiWeb "Wiki"){.interwiki} is, read about [WhyWikiWorks](http://c2.com/cgi/wiki?WhyWikiWorks "Wiki"){.interwiki} and the [WikiNature](http://c2.com/cgi/wiki?WikiNature "Wiki"){.interwiki}. Also, consult the [WikiWikiWebFaq](http://c2.com/cgi/wiki?WikiWikiWebFaq "Wiki"){.interwiki} and [OneMinuteWiki](http://c2.com/cgi/wiki?OneMinuteWiki "Wiki"){.interwiki}. This wiki is also part of the [InterWiki](InterWiki) space, which means you can easily refer to a wealth of information available through other public wiki sites.
+To learn more about what a [WikiWikiWeb](http://c2.com/cgi/wiki?WikiWikiWeb "Wiki") is, read about [WhyWikiWorks](http://c2.com/cgi/wiki?WhyWikiWorks "Wiki") and the [WikiNature](http://c2.com/cgi/wiki?WikiNature "Wiki"). Also, consult the [WikiWikiWebFaq](http://c2.com/cgi/wiki?WikiWikiWebFaq "Wiki") and [OneMinuteWiki](http://c2.com/cgi/wiki?OneMinuteWiki "Wiki"). This wiki is also part of the [InterWiki](InterWiki) space, which means you can easily refer to a wealth of information available through other public wiki sites.
 
 Good starting points to explore a wiki are
 
@@ -22,4 +27,3 @@ Good starting points to explore a wiki are
 - [HelpOnEditing](HelpOnEditing): the starting point to learn everything about wiki markup
 
 For more help, see the [HelpContents](HelpContents) and the [HelpIndex](HelpIndex) pages.
-:::

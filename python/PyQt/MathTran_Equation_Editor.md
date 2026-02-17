@@ -1,19 +1,24 @@
 # PyQt/MathTran_Equation_Editor
 
-::: {#content dir="ltr" lang="en"}
-# MathTran Equation Editor {#MathTran_Equation_Editor}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Introduction {#Introduction}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-[MathTran](http://www.mathtran.org/){.http} is a Web service that can be used to obtain images of equations written using the [TeX](http://www.tug.org/whatis.html){.http} typesetting language. Equations can be embedded into Web pages using a clever JavaScript library that you embed into your pages - this converts the TeX markup written in the `src`{.backtick} attributes of image elements into requests to the MathTran service.
+# MathTran Equation Editor 
+
+## Introduction 
+
+[MathTran](http://www.mathtran.org/) is a Web service that can be used to obtain images of equations written using the [TeX](http://www.tug.org/whatis.html) typesetting language. Equations can be embedded into Web pages using a clever JavaScript library that you embed into your pages - this converts the TeX markup written in the `src`{.backtick} attributes of image elements into requests to the MathTran service.
 
 You can also write requests to the service directly in the `src`{.backtick} to obtain images in a static Web page, or use the same approach to obtain images in a desktop application. This is exactly what we do in this example.
 
-![mathtran-equation-viewer.png](attachments/PyQt(2f)MathTran_Equation_Editor/mathtran-equation-viewer.png "mathtran-equation-viewer.png"){.attachment}
+![mathtran-equation-viewer.png](attachments/PyQt(2f)MathTran_Equation_Editor/mathtran-equation-viewer.png "mathtran-equation-viewer.png")
 
-**Note:** You should read the [Terms of Use](http://www.mathtran.org/wiki/index.php/Terms_of_Use){.http} of the MathTran service before using this example.
+**Note:** You should read the [Terms of Use](http://www.mathtran.org/wiki/index.php/Terms_of_Use) of the MathTran service before using this example.
 
-## Modules {#Modules}
+## Modules 
 
 We use the `QtCore`{.backtick} and `QtGui`{.backtick} modules to provide the basic infrastructure and user interface for our utility.
 
@@ -24,7 +29,7 @@ We use the `QtCore`{.backtick} and `QtGui`{.backtick} modules to provide the bas
 
 Although the Python standard library has facilities for fetching data from Web services, we use the `QtNetwork`{.backtick} module to communicate with the MathTran server.
 
-## The Window Class {#The_Window_Class}
+## The Window Class 
 
 The `Window`{.backtick} class provides both the user interface for the utility and handles all communication with the server using a `QHttp`{.backtick} instance whose `done()`{.backtick} signal is connected to the `updateForm()`{.backtick} method.
 
@@ -127,7 +132,7 @@ At this point, the server should have returned some data into the `QHttp`{.backt
 
 If the image data was valid, we convert the image to a pixmap and pass it to the label to display.
 
-## Running the Application {#Running_the_Application}
+## Running the Application 
 
 We add the standard `if`{.backtick} statement and suite to create a `QApplication`{.backtick} object and an instance of our `Window`{.backtick} class.
 
@@ -140,7 +145,6 @@ We add the standard `if`{.backtick} statement and suite to create a `QApplicatio
 
 Finally, we show the window and start the event loop.
 
-## Further Developments {#Further_Developments}
+## Further Developments 
 
-A more flexible version of this example was written for the [Creating_GUI_Applications_with_PyQt_and_Qt_Designer](./Creating_GUI_Applications_with_PyQt_and_Qt_Designer.html){.nonexistent} talk at PyCon UK 2007.
-:::
+A more flexible version of this example was written for the [Creating_GUI_Applications_with_PyQt_and_Qt_Designer](./Creating_GUI_Applications_with_PyQt_and_Qt_Designer.html) talk at PyCon UK 2007.

@@ -1,11 +1,16 @@
 # PackagingWG/2020-11-25-pip-small-meeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Sunday 25 Nov
 
 Pradyun-Sumana meeting
 
-- On Big Sur support - updated [https://github.com/pypa/pip/issues/8936](https://github.com/pypa/pip/issues/8936){.https}
+- On Big Sur support - updated [https://github.com/pypa/pip/issues/8936](https://github.com/pypa/pip/issues/8936)
 
   - TODO: Sumana to mark in release announcement
 
@@ -15,13 +20,13 @@ Pradyun-Sumana meeting
   - add attention admonition on top:
     - Major and minor releases of pip also include changes listed within prior beta releases
 
-    - PR opened: [https://github.com/pypa/pip/pull/9173](https://github.com/pypa/pip/pull/9173){.https}
+    - PR opened: [https://github.com/pypa/pip/pull/9173](https://github.com/pypa/pip/pull/9173)
 
 - Add \"no-deps\" suggestion to user guide - migration
   - change step 4 to \"Troubleshoot and try these workarounds\"
-    - use `--no-deps`{.backtick} when you are sure you don\'t want pip to actually resolve dependencies, because you are using a set of packages that work together in reality even though their metadata says that they conflict \[this is a workaround \-- see [https://pip.pypa.io/en/latest/user_guide/#fixing-conflicting-dependencies](https://pip.pypa.io/en/latest/user_guide/#fixing-conflicting-dependencies){.https} re longterm solution\]
+    - use `--no-deps`{.backtick} when you are sure you don\'t want pip to actually resolve dependencies, because you are using a set of packages that work together in reality even though their metadata says that they conflict \[this is a workaround \-- see [https://pip.pypa.io/en/latest/user_guide/#fixing-conflicting-dependencies](https://pip.pypa.io/en/latest/user_guide/#fixing-conflicting-dependencies) re longterm solution\]
 
-    - read [https://pip.pypa.io/en/latest/user_guide/#dependency-resolution-backtracking](https://pip.pypa.io/en/latest/user_guide/#dependency-resolution-backtracking){.https} for ways to reduce the time pip spends backtracking
+    - read [https://pip.pypa.io/en/latest/user_guide/#dependency-resolution-backtracking](https://pip.pypa.io/en/latest/user_guide/#dependency-resolution-backtracking) for ways to reduce the time pip spends backtracking
 
     - use the old resolver \[reuse existing language\]
 
@@ -31,7 +36,7 @@ Pradyun-Sumana meeting
 
 Major changes in this release:
 
-1.  DISRUPTION: Switch to the new dependency resolver by default. (#9019) Watch out for changes in handling editable installs, constraints files, and more: [https://pip.pypa.io/en/latest/user_guide/#changes-to-the-pip-dependency-resolver-in-20-3-2020](https://pip.pypa.io/en/latest/user_guide/#changes-to-the-pip-dependency-resolver-in-20-3-2020){.https}
+1.  DISRUPTION: Switch to the new dependency resolver by default. (#9019) Watch out for changes in handling editable installs, constraints files, and more: [https://pip.pypa.io/en/latest/user_guide/#changes-to-the-pip-dependency-resolver-in-20-3-2020](https://pip.pypa.io/en/latest/user_guide/#changes-to-the-pip-dependency-resolver-in-20-3-2020)
 
 2.  DEPRECATION: Deprecate support for Python 3.5 (to be removed in pip 21.0) (#8181)
 
@@ -44,4 +49,3 @@ Major changes in this release:
 6.  Documentation improvements: Resolver migration guide, quickstart guide, and new documentation theme.
 
 7.  Add support for MacOS Big Sur compatibility tags. (#9138)
-:::

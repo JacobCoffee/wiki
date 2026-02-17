@@ -1,7 +1,12 @@
 # NewStyleClasses
 
-::::::::: {#content dir="ltr" lang="en"}
-Description of type/class unification: [Unifying types and classes in Python](http://www.python.org/2.2.2/descrintro.html){.http}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Description of type/class unification: [Unifying types and classes in Python](http://www.python.org/2.2.2/descrintro.html)
 
 There are two primary objectives:
 
@@ -27,9 +32,9 @@ For example, looking at a partial listing of list.expose:
 
 So the type_name is \'list\'.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2ea83480010284b1145ff1e429b0abb3c406363b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 >>> type([])
 <type 'list'>
 ```
@@ -54,9 +59,9 @@ Opening the file list.txt in your favorite editor you\'ll see the Java code. Thi
 
 The problem is PyList doesn\'t have any of the methods. The generated code expected \'list_append\' but PyList has only \'append\' so the compiler complains. This is intended. Now for the boring part. For each method exposed, we need to create a new method. For example:
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-24520f9f5695dcb8773e35f195cd51eb53e63d36 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 public void append(PyObject o) {
     list_append(o);
 }
@@ -81,9 +86,9 @@ Finally, make sure the type is registered with `__builtin__`.
 
 Run some quick tests:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4638ebb878e8163a68e1d0c312969470efecd6d6 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 >>> list()
 []
 >>> list([1,2,3])
@@ -112,4 +117,3 @@ Next steps:
 - support for `__del__`
 
 - support for `__slots__`
-:::::::::

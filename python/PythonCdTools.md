@@ -1,13 +1,18 @@
 # PythonCdTools
 
-::::: {#content dir="ltr" lang="en"}
-# Python Wiki {#Python_Wiki}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Python Wiki 
 
 You said you wanted to mirror the Python wiki on the CD, here is a little script to suck the pages from the wiki to a folder:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-befa0a1a6ca23d56644cb4f4ea0cd4de8220f932 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import socket, os, sys, urllib2
    2 socket.setdefaulttimeout(15)
    3 from time import sleep
@@ -47,4 +52,3 @@ You said you wanted to mirror the Python wiki on the CD, here is a little script
 ::::
 
 Thanks! \-- [ThomasWaldmann](ThomasWaldmann) 2004-06-22 05:23:14
-:::::

@@ -1,9 +1,14 @@
 # Advocacy/UsergroupSupport/Committee
 
-:::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Usergroup Support Committee
 
-::: {#committee-members .section}
+::: 
 ### Committee Members
 
 > - Chris McAvoy \[Chicago\]
@@ -15,7 +20,7 @@
 > - Sean Reifschneider \[Colorado\]
 :::
 
-::: {#charter .section}
+::: 
 ### Charter
 
 To encourage the creation of new usergroups worldwide and to strengthen those that already exist. At PyCon 2007 the following priority items were selected for initial implementation:
@@ -26,7 +31,7 @@ To encourage the creation of new usergroups worldwide and to strengthen those th
 4.  Encourage and support usergroups in creating per-group mailing lists on mail.python.org.
 :::
 
-::: {#active-task-list-assignments .section}
+::: 
 ### Active Task List/Assignments
 
 1.  Come up with the goals of the committee. (the what) 1. Help existing groups prosper and grow 2. help create new groups 3. support UG\'s wanting to conduct local events (?)
@@ -35,7 +40,7 @@ To encourage the creation of new usergroups worldwide and to strengthen those th
 4.  A discussion of how people would like to proceed.
 :::
 
-::: {#what-does-auditing-the-usergroups-mean .section}
+::: 
 ### What Does Auditing The Usergroups Mean?
 
 Follow each link from the local usergroups wiki
@@ -48,13 +53,13 @@ Follow each link from the local usergroups wiki
     - confirm their choice of discussion language (German, French, etc.)
 :::
 
-::::::: {#meeting-agendas .section}
+::::::: 
 ### Meeting Agendas
 
-:::::: {#apr-25-2007 .section}
+:::::: 
 #### Apr 25, 2007
 
-::: {#questions-to-answer .section}
+::: 
 ##### Questions to Answer
 
 1.  Maintain a mailing list for group organizers and another list for this committee, or share one list?
@@ -64,7 +69,7 @@ Follow each link from the local usergroups wiki
 5.  Do we want to meet on IRC periodically? How often?
 :::
 
-::: {#proposed-steps .section}
+::: 
 ##### Proposed Steps
 
 > - As part of audit, we need to collect email addresses of organizers; not all group webpages have them, many only have a mailing list.
@@ -86,16 +91,15 @@ Follow each link from the local usergroups wiki
 >       - announce on the python-announce and python-users mailing list
 :::
 
-::: {#need-help .section}
+::: 
 ##### Need Help
 
-> - identifying [good lecture videos](http://wiki.python.org/moin/Advocacy/VideoLectures){.http .reference .external}
-> - rounding up [reusable presentation materials](http://wiki.python.org/moin/Advocacy/MeetingTopics){.http .reference .external}
+> - identifying [good lecture videos](http://wiki.python.org/moin/Advocacy/VideoLectures)
+> - rounding up [reusable presentation materials](http://wiki.python.org/moin/Advocacy/MeetingTopics)
 > - auditing the various usergroups
-> - suggestions for the [How to Start a Usergroup](http://wiki.python.org/moin/AdvocacyWritingTasks/StartingAUserGroup){.http .reference .external} document
+> - suggestions for the [How to Start a Usergroup](http://wiki.python.org/moin/AdvocacyWritingTasks/StartingAUserGroup) document
 > - creating generic flyers (if more than \'meeting at Joe\'s 8pm\')
 > - brainstorming on how to find members for new groups
 :::
 ::::::
 :::::::
-::::::::::::

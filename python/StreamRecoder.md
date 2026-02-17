@@ -1,13 +1,18 @@
 # StreamRecoder
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The `codecs.StreamRecoder` class re-encodes data between 2 character sets. Its constructor expects the information on 2 character sets in different forms. The user should specify the internal character set as a pair of `encoder` and `decoder`. She should provide the external character set by supplying class definitions of a codec-specific `StreamReader` and `StreamWriter`.
 
 Pseudocode of `codecs.StreamRecoder` of the Python2.5 version:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-20a9bc21022273469b4447d4e7297892670abfd0 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 class StreamRecoder:
    2     def __init__(self, stream, e, d, class_sr, class_sw):
    3         # internal encoder, decoder^  ^external decoder, encoder
@@ -33,4 +38,3 @@ See also: [StreamReader](StreamReader), [StreamWriter](StreamWriter), [StreamRea
 ------------------------------------------------------------------------
 
 [CategoryUnicode](CategoryUnicode)
-:::::

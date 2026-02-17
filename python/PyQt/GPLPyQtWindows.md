@@ -1,13 +1,18 @@
 # PyQt/GPLPyQtWindows
 
-::: {#content dir="ltr" lang="en"}
-# Getting GPLed Qt/PyQt Running on Windows {#Getting_GPLed_Qt.2FPyQt_Running_on_Windows}
+```{admonition} Legacy Wiki Page
+:class: note
 
-### Note: This page has become somewhat obsolete with the release of Qt 4.x under the GPL. {#Note:_This_page_has_become_somewhat_obsolete_with_the_release_of_Qt_4.x_under_the_GPL.}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Getting GPLed Qt/PyQt Running on Windows 
+
+### Note: This page has become somewhat obsolete with the release of Qt 4.x under the GPL. 
 
 There is a new page that describes how to build [PyQt4](PyQt4) at [BuildPyQt4Windows](BuildPyQt4Windows).
 
-## Background {#Background}
+## Background 
 
 One of the frustrations I\'ve always had with Qt is that current versions could not be used on Windows without paying a substantial developer fee for the license. I balked at this because
 
@@ -16,16 +21,16 @@ One of the frustrations I\'ve always had with Qt is that current versions could 
 
 However, this has changed. The people over at the kde-cygwin project have taken the GPLed version of Qt and ported it to native Windows (i.e. it does not require Cygwin). As soon as I saw this, I immediately started to try and get [PyQt](PyQt) to compile against this version. Amazingly, it didn\'t take nearly as much work as I thought it would.
 
-## Requirements {#Requirements}
+## Requirements 
 
 - Python (version 2.3 or later)
 - A Windows compiler suite. Either Borland, MinGW, MS VC++ 6.0, or MS VS.NET
 
-## The process {#The_process}
+## The process 
 
-- **\* 1) Install Qt from the [qt-win](http://qtwin.sourceforge.net/qt3-win32/index.php){.http} (formally kde-cygwin) project**
+- **\* 1) Install Qt from the [qt-win](http://qtwin.sourceforge.net/qt3-win32/index.php) (formally kde-cygwin) project**
 
-  - I was able to follow [these compile instructions](http://qtwin.sourceforge.net/qt3-win32/compile-net.php){.http} in order to get my copy to build with MS Visual Studio.NET. There are also compile instructions for [Borland](http://qtwin.sourceforge.net/qt3-win32/compile-borland.php){.http}, [MinGW](http://qtwin.sourceforge.net/qt3-win32/compile-mingw.php){.http} and [MS Visual C++ 6.0](http://qtwin.sourceforge.net/qt3-win32/compile-msvc.php){.http}.
+  - I was able to follow [these compile instructions](http://qtwin.sourceforge.net/qt3-win32/compile-net.php) in order to get my copy to build with MS Visual Studio.NET. There are also compile instructions for [Borland](http://qtwin.sourceforge.net/qt3-win32/compile-borland.php), [MinGW](http://qtwin.sourceforge.net/qt3-win32/compile-mingw.php) and [MS Visual C++ 6.0](http://qtwin.sourceforge.net/qt3-win32/compile-msvc.php).
 
     Configure notes:\
     I usually configure Qt with threading and GIF support, so I run configure.bat as the following:\
@@ -44,9 +49,9 @@ However, this has changed. The people over at the kde-cygwin project have taken 
 
   **\* 2) Get and install SIP**
 
-  - SIP is available at [Riverbank Computing](http://www.riverbankcomputing.co.uk/){.http} [here](http://www.riverbankcomputing.co.uk/sip/download.php){.http}. I have been using sip-4.1.1 for Windows. If you choose to directly download from Riverbank, your copy of SIP will need to be patched with [this patch](http://prdownloads.sourceforge.net/kscraft/sip-4.1.1.diff?download){.http} before installation. The reason for the patch (or hack, really) is that the Qt install and SIP disagree on the format of the Qt DLL name (SIP looks for qt-mt333.dll whereas the Qt install generates qt-mt3.dll)
+  - SIP is available at [Riverbank Computing](http://www.riverbankcomputing.co.uk/) [here](http://www.riverbankcomputing.co.uk/sip/download.php). I have been using sip-4.1.1 for Windows. If you choose to directly download from Riverbank, your copy of SIP will need to be patched with [this patch](http://prdownloads.sourceforge.net/kscraft/sip-4.1.1.diff?download) before installation. The reason for the patch (or hack, really) is that the Qt install and SIP disagree on the format of the Qt DLL name (SIP looks for qt-mt333.dll whereas the Qt install generates qt-mt3.dll)
 
-    To configure and install SIP, you can follow [these instructions](http://www.river-bank.demon.co.uk/docs/sip/sipref.html#configuring-sip){.http}. I usually run the following (for MSVC or MSVC.NET, multithreaded Qt and Python 2.4):
+    To configure and install SIP, you can follow [these instructions](http://www.river-bank.demon.co.uk/docs/sip/sipref.html#configuring-sip). I usually run the following (for MSVC or MSVC.NET, multithreaded Qt and Python 2.4):
 
                C:\sip-4.1.1> C:\python24\python configure.py -l qt-mt
                C:\sip-4.1.1> nmake
@@ -58,7 +63,7 @@ However, this has changed. The people over at the kde-cygwin project have taken 
 
   - If you want to be able to run the Eric3 IDE (or anything else that uses QScintilla), now is the time to install it.
 
-    QScintilla is available at [Riverbank Computing](http://www.riverbankcomputing.co.uk/){.http} [here](http://www.riverbankcomputing.co.uk/qscintilla/download.php){.http}. The installation is fairly easy. You can follow the directions from the README exactly. Just make sure you still have your QTDIR and PATH environment variables set up properly from the previous step or else it won\'t be able to find qmake, etc\...
+    QScintilla is available at [Riverbank Computing](http://www.riverbankcomputing.co.uk/) [here](http://www.riverbankcomputing.co.uk/qscintilla/download.php). The installation is fairly easy. You can follow the directions from the README exactly. Just make sure you still have your QTDIR and PATH environment variables set up properly from the previous step or else it won\'t be able to find qmake, etc\...
 
   <!-- -->
 
@@ -81,13 +86,13 @@ However, this has changed. The people over at the kde-cygwin project have taken 
 
   - **\* 3) Get and install [PyQt](PyQt)**
 
-    - PyQt is available at [Riverbank Computing](http://www.riverbankcomputing.co.uk/){.http} [here](http://www.riverbankcomputing.co.uk/pyqt/download.php){.http}.
+    - PyQt is available at [Riverbank Computing](http://www.riverbankcomputing.co.uk/) [here](http://www.riverbankcomputing.co.uk/pyqt/download.php).
 
     <!-- -->
 
     - I have been using version [PyQt](PyQt)-x11-gpl-3.13.
 
-      Like SIP, PyQt also needs to be patched. If you downloaded the source from Riverbank, you need to apply this [patch](http://prdownloads.sourceforge.net/kscraft/PyQt-x11-3.13.diff?download){.http}. I have also made an already patched .zip archive available [here](http://prdownloads.sourceforge.net/kscraft/PyQt-x11-gpl-3.13-patched.zip?download){.http}. The patch is for some types that the Windows port of Qt needs that aren\'t included in PyQt by default.
+      Like SIP, PyQt also needs to be patched. If you downloaded the source from Riverbank, you need to apply this [patch](http://prdownloads.sourceforge.net/kscraft/PyQt-x11-3.13.diff?download). I have also made an already patched .zip archive available [here](http://prdownloads.sourceforge.net/kscraft/PyQt-x11-gpl-3.13-patched.zip?download). The patch is for some types that the Windows port of Qt needs that aren\'t included in PyQt by default.
 
       To configure and install PyQt, I usually use these commands (for MSVC.NET and Python 2.4):
 
@@ -107,7 +112,7 @@ However, this has changed. The people over at the kde-cygwin project have taken 
 
   - Note: In order to install Eric3, you must have installed QScintilla above
 
-    Eric3 is available [here](http://www.die-offenbachs.de/detlev/eric3.html){.http}.
+    Eric3 is available [here](http://www.die-offenbachs.de/detlev/eric3.html).
 
     Just unpack it and run the install script:
 
@@ -118,4 +123,3 @@ However, this has changed. The people over at the kde-cygwin project have taken 
 Questions or comments? Email me at: jlamanna AT gmail DOT com
 
 Page by James Lamanna - Copyright 2005
-:::

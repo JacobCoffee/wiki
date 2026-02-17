@@ -1,13 +1,18 @@
 # Web2Py
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 A framework for [WebProgramming](WebProgramming).
 
-### Masthead {#Masthead}
+### Masthead 
 
 URL
 
-:   [http://www.web2py.com/](http://www.web2py.com/){.http}
+:   [http://www.web2py.com/](http://www.web2py.com/)
 
 version
 :   1.82.1
@@ -22,19 +27,19 @@ Python versions
 
 :   \>= 2.4 \< 3.x
 
-### Deployment Platforms {#Deployment_Platforms}
+### Deployment Platforms 
 
 mod_wsgi is preferred as it has full WSGI support, but also it can run with FCGI, etc. It also comes with a standalone Web server for development purposes.
 
-### URL dispatching {#URL_dispatching}
+### URL dispatching 
 
 URLs are mapped directly to functions in a controller. No need to use regular expressions (although them can be used).
 
-### Environment Access {#Environment_Access}
+### Environment Access 
 
 Web2py creates request, response and session objects that are globally available.
 
-### All-in-One {#All-in-One}
+### All-in-One 
 
 Web2Py comes with:
 
@@ -48,11 +53,11 @@ Web2Py comes with:
 - Many third party libraries (rss, rtf, etc.)
 - etc\...
 
-### Persistence Support {#Persistence_Support}
+### Persistence Support 
 
 Web2Py\'s provides a Data Abstraction Layer (similar to an object-relational mapper), currently supports PostgreSQL, MySQL, SQLite3, MSSQL, Oracle, DB2, Ingress, Informix, Firebird and GAE with some caveats. Web2py generates customizable CRUD interfaces directly from the tables. The automatic creation and migration of database tables is supported. The DAL can handle almost the 100% of the queries elegantly in a pythonic way resembling SQL (no need to know advanced POO or learn a new complex query language).
 
-### Presentation Support {#Presentation_Support}
+### Presentation Support 
 
 Web2Py\'s has a python capable template language. It looks like this:
 
@@ -60,9 +65,8 @@ Web2Py\'s has a python capable template language. It looks like this:
     {{=title}}
     {{pass}}
 
-### Documentation {#Documentation}
+### Documentation 
 
-A [book](http://www.web2py.com/book){.http} is available both printed/pdf and freely accessible via web, written by the lead developer, who is a University Professor.
+A [book](http://www.web2py.com/book) is available both printed/pdf and freely accessible via web, written by the lead developer, who is a University Professor.
 
-Read the [web2py about](http://www.web2py.com/examples/default/what){.http}
-:::
+Read the [web2py about](http://www.web2py.com/examples/default/what)

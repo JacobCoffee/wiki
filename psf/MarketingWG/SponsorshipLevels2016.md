@@ -1,17 +1,22 @@
 # MarketingWG/SponsorshipLevels2016
 
-::: {#content dir="ltr" lang="en"}
-# Proposal: Update PSF Sponsorship Levels {#Proposal:_Update_PSF_Sponsorship_Levels}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Proposal: Update PSF Sponsorship Levels 
 
 An oft-discussed topic over the past few years has been converting the PSF\'s sponsorship levels over to a more conventional \"gems & metals\" based naming scheme, as well as adding additional levels for larger and smaller organisations.
 
 The Marketing WG proposes that the changes to the sponsorship program be implemented for 2016 as described below.
 
-## Sponsorship page {#Sponsorship_page}
+## Sponsorship page 
 
-Update text for the \"Sponsorship levels\" section in [https://www.python.org/psf/sponsorship/](https://www.python.org/psf/sponsorship/){.https} as outlined below:
+Update text for the \"Sponsorship levels\" section in [https://www.python.org/psf/sponsorship/](https://www.python.org/psf/sponsorship/) as outlined below:
 
-### New text {#New_text}
+### New text 
 
 Companies, divisions, groups, and organizations of various sizes can benefit from PSF sponsorship. The PSF suggests guidelines for choosing an annual sponsorship level based on the number of employees using Python for development, data analysis, process automation and other activities:
 
@@ -33,7 +38,7 @@ Divisions or groups within a larger organization can choose to sponsor the PSF a
 
 Individuals who wish to contribute at a higher level than a Supporting Membership may also become sponsors of the PSF, at whatever level they feel is appropriate. Moreover, we certainly welcome smaller organizations who want to sponsor the PSF at more generous levels. Determine what is best for you and your organization: the PSF, like the Python language, trusts its users.
 
-### Old text (for reference) {#Old_text_.28for_reference.29}
+### Old text (for reference) 
 
 Companies, divisions, groups, and organizations of various sizes can benefit from PSF sponsorship. The PSF suggests guidelines for choosing an annual sponsorship level as follows:
 
@@ -46,13 +51,13 @@ Divisions or groups within a larger organization can choose to sponsor the PSF a
 
 Individuals who wish to may also become sponsors of the PSF, at whatever level they feel is appropriate. Moreover, we certainly welcome smaller organizations who want to sponsor the PSF at more generous levels. Determine what is best for you and your organization: the PSF, like the Python language, trusts its users.
 
-## Sponsor listings {#Sponsor_listings}
+## Sponsor listings 
 
 Sponsor listings on python.org should be grouped by level to raise competition among them.
 
 The sponsor page should be made more prominently visible on python.org (it\'s currently only a hard to find link on the PSF page).
 
-## Sponsor benefits {#Sponsor_benefits}
+## Sponsor benefits 
 
 *This section is currently still a draft for discussion.*
 
@@ -60,9 +65,9 @@ Since trying to sell warm fluffy feelings is not a lot harder than tangible bene
 
 This is list of benefits we could assign to each level:
 
-- x% discount on [PyCon](./PyCon.html){.nonexistent} US sponsorship (with x depending on the level, e.g. 20% for diamond level, 10% for platinum, etc.)
+- x% discount on [PyCon](./PyCon.html) US sponsorship (with x depending on the level, e.g. 20% for diamond level, 10% for platinum, etc.)
 
-- x% discount on up to n [PyCon](./PyCon.html){.nonexistent} US tickets (with x and n depending on the level; this would be useful for lower levels)
+- x% discount on up to n [PyCon](./PyCon.html) US tickets (with x and n depending on the level; this would be useful for lower levels)
 
 - Text link on python.org sponsor page (for lower levels)
 
@@ -81,4 +86,3 @@ This is list of benefits we could assign to each level:
 - Pinned job board listings (postings are displayed at the top of the listing for a certain while)
 
 - Heavy rotation success stories (shown more frequently on python.org front-page; we already had one sponsor who was interested in this)
-:::

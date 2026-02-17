@@ -1,6 +1,11 @@
 # Codice
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 C\'è una certa quantita di codice che non è abbastanza per essere un modulo vero e proprio o un progetto, ma tuttavia utile per varie ragioni.
 
 Finchè noi prendiamo il codice, questa piccola pagina può servirci come utile punto focale.
@@ -13,7 +18,7 @@ Finchè noi prendiamo il codice, questa piccola pagina può servirci come utile 
 
 - Formattazione di stringhe, sottrarsi all\'html
 
-- Lavorare con il tempo, [RssLibrerire](./RssLibrerire.html){.nonexistent}, uso di salse, Minidominio
+- Lavorare con il tempo, [RssLibrerire](./RssLibrerire.html), uso di salse, Minidominio
 
 - Script Cgi, [XmlRpc](XmlRpc), Documenti [XmlRpc](XmlRpc) per Server, Protocollo base Http per servert, Pasword MD5
 
@@ -25,17 +30,16 @@ Finchè noi prendiamo il codice, questa piccola pagina può servirci come utile 
 
 - Algoritmi Grafici - un semplice esempio di programmazione funzionale e soluzione di un problema interessante
 
-- [Generatori](./Generatori.html){.nonexistent}
+- [Generatori](./Generatori.html)
 
 Ecco alcuni links ad altri siti correlati a Python che hanno esempi di codice:
 
-- [ActiveState\'s Python Cookbook](http://aspn.activestate.com/ASPN/Cookbook/Python){.http}
+- [ActiveState\'s Python Cookbook](http://aspn.activestate.com/ASPN/Cookbook/Python)
 
-- [Python faqts](http://www.faqts.com/knowledge_base/index.phtml/fid/199/){.http}
+- [Python faqts](http://www.faqts.com/knowledge_base/index.phtml/fid/199/)
 
-- [Useless Python](http://www.uselesspython.com/){.http}
+- [Useless Python](http://www.uselesspython.com/)
 
-- [Vaults of Parnassus](http://www.vex.net/parnassus/){.http}
+- [Vaults of Parnassus](http://www.vex.net/parnassus/)
 
-- [Python Package Index](http://www.python.org/pypi/){.http}
-:::
+- [Python Package Index](http://www.python.org/pypi/)

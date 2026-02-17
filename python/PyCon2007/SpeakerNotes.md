@@ -1,19 +1,24 @@
 # PyCon2007/SpeakerNotes
 
-::: {#content dir="ltr" lang="en"}
-**The master copy of this page is at [http://us.pycon.org/TX2007/SpeakerNotes](http://us.pycon.org/TX2007/SpeakerNotes){.http} ; if you have things to add, please add them to that version of this page.**
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+**The master copy of this page is at [http://us.pycon.org/TX2007/SpeakerNotes](http://us.pycon.org/TX2007/SpeakerNotes) ; if you have things to add, please add them to that version of this page.**
 
 This page collects suggestions for speakers and presenters at [PyCon](PyCon).
 
 Thank you very much for taking the time and trouble to make a presentation. We appreciate your efforts.
 
-# The final version of your talk {#The_final_version_of_your_talk}
+# The final version of your talk 
 
 \* [PyCon](PyCon) does not have a published volume of proceedings, but the slides and other materials for talks are made available on-line. Therefore, be sure your presentation can be turned into a format suitable for online viewing. While PDF is permitted, HTML is better. Keep graphics reasonably sized for web access.
 
 \* Finish preparing your slides and other materials before [PyCon](PyCon), and upload it to the conference submission system. This gives the audience more information in choosing which talks to attend, and people can refer to the slides if they miss something during your talk.
 
-# Designing your slides {#Designing_your_slides}
+# Designing your slides 
 
 \* The slides are primarily to support your talk
 
@@ -27,7 +32,7 @@ Thank you very much for taking the time and trouble to make a presentation. We a
 
 - Expand as you speak if there\'s audience interest
 
-# Presentation advice {#Presentation_advice}
+# Presentation advice 
 
 \* For a 30-minute slot, you have 25 minutes to talk plus 5 minutes for questions. 45-minute slots mean you have 40 minutes to talk and 5 minutes for questions. Time your talk accordingly.
 
@@ -55,7 +60,7 @@ Thank you very much for taking the time and trouble to make a presentation. We a
 
 \* consider having a hard copy of your notes. It is handy for proofing, and there is a chance it will be the only thing working when it is time to give your presentation.
 
-# Speaking Techniques {#Speaking_Techniques}
+# Speaking Techniques 
 
 \* If you are nervous, there\'s nothing wrong with admitting that
 
@@ -88,15 +93,14 @@ Thank you very much for taking the time and trouble to make a presentation. We a
 
 \* During the Q&A portion of the talk, always repeat any questions that were asked without a microphone - otherwise many people in the audience won\'t hear the question. It is important to get the question into the audio recording. The recording is costing us (therefore attendees) money, so we all have an obligation to make the best of it. Even if it was free, that little extra effort will be of value to whoever is listing later. And we all want to help as much as we can, right?
 
-# Other resources {#Other_resources}
+# Other resources 
 
-\* [Conference Presentation Judo](http://perl.plover.com/yak/presentation/){.http} \-- aimed at people giving three-hour tutorials, but many suggestions apply to shorter talks like those given at [PyCon](PyCon).
+\* [Conference Presentation Judo](http://perl.plover.com/yak/presentation/) \-- aimed at people giving three-hour tutorials, but many suggestions apply to shorter talks like those given at [PyCon](PyCon).
 
-\* [SAGE/LISA Conference Presentation advice](http://www.sage.org/presentation/){.http}\]
+\* [SAGE/LISA Conference Presentation advice](http://www.sage.org/presentation/)\]
 
-\* [How to Give a Bad Talk](http://www.cs.wisc.edu/~markhill/conference-talk.html#badtalk){.http}\]
+\* [How to Give a Bad Talk](http://www.cs.wisc.edu/~markhill/conference-talk.html#badtalk)\]
 
-\* [S5](http://www.meyerweb.com/eric/tools/s5/){.http} \-- if you want to write your presentation slides in HTML, S5 is a collection of CSS stylesheets and [JavaScript](./JavaScript.html){.nonexistent} code well-suited for standard-compliant HTML presentations.
+\* [S5](http://www.meyerweb.com/eric/tools/s5/) \-- if you want to write your presentation slides in HTML, S5 is a collection of CSS stylesheets and [JavaScript](./JavaScript.html) code well-suited for standard-compliant HTML presentations.
 
-\* [Docutils/S5](http://docutils.sourceforge.net/docs/user/slide-shows.html){.http} \-- if you want to write your presentation slides in reStructuredText, Docutils now has S5/HTML support.
-:::
+\* [Docutils/S5](http://docutils.sourceforge.net/docs/user/slide-shows.html) \-- if you want to write your presentation slides in reStructuredText, Docutils now has S5/HTML support.

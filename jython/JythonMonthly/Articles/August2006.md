@@ -1,7 +1,11 @@
 # JythonMonthly/Articles/August2006
 
-::: {#content dir="ltr" lang="en"}
-# Jython Monthly August 2006 Articles {#Jython_Monthly_August_2006_Articles}
+```{admonition} Legacy Wiki Page
+:class: note
 
-[Add Logging to Jython Using Log4J](http://wiki.python.org/jython/JythonMonthly/Articles/August2006/1){.http}
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Jython Monthly August 2006 Articles 
+
+[Add Logging to Jython Using Log4J](http://wiki.python.org/jython/JythonMonthly/Articles/August2006/1)

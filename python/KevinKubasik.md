@@ -1,13 +1,17 @@
 # KevinKubasik
 
-::: {#content dir="ltr" lang="en"}
-## Kevin Kubasik {#Kevin_Kubasik}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Kevin Kubasik 
 
 Email: `<kevin AT KUBASIK  DOT net>`
 
-Blog: [http://kubasik.net/blog](http://kubasik.net/blog){.http}
+Blog: [http://kubasik.net/blog](http://kubasik.net/blog)
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

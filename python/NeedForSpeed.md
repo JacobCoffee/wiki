@@ -1,7 +1,12 @@
 # NeedForSpeed
 
-::: {#content dir="ltr" lang="en"}
-The NeedForSpeed sprint took place from May 21 to May 28 2006 in Reykjavik, Iceland. The principal sponsor is [EWT, LLC](http://www.ewtcareers.com/){.http} with local support from [CCP Games](http://www.ccpgames.com/){.http}.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+The NeedForSpeed sprint took place from May 21 to May 28 2006 in Reykjavik, Iceland. The principal sponsor is [EWT, LLC](http://www.ewtcareers.com/) with local support from [CCP Games](http://www.ccpgames.com/).
 
 The following pages were used to plan and report on the sprint:
 
@@ -35,5 +40,4 @@ The following pages were used to plan and report on the sprint:
 
 - [/IRCLog](./NeedForSpeed(2f)IRCLog.html): Conversation that happened on IRC during the sprint.
 
-- [Photographs](http://www.flickr.com/photos/tags/pyneedforspeed/){.http} from the sprint.
-:::
+- [Photographs](http://www.flickr.com/photos/tags/pyneedforspeed/) from the sprint.

@@ -1,11 +1,16 @@
 # PyConIndia2010/VenueDiscussion
 
-::: {#content dir="ltr" lang="en"}
-## Bangalore {#Bangalore}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Bangalore 
 
 The poll had around 100 people voting with around 64 percent for Bangalor and 36 for Chennai.
 
-### Pros {#Pros}
+### Pros 
 
 - Held it there last year. Twice in the same city rule useful for remote delegates.
   - It also helps to learn from past mistakes and smooth out any rough edges in the second year. Larger volunteer traction can be generated.
@@ -15,15 +20,15 @@ The poll had around 100 people voting with around 64 percent for Bangalor and 36
 - Bangalore weather is nicer and the initial.
 - The Poll results are in favour of Bangalore
 
-### Cons {#Cons}
+### Cons 
 
 - Accommodation, Auditorium and Food are expensive.
 
-## Chennai {#Chennai}
+## Chennai 
 
-### Pros {#Pros-1}
+### Pros 
 
-- High amount of enthusiasm shown by [ChennaiPy](./ChennaiPy.html){.nonexistent} and some ground work already done.
+- High amount of enthusiasm shown by [ChennaiPy](./ChennaiPy.html) and some ground work already done.
 
 - Good student participation from Chennai last year.
 
@@ -31,10 +36,9 @@ The poll had around 100 people voting with around 64 percent for Bangalor and 36
 
 - Kausik has met people at the recent Barcamp which indicates enough volunteers for ground work.
 
-### Cons {#Cons-1}
+### Cons 
 
 - humid climate
   - Decent climate in September/October.
 - Farther away from the North
   - People will be taking flights anyway. If it\'s train, it\'s just a few hours more than Bangalore
-:::

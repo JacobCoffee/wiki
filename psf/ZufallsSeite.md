@@ -1,6 +1,11 @@
 # ZufallsSeite
 
-::: {#content dir="ltr" lang="de"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Dies ist eine Liste von 25 zufällig ausgewählten Seiten (aus den insgesamt 675 Seiten):
 
 - [Communications/Status-2011-10](./Communications(2f)Status(2d)2011(2d)10.html)
@@ -28,4 +33,3 @@ Dies ist eine Liste von 25 zufällig ausgewählten Seiten (aus den insgesamt 675
 - [WikiCourse/15 Tables](./WikiCourse(2f)15(20)Tables.html)
 - [WikiInstructions](WikiInstructions)
 - [WikiKurs/23 Aktionen](./WikiKurs(2f)23(20)Aktionen.html)
-:::

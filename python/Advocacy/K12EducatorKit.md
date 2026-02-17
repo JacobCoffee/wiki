@@ -1,7 +1,12 @@
 # Advocacy/K12EducatorKit
 
-::: {#content dir="ltr" lang="en"}
-# Python Advocacy Kit for K-12 Educators {#Python_Advocacy_Kit_for_K-12_Educators}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Python Advocacy Kit for K-12 Educators 
 
 The intent of this page is to collect ideas on what should be included in such a kit. Elsewhere, we are soliciting flyers and whitepapers which when finished will be used to make up advocacy kits.
 
@@ -57,9 +62,8 @@ There is quite a mix of whitepapers above because it isn\'t possible to guess wh
 
 ------------------------------------------------------------------------
 
-For active discussion on advocating the use of Python, please join the [Advocacy mailing list](http://mail.python.org/mailman/listinfo/advocacy){.http} and visit the [Advocacy - Get Involved!](http://advocacy.python.org/getinvolved){.http} site.
+For active discussion on advocating the use of Python, please join the [Advocacy mailing list](http://mail.python.org/mailman/listinfo/advocacy) and visit the [Advocacy - Get Involved!](http://advocacy.python.org/getinvolved) site.
 
 ------------------------------------------------------------------------
 
 [CategoryAdvocacy](CategoryAdvocacy)
-:::

@@ -1,6 +1,11 @@
 # LearningJython
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Jython Course Outline
 
 +------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -16,156 +21,156 @@
 +------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Date:      | May 9, 2008                                                                                                                                                                                                                                               |
 +------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Copyright: | Copyright (c) 2006 Dave Kuhlman. All Rights Reserved. This software is subject to the provisions of the MIT License [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php){.http .reference .external}. |
+| Copyright: | Copyright (c) 2006 Dave Kuhlman. All Rights Reserved. This software is subject to the provisions of the MIT License [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php). |
 +------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-::: {.abstract .topic}
+::: 
 Abstract
 
 This document provides an outline of an introductory course on programming in Jython and connecting Jython to Java
 :::
 
-::: {#contents .contents .topic}
+::: 
 Contents
 
-- [1   How-to Write Jython Code](#how-to-write-jython-code){#id6 .reference .internal}
-- [2   Installing and Running Jython](#installing-and-running-jython){#id7 .reference .internal}
-  - [2.1   Install Jython](#install-jython){#id8 .reference .internal}
-  - [2.2   Configuration](#configuration){#id9 .reference .internal}
-    - [2.2.1   Command-line options](#command-line-options){#id10 .reference .internal}
-    - [2.2.2   Jython configuration files](#jython-configuration-files){#id11 .reference .internal}
-    - [2.2.3   Checking configuration values](#checking-configuration-values){#id12 .reference .internal}
-    - [2.2.4   Classpath and python path](#classpath-and-python-path){#id13 .reference .internal}
-  - [2.3   Running Jython](#running-jython){#id14 .reference .internal}
-  - [2.4   Installing Jython/Python packages](#installing-jython-python-packages){#id15 .reference .internal}
-- [3   Integrating Java into Jython/Python](#integrating-java-into-jython-python){#id16 .reference .internal}
-  - [3.1   Calling existing Java code](#calling-existing-java-code){#id17 .reference .internal}
-  - [3.2   Extending a Java class in Jython](#extending-a-java-class-in-jython){#id18 .reference .internal}
-  - [3.3   Emulating Jython classes in Java](#emulating-jython-classes-in-java){#id19 .reference .internal}
-  - [3.4   Preparing Java code to be called from Jython](#preparing-java-code-to-be-called-from-jython){#id20 .reference .internal}
-    - [3.4.1   Adding doc strings to a Java class](#adding-doc-strings-to-a-java-class){#id21 .reference .internal}
-    - [3.4.2   Working with Jython arguments](#working-with-jython-arguments){#id22 .reference .internal}
-    - [3.4.3   Sub-classing a Java class](#sub-classing-a-java-class){#id23 .reference .internal}
-    - [3.4.4   Emulating Jython Dictionaries, Sequences, Etc.](#emulating-jython-dictionaries-sequences-etc){#id24 .reference .internal}
-      - [3.4.4.1   Solution #1 \-- Emulating a dictionary](#solution-1-emulating-a-dictionary){#id25 .reference .internal}
-      - [3.4.4.2   Solution #2 \-- Extending PyDictionary](#solution-2-extending-pydictionary){#id26 .reference .internal}
-    - [3.4.5   Emulating Jython object attribute access](#emulating-jython-object-attribute-access){#id27 .reference .internal}
-  - [3.5   Extending a built-in Jython class in Java](#extending-a-built-in-jython-class-in-java){#id28 .reference .internal}
-  - [3.6   jarray \-- Creating and passing Java arrays to Java](#jarray-creating-and-passing-java-arrays-to-java){#id29 .reference .internal}
-- [4   Integrating Jython/Python into Java](#integrating-jython-python-into-java){#id30 .reference .internal}
-  - [4.1   Calling Jython from Java](#calling-jython-from-java){#id31 .reference .internal}
-    - [4.1.1   Run Jython code on an interpreter embedded in Java](#run-jython-code-on-an-interpreter-embedded-in-java){#id32 .reference .internal}
-    - [4.1.2   How to run Jython code on an interpreter embedded in Java](#how-to-run-jython-code-on-an-interpreter-embedded-in-java){#id33 .reference .internal}
-      - [4.1.2.1   Example \-- a possible organization on disk](#example-a-possible-organization-on-disk){#id34 .reference .internal}
-      - [4.1.2.2   Example \-- the Jython classes](#example-the-jython-classes){#id35 .reference .internal}
-      - [4.1.2.3   Example \-- A Java interface class](#example-a-java-interface-class){#id36 .reference .internal}
-      - [4.1.2.4   Example \-- another interface class](#example-another-interface-class){#id37 .reference .internal}
-      - [4.1.2.5   Example \-- the factory class](#example-the-factory-class){#id38 .reference .internal}
-      - [4.1.2.6   Example \-- the Java consumer code](#example-the-java-consumer-code){#id39 .reference .internal}
-    - [4.1.3   Additional support for running Jython code on an interpreter embedded in Java](#additional-support-for-running-jython-code-on-an-interpreter-embedded-in-java){#id40 .reference .internal}
-  - [4.2   Embedding Jython into Java](#embedding-jython-into-java){#id41 .reference .internal}
-    - [4.2.1   Why embedded Jython](#why-embedded-jython){#id42 .reference .internal}
-    - [4.2.2   Embedding Jython into Java is simple](#embedding-jython-into-java-is-simple){#id43 .reference .internal}
-    - [4.2.3   Passing values into a Jython script](#passing-values-into-a-jython-script){#id44 .reference .internal}
-    - [4.2.4   Initializing the interpreter](#initializing-the-interpreter){#id45 .reference .internal}
-      - [4.2.4.1   An interpreter with an initial system state](#an-interpreter-with-an-initial-system-state){#id46 .reference .internal}
-      - [4.2.4.2   A system state and a custom class loader](#a-system-state-and-a-custom-class-loader){#id47 .reference .internal}
-    - [4.2.5   Retrieving values from a Jython script](#retrieving-values-from-a-jython-script){#id48 .reference .internal}
-    - [4.2.6   There are also a few complexities](#there-are-also-a-few-complexities){#id49 .reference .internal}
-    - [4.2.7   Exposing transparent objects](#exposing-transparent-objects){#id50 .reference .internal}
-    - [4.2.8   Exposing opaque objects](#exposing-opaque-objects){#id51 .reference .internal}
-    - [4.2.9   Type conversion](#type-conversion){#id52 .reference .internal}
-    - [4.2.10   Using a custom class loader](#using-a-custom-class-loader){#id53 .reference .internal}
-    - [4.2.11   Embedding a Jython console](#embedding-a-jython-console){#id54 .reference .internal}
-  - [4.3   Embedding Jython with the Java Scripting Engine](#embedding-jython-with-the-java-scripting-engine){#id55 .reference .internal}
-    - [4.3.1   Installing script engine support](#installing-script-engine-support){#id56 .reference .internal}
-    - [4.3.2   Using script engine support](#using-script-engine-support){#id57 .reference .internal}
-  - [4.4   Compiling Jython code with jythonc](#compiling-jython-code-with-jythonc){#id58 .reference .internal}
-    - [4.4.1   Introduction to jythonc](#introduction-to-jythonc){#id59 .reference .internal}
-    - [4.4.2   How to run jythonc](#how-to-run-jythonc){#id60 .reference .internal}
-    - [4.4.3   Calling Jython from Java using jythonc](#calling-jython-from-java-using-jythonc){#id61 .reference .internal}
-- [5   Deployment and Distribution](#deployment-and-distribution){#id62 .reference .internal}
-  - [5.1   Building jars - some samples](#building-jars-some-samples){#id63 .reference .internal}
-    - [5.1.1   Add Jython install stuff to our jar](#add-jython-install-stuff-to-our-jar){#id64 .reference .internal}
-    - [5.1.2   Add modules and paths to the jar file](#add-modules-and-paths-to-the-jar-file){#id65 .reference .internal}
-    - [5.1.3   Run the script/jar](#run-the-script-jar){#id66 .reference .internal}
-    - [5.1.4   A more self-contained jar file](#a-more-self-contained-jar-file){#id67 .reference .internal}
-    - [5.1.5   A summary](#a-summary){#id68 .reference .internal}
-- [6   Integrating, Embedding, and Extending \-- A Summary](#integrating-embedding-and-extending-a-summary){#id69 .reference .internal}
-- [7   Jython+Java \-- Other Advanced Topics](#jython-java-other-advanced-topics){#id70 .reference .internal}
-  - [7.1   Event handling](#event-handling){#id71 .reference .internal}
-  - [7.2   XML](#xml){#id72 .reference .internal}
-    - [7.2.1   jaxp](#jaxp){#id73 .reference .internal}
-    - [7.2.2   Xerces](#xerces){#id74 .reference .internal}
-    - [7.2.3   dom4j](#dom4j){#id75 .reference .internal}
-      - [7.2.3.1   Installation and setup](#installation-and-setup){#id76 .reference .internal}
-      - [7.2.3.2   Examples etc](#examples-etc){#id77 .reference .internal}
-    - [7.2.4   XMLBeans](#xmlbeans){#id78 .reference .internal}
-      - [7.2.4.1   Installation](#installation){#id79 .reference .internal}
-      - [7.2.4.2   An example](#an-example){#id80 .reference .internal}
-  - [7.3   Database access](#database-access){#id81 .reference .internal}
-    - [7.3.1   JDBC](#jdbc){#id82 .reference .internal}
-    - [7.3.2   zxJDBC](#zxjdbc){#id83 .reference .internal}
-- [8   Additional Exercises](#additional-exercises){#id84 .reference .internal}
-- [9   References and Sources](#references-and-sources){#id85 .reference .internal}
+- [1   How-to Write Jython Code](#how-to-write-jython-code)
+- [2   Installing and Running Jython](#installing-and-running-jython)
+  - [2.1   Install Jython](#install-jython)
+  - [2.2   Configuration](#configuration)
+    - [2.2.1   Command-line options](#command-line-options)
+    - [2.2.2   Jython configuration files](#jython-configuration-files)
+    - [2.2.3   Checking configuration values](#checking-configuration-values)
+    - [2.2.4   Classpath and python path](#classpath-and-python-path)
+  - [2.3   Running Jython](#running-jython)
+  - [2.4   Installing Jython/Python packages](#installing-jython-python-packages)
+- [3   Integrating Java into Jython/Python](#integrating-java-into-jython-python)
+  - [3.1   Calling existing Java code](#calling-existing-java-code)
+  - [3.2   Extending a Java class in Jython](#extending-a-java-class-in-jython)
+  - [3.3   Emulating Jython classes in Java](#emulating-jython-classes-in-java)
+  - [3.4   Preparing Java code to be called from Jython](#preparing-java-code-to-be-called-from-jython)
+    - [3.4.1   Adding doc strings to a Java class](#adding-doc-strings-to-a-java-class)
+    - [3.4.2   Working with Jython arguments](#working-with-jython-arguments)
+    - [3.4.3   Sub-classing a Java class](#sub-classing-a-java-class)
+    - [3.4.4   Emulating Jython Dictionaries, Sequences, Etc.](#emulating-jython-dictionaries-sequences-etc)
+      - [3.4.4.1   Solution #1 \-- Emulating a dictionary](#solution-1-emulating-a-dictionary)
+      - [3.4.4.2   Solution #2 \-- Extending PyDictionary](#solution-2-extending-pydictionary)
+    - [3.4.5   Emulating Jython object attribute access](#emulating-jython-object-attribute-access)
+  - [3.5   Extending a built-in Jython class in Java](#extending-a-built-in-jython-class-in-java)
+  - [3.6   jarray \-- Creating and passing Java arrays to Java](#jarray-creating-and-passing-java-arrays-to-java)
+- [4   Integrating Jython/Python into Java](#integrating-jython-python-into-java)
+  - [4.1   Calling Jython from Java](#calling-jython-from-java)
+    - [4.1.1   Run Jython code on an interpreter embedded in Java](#run-jython-code-on-an-interpreter-embedded-in-java)
+    - [4.1.2   How to run Jython code on an interpreter embedded in Java](#how-to-run-jython-code-on-an-interpreter-embedded-in-java)
+      - [4.1.2.1   Example \-- a possible organization on disk](#example-a-possible-organization-on-disk)
+      - [4.1.2.2   Example \-- the Jython classes](#example-the-jython-classes)
+      - [4.1.2.3   Example \-- A Java interface class](#example-a-java-interface-class)
+      - [4.1.2.4   Example \-- another interface class](#example-another-interface-class)
+      - [4.1.2.5   Example \-- the factory class](#example-the-factory-class)
+      - [4.1.2.6   Example \-- the Java consumer code](#example-the-java-consumer-code)
+    - [4.1.3   Additional support for running Jython code on an interpreter embedded in Java](#additional-support-for-running-jython-code-on-an-interpreter-embedded-in-java)
+  - [4.2   Embedding Jython into Java](#embedding-jython-into-java)
+    - [4.2.1   Why embedded Jython](#why-embedded-jython)
+    - [4.2.2   Embedding Jython into Java is simple](#embedding-jython-into-java-is-simple)
+    - [4.2.3   Passing values into a Jython script](#passing-values-into-a-jython-script)
+    - [4.2.4   Initializing the interpreter](#initializing-the-interpreter)
+      - [4.2.4.1   An interpreter with an initial system state](#an-interpreter-with-an-initial-system-state)
+      - [4.2.4.2   A system state and a custom class loader](#a-system-state-and-a-custom-class-loader)
+    - [4.2.5   Retrieving values from a Jython script](#retrieving-values-from-a-jython-script)
+    - [4.2.6   There are also a few complexities](#there-are-also-a-few-complexities)
+    - [4.2.7   Exposing transparent objects](#exposing-transparent-objects)
+    - [4.2.8   Exposing opaque objects](#exposing-opaque-objects)
+    - [4.2.9   Type conversion](#type-conversion)
+    - [4.2.10   Using a custom class loader](#using-a-custom-class-loader)
+    - [4.2.11   Embedding a Jython console](#embedding-a-jython-console)
+  - [4.3   Embedding Jython with the Java Scripting Engine](#embedding-jython-with-the-java-scripting-engine)
+    - [4.3.1   Installing script engine support](#installing-script-engine-support)
+    - [4.3.2   Using script engine support](#using-script-engine-support)
+  - [4.4   Compiling Jython code with jythonc](#compiling-jython-code-with-jythonc)
+    - [4.4.1   Introduction to jythonc](#introduction-to-jythonc)
+    - [4.4.2   How to run jythonc](#how-to-run-jythonc)
+    - [4.4.3   Calling Jython from Java using jythonc](#calling-jython-from-java-using-jythonc)
+- [5   Deployment and Distribution](#deployment-and-distribution)
+  - [5.1   Building jars - some samples](#building-jars-some-samples)
+    - [5.1.1   Add Jython install stuff to our jar](#add-jython-install-stuff-to-our-jar)
+    - [5.1.2   Add modules and paths to the jar file](#add-modules-and-paths-to-the-jar-file)
+    - [5.1.3   Run the script/jar](#run-the-script-jar)
+    - [5.1.4   A more self-contained jar file](#a-more-self-contained-jar-file)
+    - [5.1.5   A summary](#a-summary)
+- [6   Integrating, Embedding, and Extending \-- A Summary](#integrating-embedding-and-extending-a-summary)
+- [7   Jython+Java \-- Other Advanced Topics](#jython-java-other-advanced-topics)
+  - [7.1   Event handling](#event-handling)
+  - [7.2   XML](#xml)
+    - [7.2.1   jaxp](#jaxp)
+    - [7.2.2   Xerces](#xerces)
+    - [7.2.3   dom4j](#dom4j)
+      - [7.2.3.1   Installation and setup](#installation-and-setup)
+      - [7.2.3.2   Examples etc](#examples-etc)
+    - [7.2.4   XMLBeans](#xmlbeans)
+      - [7.2.4.1   Installation](#installation)
+      - [7.2.4.2   An example](#an-example)
+  - [7.3   Database access](#database-access)
+    - [7.3.1   JDBC](#jdbc)
+    - [7.3.2   zxJDBC](#zxjdbc)
+- [8   Additional Exercises](#additional-exercises)
+- [9   References and Sources](#references-and-sources)
 :::
 
-::: {#how-to-write-jython-code .section}
-### [1   How-to Write Jython Code](#id6){.toc-backref}
+::: 
+### [1   How-to Write Jython Code](#id6)
 
 Jython is Python. That\'s one of its big advantages: you get two for the price of one. If your learn Python, then you have also learned Jython, and vice versa. If you already know Python, then you know Jython.
 
 But, if you do not know Python **or** Jython, then here are good training aids:
 
-- [Python documentation \-- http://python.org/doc/](http://python.org/doc/){.http .reference .external}
-- [Python tutorial \-- http://docs.python.org/tut/tut.html](http://docs.python.org/tut/tut.html){.http .reference .external}
-- [BeginnersGuide/NonProgrammers \-- http://wiki.python.org/moin/BeginnersGuide/NonProgrammers](http://wiki.python.org/moin/BeginnersGuide/NonProgrammers){.http .reference .external}
-- [BeginnersGuide/Programmers \-- http://wiki.python.org/moin/BeginnersGuide/Programmers](http://wiki.python.org/moin/BeginnersGuide/Programmers){.http .reference .external}
+- [Python documentation \-- http://python.org/doc/](http://python.org/doc/)
+- [Python tutorial \-- http://docs.python.org/tut/tut.html](http://docs.python.org/tut/tut.html)
+- [BeginnersGuide/NonProgrammers \-- http://wiki.python.org/moin/BeginnersGuide/NonProgrammers](http://wiki.python.org/moin/BeginnersGuide/NonProgrammers)
+- [BeginnersGuide/Programmers \-- http://wiki.python.org/moin/BeginnersGuide/Programmers](http://wiki.python.org/moin/BeginnersGuide/Programmers)
 :::
 
-::::::::::: {#installing-and-running-jython .section}
-### [2   Installing and Running Jython](#id7){.toc-backref}
+::::::::::: 
+### [2   Installing and Running Jython](#id7)
 
-::: {#install-jython .section}
-#### [2.1   Install Jython](#id8){.toc-backref}
+::: 
+#### [2.1   Install Jython](#id8)
 
 You will need Java installed, of course. And, since you are likely to want to use Jython class libraries from Jython, it is also likely that you will want the Java SDK. **Important**: If more than one version of Java is installed on your machine, make sure that when you install Jython, you use the version of Java for which the SDK is installed and the version of Java that you will be using when you run Jython.
 
-Download the Jython installation jar file \-- You can find the Jython distribution here: [Jython downloads \-- http://jython.org/Project/download.html](http://jython.org/Project/download.html){.http .reference .external}.
+Download the Jython installation jar file \-- You can find the Jython distribution here: [Jython downloads \-- http://jython.org/Project/download.html](http://jython.org/Project/download.html).
 
-Install Jython \-- Follow the instructions at: [Installing Jython \-- http://wiki.python.org/jython/InstallingJython](http://wiki.python.org/jython/InstallingJython){.http .reference .external}:
+Install Jython \-- Follow the instructions at: [Installing Jython \-- http://wiki.python.org/jython/InstallingJython](http://wiki.python.org/jython/InstallingJython):
 
     $ java -jar jython_installer-2.2.1.jar
 
-Command line history \-- On MS Windows, command line history for the Jython interactive interpreter comes built-in. On Linux, to get command line history, command line editing, and readline support, follow the instructions here: [ReadlineSetup \-- http://wiki.python.org/jython/ReadlineSetup](http://wiki.python.org/jython/ReadlineSetup){.http .reference .external}.
+Command line history \-- On MS Windows, command line history for the Jython interactive interpreter comes built-in. On Linux, to get command line history, command line editing, and readline support, follow the instructions here: [ReadlineSetup \-- http://wiki.python.org/jython/ReadlineSetup](http://wiki.python.org/jython/ReadlineSetup).
 
-Standalone mode \-- You can also create a self-contained Jython jar file. Run the standard installer (above), then you come to the \"Installation type\" page, select \"Standalone\". For more on this, see: [Standalone mode \-- http://www.jython.org/Project/installation.html#standalone-mode](http://www.jython.org/Project/installation.html#standalone-mode){.http .reference .external}
+Standalone mode \-- You can also create a self-contained Jython jar file. Run the standard installer (above), then you come to the \"Installation type\" page, select \"Standalone\". For more on this, see: [Standalone mode \-- http://www.jython.org/Project/installation.html#standalone-mode](http://www.jython.org/Project/installation.html#standalone-mode)
 :::
 
-::::::: {#configuration .section}
-#### [2.2   Configuration](#id9){.toc-backref}
+::::::: 
+#### [2.2   Configuration](#id9)
 
 There are several places to configure Jython.
 
-::: {#command-line-options .section}
-##### [2.2.1   Command-line options](#id10){.toc-backref}
+::: 
+##### [2.2.1   Command-line options](#id10)
 
 To display the options for `jython`, type:
 
     $ jython --help
 :::
 
-::: {#jython-configuration-files .section}
-##### [2.2.2   Jython configuration files](#id11){.toc-backref}
+::: 
+##### [2.2.2   Jython configuration files](#id11)
 
 For explanation of configuration options and values, see:
 
 - The comments in the (default) registry file.
-- [The Jython Registry \-- http://wiki.python.org/jython/UserGuide#the-jython-registry](http://www.jython.org/docs/registry.html){.http .reference .external}.
+- [The Jython Registry \-- http://wiki.python.org/jython/UserGuide#the-jython-registry](http://www.jython.org/docs/registry.html).
 :::
 
-::: {#checking-configuration-values .section}
-##### [2.2.3   Checking configuration values](#id12){.toc-backref}
+::: 
+##### [2.2.3   Checking configuration values](#id12)
 
 From within the Jython interactive interpreter or from within your Jython application, you can display the values of configuration properties.
 
@@ -202,8 +207,8 @@ Here is a script that you may find useful when interactively inspecting system p
     /usr/share/jython/jython.jar
 :::
 
-::: {#classpath-and-python-path .section}
-##### [2.2.4   Classpath and python path](#id13){.toc-backref}
+::: 
+##### [2.2.4   Classpath and python path](#id13)
 
 Jython can pick up Java class files from locations on either the Jython/Python path (see `sys.path`) or the Java classpath. Set these with the following:
 
@@ -225,12 +230,12 @@ A few rules about CLASSPATH and python.path:
 :::
 :::::::
 
-::: {#running-jython .section}
-#### [2.3   Running Jython](#id14){.toc-backref}
+::: 
+#### [2.3   Running Jython](#id14)
 
 The Jython interactive, command-line interpreter: `jython`.
 
-Jython IDEs (interactive development environments) \-- There is a Jython plug-in for Eclipse. See: [http://pydev.sourceforge.net/](http://pydev.sourceforge.net/){.http .reference .external}.
+Jython IDEs (interactive development environments) \-- There is a Jython plug-in for Eclipse. See: [http://pydev.sourceforge.net/](http://pydev.sourceforge.net/).
 
 Exercises \-- Start the Jython interpreter. Then do each of the following:
 
@@ -273,7 +278,7 @@ Running Jython scripts:
 
       import pdb; pdb.set_trace()
 
-  For more information on the Python debugger, see [The Python Debugger](http://docs.python.org/lib/module-pdb.html){.http .reference .external} in the Python standard documentation, or while in the debugger, type `help`.
+  For more information on the Python debugger, see [The Python Debugger](http://docs.python.org/lib/module-pdb.html) in the Python standard documentation, or while in the debugger, type `help`.
 
 - To make a script both \"run-able\" and \"import-able\", use the following idiom:
 
@@ -291,8 +296,8 @@ Exercise \-- Create a small Jython script:
 - Add `pdb` debugging to your script. Run the script again from the command line. Step through several lines of code.
 :::
 
-::: {#installing-jython-python-packages .section}
-#### [2.4   Installing Jython/Python packages](#id15){.toc-backref}
+::: 
+#### [2.4   Installing Jython/Python packages](#id15)
 
 Some Jython packages will be distributed as a Java jar file. If that is the case, add the jar file to your classpath.
 
@@ -304,11 +309,11 @@ And, then put that install directory on your classpath.
 :::
 :::::::::::
 
-:::::::::::::::: {#integrating-java-into-jython-python .section}
-### [3   Integrating Java into Jython/Python](#id16){.toc-backref}
+:::::::::::::::: 
+### [3   Integrating Java into Jython/Python](#id16)
 
-::: {#calling-existing-java-code .section}
-#### [3.1   Calling existing Java code](#id17){.toc-backref}
+::: 
+#### [3.1   Calling existing Java code](#id17)
 
 In order to call Java code from Jython do the following:
 
@@ -335,7 +340,7 @@ It works the way you would hope and expect it to. Here is an example:
 
 In some cases you will need to pass Java objects to Java methods.
 
-Special treatment for some overloaded Java methods \-- Explicitly create and pass Jython objects. For more on this, see: [Overloaded Java Method Signatures](http://www.jython.org/Project/userguide.html#overloaded-java-method-signatures){.http .reference .external} \-- [http://www.jython.org/Project/userguide.html#overloaded-java-method-signatures](http://www.jython.org/Project/userguide.html#overloaded-java-method-signatures){.http .reference .external}.
+Special treatment for some overloaded Java methods \-- Explicitly create and pass Jython objects. For more on this, see: [Overloaded Java Method Signatures](http://www.jython.org/Project/userguide.html#overloaded-java-method-signatures) \-- [http://www.jython.org/Project/userguide.html#overloaded-java-method-signatures](http://www.jython.org/Project/userguide.html#overloaded-java-method-signatures).
 
 Often you can use Python/Jython style and idioms to process Java objects. For example: the Jython `for` statement can be applied to Java collection objects.
 
@@ -352,8 +357,8 @@ Exercise \-- Use the class `java.util.Hashtable` to create a dictionary with sev
     jython is implemented in java
 :::
 
-::: {#extending-a-java-class-in-jython .section}
-#### [3.2   Extending a Java class in Jython](#id18){.toc-backref}
+::: 
+#### [3.2   Extending a Java class in Jython](#id18)
 
 You can import and then extend (sub-class) a Java class.
 
@@ -388,10 +393,10 @@ Example \-- This sample extends the Java filestream class by adding a method tha
         main()
 :::
 
-::: {#emulating-jython-classes-in-java .section}
-#### [3.3   Emulating Jython classes in Java](#id19){.toc-backref}
+::: 
+#### [3.3   Emulating Jython classes in Java](#id19)
 
-You can make a Java class \"act like\" one of the built-in Jython classes. In order to do so, you would implement one or more of Jython\'s special methods. You can find descriptions of the special methods in the \"Python Reference Manual\": [3.4 Special method names \-- http://docs.python.org/ref/specialnames.html](http://docs.python.org/ref/specialnames.html){.http .reference .external}.
+You can make a Java class \"act like\" one of the built-in Jython classes. In order to do so, you would implement one or more of Jython\'s special methods. You can find descriptions of the special methods in the \"Python Reference Manual\": [3.4 Special method names \-- http://docs.python.org/ref/specialnames.html](http://docs.python.org/ref/specialnames.html).
 
 Example: This module implements a class that acts like a sequence in certain ways, specifically (1) it responds to the `len()` operator by returning a length; (2) it supports an `append` method; and (3) it supports the use of the `[]` operator to get a value:
 
@@ -448,11 +453,11 @@ And here is an example of the use of this custom container class:
 
 Notes:
 
-- A more powerful solution, depending on your needs, would be for `CustomContainer` to inherit from `java.util.Vector`. See section [Emulating Jython Dictionaries, Sequences, Etc.](#emulating-jython-dictionaries-sequences-etc){.reference .internal} for an example.
+- A more powerful solution, depending on your needs, would be for `CustomContainer` to inherit from `java.util.Vector`. See section [Emulating Jython Dictionaries, Sequences, Etc.](#emulating-jython-dictionaries-sequences-etc) for an example.
 :::
 
-:::::::::: {#preparing-java-code-to-be-called-from-jython .section}
-#### [3.4   Preparing Java code to be called from Jython](#id20){.toc-backref}
+:::::::::: 
+#### [3.4   Preparing Java code to be called from Jython](#id20)
 
 Another view: Java is the extension language for Jython.
 
@@ -462,13 +467,13 @@ Need to pay attention to data types, for example, on the Jython side. Use an exp
 
 For additional help, see:
 
-- [Overview of Jython Documentation](http://www.jython.org/docs/index.html){.http .reference .external}
-- The Jython API [with frames](http://www.jython.org/docs/javadoc/index.html){.http .reference .external} or [without frames](http://www.jython.org/docs/javadoc/overview-summary.html){.http .reference .external}.
+- [Overview of Jython Documentation](http://www.jython.org/docs/index.html)
+- The Jython API [with frames](http://www.jython.org/docs/javadoc/index.html) or [without frames](http://www.jython.org/docs/javadoc/overview-summary.html).
 
 You can also customize a Java class to make it more \"Jythonic\".
 
-::: {#adding-doc-strings-to-a-java-class .section}
-##### [3.4.1   Adding doc strings to a Java class](#id21){.toc-backref}
+::: 
+##### [3.4.1   Adding doc strings to a Java class](#id21)
 
 This first, simple example adds doc strings:
 
@@ -514,8 +519,8 @@ Notes:
 - For more complex control over doc strings (for example, in a Java files that contains multiple classes) your class can implement the `ClassDictInit` interface and implement the `classDictInit` method. See \"Jython for Java Programmers\", pp. 276 ff.
 :::
 
-::: {#working-with-jython-arguments .section}
-##### [3.4.2   Working with Jython arguments](#id22){.toc-backref}
+::: 
+##### [3.4.2   Working with Jython arguments](#id22)
 
 The `ArgParser` class helps us handle Jython keyword arguments. If helps us write Java methods that support the analog of Jython\'s `*args` and `**kwargs` in Java methods.
 
@@ -531,7 +536,7 @@ How to do it \-- An overview:
 
 4.  Since both `args` and `keywords` are arrays, check the number of arguments actually passed with `args.length` and `keywords.length`.
 
-For more information, see: [Jython API Documentation: org.python.core Class ArgParser \-- http://www.jython.org/docs/javadoc/org/python/core/ArgParser.html](http://www.jython.org/docs/javadoc/org/python/core/ArgParser.html){.http .reference .external}.
+For more information, see: [Jython API Documentation: org.python.core Class ArgParser \-- http://www.jython.org/docs/javadoc/org/python/core/ArgParser.html](http://www.jython.org/docs/javadoc/org/python/core/ArgParser.html).
 
 Exercise \-- (1) Write a Java class containing a method that prints all its arguments and all the keyword arguments passed to it. (2) Then call that method from Jython.
 
@@ -605,11 +610,11 @@ Notes:
 - Use `ArgParser` methods `getInt`, `getString`, `getPyObject`, and `getList` to retrieve arguments.
 - Notice that in method `get_name`, we print the length of the args and kwargs. This demonstrates that you can check the length of these arrays and can throw an exception if, for example, too few arguments are passed.
 
-Also see the Jython FAQ: [5.3 Supporting \*args and \*\*kw in Java methods \-- http://jython.org/Project/userfaq.html#supporting-args-and-kw-in-java-methods](http://jython.org/Project/userfaq.html#supporting-args-and-kw-in-java-methods){.http .reference .external}.
+Also see the Jython FAQ: [5.3 Supporting \*args and \*\*kw in Java methods \-- http://jython.org/Project/userfaq.html#supporting-args-and-kw-in-java-methods](http://jython.org/Project/userfaq.html#supporting-args-and-kw-in-java-methods).
 :::
 
-::: {#sub-classing-a-java-class .section}
-##### [3.4.3   Sub-classing a Java class](#id23){.toc-backref}
+::: 
+##### [3.4.3   Sub-classing a Java class](#id23)
 
 Notice that, in Jython, we can extend a class written in Java:
 
@@ -638,10 +643,10 @@ When you run the above, you should see something like the following:
     I'm fancy and my name is daniel and my value is cute
 :::
 
-::::: {#emulating-jython-dictionaries-sequences-etc .section}
-##### [3.4.4   Emulating Jython Dictionaries, Sequences, Etc.](#id24){.toc-backref}
+::::: 
+##### [3.4.4   Emulating Jython Dictionaries, Sequences, Etc.](#id24)
 
-Extend class org.python.core.PyObject and its sub-classes. See: [org.python.core Class PyObject](http://www.jython.org/docs/javadoc/org/python/core/PyObject.html){.http .reference .external}.
+Extend class org.python.core.PyObject and its sub-classes. See: [org.python.core Class PyObject](http://www.jython.org/docs/javadoc/org/python/core/PyObject.html).
 
 Implement the following methods:
 
@@ -654,16 +659,16 @@ Implement the following methods:
 `getitem()` vs. `finditem()`:
 
 - If the index is not found or out of range, `finditem()` returns null, whereas `__getitem()` should throw an exception.
-- The Jython API documentation says to override `finditem()` and not `getitem()`. See: [org.python.core Class PyObject](http://www.jython.org/docs/javadoc/org/python/core/PyObject.html){.http .reference .external}.
+- The Jython API documentation says to override `finditem()` and not `getitem()`. See: [org.python.core Class PyObject](http://www.jython.org/docs/javadoc/org/python/core/PyObject.html).
 
-See [3.3.5 Emulating container types \-- http://docs.python.org/ref/sequence-types.html](http://docs.python.org/ref/sequence-types.html){.http .reference .external} in the Python Reference Manual for more information on customizing dictionaries and sequences.
+See [3.3.5 Emulating container types \-- http://docs.python.org/ref/sequence-types.html](http://docs.python.org/ref/sequence-types.html) in the Python Reference Manual for more information on customizing dictionaries and sequences.
 
 Exercise \-- (1) Write a Java class that emulates or imitates a Jython dictionary. (2) In addition, each access method should print a message. (3) Test your Java class from Jython by creating an instance of it, then setting and retrieving a key-value pair.
 
-::: {#solution-1-emulating-a-dictionary .section}
-###### [3.4.4.1   Solution #1 \-- Emulating a dictionary](#id25){.toc-backref}
+::: 
+###### [3.4.4.1   Solution #1 \-- Emulating a dictionary](#id25)
 
-This solution is for educational purposes only (see [Solution #2 \-- Extending PyDictionary](#solution-2-extending-pydictionary){.reference .internal}):
+This solution is for educational purposes only (see [Solution #2 \-- Extending PyDictionary](#solution-2-extending-pydictionary)):
 
     // TestDict.java
 
@@ -726,7 +731,7 @@ Notes:
       ...
       *** error: The key does not exit.
 
-- The Jython FAQ recommends that your Jython class extends PyObject. (see [5. Extending Jython \-- http://jython.org/Project/userfaq.html#extending-jython](http://jython.org/Project/userfaq.html#extending-jython){.http .reference .external}) I\'ve found that it is not strictly necessary to extend `PyObect` in your Java class (the one that emulates a Jython built-in). **But, if you do**, you will need to follow the signature of the methods that implement operators (for example `__setitem__`, `__getitem__`, etc) exactly. To learn those signatures, see the API documentation in the `Doc/` directory under your Jython installation.
+- The Jython FAQ recommends that your Jython class extends PyObject. (see [5. Extending Jython \-- http://jython.org/Project/userfaq.html#extending-jython](http://jython.org/Project/userfaq.html#extending-jython)) I\'ve found that it is not strictly necessary to extend `PyObect` in your Java class (the one that emulates a Jython built-in). **But, if you do**, you will need to follow the signature of the methods that implement operators (for example `__setitem__`, `__getitem__`, etc) exactly. To learn those signatures, see the API documentation in the `Doc/` directory under your Jython installation.
 
 Here is an example that uses the above solution:
 
@@ -751,13 +756,13 @@ And, here is the result of running this test:
     Added key "aa" value: "AAAA"
     Added key "bb" value: "BBBB"
     Added key "cc" value: "CCCC"
-    {aa=AAAA, bb=BBBB, cc=CCCC}
+    
     Found key "bb"
     present
 :::
 
-::: {#solution-2-extending-pydictionary .section}
-###### [3.4.4.2   Solution #2 \-- Extending PyDictionary](#id26){.toc-backref}
+::: 
+###### [3.4.4.2   Solution #2 \-- Extending PyDictionary](#id26)
 
 This solution shows how you most likely would start if you wanted to extend the dictionary type or implement a custom dictionary type:
 
@@ -795,12 +800,12 @@ Notes:
 - This class inherits the methods in the PyDictionary class. It overrides several of those methods, specifically `__setitem__` and `__getitem__`.
 - The Java class could also extend the dictionary type by implementing additional, new methods.
 
-Also see the Jython FAQ: [5.1 Java classes that emulate Jython Dictionaries and Sequences \-- http://jython.org/Project/userfaq.html#java-classes-that-emulate-jython-dictionaries-and-sequences](http://jython.org/Project/userfaq.html#java-classes-that-emulate-jython-dictionaries-and-sequences){.http .reference .external}.
+Also see the Jython FAQ: [5.1 Java classes that emulate Jython Dictionaries and Sequences \-- http://jython.org/Project/userfaq.html#java-classes-that-emulate-jython-dictionaries-and-sequences](http://jython.org/Project/userfaq.html#java-classes-that-emulate-jython-dictionaries-and-sequences).
 :::
 :::::
 
-::: {#emulating-jython-object-attribute-access .section}
-##### [3.4.5   Emulating Jython object attribute access](#id27){.toc-backref}
+::: 
+##### [3.4.5   Emulating Jython object attribute access](#id27)
 
 We can implement and override object attribute access in a Java class. And, we can emulate other Jython built-in types.
 
@@ -912,14 +917,14 @@ Notes:
 
       test()
 
-- We implement `__finditem__()` rather than `__getitem__()`. See the notes for Class PyObject in the [Jython API documentation \-- http://jython.org/docs/javadoc/index.html](http://jython.org/docs/javadoc/index.html){.http .reference .external}
+- We implement `__finditem__()` rather than `__getitem__()`. See the notes for Class PyObject in the [Jython API documentation \-- http://jython.org/docs/javadoc/index.html](http://jython.org/docs/javadoc/index.html)
 
-Also see the Jython FAQ: [5.2 Emulating Jython object attribute access with a Java class \-- http://jython.org/Project/userfaq.html#emulating-jython-object-attribute-access-with-a-java-class](http://jython.org/Project/userfaq.html#emulating-jython-object-attribute-access-with-a-java-class){.http .reference .external}.
+Also see the Jython FAQ: [5.2 Emulating Jython object attribute access with a Java class \-- http://jython.org/Project/userfaq.html#emulating-jython-object-attribute-access-with-a-java-class](http://jython.org/Project/userfaq.html#emulating-jython-object-attribute-access-with-a-java-class).
 :::
 ::::::::::
 
-::: {#extending-a-built-in-jython-class-in-java .section}
-#### [3.5   Extending a built-in Jython class in Java](#id28){.toc-backref}
+::: 
+#### [3.5   Extending a built-in Jython class in Java](#id28)
 
 In Java, you can inherit from an extend the built-in Jython classes.
 
@@ -932,15 +937,15 @@ Some of the classes that you can consider extending are:
 - PyStringMap
 - PyTuple
 
-An example that extends the `PyDictionary` class is in section [Solution #2 \-- Extending PyDictionary](#solution-2-extending-pydictionary){.reference .internal}.
+An example that extends the `PyDictionary` class is in section [Solution #2 \-- Extending PyDictionary](#solution-2-extending-pydictionary).
 :::
 
-::: {#jarray-creating-and-passing-java-arrays-to-java .section}
-#### [3.6   jarray \-- Creating and passing Java arrays to Java](#id29){.toc-backref}
+::: 
+#### [3.6   jarray \-- Creating and passing Java arrays to Java](#id29)
 
 Why you might want to do this \-- Suppose that you want to pass an array to a Java method. Furthermore, suppose that Java method is going to modify the contents of your array. If you pass in a Jython list, Jython creates a wrapper for your list, and any modifications made by Java will not be return to Jython.
 
-In this situation, you will want to use `jarray` to create Java arrays. For more on Java arrays, see: [Jython User Guide: Java Arrays \-- http://jython.org/Project/userguide.html#java-arrays](http://jython.org/Project/userguide.html#java-arrays){.http .reference .external}.
+In this situation, you will want to use `jarray` to create Java arrays. For more on Java arrays, see: [Jython User Guide: Java Arrays \-- http://jython.org/Project/userguide.html#java-arrays](http://jython.org/Project/userguide.html#java-arrays).
 
 Here is an example of a Java class that modifies the contents of an array. You can use it to demonstrate the need for jarry:
 
@@ -1084,20 +1089,20 @@ Here are a few notes:
 
 References:
 
-- [Jython User Guide: Java Arrays \-- http://jython.org/Project/userguide.html#java-arrays](http://jython.org/Project/userguide.html#java-arrays){.http .reference .external}
-- [The Java Language Specification, Third Edition: Types, Values, and Variables \-- http://java.sun.com/docs/books/jls/third_edition/html/typesValues.html](http://java.sun.com/docs/books/jls/third_edition/html/typesValues.html){.http .reference .external}
-- [Java Platform, Standard Edition 6 API Specification \-- http://java.sun.com/javase/6/docs/api/](http://java.sun.com/javase/6/docs/api/){.http .reference .external}
+- [Jython User Guide: Java Arrays \-- http://jython.org/Project/userguide.html#java-arrays](http://jython.org/Project/userguide.html#java-arrays)
+- [The Java Language Specification, Third Edition: Types, Values, and Variables \-- http://java.sun.com/docs/books/jls/third_edition/html/typesValues.html](http://java.sun.com/docs/books/jls/third_edition/html/typesValues.html)
+- [Java Platform, Standard Edition 6 API Specification \-- http://java.sun.com/javase/6/docs/api/](http://java.sun.com/javase/6/docs/api/)
 :::
 ::::::::::::::::
 
-:::::::::::::::::::::::::::::::::: {#integrating-jython-python-into-java .section}
-### [4   Integrating Jython/Python into Java](#id30){.toc-backref}
+:::::::::::::::::::::::::::::::::: 
+### [4   Integrating Jython/Python into Java](#id30)
 
-:::::::::::: {#calling-jython-from-java .section}
-#### [4.1   Calling Jython from Java](#id31){.toc-backref}
+:::::::::::: 
+#### [4.1   Calling Jython from Java](#id31)
 
-::: {#run-jython-code-on-an-interpreter-embedded-in-java .section}
-##### [4.1.1   Run Jython code on an interpreter embedded in Java](#id32){.toc-backref}
+::: 
+##### [4.1.1   Run Jython code on an interpreter embedded in Java](#id32)
 
 `jythonc` is currently unsupported and is deprecated, although it might reappear in some future version of Jython. So, using `jythonc` to compile your Jython code to Java for use in your Java code may not appeal to you. An embedded Jython interpreter may be a solution.
 
@@ -1127,13 +1132,13 @@ Advantages of this approach:
 - No need to *re-compile* your script each time it is modified.
 :::
 
-::::::::: {#how-to-run-jython-code-on-an-interpreter-embedded-in-java .section}
-##### [4.1.2   How to run Jython code on an interpreter embedded in Java](#id33){.toc-backref}
+::::::::: 
+##### [4.1.2   How to run Jython code on an interpreter embedded in Java](#id33)
 
 Resources \-- For instructions on how to call Jython code from Java, see:
 
-- [Accessing Jython from Java Without Using jythonc http://wiki.python.org/jython/JythonMonthly/Articles/September2006/1](http://wiki.python.org/jython/JythonMonthly/Articles/September2006/1){.http .reference .external}
-- [Simple and Efficient Jython Object Factories http://wiki.python.org/jython/JythonMonthly/Articles/October2006/3](http://wiki.python.org/jython/JythonMonthly/Articles/October2006/3){.http .reference .external} \-- Note that the following examples were developed from this document.
+- [Accessing Jython from Java Without Using jythonc http://wiki.python.org/jython/JythonMonthly/Articles/September2006/1](http://wiki.python.org/jython/JythonMonthly/Articles/September2006/1)
+- [Simple and Efficient Jython Object Factories http://wiki.python.org/jython/JythonMonthly/Articles/October2006/3](http://wiki.python.org/jython/JythonMonthly/Articles/October2006/3) \-- Note that the following examples were developed from this document.
 
 Description \-- In order to implement this approach, here is what you will do:
 
@@ -1147,8 +1152,8 @@ Description \-- In order to implement this approach, here is what you will do:
   2.  Call the \"createX\" methods to create Java objects that give access to the Jython classes.
   3.  Call the Jython methods through these Jython \"proxies\".
 
-::: {#example-a-possible-organization-on-disk .section}
-###### [4.1.2.1   Example \-- a possible organization on disk](#id34){.toc-backref}
+::: 
+###### [4.1.2.1   Example \-- a possible organization on disk](#id34)
 
     |-- Employee.py # The Jython classes
     |-- jyinterface
@@ -1161,12 +1166,12 @@ Description \-- In order to implement this approach, here is what you will do:
 
 Notes:
 
-- The Jython classes (in this case, Employee.py) can go anywhere on your Jython/Python path. See `python.path` in your registry file: [The Jython Registry \-- http://jython.org/Project/userguide.html#the-jython-registry](http://jython.org/Project/userguide.html#the-jython-registry){.http .reference .external}.
+- The Jython classes (in this case, Employee.py) can go anywhere on your Jython/Python path. See `python.path` in your registry file: [The Jython Registry \-- http://jython.org/Project/userguide.html#the-jython-registry](http://jython.org/Project/userguide.html#the-jython-registry).
 - Layout for the Java code follows normal Java rules for packages.
 :::
 
-::: {#example-the-jython-classes .section}
-###### [4.1.2.2   Example \-- the Jython classes](#id35){.toc-backref}
+::: 
+###### [4.1.2.2   Example \-- the Jython classes](#id35)
 
 These are the Jython classes that we wish to expose to and call from Java:
 
@@ -1221,8 +1226,8 @@ These are the Jython classes that we wish to expose to and call from Java:
             return self.id * 4
 :::
 
-::: {#example-a-java-interface-class .section}
-###### [4.1.2.3   Example \-- A Java interface class](#id36){.toc-backref}
+::: 
+###### [4.1.2.3   Example \-- A Java interface class](#id36)
 
 This (jyinterface/interfaces/EmployeeType.java) describes the interface to our Java (client) code:
 
@@ -1242,8 +1247,8 @@ This (jyinterface/interfaces/EmployeeType.java) describes the interface to our J
     }
 :::
 
-::: {#example-another-interface-class .section}
-###### [4.1.2.4   Example \-- another interface class](#id37){.toc-backref}
+::: 
+###### [4.1.2.4   Example \-- another interface class](#id37)
 
 This (jyinterface/interfaces/DependentType.java) is another interface. It describes and helps to expose another Jython class.
 
@@ -1262,8 +1267,8 @@ Notes:
 - We only describe the portions of the interface that we wish to expose to Java. It is likely that this will be a proper subset of the methods in our Jython class.
 :::
 
-::: {#example-the-factory-class .section}
-###### [4.1.2.5   Example \-- the factory class](#id38){.toc-backref}
+::: 
+###### [4.1.2.5   Example \-- the factory class](#id38)
 
 This (jyinterface/factories/EmployeeFactory.java) is the factory that creates (proxy) instances of our Jython classes. These instances are Java instances with an underlying Jython implementation:
 
@@ -1317,8 +1322,8 @@ Notes:
 - Each \"creater\" method (createEmployee and createDependent) uses the `__call__` method to create an instance. This is the same as using `obj = Employee()`, for example, in Jython. Then the result is converted to a Java object and returned.
 :::
 
-::: {#example-the-java-consumer-code .section}
-###### [4.1.2.6   Example \-- the Java consumer code](#id39){.toc-backref}
+::: 
+###### [4.1.2.6   Example \-- the Java consumer code](#id39)
 
 This (jyinterface/Main.java) is the Java code that uses our Jython classes:
 
@@ -1380,7 +1385,7 @@ Notes:
   - `len()` \-- `obj.__len__()`
   - `obj[idx]` \-- `obj.__getitem__(idx)`
 
-  For descriptions of these \"special\" methods, see the following section in the Python language reference: [3.4 Special method names \-- http://docs.python.org/ref/specialnames.html](http://docs.python.org/ref/specialnames.html){.http .reference .external}.
+  For descriptions of these \"special\" methods, see the following section in the Python language reference: [3.4 Special method names \-- http://docs.python.org/ref/specialnames.html](http://docs.python.org/ref/specialnames.html).
 
 - On the Java side, we use a Jython object by
 
@@ -1400,31 +1405,31 @@ Notes:
 :::
 :::::::::
 
-::: {#additional-support-for-running-jython-code-on-an-interpreter-embedded-in-java .section}
-##### [4.1.3   Additional support for running Jython code on an interpreter embedded in Java](#id40){.toc-backref}
+::: 
+##### [4.1.3   Additional support for running Jython code on an interpreter embedded in Java](#id40)
 
 In what follows, we provide and describe scripts that assist in using the above strategy.
 
-- `generate_interfaces.py` \-- Does some of the work of generating the Java interface files and the Java factory. You will still have to edit the generated files (for example, to fill in type information). But, it may save you a good deal of typing. You can find it here: [Jython/Java interface generator \-- http://www.rexx.com/\~dkuhlman/JythonInterfaceGenerator-1.0a.tar.gz](http://www.rexx.com/~dkuhlman/JythonInterfaceGenerator-1.0a.tar.gz){.http .reference .external}.
+- `generate_interfaces.py` \-- Does some of the work of generating the Java interface files and the Java factory. You will still have to edit the generated files (for example, to fill in type information). But, it may save you a good deal of typing. You can find it here: [Jython/Java interface generator \-- http://www.rexx.com/\~dkuhlman/JythonInterfaceGenerator-1.0a.tar.gz](http://www.rexx.com/~dkuhlman/JythonInterfaceGenerator-1.0a.tar.gz).
 :::
 ::::::::::::
 
-:::::::::::::::: {#embedding-jython-into-java .section}
-#### [4.2   Embedding Jython into Java](#id41){.toc-backref}
+:::::::::::::::: 
+#### [4.2   Embedding Jython into Java](#id41)
 
-::: {#why-embedded-jython .section}
-##### [4.2.1   Why embedded Jython](#id42){.toc-backref}
+::: 
+##### [4.2.1   Why embedded Jython](#id42)
 
 There are several reasons and purposes for embedding the Jython interpreter into your Java application:
 
 - You want to offer your users the flexibility and power of customizing and extending your application. An embedded Jython interpreter enables them to run Jython scripts in your application and to communicate with it.
-- You have existing Jython code, and you want to use that code in your Java application. Note that this is a capability that might have been handled by using the `jythonc` compiler to compile your Jython script into Java code, but `jythonc` is deprecated. For an example of this technique and information on how to do it, see section [Calling Jython from Java](#calling-jython-from-java){.reference .internal}.
+- You have existing Jython code, and you want to use that code in your Java application. Note that this is a capability that might have been handled by using the `jythonc` compiler to compile your Jython script into Java code, but `jythonc` is deprecated. For an example of this technique and information on how to do it, see section [Calling Jython from Java](#calling-jython-from-java).
 
-Also see: [Jython User Guide: Embedding Jython - http://jython.org/Project/userguide.html#embedding-jython](http://jython.org/Project/userguide.html#embedding-jython){.http .reference .external}.
+Also see: [Jython User Guide: Embedding Jython - http://jython.org/Project/userguide.html#embedding-jython](http://jython.org/Project/userguide.html#embedding-jython).
 :::
 
-::: {#embedding-jython-into-java-is-simple .section}
-##### [4.2.2   Embedding Jython into Java is simple](#id43){.toc-backref}
+::: 
+##### [4.2.2   Embedding Jython into Java is simple](#id43)
 
 Embedding the Jython interpreter can be as simple as this:
 
@@ -1476,8 +1481,8 @@ Embedding the Jython interpreter can be as simple as this:
     }
 :::
 
-::: {#passing-values-into-a-jython-script .section}
-##### [4.2.3   Passing values into a Jython script](#id44){.toc-backref}
+::: 
+##### [4.2.3   Passing values into a Jython script](#id44)
 
 Notice the call `interp.set("a", new PyInteger (42));` in the above example.
 
@@ -1488,8 +1493,8 @@ You can also retrieve the dictionary object representing the namespace for the i
     Integer x = obj.__tojava__(Integer.class);
 :::
 
-::::: {#initializing-the-interpreter .section}
-##### [4.2.4   Initializing the interpreter](#id45){.toc-backref}
+::::: 
+##### [4.2.4   Initializing the interpreter](#id45)
 
 You can also create a Jython interpreter with an initial global namespace:
 
@@ -1520,8 +1525,8 @@ You can also create a Jython interpreter with an initial global namespace:
         }
     }
 
-::: {#an-interpreter-with-an-initial-system-state .section}
-###### [4.2.4.1   An interpreter with an initial system state](#id46){.toc-backref}
+::: 
+###### [4.2.4.1   An interpreter with an initial system state](#id46)
 
 And, you can create an interpreter with an initial system state:
 
@@ -1554,8 +1559,8 @@ And, you can create an interpreter with an initial system state:
     }
 :::
 
-::: {#a-system-state-and-a-custom-class-loader .section}
-###### [4.2.4.2   A system state and a custom class loader](#id47){.toc-backref}
+::: 
+###### [4.2.4.2   A system state and a custom class loader](#id47)
 
 This is of interest because the system state can be used to provide a custom class loader:
 
@@ -1596,8 +1601,8 @@ And here is a sample class loader. This one merely restricts the classes that ca
 :::
 :::::
 
-::: {#retrieving-values-from-a-jython-script .section}
-##### [4.2.5   Retrieving values from a Jython script](#id48){.toc-backref}
+::: 
+##### [4.2.5   Retrieving values from a Jython script](#id48)
 
 Notice the call `PyObject x = interp.get("x");` in the above example.
 
@@ -1608,8 +1613,8 @@ You can also retrieve the dictionary object representing the namespace for the i
     namespace.__setitem__("x", value);
 :::
 
-::: {#there-are-also-a-few-complexities .section}
-##### [4.2.6   There are also a few complexities](#id49){.toc-backref}
+::: 
+##### [4.2.6   There are also a few complexities](#id49)
 
 You will want to *selectively* expose capabilities from your Java application to scripts run by/on the embedded Jython interpreter.
 
@@ -1623,8 +1628,8 @@ Here are a few suggestions:
 - For users who are not trusted, implement a security policy, *or* do not expose a scripting interface at all.
 :::
 
-::: {#exposing-transparent-objects .section}
-##### [4.2.7   Exposing transparent objects](#id50){.toc-backref}
+::: 
+##### [4.2.7   Exposing transparent objects](#id50)
 
 Java application objects and values can be passed through to scripts executed or evaluated by the embedded interpreter.
 
@@ -1634,14 +1639,14 @@ Some mechanisms for passing objects:
 - `setLocals` and `getLocals` \-- Using these methods, you can pass or retrieve the entire namespace. If you are inserting values to be used (or shared) by scripts, you may want to retrieve and, possibly, copy the initial namespace. Remember that is a Jython dictionary, so modifying it without copying may affect other scripts running in the same interpreter.
 :::
 
-::: {#exposing-opaque-objects .section}
-##### [4.2.8   Exposing opaque objects](#id51){.toc-backref}
+::: 
+##### [4.2.8   Exposing opaque objects](#id51)
 
 This is similar to the strategy for transparent objects, except that you must implement wrapper classes, then provide instances of these classes instead of instances of transparent objects.
 :::
 
-::: {#type-conversion .section}
-##### [4.2.9   Type conversion](#id52){.toc-backref}
+::: 
+##### [4.2.9   Type conversion](#id52)
 
 Mostly, Jython takes care of this for you.
 
@@ -1650,14 +1655,14 @@ However, at times it may help to know what conversions are performed.
 And, you can also perform explicit conversions.
 :::
 
-::: {#using-a-custom-class-loader .section}
-##### [4.2.10   Using a custom class loader](#id53){.toc-backref}
+::: 
+##### [4.2.10   Using a custom class loader](#id53)
 
-You can control access to Java classes with a custom class loader. There is an example in section [A system state and a custom class loader](#a-system-state-and-a-custom-class-loader){.reference .internal}.
+You can control access to Java classes with a custom class loader. There is an example in section [A system state and a custom class loader](#a-system-state-and-a-custom-class-loader).
 :::
 
-::: {#embedding-a-jython-console .section}
-##### [4.2.11   Embedding a Jython console](#id54){.toc-backref}
+::: 
+##### [4.2.11   Embedding a Jython console](#id54)
 
 This example shows how to embed a Jython interactive console into a Java program:
 
@@ -1689,19 +1694,19 @@ This example shows how to embed a Jython interactive console into a Java program
 
 Notes:
 
-- For more information see: [API information on Class InteractiveConsole \-- http://jython.org/docs/javadoc/org/python/util/InteractiveConsole.html](http://jython.org/docs/javadoc/org/python/util/InteractiveConsole.html){.http .reference .external}.
+- For more information see: [API information on Class InteractiveConsole \-- http://jython.org/docs/javadoc/org/python/util/InteractiveConsole.html](http://jython.org/docs/javadoc/org/python/util/InteractiveConsole.html).
 :::
 ::::::::::::::::
 
-::::: {#embedding-jython-with-the-java-scripting-engine .section}
-#### [4.3   Embedding Jython with the Java Scripting Engine](#id55){.toc-backref}
+::::: 
+#### [4.3   Embedding Jython with the Java Scripting Engine](#id55)
 
 A scripting engine is an alternative way to execute Jython scripts from within Java.
 
-::: {#installing-script-engine-support .section}
-##### [4.3.1   Installing script engine support](#id56){.toc-backref}
+::: 
+##### [4.3.1   Installing script engine support](#id56)
 
-Scripting engine support is here: [scripting Project home \-- https://scripting.dev.java.net/](https://scripting.dev.java.net/){.https .reference .external}
+Scripting engine support is here: [scripting Project home \-- https://scripting.dev.java.net/](https://scripting.dev.java.net/)
 
 I downloaded the ScriptEngine support using CVS.
 
@@ -1715,8 +1720,8 @@ Then add the following to your CLASSPATH:
     ${ENGINE_ROOT}/scripting/engines/jython/build/jython-engine.jar
 :::
 
-::: {#using-script-engine-support .section}
-##### [4.3.2   Using script engine support](#id57){.toc-backref}
+::: 
+##### [4.3.2   Using script engine support](#id57)
 
 Here is a simple example that (1) displays information about existing script engines and (2) runs several lines of Jython code:
 
@@ -1797,11 +1802,11 @@ This is the result of running the above Java program:
 :::
 :::::
 
-:::::: {#compiling-jython-code-with-jythonc .section}
-#### [4.4   Compiling Jython code with jythonc](#id58){.toc-backref}
+:::::: 
+#### [4.4   Compiling Jython code with jythonc](#id58)
 
-::: {#introduction-to-jythonc .section}
-##### [4.4.1   Introduction to jythonc](#id59){.toc-backref}
+::: 
+##### [4.4.1   Introduction to jythonc](#id59)
 
 `jythonc` is currently unsupported and is deprecated, although it might reappear in some future version of Jython. Here is a message on this from the jython-users email list:
 
@@ -1837,12 +1842,12 @@ What `jythonc` does:
 
 What `jythonc` is (sometimes) used for:
 
-- To generate Java code so that classes written in Jython can be used from Java. But, see section [Calling Jython from Java](#calling-jython-from-java){.reference .internal} for an alternative technique.
-- To package an application in a jar file for deployment. But, see section [Deployment and Distribution](#deployment-and-distribution){.reference .internal} for an alternative technique.
+- To generate Java code so that classes written in Jython can be used from Java. But, see section [Calling Jython from Java](#calling-jython-from-java) for an alternative technique.
+- To package an application in a jar file for deployment. But, see section [Deployment and Distribution](#deployment-and-distribution) for an alternative technique.
 :::
 
-::: {#how-to-run-jythonc .section}
-##### [4.4.2   How to run jythonc](#id60){.toc-backref}
+::: 
+##### [4.4.2   How to run jythonc](#id60)
 
 Here are examples.
 
@@ -1855,8 +1860,8 @@ Create java class files that can be imported into Java:
     $ jythonc hello.jar
 :::
 
-::: {#calling-jython-from-java-using-jythonc .section}
-##### [4.4.3   Calling Jython from Java using jythonc](#id61){.toc-backref}
+::: 
+##### [4.4.3   Calling Jython from Java using jythonc](#id61)
 
 Preparing Jython code for `jythonc` \-- Create Java compatible Jython modules:
 
@@ -1878,7 +1883,7 @@ What is `jythonc` and what is its status?
 >
 > \"While all of these features are planned for Jython-2.3, they are currently only available from jythonc. Most uses of the second feature, adding method declarations to docstrings, can be handled by declaring a Java interface to implement with a Python class. Each method in the Python implementation takes the types of the Java method it implements. Exposing the Python class as an instance of that type to Java code can be done as explained in Accessing Jython from Java Without Using jythonc and its followup, Simple and Efficient Jython Object Factories.\"
 >
-> > (See [http://www.jython.org/Project/jythonc.html](http://www.jython.org/Project/jythonc.html){.http .reference .external})
+> > (See [http://www.jython.org/Project/jythonc.html](http://www.jython.org/Project/jythonc.html))
 
 You can extend Java classes in your Jython code.
 
@@ -2100,12 +2105,12 @@ And the following example builds a standalone jar file from our `simpleclass.py`
 ::::::
 ::::::::::::::::::::::::::::::::::
 
-::::::::: {#deployment-and-distribution .section}
-### [5   Deployment and Distribution](#id62){.toc-backref}
+::::::::: 
+### [5   Deployment and Distribution](#id62)
 
 Suppose we would like to package our Jython application in a Java jar file, then deploy our application by distributing that jar file so that our users can run it. And, furthermore, suppose we would like our users to be able to run our Jython application on machines where Jython is *not* installed.
 
-This section explains how to do that. This explanation is also at: [Distributing Jython Scripts \-- http://wiki.python.org/jython/JythonFaq/DistributingJythonScripts](http://wiki.python.org/jython/JythonFaq/DistributingJythonScripts){.http .reference .external}.
+This section explains how to do that. This explanation is also at: [Distributing Jython Scripts \-- http://wiki.python.org/jython/JythonFaq/DistributingJythonScripts](http://wiki.python.org/jython/JythonFaq/DistributingJythonScripts).
 
 So, this boils down to:
 
@@ -2119,15 +2124,15 @@ So, this boils down to:
 
       $ java -jar jython.jar {optional .py file}
 
-:::::::: {#building-jars-some-samples .section}
-#### [5.1   Building jars - some samples](#id63){.toc-backref}
+:::::::: 
+#### [5.1   Building jars - some samples](#id63)
 
 The following examples assume that you want to build and run your Jython application from a jar file in a way that is \'\'\'not\'\'\' dependent on files in your Jython installation. This will enable your users to run your Jython application (packaged in a jar file) without installing Jython. They will, of course, need Java installed on their machines.
 
-The following example scripts were developed on Linux (and the bash shell), but with minor modifications, you should be able to do the same thing in an MS DOS box on MS Windows. I use the zip/unzip tools available from Info-Zip ([http://www.info-zip.org/](http://www.info-zip.org/){.http .reference .external}), but other tools that support the zip format should also work.
+The following example scripts were developed on Linux (and the bash shell), but with minor modifications, you should be able to do the same thing in an MS DOS box on MS Windows. I use the zip/unzip tools available from Info-Zip ([http://www.info-zip.org/](http://www.info-zip.org/)), but other tools that support the zip format should also work.
 
-::: {#add-jython-install-stuff-to-our-jar .section}
-##### [5.1.1   Add Jython install stuff to our jar](#id64){.toc-backref}
+::: 
+##### [5.1.1   Add Jython install stuff to our jar](#id64)
 
 To build our jar, we first make a copy of jython.jar, then add the contents of the `Lib/` directory to it:
 
@@ -2138,8 +2143,8 @@ To build our jar, we first make a copy of jython.jar, then add the contents of t
 Note also that the Jython installer enables you to create a stand-alone jar file.
 :::
 
-::: {#add-modules-and-paths-to-the-jar-file .section}
-##### [5.1.2   Add modules and paths to the jar file](#id65){.toc-backref}
+::: 
+##### [5.1.2   Add modules and paths to the jar file](#id65)
 
 Then we copy this expanded jar file, and add modules that are specific to our application. I\'m also going to add a path to an additional jar file to the manifest:
 
@@ -2154,8 +2159,8 @@ Where, othermanifest.mf contains the following:
     Class-Path: ./otherjar.jar
 :::
 
-::: {#run-the-script-jar .section}
-##### [5.1.3   Run the script/jar](#id66){.toc-backref}
+::: 
+##### [5.1.3   Run the script/jar](#id66)
 
 Now I have a self-contained jar file that I can run by executing the following:
 
@@ -2164,8 +2169,8 @@ Now I have a self-contained jar file that I can run by executing the following:
 The file `testmyapp.py` imports modules that I have added to `myapp.jar` and `otherjar.jar`, then starts my application.
 :::
 
-::: {#a-more-self-contained-jar-file .section}
-##### [5.1.4   A more self-contained jar file](#id67){.toc-backref}
+::: 
+##### [5.1.4   A more self-contained jar file](#id67)
 
 Now suppose you want to package your \"start-up\" script in the (main) jar itself. In order to do so, follow the above instructions plus:
 
@@ -2192,8 +2197,8 @@ And, a shorter form which does the same thing is this:
 This works because Java and Jython *both* have `-jar` options. The first `-jar` tells Java to run Jython, and the second `-jar` tells Jython to run the `__run__.py` in the jar file.
 :::
 
-::: {#a-summary .section}
-##### [5.1.5   A summary](#id68){.toc-backref}
+::: 
+##### [5.1.5   A summary](#id68)
 
 Create the basic jar:
 
@@ -2239,8 +2244,8 @@ Or, if you have added your start-up script to the jar, use one of the following:
 ::::::::
 :::::::::
 
-::: {#integrating-embedding-and-extending-a-summary .section}
-### [6   Integrating, Embedding, and Extending \-- A Summary](#id69){.toc-backref}
+::: 
+### [6   Integrating, Embedding, and Extending \-- A Summary](#id69)
 
 Here is what we have learned to do:
 
@@ -2252,15 +2257,15 @@ Here is what we have learned to do:
 - Package and deploy a Jython application as a jar file.
 :::
 
-:::::::::::::::: {#jython-java-other-advanced-topics .section}
-### [7   Jython+Java \-- Other Advanced Topics](#id70){.toc-backref}
+:::::::::::::::: 
+### [7   Jython+Java \-- Other Advanced Topics](#id70)
 
-::: {#event-handling .section}
-#### [7.1   Event handling](#id71){.toc-backref}
+::: 
+#### [7.1   Event handling](#id71)
 
 Events are easy in Jython.
 
-Here is an example taken from \"An Introduction to Jython\" ([http://www.javalobby.org/articles/jython/](http://www.javalobby.org/articles/jython/){.http .reference .external}):
+Here is an example taken from \"An Introduction to Jython\" ([http://www.javalobby.org/articles/jython/](http://www.javalobby.org/articles/jython/)):
 
     from javax.swing import *
 
@@ -2278,11 +2283,11 @@ Here is an example taken from \"An Introduction to Jython\" ([http://www.javalob
     test()
 :::
 
-::::::::::: {#xml .section}
-#### [7.2   XML](#id72){.toc-backref}
+::::::::::: 
+#### [7.2   XML](#id72)
 
-::: {#jaxp .section}
-##### [7.2.1   jaxp](#id73){.toc-backref}
+::: 
+##### [7.2.1   jaxp](#id73)
 
 Note: Tested with jython-2.2a.
 
@@ -2384,18 +2389,18 @@ Example:
 
 Resources:
 
-- [jaxp: JAXP Reference Implementation](https://jaxp.dev.java.net/){.https .reference .external} ([https://jaxp.dev.java.net/](https://jaxp.dev.java.net/){.https .reference .external}).
-- [Java API for XML Processing (JAXP)](http://java.sun.com/webservices/jaxp/index.jsp){.http .reference .external} ([http://java.sun.com/webservices/jaxp/index.jsp](http://java.sun.com/webservices/jaxp/index.jsp){.http .reference .external}).
+- [jaxp: JAXP Reference Implementation](https://jaxp.dev.java.net/) ([https://jaxp.dev.java.net/](https://jaxp.dev.java.net/)).
+- [Java API for XML Processing (JAXP)](http://java.sun.com/webservices/jaxp/index.jsp) ([http://java.sun.com/webservices/jaxp/index.jsp](http://java.sun.com/webservices/jaxp/index.jsp)).
 :::
 
-::: {#xerces .section}
-##### [7.2.2   Xerces](#id74){.toc-backref}
+::: 
+##### [7.2.2   Xerces](#id74)
 
 Xerces is an implementation of XML parsers and a lot more. The JAXP API is also implemented in Xerces2.
 
-Obtain Xerces here: [http://xerces.apache.org/xerces2-j/download.cgi](http://xerces.apache.org/xerces2-j/download.cgi){.http .reference .external}.
+Obtain Xerces here: [http://xerces.apache.org/xerces2-j/download.cgi](http://xerces.apache.org/xerces2-j/download.cgi).
 
-Installation instructions are here: [Installation Instructions](http://xerces.apache.org/xerces2-j/install.html){.http .reference .external}.
+Installation instructions are here: [Installation Instructions](http://xerces.apache.org/xerces2-j/install.html).
 
 Set-up \-- Set your CLASSPATH. After unpacking the Xerces distribution, add the following jar files to your CLASSPATH:
 
@@ -2524,28 +2529,28 @@ Notes:
 
 Resources:
 
-- [Xerces Java Parser](http://xerces.apache.org/xerces2-j/){.http .reference .external}
-- [Introduction to XML and XML With Java](http://totheriver.com/learn/xml/xmltutorial.html){.http .reference .external}
+- [Xerces Java Parser](http://xerces.apache.org/xerces2-j/)
+- [Introduction to XML and XML With Java](http://totheriver.com/learn/xml/xmltutorial.html)
 :::
 
-::::: {#dom4j .section}
-##### [7.2.3   dom4j](#id75){.toc-backref}
+::::: 
+##### [7.2.3   dom4j](#id75)
 
-::: {#installation-and-setup .section}
-###### [7.2.3.1   Installation and setup](#id76){.toc-backref}
+::: 
+###### [7.2.3.1   Installation and setup](#id76)
 
-- Download `dom4j` from: [dom4j: the flexible XML framework for Java \-- http://www.dom4j.org/](http://www.dom4j.org/){.http .reference .external}
+- Download `dom4j` from: [dom4j: the flexible XML framework for Java \-- http://www.dom4j.org/](http://www.dom4j.org/)
 - Add the `dom4j` jar file to your `CLASSPATH`.
-- In order to get some features to work, I also had to install the `jaxen` XPath engine. Add that to your `CLASSPATH`, too. See: [jaxen: universal Java XPath engine \-- http://jaxen.codehaus.org/](http://jaxen.codehaus.org/){.http .reference .external}.
+- In order to get some features to work, I also had to install the `jaxen` XPath engine. Add that to your `CLASSPATH`, too. See: [jaxen: universal Java XPath engine \-- http://jaxen.codehaus.org/](http://jaxen.codehaus.org/).
 :::
 
-::: {#examples-etc .section}
-###### [7.2.3.2   Examples etc](#id77){.toc-backref}
+::: 
+###### [7.2.3.2   Examples etc](#id77)
 
 There are examples at:
 
-- [dom4j - Quick Start Guide \-- http://www.dom4j.org/guide.html](http://www.dom4j.org/guide.html){.http .reference .external}
-- [dom4j cookbook \-- http://www.dom4j.org/cookbook.html](http://www.dom4j.org/cookbook.html){.http .reference .external}
+- [dom4j - Quick Start Guide \-- http://www.dom4j.org/guide.html](http://www.dom4j.org/guide.html)
+- [dom4j cookbook \-- http://www.dom4j.org/cookbook.html](http://www.dom4j.org/cookbook.html)
 
 Example 1a \-- This example parses an XML document (file), then walks the `dom4j` DOM element tree and prints out information on each node:
 
@@ -2718,13 +2723,13 @@ Notes \-- What this example does:
 
 Resources:
 
-- [http://www.dom4j.org/](http://www.dom4j.org/){.http .reference .external}
-- [http://www.dom4j.org/dom4j-1.4/apidocs/index.html](http://www.dom4j.org/dom4j-1.4/apidocs/index.html){.http .reference .external}
+- [http://www.dom4j.org/](http://www.dom4j.org/)
+- [http://www.dom4j.org/dom4j-1.4/apidocs/index.html](http://www.dom4j.org/dom4j-1.4/apidocs/index.html)
 :::
 :::::
 
-::::: {#xmlbeans .section}
-##### [7.2.4   XMLBeans](#id78){.toc-backref}
+::::: 
+##### [7.2.4   XMLBeans](#id78)
 
 XMLBeans provides the ability to generate Java bindings for an XML document type from an XML Schema. Roughly speaking, XMLBeans generates a Java class for each element type defined in an XML Schema.
 
@@ -2732,15 +2737,15 @@ When used with Jython, those Java bindings become quite Jythonic.
 
 You can read about XMLBeans here:
 
-- [Welcome to XMLBeans \-- http://xmlbeans.apache.org/index.html](http://xmlbeans.apache.org/index.html){.http .reference .external}.
-- [XMLBeans at Wikipedia \-- http://en.wikipedia.org/wiki/XMLBeans](http://en.wikipedia.org/wiki/XMLBeans){.http .reference .external}.
+- [Welcome to XMLBeans \-- http://xmlbeans.apache.org/index.html](http://xmlbeans.apache.org/index.html).
+- [XMLBeans at Wikipedia \-- http://en.wikipedia.org/wiki/XMLBeans](http://en.wikipedia.org/wiki/XMLBeans).
 
-::: {#installation .section}
-###### [7.2.4.1   Installation](#id79){.toc-backref}
+::: 
+###### [7.2.4.1   Installation](#id79)
 
-You can find XMLBeans at: [Welcome to XMLBeans \-- http://xmlbeans.apache.org/index.html](http://xmlbeans.apache.org/index.html){.http .reference .external}.
+You can find XMLBeans at: [Welcome to XMLBeans \-- http://xmlbeans.apache.org/index.html](http://xmlbeans.apache.org/index.html).
 
-To install XMLBeans, follow the instructions at: [Installing XMLBeans \-- http://xmlbeans.apache.org/documentation/conInstallGuide.html](http://xmlbeans.apache.org/documentation/conInstallGuide.html){.http .reference .external}.
+To install XMLBeans, follow the instructions at: [Installing XMLBeans \-- http://xmlbeans.apache.org/documentation/conInstallGuide.html](http://xmlbeans.apache.org/documentation/conInstallGuide.html).
 
 After unrolling the binary distribution, I added the following to my `CLASSPATH`:
 
@@ -2754,10 +2759,10 @@ And, I added the following to my `PATH` environment variable:
 where XMLBEANS_HOME is the directory in which XMLBeans is installed.
 :::
 
-::: {#an-example .section}
-###### [7.2.4.2   An example](#id80){.toc-backref}
+::: 
+###### [7.2.4.2   An example](#id80)
 
-This example was copied from [XMLBeans at Wikipedia \-- http://en.wikipedia.org/wiki/XMLBeans](http://en.wikipedia.org/wiki/XMLBeans){.http .reference .external} and then adapted to Jython.
+This example was copied from [XMLBeans at Wikipedia \-- http://en.wikipedia.org/wiki/XMLBeans](http://en.wikipedia.org/wiki/XMLBeans) and then adapted to Jython.
 
 The XML Schema:
 
@@ -2910,11 +2915,11 @@ And, that prints out:
 :::::
 :::::::::::
 
-::::: {#database-access .section}
-#### [7.3   Database access](#id81){.toc-backref}
+::::: 
+#### [7.3   Database access](#id81)
 
-::: {#jdbc .section}
-##### [7.3.1   JDBC](#id82){.toc-backref}
+::: 
+##### [7.3.1   JDBC](#id82)
 
 JDBC is Java classes. It is, therefore, usable from Jython.
 
@@ -2923,20 +2928,20 @@ You will need JDBC driver/adapters for your database.
 But, JDBC is not very Pythonic.
 :::
 
-::: {#zxjdbc .section}
-##### [7.3.2   zxJDBC](#id83){.toc-backref}
+::: 
+##### [7.3.2   zxJDBC](#id83)
 
-zxJDBC *is* Pythonic. zxJDBC implements the Python DB API on top of JDBC. For more on the Python DB API, see [SIG on Tabular Databases in Python](http://python.org/sigs/db-sig/){.http .reference .external} and [Python Database API Specification v2.0](http://python.org/peps/pep-0249.html){.http .reference .external}.
+zxJDBC *is* Pythonic. zxJDBC implements the Python DB API on top of JDBC. For more on the Python DB API, see [SIG on Tabular Databases in Python](http://python.org/sigs/db-sig/) and [Python Database API Specification v2.0](http://python.org/peps/pep-0249.html).
 
 If zxJDBC is not already in your installed version of Jython, then you can:
 
-1.  Downloading the source from [http://sourceforge.net/projects/zxjdbc](http://sourceforge.net/projects/zxjdbc){.http .reference .external}.
+1.  Downloading the source from [http://sourceforge.net/projects/zxjdbc](http://sourceforge.net/projects/zxjdbc).
 2.  Creating a directory (e.g. `zxJDBC`), then un-rolling it.
 3.  Add `zxJDBC/lib/zxJDBC.jar` to your `CLASSPATH`
 
 You can get documentation on zxJDBC by:
 
-1.  Downloading the source from [http://sourceforge.net/projects/zxjdbc](http://sourceforge.net/projects/zxjdbc){.http .reference .external}.
+1.  Downloading the source from [http://sourceforge.net/projects/zxjdbc](http://sourceforge.net/projects/zxjdbc).
 2.  Creating a directory (e.g. `zxJDBC`), then un-rolling it.
 3.  Pointing your browser at `zxJDBC/doc/index.html`.
 
@@ -3001,44 +3006,43 @@ Which, when connected to my trivial, little database, prints out the following:
 
 Resources:
 
-- More information on zxJDBC: [http://jython.org/Project/userguide.html#database-connectivity-in-jython](http://jython.org/Project/userguide.html#database-connectivity-in-jython){.http .reference .external}
-- The JDBC driver for PostgreSQL: [http://jdbc.postgresql.org/](http://jdbc.postgresql.org/){.http .reference .external}
-- The JDBC driver for MySQL: [http://www.mysql.com/products/connector/j/](http://www.mysql.com/products/connector/j/){.http .reference .external}
-- [Python Tabular Databases SIG: Status \-- http://www.python.org/community/sigs/current/db-sig/status/](http://www.python.org/community/sigs/current/db-sig/status/){.http .reference .external}
-- The Python [Database Topic Guide \-- http://www.python.org/doc/topics/database/](http://www.python.org/doc/topics/database/){.http .reference .external}
+- More information on zxJDBC: [http://jython.org/Project/userguide.html#database-connectivity-in-jython](http://jython.org/Project/userguide.html#database-connectivity-in-jython)
+- The JDBC driver for PostgreSQL: [http://jdbc.postgresql.org/](http://jdbc.postgresql.org/)
+- The JDBC driver for MySQL: [http://www.mysql.com/products/connector/j/](http://www.mysql.com/products/connector/j/)
+- [Python Tabular Databases SIG: Status \-- http://www.python.org/community/sigs/current/db-sig/status/](http://www.python.org/community/sigs/current/db-sig/status/)
+- The Python [Database Topic Guide \-- http://www.python.org/doc/topics/database/](http://www.python.org/doc/topics/database/)
 :::
 :::::
 ::::::::::::::::
 
-::: {#additional-exercises .section}
-### [8   Additional Exercises](#id84){.toc-backref}
+::: 
+### [8   Additional Exercises](#id84)
 
 \[To be added.\]
 :::
 
-::: {#references-and-sources .section}
-### [9   References and Sources](#id85){.toc-backref}
+::: 
+### [9   References and Sources](#id85)
 
 Introductory articles:
 
-- [An Introduction to Jython](http://www.javalobby.org/articles/jython/){.http .reference .external}: An introductory article on Jython
-- [alt.lang.jre: Get to know Jython](http://www-128.ibm.com/developerworks/library/j-alj07064/index.html){.http .reference .external}: An introduction to Jython that includes a summary of Jython features.
-- [Use Jython to Exercise Java APIs Without Compiling](http://www.devx.com/Java/Article/27571/1954?pf=true){.http .reference .external}: Another introduction with an emphasis on the use of Java classes.
-- [Charming Jython](http://www-128.ibm.com/developerworks/java/library/j-jython.html){.http .reference .external}: Yet another introductory article.
-- [Scripting Languages For Java](http://www.ociweb.com/jnb/archive/jnbMar2001.html){.http .reference .external}: A comparison of scripting languages for Java.
+- [An Introduction to Jython](http://www.javalobby.org/articles/jython/): An introductory article on Jython
+- [alt.lang.jre: Get to know Jython](http://www-128.ibm.com/developerworks/library/j-alj07064/index.html): An introduction to Jython that includes a summary of Jython features.
+- [Use Jython to Exercise Java APIs Without Compiling](http://www.devx.com/Java/Article/27571/1954?pf=true): Another introduction with an emphasis on the use of Java classes.
+- [Charming Jython](http://www-128.ibm.com/developerworks/java/library/j-jython.html): Yet another introductory article.
+- [Scripting Languages For Java](http://www.ociweb.com/jnb/archive/jnbMar2001.html): A comparison of scripting languages for Java.
 
-Thanks to David Goodger for the following list or references. His \"Code Like a Pythonista: Idiomatic Python\" ([http://python.net/\~goodger/projects/pycon/2007/idiomatic/](http://python.net/~goodger/projects/pycon/2007/idiomatic/){.http .reference .external}) is worth a careful reading:
+Thanks to David Goodger for the following list or references. His \"Code Like a Pythonista: Idiomatic Python\" ([http://python.net/\~goodger/projects/pycon/2007/idiomatic/](http://python.net/~goodger/projects/pycon/2007/idiomatic/)) is worth a careful reading:
 
-- \"Python Objects\", Fredrik Lundh, [http://www.effbot.org/zone/python-objects.htm](http://www.effbot.org/zone/python-objects.htm){.http .reference .external}
-- \"How to think like a Pythonista\", Mark Hammond, [http://python.net/crew/mwh/hacks/objectthink.html](http://python.net/crew/mwh/hacks/objectthink.html){.http .reference .external}
-- \"Python main() functions\", Guido van Rossum, [http://www.artima.com/weblogs/viewpost.jsp?thread=4829](http://www.artima.com/weblogs/viewpost.jsp?thread=4829){.http .reference .external}
-- \"Python Idioms and Efficiency\", [http://jaynes.colorado.edu/PythonIdioms.html](http://jaynes.colorado.edu/PythonIdioms.html){.http .reference .external}
-- \"Python track: python idioms\", [http://www.cs.caltech.edu/courses/cs11/material/python/misc/python_idioms.html](http://www.cs.caltech.edu/courses/cs11/material/python/misc/python_idioms.html){.http .reference .external}
-- \"Be Pythonic\", Shalabh Chaturvedi, [http://shalabh.infogami.com/Be_Pythonic2](http://shalabh.infogami.com/Be_Pythonic2){.http .reference .external}
-- \"Python Is Not Java\", Phillip J. Eby, [http://dirtsimple.org/2004/12/python-is-not-java.html](http://dirtsimple.org/2004/12/python-is-not-java.html){.http .reference .external}
-- \"What is Pythonic?\", Martijn Faassen, [http://faassen.n\--tree.net/blog/view/weblog/2005/08/06/0](http://faassen.n--tree.net/blog/view/weblog/2005/08/06/0){.http .reference .external}
-- \"Sorting Mini-HOWTO\", Andrew Dalke, [http://wiki.python.org/moin/HowTo/Sorting](http://wiki.python.org/moin/HowTo/Sorting){.http .reference .external}
-- \"Python Idioms\", [http://www.gungfu.de/facts/wiki/Main/PythonIdioms](http://www.gungfu.de/facts/wiki/Main/PythonIdioms){.http .reference .external}
-- \"Python FAQs\", [http://www.python.org/doc/faq/](http://www.python.org/doc/faq/){.http .reference .external}
+- \"Python Objects\", Fredrik Lundh, [http://www.effbot.org/zone/python-objects.htm](http://www.effbot.org/zone/python-objects.htm)
+- \"How to think like a Pythonista\", Mark Hammond, [http://python.net/crew/mwh/hacks/objectthink.html](http://python.net/crew/mwh/hacks/objectthink.html)
+- \"Python main() functions\", Guido van Rossum, [http://www.artima.com/weblogs/viewpost.jsp?thread=4829](http://www.artima.com/weblogs/viewpost.jsp?thread=4829)
+- \"Python Idioms and Efficiency\", [http://jaynes.colorado.edu/PythonIdioms.html](http://jaynes.colorado.edu/PythonIdioms.html)
+- \"Python track: python idioms\", [http://www.cs.caltech.edu/courses/cs11/material/python/misc/python_idioms.html](http://www.cs.caltech.edu/courses/cs11/material/python/misc/python_idioms.html)
+- \"Be Pythonic\", Shalabh Chaturvedi, [http://shalabh.infogami.com/Be_Pythonic2](http://shalabh.infogami.com/Be_Pythonic2)
+- \"Python Is Not Java\", Phillip J. Eby, [http://dirtsimple.org/2004/12/python-is-not-java.html](http://dirtsimple.org/2004/12/python-is-not-java.html)
+- \"What is Pythonic?\", Martijn Faassen, [http://faassen.n\--tree.net/blog/view/weblog/2005/08/06/0](http://faassen.n--tree.net/blog/view/weblog/2005/08/06/0)
+- \"Sorting Mini-HOWTO\", Andrew Dalke, [http://wiki.python.org/moin/HowTo/Sorting](http://wiki.python.org/moin/HowTo/Sorting)
+- \"Python Idioms\", [http://www.gungfu.de/facts/wiki/Main/PythonIdioms](http://www.gungfu.de/facts/wiki/Main/PythonIdioms)
+- \"Python FAQs\", [http://www.python.org/doc/faq/](http://www.python.org/doc/faq/)
 :::
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

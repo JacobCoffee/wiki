@@ -1,15 +1,20 @@
 # PyQt/Removing a database
 
-::::: {#content dir="ltr" lang="en"}
-# Removing a database {#Removing_a_database}
+```{admonition} Legacy Wiki Page
+:class: note
 
-On the `#pyqt`{.backtick} channel on [Freenode](http://freenode.net){.http}, `munny`{.backtick} asked about removing a database without getting the warning: \"QSqlDatabasePrivate::removeDatabase: connection \'\...\' is still in use, all queries will cease to work.\" or similar.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Removing a database 
+
+On the `#pyqt`{.backtick} channel on [Freenode](http://freenode.net), `munny`{.backtick} asked about removing a database without getting the warning: \"QSqlDatabasePrivate::removeDatabase: connection \'\...\' is still in use, all queries will cease to work.\" or similar.
 
 The following code tries to do this by ensuring that everything that uses the database connection is deleted or set to use different data sources before the connection is removed.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-5d548f9b8dc216b96fe15b9e26d5d6c93823e066 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtGui import *
    3 from PyQt4.QtSql import *
@@ -79,4 +84,3 @@ The following code tries to do this by ensuring that everything that uses the da
 ::::
 
 The `closeDatabase()`{.backtick} method sets a null model on the view, clearing it momentarily, deletes the model, closes the database and deletes the connection. Finally, the database connection can be removed by name using the QSqlDatabase\'s static `removeDatabase()`{.backtick} function.
-:::::

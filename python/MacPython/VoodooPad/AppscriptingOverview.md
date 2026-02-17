@@ -1,13 +1,18 @@
 # MacPython/VoodooPad/AppscriptingOverview
 
-::::::: {#content dir="ltr" lang="en"}
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} *using Carbon.File.FSSpec doesn\'t seem to be the best way to handle files. I\'ll correct these examples asap\...*
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+![/!\\](/wiki/europython/img/alert.png "/!\") *using Carbon.File.FSSpec doesn\'t seem to be the best way to handle files. I\'ll correct these examples asap\...*
 
 **1. Opening documents, creating pages and modifying content**
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3369c4a9799ba2fa439790b97ac8ae5c3aa91e23 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #!/usr/bin/pythonw
    2 
    3 from appscript import *
@@ -71,9 +76,9 @@
 
 **2. Deleting pages and content**
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-181310cafa009b84e4b58a9d929bade5640f3699 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # do some cleanup
    2 vpdoc.delete_page(with_title=scratchpad)
    3 
@@ -85,4 +90,3 @@
 ```
 :::
 ::::
-:::::::

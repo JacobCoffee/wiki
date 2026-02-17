@@ -1,6 +1,11 @@
 # PackagingWG/2020-08-19-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Wednesday 19th August
 
 Participants:
@@ -14,7 +19,7 @@ Participants:
 Agenda:
 
 - Nicole:
-  - Can we pay for [https://matomo.org/](https://matomo.org/){.https} for 3 months (for the pip docs)?
+  - Can we pay for [https://matomo.org/](https://matomo.org/) for 3 months (for the pip docs)?
 
     - How much money?
       - 100 euro or USD for 3 months
@@ -23,7 +28,7 @@ Agenda:
     - Pradyun\'s notes:
       - pip\'s docs don\'t have any analytics beyond what is provided by RTD today.
 
-      - we could opt into Read The Docs\'s beta for analytics \-- [https://pasteboard.co/JmYdTbP.png](https://pasteboard.co/JmYdTbP.png){.https} shows you a screenshot of the current analytics from Read the Docs (without the beta feature)
+      - we could opt into Read The Docs\'s beta for analytics \-- [https://pasteboard.co/JmYdTbP.png](https://pasteboard.co/JmYdTbP.png) shows you a screenshot of the current analytics from Read the Docs (without the beta feature)
     - Conclusion:
       - TODO: Pradyun to opt in to RTD beta. Nicole to ask Jan if this is enough. If not, we will fall back to Matomo.
 
@@ -33,14 +38,14 @@ Agenda:
     - TODO: Sumana to ping Ernest about this
 
   - To discuss - collecting feedback via UI (in documentation)
-    - Forthcoming [GitHub](./GitHub.html){.nonexistent} issue.
+    - Forthcoming [GitHub](./GitHub.html) issue.
 
     - Would be nice to be able to collect data from users using documentation.
       - Iteration 1: an email link for \"was this helpful to you\".
       - Iteration 2: a widget so they can submit while reading docs. Can we get funded dev time for this? probably no. Can we ID someone in community who can work on this with us?
       - TODO: Nicole to follow up with Eric about this
 
-- [https://github.com/pypa/pip/issues/8714](https://github.com/pypa/pip/issues/8714){.https} UX design: what should pip output when it is backtracking during dependency resolution? #8714
+- [https://github.com/pypa/pip/issues/8714](https://github.com/pypa/pip/issues/8714) UX design: what should pip output when it is backtracking during dependency resolution? #8714
 
   - Need to develop a plan of action.
   - Want to be done w/ UX research by end of Aug
@@ -52,7 +57,7 @@ Agenda:
 
     - Nicole: Not ideal, but reasonable
 
-    - Bernard: Given the constraint of time, it\'s \[best/good\]. Pradyun, please only mock this up (don\'t implement it in code). Low fidelity is better ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+    - Bernard: Given the constraint of time, it\'s \[best/good\]. Pradyun, please only mock this up (don\'t implement it in code). Low fidelity is better ![:)](/wiki/europython/img/smile.png ":)")
 
     - Sumana: \"sketches\", not prototypes.
       - If I can think abotu what a decoration might be, two distinct approaches (examples of decorations)
@@ -74,16 +79,16 @@ Agenda:
 
     - TODO: Pradyun to make 2 mockups by early next week (\~24-25th)
 
-- [https://github.com/pypa/pip/issues/8664](https://github.com/pypa/pip/issues/8664){.https} New resolver: What performance is acceptable, and are we there yet? #8664
+- [https://github.com/pypa/pip/issues/8664](https://github.com/pypa/pip/issues/8664) New resolver: What performance is acceptable, and are we there yet? #8664
 
-  - Pradyun: I think this is closely tied to [https://github.com/pypa/pip/issues/8380](https://github.com/pypa/pip/issues/8380){.https} (`ResolutionTooDeep`{.backtick} error).
+  - Pradyun: I think this is closely tied to [https://github.com/pypa/pip/issues/8380](https://github.com/pypa/pip/issues/8380) (`ResolutionTooDeep`{.backtick} error).
 
-  - Pradyun: I will be posting more thoughts in a comment on #8664 (what performance is acceptable) issue \-- not done yet. ![:(](/wiki/europython/img/sad.png ":("){height="16" width="16"}
+  - Pradyun: I will be posting more thoughts in a comment on #8664 (what performance is acceptable) issue \-- not done yet. ![:(](/wiki/europython/img/sad.png ":(")
 
     - `ResolutiontooDeep`{.backtick} happens when pip is trying multiple options because of conflicts. Ths is closely tied to being perceived as too slow. The heuristic we need to figure out to determine when we are taking too long will inform the error message, and vice versa: feedback from users on when pip is too slow will help us set the threshold. We are not 100% sure of how to determine the threshhold for too-slow perf or trying too many options and being slow.
 
   - Bernard has a question: Is this connected to the number of iterations the resolver goes thru resolutions? Previously (from memory!) it was set to a \"low\" (hundred?) number, it was then set high (millions?).
-    - Was 100, is 2,000,000 now. [https://github.com/pypa/pip/pull/8275](https://github.com/pypa/pip/pull/8275){.https}
+    - Was 100, is 2,000,000 now. [https://github.com/pypa/pip/pull/8275](https://github.com/pypa/pip/pull/8275)
 
   - Sumana: yes to bernards question, it is directly related. It is the cut-off point. Changed to 2M. The more attempts we go thru the greater the chance of finding a proper resoluton, but also there are things that pip does that people perceive to be slow. the spikeyness of taking long to do something is because of that threshold. PG is interested in not pulling decisions out of nowhere and choosing a number to set this to. What are the benchmarks we should reach for good performance. We\'ve been gathering data on what performance users are getting.
 
@@ -102,11 +107,11 @@ Agenda:
         - hardware is less of a problem
         - TODO: Nothing! UX team don\'t need to make a survey!
       - Sumana: please link to a unified document of all the current surveys \-- is now in the notes (look in previous weeks)
-        - Nicole - here it is: [https://www.notion.so/simplysecure/b46a0992ba8548cf988200cb2a02636b?v=beba10f184b647aa87c207e832f645b4](https://www.notion.so/simplysecure/b46a0992ba8548cf988200cb2a02636b?v=beba10f184b647aa87c207e832f645b4){.https}
+        - Nicole - here it is: [https://www.notion.so/simplysecure/b46a0992ba8548cf988200cb2a02636b?v=beba10f184b647aa87c207e832f645b4](https://www.notion.so/simplysecure/b46a0992ba8548cf988200cb2a02636b?v=beba10f184b647aa87c207e832f645b4)
 
           - Thank you!
 
-  - we figure out how we can replicate on any machine we have access to. then, grab requirements.txt files (from issues, from [GitHub](./GitHub.html){.nonexistent}). PG makes something to do A/B speed tests.
+  - we figure out how we can replicate on any machine we have access to. then, grab requirements.txt files (from issues, from [GitHub](./GitHub.html)). PG makes something to do A/B speed tests.
 
     - This gives us quantitative information about how much slower pip is. Let\'s assume we get information that\'s similar to what we see today (\~400% \-- 3 times slower). pip maintainers+UX folks discuss if this is OK.
     - Maybe we decide this is fine. Maybe we need to iterate a bit \-- \"may be fine but isn\'t\"
@@ -115,7 +120,7 @@ Agenda:
   - Bernard has a question: after the pip resolution has started, can we prompt the user after X period of time to ask \"do you want me to keep going\"?
     - back to the \"interactive mode\" problem \.....
 
-    - also, is time the correct \"thing\" to measure \-- eg: I have a slow network and am downloading tensorflow ( \>300MB ) ![:(](/wiki/europython/img/sad.png ":("){height="16" width="16"}
+    - also, is time the correct \"thing\" to measure \-- eg: I have a slow network and am downloading tensorflow ( \>300MB ) ![:(](/wiki/europython/img/sad.png ":(")
 
   - Bernard:
     - This seems like a really reasonable approach, particularly as we are not able to test every permutation
@@ -142,7 +147,7 @@ Agenda:
     - Do we want to provide an incentive for some contexts, e.g. feedback from people with disabilities vs any participant?
     - Do we want to have a participation threshold prior to recognition with an incentive, e.g. an interview over 30 minutes, X number of surveys?
   - Guidelines/contexts:
-    - [SimSec](./SimSec.html){.nonexistent} has used \$25/hour as an interview incentive for general user interviews, and more like \$150/hour for expert interviews (e.g. specialized knowledge)
+    - [SimSec](./SimSec.html) has used \$25/hour as an interview incentive for general user interviews, and more like \$150/hour for expert interviews (e.g. specialized knowledge)
 
     - Design Justice Network recommends \$5/survey, \$50/hour for an interview or focus group (or equivalent, e.g. food/other resources)
       - They also recommend the idea of some comparative value trade, e.g. an hour donated in return for something, if money isn\'t an option.
@@ -168,4 +173,3 @@ Note for next meeting:
 - Pradyun got access to limesurvey surveys today (includes pip resolver feedback), and will go through the responses over the next few days. He\'s expecting it\'ll surface \"bad\" experiences.
 
 \[end of meeting\]
-:::

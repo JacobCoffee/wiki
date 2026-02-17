@@ -1,6 +1,11 @@
 # boost.python/SimpleExample
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Suppose we have the following C++ API which we want to expose in Python:
 
     #include <string>
@@ -32,4 +37,3 @@ That\'s it! If we build this shared library and put it on our PYTHONPATH we can 
     >>> number = 11
     >>> print number, '*', number, '=', getting_started1.square(number)
     11 * 11 = 121
-:::

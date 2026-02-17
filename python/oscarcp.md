@@ -1,11 +1,16 @@
 # oscarcp
 
-::: {#content dir="ltr" lang="en"}
-## Oscar Carballal Prego {#Oscar_Carballal_Prego}
+```{admonition} Legacy Wiki Page
+:class: note
 
-**Email:** *[info@oscarcp.com](mailto:info@oscarcp.com){.mailto}*
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-**Jabber:** *[oscar.carballal@jabber.org](mailto:oscar.carballal@jabber.org){.mailto}*
+## Oscar Carballal Prego 
+
+**Email:** *[info@oscarcp.com](mailto:info@oscarcp.com)*
+
+**Jabber:** *[oscar.carballal@jabber.org](mailto:oscar.carballal@jabber.org)*
 
 **Nickname:** *pizte / oscarcp*
 
@@ -16,4 +21,3 @@ In real life I\'m a professional photographer.
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

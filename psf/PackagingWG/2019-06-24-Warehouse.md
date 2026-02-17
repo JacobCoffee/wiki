@@ -1,14 +1,19 @@
 # PackagingWG/2019-06-24-Warehouse
 
-::: {#content dir="ltr" lang="en"}
-# API key design - design decisions {#API_key_design_-_design_decisions}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# API key design - design decisions 
 
 Monday, June 24th
 
 - Participants: Will, Donald, Ernest
 - Note-taker: Sumana
 
-[GitHub issue](https://github.com/pypa/warehouse/issues/994){.https}
+[GitHub issue](https://github.com/pypa/warehouse/issues/994)
 
 conversation from last week:
 
@@ -74,7 +79,7 @@ watch out for confusion
 
 E: comment - acceptance criteria - caveats
 
-[https://github.com/pypa/warehouse/issues/994#issuecomment-503624890](https://github.com/pypa/warehouse/issues/994#issuecomment-503624890){.https}
+[https://github.com/pypa/warehouse/issues/994#issuecomment-503624890](https://github.com/pypa/warehouse/issues/994#issuecomment-503624890)
 
 this needs to Just Work with existing client tools with no changes
 
@@ -130,7 +135,7 @@ D:
 
 can make it smaller with serialization
 
-other than tests, 90% of the work is done on that PR I think, now just the second 90% ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"}
+other than tests, 90% of the work is done on that PR I think, now just the second 90% ![:-)](/wiki/europython/img/smile.png ":-)")
 
 if all that is deemed too much for scope of work on this, I\'m fine \.... but if we can make it macaroons, that reduces future churn & reimplementation
 
@@ -163,4 +168,3 @@ I trust you both!
 we are near the end of milestone 1 funding, so, let\'s be careful with that
 
 \[Will & Ernest & Sumana discussing invoices\]
-:::

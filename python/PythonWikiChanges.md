@@ -1,13 +1,18 @@
 # PythonWikiChanges
 
-::: {#content dir="ltr" lang="en"}
-## News / Changes for Python Wiki {#News_.2F_Changes_for_Python_Wiki}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## News / Changes for Python Wiki 
 
 - 2011-03-14 - made the europython theme default
 
-- 2011-02-18 - updated to 1.9.3 by Martin v. Löwis, see [11](http://code.google.com/p/pydotorg/issues/detail?id=11 "pydotorg"){.interwiki}
+- 2011-02-18 - updated to 1.9.3 by Martin v. Löwis, see [11](http://code.google.com/p/pydotorg/issues/detail?id=11 "pydotorg")
 
-- [\<\<unknown\>\>]{title="Cannot load macro unknown"} - updated to 1.7.1
+- [\<\<unknown\>\>] - updated to 1.7.1
 
 - 2008-05-31 - updated to 1.6
 
@@ -37,11 +42,10 @@
 
 - 2002-11-21 - updated to CVS current (rev 1.163)
 
-- 2002-11-06 - You can now refer to PEPs like so: **`PEP:0001`{.backtick}** -\> [0001](http://www.python.org/dev/peps/pep-0001 "PEP"){.interwiki}
+- 2002-11-06 - You can now refer to PEPs like so: **`PEP:0001`{.backtick}** -\> [0001](http://www.python.org/dev/peps/pep-0001 "PEP")
 
 - 2002-08-02 - Outgoing mail works now
 
 ------------------------------------------------------------------------
 
 [CategoryPythonWebsite](CategoryPythonWebsite)
-:::

@@ -1,7 +1,12 @@
 # PavloShevelo/About
 
-::: {#content dir="ltr" lang="en"}
-- E-mail: [pavlo.shevelo@pythonclub.net](mailto:pavlo.shevelo@pythonclub.net){.mailto}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+- E-mail: [pavlo.shevelo@pythonclub.net](mailto:pavlo.shevelo@pythonclub.net)
 
 - Google Talk: pavlo.shevelo
 
@@ -11,11 +16,10 @@
 
 - ICQ ID: 110553179
 
-## Address(es) {#Address.28es.29}
+## Address(es) 
 
 - ZIP Code:
 
 - Country: **Ukraine**
 
 - City: Kyiv (Kiev)
-:::

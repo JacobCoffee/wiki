@@ -1,9 +1,14 @@
 # boost.python/PeekUnderTheHood
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Dave Abrahams explains:
 
-### What happens when you declare a class? {#What_happens_when_you_declare_a_class.3F}
+### What happens when you declare a class? 
 
          struct boring {};
          ...etc...
@@ -31,23 +36,23 @@ Dave Abrahams explains:
 
     If there were any `bases<>`, we\'d also be registering the relationship between these base classes and *boring* in the up/down cast graph (inheritance.\[hpp/cpp\]). In earlier versions of the code, we\'d be registering lvalue from-python converters for the class here, but now from-python conversion for wrapped classes is handled as a special case, before consulting the registry, if the source Python object\'s metaclass is the Boost.Python metaclass.
 
-### brief overview of the data structures that are present in the registry {#brief_overview_of_the_data_structures_that_are_present_in_the_registry}
+### brief overview of the data structures that are present in the registry 
 
 The registry is simple: it\'s just a map from typeid -\> registration (see boost/python/converter/registrations.hpp). lvalue_chain and rvalue_chain are simple endogenous linked lists.
 
-### overview of type conversions from c++ to python and back {#overview_of_type_conversions_from_c.2B-.2B-_to_python_and_back}
+### overview of type conversions from c++ to python and back 
 
 Big subject. I suggest some background reading: look for relevant info in the LLNL progress reports and the messages they link to. Also,
 
-- [http://mail.python.org/pipermail/c++-sig/2002-May/001023.html](http://mail.python.org/pipermail/c++-sig/2002-May/001023.html){.http}
+- [http://mail.python.org/pipermail/c++-sig/2002-May/001023.html](http://mail.python.org/pipermail/c++-sig/2002-May/001023.html)
 
-- [http://mail.python.org/pipermail/c++-sig/2002-December/003115.html](http://mail.python.org/pipermail/c++-sig/2002-December/003115.html){.http}
+- [http://mail.python.org/pipermail/c++-sig/2002-December/003115.html](http://mail.python.org/pipermail/c++-sig/2002-December/003115.html)
 
-- [http://aspn.activestate.com/ASPN/Mail/Message/1280898](http://aspn.activestate.com/ASPN/Mail/Message/1280898){.http}
+- [http://aspn.activestate.com/ASPN/Mail/Message/1280898](http://aspn.activestate.com/ASPN/Mail/Message/1280898)
 
-- [http://mail.python.org/pipermail/c++-sig/2002-July/001755.html](http://mail.python.org/pipermail/c++-sig/2002-July/001755.html){.http}
+- [http://mail.python.org/pipermail/c++-sig/2002-July/001755.html](http://mail.python.org/pipermail/c++-sig/2002-July/001755.html)
 
-#### from c++ to python {#from_c.2B-.2B-_to_python}
+#### from c++ to python 
 
 - It depends on the type and the call policies in use or, for
 
@@ -59,9 +64,8 @@ Big subject. I suggest some background reading: look for relevant info in the LL
 
   using ref(\...), ptr(\...), or by specifying different [../CallPolicy](./boost(2e)python(2f)CallPolicy.html) for a call, which can cause a different to-python converter to be used. These conversions are never registered anywhere, though they do need to use the registration to find the Python class corresponding to the C++ type being referred to. They just build a new Python instance and stick the appropriate *Holder* instance in it.
 
-#### from python to C++ {#from_python_to_C.2B-.2B-}
+#### from python to C++ 
 
 - Once again I think there is a distinction between \"return value\" and \"argument\" conversions, and I forget exactly what that is. What happens depends on whether an lvalue conversion is needed
 
-  (see [http://mail.python.org/pipermail/c++-sig/2002-May/001023.html](http://mail.python.org/pipermail/c++-sig/2002-May/001023.html){.http}) All lvalue conversions are also registered in a type\'s rvalue conversion chain, since when an rvalue will do, an lvalue is certainly good enough. An lvalue conversion can be done in one step (just get me the pointer to the object - it can be NULL if no conversion is possible) while an rvalue conversion requires two steps to support wrapped function overloading and multiple converters for a given C++ target type: first tell me if a conversion is possible, then construct the converted object as a second step.
-:::
+  (see [http://mail.python.org/pipermail/c++-sig/2002-May/001023.html](http://mail.python.org/pipermail/c++-sig/2002-May/001023.html)) All lvalue conversions are also registered in a type\'s rvalue conversion chain, since when an rvalue will do, an lvalue is certainly good enough. An lvalue conversion can be done in one step (just get me the pointer to the object - it can be NULL if no conversion is possible) while an rvalue conversion requires two steps to support wrapped function overloading and multiple converters for a given C++ target type: first tell me if a conversion is possible, then construct the converted object as a second step.

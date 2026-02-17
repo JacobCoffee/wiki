@@ -1,6 +1,11 @@
 # TwistedWebServerSampleOnWindows
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 It\'s a little tricky getting twisted to run as a service in twisted 1.3. A main service .exe must spawn a new python process, because twisted must initialize in the main thread, and services don\'t start in the main thread. Its easiest to write the service wrapper in python.
 
 I also found its easiest to register the service, then change which account the service runs as.
@@ -11,7 +16,7 @@ You could probably choose the child python script to run as
 
 if you know how to set up the web.tap.
 
-# Service Wrapper {#Service_Wrapper}
+# Service Wrapper 
 
     #based on http://twistedmatrix.com/pipermail/twisted-python/2003-October/006081.html
 
@@ -43,7 +48,7 @@ if you know how to set up the web.tap.
     if __name__ == '__main__':
         win32serviceutil.HandleCommandLine(TwistedWebService)
 
-# Web Server {#Web_Server}
+# Web Server 
 
     from twisted.web import static, server, script,error
     from twisted.application import internet, service
@@ -100,4 +105,3 @@ if you know how to set up the web.tap.
 
     if __name__ == '__main__':
         WebServer().Run()
-:::

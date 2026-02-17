@@ -1,6 +1,11 @@
 # BangPypers/MeetingPyConDiscussion1
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Pycon India 2009 ================
 
 Author: Noufal Ibrahim \<noufal@sanctuary\> Date: 2009-04-28 22:39:01 IST
@@ -155,4 +160,3 @@ safety margin)
 ------------------------------------------------------------------------
 
 - By 31/April Fix venue, date and No. of days By 7/May Setup site, registration, logo contest Till 30/May Advertise on blogs, mail lists, twitter, sites etc. On 15/Jun Call for CFP On 15/Aug CFP closed 30/Aug Notify selected speakers
-:::

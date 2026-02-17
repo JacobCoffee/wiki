@@ -1,25 +1,18 @@
 # boost.python/EmbeddingPython
 
-:::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [New Revisions of Boost](#New_Revisions_of_Boost)
-2.  [Full example](#Full_example)
-3.  [Tips and Tricks](#Tips_and_Tricks)
-    1.  [Loading a module by full or relative path](#Loading_a_module_by_full_or_relative_path)
-    2.  [Extracting Python Exceptions](#Extracting_Python_Exceptions)
-    3.  [Line-oriented Logging of Python Exceptions](#Line-oriented_Logging_of_Python_Exceptions)
-    4.  [Working with Unicode](#Working_with_Unicode)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-# New Revisions of Boost {#New_Revisions_of_Boost}
+# New Revisions of Boost 
 
-Since this Wiki page was originally written, Boost::Python has added C++ wrappers for a lot of the direct C code this page references. The documentation for those wrappers are available under \"Embedding\" in the TOC. The current version, as of this writing, is here: [http://www.boost.org/doc/libs/1_46_0/libs/python/doc/v2/exec.html](http://www.boost.org/doc/libs/1_46_0/libs/python/doc/v2/exec.html){.http}
+Since this Wiki page was originally written, Boost::Python has added C++ wrappers for a lot of the direct C code this page references. The documentation for those wrappers are available under \"Embedding\" in the TOC. The current version, as of this writing, is here: [http://www.boost.org/doc/libs/1_46_0/libs/python/doc/v2/exec.html](http://www.boost.org/doc/libs/1_46_0/libs/python/doc/v2/exec.html)
 
 An example similar to the one below is provided at the bottom of the page.
 
-# Full example {#Full_example}
+# Full example 
 
 While Boost.Python does not provide all the constructs necessary for embedding Python in a C++ application, using it will still dramatically help with the task.
 
@@ -27,9 +20,9 @@ While Boost.Python does not provide all the constructs necessary for embedding P
 
 First, a simple \"Hello, World\" script, run from a C++ program:
 
-:::: {.highlight .cpp}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-6d5d2f523442216781f3867419fc8f33c30c924f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #include <boost/python.hpp>
    2 
    3 using namespace boost::python;
@@ -57,13 +50,13 @@ First, a simple \"Hello, World\" script, run from a C++ program:
 
 Compile this as a normal C++ program, linking it to libpython and libboost_python, and make sure that the compiler knows where the Python include files are. When run, it should print to the command line \"Hello, World\". Since this is all in the Boost.Python tutorial, I will skip the line-by-line explanation for now.
 
-This is all well and good, but it is pretty useless, since you might as well have sent the Python code directly to the interpreter and saved yourself a lot of hassle. What you really want is to provide the Python code executed from the [PyRun](./PyRun.html){.nonexistent}\_\* function with access to your C++ program\'s classes and data, so that the Python code can get some work done.
+This is all well and good, but it is pretty useless, since you might as well have sent the Python code directly to the interpreter and saved yourself a lot of hassle. What you really want is to provide the Python code executed from the [PyRun](./PyRun.html)\_\* function with access to your C++ program\'s classes and data, so that the Python code can get some work done.
 
 Before we can do that, let\'s define a simple C++ class that we want the Python code to access:
 
-:::: {.highlight .cpp}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f8008cdcd99789bdfed7a7492adeef1493e659df dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 class CppClass {
    2 public:
    3   int getNum() {
@@ -76,9 +69,9 @@ Before we can do that, let\'s define a simple C++ class that we want the Python 
 
 Now for the fun stuff, providing the embedded Python script with access to our new class. In our previous main() function, add after the `object main_namespace`{.backtick} is declared:
 
-:::: {.highlight .cpp}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-55ffa525e897518ae8cdb4f0b793a2b194449486 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
   13 main_namespace["CppClass"] = class_<CppClass>("CppClass")
   14                                .def("getNum",&CppClass::getNum);
 ```
@@ -87,9 +80,9 @@ Now for the fun stuff, providing the embedded Python script with access to our n
 
 Of course, if the `CppClass`{.backtick} were more complicated, it would be necessary to use a more complicated series of `def`{.backtick}s. Now you can replace the \"print Hello, World\" Python code with the following, to call the getNum(), and you should see \"7\" printed to the console:
 
-:::: {.highlight .cpp}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-683a250343217981dda52fce0bbdbc295d0ef279 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 "cpp = CppClass()\n"
 "print cpp.getNum()\n"
 ```
@@ -98,9 +91,9 @@ Of course, if the `CppClass`{.backtick} were more complicated, it would be neces
 
 So, now you can create C++ objects in Python, but you will probably want the Python code to be able to access existing C++ data. To do this, first create an instance of `CppClass`{.backtick} (we\'ll call ours `cpp`{.backtick}) at the beginning of `main()`{.backtick}. Now, after the `class_`{.backtick} declaration, add:
 
-:::: {.highlight .cpp}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3757271c08b961d8a938b01bb88473f15fc3cea2 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    7 main_namespace["cpp"] = ptr(&cpp);
 ```
 :::
@@ -112,9 +105,9 @@ Now would also be a good time to point out that while Python manages memory for 
 
 So, we finally have access to our C++ application\'s data, but now the script programmers are complaining that all of the data is in the global namespace, mucking up their scripts and generally getting in the way. To avoid this, and provide proper encapsulation, we should put all of our classes and data into a module. The first step is to remove all the lines which modify the `main_namespace`{.backtick} object, and then add a standard Boost module definition:
 
-:::: {.highlight .cpp}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-bb9c2ec01c5a535b9cd9ef838ab43a7ce5748dfb dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 BOOST_PYTHON_MODULE(CppMod) {
    2   class_<CppClass>("CppClass")
    3     .def("getNum",&CppClass::getNum);
@@ -127,9 +120,9 @@ Now, inside `main()`{.backtick} and **before** the call to `Py_Initialize()`{.ba
 
 It would be convenient, however, if the module was already imported, so that the programmer does not have to manually load the module at the beginning of each script. To do this, add the following after the `main_namespace`{.backtick} object has been initialized:
 
-:::: {.highlight .cpp}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-6fbb1feadfea4e524afa15a4b2050b75d515cc30 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 object cpp_module( (handle<>(PyImport_ImportModule("CppMod"))) );
 main_namespace["CppMod"] = cpp_module;
 ```
@@ -140,9 +133,9 @@ The first line loads the module, executing the `initCppMod`{.backtick} function,
 
 This also allows us to add data to the already-imported module. We can do this from within `main()`{.backtick} with the following line:
 
-:::: {.highlight .cpp}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-6f9891378a6a6cf7e2ee2988e9a95bd3111f482a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 scope(cpp_module).attr("cpp") = ptr(&cpp);
 ```
 :::
@@ -154,15 +147,15 @@ While this is certainly not complete, hopefully it will provide a starting point
 
 \--Thomas Stephens \<spiralman at gmail.com\>
 
-# Tips and Tricks {#Tips_and_Tricks}
+# Tips and Tricks 
 
-## Loading a module by full or relative path {#Loading_a_module_by_full_or_relative_path}
+## Loading a module by full or relative path 
 
 The main benefit of this approach is that you don\'t need to worry about escaping strings.
 
-:::: {.highlight .cpp}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-36f1b089c95390e2dfa720359e851b52875ff02b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 boost::python::object
    2 myapp::python::import( const myapp::Path & s )
    3 {
@@ -188,11 +181,11 @@ The main benefit of this approach is that you don\'t need to worry about escapin
 :::
 ::::
 
-## Extracting Python Exceptions {#Extracting_Python_Exceptions}
+## Extracting Python Exceptions 
 
-:::: {.highlight .cpp}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-818d2ac860917b563514f26addeb4719b72aac95 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 std::string
    2 extractException()
    3 {
@@ -219,13 +212,13 @@ The main benefit of this approach is that you don\'t need to worry about escapin
 :::
 ::::
 
-## Line-oriented Logging of Python Exceptions {#Line-oriented_Logging_of_Python_Exceptions}
+## Line-oriented Logging of Python Exceptions 
 
 The following sample is written using log4cxx. It may be trivially adapted to any other line-oriented logging system that prefixes every log message, such as syslog.
 
-:::: {.highlight .cpp}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-5cdeb5fd3b0f5899d65922b634aa732bb3ba12e6 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 void
    2 logPythonException()
    3 {
@@ -254,7 +247,7 @@ The following sample is written using log4cxx. It may be trivially adapted to an
 :::
 ::::
 
-## Working with Unicode {#Working_with_Unicode}
+## Working with Unicode 
 
 Python supports unicode and string objects. If you have your own string type that stores UTF-8 it is very simple (I think) to support Unicode from Python:
 
@@ -312,4 +305,3 @@ Python supports unicode and string objects. If you have your own string type tha
         ...
         String_from_python_str();
       }
-::::::::::::::::::::::::::

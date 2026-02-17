@@ -1,15 +1,14 @@
 # JythonNutpad
 
-:::::: {#content dir="ltr" lang="en"}
-# Swing Sampler {#Swing_Sampler}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Swing Sampler 
 
 [SwingExamples](SwingExamples)
-
-::: table-of-contents
-Contents
-
-1.  [Swing Sampler](#Swing_Sampler)
-:::
 
 ------------------------------------------------------------------------
 
@@ -27,7 +26,7 @@ Anton Vredegoor wrote:\
 \> simple Java editor into Jython.\
 \> Any hints or complete or partial translations of\
 \> the code are very welcome.\
-\> [http://leepoint.net/notes-java/examples/components/editor/nutpad.html\[\[BR](http://leepoint.net/notes-java/examples/components/editor/nutpad.html%5B%5BBR){.http}\]\] \>\
+\> [http://leepoint.net/notes-java/examples/components/editor/nutpad.html\[\[BR](http://leepoint.net/notes-java/examples/components/editor/nutpad.html%5B%5BBR)\]\] \>\
 Here*s a quick translation. For the Java inner classes,\
 translate them to top level classes that take the outer instance\
 as a constructor argument. Java inner classes have an implicit\
@@ -35,9 +34,9 @@ pointer to the enclosing class instance. You must make that\
 explicit.\
 \*
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-9c9b0cc32d5b487086ad83491b1e94c7f77816ec dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from java.awt import *
    2 from java.awt.event import *
    3 from javax.swing import *
@@ -148,4 +147,3 @@ explicit.\
 ```
 :::
 ::::
-::::::

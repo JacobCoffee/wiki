@@ -1,15 +1,20 @@
 # SanFrancisco
 
-::: {#content dir="ltr" lang="en"}
-# NOT YET COMPLETE {#NOT_YET_COMPLETE}
+```{admonition} Legacy Wiki Page
+:class: note
 
-# San Francisco/Silicon Valley Proposal Pycon 2008/9 {#San_Francisco.2FSilicon_Valley_Proposal_Pycon_2008.2F9}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-Primary Contact Alvin Wang \[MAILTO\] [alvinwang@gmail.com](mailto:alvinwang@gmail.com){.mailto}
+# NOT YET COMPLETE 
 
-## Budget {#Budget}
+# San Francisco/Silicon Valley Proposal Pycon 2008/9 
 
-- [Google Spreadsheet](http://spreadsheets.google.com/ccc?key=pW3nnFeV4LgDK1_K1JXvbaw){.http}
+Primary Contact Alvin Wang \[MAILTO\] [alvinwang@gmail.com](mailto:alvinwang@gmail.com)
+
+## Budget 
+
+- [Google Spreadsheet](http://spreadsheets.google.com/ccc?key=pW3nnFeV4LgDK1_K1JXvbaw)
 
 - Basically the 2007 budget copied on 2/10
 
@@ -21,23 +26,23 @@ Primary Contact Alvin Wang \[MAILTO\] [alvinwang@gmail.com](mailto:alvinwang@gma
 
 - I would hope that we can do a little better in sponsorship as is the trend
 
-## Dates {#Dates}
+## Dates 
 
-- Thursday, Feb 21, 2008 - Feb 28, 2008 - [Bid from Hotel Word Doc](http://pycon.alvinwang.com/PyconFeb2008.doc){.http}
+- Thursday, Feb 21, 2008 - Feb 28, 2008 - [Bid from Hotel Word Doc](http://pycon.alvinwang.com/PyconFeb2008.doc)
 
-- Thursday, Feb 19, 2009 - Feb 26, 2009 - [Bid from Hotel Word Doc](http://pycon.alvinwang.com/PyconFeb2009.doc){.http}
+- Thursday, Feb 19, 2009 - Feb 26, 2009 - [Bid from Hotel Word Doc](http://pycon.alvinwang.com/PyconFeb2009.doc)
 
 - In Feb, there is \~30% chance of rain/day
 
 - In April, there is \~5% chance of rain/day
 
-- For those of you from the North East, there is approximately no chance of snow. There have only been [10 days](http://ggweather.com/sf/narrative.html){.http} when snow touched the ground in the last 146 yrs.
+- For those of you from the North East, there is approximately no chance of snow. There have only been [10 days](http://ggweather.com/sf/narrative.html) when snow touched the ground in the last 146 yrs.
 
-# Hotel {#Hotel}
+# Hotel 
 
-- [San Mateo Marriott](http://www.sanmateomarriott.com){.http}
+- [San Mateo Marriott](http://www.sanmateomarriott.com)
 
-- [Floor Plan](http://www.sanmateomarriott.com){.http}
+- [Floor Plan](http://www.sanmateomarriott.com)
 
 - Deluxe room - 2Q - \$119 = 10% + \$1.10 = \$132/night
 
@@ -49,9 +54,9 @@ Primary Contact Alvin Wang \[MAILTO\] [alvinwang@gmail.com](mailto:alvinwang@gma
 
 - Hertz rent a car onsite
 
-- [Pictures and PDFs](http://pycon.alvinwang.com){.http}
+- [Pictures and PDFs](http://pycon.alvinwang.com)
 
-## Rooms {#Rooms}
+## Rooms 
 
 - 476 guestrooms including 152 two bedroom suites
 - All rooms renovated in 2005/6.
@@ -61,21 +66,21 @@ Primary Contact Alvin Wang \[MAILTO\] [alvinwang@gmail.com](mailto:alvinwang@gma
 - Free USA Today
 - 1 free roomnight per 50
 
-### Travel to Bay Area {#Travel_to_Bay_Area}
+### Travel to Bay Area 
 
-There is not just 1 major airport. There are 3 major airports in the SF Bay Area. All the discount airlines fly here with direct flights to major urban centers. [SouthWest](./SouthWest.html){.nonexistent} and [JetBlue](./JetBlue.html){.nonexistent} are starting service to San Francisco Airport this summer.
+There is not just 1 major airport. There are 3 major airports in the SF Bay Area. All the discount airlines fly here with direct flights to major urban centers. [SouthWest](./SouthWest.html) and [JetBlue](./JetBlue.html) are starting service to San Francisco Airport this summer.
 
 Airline Discounts - The conference organizers will negotiate a reduced fare from United Airlines and Southwest. Since we are not a major conference, it will probably be 5%. You can usually get that just by asking.
 
-### From Airports to Hotel {#From_Airports_to_Hotel}
+### From Airports to Hotel 
 
-- [San Francisco](http://www.flysfo.com/){.http} - Free Shuttle
+- [San Francisco](http://www.flysfo.com/) - Free Shuttle
 
-- [Oakland](http://www.flyoakland.com/){.http} - \$3 bus to [BART](http:www.bart.gov){.http} to [SFO](http://www.flysfo.com/){.http} - \$5.80
+- [Oakland](http://www.flyoakland.com/) - \$3 bus to [BART](http:www.bart.gov) to [SFO](http://www.flysfo.com/) - \$5.80
 
-- [San Jose](http://www.sjc.org/){.http} - Free [VTA shuttle](http://www.vta.org/schedules/SC_10.html){.http} to [Caltrain](http://www.caltrain.com){.http} - 2 blocks from hotel - \$3.75
+- [San Jose](http://www.sjc.org/) - Free [VTA shuttle](http://www.vta.org/schedules/SC_10.html) to [Caltrain](http://www.caltrain.com) - 2 blocks from hotel - \$3.75
 
-### Main Tracks {#Main_Tracks}
+### Main Tracks 
 
 - Golden Gate Ballroom - 700 people
 - Bay Bridge Room A/B - 260 people
@@ -83,7 +88,7 @@ Airline Discounts - The conference organizers will negotiate a reduced fare from
 - Crystal springs room - 200 people
 - AV is \$2400 for 3 days including onsite staff
 
-### Additional Areas {#Additional_Areas}
+### Additional Areas 
 
 - Exhibit Area - Golden Gate Foyer - 39\'x39\'
 - Marina Room - Break Room - 5 tables of 8
@@ -95,35 +100,35 @@ Airline Discounts - The conference organizers will negotiate a reduced fare from
 - Post Room - Quiet Room - Laptop usage - 3 tables of 8
 - 3 other rooms - conference table - 20 people with Large LCD screen builtin
 
-### Internet Access {#Internet_Access}
+### Internet Access 
 
 \$5K for 3 days for 200 concurrent users. We can increase it since the hotel has more T1 lines. Nearby Foster City is completely covered by Free Wifi. San Mateo is covered by the Wireless Silicon Valley agreement and may be completely covered by Wifi by the time of the conference.
 
-### 24 Hour Nerding {#A24_Hour_Nerding}
+### 24 Hour Nerding 
 
 We have all the conference rooms for all 4 days. We can have evening events like sprints, additional ad hoc discussions, etc.
 
-### Speaker Benefits {#Speaker_Benefits}
+### Speaker Benefits 
 
 One of the biggest advantages of the Bay Area is that we can get speakers that might not be willing to travel for a Python convention but would be perfectly willing to drive. For example, Ebay, Google, Amazon, Yahoo, etc have API\'s that can be used by Python. They would be willing to drive but might be unwilling to fly.
 
-### Outreach Opportunity {#Outreach_Opportunity}
+### Outreach Opportunity 
 
 There will be additional meeting rooms available. There are many interesting Python projects that could use some corporate support. We can arrange presentations for companies of using your project.
 
-### Transit {#Transit}
+### Transit 
 
-[BART](http://www.bart.gov){.http} The subway system from the Bay Area
+[BART](http://www.bart.gov) The subway system from the Bay Area
 
-[Caltrain](http://www.caltrain.com){.http} - Commuter train takes you from SF to the [Gilroy Outlet Shopping](http://www.premiumoutlets.com/outlets/outlet.asp?id=23){.http}
+[Caltrain](http://www.caltrain.com) - Commuter train takes you from SF to the [Gilroy Outlet Shopping](http://www.premiumoutlets.com/outlets/outlet.asp?id=23)
 
-### Volunteers {#Volunteers}
+### Volunteers 
 
 There is already a list of a dozen local people that have volunteered to help. Personally, I live 4 miles from the hotel and can accept shipments. [BayPiggies](BayPiggies) has a email list of several hundred people that can potentially help.
 
-### If you have never been to the San Francisco Bay area {#If_you_have_never_been_to_the_San_Francisco_Bay_area}
+### If you have never been to the San Francisco Bay area 
 
-[map here](http://maps.google.com/maps?f=q&hl=en&q=sfo&ie=UTF8&om=1&z=9&ll=37.712072,-122.453613&spn=1.047287,2.936096){.http} It is about 60 miles from San Francisco to San Jose.
+[map here](http://maps.google.com/maps?f=q&hl=en&q=sfo&ie=UTF8&om=1&z=9&ll=37.712072,-122.453613&spn=1.047287,2.936096) It is about 60 miles from San Francisco to San Jose.
 
 San Jose and area is what is know as Silicon Valley. All the tech you could possibly be interested in is here. It would be simpler to list what is not here.
 
@@ -133,9 +138,8 @@ Going South, there is Outlet Shopping in Gilroy, Monterey Aquarium, and many gol
 
 North is the Napa Wine Country. Home of OReilly Books.
 
-The local organizers will provide tourism information and [customized maps](http://www.mapbuilder.net/index.php){.http} and details of the many local activities.
+The local organizers will provide tourism information and [customized maps](http://www.mapbuilder.net/index.php) and details of the many local activities.
 
-# Because it is Time {#Because_it_is_Time}
+# Because it is Time 
 
 2003-5 were in DC, 2006 - 2007 was in Dallas, 2008-9 should be on the West Coast. It makes sense to move the convention around North America.
-:::

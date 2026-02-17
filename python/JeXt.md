@@ -1,13 +1,18 @@
 # JeXt
 
-:::: {#content dir="ltr" lang="en"}
-### jExt {#jExt}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### jExt 
 
 ::: {}
 +:--------:+:-------------------------------------------------:+
 | Quick Facts                                                  |
 +----------+---------------------------------------------------+
-| Site     | [http://www.jext.org](http://www.jext.org){.http} |
+| Site     | [http://www.jext.org](http://www.jext.org) |
 +----------+---------------------------------------------------+
 | Platform | JVM                                               |
 +----------+---------------------------------------------------+
@@ -15,11 +20,10 @@
 +----------+---------------------------------------------------+
 :::
 
-jExt is a Java based editor. It is scriptable using Python (Jython). If you want a faster, lighter [JedIt](./JedIt.html){.nonexistent}, jExt is what you want.
+jExt is a Java based editor. It is scriptable using Python (Jython). If you want a faster, lighter [JedIt](./JedIt.html), jExt is what you want.
 
-If jExt had *folding* like [JedIt](./JedIt.html){.nonexistent}. I would switch to it!
+If jExt had *folding* like [JedIt](./JedIt.html). I would switch to it!
 
 ------------------------------------------------------------------------
 
 [CategoryEditors](CategoryEditors)
-::::

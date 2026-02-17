@@ -1,9 +1,14 @@
 # Previous Meeting on October 11 2007
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Describe Previous Meeting on October 11 2007 here.
 
-# Previous (October 11) meeting attendees {#Previous_.28October_11.29_meeting_attendees}
+# Previous (October 11) meeting attendees 
 
 - Matthew Ford, VMware, Palo Alto
 
@@ -11,13 +16,13 @@ Describe Previous Meeting on October 11 2007 here.
 
 - Heather Stern, Campbell, CA ([MoinMoin](MoinMoin) graphics)
 
-- [ThomasWaldmann](ThomasWaldmann), Stuttgart, Germany, [MoinMoin wiki](http://moinmo.in/){.http} core developer
+- [ThomasWaldmann](ThomasWaldmann), Stuttgart, Germany, [MoinMoin wiki](http://moinmo.in/) core developer
 
-- [AlexanderSchremmer](./AlexanderSchremmer.html){.nonexistent}, Paderborn, Germany, [MoinMoin wiki](http://moinmo.in/){.http} core developer
+- [AlexanderSchremmer](./AlexanderSchremmer.html), Paderborn, Germany, [MoinMoin wiki](http://moinmo.in/) core developer
 
 - Tony Cappellini, San Jose, CA.
 
-- [Wesley Chun](http://corepython.com){.http}, [CyberWeb](http://cyberwebconsulting.com){.http} & [NearbyNow](http://nearbynow.com){.http}, Los Altos, CA
+- [Wesley Chun](http://corepython.com), [CyberWeb](http://cyberwebconsulting.com) & [NearbyNow](http://nearbynow.com), Los Altos, CA
 
 - Stephen Vogel, Moraga, CA
 
@@ -35,7 +40,7 @@ Describe Previous Meeting on October 11 2007 here.
 
 - Meher Gourjian, Oakland, CA
 
-- Bjorn Tipling, [Bloglines](http://www.bloglines.com){.http}, Campbell, CA
+- Bjorn Tipling, [Bloglines](http://www.bloglines.com), Campbell, CA
 
 - [EdwardMokuraiCherlin](EdwardMokuraiCherlin), Cupertino CA
 
@@ -45,7 +50,7 @@ Describe Previous Meeting on October 11 2007 here.
 
 - Brian Mahoney, Richmond, CA
 
-- [Eric Walstad](http://ericwalstad.com/){.http}, San Francisco, CA
+- [Eric Walstad](http://ericwalstad.com/), San Francisco, CA
 
 - Mikeal Rogers, OSAF, Oakland, CA
 
@@ -63,11 +68,11 @@ Describe Previous Meeting on October 11 2007 here.
 
 - Yuri Ginsburg, Palo Alto, CA
 
-- John Menerick, [Cellspin](http://www.cellspin.net){.http}, San Jose, CA
+- John Menerick, [Cellspin](http://www.cellspin.net), San Jose, CA
 
-- Marcos Klein, [Cellspin](http://www.cellspin.net){.http}, Mountain View, CA
+- Marcos Klein, [Cellspin](http://www.cellspin.net), Mountain View, CA
 
-- Ian Fung, [Cellspin](http://www.cellspin.net){.http}, Mountain View, CA
+- Ian Fung, [Cellspin](http://www.cellspin.net), Mountain View, CA
 
 - Joshua Gallagher, San Jose, CA
 
@@ -75,7 +80,7 @@ Describe Previous Meeting on October 11 2007 here.
 
 - Rushabh Doshi, Sunnyvale, CA
 
-- David Cramer, [Curse, Inc.](http://about.curse.com){.http}, San Francisco, CA
+- David Cramer, [Curse, Inc.](http://about.curse.com), San Francisco, CA
 
 - Emily Liu, Mountain View, CA
 
@@ -97,11 +102,11 @@ Describe Previous Meeting on October 11 2007 here.
 
 - Mikhail Galburt, Santa Clara
 
-- Mike Pittaro, [http://www.snaplogic.org](http://www.snaplogic.org){.http}, La Honda, CA
+- Mike Pittaro, [http://www.snaplogic.org](http://www.snaplogic.org), La Honda, CA
 
 - Pat Swieskowski, San Francisco
 
-- [Stephen McInerney](http://www.linkedin.com/in/stephenmcinerney){.http}, Mountain View
+- [Stephen McInerney](http://www.linkedin.com/in/stephenmcinerney), Mountain View
 
 - Thuon Chen, Family Stations Inc, Oakland, CA
 
@@ -130,4 +135,3 @@ Describe Previous Meeting on October 11 2007 here.
 - Frederiko Costa, Dublin, CA
 
 - Adam Ulvi, Concord, CA
-:::

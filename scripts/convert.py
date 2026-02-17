@@ -32,11 +32,13 @@ META_PAGES = {
     "FindPage", "RecentChanges", "WordIndex", "TitleIndex",
     "AbandonedPages", "OrphanedPages", "EventStats", "PageSize", "PageHits",
     "InterWiki", "SystemInfo", "WikiSandBox", "SystemPagesInEnglishGroup",
-    "WantedPages", "DesiredPages",
+    "WantedPages", "DesiredPages", "BadContent", "LocalBadContent",
+    "LocalSpellingWords", "PythonCdRawPackageList",
     # German
     "WortIndex", "AufgegebeneSeiten", "GesuchteSeiten",
     # Scandinavian
     "OrdRegister", "OrdListe", "EfterladteSider",
+    "SideSt(c3b8)rrelse",  # SideStørrelse - MoinMoin page size stats (Danish)
 }
 
 # MoinMoin meta-page prefixes (match encoded filenames starting with these)
@@ -158,7 +160,11 @@ def extract_content(html_path: Path) -> tuple[str, str]:
 def html_to_markdown(html_content: str) -> str:
     """Convert HTML fragment to Markdown via pandoc."""
     result = subprocess.run(
-        ["pandoc", "--from", "html", "--to", "markdown", "--wrap", "none", "--no-highlight"],
+        [
+            "pandoc", "--from", "html",
+            "--to", "markdown-header_attributes-link_attributes-fenced_code_attributes-inline_code_attributes",
+            "--wrap", "none", "--no-highlight",
+        ],
         input=html_content,
         capture_output=True,
         text=True,
@@ -166,8 +172,9 @@ def html_to_markdown(html_content: str) -> str:
     )
     if result.returncode != 0:
         return f"<!-- pandoc error: {result.stderr.strip()} -->\n\n{html_content}"
-    # Strip pandoc's {#CA-...} code block identifiers from MoinMoin anchors
-    output = re.sub(r"```\{#[A-Za-z0-9-]+\}", "```", result.stdout)
+    output = result.stdout
+    # Strip any remaining pandoc attribute blocks that MyST can't parse
+    output = re.sub(r"\{[.#][^}]*\}", "", output)
     return output
 
 

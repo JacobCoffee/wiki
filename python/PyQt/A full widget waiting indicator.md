@@ -1,17 +1,22 @@
 # PyQt/A full widget waiting indicator
 
-::::: {#content dir="ltr" lang="en"}
-# A full widget waiting indicator {#A_full_widget_waiting_indicator}
+```{admonition} Legacy Wiki Page
+:class: note
 
-In [this message](http://lists.trolltech.com/pipermail/qt-interest/2009-September/012678.html){.http} on the [qt-interest mailing list](http://lists.trolltech.com/mailman/listinfo/qt-interest){.http}, Fabio Dago asked how to create a \"waiting widget\".
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-This example is adapted from the [Widget Overlay](http://wiki.qtcentre.org/index.php?title=Widget_Overlay){.http} example on the [Qt Centre Wiki](http://wiki.qtcentre.org){.http}, adding timer code to animate the indicator.
+# A full widget waiting indicator 
 
-![wait.png](attachments/PyQt(2f)A(20)full(20)widget(20)waiting(20)indicator/wait.png "wait.png"){.attachment}
+In [this message](http://lists.trolltech.com/pipermail/qt-interest/2009-September/012678.html) on the [qt-interest mailing list](http://lists.trolltech.com/mailman/listinfo/qt-interest), Fabio Dago asked how to create a \"waiting widget\".
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1ec7c02f5045830ec2c5da85901c9fd18d07ae7c dir="ltr" lang="en"}
+This example is adapted from the [Widget Overlay](http://wiki.qtcentre.org/index.php?title=Widget_Overlay) example on the [Qt Centre Wiki](http://wiki.qtcentre.org), adding timer code to animate the indicator.
+
+![wait.png](attachments/PyQt(2f)A(20)full(20)widget(20)waiting(20)indicator/wait.png "wait.png")
+
+:::: 
+::: 
+``` 
    1 import math, sys
    2 from PyQt4.QtCore import Qt, QTimer
    3 from PyQt4.QtGui import *
@@ -93,4 +98,3 @@ This example is adapted from the [Widget Overlay](http://wiki.qtcentre.org/index
 ```
 :::
 ::::
-:::::

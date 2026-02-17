@@ -1,6 +1,11 @@
 # PyCon2006/Ideas
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 - We need a new location.
 
 - Have a dedicated tutorial track on at least one day. (Perhaps paralleling the open space?)
@@ -11,7 +16,7 @@
 
 - Make organization of Open Space more apparent.
 
-- Make [SubEthaEdit](./SubEthaEdit.html){.nonexistent} notes an officially supported thing, and part of the proceedings
+- Make [SubEthaEdit](./SubEthaEdit.html) notes an officially supported thing, and part of the proceedings
 
 - We should post a list of talks + abstracts outside each room so people know what\'s going on.
 
@@ -44,4 +49,3 @@
 ------------------------------------------------------------------------
 
 [CategoryPyConPlanning](CategoryPyConPlanning)
-:::

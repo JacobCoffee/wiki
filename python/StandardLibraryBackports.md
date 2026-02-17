@@ -1,9 +1,14 @@
 # StandardLibraryBackports
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The following modules on the Python package index make standard library functionality from later versions of Python available in earlier versions (not all of them are technically backports - some existed on PyPI before being adopted wholesale into the standard library).
 
-- [selectors34](https://pypi.python.org/pypi/selectors34){.https} (Python 3.4+ selectors for 2.6, 2.7 and 3.3)
+- [selectors34](https://pypi.python.org/pypi/selectors34) (Python 3.4+ selectors for 2.6, 2.7 and 3.3)
 
 - faulthandler (Python 3.3+ faulhandler for 2.x and earlier versions of 3.x)
 
@@ -13,7 +18,7 @@ The following modules on the Python package index make standard library function
 
 - unittest2 (provides equivalent functionality to the standard library\'s unittest module as of Python 2.7/3.2)
 
-- contextlib2 (provides [ExitStack](./ExitStack.html){.nonexistent}, in the standard library\'s contextlib module as of Python 3.3)
+- contextlib2 (provides [ExitStack](./ExitStack.html), in the standard library\'s contextlib module as of Python 3.3)
 
 - funcsigs (in the standard library\'s inspect module as of Python 3.3)
 
@@ -35,4 +40,3 @@ The following modules on PyPI inspired later standard library additions, but hav
 
 - flufl.enum (initial inspiration for what became the standard library\'s )
 - ipaddr (initial inspiration for the standard library\'s ipaddress module as of Python 3.3)
-:::

@@ -1,22 +1,26 @@
 # WikiKurs/19 Symbole
 
-:::: {#content dir="ltr" lang="de"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   [Slideshow](./WikiKurs(2f)19(20)Symbole.html?action=print&media=projection) [\^](WikiKurs) [\|\<](./WikiKurs(2f)01(20)Was(20)ist(20)ein(20)MoinMoin(2d)Wiki(3f).html) [\<\<](./WikiKurs(2f)18(20)Anh(c3a4)nge.html) Slide 18 of 27 [\>\>](./WikiKurs(2f)20(20)Dynamische(20)Inhalte.html) [\>\|](./WikiKurs(2f)52(20)Struktur(20)im(20)Wiki.html)
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Symbole, Smileys {#Symbole.2C_Smileys}
+# Symbole, Smileys 
 
 [MoinMoin](MoinMoin) unterstützt auch einige graphische Symbole, sowie die in E-Mail und Chat üblichen sog. *Smileys*:
 
 ::: {}
   ---------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  `{1} {2} {3}`{.backtick}                 ![{1}](/wiki/europython/img/prio1.png "{1}"){height="13" width="15"} ![{2}](/wiki/europython/img/prio2.png "{2}"){height="13" width="15"} ![{3}](/wiki/europython/img/prio3.png "{3}"){height="13" width="15"}
-  `/!\ (!) (./) {X} {i} {OK}`{.backtick}   ![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} ![(!)](/wiki/europython/img/idea.png "(!)"){height="16" width="16"} ![(./)](/wiki/europython/img/checkmark.png "(./)"){height="16" width="16"} ![{X}](/wiki/europython/img/icon-error.png "{X}"){height="16" width="16"} ![{i}](/wiki/europython/img/icon-info.png "{i}"){height="16" width="16"} ![{OK}](/wiki/europython/img/thumbs-up.png "{OK}"){height="16" width="16"}
-  `{*} {o}`{.backtick}                     ![{\*}](/wiki/europython/img/star_on.png "{*}"){height="16" width="16"} ![{o}](/wiki/europython/img/star_off.png "{o}"){height="16" width="16"}
-  `:) B-) :( X-(`{.backtick}               ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} ![B-)](/wiki/europython/img/smile2.png "B-)"){height="16" width="16"} ![:(](/wiki/europython/img/sad.png ":("){height="16" width="16"} ![X-(](/wiki/europython/img/angry.png "X-("){height="16" width="16"}
+  `{1} {2} {3}`{.backtick}                 ![{1}](/wiki/europython/img/prio1.png "{1}") ![{2}](/wiki/europython/img/prio2.png "{2}") ![{3}](/wiki/europython/img/prio3.png "{3}")
+  `/!\ (!) (./) {X} {i} {OK}`{.backtick}   ![/!\\](/wiki/europython/img/alert.png "/!\") ![(!)](/wiki/europython/img/idea.png "(!)") ![(./)](/wiki/europython/img/checkmark.png "(./)") ![{X}](/wiki/europython/img/icon-error.png "{X}") ![{i}](/wiki/europython/img/icon-info.png "{i}") ![{OK}](/wiki/europython/img/thumbs-up.png "{OK}")
+  `{*} {o}`{.backtick}                     ![{\*}](/wiki/europython/img/star_on.png "{*}") ![{o}](/wiki/europython/img/star_off.png "{o}")
+  `:) B-) :( X-(`{.backtick}               ![:)](/wiki/europython/img/smile.png ":)") ![B-)](/wiki/europython/img/smile2.png "B-)") ![:(](/wiki/europython/img/sad.png ":(") ![X-(](/wiki/europython/img/angry.png "X-(")
   ---------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
 Weitere siehe [HilfeZuSmileys](HilfeZuSmileys).
-::::

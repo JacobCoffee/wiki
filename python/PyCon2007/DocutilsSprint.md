@@ -1,13 +1,18 @@
 # PyCon2007/DocutilsSprint
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links:
 
-- [Sprinting overview](http://us.pycon.org/TX2007/Sprinting){.http .reference .external}
-- [List of sprints at PyCon 2007](http://us.pycon.org/TX2007/Sprints){.http .reference .external}
-- Previous Docutils sprints: [2006](http://wiki.python.org/moin/PyCon2006/Sprints/DocutilsSprint){.http .reference .external}, [2004](http://wiki.python.org/moin/DocutilsSprint){.http .reference .external}.
+- [Sprinting overview](http://us.pycon.org/TX2007/Sprinting)
+- [List of sprints at PyCon 2007](http://us.pycon.org/TX2007/Sprints)
+- Previous Docutils sprints: [2006](http://wiki.python.org/moin/PyCon2006/Sprints/DocutilsSprint), [2004](http://wiki.python.org/moin/DocutilsSprint).
 
-::: {#goal .section}
+::: 
 ### Goal
 
 Squash bugs & add features
@@ -15,13 +20,12 @@ Squash bugs & add features
 Details TBD.
 :::
 
-::: {#sprinters .section}
+::: 
 ### Sprinters
 
 Please add your name:
 
-- [David Goodger](mailto:goodger@python.org){.mailto .reference .external}
-- [Felix Wiemann](mailto:Felix.Wiemann@ososo.de){.mailto .reference .external}
-- [Paul Kippes](mailto:paul-pycon2007@wibbles.org){.mailto .reference .external} (mostly sure)
+- [David Goodger](mailto:goodger@python.org)
+- [Felix Wiemann](mailto:Felix.Wiemann@ososo.de)
+- [Paul Kippes](mailto:paul-pycon2007@wibbles.org) (mostly sure)
 :::
-:::::

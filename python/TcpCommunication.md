@@ -1,27 +1,22 @@
 # TcpCommunication
 
-:::::::: {#content dir="ltr" lang="en"}
-# TCP Communication {#TCP_Communication}
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: table-of-contents
-Contents
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-1.  [TCP Communication](#TCP_Communication)
-    1.  [Client](#Client)
-    2.  [Server](#Server)
-    3.  [Links](#Links)
-2.  [Discussion](#Discussion)
-:::
+# TCP Communication 
 
 See also: [UdpCommunication](UdpCommunication)
 
-## Client {#Client}
+## Client 
 
 Here\'s simple code to send and receive data by TCP in Python:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-b22bc303d6d0b4c7af1a18623aacd1d0900b6ff3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #!/usr/bin/env python
    2 
    3 import socket
@@ -43,13 +38,13 @@ Here\'s simple code to send and receive data by TCP in Python:
 :::
 ::::
 
-## Server {#Server}
+## Server 
 
 Here\'s simple code to serve TCP in Python:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8322cd04487cb7048b047c5df45ee0c933d6a1c8 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #!/usr/bin/env python
    2 
    3 import socket
@@ -75,15 +70,14 @@ Here\'s simple code to serve TCP in Python:
 :::
 ::::
 
-## Links {#Links}
+## Links 
 
-- [socket](http://www.python.org/doc/current/lib/module-socket.html){.http} \-- builtin Python module
+- [socket](http://www.python.org/doc/current/lib/module-socket.html) \-- builtin Python module
 
-- [telnetlib](http://www.python.org/doc/current/lib/module-telnetlib.html){.http} \-- builtin Python module
+- [telnetlib](http://www.python.org/doc/current/lib/module-telnetlib.html) \-- builtin Python module
 
-- [Introduction to TCP Sockets](http://woozle.org/~neale/papers/sockets.html){.http} \-- uses Python to explain. Note: substitute socket.AF_INET where socket.PF_INET is mentioned.
+- [Introduction to TCP Sockets](http://woozle.org/~neale/papers/sockets.html) \-- uses Python to explain. Note: substitute socket.AF_INET where socket.PF_INET is mentioned.
 
-# Discussion {#Discussion}
+# Discussion 
 
 - (none yet!)
-::::::::

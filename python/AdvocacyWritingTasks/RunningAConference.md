@@ -1,6 +1,11 @@
 # AdvocacyWritingTasks/RunningAConference
 
-::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Planning a Python Conference
 
   --------- --------------------
@@ -8,30 +13,30 @@
   Date:     2008-07-29
   --------- --------------------
 
-::: {#contents .contents .topic}
+::: 
 Contents
 
-- [Introduction](#introduction){#id1 .reference .internal}
-- [Types of conferences](#types-of-conferences){#id2 .reference .internal}
-  - [Planned conferences](#planned-conferences){#id3 .reference .internal}
-  - [Sprints](#sprints){#id4 .reference .internal}
-  - [Unconferences](#unconferences){#id5 .reference .internal}
-  - [Combinations](#combinations){#id6 .reference .internal}
-- [Volunteers](#volunteers){#id7 .reference .internal}
-- [Finding a location](#finding-a-location){#id8 .reference .internal}
-- [Scheduling the conference](#scheduling-the-conference){#id9 .reference .internal}
-- [Drawing up the program](#drawing-up-the-program){#id10 .reference .internal}
-- [Networking](#networking){#id11 .reference .internal}
-- [Food and Catering](#food-and-catering){#id12 .reference .internal}
-- [Publicizing your conference](#publicizing-your-conference){#id13 .reference .internal}
-- [Running your conference](#running-your-conference){#id14 .reference .internal}
-- [Finances](#finances){#id15 .reference .internal}
-- [References](#references){#id16 .reference .internal}
-- [Legal](#legal){#id17 .reference .internal}
+- [Introduction](#introduction)
+- [Types of conferences](#types-of-conferences)
+  - [Planned conferences](#planned-conferences)
+  - [Sprints](#sprints)
+  - [Unconferences](#unconferences)
+  - [Combinations](#combinations)
+- [Volunteers](#volunteers)
+- [Finding a location](#finding-a-location)
+- [Scheduling the conference](#scheduling-the-conference)
+- [Drawing up the program](#drawing-up-the-program)
+- [Networking](#networking)
+- [Food and Catering](#food-and-catering)
+- [Publicizing your conference](#publicizing-your-conference)
+- [Running your conference](#running-your-conference)
+- [Finances](#finances)
+- [References](#references)
+- [Legal](#legal)
 :::
 
-::: {#introduction .section}
-### [Introduction](#id1){.toc-backref}
+::: 
+### [Introduction](#id1)
 
 A great way to energize the Python® community in your area is to hold a Python conference. Conferences are an excellent way for people to meet old friends and make new friends, to exchange ideas and knowledge, and to work together on projects using fast face-to-face discussions instead of slower e-mail and chat sessions. After a successful conference, people come away excited and energized.
 
@@ -39,16 +44,16 @@ In this white paper, I will be discussing how to organize and run a small confer
 
 If you want to run a smaller conference for only 20-50 attendees, the advice here will still be useful to you because the problems are much the same.
 
-Larger conferences such as PyCon or EuroPython are more complicated to plan for many reasons. They run for three to five days, so you need to fill more program space. They\'ll usually attract a few hundred attendees, so your choice of locations is reduced and the likelihood of getting the location for free is small (schools are probably the only chance). Some of the information below will still be helpful, but if you\'re interested in planning such a conference, I suggest joining [the conferences mailing list](http://mail.python.org/mailman/listinfo/conferences){.http .reference .external} and asking for advice. I\'d also strongly suggest getting your feet wet by running a smaller conference first.
+Larger conferences such as PyCon or EuroPython are more complicated to plan for many reasons. They run for three to five days, so you need to fill more program space. They\'ll usually attract a few hundred attendees, so your choice of locations is reduced and the likelihood of getting the location for free is small (schools are probably the only chance). Some of the information below will still be helpful, but if you\'re interested in planning such a conference, I suggest joining [the conferences mailing list](http://mail.python.org/mailman/listinfo/conferences) and asking for advice. I\'d also strongly suggest getting your feet wet by running a smaller conference first.
 :::
 
-::::::: {#types-of-conferences .section}
-### [Types of conferences](#id2){.toc-backref}
+::::::: 
+### [Types of conferences](#id2)
 
 Small conferences can be structured in a number of ways.
 
-::: {#planned-conferences .section}
-#### [Planned conferences](#id3){.toc-backref}
+::: 
+#### [Planned conferences](#id3)
 
 A planned conference is the most traditional kind, with a fixed timetable and pre-selected schedule of speakers. Attendees will spend most of the conference time listening to speakers and occasionally making a comment or asking a question.
 
@@ -58,8 +63,8 @@ Pre-conference planning:
 - The selected speakers then need to be arranged into a schedule for each day of the event.
 :::
 
-::: {#sprints .section}
-#### [Sprints](#id4){.toc-backref}
+::: 
+#### [Sprints](#id4)
 
 Sprints (also called hackathons) feature small groups of 3-10 people, who gather around a table and work on various projects. Sprints are very decentralized because there are no speakers who stand up and talk while the rest of the room listens; instead the activity is in the conversations within each small group.
 
@@ -72,8 +77,8 @@ Pre-conference planning:
 - Find out which projects will be present. A project needs a certain number of people in order to sustain a sprint. It may be critical to have a skilled developer from the project who can actually answer questions from new developers and commit changes to the master repository.
 :::
 
-::: {#unconferences .section}
-#### [Unconferences](#id5){.toc-backref}
+::: 
+#### [Unconferences](#id5)
 
 An unconference is a conference where the content of the sessions is invented day-by-day by the participants. Often the program for each day is planned at the first session every morning. Participants introduce themselves, describe session topics they\'re interested in, and assemble into groups.
 
@@ -84,8 +89,8 @@ Unconferences often feature lightning talk sessions containing a series of brief
 Alternate terms for unconferences are \"open space conference\" or \"barcamp\".
 :::
 
-::: {#combinations .section}
-#### [Combinations](#id6){.toc-backref}
+::: 
+#### [Combinations](#id6)
 
 You can combine more than one of these styles. For example, a two-day conference might feature one day of planned talks and one day for a more loosely-structured unconference or for sprints.
 
@@ -95,8 +100,8 @@ Another benefit of putting sprints after the conference is making the sprint mor
 :::
 :::::::
 
-::: {#volunteers .section}
-### [Volunteers](#id7){.toc-backref}
+::: 
+### [Volunteers](#id7)
 
 It would be difficult (though not impossible) for a single person to organize and run a conference, but the job is much easier for a group of organizers. Volunteers can:
 
@@ -110,8 +115,8 @@ Your very first step should be to look for a pool of volunteers. Many conference
 During the months before the conference, schedule a regular volunteer meeting to discuss recent progress and what tasks need to be done next. Following a definite schedule pushes people to complete tasks in time for the next meeting. Meetings can be held in-person or over instant messaging or IRC. For PyCon, we met every two weeks for an hour, and two months before the conference the frequency increased to weekly meetings.
 :::
 
-::: {#finding-a-location .section}
-### [Finding a location](#id8){.toc-backref}
+::: 
+### [Finding a location](#id8)
 
 The most important things about the location are:
 
@@ -149,16 +154,16 @@ All locations should be accessible by disabled persons, and held in controlled t
 The location should be accessible by public transport. It\'s a bonus if there are interesting attractions nearby (museums, attractions, etc.). Small conferences probably won\'t provide food, so there should be some restaurants or other dining facilities nearby for lunch, and enough of them to handle the conference attendance. If there\'s only one small restaurant within walking distance, it\'ll get swamped.
 :::
 
-::: {#scheduling-the-conference .section}
-### [Scheduling the conference](#id9){.toc-backref}
+::: 
+### [Scheduling the conference](#id9)
 
 Weekends are probably best for a small conference. Most attendees probably won\'t be sent by their employers and would have to use up vacation time if the conference is held during the work-week.
 
 Think carefully before scheduling your conference for a holiday. While it might be appealing to use a long weekend such as Thanksgiving, people often schedule family events for holiday weekends and will be reluctant to spend a day at a conference. Some holidays, such as Easter, Yom Kippur, and Memorial Day, move around from year to year, so be sure to check the calendar when picking a date.
 :::
 
-::: {#drawing-up-the-program .section}
-### [Drawing up the program](#id10){.toc-backref}
+::: 
+### [Drawing up the program](#id10)
 
 There are several different approaches to assembling a conference program.
 
@@ -168,13 +173,13 @@ Past EuroPython conferences have started with the organizers deciding on a set o
 
 If you\'re running an unconference, there isn\'t much to do before the conference; you simply have to trust that the attendees will have things to present and to talk about.
 
-Every year PyCon surveys its attendees for what topics they\'d like to see at future PyCons. The results for [PyCon 2004](http://wiki.python.org/moin/PyConDC2004/Feedback?highlight=%28feedback%29){.http .reference .external}, [2006](http://wiki.python.org/moin/PyCon2006/Feedback){.http .reference .external}, and [2007](http://wiki.python.org/moin/PyCon2007/Feedback){.http .reference .external} are in the Python wiki and are a good source of ideas.
+Every year PyCon surveys its attendees for what topics they\'d like to see at future PyCons. The results for [PyCon 2004](http://wiki.python.org/moin/PyConDC2004/Feedback?highlight=%28feedback%29), [2006](http://wiki.python.org/moin/PyCon2006/Feedback), and [2007](http://wiki.python.org/moin/PyCon2007/Feedback) are in the Python wiki and are a good source of ideas.
 
 Don\'t over-schedule; you don\'t need to fill every single block of time with an activity. PyCon attendees usually report that the socializing during breaks, lunchtimes, and evenings is also a valuable part of the conference.
 :::
 
-::: {#networking .section}
-### [Networking](#id11){.toc-backref}
+::: 
+### [Networking](#id11)
 
 Internet access is **extremely** important for a technical conference. Many people will have laptops, and attendees like to download the software being presented or look at related web sites.
 
@@ -183,8 +188,8 @@ You should plan to have enough networking capacity for almost all attendees simu
 Some facilities may have an existing wireless network. You should plan on bringing your own networking equipment to supplement it. If nothing else, try to get access to the facility\'s wired network and hang switches off that to minimize wireless congestion \-- then encourage attendees to use the wired network.
 :::
 
-::: {#food-and-catering .section}
-### [Food and Catering](#id12){.toc-backref}
+::: 
+### [Food and Catering](#id12)
 
 Providing food is a major source of complications. Food is expensive, especially if the location requires you to use a particular catering service. Food needs to be stored and served carefully for health (and legal!) reasons. You also need to worry about providing options for vegetarians or people with food allergies.
 
@@ -198,8 +203,8 @@ For a low-effort conference, I suggest not providing any food. Instead:
 OTOH, sponsoring catered food is an excellent way of attracting financial assistance (e.g. \"This lunch is provided by XYZ Corp.\").
 :::
 
-::: {#publicizing-your-conference .section}
-### [Publicizing your conference](#id13){.toc-backref}
+::: 
+### [Publicizing your conference](#id13)
 
 Publicizing your conference is important for attracting people who don\'t attend regular user group meetings or aren\'t aware of them. You can reach out to people who don\'t see themselves primarily as Python users, but as programmers or sysadmins or researchers who happen to use Python.
 
@@ -212,41 +217,41 @@ First of all, have a web site or at least a web page for your event. At a minimu
 - Program information such as a list of the presentations and short biographies of the presenters. If you can get the presenters to also post their slides before the conference, that will be very helpful to attendees.
 - An e-mail address for contacting the organizers.
 
-Having a wiki is convenient; it lets presenters and attendees assemble their own information. You don\'t need to set up and administer your own wiki. Instead you can use the Python wiki at [http://wiki.python.org/moin/](http://wiki.python.org/moin/){.http .reference .external} ; create a page for your event and let attendees create new sub-pages as they wish.
+Having a wiki is convenient; it lets presenters and attendees assemble their own information. You don\'t need to set up and administer your own wiki. Instead you can use the Python wiki at [http://wiki.python.org/moin/](http://wiki.python.org/moin/) ; create a page for your event and let attendees create new sub-pages as they wish.
 
-Keeping a conference weblog will increase your visibility. A continual flow of announcements keeps your conference in people\'s minds and increases their excitement. Many free weblog hosting services such as [Blogger](http://www.blogger.com){.http .reference .external} are available, so it\'s very easy to set up a weblog for your event. Send a note to the python.org webmaster and get your weblog added to [Planet Python](http://planet.python.org){.http .reference .external}.
+Keeping a conference weblog will increase your visibility. A continual flow of announcements keeps your conference in people\'s minds and increases their excitement. Many free weblog hosting services such as [Blogger](http://www.blogger.com) are available, so it\'s very easy to set up a weblog for your event. Send a note to the python.org webmaster and get your weblog added to [Planet Python](http://planet.python.org).
 
-Post announcements to relevant mailing lists. The [python-announce list](http://mail.python.org/mailman/listinfo/python-announce-list){.http .reference .external} is the classic place for Python-related announcements, but also consider posting to specific lists; if you have a lot of database talks, post to the Database-SIG, for example.
+Post announcements to relevant mailing lists. The [python-announce list](http://mail.python.org/mailman/listinfo/python-announce-list) is the classic place for Python-related announcements, but also consider posting to specific lists; if you have a lot of database talks, post to the Database-SIG, for example.
 
 Post to the announcement lists of other user groups in your area, too. Java user groups may be interested in Jython, web developer groups will want to hear about Django, and a polite note can be posted to local Perl or Ruby groups, etc.
 
 Once the dates of the conference have been confirmed, add your event to various online event calendars. Doing so is usually free. Here are a bunch of calendars; doubtless there are more sites out there.
 
-- [http://wiki.python.org/moin/PythonEvents](http://wiki.python.org/moin/PythonEvents){.http .reference .external}
-- [http://www.linuxjournal.com/xstatic/community/events](http://www.linuxjournal.com/xstatic/community/events){.http .reference .external}
-- [http://lwn.net/Calendar/](http://lwn.net/Calendar/){.http .reference .external}
-- [http://campus.acm.org/public/calendar/](http://campus.acm.org/public/calendar/){.http .reference .external}
-- [http://www.tsnn.com/](http://www.tsnn.com/){.http .reference .external}
-- [http://techvenue.com/](http://techvenue.com/){.http .reference .external}
-- [The IEEE conference calendar at computer.org](http://www.computer.org/portal/site/ieeecs/menuitem.c5efb9b8ade9096b8a9ca0108bcd45f3/index.jsp?&pName=ieeecs_level1&path=ieeecs/conferences&file=calendar.xml&xsl=generic.xsl){.http .reference .external}
-- [http://www.linux-magazine.com/Readers/Events](http://www.linux-magazine.com/Readers/Events){.http .reference .external}
-- [http://www.eventful.com](http://www.eventful.com){.http .reference .external}
-- [http://www.upcoming.org](http://www.upcoming.org){.http .reference .external}
-- [http://www.linux.org/event/](http://www.linux.org/event/){.http .reference .external}
-- [http://www.devtownstation.com/ddj.asp](http://www.devtownstation.com/ddj.asp){.http .reference .external}
-- [http://www2.cio.com/events/index.cfm](http://www2.cio.com/events/index.cfm){.http .reference .external}
-- [http://www.conferencealerts.com](http://www.conferencealerts.com){.http .reference .external}
+- [http://wiki.python.org/moin/PythonEvents](http://wiki.python.org/moin/PythonEvents)
+- [http://www.linuxjournal.com/xstatic/community/events](http://www.linuxjournal.com/xstatic/community/events)
+- [http://lwn.net/Calendar/](http://lwn.net/Calendar/)
+- [http://campus.acm.org/public/calendar/](http://campus.acm.org/public/calendar/)
+- [http://www.tsnn.com/](http://www.tsnn.com/)
+- [http://techvenue.com/](http://techvenue.com/)
+- [The IEEE conference calendar at computer.org](http://www.computer.org/portal/site/ieeecs/menuitem.c5efb9b8ade9096b8a9ca0108bcd45f3/index.jsp?&pName=ieeecs_level1&path=ieeecs/conferences&file=calendar.xml&xsl=generic.xsl)
+- [http://www.linux-magazine.com/Readers/Events](http://www.linux-magazine.com/Readers/Events)
+- [http://www.eventful.com](http://www.eventful.com)
+- [http://www.upcoming.org](http://www.upcoming.org)
+- [http://www.linux.org/event/](http://www.linux.org/event/)
+- [http://www.devtownstation.com/ddj.asp](http://www.devtownstation.com/ddj.asp)
+- [http://www2.cio.com/events/index.cfm](http://www2.cio.com/events/index.cfm)
+- [http://www.conferencealerts.com](http://www.conferencealerts.com)
 
 Write a formal press release and e-mail it to people. Getting your press release distributed by a commercial press service will cost a few hundred dollars and probably isn\'t worth the expense. Instead you can track down addresses one-by-one and e-mail people directly:
 
-- Dr. Dobbs Journal [http://ddj.com/contact.html](http://ddj.com/contact.html){.http .reference .external}
-- Linux Journal : events page [http://www.linuxjournal.com/xstatic/community/events](http://www.linuxjournal.com/xstatic/community/events){.http .reference .external}
-- ACM Queue [http://acmqueue.com/modules.php?name=Sections&op=showpage&pid=32&secid=10](http://acmqueue.com/modules.php?name=Sections&op=showpage&pid=32&secid=10){.http .reference .external}
-- [http://www.linuxgazette.net](http://www.linuxgazette.net){.http .reference .external}
-- [http://www.linuxgazette.com](http://www.linuxgazette.com){.http .reference .external}
-- [http://techrepublic.com.com/](http://techrepublic.com.com/){.http .reference .external}
-- Baseline: [http://www.baselinemag.com/article2/0,1540,64,00.asp](http://www.baselinemag.com/article2/0,1540,64,00.asp){.http .reference .external}
-- IEEE Computer: [http://www.computer.org](http://www.computer.org){.http .reference .external}
+- Dr. Dobbs Journal [http://ddj.com/contact.html](http://ddj.com/contact.html)
+- Linux Journal : events page [http://www.linuxjournal.com/xstatic/community/events](http://www.linuxjournal.com/xstatic/community/events)
+- ACM Queue [http://acmqueue.com/modules.php?name=Sections&op=showpage&pid=32&secid=10](http://acmqueue.com/modules.php?name=Sections&op=showpage&pid=32&secid=10)
+- [http://www.linuxgazette.net](http://www.linuxgazette.net)
+- [http://www.linuxgazette.com](http://www.linuxgazette.com)
+- [http://techrepublic.com.com/](http://techrepublic.com.com/)
+- Baseline: [http://www.baselinemag.com/article2/0,1540,64,00.asp](http://www.baselinemag.com/article2/0,1540,64,00.asp)
+- IEEE Computer: [http://www.computer.org](http://www.computer.org)
 - Your local newspapers. Identify the paper\'s technology reporter and e-mail them. Don\'t expect a response; reporters get many press releases every day.
 - School or campus newspapers.
 
@@ -255,8 +260,8 @@ Less formally, you can write a one- or two-paragraph note about your event and e
 If a reporter is interested in attending, don\'t just leave him/her to their own devices. Help arrange interviews with speakers or attendees who will interest them: speakers with an interesting project, staff from a local company, etc.
 :::
 
-::: {#running-your-conference .section}
-### [Running your conference](#id14){.toc-backref}
+::: 
+### [Running your conference](#id14)
 
 It\'s hard to offer detailed advice on what needs to be done while an event is going on. This section is therefore rather scattered, a collection of tips and suggestions about various topics.
 
@@ -271,55 +276,54 @@ Have name badges for all your attendees and speakers. Conversations often start 
 Make the conference staff visible so that attendees know who they can ask for help or report problems to. Staff can wear T-shirts in identical colors or have special badges.
 :::
 
-::: {#finances .section}
-### [Finances](#id15){.toc-backref}
+::: 
+### [Finances](#id15)
 
 There will certainly be some expenses required to hold an event. You can cover these expenses in several ways:
 
 - If the expenses are small, you may want to just pay the costs out of your own pocket, or divide the costs among the organizers.
 - Find companies or organizations that will sponsor the event in return for some advertising or a \'Sponsored by\' credit.
 - Charge an admission fee. You\'ll need to get a cashbox to store the money received. Be sure to deposit the cash in the afternoon or find a safe to store it in; the money is a target for sneak thieves or an armed robber.
-- Ask the PSF (Python Software Foundation) for money. You will need to write a proposal that specifies how much money you want and what the money will be used for. Send the proposal to [psf@python.org](mailto:psf@python.org){.mailto .reference .external}
+- Ask the PSF (Python Software Foundation) for money. You will need to write a proposal that specifies how much money you want and what the money will be used for. Send the proposal to [psf@python.org](mailto:psf@python.org)
 
 Ask the venue whether the attendees for your event will be covered by their insurance. If someone\'s laptop is stolen or a person falls off the stage and is injured, will the organizers be responsible or will the expenses and possible legal fees be covered?
 :::
 
-::: {#references .section}
-### [References](#id16){.toc-backref}
+::: 
+### [References](#id16)
 
-[http://www.barcamp.org](http://www.barcamp.org){.http .reference .external}:
+[http://www.barcamp.org](http://www.barcamp.org):
 :   The world-wide site for Bar Camps.
 
-[http://www.ecoop.org/resources/HowTo.pdf](http://www.ecoop.org/resources/HowTo.pdf){.http .reference .external}
+[http://www.ecoop.org/resources/HowTo.pdf](http://www.ecoop.org/resources/HowTo.pdf)
 :   \"How to organize ECOOP conferences\", a conference guide for one specific academic event.
 
-[http://www.infrae.com/about/activities/sprintathon/tips](http://www.infrae.com/about/activities/sprintathon/tips){.http .reference .external}
+[http://www.infrae.com/about/activities/sprintathon/tips](http://www.infrae.com/about/activities/sprintathon/tips)
 :   Tips for organizing a sprint.
 
-[http://www.onlamp.com/pub/a/python/2006/10/19/running-a-sprint.html](http://www.onlamp.com/pub/a/python/2006/10/19/running-a-sprint.html){.http .reference .external}
+[http://www.onlamp.com/pub/a/python/2006/10/19/running-a-sprint.html](http://www.onlamp.com/pub/a/python/2006/10/19/running-a-sprint.html)
 :   Another article on organizing sprints.
 
-[http://www.unconference.net/](http://www.unconference.net/){.http .reference .external}
+[http://www.unconference.net/](http://www.unconference.net/)
 :   A weblog about unconferences and how to run them.
 
-[http://frazzleddad.blogspot.com/2009/09/running-event-on-cheap.html](http://frazzleddad.blogspot.com/2009/09/running-event-on-cheap.html){.http .reference .external}
+[http://frazzleddad.blogspot.com/2009/09/running-event-on-cheap.html](http://frazzleddad.blogspot.com/2009/09/running-event-on-cheap.html)
 :   Weblog post: Running an Event on the Cheap
 
 The PyCon organizers try to make their planning process as transparent as possible, and the resulting online resources may be helpful:
 
-[http://wiki.python.org/moin/ConventionHowto](http://wiki.python.org/moin/ConventionHowto){.http .reference .external}
+[http://wiki.python.org/moin/ConventionHowto](http://wiki.python.org/moin/ConventionHowto)
 :   A checklist of necessary tasks. This list may remind you of items that have been forgotten or spark some ideas for your own conference.
 
-[http://us.pycon.org/TX2007/Planning](http://us.pycon.org/TX2007/Planning){.http .reference .external}:
+[http://us.pycon.org/TX2007/Planning](http://us.pycon.org/TX2007/Planning):
 :   The 2006/2007 PyCon web site was wiki-based, and there are lots of pages that were used for internal planning purposes. This page links to most of the planning-related pages for those years.
 
-[http://wiki.python.org/moin/PyConPlanning](http://wiki.python.org/moin/PyConPlanning){.http .reference .external}:
+[http://wiki.python.org/moin/PyConPlanning](http://wiki.python.org/moin/PyConPlanning):
 :   More general pages on PyCon planning are linked from this page.
 :::
 
-::: {#legal .section}
-### [Legal](#id17){.toc-backref}
+::: 
+### [Legal](#id17)
 
 Python is a registered trademark of the Python Software Foundation.
 :::
-:::::::::::::::::::::

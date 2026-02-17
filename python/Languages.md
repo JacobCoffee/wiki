@@ -1,11 +1,16 @@
 # Languages
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Attempt to have languages and links listed in the native tongue of the user.
 
-[2009-09-01 This page\'s links go to the various languages\' pages, most of which have been copied from the other set of language pages, with a few updates. ]{.comment style="display:none"}
+[2009-09-01 This page\'s links go to the various languages\' pages, most of which have been copied from the other set of language pages, with a few updates. ]
 
-::: {.comment style="display:none"}
+::: 
 Ideally, all the pages should be like the Polish or Turkish pages - all native language, only the necessary English.
 
 There are some ground rules, some are laid down by the site admins, some are my suggestions:
@@ -23,7 +28,7 @@ Where these pages really need help:
 3.  some care for languages that have next to nothing, but do have people in the Python community - even a link to the Wikipedia page for Python, in that language, is a start (Some are pretty complete and of high quality - the Russian language Wikipedia page for Python, for instance, packs a lot in).
 :::
 
-# Languages {#Languages-1}
+# Languages 
 
 - [AfrikaansLanguage](AfrikaansLanguage) **Afrikaans**
 
@@ -188,4 +193,3 @@ Where these pages really need help:
 - [ZuluLanguage](ZuluLanguage) **isiZulu**
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode)
-::::

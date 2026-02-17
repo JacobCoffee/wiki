@@ -1,9 +1,14 @@
 # SiteImprovements/WikiSyntaxComparison
 
-:::: {#content dir="ltr" lang="en"}
-# Wiki Syntax Comparison {#Wiki_Syntax_Comparison}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Courtesy of [RadomirDopieralski](http://moinmo.in/RadomirDopieralski "MoinMoin"){.interwiki}\... (with editions)
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Wiki Syntax Comparison 
+
+Courtesy of [RadomirDopieralski](http://moinmo.in/RadomirDopieralski "MoinMoin")\... (with editions)
 
 ::: {}
   ------------------------------------------------- ------------------------------------------------------------ --------------------------------------------- ---------------------------------------------
@@ -28,4 +33,3 @@ The drawback of 1.6 syntax is that you need to type more and press Shift key mor
 - Well, it\'s a shame about the pipe character, but the other arguments about why Moin syntax \"sucks\" aren\'t convincing: you can\'t apparently have non-WikiName links in Google Code or Trac (unless \"no need\" means that Trac figures it out), Trac still uses the baroque `wiki:WikiName`{.backtick} stuff when making a labelled link. And the full URL for attachments? It\'s exactly this kind of stuff which either confuses the Wiki when trying to label links (a problem I\'ve seen with MediaWiki) or just breaks when any aspect of the Wiki configuration changes (a problem that also comes with MediaWiki). You should definitely argue with the Moin folks about that pipe character, though. \-- [PaulBoddie](PaulBoddie) 2010-09-30 14:24:39
 
   - pipe character alone is enough to keep off a 80% of users. You **can** have non-WikiName links in both Trac and Google Code. What Google Code doesn\'t allow is to name your pages with non-WikiNames. Trac allows arbitrary page name and I\'ve just added Trac syntax for it. Trac supports non-baroque syntax of Google Code, and I specifically added `wiki:WikiName`{.backtick} syntax, becase explicit is better than implicit, especially if you want to illustrate how convenient are Trac namespaces for various links. As for attachments, I don\'t link them so often as to understand the underlying problem. Nor I have time to argue with authors of products I don\'t use (this wiki just forces me to it). \-- [techtonik](techtonik) 2011-01-15 14:25:45
-::::

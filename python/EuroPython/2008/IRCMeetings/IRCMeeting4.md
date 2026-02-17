@@ -1,13 +1,18 @@
 # EuroPython/2008/IRCMeetings/IRCMeeting4
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #4 {#IRC_Meeting_.234}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Time/Location {#Time.2FLocation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-The meeting will take place in the #europython channel on freenode. Please indicate your preferred time [on the voting page](http://doodle.ch/participation.html?pollId=dncpisw9vdykdhqb){.http}!
+# IRC Meeting #4 
 
-## Agenda {#Agenda}
+## Time/Location 
+
+The meeting will take place in the #europython channel on freenode. Please indicate your preferred time [on the voting page](http://doodle.ch/participation.html?pollId=dncpisw9vdykdhqb)!
+
+## Agenda 
 
 - Registration/Budget
   - Progress of the test registration page
@@ -25,4 +30,3 @@ The meeting will take place in the #europython channel on freenode. Please indic
   - Sprints
   - Keynotes
   - Web site
-:::

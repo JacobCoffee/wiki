@@ -1,7 +1,12 @@
 # boost.python/handle
 
-::: {#content dir="ltr" lang="en"}
-David Abrahams\' Guidelines (republished with permission from [http://mail.python.org/pipermail/cplusplus-sig/2008-October/013895.html](http://mail.python.org/pipermail/cplusplus-sig/2008-October/013895.html){.http}):
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+David Abrahams\' Guidelines (republished with permission from [http://mail.python.org/pipermail/cplusplus-sig/2008-October/013895.html](http://mail.python.org/pipermail/cplusplus-sig/2008-October/013895.html)):
 
 - handle, essentially a smart pointer. Use when necessary.
   - a handle\<\> can be NULL, and maintains a reference count on the object it points to
@@ -19,11 +24,10 @@ David Abrahams\' Guidelines (republished with permission from [http://mail.pytho
 
     - handle\<\> y(null_ok(borrowed(x)))
 - object, a higher-level notion. Use wherever possible.
-  - an object can\'t be constructed from a raw [PyObject](./PyObject.html){.nonexistent}\* because there\'s no information in that type about whether the refcount has been incremented for this additional reference
+  - an object can\'t be constructed from a raw [PyObject](./PyObject.html)\* because there\'s no information in that type about whether the refcount has been incremented for this additional reference
 
   - an object can only be constructed from a handle\<\>. Other interfaces are not for public consumption and thus not documented. Use at your own peril.
 
   - an instance of object always \"points to\" something (maybe None). If the constructor argument (handle) is NULL, an exception will be thrown.
 
-You should also always give the handle\<\> a name instead of making it a temporary for the same reasons as cited in Peter Dimov\'s guideline: [\"Smart Pointer Best Practices\"](http://www.boost.org/doc/libs/1_36_0/libs/smart_ptr/shared_ptr.htm#BestPractices){.http}
-:::
+You should also always give the handle\<\> a name instead of making it a temporary for the same reasons as cited in Peter Dimov\'s guideline: [\"Smart Pointer Best Practices\"](http://www.boost.org/doc/libs/1_36_0/libs/smart_ptr/shared_ptr.htm#BestPractices)

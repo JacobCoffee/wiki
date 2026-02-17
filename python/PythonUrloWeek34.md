@@ -1,6 +1,11 @@
 # PythonUrloWeek34
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
     [python-urlo;)] Newsletter di notizie e links sul Python [29 Aug 2003]  
     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
@@ -199,4 +204,3 @@
        Questa newsletter e' stata realizzata con reST_.  
       
     .. _reST: http://docutils.sourceforge.net/rst.html   
-:::

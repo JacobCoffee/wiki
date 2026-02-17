@@ -1,7 +1,12 @@
 # PyConIndia2010/InitialActionPlan
 
-::: {#content dir="ltr" lang="en"}
-# PyCon India 2010 Action Plan {#PyCon_India_2010_Action_Plan}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PyCon India 2010 Action Plan 
 
 - Overall calendar
   - Get site up
@@ -18,7 +23,7 @@
 - Sponsorships
   - Google
 
-  - [ZeOmega](./ZeOmega.html){.nonexistent}
+  - [ZeOmega](./ZeOmega.html)
 
   - Others from last year? (DUXSoft has still not paid).
 
@@ -53,9 +58,8 @@
   - Delegate registration to doattend.com. Great job with Ruby Conf India
     - Will take this up, Shalin Jain who runs doattend.com is a good friend \~ kausikram
 
-- [WiFi](./WiFi.html){.nonexistent}
+- [WiFi](./WiFi.html)
 
-  - Let\'s hook in someone like [AirTel](./AirTel.html){.nonexistent}?
+  - Let\'s hook in someone like [AirTel](./AirTel.html)?
 
   - **Hire enterprise grade wireless routers** - Sriram from ThoughtWorks suggested this.
-:::

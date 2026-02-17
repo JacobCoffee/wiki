@@ -1,17 +1,22 @@
 # PyQt/Widgets in a layout
 
-::::: {#content dir="ltr" lang="en"}
-# Widgets in a layout {#Widgets_in_a_layout}
+```{admonition} Legacy Wiki Page
+:class: note
 
-This page contains the source code shown in the [Creating widgets and a layout](http://www.youtube.com/watch?v=YbqwW3p7tSA){.http} video on YouTube.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Widgets in a layout 
+
+This page contains the source code shown in the [Creating widgets and a layout](http://www.youtube.com/watch?v=YbqwW3p7tSA) video on YouTube.
 
 This shows basic widget creation, though most programs will tend to create and instantiate subclasses of QWidget or other widget classes for their main user interfaces.
 
-The code below uses version 4 of [PyQt](PyQt). For version 5, see for instance the [PyQt Widgets example on GitHub](https://github.com/pyqt/examples/tree/_/src/02%20PyQt%20Widgets){.https}.
+The code below uses version 4 of [PyQt](PyQt). For version 5, see for instance the [PyQt Widgets example on GitHub](https://github.com/pyqt/examples/tree/_/src/02%20PyQt%20Widgets).
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-748ede6639daa045dd02fdbecd02f19518ce6c7f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # [Create a window]
    2 
    3 import sys
@@ -53,4 +58,3 @@ The code below uses version 4 of [PyQt](PyQt). For version 5, see for instance t
 ```
 :::
 ::::
-:::::

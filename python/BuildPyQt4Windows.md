@@ -1,29 +1,34 @@
 # BuildPyQt4Windows
 
-:::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # The No-fuss Guide to Building PyQt on Windows XP
 
   --------- ------------------------------------------------------------------------------------------
   Date:     2007-07-11
-  Author:   Martin Blais \<[blais@furius.ca](mailto:blais@furius.ca){.mailto .reference .external}\>
+  Author:   Martin Blais \<[blais@furius.ca](mailto:blais@furius.ca)\>
   --------- ------------------------------------------------------------------------------------------
 
-::: {.abstract .topic}
+::: 
 Abstract
 
 This document contains instructions on building PyQt under Windows, using the pre-built binary version of Qt installed via its installer.
 :::
 
-:::: {#introduction .section}
+:::: 
 ### Introduction
 
 Typically, you want to built the PyQt snapshots when it is lagging a little bit behind the Qt release. When I wrote this document, I wanted to build PyQt for Qt-4.3.3 and there was no binary at that time.
 
-See this thread for more details: [http://www.mail-archive.com/pyqt%40riverbankcomputing.com/index.html#11081](http://www.mail-archive.com/pyqt%40riverbankcomputing.com/index.html#11081){.http .reference .external}
+See this thread for more details: [http://www.mail-archive.com/pyqt%40riverbankcomputing.com/index.html#11081](http://www.mail-archive.com/pyqt%40riverbankcomputing.com/index.html#11081)
 
 Note: follow these instructions to-the-letter. This is Windows. Any slight variation might throw you off.
 
-::: {#versions .section}
+::: 
 #### Versions
 
 This document is up-to-date for the following versions:
@@ -36,10 +41,10 @@ This document is up-to-date for the following versions:
 :::
 ::::
 
-::::::::: {#detailed-instructions .section}
+::::::::: 
 ### Detailed Instructions
 
-::: {#installing-qt .section}
+::: 
 #### Installing Qt
 
 - Grab the binary installer (.exe) for the latest Qt release on TrollTech\'s webpage.
@@ -48,13 +53,13 @@ This document is up-to-date for the following versions:
 This will place Qt in `C:\Qt\<version>` by default.
 :::
 
-::: {#installing-python .section}
+::: 
 #### Installing Python
 
 - Download the Python MSI binary from the python.org website and run it, and install it (typically in `C:\Python25\python.exe`).
 :::
 
-::: {#installing-mingw .section}
+::: 
 #### Installing MinGW
 
 You will need an install of MinGW that contains `mingw32-make.exe`. Install MinGW using the binaries from the MinGW website. I placed mine in `C:\MinGW`.
@@ -65,7 +70,7 @@ You will need an install of MinGW that contains `mingw32-make.exe`. Install MinG
       C:\MinGW\bin/g++.exe
 :::
 
-::: {#setting-up-for-build .section}
+::: 
 #### Setting up for Build
 
 You MUST use the `cmd.exe` shell, and not Cygwin\'s bash nor MinGW nor MKS not anything else.
@@ -80,7 +85,7 @@ Verify your PATH configuration by running these two commands:
     qmake -v
 :::
 
-::: {#building-and-installing-sip .section}
+::: 
 #### Building and Installing SIP
 
 - Download and unpack the SIP snapshot source for Windows.
@@ -101,7 +106,7 @@ This should install the following files in your Python library:
     C:\Python25\sip.exe
 :::
 
-::: {#building-and-installing-pyqt .section}
+::: 
 #### Building and Installing PyQt
 
 Using the same shell setup as above,
@@ -191,7 +196,7 @@ This should install the following files:
 :::
 :::::::::
 
-::: {#test-it .section}
+::: 
 ### Test It
 
 Run Python and import PyQt4 to test it:
@@ -203,4 +208,3 @@ Run Python and import PyQt4 to test it:
     >>> from sip import *
     >>> print SIP_VERSION_STR, QT_VERSION_STR, PYQT_VERSION_STR
 :::
-::::::::::::::

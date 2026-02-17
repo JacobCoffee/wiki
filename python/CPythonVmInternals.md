@@ -1,9 +1,14 @@
 # CPythonVmInternals
 
-::: {#content dir="ltr" lang="en"}
-# Some Pointers {#Some_Pointers}
+```{admonition} Legacy Wiki Page
+:class: note
 
-The most [relevant files](http://svn.python.org/view/python/trunk/Python/){.http} are:
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Some Pointers 
+
+The most [relevant files](http://svn.python.org/view/python/trunk/Python/) are:
 
 - ceval.\[ch\] (VM engine)
 
@@ -21,19 +26,19 @@ The most [relevant files](http://svn.python.org/view/python/trunk/Python/){.http
 
 Particularly useful pieces of documentation:
 
-- [Execution Model](http://docs.python.org/ref/execmodel.html){.http}
+- [Execution Model](http://docs.python.org/ref/execmodel.html)
 
-- [GIL](http://docs.python.org/api/threads.html){.http}
+- [GIL](http://docs.python.org/api/threads.html)
 
-- [Bytecodes](http://docs.python.org/lib/bytecodes.html){.http}
+- [Bytecodes](http://docs.python.org/lib/bytecodes.html)
 
-- [Disassembler](http://docs.python.org/lib/module-dis.html){.http}
+- [Disassembler](http://docs.python.org/lib/module-dis.html)
 
-# Notes on the implementation {#Notes_on_the_implementation}
+# Notes on the implementation 
 
 Unless otherwise noted, the source file in question is Python/ceval.c.
 
-## Control Flow {#Control_Flow}
+## Control Flow 
 
 The calling sequence is: main() (in python.c) -\> Py_Main() (main.c) -\> PyRun_FooFlags() (pythonrun.c) -\> run_bar() (pythonrun.c) -\> PyEval_EvalCode() (ceval.c) -\> PyEval_EvalCodeEx() (ceval.c) -\> PyEval_EvalFrameEx() (ceval.c).
 
@@ -41,23 +46,23 @@ PyRun_FooFlags() also calls PyParser_ASTFromQuux() to obtain an AST which run_ba
 
 EvalCodeEx() does some initialization (creating a new execution frame, argument processing, and some generator-specific stuff) before calling EvalFrameEx() which contains the main interpreter loop.
 
-## Threads {#Threads}
+## Threads 
 
 PyEval_InitThreads() initializes the GIL (interpreter_lock) and sets main_thread to the (threading package dependent) ID of the current thread. Thread state switching is done using PyThreadState_Swap(), which sets \_PyThreadState_Current (both defined in pystate.c) and PyThreadState_GET() (an alias for \_PyThreadState_Current) (pystate.h).
 
 The actual thread switching occurs by releasing the GIL (Python doesn\'t dispatch threads at all; it just releases the GIL, giving the operating system permission to wake up a different thread - which the operating system may or may not chose to do. After some time, the original thread will try to reacquire the GIL. Assuming the OS applies fairness, it will not get it back if a different thread was also waiting for it, so our thread will block - and **then** the OS will dispatch (at latest)). See *Periodic Tasks* below.
 
-## Async Callbacks {#Async_Callbacks}
+## Async Callbacks 
 
 Asynchronous callbacks can be registered by adding the function to be called to pendingcalls\[\] (see Py_AddPendingCall()). The state of this queue is communicated to the main loop via things_to_do.
 
-## State {#State}
+## State 
 
 The global state is recorded in a (per-process) PyInterpreterState struct and a per-thread PyThreadState struct. In principle, multiple interpreter states are supported per process (and the current interpreter is identified by thread). However, there are many limitations and quirks in the multiple-interpreter code.
 
 Each execution frame\'s state is contained in that frame\'s PyFrameObject (which includes the instruction stream, the environment (globals, locals, builtins, etc.), the value stack and so forth). EvalFrameEx()\'s local variables are initialized from this frame object. A lot of stuff also lives on the regular C stack, which exists in parallel to the frame object stack.
 
-## Instruction Stream {#Instruction_Stream}
+## Instruction Stream 
 
 The instruction stream looks as follows (c.f. assemble_emit() in compile.c and dis.py for the inverse operation): A byte stream where each instruction consists of either
 
@@ -65,7 +70,7 @@ The instruction stream looks as follows (c.f. assemble_emit() in compile.c and d
 - a single byte opcode plus a two-byte immediate argument: OP LO HI
 - a special opcode followed by the first two bytes of the argument, followed by the real opcode and the remaining two bytes of the argument: EXTENDED_ARG ARG ARG OP ARG ARG
 
-## Opcode Prediction {#Opcode_Prediction}
+## Opcode Prediction 
 
 One neat trick used to speed up opcode dispatch is the following: Using the macros PREDICT() and PREDICTED() it is sometimes possible to jump directly to the code implementing the next instruction rather than having to go through the whole loop preamble, e.g.
 
@@ -89,9 +94,9 @@ One neat trick used to speed up opcode dispatch is the following: Using the macr
     case BAR:
           // ...
 
-## Main Loop {#Main_Loop}
+## Main Loop 
 
-### Variables and macros used in EvalFrameEx() {#Variables_and_macros_used_in_EvalFrameEx.28.29}
+### Variables and macros used in EvalFrameEx() 
 
 The value stack:
 
@@ -128,7 +133,7 @@ Finally, there are some more PyObject \*\'s (v, w, u, and so forth, used as temp
 
       PyObject *retval;
 
-### Basic structure {#Basic_structure}
+### Basic structure 
 
     EvalFrameEx() {
         why = WHY_NOT;
@@ -172,7 +177,7 @@ Finally, there are some more PyObject \*\'s (v, w, u, and so forth, used as temp
         return retval;
     }
 
-### Periodic Tasks {#Periodic_Tasks}
+### Periodic Tasks 
 
 By checking and decrementing \_Py_Ticker, the main loop executes certain tasks once every \_Py_CheckInterval iterations (in fact Py_AddPendingCall() sets \_Py_Ticker to zero, ensuring that pending calls are executed right after the next instruction which doesn\'t jump to fast_next_opcode):
 
@@ -180,7 +185,7 @@ By checking and decrementing \_Py_Ticker, the main loop executes certain tasks o
 
 - The GIL is releases and re-acquired, giving other threads a chance to run.
 
-### Instruction implementation {#Instruction_implementation}
+### Instruction implementation 
 
 Some general notes:
 
@@ -196,7 +201,7 @@ Some general notes:
 
 - err is used as a general \"error occurred\" flag, both inside the code implementing an opcode and \"globally\" for the entire loop.
 
-### Nested blocks {#Nested_blocks}
+### Nested blocks 
 
 Nested loop and try blocks are handled as follows: Each frame maintains a block stack; when entering a nested block, a SETUP\_\* instruction adds a PyTryBlock to the PyFrameObject\'s f_blockstack and registers that block\'s type (instruction which created the block), handler (offset into the instruction stream) and level (value stack level before the nested block was entered).
 
@@ -206,9 +211,8 @@ If a block is exited abnormally (e.g. a break instruction), the code following f
 
 See also the comments in compile.c (compiler_try_finally()) which include nice ASCII art diagrams.
 
-### Error handling {#Error_handling}
+### Error handling 
 
 Internal errors (bad oparg, say) generally result in why being set to WHY_EXCEPTION and breaking out of the switch (if the code implementing the instruction doesn\'t set why, the code after on_error will).
 
 The code following fast_block_end will jump to the correct exception handler and set the global exception related variables (exception information is stored in the current execution frame and the thread state. See set_exc_info() and reset_exc_info()).
-:::

@@ -1,7 +1,12 @@
 # WebwareSprint
 
-::: {#content dir="ltr" lang="en"}
-# Sprinters: {#Sprinters:}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Sprinters: 
 
 Add your name to this list if you\'re considering sprinting on Webware. Put \"definitely\", \"probably\", or \"maybe\" in parens next to your name so we\'ll have a rough idea of how many bibs to get for the lobster dinner.
 
@@ -11,19 +16,19 @@ That\'s a joke. There\'s no lobster dinner. Unless we will it to be so.
 - Mike Orr (definitely)
 - Ian Bicking (definitely)
 
-# Sprint Topic Discussion: {#Sprint_Topic_Discussion:}
+# Sprint Topic Discussion: 
 
 There\'s no consensus yet on what, precisely, we\'ll be working on, but I know I\'ve a personal bias towards [MiddleKit](MiddleKit) enhancements, DAVKit enhancements, and bringing [UserKit](UserKit) out of its alpha-ness.
 
-Feel free to contact me (Tripp Lilley, [tripp+pycon-webware-sprint@perspex.com](mailto:tripp+pycon-webware-sprint@perspex.com){.mailto}) directly about the sprint topics, or, better yet, post to webware-devel.
+Feel free to contact me (Tripp Lilley, [tripp+pycon-webware-sprint@perspex.com](mailto:tripp+pycon-webware-sprint@perspex.com)) directly about the sprint topics, or, better yet, post to webware-devel.
 
 Note that, by design, sprints are \"not intended for newbies\". That doesn\'t mean newbies aren\'t welcome, it just means that our focus is going to be on enhancing the code, not teaching the code.
 
-Now, with that said, I\'m rusty on the code ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} I expect that I\'ll personally spend at least some portion of my sprint time fleshing out and diagramming Webware\'s architecture, bringing up to date some of the earlier work by Chuck, Ian, and others.
+Now, with that said, I\'m rusty on the code ![:)](/wiki/europython/img/smile.png ":)") I expect that I\'ll personally spend at least some portion of my sprint time fleshing out and diagramming Webware\'s architecture, bringing up to date some of the earlier work by Chuck, Ian, and others.
 
-I expect this exercise would be helpful to those who haven\'t yet peered deeply inside Webware\'s source, but would like to. So, uh, newbies *are*, in fact, welcome to this particular sprint ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+I expect this exercise would be helpful to those who haven\'t yet peered deeply inside Webware\'s source, but would like to. So, uh, newbies *are*, in fact, welcome to this particular sprint ![:)](/wiki/europython/img/smile.png ":)")
 
-\-- [TrippLilley](./TrippLilley.html){.nonexistent}
+\-- [TrippLilley](./TrippLilley.html)
 
 ------------------------------------------------------------------------
 
@@ -43,23 +48,22 @@ Lastly, we could actually develop an application. I think it would be really nic
 
 ------------------------------------------------------------------------
 
-It would be wonderful to have some work on [MiddleKit](MiddleKit) and [UserKit](UserKit) during the spring. Patrick Giagnocavo of [http://www.zill.net/](http://www.zill.net/){.http} has been very supportive of webware hosting. His service is Postgres-based, so it would be great to have the various Postgres patches at source-forge rolled into the mainstream releases.
+It would be wonderful to have some work on [MiddleKit](MiddleKit) and [UserKit](UserKit) during the spring. Patrick Giagnocavo of [http://www.zill.net/](http://www.zill.net/) has been very supportive of webware hosting. His service is Postgres-based, so it would be great to have the various Postgres patches at source-forge rolled into the mainstream releases.
 
-A second feature for Middlekit would be the ability to store [MiddleKit](MiddleKit) objects in session, and not have things run amok if the session is flushed to disk. Jason Hildebrand has some ideas on making [MiddleKit](MiddleKit) objects sessionable at [http://webware.colorstudy.net/twiki/bin/view/Webware/MiddleKitAndWebKit](http://webware.colorstudy.net/twiki/bin/view/Webware/MiddleKitAndWebKit){.http}.
+A second feature for Middlekit would be the ability to store [MiddleKit](MiddleKit) objects in session, and not have things run amok if the session is flushed to disk. Jason Hildebrand has some ideas on making [MiddleKit](MiddleKit) objects sessionable at [http://webware.colorstudy.net/twiki/bin/view/Webware/MiddleKitAndWebKit](http://webware.colorstudy.net/twiki/bin/view/Webware/MiddleKitAndWebKit).
 
 I\'d also second Ian\'s ideas on [UserKit](UserKit).
 
-There\'s only one source-code repository on [http://www.freshmeat.net](http://www.freshmeat.net){.http} at this point (Scriptorium). An application that would facilitate code-reuse and code-harvesting might be a great sample application - not trivial, yet not overly complicated.
+There\'s only one source-code repository on [http://www.freshmeat.net](http://www.freshmeat.net) at this point (Scriptorium). An application that would facilitate code-reuse and code-harvesting might be a great sample application - not trivial, yet not overly complicated.
 
 \-- [KevinDahlhausen](KevinDahlhausen)
 
 ------------------------------------------------------------------------
 
-I\'d be most interested in outlining/documenting the code, or in designing a CMS spec, but I\'ll do anything. I haven\'t looked at the Webware code base closely, since I\'ve been using [WebwareExperimental](./WebwareExperimental.html){.nonexistent} and my development time has been focused on Cheetah.
+I\'d be most interested in outlining/documenting the code, or in designing a CMS spec, but I\'ll do anything. I haven\'t looked at the Webware code base closely, since I\'ve been using [WebwareExperimental](./WebwareExperimental.html) and my development time has been focused on Cheetah.
 
-\-- [MikeOrr](./MikeOrr.html){.nonexistent}
+\-- [MikeOrr](./MikeOrr.html)
 
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon)
-:::

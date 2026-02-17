@@ -1,9 +1,14 @@
 # evangelism support materials
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 See also [PromotingPythonBof](PromotingPythonBof) and [Advocacy](Advocacy).
 
-[PSF](http://www.python.org/psf){.http} chairman [Stephan Deibel](StephanDeibel) aptly observed that these are \"needed:
+[PSF](http://www.python.org/psf) chairman [Stephan Deibel](StephanDeibel) aptly observed that these are \"needed:
 
 - Slides / notes for presentation overviewing the PSF (I have some very simple slides I can provide as a start to whoever takes this on, and can help but can\'t lead this)
 
@@ -13,11 +18,11 @@ See also [PromotingPythonBof](PromotingPythonBof) and [Advocacy](Advocacy).
 
 - Possibly, printable handouts and other supplementary materials\". Some notes on this are on the [PsfMaterials](PsfMaterials) page.
 
-This [Wiki](http://wiki.python.org/moin/){.http} page is where we\'ll start to flesh out Stephan\'s outline. Note, for example, AMK\'s [slides for a talk on the Python development process](http://www.amk.ca/talks/python-dev/){.http}.
+This [Wiki](http://wiki.python.org/moin/) page is where we\'ll start to flesh out Stephan\'s outline. Note, for example, AMK\'s [slides for a talk on the Python development process](http://www.amk.ca/talks/python-dev/).
 
 ------------------------------------------------------------------------
 
-Here is the outline from my slides (the ones I attempted to show at [PyCon](PyCon) 2005 except my laptop didn\'t work w/ the projector). The slides are also available in [Powerpoint format](http://www.python.org/psf/psf-overview.ppt){.http} and [OpenOffice format](http://www.python.org/psf/psf-overview.sxi){.http}:
+Here is the outline from my slides (the ones I attempted to show at [PyCon](PyCon) 2005 except my laptop didn\'t work w/ the projector). The slides are also available in [Powerpoint format](http://www.python.org/psf/psf-overview.ppt) and [OpenOffice format](http://www.python.org/psf/psf-overview.sxi):
 
 \* Cover Page:
 
@@ -25,7 +30,7 @@ Here is the outline from my slides (the ones I attempted to show at [PyCon](PyCo
 
 - Founded 2001
 
-- [http://python.org/psf](http://python.org/psf){.http}
+- [http://python.org/psf](http://python.org/psf)
 
 \* What is the PSF? (Slide 1)
 
@@ -60,17 +65,17 @@ Here is the outline from my slides (the ones I attempted to show at [PyCon](PyCo
 
 \* What can I do?
 
-- Donate: [http://python.org/psf/donations](http://python.org/psf/donations){.http} Tax deductible!
+- Donate: [http://python.org/psf/donations](http://python.org/psf/donations) Tax deductible!
 
-- Sponsor: [http://python.org/psf/sponsors](http://python.org/psf/sponsors){.http}
+- Sponsor: [http://python.org/psf/sponsors](http://python.org/psf/sponsors)
 
-- Volunteer: [http://python.org/psf/volunteer](http://python.org/psf/volunteer){.http}
+- Volunteer: [http://python.org/psf/volunteer](http://python.org/psf/volunteer)
 
 - Advocate
 
 ------------------------------------------------------------------------
 
-[MAL](http://freshmeat.net/~lemburg/){.http} writes: \"
+[MAL](http://freshmeat.net/~lemburg/) writes: \"
 
 - How you would benefit from using Python
   - better time-to-market
@@ -104,15 +109,14 @@ AMK observes that, \"It might be worth creating a customized version of the S5 s
 
 ------------------------------------------------------------------------
 
-Also available, on request: both Stephan (through the [psf-volunteers](http://mail.python.org/mailman/listinfo/psf-volunteers){.http} list) and evangelism support materials czar [Cameron Laird](http://python.org/moin/CameronLaird){.http} maintain a list of volunteers at least occasionally available to speak on Python, sorted by locale (DC, Seattle, Texas, Central America, and so on).
+Also available, on request: both Stephan (through the [psf-volunteers](http://mail.python.org/mailman/listinfo/psf-volunteers) list) and evangelism support materials czar [Cameron Laird](http://python.org/moin/CameronLaird) maintain a list of volunteers at least occasionally available to speak on Python, sorted by locale (DC, Seattle, Texas, Central America, and so on).
 
 ------------------------------------------------------------------------
 
-Other highlights I want to elaborate: [Pythonology](http://pythonology.org){.http}; language comparisons; presentation tips; PBF \...; Greg\'s eShop story; \...
+Other highlights I want to elaborate: [Pythonology](http://pythonology.org); language comparisons; presentation tips; PBF \...; Greg\'s eShop story; \...
 
 (also, more hyperlinks)
 
 ------------------------------------------------------------------------
 
 [CategoryAdvocacy](CategoryAdvocacy)
-:::

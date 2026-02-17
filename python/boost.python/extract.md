@@ -1,9 +1,14 @@
 # boost.python/extract
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 extractor interface which can be used to extract C++ types from Python objects.
 
-From the [extract boost.python reference documentation](http://www.boost.org/doc/libs/1_48_0/libs/python/doc/v2/extract.html){.http}: \"Exposes a mechanism for extracting C++ object values from generalized Python objects. Note that extract\<\...\> can also be used to \"downcast\" an object to some specific ObjectWrapper. Because invoking a mutable python type with an argument of the same type (e.g. list(\[1,2\]) typically makes a copy of the argument object, this may be the only way to access the ObjectWrapper\'s interface on the original object.\"
+From the [extract boost.python reference documentation](http://www.boost.org/doc/libs/1_48_0/libs/python/doc/v2/extract.html): \"Exposes a mechanism for extracting C++ object values from generalized Python objects. Note that extract\<\...\> can also be used to \"downcast\" an object to some specific ObjectWrapper. Because invoking a mutable python type with an argument of the same type (e.g. list(\[1,2\]) typically makes a copy of the argument object, this may be the only way to access the ObjectWrapper\'s interface on the original object.\"
 
 We have discussed two main use cases for extractions
 
@@ -40,7 +45,7 @@ b.  Using extract to modify mutable objects in place
           bp::dict dictobj = bp::extract<bp::dict>(__dict__);
           dictobj["whatever"] = 3;          // modifies pyobj __dict___!
 
-      (see also [Boost.Python tutorial: Extracting C++ objects](http://www.boost.org/doc/libs/1_48_0/libs/python/doc/tutorial/doc/html/python/object.html#python.extracting_c___objects){.http})
+      (see also [Boost.Python tutorial: Extracting C++ objects](http://www.boost.org/doc/libs/1_48_0/libs/python/doc/tutorial/doc/html/python/object.html#python.extracting_c___objects))
 
       Note: You could also fall back to using the Python C-API to modify `__dict__`:
 
@@ -74,4 +79,3 @@ c.  Example for extracting elements out of more complex structures: In order to 
           }
 
 2\. In the implementation of sequence from_python converters (e.g. Python tuple/list -\> std::vector)
-:::

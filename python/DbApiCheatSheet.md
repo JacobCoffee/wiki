@@ -1,6 +1,11 @@
 # DbApiCheatSheet
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Some quick syntax reminders for common tasks using DB-API2 modules.
 
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -12,11 +17,11 @@ Some quick syntax reminders for common tasks using DB-API2 modules.
 
   GUI tool             pgadmin3                                                                                                                                                      mysql-admin                                                                              sqldeveloper                                                                                                                                                                                                                          
 
-  install module       easy_install psycopg2                                                                         included in Python 2.5 standard library                         easy_install mysql-python or apt-get install python-mysqldb                              easy_install cx_oracle (but see [note](http://catherinedevlin.blogspot.com/2007/10/cxoracle-and-oracle-xe-on-ubuntu.html){.http .reference .external})                                                                                
+  install module       easy_install psycopg2                                                                         included in Python 2.5 standard library                         easy_install mysql-python or apt-get install python-mysqldb                              easy_install cx_oracle (but see [note](http://catherinedevlin.blogspot.com/2007/10/cxoracle-and-oracle-xe-on-ubuntu.html))                                                                                
 
   import               from psycopg2 import \*                                                                       from sqlite3 import \*                                          from MySQLdb import \*                                                                   from cx_Oracle import \*                                                                                                                                                                                                              
 
-  connect              conn = connect(\"dbname=\'testdb\' user=\'me\' host=\'localhost\' password=\'mypassword\'")   conn = connect(\'mydb.sqlite\') or conn=connect(\':memory:\')   conn = connect (host=\"localhost\", db=\"testdb\", user=\"me\", passwd=\"mypassword\")   conn=connect([\'scott/tiger@xe](mailto:'scott/tiger@xe){.mailto .reference .external}\')                                                                 conn = odbc.odbc(\'DBALIAS\') or odbc.odbc(\'DBALIAS/USERNAME/PASSWORD\')    
+  connect              conn = connect(\"dbname=\'testdb\' user=\'me\' host=\'localhost\' password=\'mypassword\'")   conn = connect(\'mydb.sqlite\') or conn=connect(\':memory:\')   conn = connect (host=\"localhost\", db=\"testdb\", user=\"me\", passwd=\"mypassword\")   conn=connect([\'scott/tiger@xe](mailto:'scott/tiger@xe)\')                                                                 conn = odbc.odbc(\'DBALIAS\') or odbc.odbc(\'DBALIAS/USERNAME/PASSWORD\')    
 
   get cursor           curs = conn.cursor()                                                                          curs = conn.cursor()                                            curs = conn.cursor()                                                                     curs = conn.cursor()                                                                                                                                                                                                                  
 
@@ -29,5 +34,4 @@ Some quick syntax reminders for common tasks using DB-API2 modules.
   commit               conn.commit() (required)                                                                      conn.commit() (required)                                        conn.commit() (required)                                                                 conn.commit() (required)                                                                                                                                                                                                              
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-See also [DbApiModuleComparison](DbApiModuleComparison){.reference .external}, [DatabaseProgramming](DatabaseProgramming){.reference .external}
-:::
+See also [DbApiModuleComparison](DbApiModuleComparison), [DatabaseProgramming](DatabaseProgramming)

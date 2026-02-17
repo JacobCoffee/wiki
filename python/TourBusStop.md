@@ -1,17 +1,22 @@
 # TourBusStop
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This is the **PYTHON INFO** bus stop. This wiki is hosted at python.org and is a community site for users of **Python**, an interpreted, interactive, object-oriented programming language. Take your time to look around.
 
-![](http://www.wikiservice.at/image/wikibus.jpg "http://www.wikiservice.at/image/wikibus.jpg"){.external_image}
+![](http://www.wikiservice.at/image/wikibus.jpg "http://www.wikiservice.at/image/wikibus.jpg")
 
 The buses\...
 
 ::: {}
   ------------ ------------------------------------------- -------------------------------------------------------------------------------------------------
   **Bus \#**   **Tour**                                    **Next stop**
-  42           **SOFTWARE-DEVELOPER-TOUR**                 EclipseWiki *Detour: [WIKICENTRAL](http://c2.com/cgi/wiki?TourBusStop){.http} (terminus)*
-  101          **[MoinMoin](MoinMoin) Wiki Tour**   #C++ Wiki *Detour: [PersonalTelco](http://wiki.personaltelco.net/index.cgi/TourBusStop){.http}*
+  42           **SOFTWARE-DEVELOPER-TOUR**                 EclipseWiki *Detour: [WIKICENTRAL](http://c2.com/cgi/wiki?TourBusStop) (terminus)*
+  101          **[MoinMoin](MoinMoin) Wiki Tour**   #C++ Wiki *Detour: [PersonalTelco](http://wiki.personaltelco.net/index.cgi/TourBusStop)*
   ------------ ------------------------------------------- -------------------------------------------------------------------------------------------------
 :::
 
@@ -35,11 +40,10 @@ The buses\...
 
 ------------------------------------------------------------------------
 
-In case of questions or problems: turn to the [BusManagement](http://www.usemod.com/cgi-bin/mb.pl?BusManagement "MeatBall"){.interwiki}
+In case of questions or problems: turn to the [BusManagement](http://www.usemod.com/cgi-bin/mb.pl?BusManagement "MeatBall")
 
-![\<!\>](/wiki/europython/img/attention.png "<!>"){height="16" width="16"} Detours: [TourBusMap](http://www.usemod.com/cgi-bin/mb.pl?TourBusMap "MeatBall"){.interwiki}
+![\<!\>](/wiki/europython/img/attention.png "<!>") Detours: [TourBusMap](http://www.usemod.com/cgi-bin/mb.pl?TourBusMap "MeatBall")
 
 ------------------------------------------------------------------------
 
-[CategoryBus](./CategoryBus.html){.nonexistent}
-::::
+[CategoryBus](./CategoryBus.html)

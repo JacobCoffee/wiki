@@ -1,9 +1,14 @@
 # JimD
 
-::: {#content dir="ltr" lang="en"}
-## Jim Dennis {#Jim_Dennis}
+```{admonition} Legacy Wiki Page
+:class: note
 
-### Is it a sin? {#Is_it_a_sin.3F}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Jim Dennis 
+
+### Is it a sin? 
 
 A colleague has recently been thrust into Python programming because we needed to create our own tools around some of the Opsware tools and using their APIs. He recently posed a question: *Is it a sin to not to include `if __name__ == '__main__':` in a Python file?*
 
@@ -37,4 +42,3 @@ Email: `<aswrguy AT SPAMFREE gmail DOT com>`
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

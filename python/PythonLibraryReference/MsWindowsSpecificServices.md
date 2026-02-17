@@ -1,6 +1,11 @@
 # PythonLibraryReference/MsWindowsSpecificServices
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [Python Library Reference](PythonLibraryReference)
 
 ::: {}
@@ -9,7 +14,7 @@
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-# MS Windows Specific Services {#MS_Windows_Specific_Services}
+# MS Windows Specific Services 
 
 22.1 msvcrt - Useful routines from the MS VC++ runtime
 
@@ -19,9 +24,8 @@
 
 22.3 winsound \-- Sound-playing interface for Windows
 
-## Comments {#Comments}
+## Comments 
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-::::

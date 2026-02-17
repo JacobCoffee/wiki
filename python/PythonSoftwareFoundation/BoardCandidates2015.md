@@ -1,6 +1,11 @@
 # PythonSoftwareFoundation/BoardCandidates2015
 
-::::::::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Candidates for the 2015 PSF Board of Directors
 
 The following people have been nominated as Directors of the Python Software Foundation for the term beginning in May 2015. Their self-written summaries follow.
@@ -11,7 +16,7 @@ The specific dates of relevance to the election are:
 
   Announcement of a new election via a blogpost and an email to the voting members.
 
-- [2015-05-15 23:59:59 UTC-12](http://www.timeanddate.com/worldclock/fixedtime.html?msg=Nomination+Deadline&iso=2015-05-15T23:59:59&p1=3926){.http .reference .external}:
+- [2015-05-15 23:59:59 UTC-12](http://www.timeanddate.com/worldclock/fixedtime.html?msg=Nomination+Deadline&iso=2015-05-15T23:59:59&p1=3926):
 
   Nominations and voting eligibility closes for the upcoming board election. The list of voting members is updated.
 
@@ -19,54 +24,54 @@ The specific dates of relevance to the election are:
 
   Ballots are sent out to voting members.
 
-- [2015-05-30 23:59:59 UTC-12](http://www.timeanddate.com/worldclock/fixedtime.html?msg=Election+Closes&iso=2015-05-30T23:59:59&p1=3926){.http .reference .external}:
+- [2015-05-30 23:59:59 UTC-12](http://www.timeanddate.com/worldclock/fixedtime.html?msg=Election+Closes&iso=2015-05-30T23:59:59&p1=3926):
 
   Election closes.
 
-The above closing times are given in the [\"Anywhere on Earth\" (AOE) timezone](http://en.wikipedia.org/wiki/Anywhere_on_Earth){.http .reference .external}.
+The above closing times are given in the [\"Anywhere on Earth\" (AOE) timezone](http://en.wikipedia.org/wiki/Anywhere_on_Earth).
 
 There are currently 11 seats on the Board of Directors (last changed in the 2012 PSF Members vote).
 
-::: {#nominees .contents .topic}
+::: 
 Nominees
 
-- [Carrie Anne Philbin](#carrie-anne-philbin){#id1 .reference .internal}
-- [Marc-Andre Lemburg](#marc-andre-lemburg){#id2 .reference .internal}
-- [Alex Gaynor](#alex-gaynor){#id3 .reference .internal}
-- [Alyssa Coghlan](#alyssa-coghlan){#id4 .reference .internal}
-- [Kushal Das](#kushal-das){#id5 .reference .internal}
-- [Berker Peksag](#berker-peksag){#id6 .reference .internal}
-- [Stéphane Wirtel](#stephane-wirtel){#id7 .reference .internal}
-- [Philip James](#philip-james){#id8 .reference .internal}
-- [Ashwini Oruganti](#ashwini-oruganti){#id9 .reference .internal}
-- [Ruben Orduz](#ruben-orduz){#id10 .reference .internal}
-- [Mathieu Virbel](#mathieu-virbel){#id11 .reference .internal}
-- [Lynn Root](#lynn-root){#id12 .reference .internal}
-- [Anna Ossowski](#anna-ossowski){#id13 .reference .internal}
-- [Diana Clarke](#diana-clarke){#id14 .reference .internal}
-- [Naomi Ceder](#naomi-ceder){#id15 .reference .internal}
-- [Van Lindberg](#van-lindberg){#id16 .reference .internal}
-- [Ezio Melotti](#ezio-melotti){#id17 .reference .internal}
-- [Riaz Moola](#riaz-moola){#id18 .reference .internal}
-- [Roberto Rosario](#roberto-rosario){#id19 .reference .internal}
-- [Carol Willing](#carol-willing){#id20 .reference .internal}
-- [Adria Richards](#adria-richards){#id21 .reference .internal}
-- [Jackie Kazil](#jackie-kazil){#id22 .reference .internal}
-- [Kenneth Love](#kenneth-love){#id23 .reference .internal}
-- [Claudiu Popa](#claudiu-popa){#id24 .reference .internal}
+- [Carrie Anne Philbin](#carrie-anne-philbin)
+- [Marc-Andre Lemburg](#marc-andre-lemburg)
+- [Alex Gaynor](#alex-gaynor)
+- [Alyssa Coghlan](#alyssa-coghlan)
+- [Kushal Das](#kushal-das)
+- [Berker Peksag](#berker-peksag)
+- [Stéphane Wirtel](#stephane-wirtel)
+- [Philip James](#philip-james)
+- [Ashwini Oruganti](#ashwini-oruganti)
+- [Ruben Orduz](#ruben-orduz)
+- [Mathieu Virbel](#mathieu-virbel)
+- [Lynn Root](#lynn-root)
+- [Anna Ossowski](#anna-ossowski)
+- [Diana Clarke](#diana-clarke)
+- [Naomi Ceder](#naomi-ceder)
+- [Van Lindberg](#van-lindberg)
+- [Ezio Melotti](#ezio-melotti)
+- [Riaz Moola](#riaz-moola)
+- [Roberto Rosario](#roberto-rosario)
+- [Carol Willing](#carol-willing)
+- [Adria Richards](#adria-richards)
+- [Jackie Kazil](#jackie-kazil)
+- [Kenneth Love](#kenneth-love)
+- [Claudiu Popa](#claudiu-popa)
 :::
 
 ::: topic
 Links
 
-- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html){.reference .external}
-- [2014 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2014.html){.reference .external}
-- [2013 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2013.html){.reference .external}
-- [2012 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2012.html){.reference .external}
-- [2011 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2011.html){.reference .external}
-- [2010 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html){.reference .external}
-- [2009 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2009.html){.reference .external}
-- [2008 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2008.html){.reference .external}
+- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html)
+- [2014 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2014.html)
+- [2013 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2013.html)
+- [2012 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2012.html)
+- [2011 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2011.html)
+- [2010 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html)
+- [2009 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2009.html)
+- [2008 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2008.html)
 :::
 
 **Registering as a PSF Board candidate**
@@ -77,10 +82,10 @@ While the overall time commitment will vary based on whether or not a Board memb
 
 Please note that the PSF bylaws require that Board candidates disclose significant organizational affiliations (for example, their employer).
 
-::: {.admonition .note}
+::: 
 Note
 
-Please follow the instructions on the [FrontPage](FrontPage){.reference .external} to gain wiki edit access.
+Please follow the instructions on the [FrontPage](FrontPage) to gain wiki edit access.
 :::
 
 **Registering to vote on PSF ballots**
@@ -93,88 +98,88 @@ While PSF Membership is open to anyone that chooses to join, Basic Members are n
 - PSF Fellows
 - Sponsor Delegates for Sponsor Members
 
-To register as a Managing or Contributing member, refer to [this post](http://pyfound.blogspot.com.au/2015/02/enroll-as-psf-voting-member.html){.http .reference .external} on the PSF blog.
+To register as a Managing or Contributing member, refer to [this post](http://pyfound.blogspot.com.au/2015/02/enroll-as-psf-voting-member.html) on the PSF blog.
 
-To register as a Supporting Member, please use the [PSF Associate Membership site](https://psfmember.org/){.https .reference .external}.
+To register as a Supporting Member, please use the [PSF Associate Membership site](https://psfmember.org/).
 
 PSF Fellows and Sponsor Members must themselves be approved through a PSF ballot, and thus only existing Fellows and Sponsor Delegates will be entitled to vote on the upcoming ballot.
 
 ------------------------------------------------------------------------
 
-::: {#carrie-anne-philbin .section}
-### [Carrie Anne Philbin](#id1){.toc-backref}
+::: 
+### [Carrie Anne Philbin](#id1)
 
 *New Board Member.*
 
 I\'m an award winning secondary Computing & ICT Teacher, Author, and YouTuber from the UK. I currently lead the education mission for the Raspberry Pi Foundation. I am the author of \'Adventures in Raspberry Pi\' a computing book for teenagers wanting to get started with Raspberry Pi and programming (including Python). Winner of Teach Secondary magazine\'s Technology & Innovation Best Author award 2014 and Talk Talk\'s Digital Hero Award in 2013.
 
-In 2011 I started a journey from teaching an uninspiring curriculum that showed young people how to consume technology to leading the Raspberry Pi Foundation\'s education mission to advance the education of adults and children in the fields of computing, computer science and related subjects. This would not have been possible without the Python community. I talked about this in my Pycon UK keynote called \'Miss-adventures in Raspberry Pi\' which you can watch [here](https://www.youtube.com/watch?v=VjPLKsz6C_4){.https .reference .external}. I think this gives some insight into what drives me. This year I\'ll be giving talks at both EuroPython and Pycon Australia, as both conferences begin to introduce education mini conferences.
+In 2011 I started a journey from teaching an uninspiring curriculum that showed young people how to consume technology to leading the Raspberry Pi Foundation\'s education mission to advance the education of adults and children in the fields of computing, computer science and related subjects. This would not have been possible without the Python community. I talked about this in my Pycon UK keynote called \'Miss-adventures in Raspberry Pi\' which you can watch [here](https://www.youtube.com/watch?v=VjPLKsz6C_4). I think this gives some insight into what drives me. This year I\'ll be giving talks at both EuroPython and Pycon Australia, as both conferences begin to introduce education mini conferences.
 
 For possibly the first time, the UK is leading the way in transforming the education curriculum, introducing computer science at the age of 5 and forms an integral part of learning throughout a child\'s school life. I believe that Python has the potential to be the text based programming language used in education worldwide. It is rapidly becoming the language of choice in schools across the UK. The Python community has been at the heart of this, creating free and open libraries that make computing accessible, and more importantly creative and fun. Two stand out examples would be the RPi.GPIO library, and Minecraft Pi API. The first, RPi.GPIO was created so that the GPIO pins on a Raspberry Pi could be programmed with Python, initially to brew beer, but quickly adopted by makers and educators and now forms an integral part of the Foundation\'s free learning resources. The Minecraft Pi API allows anyone to program something to happen in the minecraft world with Python. Want to make a house appear, rather than building one? A few lines of code makes this happen. Want that house to follow you around the map, a few more lines of code will make that happen. I can\'t think of any tool more powerful to hook children\'s playful, imaginative and creative minds.
 
 This is a great starting point, but I\'d like to serve the PSF to help highlight great python education projects but also highlight where support is needed by the community. I\'d like to help foster a wider conversation between industry experts, programmers and educators. I\'d like to bring more teachers into the PSF.
 
-I am the creator of a YouTube video series for teenage girls called The [Geek Gurl Diaries](http://www.geekgurldiaries.co.uk/){.http .reference .external}. The episodes include interviews with women working in technology and hands on computer science based tutorials to inspire young people, particularly girls into STEM subjects and hopefully careers. In my role as Vice-Chair of Computing At Schools diversity initiative called [#include](http://casinclude.org.uk/){.http .reference .external}, I help to organise and run conferences and hack days for teachers and industry experts to make computer science accessible to all regardless of gender, ethnicity, social economic status, special educational needs or disability. I would like to bring what I\'ve learned from this experience to support the PSF.
+I am the creator of a YouTube video series for teenage girls called The [Geek Gurl Diaries](http://www.geekgurldiaries.co.uk/). The episodes include interviews with women working in technology and hands on computer science based tutorials to inspire young people, particularly girls into STEM subjects and hopefully careers. In my role as Vice-Chair of Computing At Schools diversity initiative called [#include](http://casinclude.org.uk/), I help to organise and run conferences and hack days for teachers and industry experts to make computer science accessible to all regardless of gender, ethnicity, social economic status, special educational needs or disability. I would like to bring what I\'ve learned from this experience to support the PSF.
 
 Affiliation: Raspberry Pi Foundation
 :::
 
 ------------------------------------------------------------------------
 
-::: {#marc-andre-lemburg .section}
-### [Marc-Andre Lemburg](#id2){.toc-backref}
+::: 
+### [Marc-Andre Lemburg](#id2)
 
 *2014 Board Member.*
 
-You may know me as Python Core Developer. I have designed and implemented the [Unicode integration and codecs for Python](https://www.python.org/dev/peps/pep-0100/){.https .reference .external} and maintained it for more than a decade, among several other things in CPython.
+You may know me as Python Core Developer. I have designed and implemented the [Unicode integration and codecs for Python](https://www.python.org/dev/peps/pep-0100/) and maintained it for more than a decade, among several other things in CPython.
 
-More details about myself and what I\'ve done for the Python community since I joined it in 1993/1994 are available on my [wiki home page](MarcAndreLemburg){.reference .external}.
+More details about myself and what I\'ve done for the Python community since I joined it in 1993/1994 are available on my [wiki home page](MarcAndreLemburg).
 
 I am a founding Fellow of the PSF, have been PSF board member in the years 2002-2004 and then again since 2010.
 
 These are the things I\'d like to focus on for the 2015/2016 term:
 
-- integrate the PSF more into the global Python community and make it\'s organizational structures more diverse and international to better represent the community than it does today (see [Python Events Calendars](http://wiki.python.org/moin/PythonEventsCalendar){.http .reference .external} for a map showing how our community is structured)
+- integrate the PSF more into the global Python community and make it\'s organizational structures more diverse and international to better represent the community than it does today (see [Python Events Calendars](http://wiki.python.org/moin/PythonEventsCalendar) for a map showing how our community is structured)
 - help (re)create a friendly, cheerful and open PSF community, where people can share their projects, ask for help, get others excited or simply hang out, without having to deal with the formalisms that come with a large organization such as the PSF
 - make more use of the new PSF work group setup and work out the organizational details for this, to give more members a chance to actively participate in and use the PSF\'s resources to bring Python forward
-- create a marketing work group to (a) develop a more diverse marketing strategy for Python which doesn\'t only focus on developers, (b) create more marketing material and tools to enable Python user groups and evangelists to better promote Python in their local and professional settings, and (c) create more [Python merchandise](https://wiki.python.org/psf/Merchandise){.https .reference .external}
+- create a marketing work group to (a) develop a more diverse marketing strategy for Python which doesn\'t only focus on developers, (b) create more marketing material and tools to enable Python user groups and evangelists to better promote Python in their local and professional settings, and (c) create more [Python merchandise](https://wiki.python.org/psf/Merchandise)
 - push for getting the python.org website setup with a real CMS in order to attract more content contributors and maintainers
-- rewrite the [Python trademark policy](https://www.python.org/psf/trademarks/){.https .reference .external} to make it more readable and straight forward to use
-- get the PSF to adopt [more community friendly PyPI terms & conditions](https://bitbucket.org/malemburg/pypi-terms/src/9148ddefb40fa84e8c0ffaad055bd1fc6f333900/pypi-terms.md?at=default){.https .reference .external}
-- if we can get PSF funding, help create a second volume of the [PSF Python Brochure](http://brochure.getpython.info/){.http .reference .external}
+- rewrite the [Python trademark policy](https://www.python.org/psf/trademarks/) to make it more readable and straight forward to use
+- get the PSF to adopt [more community friendly PyPI terms & conditions](https://bitbucket.org/malemburg/pypi-terms/src/9148ddefb40fa84e8c0ffaad055bd1fc6f333900/pypi-terms.md?at=default)
+- if we can get PSF funding, help create a second volume of the [PSF Python Brochure](http://brochure.getpython.info/)
 
 I\'d like to continue my work as director and look forward to another year serving on the board.
 
 PSF things I\'ve been working on in the 2014/2015 term:
 
-- ran the [PSF Python Brochure project](http://brochure.getpython.info/){.http .reference .external}, which has so far been a great success by providing a nice tool for Python community members to promote Python; the first edition was available for PyCon 2014 in Montreal, the second for PyCon 2015; also see the [PSF Python Brochure wiki page](https://wiki.python.org/psf/PSF%20Python%20Brochure){.https .reference .external}
-- continued worked with the [Python Events Calendars](http://wiki.python.org/moin/PythonEventsCalendar){.http .reference .external} team to run a central place where Python users can lookup Python events; calendars are shown on [https://www.python.org/events/python-events/](https://www.python.org/events/python-events/){.https .reference .external}, [http://www.pycon.org/](http://www.pycon.org/){.http .reference .external} and also available as [map mashup](http://lmorillas.github.io/python_events/){.http .reference .external}.
-- took the European [PSF Conference Kit](https://wiki.python.org/psf/PSF%20Conference%20Kit){.https .reference .external} to several conferences (EuroPython, FOSDEM, PythonCamp Cologne) to show PSF support; created new carry-on displays for StephaneWirtel to use for Python events in Belgium and France.
-- created and sent out [giveaway marketing material](https://wiki.python.org/psf/Merchandise){.https .reference .external} for use at Python conferences and by user groups (flyers, stickers)
-- promoted the PSF at conferences in Europe, giving [talks](https://wiki.python.org/psf/MembershipModelTalks){.https .reference .external} and available as contact for people interested in the PSF (EuroPython, PyCon UK, PyCon DE, FOSDEM, PythonCamp Cologne)
-- managed the central [PSF domain management](https://wiki.python.org/psf/PSF%20Domains){.https .reference .external} account at Gandi.net, transferred and registered more domains to that account
-- created and managed the central [PSF SSL certificate management](https://wiki.python.org/psf/PSF%20SSL%20Certificates){.https .reference .external} accounts at StartSSL and Gandi.net
-- administered the [Python, Jython and PSF wiki systems](https://wikis.python.org/){.https .reference .external} together with the volunteers on the [pydotorg-www mailing list](mailto:pydotorg-www@python.org){.mailto .reference .external}, helped setup the new editors scheme to prevent wiki admin burnout due to very frequent spamming and vandalism of the wikis.
-- administered the [http://www.pycon.org/](http://www.pycon.org/){.http .reference .external} page and the pycon.org domain (which I\'ve owned from 2003-2012 before contributing it to the PSF)
-- ran the [new Python Job Board team](https://wiki.python.org/moin/PSF%20Python%20Job%20Board){.https .reference .external} together with initially 30 volunteers; pushed for jobs app implementation changes and worked on the final ones to be able to finally [launch the new Python Job Board on 2015-03-19](http://pyfound.blogspot.de/2015/03/psf-python-job-board-relaunched.html){.http .reference .external}
-- contacted new potential PSF sponsors as part of creating a more [diverse PSF marketing strategy](https://wiki.python.org/psf/Board/marketing-psf){.https .reference .external}
-- built closer relationships with the [Raspberry Pi Foundation](https://www.raspberrypi.org/){.https .reference .external}, getting joint blog posts running and investigating possible closer collaboration on education workshops
-- a lot of the above relates directly with my PSF work to create [closer ties with the Python community](https://wiki.python.org/psf/Community%20Relations){.https .reference .external}
+- ran the [PSF Python Brochure project](http://brochure.getpython.info/), which has so far been a great success by providing a nice tool for Python community members to promote Python; the first edition was available for PyCon 2014 in Montreal, the second for PyCon 2015; also see the [PSF Python Brochure wiki page](https://wiki.python.org/psf/PSF%20Python%20Brochure)
+- continued worked with the [Python Events Calendars](http://wiki.python.org/moin/PythonEventsCalendar) team to run a central place where Python users can lookup Python events; calendars are shown on [https://www.python.org/events/python-events/](https://www.python.org/events/python-events/), [http://www.pycon.org/](http://www.pycon.org/) and also available as [map mashup](http://lmorillas.github.io/python_events/).
+- took the European [PSF Conference Kit](https://wiki.python.org/psf/PSF%20Conference%20Kit) to several conferences (EuroPython, FOSDEM, PythonCamp Cologne) to show PSF support; created new carry-on displays for StephaneWirtel to use for Python events in Belgium and France.
+- created and sent out [giveaway marketing material](https://wiki.python.org/psf/Merchandise) for use at Python conferences and by user groups (flyers, stickers)
+- promoted the PSF at conferences in Europe, giving [talks](https://wiki.python.org/psf/MembershipModelTalks) and available as contact for people interested in the PSF (EuroPython, PyCon UK, PyCon DE, FOSDEM, PythonCamp Cologne)
+- managed the central [PSF domain management](https://wiki.python.org/psf/PSF%20Domains) account at Gandi.net, transferred and registered more domains to that account
+- created and managed the central [PSF SSL certificate management](https://wiki.python.org/psf/PSF%20SSL%20Certificates) accounts at StartSSL and Gandi.net
+- administered the [Python, Jython and PSF wiki systems](https://wikis.python.org/) together with the volunteers on the [pydotorg-www mailing list](mailto:pydotorg-www@python.org), helped setup the new editors scheme to prevent wiki admin burnout due to very frequent spamming and vandalism of the wikis.
+- administered the [http://www.pycon.org/](http://www.pycon.org/) page and the pycon.org domain (which I\'ve owned from 2003-2012 before contributing it to the PSF)
+- ran the [new Python Job Board team](https://wiki.python.org/moin/PSF%20Python%20Job%20Board) together with initially 30 volunteers; pushed for jobs app implementation changes and worked on the final ones to be able to finally [launch the new Python Job Board on 2015-03-19](http://pyfound.blogspot.de/2015/03/psf-python-job-board-relaunched.html)
+- contacted new potential PSF sponsors as part of creating a more [diverse PSF marketing strategy](https://wiki.python.org/psf/Board/marketing-psf)
+- built closer relationships with the [Raspberry Pi Foundation](https://www.raspberrypi.org/), getting joint blog posts running and investigating possible closer collaboration on education workshops
+- a lot of the above relates directly with my PSF work to create [closer ties with the Python community](https://wiki.python.org/psf/Community%20Relations)
 
-in addition to the usual PSF board and [trademark committee](https://wiki.python.org/psf/TrademarksCommittee){.https .reference .external} work.
+in addition to the usual PSF board and [trademark committee](https://wiki.python.org/psf/TrademarksCommittee) work.
 
 Other Python community projects I\'m currently involved in:
 
-- [EuroPython Society (EPS)](http://www.europython-society.org/){.http .reference .external} - I\'m a board member of the EPS, which is the organization running the [EuroPython](http://europython.eu/){.http .reference .external} conference series; this uses a [work group structure](https://ep2015.europython.eu/en/volunteers/){.https .reference .external} similar to the one the PSF wants to use, but we actually have it working already for the 2015 edition of the conference
-- [Python Meeting Düsseldorf (PyDDF)](http://pyddf.de/){.http .reference .external} - Together with Charlie Clark, I started a local Python user meeting series in Düsseldorf in 2012; we\'re having quarterly meetings with talks, discussions; videos are available in our [PyDDF YouTube Channel](https://www.youtube.com/pyddf/){.https .reference .external}
+- [EuroPython Society (EPS)](http://www.europython-society.org/) - I\'m a board member of the EPS, which is the organization running the [EuroPython](http://europython.eu/) conference series; this uses a [work group structure](https://ep2015.europython.eu/en/volunteers/) similar to the one the PSF wants to use, but we actually have it working already for the 2015 edition of the conference
+- [Python Meeting Düsseldorf (PyDDF)](http://pyddf.de/) - Together with Charlie Clark, I started a local Python user meeting series in Düsseldorf in 2012; we\'re having quarterly meetings with talks, discussions; videos are available in our [PyDDF YouTube Channel](https://www.youtube.com/pyddf/)
 
 Affiliation: eGenix.com GmbH, Germany
 :::
 
 ------------------------------------------------------------------------
 
-::: {#alex-gaynor .section}
-### [Alex Gaynor](#id3){.toc-backref}
+::: 
+### [Alex Gaynor](#id3)
 
 *2014 Board Member*
 
@@ -191,12 +196,12 @@ Affiliation: I\'m employed by the United States Department of Veterans Affairs
 
 ------------------------------------------------------------------------
 
-::: {#alyssa-coghlan .section}
-### [Alyssa Coghlan](#id4){.toc-backref}
+::: 
+### [Alyssa Coghlan](#id4)
 
 *2014 Board Member.*
 
-I have been a part of the Python community for more than a decade, a CPython core developer since 2005, and a member of the Board of Directors since 2014. ([Full bio on personal site](http://www.curiousefficiency.org/pages/about){.http .reference .external})
+I have been a part of the Python community for more than a decade, a CPython core developer since 2005, and a member of the Board of Directors since 2014. ([Full bio on personal site](http://www.curiousefficiency.org/pages/about))
 
 As a PSF board member, my two primary concerns would be addressing the challenges the PSF faces around volunteer burnout (including for Board members), as well as continuing to address the long term structural risks potentially impacting the sustainable operation of PSF provided infrastructure and services.
 
@@ -209,9 +214,9 @@ Key perspectives I believe I bring to Board discussions:
 
 Specific initiatives I would personally be aiming to advocate for and participate in over the 2015/2016 Board term include:
 
-> - Providing additional community visibility into the ongoing activities of the PSF Board through the [Strategic Decision Making Process](https://wiki.python.org/moin/PythonSoftwareFoundation/ProposalsForDiscussion/StrategicDecisionMakingProcess){.https .reference .external} proposal
-> - Enhancing the PSF\'s ability to suitably recognise contributions to the broader Python community through the updated [PSF Fellowship Recognition Program](https://wiki.python.org/moin/PythonSoftwareFoundation/ProposalsForDiscussion/FellowshipRecognitionProgram){.https .reference .external} proposal
-> - Providing a more constructive framework for discussions regarding the allocation of PSF funds and effective direction of volunteer time and energy by capturing and clearly documenting agreed [strategic priorities](https://wiki.python.org/moin/PythonSoftwareFoundation/ProposalsForDiscussion/StrategicPriorities){.https .reference .external} for the PSF (which also includes clearly documenting things the PSF *isn\'t* doing itself, as other organisations are better positioned to handle them)
+> - Providing additional community visibility into the ongoing activities of the PSF Board through the [Strategic Decision Making Process](https://wiki.python.org/moin/PythonSoftwareFoundation/ProposalsForDiscussion/StrategicDecisionMakingProcess) proposal
+> - Enhancing the PSF\'s ability to suitably recognise contributions to the broader Python community through the updated [PSF Fellowship Recognition Program](https://wiki.python.org/moin/PythonSoftwareFoundation/ProposalsForDiscussion/FellowshipRecognitionProgram) proposal
+> - Providing a more constructive framework for discussions regarding the allocation of PSF funds and effective direction of volunteer time and energy by capturing and clearly documenting agreed [strategic priorities](https://wiki.python.org/moin/PythonSoftwareFoundation/ProposalsForDiscussion/StrategicPriorities) for the PSF (which also includes clearly documenting things the PSF *isn\'t* doing itself, as other organisations are better positioned to handle them)
 > - Working with the PSF Events Coordinator and other PSF Directors to finalise and publish the \"International PyCon Prospectus\" (a proposal developed in collaboration with a number of conferences the PSF has previously sponsored). The intent of this proposal is to allow other organisations to easily sponsor multiple regional conferences via the PSF, rather than having to arrange payment individually with each conference throughout the year
 > - Working with Selena Deckelmann on a Strategic Hiring Plan proposal for the PSF, with the aim of enhancing the PSF\'s core staff and volunteer management capabilities to help reduce the incidence of volunteer burnout within the Python community
 
@@ -220,8 +225,8 @@ Affiliation: Alyssa Coghlan works for Red Hat.
 
 ------------------------------------------------------------------------
 
-::: {#kushal-das .section}
-### [Kushal Das](#id5){.toc-backref}
+::: 
+### [Kushal Das](#id5)
 
 *2014 Board Member*
 
@@ -233,11 +238,11 @@ Things I did in 2014:
 - Gave the keynote in PyCon India about contribution, and building up the community.
 - Organized one PSF members meeting during PyCon India.
 - Wrote couple of blog posts for PSF blog.
-- I am also one of the org-admin for [PSF project under GSoC](https://wiki.python.org/moin/SummerOfCode/2015){.https .reference .external}.
-- Organized, and ran the [dgplug summer training](http://opensource.com/life/14/6/enroll-now-free-online-open-source-programming-classes){.http .reference .external} for almost 3 months, where we build up upstream contributors, Python is the primary tool of choice for this training. In 2014 there were 150 students attended the sessions regularly. This project has a very high rate of women participation.
+- I am also one of the org-admin for [PSF project under GSoC](https://wiki.python.org/moin/SummerOfCode/2015).
+- Organized, and ran the [dgplug summer training](http://opensource.com/life/14/6/enroll-now-free-online-open-source-programming-classes) for almost 3 months, where we build up upstream contributors, Python is the primary tool of choice for this training. In 2014 there were 150 students attended the sessions regularly. This project has a very high rate of women participation.
 - Worked with other students to bring them into the upstream community.
 - Helped in the CPython sprint during PyCon development sprints.
-- Working on moving my python [book](http://pymbook.readthedocs.org/en/latest/){.http .reference .external} on Python3 to make sure the new contributors get it easy to start with.
+- Working on moving my python [book](http://pymbook.readthedocs.org/en/latest/) on Python3 to make sure the new contributors get it easy to start with.
 
 New things I want to work on 2015:
 
@@ -252,8 +257,8 @@ Affiliation: Kushal Das works for Red Hat.
 
 ------------------------------------------------------------------------
 
-::: {#berker-peksag .section}
-### [Berker Peksag](#id6){.toc-backref}
+::: 
+### [Berker Peksag](#id6)
 
 *New Board Member*
 
@@ -264,18 +269,18 @@ In addition to my CPython Core Developer duties I\'ve also:
 - selected as a PSF Contributing Member
 - helped to launch the new Python Job Board
 - overhauled the contributing documentation of python.org (currently in `docs/` directory, will be on Read the Docs)
-- working on switching from Chef to Ansible in provisioning of python.org (the WIP branch is [here](https://github.com/berkerpeksag/pythondotorg/tree/switch-to-ansible){.https .reference .external})
+- working on switching from Chef to Ansible in provisioning of python.org (the WIP branch is [here](https://github.com/berkerpeksag/pythondotorg/tree/switch-to-ansible))
 - helping maintaining of planetpython.org
 - working as a PEP editor
 
 You can also see my work on python.org at the following links:
 
-- [https://github.com/python/pythondotorg/commits?author=berkerpeksag](https://github.com/python/pythondotorg/commits?author=berkerpeksag){.https .reference .external}
-- [https://github.com/python/pythondotorg/pulls?utf8=%E2%9C%93&q=is%3Apr+user%3Aberkerpeksag](https://github.com/python/pythondotorg/pulls?utf8=%E2%9C%93&q=is%3Apr+user%3Aberkerpeksag){.https .reference .external}
+- [https://github.com/python/pythondotorg/commits?author=berkerpeksag](https://github.com/python/pythondotorg/commits?author=berkerpeksag)
+- [https://github.com/python/pythondotorg/pulls?utf8=%E2%9C%93&q=is%3Apr+user%3Aberkerpeksag](https://github.com/python/pythondotorg/pulls?utf8=%E2%9C%93&q=is%3Apr+user%3Aberkerpeksag)
 
-I\'m also a regular contributor to the Django project and selected as a Fellow by Django Software Foundation in 2014: [https://www.djangoproject.com/weblog/2014/oct/13/announcing-inaugural-django-fellows/](https://www.djangoproject.com/weblog/2014/oct/13/announcing-inaugural-django-fellows/){.https .reference .external}
+I\'m also a regular contributor to the Django project and selected as a Fellow by Django Software Foundation in 2014: [https://www.djangoproject.com/weblog/2014/oct/13/announcing-inaugural-django-fellows/](https://www.djangoproject.com/weblog/2014/oct/13/announcing-inaugural-django-fellows/)
 
-I\'m currently living in Istanbul, Turkey and am co-founder of [Python Istanbul](http://pyistanbul.org/){.http .reference .external}. We have organized a Python and JavaScript conference called [JsPyConf](http://jspyconf.org/){.http .reference .external} in 2013.
+I\'m currently living in Istanbul, Turkey and am co-founder of [Python Istanbul](http://pyistanbul.org/). We have organized a Python and JavaScript conference called [JsPyConf](http://jspyconf.org/) in 2013.
 
 Currently, I\'m part of the Debian Python 3 Porting effort.
 
@@ -289,20 +294,20 @@ Affiliation: None
 
 ------------------------------------------------------------------------
 
-::: {#stephane-wirtel .section}
-### [Stéphane Wirtel](#id7){.toc-backref}
+::: 
+### [Stéphane Wirtel](#id7)
 
 *New Board Member*
 
-- organiser of the [PythonFOSDEM](http://www.python-fosdem.org){.http .reference .external} 2013, 2014 and 2015 in Brussels during FOSDEM
+- organiser of the [PythonFOSDEM](http://www.python-fosdem.org) 2013, 2014 and 2015 in Brussels during FOSDEM
 - committer on Gunicorn
 - Starter Contributor to CPython
 - PSF Fellow
 - EuroPython Society Member
 - Association Francophone de Python (AFPy) Member
-- [Volunteers for EuroPython 2015](https://ep2015.europython.eu/en/volunteers/){.https .reference .external}
+- [Volunteers for EuroPython 2015](https://ep2015.europython.eu/en/volunteers/)
 - Participate to the Python meetups in Belgium.
-- Former Core dev of [Odoo](http://www.odoo.com){.http .reference .external} (formerly OpenERP) (6y)
+- Former Core dev of [Odoo](http://www.odoo.com) (formerly OpenERP) (6y)
 - Started to use Python with Aragne in Belgium (EuroPython 2002 and 2003)
 
 I\'m currently living in Charleroi, Belgium.
@@ -315,16 +320,16 @@ I\'d like to work on:
 - Increase the Python Community
 - Work on the donation process
 - Create a marketing workgroup with Marc-André Lemburg
-- Create more Python merchandise (t-shirts, hats, [snake](https://www.dropbox.com/s/xzpwa30wk1guqdi/IMG_2806.JPG?dl=0){.https .reference .external} \...)
-- In February and April 2015, I have printed some [flyers for the donation and the membership](https://www.dropbox.com/s/88d6463n054l107/IMG_4291.jpg?dl=0){.https .reference .external} for the PSF
+- Create more Python merchandise (t-shirts, hats, [snake](https://www.dropbox.com/s/xzpwa30wk1guqdi/IMG_2806.JPG?dl=0) \...)
+- In February and April 2015, I have printed some [flyers for the donation and the membership](https://www.dropbox.com/s/88d6463n054l107/IMG_4291.jpg?dl=0) for the PSF
 
-Affiliation: [Freelance](http://www.mgx.io){.http .reference .external} , Belgium
+Affiliation: [Freelance](http://www.mgx.io) , Belgium
 :::
 
 ------------------------------------------------------------------------
 
-::: {#philip-james .section}
-### [Philip James](#id8){.toc-backref}
+::: 
+### [Philip James](#id8)
 
 *New board member*
 
@@ -339,16 +344,16 @@ Affiliation: Philip James works for Eventbrite
 
 ------------------------------------------------------------------------
 
-::: {#ashwini-oruganti .section}
-### [Ashwini Oruganti](#id9){.toc-backref}
+::: 
+### [Ashwini Oruganti](#id9)
 
 *New Board Member.*
 
 I love the Python community, and I have learnt a lot from it. I want to be an active leader in its journey towards becoming a bigger and more diverse place for everyone in the world.
 
-- I have been a long time [Twisted](http://twistedmatrix.com/){.http .reference .external} core developer. I started out as a mentee, and grew to be a mentor to new Twisted contributors, through the Google Summer of Code programs under the PSF umbrella.
-- I worked on [HippyVM](http://hippyvm.com/){.http .reference .external}, a high-performance PHP Virtual Machine using the PyPy toolchain. I built the technical underpinnings that made it possible to run two major open source content management systems through Hippy:­­ WordPress and MediaWiki.
-- I am the author of [Python Cryptographic Authority's TLS](https://github.com/pyca/tls){.https .reference .external}, an easy-to-use, opinionated, and secure TLS 1.2 implementation in Python. I was awarded the [Stripe's Open Source Retreat](https://stripe.com/blog/stripe-open-source-retreat){.https .reference .external} grant for this project.
+- I have been a long time [Twisted](http://twistedmatrix.com/) core developer. I started out as a mentee, and grew to be a mentor to new Twisted contributors, through the Google Summer of Code programs under the PSF umbrella.
+- I worked on [HippyVM](http://hippyvm.com/), a high-performance PHP Virtual Machine using the PyPy toolchain. I built the technical underpinnings that made it possible to run two major open source content management systems through Hippy:­­ WordPress and MediaWiki.
+- I am the author of [Python Cryptographic Authority's TLS](https://github.com/pyca/tls), an easy-to-use, opinionated, and secure TLS 1.2 implementation in Python. I was awarded the [Stripe's Open Source Retreat](https://stripe.com/blog/stripe-open-source-retreat) grant for this project.
 - As a member of the PyCon 2015 program committee, I reviewed and helped select talk proposals.
 - I am the Financial Aid Chair for PyCon 2016. I will be leading the Financial Aid committee in spreading the funding to provide assistance to and cover expenses (such as reimbursement for travel, lodging in the various conference hotels, or the conference admission) of as many applicants as possible.
 - I have been speaking, mentoring, and volunteering at regional and international Python conferences and events, such as, PyCon North America 2013, 2014, and 2015, PyCon Dublin 2013, PyTennessee 2015.
@@ -364,8 +369,8 @@ Affiliation: I will be joining Eventbrite in May 2015.
 
 ------------------------------------------------------------------------
 
-::: {#ruben-orduz .section}
-### [Ruben Orduz](#id10){.toc-backref}
+::: 
+### [Ruben Orduz](#id10)
 
 New Board Member
 
@@ -381,8 +386,8 @@ Affiliation: works for Infor, inc
 
 ------------------------------------------------------------------------
 
-::: {#mathieu-virbel .section}
-### [Mathieu Virbel](#id11){.toc-backref}
+::: 
+### [Mathieu Virbel](#id11)
 
 *New Board Member.*
 
@@ -410,8 +415,8 @@ Affiliation: Freelance.
 
 ------------------------------------------------------------------------
 
-::: {#lynn-root .section}
-### [Lynn Root](#id12){.toc-backref}
+::: 
+### [Lynn Root](#id12)
 
 - 2014 Board Member \*
 
@@ -428,22 +433,22 @@ Affiliation: Spotify, PyLadies
 
 ------------------------------------------------------------------------
 
-::: {#anna-ossowski .section}
-### [Anna Ossowski](#id13){.toc-backref}
+::: 
+### [Anna Ossowski](#id13)
 
 *New Board Member.*
 
-I love the Python community with all my heart! I recently wrote a [blog post](http://anna-oz.tumblr.com/post/117173382150/dear-python-a-love-letter-to-python-and-the){.http .reference .external} about the awesome things the Python community has done for me and what a positive impact it had on my life. I would like to help maintain this positive environment and make it even better. I am very passionate about diversity and community outreach and would like to encourage more people of underrepresented groups, especially women, to learn programming in Python, attend conferences, and get involved in the community because it's awesome!
+I love the Python community with all my heart! I recently wrote a [blog post](http://anna-oz.tumblr.com/post/117173382150/dear-python-a-love-letter-to-python-and-the) about the awesome things the Python community has done for me and what a positive impact it had on my life. I would like to help maintain this positive environment and make it even better. I am very passionate about diversity and community outreach and would like to encourage more people of underrepresented groups, especially women, to learn programming in Python, attend conferences, and get involved in the community because it's awesome!
 
 A little bit about me:
 
-- I am very involved in Django Girls. I am a Django Girls organizer (co-organized Django Girls Budapest and Django Girls @ PyCon 2015, more events in the making) and also run the "Your Django Story" interview series on the [Django Girls blog](http://blog.djangogirls.org){.http .reference .external} where I highlight one awesome woman and her work each week. I also mentor women in my free time and help other Django Girls organizers make their events awesome.
+- I am very involved in Django Girls. I am a Django Girls organizer (co-organized Django Girls Budapest and Django Girls @ PyCon 2015, more events in the making) and also run the "Your Django Story" interview series on the [Django Girls blog](http://blog.djangogirls.org) where I highlight one awesome woman and her work each week. I also mentor women in my free time and help other Django Girls organizers make their events awesome.
 - I spoke for the first time at this year's PyTennessee about "Django Girls: A success story". I plan on speaking at more meet-ups and conferences in the future.
 - I am a member of the Django Software Foundation grants committee and recently created a draft for the new DSF grants policy.
 - I helped review/select talks for PyCon 2015 as a member of the program committee.
 - I will join the tutorial committee for PyCon 2016.
 - I am currently working on building the "PyLadies Remote" chapter with online content for everyone who doesn't live near a PyLadies chapter and therefore doesn't have the possibility to attend meet-ups.
-- I will help with diversity work for the [Open Tech School conference](http://otsconf.com){.http .reference .external} in Dortmund, Germany in August this year.
+- I will help with diversity work for the [Open Tech School conference](http://otsconf.com) in Dortmund, Germany in August this year.
 - I write a series called "Understanding Computer Words" for programming beginners on my blog. It is important to me to help beginners and encourage them on their programming learning journey.
 
 What I would like to work on:
@@ -461,8 +466,8 @@ Affiliation: Django Girls, PyLadies
 
 ------------------------------------------------------------------------
 
-::: {#diana-clarke .section}
-### [Diana Clarke](#id14){.toc-backref}
+::: 
+### [Diana Clarke](#id14)
 
 *New Board Member*
 
@@ -479,8 +484,8 @@ Affiliation: None
 
 ------------------------------------------------------------------------
 
-::: {#naomi-ceder .section}
-### [Naomi Ceder](#id15){.toc-backref}
+::: 
+### [Naomi Ceder](#id15)
 
 *New Board Member*
 
@@ -513,12 +518,12 @@ Affiliation: Razor Occam LTD (W. W. Grainger), Trans\*Code
 
 ------------------------------------------------------------------------
 
-::: {#van-lindberg .section}
-### [Van Lindberg](#id16){.toc-backref}
+::: 
+### [Van Lindberg](#id16)
 
 *2014 Board Member*
 
-I\'ve been involved with the PSF for about nine years now, serving as a chair or co-chair of PyCon US, outside counsel for the PSF, and most recently a board member and chairman of the board of the PSF. I recently [described a lot of what the PSF does](./described(20)a(20)lot(20)of(20)what(20)the(20)PSF(20)does.html){.nonexistent .reference .external}. Personally, I try to focus on things that are lost in the weeds but need to get done. I want to make sure that the operational infrastructure of the PSF keeps working. Kindness and professionalism are also important to me, and I strive to both model those characteristics and encourage them in the broader Python community.
+I\'ve been involved with the PSF for about nine years now, serving as a chair or co-chair of PyCon US, outside counsel for the PSF, and most recently a board member and chairman of the board of the PSF. I recently [described a lot of what the PSF does](./described(20)a(20)lot(20)of(20)what(20)the(20)PSF(20)does.html). Personally, I try to focus on things that are lost in the weeds but need to get done. I want to make sure that the operational infrastructure of the PSF keeps working. Kindness and professionalism are also important to me, and I strive to both model those characteristics and encourage them in the broader Python community.
 
 My goals for the next year:
 
@@ -536,8 +541,8 @@ Affiliation: Rackspace
 
 ------------------------------------------------------------------------
 
-::: {#ezio-melotti .section}
-### [Ezio Melotti](#id17){.toc-backref}
+::: 
+### [Ezio Melotti](#id17)
 
 *New Board Member*
 
@@ -566,8 +571,8 @@ My self summary:
 
 ------------------------------------------------------------------------
 
-::: {#riaz-moola .section}
-### [Riaz Moola](#id18){.toc-backref}
+::: 
+### [Riaz Moola](#id18)
 
 *New Board Member*
 
@@ -588,7 +593,7 @@ During my second year of studies, I was introduced to Python and felt strongly a
 
 My goals for 2015/16 are aligned with those of Hyperion and the PSF:
 
-- There are unparalleled opportunities to help improve the lives of others in Africa, especially in the space of education, and even more so in the space of technical education. I\'d like to reach these demographics more, through programmes with local partners. For example, Hyperion has begun working with Brothers For All ([http://www.brothersforall.org/](http://www.brothersforall.org/){.http .reference .external}) in Cape Town, to reach prisoners in the Western Cape that are seeking to transform their lives through programming education. This initiative is headed by an ex-prisoner. who manages a coding centre in the heart of a township (see: [http://en.wikipedia.org/wiki/Township\_(South_Africa](http://en.wikipedia.org/wiki/Township_(South_Africa){.http .reference .external})).
+- There are unparalleled opportunities to help improve the lives of others in Africa, especially in the space of education, and even more so in the space of technical education. I\'d like to reach these demographics more, through programmes with local partners. For example, Hyperion has begun working with Brothers For All ([http://www.brothersforall.org/](http://www.brothersforall.org/)) in Cape Town, to reach prisoners in the Western Cape that are seeking to transform their lives through programming education. This initiative is headed by an ex-prisoner. who manages a coding centre in the heart of a township (see: [http://en.wikipedia.org/wiki/Township\_(South_Africa](http://en.wikipedia.org/wiki/Township_(South_Africa))).
 - Related to the above is the need for a total reform of high school IT education for thousands in South Africa. During our teacher training projects, we repeatedly pushed for Python to be introduced as the new language to be taught in all high schools. We remain in contact with the two government bodies that oversee IT education in half the country, and see this as a long term goal that is achievable.
 - I\'m interested in sustainable but effective models of Python education. Our online Python courses offer a unique level of support, with students teaching other students, and I\'d like to see how Python developers and educators around the world can collaborate more to help others learn this language.
 - I\'d like to engage more with organisations that are serious about contributing to IT development in Africa. For example, I currently study in a department where the Raspberry Pi was created, yet it has proven exceptionally hard to engage with the Raspberry Pi foundation in a meaningful way to support the above projects. Computer Science, programming, and IT are often not seen as the most urgent needs for those in Africa, hence local funding is scarce. We must connect the international community with the African community to balance the scales of education.
@@ -600,8 +605,8 @@ Affiliation: I am currently a masters student, reading for a MPhil in Advanced C
 
 ------------------------------------------------------------------------
 
-::: {#roberto-rosario .section}
-### [Roberto Rosario](#id19){.toc-backref}
+::: 
+### [Roberto Rosario](#id19)
 
 *New Board Member.*
 
@@ -631,8 +636,8 @@ Affiliations: Cryptico Corporation, Python Latino
 
 ------------------------------------------------------------------------
 
-::: {#carol-willing .section}
-### [Carol Willing](#id20){.toc-backref}
+::: 
+### [Carol Willing](#id20)
 
 *New Board Member. (Nominated by Van Lindberg)*
 
@@ -644,7 +649,7 @@ Carol is currently a Geek-In-Residence at FabLab San Diego, an active contributo
 
 Carol earned a BSE in Electrical Engineering from Duke University and an MS in Management from MIT. She has work experience in both small and large companies.
 
-Python-wise, Carol is co-organizer of PyLadies San Diego and the San Diego Python User Group. She was also a PyCon Program Committee member for PyCon 2014 and PyCon 2015, and on the tutorial committee for PyCon 2015. She also has extensive experience with other communities and conferences - see [https://willingconsulting.com/events/](https://willingconsulting.com/events/){.https .reference .external}.
+Python-wise, Carol is co-organizer of PyLadies San Diego and the San Diego Python User Group. She was also a PyCon Program Committee member for PyCon 2014 and PyCon 2015, and on the tutorial committee for PyCon 2015. She also has extensive experience with other communities and conferences - see [https://willingconsulting.com/events/](https://willingconsulting.com/events/).
 
 **My Python guiding principles**
 
@@ -669,8 +674,8 @@ Affiliation: Willing Consulting
 
 ------------------------------------------------------------------------
 
-::: {#adria-richards .section}
-### [Adria Richards](#id21){.toc-backref}
+::: 
+### [Adria Richards](#id21)
 
 *New Board Member*
 
@@ -695,7 +700,7 @@ Existing programs and open source communities do not offer opportunities for men
 
 After attending PyCon 2015 this year, a heartfelt discussion on the diversity mailing list was started, prompting me to share an example of a Python developer who \"leveraged his privilege\" so I could get a chance to speak during a Q&A session.
 
-- This resonated for Guido because he tweeted about it, *\"Be an active ally. E.g. when called on, pass your turn to a lesser privileged participant who\'s been waiting longer.\"* [Tweet](https://twitter.com/gvanrossum/status/591292655751004161){.https .reference .external} . That means empowering people in the Python community to be transformed from passive bystanders into active allies is important.
+- This resonated for Guido because he tweeted about it, *\"Be an active ally. E.g. when called on, pass your turn to a lesser privileged participant who\'s been waiting longer.\"* [Tweet](https://twitter.com/gvanrossum/status/591292655751004161) . That means empowering people in the Python community to be transformed from passive bystanders into active allies is important.
 
 **Living at the intersection of diversity and tech**
 
@@ -704,14 +709,14 @@ I\'m a biracial woman (Black and Jewish) who grew up in a socioeconomically disa
 - Served as PyCon Program Committee Member 2013, 2015
 - Active participant PyCon 2013, 2014, 2015
 - Member of PyLadies SF chapter since 2012
-- Advisor and hackathon mentor for [TransH4CK](http://transhack.org){.http .reference .external} since 2013
+- Advisor and hackathon mentor for [TransH4CK](http://transhack.org) since 2013
 - Founded nonprofit organization in 2014 to close gaps in the technology pipeline
 - Working on pilot teaching tech workers in Silicon Valley how to discard bias in favor of empirical evidence
 - Significant teaching experience and curriculum development for in-person and online classrooms
 
 **Youth Hackathon Project**
 
-I have worked as lead consultant in partnership with [The Level Playing Field Institute (LPFI)](http://lpfi.org){.http .reference .external} in 2013 and [Black Girls Code](http://blackgirlscode.com){.http .reference .external} in 2014 and 2015 on hackathons for youth and my deliverables included:
+I have worked as lead consultant in partnership with [The Level Playing Field Institute (LPFI)](http://lpfi.org) in 2013 and [Black Girls Code](http://blackgirlscode.com) in 2014 and 2015 on hackathons for youth and my deliverables included:
 
 - Developed event programming and served as primary contact for logistics
 - Designed age appropriate curriculum and educational objectives.
@@ -750,8 +755,8 @@ Diversity isn\'t really about color and gender. It\'s about equality, equity and
 
 ------------------------------------------------------------------------
 
-::: {#jackie-kazil .section}
-### [Jackie Kazil](#id22){.toc-backref}
+::: 
+### [Jackie Kazil](#id22)
 
 *New Board Member*
 
@@ -803,8 +808,8 @@ Affiliations: 18F, PyLadies, DCFemTech, PyJournos, IRE/NICAR
 
 ------------------------------------------------------------------------
 
-::: {#kenneth-love .section}
-### [Kenneth Love](#id23){.toc-backref}
+::: 
+### [Kenneth Love](#id23)
 
 *New Board Member. (Nominated by Anna Ossowski)*
 
@@ -815,8 +820,8 @@ Kenneth is currently a Python instructor at Treehouse. He is passionate about ed
 Affiliation: Treehouse
 :::
 
-:::: {#claudiu-popa .section}
-### [Claudiu Popa](#id24){.toc-backref}
+:::: 
+### [Claudiu Popa](#id24)
 
 *New Board Member.*
 
@@ -845,11 +850,11 @@ Affiliation: Cloudbase Solutions, a small startup from Romania.
 
 Please see the final revision for the list of candidates received by the end of the deadline:
 
-[https://wiki.python.org/moin/PythonSoftwareFoundation/BoardCandidates2015?action=recall&rev=117](https://wiki.python.org/moin/PythonSoftwareFoundation/BoardCandidates2015?action=recall&rev=117){.https .reference .external}
+[https://wiki.python.org/moin/PythonSoftwareFoundation/BoardCandidates2015?action=recall&rev=117](https://wiki.python.org/moin/PythonSoftwareFoundation/BoardCandidates2015?action=recall&rev=117)
 
 ------------------------------------------------------------------------
 
-::: {#david-mertz .section}
+::: 
 #### David Mertz
 
 *2014 Board Member.*
@@ -878,4 +883,3 @@ Please use the following format:
     ----
 :::
 ::::
-:::::::::::::::::::::::::::::::

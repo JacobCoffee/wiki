@@ -1,19 +1,24 @@
 # JythonMonthly/Interviews/August2008/JimBaker
 
-::: {#content dir="ltr" lang="en"}
-# Interview with Jim Baker {#Interview_with_Jim_Baker}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Interview with Jim Baker 
 
 Welcome to the Jim Baker interview form for August 2008!
 
-This month, [Jim Baker](http://zyasoft.com/pythoneering/){.http} will take your questions regarding \"all things\" Jython. In case you aren\'t familiar with Jim, he is one of the leading Jython committers, and he has helped to develop much of what we use today.
+This month, [Jim Baker](http://zyasoft.com/pythoneering/) will take your questions regarding \"all things\" Jython. In case you aren\'t familiar with Jim, he is one of the leading Jython committers, and he has helped to develop much of what we use today.
 
 Thanks to everyone for your participation\...this is a great opportunity for the Jython community. Special thanks to Jim Baker for his time!
 
 Josh Juneau
 
-[Gather Event Planning](http://www.gathereventplanning.com){.http} [juneau001@gmail.com](mailto:juneau001@gmail.com){.mailto}
+[Gather Event Planning](http://www.gathereventplanning.com) [juneau001@gmail.com](mailto:juneau001@gmail.com)
 
-## Questions for Jim {#Questions_for_Jim}
+## Questions for Jim 
 
 1\. Where do you see Jython going over the next two or three years? Things are really looking great right now, do you think it will continue to evolve into a language that stays more current with future Python releases?
 
@@ -42,4 +47,3 @@ Jim, I left these rather vague because I\'m sure you have a different POV on thi
 6\. What do you see as some of the bigger challenges that Jython faces in the future?
 
 7\. whats your vision of the future with regard to Jython?
-:::

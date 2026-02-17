@@ -1,7 +1,12 @@
 # HelpIndex
 
-:::: {#content dir="ltr" lang="en"}
-# Help Index {#Help_Index}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Help Index 
 
 The following is a list of all available help pages. For a more in-depth index of help contents, please see [HelpContents](HelpContents).
 
@@ -113,4 +118,3 @@ The following is a list of all available help pages. For a more in-depth index o
 105. [**HelpTemplate**](HelpTemplate)
 106. [**HelpingPython**](HelpingPython)
 :::
-::::

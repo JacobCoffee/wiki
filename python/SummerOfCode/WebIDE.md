@@ -1,13 +1,18 @@
 # SummerOfCode/WebIDE
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 There\'s no specific set of requirements or even a specific goal for a web-based Python IDE, but here are some thoughts you might find interesting in shaping a proposal:
 
 - I think this is most interesting when targetting a relatively new Python programmer. Experienced programmers already have tools. If you can make the IDE useful for people using external editors, that might be a good idea, and will include the potential audience.
 
 - The environment should be basically framework neutral. It might (and probably should) use some framework underneath, but it\'s primary UI doesn\'t need to integrate in any framework. Also, there\'s problems with a framework leaking into project. If you use
 
-  version 2.0 of [FooFramework](./FooFramework.html){.nonexistent}, will a person developing a web application in 1.0 of [FooFramework](./FooFramework.html){.nonexistent} be able to use your IDE?
+  version 2.0 of [FooFramework](./FooFramework.html), will a person developing a web application in 1.0 of [FooFramework](./FooFramework.html) be able to use your IDE?
 
 - Developing web applications using a web-based IDE is probably the most obvious use for this, but there\'s no reason it can\'t be useful for any Python project.
 
@@ -21,5 +26,4 @@ There\'s no specific set of requirements or even a specific goal for a web-based
 
 - Repeating this bullet list in some form in your proposal is not a good strategy. This is more intended as a list of some of the challenging aspects of the topic, and some of the open questions. A proposal should respond to these issues.
 
-\-- [Ian Bicking](mailto:ianb@colorstudy.com){.mailto}
-:::
+\-- [Ian Bicking](mailto:ianb@colorstudy.com)

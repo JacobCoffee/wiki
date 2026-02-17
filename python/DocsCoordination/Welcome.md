@@ -1,6 +1,11 @@
 # DocsCoordination/Welcome
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 
     Hi,
 
@@ -133,4 +138,3 @@
 
     .. [2] Actually, the name comes from the python.org website builder, which is
            called Pyramid.
-:::

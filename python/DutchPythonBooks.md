@@ -1,13 +1,18 @@
 # DutchPythonBooks
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page lists Python books written in Dutch.
 
 Deze pagina geeft een lijst van Nederlandstalige boeken over Python. Aangezien de meeste Nederlanders het Engels goed beheersen, zijn er niet veel Nederlandstalige boeken beschikbaar.
 
 ------------------------------------------------------------------------
 
-[De Programmeursleerling: Leren coderen met Python 3](http://www.spronck.net/pythonbook/dutchindex.xhtml){.http}
+[De Programmeursleerling: Leren coderen met Python 3](http://www.spronck.net/pythonbook/dutchindex.xhtml)
 
 Pieter Spronck
 
@@ -37,7 +42,7 @@ Het boek is gratis beschikbaar als PDF.
 
 ------------------------------------------------------------------------
 
-[Leren Programmeren in Python](http://www.win.tue.nl/~wstomv/edu/python/python1.html){.http}
+[Leren Programmeren in Python](http://www.win.tue.nl/~wstomv/edu/python/python1.html)
 
 Tom Verhoeff
 
@@ -46,4 +51,3 @@ Tom Verhoeff
 **Overzicht:**
 
 Dit is een Python 2 cursus, ge-update tot en met Python 2.2.3, beschikbaar gesteld via de TU Eindhoven.
-:::

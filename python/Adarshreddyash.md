@@ -1,17 +1,21 @@
 # Adarshreddyash
 
-::: {#content dir="ltr" lang="en"}
-## Adarshreddy Adelli {#Adarshreddy_Adelli}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Email: [adarshreddy9849@gmail.com](mailto:adarshreddy9849@gmail.com){.mailto}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-Portfolio: [https://adarshreddyash.github.io](https://adarshreddyash.github.io){.https} \...
+## Adarshreddy Adelli 
 
-# About {#About}
+Email: [adarshreddy9849@gmail.com](mailto:adarshreddy9849@gmail.com)
+
+Portfolio: [https://adarshreddyash.github.io](https://adarshreddyash.github.io) \...
+
+# About 
 
 Contributing member PSF
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

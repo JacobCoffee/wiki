@@ -1,33 +1,20 @@
 # TwistedMatrix
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [Introduction](#Introduction)
-2.  [Masthead](#Masthead)
-3.  [Deployment Platforms](#Deployment_Platforms)
-4.  [Protocols](#Protocols)
-5.  [Suitability](#Suitability)
-6.  [Development Interfaces](#Development_Interfaces)
-7.  [Environment Access](#Environment_Access)
-8.  [Session, Identification and Authentication](#Session.2C_Identification_and_Authentication)
-9.  [Persistence Support](#Persistence_Support)
-10. [Presentation Support](#Presentation_Support)
-11. [InTheirOwnWords](#InTheirOwnWords)
-12. [Comments](#Comments)
-    1.  [Twisted on Windows](#Twisted_on_Windows)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-### Introduction {#Introduction}
+### Introduction 
 
 \*NOT\* just framework for [WebProgramming](WebProgramming), but includes a scalable and safe web server that outperforms apache in terms of security and scalability.
 
-### Masthead {#Masthead}
+### Masthead 
 
 URL
 
-:   [http://www.twistedmatrix.com/](http://www.twistedmatrix.com/){.http}
+:   [http://www.twistedmatrix.com/](http://www.twistedmatrix.com/)
 
 stable version
 :   12.1.0
@@ -41,28 +28,28 @@ platforms
 Python versions
 :   2.5 or later, but not 3.\*
 
-### Deployment Platforms {#Deployment_Platforms}
+### Deployment Platforms 
 
 Windows, UNIX. Special support for FreeBSD kernel features.
 
-### Protocols {#Protocols}
+### Protocols 
 
 Out of the box
 
-:   HTTP, FTP, NNTP, SSH, SOCKSv4, IRC, POP3, SMTP, Telnet, AOL\'s TOC, OSCAR, [MouseMan](./MouseMan.html){.nonexistent}, finger, Twisted Perspective Broker, see [http://www.twistedmatrix.com/products/protocols](http://www.twistedmatrix.com/products/protocols){.http}
+:   HTTP, FTP, NNTP, SSH, SOCKSv4, IRC, POP3, SMTP, Telnet, AOL\'s TOC, OSCAR, [MouseMan](./MouseMan.html), finger, Twisted Perspective Broker, see [http://www.twistedmatrix.com/products/protocols](http://www.twistedmatrix.com/products/protocols)
 
 Through additional modules
 :   LDAP
 
-### Suitability {#Suitability}
+### Suitability 
 
-### Development Interfaces {#Development_Interfaces}
+### Development Interfaces 
 
-### Environment Access {#Environment_Access}
+### Environment Access 
 
-### Session, Identification and Authentication {#Session.2C_Identification_and_Authentication}
+### Session, Identification and Authentication 
 
-### Persistence Support {#Persistence_Support}
+### Persistence Support 
 
 Twisted provides an interface to any Python DB-API 2.0 compliant database through an asynchronous interface which allows database connections to be used, and multiplexed by multiple threads, while still remaining thread-safe for use with Twisted\'s event-based main loop.
 
@@ -72,9 +59,9 @@ The best supported database at the moment, because we here at Twisted Matrix Lab
 
 - \-- [InTheirOwnWords](InTheirOwnWords)
 
-### Presentation Support {#Presentation_Support}
+### Presentation Support 
 
-### InTheirOwnWords {#InTheirOwnWords}
+### InTheirOwnWords 
 
 Twisted integrates a large number of consistent APIs for developing new Internet services. This translates to a wide number of protocols and components that are ready to work with your new server before you\'ve written the first line of code.
 
@@ -84,9 +71,8 @@ What does this mean in terms of development time? If you\'re developing a new se
 
 Twisted comes under a relatively non-restrictive open-source license, making it suitable for both commercial and open-source development.
 
-### Comments {#Comments}
+### Comments 
 
-#### Twisted on Windows {#Twisted_on_Windows}
+#### Twisted on Windows 
 
 It works ok until you want to deploy as a service. I found that tricky - I had to write my own service to start and stop twisted (as of 1.3). [TwistedWebServerSampleOnWindows](TwistedWebServerSampleOnWindows)
-::::

@@ -1,9 +1,14 @@
 # JythonMonthly/Newsletters/September2006
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 ::: {}
   --------------------------------- ---------------------------------------------------------------------------------------------------
-  ***Jython Monthly***               ![](http://www.jython.org/css/jython.png "http://www.jython.org/css/jython.png"){.external_image}
+  ***Jython Monthly***               ![](http://www.jython.org/css/jython.png "http://www.jython.org/css/jython.png")
   **September 2006 \-- Issue #3**   
   --------------------------------- ---------------------------------------------------------------------------------------------------
 :::
@@ -16,19 +21,19 @@ Questions, comments, or suggestions?
 
 Please send email to:
 
-[jython-monthly@mchsi.com](mailto:jython-monthly@mchsi.com){.mailto} or [jython-users@lists.sourceforge.net](mailto:jython-users@lists.sourceforge.net){.mailto} for discussion.
+[jython-monthly@mchsi.com](mailto:jython-monthly@mchsi.com) or [jython-users@lists.sourceforge.net](mailto:jython-users@lists.sourceforge.net) for discussion.
 
-# Articles {#Articles}
+# Articles 
 
-## Accessing Jython from Java Without Using Jythonc {#Accessing_Jython_from_Java_Without_Using_Jythonc}
+## Accessing Jython from Java Without Using Jythonc 
 
-[http://wiki.python.org/jython/JythonMonthly/Articles/September2006/1](http://wiki.python.org/jython/JythonMonthly/Articles/September2006/1){.http}
+[http://wiki.python.org/jython/JythonMonthly/Articles/September2006/1](http://wiki.python.org/jython/JythonMonthly/Articles/September2006/1)
 
 *Submitted By: Josh Juneau*
 
-You may or may not know that it is possible to access Jython code from Java without compiling it using the jythonc utility. This technique is possible using a mixture of Java interfaces and usage of the [PythonInterpreter](./PythonInterpreter.html){.nonexistent}. As a matter of fact, I believe that using this technique correctly is more effective than using jythonc.
+You may or may not know that it is possible to access Jython code from Java without compiling it using the jythonc utility. This technique is possible using a mixture of Java interfaces and usage of the [PythonInterpreter](./PythonInterpreter.html). As a matter of fact, I believe that using this technique correctly is more effective than using jythonc.
 
-To put it simply, to use this technique you must create a \"factory\" method which uses the [PythonInterpreter](./PythonInterpreter.html){.nonexistent} class to interpret a .py module for use within Java code. Any Java code that uses the Jython code should be coded against an interface which is implemented by the Jython code.
+To put it simply, to use this technique you must create a \"factory\" method which uses the [PythonInterpreter](./PythonInterpreter.html) class to interpret a .py module for use within Java code. Any Java code that uses the Jython code should be coded against an interface which is implemented by the Jython code.
 
 In order to provide a fully functional example, I\'ve created a simple application with hard-coded data. This application shows the potential for using this technique within your Java applications to have the ability for use of dynamic Jython objects.
 
@@ -36,11 +41,11 @@ The application is simply called \"jyinterface\" and it contains four pieces of 
 
 - -Main.java
 
-  \-[JythonFactory](./JythonFactory.html){.nonexistent}.java - Uses the [PythonInterpreter](./PythonInterpreter.html){.nonexistent} to return a Java object
+  \-[JythonFactory](./JythonFactory.html).java - Uses the [PythonInterpreter](./PythonInterpreter.html) to return a Java object
 
-  \-[EmployeeType](./EmployeeType.html){.nonexistent}.java - An interface which will be implemented by a Jython bean -Employee.py - Jython bean representing an employee
+  \-[EmployeeType](./EmployeeType.html).java - An interface which will be implemented by a Jython bean -Employee.py - Jython bean representing an employee
 
-We\'ll start by coding the \"[EmployeeType](./EmployeeType.html){.nonexistent}.java\" interface which is what our Java code will use in order to interact with the Jython object:
+We\'ll start by coding the \"[EmployeeType](./EmployeeType.html).java\" interface which is what our Java code will use in order to interact with the Jython object:
 
     package jyinterface.interfaces;
 
@@ -52,7 +57,7 @@ We\'ll start by coding the \"[EmployeeType](./EmployeeType.html){.nonexistent}.j
         
     }
 
-The Jython bean \"Employee.py\" is just a simple Jython object which implements the Java interface \"[EmployeeType](./EmployeeType.html){.nonexistent}.java\":
+The Jython bean \"Employee.py\" is just a simple Jython object which implements the Java interface \"[EmployeeType](./EmployeeType.html).java\":
 
     # Jython source file
     from jyinterface.interfaces import EmployeeType
@@ -72,7 +77,7 @@ The Jython bean \"Employee.py\" is just a simple Jython object which implements 
        def getEmployeeId(self):
           return self.id
 
-Next, the most powerful code for this technique is the \"[JythonFactory](./JythonFactory.html){.nonexistent}.java\" class. This code defines a method which interprets a Jython module into Java and returns for use within Java code. The best part about creating a factory class such as this one is *reuse*! The factory can be coded in many different ways, but this way allows for reuse because you can essentially pass any Java interface/Jython module to it.
+Next, the most powerful code for this technique is the \"[JythonFactory](./JythonFactory.html).java\" class. This code defines a method which interprets a Jython module into Java and returns for use within Java code. The best part about creating a factory class such as this one is *reuse*! The factory can be coded in many different ways, but this way allows for reuse because you can essentially pass any Java interface/Jython module to it.
 
     package jyinterface.factory;
 
@@ -156,15 +161,15 @@ This technique is powerful because it allows an application to use code which ca
 
 Next time you plan to create a Java application that contains some Jython code, give this technique a try\...
 
-## Closures in Jython - Simple Example {#Closures_in_Jython_-_Simple_Example}
+## Closures in Jython - Simple Example 
 
-[http://wiki.python.org/jython/JythonMonthly/Articles/September2006/2](http://wiki.python.org/jython/JythonMonthly/Articles/September2006/2){.http}
+[http://wiki.python.org/jython/JythonMonthly/Articles/September2006/2](http://wiki.python.org/jython/JythonMonthly/Articles/September2006/2)
 
 *Submitted By: Josh Juneau*
 
 There has been a lot of discussion regarding closures recently. The topic of closures being added to the a future JDK is hot, but many of you know that this methodology already exists in Jython and Python\...and it is quite easy to use.
 
-In case you are unfamiliar with the topic, please read more about closures and their usage [here](http://en.wikipedia.org/wiki/Closure_(computer_science)){.http}.
+In case you are unfamiliar with the topic, please read more about closures and their usage [here](http://en.wikipedia.org/wiki/Closure_(computer_science)).
 
 This brief article was written to show a simple example of how to use closures in Jython. There are various different ways to write a closure in Jython and I will show you two such methods.
 
@@ -200,7 +205,7 @@ Of course, you can format the output to suit the needs of your application. As o
 
 Now, hopefully you can appreciate the beauty of closures a bit more!
 
-# Off The Lists {#Off_The_Lists}
+# Off The Lists 
 
 **Charlie Groves on the Possible Future of Jythonc:**
 
@@ -208,7 +213,7 @@ Speaking of jythonc on the branches, in my dev list spelunking for PyXML info la
 
 One of the things I saw mentioned was that rather than having a full blown .py -\> .java translator like jythonc, we could just have a static proxy bytecode creator. Since having the proxy bytecode in the classpath would allow the interpreter to function in a restricted classloader enviroment, this would allow jython to run everywhere. It would just remove the ability to have Jython code declare a Java calling mechanism with all of the \'@sig\' business. I personally prefer to declare an interface or class in java and have my jython code extend that if I want to call it from java. It removes the complication of having to run jythonc and doesn\'t force a user to learn the new \'@sig\' declaration. Do people really like the \'@sig\' feature of jythonc? Does it allow anything beyond what\'s possible with declaring interfaces in Java? Not that it matters if jythonc can\'t do generators\....
 
-Well, it\'s got enough life in it to last through the 2.2 release at least. I wrote a long spiel about a way to handle all of the jythonc use cases without the bother of compiling to Java like jythonc does, but it looks like Randy Brown already came up with my plan in the bullet points at the bottom of [http://thread.gmane.org/gmane.comp.lang.jython.devel/1429/focus=1430](http://thread.gmane.org/gmane.comp.lang.jython.devel/1429/focus=1430){.http} You should all be thankful that Alan pointed to that thread since my explanation was definitely longer, less clear and more tedious.
+Well, it\'s got enough life in it to last through the 2.2 release at least. I wrote a long spiel about a way to handle all of the jythonc use cases without the bother of compiling to Java like jythonc does, but it looks like Randy Brown already came up with my plan in the bullet points at the bottom of [http://thread.gmane.org/gmane.comp.lang.jython.devel/1429/focus=1430](http://thread.gmane.org/gmane.comp.lang.jython.devel/1429/focus=1430) You should all be thankful that Alan pointed to that thread since my explanation was definitely longer, less clear and more tedious.
 
 **Abhay Posted the Following Question:**
 
@@ -219,38 +224,37 @@ I was wondering if there was a way I could inspect the arguments of a member fun
      for a in obj.methodName.argslist:
         print a.data
 
-# Interested in Developing Jython? {#Interested_in_Developing_Jython.3F}
+# Interested in Developing Jython? 
 
-If you are interested in developing Jython, please take a look at the [current bug listing](http://sourceforge.net/tracker/?func=browse&group_id=12867&atid=112867){.http} and submit patches for items which you can repair.
+If you are interested in developing Jython, please take a look at the [current bug listing](http://sourceforge.net/tracker/?func=browse&group_id=12867&atid=112867) and submit patches for items which you can repair.
 
-# Who\'s Using Jython? {#Who.27s_Using_Jython.3F}
+# Who\'s Using Jython? 
 
-[Open-source reunion organizer Gather uses a Jython installer](http://gather.sourceforge.net){.http}
+[Open-source reunion organizer Gather uses a Jython installer](http://gather.sourceforge.net)
 
-[Open Jump - An open source GIS software written in Java](http://openjump.org/wiki/show/HomePage){.http}
+[Open Jump - An open source GIS software written in Java](http://openjump.org/wiki/show/HomePage)
 
-# Jython Blogs {#Jython_Blogs}
+# Jython Blogs 
 
-Jython Operator Overloading - [http://pauloherrera.wordpress.com/2006/08/24/operator-overloading-in-java-using-jython/](http://pauloherrera.wordpress.com/2006/08/24/operator-overloading-in-java-using-jython/){.http}
+Jython Operator Overloading - [http://pauloherrera.wordpress.com/2006/08/24/operator-overloading-in-java-using-jython/](http://pauloherrera.wordpress.com/2006/08/24/operator-overloading-in-java-using-jython/)
 
-Java isn\'t just Python without the cool language features - [http://rollerweblogger.org/roller/entry/java_isn_t_just_python](http://rollerweblogger.org/roller/entry/java_isn_t_just_python){.http}
+Java isn\'t just Python without the cool language features - [http://rollerweblogger.org/roller/entry/java_isn_t_just_python](http://rollerweblogger.org/roller/entry/java_isn_t_just_python)
 
-# Interesting Facts {#Interesting_Facts}
+# Interesting Facts 
 
-New Benchmark Suite Offering Jython Benchmarks (inteprets a the pybench Python benchmark) - [http://www.dacapobench.org/](http://www.dacapobench.org/){.http}
+New Benchmark Suite Offering Jython Benchmarks (inteprets a the pybench Python benchmark) - [http://www.dacapobench.org/](http://www.dacapobench.org/)
 
-Jython - Average Job Salary & Stats in UK [http://www.itjobswatch.co.uk/jobs/uk/jython.do](http://www.itjobswatch.co.uk/jobs/uk/jython.do){.http}
+Jython - Average Job Salary & Stats in UK [http://www.itjobswatch.co.uk/jobs/uk/jython.do](http://www.itjobswatch.co.uk/jobs/uk/jython.do)
 
-# Useful Links {#Useful_Links}
+# Useful Links 
 
 ::: {}
   ----------------------------------------------------------------
   **Links**
-  [Jython Home](http://www.jython.org){.http}
-  [Python Home](http://www.python.org){.http}
-  [Jython WikiPedia](http://en.wikipedia.org/wiki/Jython){.http}
-  [Freshmeat.net](http://freshmeat.net/projects/jython/){.http}
-  [Python Daily News](http://www.pythonware.com/daily/){.http}
+  [Jython Home](http://www.jython.org)
+  [Python Home](http://www.python.org)
+  [Jython WikiPedia](http://en.wikipedia.org/wiki/Jython)
+  [Freshmeat.net](http://freshmeat.net/projects/jython/)
+  [Python Daily News](http://www.pythonware.com/daily/)
   ----------------------------------------------------------------
 :::
-:::::

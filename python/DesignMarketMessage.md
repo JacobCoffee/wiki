@@ -1,6 +1,11 @@
 # DesignMarketMessage
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The key concept identified so far is **Python is an Agile Programming Language**.
 
 We need to refine and target this message.
@@ -35,9 +40,9 @@ Also need different messages for Mac, Windows, and Unix programmers. Screenshots
 
 Some relevant papers:
 
-[http://www.shtull-trauring.org/aron/Work/Articles/SoftMeth.pdf](http://www.shtull-trauring.org/aron/Work/Articles/SoftMeth.pdf){.http}
+[http://www.shtull-trauring.org/aron/Work/Articles/SoftMeth.pdf](http://www.shtull-trauring.org/aron/Work/Articles/SoftMeth.pdf)
 
-[http://www.zoteca.com/information/wp/pythonEAI.htm](http://www.zoteca.com/information/wp/pythonEAI.htm){.http}
+[http://www.zoteca.com/information/wp/pythonEAI.htm](http://www.zoteca.com/information/wp/pythonEAI.htm)
 
 One of the things that is obvious to me is that Python is the best language for 4M because it allows you to build rapid prototypes that evolve into the final working system in the most efficient manner possible.
 
@@ -58,4 +63,3 @@ This is, I think, a quote that should be used in marketing Python. It\'s a famil
 ------------------------------------------------------------------------
 
 [CategoryPythonInBusiness](CategoryPythonInBusiness)
-:::

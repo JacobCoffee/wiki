@@ -1,6 +1,11 @@
 # SummerOfCode/2011/SetuptoolsFeatures/review
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Here's a more detailed review, following my comments on the fellowship mailing list (which you haven't all addressed in your proposal or wiki page!).
 
 - Under normal circumstances, people use the distutils to build a distribution of a project by rebuilding or reinstalling the project every time he made a change to it during development. So it's a very important feature that setuptools offers to users, especially developers using version control system to manage code, which allows users to deploy their projects for use in a common directory or staging area, but without copying any files.
@@ -69,7 +74,7 @@ Not all. Multiversion is a whole can of worms in itself, and would require discu
 
 I hope this long message is helpful. To reply to it, please amend your proposal on the wiki (I will get automatically notified) or reply to specific items on the GSoC site.
 
-# Second Review {#Second_Review}
+# Second Review 
 
 - May 25-May 27: have a good communication with mentor to understand the project better and know the preparation work
 
@@ -100,4 +105,3 @@ I had forgotten gui_scripts, very good catch!
 - June 21\~June 22: study the background and discussing details of bug issue870479 and review the patch already submitted by others June 23\~June 24: study the background and discussing details of bug issue976869 and review the patch submitted
 
 I will create a new bug to track your new work and close the older ones as duplicates (the discussions will still be there to read), it will be easier to use than half a dozen of duplicate bugs.
-:::

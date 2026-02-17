@@ -1,51 +1,56 @@
 # PythonLibraryReference/GenericOperatingSystemServices
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [Python Library Reference](PythonLibraryReference)
 
-6.1 [os](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)OSModule.html){.nonexistent} \-- Miscellaneous operating system interfaces
+6.1 [os](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)OSModule.html) \-- Miscellaneous operating system interfaces
 
 6.1.1 Process Parameters 6.1.2 File Object Creation 6.1.3 File Descriptor Operations 6.1.4 Files and Directories 6.1.5 Process Management 6.1.6 Miscellaneous System Information
 
-6.2 [os.path](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)OSPathModule.html){.nonexistent} \-- Common pathname manipulations
+6.2 [os.path](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)OSPathModule.html) \-- Common pathname manipulations
 
-6.3 [dircache](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)DirCacheModule.html){.nonexistent} \-- Cached directory listings
+6.3 [dircache](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)DirCacheModule.html) \-- Cached directory listings
 
-6.4 [stat](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)StatModule.html){.nonexistent} \-- Interpreting stat() results
+6.4 [stat](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)StatModule.html) \-- Interpreting stat() results
 
-6.5 [statcache](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)StatcacheModule.html){.nonexistent} \-- An optimization of os.stat()
+6.5 [statcache](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)StatcacheModule.html) \-- An optimization of os.stat()
 
-6.6 [statvfs](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)StatvfsModule.html){.nonexistent} \-- Constants used with os.statvfs()
+6.6 [statvfs](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)StatvfsModule.html) \-- Constants used with os.statvfs()
 
-6.7 [filecmp](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)FilecmpModule.html){.nonexistent} \-- File and Directory Comparisons
+6.7 [filecmp](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)FilecmpModule.html) \-- File and Directory Comparisons
 
 6.7.1 The dircmp class
 
-6.8 [popen2](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)Popen2Module.html){.nonexistent} \-- Subprocesses with accessible I/O streams
+6.8 [popen2](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)Popen2Module.html) \-- Subprocesses with accessible I/O streams
 
 6.8.1 Popen3 and Popen4 Objects 6.8.2 Flow Control Issues
 
-6.9 [datetime](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)DatetimeModule.html){.nonexistent} \-- Basic date and time types
+6.9 [datetime](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)DatetimeModule.html) \-- Basic date and time types
 
 6.9.1 Available Types 6.9.2 timedelta Objects 6.9.3 date Objects 6.9.4 datetime Objects 6.9.5 time Objects 6.9.6 tzinfo Objects 6.9.7 strftime() Behavior
 
-6.10 [time](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)TimeModule.html){.nonexistent} \-- Time access and conversions
+6.10 [time](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)TimeModule.html) \-- Time access and conversions
 
-6.11 [sched](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)SchedModule.html){.nonexistent} \-- Event scheduler
+6.11 [sched](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)SchedModule.html) \-- Event scheduler
 
 6.11.1 Scheduler Objects
 
-6.12 [mutex](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)MutexModule.html){.nonexistent} \-- Mutual exclusion support
+6.12 [mutex](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)MutexModule.html) \-- Mutual exclusion support
 
 6.12.1 Mutex Objects
 
-6.13 [getpass](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)GetPassModule.html){.nonexistent} \-- Portable password input
+6.13 [getpass](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)GetPassModule.html) \-- Portable password input
 
-6.14 [curses](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)CursesModule.html){.nonexistent} \-- Terminal handling for character-cell displays
+6.14 [curses](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)CursesModule.html) \-- Terminal handling for character-cell displays
 
 6.14.1 Functions 6.14.2 Window Objects 6.14.3 Constants
 
-6.15 [curses.textpad](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)CursesTextpadModule.html){.nonexistent} \-- Text input widget for curses programs
+6.15 [curses.textpad](./PythonLibraryReference(2f)GenericOperatingSystemServices(2f)CursesTextpadModule.html) \-- Text input widget for curses programs
 
 6.15.1 Textbox objects
 
@@ -83,9 +88,8 @@
 
 6.28 logging \-- Logging facility for Python
 
-6.28.1 Logger Objects 6.28.2 Handler Objects 6.28.3 Formatter Objects 6.28.4 Filter Objects 6.28.5 [LogRecord](./LogRecord.html){.nonexistent} Objects 6.28.6 Thread Safety 6.28.7 Configuration 6.28.8 Using the logging package
+6.28.1 Logger Objects 6.28.2 Handler Objects 6.28.3 Formatter Objects 6.28.4 Filter Objects 6.28.5 [LogRecord](./LogRecord.html) Objects 6.28.6 Thread Safety 6.28.7 Configuration 6.28.8 Using the logging package
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-:::

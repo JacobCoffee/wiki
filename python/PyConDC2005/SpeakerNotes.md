@@ -1,15 +1,20 @@
 # PyConDC2005/SpeakerNotes
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page collects suggestions for speakers and presenters at [PyCon](PyCon). Thank you very much for taking the time and trouble to submit a paper. We really appreciate your efforts.
 
-# The final version of your submission {#The_final_version_of_your_submission}
+# The final version of your submission 
 
 - [PyCon](PyCon) no longer has a published volume of proceedings; talks are now only available on-line. Therefore, write the final version for online viewing. While PDF is permitted, submission in HTML is better. Keep graphics reasonably sized for web access.
 
 - Finish preparing the online version of the paper before [PyCon](PyCon). This gives the audience more information in choosing which talks to attend, and people can refer to the paper during your talk for more details.
 
-# A Presentation is not a Paper (Slide Sample) {#A_Presentation_is_not_a_Paper_.28Slide_Sample.29}
+# A Presentation is not a Paper (Slide Sample) 
 
 - The slides are primarily to support your talk
   - Your written paper is for standalone reading
@@ -20,7 +25,7 @@ This page collects suggestions for speakers and presenters at [PyCon](PyCon). Th
 - Only hit the most important points on the slides
   - Expand as you speak if there\'s audience interest
 
-# Presentation advice {#Presentation_advice}
+# Presentation advice 
 
 - For a 30-minute slot, you have 20 minutes to talk, 5 minutes for questions, and 5 minutes for more questions accompanied by people switching rooms. Time your talk accordingly.
 
@@ -33,7 +38,7 @@ This page collects suggestions for speakers and presenters at [PyCon](PyCon). Th
 - If in doubt, err on the side of not talking long enough. It\'s better to have the audience thinking \"That talk left me wanting more. I need to go talk to the presenter/download the package/go to the BoF,\" than \"That talk stretched 15 minutes of material into an hour. What a waste of time.\"
 - Don\'t waste time on introductory material, e.g. explaining Python\'s syntax, explaining XML for fifteen slides.
 
-# Speaking Techniques {#Speaking_Techniques}
+# Speaking Techniques 
 
 - If you are nervous, there\'s nothing wrong with admitting that
   - The information you present is your talk\'s primary value
@@ -61,17 +66,16 @@ This page collects suggestions for speakers and presenters at [PyCon](PyCon). Th
 
 - During the Q&A portion of the talk, always repeat any questions that were asked without a microphone - otherwise many people in the audience won\'t hear the question.
 
-# Other resources {#Other_resources}
+# Other resources 
 
-- [Conference Presentation Judo](http://perl.plover.com/yak/presentation/){.http} \-- aimed at people giving three-hour tutorials, but many suggestions apply to shorter talks like those given at [PyCon](PyCon).
+- [Conference Presentation Judo](http://perl.plover.com/yak/presentation/) \-- aimed at people giving three-hour tutorials, but many suggestions apply to shorter talks like those given at [PyCon](PyCon).
 
-- [SAGE/LISA Conference Presentation advice](http://www.sage.org/presentation/){.http}
+- [SAGE/LISA Conference Presentation advice](http://www.sage.org/presentation/)
 
-- [How to Give a Bad Talk](http://www.cs.wisc.edu/~markhill/conference-talk.html#badtalk){.http}
+- [How to Give a Bad Talk](http://www.cs.wisc.edu/~markhill/conference-talk.html#badtalk)
 
-- [S5](http://www.meyerweb.com/eric/tools/s5/){.http} \-- if you want to write your presentation slides in HTML, S5 is a collection of CSS stylesheets and [JavaScript](./JavaScript.html){.nonexistent} code well-suited for standard-compliant HTML presentations.
+- [S5](http://www.meyerweb.com/eric/tools/s5/) \-- if you want to write your presentation slides in HTML, S5 is a collection of CSS stylesheets and [JavaScript](./JavaScript.html) code well-suited for standard-compliant HTML presentations.
 
 ------------------------------------------------------------------------
 
 [CategoryPyCon2005](CategoryPyCon2005)
-:::

@@ -1,13 +1,18 @@
 # PyQt/Adding custom signals to a simple painted widget
 
-::::: {#content dir="ltr" lang="en"}
-# Adding custom signals to a simple painted widget {#Adding_custom_signals_to_a_simple_painted_widget}
+```{admonition} Legacy Wiki Page
+:class: note
 
-On the `#pyqt`{.backtick} channel on [freenode](http://freenode.net){.http}, `magicblaze007`{.backtick} asked for an example that showed how to declare and use custom signals.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3c30d076b68b227e9917c4e4198473077e758f4f dir="ltr" lang="en"}
+# Adding custom signals to a simple painted widget 
+
+On the `#pyqt`{.backtick} channel on [freenode](http://freenode.net), `magicblaze007`{.backtick} asked for an example that showed how to declare and use custom signals.
+
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import pyqtSignal, QSize, Qt
    3 from PyQt4.QtGui import *
@@ -75,4 +80,3 @@ On the `#pyqt`{.backtick} channel on [freenode](http://freenode.net){.http}, `ma
 ```
 :::
 ::::
-:::::

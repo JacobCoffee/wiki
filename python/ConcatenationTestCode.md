@@ -1,11 +1,16 @@
 # ConcatenationTestCode
 
-::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Counter to the [PythonSpeed/PerformanceTips](./PythonSpeed(2f)PerformanceTips.html), on python 2.4 the following string concatenation is almost twice as fast:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ec83a2f5f873efaae9b55eb10843fef1713a4cec dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from time import time
    2 t = time()
    3 
@@ -20,9 +25,9 @@ Counter to the [PythonSpeed/PerformanceTips](./PythonSpeed(2f)PerformanceTips.ht
 
 as:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f94e11c0688e1baa0105819806911bc9085fb749 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from time import time
    2 t = time()
    3 
@@ -65,19 +70,19 @@ which gives on [PythonWin](PythonWin) 2.4 (#60, Nov 30 2004, 09:34:21) \[MSC v.1
 
 - Mike, that code generates a very different (and much shorter) s. Note how the original code takes the half of the *preconcatenated* s, making the size grow exponentially (which generates megabytes of data). \-- [JürgenHermann](./J(c3bc)rgenHermann.html) 2005-08-30 18:44:05
 
-\-- \-- [DavidFord](./DavidFord.html){.nonexistent} 2005-10-18 10:19:06 A few notes (your mileage may vary - this is a 4Mb file being stripped of unprintable characters)
+\-- \-- [DavidFord](./DavidFord.html) 2005-10-18 10:19:06 A few notes (your mileage may vary - this is a 4Mb file being stripped of unprintable characters)
 
 - Regex replacement rather than creating a list and joining it is 2.5x faster than the tooling above
 
-- This is far slower than the equivalent Java code (around 4x slower) using String.charAt() and [StringBuffers](./StringBuffers.html){.nonexistent}
+- This is far slower than the equivalent Java code (around 4x slower) using String.charAt() and [StringBuffers](./StringBuffers.html)
 
 ------------------------------------------------------------------------
 
 I tend to create a stream of strings in a loop that should be concatenated. I generated the script to test the join vs += performance for some randomly generated data and found that for 100,000 strings of length up to ten characters, join is maybe 20% faster than using +=. It certainly was not an order of magnitude faster. The results tended to vary each time through the outer loop, even though I attempted to control the garbage collection and ensured my Windows XP machine was 95% idle apart from running the script.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a4503caf23f755bcfbbcff61a0296492381b1b76 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from time import time
    2 import random, gc
    3 
@@ -236,9 +241,9 @@ Thanks for this. I\'ve run a modified version of above examples on Windows for P
     concatenate3 duration: 0.0320000648499s
     Size: 17482535
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2684be6c6e3cdc2ce1a5accb0081b6569b0c3ecb dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from time import time
    2 s = 'qwertyuiopasdfghjklzxcvbnm123456789'
    3 LOOPS = 10
@@ -295,4 +300,3 @@ Not surprising at all. Every character in the original string and all generated 
 As Josh hints at above, the format of the string matters a lot for this. With byte-code strings, concatenating with += is as fast as a .join outside of the for loop, and several times faster than a .join inside the for loop. With Unicode, the concatenation is roughly 300x slower than a .join outside the for loop (with Unicode, the for inside the loop is faster than concatenation, but not by much). Used llakomy\'s code to test on 2.7.3.
 
 \-- Different Josh
-:::::::::::

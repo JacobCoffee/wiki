@@ -1,17 +1,12 @@
 # PrintFails
 
-:::::::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [Issue](#Issue)
-2.  [Windows](#Windows)
-3.  [Various UNIX consoles](#Various_UNIX_consoles)
-4.  [print, write and Unicode in pre-3.0 Python](#print.2C_write_and_Unicode_in_pre-3.0_Python)
-5.  [read and Unicode in pre-3.0 Python](#read_and_Unicode_in_pre-3.0_Python)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Issue {#Issue}
+## Issue 
 
 If you try to print a unicode string to console and get a message like this one:
 
@@ -33,23 +28,23 @@ To understand it more clearly, look at:
 
 - sys.stdout
 
-- sys.stdout.encoding \-- ![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} This seems to work on one of my computers (Vista,) but not on another of my computers (XP.) I haven\'t looked into differences of situation in detail.
+- sys.stdout.encoding \-- ![/!\\](/wiki/europython/img/alert.png "/!\") This seems to work on one of my computers (Vista,) but not on another of my computers (XP.) I haven\'t looked into differences of situation in detail.
 
-## Windows {#Windows}
+## Windows 
 
-By default, the console in Microsoft Windows only displays 256 characters (cp437, of [\"Code page 437\"](http://en.wikipedia.org/wiki/Code_page_437){.http}, the original IBM-PC 1981 extended ASCII character set.)
+By default, the console in Microsoft Windows only displays 256 characters (cp437, of [\"Code page 437\"](http://en.wikipedia.org/wiki/Code_page_437), the original IBM-PC 1981 extended ASCII character set.)
 
 If you try to print an unprintable character you will get `UnicodeEncodeError`.
 
 Setting the PYTHONIOENCODING environment variable as described above can be used to suppress the error messages. Setting to \"utf-8\" is not recommended as this produces an inaccurate, garbled representation of the output to the console. For best results, use your console\'s correct default codepage and a suitable error handler other than \"strict\".
 
-## Various UNIX consoles {#Various_UNIX_consoles}
+## Various UNIX consoles 
 
 There is no standard way to query UNIX console for find out what characters it supports but fortunately there is a way to find out what characters are considered to be printable. Locale category LC_CTYPE defines what characters are printable. To find out its value type at python prompt:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-57de7677c670ab03044e823918d740ca4ad048da dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> import locale
    2 >>> locale.getdefaultlocale()[1]
    3 'utf-8'
@@ -59,7 +54,7 @@ There is no standard way to query UNIX console for find out what characters it s
 
 If you got any other value you won\'t be able to print all unicode characters. As soon as you try to print a unprintable character you will get `UnicodeEncodeError`. To fix this situation you need to set the environment variable LANG to one of supported by your system unicode locales. To get the full list of locales use command \"locale -a\", look for locales that end with string \".utf-8\". If you have set LANG variable but now instead of `UnicodeEncodeError` you see garbage on your screen you need to set up your terminal to use font unicode font. Consult terminal manual on how to do it.
 
-## print, write and Unicode in pre-3.0 Python {#print.2C_write_and_Unicode_in_pre-3.0_Python}
+## print, write and Unicode in pre-3.0 Python 
 
 Because file operations are 8-bit clean, reading data from the original `stdin` will return `str`\'s containing data in the input character set. Writing these `str`\'s to `stdout` without any codecs will result in the output identical to the input.
 
@@ -100,9 +95,9 @@ Since programmers need to display `unicode` strings, the designers of the `print
 
 I (IL) understand the implementation of Python2.5\'s `print` statement as follows.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-31bf4f38b680586c161998af65c20b1fbfc14ced dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     # At Python startup.
    2     sys.stdout.encoding = tty_enc
    3     if tty_enc is not None:
@@ -154,7 +149,7 @@ Wrapping `sys.stdout` into an instance of [StreamWriter](StreamWriter) will allo
 
 The `write` call executes `StreamWriter.write` which in turn invokes codec-specific `encode` and passes the result to the underlying file. It appears that the `print` statement will not fail due to the argument type coercion when `sys.stdout` is wrapped. My (IL\'s) understanding of `print`\'s implementation above agrees with that.
 
-## read and Unicode in pre-3.0 Python {#read_and_Unicode_in_pre-3.0_Python}
+## read and Unicode in pre-3.0 Python 
 
 I (IL) believe reading from `stdin` does not involve coercion at all because the existing ways to read from `stdin` such as `"for line in sys.stdin"` do not convey the expected type of the returned value to the `stdin` handler. A function that would complement the `print` statement might look like this:
 
@@ -181,4 +176,3 @@ See also: [Unicode](Unicode)
 ------------------------------------------------------------------------
 
 [CategoryUnicode](CategoryUnicode)
-::::::::

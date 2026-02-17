@@ -1,13 +1,17 @@
 # HjemmesideSkabelon
 
-::: {#content dir="ltr" lang="en"}
-## Dit Navn {#Dit_Navn}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Email: [dig@dem.dk](mailto:dig@dem.dk){.mailto}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Dit Navn 
+
+Email: [dig@dem.dk](mailto:dig@dem.dk)
 
 \...
 
 ------------------------------------------------------------------------
 
 [KategoriHjemmeside](KategoriHjemmeside)
-:::

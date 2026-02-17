@@ -1,17 +1,22 @@
 # EducationSummit
 
-::: {#content dir="ltr" lang="en"}
-# Mailing List {#Mailing_List}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Mailing List 
 
 To continue the exchange of ideas on Python and Education (no matter where, how or with whom) please join this list and introduce yourself.
 
-[https://groups.google.com/forum/?hl=en&fromgroups#!forum/pycon-education-summit](https://groups.google.com/forum/?hl=en&fromgroups#!forum/pycon-education-summit){.https}
+[https://groups.google.com/forum/?hl=en&fromgroups#!forum/pycon-education-summit](https://groups.google.com/forum/?hl=en&fromgroups#!forum/pycon-education-summit)
 
-# PyCon Education Summit {#PyCon_Education_Summit}
+# PyCon Education Summit 
 
 For right now, this is mainly a collection of links to facilitate the conference. More content would be welcome.
 
-## Open Spaces {#Open_Spaces}
+## Open Spaces 
 
 \* [Jumping the Gap: Amateur to Pro](SummitTrackOne)
 
@@ -21,7 +26,7 @@ For right now, this is mainly a collection of links to facilitate the conference
 
 \* [Lightning Talks](SummitLightningTalks)
 
-### Talks Not Presented in the Main Spaces {#Talks_Not_Presented_in_the_Main_Spaces}
+### Talks Not Presented in the Main Spaces 
 
 The following talks were not presented as part of the main open space series. If you want to contact the people who suggested these topics, please contact Naomi.
 
@@ -41,7 +46,6 @@ The following talks were not presented as part of the main open space series. If
 
 \* Collaboratively Developing Curriculum Materials for Tech Subjects
 
-## Survey {#Survey}
+## Survey 
 
-Please take a moment to [fill out the survey.](http://www.surveymonkey.com/s/GTZXDD8){.http}
-:::
+Please take a moment to [fill out the survey.](http://www.surveymonkey.com/s/GTZXDD8)

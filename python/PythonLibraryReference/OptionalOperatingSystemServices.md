@@ -1,35 +1,40 @@
 # PythonLibraryReference/OptionalOperatingSystemServices
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [Python Library Reference](PythonLibraryReference)
 
-7.1 [signal](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)SignalModule.html){.nonexistent} \-- Set handlers for asynchronous events
+7.1 [signal](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)SignalModule.html) \-- Set handlers for asynchronous events
 
 7.1.1 Example
 
-7.2 [socket](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)SocketModule.html){.nonexistent} \-- Low-level networking interface
+7.2 [socket](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)SocketModule.html) \-- Low-level networking interface
 
 7.2.1 Socket Objects 7.2.2 SSL Objects 7.2.3 Example
 
-7.3 [select](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)SelectModule.html){.nonexistent} \-- Waiting for I/O completion
+7.3 [select](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)SelectModule.html) \-- Waiting for I/O completion
 
 7.3.1 Polling Objects
 
 7.4 [thread](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)ThreadModule.html) \-- Multiple threads of control
 
-7.5 [threading](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)ThreadingModule.html){.nonexistent} \-- Higher-level threading interface
+7.5 [threading](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)ThreadingModule.html) \-- Higher-level threading interface
 
 7.5.1 Lock Objects 7.5.2 RLock Objects 7.5.3 Condition Objects 7.5.4 Semaphore Objects 7.5.5 Event Objects 7.5.6 Thread Objects 7.5.7 Timer Objects
 
-7.6 [dummy_thread](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)DummyThreadModule.html){.nonexistent} \-- Drop-in replacement for the thread module
+7.6 [dummy_thread](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)DummyThreadModule.html) \-- Drop-in replacement for the thread module
 
-7.7 [dummy_threading](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)DummyThreadingModule.html){.nonexistent} \-- Drop-in replacement for the threading module
+7.7 [dummy_threading](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)DummyThreadingModule.html) \-- Drop-in replacement for the threading module
 
-7.8 [Queue](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)QueueModule.html){.nonexistent} \-- A synchronized queue class
+7.8 [Queue](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)QueueModule.html) \-- A synchronized queue class
 
 7.8.1 Queue Objects
 
-7.9 [mmap](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)MmapModule.html){.nonexistent} \-- Memory-mapped file support
+7.9 [mmap](./PythonLibraryReference(2f)OptionalOperatingSystemServices(2f)MmapModule.html) \-- Memory-mapped file support
 
 7.10 anydbm \-- Generic access to DBM-style databases
 
@@ -57,11 +62,11 @@
 
 7.18 zipfile \-- Work with ZIP archives
 
-7.18.1 [ZipFile](./ZipFile.html){.nonexistent} Objects 7.18.2 [PyZipFile](./PyZipFile.html){.nonexistent} Objects 7.18.3 [ZipInfo](./ZipInfo.html){.nonexistent} Objects
+7.18.1 [ZipFile](./ZipFile.html) Objects 7.18.2 [PyZipFile](./PyZipFile.html) Objects 7.18.3 [ZipInfo](./ZipInfo.html) Objects
 
 7.19 tarfile \-- Read and write tar archive files
 
-7.19.1 [TarFile](./TarFile.html){.nonexistent} Objects 7.19.2 [TarInfo](./TarInfo.html){.nonexistent} Objects 7.19.3 Examples
+7.19.1 [TarFile](./TarFile.html) Objects 7.19.2 [TarInfo](./TarInfo.html) Objects 7.19.3 Examples
 
 7.20 readline \-- GNU readline interface
 
@@ -74,4 +79,3 @@
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-:::

@@ -1,7 +1,12 @@
 # PyConIndia2010/SponsorShip
 
-:::: {#content dir="ltr" lang="en"}
-# Possible Sponsors {#Possible_Sponsors}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Possible Sponsors 
 
 This is a list of sponsors whom we can meet. A good starting point is [BangPypers/PythonCompaniesInIndia](./BangPypers(2f)PythonCompaniesInIndia.html). This is of course predicated on the venue.
 
@@ -9,8 +14,8 @@ This is a list of sponsors whom we can meet. A good starting point is [BangPyper
   --------------------------------------------------- ----------------------------------------------
   **Sponsor name**                                    **Contact person/Plan of action**
   Oracle (US)                                         Saju Pillai to check with contacts in the US
-  [ZeOmega](./ZeOmega.html){.nonexistent}             Noufal to open a thread of communication
-  [ThoughtWorks](./ThoughtWorks.html){.nonexistent}   
+  [ZeOmega](./ZeOmega.html)             Noufal to open a thread of communication
+  [ThoughtWorks](./ThoughtWorks.html)   
   IIT Bombay                                          Noufal will mail Prabhu
   Yahoo India R&D                                     
   Packt Publishers                                    Anand Pillai
@@ -23,9 +28,9 @@ This is a list of sponsors whom we can meet. A good starting point is [BangPyper
 
 Possible cold calls to all the sponsors at The US, APAC and Euro [PyCon](PyCon) sites?
 
-# Sponsorship Tiers {#Sponsorship_Tiers}
+# Sponsorship Tiers 
 
-## Platinum (1L and above) {#Platinum_.281L_and_above.29}
+## Platinum (1L and above) 
 
 - Name on Banner
 - Name on site
@@ -34,30 +39,30 @@ Possible cold calls to all the sponsors at The US, APAC and Euro [PyCon](PyCon) 
 - Name on Swag bag
 - Prominent stall
 
-## Gold (50k - 1L) {#Gold_.2850k_-_1L.29}
+## Gold (50k - 1L) 
 
 - Name on banner
 - Name on site
 - Name in brochure
 - Contact information of delegates (unless they\'ve opted out).
 
-## Silver (25k - 50k) {#Silver_.2825k_-_50k.29}
+## Silver (25k - 50k) 
 
 - Name on banner
 - Name on site
 - Name in brochure
 
-## Category specific {#Category_specific}
+## Category specific 
 
-### Wifi {#Wifi}
+### Wifi 
 
-### A/V {#A.2FV}
+### A/V 
 
-### Media (books etc.) {#Media_.28books_etc..29}
+### Media (books etc.) 
 
 ------------------------------------------------------------------------
 
-## Sponsor Application and Contract {#Sponsor_Application_and_Contract}
+## Sponsor Application and Contract 
 
 Please write clearly in blue or black ink. Please print your organization name and information exactly as it should appear on all promotional and marketing materials for the event.
 
@@ -110,4 +115,3 @@ Contract Signature Sponsor: Title : Date:
 For Indian Python Software Society Date:
 
 Terms and Conditions:
-::::

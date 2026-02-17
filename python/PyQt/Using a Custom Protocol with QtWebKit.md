@@ -1,9 +1,14 @@
 # PyQt/Using a Custom Protocol with QtWebKit
 
-::: {#content dir="ltr" lang="en"}
-# Using a Custom Protocol with QtWebKit {#Using_a_Custom_Protocol_with_QtWebKit}
+```{admonition} Legacy Wiki Page
+:class: note
 
-This example was written in response to [a message on the Python-list mailing list](http://mail.python.org/pipermail/python-list/2009-June/714967.html){.http}. It shows how to implement support for a new URL scheme in [WebKit](WebKit), so that additional protocols can be used with embedded browsers.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Using a Custom Protocol with QtWebKit 
+
+This example was written in response to [a message on the Python-list mailing list](http://mail.python.org/pipermail/python-list/2009-June/714967.html). It shows how to implement support for a new URL scheme in [WebKit](WebKit), so that additional protocols can be used with embedded browsers.
 
 See [Adding the Gopher Protocol to QtWebKit](./PyQt(2f)Adding(20)the(20)Gopher(20)Protocol(20)to(20)QtWebKit.html) for a more complex example.
 
@@ -119,4 +124,3 @@ In the part of the example where we set up the application, we replace the exist
         view.setHtml(html)
         view.show()
         sys.exit(app.exec_())
-:::

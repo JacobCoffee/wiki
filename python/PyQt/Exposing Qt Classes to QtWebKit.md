@@ -1,17 +1,22 @@
 # PyQt/Exposing Qt Classes to QtWebKit
 
-::::: {#content dir="ltr" lang="en"}
-# Exposing Qt Classes to QtWebKit {#Exposing_Qt_Classes_to_QtWebKit}
+```{admonition} Legacy Wiki Page
+:class: note
 
-On the [PyQt mailing list](./PyQt(2f)TheMailingList.html), Christophe [asked for examples](http://www.riverbankcomputing.com/pipermail/pyqt/2010-June/026803.html){.http} that show Qt objects being added to QtWebKit for use with JavaScript.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-A simple example of this can be found on Mario Boikov\'s blog: [Calling Python from JavaScript in PyQt\'s QWebkit](http://pysnippet.blogspot.com/2010/01/calling-python-from-javascript-in-pyqts.html){.http}.
+# Exposing Qt Classes to QtWebKit 
+
+On the [PyQt mailing list](./PyQt(2f)TheMailingList.html), Christophe [asked for examples](http://www.riverbankcomputing.com/pipermail/pyqt/2010-June/026803.html) that show Qt objects being added to QtWebKit for use with JavaScript.
+
+A simple example of this can be found on Mario Boikov\'s blog: [Calling Python from JavaScript in PyQt\'s QWebkit](http://pysnippet.blogspot.com/2010/01/calling-python-from-javascript-in-pyqts.html).
 
 The following code is an extreme example of this which uses a wrapper class to expose the QFile class and its open() and readAll() methods to JavaScript.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1c675d50cead4b1e46a358a2ace732790f278ec0 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import *
    3 from PyQt4.QtGui import *
@@ -117,4 +122,3 @@ The following code is an extreme example of this which uses a wrapper class to e
 ```
 :::
 ::::
-:::::

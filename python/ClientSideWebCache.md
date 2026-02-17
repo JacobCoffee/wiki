@@ -1,13 +1,18 @@
 # ClientSideWebCache
 
-::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Is there an existing Python module that takes care of retrieving and caching web page contents?
 
 Something like:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1021e0c07348a0be33a2e28b0ba15400a6813b2e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import cachedweb
    2 
    3 cache = cachedweb("/home/user/.web_cache")  # Maintain cache data in .web_cache
@@ -18,7 +23,7 @@ Something like:
 
 Perhaps there are different options for where and how to store cache data.
 
-I have written at least three programs that do this, ([nLSD interpreter,](http://onebigsoup.wiki.taoriver.net/moin.cgi/nLSDgraphs){.http} and two [Local Names servers,](http://ln.taoriver.net/){.http}) and am about to embark on a fourth program.
+I have written at least three programs that do this, ([nLSD interpreter,](http://onebigsoup.wiki.taoriver.net/moin.cgi/nLSDgraphs) and two [Local Names servers,](http://ln.taoriver.net/)) and am about to embark on a fourth program.
 
 Has anyone created a standard module or interface for this sort of thing?
 
@@ -32,19 +37,19 @@ Some things that would be nice:
 
 Some info for would-be cachers:
 
-- [Caching Tutorial for Web Authors and Webmasters](http://www.mnot.net/cache_docs/){.http} - talks about HTTP headers having to do with caching
+- [Caching Tutorial for Web Authors and Webmasters](http://www.mnot.net/cache_docs/) - talks about HTTP headers having to do with caching
 
-- [urllib.urlretrieve](http://www.python.org/doc/current/lib/module-urllib.html){.http} - performs some of what we want, though you have to do a lot of maintenance yourself
+- [urllib.urlretrieve](http://www.python.org/doc/current/lib/module-urllib.html) - performs some of what we want, though you have to do a lot of maintenance yourself
 
 \-- [LionKimbro](LionKimbro) 2005-03-29 06:45:28
 
-## Primitive Example {#Primitive_Example}
+## Primitive Example 
 
 Here\'s a very simple example:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-0e846096c41b49cef2a32f2abd484b8cf38ff995 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #!/usr/bin/python
    2 """Retrieve and cache web pages.
    3 
@@ -165,4 +170,3 @@ Here\'s a very simple example:
 ```
 :::
 ::::
-:::::::

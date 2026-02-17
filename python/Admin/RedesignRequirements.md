@@ -1,7 +1,12 @@
 # Admin/RedesignRequirements
 
-::: {#content dir="ltr" lang="en"}
-# Goals for 2007 redesign {#Goals_for_2007_redesign}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Goals for 2007 redesign 
 
 - Rebuilding needs to be faster.
   - Global rebuilds could be very fast.
@@ -14,13 +19,13 @@
 - Should use some 3rd-party Python library for templating.
 - Should be usable as the back-end for generating pages on the fly in case python.org becomes fully dynamic. So generating a single page should be reasonably quick and not require any expensive operations.
 
-## Tasks {#Tasks}
+## Tasks 
 
 - Write conversion tool: YAML info to the navigation format.
 - Fix encoding problems.
 - Write redirection config. tool.
 
-## Pyramid usage {#Pyramid_usage}
+## Pyramid usage 
 
     amk@matterhorn:~/source/p/pyramid-trunk$ pyramid/pyramid --help
     usage: pyramid [options]
@@ -47,4 +52,3 @@
       -n, --relativeurls    Converts urls from absolute to relative
       -P, --prettify        Prettify output - not used on live site
     amk@matterhorn:~/source/p/pyramid-trunk$
-:::

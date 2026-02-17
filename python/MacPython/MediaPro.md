@@ -1,7 +1,12 @@
 # MacPython/MediaPro
 
-::: {#content dir="ltr" lang="en"}
-iView MediaPro\'s scripting support contains a couple of design flaws that together cause by-index references to fail when scripting it from Python+appscript. (This bug doesn\'t affect [AppleScript](./AppleScript.html){.nonexistent} users, as [AppleScript](./AppleScript.html){.nonexistent}\'s own shortcomings mask the problem there.) MediaPro 3.1.1 and earlier versions are affected (a bug report has been submitted, so future versions may rectify this).
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+iView MediaPro\'s scripting support contains a couple of design flaws that together cause by-index references to fail when scripting it from Python+appscript. (This bug doesn\'t affect [AppleScript](./AppleScript.html) users, as [AppleScript](./AppleScript.html)\'s own shortcomings mask the problem there.) MediaPro 3.1.1 and earlier versions are affected (a bug report has been submitted, so future versions may rectify this).
 
 Example:
 
@@ -11,7 +16,7 @@ Example:
     print app('iView MediaPro').windows[1L].get()
     # -> CommandError -1703: Some data was the wrong type. # (IMP only accepts a signed integer for the window index)
 
-The following module provides a workaround for this bug on appscript 0.16.0 and later by rebuilding any by-index references before they are packed and sent to [MediaPro](./MediaPro.html){.nonexistent}.
+The following module provides a workaround for this bug on appscript 0.16.0 and later by rebuilding any by-index references before they are packed and sent to [MediaPro](./MediaPro.html).
 
     """impdaddy.py -- Workaround for iView MediaPro's buggy by-index reference forms."""
 
@@ -76,4 +81,3 @@ Example usage:
     #-> app(u'/Applications/iView MediaPro 3/iView MediaPro.app').windows[1L]
 
 (For the curious, the above module also provides an interesting demonstration of aem\'s `AEM_resolve` method, which \'replays\' the full sequence of method calls used to construct an existing aem reference. Appscript uses this method itself when converting generic references to real references, and when generating string representations of appscript references for on-screen display.)
-:::

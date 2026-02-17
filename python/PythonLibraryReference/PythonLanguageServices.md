@@ -1,6 +1,11 @@
 # PythonLibraryReference/PythonLanguageServices
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [Python Library Reference](PythonLibraryReference)
 
 ::: {}
@@ -9,7 +14,7 @@
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-# Python Language Services {#Python_Language_Services}
+# Python Language Services 
 
 18.1 parser \-- Access Python parse trees
 
@@ -40,4 +45,3 @@
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-::::

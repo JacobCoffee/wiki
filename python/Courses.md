@@ -1,7 +1,12 @@
 # Courses
 
-::: {#content dir="ltr" lang="en"}
-[Writing Your First Django App](https://www.webucator.com/django-training/course/writing-your-first-django-app/){.https}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[Writing Your First Django App](https://www.webucator.com/django-training/course/writing-your-first-django-app/)
 
 Nat Dunn
 
@@ -18,11 +23,11 @@ A free Django course with videos based on the Django Software Foundations offici
 - Learn to add static content (e.g., images and CSS) to your website.
 - Discover the awesomeness of Django admin - Django\'s built-in admin site.
 
-[Regression Modeling with Statistics and Machine Learning in Python \[Video](https://www.packtpub.com/programming/regression-modeling-with-statistics-and-machine-learning-in-python-video?utm_source=wiki.python.org&utm_medium=referral&utm_campaign=OutreachV15718dollar5){.https}\]
+[Regression Modeling with Statistics and Machine Learning in Python \[Video](https://www.packtpub.com/programming/regression-modeling-with-statistics-and-machine-learning-in-python-video?utm_source=wiki.python.org&utm_medium=referral&utm_campaign=OutreachV15718dollar5)\]
 
 Minerva Singh
 
-[9781839215346](http://www.amazon.com/exec/obidos/ISBN=9781839215346 "ISBN"){.interwiki} Packt Course Length: 6 hours 8 minutes (31 Dec 2019)
+[9781839215346](http://www.amazon.com/exec/obidos/ISBN=9781839215346 "ISBN") Packt Course Length: 6 hours 8 minutes (31 Dec 2019)
 
 **Video Overview:**
 
@@ -40,17 +45,17 @@ You will get a strong background in some of the most important statistical and m
 
 This is a practical, hands-on course---we spend time dealing with some theoretical concepts related to both statistical and machine learning regression analysis.
 
-All the codes and supporting files for this course are available at - [https://github.com/PacktPublishing/Regression-Modeling-With-Statistics-and-Machine-Learning-in-Python](https://github.com/PacktPublishing/Regression-Modeling-With-Statistics-and-Machine-Learning-in-Python){.https}
+All the codes and supporting files for this course are available at - [https://github.com/PacktPublishing/Regression-Modeling-With-Statistics-and-Machine-Learning-in-Python](https://github.com/PacktPublishing/Regression-Modeling-With-Statistics-and-Machine-Learning-in-Python)
 
-[Publisher\'s page](https://www.packtpub.com/programming/regression-modeling-with-statistics-and-machine-learning-in-python-video?utm_source=wiki.python.org&utm_medium=referral&utm_campaign=OutreachV15718dollar5){.https}
+[Publisher\'s page](https://www.packtpub.com/programming/regression-modeling-with-statistics-and-machine-learning-in-python-video?utm_source=wiki.python.org&utm_medium=referral&utm_campaign=OutreachV15718dollar5)
 
 ------------------------------------------------------------------------
 
-[Project-Based Python Programming For Kids and Beginners \[Video](https://www.packtpub.com/programming/project-based-python-programming-for-kids-and-beginners-video?utm_source=wiki.python.org&utm_medium=referral&utm_campaign=OutreachV15939dollar5){.https}\]
+[Project-Based Python Programming For Kids and Beginners \[Video](https://www.packtpub.com/programming/project-based-python-programming-for-kids-and-beginners-video?utm_source=wiki.python.org&utm_medium=referral&utm_campaign=OutreachV15939dollar5)\]
 
 Minerva Singh
 
-[9781800204782](http://www.amazon.com/exec/obidos/ISBN=9781800204782 "ISBN"){.interwiki} Packt Course Length: 5 hours 0 minutes (31 Dec 2019)
+[9781800204782](http://www.amazon.com/exec/obidos/ISBN=9781800204782 "ISBN") Packt Course Length: 5 hours 0 minutes (31 Dec 2019)
 
 **Video Overview:**
 
@@ -60,13 +65,13 @@ This course helps you delve into the graphics and UX (user experience) aspects o
 
 By the end of this course, you will be well-versed with using not only Python 2 but Python 3 as well for designing immersive games and developing interactive applications and websites.
 
-All the codes and supporting files for this course are available at - [https://github.com/PacktPublishing/Project-Based-Python-Programming-For-Kids-and-Beginners](https://github.com/PacktPublishing/Project-Based-Python-Programming-For-Kids-and-Beginners){.https}
+All the codes and supporting files for this course are available at - [https://github.com/PacktPublishing/Project-Based-Python-Programming-For-Kids-and-Beginners](https://github.com/PacktPublishing/Project-Based-Python-Programming-For-Kids-and-Beginners)
 
-[Publisher\'s page](https://www.packtpub.com/programming/project-based-python-programming-for-kids-and-beginners-video?utm_source=wiki.python.org&utm_medium=referral&utm_campaign=OutreachV15939dollar5){.https}
+[Publisher\'s page](https://www.packtpub.com/programming/project-based-python-programming-for-kids-and-beginners-video?utm_source=wiki.python.org&utm_medium=referral&utm_campaign=OutreachV15939dollar5)
 
 ------------------------------------------------------------------------
 
-[PyTorch Bootcamp for Artificial Neural Networks and Deep Learning Applications](https://www.packtpub.com/programming/pytorch-bootcamp-for-artificial-neural-networks-and-deep-learning-applications-video?utm_source=Nitin&utm_medium=refferal&utm_campaign=OutreachV15855dollar5){.https}
+[PyTorch Bootcamp for Artificial Neural Networks and Deep Learning Applications](https://www.packtpub.com/programming/pytorch-bootcamp-for-artificial-neural-networks-and-deep-learning-applications-video?utm_source=Nitin&utm_medium=refferal&utm_campaign=OutreachV15855dollar5)
 
 Minerva Singh
 
@@ -74,23 +79,23 @@ ISBN 13: 9781839218897 Packt Course Length: 3 hours 15 minutes (Dec 2019)
 
 **Video Overview:**
 
-Hands-on [PyTorch](./PyTorch.html){.nonexistent} boot camp for Artificial Intelligence applications with artificial neural networks and deep learning
+Hands-on [PyTorch](./PyTorch.html) boot camp for Artificial Intelligence applications with artificial neural networks and deep learning
 
-Master the latest and hottest deep learning frameworks ([PyTorch](./PyTorch.html){.nonexistent}) for Python data science
+Master the latest and hottest deep learning frameworks ([PyTorch](./PyTorch.html)) for Python data science
 
-This course is your complete guide to practical machine learning and deep learning using the [PyTorch](./PyTorch.html){.nonexistent} framework in Python and covers the important aspects of [PyTorch](./PyTorch.html){.nonexistent}. If you take this course, you\'ll have no need to take other courses or buy books on [PyTorch](./PyTorch.html){.nonexistent}.
+This course is your complete guide to practical machine learning and deep learning using the [PyTorch](./PyTorch.html) framework in Python and covers the important aspects of [PyTorch](./PyTorch.html). If you take this course, you\'ll have no need to take other courses or buy books on [PyTorch](./PyTorch.html).
 
-In this age of big data, companies across the Globe use Python to sift through the avalanche of information at their disposal; the advent of frameworks such as [PyTorch](./PyTorch.html){.nonexistent} is revolutionizing deep learning.
+In this age of big data, companies across the Globe use Python to sift through the avalanche of information at their disposal; the advent of frameworks such as [PyTorch](./PyTorch.html) is revolutionizing deep learning.
 
-By gaining proficiency in [PyTorch](./PyTorch.html){.nonexistent}, you can give your company a competitive edge and take your career to the next level.
+By gaining proficiency in [PyTorch](./PyTorch.html), you can give your company a competitive edge and take your career to the next level.
 
-[Publisher\'s page](https://www.packtpub.com/programming/pytorch-bootcamp-for-artificial-neural-networks-and-deep-learning-applications-video?utm_source=Nitin&utm_medium=refferal&utm_campaign=OutreachV15855dollar5){.https}
+[Publisher\'s page](https://www.packtpub.com/programming/pytorch-bootcamp-for-artificial-neural-networks-and-deep-learning-applications-video?utm_source=Nitin&utm_medium=refferal&utm_campaign=OutreachV15855dollar5)
 
 ------------------------------------------------------------------------
 
-[Functional Programming in Python](https://www.packtpub.com/programming/functional-programming-in-python?utm_source=python.org&utm_medium=referral&utm_OutreachB158875dollar){.https}
+[Functional Programming in Python](https://www.packtpub.com/programming/functional-programming-in-python?utm_source=python.org&utm_medium=referral&utm_OutreachB158875dollar)
 
-Martin [McBride](./McBride.html){.nonexistent}
+Martin [McBride](./McBride.html)
 
 ISBN 13: 9781800200661 Packt Course Length: 3 hours 16 minutes (28 Nov 2019)
 
@@ -102,11 +107,11 @@ Python supports four programming paradigms -- imperative, procedural, object-ori
 
 With this book, you'll have all the knowledge you need for developing your applications with functional programming in Python.
 
-[Publisher\'s page](https://www.packtpub.com/programming/functional-programming-in-python?utm_source=python.org&utm_medium=referral&utm_OutreachB158875dollar){.https}
+[Publisher\'s page](https://www.packtpub.com/programming/functional-programming-in-python?utm_source=python.org&utm_medium=referral&utm_OutreachB158875dollar)
 
 ------------------------------------------------------------------------
 
-[Migrating from R to Python for Data Analysis](https://www.packtpub.com/data/migrating-from-r-to-python-for-data-analysis-video?utm_source=python.org&utm_medium=referral&utm_OutreachV14314dollar5){.https}
+[Migrating from R to Python for Data Analysis](https://www.packtpub.com/data/migrating-from-r-to-python-for-data-analysis-video?utm_source=python.org&utm_medium=referral&utm_OutreachV14314dollar5)
 
 Rajat Jatana
 
@@ -120,11 +125,11 @@ R has been the go-to language in data science for the last decade. However, give
 
 With this course, you will be familiar with Python functions and will be able to transform your R code into Python with far fewer lines of code, better performance, and increased speed.
 
-[Publisher\'s page](https://www.packtpub.com/data/migrating-from-r-to-python-for-data-analysis-video?utm_source=python.org&utm_medium=referral&utm_OutreachV14314dollar5){.https}
+[Publisher\'s page](https://www.packtpub.com/data/migrating-from-r-to-python-for-data-analysis-video?utm_source=python.org&utm_medium=referral&utm_OutreachV14314dollar5)
 
 ------------------------------------------------------------------------
 
-[Python 3 For Offensive PenTest: A Complete Practical Course \[Video](https://www.packtpub.com/security/python-3-for-offensive-pentest-a-complete-practical-course-video?/utm_source=python.org&utm_medium=referral&utm_Outreach){.https}\]
+[Python 3 For Offensive PenTest: A Complete Practical Course \[Video](https://www.packtpub.com/security/python-3-for-offensive-pentest-a-complete-practical-course-video?/utm_source=python.org&utm_medium=referral&utm_Outreach)\]
 
 Hussam Khrais
 
@@ -142,13 +147,13 @@ Whether you get bored from theory and basic courses which repeat the same tools 
 
 There are quite a lot of people who call themselves hackers but, few have the solid skills to fit the definition, when other\'s tools fail, writing your own makes you a true hacker.
 
-All the code files are placed at [https://github.com/PacktPublishing/Python-3-For-Offensive-PenTest-A-Complete-Practical-Course](https://github.com/PacktPublishing/Python-3-For-Offensive-PenTest-A-Complete-Practical-Course){.https}
+All the code files are placed at [https://github.com/PacktPublishing/Python-3-For-Offensive-PenTest-A-Complete-Practical-Course](https://github.com/PacktPublishing/Python-3-For-Offensive-PenTest-A-Complete-Practical-Course)
 
-[Publisher\'s page](https://www.packtpub.com/security/python-3-for-offensive-pentest-a-complete-practical-course-video?/utm_source=python.org&utm_medium=referral&utm_Outreach){.https}
+[Publisher\'s page](https://www.packtpub.com/security/python-3-for-offensive-pentest-a-complete-practical-course-video?/utm_source=python.org&utm_medium=referral&utm_Outreach)
 
 ------------------------------------------------------------------------
 
-[Python 3: Project-based Python, Algorithms, Data Structures \[Video](https://www.packtpub.com/programming/python-3-project-based-python-algorithms-data-structures-video?/utm_source=python.org&utm_medium=referral&utm_Outreach){.https}\]
+[Python 3: Project-based Python, Algorithms, Data Structures \[Video](https://www.packtpub.com/programming/python-3-project-based-python-algorithms-data-structures-video?/utm_source=python.org&utm_medium=referral&utm_Outreach)\]
 
 Mashrur Hossain
 
@@ -210,13 +215,13 @@ Part 2: Algorithms, Data Structures, and Performance Analysis
 
 • Visualizations of all algorithms, data structure, operations, and more!
 
-All the codes and supporting files for this course are available at - [https://github.com/PacktPublishing/Python-3-Project-based-Python-Algorithms-Data-Structures](https://github.com/PacktPublishing/Python-3-Project-based-Python-Algorithms-Data-Structures){.https}.
+All the codes and supporting files for this course are available at - [https://github.com/PacktPublishing/Python-3-Project-based-Python-Algorithms-Data-Structures](https://github.com/PacktPublishing/Python-3-Project-based-Python-Algorithms-Data-Structures).
 
-[Publisher\'s page](https://www.packtpub.com/programming/python-3-project-based-python-algorithms-data-structures-video?/utm_source=python.org&utm_medium=referral&utm_Outreach){.https}
+[Publisher\'s page](https://www.packtpub.com/programming/python-3-project-based-python-algorithms-data-structures-video?/utm_source=python.org&utm_medium=referral&utm_Outreach)
 
 ------------------------------------------------------------------------
 
-[Python Programming For Everyone \[Video](https://www.packtpub.com/programming/python-programming-for-everyone-video?/utm_source=python.org&utm_medium=referral&utm_Outreach){.https}\]
+[Python Programming For Everyone \[Video](https://www.packtpub.com/programming/python-programming-for-everyone-video?/utm_source=python.org&utm_medium=referral&utm_Outreach)\]
 
 John Elder
 
@@ -268,13 +273,13 @@ Finally, we finish up with more advanced topics such as:
 
 Python is one of the greatest programming languages and learning it has never been this easy!
 
-All the codes and supporting files for this course are available at - [https://github.com/PacktPublishing/Python-Programming-For-Everyone](https://github.com/PacktPublishing/Python-Programming-For-Everyone){.https}
+All the codes and supporting files for this course are available at - [https://github.com/PacktPublishing/Python-Programming-For-Everyone](https://github.com/PacktPublishing/Python-Programming-For-Everyone)
 
-[Publisher\'s page](https://www.packtpub.com/programming/python-programming-for-everyone-video?/utm_source=python.org&utm_medium=referral&utm_Outreach){.https}
+[Publisher\'s page](https://www.packtpub.com/programming/python-programming-for-everyone-video?/utm_source=python.org&utm_medium=referral&utm_Outreach)
 
 ------------------------------------------------------------------------
 
-[Python and PHP Programming Bundle \[Video](https://www.packtpub.com/programming/python-and-php-programming-bundle-video?/utm_source=python.org&utm_medium=referral&utm_Outreach){.https}\]
+[Python and PHP Programming Bundle \[Video](https://www.packtpub.com/programming/python-and-php-programming-bundle-video?/utm_source=python.org&utm_medium=referral&utm_Outreach)\]
 
 John Elder
 
@@ -328,13 +333,13 @@ You\'ll learn all these features for both Python and PHP. You\'ll start with Pyt
 
 All the code files are placed at -
 
-[https://github.com/PacktPublishing/Python-and-PHP-Programming-Bundle](https://github.com/PacktPublishing/Python-and-PHP-Programming-Bundle){.https}
+[https://github.com/PacktPublishing/Python-and-PHP-Programming-Bundle](https://github.com/PacktPublishing/Python-and-PHP-Programming-Bundle)
 
-[Publisher\'s page](https://www.packtpub.com/programming/python-and-php-programming-bundle-video?/utm_source=python.org&utm_medium=referral&utm_Outreach){.https}
+[Publisher\'s page](https://www.packtpub.com/programming/python-and-php-programming-bundle-video?/utm_source=python.org&utm_medium=referral&utm_Outreach)
 
 ------------------------------------------------------------------------
 
-[Python and Ruby Programming Bundle \[Video](https://www.packtpub.com/programming/python-and-ruby-programming-bundle-video?/utm_source=python.org&utm_medium=referral&utm_Outreach){.https}\]
+[Python and Ruby Programming Bundle \[Video](https://www.packtpub.com/programming/python-and-ruby-programming-bundle-video?/utm_source=python.org&utm_medium=referral&utm_Outreach)\]
 
 John Elder
 
@@ -386,11 +391,11 @@ Finally, we\'ll finish up with more advanced topics like:
 
 You\'ll learn all these things for both Python and Ruby. We start with Python, and then on to Ruby in the second half of the course.
 
-[Publisher\'s page](https://www.packtpub.com/programming/python-and-ruby-programming-bundle-video?/utm_source=python.org&utm_medium=referral&utm_Outreach){.https}
+[Publisher\'s page](https://www.packtpub.com/programming/python-and-ruby-programming-bundle-video?/utm_source=python.org&utm_medium=referral&utm_Outreach)
 
 ------------------------------------------------------------------------
 
-[Python GUI Programming - Building a Desktop Application with Tkinter and SQLite \[Video](https://www.packtpub.com/programming/python-gui-programming-building-a-desktop-application-with-tkinter-and-sqlite-video?/utm_source=python.org&utm_medium=referral&utm_Outreach){.https}\]
+[Python GUI Programming - Building a Desktop Application with Tkinter and SQLite \[Video](https://www.packtpub.com/programming/python-gui-programming-building-a-desktop-application-with-tkinter-and-sqlite-video?/utm_source=python.org&utm_medium=referral&utm_Outreach)\]
 
 Shubham Sarda
 
@@ -398,11 +403,11 @@ ISBN 13: 9781839211607 Packt Course Length: 2 hours 41 minutes (13 Sep 2019)
 
 **Video Overview:**
 
-Implement a hands-on Python GUI project: Build a Cryptocurrency portfolio app with Python, Tkinter, SQLite3, and the [CoinMarketCap](./CoinMarketCap.html){.nonexistent} API.
+Implement a hands-on Python GUI project: Build a Cryptocurrency portfolio app with Python, Tkinter, SQLite3, and the [CoinMarketCap](./CoinMarketCap.html) API.
 
 Welcome to Python GUI Programming -- Building Desktop Applications with Tkinter and SQLite
 
-This course will help you build a Python GUI application step-by-step with Tkinter, SQLite. and the free [CoinMarketCap](./CoinMarketCap.html){.nonexistent} API. Throughout the course, you will learn more about Python and Tkinter, including:
+This course will help you build a Python GUI application step-by-step with Tkinter, SQLite. and the free [CoinMarketCap](./CoinMarketCap.html) API. Throughout the course, you will learn more about Python and Tkinter, including:
 
 • Understanding API nd its usage.
 
@@ -422,13 +427,13 @@ This course integrates all the aspects you need to get you on the road to becomi
 
 After completing this course, you will be ready to expand your knowledge of Tkinter and Python.
 
-All the codes and supporting files for this course are available at: [https://github.com/PacktPublishing/Python-GUI-Programming\-\--Building-a-Desktop-Application-with-Tkinter-and-SQLite](https://github.com/PacktPublishing/Python-GUI-Programming---Building-a-Desktop-Application-with-Tkinter-and-SQLite){.https}.
+All the codes and supporting files for this course are available at: [https://github.com/PacktPublishing/Python-GUI-Programming\-\--Building-a-Desktop-Application-with-Tkinter-and-SQLite](https://github.com/PacktPublishing/Python-GUI-Programming---Building-a-Desktop-Application-with-Tkinter-and-SQLite).
 
-[Publisher\'s page](https://www.packtpub.com/programming/python-gui-programming-building-a-desktop-application-with-tkinter-and-sqlite-video?/utm_source=python.org&utm_medium=referral&utm_Outreach){.https}
+[Publisher\'s page](https://www.packtpub.com/programming/python-gui-programming-building-a-desktop-application-with-tkinter-and-sqlite-video?/utm_source=python.org&utm_medium=referral&utm_Outreach)
 
 ------------------------------------------------------------------------
 
-[Python for Beginners with Examples](https://www.packtpub.com/programming/python-for-beginners-with-examples-video){.https}
+[Python for Beginners with Examples](https://www.packtpub.com/programming/python-for-beginners-with-examples-video)
 
 Ardit Sulce
 
@@ -438,13 +443,13 @@ ISBN 13: 9781838982294 Packt Course Length: 1 hour 53 minutes (10 Jul 2019)
 
 A straight-to-the-point Python course to quickly get you started with writing Python code and creating Python programs.
 
-This Python course will get you up and running with Python very quickly saving you time spent googling for video tutorials, exercises and examples. The course is ideal for those who haven\'t programmed before, but it also works for experienced programmers who want to learn Python as long as they don\'t get offended by a bit of extra explanations of programming concepts. You will start from scratch by learning all Python fundamentals and slowly progressing into more advanced Python third-party libraries and by the end of the course you will know how to write Python programs. You will actually build your a real Python program that has a graphical user interface (GUI) built with Python. As a bonus you will also learn how to convert that program into an executable that runs both on Windows and Mac as a standalone program so that you can give your program to anyone. The course also guides you on how to go about building even more advanced programs with Python. You will learn how to use Python third-party libraries for building programs in a wide range of application areas. This is not simply a tutorial. The content of the course consists of a mix of video lectures, quizzes, exercises, and discussions with the instructor and the fellow students giving you a complete package to help you become a professional Python programmer. All the code and supporting files for this course are available at -[https://github.com/PacktPublishing/Python-for-Beginners-with-Examples](https://github.com/PacktPublishing/Python-for-Beginners-with-Examples){.https}
+This Python course will get you up and running with Python very quickly saving you time spent googling for video tutorials, exercises and examples. The course is ideal for those who haven\'t programmed before, but it also works for experienced programmers who want to learn Python as long as they don\'t get offended by a bit of extra explanations of programming concepts. You will start from scratch by learning all Python fundamentals and slowly progressing into more advanced Python third-party libraries and by the end of the course you will know how to write Python programs. You will actually build your a real Python program that has a graphical user interface (GUI) built with Python. As a bonus you will also learn how to convert that program into an executable that runs both on Windows and Mac as a standalone program so that you can give your program to anyone. The course also guides you on how to go about building even more advanced programs with Python. You will learn how to use Python third-party libraries for building programs in a wide range of application areas. This is not simply a tutorial. The content of the course consists of a mix of video lectures, quizzes, exercises, and discussions with the instructor and the fellow students giving you a complete package to help you become a professional Python programmer. All the code and supporting files for this course are available at -[https://github.com/PacktPublishing/Python-for-Beginners-with-Examples](https://github.com/PacktPublishing/Python-for-Beginners-with-Examples)
 
-[Publisher\'s page](https://www.packtpub.com/?utm_source=wiki.python&utm_medium=referral&utm_campaign=Outreach){.https}
+[Publisher\'s page](https://www.packtpub.com/?utm_source=wiki.python&utm_medium=referral&utm_campaign=Outreach)
 
 ------------------------------------------------------------------------
 
-[Python GUI Programming - Building a Desktop Application with Tkinter and SQLite](https://www.packtpub.com/?utm_source=wiki.python&utm_medium=referral&utm_DataUnlocked){.https}
+[Python GUI Programming - Building a Desktop Application with Tkinter and SQLite](https://www.packtpub.com/?utm_source=wiki.python&utm_medium=referral&utm_DataUnlocked)
 
 Shubham Sarda
 
@@ -452,17 +457,17 @@ ISBN 13: 9781839211607 Packt Course Length: 2 hours 41 minutes (13 Sep 2019)
 
 **Video Overview:**
 
-Implement a hands-on Python GUI project: Build a Cryptocurrency portfolio app with Python, Tkinter, SQLite3, and the [CoinMarketCap](./CoinMarketCap.html){.nonexistent} API.
+Implement a hands-on Python GUI project: Build a Cryptocurrency portfolio app with Python, Tkinter, SQLite3, and the [CoinMarketCap](./CoinMarketCap.html) API.
 
 This course integrates all the aspects you need to get you on the road to becoming a successful Tkinter developer with proper live practical exercises and walk-throughs that take you from the basics to advanced use.
 
 With this course, you will be ready to expand your knowledge of Tkinter and Python.
 
-[Publisher\'s page](https://www.packtpub.com/programming/python-gui-programming-building-a-desktop-application-with-tkinter-and-sqlite-video){.https}
+[Publisher\'s page](https://www.packtpub.com/programming/python-gui-programming-building-a-desktop-application-with-tkinter-and-sqlite-video)
 
 ------------------------------------------------------------------------
 
-[Build a User Authentication Web App with Python and Django](https://www.packtpub.com/application-development/build-user-authentication-web-app-python-and-django-video?utm_source=python-forum.io&utm_medium=referral&utm_campaign=Outreach){.https}
+[Build a User Authentication Web App with Python and Django](https://www.packtpub.com/application-development/build-user-authentication-web-app-python-and-django-video?utm_source=python-forum.io&utm_medium=referral&utm_campaign=Outreach)
 
 John Elder
 
@@ -476,11 +481,11 @@ Django and Python can seem overwhelming at first, but they don\'t have to be! In
 
 By the time we\'re finished, you\'ll have a solid understanding of Django and how to use it to build awesome web apps.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/build-user-authentication-web-app-python-and-django-video?utm_source=python-forum.io&utm_medium=referral&utm_campaign=Outreach){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/build-user-authentication-web-app-python-and-django-video?utm_source=python-forum.io&utm_medium=referral&utm_campaign=Outreach)
 
 ------------------------------------------------------------------------
 
-[Hands-On Python Regular Expressions](https://www.packtpub.com/application-development/hands-python-regular-expressions-video?utm_source=python-forum.io&utm_medium=referral&utm_campaign=Outreach){.https}
+[Hands-On Python Regular Expressions](https://www.packtpub.com/application-development/hands-python-regular-expressions-video?utm_source=python-forum.io&utm_medium=referral&utm_campaign=Outreach)
 
 Rohan Almeida
 
@@ -494,11 +499,11 @@ Do you fear regular expressions (regexes)? Do you need to ace the next interview
 
 With this course, you will have a better understanding of all Python functions and will be able to apply regex concepts to real-life programming situations.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/hands-python-regular-expressions-video?utm_source=python-forum.io&utm_medium=referral&utm_campaign=Outreach){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/hands-python-regular-expressions-video?utm_source=python-forum.io&utm_medium=referral&utm_campaign=Outreach)
 
 ------------------------------------------------------------------------
 
-[Hands-On Bayesian Methods with Python](https://www.packtpub.com/big-data-and-business-intelligence/hands-bayesian-methods-python-video?utm_source=selinuxproject.org&utm_medium=referral&utm_campaign=Outreach){.https}
+[Hands-On Bayesian Methods with Python](https://www.packtpub.com/big-data-and-business-intelligence/hands-bayesian-methods-python-video?utm_source=selinuxproject.org&utm_medium=referral&utm_campaign=Outreach)
 
 James Cross, Rahul Tiwari
 
@@ -512,11 +517,11 @@ Bayesian methods have grown recently because of their success in solving hard da
 
 With this course, you will be able to apply and use Bayesian methods as part of your data analytics toolbox, thus helping you use Python to solve a majority of common statistical problems in data science.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/hands-bayesian-methods-python-video?utm_source=selinuxproject.org&utm_medium=referral&utm_campaign=Outreach){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/hands-bayesian-methods-python-video?utm_source=selinuxproject.org&utm_medium=referral&utm_campaign=Outreach)
 
 ------------------------------------------------------------------------
 
-[Introduction to SQLite Databases for Python Programming](https://www.packtpub.com/application-development/introduction-sqlite-databases-python-programming-video){.https}
+[Introduction to SQLite Databases for Python Programming](https://www.packtpub.com/application-development/introduction-sqlite-databases-python-programming-video)
 
 John Elder
 
@@ -530,11 +535,11 @@ These days, everything uses a database, and SQLite is one of the most popular da
 
 With this course, you\'ll build a very basic app to help reinforce all the things you learned along the way.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/introduction-sqlite-databases-python-programming-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/introduction-sqlite-databases-python-programming-video)
 
 ------------------------------------------------------------------------
 
-[Build a User Authentication Web App with Python and Django](https://www.packtpub.com/application-development/build-user-authentication-web-app-python-and-django-video){.https}
+[Build a User Authentication Web App with Python and Django](https://www.packtpub.com/application-development/build-user-authentication-web-app-python-and-django-video)
 
 John Elder
 
@@ -548,11 +553,11 @@ Django and Python can seem overwhelming at first, but they don\'t have to be! In
 
 With this course you\'ll have a solid understanding of Django and how to use it to build awesome web apps.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/build-user-authentication-web-app-python-and-django-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/build-user-authentication-web-app-python-and-django-video)
 
 ------------------------------------------------------------------------
 
-[Building Recommendation Systems with Python](https://www.packtpub.com/big-data-and-business-intelligence/building-recommendation-systems-python-video){.https}
+[Building Recommendation Systems with Python](https://www.packtpub.com/big-data-and-business-intelligence/building-recommendation-systems-python-video)
 
 Eric Rodríguez
 
@@ -562,15 +567,15 @@ ISBN 13: 9781788991704 Packt Course Length: 1 hour 35 minutes (30 May 2019)
 
 Build real-world recommendation systems using collaborative, content-based, and hybrid filtering techniques in Python
 
-Recommendation Engines have become an integral part of any application. For accurate recommendations, you require user information. The more data you feed to your engine, the more output it can generate -- for example, a movie recommendation based on its rating, a [YouTube](./YouTube.html){.nonexistent} video recommendation to a viewer, or recommending a product to a shopper online.
+Recommendation Engines have become an integral part of any application. For accurate recommendations, you require user information. The more data you feed to your engine, the more output it can generate -- for example, a movie recommendation based on its rating, a [YouTube](./YouTube.html) video recommendation to a viewer, or recommending a product to a shopper online.
 
 In this course, you\'ll be able to build effective online recommendation engines with Machine Learning and Python -- on your own.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/building-recommendation-systems-python-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/building-recommendation-systems-python-video)
 
 ------------------------------------------------------------------------
 
-[Getting Productive with Modern Python](https://www.packtpub.com/application-development/getting-productive-modern-python-video){.https}
+[Getting Productive with Modern Python](https://www.packtpub.com/application-development/getting-productive-modern-python-video)
 
 Rahul Tiwari
 
@@ -584,11 +589,11 @@ Python is simple, but it isn\'t easy. Python emphasizes code readability, using 
 
 This course follows a problem-solution format to tackle common roadblocks in Python programming. How can we handle large datasets and files, processing them in Python efficiently? How can we address performance issues for long-running tasks?
 
-[Publisher\'s page](https://www.packtpub.com/application-development/getting-productive-modern-python-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/getting-productive-modern-python-video)
 
 ------------------------------------------------------------------------
 
-[Scalable Data Analysis in Python with Dask](https://www.packtpub.com/web-development/scalable-data-analysis-python-dask-video){.https}
+[Scalable Data Analysis in Python with Dask](https://www.packtpub.com/web-development/scalable-data-analysis-python-dask-video)
 
 Mohammed Kashif
 
@@ -602,11 +607,11 @@ Data analysts, Machine Learning professionals, and data scientists often use too
 
 In this course, you'll learn to scale your data analysis. Firstly, you will execute distributed data science projects right from data ingestion to data manipulation and visualization using Dask. Then, you will explore the Dask framework. After, see how Dask can be used with other common Python tools such as [NumPy](NumPy), Pandas, matplotlib, Scikit-learn, and more.
 
-[Publisher\'s page](https://www.packtpub.com/web-development/scalable-data-analysis-python-dask-video){.https}
+[Publisher\'s page](https://www.packtpub.com/web-development/scalable-data-analysis-python-dask-video)
 
 ------------------------------------------------------------------------
 
-[Python: Your First Step Toward Data Science](https://prod.packtpub.com/in/big-data-and-business-intelligence/python-your-first-step-toward-data-science-video){.https}
+[Python: Your First Step Toward Data Science](https://prod.packtpub.com/in/big-data-and-business-intelligence/python-your-first-step-toward-data-science-video)
 
 Rudy Lai
 
@@ -618,11 +623,11 @@ This fast-paced, action-packed course will maximize your time; it\'s designed fr
 
 This course will get you up-to-speed with using Python, without resorting to a collection of disconnected, unrelated pieces of information. Thus, you can take the next step toward advancing your career in data science.
 
-[Publisher\'s page](https://prod.packtpub.com/in/big-data-and-business-intelligence/python-your-first-step-toward-data-science-video){.https}
+[Publisher\'s page](https://prod.packtpub.com/in/big-data-and-business-intelligence/python-your-first-step-toward-data-science-video)
 
 ------------------------------------------------------------------------
 
-[Python: Your First Step Toward Data Science](https://prod.packtpub.com/in/big-data-and-business-intelligence/python-your-first-step-toward-data-science-video){.https}
+[Python: Your First Step Toward Data Science](https://prod.packtpub.com/in/big-data-and-business-intelligence/python-your-first-step-toward-data-science-video)
 
 Rudy Lai
 
@@ -634,11 +639,11 @@ This fast-paced, action-packed course will maximize your time; it\'s designed fr
 
 This course will get you up-to-speed with using Python, without resorting to a collection of disconnected, unrelated pieces of information. Thus, you can take the next step toward advancing your career in data science.
 
-[Publisher\'s page](https://prod.packtpub.com/in/big-data-and-business-intelligence/python-your-first-step-toward-data-science-video){.https}
+[Publisher\'s page](https://prod.packtpub.com/in/big-data-and-business-intelligence/python-your-first-step-toward-data-science-video)
 
 ------------------------------------------------------------------------
 
-[Data Wrangling with Python](https://prod.packtpub.com/in/big-data-and-business-intelligence/data-wrangling-python){.https}
+[Data Wrangling with Python](https://prod.packtpub.com/in/big-data-and-business-intelligence/data-wrangling-python)
 
 Dr. Tirthajyoti Sarkar, Shubhadeep Roychowdhury, Samik Sen
 
@@ -654,11 +659,11 @@ The course starts with the absolute basics of Python, focusing mainly on data st
 
 By the end of this course, you will be confident in using a diverse array of sources to extract, clean, transform, and format your data efficiently.
 
-[Publisher\'s page](https://prod.packtpub.com/in/big-data-and-business-intelligence/data-wrangling-python){.https}
+[Publisher\'s page](https://prod.packtpub.com/in/big-data-and-business-intelligence/data-wrangling-python)
 
 ------------------------------------------------------------------------
 
-[Python and Data Science : A Practical Guide \[Video](https://www.packtpub.com/application-development/python-and-data-science-practical-guide-video){.https}\]
+[Python and Data Science : A Practical Guide \[Video](https://www.packtpub.com/application-development/python-and-data-science-practical-guide-video)\]
 
 Eduonix, Michael Mustaine
 
@@ -672,11 +677,11 @@ This course is designed to teach you the basics of Python and Data Science in a 
 
 This course is designed in a practical way to teach you the basics of Python and Data Science. A complete course packed with step-by-step instructions, working examples, and helpful advice. This course is clearly divided into small parts that will help you understand each part individually and help you learn at your own pace.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/python-and-data-science-practical-guide-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/python-and-data-science-practical-guide-video)
 
 ------------------------------------------------------------------------
 
-[Hands-On RESTful Web Services with Java 11 {Video}](https://www.packtpub.com/web-development/hands-restful-web-services-java-11-video){.https}
+[Hands-On RESTful Web Services with Java 11 {Video}](https://www.packtpub.com/web-development/hands-restful-web-services-java-11-video)
 
 Luan Nico
 
@@ -690,13 +695,13 @@ RESTful Web Services is a stateless client-server architecture where web service
 
 This course will show you how to implement a REST Web Service (API) in Java from scratch (using servlets), covering the basic concepts. By the end of this course, you will be able to efficiently create reliable and powerful Java RESTful Web Services and get a clear understanding of the process by implementing it your web apps.
 
-[Publisher\'s page](https://www.packtpub.com/web-development/hands-restful-web-services-java-11-video){.https}
+[Publisher\'s page](https://www.packtpub.com/web-development/hands-restful-web-services-java-11-video)
 
 ------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
-[Concurrent and Distributed Computing with Python {Video}](https://www.packtpub.com/application-development/concurrent-and-distributed-computing-python-video){.https}
+[Concurrent and Distributed Computing with Python {Video}](https://www.packtpub.com/application-development/concurrent-and-distributed-computing-python-video)
 
 Harish Garg, Mithun Lakshmanaswamy
 
@@ -708,13 +713,13 @@ Implement concurrency in your apps using Celery, and Pyro, and make your Python 
 
 Facing difficulty in implementing concurrent and multithreaded programs in your Python applications? Is this preventing you from implementing efficient code in your apps and benefiting from multiprocessing?
 
-This course will help you resolve these difficulties. You will start by exploring the basic concepts of concurrency and distributed computing, and you\'ll learn which Python libraries are relevant to these. You will not only learn to see Celery as a way to build-in concurrency into your apps, but also Pyro as an alternative to Celery. You will create processes and manage processes along with interprocess communication; combine coroutines with threads and processes; practice the management of process pools; implement asynchronous tasks/job queues using [AsyncResult](./AsyncResult.html){.nonexistent} and Celery backends; invoke remote methods in your Python-based code, and use these skills and concepts when working with AWS for Python.
+This course will help you resolve these difficulties. You will start by exploring the basic concepts of concurrency and distributed computing, and you\'ll learn which Python libraries are relevant to these. You will not only learn to see Celery as a way to build-in concurrency into your apps, but also Pyro as an alternative to Celery. You will create processes and manage processes along with interprocess communication; combine coroutines with threads and processes; practice the management of process pools; implement asynchronous tasks/job queues using [AsyncResult](./AsyncResult.html) and Celery backends; invoke remote methods in your Python-based code, and use these skills and concepts when working with AWS for Python.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/concurrent-and-distributed-computing-python-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/concurrent-and-distributed-computing-python-video)
 
 ------------------------------------------------------------------------
 
-[Python Deep Learning for Beginners (Video)](https://www.packtpub.com/big-data-and-business-intelligence/python-deep-learning-beginners-video){.https}
+[Python Deep Learning for Beginners (Video)](https://www.packtpub.com/big-data-and-business-intelligence/python-deep-learning-beginners-video)
 
 Rudy Lai
 
@@ -728,11 +733,11 @@ We avoid complex math equations, which can often be a barrier to entry for newco
 
 You will start out with an intuitive understanding of neural networks in general. We will guide you through the building blocks of deep learning networks to tackle complex neural networks. So, take this course and learn the skills and temperament need to enter the AI marketplace today.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/python-deep-learning-beginners-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/python-deep-learning-beginners-video)
 
 ------------------------------------------------------------------------
 
-[Black Hat Python for Pentesters and Hackers (Video)](https://www.packtpub.com/application-development/black-hat-python-pentesters-and-hackers-video){.https}
+[Black Hat Python for Pentesters and Hackers (Video)](https://www.packtpub.com/application-development/black-hat-python-pentesters-and-hackers-video)
 
 Sunil Gupta
 
@@ -746,11 +751,11 @@ When it comes to offensive security, your ability to create powerful tools on th
 
 You'll be able to escalate Windows privileges with creative process control, use offensive memory forensics tricks to retrieve password hashes, and inject shellcode into a virtual machine. Later, you'll learn to extend the popular Burp Suite web-hacking tool, abuse Windows COM automation to perform a man-in-the browser attack, and exfiltrate data from a network most sneakily. After completing this course, you'll understand how to use Python scripts for penetration testing.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/black-hat-python-pentesters-and-hackers-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/black-hat-python-pentesters-and-hackers-video)
 
 ------------------------------------------------------------------------
 
-[Application Development with Python and Flask (Video)](https://www.packtpub.com/application-development/application-development-python-and-flask-video){.https}
+[Application Development with Python and Flask (Video)](https://www.packtpub.com/application-development/application-development-python-and-flask-video)
 
 Achim Takunda Munene
 
@@ -764,13 +769,13 @@ This course will take you through Flask Microframework; it covers all its compon
 
 By the end of the course, you will be able to build your own web applications using Flask in Python.
 
-All the code and supporting files for this course are available on Github at [https://github.com/PacktPublishing/Python-and-Flask-Developing-Apps-that-Work](https://github.com/PacktPublishing/Python-and-Flask-Developing-Apps-that-Work){.https}
+All the code and supporting files for this course are available on Github at [https://github.com/PacktPublishing/Python-and-Flask-Developing-Apps-that-Work](https://github.com/PacktPublishing/Python-and-Flask-Developing-Apps-that-Work)
 
-[Publisher\'s page](https://www.packtpub.com/application-development/application-development-python-and-flask-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/application-development-python-and-flask-video)
 
 ------------------------------------------------------------------------
 
-[Python for Beginners: Learn Python Programming (Python 3)](https://www.packtpub.com/application-development/python-beginners-learn-python-programming-python-3-video){.https}
+[Python for Beginners: Learn Python Programming (Python 3)](https://www.packtpub.com/application-development/python-beginners-learn-python-programming-python-3-video)
 
 ISBN 13: 9781789617122 Course Length 2 hours 23 minutes (October 2018)
 
@@ -780,7 +785,7 @@ This course will teach you Python in a practical manner, complete with examples,
 
 ------------------------------------------------------------------------
 
-[Deep Learning Adventures with PyTorch {Video}](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-adventures-pytorch-video){.https}
+[Deep Learning Adventures with PyTorch {Video}](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-adventures-pytorch-video)
 
 Jakub Konczyk
 
@@ -788,17 +793,17 @@ ISBN 13: 9781789138641 Packt Course Length: 2 hours 31 minutes (October 2018)
 
 **Video Overview:**
 
-Journey into the world of deep learning using [PyTorch](./PyTorch.html){.nonexistent}. Recognize images, translate languages, and paint unique pictures
+Journey into the world of deep learning using [PyTorch](./PyTorch.html). Recognize images, translate languages, and paint unique pictures
 
-Are you ready to go on a journey into the world of deep learning? This course will be your guide through the joys and dangers of this new wave of machine learning. Why? Because, let\'s face it, getting started with deep learning is difficult. Tasks such as choosing between multiple frameworks, understanding APIs, and debugging code are hard. Is there an another way? Yes. Meet [PyTorch](./PyTorch.html){.nonexistent}. Like Python, [PyTorch](./PyTorch.html){.nonexistent} has a clean and simple API, which makes building neural networks faster and easier. It\'s also modular, and that makes debugging your code a breeze. This course will be one hell of an adventure into the world of deep learning!
+Are you ready to go on a journey into the world of deep learning? This course will be your guide through the joys and dangers of this new wave of machine learning. Why? Because, let\'s face it, getting started with deep learning is difficult. Tasks such as choosing between multiple frameworks, understanding APIs, and debugging code are hard. Is there an another way? Yes. Meet [PyTorch](./PyTorch.html). Like Python, [PyTorch](./PyTorch.html) has a clean and simple API, which makes building neural networks faster and easier. It\'s also modular, and that makes debugging your code a breeze. This course will be one hell of an adventure into the world of deep learning!
 
 You\'ll start by using Convolutional Neural Networks (CNNs) to classify images; Recurrent Neural Networks (RNNs) to detect languages; and then translate them using Long-Term-Short Memory (LTSM). Finally, you\'ll channel your inner Picasso by using Deep Neural Network (DNN) to paint unique images.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-adventures-pytorch-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-adventures-pytorch-video)
 
 ------------------------------------------------------------------------
 
-[Begin Python Programming in 7 Days {Video}](https://www.packtpub.com/application-development/begin-python-programming-7-days-video){.https}
+[Begin Python Programming in 7 Days {Video}](https://www.packtpub.com/application-development/begin-python-programming-7-days-video)
 
 Rudy Lai
 
@@ -812,11 +817,11 @@ We get you started setting up your environment and the tools you need to start p
 
 Then you will learn to use Python\'s advanced data structures such as lists and dictionaries. You will be able to organize in functions and save time coding by writing code that can be reused. Then, you will learn about Python modules and how to make use of them. On the last day, you will start interacting with files using Python code. The course will give you a strong entry point into programming in general and programming in Python in particular.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/begin-python-programming-7-days-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/begin-python-programming-7-days-video)
 
 ------------------------------------------------------------------------
 
-[Real-World Python Deep Learning Projects {Video}](https://www.packtpub.com/big-data-and-business-intelligence/real-world-python-deep-learning-projects-video){.https}
+[Real-World Python Deep Learning Projects {Video}](https://www.packtpub.com/big-data-and-business-intelligence/real-world-python-deep-learning-projects-video)
 
 Jakub Konczyk
 
@@ -830,11 +835,11 @@ Deep Learning allows you to solve problems where traditional Machine Learning me
 
 You will start of by creating neural networks to predict the demand for airline travel in the future. Then, you\'ll run through a scenario where you have to identify negative tweets for a celebrity by using Convolutional Neural Networks (CNN\'s). Next you will create a neural network which will be able to identify smiles in your camera app. Finally, the last project will help you forecast a company\'s stock prices for the next day using Deep Learning.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/real-world-python-deep-learning-projects-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/real-world-python-deep-learning-projects-video)
 
 ------------------------------------------------------------------------
 
-[Building Predictive Models with Machine Learning and Python {Video}](https://www.packtpub.com/big-data-and-business-intelligence/building-predictive-models-machine-learning-and-python-video){.https}
+[Building Predictive Models with Machine Learning and Python {Video}](https://www.packtpub.com/big-data-and-business-intelligence/building-predictive-models-machine-learning-and-python-video)
 
 Rudy Lai
 
@@ -848,11 +853,11 @@ This course will introduce you to tools with which you can build predictive mode
 
 This course will guide you through the tools in the Python ecosystem that Data Scientists use to get results in a matter of hours - and with practice - in a matter of minutes. The best way to learn is through examples, and this course will guide you through all the steps needed to train and test your models by tackling several classifications and regression challenges.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/building-predictive-models-machine-learning-and-python-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/building-predictive-models-machine-learning-and-python-video)
 
 ------------------------------------------------------------------------
 
-[Building Trading Algorithms with Python {Video}](https://www.packtpub.com/application-development/building-trading-algorithms-python-video){.https}
+[Building Trading Algorithms with Python {Video}](https://www.packtpub.com/application-development/building-trading-algorithms-python-video)
 
 Harish Garg, Mithun Lakshmanaswamy
 
@@ -866,11 +871,11 @@ This course is a great opportunity to get started with trading, reap the rewards
 
 The course will enable you to get started with creating a traditional asset trading bot. It will arm you with all the necessary programming tools and techniques to develop a full-fledged trading bot that numerous investors/traders can utilize. It covers general features such as using a financial calculator to do conversions, simply by interacting with a bot. Your customers, using your trading, bot can look up recent trends to make informed predictions and see what others have been trading, and how much.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/building-trading-algorithms-python-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/building-trading-algorithms-python-video)
 
 ------------------------------------------------------------------------
 
-[Getting Started with Machine Learning in Python {Video}](https://www.packtpub.com/application-development/getting-started-machine-learning-python-video){.https}
+[Getting Started with Machine Learning in Python {Video}](https://www.packtpub.com/application-development/getting-started-machine-learning-python-video)
 
 Rudy Lai
 
@@ -884,11 +889,11 @@ In this course, we introduce, via intuition rather than theory, the core of what
 
 You will learn to understand and estimate the value of your dataset. We guide you through creating the best performance metric for your task at hand, and how that takes you to the correct model to solve your problem. Understand how to clean data for your application, and how to recognize which Machine Learning task you are dealing with.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/getting-started-machine-learning-python-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/getting-started-machine-learning-python-video)
 
 ------------------------------------------------------------------------
 
-[Python Digital Forensics(Video)](https://www.packtpub.com/web-development/python-digital-forensics-video){.https}
+[Python Digital Forensics(Video)](https://www.packtpub.com/web-development/python-digital-forensics-video)
 
 Daryl Bennett
 
@@ -902,11 +907,11 @@ This course will walk you through digital forensics on network traffic, host ana
 
 Next, you will learn more advanced topics such as viewing data in PE and ELF binaries. It\'s vital to analyze volatile memory during an investigation as it provides details about what is actually running on a given system. So, you will learn the best tools to obtain and analyze volatile memory images. Finally, you will learn how to use Python in order to think like an attacker. You will complete enumeration, exploitation, and data exfiltration.
 
-[Publisher\'s page](https://www.packtpub.com/web-development/python-digital-forensics-video){.https}
+[Publisher\'s page](https://www.packtpub.com/web-development/python-digital-forensics-video)
 
 ------------------------------------------------------------------------
 
-[Learning IPython for Interactive Computing and Data Visualization \[Video](https://www.packtpub.com/big-data-and-business-intelligence/learning-ipython-interactive-computing-and-data-visualization-vid){.https}\]
+[Learning IPython for Interactive Computing and Data Visualization \[Video](https://www.packtpub.com/big-data-and-business-intelligence/learning-ipython-interactive-computing-and-data-visualization-vid)\]
 
 Cyrille Rossant
 
@@ -920,11 +925,11 @@ Python is a user-friendly and powerful programming language. IPython offers a co
 
 This course is a beginner-friendly guide to the Python data analysis platform. After an introduction to the Python language, IPython, and Jupyter Notebook, you will learn how to analyze and visualize data on real-world examples, how to create graphical user interfaces for image processing in Notebook, and how to perform fast numerical computations for scientific simulations with [NumPy](NumPy), Numba, Cython, and ipyparallel. By the end of this course, you will be able to perform in-depth analyses of all sorts of data.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/learning-ipython-interactive-computing-and-data-visualization-vid){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/learning-ipython-interactive-computing-and-data-visualization-vid)
 
 ------------------------------------------------------------------------
 
-[Learning Python for Data Science (Video)](https://www.packtpub.com/big-data-and-business-intelligence/learning-python-data-science-video){.https}
+[Learning Python for Data Science (Video)](https://www.packtpub.com/big-data-and-business-intelligence/learning-python-data-science-video)
 
 Ilyas Ustun
 
@@ -938,11 +943,11 @@ In this course you will learn all the necessary libraries that make data analyti
 
 By the end of this course, you\'ll have embarked on a journey from data cleaning and preparation to creating summary tables, from visualization to machine learning and prediction. This video course will prepare you to the world of data science.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/learning-python-data-science-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/learning-python-data-science-video)
 
 ------------------------------------------------------------------------
 
-[Learning Python for Data Science (Video)](https://www.packtpub.com/big-data-and-business-intelligence/learning-python-data-science-video){.https}
+[Learning Python for Data Science (Video)](https://www.packtpub.com/big-data-and-business-intelligence/learning-python-data-science-video)
 
 Ilyas Ustun
 
@@ -956,11 +961,11 @@ In this course you will learn all the necessary libraries that make data analyti
 
 By the end of this course, you\'ll have embarked on a journey from data cleaning and preparation to creating summary tables, from visualization to machine learning and prediction. This video course will prepare you to the world of data science.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/learning-python-data-science-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/learning-python-data-science-video)
 
 ------------------------------------------------------------------------
 
-[Python Data Structures and Algorithms (Video)](https://www.packtpub.com/application-development/python-data-structures-and-algorithms-video){.https}
+[Python Data Structures and Algorithms (Video)](https://www.packtpub.com/application-development/python-data-structures-and-algorithms-video)
 
 Harish Garg, Mithun Lakshmanaswamy
 
@@ -974,11 +979,11 @@ This course is about data structures and algorithms. We are going to implement p
 
 This course teaches all these concepts in a very practical hands-on approach without burdening you with lots of theory. By the end of the course, you will have learned how to implement various data structures and algorithms in Python.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/python-data-structures-and-algorithms-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/python-data-structures-and-algorithms-video)
 
 ------------------------------------------------------------------------
 
-[Python Data Science Essentials \[Video](https://www.packtpub.com/big-data-and-business-intelligence/python-data-science-essentials-video){.https}\]
+[Python Data Science Essentials \[Video](https://www.packtpub.com/big-data-and-business-intelligence/python-data-science-essentials-video)\]
 
 Alberto Boschetti, Luca Massaron
 
@@ -992,11 +997,11 @@ The Python Data Science Essentials video series takes you through all you need t
 
 The course is structured as a data science project. You will always benefit from clear code and simplified examples to help you understand the underlying mechanics and real-world datasets.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/python-data-science-essentials-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/python-data-science-essentials-video)
 
 ------------------------------------------------------------------------
 
-[Deep Learning and Neural Networks in PyTorch for Beginners {Video}](https://www.packtpub.com/application-development/deep-learning-and-neural-networks-pytorch-beginners-video){.https}
+[Deep Learning and Neural Networks in PyTorch for Beginners {Video}](https://www.packtpub.com/application-development/deep-learning-and-neural-networks-pytorch-beginners-video)
 
 Daniel We
 
@@ -1004,17 +1009,17 @@ ISBN 13: 9781789536249 Packt Course Length: 2 hours 8 minutes (June 2018)
 
 **Video Overview:**
 
-Getting started with neural networks in [PyTorch](./PyTorch.html){.nonexistent} - Facebook\'s great neural network framework
+Getting started with neural networks in [PyTorch](./PyTorch.html) - Facebook\'s great neural network framework
 
-Artificial intelligence (AI) is the hottest topic currently out there, there\'s no doubt about that. This is the future. Neural networks in particular have seen a lot of attention and they will be used everywhere -self driving cars, predictions in finance and sales forecasts - everywhere and across all industries. To be successful in the working world of tomorrow we have to expose ourselves to this interesting topic - and from the author\'s personal experience - coding your own neural network is the best way to understand how they work. Besides [TensorFlow](./TensorFlow.html){.nonexistent} there is a new very interesting deep learning framework which is developed by Facebook - [PyTorch](./PyTorch.html){.nonexistent}. A challenge? Indeed. But together we can do it. Excited? I hope so. See you in the first lecture. Let\'s get into it.
+Artificial intelligence (AI) is the hottest topic currently out there, there\'s no doubt about that. This is the future. Neural networks in particular have seen a lot of attention and they will be used everywhere -self driving cars, predictions in finance and sales forecasts - everywhere and across all industries. To be successful in the working world of tomorrow we have to expose ourselves to this interesting topic - and from the author\'s personal experience - coding your own neural network is the best way to understand how they work. Besides [TensorFlow](./TensorFlow.html) there is a new very interesting deep learning framework which is developed by Facebook - [PyTorch](./PyTorch.html). A challenge? Indeed. But together we can do it. Excited? I hope so. See you in the first lecture. Let\'s get into it.
 
 The goal of this course is to become familiar with this framework and create your own deep neural networks - a multi-layer perceptron and a convolutional neural network for image classification.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/deep-learning-and-neural-networks-pytorch-beginners-video#){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/deep-learning-and-neural-networks-pytorch-beginners-video#)
 
 ------------------------------------------------------------------------
 
-[PySpark for Beginners {Video}](https://www.packtpub.com/big-data-and-business-intelligence/pyspark-beginners-video){.https}
+[PySpark for Beginners {Video}](https://www.packtpub.com/big-data-and-business-intelligence/pyspark-beginners-video)
 
 Tomasz Drabas
 
@@ -1024,15 +1029,15 @@ ISBN 13: 9781789538762 Packt Course Length: 1 hours 34 minutes (June 2018)
 
 Build data-intensive applications locally and deploy at scale using the combined powers of Python and Spark 2.0
 
-Apache Spark is an open source framework for efficient cluster computing with a strong interface for data parallelism and fault tolerance. This course will show you how to leverage the power of Python and put it to use in the Spark ecosystem. You will start by getting a firm understanding of the Spark 2.0 architecture and how to set up a Python environment for Spark. You will get familiar with the modules available in [PySpark](./PySpark.html){.nonexistent}.
+Apache Spark is an open source framework for efficient cluster computing with a strong interface for data parallelism and fault tolerance. This course will show you how to leverage the power of Python and put it to use in the Spark ecosystem. You will start by getting a firm understanding of the Spark 2.0 architecture and how to set up a Python environment for Spark. You will get familiar with the modules available in [PySpark](./PySpark.html).
 
-You will learn how to abstract data with RDDs and [DataFrames](./DataFrames.html){.nonexistent} and understand the streaming capabilities of [PySpark](./PySpark.html){.nonexistent}. Also, you will get a thorough overview of machine learning capabilities of [PySpark](./PySpark.html){.nonexistent} using ML and MLlib, graph processing using [GraphFrames](./GraphFrames.html){.nonexistent}, and polyglot persistence using Blaze. Finally, you will learn how to deploy your applications to the cloud using the spark-submit command. By the end of this course, you will have established a firm understanding of the Spark Python API and how it can be used to build data-intensive applications.
+You will learn how to abstract data with RDDs and [DataFrames](./DataFrames.html) and understand the streaming capabilities of [PySpark](./PySpark.html). Also, you will get a thorough overview of machine learning capabilities of [PySpark](./PySpark.html) using ML and MLlib, graph processing using [GraphFrames](./GraphFrames.html), and polyglot persistence using Blaze. Finally, you will learn how to deploy your applications to the cloud using the spark-submit command. By the end of this course, you will have established a firm understanding of the Spark Python API and how it can be used to build data-intensive applications.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/pyspark-beginners-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/pyspark-beginners-video)
 
 ------------------------------------------------------------------------
 
-[Data Visualization with Python: The Complete Guide {Video}](https://www.packtpub.com/application-development/data-visualization-python-complete-guide-video){.https}
+[Data Visualization with Python: The Complete Guide {Video}](https://www.packtpub.com/application-development/data-visualization-python-complete-guide-video)
 
 Eduonix Learning Solutions
 
@@ -1046,11 +1051,11 @@ Data is becoming a force to reckon with. With the amount of data that is being g
 
 The course will cover a number of different concepts such as an introduction to data science including concepts such as linear algebra, probability and statistics, Matplotlib, charts and graphs, data analysis, visualization of non uniform data, hypothesis and gradient descent, data clustering and so much more. That's not all, we'll also include projects to help you show exactly how to build visuals using Python. You can learn all this and tons of interesting stuff in this unique data science course. Enroll now and start building next generation interfaces for your data.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/data-visualization-python-complete-guide-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/data-visualization-python-complete-guide-video)
 
 ------------------------------------------------------------------------
 
-[Selenium WebDriver With Python 3.x - Novice To Ninja (Video)](https://www.packtpub.com/application-development/selenium-webdriver-python-3x-novice-ninja-video){.https}
+[Selenium WebDriver With Python 3.x - Novice To Ninja (Video)](https://www.packtpub.com/application-development/selenium-webdriver-python-3x-novice-ninja-video)
 
 Lets Kode It
 
@@ -1060,15 +1065,15 @@ ISBN 13: 9781789131550 Packt Course Length: 26 hours 13 minutes (JUNE 2018)
 
 Join the best course to learn how to implement an automation framework from scratch using real web application
 
-This course includes a wide range of topics from Selenium [WebDriver](./WebDriver.html){.nonexistent} basics and advanced, Python programming concepts, Unittest and Pytest frameworks, automation framework design (Page Objects, Data Driven, Reading CSV Files), logging infrastructure, cross-browser testing, interview preparation.
+This course includes a wide range of topics from Selenium [WebDriver](./WebDriver.html) basics and advanced, Python programming concepts, Unittest and Pytest frameworks, automation framework design (Page Objects, Data Driven, Reading CSV Files), logging infrastructure, cross-browser testing, interview preparation.
 
-All the materials are provided including the code files. You achieve two targets with one single course - The complete Python programming language and Selenium [WebDriver](./WebDriver.html){.nonexistent} automation. We start from beginners\' level and go through to advanced level. This is a single course for everything you need to know related to Web UI automation.
+All the materials are provided including the code files. You achieve two targets with one single course - The complete Python programming language and Selenium [WebDriver](./WebDriver.html) automation. We start from beginners\' level and go through to advanced level. This is a single course for everything you need to know related to Web UI automation.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/selenium-webdriver-python-3x-novice-ninja-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/selenium-webdriver-python-3x-novice-ninja-video)
 
 ------------------------------------------------------------------------
 
-[Learn by Example: Python (Video)](https://www.packtpub.com/application-development/learn-example-python-video){.https}
+[Learn by Example: Python (Video)](https://www.packtpub.com/application-development/learn-example-python-video)
 
 Loonycorn
 
@@ -1082,11 +1087,11 @@ This course lays the foundation from which you can begin using Python to solve a
 
 Hands-on to provide a basic understanding of programming
 
-[Publisher\'s page](https://www.packtpub.com/application-development/learn-example-python-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/learn-example-python-video)
 
 ------------------------------------------------------------------------
 
-[Enterprise Automation with Python (Video)](https://www.packtpub.com/networking-and-servers/enterprise-automation-python-video){.https}
+[Enterprise Automation with Python (Video)](https://www.packtpub.com/networking-and-servers/enterprise-automation-python-video)
 
 Tomasz Lelek
 
@@ -1100,11 +1105,11 @@ This course will start by introducing the modules and the tools we will be using
 
 By the end of the course, you will be able to efficiently develop your python skills making it an alternate automation tool from the major automation frameworks.The use cases in this course will help you to track the processes with high utilization on all servers and create web server via python code. So, now need not depend on Network Automation Tools like a puppet, Ansible, and chef and grab this course to make your daily work easy with automation and python modules which will help you to deliver the service more faster than before.
 
-[Publisher\'s page](https://www.packtpub.com/networking-and-servers/enterprise-automation-python-video){.https}
+[Publisher\'s page](https://www.packtpub.com/networking-and-servers/enterprise-automation-python-video)
 
 ------------------------------------------------------------------------
 
-[Learning Python Data Visualization (Video)](https://www.packtpub.com/big-data-and-business-intelligence/learning-python-data-visualization-video-0){.https}
+[Learning Python Data Visualization (Video)](https://www.packtpub.com/big-data-and-business-intelligence/learning-python-data-visualization-video-0)
 
 Benjamin Keller
 
@@ -1120,11 +1125,11 @@ This course primarily employs the IPython environment and matplotlib, with the f
 
 Introduce key data visualization libraries (matplotlib and so on.) and cover data importing/exporting (CSV, Excel, JSON and so on). Introduce real-world data sets (to be visualized in the video). Visualization types/techniques (bar chart, histogram, scatter plot, geospatial, and so on); demonstrate how to customize visualizations. Introduce intermediate topics to create more advanced visualizations and using complex techniques, such as real-time data visualization. By the end of the course, you will be able to demonstrate visualizations with interesting, real-world data sets.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/learning-python-data-visualization-video-0){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/learning-python-data-visualization-video-0)
 
 ------------------------------------------------------------------------
 
-[Learn Python 3 from Scratch {Video}](https://www.packtpub.com/application-development/learn-python-3-scratch-video){.https}
+[Learn Python 3 from Scratch {Video}](https://www.packtpub.com/application-development/learn-python-3-scratch-video)
 
 Lets Kode It
 
@@ -1138,11 +1143,11 @@ This is the most comprehensive yet simple course on the Python programming langu
 
 In recent years, the demand for Python has exploded in the job market with insufficient developers to fill the available roles. Additionally, the QA industry is rapidly transitioning to Python and building automation tools.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/learn-python-3-scratch-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/learn-python-3-scratch-video)
 
 ------------------------------------------------------------------------
 
-[Fundamentals of Machine Learning with scikit-learn (Video)](https://www.packtpub.com/big-data-and-business-intelligence/fundamentals-machine-learning-scikit-learn-video){.https}
+[Fundamentals of Machine Learning with scikit-learn (Video)](https://www.packtpub.com/big-data-and-business-intelligence/fundamentals-machine-learning-scikit-learn-video)
 
 Giuseppe Bonaccorso
 
@@ -1156,11 +1161,11 @@ As the amount of data continues to grow at an almost incomprehensible rate, bein
 
 In this course you will learn all the important Machine Learning algorithms that are commonly used in the field of data science. These algorithms can be used for supervised as well as unsupervised learning, reinforcement learning, and semi-supervised learning. A few famous algorithms that are covered in this book are: Linear regression, Logistic Regression, SVM, Naive Bayes, K-Means, Random Forest, and Feature engineering. In this course, you will also learn how these algorithms work and their practical implementation to resolve your problems.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/fundamentals-machine-learning-scikit-learn-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/fundamentals-machine-learning-scikit-learn-video)
 
 ------------------------------------------------------------------------
 
-[Programming Concepts in Python (Video)](https://www.packtpub.com/application-development/programming-concepts-python-video){.https}
+[Programming Concepts in Python (Video)](https://www.packtpub.com/application-development/programming-concepts-python-video)
 
 Daniel Arbuckle
 
@@ -1176,11 +1181,11 @@ After getting familiar with the basic concepts, we delve further by covering Obj
 
 By the end of this course the audience will be able to write Python programs and scripts that perform most of their daily tasks---including reading a list of strings, separating values by a specific delimiter, removing duplicates, and more. By the end of the course, the viewer should be able to do everything expected of a novice Python programmer.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/programming-concepts-python-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/programming-concepts-python-video)
 
 ------------------------------------------------------------------------
 
-[scikit-learn --Test Predictions Using Various Models (Video)](https://www.packtpub.com/big-data-and-business-intelligence/scikit-learn-–test-predictions-using-various-models-video){.https}
+[scikit-learn --Test Predictions Using Various Models (Video)](https://www.packtpub.com/big-data-and-business-intelligence/scikit-learn-–test-predictions-using-various-models-video)
 
 Julian Avila
 
@@ -1194,11 +1199,11 @@ Scikit-learn has evolved as a robust library for machine learning applications i
 
 This course begins by taking you through videos on linear models; with scikit-learn, you will take a machine learning approach to linear regression. As you progress, you will explore logistic regression. Then you will build models with distance metrics, including clustering. You will also look at cross-validation and post-model workflows, where you will see how to select a model that predicts well. Finally, you\'ll work with Support Vector Machines to get a rough idea of how SVMs work, and also learn about the radial basis function (RBF) kernel.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/scikit-learn-–test-predictions-using-various-models-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/scikit-learn-–test-predictions-using-various-models-video)
 
 ------------------------------------------------------------------------
 
-[Getting Started with NLP and Deep Learning with Python](https://www.packtpub.com/big-data-and-business-intelligence/getting-started-nlp-and-deep-learning-python-video){.https}
+[Getting Started with NLP and Deep Learning with Python](https://www.packtpub.com/big-data-and-business-intelligence/getting-started-nlp-and-deep-learning-python-video)
 
 Giuseppe Bonaccorso
 
@@ -1210,13 +1215,13 @@ Build a strong foundation to enter the world of Machine Learning and data scienc
 
 As the amount of data continues to grow at an almost incomprehensible rate, being able to understand and process data is becoming a key differentiator for competitive organizations. Machine Learning applications are everywhere, from self-driving cars to spam detection, document search, and trading strategies, to speech recognition. This makes machine learning well-suited to the present-day era of Big Data and Data Science. The main challenge is how to transform data into actionable knowledge.
 
-In this course, you'll be introduced to the Natural Processing Language and Recommendation Systems, which help you run multiple algorithms simultaneously. Also, you'll learn about Deep learning and [TensorFlow](./TensorFlow.html){.nonexistent}. Finally, you'll see how to create an Ml architecture.
+In this course, you'll be introduced to the Natural Processing Language and Recommendation Systems, which help you run multiple algorithms simultaneously. Also, you'll learn about Deep learning and [TensorFlow](./TensorFlow.html). Finally, you'll see how to create an Ml architecture.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/getting-started-nlp-and-deep-learning-python-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/getting-started-nlp-and-deep-learning-python-video)
 
 ------------------------------------------------------------------------
 
-[Data Visualization Solutions for Beginners (Video)](https://www.packtpub.com/big-data-and-business-intelligence/data-visualization-solutions-beginners-video){.https}
+[Data Visualization Solutions for Beginners (Video)](https://www.packtpub.com/big-data-and-business-intelligence/data-visualization-solutions-beginners-video)
 
 Mohammed Topiwalla
 
@@ -1230,11 +1235,11 @@ In this course, we'll be using tools such as Tableau, which is the best visualiz
 
 This course takes you gradually from basic, fundamental topics to advanced topics with a ton of examples. It also focuses on making you independent of these tools, so you can carry forward your visualization knowledge to any other tool you may need to use. We cover three tools in visualization, namely R, Python, and Tableau and setting up your basic framework for any project you take up. By the end of this course, you'll have the fundamentals in place, so you can make visualizations on your own with the correct use of various visualization elements.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/data-visualization-solutions-beginners-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/data-visualization-solutions-beginners-video)
 
 ------------------------------------------------------------------------
 
-[Artificial Intelligence with Python -- Deep Neural Networks (Video)](https://www.packtpub.com/big-data-and-business-intelligence/artificial-intelligence-python-–-deep-neural-networks-video){.https}
+[Artificial Intelligence with Python -- Deep Neural Networks (Video)](https://www.packtpub.com/big-data-and-business-intelligence/artificial-intelligence-python-–-deep-neural-networks-video)
 
 Prateek Joshi
 
@@ -1244,13 +1249,13 @@ ISBN 13: 9781789132670 Packt Course Length: 1 hour 19 minutes (Jan 2018)
 
 Learn different Artificial Intelligence learning techniques with neural networks
 
-The course is an introduction to the basics of deep learning methods. We will start with object detection and tracking, in which we will track faces, objects and eyes. We will then build a neural network and an OCR. We will then learn how to build learning agents that can learn from interacting with the environment. We will use Deep Learning with Convolutional Neural Networks, and use [TensorFlow](./TensorFlow.html){.nonexistent} to build neural networks. We will then build an image classifier using convolutional neural networks.
+The course is an introduction to the basics of deep learning methods. We will start with object detection and tracking, in which we will track faces, objects and eyes. We will then build a neural network and an OCR. We will then learn how to build learning agents that can learn from interacting with the environment. We will use Deep Learning with Convolutional Neural Networks, and use [TensorFlow](./TensorFlow.html) to build neural networks. We will then build an image classifier using convolutional neural networks.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/artificial-intelligence-python-–-deep-neural-networks-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/artificial-intelligence-python-–-deep-neural-networks-video)
 
 ------------------------------------------------------------------------
 
-[Artificial Intelligence with Python -- Sequence Learning (Video)](https://www.packtpub.com/big-data-and-business-intelligence/artificial-intelligence-python-–-sequence-learning-video){.https}
+[Artificial Intelligence with Python -- Sequence Learning (Video)](https://www.packtpub.com/big-data-and-business-intelligence/artificial-intelligence-python-–-sequence-learning-video)
 
 Prateek Joshi
 
@@ -1262,11 +1267,11 @@ Explore the world of sequence learning in Python-text, speech, and more
 
 Enter and explore the fascinating world of intelligent apps with Artificial Intelligence with Python. Artificial Intelligence is becoming increasingly relevant in the modern world. By harnessing the power of algorithms, you can create apps that intelligently interact with the world around you, automatic speech recognition systems, and more.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/artificial-intelligence-python-–-sequence-learning-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/artificial-intelligence-python-–-sequence-learning-video)
 
 ------------------------------------------------------------------------
 
-[Artificial Intelligence with Python -- Heuristic Search (Video)](https://www.packtpub.com/big-data-and-business-intelligence/artificial-intelligence-python-–-heuristic-search-video){.https}
+[Artificial Intelligence with Python -- Heuristic Search (Video)](https://www.packtpub.com/big-data-and-business-intelligence/artificial-intelligence-python-–-heuristic-search-video)
 
 Prateek Joshi
 
@@ -1278,11 +1283,11 @@ Explore the concepts and techniques of AI and bring its magical power to your ap
 
 This course is a go-to guide for the four topics, logic programming, heuristic search, genetic algorithms and building games with AI. It will help you learn to programme with AI. The course will start with the basic puzzles, parsing trees and expression matching. This will be followed by building solutions for region coloring and maze solving. The course also has fun-filled videos on building bots to play Tic-tac-toe, Connect Four and Hexapawn.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/artificial-intelligence-python-–-heuristic-search-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/artificial-intelligence-python-–-heuristic-search-video)
 
 ------------------------------------------------------------------------
 
-[Supervised and Unsupervised Learning with Python (Video)](https://www.packtpub.com/application-development/supervised-and-unsupervised-learning-python-video){.https}
+[Supervised and Unsupervised Learning with Python (Video)](https://www.packtpub.com/application-development/supervised-and-unsupervised-learning-python-video)
 
 Prateek Joshi
 
@@ -1294,11 +1299,11 @@ Hop on the wonderful journey of machine learning and data analysis
 
 Build real-world Artificial Intelligence (AI) applications to intelligently interact with the world around you, explore real-world scenarios, and learn about the various algorithms that can be used to build AI applications. Packed with insightful examples and topics such as predictive analytics and deep learning, this course is a must-have for Python developers.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/supervised-and-unsupervised-learning-python-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/supervised-and-unsupervised-learning-python-video)
 
 ------------------------------------------------------------------------
 
-[Learning Python (Video)](https://www.packtpub.com/application-development/learning-python-video){.https}
+[Learning Python (Video)](https://www.packtpub.com/application-development/learning-python-video)
 
 Bhaskar N. Das, Mohit Raj
 
@@ -1310,11 +1315,11 @@ Begin your journey with Python to take your skills to the next level and create 
 
 This course will help you to take your skills to the next level having a good knowledge of the fundamentals of Python.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/learning-python-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/learning-python-video)
 
 ------------------------------------------------------------------------
 
-[Pandas for Predictive Analysis using scikit-learn (Video)](https://www.packtpub.com/big-data-and-business-intelligence/pandas-predictive-analysis-using-scikit-learn-video){.https}
+[Pandas for Predictive Analysis using scikit-learn (Video)](https://www.packtpub.com/big-data-and-business-intelligence/pandas-predictive-analysis-using-scikit-learn-video)
 
 Harish Garg
 
@@ -1326,11 +1331,11 @@ Learn how to use Pandas for Predictive Analysis by employing scikit-learn
 
 In this course you learn that stand alone data analysis is fine but what most companies these days are looking for is to do Predictive analysis using their data. This advanced course, will make you ready to start doing Predictive Analysis on your data by showing you how to build Machine Learning models with scikit-learn and pandas.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/pandas-predictive-analysis-using-scikit-learn-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/pandas-predictive-analysis-using-scikit-learn-video)
 
 ------------------------------------------------------------------------
 
-[Getting Started with Cloud-Native Python (Video)](https://www.packtpub.com/application-development/getting-started-cloud-native-python-video){.https}
+[Getting Started with Cloud-Native Python (Video)](https://www.packtpub.com/application-development/getting-started-cloud-native-python-video)
 
 Manish Sethi
 
@@ -1344,11 +1349,11 @@ Businesses today are evolving so rapidly that having their own infrastructure to
 
 It\'s a practical video: you\'re going to build everything using Python 3 and its amazing tooling ecosystem.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/getting-started-cloud-native-python-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/getting-started-cloud-native-python-video)
 
 ------------------------------------------------------------------------
 
-[Step-by-Step Machine Learning with Python (Video)](https://www.packtpub.com/big-data-and-business-intelligence/step-step-machine-learning-python-video){.https}
+[Step-by-Step Machine Learning with Python (Video)](https://www.packtpub.com/big-data-and-business-intelligence/step-step-machine-learning-python-video)
 
 Yuxi (Hayden) Liu
 
@@ -1360,11 +1365,11 @@ Put your Python skills to the test and enter the big world of data science to le
 
 This video is your entry point to machine learning. It starts with an introduction to machine learning and the Python language and shows you how to complete the necessary setup. Moving ahead, you will learn all the important concepts such as exploratory data analysis, data preprocessing, feature extraction, data visualization and clustering, classification, regression, and model performance evaluation. With the help of the various projects included, you will acquire the mechanics of several important machine learning algorithms, which will no longer seem obscure. Also, you will be guided step-by-step to build your own models from scratch. Toward the end, you will gather a broad picture of the machine learning ecosystem and master best practices for applying machine learning techniques. Throughout this course, you will learn to tackle data-driven problems and implement your solutions with the powerful yet simple Python language.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/step-step-machine-learning-python-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/step-step-machine-learning-python-video)
 
 ------------------------------------------------------------------------
 
-[From 0 to 1: Machine Learning, NLP & Python-Cut to the Chase (Video)](https://www.packtpub.com/business/0-1-machine-learning-nlp-python-cut-chase-video){.https}
+[From 0 to 1: Machine Learning, NLP & Python-Cut to the Chase (Video)](https://www.packtpub.com/business/0-1-machine-learning-nlp-python-cut-chase-video)
 
 Loonycorn
 
@@ -1376,11 +1381,11 @@ A down-to-earth, shy but confident take on machine learning techniques that you 
 
 This course is very visual: most of the techniques are explained with the help of animations to help you understand better. This course is practical as well: There are hundreds of lines of source code with comments that can be used directly to implement natural language processing and machine learning for text summarization, text classification in Python. The course is also quirky. The examples are irreverent. Lots of little touches: repetition, zooming out so we remember the big picture, active learning with plenty of quizzes. There's also a peppy soundtrack, and art - all shown by studies to improve cognition and recall.
 
-[Publisher\'s page](https://www.packtpub.com/business/0-1-machine-learning-nlp-python-cut-chase-video){.https}
+[Publisher\'s page](https://www.packtpub.com/business/0-1-machine-learning-nlp-python-cut-chase-video)
 
 ------------------------------------------------------------------------
 
-[Basic and Low-level Python Network Attacks (Video)](https://www.packtpub.com/networking-and-servers/basic-and-low-level-python-network-attacks-video){.https}
+[Basic and Low-level Python Network Attacks (Video)](https://www.packtpub.com/networking-and-servers/basic-and-low-level-python-network-attacks-video)
 
 Sam Bowne
 
@@ -1394,11 +1399,11 @@ A penetration tester who only knows how to use tools written by others is limite
 
 The goal of this video course is to show you how you can quickly and easily make simple attack tools with Python, even if you have never programmed before.
 
-[Publisher\'s page](https://www.packtpub.com/networking-and-servers/basic-and-low-level-python-network-attacks-video){.https}
+[Publisher\'s page](https://www.packtpub.com/networking-and-servers/basic-and-low-level-python-network-attacks-video)
 
 ------------------------------------------------------------------------
 
-[Learning Pandas (Video)](https://www.packtpub.com/big-data-and-business-intelligence/learning-pandas-video){.https}
+[Learning Pandas (Video)](https://www.packtpub.com/big-data-and-business-intelligence/learning-pandas-video)
 
 Harish Garg
 
@@ -1420,11 +1425,11 @@ This video will show you how you can get the most out of Pandas for data analysi
 - Perform algorithmic trading, derive results on fixed and moving windows, and more.
 - Get the hang of taking out transformed data out of Pandas dataframes and into the formats your application expects.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/learning-pandas-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/learning-pandas-video)
 
 ------------------------------------------------------------------------
 
-[Python Machine Learning - Part 1 (Video)](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-part-1-video){.https}
+[Python Machine Learning - Part 1 (Video)](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-part-1-video)
 
 Jason Wolosonovich
 
@@ -1450,11 +1455,11 @@ This video gives you access to the world of predictive analytics and demonstrate
 
 If you want to find out how to use Python to start answering critical questions using your data, this video is ideal. Whether you want to get started from scratch or want to extend your data science knowledge, this is an essential resource.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-part-1-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-part-1-video)
 
 ------------------------------------------------------------------------
 
-[Modern Python Solutions Part 1 (Video)](https://www.packtpub.com/application-development/modern-python-solutions-part-1-video){.https}
+[Modern Python Solutions Part 1 (Video)](https://www.packtpub.com/application-development/modern-python-solutions-part-1-video)
 
 Steven F. Lott
 
@@ -1478,11 +1483,11 @@ This video comes with over 100 recipes on the latest version of Python. The reci
 
 The video is for web developers, programmers, enterprise programmers, engineers, big data scientist, and so on. If you are a beginner, Modern Python Recipes will get you started. If you are experienced, it will expand your knowledge base. A basic knowledge of programming would help.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/modern-python-solutions-part-1-video){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/modern-python-solutions-part-1-video)
 
 ------------------------------------------------------------------------
 
-[Data Science and Machine Learning with Python - Hands On!](https://www.packtpub.com/big-data-and-business-intelligence/data-science-and-machine-learning-python-hands-video){.https} \[Video\]
+[Data Science and Machine Learning with Python - Hands On!](https://www.packtpub.com/big-data-and-business-intelligence/data-science-and-machine-learning-python-hands-video) \[Video\]
 
 By Frank Kane
 
@@ -1501,11 +1506,11 @@ This video will help you take your first steps in the world of data science, and
 
 If you are a budding data scientist or a data analyst who wants to analyze and gain actionable insights from data using Python, this video is for you. Programmers with some experience in Python who want to enter the lucrative world of Data Science will also find this video to be very useful.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/data-science-and-machine-learning-python-hands-video){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/data-science-and-machine-learning-python-hands-video)
 
 ------------------------------------------------------------------------
 
-[Beginning Python (Video)](https://www.packtpub.com/application-development/beginning-python-video){.https}
+[Beginning Python (Video)](https://www.packtpub.com/application-development/beginning-python-video)
 
 William Fiset
 
@@ -1529,4 +1534,3 @@ You will see how functions play a major role to provide a high degree of code re
 The viewer will know the basics of what programming languages are, but won't need any knowledge of Python. Nor will the need any actual hands-on experience in a specific language.
 
 ------------------------------------------------------------------------
-:::

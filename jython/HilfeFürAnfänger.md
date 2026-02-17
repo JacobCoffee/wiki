@@ -1,7 +1,12 @@
 # HilfeFürAnfänger
 
-::: {#content dir="ltr" lang="de"}
-## WikiWikiWeb {#WikiWikiWeb}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## WikiWikiWeb 
 
 Ein [WikiWikiWeb](WikiWikiWeb) ist eine Hypertext-Umgebung für gemeinschaftliches Zusammenarbeiten, mit Betonung auf einfachen Zugriff auf und einfaches Ändern von Informationen.
 
@@ -9,7 +14,7 @@ Durch einen Klick auf den Verweis \"Edit\" können Sie jede Seite selbst veränd
 
 Sie können den [WikiSandkasten](WikiSandkasten) gerne ändern, wie es Ihnen beliebt. Halten Sie sich aber bitte mit Änderungen anderer Seiten etwas zurück, bis Sie sich mit der Funktionsweise eines Wikis vertraut gemacht haben.
 
-Um mehr darüber zu erfahren, was ein [WikiWikiWeb](http://c2.com/cgi/wiki?WikiWikiWeb "Wiki"){.interwiki} ist, lesen Sie [WhyWikiWorks](http://c2.com/cgi/wiki?WhyWikiWorks "Wiki"){.interwiki} und [WikiNature](http://c2.com/cgi/wiki?WikiNature "Wiki"){.interwiki} (englisch). Des weiteren lesen Sie bitte auch [WikiWikiWebFaq](http://c2.com/cgi/wiki?WikiWikiWebFaq "Wiki"){.interwiki} und [WikiInEinerMinute](http://c2.com/cgi/wiki?WikiInEinerMinute "Wiki"){.interwiki}. Dieses Wiki ist auch ein Teil des [InterWiki](InterWiki)-Verbunds, was bedeutet, dass Sie leicht auf eine Vielzahl von Informationen verweisen können, die auf anderen öffentlichen Wikis verfügbar sind.
+Um mehr darüber zu erfahren, was ein [WikiWikiWeb](http://c2.com/cgi/wiki?WikiWikiWeb "Wiki") ist, lesen Sie [WhyWikiWorks](http://c2.com/cgi/wiki?WhyWikiWorks "Wiki") und [WikiNature](http://c2.com/cgi/wiki?WikiNature "Wiki") (englisch). Des weiteren lesen Sie bitte auch [WikiWikiWebFaq](http://c2.com/cgi/wiki?WikiWikiWebFaq "Wiki") und [WikiInEinerMinute](http://c2.com/cgi/wiki?WikiInEinerMinute "Wiki"). Dieses Wiki ist auch ein Teil des [InterWiki](InterWiki)-Verbunds, was bedeutet, dass Sie leicht auf eine Vielzahl von Informationen verweisen können, die auf anderen öffentlichen Wikis verfügbar sind.
 
 Gute Ausgangspunkte für eine Wiki-Erkundung sind:
 
@@ -21,13 +26,13 @@ Gute Ausgangspunkte für eine Wiki-Erkundung sind:
 
 - [WortIndex](WortIndex): eine Liste aller Worte, die Teil eines Seitentitels sind (und daher eine Liste aller Konzepte im Wiki)
 
-- [WegWeiser](./WegWeiser.html){.nonexistent}: eine Seite, die zu den unterschiedlichen Indizes des Wikis führt
+- [WegWeiser](./WegWeiser.html): eine Seite, die zu den unterschiedlichen Indizes des Wikis führt
 
 - [WikiSandkasten](WikiSandkasten): diese Seite dürfen Sie nach Herzenslust für eigene Änderungen und Experimente benutzen
 
 Für weitere Hilfe siehe die Seiten [HilfeInhalt](HilfeInhalt) und [HilfeIndex](HilfeIndex).
 
-## WikiNamen {#WikiNamen}
+## WikiNamen 
 
 Ein [WikiName](WikiName) ist ein Wort, zusammengesetzt aus vorne groß geschriebenen Worten.
 
@@ -35,13 +40,12 @@ Ein [WikiName](WikiName) ist ein Wort, zusammengesetzt aus vorne groß geschrieb
 
 Wenn Sie auf den Seitentitel (z.B. HilfeFürAnfänger auf dieser Seite) klicken, wird Ihnen eine Liste aller Seiten angezeigt, die auf die aktuelle Seite verweisen - und das funktioniert sogar auf noch nicht definierten Seiten.
 
-Ein Fragezeichen vor einem Link (oder auch ein Link, der fett und rot abgebildet ist) bedeutet, dass eine Seite noch nicht definiert wurde. Sie können dann auf das Fragezeichen klicken und die Seite anlegen (z.B.: [SoEineSeiteGibtEsNicht](./SoEineSeiteGibtEsNicht.html){.nonexistent}). Wenn Sie auf einen solchen Link klicken, bekommen Sie eine Standardseite, die Sie dann editieren können. Erst beim Speichern dieser Seite wird die Seite dann wirklich angelegt. Eine Liste von noch nicht erzeugten Seiten, auf die aber von anderen Seiten verwiesen wird, befindet sich auf [GesuchteSeiten](GesuchteSeiten).
+Ein Fragezeichen vor einem Link (oder auch ein Link, der fett und rot abgebildet ist) bedeutet, dass eine Seite noch nicht definiert wurde. Sie können dann auf das Fragezeichen klicken und die Seite anlegen (z.B.: [SoEineSeiteGibtEsNicht](./SoEineSeiteGibtEsNicht.html)). Wenn Sie auf einen solchen Link klicken, bekommen Sie eine Standardseite, die Sie dann editieren können. Erst beim Speichern dieser Seite wird die Seite dann wirklich angelegt. Eine Liste von noch nicht erzeugten Seiten, auf die aber von anderen Seiten verwiesen wird, befindet sich auf [GesuchteSeiten](GesuchteSeiten).
 
 Um einen [WikiName](WikiName)n nicht als solchen gelten zu lassen (ihn zu \"escapen\"), z.B. wenn man WikiName schreiben will, ohne einen Link zu generieren, kann man eine leere Fettschrift-Markierung verwenden (also eine Folge von sechs einfachen Anführungszeichen) wie hier: `Wiki''''''Name`. Alternativ können Sie die kürzere Sequenz \"``` `` ```\" (zwei inverse Hochkommata, engl. *backticks*) verwenden, d.h. ``` Wiki``Name ```, oder, je nach Konfiguration, auch ein vorangestelltes Ausrufungszeichen, z.B. `!WikiName`.
 
 Lesen Sie [HilfeZumEditieren](HilfeZumEditieren), um weiteres über Wiki-Notation zu lernen.
 
-## Siehe auch {#Siehe_auch}
+## Siehe auch 
 
 - [WikiKurs](WikiKurs): Eine strukturierte Einführung in Wikis
-:::

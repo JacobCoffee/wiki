@@ -1,13 +1,18 @@
 # Asking for Help/What is wrong with this "game of life" program?
 
-:::::: {#content dir="ltr" lang="en"}
-# Asking for Help: What is wrong with this \"game of life\" program? {#Asking_for_Help:_What_is_wrong_with_this_.22game_of_life.22_program.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: What is wrong with this \"game of life\" program? 
 
 I have a problem with a program for Conway\'s Game of Life. Here\'s the source code:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d1ea69b6944cfc8781c098e4741ecafb535a5a6b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #! /usr/bin/env python
    2 # Conway's game of life on a finite rectangular universe
    3 # The boundary is considered to be perpetually dead.
@@ -76,4 +81,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp)
-::::::

@@ -1,7 +1,12 @@
 # EuroPython2016/coalaSprint
 
-::: {#content dir="ltr" lang="en"}
-[coala](http://coala-analyzer.org/){.http} is an easy to use code analysis tool that works for [a lot of languages](https://github.com/coala-analyzer/coala-bears/wiki/Supported-languages){.https} and can also automatically fix stuff. *We will*:
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[coala](http://coala-analyzer.org/) is an easy to use code analysis tool that works for [a lot of languages](https://github.com/coala-analyzer/coala-bears/wiki/Supported-languages) and can also automatically fix stuff. *We will*:
 
 - Help you setting up *code analysis for all languages in your project*.
 
@@ -16,4 +21,3 @@
 We will have some lightning talks, possibly talks and/or workshops from various community members.
 
 Some coala members will be around right from the start of the sprints. (9:30) If you\'re a fellow sprinter we\'d love to help you set up coala for yor project, maybe we can make a small coala team go a round to the other projects helping them if they\'re interested.
-:::

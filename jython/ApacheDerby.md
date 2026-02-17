@@ -1,13 +1,12 @@
 # ApacheDerby
 
-:::::: {#content dir="ltr" lang="en"}
-# Apache Derby Example(s) {#Apache_Derby_Example.28s.29}
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: table-of-contents
-Contents
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-1.  [Apache Derby Example(s)](#Apache_Derby_Example.28s.29)
-:::
+# Apache Derby Example(s) 
 
 back to [OtherExamples](OtherExamples)
 
@@ -18,11 +17,11 @@ This Derby example doesn\'t need the use of zxJDBC. I was looking to complete th
 [RSMD.py](./RSMD(2e)py.html) is a database utility I found in IBM.\
 [SimpleApp](SimpleApp).java the original Java demo
 
-If you follow the instructions in this tutorial everything will go smooth. [Derby Tutorial](http://db.apache.org/derby/papers/DerbyTut/install_software.html){.http}. (note: there is also a lot of info on their wiki)
+If you follow the instructions in this tutorial everything will go smooth. [Derby Tutorial](http://db.apache.org/derby/papers/DerbyTut/install_software.html). (note: there is also a lot of info on their wiki)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-61cc278e2be2ff2c5571749f84e987778263abec dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """ Derby Class SimpleApp.py
    2     Add derby.jar to your CLASSPATH
    3     Ported by: Alfonso Reyes, September 2007
@@ -161,4 +160,3 @@ If you follow the instructions in this tutorial everything will go smooth. [Derb
 ```
 :::
 ::::
-::::::

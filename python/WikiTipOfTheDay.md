@@ -1,19 +1,24 @@
 # WikiTipOfTheDay
 
-::: {#content dir="ltr" lang="en"}
-- Setting language to Deutsch in [UserPreferences](./UserPreferences.html){.nonexistent} results in german emails.
+```{admonition} Legacy Wiki Page
+:class: note
 
-- If you log in using the [UserPreferences](./UserPreferences.html){.nonexistent} link at the top right, you can set several useful user options and are known by your name.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- Choose a [WikiName](WikiName) as a user login ([FirstnameLastname](./FirstnameLastname.html){.nonexistent}).
+- Setting language to Deutsch in [UserPreferences](./UserPreferences.html) results in german emails.
 
-- The menu bar can be changed in [UserPreferences](./UserPreferences.html){.nonexistent}.
+- If you log in using the [UserPreferences](./UserPreferences.html) link at the top right, you can set several useful user options and are known by your name.
 
-- The size of the editor window can be changed in [UserPreferences](./UserPreferences.html){.nonexistent}.
+- Choose a [WikiName](WikiName) as a user login ([FirstnameLastname](./FirstnameLastname.html)).
 
-- Setting the language to \"de\" in your browser or [UserPreferences](./UserPreferences.html){.nonexistent} allows to change the menues and help pages to german.
+- The menu bar can be changed in [UserPreferences](./UserPreferences.html).
 
-- The CSS style sheet can be changed to an arbitrary URL in [UserPreferences](./UserPreferences.html){.nonexistent}.
+- The size of the editor window can be changed in [UserPreferences](./UserPreferences.html).
+
+- Setting the language to \"de\" in your browser or [UserPreferences](./UserPreferences.html) allows to change the menues and help pages to german.
+
+- The CSS style sheet can be changed to an arbitrary URL in [UserPreferences](./UserPreferences.html).
 
 - Setting the bookmark in [RecentChanges](RecentChanges) allows to keep track of changes since the last visit.
 
@@ -21,11 +26,11 @@
 
 - [OrphanedPages](OrphanedPages) show pages that aren\'t referenced by [WikiName](WikiName).
 
-- Using a [WikiBadge](./WikiBadge.html){.nonexistent} helps in keeping a clear overview.
+- Using a [WikiBadge](./WikiBadge.html) helps in keeping a clear overview.
 
 - [CategoryCategory](CategoryCategory) list all available categories
 
-- A [WikiWord](./WikiWord.html){.nonexistent} is part of a [WikiName](WikiName). A [WikiName](WikiName) consists of multiple capitalized words.
+- A [WikiWord](./WikiWord.html) is part of a [WikiName](WikiName). A [WikiName](WikiName) consists of multiple capitalized words.
 
 - Use [WikiName](WikiName)s ALWAYS in singular, otherwise, multiple pages for a topic are created.
 
@@ -35,13 +40,13 @@
 
 <!-- -->
 
-- The [SpellCheck](./SpellCheck.html){.nonexistent} link at the bottom of a page allows you to check your spelling (who would\'ve thought of that).
+- The [SpellCheck](./SpellCheck.html) link at the bottom of a page allows you to check your spelling (who would\'ve thought of that).
 
-- \"[myfile.txt]( "Upload new attachment "myfile.txt""){.attachment .nonexistent}\" allows to add a link to an attachment.
+- \"[myfile.txt]( "Upload new attachment "myfile.txt"")\" allows to add a link to an attachment.
 
-- Email addresses like [my.mail@yahoo.com](mailto:my.mail@yahoo.com){.mailto} are converted to a link.
+- Email addresses like [my.mail@yahoo.com](mailto:my.mail@yahoo.com) are converted to a link.
 
-- Web addresses like [http://www.python.org](http://www.python.org){.http} are converted to a link.
+- Web addresses like [http://www.python.org](http://www.python.org) are converted to a link.
 
 - Links to images or image attachments are displayed on the page rather than as a link.
 
@@ -49,7 +54,7 @@
 
 - Wikis are great - especially after having read the help. 8)
 
-- [WikiWiki](./WikiWiki.html){.nonexistent} = hawaiian for \"quick\".
+- [WikiWiki](./WikiWiki.html) = hawaiian for \"quick\".
 
 - The magnifyer glass can be used to search titles or the page text. Even regular expressions can be used.
 
@@ -64,4 +69,3 @@
 - You don\'t have to use [FrontPage](FrontPage) as the entrance to the Wiki. [RecentChanges](RecentChanges) or your own home page might be useful too.
 
 - Nobody expects the Spanish Inquisition!
-:::

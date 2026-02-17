@@ -1,9 +1,14 @@
 # FehlendeSeite
 
-:::: {#content dir="ltr" lang="de"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **Diese Seite gibt es noch nicht. Sie können eine neue, leere Seite anlegen oder eine der Seitenvorlagen benutzen. Bevor Sie die Seite anlegen, überprüfen Sie bitte, ob es eine ähnliche Seite schon gibt.**
 
-[Diese Seite anlegen](./FehlendeSeite.html?action=edit){.action}
+[Diese Seite anlegen](./FehlendeSeite.html?action=edit)
 
 ------------------------------------------------------------------------
 
@@ -27,4 +32,3 @@
 | - [SyncJobTemplate](./FehlendeSeite.html?action=edit&template=SyncJobTemplate)                             |                                                                    |
 +------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------+
 :::
-::::

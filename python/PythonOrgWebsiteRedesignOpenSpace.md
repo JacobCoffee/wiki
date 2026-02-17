@@ -1,25 +1,30 @@
 # PythonOrgWebsiteRedesignOpenSpace
 
-::: {#content dir="ltr" lang="en"}
-# Python.org Website Redesign OpenSpace - PyCon 2003 {#Python.org_Website_Redesign_OpenSpace_-_PyCon_2003}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Organizer {#Organizer}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Python.org Website Redesign OpenSpace - PyCon 2003 
+
+## Organizer 
 
 [KevinAltis](KevinAltis)
 
-## Attendees {#Attendees}
+## Attendees 
 
-[EvelynMitchell](./EvelynMitchell.html){.nonexistent}, tummy.com, Aahz, [WesleyChun](WesleyChun), [NeilSchemenauer](NeilSchemenauer), [AndrewKuchling](AndrewKuchling), [ThomasWouters](./ThomasWouters.html){.nonexistent}, [BrettCannon](./BrettCannon.html){.nonexistent}, [SteveHolden](SteveHolden), [RogerMasse](./RogerMasse.html){.nonexistent}, [TrevorToenjes](./TrevorToenjes.html){.nonexistent}, [MichaelMcFarland](./MichaelMcFarland.html){.nonexistent}, Francois?
+[EvelynMitchell](./EvelynMitchell.html), tummy.com, Aahz, [WesleyChun](WesleyChun), [NeilSchemenauer](NeilSchemenauer), [AndrewKuchling](AndrewKuchling), [ThomasWouters](./ThomasWouters.html), [BrettCannon](./BrettCannon.html), [SteveHolden](SteveHolden), [RogerMasse](./RogerMasse.html), [TrevorToenjes](./TrevorToenjes.html), [MichaelMcFarland](./MichaelMcFarland.html), Francois?
 
-## Notes {#Notes}
+## Notes 
 
 A new mailing list has been created for discussion of this topic.
 
-- [http://mail.python.org/mailman/listinfo/pydotorg-redesign](http://mail.python.org/mailman/listinfo/pydotorg-redesign){.http}
+- [http://mail.python.org/mailman/listinfo/pydotorg-redesign](http://mail.python.org/mailman/listinfo/pydotorg-redesign)
 
 Progress is also being tracked on [PydotorgRedesign](PydotorgRedesign).
 
-## Meeting minutes {#Meeting_minutes}
+## Meeting minutes 
 
 Written by Evelyn Mitchell and Kevin Altis
 
@@ -258,4 +263,3 @@ Written by Evelyn Mitchell and Kevin Altis
 ------------------------------------------------------------------------
 
 [CategoryPythonWebsite](CategoryPythonWebsite)
-:::

@@ -1,31 +1,36 @@
 # PySndObj
 
-::::: {#content dir="ltr" lang="en"}
-Description: The Sound Object Library is an object-oriented audio processing library. It provides objects for synthesis and processing of sound that can be used to build applications for computer-generated music. See for more information the [sndObj homepage](http://sndobj.sourceforge.net/#python){.http}.
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Installation {#Installation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Description: The Sound Object Library is an object-oriented audio processing library. It provides objects for synthesis and processing of sound that can be used to build applications for computer-generated music. See for more information the [sndObj homepage](http://sndobj.sourceforge.net/#python).
+
+## Installation 
 
 There is no installer included, but you can move/copy (for the Windows platform) the .pyd and .dll files to your %pythondir%\\DLL and the .pyc files to %pythondir%\\Libs .
 
-## Documentation {#Documentation}
+## Documentation 
 
-- [The (limited) python manual](http://downloads.sourceforge.net/sndobj/PySndObj.pdf?modtime=1169813301&big_mirror=0){.http}
+- [The (limited) python manual](http://downloads.sourceforge.net/sndobj/PySndObj.pdf?modtime=1169813301&big_mirror=0)
 
-- [The official manual](http://downloads.sourceforge.net/sndobj/SndObj_Manual-2.6.4.pdf?modtime=1169813964&big_mirror=0){.http}
+- [The official manual](http://downloads.sourceforge.net/sndobj/SndObj_Manual-2.6.4.pdf?modtime=1169813964&big_mirror=0)
 
-For further assistance, please have a look at the [mailinglist](http://sourceforge.net/mailarchive/forum.php?forum_name=sndobj-devel){.http}
+For further assistance, please have a look at the [mailinglist](http://sourceforge.net/mailarchive/forum.php?forum_name=sndobj-devel)
 
-## Code Examples {#Code_Examples}
+## Code Examples 
 
-Some examples not available in [the manual](http://downloads.sourceforge.net/sndobj/PySndObj.pdf?modtime=1169813301&big_mirror=0){.http}. More examples are included in the download itself.
+Some examples not available in [the manual](http://downloads.sourceforge.net/sndobj/PySndObj.pdf?modtime=1169813301&big_mirror=0). More examples are included in the download itself.
 
-### A simple synth {#A_simple_synth}
+### A simple synth 
 
-A simple synth with band limited noise, oscilators, and alternating L-R output. In case of any issue, contact [renato.fabbri@gmail.com](mailto:renato.fabbri@gmail.com){.mailto} AND/OR contact sndObj mailing list.
+A simple synth with band limited noise, oscilators, and alternating L-R output. In case of any issue, contact [renato.fabbri@gmail.com](mailto:renato.fabbri@gmail.com) AND/OR contact sndObj mailing list.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f9f0464ce4bf2cb178095b27651745c5c924a942 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sndobj
    2 import time
    3 
@@ -77,4 +82,3 @@ A simple synth with band limited noise, oscilators, and alternating L-R output. 
 ```
 :::
 ::::
-:::::

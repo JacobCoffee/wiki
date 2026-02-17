@@ -1,13 +1,18 @@
 # PyQt/AutoConnectingSlots
 
-::::: {#content dir="ltr" lang="en"}
-## Automatically Connecting Slots by Name {#Automatically_Connecting_Slots_by_Name}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Automatically Connecting Slots by Name 
 
 The code in attachment to replace connectSlotsByName() has been working great for me. I\'m replacing more and more QObject.connect() -like code with it (I could not use the connectSlotsByName() from Qt because it binds callbacks twice (and yes, even if I did decorate my callbacks) and most importantly because my callbacks are not on the same object. \--[MartinBlais](MartinBlais)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8d16dbdad1f739c3e05a05281757602c85a0965e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def connectSlotsByName(container, callobj):
    2     """
    3     A version of connectSlotsByName() that uses a potentially different object
@@ -52,4 +57,3 @@ The code in attachment to replace connectSlotsByName() has been working great fo
 ```
 :::
 ::::
-:::::

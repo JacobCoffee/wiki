@@ -1,7 +1,12 @@
 # EuroPython/2007/IrcMeetings
 
-::: {#content dir="ltr" lang="en"}
-# Proposed agendas and notes taken during the IRC meetings {#Proposed_agendas_and_notes_taken_during_the_IRC_meetings}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Proposed agendas and notes taken during the IRC meetings 
 
 - [/IrcMeeting1](./EuroPython(2f)2007(2f)IrcMeetings(2f)IrcMeeting1.html): 2007-03-07
 
@@ -34,4 +39,3 @@
 - [/IrcMeeting15](./EuroPython(2f)2007(2f)IrcMeetings(2f)IrcMeeting15.html): 2007-06-18
 
 - [/IrcMeeting16](./EuroPython(2f)2007(2f)IrcMeetings(2f)IrcMeeting16.html): 2007-06-25
-:::

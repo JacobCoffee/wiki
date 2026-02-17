@@ -1,7 +1,12 @@
 # PyPySprint
 
-::: {#content dir="ltr" lang="en"}
-## PyPy Sprint {#PyPy_Sprint}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## PyPy Sprint 
 
 In the four days from 19th March till 22th March (inclusive) the [PyPy](PyPy) team will host a sprint on their new Python-in-Python implementation. The [PyPy](PyPy) project was granted funding by the European Union as part of its Sixth Framework Program, and is now on track to produce a stackless Python-in-Python Just-in-Time Compiler by December 2006. Our Python implementation, released under the MIT/BSD license, already provides new levels of flexibility and extensibility at the core interpreter and object implementation level.
 
@@ -23,25 +28,25 @@ We are going to give tutorials about [PyPy](PyPy)\'s basic concepts and provide 
 
 - experience programming in the Python language and interest to dive deeper
 
-- subscription to [pypy-dev](http://codespeak.net/mailman/listinfo/pypy-dev){.http} and [pypy-sprint](http://codespeak.net/mailman/listinfo/pypy-sprint){.http}.
+- subscription to [pypy-dev](http://codespeak.net/mailman/listinfo/pypy-dev) and [pypy-sprint](http://codespeak.net/mailman/listinfo/pypy-sprint).
 
 - have a subversion-client, Pygame and graphviz installed on the machine you bring to the sprint.
 
-- have a look at our current [documentation](http://codespeak.net/pypy/index.cgi?doc/){.http}, especially the [architecture](http://codespeak.net/pypy/index.cgi?doc/architecture){.http} and [getting-started](http://codespeak.net/pypy/index.cgi?doc/howtopypy){.http} documents.
+- have a look at our current [documentation](http://codespeak.net/pypy/index.cgi?doc/), especially the [architecture](http://codespeak.net/pypy/index.cgi?doc/architecture) and [getting-started](http://codespeak.net/pypy/index.cgi?doc/howtopypy) documents.
 
 The pypy-dev and pypy-sprint lists are also the contact points for raising questions and suggesting and discussing sprint topics beforehand. We are also on #pypy on freenode most of the time. Please don\'t hesitate to contact us or introduce yourself, your background and your interests!
 
-## Logistics {#Logistics}
+## Logistics 
 
 Organizational details will be posted to pypy-sprint and are or will be available in the Pycon2005-Sprint wiki here:
 
-- [http://www.python.org/moin/PyConDC2005/Sprints](http://www.python.org/moin/PyConDC2005/Sprints){.http}
+- [http://www.python.org/moin/PyConDC2005/Sprints](http://www.python.org/moin/PyConDC2005/Sprints)
 
-## Registration {#Registration}
+## Registration 
 
-send mail to [pypy-sprint@codespeak.net](mailto:pypy-sprint@codespeak.net){.mailto}, stating the days you can be present and any specific interests if applicable.
+send mail to [pypy-sprint@codespeak.net](mailto:pypy-sprint@codespeak.net), stating the days you can be present and any specific interests if applicable.
 
-## Registered Participants {#Registered_Participants}
+## Registered Participants 
 
 If you aren\'t planning to be available for all four days of the sprints, please note which days you will be around.
 
@@ -60,4 +65,3 @@ If you aren\'t planning to be available for all four days of the sprints, please
 ------------------------------------------------------------------------
 
 [CategoryPyCon2005](CategoryPyCon2005)
-:::

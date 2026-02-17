@@ -1,11 +1,16 @@
 # EnvironmentVariables
 
-::::: {#content dir="ltr" lang="en"}
-## Bash-like Global Substitution {#Bash-like_Global_Substitution}
+```{admonition} Legacy Wiki Page
+:class: note
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-cfe76820d3e964222eb4083dd1ab4607d1a571ab dir="ltr" lang="en"}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Bash-like Global Substitution 
+
+:::: 
+::: 
+``` 
    1 globals().update(os.environ)  # Import environment
    2 
    3 
@@ -26,13 +31,12 @@
 :::
 ::::
 
-# Discussion {#Discussion}
+# Discussion 
 
 The only question I have is: Is there a way to make all assignments within the module, automatically call `os.putenv`?
 
-So, intercept assignment with [setattr]{.u} or something, on the module.
+So, intercept assignment with [setattr] or something, on the module.
 
 I don\'t know how to get a handle to the current module, though.
 
 \-- [LionKimbro](LionKimbro) 2005-12-16 20:37:07
-:::::

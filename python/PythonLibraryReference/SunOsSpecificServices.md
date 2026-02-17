@@ -1,6 +1,11 @@
 # PythonLibraryReference/SunOsSpecificServices
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [Python Library Reference](PythonLibraryReference)
 
 ::: {}
@@ -9,7 +14,7 @@
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-# Sun OS Specific Services {#Sun_OS_Specific_Services}
+# Sun OS Specific Services 
 
 21.1 sunaudiodev \-- Access to Sun audio hardware
 
@@ -17,9 +22,8 @@
 
 21.2 SUNAUDIODEV \-- Constants used with sunaudiodev
 
-## Comments {#Comments}
+## Comments 
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-::::

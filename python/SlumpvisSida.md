@@ -1,6 +1,11 @@
 # SlumpvisSida
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Här följer en lista med 25 slumpvist utvalda sidor (utav totalt 3616):
 
 - [Admin/Email](./Admin(2f)Email.html)
@@ -28,4 +33,3 @@ Här följer en lista med 25 slumpvist utvalda sidor (utav totalt 3616):
 - [WikiCourse/01 What is a MoinMoin wiki?](./WikiCourse(2f)01(20)What(20)is(20)a(20)MoinMoin(20)wiki(3f).html)
 - [WikiKurs/21 Makros](./WikiKurs(2f)21(20)Makros.html)
 - [sudip](sudip)
-:::

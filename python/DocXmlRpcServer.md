@@ -1,11 +1,16 @@
 # DocXmlRpcServer
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The DocXmlRpcServer is a *very* simple [XmlRpc](XmlRpc) server that is also simultaneously a self-documenting web server.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d9f1d50156403d035d114929da4df9623fb1e3ac dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """Demonstration of the Python 2.3 DocXMLRPCServer.
    2 
    3 The demonstration publishes two functions, "message" and "wait."
@@ -50,33 +55,32 @@ The DocXmlRpcServer is a *very* simple [XmlRpc](XmlRpc) server that is also simu
 :::
 ::::
 
-The benefit of using DocXMLRPCServer is that it automatically creates documentation for your XML-RPC server, just open a browser and head to [http://localhost:8000](http://localhost:8000){.http} after starting the server.
+The benefit of using DocXMLRPCServer is that it automatically creates documentation for your XML-RPC server, just open a browser and head to [http://localhost:8000](http://localhost:8000) after starting the server.
 
-Writing a client to call the wait function is left as an exercise for the reader. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+Writing a client to call the wait function is left as an exercise for the reader. ![:)](/wiki/europython/img/smile.png ":)")
 
-## Resources {#Resources}
+## Resources 
 
 - [XmlRpc](XmlRpc) \-- general information on XML-RPC
 
 - [BaseHttpServer](BaseHttpServer) \-- class that DocXmlRpcServer inherits from
 
-- [SimpleXMLRPCServer documentation](http://www.python.org/doc/current/lib/module-SimpleXMLRPCServer.html){.http}
+- [SimpleXMLRPCServer documentation](http://www.python.org/doc/current/lib/module-SimpleXMLRPCServer.html)
 
-- [DocXMLRPCServer documentation](http://www.python.org/doc/current/lib/module-DocXMLRPCServer.html){.http}
+- [DocXMLRPCServer documentation](http://www.python.org/doc/current/lib/module-DocXMLRPCServer.html)
 
 - `SimpleXMLRPCServer.py`, and `DocXMLRPCServer.py` - comments includ many examples of use
 
-- [Fast C implementation of XML-RPC for python](http://sourceforge.net/projects/py-xmlrpc/){.http} (only for python version up to 2.2) [(more notes on it- apparently 20-100x faster!)](http://www.xmlrpc.com/discuss/msgReader$1573){.http}
+- [Fast C implementation of XML-RPC for python](http://sourceforge.net/projects/py-xmlrpc/) (only for python version up to 2.2) [(more notes on it- apparently 20-100x faster!)](http://www.xmlrpc.com/discuss/msgReader$1573)
 
 Also:
 
 - [AutoXmlRpcServer](AutoXmlRpcServer) \-- automatically serve modules in local directory with DocXmlRpcServer
 
-## Notes {#Notes}
+## Notes 
 
-This page was based on [SeaPig:DocXMLRPCServer,](http://www.seapig.org/DocXMLRPCServer){.http} with [BrianDorsey](BrianDorsey)\'s permission.
+This page was based on [SeaPig:DocXMLRPCServer,](http://www.seapig.org/DocXMLRPCServer) with [BrianDorsey](BrianDorsey)\'s permission.
 
-# Discussion {#Discussion}
+# Discussion 
 
 (none yet!)
-:::::

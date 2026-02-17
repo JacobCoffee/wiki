@@ -1,6 +1,11 @@
 # FindSide
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Du kan bruge siden her til at gennemsøge alle indlæg i dette [WikiWikiWeb](WikiWikiWeb). Søgninger skelner ikke mellem STORE og små bogstaver.
 
 Nyttige udgangspunkter for udforskning af wiki:
@@ -9,7 +14,7 @@ Nyttige udgangspunkter for udforskning af wiki:
 
 - FindSide: søg eller gennemse databasen på forskellige måder
 
-- [TitelListe](./TitelListe.html){.nonexistent}: en liste over alle sider i wiki\'en
+- [TitelListe](./TitelListe.html): en liste over alle sider i wiki\'en
 
 - [OrdListe](OrdListe): en liste over alle ord som indgår i en sidetitel (og dermed en liste over koncepter i en wiki)
 
@@ -38,4 +43,3 @@ Eller gå direkte til en side, eller oprette en ny side ved at indtaste dens nav
   ::: {}
   :::
   ::::
-:::

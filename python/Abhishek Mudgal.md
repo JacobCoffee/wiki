@@ -1,9 +1,14 @@
 # Abhishek Mudgal
 
-::: {#content dir="ltr" lang="en"}
-## Abhishek Mudgal {#Abhishek_Mudgal}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Email: [abhishek.mudgal@yahoo.com](mailto:abhishek.mudgal@yahoo.com){.mailto}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Abhishek Mudgal 
+
+Email: [abhishek.mudgal@yahoo.com](mailto:abhishek.mudgal@yahoo.com)
 
 \...
 
@@ -11,5 +16,4 @@ Email: [abhishek.mudgal@yahoo.com](mailto:abhishek.mudgal@yahoo.com){.mailto}
 
 [CategoryHomepage](CategoryHomepage)
 
-- [http://in.linkedin.com/in/abhimudgal](http://in.linkedin.com/in/abhimudgal){.http}
-:::
+- [http://in.linkedin.com/in/abhimudgal](http://in.linkedin.com/in/abhimudgal)

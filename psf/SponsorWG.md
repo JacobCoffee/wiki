@@ -1,33 +1,38 @@
 # SponsorWG
 
-::: {#content dir="ltr" lang="en"}
-# PSF Sponsor Working Group {#PSF_Sponsor_Working_Group}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Agenda {#Agenda}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PSF Sponsor Working Group 
+
+## Agenda 
 
 This working group will review PSF sponsorship applications and determine if they qualify to be a PSF Sponsor.
 
-## Resources {#Resources}
+## Resources 
 
 - No financial resources needed at the moment
 
 - [Sponsor WG Charter](./SponsorWG(2f)Charter.html)
 
-## Mailing List {#Mailing_List}
+## Mailing List 
 
-- [Sponsors WG Mailing List](https://mail.python.org/mailman/listinfo/sponsors){.https}
+- [Sponsors WG Mailing List](https://mail.python.org/mailman/listinfo/sponsors)
 
   The ML archives are set to private for the time being. Subscriptions must be approved by the admins. [EwaJodlowska](EwaJodlowska) is the list admin.
 
-## Discussions {#Discussions}
+## Discussions 
 
 Discussions will happen on the mailing list.
 
-## Administration {#Administration}
+## Administration 
 
 - Betsy Waliszewski
 
-## Members {#Members}
+## Members 
 
 - Ewa Jodlowska
 - Raghav Hanumantharau
@@ -37,11 +42,11 @@ Discussions will happen on the mailing list.
 - Deborah Harris
 - Eugene Kim
 
-## Meetings {#Meetings}
+## Meetings 
 
 - As needed
 
-## Approved/Denied Sponsorship Requests {#Approved.2FDenied_Sponsorship_Requests}
+## Approved/Denied Sponsorship Requests 
 
 - Approved
   - 1Korting.com, since September 2016, represented by Coen Janssen
@@ -50,11 +55,11 @@ Discussions will happen on the mailing list.
 
   - Acties.nl, since August 2016, represented by Vince Franke
 
-  - [ActiveState](./ActiveState.html){.nonexistent} (founding member), sponsor since March 2001, represented by Tom Radcliffe
+  - [ActiveState](./ActiveState.html) (founding member), sponsor since March 2001, represented by Tom Radcliffe
 
   - Adimian, since January 2018, represented by Eric Gazoni
 
-  - [AirportRentals](./AirportRentals.html){.nonexistent}.com.au, since October 2016, represented by Mark von Nagy
+  - [AirportRentals](./AirportRentals.html).com.au, since October 2016, represented by Mark von Nagy
 
   - Anacona (was Continuum), since October 2014, represented by Christina Sparks
 
@@ -64,19 +69,19 @@ Discussions will happen on the mailing list.
 
   - bespaardeals, since September 2016, represented by Ramon van der Roest
 
-  - [BizRate](./BizRate.html){.nonexistent}.com (Shopzilla)(Connexity), since January 2004, represented by Henri Asseily
+  - [BizRate](./BizRate.html).com (Shopzilla)(Connexity), since January 2004, represented by Henri Asseily
 
   - Bloomberg, since January 2015, represented by Justin Erenkrantz
 
   - confirm IT solutions, since March 1, 2018, represented by Pascal Stauffer
 
-  - [CrossCompute](./CrossCompute.html){.nonexistent}, since December 2016, represented by Olga Creutzburg
+  - [CrossCompute](./CrossCompute.html), since December 2016, represented by Olga Creutzburg
 
-  - [DataCamp](./DataCamp.html){.nonexistent}, since January 2017, represented by Martijn Theuwissen
+  - [DataCamp](./DataCamp.html), since January 2017, represented by Martijn Theuwissen
 
   - The DEVSociety, since March 2016, represented by Stephen Hawkes
 
-  - [DigitalOcean](./DigitalOcean.html){.nonexistent}, since 2017, represented by Kamal Nasser
+  - [DigitalOcean](./DigitalOcean.html), since 2017, represented by Kamal Nasser
 
   - Edgestream Partners, LP, sponsor since 2011, represented by Mike Graham
 
@@ -84,17 +89,17 @@ Discussions will happen on the mailing list.
 
   - Fastly, since August 2014, represented by Austin Spires
 
-  - [FusionBox](./FusionBox.html){.nonexistent}, since June 2016, represented by Alexander Groth
+  - [FusionBox](./FusionBox.html), since June 2016, represented by Alexander Groth
 
   - Google, since April 2004, represented by Dan Bentley now by Cat Allman
 
-  - [HashiCorp](./HashiCorp.html){.nonexistent}, since January 2018, represented by Jack Pearkes
+  - [HashiCorp](./HashiCorp.html), since January 2018, represented by Jack Pearkes
 
   - Heroku/Salesforce, represented by Natalie Garcia since July, 2015
 
-  - [HostingFact](./HostingFact.html){.nonexistent}.com, represented by John Stevens since July 2016
+  - [HostingFact](./HostingFact.html).com, represented by John Stevens since July 2016
 
-  - [HostPapa](./HostPapa.html){.nonexistent} Inc. since August 2017, represented by Dave Price
+  - [HostPapa](./HostPapa.html) Inc. since August 2017, represented by Dave Price
 
   - Indeed, since February 2018, represented by Duane O\'Brian
 
@@ -106,7 +111,7 @@ Discussions will happen on the mailing list.
 
   - Microsoft, since August 2006, represented by Shahrokh Mortazavi
 
-  - [MotorHome](./MotorHome.html){.nonexistent} Republic, since May 2008, represented by Thomas Schmider
+  - [MotorHome](./MotorHome.html) Republic, since May 2008, represented by Thomas Schmider
 
   - Newlogic Pte Ltd, since August 2016, represented by Loïc Bistuer
 
@@ -116,13 +121,13 @@ Discussions will happen on the mailing list.
 
   - Open Education and Development Group, since October 2018, represented by Grzegorz Czuchaj
 
-  - [OpenEye](./OpenEye.html){.nonexistent} Scientific Software, since October 2008, was represented by Annette Moon.
+  - [OpenEye](./OpenEye.html) Scientific Software, since October 2008, was represented by Annette Moon.
 
   - O\'Reilly Media, Inc., since April 2002, represented by Jennie Kimmel
 
   - Python Academy GmbH & Co. KG, since January 2017, represented by Mike Müller
 
-  - [PythonAnywhere](./PythonAnywhere.html){.nonexistent}, since November 2017, represented by Giles Thomas
+  - [PythonAnywhere](./PythonAnywhere.html), since November 2017, represented by Giles Thomas
 
   - Rackspace since April 2014, represented by John Engates
 
@@ -134,9 +139,9 @@ Discussions will happen on the mailing list.
 
   - Sticker Mule, since September 2016, represented by Justin Dorfman
 
-  - [StickerYou](./StickerYou.html){.nonexistent}, since May 2018, represented by Michael Ishak
+  - [StickerYou](./StickerYou.html), since May 2018, represented by Michael Ishak
 
-  - [SurveyMonkey](./SurveyMonkey.html){.nonexistent}, since January 2017, represented by Katharine Bausback
+  - [SurveyMonkey](./SurveyMonkey.html), since January 2017, represented by Katharine Bausback
 
   - Tivix, since April 2017, represented by John Hargan
 
@@ -154,15 +159,15 @@ Discussions will happen on the mailing list.
 
   - Yo Bits, since May 2018, represented by J Havenaar
 
-  - [YourLabs](./YourLabs.html){.nonexistent} Business Service, since June 2018, represented by James Pic
+  - [YourLabs](./YourLabs.html) Business Service, since June 2018, represented by James Pic
 
   - Zapier, Inc., since February 2018, represented by Jordan Sherer
 - Denied
-  - [HostingAdvice](./HostingAdvice.html){.nonexistent}
+  - [HostingAdvice](./HostingAdvice.html)
 
   - Dealsland
 
-  - [SerenataFlowers](./SerenataFlowers.html){.nonexistent}.com
+  - [SerenataFlowers](./SerenataFlowers.html).com
 
   - College Universitits
 
@@ -170,7 +175,7 @@ Discussions will happen on the mailing list.
 
   - Vertigo Studio
 
-  - [EasySwitch](./EasySwitch.html){.nonexistent}.nl
+  - [EasySwitch](./EasySwitch.html).nl
 
   - Blog Starter
 
@@ -180,13 +185,13 @@ Discussions will happen on the mailing list.
 - Cancelled by Sponsor
   - New Relic, since April 2015
 
-  - [DreamHost](./DreamHost.html){.nonexistent}, since August 2012, represented by Jonathan [LaCour](./LaCour.html){.nonexistent}
+  - [DreamHost](./DreamHost.html), since August 2012, represented by Jonathan [LaCour](./LaCour.html)
 
   - HP Enterprise since January 2015
 
   - CCP Games, since September 2005, represented by Erlendur S. Þorsteinsson
 
-  - [RhodeCode](./RhodeCode.html){.nonexistent}, since October 2014, represented by
+  - [RhodeCode](./RhodeCode.html), since October 2014, represented by
 
   - Beslist.nl, since December 2013, represented by Frank Winkel
 
@@ -202,7 +207,7 @@ Discussions will happen on the mailing list.
 
   - wargaming.com since April 2013, represented by Maksim Kulsha
 
-  - Array [BioPharma](./BioPharma.html){.nonexistent}, since October 2003, represented by Daniel Weaver
+  - Array [BioPharma](./BioPharma.html), since October 2003, represented by Daniel Weaver
 
   - Lucasfilm, since April 2008, represented by Lori Gianino (originally elected as Industrial Light & Magic in 2004)
 
@@ -213,4 +218,3 @@ Discussions will happen on the mailing list.
   - Intel, since April 2015, represented by David C. Stewart and Robert S. Cohn - Software Technologies and Optimization\"
 
   - Intel, since April 2015, represented by David C. Stewart and Robert S. Cohn - Scripting Analyzers & Tools
-:::

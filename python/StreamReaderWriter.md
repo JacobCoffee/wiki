@@ -1,15 +1,20 @@
 # StreamReaderWriter
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The Python2.5\'s `codecs.StreamReaderWriter` combines [StreamReader](StreamReader) and [StreamWriter](StreamWriter). The wrapper will read narrow `str` strings from the underlying stream and decode them to `unicode` strings. On writing `unicode` data to the wrapper, it will encode them to narrow `str` strings.
 
 The user of the wrapper should specify character sets by supplying class definitions for the respective stream reader and writer.
 
 Pseudocode:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a24e65c6bde664170bb9d19f0888f94a3f874ad5 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 class StreamReaderWriter:
    2     def __init__(self, stream, class_sr, class_sw):
    3         self.r = class_sr(stream)
@@ -33,4 +38,3 @@ See also: [StreamReader](StreamReader), [StreamWriter](StreamWriter), [StreamRec
 ------------------------------------------------------------------------
 
 [CategoryUnicode](CategoryUnicode)
-:::::

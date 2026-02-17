@@ -1,9 +1,14 @@
 # PyGE
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Python GUI application for the Gutenberg e-text project.
 
-Homepage: [http://pyge.sourceforge.net/](http://pyge.sourceforge.net/){.http} - including .deb package for Debian
+Homepage: [http://pyge.sourceforge.net/](http://pyge.sourceforge.net/) - including .deb package for Debian
 
 First encounter problems (can those be solved?):
 
@@ -63,9 +68,8 @@ I would agree that a simple start, click, and read experience would be an ideal 
 
 **Addressing individual complaints**
 
-The location of the PyGE [SampleData](./SampleData.html){.nonexistent} follows conventional Linux distribution guidelines. Application data which is common for all users is intended to go under the directory /usr/share/applicationname by convention. This is true for applications such as gimp, ghostscript, emacs, etc. I don\'t understand the author\'s seeming complaint about the location of PyGE-specific data, other than lack of knowledge about common Linux practices which Debian distributions follow. Looking under a /usr/doc directory is suitable for documentation files, and under a /usr/lib directory is suitable for library files, but /usr/share is the logical place to look for data files.
+The location of the PyGE [SampleData](./SampleData.html) follows conventional Linux distribution guidelines. Application data which is common for all users is intended to go under the directory /usr/share/applicationname by convention. This is true for applications such as gimp, ghostscript, emacs, etc. I don\'t understand the author\'s seeming complaint about the location of PyGE-specific data, other than lack of knowledge about common Linux practices which Debian distributions follow. Looking under a /usr/doc directory is suitable for documentation files, and under a /usr/lib directory is suitable for library files, but /usr/share is the logical place to look for data files.
 
 One complaint raised about PyGETS is that the title was not shown in the view window. This is simply because the commenter did not notice that there was a scroll bar at the bottom of the window which would have allowed him to scroll the contents over to see the title information. Or he could have increased the size of the application window, or even used the mouse to shrink the size of other fields, such as the author field, to allow him to see the title information without scrolling. The only view which allows downloading is the one which shows all information (including the title), precisely because that is the only one where you can be sure about what you are actually getting. The other views only give summary information about things like available authors or text formats, which is why the Download button is disabled and greyed out in those views.
 
 The one complaint about the main PyGERS application was that the default font produced an unreadable result. If this is true, it is a bug, but one which I was not aware of until now. Identifying the specific problem will require some additional information, such as the versions of Debian, Python, and wxPython used when running PyGERS. In any case, as was pointed out, it is an easily correctable problem using the built-in configuration options of PyGERS.
-:::

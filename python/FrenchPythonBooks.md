@@ -1,6 +1,11 @@
 # FrenchPythonBooks
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Cette page présente la liste des livres Python écrits en Français.
 
 ------------------------------------------------------------------------
@@ -11,13 +16,13 @@ Cette page présente la liste des livres Python écrits en Français.
 
 Cet ouvrage s\'adresse aux développeurs qui souhaitent découvrir et maîtriser Python, et aux chefs de projet désireux de faire évoluer leur équipe autour d\'un projet Python. Il rassemble toute une série de conseils concrets pour mener à bien des projets d\'envergure et construire des applications de qualité avec le langage Python. Il explique les principes du développement agile, une philosophie de programmation basée sur la facilité de modifier une application, de la faire grandir sans en perdre le contrôle, et d\'être réactif en toutes circonstances. Le développeur et le chef de projet trouveront dans ce livre des informations utiles sur : l\'environnement de développement (système d\'exploitation, éditeur de code\...) ; les principes d\'architecture logicielle à respecter ; la philosophie et la syntaxe de Python ; les bonnes pratiques qui permettent de tirer le meilleur parti de Python ; le développement dirigé par les tests ; le développement dirigé par la documentation ; l\'art et la manière de mettre en place un environnement de projet agile.
 
-### Infos {#Infos}
+### Infos 
 
 - 192 pages, ISBN: 978-2100508839, Editions: Dunod
 
-- [Page web du livre](http://programmation-python.org/guide){.http}, avec des ressources supplémentaires, des liens pour commander, et interagir
+- [Page web du livre](http://programmation-python.org/guide), avec des ressources supplémentaires, des liens pour commander, et interagir
 
-- [Sommaire en PDF du livre](http://programmation-python.org/media/sommaire_guide.pdf){.http}
+- [Sommaire en PDF du livre](http://programmation-python.org/media/sommaire_guide.pdf)
 
 ------------------------------------------------------------------------
 
@@ -35,33 +40,33 @@ S\'appuyant sur de nombreux exemples pratiques de code, Wesley Chun présente da
 
 Cette édition reflète les améliorations majeures apportées aux versions 2.x de Python, notamment la version 2.5, et évoque les possibilités des futures versions.
 
-### Info {#Info}
+### Info 
 
-- [info d\'Editeur](http://starship.python.net/crew/wesc/cpp/infoFR.pdf){.http} (PDF)
+- [info d\'Editeur](http://starship.python.net/crew/wesc/cpp/infoFR.pdf) (PDF)
 
-- [vol1 info d\'Editeur](http://www.pearsoneducation.fr/espace/livre.asp?idEspace=73&idLivre=2948){.http}
+- [vol1 info d\'Editeur](http://www.pearsoneducation.fr/espace/livre.asp?idEspace=73&idLivre=2948)
 
-- [vol2 info d\'Editeur](http://www.pearsoneducation.fr/espace/livre.asp?idLivre=2966&idEspace=73){.http}
+- [vol2 info d\'Editeur](http://www.pearsoneducation.fr/espace/livre.asp?idLivre=2966&idEspace=73)
 
-### Vol 1 {#Vol_1}
+### Vol 1 
 
-- [Amazon.fr](http://amazon.fr/o/asin/2744021482){.http}
+- [Amazon.fr](http://amazon.fr/o/asin/2744021482)
 
-- [Le Monde en Tique](http://www.lmet.fr/fiche.cgi?_ISBN=9782744021480){.http}
+- [Le Monde en Tique](http://www.lmet.fr/fiche.cgi?_ISBN=9782744021480)
 
-- [Ellipse.ch](http://www.ellipse.ch/Produit.aspx?Produit=1642228){.http}
+- [Ellipse.ch](http://www.ellipse.ch/Produit.aspx?Produit=1642228)
 
-- [CineMemento.fr](http://www.cine-memento.fr/coeur-python-p-8293.html){.http}
+- [CineMemento.fr](http://www.cine-memento.fr/coeur-python-p-8293.html)
 
-### Vol 2 {#Vol_2}
+### Vol 2 
 
-- [Amazon.fr](http://amazon.fr/o/asin/2744021954){.http}
+- [Amazon.fr](http://amazon.fr/o/asin/2744021954)
 
-- [Le Monde en Tique](http://www.lmet.fr/fiche.cgi?_ISBN=9782744021954){.http}
+- [Le Monde en Tique](http://www.lmet.fr/fiche.cgi?_ISBN=9782744021954)
 
-- [Ellipse.ch](http://www.ellipse.ch/Produit.aspx?Produit=1680640){.http}
+- [Ellipse.ch](http://www.ellipse.ch/Produit.aspx?Produit=1680640)
 
-- [CineMemento.fr](http://www.cine-memento.fr/coeur-python-p-8431.html){.http}
+- [CineMemento.fr](http://www.cine-memento.fr/coeur-python-p-8431.html)
 
 ------------------------------------------------------------------------
 
@@ -69,7 +74,7 @@ Cette édition reflète les améliorations majeures apportées aux versions 2.x 
 
 - Gérard Swinnen
 
-[http://www.oreilly.fr/catalogue/2841772993.html](http://www.oreilly.fr/catalogue/2841772993.html){.http}
+[http://www.oreilly.fr/catalogue/2841772993.html](http://www.oreilly.fr/catalogue/2841772993.html)
 
 Le bon duo pour apprendre à programmer, c\'est un langage bien structuré, simple, mais suffisamment évolué, en l\'occurrence Python, et une démarche pédagogique confirmée. Gérard Swinnen, qui enseigne l\'informatique dans une établissement d\'enseignement secondaire sait de quoi il parle. Très vite, le lecteur pourra réaliser des applications simples, mais utiles, et prendra goût à la programmation.
 
@@ -87,7 +92,7 @@ Les nouveautés de la 2e édition :
 
 ISBN: 2-21211-677-2, Editions Eyrolles
 
-[http://programmation-python.org/](http://programmation-python.org/){.http}
+[http://programmation-python.org/](http://programmation-python.org/)
 
 Developpé depuis 1989, Python est un langage portable (Unix/Linux, Mac OS X, Windows\...), libre et gratuit. Il permet de développer de façon modulaire et orientée objet des applications de toutes tailles, notamment pour le Web, la plus connue d\'entre elles étant le gestionnaire de contenu Zope.
 
@@ -96,4 +101,3 @@ Python est tout indiqué pour le développement d\'applications web : serveurs d
 Pour autant, le développeur n\'exploitera vraiment sa puissance qu\'en ayant acquis une certaine culture.
 
 C\'est ce que ce livre tente de transmettre par la description de techniques éprouvées dans tous les grands projets de développement en Python : au-delà d\'une prise en main élémentaire (installation des environnements d\'exécution et de développement, rappels de syntaxe avec les primitives et la bibliothèque standard), ce livre aborde les bonnes pratiques de développement Python, depuis les conventions de nommage et les design patterns objet les plus courants jusqu\'à la programmation dirigée par les tests et l\'optimisation de code.
-:::

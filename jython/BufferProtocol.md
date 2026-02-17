@@ -1,23 +1,16 @@
 # BufferProtocol
 
-::::::::::::: {#content dir="ltr" lang="en"}
-# Buffer Protocol {#Buffer_Protocol}
+```{admonition} Legacy Wiki Page
+:class: note
 
-This page proposes (now begins to document) a design for a Jython equivalent to the CPython buffer protocol. A good place to start is this [worked example (pdf)](attachments/BufferProtocol/buffer_api_model.pdf "worked example (pdf)"){.attachment} that motivated the current design.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-::: table-of-contents
-Contents
+# Buffer Protocol 
 
-1.  [Buffer Protocol](#Buffer_Protocol)
-    1.  [What is the Buffer API?](#What_is_the_Buffer_API.3F)
-    2.  [Accessing an Object that has the Buffer API](#Accessing_an_Object_that_has_the_Buffer_API)
-    3.  [Adding the Buffer API to an Object](#Adding_the_Buffer_API_to_an_Object)
-    4.  [Converting from CPython](#Converting_from_CPython)
-        1.  [Similarities with CPython](#Similarities_with_CPython)
-        2.  [Differences from CPython](#Differences_from_CPython)
-:::
+This page proposes (now begins to document) a design for a Jython equivalent to the CPython buffer protocol. A good place to start is this [worked example (pdf)](attachments/BufferProtocol/buffer_api_model.pdf "worked example (pdf)") that motivated the current design.
 
-## What is the Buffer API? {#What_is_the_Buffer_API.3F}
+## What is the Buffer API? 
 
 The Jython Buffer API is an interface you can use in Java when accessing or implementing certain built-in types, or your own. It is the basis of the type `memoryview`{.backtick} with which it shares many features.
 
@@ -25,13 +18,13 @@ In CPython, certain objects are based on an underlying memory array or buffer. T
 
 The capability is just as useful in Jython, and has been implemented for version 2.7.
 
-## Accessing an Object that has the Buffer API {#Accessing_an_Object_that_has_the_Buffer_API}
+## Accessing an Object that has the Buffer API 
 
 Objects flag their willingness to provide a buffer by implementing the following interface:
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-5cf64df73bdf3498a6e7b9d86b498def4a4bf082 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 public interface BufferProtocol {
    2     Buffer getBuffer(int flags);   
    3 }
@@ -41,9 +34,9 @@ Objects flag their willingness to provide a buffer by implementing the following
 
 Here is a simple example of the API used, adapted from the implementation of `bytearray`{.backtick}:
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-afb6b36f85106d5c19a2a73e9e630527d2c833db dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     protected void init(BufferProtocol value) throws PyException {
    2         // Get the buffer view
    3         try (PyBuffer view = value.getBuffer(PyBUF.FULL_RO)) {
@@ -69,9 +62,9 @@ This interface is quite rich, but the Javadoc is thorough. In fact, the interfac
 
 The type-agnostic part of the interface is `PyBUF`{.backtick}:
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-9c36da5f4d5e91f81a324416e6d50944c08fe3c3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 public interface PyBUF {
    2 
    3     boolean isReadonly();
@@ -115,9 +108,9 @@ The type-agnostic part of the interface is `PyBUF`{.backtick}:
 
 The byte-oriented part of the interface is `PyBuffer`{.backtick}. For the most part, you can ignore the difference between `PyBUF`{.backtick} and `PyBuffer`{.backtick} and think of all the methods as belonging to `PyBuffer`{.backtick}:
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-56f92d86288c5a66cf64a9e6e160ba958c7612e7 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 public interface PyBuffer extends PyBUF, BufferProtocol, AutoCloseable {
    2 
    3     // Access to buffer contents (index calculation done by buffer)
@@ -167,7 +160,7 @@ Notice that an object that implements `PyBuffer`{.backtick} must itself implemen
 
 Note that `PyBuffer`{.backtick} extends the `AutoCloseable`{.backtick} interface, so that you can use the try-with-resources construct to manage buffer lifetime. (This was added shortly after Java 7 became the minimum platform.)
 
-## Adding the Buffer API to an Object {#Adding_the_Buffer_API_to_an_Object}
+## Adding the Buffer API to an Object 
 
 The core package org.python.core only defines the interfaces. Several `PyBuffer`{.backtick} implementations that could be exported by object implementations are provided in `org.python.core.buffer`{.backtick}. The place to start is with one of these basic types:
 
@@ -182,9 +175,9 @@ The core package org.python.core only defines the interfaces. Several `PyBuffer`
 
 These could all be extended or for a more sophisticated behaviour, consider extending `BaseBuffer`{.backtick}.
 
-## Converting from CPython {#Converting_from_CPython}
+## Converting from CPython 
 
-### Similarities with CPython {#Similarities_with_CPython}
+### Similarities with CPython 
 
 - The navigational arrays (`shape`{.backtick}, `strides`{.backtick}, `suboffsets`{.backtick}) and `format`{.backtick}, `unitsize`{.backtick} are present with the same meanings.
 
@@ -192,7 +185,7 @@ These could all be extended or for a more sophisticated behaviour, consider exte
 
 - The discipline of matching `get`{.backtick} and `release`{.backtick} applies also in Jython.
 
-### Differences from CPython {#Differences_from_CPython}
+### Differences from CPython 
 
 - `PyBuffer`{.backtick} is a Java interface: quantities that were struct members become `getXXX()`{.backtick} methods.
 
@@ -207,4 +200,3 @@ These could all be extended or for a more sophisticated behaviour, consider exte
 - And you have try-with-resources to help you keep your end of the bargain.
 
 - Wherever CPython uses a `char*`{.backtick} pointer, Jython reference a buffer of bytes and an offset within it.
-:::::::::::::

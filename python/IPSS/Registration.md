@@ -1,9 +1,13 @@
 # IPSS/Registration
 
-::: {#content dir="ltr" lang="en"}
-# Registration Certificate {#Registration_Certificate}
+```{admonition} Legacy Wiki Page
+:class: note
 
-[regcert.pdf](attachments/IPSS(2f)Registration/regcert.pdf){.attachment}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Registration Certificate 
+
+[regcert.pdf](attachments/IPSS(2f)Registration/regcert.pdf)
 
 \-\-- [CategoryIndianPythonSoftwareSociety](CategoryIndianPythonSoftwareSociety)
-:::

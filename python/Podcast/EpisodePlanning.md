@@ -1,11 +1,16 @@
 # Podcast/EpisodePlanning
 
-::: {#content dir="ltr" lang="en"}
-## Today\'s Topics {#Today.27s_Topics}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Today\'s Topics 
 
 Next episode: episode #18.
 
-## Topics for #18: Attempted reboot {#Topics_for_.2318:_Attempted_reboot}
+## Topics for #18: Attempted reboot 
 
 The hash-collision attack
 
@@ -15,11 +20,11 @@ PEP 407 proposed
 
 Unladen Swallow declared dead.
 
-## Specific topics {#Specific_topics}
+## Specific topics 
 
 Time management for free software developers
 
-Python\'s Innards: Yaniv Aknin\'s series of weblog posts on Python internals [http://tech.blog.aknin.name/tag/guidos-python/](http://tech.blog.aknin.name/tag/guidos-python/){.http}
+Python\'s Innards: Yaniv Aknin\'s series of weblog posts on Python internals [http://tech.blog.aknin.name/tag/guidos-python/](http://tech.blog.aknin.name/tag/guidos-python/)
 
 mock beta release (1300 downloads)
 
@@ -37,9 +42,9 @@ Let\'s talk about Distribute, setuptools, pip sometime.
 
 Python\'s history: Skype interview with Andrew S. Tanenbaum of ABC?
 
-## Regular Features {#Regular_Features}
+## Regular Features 
 
-### Python for newbies {#Python_for_newbies}
+### Python for newbies 
 
 Installing on Windows
 
@@ -47,9 +52,9 @@ Installing on MacOS
 
 IDEs
 
-Brett: writing a [del]{.u} method
+Brett: writing a [del] method
 
-## General Topic Ideas {#General_Topic_Ideas}
+## General Topic Ideas 
 
 New checkins
 
@@ -75,7 +80,7 @@ New books, new projects, tracking the Planet Python blogs for interesting new st
 
 Possible format: short news summary, interview, mad ramblings
 
-## Standard Format {#Standard_Format}
+## Standard Format 
 
 Intro:
 
@@ -97,11 +102,11 @@ Music: fade up theme over 1/2 sec, play for 7sec, lower level beneath the outro 
 
 This has been a Little Bit of Python, episode X, with \<person 1\>, \<person 2\>, and myself, \<person 3\>.
 
-Please send your comments and suggestions to the e-mail address [all@bitofpython.com](mailto:all@bitofpython.com){.mailto}.
+Please send your comments and suggestions to the e-mail address [all@bitofpython.com](mailto:all@bitofpython.com).
 
 Our theme is track 11 from The Headroom Project\'s album Haifa, available on the Magnatune label.
 
-## Contributors {#Contributors}
+## Contributors 
 
 (in alphabetical order by last name)
 
@@ -110,4 +115,3 @@ Our theme is track 11 from The Headroom Project\'s album Haifa, available on the
 - Steve Holden
 - Andrew Kuchling
 - Jesse Noller
-:::

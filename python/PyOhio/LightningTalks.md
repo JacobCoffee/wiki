@@ -1,7 +1,12 @@
 # PyOhio/LightningTalks
 
-::: {#content dir="ltr" lang="en"}
-# Lightning Talks {#Lightning_Talks}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Lightning Talks 
 
 A lightning talk is a short presentation of your choosing, no longer than five minutes. There is no approval process to give a lightning talk; speakers simply sign up here or at [PyOhio](PyOhio). The idea is borrowed from [PyCon](PyCon), where they are enormously popular.
 
@@ -16,4 +21,3 @@ You can see our list of last year\'s pregeristered lightning talks \<[PyOhio2008
 Lightning talk reservations
 
 ------------------------------------------------------------------------
-:::

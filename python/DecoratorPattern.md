@@ -1,19 +1,24 @@
 # DecoratorPattern
 
-::::: {#content dir="ltr" lang="en"}
-# Decorator Pattern {#Decorator_Pattern}
+```{admonition} Legacy Wiki Page
+:class: note
 
-The [DecoratorPattern](http://c2.com/cgi/wiki?DecoratorPattern "Wiki"){.interwiki} is a pattern described in the [DesignPatternsBook](http://c2.com/cgi/wiki?DesignPatternsBook "Wiki"){.interwiki}. It is a way of apparently modifying an object\'s behavior, by enclosing it inside a decorating object with a similar interface.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Decorator Pattern 
+
+The [DecoratorPattern](http://c2.com/cgi/wiki?DecoratorPattern "Wiki") is a pattern described in the [DesignPatternsBook](http://c2.com/cgi/wiki?DesignPatternsBook "Wiki"). It is a way of apparently modifying an object\'s behavior, by enclosing it inside a decorating object with a similar interface.
 
 This is not to be confused with [PythonDecorators](PythonDecorators), which is a language feature for dynamically modifying a function or class.
 
-## Example {#Example}
+## Example 
 
 This is an example of using the Decorator Pattern within Python.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-43137a404b5ae72d75628507d777b059bb4e202c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """
    2 Demonstrated decorators in a world of a 10x10 grid of values 0-255. 
    3 """
@@ -110,13 +115,12 @@ This is an example of using the Decorator Pattern within Python.
     100 101 200 200 100 100 200 100 101 120
     180 200 100 100 198 151 100 195 131 100
 
-So, what about this is the [DecoratorPattern](http://c2.com/cgi/wiki?DecoratorPattern "Wiki"){.interwiki} ?
+So, what about this is the [DecoratorPattern](http://c2.com/cgi/wiki?DecoratorPattern "Wiki") ?
 
 It\'s that objects are enclosing other objects, that they share similar interfaces, and that the decorating object appears to mask or modify or annotate the enclosed object.
 
-## Discussion {#Discussion}
+## Discussion 
 
 Isn\'t there a better way to do this in Python?
 
 *To make decorators, to solve this particular problem, or what?* \-- [LionKimbro](LionKimbro) 2005-05-05 17:52:12
-:::::

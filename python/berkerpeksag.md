@@ -1,11 +1,16 @@
 # berkerpeksag
 
-::: {#content dir="ltr" lang="en"}
-## Berker Peksag {#Berker_Peksag}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Berker Peksag 
 
 Email: `<berker.peksag AT SPAMFREE gmail DOT com>`
 
-### Python {#Python}
+### Python 
 
 - Python Core Developer
 - PSF Contributing/Voting Member
@@ -15,4 +20,3 @@ Email: `<berker.peksag AT SPAMFREE gmail DOT com>`
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

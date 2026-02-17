@@ -1,9 +1,14 @@
 # ODBC
 
-::: {#content dir="ltr" lang="en"}
-# ODBC {#ODBC-1}
+```{admonition} Legacy Wiki Page
+:class: note
 
-[ODBC](http://www.wikipedia.com/wiki/ODBC "WikiPedia"){.interwiki} stands for *Open Database Connectivity*, the industry standard for database C APIs.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# ODBC 
+
+[ODBC](http://www.wikipedia.com/wiki/ODBC "WikiPedia") stands for *Open Database Connectivity*, the industry standard for database C APIs.
 
 Most databases ship with ODBC drivers, so chances are high that you can use one of these drivers together with a Python ODBC interface to connect your Python application with any database on the market.
 
@@ -11,13 +16,13 @@ Since all ODBC Python interfaces need ODBC drivers to connect to the databases, 
 
 ------------------------------------------------------------------------
 
-## DB API 2.0 Drivers {#DB_API_2.0_Drivers}
+## DB API 2.0 Drivers 
 
-### mxODBC {#mxODBC}
+### mxODBC 
 
 URL
 
-:   [http://www.egenix.com/products/python/mxODBC/](http://www.egenix.com/products/python/mxODBC/){.http}
+:   [http://www.egenix.com/products/python/mxODBC/](http://www.egenix.com/products/python/mxODBC/)
 
 License
 :   eGenix Commercial License 1.3.0
@@ -30,7 +35,7 @@ Python versions
 
 Commercially supported fully DB-API 2.0 compliant ODBC database interface from eGenix.com; actively maintained since 1997.
 
-mxODBC comes with full support for stored procedures, multiple result sets, Unicode, a common interface on all platforms and [many other useful features](http://www.egenix.com/products/python/mxODBC/#Features){.http}.
+mxODBC comes with full support for stored procedures, multiple result sets, Unicode, a common interface on all platforms and [many other useful features](http://www.egenix.com/products/python/mxODBC/#Features).
 
 Supports Windows, Mac OS X, iODBC, unixODBC and DataDirect ODBC driver managers. Is known to work with these ODBC drivers: MS SQL Server Native Client, MS SQL Server ODBC Driver, FreeTDS ODBC Driver, Oracle Instant Client ODBC Driver, IBM DB2 ODBC Driver, Sybase ASE ODBC Driver, Netezza ODBC Driver, Teradata ODBC Driver, PostgreSQL ODBC Driver, MySQL ODBC Driver, .MaxDB ODBC Driver as well as the ODBC driver sets of EasySoft, DataDirect, OpenLink, Actual Technologies.
 
@@ -38,11 +43,11 @@ Supports Windows, Mac OS X, iODBC, unixODBC and DataDirect ODBC driver managers.
 
 URL
 
-:   [https://github.com/mkleehammer/pyodbc](https://github.com/mkleehammer/pyodbc){.https}
+:   [https://github.com/mkleehammer/pyodbc](https://github.com/mkleehammer/pyodbc)
 
 Documentation
 
-:   [https://github.com/mkleehammer/pyodbc/wiki](https://github.com/mkleehammer/pyodbc/wiki){.https}
+:   [https://github.com/mkleehammer/pyodbc/wiki](https://github.com/mkleehammer/pyodbc/wiki)
 
 License
 :   MIT
@@ -61,7 +66,7 @@ Precompiled binary wheels are available for Windows and macOS for Python 2.7 and
 
 URL
 
-:   [https://github.com/blue-yonder/turbodbc](https://github.com/blue-yonder/turbodbc){.https}
+:   [https://github.com/blue-yonder/turbodbc](https://github.com/blue-yonder/turbodbc)
 
 License
 :   MIT
@@ -76,11 +81,11 @@ Actively maintained Open Source project.
 
 Turbodbc offers turbocharged database access for data scientists. It heavily relies on buffered I/O for maximum performance, and comes with built-in (optional) [NumPy](NumPy) support.
 
-### ceODBC {#ceODBC}
+### ceODBC 
 
 URL
 
-:   [http://ceodbc.sourceforge.net](http://ceodbc.sourceforge.net){.http}
+:   [http://ceodbc.sourceforge.net](http://ceodbc.sourceforge.net)
 
 License
 
@@ -93,11 +98,11 @@ Python versions
 
 :   
 
-### mxODBC Connect {#mxODBC_Connect}
+### mxODBC Connect 
 
 URL
 
-:   [http://www.egenix.com/products/python/mxODBCConnect/](http://www.egenix.com/products/python/mxODBCConnect/){.http}
+:   [http://www.egenix.com/products/python/mxODBCConnect/](http://www.egenix.com/products/python/mxODBCConnect/)
 
 License
 :   eGenix Commercial License 1.3.0
@@ -110,15 +115,15 @@ Python versions
 
 mxODBC Connect is a commercial client-server product that allows connecting Python to ODBC compatible databases running on remote servers without requiring an ODBC driver on the client side. The product uses mxODBC on the server side and provides a highly portable Python library for the client side. As such it supports all database backend that mxODBC supports, but allows connecting to these from many different Python-supported platforms.
 
-mxODBC Connect supports asynchronous query execution via the popular [gevent package](http://www.gevent.org/){.http}, provides secure certificate based authentication, SSL encrypted database connections, comes with full support for stored procedures, multiple result sets, Unicode, a common interface on all platforms and implements [many other useful features](http://www.egenix.com/products/python/mxODBCConnect/#Features){.http}.
+mxODBC Connect supports asynchronous query execution via the popular [gevent package](http://www.gevent.org/), provides secure certificate based authentication, SSL encrypted database connections, comes with full support for stored procedures, multiple result sets, Unicode, a common interface on all platforms and implements [many other useful features](http://www.egenix.com/products/python/mxODBCConnect/#Features).
 
 For ODBC drivers supported on the server side, please see the mxODBC entry.
 
-### ODBTPAPI {#ODBTPAPI}
+### ODBTPAPI 
 
 URL
 
-:   [http://benjiyork.com/odbtp.html](http://benjiyork.com/odbtp.html){.http}
+:   [http://benjiyork.com/odbtp.html](http://benjiyork.com/odbtp.html)
 
 License
 
@@ -132,11 +137,11 @@ Python versions
 
 :   
 
-### PyPyODBC (Pure Python) {#PyPyODBC_.28Pure_Python.29}
+### PyPyODBC (Pure Python) 
 
 URL
 
-:   [https://github.com/jiangwen365/pypyodbc](https://github.com/jiangwen365/pypyodbc){.https}
+:   [https://github.com/jiangwen365/pypyodbc](https://github.com/jiangwen365/pypyodbc)
 
 License
 :   MIT
@@ -147,11 +152,11 @@ Platforms
 Python versions
 :   2.4 - 3.3
 
-[A Hello World script of pypyodbc database programing](http://code.google.com/p/pypyodbc/wiki/A_HelloWorld_sample_to_access_mssql_with_python){.http}
+[A Hello World script of pypyodbc database programing](http://code.google.com/p/pypyodbc/wiki/A_HelloWorld_sample_to_access_mssql_with_python)
 
-[Built-in Access MDB file creation and compression functions on Windows.](http://code.google.com/p/pypyodbc/wiki/pypyodbc_for_access_mdb_file){.http}
+[Built-in Access MDB file creation and compression functions on Windows.](http://code.google.com/p/pypyodbc/wiki/pypyodbc_for_access_mdb_file)
 
-[A DBI 2.0 SQLAlchemy enabler driver for IronPython](http://code.google.com/p/pypyodbc/wiki/Enable_SQLAlchemy_on_IronPython){.http} [And PyPy](https://code.google.com/p/pypyodbc/wiki/Enable_SQLAlchemy_on_PyPy){.https}
+[A DBI 2.0 SQLAlchemy enabler driver for IronPython](http://code.google.com/p/pypyodbc/wiki/Enable_SQLAlchemy_on_IronPython) [And PyPy](https://code.google.com/p/pypyodbc/wiki/Enable_SQLAlchemy_on_PyPy)
 
 One pure Python script, runs on CPython / [IronPython](IronPython) / [PyPy](PyPy) , Version 2.4 / 2.5 / 2.6 / 2.7 / 3.2 / 3.3, Win / Linux , 32 / 64 bit.
 
@@ -161,13 +166,13 @@ Simple - the whole module is implemented in a single python script with less tha
 
 ------------------------------------------------------------------------
 
-## DB API 1.0 Drivers {#DB_API_1.0_Drivers}
+## DB API 1.0 Drivers 
 
-### win32 odbc module (part of pywin32 package) {#win32_odbc_module_.28part_of_pywin32_package.29}
+### win32 odbc module (part of pywin32 package) 
 
 URL
 
-:   [http://python.net/crew/mhammond/win32/](http://python.net/crew/mhammond/win32/){.http}
+:   [http://python.net/crew/mhammond/win32/](http://python.net/crew/mhammond/win32/)
 
 License
 :   PSF and others
@@ -179,4 +184,3 @@ Python versions
 :   2.3 - 3.2
 
 This interface is rather old, mostly unmaintained and only provides an DB-API 1.0 interface, but listed here since it started the Python DB-API specification development back in 1996.
-:::

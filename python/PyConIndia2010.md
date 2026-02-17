@@ -1,7 +1,12 @@
 # PyConIndia2010
 
-::: {#content dir="ltr" lang="en"}
-# PyCON India 2010 {#PyCON_India_2010}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PyCON India 2010 
 
 This is a top level namespace for organizing [PyCon](PyCon) India 2010. Please link to all important pages here.
 
@@ -21,17 +26,16 @@ This is a top level namespace for organizing [PyCon](PyCon) India 2010. Please l
 
 - [Artwork](./PyConIndia2010(2f)Artwork.html)
 
-## Public pages {#Public_pages}
+## Public pages 
 
 Pages which we will show to various people
 
 - [Sponsorship Tiers](./PyConIndia2010(2f)SponsorShipTiers.html)
 
-## Website {#Website}
+## Website 
 
-[http://in.pycon.org/2010/](http://in.pycon.org/2010/){.http}
+[http://in.pycon.org/2010/](http://in.pycon.org/2010/)
 
-## Non active pages {#Non_active_pages}
+## Non active pages 
 
-- [Venue - Chennai or Bangalore?](./PyConIndia2010(2f)VenueDiscussion.html) - [Link to surveymonkey survey](http://www.surveymonkey.com/s/QKJ93GC){.http}
-:::
+- [Venue - Chennai or Bangalore?](./PyConIndia2010(2f)VenueDiscussion.html) - [Link to surveymonkey survey](http://www.surveymonkey.com/s/QKJ93GC)

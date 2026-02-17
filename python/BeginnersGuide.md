@@ -1,29 +1,34 @@
 # BeginnersGuide
 
-:::: {#content dir="ltr" lang="en"}
-# Beginner\'s Guide to Python {#Beginner.27s_Guide_to_Python}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Beginner\'s Guide to Python 
 
 Welcome to Python.
 
-The [official Python tutorial](https://docs.python.org/3/tutorial/index.html){.https} provides a good starting point if you have programmed in another language.
+The [official Python tutorial](https://docs.python.org/3/tutorial/index.html) provides a good starting point if you have programmed in another language.
 
 New to programming? Python is free and easy to learn if you know where to start! This guide will help you get started.
 
 [Beginner\'s Guide: Chinese Translation/中文版入门](BeginnersGuideChinese)
 
-## New to Python? {#New_to_Python.3F}
+## New to Python? 
 
 Read [BeginnersGuide/Overview](./BeginnersGuide(2f)Overview.html) for a short explanation of what Python is.
 
-## Getting Python {#Getting_Python}
+## Getting Python 
 
 Next, install the Python 3 interpreter on your computer. This is the program that reads Python programs and carries out their instructions; you need it before you can do any Python programming. Mac and Linux distributions may include an outdated version of Python (Python 2), but you should install an updated one (Python 3). See [BeginnersGuide/Download](./BeginnersGuide(2f)Download.html) for instructions to download the correct version of Python.
 
-There are also Python interpreter and IDE bundles available, such as [Thonny](http://thonny.org){.http}. Other options can be found at [IntegratedDevelopmentEnvironments](IntegratedDevelopmentEnvironments).
+There are also Python interpreter and IDE bundles available, such as [Thonny](http://thonny.org). Other options can be found at [IntegratedDevelopmentEnvironments](IntegratedDevelopmentEnvironments).
 
 At some stage, you\'ll want to edit and save your program code. Take a look at [HowToEditPythonCode](HowToEditPythonCode) for some advice and recommendations.
 
-## Learning Python {#Learning_Python}
+## Learning Python 
 
 Next, read a tutorial and try some simple experiments with your new Python interpreter.
 
@@ -33,39 +38,39 @@ Next, read a tutorial and try some simple experiments with your new Python inter
 
 - If English isn\'t your first language, you might be more comfortable with a tutorial that\'s been translated into your language. Consult python.org\'s [list of Non-English resources](Languages).
 
-Most tutorials assume you know how to run a program on your computer. If you are using Windows and need help with this, see [How do I Run a Program Under Windows](http://www.python.org/doc/faq/windows/#how-do-i-run-a-python-program-under-windows){.http}.
+Most tutorials assume you know how to run a program on your computer. If you are using Windows and need help with this, see [How do I Run a Program Under Windows](http://www.python.org/doc/faq/windows/#how-do-i-run-a-python-program-under-windows).
 
 Here are some sites that focus on beginners and offer in-browser coding:
 
-[Please keep these links sorted alphabetically]{.comment style="display:none"}
+[Please keep these links sorted alphabetically]
 
-- [Beginners Python tutorial](https://python.land/python-tutorial){.https} at Python Land (free)
+- [Beginners Python tutorial](https://python.land/python-tutorial) at Python Land (free)
 
-- [Codédex](https://www.codedex.io/python){.https} (non-free)
+- [Codédex](https://www.codedex.io/python) (non-free)
 
-[Outdated, Python 2! \* [Codecademy](https://www.codecademy.com/learn/learn-python){.https} ]{.comment style="display:none"}
+[Outdated, Python 2! \* [Codecademy](https://www.codecademy.com/learn/learn-python) ]
 
-- [Coding Bootcamps](https://www.coding-bootcamps.com){.https} (non-free)
+- [Coding Bootcamps](https://www.coding-bootcamps.com) (non-free)
 
-- [DataCamp](https://www.datacamp.com){.https} (non-free)
+- [DataCamp](https://www.datacamp.com) (non-free)
 
-- [Dataquest](https://www.dataquest.io){.https} for Python for data science. (free)
+- [Dataquest](https://www.dataquest.io) for Python for data science. (free)
 
-- [Genepy](https://genepy.org){.https} interactive exercises (free, open source, no ads)
+- [Genepy](https://genepy.org) interactive exercises (free, open source, no ads)
 
-- [High School Technology Services](https://www.myhsts.org){.https} for general Python (non-free)
+- [High School Technology Services](https://www.myhsts.org) for general Python (non-free)
 
-- [LabEx](https://labex.io){.https} Python Hands-on Labs (freemium)
+- [LabEx](https://labex.io) Python Hands-on Labs (freemium)
 
-- [Learn Python](https://aqemery.github.io/learn-python){.https} Python basics running in the browser(free)
+- [Learn Python](https://aqemery.github.io/learn-python) Python basics running in the browser(free)
 
-Once you have read a tutorial, you can browse through [Python\'s online documentation](http://docs.python.org){.http}. It includes [a tutorial](http://docs.python.org/tut/){.http} that might come in handy, [a Library Reference](http://docs.python.org//lib/){.http} that lists all of the modules that come standard with Python, and [the Language Reference](http://docs.python.org/ref/){.http} for a complete (if rather dry) explanation of Python\'s syntax.
+Once you have read a tutorial, you can browse through [Python\'s online documentation](http://docs.python.org). It includes [a tutorial](http://docs.python.org/tut/) that might come in handy, [a Library Reference](http://docs.python.org//lib/) that lists all of the modules that come standard with Python, and [the Language Reference](http://docs.python.org/ref/) for a complete (if rather dry) explanation of Python\'s syntax.
 
-When you are ready to write your first program, you will need a [text editor](PythonEditors) or an [IDE](IntegratedDevelopmentEnvironments). If you don\'t want to use Thonny or something more advanced, then you can use [IDLE](https://docs.python.org/3/library/idle.html){.https}, which is bundled with Python and supports [extensions](http://idlex.sourceforge.net){.http}.
+When you are ready to write your first program, you will need a [text editor](PythonEditors) or an [IDE](IntegratedDevelopmentEnvironments). If you don\'t want to use Thonny or something more advanced, then you can use [IDLE](https://docs.python.org/3/library/idle.html), which is bundled with Python and supports [extensions](http://idlex.sourceforge.net).
 
 This Python wiki also contains a page about [Python One-Liners](./Powerful(20)Python(20)One(2d)Liners.html) \-- an obscure but interesting subculture in Python.
 
-## Need Help? {#Need_Help.3F}
+## Need Help? 
 
 Need help with any of this? Read [BeginnersGuide/Help](./BeginnersGuide(2f)Help.html) for mailing lists and newsgroups.
 
@@ -77,9 +82,9 @@ Consult [BeginnersGuide/Examples](./BeginnersGuide(2f)Examples.html) for small p
 
 Or, if you prefer to learn Python through listening to a lecture, you can attend a training course or even hire a trainer to come to your company. Consult the [PythonEvents](PythonEvents) page to see if any training courses are scheduled in your area and the [PythonTraining](PythonTraining) page for a list of trainers.
 
-Teachers can join the [EDU-SIG](http://www.python.org/sigs/edu-sig/){.http}, a mailing list for discussion of Python\'s use in teaching at any level ranging from K-12 up to university.
+Teachers can join the [EDU-SIG](http://www.python.org/sigs/edu-sig/), a mailing list for discussion of Python\'s use in teaching at any level ranging from K-12 up to university.
 
-## Complete list of Beginner\'s Guide pages {#Complete_list_of_Beginner.27s_Guide_pages}
+## Complete list of Beginner\'s Guide pages 
 
 ::: searchresults
 1.  [**BeginnersGuide/**Download](./BeginnersGuide(2f)Download.html)
@@ -95,77 +100,76 @@ Teachers can join the [EDU-SIG](http://www.python.org/sigs/edu-sig/){.http}, a m
 11. [**BeginnersGuide/**Programmers/SimpleExamples](./BeginnersGuide(2f)Programmers(2f)SimpleExamples.html)
 :::
 
-## Quiz and Exercises {#Quiz_and_Exercises}
+## Quiz and Exercises 
 
-- After Hours Programming - [Python Quiz](http://www.afterhoursprogramming.com/tutorial/Python/Python-Quiz/){.http}
+- After Hours Programming - [Python Quiz](http://www.afterhoursprogramming.com/tutorial/Python/Python-Quiz/)
 
-- CheckIO - [Online learning, testing and improving your python skills](http://www.checkio.org){.http}
+- CheckIO - [Online learning, testing and improving your python skills](http://www.checkio.org)
 
-- CS Circles - [Online lessons and graded exercises](http://cscircles.cemc.uwaterloo.ca){.http}
+- CS Circles - [Online lessons and graded exercises](http://cscircles.cemc.uwaterloo.ca)
 
-- Finxter - [How good are your Python skills? Test and Training with a Daily Python Puzzle](https://finxter.com){.https}
+- Finxter - [How good are your Python skills? Test and Training with a Daily Python Puzzle](https://finxter.com)
 
-- [LabEx](./LabEx.html){.nonexistent} - [1000+ Python Interactive Challenges](https://labex.io/courses/thousands-python-interactive-challenges){.https}
+- [LabEx](./LabEx.html) - [1000+ Python Interactive Challenges](https://labex.io/courses/thousands-python-interactive-challenges)
 
-- PyGUI - [Collection of python quiz answers, Examples And GUI Tkinter Tutorials For Beginners](http://www.pythongui.com){.http}
+- PyGUI - [Collection of python quiz answers, Examples And GUI Tkinter Tutorials For Beginners](http://www.pythongui.com)
 
-- Pythonspot - [Python Quiz](https://pythonspot.com/python-tests-quizes/){.https}
+- Pythonspot - [Python Quiz](https://pythonspot.com/python-tests-quizes/)
 
-- Python Challenge - [A Python Quiz App on Android Platform](https://play.google.com/store/apps/details?id=sg.apps.garden.pythonchallenge){.https}
+- Python Challenge - [A Python Quiz App on Android Platform](https://play.google.com/store/apps/details?id=sg.apps.garden.pythonchallenge)
 
-## Python Based AI and Prompt Engineering {#Python_Based_AI_and_Prompt_Engineering}
+## Python Based AI and Prompt Engineering 
 
-- AI Engineering Academy - [Become a Certified AI Engineer with OpenAI API, HuggingFace, and Llama](https://academy.finxter.com){.https}
+- AI Engineering Academy - [Become a Certified AI Engineer with OpenAI API, HuggingFace, and Llama](https://academy.finxter.com)
 
-- Generative AI Tutorial - [Generative AI Tutorial](https://www.w3schools.com/gen_ai/){.https}
+- Generative AI Tutorial - [Generative AI Tutorial](https://www.w3schools.com/gen_ai/)
 
-- [GitHub](./GitHub.html){.nonexistent} Prompt Engineering Guide - [List of helpful resources](https://github.com/finxter/AI-Engineering-Learning-Resources){.https}
+- [GitHub](./GitHub.html) Prompt Engineering Guide - [List of helpful resources](https://github.com/finxter/AI-Engineering-Learning-Resources)
 
-- Google Gemini (Python) - [Python Library to access Google\'s Gemini Model](https://github.com/google-gemini/generative-ai-python){.https}
+- Google Gemini (Python) - [Python Library to access Google\'s Gemini Model](https://github.com/google-gemini/generative-ai-python)
 
-- OpenAI API (Python) - [Quickstart to Access OpenAI\'s API (Python, Javascript, curl)](https://platform.openai.com/docs/quickstart){.https}
+- OpenAI API (Python) - [Quickstart to Access OpenAI\'s API (Python, Javascript, curl)](https://platform.openai.com/docs/quickstart)
 
-## Looking for a particular Python module or application? {#Looking_for_a_particular_Python_module_or_application.3F}
+## Looking for a particular Python module or application? 
 
-- The first place to look is the [Python Package Index](http://pypi.python.org/pypi){.http}.
+- The first place to look is the [Python Package Index](http://pypi.python.org/pypi).
 
 - If you can\'t find anything relevant in the Package Index,
 
-  try [searching python.org](http://www.python.org/search/){.http} - you can find anything mentioned on the Python site, in the [FAQs](http://www.python.org/doc/faq/){.http}, or in the newsgroup. More info: [where to search](http://www.python.org/search/){.http}.
+  try [searching python.org](http://www.python.org/search/) - you can find anything mentioned on the Python site, in the [FAQs](http://www.python.org/doc/faq/), or in the newsgroup. More info: [where to search](http://www.python.org/search/).
 
-- Next, try [Google](http://www.google.com){.http} or another search engine of your choice. Searching for \"python\" and some relevant keywords will usually find something helpful.
+- Next, try [Google](http://www.google.com) or another search engine of your choice. Searching for \"python\" and some relevant keywords will usually find something helpful.
 
 - Finally, you can try posting a query to the comp.lang.python Usenet group.
 
-## Python-Related Cheat Sheets {#Python-Related_Cheat_Sheets}
+## Python-Related Cheat Sheets 
 
-- Python Cheatsheet for Beginners: [pythoncheatsheet.org](https://pythoncheatsheet.org){.https}
+- Python Cheatsheet for Beginners: [pythoncheatsheet.org](https://pythoncheatsheet.org)
 
-- Python: [Collection of 11 Best Python Cheat Sheets](https://blog.finxter.com/collection-5-cheat-sheets-every-python-coder-must-own/){.https}
+- Python: [Collection of 11 Best Python Cheat Sheets](https://blog.finxter.com/collection-5-cheat-sheets-every-python-coder-must-own/)
 
-- [NumPy](NumPy): [Collection of 10 Best NumPy Cheat Sheets](https://blog.finxter.com/collection-10-best-numpy-cheat-sheets-every-python-coder-must-own/){.https}
+- [NumPy](NumPy): [Collection of 10 Best NumPy Cheat Sheets](https://blog.finxter.com/collection-10-best-numpy-cheat-sheets-every-python-coder-must-own/)
 
-- Pandas: [Collection of 7 Beautiful Pandas Cheat Sheets](https://blog.finxter.com/pandas-cheat-sheets/){.https}
+- Pandas: [Collection of 7 Beautiful Pandas Cheat Sheets](https://blog.finxter.com/pandas-cheat-sheets/)
 
-- Machine Learning: [Collection of 15 Machine Learning Cheat Sheets](https://blog.finxter.com/machine-learning-cheat-sheets/){.https}
+- Machine Learning: [Collection of 15 Machine Learning Cheat Sheets](https://blog.finxter.com/machine-learning-cheat-sheets/)
 
-## Want to contribute? {#Want_to_contribute.3F}
+## Want to contribute? 
 
-- Python is a product of the [Python Software Foundation](http://www.python.org/psf/){.http}, a non-profit organization that holds the copyright. [Donations to the PSF](http://www.python.org/psf/donations/){.http} are tax-deductible in the USA, and you can donate via credit card or [PayPal](./PayPal.html){.nonexistent}.
+- Python is a product of the [Python Software Foundation](http://www.python.org/psf/), a non-profit organization that holds the copyright. [Donations to the PSF](http://www.python.org/psf/donations/) are tax-deductible in the USA, and you can donate via credit card or [PayPal](./PayPal.html).
 
-- To report a bug in the Python core, use the [Python Bug Tracker](http://bugs.python.org/){.http}.
+- To report a bug in the Python core, use the [Python Bug Tracker](http://bugs.python.org/).
 
-- To contribute a bug fix or other patch to the Python core, read the [Python Developer\'s Guide](http://www.python.org/dev/){.http} for more information about Python\'s development process.
+- To contribute a bug fix or other patch to the Python core, read the [Python Developer\'s Guide](http://www.python.org/dev/) for more information about Python\'s development process.
 
-- To contribute to the official [Python documentation](http://www.python.org/doc/){.http}, join the [Documentation SIG](http://www.python.org/sigs/doc-sig/){.http}, write to [docs@python.org](mailto:docs@python.org){.mailto} , or use the [Issue Tracker](http://bugs.python.org/){.http} to contribute a documentation patch.
+- To contribute to the official [Python documentation](http://www.python.org/doc/), join the [Documentation SIG](http://www.python.org/sigs/doc-sig/), write to [docs@python.org](mailto:docs@python.org) , or use the [Issue Tracker](http://bugs.python.org/) to contribute a documentation patch.
 
-- To announce your module or application to the Python community, use [comp.lang.python.announce](news:comp.lang.python.announce){.news}. See [the guide to Python mailing lists](http://www.python.org/community/lists/#comp-lang-python-announce){.http} for more information.
+- To announce your module or application to the Python community, use [comp.lang.python.announce](news:comp.lang.python.announce). See [the guide to Python mailing lists](http://www.python.org/community/lists/#comp-lang-python-announce) for more information.
 
-- To propose changes to the Python core, post your thoughts to [comp.lang.python](news:comp.lang.python){.news}. If you have an implementation, follow the [Python Patch Guidelines](http://www.python.org/patches/){.http}.
+- To propose changes to the Python core, post your thoughts to [comp.lang.python](news:comp.lang.python). If you have an implementation, follow the [Python Patch Guidelines](http://www.python.org/patches/).
 
 - If you have a question are not sure where to report it, check out the [WhereDoIReportThis?](./WhereDoIReportThis(3f).html) page.
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-::::

@@ -1,6 +1,11 @@
 # PackagingWG/2020-09-08-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Tuesday, 8 Sept 2020
 
 Participants
@@ -38,9 +43,8 @@ Agenda
 
   - Ernest: unavailable this Friday, and will be semi-available for a week at some point in September. Mornings & evenings semi-available
 
-    - I have visions of Ernest: [https://www.youtube.com/watch?v=hC5ACV4JTY4](https://www.youtube.com/watch?v=hC5ACV4JTY4){.https} (Steve Roberts Technomad)
+    - I have visions of Ernest: [https://www.youtube.com/watch?v=hC5ACV4JTY4](https://www.youtube.com/watch?v=hC5ACV4JTY4) (Steve Roberts Technomad)
 
   - Bernard: starting in a few days, very stable for at least a month
 
   - Nicole: no news. reduced aval on this project to 5 hrs/week. May be unavail for half a day at some point in the next few weeks.
-:::

@@ -1,9 +1,14 @@
 # Generators
 
-::::::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Generator functions allow you to declare a function that behaves like an iterator, i.e. it can be used in a for loop.
 
-# Simplified Code {#Simplified_Code}
+# Simplified Code 
 
 The simplification of code is a result of generator function and generator expression support provided by Python.
 
@@ -13,9 +18,9 @@ Note: Please note that in real life, integers do not take up that much space, un
 
 First, let us consider the simple example of building a list and returning it.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-0474a479fa4fa3fe4fc7c9770a2e6a0874dfe790 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def first_n(n):
    2     '''Build and return a list'''
    3     num, nums = 0, []
@@ -34,9 +39,9 @@ The code is quite simple and straightforward, but it builds the full list in mem
 
 So, we resort to the generator pattern. The following implements generator as an iterable object.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-61cd09fae0827d1d4d24dfb4b10deecdf0b194ac dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Using the generator pattern (an iterable)
    2 class first_n(object):
    3 
@@ -76,9 +81,9 @@ Furthermore, this is a pattern that we will use over and over for many similar c
 
 Python provides generator functions as a convenient shortcut to building iterators. Lets us rewrite the above iterator as a generator function:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d5466ac7b4355903187a3edcd0c340643d098bbd dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # a generator that yields items instead of returning a list
    2 def firstn(n):
    3     num = 0
@@ -101,9 +106,9 @@ In fact, we can turn a list comprehension into a generator expression by replaci
 
 Consider the following example:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-6021c335e902d0510d5cf727f4891fa800d440d6 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # list comprehension
    2 doubles = [2 * n for n in range(50)]
    3 
@@ -121,7 +126,7 @@ This also means that we can use the same syntax we have been using for list comp
 
 Keep in mind that generators are a special type of iterator, and that containers like `list`{.backtick} and `set`{.backtick} are also iterables. The uniform way in which all of these are handled adds greatly to the simplification of code.
 
-# Improved Performance {#Improved_Performance}
+# Improved Performance 
 
 The performance improvement from the use of generators is the result of the lazy (on demand) generation of values, which translates to lower memory usage. Furthermore, we do not need to wait until all the elements have been generated before we start to use them. This is similar to the benefits provided by iterators, but the generator makes building iterators easy.
 
@@ -131,9 +136,9 @@ Both `range`{.backtick} and `xrange`{.backtick} represent a range of numbers, an
 
 Say, we had to compute the sum of the first *n*, say 1,000,000, non-negative numbers.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-bdc68d1c164def45d62ea764ccc6bd755bf24e0b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Note: Python 2.x only
    2 # using a non-generator
    3 sum_of_first_n = sum(range(1000000))
@@ -158,9 +163,9 @@ Note: a generator will provide performance benefits only if we do not intend to 
 
 Consider the following example:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-7f5f127f307c9812f4165f9564a00d72bfaa9c2d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Note: Python 2.x only
    2 s = sum(xrange(1000000))
    3 p = product(xrange(1000000))
@@ -170,9 +175,9 @@ Consider the following example:
 
 Imagine that making a integer is a very expensive process. In the above code, we just performed the same expensive process twice. In cases like this, building a list in memory might be worth it (see example below):
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2feb617fa11c8940f0548771255a2de723441cc5 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Note: Python 2.x only
    2 nums = list(xrange(1000000))
    3 s = sum(nums)
@@ -183,13 +188,13 @@ Imagine that making a integer is a very expensive process. In the above code, we
 
 However, a generator might still be the only way, if the storage of these generated objects in memory is not practical, and it might be worth to pay the price of duplicated expensive computations.
 
-# Examples {#Examples}
+# Examples 
 
 For example, the [RangeGenerator](RangeGenerator) can be used to iterate over a large number of values, without creating a massive list (like range would)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-0fd96bfaf74a22f9c516757f409e0e9676c3a21a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #the for loop will generate each i (i.e. 1,2,3,4,5, ...), add it to total,  and throw it away
    2 #before the next i is generated.  This is opposed to iterating through range(...), which creates
    3 #a potentially massive list and then iterates through it.
@@ -202,9 +207,9 @@ For example, the [RangeGenerator](RangeGenerator) can be used to iterate over a 
 
 Generators can be composed. Here we create a generator on the squares of consecutive integers.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-190a69233b076a9c5d39034c6f0fcaa684481b19 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #square is a generator
    2 square = (i*i for i in irange(1000000))
    3 #add the squares
@@ -217,9 +222,9 @@ Generators can be composed. Here we create a generator on the squares of consecu
 
 Here, we compose a square generator with the takewhile generator, to generate squares less than 100
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-7d6e8c43cc838ef17cf3001184b0a5afde143f8d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #add squares less than 100
    2 square = (i*i for i in count())
    3 bounded_squares = takewhile(lambda x : x< 100, square)
@@ -232,31 +237,31 @@ Here, we compose a square generator with the takewhile generator, to generate sq
 
 to be written: Generators made from classes?
 
-## Links {#Links}
+## Links 
 
-- [PEP-255: Simple Iterators](http://www.python.org/peps/pep-0255.html){.http} \-- the original
+- [PEP-255: Simple Iterators](http://www.python.org/peps/pep-0255.html) \-- the original
 
-- [Python Generator Tricks](http://linuxgazette.net/100/pramode.html){.http} \-- various infinite sequences, recursions, \...
+- [Python Generator Tricks](http://linuxgazette.net/100/pramode.html) \-- various infinite sequences, recursions, \...
 
-- [\"weightless threads\"](http://www.ibm.com/developerworks/library/l-pythrd/){.http} \-- simulating threads using generators
+- [\"weightless threads\"](http://www.ibm.com/developerworks/library/l-pythrd/) \-- simulating threads using generators
 
-- [C2:GeneratorsAreNotCoroutines](http://c2.com/cgi/wiki?GeneratorsAreNotCoroutines){.http} \-- particulars on generators, coroutines, and continuations
+- [C2:GeneratorsAreNotCoroutines](http://c2.com/cgi/wiki?GeneratorsAreNotCoroutines) \-- particulars on generators, coroutines, and continuations
 
-- [Generator tutorial](http://thepythonguru.com/python-generators/){.http} \-- How generators work in plain english
+- [Generator tutorial](http://thepythonguru.com/python-generators/) \-- How generators work in plain english
 
 See also: [Iterator](Iterator)
 
-# Discussion {#Discussion}
+# Discussion 
 
-I once saw [MikeOrr](./MikeOrr.html){.nonexistent} demonstrate Before and After examples. But, I forget how they worked.
+I once saw [MikeOrr](./MikeOrr.html) demonstrate Before and After examples. But, I forget how they worked.
 
 Can someone demonstrate here?
 
 He did something like: Show how a normal list operation could be written to use generators. Something like:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d74760b038716a21bbd3d3a74f70c6a9c21743bb dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def double(L):
    2     return [x*2 for x in L]
    3 
@@ -271,9 +276,9 @@ It\'s been a while since I\'ve seen it, I may be getting this all wrong.
 
 \-- [LionKimbro](LionKimbro) 2005-04-02 19:12:19
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4867240ebda44ea3b0051b2340f465a4e480b6da dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # explicitly write a generator function
    2 def double(L):
    3     for x in L:
@@ -300,9 +305,9 @@ Also, a generator function will be cleaner and more clear, if the generated expr
 
 Consider the following example:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d312f2eada1bf2fe2fd4877fad12afa8041a608d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def unique(iterable, key=lambda x: x):
    2     seen = set()
    3     for elem, ekey in ((e, key(e)) for e in iterable):
@@ -316,4 +321,3 @@ Consider the following example:
 Here, the temporary keys collector, *seen*, is a temporary storage that will just be more clutter in the location where this generator will be used.
 
 Even if we were to use this only once, it is worth writing a function (for the sake of clarity; remember that Python allows nested functions).
-:::::::::::::::::::::::::::::

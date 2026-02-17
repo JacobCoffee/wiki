@@ -1,47 +1,52 @@
 # PythonVsNice
 
-::: {#content dir="ltr" lang="en"}
-# Nice {#Nice}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Nice is basically a minor improvement on Java. It offers features like multimethods, but its syntax is essentially that of Java and it compiles to run on a JVM. Therefore, this comparison will actually compare Jython with Nice. More about Nice can be found at [http://nice.sourceforge.net/](http://nice.sourceforge.net/){.http}.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-Note that the original document for this was written for Nice\'s wiki ([http://nice.sourceforge.net/cgi-bin/twiki/view/Doc/NiceVersusJython](http://nice.sourceforge.net/cgi-bin/twiki/view/Doc/NiceVersusJython){.http}), but the comparison is valid in either direction.
+# Nice 
+
+Nice is basically a minor improvement on Java. It offers features like multimethods, but its syntax is essentially that of Java and it compiles to run on a JVM. Therefore, this comparison will actually compare Jython with Nice. More about Nice can be found at [http://nice.sourceforge.net/](http://nice.sourceforge.net/).
+
+Note that the original document for this was written for Nice\'s wiki ([http://nice.sourceforge.net/cgi-bin/twiki/view/Doc/NiceVersusJython](http://nice.sourceforge.net/cgi-bin/twiki/view/Doc/NiceVersusJython)), but the comparison is valid in either direction.
 
 ------------------------------------------------------------------------
 
 In order of the Nice manual:
 
-## Philosophy: {#Philosophy:}
+## Philosophy: 
 
 - Nice\'s philosophy is Safety / Modularity / Expressivity.
 - Jython has far LESS emphasis on Safety \-- it is more inclined toward letting the programmer do as she pleases if she intentionally steps into \"black magic\" land.
 - Jython\'s approach to Modularity is similar to Nice\'s.
 - Jython has at LEAST as much emphasis on expressivity as Nice, perhaps more.
 
-## Packages {#Packages}
+## Packages 
 
 - Jython\'s \"modules\" are pretty much equivalent to Nice\'s \"packages\". Both can contain classes AND functions/methods AND miscellaneous variables/constants. Unlike Nice, Jython allows importing an entire module OR a single class/function/whatever from a module.
 
-## Classes {#Classes}
+## Classes 
 
-### Fields {#Fields}
+### Fields 
 
 - Nice\'s classes have a fixed set of fields, while methods are actually separate (but via multi-dispatch, can be associated with a class).
 - Jython\'s classes are more like a bare namespace \-- the fields can be initialized, but additional fields can be added (or removed) at runtime. Methods ARE actually associated with a class, in fact, they are simply fields, whose type is \"function\"\[\*\].
 
 \[\*\] Not strictly true, but close enough. See \"bound methods\" below.
 
-### Constructors {#Constructors}
+### Constructors 
 
 - Jython, like Nice, has a single constructor for each class (Jython allows but does not require the use of keyword arguments).
 - Unlike Nice, Jython requires the programmer to write out the constructor.
 - Like Nice, Jython encourages the use of factory functions if multiple construction mechanisms are required.
 
-### Parametric Classes {#Parametric_Classes}
+### Parametric Classes 
 
 - Jython does not have this feature, nor is it needed. The reason is a very fundamental difference between Nice and Jython: dynamic typing. Jython (like Nice) is \"strongly typed\" \-- objects have a type with specific capabilities, so you can\'t take a String an use it like a pointer or a number (C, for example, is \"weakly typed\" and DOES allow this). However, Jython is \"dynamically typed\" (unlike Nice, which is \"statically typed\"). This means that individual variables or items in a container do NOT have well-specified types. In Nice, a variable x is declared to be int, or String, or ?MyOwnClass, and may only contain those values; Python does not have a similar restriction. Some people prefer static languages (more errors caught at compiletime instead of runtime), others prefer dynamic (no need to declare variable types, sometimes more flexibility).
 
-### Functions and Methods {#Functions_and_Methods}
+### Functions and Methods 
 
 - Functions and methods are first-class objects in BOTH Jython and Nice.
 
@@ -51,13 +56,13 @@ In order of the Nice manual:
 
 - \"Functions\" and \"methods\" are the same in Jython, except that there exists something called a \"bound method\". If \"fido\" is an instance of the class \"Dog\" with the method \"bark(timesToBark)\", then Dog.bark is an ordinary function taking two arguments, a Dog and an integer, while fido.bark is a \"bound method\" taking ONE argument (an integer), and performing a call to Dog.bark with the first parameter automatically set to fido. In Nice, you would need to write \"fido.bark\" as the closure \"int timesToBark =\> fido.bark(timesToBark)\".
 
-## Functions {#Functions}
+## Functions 
 
 - Both Jython and Nice allow parameters to be named, and allow callers to specify inputs by keyword OR by parameter order.
 - Both Jython and Nice allow optional parameters. Nice allows the value of optional parameters to depend on the values of other parameters; Jython does not allow this, but a common idiom has a default of \"None\" and then checks for \"None\" at the top of the function and sets the value accordingly.
 - Jython allows the function to operate on its arguments as a tuple, or a dict (for named parameters), thus making possible things like functions that take a variable number of parameters. Nice does not allow this, although one can always use a single argument of type Tuple instead.
 
-## Methods {#Methods}
+## Methods 
 
 - Jython functions/methods do not need to be declared. This is in keeping with the dynamic typing of Jython.
 - Jython does not support type parameters in methods, since it doesn\'t support type parameters at all. Again, it is not required / not available because of Jython\'s dynamic typing.
@@ -65,12 +70,12 @@ In order of the Nice manual:
 - Nice supports \"value dispatch\" (like multi-dispatch, but declaring special code to be executed for particular values). Jython does not support this at all. Most of the things that Value Dispatch would be used for would be accomplished in Jython using a dict (built-in mapping (hashtable) type), but some of the more advanced things possible with value dispatch would simply be a pain to implement in Jython.
 - Both Jython and Nice allow optional parameters just as with functions (more details above).
 
-## Assertions and Contracts {#Assertions_and_Contracts}
+## Assertions and Contracts 
 
 - Both Nice and Jython support assertions.
 - Nice supports preconditions and postconditions. Jython does not (although assertions can be used and/or there are some libraries to support them).
 
-## Statements {#Statements}
+## Statements 
 
 - Both Nice and Jython allow local and package-level variables.
 
@@ -80,26 +85,26 @@ In order of the Nice manual:
 
 - Nice allows the declaration of local functions with access to their enclosing scope. Jython allows this also, but it permits the local functions to be named. (*Nice also requires local functions to be named. Anonymous functions are also allowed, but these are expressions. An anonymous local function declaration statement does not seem to make sense: how would you refer to it?*) In either case, the result is a first-class object which captures its local environment.
 
-## Expressions {#Expressions}
+## Expressions 
 
 - Both Nice and Jython allow either the f(x,y,z) or the x.f(y,z) form for method calls.
 - Both Nice and Jython allow easily-constructed tuple types, which can be used to pass around grouped values or return multiple values from a function. This is more powerful than it sounds.
 - Nice allows the easy creation of small anonymous functions. Jython has anonymous functions (using the regrettably named \"lambda\"), but they are limited to a single expression statement. Anything more, and the function needs to be named (there are no restrictions on the power of named functions).
 - Nice uses Java\'s primitive types, but provides \"autoboxing\", so they are converted to object types automatically if used as an object. Jython does not have autoboxing \-- primitive types are ALWAYS treated as objects. Conversion to/from primitive types will occur only when interfacing with java code. So pure computational tasks will be notably slower in Jython.
 
-## Interfacing with Java {#Interfacing_with_Java}
+## Interfacing with Java 
 
 - One of the most powerful features of Nice is that it is VERY easy to interface quite closely with java. Java methods can be called from Nice, and Nice methods from java (although they cannot yet be overriden in Java). Nice classes can subclass java classes or implement java interfaces and java classes can subclass Nice classes, all without writing special interface code.
 - Jython has the same incredibly good level of integration with java. Java methods can be called from Jython, or Jython functions or methods from java. Jython classes can subclass java classes and java classes can subclass Jython classes, all without writing special interface code.
 - Let me just repeat again, that for BOTH languages, the level of integration with java is extraordinary.
 
-## Types {#Types}
+## Types 
 
 - Nice provides \"option types\", distinguishing between variables allowed to be null, and those not allowed to be null. Jython has no such distinction \-- because it is dynamically typed, ANY Jython variable (or instance variable or container slot) can take on ANY value, including \"None\" (which is an ordinary object used in Jython as the \"not set\" value).
 - Again, Nice has type parameters, but no such feature exists in Jython.
 - Nice offers abstract interfaces \-- like an interface, but the declaration that the class implements it need not reside with the class itself. Jython, does not provide such a feature, but because it is dynamically typed it offers many (but not all) of the same benefits. In Nice, abstract interfaces allow one to declare that some function will operate on any of several unrelated types, and provides multimethods for performing the desired operations on the different types. In Jython, any function will operate on any type passed to it, so long as the type has methods with the right names and signatures. However, creating new methods (eg: adding toLogString() to String objects) would require some sort of wrapper object in Jython.
 
-## Things Specific To Jython {#Things_Specific_To_Jython}
+## Things Specific To Jython 
 
 The above is organized according to the Nice manual, but there are a few points that still need to be touched on because they are more specific to Jython than to Nice.
 
@@ -120,4 +125,3 @@ The above is organized according to the Nice manual, but there are a few points 
 ------------------------------------------------------------------------
 
 Contributors: [MichaelChermside](MichaelChermside), [DanielBonniot](DanielBonniot) See also [LanguageComparisons](LanguageComparisons).
-:::

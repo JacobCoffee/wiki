@@ -1,9 +1,14 @@
 # Topically Organized PEP List
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 PEP 1 organizes the PEPs by meta-catagory and numerically. This is merely another list, organized by topic. This index will grow as more topics are included and more PEPs show up in PEP 1.
 
-The official list is [here](http://www.python.org/dev/peps/){.http}. The numerical index is included after the topical index, along with a mark indicating if a PEP has already been placed under at least one topic.
+The official list is [here](http://www.python.org/dev/peps/). The numerical index is included after the topical index, along with a mark indicating if a PEP has already been placed under at least one topic.
 
 The idea is that a PEP can be found in more that one topic, which is sometimes the case. For the standards track proposals this is particularly true. Topics may include specific language features, in which case a PEP could be found under a dozen ore more different topics.
 
@@ -467,4 +472,3 @@ Numerical Index
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-:::

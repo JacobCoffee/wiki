@@ -1,6 +1,11 @@
 # PyConPostMortemIrcTranscript
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
     (12:58:01) slinkP!~pw@h-68-167-56-203.nycmny83.dynamic.covad.net: slinkP has changed the topic to: 
     Please familiarize yourselves with http://www.python.org/cgi-bin/moinmoin/PyConPostMortem
     (12:59:15) holdenweb: Aahz shouldn't be a long meeting (I hope)
@@ -449,4 +454,3 @@
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon)
-:::

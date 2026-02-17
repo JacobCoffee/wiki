@@ -1,11 +1,16 @@
 # Distutils/Proposals/AutoconfLikeOptions
 
-::: {#content dir="ltr" lang="en"}
-# The problem {#The_problem}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# The problem 
 
 Python modules using distutils and setuptools are known to make linux distributors unhappy, for various reasons. One of them is that distutils does not make possible to install softwares according to the FHS without a lot of effort. This document is only concerned with the requirements to fix this situation at a minimal cost for python developers.
 
-## Example {#Example}
+## Example 
 
 Generally, a python packaged with distutils will be installed as follows:
 
@@ -13,7 +18,7 @@ Generally, a python packaged with distutils will be installed as follows:
 
 This will install the package in \$PREFIX/lib/python-\$PYVER/site-packages on Linux, plus scripts into \$PREFIX/bin. The documentation, python source files (.py) and architecture dependent files (C extensions) are all installed in one directory, thus violating the FHS.
 
-## Autoconf {#Autoconf}
+## Autoconf 
 
 Many open source softwares are distributed using autoconf. The steps to install a package from sources are:
 
@@ -49,7 +54,7 @@ Each of this option can be set independently if desired - the autotools handle e
 - no policy is implemented by the developer. It is the job of the package developer to set those paths accordingly
 - different policies can be implemented. For example, distributions like gobolinux which do not follow the FHS at all happily use autoconf-based packages
 
-## Solution {#Solution}
+## Solution 
 
 The solution is easy, at least in principle. Instead of indistinctively installing everything at one location, distutils should be able to deal correctly with the following kind of options:
 
@@ -57,7 +62,7 @@ The solution is easy, at least in principle. Instead of indistinctively installi
 
 to install the software as desired. Note that distutils does NOT have to know how to install things as required as the FHS: distutils does not need to implement any policy. Some Linux distributions do not follow the FHS - and happily package autoconf-based packages as they want (example: gobolinux).
 
-## Categories {#Categories}
+## Categories 
 
 Here are categories which are necessary to build a Debian package:
 
@@ -70,7 +75,7 @@ Here are categories which are necessary to build a Debian package:
 
 TODO: others - include path, header path, var path for log, etc\... Other distributions, OS ?
 
-## Distutils implementation {#Distutils_implementation}
+## Distutils implementation 
 
 Obviously distutils should internally keep separate lists for each kind of files.
 
@@ -82,5 +87,4 @@ Other problems:
 
 - How to retrieve the files within the package. I have no idea how this is done in a standard C program in autoconf (but this is much less of a
 
-  problem in that case, I guess - in python, using [file]{.u} and co is oftenly used).
-:::
+  problem in that case, I guess - in python, using [file] and co is oftenly used).

@@ -1,6 +1,11 @@
 # PackagingWG/2020-09-23-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Wednesday September 23
 
 Participants
@@ -28,7 +33,7 @@ Agenda
   - Real question: what could block the release?
     - Need to add the flags to flip behaviors.
 
-    - TODO: Pradyun needs to file issues for the discussion \[done: [https://github.com/pypa/pip/issues/8936](https://github.com/pypa/pip/issues/8936){.https} \]
+    - TODO: Pradyun needs to file issues for the discussion \[done: [https://github.com/pypa/pip/issues/8936](https://github.com/pypa/pip/issues/8936) \]
 - Video!
   - GA / Pradyun hasn\'t sent theirs in yet
   - Unsure about Paul, Ernest
@@ -39,7 +44,7 @@ Agenda
 
   - 2 issues what the resolver outputs and what happens when its doing too much
 
-  - \"I don\'t know what pip is doing\" [https://github.com/pypa/pip/issues/8683](https://github.com/pypa/pip/issues/8683){.https}
+  - \"I don\'t know what pip is doing\" [https://github.com/pypa/pip/issues/8683](https://github.com/pypa/pip/issues/8683)
 
   - Pradyun unsure what to do next. Not sure where UX help can
 
@@ -85,4 +90,3 @@ Agenda
   - What is pip\'s personality - I\'m not really smart, I\'m a little smart
 
   - There\'s no distinction between the easy cases and the complicated (`pip install something-simple`{.backtick} looks the same as `pip install something-really-complicated`{.backtick})
-:::

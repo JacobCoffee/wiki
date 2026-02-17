@@ -1,6 +1,11 @@
 # SummerOfCode/2011/pkumar/PackagingPy2Porting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 - **\' [PackagingPy2Porting](PackagingPy2Porting)** \'
 
 **\[Introduction\]**
@@ -97,5 +102,4 @@ Before Final Evaluation \[July 13 - August 15\]
 2.  A script running 3to2 with custom fixers for each supported Python version.
 3.  A detailed documentation on the porting of \'Packaging\'.
 
-\[1\] [https://bitbucket.org/pkumar/packaging_cpython](https://bitbucket.org/pkumar/packaging_cpython){.https}
-:::
+\[1\] [https://bitbucket.org/pkumar/packaging_cpython](https://bitbucket.org/pkumar/packaging_cpython)

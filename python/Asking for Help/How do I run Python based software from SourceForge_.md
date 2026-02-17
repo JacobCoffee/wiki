@@ -1,9 +1,14 @@
 # Asking for Help/How do I run Python based software from SourceForge?
 
-::: {#content dir="ltr" lang="en"}
-# How do I run Python based software from SourceForge? {#How_do_I_run_Python_based_software_from_SourceForge.3F}
+```{admonition} Legacy Wiki Page
+:class: note
 
-There isn\'t a straightforward answer to this question because projects on SourceForge often provide software both in source form as well as in binary (executable) form. Consider the MySQL for Python [packages](http://sourceforge.net/project/showfiles.php?group_id=22307){.http}, available via the \"Download\" link on the [project page](http://sourceforge.net/projects/mysql-python/){.http}: in this case, you\'ll choose `mysql-python`{.backtick} and be presented with a [list of files](http://sourceforge.net/project/showfiles.php?group_id=22307&package_id=15775){.http} (under \"Filename\").
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# How do I run Python based software from SourceForge? 
+
+There isn\'t a straightforward answer to this question because projects on SourceForge often provide software both in source form as well as in binary (executable) form. Consider the MySQL for Python [packages](http://sourceforge.net/project/showfiles.php?group_id=22307), available via the \"Download\" link on the [project page](http://sourceforge.net/projects/mysql-python/): in this case, you\'ll choose `mysql-python`{.backtick} and be presented with a [list of files](http://sourceforge.net/project/showfiles.php?group_id=22307&package_id=15775) (under \"Filename\").
 
 - If you use Windows, you\'ll probably only need to download and run the executable installers (ending in `.exe`{.backtick}).
 
@@ -47,4 +52,3 @@ Now read the documentation! There will probably be a `README`{.backtick} or `INS
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::

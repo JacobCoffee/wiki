@@ -1,6 +1,11 @@
 # PythonLibraryReference/HistoryAndLicense
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [Python Library Reference](PythonLibraryReference)
 
 ::: {}
@@ -9,15 +14,14 @@
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-# History And License {#History_And_License}
+# History And License 
 
-## C.1 History of the software {#C.1_History_of_the_software}
+## C.1 History of the software 
 
-## C.2 Terms and conditions for accessing or otherwise using Python {#C.2_Terms_and_conditions_for_accessing_or_otherwise_using_Python}
+## C.2 Terms and conditions for accessing or otherwise using Python 
 
-## Comments {#Comments}
+## Comments 
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-::::

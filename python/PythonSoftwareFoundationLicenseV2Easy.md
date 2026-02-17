@@ -1,7 +1,12 @@
 # PythonSoftwareFoundationLicenseV2Easy
 
-::: {#content dir="ltr" lang="en"}
-# Python Software Foundation License Version 2 {#Python_Software_Foundation_License_Version_2}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Python Software Foundation License Version 2 
 
 This license was approved as the official PSF License Version 2 on October 22, 2004. The only differences between this and version 1 of the PSF license consist of removing Python version numbers (like 2.1.1 or 2.3).
 
@@ -63,4 +68,3 @@ to
     8. By copying, installing or otherwise using Python, Licensee
     agrees to be bound by the terms and conditions of this License
     Agreement.
-:::

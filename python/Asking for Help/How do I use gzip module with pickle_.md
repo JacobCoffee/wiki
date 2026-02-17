@@ -1,11 +1,16 @@
 # Asking for Help/How do I use gzip module with pickle?
 
-::: {#content dir="ltr" lang="en"}
-## How to use the gzip module with the pickle module {#How_to_use_the_gzip_module_with_the_pickle_module}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## How to use the gzip module with the pickle module 
 
 I have a python program which creates a list of prime numbers \[2L,3L,5L,7L,13L\]. This program save the list to a file on the hard disk.
 
-### example of my code {#example_of_my_code}
+### example of my code 
 
       fp=open('primes.data','r')
       # ListOfPrimes=[2L,3L,5L,7L]
@@ -18,13 +23,13 @@ I have a python program which creates a list of prime numbers \[2L,3L,5L,7L,13L\
       cPickle.dump(ListOfPrimes,fp)
       fp.close()
 
-### What I want {#What_I_want}
+### What I want 
 
 My problem is that the primes.data file is now 9 megabytes in size and I wanted to reduce the size taken by the file by first compressing the data with the gzip module before saving it. Hence I would also need to decompress the data after I read it from the file.
 
 Any idea how I can do this?
 
-### Solutions {#Solutions}
+### Solutions 
 
 [lwickjr](lwickjr): I\'d have to research for details, but you\`d have to pickle the data to a string, then save the string to a file through gzip, and read the file from gzip into a string which is then unpickled.
 
@@ -44,7 +49,7 @@ Any idea how I can do this?
 
 You could also use the binary pickle format which is more compact: `cPickle.dump(ListOfPrimes,fp,1)`{.backtick}.
 
-#### use this module gzippickle.py {#use_this_module_gzippickle.py}
+#### use this module gzippickle.py 
 
     """Generic object pickler and compressor
 
@@ -106,4 +111,3 @@ You could also use the binary pickle format which is more compact: `cPickle.dump
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::

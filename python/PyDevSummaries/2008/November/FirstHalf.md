@@ -1,6 +1,11 @@
 # PyDevSummaries/2008/November/FirstHalf
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 ============= Announcements =============
 
 This is the draft of the python-dev mailing list summaries for the first half of November 2008. Please make any corrections, improvements, or comments. The contents will be finalized at the end of the month, when the summaries\' draft for the second half of November 2008 are posted. I hope to keep this schedule regularly.
@@ -17,7 +22,7 @@ Brett Cannon solicits any use cases and scenarios that would give an understandi
 
 Contributing thread:
 
-\- `Looking for VCS usage scenarios <http://mail.python.org/pipermail/python-dev/2008-November/083272.html>`{.backtick}[ ]{.u}
+\- `Looking for VCS usage scenarios <http://mail.python.org/pipermail/python-dev/2008-November/083272.html>`{.backtick}[ ]
 
 Note that the intent is to be conservative. The writeup of a candidate DVCS should show how to do the tasks done today; new and improved workflows can be mentioned in the bonus section, but will have less weight. The competition is probably limited to bzr and Hg, with an outside chance for git.
 
@@ -47,7 +52,7 @@ Several outstanding patches to optimize int and especially long objects were ben
 
 Contributing thread:
 
-\- `Optimize Python long integers <http://mail.python.org/pipermail/python-dev/2008-November/083514.html>`{.backtick}[ ]{.u}
+\- `Optimize Python long integers <http://mail.python.org/pipermail/python-dev/2008-November/083514.html>`{.backtick}[ ]
 
 ------------------------------------------------------------------------
 
@@ -55,7 +60,7 @@ Fwd: Removal of GIL through refcounting removal.
 
 ------------------------------------------------------------------------
 
-Yet Another Attempt At Removing The GIL was proposed, and had a more positive reception than most of the times it has been brought up (in my memory). While the removal of the GIL has been both proposed and successfully attempted in the past, there have always been outstanding issues that keep the lock around. One of the primary issues is that of the C API and extension modules, which all expect reference counting. A technique used in [IronClad](./IronClad.html){.nonexistent}, a project that provides use of CPython extensions in the [IronPython](IronPython) implementation of the language, was suggested to provide reference counting semantics to legacy extensions, even if the internal objects no longer require them.
+Yet Another Attempt At Removing The GIL was proposed, and had a more positive reception than most of the times it has been brought up (in my memory). While the removal of the GIL has been both proposed and successfully attempted in the past, there have always been outstanding issues that keep the lock around. One of the primary issues is that of the C API and extension modules, which all expect reference counting. A technique used in [IronClad](./IronClad.html), a project that provides use of CPython extensions in the [IronPython](IronPython) implementation of the language, was suggested to provide reference counting semantics to legacy extensions, even if the internal objects no longer require them.
 
 Contributing thread:
 
@@ -71,7 +76,7 @@ Without much expectation that any action will actually be taken any time soon, t
 
 Contributing thread:
 
-\- `Using Cython for standard library? <http://mail.python.org/pipermail/python-dev/2008-November/083284.html>`{.backtick}[ ]{.u}
+\- `Using Cython for standard library? <http://mail.python.org/pipermail/python-dev/2008-November/083284.html>`{.backtick}[ ]
 
 ------------------------------------------------------------------------
 
@@ -95,7 +100,7 @@ Some concerns were raised for the number of XXX, TODO, and other types of commen
 
 Contributing thread:
 
-\- `XXX do we need a new policy? <http://mail.python.org/pipermail/python-dev/2008-November/083342.html>`{.backtick}[ ]{.u}
+\- `XXX do we need a new policy? <http://mail.python.org/pipermail/python-dev/2008-November/083342.html>`{.backtick}[ ]
 
 ------------------------------------------------------------------------
 
@@ -119,7 +124,7 @@ It was confirmed that an additional bugfix release of 2.4 will be made, 2.4.6 in
 
 Contributing thread:
 
-\- `Released fixes for CVE-2008-2315 for Python 2.4? <http://mail.python.org/pipermail/python-dev/2008-November/083484.html>`{.backtick}[ ]{.u}
+\- `Released fixes for CVE-2008-2315 for Python 2.4? <http://mail.python.org/pipermail/python-dev/2008-November/083484.html>`{.backtick}[ ]
 
 ------------------------------------------------------------------------
 
@@ -143,7 +148,7 @@ Victor Stinner sparked a myriad of concerns and suggestions about any possibly s
 
 Contributing thread:
 
-\- `My patches <http://mail.python.org/pipermail/python-dev/2008-November/083255.html>`{.backtick}[ ]{.u}
+\- `My patches <http://mail.python.org/pipermail/python-dev/2008-November/083255.html>`{.backtick}[ ]
 
 ------------------------------------------------------------------------
 
@@ -167,7 +172,7 @@ Preparing for the impending release of 2.5.3, the last bug-fixing version of 2.5
 
 Contributing thread:
 
-\- `Python 2.5.3: call for patches <http://mail.python.org/pipermail/python-dev/2008-November/083517.html>`{.backtick}[ ]{.u}
+\- `Python 2.5.3: call for patches <http://mail.python.org/pipermail/python-dev/2008-November/083517.html>`{.backtick}[ ]
 
 ------------------------------------------------------------------------
 
@@ -175,7 +180,7 @@ datetime and timedelta enhancement
 
 ------------------------------------------------------------------------
 
-Several enhancements to the datetime and timedelta objects are proposed, including converting timedelta to specific units, finding the ratio of two deltas, and easily obtaining a timestamp from a datetime object. However, patches exist for the datetime to timestamp conversion that seem to be rejected at [http://bugs.python.org/issue1665292](http://bugs.python.org/issue1665292){.http}
+Several enhancements to the datetime and timedelta objects are proposed, including converting timedelta to specific units, finding the ratio of two deltas, and easily obtaining a timestamp from a datetime object. However, patches exist for the datetime to timestamp conversion that seem to be rejected at [http://bugs.python.org/issue1665292](http://bugs.python.org/issue1665292)
 
 Contributing thread:
 
@@ -183,5 +188,4 @@ Contributing thread:
 
 =============== Skipped Threads ===============
 
-\- `Why don't range and xrange threat floats as floats? <http://mail.python.org/pipermail/python-dev/2008-November/083429.html>`{.backtick}[ - `[Python-3000] RELEASED Python 3.0rc2 <http://mail.python.org/pipermail/python-dev/2008-November/083483.html>`{.backtick}]{.u} - `Python 3.0rc2: problem with exec()ing files <http://mail.python.org/pipermail/python-dev/2008-November/083513.html>`{.backtick}[ - `Feedback from numerical/math community on PEP 225 <http://mail.python.org/pipermail/python-dev/2008-November/083493.html>`{.backtick}]{.u} - `buffer function <http://mail.python.org/pipermail/python-dev/2008-November/083262.html>`{.backtick}[ - `How to select text of text field in python&#8207;Card <http://mail.python.org/pipermail/python-dev/2008-November/083277.html>`{.backtick}]{.u} - `RELEASED Python 3.0rc2 <http://mail.python.org/pipermail/python-dev/2008-November/083481.html>`{.backtick}[ - `Summary of Python tracker Issues <http://mail.python.org/pipermail/python-dev/2008-November/083485.html>`{.backtick}]{.u} - `Getting Set Up dev doc <http://mail.python.org/pipermail/python-dev/2008-November/083504.html>`{.backtick}[ - `A statistic for Python tickets <http://mail.python.org/pipermail/python-dev/2008-November/083534.html>`{.backtick}]{.u} - `How does one build Python25.chm on Windows? <http://mail.python.org/pipermail/python-dev/2008-November/083549.html>`{.backtick}[ - `Upgrade SVN server to 1.5.4 <http://mail.python.org/pipermail/python-dev/2008-November/083551.html>`{.backtick}]{.u} - `[ANN] VPython 0.1 <http://mail.python.org/pipermail/python-dev/2008-November/083257.html>`{.backtick}[ - `Packaging the PyPI version of the SSL module for Debian <http://mail.python.org/pipermail/python-dev/2008-November/083291.html>`{.backtick}]{.u} - `New "stage" field in the tracker <http://mail.python.org/pipermail/python-dev/2008-November/083331.html>`{.backtick}[ - `Python2.5 _sre deepcopy regression? <http://mail.python.org/pipermail/python-dev/2008-November/083348.html>`{.backtick}]{.u} - `test - please ignore <http://mail.python.org/pipermail/python-dev/2008-November/083418.html>`{.backtick}[ - `AST-level type inference optimizations <http://mail.python.org/pipermail/python-dev/2008-November/083438.html>`{.backtick}]{.u} - `test message - spam work... <http://mail.python.org/pipermail/python-dev/2008-November/083556.html>`{.backtick}[ - `Getting Set Up doc now online <http://mail.python.org/pipermail/python-dev/2008-November/083568.html>`{.backtick}]{.u} - `hg branch gone? <http://mail.python.org/pipermail/python-dev/2008-November/083292.html>`{.backtick}[ ]{.u}
-:::
+\- `Why don't range and xrange threat floats as floats? <http://mail.python.org/pipermail/python-dev/2008-November/083429.html>`{.backtick}[ - `[Python-3000] RELEASED Python 3.0rc2 <http://mail.python.org/pipermail/python-dev/2008-November/083483.html>`{.backtick}] - `Python 3.0rc2: problem with exec()ing files <http://mail.python.org/pipermail/python-dev/2008-November/083513.html>`{.backtick}[ - `Feedback from numerical/math community on PEP 225 <http://mail.python.org/pipermail/python-dev/2008-November/083493.html>`{.backtick}] - `buffer function <http://mail.python.org/pipermail/python-dev/2008-November/083262.html>`{.backtick}[ - `How to select text of text field in python&#8207;Card <http://mail.python.org/pipermail/python-dev/2008-November/083277.html>`{.backtick}] - `RELEASED Python 3.0rc2 <http://mail.python.org/pipermail/python-dev/2008-November/083481.html>`{.backtick}[ - `Summary of Python tracker Issues <http://mail.python.org/pipermail/python-dev/2008-November/083485.html>`{.backtick}] - `Getting Set Up dev doc <http://mail.python.org/pipermail/python-dev/2008-November/083504.html>`{.backtick}[ - `A statistic for Python tickets <http://mail.python.org/pipermail/python-dev/2008-November/083534.html>`{.backtick}] - `How does one build Python25.chm on Windows? <http://mail.python.org/pipermail/python-dev/2008-November/083549.html>`{.backtick}[ - `Upgrade SVN server to 1.5.4 <http://mail.python.org/pipermail/python-dev/2008-November/083551.html>`{.backtick}] - `[ANN] VPython 0.1 <http://mail.python.org/pipermail/python-dev/2008-November/083257.html>`{.backtick}[ - `Packaging the PyPI version of the SSL module for Debian <http://mail.python.org/pipermail/python-dev/2008-November/083291.html>`{.backtick}] - `New "stage" field in the tracker <http://mail.python.org/pipermail/python-dev/2008-November/083331.html>`{.backtick}[ - `Python2.5 _sre deepcopy regression? <http://mail.python.org/pipermail/python-dev/2008-November/083348.html>`{.backtick}] - `test - please ignore <http://mail.python.org/pipermail/python-dev/2008-November/083418.html>`{.backtick}[ - `AST-level type inference optimizations <http://mail.python.org/pipermail/python-dev/2008-November/083438.html>`{.backtick}] - `test message - spam work... <http://mail.python.org/pipermail/python-dev/2008-November/083556.html>`{.backtick}[ - `Getting Set Up doc now online <http://mail.python.org/pipermail/python-dev/2008-November/083568.html>`{.backtick}] - `hg branch gone? <http://mail.python.org/pipermail/python-dev/2008-November/083292.html>`{.backtick}[ ]

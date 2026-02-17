@@ -1,6 +1,11 @@
 # RandomPage
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 A list of 25 random pages (out of 3616 total):
 
 - [ApplicationInfrastructure](ApplicationInfrastructure)
@@ -28,4 +33,3 @@ A list of 25 random pages (out of 3616 total):
 - [TeachingPythonBof](TeachingPythonBof)
 - [boost.python/CallPolicy](./boost(2e)python(2f)CallPolicy.html)
 - [speed.python.org](./speed(2e)python(2e)org.html)
-:::

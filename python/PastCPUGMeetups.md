@@ -1,7 +1,12 @@
 # PastCPUGMeetups
 
-::: {#content dir="ltr" lang="en"}
-# Past CPUG Meetups (for reference) {#Past_CPUG_Meetups_.28for_reference.29}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Past CPUG Meetups (for reference) 
 
 - June 2014 - Theme: Continuous Integration
 
@@ -57,7 +62,7 @@
 
 - December 2016 - Django Channels by Dominic Snowdon (and Pimp Your Shell by Gavin Jackson)
 
-- February 2017 - Using Python 3.6, [MyPy](./MyPy.html){.nonexistent} and Jupyter Lab to identify people with similar meal preferences - Jack Simpson
+- February 2017 - Using Python 3.6, [MyPy](./MyPy.html) and Jupyter Lab to identify people with similar meal preferences - Jack Simpson
 
 - March 2017 - Lightning Talks
 
@@ -76,4 +81,3 @@
 - October 2017 - Lightning Talks
 
 - November 2017 - Deep Learning with Keras - Jonathan Mettes and Fun with Scrapy - Gavin Jackson
-:::

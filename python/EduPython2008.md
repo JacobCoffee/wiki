@@ -1,9 +1,14 @@
 # EduPython2008
 
-::: {#content dir="ltr" lang="en"}
-# Python in Education (& vice versa) {#Python_in_Education_.28.26_vice_versa.29}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Meeting {#Meeting}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Python in Education (& vice versa) 
+
+## Meeting 
 
 Saturday - When and where are we meeting for dinner? 6:30 ballroom- Ordering Pizza.
 
@@ -17,7 +22,7 @@ Please add any possible discussion topics and any possible conficts below.
 - Do we need (or even want) a version of Scratch implemented in Python?
 - Python in CS1 or CS0.5 or CS0
 
-## Dinner {#Dinner}
+## Dinner 
 
 One topic of the meeting Friday might be options for a dinner on Saturday.
 
@@ -28,7 +33,7 @@ Dinner options:
 - River North (blue line to clark/lake then a couple blocks north)
 - If anyone is interested, I can host a visit/tour and/or meeting at the Google Office on Saturday before or after the dinner. - Jessie
 
-## Persons Interested {#Persons_Interested}
+## Persons Interested 
 
 Feel free to list your interest in attending either of the above below:
 
@@ -38,7 +43,7 @@ Feel free to list your interest in attending either of the above below:
 
 - Dean Goodmanson. In for dinner on Saturday. I\'ll be at the Board Games social in on of the open spaces area on Friday and Saturday night. I can provide some light games if folks would like to continue chats in that environment.
 
-- Kirby Urner, checked in (rm 730), see you at Kai Tak, interested in Saturday dinner plan ([kirby.urner@gmail.com](mailto:kirby.urner@gmail.com){.mailto})
+- Kirby Urner, checked in (rm 730), see you at Kai Tak, interested in Saturday dinner plan ([kirby.urner@gmail.com](mailto:kirby.urner@gmail.com))
 
 - [AndyHarrington](AndyHarrington), planning on both. Hearing about Google\'s involvement in education sounds good, too.
 
@@ -46,11 +51,10 @@ Feel free to list your interest in attending either of the above below:
 
 - Johannes Woolard, Crunchy co-developer. Potentially interested in both.
 
-## Other Suggestions, Ideas, Comments {#Other_Suggestions.2C_Ideas.2C_Comments}
+## Other Suggestions, Ideas, Comments 
 
 Please put any other ideas you have below.
 
 ------------------------------------------------------------------------
 
 [CategoryPyCon2008](CategoryPyCon2008)\_ [CategoryPyCon](CategoryPyCon) [CategoryPyCon](CategoryPyCon)
-:::

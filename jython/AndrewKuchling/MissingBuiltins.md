@@ -1,6 +1,11 @@
 # AndrewKuchling/MissingBuiltins
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **(This is not a private page; if you find errors, please edit the page to fix them.)**
 
 Built-in functions in Python 2.5 that aren\'t present in Jython:
@@ -9,7 +14,7 @@ Built-in functions in Python 2.5 that aren\'t present in Jython:
 
 Important: set, frozenset, all, any, sorted, reversed
 
-## 2.3 features {#A2.3_features}
+## 2.3 features 
 
 PEP 263: source code encodings
 
@@ -23,7 +28,7 @@ PEP 302: New import hooks
 
 PEP 305: pickle enhancements
 
-## 2.4 features {#A2.4_features}
+## 2.4 features 
 
 Built-in set, frozenset
 
@@ -35,7 +40,7 @@ Function/method decorators
 
 Multi-line imports
 
-## 2.5 features {#A2.5_features}
+## 2.5 features 
 
 Conditional expressions
 
@@ -49,9 +54,8 @@ New generator features
 
 Exceptions as new-style classes
 
-The [index]{.u} method
+The [index] method
 
 ------------------------------------------------------------------------
 
 **Note:** Similar list in [BiggerTasks](BiggerTasks)
-:::

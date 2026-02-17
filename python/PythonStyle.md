@@ -1,33 +1,30 @@
 # PythonStyle
 
-:::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Python style conventions are described in PEPs.
 
-- [PEP 8](http://www.python.org/peps/pep-0008.html){.http} \-- Style Guide for Python Code
+- [PEP 8](http://www.python.org/peps/pep-0008.html) \-- Style Guide for Python Code
 
-- [PEP 257](http://www.python.org/peps/pep-0257.html){.http} \-- Docstring Conventions
+- [PEP 257](http://www.python.org/peps/pep-0257.html) \-- Docstring Conventions
 
-::: table-of-contents
-Contents
-
-1.  [Learning Python Style](#Learning_Python_Style)
-2.  [Examples](#Examples)
-    1.  [Example Module](#Example_Module)
-:::
-
-## Learning Python Style {#Learning_Python_Style}
+## Learning Python Style 
 
 There are a lot of rules in PEP 8 and 257! Learn and document in steps.
 
 The key is to use formatters and validators to ensure PEP 8 compliance. As your code is put through validators, you slowly learn all the intricate details of styling.
 
-## Examples {#Examples}
+## Examples 
 
-### Example Module {#Example_Module}
+### Example Module 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-79077a487212ed67e978f92cba0d4fdd05df1cb7 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """Short description of module.
    2 
    3 Blah blah blah. This is the long description of the module. More brief
@@ -115,4 +112,3 @@ The key is to use formatters and validators to ensure PEP 8 compliance. As your 
 ```
 :::
 ::::
-::::::

@@ -1,6 +1,11 @@
 # TrouvePage
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Vous pouvez utiliser cette page pour faire des recherches sur le contenu de ce [WikiWikiWeb](WikiWikiWeb). Les recherches ne dépendent pas de la casse.
 
 De bons points d\'entrée pour explorer ce wiki sont :
@@ -38,4 +43,3 @@ Ou aller directement sur une page, ou créer une nouvelle page en entrant son no
   ::: {}
   :::
   ::::
-:::

@@ -1,7 +1,12 @@
 # MalayalamLanguage
 
-::::: {#content dir="ltr" lang="en"}
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -23,7 +28,7 @@ This page provides **Python-related resources in Malayalam** for learners and de
 
 ------------------------------------------------------------------------
 
-## 🏛 About Malayalam (മലയാളം) {#A.2B2Dzf2w_About_Malayalam_.28.2BDS4NMg0vDT4NMw0C.29}
+## 🏛 About Malayalam (മലയാളം) 
 
 - **Native to**: 🇮🇳 India (Kerala, parts of Tamil Nadu, Karnataka, Lakshadweep, Puducherry)
 
@@ -43,45 +48,45 @@ This page provides **Python-related resources in Malayalam** for learners and de
 
   - **ISO 639-3**: `mal`{.backtick}
 
-- **Unicode Range**: [0D00-0D7F](http://unicode.org/charts/PDF/U0D00.pdf){.http}
+- **Unicode Range**: [0D00-0D7F](http://unicode.org/charts/PDF/U0D00.pdf)
 
-- **Wikipedia Article**: [Learn more about Malayalam](http://en.wikipedia.org/wiki/Malayalam_language){.http}
+- **Wikipedia Article**: [Learn more about Malayalam](http://en.wikipedia.org/wiki/Malayalam_language)
 
 ------------------------------------------------------------------------
 
-## 📖 Python Documentation in Malayalam {#A.2B2D3c1g_Python_Documentation_in_Malayalam}
+## 📖 Python Documentation in Malayalam 
 
 Explore the following resources to learn **Python in Malayalam**:
 
-### 🔗 General Links {#A.2B2D3dFw_General_Links}
+### 🔗 General Links 
 
-- [Wikipedia Article on Python (Malayalam)](http://ml.wikipedia.org/wiki/പൈത്തണ്‍_(പ്രോഗ്രാമിങ്ങ്_ഭാഷ)){.http}
+- [Wikipedia Article on Python (Malayalam)](http://ml.wikipedia.org/wiki/പൈത്തണ്‍_(പ്രോഗ്രാമിങ്ങ്_ഭാഷ))
 
-- [Python Wikibook in Malayalam](http://ml.wikibooks.org/wiki/പൈത്തണ്‍_പ്രോഗ്രാമിങ്ങ്){.http}
+- [Python Wikibook in Malayalam](http://ml.wikibooks.org/wiki/പൈത്തണ്‍_പ്രോഗ്രാമിങ്ങ്)
 
-### 📚 Blogs & Tutorials {#A.2B2D3c2g_Blogs_.26_Tutorials}
+### 📚 Blogs & Tutorials 
 
-- [Python for School - Lesson 1](http://python4school.blogspot.com/2010/05/blog-post.html){.http}
+- [Python for School - Lesson 1](http://python4school.blogspot.com/2010/05/blog-post.html)
 
-- [Python for School - Lesson 2](http://python4school.blogspot.com/2010/06/blog-post.html){.http}
+- [Python for School - Lesson 2](http://python4school.blogspot.com/2010/06/blog-post.html)
 
-- [Python for School - Lesson 3](http://python4school.blogspot.com/2010/06/lesson-3.html){.http}
+- [Python for School - Lesson 3](http://python4school.blogspot.com/2010/06/lesson-3.html)
 
-#### 🎥 Video Tutorials (YouTube) {#A.2B2DzfpQ_Video_Tutorials_.28YouTube.29}
+#### 🎥 Video Tutorials (YouTube) 
 
-- [Python Malayalam](https://youtu.be/xlWmdUYns4k){.https}
+- [Python Malayalam](https://youtu.be/xlWmdUYns4k)
 
-- [Python Malayalam Tutorial Series (YouTube Playlist)](https://youtube.com/playlist?list=PLP1t_rSdq4Ckln7UmM4FTRvmne_NCVJA6&si=relagoG5cu1vTX6U){.https}
+- [Python Malayalam Tutorial Series (YouTube Playlist)](https://youtube.com/playlist?list=PLP1t_rSdq4Ckln7UmM4FTRvmne_NCVJA6&si=relagoG5cu1vTX6U)
 
 ------------------------------------------------------------------------
 
-## 🛠 Malayalam Support in Python 3 {#A.2B2D3e4A_Malayalam_Support_in_Python_3}
+## 🛠 Malayalam Support in Python 3 
 
 Python 3 fully supports **Unicode**, allowing Malayalam text to be used in programs.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-039230c91f08cc08fd6fe9ad0b4fd911fb1344d3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Malayalam text in Python
    2 പേര് = "മലയാളം"
    3 print(f"എന്റെ ഭാഷയുടെ പേര്: {പേര്}")
@@ -89,7 +94,7 @@ Python 3 fully supports **Unicode**, allowing Malayalam text to be used in progr
 :::
 ::::
 
-### Explanation {#Explanation}
+### Explanation 
 
 - **പേര് = \"മലയാളം\"** → Assigns the string \"മലയാളം\" to the variable **പേര്**.
 
@@ -98,4 +103,3 @@ Python 3 fully supports **Unicode**, allowing Malayalam text to be used in progr
 ------------------------------------------------------------------------
 
 [CategoryUnicode](CategoryUnicode) [CategoryLanguage](CategoryLanguage) [CategoryPythonIndia](CategoryPythonIndia)
-:::::

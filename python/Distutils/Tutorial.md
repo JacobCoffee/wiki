@@ -1,7 +1,12 @@
 # Distutils/Tutorial
 
-::: {#content dir="ltr" lang="en"}
-# Introduction to distutils {#Introduction_to_distutils}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Introduction to distutils 
 
 I have recently used distutils for the first time and thought I would share what I have learned.
 
@@ -9,7 +14,7 @@ I have recently used distutils for the first time and thought I would share what
 
 (Based on GNU/Linux)
 
-## The layout of folders {#The_layout_of_folders}
+## The layout of folders 
 
 A proper layout of your files and folders can really save you trouble later on. I use this layout:
 
@@ -36,11 +41,11 @@ A proper layout of your files and folders can really save you trouble later on. 
 
 - The other files are all in the root and will be described soon.
 
-## UPDATE: How to add other files, other data and directories {#UPDATE:_How_to_add_other_files.2C_other_data_and_directories}
+## UPDATE: How to add other files, other data and directories 
 
 I have a tentative solution for when you need extra files and folders in your distributed tarball. This is surprisingly tricky to do. Please see the section at the end titled \"Other Files\"
 
-## The files {#The_files}
+## The files 
 
 ### runner
 
@@ -94,15 +99,15 @@ This uses the magic variable `__file__`{.backtick} that will return the path and
 
 It shows that it can find the data files in the things folder.
 
-### \`\_\_init\_\_.py\` {#A.60__init__.py.60}
+### \`\_\_init\_\_.py\` 
 
 The `__init__.py`{.backtick} file is empty.
 
-### README {#README}
+### README 
 
 The README file is named that way because it\'s one of the ways that distutils automatically looks for it. You should put details about your app into it. It\'s not a required file.
 
-### MANIFEST.in {#MANIFEST.in}
+### MANIFEST.in 
 
 The MANIFEST.in file took me a while to understand. It\'s the file that distutils uses to collect *all* the files in your project that will go into the final installer tarball (the file that gets distributed).
 
@@ -172,9 +177,9 @@ Finally we get to the setup.py file:
 
 - scripts = \[ \] A script(s) to be installed into standard locations like /usr/bin. If you include a path, you can control where they go. in this case I want /usr/bin/runner to be available on the user\'s system.
 
-- \"long_description\" may be valid [ReStructuredText](./ReStructuredText.html){.nonexistent} which will be turned into HTML when displayed at the Cheese Shop.
+- \"long_description\" may be valid [ReStructuredText](./ReStructuredText.html) which will be turned into HTML when displayed at the Cheese Shop.
 
-## Making the installation tarball {#Making_the_installation_tarball}
+## Making the installation tarball 
 
 Well, that\'s the lot. It\'s quite simple really, as long as you keep to the pattern. If you want extra folders and sub-packages and so forth, it gets a little hairy. But, I suppose, if you want all that then you will have no trouble extending it from this tutorial.
 
@@ -209,7 +214,7 @@ Here is what I see:
     gzip -f9 dist/appname-100.tar
     removing 'appname-100' (and everything under it)
 
-## Testing the tarball {#Testing_the_tarball}
+## Testing the tarball 
 
 I perform these steps:
 
@@ -236,7 +241,7 @@ It should look (something) like this:
     My various data files and so on are:
     ['cross.png', 'fplogo.png', 'tick.png']
 
-## Registering with the Cheese Shop (PyPI) {#Registering_with_the_Cheese_Shop_.28PyPI.29}
+## Registering with the Cheese Shop (PyPI) 
 
 The Cheese Shop is a repository of Python apps. You can add your app to it quite easily, I was surprised how quickly this worked. ( Requires Python 2.3 or later )
 
@@ -277,7 +282,7 @@ Then you type:
 
 After all that, you can quickly find you app in the Cheese Shop via your browser, or sign up for their RSS feed.
 
-## Submittting to the Cheese Shop (PyPI) {#Submittting_to_the_Cheese_Shop_.28PyPI.29}
+## Submittting to the Cheese Shop (PyPI) 
 
 Requires Python 2.5 or later:
 
@@ -291,7 +296,7 @@ To GPG-sign the upload, use:
 
 TODO: need a sample output here
 
-## Other Files {#Other_Files}
+## Other Files 
 
 **WARNING** I have found a problem with this approach that causes all the data directories to be installed to the /usr/ directory. I have no idea why and not much help seems forthcoming. I will update when I get a clue. **UPDATE TO WARNING** Okay, I think I have fixed the problem, new code has been added to the example below.
 
@@ -299,7 +304,7 @@ Jan 4 2008. When you need *other* stuff in your tarball (.py files included) and
 
 I\'ll use Fonty Python as the example - I\'ll show you the tree and explain it a little, then I\'ll follow that with the code that does the job.
 
-### The tree {#The_tree}
+### The tree 
 
 Here\'s the Fonty Python tree (as it stands, leaning wildly, right now). \'trunk\' is the **distribution root**. I have trimmed it somewhat.
 
@@ -347,7 +352,7 @@ Here\'s the Fonty Python tree (as it stands, leaning wildly, right now). \'trunk
 
 So, there are .py files, text files, locale files, images and html files. I want them **all** in the tarball in the right order.
 
-### The MANIFEST.in file {#The_MANIFEST.in_file}
+### The MANIFEST.in file 
 
     include fontypython fp README COPYING
     recursive-include fontypythonmodules/pofiles *
@@ -357,7 +362,7 @@ So, there are .py files, text files, locale files, images and html files. I want
 
 I tell it to recurse all those subfolders. I include \'fp\', \'fontypython\', \'README\' and \'COPYING\' because they are in the root - perhaps there\'s a better way to do it, but this works.
 
-### The Magic Code {#The_Magic_Code}
+### The Magic Code 
 
 The magic stuff is in the two functions called **opj** and **find_data_files** that you put in your **setup.py** file. They work together to build a list of all the files in a given path. This list is in the right shape for distutils to swallow. You pass it in via the data_files variable in the setup() call.
 
@@ -454,7 +459,7 @@ After making these changes, a normal **python setup.py sdist** works without odd
           ]
     )
 
-## NEW VERSION OF def walk_helper() {#NEW_VERSION_OF_def_walk_helper.28.29}
+## NEW VERSION OF def walk_helper() 
 
 Given that you may want to exclude files that contain *more* than just .pyc in them, we need something handy. Replace the def in the code above with this code.
 
@@ -481,13 +486,12 @@ Given that you may want to exclude files that contain *more* than just .pyc in t
 
 The secret is the list **badnames** which you can fill as you please.
 
-## Fin {#Fin}
+## Fin 
 
 I hope this helps someone. Happy coding.
 
-[DonnIngle](mailto:donn.ingle@gmail.com){.mailto}
+[DonnIngle](mailto:donn.ingle@gmail.com)
 
 ------------------------------------------------------------------------
 
 [CategoryFaq](CategoryFaq) [CategoryDistutilsCookbook](CategoryDistutilsCookbook)
-:::

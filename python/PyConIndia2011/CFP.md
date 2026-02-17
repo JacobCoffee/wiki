@@ -1,7 +1,12 @@
 # PyConIndia2011/CFP
 
-::: {#content dir="ltr" lang="en"}
-# PyCon India 2011 -- Call for Proposals {#PyCon_India_2011_.2BIBM_Call_for_Proposals}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PyCon India 2011 -- Call for Proposals 
 
 [PyCon](PyCon) India is the only conference of its kind organized in India for Python programming language enthusiasts from all over the country. [PyCon](PyCon) India is being held in Pune, Mahrashtra India for the third time from 17th September 2011 to 19th September 2011 at Symbiosis Pune.
 
@@ -9,7 +14,7 @@ The organizers of Pycon India 2011 are looking for talk proposals to fill the fo
 
 Please follow the instructions below carefully before preparing a proposal and submitting it.
 
-## Contents {#Contents}
+## Contents 
 
 - Important dates
 - Permission to record/release presentations
@@ -17,7 +22,7 @@ Please follow the instructions below carefully before preparing a proposal and s
 - Talk Format
 - Proposal submission mechanism
 
-### Important Dates {#Important_Dates}
+### Important Dates 
 
 - Call for proposals opens: March 7 2011
 - Proposal submission deadline: June 15, 2011
@@ -25,15 +30,15 @@ Please follow the instructions below carefully before preparing a proposal and s
 - First presentation upload: Aug 7 2011
 - Final presentation upload (with changes if any): Aug 31 2011
 
-### Permission to record/release presentations {#Permission_to_record.2Frelease_presentations}
+### Permission to record/release presentations 
 
 In Pycon India, we intend to record all presentations live and release the recordings for free on the Internet so as to benefit the wider Python community. When you are submitting a proposal, you automatically give the Indian Python Software Society, the organizers of Pycon India, the permissions to record/edit and release the audio/video of your presentation.
 
 No exceptions will be made in this regard. If you do not want a recording of your presentation to be made, don\'t submit a proposal.
 
-The released media will be licensed under the [Creative Commons Attribution License, version 3.0](http://creativecommons.org/licenses/by/3.0/){.http}.
+The released media will be licensed under the [Creative Commons Attribution License, version 3.0](http://creativecommons.org/licenses/by/3.0/).
 
-### Topics for Pycon India {#Topics_for_Pycon_India}
+### Topics for Pycon India 
 
 Topics for presentations for Pycon India include but is not limited to,
 
@@ -79,13 +84,13 @@ Topics for presentations for Pycon India include but is not limited to,
 
 - Open source Python projects
 
-### Talk Format {#Talk_Format}
+### Talk Format 
 
 The typical length of a talk should be no more than 45 minutes. The presentation style should be concise, to the point with sufficient examples to clarify the discussion to the audience, if needed. You can also opt for a talk which is 30 minutes long. Such talks should typically discuss how to do a certain thing related to Python in a concise way.
 
 We will be providing a buffer of 5-10 minutes between talks so that the presenters get sufficient time to prepare for their talks. However, you should plan and pace your talk so as to leave sufficient time (upto 10 minutes) at the end of the time for audience questions.
 
-### Proposal submission mechanism {#Proposal_submission_mechanism}
+### Proposal submission mechanism 
 
 A talk proposal should include the following.
 
@@ -104,4 +109,3 @@ Completed proposals should be uploaded to \<URL\> or sent by email to \<email\>.
 ------------------------------------------------------------------------
 
 [CategoryPyConIndia](CategoryPyConIndia)
-:::

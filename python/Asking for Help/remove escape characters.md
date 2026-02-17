@@ -1,15 +1,20 @@
 # Asking for Help/remove escape characters
 
-:::::: {#content dir="ltr" lang="en"}
-# Asking for Help: How To Remove Escape Characters {#Asking_for_Help:_How_To_Remove_Escape_Characters}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: How To Remove Escape Characters 
 
 system: ubuntu connected to a serial port connected datalogger pls look at this post using \"source txt\"or\"bron txt\" button rigth top for better lay-out
 
 python program
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ce7c7f91c7416cac19aa6d8ddacb148cf752a592 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #! /usr/bin/env python
    2 import serial
    3 import time
@@ -63,4 +68,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp)
-::::::

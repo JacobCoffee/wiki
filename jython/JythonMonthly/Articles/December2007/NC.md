@@ -1,11 +1,16 @@
 # JythonMonthly/Articles/December2007/NC
 
-::::::: {#content dir="ltr" lang="en"}
-# Better Living Through More Obvious Coding Practices {#Better_Living_Through_More_Obvious_Coding_Practices}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Flagging Records in Fixed-Length Data Columns {#Flagging_Records_in_Fixed-Length_Data_Columns}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-#### Submitted By: Rob Andrews {#Submitted_By:_Rob_Andrews}
+# Better Living Through More Obvious Coding Practices 
+
+## Flagging Records in Fixed-Length Data Columns 
+
+#### Submitted By: Rob Andrews 
 
 Most of the day-to-day programming I see in the real world does not consist of 50,000-line applications. And even the larger applications consist of functions and smaller blocks of code that work together to produce the more sophisticated behavior of the larger application.
 
@@ -15,9 +20,9 @@ The following is a very simple example of a common task. Each line in the file \
 
 The file consists of fixed-length columns, and the task at hand is to add a flag character to each record to indicate whether the state code is in a list of target states.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-cfab67ceecd56ea51eef48ec977386e288e6c8d3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 infile = open('c:/sandbox/states.txt','r')
    2 outfile = open('c:/sandbox/states.new','a')
    3 
@@ -46,9 +51,9 @@ I usually use the variable name \"line\" when iterating through lines in a text 
 
 But you can not use:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-edb43611102d91c734ea204e0004d2d1f7f6c29c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 for record in infile:        # variable name is "record"
    2     stateCode = line[0:2]    # variable name is "line", not "record", and will cause an error
    3     ....
@@ -69,7 +74,6 @@ Over time, every programmer develops a unique style based on personal preference
 
 I believe doing so results in a considerably less stressful learning process. Programming may not always be pure fun, but we can make it much less unpleasant with good practices early on.
 
-##### About the Author {#About_the_Author}
+##### About the Author 
 
-Rob Andrews is a Programmer Analyst at [Sourcelink](http://www.sourcelink.com){.http}.
-:::::::
+Rob Andrews is a Programmer Analyst at [Sourcelink](http://www.sourcelink.com).

@@ -1,18 +1,14 @@
 # XmlRelatedExamples
 
-:::: {#content dir="ltr" lang="en"}
-# Jython examples using Java XML classes {#Jython_examples_using_Java_XML_classes}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Jython examples using Java XML classes 
 
 [DocumentationAndEducation](DocumentationAndEducation)
-
-::: table-of-contents
-Contents
-
-1.  [Jython examples using Java XML classes](#Jython_examples_using_Java_XML_classes)
-    1.  [Element tree](#Element_tree)
-    2.  [dom4j](#dom4j)
-    3.  [Using Jython and jaxen XPath](#Using_Jython_and_jaxen_XPath)
-:::
 
 ------------------------------------------------------------------------
 
@@ -25,11 +21,11 @@ Examples related to Java XML classes using Jython will be here.
 - Others ?
 - and of course Java SDK
 
-## Element tree {#Element_tree}
+## Element tree 
 
-Here is a simple example. info on element tree is at [http://effbot.org/zone/element-index.htm](http://effbot.org/zone/element-index.htm){.http}
+Here is a simple example. info on element tree is at [http://effbot.org/zone/element-index.htm](http://effbot.org/zone/element-index.htm)
 
-Download element tree from [http://effbot.org/downloads/](http://effbot.org/downloads/){.http}
+Download element tree from [http://effbot.org/downloads/](http://effbot.org/downloads/)
 
     from  elementtree import ElementTree as ET
 
@@ -52,7 +48,7 @@ which produces:
 
 ## dom4j
 
-This example requires [http://www.dom4j.org/](http://www.dom4j.org/){.http} the example below was tested with v1.6.1 download it and put it in you classpath.
+This example requires [http://www.dom4j.org/](http://www.dom4j.org/) the example below was tested with v1.6.1 download it and put it in you classpath.
 
 This was posted to the Jython-users mailing list by Claude Falbriard Sep 14, 2007,
 
@@ -106,11 +102,11 @@ This simply prints out a xml tree. change line 39 to a valid xml filename.
     if __name__ == '__main__':
          main()
 
-## Using Jython and jaxen XPath {#Using_Jython_and_jaxen_XPath}
+## Using Jython and jaxen XPath 
 
 From: Frank Cohen Sent: Tuesday, June 03, 2008 10:34 PM
 
-I needed to write a SOAP-based Web service to show off the SOAP testing capabilities for [PushToTest](./PushToTest.html){.nonexistent} [TestMaker](./TestMaker.html){.nonexistent}. I wanted to use XPath expressions to change the search expressions easily over time. I chose to use Jaxen and Xerces APIs. Figuring this out in Java wound up taking a long time - all those visits to change-compile-run-check land! So I broke out my trusty Jython (embedded in [TestMaker](./TestMaker.html){.nonexistent}) and wrote the following script.
+I needed to write a SOAP-based Web service to show off the SOAP testing capabilities for [PushToTest](./PushToTest.html) [TestMaker](./TestMaker.html). I wanted to use XPath expressions to change the search expressions easily over time. I chose to use Jaxen and Xerces APIs. Figuring this out in Java wound up taking a long time - all those visits to change-compile-run-check land! So I broke out my trusty Jython (embedded in [TestMaker](./TestMaker.html)) and wrote the following script.
 
 I like example code. So I am posting this here to help anyone else that needs to do XPath expressions.
 
@@ -179,4 +175,3 @@ I like example code. So I am posting this here to help anyone else that needs to
     xpath4.selectSingleNode( respdoc ).setAttribute( "quantity", str( quantity ))
 
     print "done"
-::::

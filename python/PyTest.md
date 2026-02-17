@@ -1,13 +1,18 @@
 # pytest
 
-::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **pytest**, aka *we-don\'t-need-no-stinking-API unit test suite*, is an alternative, more pythonic way of writing your tests. The best part is, the overhead for creating unit tests is close to zero!
 
 For example, assume you have a prime generator in module `prime.py`{.backtick}, and you\'d want to write a simple test for it (if you don\'t know it, a prime is a non-negative integer being divisible only by 1 and itself, and the first prime is 2). Now, you should know that it would be probably wise to start writing test suite before you actually write any code for prime generator itself, because it makes the whole process of software development less error prone as well as less ad-hoc, but I digress. Let\'s get on with the test:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-9fc7d6933b318e0f8ff2947209bdf5f7b86a6619 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from prime import PrimeGenerator
    2 
    3 def test_first_primes():
@@ -24,9 +29,9 @@ That\'s it - you have a working, albeit far from complete, test suite you can ru
 
 However, let us assume you\'d like to extend the test suite a bit further - add a second test for testing primality using instance method `isprime()`{.backtick}:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f6bccd528a477112b42ecf54f6873cf2a6faea47 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from prime import PrimeGenerator
    2 
    3 def test_first_primes():
@@ -52,9 +57,9 @@ It is nice and everything, but now there are two issues. First, if you have many
 
 The other issue is that if your method `isprime()`{.backtick} is not working correctly, you do see the error, but you don\'t see *what* number triggered the error. Let\'s fix these two problems at next attempt.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f08ebbe388ee640f219cbcb8d685343e67c4fad2 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from prime import PrimeGenerator
    2 
    3 class TestPrime:
@@ -91,7 +96,7 @@ These are decisions you *have to* make, and perhaps you already realized one ver
 
 You may now wonder - please do! - how pytest knows which methods to run. Well, there *has* to be some magic going on behind the scenes, because you don\'t see any `testsuite.run(method)`{.backtick} or `testsuite.add(class_instance)`{.backtick} etc. Well, you\'re right. There *is* some serious magic going on and here there be dragons, but the programmer API is very simple. It\'s all transparent.
 
-That is, every class starting with *Test* and every method starting with *test\_* is treated specially and considered to be part of unit test suite. Also, assert is *very* magic, but you don\'t need to know that\... just use it as you are, well, used to ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"} Things are that way just to give you cleaner, more informative tracebacks, and more fulfilling and rewarding unit-testing experience.
+That is, every class starting with *Test* and every method starting with *test\_* is treated specially and considered to be part of unit test suite. Also, assert is *very* magic, but you don\'t need to know that\... just use it as you are, well, used to ![:-)](/wiki/europython/img/smile.png ":-)") Things are that way just to give you cleaner, more informative tracebacks, and more fulfilling and rewarding unit-testing experience.
 
 There are so many oh-so-nice features in pytest, making it quite cute tool to work with. Here I will only list some of them:
 
@@ -100,25 +105,24 @@ There are so many oh-so-nice features in pytest, making it quite cute tool to wo
 - running tests will start immediately upon collecting them
 - you can start pytest in daemon mode, which will then constantly monitor your modules for changes and running tests automatically when needed
 
-So, if you consider giving [TestDrivenDevelopment](TestDrivenDevelopment) a try, please try pytest at least. It makes writing unit tests much more **fun** ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"}
+So, if you consider giving [TestDrivenDevelopment](TestDrivenDevelopment) a try, please try pytest at least. It makes writing unit tests much more **fun** ![:-)](/wiki/europython/img/smile.png ":-)")
 
 More information:
 
-- [pytest on PyPI](https://pypi.org/project/pytest/){.https}
+- [pytest on PyPI](https://pypi.org/project/pytest/)
 
-- [getting-started](https://docs.pytest.org/en/latest/getting-started.html#getstarted){.https}
+- [getting-started](https://docs.pytest.org/en/latest/getting-started.html#getstarted)
 
 ------------------------------------------------------------------------
 
 Still more information (quite old though):
 
-- [http://blog.ianbicking.org/pytest.html](http://blog.ianbicking.org/pytest.html){.http}
+- [http://blog.ianbicking.org/pytest.html](http://blog.ianbicking.org/pytest.html)
 
-- [http://ianbicking.org/docs/pytest-presentation/pytest-slides.html](http://ianbicking.org/docs/pytest-presentation/pytest-slides.html){.http}
+- [http://ianbicking.org/docs/pytest-presentation/pytest-slides.html](http://ianbicking.org/docs/pytest-presentation/pytest-slides.html)
 
-- [http://agiletesting.blogspot.com/2005/01/python-unit-testing-part-3-pytest-tool.html](http://agiletesting.blogspot.com/2005/01/python-unit-testing-part-3-pytest-tool.html){.http}
+- [http://agiletesting.blogspot.com/2005/01/python-unit-testing-part-3-pytest-tool.html](http://agiletesting.blogspot.com/2005/01/python-unit-testing-part-3-pytest-tool.html)
 
 ------------------------------------------------------------------------
 
 [UnitTests](UnitTests)
-:::::::::

@@ -1,19 +1,24 @@
 # GoogleCodeIn
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This list is by no means complete, we\'re still getting our mentors lined up for this program and are waiting for confirmation to be a mentoring org before setting up all the 3rd party projects that have been a bulk of our students in past years GSoC/GHOP.
 
-# Code {#Code}
+# Code 
 
-- [http://bugs.python.org/issue9517](http://bugs.python.org/issue9517){.http} improve test.script_helper \[median\] (stdlib)
+- [http://bugs.python.org/issue9517](http://bugs.python.org/issue9517) improve test.script_helper \[median\] (stdlib)
 
 - Eliminate resource warnings in test_subprocess \[expert\] (stdlib)
 
-- [http://bugs.python.org/issue9856](http://bugs.python.org/issue9856){.http} add a deprecation warning to object.[format]{.u}(s) when s is non-empty \[median\] (c)
+- [http://bugs.python.org/issue9856](http://bugs.python.org/issue9856) add a deprecation warning to object.[format](s) when s is non-empty \[median\] (c)
 
-- [http://bugs.python.org/issue9858](http://bugs.python.org/issue9858){.http} Bring Python and C io library implementations in sync \[expert\] (stdlib)
+- [http://bugs.python.org/issue9858](http://bugs.python.org/issue9858) Bring Python and C io library implementations in sync \[expert\] (stdlib)
 
-- [http://bugs.python.org/issue940286](http://bugs.python.org/issue940286){.http} Fix pydoc.Helper.help() to use the input output parameters \[novice\] (stdlib)
+- [http://bugs.python.org/issue940286](http://bugs.python.org/issue940286) Fix pydoc.Helper.help() to use the input output parameters \[novice\] (stdlib)
 
 - Merge test_globals into test_scope \[novice\] (stdlib)
 
@@ -37,36 +42,36 @@ This list is by no means complete, we\'re still getting our mentors lined up for
 
 - Refactor test_zipfile to properly clean up its resources in a nice way \[median\] (stdlib)
 
-# Documentation {#Documentation}
+# Documentation 
 
 - Complete documentation for the wsgiref module \[median\] (stdlib, wsgi)
 
-- Write docs for undocumented urllib functions ([http://bugs.python.org/issue1722](http://bugs.python.org/issue1722){.http}) \[median\] (stdlib)
+- Write docs for undocumented urllib functions ([http://bugs.python.org/issue1722](http://bugs.python.org/issue1722)) \[median\] (stdlib)
 
-# Outreach {#Outreach}
+# Outreach 
 
 - Write an article about the advantages of Python 3 over 2.x \[novice\]
 
-# Quality Assurance {#Quality_Assurance}
+# Quality Assurance 
 
 - Clean up Distutils2 code using \"pep8\" and \"pyflake\" (or \"flake8\") \[novice\] (packaging)
 
-# Research {#Research}
+# Research 
 
 - Find all Django dependencies that still need to be ported to Python 3 \[expert\] (wsgi)
 - Find all Turbogears dependencies that still need to be ported to Python 3 \[median\] (wsgi)
 
-# Training {#Training}
+# Training 
 
-# Translation {#Translation}
+# Translation 
 
-# User Interface {#User_Interface}
+# User Interface 
 
 - Enhance the Distutils2 mkcfg wizard (script to create a Distutils2 package) \[median\] (packaging)
 
 ------------------------------------------------------------------------
 
-# Adding new tasks {#Adding_new_tasks}
+# Adding new tasks 
 
 Add new tasks only in the above 8 categories.
 
@@ -81,4 +86,3 @@ Task ideas should be tagged with the subproject they should be mentored for, cur
 - stdlib - Python\'s Standard Library
 - packaging - The distutils (stdlib) or distutils2 projects
 - wsgi - Web Service Gateway Interface and related packages
-:::

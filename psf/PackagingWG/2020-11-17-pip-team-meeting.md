@@ -1,6 +1,11 @@
 # PackagingWG/2020-11-17-pip-team-meeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Tuesday 17 November 2020
 
 Participants
@@ -15,7 +20,7 @@ Agenda
 - status and blockers
   - Georgia \[absent\] - making progress on training
 
-  - Sumana has not done outreach to package manager maintainers ![:(](/wiki/europython/img/sad.png ":("){height="16" width="16"} \-- to do immediately after this meeting \[DONE\]
+  - Sumana has not done outreach to package manager maintainers ![:(](/wiki/europython/img/sad.png ":(") \-- to do immediately after this meeting \[DONE\]
 
     - also need to write some draft release material
     - need to approve Simply Secure invoice
@@ -32,7 +37,7 @@ Agenda
     - doing analysis on existing data, submitted PR #9137 to update quickstart guide accordingly
 
   - Bernard
-    - working on analysis of Python users, between 2-10 years, mental models of what pip is, how it works, what it does while it is installing packages, understanding of dependencies. Late last week, shared spreadsheet on Zulip. [https://python.zulipchat.com/#narrow/stream/218659-pip-development/topic/User\'s.20mental.20models.20of.20pip.2C.20package.20installation.20and.20deps](https://python.zulipchat.com/#narrow/stream/218659-pip-development/topic/User's.20mental.20models.20of.20pip.2C.20package.20installation.20and.20deps){.https}
+    - working on analysis of Python users, between 2-10 years, mental models of what pip is, how it works, what it does while it is installing packages, understanding of dependencies. Late last week, shared spreadsheet on Zulip. [https://python.zulipchat.com/#narrow/stream/218659-pip-development/topic/User\'s.20mental.20models.20of.20pip.2C.20package.20installation.20and.20deps](https://python.zulipchat.com/#narrow/stream/218659-pip-development/topic/User's.20mental.20models.20of.20pip.2C.20package.20installation.20and.20deps)
 
       - caution on Bernard\'s understanding of what pip is influencing his understanding of users\' understanding
       - NEEDS: validation of \"this is ok\" - if possible, Pradyun, Paul, Sumana, if anyone could look and improve analysis so far, helpful
@@ -44,7 +49,6 @@ Agenda
         - Sumana notes: sometimes people are using pip to do something but don\'t know they are doing it. For instance, installing also does building along the way, but user might not know that.
           - Bernard notes: right, and then this comes up when pip gives error/info output that mentions a bit of functionality (such as backtracking) that the user was previously unaware of.
 - blocker issues
-  - New resolver: Failure despite correct version numbers, when extras and already-installed package are encountered together #8785 [https://github.com/pypa/pip/issues/8785](https://github.com/pypa/pip/issues/8785){.https}
+  - New resolver: Failure despite correct version numbers, when extras and already-installed package are encountered together #8785 [https://github.com/pypa/pip/issues/8785](https://github.com/pypa/pip/issues/8785)
 
-  - [https://github.com/sarugaku/resolvelib/pull/60](https://github.com/sarugaku/resolvelib/pull/60){.https} on carrying incompatibilities during backtracking
-:::
+  - [https://github.com/sarugaku/resolvelib/pull/60](https://github.com/sarugaku/resolvelib/pull/60) on carrying incompatibilities during backtracking

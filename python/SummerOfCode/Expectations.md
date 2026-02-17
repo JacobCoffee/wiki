@@ -1,7 +1,12 @@
 # SummerOfCode/Expectations
 
-::::::::::::: {#content dir="ltr" lang="en"}
-::: {#summary .section}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+::: 
 ### Summary
 
 This page covers, in detail, the expectations for Google Summer of Code students in regards to communication. This is useful for PSF projects which haven\'t codified their expectations\--they can point to this document and use it as is.
@@ -11,7 +16,7 @@ The Google Summer of Code coding period is very short. On top of that, many stud
 This document walks through various expectations for students and mentors, as well as addressing various ways to communicate effectively.
 :::
 
-::: {#hour-work-week .section}
+::: 
 ### 40 hour work week
 
 Students are expected to work at least 40 hours a week on their GSoC project. This is essentially a full-time job.
@@ -27,7 +32,7 @@ The final point is an important one for a beginning developer. Employers greatly
 And of course, the program will provide you stipend and a really cool t-shirt.
 :::
 
-::: {#self-motivation-and-steady-schedule .section}
+::: 
 ### Self-motivation and steady schedule
 
 The student is expected to be self-motivated. The mentor may push the student to excel, but if the student is not self-motivated to work, then the student probably won\'t get much out of participating.
@@ -35,7 +40,7 @@ The student is expected to be self-motivated. The mentor may push the student to
 The student should schedule time to work on the project each day and keep to a regular schedule. It\'s not acceptable to fiddle around for days on end and then pull an all-nighter just before deadlines. It will show in your code.
 :::
 
-::: {#frequent-communication-with-mentor .section}
+::: 
 ### Frequent communication with mentor
 
 Frequent communication with your mentor is a **must**. Your mentor should have a good idea of:
@@ -73,17 +78,17 @@ AVOID:
   The project timeline doesn\'t allow for unplanned gaps in communication.
 :::
 
-::: {#guidelines-for-mentors .section}
+::: 
 ### Guidelines for mentors
 
 One key responsibility for mentors is to help GSoC students to connect with the project development community. Working on a project for the summer and only producing one giant patch at the end is a recipe for disappointment. It also means that the student\'s contributions are heavily dependent on the mentor\'s availability.
 
-First and foremost, encourage students to communicate using the regular project channels. If the project has a mentorship list (e.g. [core-mentorship@python.org](mailto:core-mentorship@python.org){.mailto .reference .external} for CPython), suggest they sign up and communicate with them there rather than through private email. For design discussions, again, try to use the appropriate project list (e.g. [python-ideas@python.org](mailto:python-ideas@python.org){.mailto .reference .external} for CPython) rather than private email. This helps other contributors be aware of what is going on with the GSoC project, and perhaps offer suggestions and advice.
+First and foremost, encourage students to communicate using the regular project channels. If the project has a mentorship list (e.g. [core-mentorship@python.org](mailto:core-mentorship@python.org) for CPython), suggest they sign up and communicate with them there rather than through private email. For design discussions, again, try to use the appropriate project list (e.g. [python-ideas@python.org](mailto:python-ideas@python.org) for CPython) rather than private email. This helps other contributors be aware of what is going on with the GSoC project, and perhaps offer suggestions and advice.
 
 Secondly, try to help the student to break up their work into smaller increments that can be submitted as individual patches. While this isn\'t always possible, smaller patches are generally easier to get reviewed, and submitting some early patches can help the student to become more comfortable with the project\'s development processes.
 :::
 
-::: {#version-control .section}
+::: 
 ### Version control
 
 Students should be using version control for their project.
@@ -128,14 +133,14 @@ AVOID:
 - **checking in changes that haven\'t been tested**
 :::
 
-::::: {#communication-with-project .section}
+::::: 
 ### Communication with project
 
 Most F/OSS projects have mailing lists for project members and the community and/or have IRC channels to communicate. These communication channels allow the student to keep in touch with the other project members and are an incredibly valuable resource. Other members of the project may be better versed in various parts of the project, they may provide a fallback if the mentor isn\'t available, and they may be a good sounding board for figuring out the specific behavior for features. You are assigned a mentor, but the whole community is there to help you learn. Make use of all the resources at your disposal.
 
 Shyness is a common problem for students who are new to open source development. At the beginning of the project, the student is encouraged to send a \"Hello! I\'m \... and I\'m working on a GSoC project on \... and here\'s a link to the proposal.\" email to project mailing lists and encouraged to log in and say \"hi\" on IRC. Break the ice early\--it makes the rest of the project easier. If you don\'t know where you announce yourself, ask your mentor.
 
-::: {#project-mailing-lists .section}
+::: 
 #### Project mailing lists
 
 Mailing lists are a great way to work out feature specifications and expected behavior.
@@ -175,10 +180,10 @@ AVOID:
   If someone insults you, it\'s best to ignore it.
 :::
 
-::: {#irc .section}
+::: 
 #### IRC
 
-Most F/OSS projects have an [IRC](#irc){.reference .internal} channel and some have more than one. People from the project and its community \"hang out\" on these channels and talk about various things. Some projects have regularly scheduled meetings to cover the status of the project, how development is going, status of major blocking bugs, map out future plans, \...
+Most F/OSS projects have an [IRC](#irc) channel and some have more than one. People from the project and its community \"hang out\" on these channels and talk about various things. Some projects have regularly scheduled meetings to cover the status of the project, how development is going, status of major blocking bugs, map out future plans, \...
 
 If the project has an IRC channel, it\'s a good idea to hang out there. This allows the student to interact with the community and also a forum for working out problems and ideas in real time.
 
@@ -210,12 +215,12 @@ AVOID:
 
   See:
 
-  - [http://www.linuxchix.org/irc-basics.html](http://www.linuxchix.org/irc-basics.html){.http .reference .external}
-  - [http://en.wikipedia.org/wiki/Internet_Relay_Chat](http://en.wikipedia.org/wiki/Internet_Relay_Chat){.http .reference .external}
+  - [http://www.linuxchix.org/irc-basics.html](http://www.linuxchix.org/irc-basics.html)
+  - [http://en.wikipedia.org/wiki/Internet_Relay_Chat](http://en.wikipedia.org/wiki/Internet_Relay_Chat)
 :::
 :::::
 
-::: {#design-documents .section}
+::: 
 ### Design documents
 
 It\'s a good idea for the student to maintain design documents during the course of the GSoC project. These design documents should cover:
@@ -230,4 +235,3 @@ The student and mentor should work out what design documents should be maintaine
 
 One thing to note is that the student shouldn\'t spend all his/her time doing design documents. It\'s important to keep track of the design, but it\'s also important to get some code done. The mentor should be able to help the student strike a balance between these two goals.
 :::
-:::::::::::::

@@ -1,11 +1,15 @@
 # AnandBPillai
 
-::: {#content dir="ltr" lang="en"}
-## Anand Balachandran Pillai {#Anand_Balachandran_Pillai}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Anand Balachandran Pillai 
 
 \...
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

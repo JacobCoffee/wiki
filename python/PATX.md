@@ -1,7 +1,11 @@
 # PATX
 
-::: {#content dir="ltr" lang="en"}
-[patx@patxbot.tk](mailto:patx@patxbot.tk){.mailto} (python (web) programmer)
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[patx@patxbot.tk](mailto:patx@patxbot.tk) (python (web) programmer)
 
 [CategoryHomepage](CategoryHomepage)
-:::

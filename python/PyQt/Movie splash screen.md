@@ -1,15 +1,20 @@
 # PyQt/Movie splash screen
 
-::::: {#content dir="ltr" lang="en"}
-# Movie splash screen {#Movie_splash_screen}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Movie splash screen 
 
 On the `#pyqt`{.backtick} channel on freenode, iTayb asked if it was possible to show a movie instead of a static image in a splash screen.
 
 The following code shows one way to do this, but it is implemented slightly differently to the way you might expect. Ideally, the drawContents() method of the QSplashScreen class would be reimplemented. However, this does not seem to get called, so we reimplement the paintEvent() method instead. This means that we can\'t use the showMessage() method to update the information in the splash screen.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-240fdc28cc0b04b7e5dbb914a366369847f2070c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys, time
    2 from PyQt4.QtCore import Qt, QTimer
    3 from PyQt4.QtGui import *
@@ -63,4 +68,3 @@ The following code shows one way to do this, but it is implemented slightly diff
 ```
 :::
 ::::
-:::::

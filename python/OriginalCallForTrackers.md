@@ -1,35 +1,40 @@
 # OriginalCallForTrackers
 
-:::: {#content dir="ltr" lang="en"}
-# Results {#Results}
+```{admonition} Legacy Wiki Page
+:class: note
 
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} **The infrastructure commitee made a recommendation on Oct 3rd, 2006. See [python-dev posting](http://mail.python.org/pipermail/python-dev/2006-October/069139.html){.http} for more (selected: Jira & Roundup).**
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Results 
+
+![/!\\](/wiki/europython/img/alert.png "/!\") **The infrastructure commitee made a recommendation on Oct 3rd, 2006. See [python-dev posting](http://mail.python.org/pipermail/python-dev/2006-October/069139.html) for more (selected: Jira & Roundup).**
 
 Four trackers were set up by the deadline of August 7 2006; see below for the list. A committee of four people is now looking at the submitted trackers, and will recommend one for use as the new Python bug tracker. The committee will make its recommendation in the fall, perhaps in October.
 
 Once a tracker has been selected, a new installation will be set up and the [SourceForge](SourceForge) bug data will be converted once more. That conversion may be more carefully done than the conversion for the demo trackers.
 
-# Participating Trackers {#Participating_Trackers}
+# Participating Trackers 
 
 ::: {}
 +--------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+:-----------------:+:--------------------------------------------------------------------------------:+
 | **Tracker wiki page**                                                          | **Test Tracker URL**                                                                                         | **Contact Person** (name & email)                                                                    |
 +--------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+-------------------+----------------------------------------------------------------------------------+
-| [TracTracker](TracTracker)                                              | [http://python-trac.swapoff.org](http://python-trac.swapoff.org){.http}                                      | Alec Thomas       | [alec@swapoff.org](mailto:alec@swapoff.org){.mailto}                             |
+| [TracTracker](TracTracker)                                              | [http://python-trac.swapoff.org](http://python-trac.swapoff.org)                                      | Alec Thomas       | [alec@swapoff.org](mailto:alec@swapoff.org)                             |
 +--------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+-------------------+----------------------------------------------------------------------------------+
-| [Roundup](http://www.mechanicalcat.net/tech/roundup/wiki/PythonTracker){.http} | [http://efod.se/python-tracker/](http://efod.se/python-tracker/){.http}                                      | Stefan Seefeld    | [seefeld@sympatico.ca](mailto:seefeld@sympatico.ca){.mailto}                     |
+| [Roundup](http://www.mechanicalcat.net/tech/roundup/wiki/PythonTracker) | [http://efod.se/python-tracker/](http://efod.se/python-tracker/)                                      | Stefan Seefeld    | [seefeld@sympatico.ca](mailto:seefeld@sympatico.ca)                     |
 +--------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+-------------------+----------------------------------------------------------------------------------+
-| [JiraTracker](JiraTracker)                                              | [http://jira.python.atlassian.com](http://jira.python.atlassian.com){.http}                                  | Jonathan Nolen    | [jonathan@atlassian.com](mailto:jonathan@atlassian.com){.mailto}                 |
+| [JiraTracker](JiraTracker)                                              | [http://jira.python.atlassian.com](http://jira.python.atlassian.com)                                  | Jonathan Nolen    | [jonathan@atlassian.com](mailto:jonathan@atlassian.com)                 |
 +--------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+-------------------+----------------------------------------------------------------------------------+
-| [LaunchpadTracker](LaunchpadTracker)                                    | [https://demo.launchpad.net/products/python/+bugs](https://demo.launchpad.net/products/python/+bugs){.https} | James Henstridge  | [james.henstridge@canonical.com](mailto:james.henstridge@canonical.com){.mailto} |
+| [LaunchpadTracker](LaunchpadTracker)                                    | [https://demo.launchpad.net/products/python/+bugs](https://demo.launchpad.net/products/python/+bugs) | James Henstridge  | [james.henstridge@canonical.com](mailto:james.henstridge@canonical.com) |
 +--------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+-------------------+----------------------------------------------------------------------------------+
 :::
 
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} No new trackers are being accepted for consideration. ![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"}
+![/!\\](/wiki/europython/img/alert.png "/!\") No new trackers are being accepted for consideration. ![/!\\](/wiki/europython/img/alert.png "/!\")
 
-To learn what the committee liked about various trackers participating, see [GoodTrackerFeatures](./GoodTrackerFeatures.html){.nonexistent} (to be edited by committee members only!).
+To learn what the committee liked about various trackers participating, see [GoodTrackerFeatures](./GoodTrackerFeatures.html) (to be edited by committee members only!).
 
-# The Announcement {#The_Announcement}
+# The Announcement 
 
 The Python Software Foundation\'s Infrastructure committee has been charged with finding a new tracker system to be used by the Python development team as a replacement for [SourceForge](SourceForge). The development team is currently unhappy with SF for several reasons which include:
 
@@ -45,7 +50,7 @@ For these reasons and others, we are requesting the Python community help us fin
 Because we are not sure exactly what are requirements for a tracker are we do not have a comprehensive requirements document. But we do have a short list of bare minimum needs:
 
 - Can import SF data
-  - [http://effbot.org/zone/sandbox-sourceforge.htm](http://effbot.org/zone/sandbox-sourceforge.htm){.http} contains instructions on how to access the data dump and work with the support tools (graciously developed by Fredrik Lundh)
+  - [http://effbot.org/zone/sandbox-sourceforge.htm](http://effbot.org/zone/sandbox-sourceforge.htm) contains instructions on how to access the data dump and work with the support tools (graciously developed by Fredrik Lundh)
 - Can export data
   - To prevent the need to develop our own tools to get our data out of the next tracker, there must be a way to get a dump of the data (formatted or raw) that includes \*all\* information
 - Has an email interface
@@ -57,12 +62,12 @@ If there is a tracker you wish to propose for Python development team use, these
   - If you do not have the server resources needed, you may contact the Infrastructure committee at infrastructure at python.org, but our resources are limited by both machine and manpower, so \*please\* do what you can to use your own servers; we do not expect you to provide hosting for the final installation of the tracker for use by python-dev, though, if your tracker is chosen
 
 - Import the SF data dump
-  - [http://effbot.org/zone/sandbox-sourceforge.htm](http://effbot.org/zone/sandbox-sourceforge.htm){.http}
+  - [http://effbot.org/zone/sandbox-sourceforge.htm](http://effbot.org/zone/sandbox-sourceforge.htm)
 
 - Make the Infrastructure committee members administrators of the tracker
-  - A list of the committee members can be found at [http://wiki.python.org/moin/PythonSoftwareFoundationCommittees#infrastructure-committee-ic](http://wiki.python.org/moin/PythonSoftwareFoundationCommittees#infrastructure-committee-ic){.http}
+  - A list of the committee members can be found at [http://wiki.python.org/moin/PythonSoftwareFoundationCommittees#infrastructure-committee-ic](http://wiki.python.org/moin/PythonSoftwareFoundationCommittees#infrastructure-committee-ic)
 
-- Add your tracker to the wiki page at [http://wiki.python.org/moin/CallForTrackers](http://wiki.python.org/moin/CallForTrackers){.http}
+- Add your tracker to the wiki page at [http://wiki.python.org/moin/CallForTrackers](http://wiki.python.org/moin/CallForTrackers)
 
   - This includes specifying the contact information for a \*single\* lead person to contact for any questions about the tracker; this is to keep communication simple and prevent us from having competing installations of the same tracker software
 
@@ -81,4 +86,3 @@ If you have any questions, feel free to email infrastructure at python.org .
 ------------------------------------------------------------------------
 
 [CategoryTrackerArchive](CategoryTrackerArchive)
-::::

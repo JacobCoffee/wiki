@@ -1,16 +1,21 @@
 # JythonMonthly/Newsletters/March2011
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 ::: {}
   --------------------------------------- ---------------------------------------------------------------------------------------------------
-  ***Jython Monthly***                     ![](http://www.jython.org/css/jython.png "http://www.jython.org/css/jython.png"){.external_image}
+  ***Jython Monthly***                     ![](http://www.jython.org/css/jython.png "http://www.jython.org/css/jython.png")
   **February/March 2011 \-- Issue #48**   
   --------------------------------------- ---------------------------------------------------------------------------------------------------
 :::
 
 This is the Jython Monthly newsletter for the months of February and March of 2011. Jython 2.5.2 has been released! Please download this release you haven\'t done so already to take advantage of the new features and bug repairs!
 
-If you have any questions or suggestions for the newsletter, please feel free to send them to [jythonpodcast@gmail.com](mailto:jythonpodcast@gmail.com){.mailto}. I appreciate the feedback!
+If you have any questions or suggestions for the newsletter, please feel free to send them to [jythonpodcast@gmail.com](mailto:jythonpodcast@gmail.com). I appreciate the feedback!
 
 Thanks
 
@@ -18,17 +23,17 @@ My information is as follows:
 
 Josh Juneau
 
-- Podcast Website: [http://www.jythonpodcast.com](http://www.jythonpodcast.com){.http}
+- Podcast Website: [http://www.jythonpodcast.com](http://www.jythonpodcast.com)
 
-- [jythonpodcast@gmail.com](mailto:jythonpodcast@gmail.com){.mailto}
+- [jythonpodcast@gmail.com](mailto:jythonpodcast@gmail.com)
 
-- Podcast Feed: [http://feeds.feedburner.com/JythonPodcast](http://feeds.feedburner.com/JythonPodcast){.http}
+- Podcast Feed: [http://feeds.feedburner.com/JythonPodcast](http://feeds.feedburner.com/JythonPodcast)
 
-## News {#News}
+## News 
 
 **Jython 2.5.2 RC3 Has Been Released**
 
-The Jython development team proudly announced the release of Jython 2.5.2 just ahead of [PyCon](./PyCon.html){.nonexistent} 2011. This release is packed with bug repairs and quite a few enhancements to make Jython even better.
+The Jython development team proudly announced the release of Jython 2.5.2 just ahead of [PyCon](./PyCon.html) 2011. This release is packed with bug repairs and quite a few enhancements to make Jython even better.
 
 *New Features*
 
@@ -52,11 +57,11 @@ The Jython development team proudly announced the release of Jython 2.5.2 just a
 
 \* Lots of bug fixes!
 
-Please go the [Jython downloads](http://www.jython.org/downloads.html){.http} and grab the release today!
+Please go the [Jython downloads](http://www.jython.org/downloads.html) and grab the release today!
 
 **Jython 2.6 Development Underway**
 
-There was a Jython sprint at [PyCon](./PyCon.html){.nonexistent} 2011 in which the developers were able to get underway with 2.6! If you are interested in viewing the roadmap or contributing to the release, please check out the [roadmap](http://wiki.python.org/jython/RoadMap){.http} on the wiki to see what is actively being worked on at this time!
+There was a Jython sprint at [PyCon](./PyCon.html) 2011 in which the developers were able to get underway with 2.6! If you are interested in viewing the roadmap or contributing to the release, please check out the [roadmap](http://wiki.python.org/jython/RoadMap) on the wiki to see what is actively being worked on at this time!
 
 **Django-Jython 1.2.0rc1 Has Been Released**
 
@@ -70,87 +75,86 @@ Altough not directly related to Jython, the Django web framework has released ve
 
 A framework for writing class-based views. Built-in support for using Python's logging facilities. Contrib support for easy handling of static files. Django's testing framework now supports (and ships with a copy of) the unittest2 library. There's plenty more, of course; see the coverage of new features below for a full rundown and details.
 
-To download the latest release, please visit the [Django download](http://www.djangoproject.com/download/){.http} page.
+To download the latest release, please visit the [Django download](http://www.djangoproject.com/download/) page.
 
 *The Django-Jython project is currently running tests against the Django 1.3 codebase and plans to release a beta for Django-Jython 1.3 as early as next week. Please download Django-Jython 1.3b1 once it is released and test!*
 
-## Articles {#Articles}
+## Articles 
 
 **The Prevalance of Non-Java languages on the JVM**
 
 The current Java.net poll is showing some interesting early results. With the number of responses approaching 100 so far, the poll question How much of your JVM-based programming is in languages other than Java? reveals that just over half of the respondents replied \"All my JVM programming is in Java.\" In my experience, an even higher percentage of Java developers do not do any \"JVM programming\" outside the Java language itself. However, I\'ll admit that I had expected more than half of the respondents to a Java.net survey to be regular users of JVM languages other than Java. There has always been a disconnect between the everyday Java developer and the Java developer who regularly reads and responds to online Java community resources such as Java.net.
 
-[Read More](http://www.javaworld.com/community/?q=node/7468){.http}
+[Read More](http://www.javaworld.com/community/?q=node/7468)
 
-**Scripting in Oracle Data Integrator: Jython, Java [BeanShell](./BeanShell.html){.nonexistent}, Java, Open Tools, ODI API & SDK, ODI Substitution API**
+**Scripting in Oracle Data Integrator: Jython, Java [BeanShell](./BeanShell.html), Java, Open Tools, ODI API & SDK, ODI Substitution API**
 
 Here is another post on the various scripting options in ODI. It gives a brief overview when to use each and the advantages and disadvantages.
 
-[Read Article](http://www.business-intelligence-quotient.com/?p=1161){.http}
+[Read Article](http://www.business-intelligence-quotient.com/?p=1161)
 
-## Blogs {#Blogs}
+## Blogs 
 
-[NQUAD Parsing Using Jython](http://captsolo.net/info/blog_a.php/2011/02/21/nquad_parsing_using_jython){.http}
+[NQUAD Parsing Using Jython](http://captsolo.net/info/blog_a.php/2011/02/21/nquad_parsing_using_jython)
 
-[Using Java Components from JRuby and Jython](http://rudamoura.com/jruby-jython.html){.http}
+[Using Java Components from JRuby and Jython](http://rudamoura.com/jruby-jython.html)
 
-[Networkspaces and Jython](http://watercooler.biola.edu/nurometic/tidbits/networkspaces-and-jython){.http}
+[Networkspaces and Jython](http://watercooler.biola.edu/nurometic/tidbits/networkspaces-and-jython)
 
-[Jython 2.5.2 Benchmarks 20% Faster](http://java.dzone.com/dose/daily-dose-release-jython-252){.http}
+[Jython 2.5.2 Benchmarks 20% Faster](http://java.dzone.com/dose/daily-dose-release-jython-252)
 
-[Python VM Summit Rough Notes](http://www.boredomandlaziness.org/2011/03/python-vm-summit-rough-notes.html){.http}
+[Python VM Summit Rough Notes](http://www.boredomandlaziness.org/2011/03/python-vm-summit-rough-notes.html)
 
-[Live Processing with Jython Over ActiveMQ or Stomp](http://forum.processing.org/topic/live-processing-with-jython-over-activemq-or-stomp){.http}
+[Live Processing with Jython Over ActiveMQ or Stomp](http://forum.processing.org/topic/live-processing-with-jython-over-activemq-or-stomp)
 
-## Projects {#Projects}
+## Projects 
 
-[jythonet](http://code.google.com/p/jythonet/){.http}
+[jythonet](http://code.google.com/p/jythonet/)
 
 jythonet is the best bridge between Jython and Java Servlet.
 
-[Jython Documentation Set](http://sourceforge.net/projects/jythondocs/){.http}
+[Jython Documentation Set](http://sourceforge.net/projects/jythondocs/)
 
 The Jython documentation set has been made available to the public via Sourceforge.net. If you would like to pull down the latest set of documentation for using Jython, go to the project and check it out. You can build the sources using Sphinx, and the sources are available via Mercurial. We are always looking for contributors, so if anyone is interested in helping keep the docs up to date, please grab a copy of them and send mail to the Jython-dev list for commit privileges.
 
-## Video {#Video}
+## Video 
 
-[Jython Concurrency](http://blip.tv/file/4881528){.http} - Jim Baker
+[Jython Concurrency](http://blip.tv/file/4881528) - Jim Baker
 
-[Measuring Performance of Jython with OpenCore's Agent Bundle & Console](http://opencore.jinspired.com/?p=2623){.http}
+[Measuring Performance of Jython with OpenCore's Agent Bundle & Console](http://opencore.jinspired.com/?p=2623)
 
-## Frameworks {#Frameworks}
+## Frameworks 
 
-[Django-Jython Project](http://code.google.com/p/django-jython/){.http}
+[Django-Jython Project](http://code.google.com/p/django-jython/)
 
-[Pylons on Jython](http://wiki.pylonshq.com/display/pylonscookbook/Pylons+on+Jython){.http}
+[Pylons on Jython](http://wiki.pylonshq.com/display/pylonscookbook/Pylons+on+Jython)
 
-[Web2Py](http://www.web2py.com/){.http}
+[Web2Py](http://www.web2py.com/)
 
-[Jython-Swingutils v1.0.1](http://bitbucket.org/agronholm/jython-swingutils/){.http}
+[Jython-Swingutils v1.0.1](http://bitbucket.org/agronholm/jython-swingutils/)
 
-## IDE {#IDE}
+## IDE 
 
-[Field Project](http://openendedgroup.com/field){.http}
+[Field Project](http://openendedgroup.com/field)
 
-[PyDev 1.6.5](http://pydev.sourceforge.net/){.http}
+[PyDev 1.6.5](http://pydev.sourceforge.net/)
 
-[Netbeans 7.0 Beta](http://www.netbeans.org){.http}
+[Netbeans 7.0 Beta](http://www.netbeans.org)
 
-[jHepWork](http://jwork.org/jhepwork){.http}
+[jHepWork](http://jwork.org/jhepwork)
 
-[Intellij](http://www.jetbrains.com/idea/){.http}
+[Intellij](http://www.jetbrains.com/idea/)
 
-[Jython Processor with Swing GUI](http://jythonprocessor.sourceforge.net/){.http}
+[Jython Processor with Swing GUI](http://jythonprocessor.sourceforge.net/)
 
 ::: {}
   ----------------------------------------------------------------
   **Links**
-  [Jython Home](http://www.jython.org){.http}
-  [Python Home](http://www.python.org){.http}
-  [Jython WikiPedia](http://en.wikipedia.org/wiki/Jython){.http}
-  [Freshmeat.net](http://freshmeat.net/projects/jython/){.http}
-  [Python Daily News](http://www.pythonware.com/daily/){.http}
-  [Planet Jython](http://planet.jython.org/){.http}
+  [Jython Home](http://www.jython.org)
+  [Python Home](http://www.python.org)
+  [Jython WikiPedia](http://en.wikipedia.org/wiki/Jython)
+  [Freshmeat.net](http://freshmeat.net/projects/jython/)
+  [Python Daily News](http://www.pythonware.com/daily/)
+  [Planet Jython](http://planet.jython.org/)
   ----------------------------------------------------------------
 :::
-:::::

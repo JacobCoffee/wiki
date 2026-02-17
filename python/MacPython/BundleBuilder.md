@@ -1,15 +1,20 @@
 # MacPython/BundleBuilder
 
-::::::: {#content dir="ltr" lang="en"}
-### NOTE: \[\[../py2app\]\] is another tool for creating Mac Python applications, and many users prefer it to bundlebuilder. {#NOTE:_.5B.5B...2Fpy2app.5D.5D_is_another_tool_for_creating_Mac_Python_applications.2C_and_many_users_prefer_it_to_bundlebuilder.}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### NOTE: \[\[../py2app\]\] is another tool for creating Mac Python applications, and many users prefer it to bundlebuilder. 
 
 Building applications on MacOS X is very easy using bundlebuilder.py.
 
 First create your app building script like so:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-17fbf5ba36d4f51a7676aba2b7d81aa9c5a7f32a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 ### makeapplication.py
    2 from bundlebuilder import buildapp
    3  
@@ -37,11 +42,11 @@ That command should create a stand-alone application bundle in build/Application
 
 When you run your makeapplication.py, there will most likely be a few warnings. These can usually be ignored safely. Also, there may be additional modules and libraries that your application requires that buildapp() couldn\'t determine it needed to include. You can add those it missed using its includeModules and includePacakges arguments.
 
-When building a stand-alone application that uses additional Frameworks besides the Python.Framework, you can have buildapp() include them for you using its libs argument. For example, if your application uses [Tkinter](http://tcltkaqua.sourceforge.net/){.http}, you\'d use this:
+When building a stand-alone application that uses additional Frameworks besides the Python.Framework, you can have buildapp() include them for you using its libs argument. For example, if your application uses [Tkinter](http://tcltkaqua.sourceforge.net/), you\'d use this:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3735913a7ea4017f8e64e1fe3d288cfd1ec42917 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 buildapp(
    2     ...
    3     standalone=1,
@@ -113,4 +118,3 @@ There are other options you can set in the call to buildapp(). See the bundlebui
       -v, --verbose increase verbosity level
       -q, --quiet decrease verbosity level
       -h, --help print this message
-:::::::

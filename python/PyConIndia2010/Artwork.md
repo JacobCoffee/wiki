@@ -1,33 +1,37 @@
 # PyConIndia2010/Artwork
 
-::: {#content dir="ltr" lang="en"}
-## T shirt designs {#T_shirt_designs}
+```{admonition} Legacy Wiki Page
+:class: note
 
-![front.jpg](attachments/PyConIndia2010(2f)Artwork/front.jpg "front.jpg"){.attachment}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-![Back.jpg](attachments/PyConIndia2010(2f)Artwork/Back.jpg "Back.jpg"){.attachment}
+## T shirt designs 
 
-## Logos {#Logos}
+![front.jpg](attachments/PyConIndia2010(2f)Artwork/front.jpg "front.jpg")
 
-![PyCon-Logo-02.jpg](attachments/PyConIndia2010(2f)Artwork/PyCon-Logo-02.jpg "PyCon-Logo-02.jpg"){.attachment}
+![Back.jpg](attachments/PyConIndia2010(2f)Artwork/Back.jpg "Back.jpg")
 
-![pycon-india-box.png](attachments/PyConIndia2010(2f)Artwork/pycon-india-box.png "pycon-india-box.png"){.attachment}
+## Logos 
 
-The graphic below uses an obsolete version of the Python logo (too square, wrong colours). If chosen, it should be redone with the current, official logo, available from [http://www.python.org/community/logos/](http://www.python.org/community/logos/){.http}
+![PyCon-Logo-02.jpg](attachments/PyConIndia2010(2f)Artwork/PyCon-Logo-02.jpg "PyCon-Logo-02.jpg")
 
-![pycon.jpg](attachments/PyConIndia2010(2f)Artwork/pycon.jpg "pycon.jpg"){.attachment}
+![pycon-india-box.png](attachments/PyConIndia2010(2f)Artwork/pycon-india-box.png "pycon-india-box.png")
 
-The graphic below uses an obsolete version of the Python logo (too square, wrong colours). If chosen, it should be redone with the current, official logo, available from [http://www.python.org/community/logos/](http://www.python.org/community/logos/){.http}
+The graphic below uses an obsolete version of the Python logo (too square, wrong colours). If chosen, it should be redone with the current, official logo, available from [http://www.python.org/community/logos/](http://www.python.org/community/logos/)
 
-![type 2.jpg](attachments/PyConIndia2010(2f)Artwork/type%202.jpg "type 2.jpg"){.attachment}
+![pycon.jpg](attachments/PyConIndia2010(2f)Artwork/pycon.jpg "pycon.jpg")
 
-![PyConNibbles.png](attachments/PyConIndia2010(2f)Artwork/PyConNibbles.png "PyConNibbles.png"){.attachment}
+The graphic below uses an obsolete version of the Python logo (too square, wrong colours). If chosen, it should be redone with the current, official logo, available from [http://www.python.org/community/logos/](http://www.python.org/community/logos/)
 
-![stamp-small.png](attachments/PyConIndia2010(2f)Artwork/stamp-small.png "stamp-small.png"){.attachment}
+![type 2.jpg](attachments/PyConIndia2010(2f)Artwork/type%202.jpg "type 2.jpg")
 
-![flag-small.png](attachments/PyConIndia2010(2f)Artwork/flag-small.png "flag-small.png"){.attachment}
+![PyConNibbles.png](attachments/PyConIndia2010(2f)Artwork/PyConNibbles.png "PyConNibbles.png")
 
-![inpycon-2010-logo-scaled.png](attachments/PyConIndia2010(2f)Artwork/inpycon-2010-logo-scaled.png "inpycon-2010-logo-scaled.png"){.attachment}
+![stamp-small.png](attachments/PyConIndia2010(2f)Artwork/stamp-small.png "stamp-small.png")
 
-![escher-logo.png](attachments/PyConIndia2010(2f)Artwork/escher-logo.png "escher-logo.png"){.attachment} ![escher.png](attachments/PyConIndia2010(2f)Artwork/escher.png "escher.png"){.attachment}
-:::
+![flag-small.png](attachments/PyConIndia2010(2f)Artwork/flag-small.png "flag-small.png")
+
+![inpycon-2010-logo-scaled.png](attachments/PyConIndia2010(2f)Artwork/inpycon-2010-logo-scaled.png "inpycon-2010-logo-scaled.png")
+
+![escher-logo.png](attachments/PyConIndia2010(2f)Artwork/escher-logo.png "escher-logo.png") ![escher.png](attachments/PyConIndia2010(2f)Artwork/escher.png "escher.png")

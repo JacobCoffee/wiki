@@ -1,6 +1,11 @@
 # TrackerAccessControl
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The permissions in the table are as follows:
 
 - R: View
@@ -54,4 +59,3 @@ In addition, the following permissions are granted:
 - Anonymous: Web access
 - User, Developer, Coordinator: Web and Email access, May Report Misclassified
 - Coordinator: May Classify
-::::

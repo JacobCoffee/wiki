@@ -1,30 +1,34 @@
 # demianbrecht
 
-::: {#content dir="ltr" lang="en"}
-## Demian Brecht {#Demian_Brecht}
+```{admonition} Legacy Wiki Page
+:class: note
 
-- Email: [demiabrecht@gmail.com](mailto:demiabrecht@gmail.com){.mailto}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- [LinkedIn](./LinkedIn.html){.nonexistent}: [https://ca.linkedin.com/in/demianbrecht](https://ca.linkedin.com/in/demianbrecht){.https}
+## Demian Brecht 
 
-- Medium: [https://medium.com/@demianbrecht](https://medium.com/@demianbrecht){.https}
+- Email: [demiabrecht@gmail.com](mailto:demiabrecht@gmail.com)
 
-## Python {#Python}
+- [LinkedIn](./LinkedIn.html): [https://ca.linkedin.com/in/demianbrecht](https://ca.linkedin.com/in/demianbrecht)
+
+- Medium: [https://medium.com/@demianbrecht](https://medium.com/@demianbrecht)
+
+## Python 
 
 - PSF contributing/voting member
 - stdlib work focused on http-related modules
 
-### External projects {#External_projects}
+### External projects 
 
 #### jose
 
-An implementation of the JWT draft spec: [https://github.com/demonware/jose](https://github.com/demonware/jose){.https}
+An implementation of the JWT draft spec: [https://github.com/demonware/jose](https://github.com/demonware/jose)
 
 #### sanction
 
-A ridiculously simple OAuth 2.0 client: [https://github.com/demianbrecht/sanction](https://github.com/demianbrecht/sanction){.https}
+A ridiculously simple OAuth 2.0 client: [https://github.com/demianbrecht/sanction](https://github.com/demianbrecht/sanction)
 
 #### httplib3
 
-A friendly fork of the http package, attempting to prove out distributed development of standard library modules: [https://github.com/demianbrecht/httplib3](https://github.com/demianbrecht/httplib3){.https}
-:::
+A friendly fork of the http package, attempting to prove out distributed development of standard library modules: [https://github.com/demianbrecht/httplib3](https://github.com/demianbrecht/httplib3)

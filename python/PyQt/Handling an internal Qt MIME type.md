@@ -1,15 +1,20 @@
 # PyQt/Handling an internal Qt MIME type
 
-::::: {#content dir="ltr" lang="en"}
-# Handling an internal Qt MIME type {#Handling_an_internal_Qt_MIME_type}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Handling an internal Qt MIME type 
 
 On the `#pyqt`{.backtick} channel on Freenode, `reenen`{.backtick} asked if it was possible to handle the internal MIME type Qt uses for drag and drop between item views.
 
 See [Handling Qt\'s internal item MIME type](./PyQt(2f)Handling(20)Qt(27)s(20)internal(20)item(20)MIME(20)type.html) for the details.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-abb98001d4d21b69e41f9e59ebe2bcf7c19db306 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import QDataStream, Qt, QVariant
    3 from PyQt4.QtGui import *
@@ -91,4 +96,3 @@ See [Handling Qt\'s internal item MIME type](./PyQt(2f)Handling(20)Qt(27)s(20)in
 ```
 :::
 ::::
-:::::

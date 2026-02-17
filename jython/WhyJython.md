@@ -1,11 +1,16 @@
 # WhyJython
 
-:::: {#content dir="ltr" lang="en"}
-*Jython, lest you do not know of it, is the most compelling weapon the Java platform has for its survival into the 21st century - [SeanMcGrath](./SeanMcGrath.html){.nonexistent}*
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+*Jython, lest you do not know of it, is the most compelling weapon the Java platform has for its survival into the 21st century - [SeanMcGrath](./SeanMcGrath.html)*
 
 ------------------------------------------------------------------------
 
-## Why Jython {#Why_Jython}
+## Why Jython 
 
 There are numerous alternative languages implemented for the Java VM. The following features help to separate Jython from the rest:
 
@@ -15,7 +20,7 @@ There are numerous alternative languages implemented for the Java VM. The follow
 - Bean Properties - make use of Java packages much easier.
 - Python Language - combines remarkable power with very clear syntax. It also supports a full object-oriented programming model which makes it a natural fit for Java\'s OO design.
 
-## What Does Jython Do Well? {#What_Does_Jython_Do_Well.3F}
+## What Does Jython Do Well? 
 
 - Prototyping
 - Java investigation
@@ -35,13 +40,13 @@ There are numerous alternative languages implemented for the Java VM. The follow
 - Excellent embedded scripting language
   - Object Domain UML Tool
 
-  - [PushToTest](./PushToTest.html){.nonexistent}
+  - [PushToTest](./PushToTest.html)
 
   - Drools
 
 ------------------------------------------------------------------------
 
-## Differences - Python & Jython {#Differences_-_Python_.26_Jython}
+## Differences - Python & Jython 
 
 **Python 2.7**
 
@@ -53,7 +58,7 @@ There are numerous alternative languages implemented for the Java VM. The follow
 
 - Extend with C
 
-- GIL ^[1](#fnref-0edd12e1f236f8b9c64bb66c211e066bace41c1a){#fndef-0edd12e1f236f8b9c64bb66c211e066bace41c1a-0}^
+- GIL ^[1](#fnref-0edd12e1f236f8b9c64bb66c211e066bace41c1a)^
 
 - Python garbage collection, which mixes ref counting and mark and sweep
 
@@ -67,6 +72,5 @@ There are numerous alternative languages implemented for the Java VM. The follow
 - Java garbage collection, including choice of standard Java GCs; but also provides same API as Python 2.7 to observe GC
 
 ::: footnotes
-1.  []{#fnref-0edd12e1f236f8b9c64bb66c211e066bace41c1a}Global Interpreter Lock, explained in \[[http://docs.python.org/api/threads.html](http://docs.python.org/api/threads.html){.http} Python documentation, chapter 8.1\] ([1](#fndef-0edd12e1f236f8b9c64bb66c211e066bace41c1a-0))
+1.  []Global Interpreter Lock, explained in \[[http://docs.python.org/api/threads.html](http://docs.python.org/api/threads.html) Python documentation, chapter 8.1\] ([1](#fndef-0edd12e1f236f8b9c64bb66c211e066bace41c1a-0))
 :::
-::::

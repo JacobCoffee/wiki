@@ -1,9 +1,14 @@
 # PyTextile
 
-::::: {#content dir="ltr" lang="en"}
-# PyTextile {#PyTextile-1}
+```{admonition} Legacy Wiki Page
+:class: note
 
-[PyTextile](http://pypi.python.org/pypi/textile){.http} is a *very* easy to use text-to-HTML converter.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PyTextile 
+
+[PyTextile](http://pypi.python.org/pypi/textile) is a *very* easy to use text-to-HTML converter.
 
 You can test the following demonstration of Textile code, which can convert *this:*
 
@@ -28,17 +33,17 @@ to *this:*
      
             <p>Link to <a href="http://slashdot.org/">Slashdot</a></p>
 
-## Using PyTextile {#Using_PyTextile}
+## Using PyTextile 
 
-First, [download the latest PyTextile.](http://pypi.python.org/pypi/textile){.http}
+First, [download the latest PyTextile.](http://pypi.python.org/pypi/textile)
 
 Untar it, and enter the `textile` directory. Start a python interpreter.
 
 Type:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-0b0cc4b248d24332f3a2465f8cd24c1550fc37f2 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import textile
    2 
    3 s = """
@@ -58,19 +63,18 @@ Type:
 :::
 ::::
 
-You\'ll see beautiful HTML on the other side, ready for inclusion in a web page. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+You\'ll see beautiful HTML on the other side, ready for inclusion in a web page. ![:)](/wiki/europython/img/smile.png ":)")
 
-### Options {#Options}
+### Options 
 
 PyTextile takes 3 optional arguments:
 
     def textile(self, text, rel=None, head_offset=0, html_type='xhtml', sanitize=False):
 
-## See Also: {#See_Also:}
+## See Also: 
 
 [reStructuredText](reStructuredText) as a markup format to convert text to HTML.
 
-# Discussion {#Discussion}
+# Discussion 
 
 (none yet!)
-:::::

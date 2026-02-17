@@ -1,11 +1,16 @@
 # GnuEnterprise
 
-::: {#content dir="ltr" lang="en"}
-### GNU Enterprise : Business Application Framework {#GNU_Enterprise_:_Business_Application_Framework}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### GNU Enterprise : Business Application Framework 
 
 URL
 
-:   [http://www.gnuenterprise.org/](http://www.gnuenterprise.org/){.http}
+:   [http://www.gnuenterprise.org/](http://www.gnuenterprise.org/)
 
 stable version
 
@@ -19,4 +24,3 @@ platforms
 
 Python versions
 :   2.1 or later
-:::

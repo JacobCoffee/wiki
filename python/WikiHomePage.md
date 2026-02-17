@@ -1,7 +1,12 @@
 # WikiHomePage
 
-::: {#content dir="ltr" lang="en"}
-# Wiki Home Page {#Wiki_Home_Page}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Wiki Home Page 
 
 A WikiHomePage is your personal page on a [WikiWikiWeb](WikiWikiWeb), where you can put information on how to contact you, your interests and skills, etc. It is the personal property of the owner (or whoever created it), so be careful when editing it.
 
@@ -12,7 +17,7 @@ Note that such pages are \"owned\" by the respective person and should not be ed
 - ----
       Just saying Hi! -- JürgenHermann
 
-## Creating a Home Page {#Creating_a_Home_Page}
+## Creating a Home Page 
 
 To create a home page for yourself, first you have to login into the wiki. Then:
 
@@ -27,4 +32,3 @@ Edit the page by adding your name at the top. Add your email address if you want
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

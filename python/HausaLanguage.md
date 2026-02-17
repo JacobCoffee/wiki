@@ -1,6 +1,11 @@
 # HausaLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Hausa
 
 Language Codes :
@@ -11,7 +16,7 @@ ISO 639-2: hau
 
 ISO 639-3: hau
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -33,11 +38,11 @@ Where these pages really need help:
 
 **هَوْسَ / Hausa**
 
-Hausa phrases from [Friends of Nigeria](http://www.wikifon.org/index.php?title=Hausa_Phrases_I_Just_Can't_Get_Out_of_My_Head){.http}
+Hausa phrases from [Friends of Nigeria](http://www.wikifon.org/index.php?title=Hausa_Phrases_I_Just_Can't_Get_Out_of_My_Head)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8fe32daeaf1eab328b67c853941a19d649368a37 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # python 3.0 or 3.1
    2 
    3 homilies = {'elephant':'Giwa, a wani gari, zomo ne',
@@ -54,4 +59,3 @@ Hausa phrases from [Friends of Nigeria](http://www.wikifon.org/index.php?title=H
 ------------------------------------------------------------------------
 
 [CategoryLanguage](CategoryLanguage)
-:::::

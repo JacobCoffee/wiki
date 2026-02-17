@@ -1,7 +1,12 @@
 # PythonWikiMaintainers
 
-:::: {#content dir="ltr" lang="en"}
-## Are you a Python Wiki Maintainer? {#Are_you_a_Python_Wiki_Maintainer.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Are you a Python Wiki Maintainer? 
 
 If you contribute to the Python Wiki you are! This page is for discussing administration of the Python Wiki. If you want to scurry around and help keep the Wiki well structured and clean up any problems that arise or have any questions about those topics, this is the place.
 
@@ -17,7 +22,7 @@ Related info:
 
 - [PythonWikiTasks](PythonWikiTasks) - specific work done on the Wiki
 
-## Discussion {#Discussion}
+## Discussion 
 
 BTW, the [InterWiki](InterWiki) name of this Wiki is `PythonInfo`{.backtick}.
 
@@ -26,4 +31,3 @@ BTW, the [InterWiki](InterWiki) name of this Wiki is `PythonInfo`{.backtick}.
 ------------------------------------------------------------------------
 
 [CategoryPythonWebsite](CategoryPythonWebsite)
-::::

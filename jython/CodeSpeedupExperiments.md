@@ -1,7 +1,12 @@
 # CodeSpeedupExperiments
 
-::: {#content dir="ltr" lang="en"}
-## Code Speedup Experiments {#Code_Speedup_Experiments}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Code Speedup Experiments 
 
 This is a log of the speed up experiments that we are conducting.
 
@@ -15,11 +20,10 @@ Here are some experiments we could conduct. For each, we would compare against a
 
 - Etc
 
-### Related Speedups {#Related_Speedups}
+### Related Speedups 
 
 Before venturing into these experiments, I tried to speedup the `PyByteCode`. You can view the page on that at [CodeSpeedupExperiments/PyByteCode](./CodeSpeedupExperiments(2f)PyByteCode.html)
 
-### Repository {#Repository}
+### Repository 
 
-All the work is being done at a mercurial repo at [http://bitbucket.org/shashank/jython-experiments/](http://bitbucket.org/shashank/jython-experiments/){.http}
-:::
+All the work is being done at a mercurial repo at [http://bitbucket.org/shashank/jython-experiments/](http://bitbucket.org/shashank/jython-experiments/)

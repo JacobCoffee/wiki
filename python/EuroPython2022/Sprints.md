@@ -1,11 +1,15 @@
 # EuroPython2022/Sprints
 
-::: {#content dir="ltr" lang="en"}
-# EuroPython 2022 Sprints {#EuroPython_2022_Sprints}
+```{admonition} Legacy Wiki Page
+:class: note
 
-If you want to host an sprint please check this page. [https://ep2022.europython.eu/sprints](https://ep2022.europython.eu/sprints){.https}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Sprint Locations {#Sprint_Locations}
+# EuroPython 2022 Sprints 
 
-[https://ep2022.europython.eu/where](https://ep2022.europython.eu/where){.https}
-:::
+If you want to host an sprint please check this page. [https://ep2022.europython.eu/sprints](https://ep2022.europython.eu/sprints)
+
+## Sprint Locations 
+
+[https://ep2022.europython.eu/where](https://ep2022.europython.eu/where)

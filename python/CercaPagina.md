@@ -1,6 +1,11 @@
 # CercaPagina
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Puoi usare questa pagina per fare delle ricerche in tutto il contenuto di questo [WikiWikiWeb](WikiWikiWeb). Le ricerche non tengono conto del maiuscolo/minuscolo.
 
 Dei buoni punti di partenza per esplorare il wiki sono:
@@ -9,9 +14,9 @@ Dei buoni punti di partenza per esplorare il wiki sono:
 
 - CercaPagina: svariate maniere di ricercare una pagina
 
-- [IndiceDeiTitoli](./IndiceDeiTitoli.html){.nonexistent}: elenco di tutte le pagine del wiki
+- [IndiceDeiTitoli](./IndiceDeiTitoli.html): elenco di tutte le pagine del wiki
 
-- [IndicePerParola](./IndicePerParola.html){.nonexistent}: elenco di tutte le parole che formano i titoli delle pagine
+- [IndicePerParola](./IndicePerParola.html): elenco di tutte le parole che formano i titoli delle pagine
 
 - [WikiSandBox](WikiSandBox): una pagina per gli esperimenti, che puoi modificare a piacere
 
@@ -38,4 +43,3 @@ Oppure andare direttamente a una pagina, o crearla immettendone qui il nome:
   ::: {}
   :::
   ::::
-:::

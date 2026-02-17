@@ -1,12 +1,17 @@
 # reference/managing_nonprofit
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Managing the Nonprofit Organization by Peter F. Drucker
 
 - Subtitle: "Practices and Principles"
-- [Amazon.ca](http://www.amazon.ca/dp/0060851147/){.http .reference .external}
-- [Amazon.com](http://www.amazon.com/dp/0060851147/){.http .reference .external}
-- Good overview on [Nick's Book Blog](http://nicksbookblog.blogspot.com/){.http .reference .external} in five parts ([1](http://nicksbookblog.blogspot.com/2005/11/managing-nonprofit-organization-part.html){.http .reference .external}, [2](http://nicksbookblog.blogspot.com/2005/11/managing-nonprofit-organization-part_20.html){.http .reference .external}, [3](http://nicksbookblog.blogspot.com/2005/11/managing-nonprofit-organiz_113254192899268562.html){.http .reference .external}, [4](http://nicksbookblog.blogspot.com/2005/11/managing-nonprofit-organization-part_21.html){.http .reference .external}, [5](http://nicksbookblog.blogspot.com/2005/11/managing-nonprofit-organiz_113256906836628027.html){.http .reference .external})
+- [Amazon.ca](http://www.amazon.ca/dp/0060851147/)
+- [Amazon.com](http://www.amazon.com/dp/0060851147/)
+- Good overview on [Nick's Book Blog](http://nicksbookblog.blogspot.com/) in five parts ([1](http://nicksbookblog.blogspot.com/2005/11/managing-nonprofit-organization-part.html), [2](http://nicksbookblog.blogspot.com/2005/11/managing-nonprofit-organization-part_20.html), [3](http://nicksbookblog.blogspot.com/2005/11/managing-nonprofit-organiz_113254192899268562.html), [4](http://nicksbookblog.blogspot.com/2005/11/managing-nonprofit-organization-part_21.html), [5](http://nicksbookblog.blogspot.com/2005/11/managing-nonprofit-organiz_113256906836628027.html))
 
 **DO NOT COPY THIS DOCUMENT TO A PUBLIC SITE.** It contains extensive quotations from a copyrighted work, and should remain internal.
 
@@ -16,75 +21,75 @@ This summary makes extensive use of direct quotes from the book, either "in quot
 
 The summarizer's notes and opinions are \[written in square brackets\].
 
-::: {#contents .contents .local .topic}
-- [Preface](#preface){#id6 .reference .internal}
-- [Part One: The Mission Comes First](#part-one-the-mission-comes-first){#id7 .reference .internal}
-  - [1. The Commitment](#the-commitment){#id8 .reference .internal}
-    - [Setting Concrete Action Goals](#setting-concrete-action-goals){#id9 .reference .internal}
-    - [The Three "Musts" of a Successful Mission](#the-three-musts-of-a-successful-mission){#id10 .reference .internal}
-  - [2. Leadership Is a Foul-Weather Job](#leadership-is-a-foul-weather-job){#id11 .reference .internal}
-    - [The Problems of Success](#the-problems-of-success){#id12 .reference .internal}
-    - [Hard Choices](#hard-choices){#id13 .reference .internal}
-    - [The Innovative Strategy](#the-innovative-strategy){#id14 .reference .internal}
-    - [How To Pick a Leader](#how-to-pick-a-leader){#id15 .reference .internal}
-    - [Your Personal Leadership Role](#your-personal-leadership-role){#id16 .reference .internal}
-    - [The Balance Decision](#the-balance-decision){#id17 .reference .internal}
-    - [The Don't's of Leadership](#the-donts-of-leadership){#id18 .reference .internal}
-  - [3. Setting New Goals --- Interview with Frances Hesselbein](#setting-new-goals-interview-with-frances-hesselbein){#id19 .reference .internal}
-  - [4. What the Leader Owes --- Interview with Max De Pree](#what-the-leader-owes-interview-with-max-de-pree){#id20 .reference .internal}
-  - [5. Summary: The Action Implications](#summary-the-action-implications){#id21 .reference .internal}
-- [Part Two: From Mission to Performance](#part-two-from-mission-to-performance){#id22 .reference .internal}
-  - [1. Converting Good Intentions into Results](#converting-good-intentions-into-results){#id23 .reference .internal}
-  - [2. Winning Strategies](#winning-strategies){#id24 .reference .internal}
-    - [Improving What We Already Do Well](#improving-what-we-already-do-well){#id25 .reference .internal}
-    - [How To Innovate](#how-to-innovate){#id26 .reference .internal}
-    - [The Common Mistakes](#the-common-mistakes){#id27 .reference .internal}
-  - [3. Defining the Market --- Interview with Philip Kotler](#defining-the-market-interview-with-philip-kotler){#id28 .reference .internal}
-  - [4. Building the Donor Constituency --- Interview with Dudley Hafner](#building-the-donor-constituency-interview-with-dudley-hafner){#id29 .reference .internal}
-  - [5. Summary: The Action Implications](#id1){#id30 .reference .internal}
-- [Part Three: Managing for Performance](#part-three-managing-for-performance){#id31 .reference .internal}
-  - [1. What Is the Bottom Line When There Is No "Bottom Line"?](#what-is-the-bottom-line-when-there-is-no-bottom-line){#id32 .reference .internal}
-    - [Planning For Performance](#planning-for-performance){#id33 .reference .internal}
-    - [Moral Vs. Economic Causes](#moral-vs-economic-causes){#id34 .reference .internal}
-  - [2. Don't's and Do's --- The Basic Rules](#donts-and-dos-the-basic-rules){#id35 .reference .internal}
-    - [Standard Setting, Placement, Appraisal](#standard-setting-placement-appraisal){#id36 .reference .internal}
-    - [The Outside Focus](#the-outside-focus){#id37 .reference .internal}
-  - [3. The Effective Decision](#the-effective-decision){#id38 .reference .internal}
-    - [Opportunity and Risk](#opportunity-and-risk){#id39 .reference .internal}
-    - [The Need For Dissent](#the-need-for-dissent){#id40 .reference .internal}
-    - [Conflict Resolution](#conflict-resolution){#id41 .reference .internal}
-    - [From Decision To Action](#from-decision-to-action){#id42 .reference .internal}
-  - [4. How to Make the Schools Accountable --- Interview with Albert Shanker](#how-to-make-the-schools-accountable-interview-with-albert-shanker){#id43 .reference .internal}
-  - [5. Summary: The Action Implications](#id2){#id44 .reference .internal}
-- [Part Four: People and Relationships](#part-four-people-and-relationships){#id45 .reference .internal}
-  - [1. People Decisions](#people-decisions){#id46 .reference .internal}
-    - [How To Develop People](#how-to-develop-people){#id47 .reference .internal}
-    - [Building The Team](#building-the-team){#id48 .reference .internal}
-    - [Personal Effectiveness On The Job](#personal-effectiveness-on-the-job){#id49 .reference .internal}
-    - [The Tough Decision](#the-tough-decision){#id50 .reference .internal}
-    - [The Succession Decision](#the-succession-decision){#id51 .reference .internal}
-  - [2. The Key Relationships](#the-key-relationships){#id52 .reference .internal}
-    - [Two-Way Relationships](#two-way-relationships){#id53 .reference .internal}
-    - [Relations With The Community](#relations-with-the-community){#id54 .reference .internal}
-  - [3. From Volunteers to Unpaid Staff --- Interview with Father Leo Bartel](#from-volunteers-to-unpaid-staff-interview-with-father-leo-bartel){#id55 .reference .internal}
-  - [4. The Effective Board --- Interview with Dr. David Hubbard](#the-effective-board-interview-with-dr-david-hubbard){#id56 .reference .internal}
-  - [5. Summary: The Action Implications](#id3){#id57 .reference .internal}
-- [Part Five: Developing Yourself](#part-five-developing-yourself){#id58 .reference .internal}
-  - [1. You Are Responsible](#you-are-responsible){#id59 .reference .internal}
-    - [To Make A Difference](#to-make-a-difference){#id60 .reference .internal}
-    - [Setting An Example](#setting-an-example){#id61 .reference .internal}
-  - [2. What Do You Want to Be Remembered For?](#what-do-you-want-to-be-remembered-for){#id62 .reference .internal}
-    - [\"Repotting\" Yourself](#repotting-yourself){#id63 .reference .internal}
-    - [Doing The Right Things Well](#doing-the-right-things-well){#id64 .reference .internal}
-    - [Self-Renewal](#self-renewal){#id65 .reference .internal}
-    - [What Do You Want To Be Remembered For?](#id4){#id66 .reference .internal}
-  - [3. Non-Profits: The Second Career --- Interview with Robert Buford](#non-profits-the-second-career-interview-with-robert-buford){#id67 .reference .internal}
-  - [4. The Woman Executive in the Non-Profit Institution --- Interview with Roxanne Spitzer-Lehmann](#the-woman-executive-in-the-non-profit-institution-interview-with-roxanne-spitzer-lehmann){#id68 .reference .internal}
-  - [5. Summary: The Action Implications](#id5){#id69 .reference .internal}
+::: 
+- [Preface](#preface)
+- [Part One: The Mission Comes First](#part-one-the-mission-comes-first)
+  - [1. The Commitment](#the-commitment)
+    - [Setting Concrete Action Goals](#setting-concrete-action-goals)
+    - [The Three "Musts" of a Successful Mission](#the-three-musts-of-a-successful-mission)
+  - [2. Leadership Is a Foul-Weather Job](#leadership-is-a-foul-weather-job)
+    - [The Problems of Success](#the-problems-of-success)
+    - [Hard Choices](#hard-choices)
+    - [The Innovative Strategy](#the-innovative-strategy)
+    - [How To Pick a Leader](#how-to-pick-a-leader)
+    - [Your Personal Leadership Role](#your-personal-leadership-role)
+    - [The Balance Decision](#the-balance-decision)
+    - [The Don't's of Leadership](#the-donts-of-leadership)
+  - [3. Setting New Goals --- Interview with Frances Hesselbein](#setting-new-goals-interview-with-frances-hesselbein)
+  - [4. What the Leader Owes --- Interview with Max De Pree](#what-the-leader-owes-interview-with-max-de-pree)
+  - [5. Summary: The Action Implications](#summary-the-action-implications)
+- [Part Two: From Mission to Performance](#part-two-from-mission-to-performance)
+  - [1. Converting Good Intentions into Results](#converting-good-intentions-into-results)
+  - [2. Winning Strategies](#winning-strategies)
+    - [Improving What We Already Do Well](#improving-what-we-already-do-well)
+    - [How To Innovate](#how-to-innovate)
+    - [The Common Mistakes](#the-common-mistakes)
+  - [3. Defining the Market --- Interview with Philip Kotler](#defining-the-market-interview-with-philip-kotler)
+  - [4. Building the Donor Constituency --- Interview with Dudley Hafner](#building-the-donor-constituency-interview-with-dudley-hafner)
+  - [5. Summary: The Action Implications](#id1)
+- [Part Three: Managing for Performance](#part-three-managing-for-performance)
+  - [1. What Is the Bottom Line When There Is No "Bottom Line"?](#what-is-the-bottom-line-when-there-is-no-bottom-line)
+    - [Planning For Performance](#planning-for-performance)
+    - [Moral Vs. Economic Causes](#moral-vs-economic-causes)
+  - [2. Don't's and Do's --- The Basic Rules](#donts-and-dos-the-basic-rules)
+    - [Standard Setting, Placement, Appraisal](#standard-setting-placement-appraisal)
+    - [The Outside Focus](#the-outside-focus)
+  - [3. The Effective Decision](#the-effective-decision)
+    - [Opportunity and Risk](#opportunity-and-risk)
+    - [The Need For Dissent](#the-need-for-dissent)
+    - [Conflict Resolution](#conflict-resolution)
+    - [From Decision To Action](#from-decision-to-action)
+  - [4. How to Make the Schools Accountable --- Interview with Albert Shanker](#how-to-make-the-schools-accountable-interview-with-albert-shanker)
+  - [5. Summary: The Action Implications](#id2)
+- [Part Four: People and Relationships](#part-four-people-and-relationships)
+  - [1. People Decisions](#people-decisions)
+    - [How To Develop People](#how-to-develop-people)
+    - [Building The Team](#building-the-team)
+    - [Personal Effectiveness On The Job](#personal-effectiveness-on-the-job)
+    - [The Tough Decision](#the-tough-decision)
+    - [The Succession Decision](#the-succession-decision)
+  - [2. The Key Relationships](#the-key-relationships)
+    - [Two-Way Relationships](#two-way-relationships)
+    - [Relations With The Community](#relations-with-the-community)
+  - [3. From Volunteers to Unpaid Staff --- Interview with Father Leo Bartel](#from-volunteers-to-unpaid-staff-interview-with-father-leo-bartel)
+  - [4. The Effective Board --- Interview with Dr. David Hubbard](#the-effective-board-interview-with-dr-david-hubbard)
+  - [5. Summary: The Action Implications](#id3)
+- [Part Five: Developing Yourself](#part-five-developing-yourself)
+  - [1. You Are Responsible](#you-are-responsible)
+    - [To Make A Difference](#to-make-a-difference)
+    - [Setting An Example](#setting-an-example)
+  - [2. What Do You Want to Be Remembered For?](#what-do-you-want-to-be-remembered-for)
+    - [\"Repotting\" Yourself](#repotting-yourself)
+    - [Doing The Right Things Well](#doing-the-right-things-well)
+    - [Self-Renewal](#self-renewal)
+    - [What Do You Want To Be Remembered For?](#id4)
+  - [3. Non-Profits: The Second Career --- Interview with Robert Buford](#non-profits-the-second-career-interview-with-robert-buford)
+  - [4. The Woman Executive in the Non-Profit Institution --- Interview with Roxanne Spitzer-Lehmann](#the-woman-executive-in-the-non-profit-institution-interview-with-roxanne-spitzer-lehmann)
+  - [5. Summary: The Action Implications](#id5)
 :::
 
-::: {#preface .section}
-### [Preface](#id6){.toc-backref}
+::: 
+### [Preface](#id6)
 
 > Individual burnout \... is so acute in non-profits precisely because the individual commitment to them tends to be so intense.
 >
@@ -99,18 +104,18 @@ The summarizer's notes and opinions are \[written in square brackets\].
 > Precisely because volunteers do not have the satisfaction of a paycheck, they have to get more satisfaction out of their contribution. They have to be managed as unpaid staff.
 :::
 
-::::::::::::::::: {#part-one-the-mission-comes-first .section}
-### [Part One: The Mission Comes First](#id7){.toc-backref}
+::::::::::::::::: 
+### [Part One: The Mission Comes First](#id7)
 
 ---and your role as a leader
 
-::::: {#the-commitment .section}
-#### [1. The Commitment](#id8){.toc-backref}
+::::: 
+#### [1. The Commitment](#id8)
 
 > The first job of the leader is to think through and define the mission of the institution.
 
-::: {#setting-concrete-action-goals .section}
-##### [Setting Concrete Action Goals](#id9){.toc-backref}
+::: 
+##### [Setting Concrete Action Goals](#id9)
 
 > A mission statement has to be operational, otherwise it's just good intentions. A mission statement has to focus on what the institution really tries to do and then do it so that everybody in the organization can say, This is *my* contribution to the goal.
 >
@@ -125,8 +130,8 @@ The summarizer's notes and opinions are \[written in square brackets\].
 > So you constantly look at the sate-of-the-art. You look at the opportunities in the community. \... The specific objective may change. Things that were of primary importance may become secondary or even totally irrelevant. You must watch this constantly, or else very soon you will become a museum piece.
 :::
 
-::: {#the-three-musts-of-a-successful-mission .section}
-##### [The Three "Musts" of a Successful Mission](#id10){.toc-backref}
+::: 
+##### [The Three "Musts" of a Successful Mission](#id10)
 
 > Look at strength and performance.
 >
@@ -140,13 +145,13 @@ The summarizer's notes and opinions are \[written in square brackets\].
 :::
 :::::
 
-:::::::::: {#leadership-is-a-foul-weather-job .section}
-#### [2. Leadership Is a Foul-Weather Job](#id11){.toc-backref}
+:::::::::: 
+#### [2. Leadership Is a Foul-Weather Job](#id11)
 
 > Fortunately or unfortunately, the one predictable thing in any organization is the crisis. That always comes. That's when you *do* depend on the leader.
 
-::: {#the-problems-of-success .section}
-##### [The Problems of Success](#id12){.toc-backref}
+::: 
+##### [The Problems of Success](#id12)
 
 > Problems of success have ruined more organizations than has failure, partly because if things go wrong, everybody knows they have to go to work. Success creates its own euphoria. You outrun your resources. And you retire on the job, which may be the most difficult thing to fight.
 >
@@ -155,8 +160,8 @@ The summarizer's notes and opinions are \[written in square brackets\].
 > The lesson for the leaders of non-profits is that one has to grow with success. But one also has to make sure that one doesn't become unable to adjust. Sooner or later, growth slows down and the institution plateaus. Then it has to be able to maintain its momentum, its flexibility, its vitality, and its vision. Otherwise, it becomes frozen.
 :::
 
-::: {#hard-choices .section}
-##### [Hard Choices](#id13){.toc-backref}
+::: 
+##### [Hard Choices](#id13)
 
 > Non-profit organizations have no "bottom line." They are prone to consider everything they do to be righteous and moral and to serve a cause, so they are not willing to say, if it doesn't produce results then maybe we should direct our resources elsewhere. Non-profit organizations need the discipline of organized abandonment perhaps even more than a business does. They need to face up to critical choices.
 >
@@ -177,16 +182,16 @@ The summarizer's notes and opinions are \[written in square brackets\].
 > Next, you have the problem of organizing the new. It must be organized separately. \... If you put new ideas into operating units \... the solving of the daily crisis will always take precedence over introducing tomorrow. \... And yet you have to make sure the existing operations don't lose the excitement of the new entirely. Otherwise, they become not only hostile but paralyzed.
 :::
 
-::: {#the-innovative-strategy .section}
-##### [The Innovative Strategy](#id14){.toc-backref}
+::: 
+##### [The Innovative Strategy](#id14)
 
 > You need \... a way to bring the new to the marketplace. Successful innovation finds a target of opportunity. Somebody who is receptive, who welcomes the new, who wants to succeed and \... has enough stature, enough clout in the organization so that, if it works for him or her, the rest of the organization will say, Well, there must be something to it.
 >
 > If you first plan and then try to sell, you're going to miss the important things. \... Selling has to be built into planning, and that means involving the operating people. But don't forget one thing: everything new requires hard work on the part of true believers---and true believers are *not* available part time.
 :::
 
-::: {#how-to-pick-a-leader .section}
-##### [How To Pick a Leader](#id15){.toc-backref}
+::: 
+##### [How To Pick a Leader](#id15)
 
 > The first thing to look for is strength---you can only perform with strength---and what they have done with it.
 >
@@ -201,8 +206,8 @@ The summarizer's notes and opinions are \[written in square brackets\].
 > You can't be satisfied in non-profit organizations with doing adequately as a leader. You have to do exceptionally well, because your agency is committed to a cause. You want people as leaders who take a great view of the agency's functions, people who take their roles seriously---not *themselves* seriously.
 :::
 
-::: {#your-personal-leadership-role .section}
-##### [Your Personal Leadership Role](#id16){.toc-backref}
+::: 
+##### [Your Personal Leadership Role](#id16)
 
 > The new leader of a non-profit doesn't have much time to establish himself or herself. Maybe a year. To be effective in that short a time, the role the leader takes has to fit in terms of the mission of the institution and its values. \... To work, the role has to fit in three dimensions. First, the role has to fit you---who you are. \... The role you take also has to fit the task. And, finally, the role has to fit expectations.
 >
@@ -230,8 +235,8 @@ Basic leadership competences:
 > It's \[the\] willingness to make yourself competent in the task that's needed that creates leaders.
 :::
 
-::: {#the-balance-decision .section}
-##### [The Balance Decision](#id17){.toc-backref}
+::: 
+##### [The Balance Decision](#id17)
 
 > One of the key tasks of the leader is to balance up the long range and the short range, the big picture and the pesky little details. You are always paddling a canoe with two outriggers---balancing---while managing a non-profit. One is the balance between seeing only the big picture and forgetting the individual person. \... The opposite danger is becoming the prisoner of operations. That's much harder to avoid. The effective people do it very largely through their work in associations and other organizations.
 >
@@ -250,8 +255,8 @@ Basic leadership competences:
 > The balance decisions are what we need non-profit leaders for, whether they are paid or volunteer.
 :::
 
-::: {#the-donts-of-leadership .section}
-##### [The Don't's of Leadership](#id18){.toc-backref}
+::: 
+##### [The Don't's of Leadership](#id18)
 
 > Far too many leaders believe that what they do and why they do it must be obvious to everyone in the organization. It never is. Far too many believe that when they announce things, everyone understands. No one does, as a rule. Yet very often one can't bring in people before the decision. \... Effective leaders have to spend a little time on making themselves understood.
 >
@@ -267,8 +272,8 @@ Basic leadership competences:
 :::
 ::::::::::
 
-::: {#setting-new-goals-interview-with-frances-hesselbein .section}
-#### [3. Setting New Goals --- Interview with Frances Hesselbein](#id19){.toc-backref}
+::: 
+#### [3. Setting New Goals --- Interview with Frances Hesselbein](#id19)
 
 Frances Hesselbein was National Executive Director of the Girl Scouts of the United States of America, the world's largest women's organization, from 1976 to 1990.
 
@@ -294,8 +299,8 @@ General conclusions about introducing a new program:
 > **Hesselbein:** You must carefully construct a marketing plan. Not just disseminate information about it, but understand all the ways there are to reach people and use them. Distributing written materials isn't enough. You need people in the marketing chain. And there has to be continuing evaluation---getting feedback on how we are doing. And if a strategy is not working, regroup and move ahead in a different way.
 :::
 
-::: {#what-the-leader-owes-interview-with-max-de-pree .section}
-#### [4. What the Leader Owes --- Interview with Max De Pree](#id20){.toc-backref}
+::: 
+#### [4. What the Leader Owes --- Interview with Max De Pree](#id20)
 
 Max De Pree is chairman of Herman Miller, Inc. and of the Hope College Board, and is a member of the board of Fuller Theological Seminary. He wrote Leadership Is an Art (1989).
 
@@ -326,8 +331,8 @@ Max De Pree is chairman of Herman Miller, Inc. and of the Hope College Board, an
 > **Drucker:** We are all used to talking about the leader as the servant of the organization. \... The leader starts out with the realization that he and the organization owe; they owe the customers, the clients, the constituency, \... the followers, \... \[and the\] volunteers. And what they owe is really to enable people to realize their potential, to realize their purpose in serving the organization.
 :::
 
-::: {#summary-the-action-implications .section}
-#### [5. Summary: The Action Implications](#id21){.toc-backref}
+::: 
+#### [5. Summary: The Action Implications](#id21)
 
 > Non-profit institutions exist for the sake of their mission. They exist to make a difference in society and in the life of the individual. \... The first task of the leader is to make sure that everybody sees the mission, hears it, lives it. \... And yet, mission needs to be thought through, needs to be changed.
 >
@@ -351,13 +356,13 @@ Max De Pree is chairman of Herman Miller, Inc. and of the Hope College Board, an
 :::
 :::::::::::::::::
 
-::::::::::: {#part-two-from-mission-to-performance .section}
-### [Part Two: From Mission to Performance](#id22){.toc-backref}
+::::::::::: 
+### [Part Two: From Mission to Performance](#id22)
 
 ---effective strategies for marketing, innovation, and fund development
 
-::: {#converting-good-intentions-into-results .section}
-#### [1. Converting Good Intentions into Results](#id23){.toc-backref}
+::: 
+#### [1. Converting Good Intentions into Results](#id23)
 
 > The non-profit institution is not merely delivering a service. It wants the end user to be not a user but a *doer*. It uses a service to bring about change in a human being. \... It creates habits, vision, commitment, knowledge. It attempts to become a part of the recipient rather than merely a supplier. Until this has happened, the non-profit institution has had no results; it has only had good intentions.
 >
@@ -390,15 +395,15 @@ Max De Pree is chairman of Herman Miller, Inc. and of the Hope College Board, an
 > This moves us to constituency building over the very long term. \... Building up a long-term constituency, people who remember, who are not giving simply because someone rings a doorbell. They see the support of the institution as self-fulfillment. That is the ultimate goal of fund development.
 :::
 
-:::::: {#winning-strategies .section}
-#### [2. Winning Strategies](#id24){.toc-backref}
+:::::: 
+#### [2. Winning Strategies](#id24)
 
 > There is an old saying that good intentions don't move mountains; bulldozers do. In non-profit management, the mission and the plan \... are the good intentions. Strategies are the bulldozers. They convert what you want to do into accomplishments.
 >
 > Strategies \... are action-focused.
 
-::: {#improving-what-we-already-do-well .section}
-##### [Improving What We Already Do Well](#id25){.toc-backref}
+::: 
+##### [Improving What We Already Do Well](#id25)
 
 > To work systematically on the productivity of an institution, one needs a strategy for each of the factors of production. The first factor is always people. It's not a matter of working harder; \... It's a matter of working smarter, and above all, of placing people where they can really produce. The second universal factor is money. How do we get a little more out of the \[always scarce\] money that we have? \... And the third factor is time.
 >
@@ -431,8 +436,8 @@ Max De Pree is chairman of Herman Miller, Inc. and of the Hope College Board, an
 > Here is another *don't*: Don't try to reach different market segments with the same message.
 :::
 
-::: {#how-to-innovate .section}
-##### [How To Innovate](#id26){.toc-backref}
+::: 
+##### [How To Innovate](#id26)
 
 > Usually, there is no lack of ideas in non-profit organizations. What's more often lacking is the willingness and the ability to convert those ideas into effective results. What is needed is an innovative strategy. The successful non-profit organization is organized for the new---organized to perceive opportunities. Innovative organizations systematically look both outside and inside for clues to innovative opportunities.
 >
@@ -455,8 +460,8 @@ Max De Pree is chairman of Herman Miller, Inc. and of the Hope College Board, an
 > Look into the possibility of developing a niche. \... That is a strategy: if you come out with a specialty, don't try to do everything for everybody.
 :::
 
-::: {#the-common-mistakes .section}
-##### [The Common Mistakes](#id27){.toc-backref}
+::: 
+##### [The Common Mistakes](#id27)
 
 > There are a few common mistakes in doing anything new.
 >
@@ -478,8 +483,8 @@ Max De Pree is chairman of Herman Miller, Inc. and of the Hope College Board, an
 :::
 ::::::
 
-::: {#defining-the-market-interview-with-philip-kotler .section}
-#### [3. Defining the Market --- Interview with Philip Kotler](#id28){.toc-backref}
+::: 
+#### [3. Defining the Market --- Interview with Philip Kotler](#id28)
 
 Philip Kotler is a teacher at the J. L. Kellog Graduate School of Management of Northwestern University, and author of Strategic Marketing for Non-Profit Institutions.
 
@@ -522,8 +527,8 @@ Philip Kotler is a teacher at the J. L. Kellog Graduate School of Management of 
 > Marketing is a way to harmonize the needs and wants of the outside world with the purposes and the resources and the objectives of the institution.
 :::
 
-::: {#building-the-donor-constituency-interview-with-dudley-hafner .section}
-#### [4. Building the Donor Constituency --- Interview with Dudley Hafner](#id29){.toc-backref}
+::: 
+#### [4. Building the Donor Constituency --- Interview with Dudley Hafner](#id29)
 
 Dudley Hafner is executive vice-president and CEO of the American Heart Association.
 
@@ -570,8 +575,8 @@ Dudley Hafner is executive vice-president and CEO of the American Heart Associat
 > **Drucker:** I think the strongest thing you said just now to me is that fund development is *people* development. Both when you talk of donors and when you talk of volunteers. You are building a constituency. You're building understanding, you're building support. You're building satisfaction, human satisfaction in the process. That is the way to create the support base you need to do your job. But it's also the way you use your job to enrich the community and every participant. And it's based on clear mission, on extensive and detailed knowledge of the market, of making demands on both your volunteers and your donors, but also on feedback from your performance, which, I think, is something on which a good many non-profits organizations are pretty weak. You never hear from them what the results are.
 :::
 
-::: {#id1 .section}
-#### [5. Summary: The Action Implications](#id30){.toc-backref}
+::: 
+#### [5. Summary: The Action Implications](#id30)
 
 > Strategy converts a non-profit institution's mission and objectives into performance. Despite its importance, however, many non-profits tend to slight strategy. It seems so obvious to most of them that they are satisfying a need, so clear that everybody who has that need must want the service the non-profit institution has to offer. One central problem is that too many non-profit managers confuse strategy with a selling effort. Strategy *ends* with selling efforts. It begins with knowing the market---who the customer is, who the customer should be, who the customer might be. \... The non-profit institution needs a marketing strategy that integrates the customer and the mission.
 >
@@ -609,13 +614,13 @@ Dudley Hafner is executive vice-president and CEO of the American Heart Associat
 :::
 :::::::::::
 
-:::::::::::::::: {#part-three-managing-for-performance .section}
-### [Part Three: Managing for Performance](#id31){.toc-backref}
+:::::::::::::::: 
+### [Part Three: Managing for Performance](#id31)
 
 ---how to define it; how to measure it
 
-::::: {#what-is-the-bottom-line-when-there-is-no-bottom-line .section}
-#### [1. What Is the Bottom Line When There Is No "Bottom Line"?](#id32){.toc-backref}
+::::: 
+#### [1. What Is the Bottom Line When There Is No "Bottom Line"?](#id32)
 
 > Non-profit institutions tend not to give priority to performance and results. Yet performance and results are far more important---and far more difficult to measure and control---in the non-profit institution than in a business.
 >
@@ -629,8 +634,8 @@ Dudley Hafner is executive vice-president and CEO of the American Heart Associat
 >
 > The non-profit does not get paid for performance. But it does not get money for good intentions, either.
 
-::: {#planning-for-performance .section}
-##### [Planning For Performance](#id33){.toc-backref}
+::: 
+##### [Planning For Performance](#id33)
 
 > Performance in the non-profit institution must be *planned*. And this starts out with the mission. \... For the mission defines what results are.
 >
@@ -645,8 +650,8 @@ Dudley Hafner is executive vice-president and CEO of the American Heart Associat
 > This kind of planning is quite different from what business people usually mean by the term. To formulate the plan successfully, non-profit executives think through the concerns of each of the institution's constituencies. They try to understand what is really important\... Long-term concerns must be identified. Integrating constituency goals into the institution's mission is almost an architectural process, a structural process,. It's not too difficult to do once it's understood; but it's hard work.
 :::
 
-::: {#moral-vs-economic-causes .section}
-##### [Moral Vs. Economic Causes](#id34){.toc-backref}
+::: 
+##### [Moral Vs. Economic Causes](#id34)
 
 > The discipline of thinking through what results will be demanded of the non-profit institution can protect it from squandering resources because of confusion between moral and economic causes.
 >
@@ -656,8 +661,8 @@ Dudley Hafner is executive vice-president and CEO of the American Heart Associat
 :::
 :::::
 
-::::: {#donts-and-dos-the-basic-rules .section}
-#### [2. Don't's and Do's --- The Basic Rules](#id35){.toc-backref}
+::::: 
+#### [2. Don't's and Do's --- The Basic Rules](#id35)
 
 > Disregarding them will damage and may even impair performance.
 >
@@ -689,8 +694,8 @@ Dudley Hafner is executive vice-president and CEO of the American Heart Associat
 >
 > Finally, it is the duty of the person to whom a task is delegated to inform the delegator of anything unexpected that happens, and not to say, "But I can take care of it."
 
-::: {#standard-setting-placement-appraisal .section}
-##### [Standard Setting, Placement, Appraisal](#id36){.toc-backref}
+::: 
+##### [Standard Setting, Placement, Appraisal](#id36)
 
 > For each person to take responsibility for his or her own contribution and for being understood requires standards. Standards have to be concrete.
 >
@@ -715,8 +720,8 @@ Dudley Hafner is executive vice-president and CEO of the American Heart Associat
 > And it is the function of any organization to make human strengths effective in performance and to neutralize human weaknesses. This is the ultimate test.
 :::
 
-::: {#the-outside-focus .section}
-##### [The Outside Focus](#id37){.toc-backref}
+::: 
+##### [The Outside Focus](#id37)
 
 > One more basic rule: Force your people, and especially your executives, to be on the outside often enough to *know* what the institution exists for. There are no results inside an institution. There are only costs. Yet it is easy to become absorbed in the inside and to become insulated from reality. Effective non-profits make sure that their people get out in the field and actually work there again and again.
 >
@@ -724,8 +729,8 @@ Dudley Hafner is executive vice-president and CEO of the American Heart Associat
 :::
 :::::
 
-::::::: {#the-effective-decision .section}
-#### [3. The Effective Decision](#id38){.toc-backref}
+::::::: 
+#### [3. The Effective Decision](#id38)
 
 > Executives, whether in a non-profit institution or in a business, actually spend little time on decision making. Far more of their time is spent in meetings, with people, or in trying to get a little information. Yet it's in the decision that everything comes together. That is the make or break point of the organization. Most of the other tasks executives do, other people could do. But only executives can make the decisions.
 >
@@ -737,16 +742,16 @@ Dudley Hafner is executive vice-president and CEO of the American Heart Associat
 >
 > And don't make decisions on trivia. \... Don't waste time on them.
 
-::: {#opportunity-and-risk .section}
-##### [Opportunity and Risk](#id39){.toc-backref}
+::: 
+##### [Opportunity and Risk](#id39)
 
 > One starts out with the opportunity, not with the risk: If this works, what will it do for us? Then look at the risks. There are three kinds of risks.
 >
 > There is the risk we can afford to take. If it goes wrong, it is easily reversible with minor damage. Then there is the irreversible decision, when failure may do serious harm. Finally there is the decision where the risk is great but one cannot afford *not* to take it.
 :::
 
-::: {#the-need-for-dissent .section}
-##### [The Need For Dissent](#id40){.toc-backref}
+::: 
+##### [The Need For Dissent](#id40)
 
 > All the first-rate decision makers \... had a very simple rule: If you have consensus on an important matter, don't make the decision. Adjourn it so that everybody has a little time to think. Important decisions are risky. They *should* be controversial. Acclamation means that nobody has done their homework.
 >
@@ -765,8 +770,8 @@ Dudley Hafner is executive vice-president and CEO of the American Heart Associat
 > Bringing disagreement into the open also enables non-profit executives to brush aside the unnecessary, the meaningless, the trivial conflict. It enables them to concentrate on the real issues.
 :::
 
-::: {#conflict-resolution .section}
-##### [Conflict Resolution](#id41){.toc-backref}
+::: 
+##### [Conflict Resolution](#id41)
 
 > *You use dissent and disagreement to resolve conflict.* If you ask for disagreement openly, it gives people the feeling that they have been heard. But you also know where the objectors are and what their objections are. And in many cases you can accommodate them, so that they can accept the decision gracefully.
 >
@@ -777,8 +782,8 @@ Dudley Hafner is executive vice-president and CEO of the American Heart Associat
 > One cannot prevent conflict. But one can make it \... secondary. And the best tool for this is the constructive use of dissent.
 :::
 
-::: {#from-decision-to-action .section}
-##### [From Decision To Action](#id42){.toc-backref}
+::: 
+##### [From Decision To Action](#id42)
 
 > A decision is a commitment to action. But far too many decisions remain pious intentions. There are four common causes for this. One is that we try to "sell" the decision rather than to "market" it. \[Difference between decision-making in Japan and in the West.\]
 >
@@ -794,8 +799,8 @@ Dudley Hafner is executive vice-president and CEO of the American Heart Associat
 :::
 :::::::
 
-::: {#how-to-make-the-schools-accountable-interview-with-albert-shanker .section}
-#### [4. How to Make the Schools Accountable --- Interview with Albert Shanker](#id43){.toc-backref}
+::: 
+#### [4. How to Make the Schools Accountable --- Interview with Albert Shanker](#id43)
 
 Albert Shanker is president of the American Federation of Teachers.
 
@@ -804,8 +809,8 @@ Discusses performance from the perspective of schools and teaching.
 > **Shanker:** I think the priority is to assess achievement longer range.
 :::
 
-::: {#id2 .section}
-#### [5. Summary: The Action Implications](#id44){.toc-backref}
+::: 
+#### [5. Summary: The Action Implications](#id44)
 
 > Performance is the ultimate test of any institution. Every non-profit institution exists for the sake of performance in changing people and society. Yet, performance is also one of the truly difficult areas for the executive in the non-profit institution.
 >
@@ -827,13 +832,13 @@ Discusses performance from the perspective of schools and teaching.
 :::
 ::::::::::::::::
 
-::::::::::::::: {#part-four-people-and-relationships .section}
-### [Part Four: People and Relationships](#id45){.toc-backref}
+::::::::::::::: 
+### [Part Four: People and Relationships](#id45)
 
 ---your staff, your board, your volunteers, your community
 
-:::::::: {#people-decisions .section}
-#### [1. People Decisions](#id46){.toc-backref}
+:::::::: 
+#### [1. People Decisions](#id46)
 
 > People decisions are the ultimate---perhaps the only---control of an organization. People determine the performance capacity of an organization. No organization can do better than the people it has. \... An effective non-profit manager *must* try to get more out of the people he or she has.
 >
@@ -843,8 +848,8 @@ Discusses performance from the perspective of schools and teaching.
 >
 > Properly done, the selection process starts with an *assignment*---not merely with a job description. Next, the executive forces himself or herself to look at more than one person. \... Thirdly, while reviewing candidates, the focus must always be on performance. \... The right questions are: How have these people done in their last three assignments? Have they come through? Then, fourth, look at people\'s specific strengths. What have they shown they *can do* in their last three assignments.
 
-::: {#how-to-develop-people .section}
-##### [How To Develop People](#id47){.toc-backref}
+::: 
+##### [How To Develop People](#id47)
 
 > Any organization develops people; it has no choice. It either helps them grow or it stunts them.
 >
@@ -877,8 +882,8 @@ Discusses performance from the perspective of schools and teaching.
 > It is a common complaint that many bosses do not really want top-performing subordinates because they put pressure on them. That\'s just what an effective organization *does* want, and that\'s where a volunteer organization has an advantage. The volunteer who performs isn\'t out to get the paid executive\'s job, as a rule, and is not seen as a threat. \... You want performers to put on the pressure. You want them to ask: Why can\'t we do more? Why can\'t we do better?
 :::
 
-::: {#building-the-team .section}
-##### [Building The Team](#id48){.toc-backref}
+::: 
+##### [Building The Team](#id48)
 
 > The more successful an organization becomes, the more it needs to build teams. In fact, non-profit organizations most often fumble and lose their way despite great ability at the top and a dedicated staff because they fail to build teams. A brilliant man or woman at the top working with \"helpers\" functions only to a very limited extent; the organization outgrows what one person can do. Yet teams do not develop themselves---they require systematic hard work.
 >
@@ -887,8 +892,8 @@ Discusses performance from the perspective of schools and teaching.
 > A common mistake is to believe that because individuals are all on the same team, they all think alike and act alike. Not so. The purpose of a team is to make the strengths of each person effective, and his or her weaknesses irrelevant.
 :::
 
-::: {#personal-effectiveness-on-the-job .section}
-##### [Personal Effectiveness On The Job](#id49){.toc-backref}
+::: 
+##### [Personal Effectiveness On The Job](#id49)
 
 > Once the right match is made, there are two keys to a person\'s effectiveness in an organization. One is that the person understands clearly what he or she is going to do and doesn\'t ride off in all directions. The other is that each person takes the responsibility for thinking through what he or she needs to do the job. That done, the person goes to all the others on whom he depends \[in person!\]\... and says, \"This is what *you* are doing that helps me. This is what *you* are doing that hampers me. And what do *I* do that helps you? What do *I* do that hampers you?\"
 >
@@ -897,8 +902,8 @@ Discusses performance from the perspective of schools and teaching.
 > As an organization grows, the non-profit executive must also encourage people at all levels to ask themselves: What does our top management really have to know? I call that educating the boss. It fosters cohesion by forcing individuals to look beyond the scope of their own efforts, departments, and needs.
 :::
 
-::: {#the-tough-decision .section}
-##### [The Tough Decision](#id50){.toc-backref}
+::: 
+##### [The Tough Decision](#id50)
 
 > An effective non-profit executive owes it to the organization to have a competent staff wherever performance is needed. To allow non-performers to stay on means letting down both the organization and the cause.
 >
@@ -907,8 +912,8 @@ Discusses performance from the perspective of schools and teaching.
 > A tougher problem is the conflict non-profit executives often face between the need to ensure competence and the need for compassion. But the executives who agonize over this decision do worse than those who say, \"We made a mistake. I cut. It\'s going to hurt, but I cut.\" It\'s usually cleaner, faster, and less painful.
 :::
 
-::: {#the-succession-decision .section}
-##### [The Succession Decision](#id51){.toc-backref}
+::: 
+##### [The Succession Decision](#id51)
 
 > The most critical people decision, and the one that is hardest to undo, is the succession to the top. \... Every such decision is really a gamble. The only test of performance in the top position is performance in the top position---and there is very little preparation for it.
 >
@@ -922,8 +927,8 @@ Discusses performance from the perspective of schools and teaching.
 :::
 ::::::::
 
-::::: {#the-key-relationships .section}
-#### [2. The Key Relationships](#id52){.toc-backref}
+::::: 
+#### [2. The Key Relationships](#id52)
 
 > One of the most basic differences between non-profit organizations and businesses is that the typical non-profit has so many more relationships that are vitally important. \... Every non-profit organization has a multitude of constituencies and has to work out the relationship with each of them.
 >
@@ -941,23 +946,23 @@ Discusses performance from the perspective of schools and teaching.
 >
 > Another common problem is the badly split board. Every time an issue comes up, the board members fight out their basic policy rift. This is much more likely to happen in non-profit institutions precisely because the mission is, and should be, so important. In my experience, the role of the board then becomes both more important and more controversial. At that point, teamwork between chairperson and chief executive officer becomes absolutely vital.
 
-::: {#two-way-relationships .section}
-##### [Two-Way Relationships](#id53){.toc-backref}
+::: 
+##### [Two-Way Relationships](#id53)
 
 > Only two-way relationships work. Every organization wants stars and needs stars. But \... the star is not separate from the cast.
 >
 > An effective non-profit executive starts building this two-way relationship with the staff, with the board, with the community, with donors, with volunteers, and with alumni by asking: \"What do you have to tell me?\" Not, \"This is what I am telling you.\" That question brings problems out in the open. And the funny thing is that most of the problems that bother people so much turn out to be non-problems when you bring them out in the open.
 :::
 
-::: {#relations-with-the-community .section}
-##### [Relations With The Community](#id54){.toc-backref}
+::: 
+##### [Relations With The Community](#id54)
 
 > Non-profit institutions serve one specific community interest. Each has to maintain relations with governmental agencies, with all the other institutions in the community, and with the community\'s people in genera. \... It requires that the service organization *lives* its mission. That is why volunteers are so important. They live in the community and they exemplify the institution\'s mission.
 :::
 :::::
 
-::: {#from-volunteers-to-unpaid-staff-interview-with-father-leo-bartel .section}
-#### [3. From Volunteers to Unpaid Staff --- Interview with Father Leo Bartel](#id55){.toc-backref}
+::: 
+#### [3. From Volunteers to Unpaid Staff --- Interview with Father Leo Bartel](#id55)
 
 Father Leo Bartel is Vicar for Social Ministry of the Catholic Diocese of Rockford, Illinois.
 
@@ -972,8 +977,8 @@ Father Leo Bartel is Vicar for Social Ministry of the Catholic Diocese of Rockfo
 > **Drucker:** The board is there for specific assignments.
 :::
 
-::: {#the-effective-board-interview-with-dr-david-hubbard .section}
-#### [4. The Effective Board --- Interview with Dr. David Hubbard](#id56){.toc-backref}
+::: 
+#### [4. The Effective Board --- Interview with Dr. David Hubbard](#id56)
 
 Reverend David Hubbard is president of Fuller Theological Seminary in Pasadena, California.
 
@@ -1000,8 +1005,8 @@ Reverend David Hubbard is president of Fuller Theological Seminary in Pasadena, 
 > **Hubbard:** An organization hasn\'t come anywhere near its full potential unless it sees the building of a great and effective board as part of the ministry of that organization.
 :::
 
-::: {#id3 .section}
-#### [5. Summary: The Action Implications](#id57){.toc-backref}
+::: 
+#### [5. Summary: The Action Implications](#id57)
 
 > \[Volunteers\] are different from paid workers in a non-profit only in that they are not paid.
 >
@@ -1011,13 +1016,13 @@ Reverend David Hubbard is president of Fuller Theological Seminary in Pasadena, 
 :::
 :::::::::::::::
 
-:::::::::::::: {#part-five-developing-yourself .section}
-### [Part Five: Developing Yourself](#id58){.toc-backref}
+:::::::::::::: 
+### [Part Five: Developing Yourself](#id58)
 
 ---as a person, as an executive, as a leader
 
-::::: {#you-are-responsible .section}
-#### [1. You Are Responsible](#id59){.toc-backref}
+::::: 
+#### [1. You Are Responsible](#id59)
 
 > The first priority for the non-profit executive\'s own development is to strive for excellence. That brings satisfaction and self-respect.
 >
@@ -1027,8 +1032,8 @@ Reverend David Hubbard is president of Fuller Theological Seminary in Pasadena, 
 >
 > The key to building an organization with such a spirit is organizing the work so everyone feels essential to a goal they believe in.
 
-::: {#to-make-a-difference .section}
-##### [To Make A Difference](#id60){.toc-backref}
+::: 
+##### [To Make A Difference](#id60)
 
 > From the chief executive of a non-profit on down through the ranks of paid staff and volunteers, the person with the most responsibility for an individual\'s development is the person himself---not the boss.
 >
@@ -1043,8 +1048,8 @@ Reverend David Hubbard is president of Fuller Theological Seminary in Pasadena, 
 > The critical factor for achieving this kind of success is accountability---holding *yourself* accountable. Everything else flows from that. \... The important thing is not that you have rank, but that you have *responsibility*. To be accountable, you must take the job seriously enough to recognize: I\'ve got to grow up to the job. Sometimes that means acquiring skills. \... You ask: What do I have to learn and what do I have to do to make a difference?
 :::
 
-::: {#setting-an-example .section}
-##### [Setting An Example](#id61){.toc-backref}
+::: 
+##### [Setting An Example](#id61)
 
 > In all human affairs there is a constant relationship between the performance and achievement of the leaders, the record setters, and the rest. In human affairs, we stand on the shoulders of our predecessors.
 >
@@ -1052,13 +1057,13 @@ Reverend David Hubbard is president of Fuller Theological Seminary in Pasadena, 
 :::
 :::::
 
-::::::: {#what-do-you-want-to-be-remembered-for .section}
-#### [2. What Do You Want to Be Remembered For?](#id62){.toc-backref}
+::::::: 
+#### [2. What Do You Want to Be Remembered For?](#id62)
 
 > To develop yourself, you have to be doing the right work in the right kind of organization. The basic question is: \"Where do I belong as a person?\"
 
-::: {#repotting-yourself .section}
-##### [\"Repotting\" Yourself](#id63){.toc-backref}
+::: 
+##### [\"Repotting\" Yourself](#id63)
 
 > Sometimes a change---a big change or a small change---is essential in order to stimulate yourself again.
 >
@@ -1075,8 +1080,8 @@ Reverend David Hubbard is president of Fuller Theological Seminary in Pasadena, 
 > It\'s up to you to manage your job and your career. To understand where you best belong. To make high demands on yourself by way of contribution to the work of the organization itself. To practice what I call preventative hygiene so as not to allow yourself to become bored. To build in challenges.
 :::
 
-::: {#doing-the-right-things-well .section}
-##### [Doing The Right Things Well](#id64){.toc-backref}
+::: 
+##### [Doing The Right Things Well](#id64)
 
 > Most of us who work in organizations work at a surprisingly low yield of effectiveness. \... Effectiveness is more a matter of habits of behavior, and of a few elementary rules. \... In solo work, the job organizes the performer; in an organization, the performer organizes the job.
 >
@@ -1089,8 +1094,8 @@ Reverend David Hubbard is president of Fuller Theological Seminary in Pasadena, 
 > People have become more understanding in recent years of how strengths vary from person to person. \... Too many think they are wonderful with people because they talk well. They don\'t realize that being wonderful with people means *listening* well.
 :::
 
-::: {#self-renewal .section}
-##### [Self-Renewal](#id65){.toc-backref}
+::: 
+##### [Self-Renewal](#id65)
 
 > Expect the job to provide stimulus only if you work on your own self-renewal, only if you create the excitement, the challenge, the transformation that makes an old job enriching over and over again. Seeing both yourself and the task in a new dimension can sometimes expand this capacity.
 >
@@ -1101,23 +1106,23 @@ Reverend David Hubbard is president of Fuller Theological Seminary in Pasadena, 
 > All the individuals who have the greatest ability for self-renewal focus their efforts. In a way, they are self-centered, and see the whole world as nourishment for their growth.
 :::
 
-::: {#id4 .section}
-##### [What Do You Want To Be Remembered For?](#id66){.toc-backref}
+::: 
+##### [What Do You Want To Be Remembered For?](#id66)
 
 > It is a question that induces you to renew yourself, because it pushes you to see yourself as a different person---the person you can *become*.
 :::
 :::::::
 
-::: {#non-profits-the-second-career-interview-with-robert-buford .section}
-#### [3. Non-Profits: The Second Career --- Interview with Robert Buford](#id67){.toc-backref}
+::: 
+#### [3. Non-Profits: The Second Career --- Interview with Robert Buford](#id67)
 
 Robert Buford is chairman and CEO of Buford Television, Inc. (Texas), and founder of two non-profit institutions, Leadership Network and the Peter F. Drucker Foundation for Non-Profit Management.
 
 > **Buford:** Stay in touch with your constituency, or you run the risk that they will change and you won\'t. You\'ll be left a prisoner of your own tradition, a prisoner of the insiders in an organization and their desires, and will miss the role of a service organization, which is to serve.
 :::
 
-::: {#the-woman-executive-in-the-non-profit-institution-interview-with-roxanne-spitzer-lehmann .section}
-#### [4. The Woman Executive in the Non-Profit Institution --- Interview with Roxanne Spitzer-Lehmann](#id68){.toc-backref}
+::: 
+#### [4. The Woman Executive in the Non-Profit Institution --- Interview with Roxanne Spitzer-Lehmann](#id68)
 
 Roxanne Spitzer-Lehmann is corporate vice-president of St. Joseph Health System, a chain of non-profit hospitals headquartered in California.
 
@@ -1126,8 +1131,8 @@ Roxanne Spitzer-Lehmann is corporate vice-president of St. Joseph Health System,
 > My role is not to give the answers. My role is to facilitate their brainstorming and thinking. And then to pull it together into something that we all go out and implement. My job is to establish the goal and the vision. *Their* job is to figure out how we can do it together.
 :::
 
-::: {#id5 .section}
-#### [5. Summary: The Action Implications](#id69){.toc-backref}
+::: 
+#### [5. Summary: The Action Implications](#id69)
 
 > \"You are responsible for allocating your life. Nobody else will do it for you.\" \[Joshua Abrams\] \... When we talk of self-development, we mean two things: developing the person, and developing the skill, competence, and ability to contribute. These are two quite different tasks.
 >
@@ -1142,4 +1147,3 @@ Roxanne Spitzer-Lehmann is corporate vice-president of St. Joseph Health System,
 > Self-development is neither a philosophy nor good intentions. Self-renewal is not a warm glow. Both are action.
 :::
 ::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

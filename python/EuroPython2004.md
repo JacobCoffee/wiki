@@ -1,13 +1,18 @@
 # EuroPython2004
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This wiki is for you to use. The Europython organizers have put in a skeleton, and it is up to you to fill it in.
 
-In order to edit this wiki, you have to create a User Profile. Follow the link at the top far right of this page. When registering ([UserPreferences](./UserPreferences.html){.nonexistent}) you have to enter name and Email and then move to the bottom of the page and hit \'Create Profile\'. You get back an ID which you can subsequently use to log in. When you are logged in, the link will be replaced with one that has your name.
+In order to edit this wiki, you have to create a User Profile. Follow the link at the top far right of this page. When registering ([UserPreferences](./UserPreferences.html)) you have to enter name and Email and then move to the bottom of the page and hit \'Create Profile\'. You get back an ID which you can subsequently use to log in. When you are logged in, the link will be replaced with one that has your name.
 
 [EuroPython2004LtBubNBros](EuroPython2004LtBubNBros)
 
-## Sprints {#Sprints}
+## Sprints 
 
 There is room for arranging sprints both before and after the conference. You can even have sprints in the downstairs cafeteria area during the conference.
 
@@ -15,13 +20,13 @@ There is room for arranging sprints both before and after the conference. You ca
 
 - [ZopeSprint](ZopeSprint)
 
-## BOF Sessions {#BOF_Sessions}
+## BOF Sessions 
 
 There are a couple of areas at the conference site that are suitable for BOFs. You can also place a BOF in the Student Union house.
 
 [PythonBusinessForumBof](PythonBusinessForumBof)
 
-## Leisure {#Leisure}
+## Leisure 
 
 There are many fun things you can do in Göteborg before and after the conference, and they get even more fun if you do them together with other conference participants.
 
@@ -31,7 +36,7 @@ There are many fun things you can do in Göteborg before and after the conferenc
 
 - Liseberg Visit
 
-- [BeerDrinking](./BeerDrinking.html){.nonexistent}
+- [BeerDrinking](./BeerDrinking.html)
 
 - Dining Out
 
@@ -43,7 +48,7 @@ There are many fun things you can do in Göteborg before and after the conferenc
 
 - Slotts Skogen
 
-## Accomodation {#Accomodation}
+## Accomodation 
 
 Questions, hints and tips about where to stay, and requests for sharing.
 
@@ -51,23 +56,22 @@ Questions, hints and tips about where to stay, and requests for sharing.
 
 **Response:** No, it is strictly forbidden to stay overnight in any location within the university. There are nightguards ensuring that this policy is followed.
 
-## Attendee presentations {#Attendee_presentations}
+## Attendee presentations 
 
 Add a link and create a page about yourself.
 
-- [MagnusLyckå](http://www.thinkware.se/cgi-bin/thinki.cgi/MagnusLyck%C3%A5 "Thinki"){.interwiki}
+- [MagnusLyckå](http://www.thinkware.se/cgi-bin/thinki.cgi/MagnusLyck%C3%A5 "Thinki")
 
 - [ReinoutVanRees](ReinoutVanRees)
 
-## Slides & Papers {#Slides_.26_Papers}
+## Slides & Papers 
 
 See [EuroPython2004Slides](EuroPython2004Slides)
 
-## Feedback, comments and ideas {#Feedback.2C_comments_and_ideas}
+## Feedback, comments and ideas 
 
 Add a link and make a page with feedback on how to improve things.
 
-## Offers of help {#Offers_of_help}
+## Offers of help 
 
 Make a page with offers of helping to improve things.
-:::

@@ -1,13 +1,18 @@
 # PyConIN_Sponsors
 
-::: {#content dir="ltr" lang="en"}
-# Pycon India 2009 {#Pycon_India_2009}
+```{admonition} Legacy Wiki Page
+:class: note
 
-[Pycon-India 2009](http://in.pycon.org){.http} is a community conference by the Python developer community. A purely volunteer effort, it is being hosted for the first time in India, and will attract some of the best Python hackers in India.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-[Pycon India 2009](http://in.pycon.org/2009){.http} will be held in Bangalore, India, between Saturday,26th September2009 and Sunday 27th September 2009.
+# Pycon India 2009 
 
-# Why Sponsor Pycon-India? {#Why_Sponsor_Pycon-India.3F}
+[Pycon-India 2009](http://in.pycon.org) is a community conference by the Python developer community. A purely volunteer effort, it is being hosted for the first time in India, and will attract some of the best Python hackers in India.
+
+[Pycon India 2009](http://in.pycon.org/2009) will be held in Bangalore, India, between Saturday,26th September2009 and Sunday 27th September 2009.
+
+# Why Sponsor Pycon-India? 
 
 We expect between 150-200 delegates at the Conference. The delegates are a mix of students, developers and individuals with strong interest in Python programming language. As well as being fun, enjoyable and informative, the conference will provide an excellent opportunity to network with others in the Python community.
 
@@ -21,11 +26,11 @@ Sponsors will:
 
 - have the opportunity to meet and possibly recruit Python job seekers.
 
-- gain brand recognition through banners at the conference venue, logos on the [PyconIndia](./PyconIndia.html){.nonexistent} website and links to the sponsor\'s own website.
+- gain brand recognition through banners at the conference venue, logos on the [PyconIndia](./PyconIndia.html) website and links to the sponsor\'s own website.
 
 - join the India Python community
 
-# What Sponsors Get? {#What_Sponsors_Get.3F}
+# What Sponsors Get? 
 
 All sponsors will be:
 
@@ -33,11 +38,10 @@ All sponsors will be:
 - publicized in the program
 - publicized on the Pycon India website, with a link to their own site
 
-Please contact Noufal Ibrahim \<[noufal@gmail.com](mailto:noufal@gmail.com){.mailto}\>, the Pycon India 2009 coordinator.
+Please contact Noufal Ibrahim \<[noufal@gmail.com](mailto:noufal@gmail.com)\>, the Pycon India 2009 coordinator.
 
-[sponsorship.pdf](attachments/PyConIN_Sponsors/sponsorship.pdf){.attachment}
+[sponsorship.pdf](attachments/PyConIN_Sponsors/sponsorship.pdf)
 
 ------------------------------------------------------------------------
 
 [CategoryPyConIndia2009](CategoryPyConIndia2009)
-:::

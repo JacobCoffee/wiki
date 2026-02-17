@@ -1,7 +1,12 @@
 # Asking for Help/Why does IDLE refuse to start on Windows?
 
-::: {#content dir="ltr" lang="en"}
-# Asking for Help: Why does IDLE refuse to start on Windows? {#Asking_for_Help:_Why_does_IDLE_refuse_to_start_on_Windows.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: Why does IDLE refuse to start on Windows? 
 
 Bonjour,
 
@@ -26,4 +31,3 @@ This is a rather irksome issue, caused by the way personal firewall software wor
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::

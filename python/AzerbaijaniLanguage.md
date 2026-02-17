@@ -1,9 +1,14 @@
 # AzerbaijaniLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python information in Azeri
 
-ISO 639-1 Code: az [1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+ISO 639-1 Code: az [1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -25,15 +30,15 @@ Where these pages really need help:
 
 **Azərbaycan dili**/ **Азәрбајҹан дили**/ **آذربایجان دیلی**
 
-[attempted to hack together code snippet from online phrases]{.comment style="display:none"}
+[attempted to hack together code snippet from online phrases]
 
-Names from [penpals](http://www.studentsoftheworld.info/penpals/stats.php3?Pays=AZE){.http}
+Names from [penpals](http://www.studentsoftheworld.info/penpals/stats.php3?Pays=AZE)
 
-Phrases from [Omniglot](http://www.omniglot.com/language/phrases/azeri.php){.http}
+Phrases from [Omniglot](http://www.omniglot.com/language/phrases/azeri.php)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-418d19b5b344a821365aa125e7311cc4f4270c13 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # -*- coding: utf-8 -*-
    2 
    3 # python 3.0/3.1
@@ -51,7 +56,6 @@ Phrases from [Omniglot](http://www.omniglot.com/language/phrases/azeri.php){.htt
 :::
 ::::
 
-[Wikipedia Stub](http://az.wikipedia.org/wiki/Python){.http}
+[Wikipedia Stub](http://az.wikipedia.org/wiki/Python)
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode)
-:::::

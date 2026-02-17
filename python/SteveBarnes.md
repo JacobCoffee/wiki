@@ -1,11 +1,16 @@
 # SteveBarnes
 
-::: {#content dir="ltr" lang="en"}
-## Steve \'\'Gadget\'\' Barnes {#Steve_.27.27Gadget.27.27_Barnes}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Steve \'\'Gadget\'\' Barnes 
 
 Email: `<GadgetSteve AT SPAMFREE hotmail DOT com>`
 
-### Brief Bio {#Brief_Bio}
+### Brief Bio 
 
 Working as a software engineer, *in both contract and permanent roles*, since 1987 but with an interest in computers since the 1970s I have mostly worked designing, developing, maintaining, researching, training & testing in the embedded & safety critical industries including:
 
@@ -30,4 +35,3 @@ I am an occasional conference attendee at PyConUK & [EuroPython](EuroPython).
 ------------------------------------------------------------------------
 
 **[CategoryHomepage](CategoryHomepage)**
-:::

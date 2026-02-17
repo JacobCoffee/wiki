@@ -1,7 +1,12 @@
 # ArticleIdeas
 
-::: {#content dir="ltr" lang="en"}
-# Suggestions to Aspiring Writers for Magazine Articles About Python {#Suggestions_to_Aspiring_Writers_for_Magazine_Articles_About_Python}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Suggestions to Aspiring Writers for Magazine Articles About Python 
 
 ------------------------------------------------------------------------
 
@@ -131,9 +136,8 @@
 
 ------------------------------------------------------------------------
 
-For active discussion on advocating the use of Python, please join the [Advocacy mailing list](http://mail.python.org/mailman/listinfo/advocacy){.http} and visit the [Advocacy - Get Involved!](http://advocacy.python.org/getinvolved){.http} site.
+For active discussion on advocating the use of Python, please join the [Advocacy mailing list](http://mail.python.org/mailman/listinfo/advocacy) and visit the [Advocacy - Get Involved!](http://advocacy.python.org/getinvolved) site.
 
 ------------------------------------------------------------------------
 
 [CategoryAdvocacy](CategoryAdvocacy)
-:::

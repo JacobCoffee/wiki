@@ -1,6 +1,11 @@
 # NewProposal
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Proposed Jython Users Guide TOC JUG = Jython User Guide DCN = Dave\'s class notes
 
 SECTION I - BASIC JYTHON
@@ -80,13 +85,13 @@ SECTION II - INTEGRATING JAVA INTO PYTHON
 
   <!-- -->
 
-  - o Using a [DataSource](./DataSource.html){.nonexistent} (or [ConnectionPooledDataSource](./ConnectionPooledDataSource.html){.nonexistent}) o Using a JNDI lookup
+  - o Using a [DataSource](./DataSource.html) (or [ConnectionPooledDataSource](./ConnectionPooledDataSource.html)) o Using a JNDI lookup
 
     - Getting a Cursor
 
       - \+ SQL Server + Oracle
 
-      Datatype mapping callbacks through [DataHandler](./DataHandler.html){.nonexistent}
+      Datatype mapping callbacks through [DataHandler](./DataHandler.html)
 
       - \+ life cycle + developer support + binding prepared statements + building results + callable statement support
 
@@ -100,7 +105,7 @@ SECTION II - INTEGRATING JAVA INTO PYTHON
 
   - (stuff on how to convert java into Jython like the last part of Jython Essencials)
 
-  [JavaBean](./JavaBean.html){.nonexistent} Properties (own section or part of previous one?)
+  [JavaBean](./JavaBean.html) Properties (own section or part of previous one?)
 
   - o Properties o Tuples o Event Properties o Methods, Properties and Event Properties
 
@@ -155,4 +160,3 @@ SECTION THREE - JYTHON REFERENCE
   22 Credits - people that contributed to this effort.
 
 Index! If this is more of an online doc then maybe its not needed
-:::

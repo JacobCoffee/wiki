@@ -1,28 +1,33 @@
 # EuroPython/2008/IRCMeetings/IRCMeeting1
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #1 {#IRC_Meeting_.231}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Time/Location {#Time.2FLocation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# IRC Meeting #1 
+
+## Time/Location 
 
 The meeting took place on Monday 28th January 2008 at 1900 CET in the #europython channel on freenode.
 
-## Minutes {#Minutes}
+## Minutes 
 
 - Dates of the conference were discussed, and despite conflicting with GUADEC, most people were happy with **7th-12th July**. Aiste was to confirm the agreed dates and venue with the hotel (Reval Hotel Lietuva). **This was confirmed the following day.**
 
-- Marius started to log the IRC channel at the following address: [http://mg.pov.lt/europython-irclog/](http://mg.pov.lt/europython-irclog/){.http}
+- Marius started to log the IRC channel at the following address: [http://mg.pov.lt/europython-irclog/](http://mg.pov.lt/europython-irclog/)
 
 - Laura is handling the financial management for the conference this year in place of Dario.
 
-- John made a [proposal](http://mail.python.org/mailman/private/europython-improve/2008-January/000035.html){.http} regarding Web sites and infrastructure which was then discussed:
+- John made a [proposal](http://mail.python.org/mailman/private/europython-improve/2008-January/000035.html) regarding Web sites and infrastructure which was then discussed:
 
   1.  Public Web site
-      - Paul will take responsibility for the public Web site - a [MoinMoin](MoinMoin) Wiki currently located here: [http://europython.pyconuk.org/](http://europython.pyconuk.org/){.http}
+      - Paul will take responsibility for the public Web site - a [MoinMoin](MoinMoin) Wiki currently located here: [http://europython.pyconuk.org/](http://europython.pyconuk.org/)
 
       - Zeth is administering the Wiki infrastructure. Matt offered to help out with the Web site; lenscape also offered to police the Wiki.
   2.  Registration
-      - John\'s shopping cart solution for [PyCon](PyCon) UK will be used for registration. (The shopping cart is flexible with regard to payment services and can use [WorldPay](./WorldPay.html){.nonexistent} as well as [PayPal](./PayPal.html){.nonexistent}, which people reported problems with. According to Zeth, a \"non-shopping cart approach\" could be done, but not for this year\'s conference.)
+      - John\'s shopping cart solution for [PyCon](PyCon) UK will be used for registration. (The shopping cart is flexible with regard to payment services and can use [WorldPay](./WorldPay.html) as well as [PayPal](./PayPal.html), which people reported problems with. According to Zeth, a \"non-shopping cart approach\" could be done, but not for this year\'s conference.)
 
       - The payment currency will be the Euro, but amounts in other currencies should be provided for information.
 
@@ -42,7 +47,7 @@ The meeting took place on Monday 28th January 2008 at 1900 CET in the #europytho
 
 - Sponsorship will be discussed in a subsequent meeting.
 
-## Minutes {#Minutes-1}
+## Minutes 
 
 These minutes were written by John and sent to Laura:
 
@@ -57,4 +62,3 @@ These minutes were written by John and sent to Laura:
 No decision on [EuroPython](EuroPython) 2009/2010.
 
 Next meeting Thursday 7th February. No time set, I suggest 18:00 CET, which might be better for Aiste.
-:::

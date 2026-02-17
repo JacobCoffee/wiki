@@ -1,13 +1,17 @@
 # CommunityJobBoards
 
-::: {#content dir="ltr" lang="en"}
-### This page lists sites which contain postings of jobs from specific Python communities {#This_page_lists_sites_which_contain_postings_of_jobs_from_specific_Python_communities}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Python Jobs Blog {#Python_Jobs_Blog}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-The [Python Jobs Blog](http://pythonjobs.blogspot.com){.http} lists JOB postings, both commercial and volunteer posted on the [BangPypers](BangPypers) mailing list. The postings are automatically added to the blog by a web-crawler at least once in a month.
+### This page lists sites which contain postings of jobs from specific Python communities 
+
+## Python Jobs Blog 
+
+The [Python Jobs Blog](http://pythonjobs.blogspot.com) lists JOB postings, both commercial and volunteer posted on the [BangPypers](BangPypers) mailing list. The postings are automatically added to the blog by a web-crawler at least once in a month.
 
 ------------------------------------------------------------------------
 
 [CategoryPythonJobs](CategoryPythonJobs)
-:::

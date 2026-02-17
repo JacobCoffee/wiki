@@ -1,6 +1,11 @@
 # PloneOrgMigration
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **When**: Saturday and Sunday before [EuroPython](EuroPython) (June 25th-26th 2005) - the dates are now confirmed.
 
 **Sprint leader**: [AlexanderLimi](AlexanderLimi)
@@ -17,9 +22,9 @@ We will perform the migration on a backup instance to figure out the steps invol
 
 There is some crufty old software running on plone.org that needs special care:
 
-- **CMFCollector** - this is very old and about to die from the amount of issues we have in it. At the very minimum, we need to look at converting it to a BTree-based structure - \$DEITY knows why it wasn\'t in the first place. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+- **CMFCollector** - this is very old and about to die from the amount of issues we have in it. At the very minimum, we need to look at converting it to a BTree-based structure - \$DEITY knows why it wasn\'t in the first place. ![:)](/wiki/europython/img/smile.png ":)")
 
-- **CMFWorkspaces** - another old piece of software that nearly works. ![;)](/wiki/europython/img/smile4.png ";)"){height="16" width="16"} We need to evaluate whether we need this software anymore. My guess is no - since we have [ConstrainTypes](./ConstrainTypes.html){.nonexistent} in the new 2.1 release, but this is something that we need to reach a decision on.
+- **CMFWorkspaces** - another old piece of software that nearly works. ![;)](/wiki/europython/img/smile4.png ";)") We need to evaluate whether we need this software anymore. My guess is no - since we have [ConstrainTypes](./ConstrainTypes.html) in the new 2.1 release, but this is something that we need to reach a decision on.
 
 - **ZWiki** - ideally we should get rid of all wiki pages and turn them into normal documents. ZWiki doesn\'t work very well in Plone, and it\'s become a burden to support it. Also, it makes sense to reduce the number of external dependencies. The only Wiki feature we use is the link markup, and that can be replaced with products like Wicked later on.
 
@@ -44,4 +49,3 @@ Where, oh where?
 - [ReinoutVanRees](ReinoutVanRees) (at [EuroPython](EuroPython))
 
 - Ivo van der Wijk (at [EuroPython](EuroPython))
-:::

@@ -1,6 +1,11 @@
 # Asking for Help/Socket module changed in Python 2.5?
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 I just upgraded from python 2.4.2 to 2.5 (r25:51908, Jan 4 2007, 17:18:25) and my program using the xmpp module stopped working. Investigating, it appears that ssl() is no longer part of the socket module, but I can\'t find any documenation to that effect. Here is what I see (opensuse 10.1):
 
     /usr/bin/python
@@ -46,4 +51,3 @@ Ok, I found it. It turns out that setup.py does look for ssl.h in various direct
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::

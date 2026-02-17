@@ -1,6 +1,11 @@
 # WikiInstructions
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 A Wiki is a collaborative site, anyone can contribute and share:
 
 - Edit any page by pressing **Edit** at the top or the bottom of the page
@@ -11,5 +16,4 @@ A Wiki is a collaborative site, anyone can contribute and share:
 
 - See [HelpForBeginners](HelpForBeginners) to get you going, [HelpContents](HelpContents) for all help pages.
 
-To learn more about what a [WikiWikiWeb](WikiWikiWeb) is, read about [WhyWikiWorks](http://moinmoin.wikiwikiweb.de/WhyWikiWorks "MoinMoin"){.interwiki} and the [WikiNature](http://moinmoin.wikiwikiweb.de/WikiNature "MoinMoin"){.interwiki}. Also, consult the [WikiWikiWebFaq](http://moinmoin.wikiwikiweb.de/WikiWikiWebFaq "MoinMoin"){.interwiki}.
-:::
+To learn more about what a [WikiWikiWeb](WikiWikiWeb) is, read about [WhyWikiWorks](http://moinmoin.wikiwikiweb.de/WhyWikiWorks "MoinMoin") and the [WikiNature](http://moinmoin.wikiwikiweb.de/WikiNature "MoinMoin"). Also, consult the [WikiWikiWebFaq](http://moinmoin.wikiwikiweb.de/WikiWikiWebFaq "MoinMoin").

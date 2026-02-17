@@ -1,6 +1,11 @@
 # NeedForSpeed/Goals/Slowdown
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [FredrikLundh](FredrikLundh): The main culprit seems to be try/except. We see the same slowdown both on Intel (Windows XP, Linux) and on PowerPC, using both stock builds and local builds.
 
 To compare, use
@@ -181,4 +186,3 @@ Here is a test result, 100 passes, on a FC5 system running on a Pentium M 1.8 la
                     UnicodeSlicing:      78.28 ms    0.45 us    -1.74%
     ------------------------------------------------------------------------
                 Average round time:    4000.30 ms               +0.26%
-:::

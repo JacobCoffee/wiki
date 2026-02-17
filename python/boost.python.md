@@ -1,6 +1,11 @@
 # boost.python
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **Boost.Python** binds C++ and Python. Read [/GettingStarted](./boost(2e)python(2f)GettingStarted.html) for an introduction.
 
 This page serves as a forum to gather peoples\' experience and as a cookbook, as it is more dynamic by nature and open to contributors.
@@ -47,7 +52,7 @@ Tutorial:
 
 5.  [/Inheritance](./boost(2e)python(2f)Inheritance.html)
 
-6.  [/SpecialMethods](./boost(2e)python(2f)SpecialMethods.html){.nonexistent}
+6.  [/SpecialMethods](./boost(2e)python(2f)SpecialMethods.html)
 
 7.  [/PeekUnderTheHood](./boost(2e)python(2f)PeekUnderTheHood.html)
 
@@ -64,4 +69,3 @@ Tutorial:
 Test cases:
 
 - [/StlContainers](./boost(2e)python(2f)StlContainers.html)
-:::

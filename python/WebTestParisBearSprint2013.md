@@ -1,7 +1,11 @@
 # WebTestParisBearSprint2013
 
-::: {#content dir="ltr" lang="en"}
-# WebTest Paris Sprint @ Bearstech {#WebTest_Paris_Sprint_.40_Bearstech}
+```{admonition} Legacy Wiki Page
+:class: note
 
-See this page : [https://github.com/Pylons/webtest/wiki/ParisSprint2013](https://github.com/Pylons/webtest/wiki/ParisSprint2013){.https}
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# WebTest Paris Sprint @ Bearstech 
+
+See this page : [https://github.com/Pylons/webtest/wiki/ParisSprint2013](https://github.com/Pylons/webtest/wiki/ParisSprint2013)

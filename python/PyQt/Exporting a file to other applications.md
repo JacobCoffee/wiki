@@ -1,15 +1,20 @@
 # PyQt/Exporting a file to other applications
 
-::::: {#content dir="ltr" lang="en"}
-# Exporting a file to other applications {#Exporting_a_file_to_other_applications}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Exporting a file to other applications 
 
 On the [mailing list](./PyQt(2f)TheMailingList.html), Hugo Léveillé asked how to drag data from an application into another that accepts a file drop.
 
 The following example shows one way to do this. Improvements to this code are welcome.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f9929d8b5086ee8155dcaec8e5d41d85317d85d2 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import QDir, QMimeData, Qt, QTemporaryFile, QUrl
    3 from PyQt4.QtGui import *
@@ -48,4 +53,3 @@ The following example shows one way to do this. Improvements to this code are we
 ```
 :::
 ::::
-:::::

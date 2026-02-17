@@ -1,13 +1,18 @@
 # InterSystems IRIS
 
-::: {#content dir="ltr" lang="en"}
-# InterSystems IRIS {#InterSystems_IRIS}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# InterSystems IRIS 
 
 URL
 
 :   
 
-[https://www.intersystems.com/products/intersystems-iris/](https://www.intersystems.com/products/intersystems-iris/){.https}
+[https://www.intersystems.com/products/intersystems-iris/](https://www.intersystems.com/products/intersystems-iris/)
 
 licence
 
@@ -20,15 +25,15 @@ licence
 
 Linux x86-64, Linux ARM64, Win64
 
-[https://cedocs.intersystems.com/latest/csp/docbook/Doc.View.cls?KEY=ISP_technologies#ISP_platforms](https://cedocs.intersystems.com/latest/csp/docbook/Doc.View.cls?KEY=ISP_technologies#ISP_platforms){.https}
+[https://cedocs.intersystems.com/latest/csp/docbook/Doc.View.cls?KEY=ISP_technologies#ISP_platforms](https://cedocs.intersystems.com/latest/csp/docbook/Doc.View.cls?KEY=ISP_technologies#ISP_platforms)
 
-## Pros {#Pros}
+## Pros 
 
-## Cons {#Cons}
+## Cons 
 
 ------------------------------------------------------------------------
 
-## DB API 2.0 Drivers {#DB_API_2.0_Drivers}
+## DB API 2.0 Drivers 
 
 ### pyodbc
 
@@ -36,7 +41,7 @@ URL
 
 :   
 
-[https://github.com/mkleehammer/pyodbc](https://github.com/mkleehammer/pyodbc){.https}
+[https://github.com/mkleehammer/pyodbc](https://github.com/mkleehammer/pyodbc)
 
 licence
 
@@ -62,21 +67,21 @@ Precompiled binaries are available for Windows. [RedHat](RedHat) Enterprise Linu
 
 **Documentation**
 
-[https://docs.intersystems.com/irislatest/csp/docbook/Doc.View.cls?KEY=BNETODBC_support#BNETODBC_support_pyodbc](https://docs.intersystems.com/irislatest/csp/docbook/Doc.View.cls?KEY=BNETODBC_support#BNETODBC_support_pyodbc){.https}
+[https://docs.intersystems.com/irislatest/csp/docbook/Doc.View.cls?KEY=BNETODBC_support#BNETODBC_support_pyodbc](https://docs.intersystems.com/irislatest/csp/docbook/Doc.View.cls?KEY=BNETODBC_support#BNETODBC_support_pyodbc)
 
-#### Extensions to DB API {#Extensions_to_DB_API}
-
-(Delete if not applicable)
-
-#### Comments {#Comments}
+#### Extensions to DB API 
 
 (Delete if not applicable)
 
-## Other Drivers {#Other_Drivers}
+#### Comments 
 
 (Delete if not applicable)
 
-### driver name {#driver_name}
+## Other Drivers 
+
+(Delete if not applicable)
+
+### driver name 
 
 URL
 
@@ -94,21 +99,20 @@ Python versions
 
 :   
 
-#### Programming Model {#Programming_Model}
+#### Programming Model 
 
 (Delete if not applicable)
 
-#### Comments {#Comments-1}
+#### Comments 
 
 (Delete if not applicable)
 
 ------------------------------------------------------------------------
 
-## Supported Python Applications {#Supported_Python_Applications}
+## Supported Python Applications 
 
 (Delete if not applicable)
 
 ------------------------------------------------------------------------
 
 [CategoryTemplate](CategoryTemplate)
-:::

@@ -1,8 +1,12 @@
 # AdvocacyWritingTasks/MatlabAlternative
 
-::: {#content dir="ltr" lang="en"}
-# Outline for: \"The Python Alternative to Matlab\" {#Outline_for:_.22The_Python_Alternative_to_Matlab.22}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Outline for: \"The Python Alternative to Matlab\" 
 
 - Note: The introduction/preface to this section should clearly state some of Python\'s major advantages over matlab (not only being free and open source).
 - ???
-:::

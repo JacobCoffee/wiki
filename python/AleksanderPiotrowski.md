@@ -1,13 +1,17 @@
 # AleksanderPiotrowski
 
-::: {#content dir="ltr" lang="en"}
-## Aleksander Piotrowski {#Aleksander_Piotrowski}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Email: [aleksander.piotrowski@nic.com.pl](mailto:aleksander.piotrowski@nic.com.pl){.mailto}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-Homepage: [http://nic.com.pl/\~alek/](http://nic.com.pl/~alek/){.http}
+## Aleksander Piotrowski 
+
+Email: [aleksander.piotrowski@nic.com.pl](mailto:aleksander.piotrowski@nic.com.pl)
+
+Homepage: [http://nic.com.pl/\~alek/](http://nic.com.pl/~alek/)
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

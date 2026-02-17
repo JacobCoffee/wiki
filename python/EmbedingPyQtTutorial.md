@@ -1,11 +1,16 @@
 # EmbedingPyQtTutorial
 
-::: {#content dir="ltr" lang="en"}
-# Oleksandr Yakovlyev\'s Embeding PyQt Tutorial {#Oleksandr_Yakovlyev.27s_Embeding_PyQt_Tutorial}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Oleksandr Yakovlyev\'s Embeding PyQt Tutorial 
 
 This is a short tutorial to embed your Qt application in [PyQt](PyQt) . It assumes knowledge of bash, Python, Qt+[PyQt](PyQt) and sip.
 
-## Hybrid Application? {#Hybrid_Application.3F}
+## Hybrid Application? 
 
 One day I discovered that it can be really great to use [PyQt](PyQt) scripts in a Qt application. It assumes that such Hybrid application can have two \"branches\" - c++ code and python code working together, exchange signals between two these branches, of course possibility to create new objects with python/pyqt and connect signal/slots beetween two parts of the application (Qt and [PyQt](PyQt)), well between Qt objects and [PyQt](PyQt) objects. Well, even more, with Python you can create new classes in runtime, and \... this is almost magic, these new clases/objects will work together with C++(Qt) part of application.
 
@@ -150,7 +155,7 @@ So, we have compiliable small qt application with editor and button \"Run Script
 
 Note, that we use #include \"../application.h\" because sip generates files to coreappwrap/. It is important to wrap our signal runScript, because it will be used in python part.
 
-Now we create configure.py according to [Phil Thompson manual](http://www.river-bank.demon.co.uk/docs/sip/sipref.html#a-simple-c-example){.http}
+Now we create configure.py according to [Phil Thompson manual](http://www.river-bank.demon.co.uk/docs/sip/sipref.html#a-simple-c-example)
 
 ### configure.py
 
@@ -201,7 +206,7 @@ Now we create configure.py according to [Phil Thompson manual](http://www.river-
       # Generate the Makefile itself.
       makefile.generate()
 
-We used -Wl,-rpath,. and -Wl,-rpath,.. because generated python module located in coreappwrap directory. makefile.extra_libs = [coreapp](./coreapp.html){.nonexistent} is our Qt application that we have created with application.pro. It is libcoreapp.so.XXX files
+We used -Wl,-rpath,. and -Wl,-rpath,.. because generated python module located in coreappwrap directory. makefile.extra_libs = [coreapp](./coreapp.html) is our Qt application that we have created with application.pro. It is libcoreapp.so.XXX files
 
 Now it is time to compile that all. First build our Qt application:
 
@@ -253,9 +258,8 @@ At the end we need to write main.py to run it all
       a.connect(a, SIGNAL('lastWindowClosed()'), a, SLOT('quit()') )
       a.exec_loop()
 
-Note that \"exec\" see [MainWindow](./MainWindow.html){.nonexistent} variable and user have access to it with scripts. You can use other variables you want to be acceessed by scripts, etc
+Note that \"exec\" see [MainWindow](./MainWindow.html) variable and user have access to it with scripts. You can use other variables you want to be acceessed by scripts, etc
 
-The example (tarball ) is located at [http://yshurik.kiev.ua/PyQtScripting.tar.gz](http://yshurik.kiev.ua/PyQtScripting.tar.gz){.http}, 4k (link error) [http://yshurik.kiev.ua/PyQtScripting.zip](http://yshurik.kiev.ua/PyQtScripting.zip){.http}, 4k
+The example (tarball ) is located at [http://yshurik.kiev.ua/PyQtScripting.tar.gz](http://yshurik.kiev.ua/PyQtScripting.tar.gz), 4k (link error) [http://yshurik.kiev.ua/PyQtScripting.zip](http://yshurik.kiev.ua/PyQtScripting.zip), 4k
 
-You may also make corrections to this page. If you have questions or comments, send them to me at [yshurik@me.com](mailto:yshurik@me.com){.mailto}.
-:::
+You may also make corrections to this page. If you have questions or comments, send them to me at [yshurik@me.com](mailto:yshurik@me.com).

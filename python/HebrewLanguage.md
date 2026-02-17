@@ -1,11 +1,16 @@
 # HebrewLanguage
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python information in Hebrew
 
 ISO 639-1 Code: he
 
-**עִבְרִית** [1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+**עִבְרִית** [1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -23,9 +28,8 @@ Where these pages really need help:
 
 3\) some care for languages that have next to nothing, but do have people in the Python community - even a link to the Wikipedia page for Python, in that language, is a start (Some are pretty complete and of high quality - the Russian language Wikipedia page for Python, for instance, packs a lot in).
 
-[Python-IL](http://www.python.org.il){.http}; contains links and discussions of interest to Python programmers in Israel.
+[Python-IL](http://www.python.org.il); contains links and discussions of interest to Python programmers in Israel.
 
-[http://he.wikipedia.org/wiki/Python](http://he.wikipedia.org/wiki/Python){.http} (Wikipedia)
+[http://he.wikipedia.org/wiki/Python](http://he.wikipedia.org/wiki/Python) (Wikipedia)
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode)
-:::

@@ -1,30 +1,34 @@
 # PyConDC2005/Presentations
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
 ------------------------------------------------------------------------
 
 #1. **Python in the IT Field**
 
-Greg Lindstrom / [NovaSys](./NovaSys.html){.nonexistent} Health ([http://www.novasyshealth.com](http://www.novasyshealth.com){.http})
+Greg Lindstrom / [NovaSys](./NovaSys.html) Health ([http://www.novasyshealth.com](http://www.novasyshealth.com))
 
-In business, customer service is the name of the game. In the Information Technology field, this service manifests itself in the ability to accept, format, store, and analyze data. At [NovaSys](./NovaSys.html){.nonexistent} Health, we selected Python for our programming needs because it\'s easy to use, plays well with a variety of platforms (not only different operating systems, but a wide variety of databases) and the Python community is as helpful as it gets. This talk will discuss how Python is allowing us to list technology as a competitive advantage (accessing MS SQL database, teaching other techies, using Python\'s standard library).
+In business, customer service is the name of the game. In the Information Technology field, this service manifests itself in the ability to accept, format, store, and analyze data. At [NovaSys](./NovaSys.html) Health, we selected Python for our programming needs because it\'s easy to use, plays well with a variety of platforms (not only different operating systems, but a wide variety of databases) and the Python community is as helpful as it gets. This talk will discuss how Python is allowing us to list technology as a competitive advantage (accessing MS SQL database, teaching other techies, using Python\'s standard library).
 
 ------------------------------------------------------------------------
 
-#4. **[MissionEngine](./MissionEngine.html){.nonexistent}: Multi-system integration using Python in the Tactical Language Project**
+#4. **[MissionEngine](./MissionEngine.html): Multi-system integration using Python in the Tactical Language Project**
 
-Prasan Samtani ([http://www.isi.edu/\~samtani](http://www.isi.edu/~samtani){.http}), Hannes Vilhjalmsson ([http://www.isi.edu/\~hannes](http://www.isi.edu/~hannes){.http})
+Prasan Samtani ([http://www.isi.edu/\~samtani](http://www.isi.edu/~samtani)), Hannes Vilhjalmsson ([http://www.isi.edu/\~hannes](http://www.isi.edu/~hannes))
 
 University of Southern California - Information Sciences Institute (USC/ISI)
 
-Project homepage URL: [http://www.tacticallanguage.com](http://www.tacticallanguage.com){.http}
+Project homepage URL: [http://www.tacticallanguage.com](http://www.tacticallanguage.com)
 
 The Tactical Language Training system is designed to help learners acquire communicative competence in spoken Arabic and other languages. Learners practice vocabulary items and learn gestures, following which they apply them in a simulated Mission Environment. In the simulation environment, users interact with the systemís onscreen characters using a speech recognition interface. The simulation environment is built on the Unreal tournament Game Engine.
 
 In the past several months, a major transition has been made from the original system in Java, to a new Python-centric architecture. This presentation traces the evolution of the Tactical Language Training System from a set of separate programs to a single integrated system. The various different system components will be introduced, and the underlying technology behind will be briefly discussed. We will go over what features of the language we found especially useful for integration (latent-typing, lambda functions, pickle), and some hurdles we found particularly tricky coming from a C++/Java background.
 
-The talk will also address the way we tackled the problem of talking to incompatible languages. For example, Unreal Tournament uses a proprietary scripting language - [UnrealScript](./UnrealScript.html){.nonexistent} - and in order to communicate with Unreal we had to make use of an earlier ISI technology called GAMEBOTS, which is implemented both in Python and [UnrealScript](./UnrealScript.html){.nonexistent}, and uses sockets as a method of communication.
+The talk will also address the way we tackled the problem of talking to incompatible languages. For example, Unreal Tournament uses a proprietary scripting language - [UnrealScript](./UnrealScript.html) - and in order to communicate with Unreal we had to make use of an earlier ISI technology called GAMEBOTS, which is implemented both in Python and [UnrealScript](./UnrealScript.html), and uses sockets as a method of communication.
 
 Other topics discussed in the context of Tactical Language will adress the performance issue (writing expensive routines - the speech recognition and NLP algorithms - in C and authoring extension modules), the importance of using a powerful language for build scripts, using algorithmic optimizations over language micro-optimizations and the importance of Python\'s standard library in speeding up the development process.
 
@@ -32,21 +36,21 @@ Other topics discussed in the context of Tactical Language will adress the perfo
 
 #7. **Happy Hooking: Designing Software for Extensibility and Customization**
 
-[Ed Leafe](./Ed(20)Leafe.html) / [The Dabo Project](http://dabodev.com){.http}
+[Ed Leafe](./Ed(20)Leafe.html) / [The Dabo Project](http://dabodev.com)
 
-It is rare for anyone to create any non-trivial software project that will not need customization at some point. It is therefore wise to plan for this when designing your code by inserting hook methods that are designed to be customized to add additional functionality later on. By default these methods do nothing, so they can be freely overridden by others without the risk of losing a critical behavior because a superclass method had been overridden. This is especially useful for creators of frameworks and tools that can be extended by their users. As one of the two primary authors of the Dabo framework, I am especially aware that in order to be useful, the code I create needs to be adapted and augmented by developers who build their apps with Dabo. I will show several code examples from Dabo to illustrate my points. [Paper](http://www.python.org/pycon/2005/papers/7/pyconHooking.html){.http}
+It is rare for anyone to create any non-trivial software project that will not need customization at some point. It is therefore wise to plan for this when designing your code by inserting hook methods that are designed to be customized to add additional functionality later on. By default these methods do nothing, so they can be freely overridden by others without the risk of losing a critical behavior because a superclass method had been overridden. This is especially useful for creators of frameworks and tools that can be extended by their users. As one of the two primary authors of the Dabo framework, I am especially aware that in order to be useful, the code I create needs to be adapted and augmented by developers who build their apps with Dabo. I will show several code examples from Dabo to illustrate my points. [Paper](http://www.python.org/pycon/2005/papers/7/pyconHooking.html)
 
 ------------------------------------------------------------------------
 
 #9. **Dabo, the 3-tier Database Application Framework)**
 
-[Ed Leafe](./Ed(20)Leafe.html) / [The Dabo Project](http://dabodev.com){.http}
+[Ed Leafe](./Ed(20)Leafe.html) / [The Dabo Project](http://dabodev.com)
 
-There are several tools available that help a developer create applications for working with data: Visual [FoxPro](./FoxPro.html){.nonexistent}, Visual Basic, Delphi, etc. They make some of the tedious parts of the app, such as ensuring that a change to a value in a text box gets propagated back to the correct column in the correct record of the correct table in the correct database on the correct host. These tools all have their strengths and weaknesses, but none are Open Source, and none are in Python!
+There are several tools available that help a developer create applications for working with data: Visual [FoxPro](./FoxPro.html), Visual Basic, Delphi, etc. They make some of the tedious parts of the app, such as ensuring that a change to a value in a text box gets propagated back to the correct column in the correct record of the correct table in the correct database on the correct host. These tools all have their strengths and weaknesses, but none are Open Source, and none are in Python!
 
-In March 2004, two long-time Visual [FoxPro](./FoxPro.html){.nonexistent} developers, Ed Leafe and Paul [McNett](./McNett.html){.nonexistent}, had both become convinced that Python and cross-platform apps represented the future. Trouble was that there wasn\'t a tool available that could do what we wanted; so as a result, we decided to create our own.
+In March 2004, two long-time Visual [FoxPro](./FoxPro.html) developers, Ed Leafe and Paul [McNett](./McNett.html), had both become convinced that Python and cross-platform apps represented the future. Trouble was that there wasn\'t a tool available that could do what we wanted; so as a result, we decided to create our own.
 
-Dabo is designed to create true 3-tier apps, in which the UI, the business rules, and the data storage are cleanly separated, using a Chain of Responsibility pattern for the messaging between tiers. We\'ve chosen wxPython as our initial UI toolkit, but have written our UI classes so that their interfaces are not wxPython-specific. We currently support MySQL, Firebird and PostgreSQL on the backend, with more to follow. [Paper](http://www.python.org/pycon/2005/papers/9/pyconDabo.html){.http}
+Dabo is designed to create true 3-tier apps, in which the UI, the business rules, and the data storage are cleanly separated, using a Chain of Responsibility pattern for the messaging between tiers. We\'ve chosen wxPython as our initial UI toolkit, but have written our UI classes so that their interfaces are not wxPython-specific. We currently support MySQL, Firebird and PostgreSQL on the backend, with more to follow. [Paper](http://www.python.org/pycon/2005/papers/9/pyconDabo.html)
 
 ------------------------------------------------------------------------
 
@@ -81,7 +85,7 @@ I present various test frameworks that are either written in Python or use Pytho
 
 - Java-based test frameworks can be used within Python frameworks via Jython
 
-- Examples of Java- and Jython-based frameworks (The Grinder, [TestMaker](./TestMaker.html){.nonexistent}, Marathon)
+- Examples of Java- and Jython-based frameworks (The Grinder, [TestMaker](./TestMaker.html), Marathon)
 
 - Using Java-based tools with Jython (example: HTTPUnit)
 
@@ -116,11 +120,11 @@ Andrew Fine / Honeywell
 
 When I started out, I did not have any experience at SGML, XML, or other markup languages. It was only when I was perilously close to reinventing the concept of markup languages, by adapting direct PythonCOM to Word interfaces from Mark Hammond\'s book, that I decided there had be a better way to do this from a design and maintenance standpoint.
 
-A Web search provided me with a crash education on markup languages such as XML, HTML, and SGML, on how [DocBook](./DocBook.html){.nonexistent} SGML was an overwhelmingly popular open standard, and on how an open source package named [OpenJade](./OpenJade.html){.nonexistent} could translate a [DocBook](./DocBook.html){.nonexistent} SGML file into Word Rich Text file.
+A Web search provided me with a crash education on markup languages such as XML, HTML, and SGML, on how [DocBook](./DocBook.html) SGML was an overwhelmingly popular open standard, and on how an open source package named [OpenJade](./OpenJade.html) could translate a [DocBook](./DocBook.html) SGML file into Word Rich Text file.
 
 The arrangement wasn\'t perfect but I realized two things: 1) it could save me a year in development and maintenance, and 2) I could respond rapidly to new assignments.
 
-The purpose of this paper is to show how I integrated Python, [DocBook](./DocBook.html){.nonexistent}, and Word together to obtain the perfection my local organization demanded.
+The purpose of this paper is to show how I integrated Python, [DocBook](./DocBook.html), and Word together to obtain the perfection my local organization demanded.
 
 ------------------------------------------------------------------------
 
@@ -128,11 +132,11 @@ The purpose of this paper is to show how I integrated Python, [DocBook](./DocBoo
 
 Jacob Kaplan-Moss
 
-The concept of \"scripting\" is central to the Unix philosophy, but it\'s always had spotty support in GUI operating systems. Early in the Mac OS\'s history, Apple recognized this deficiency and developed a framework for scripting GUI applications. Although this framework is quite well designed, its native language is not; [AppleScript](./AppleScript.html){.nonexistent} has been called the only \"read-only\" language in existence. With newly developed hooks into Apple\'s scripting framework, Python now gives a far superior environment for scripting. This talk will focus on using the latest and greatest Python-[AppleScript](./AppleScript.html){.nonexistent} bridge, appscript\_, to script OSX.
+The concept of \"scripting\" is central to the Unix philosophy, but it\'s always had spotty support in GUI operating systems. Early in the Mac OS\'s history, Apple recognized this deficiency and developed a framework for scripting GUI applications. Although this framework is quite well designed, its native language is not; [AppleScript](./AppleScript.html) has been called the only \"read-only\" language in existence. With newly developed hooks into Apple\'s scripting framework, Python now gives a far superior environment for scripting. This talk will focus on using the latest and greatest Python-[AppleScript](./AppleScript.html) bridge, appscript\_, to script OSX.
 
-Previous knowledge of [AppleScript](./AppleScript.html){.nonexistent} is not necessary; although this talk will briefly cover reasons why [AppleScript](./AppleScript.html){.nonexistent} coders should switch to Python, the bulk of the talk will be spent explaining how to use appscript\_ through a series of (increasingly complex) examples.
+Previous knowledge of [AppleScript](./AppleScript.html) is not necessary; although this talk will briefly cover reasons why [AppleScript](./AppleScript.html) coders should switch to Python, the bulk of the talk will be spent explaining how to use appscript\_ through a series of (increasingly complex) examples.
 
-.. \_appscript: [http://freespace.virgin.net/hamish.sanderson/appscript.html](http://freespace.virgin.net/hamish.sanderson/appscript.html){.http}
+.. \_appscript: [http://freespace.virgin.net/hamish.sanderson/appscript.html](http://freespace.virgin.net/hamish.sanderson/appscript.html)
 
 ------------------------------------------------------------------------
 
@@ -142,7 +146,7 @@ Erik Smartt / Nokia
 
 Python for Series 60 brings the power and productivity of Python to Series 60 based smartphones. Join us to see the latest developments and a sneak peak of the features and tools planned for the next release. If you\'re a Python for Series 60 fan, stop by to meet some of the team and share your thoughts on the future of Python development for mobile devices!
 
-The Nokia port of Python to Series 60 mobile devices was released December 2004 on \<[http://forum.nokia.com/\>](http://forum.nokia.com/%3E){.http}.
+The Nokia port of Python to Series 60 mobile devices was released December 2004 on \<[http://forum.nokia.com/\>](http://forum.nokia.com/%3E).
 
 ------------------------------------------------------------------------
 
@@ -168,7 +172,7 @@ There is support for most of the standard things people want to do with 2D plott
 
 #19. **Studying African Lions in the Serengeti Ecosystem with Python**
 
-Michael Urban / Lion Research Center ([http://www.lionresearch.org](http://www.lionresearch.org){.http})
+Michael Urban / Lion Research Center ([http://www.lionresearch.org](http://www.lionresearch.org))
 
 The Lion Research Center, headquartered at the University of Minnesota, is responsible for the Serengeti Lion Project in Tanzania, Africa, and is known throughout the world as a leading institution in the research of African lions. In this presentation, I will discuss FELIS, which is software we developed entirely in Python for identifying, tracking, and analyzing data on African lions in the Serengeti National Park, Ngorongoro Crater, and other lion projects in Tanzania. The software uses a pyGTK interface, and uses data from multiple sources. The software stores its native data using pysqlite. However, the software is also capable of cross-referencing its own data with additional data stored in Access databases, and Excel spreadsheets by using the mxODBC module. In addition, the software includes image processing capabilities for storing and viewing photographs of lions using the Python Imaging Library. Thanks to Python, we are now able to identify lions must faster and with much greater accuracy than was possible before; extract information based on multiple data sources in seconds that used to take days to extract manually; and easily share data between field researchers in Tanzania and our researchers at our headquarters at the University of Minnesota. Python has really revolutionized the way we study African lions.
 
@@ -206,7 +210,7 @@ Extreme Programming (XP) and Python seem to fit in several ways to the goals, ne
 
 #24. **Decimal data type**
 
-[Facundo Batista](http://www.taniquetil.com.ar/plog){.http}
+[Facundo Batista](http://www.taniquetil.com.ar/plog)
 
 In the paper I\'ll explain what is Decimal, how to use it, and when to use it. The idea is to let the reader to feel confident about this new data type in order to start using it.
 
@@ -218,7 +222,7 @@ Finally, I\'ll present some cases to show when use and not use Decimal instead o
 
 ------------------------------------------------------------------------
 
-#25. **[MultiDrizzle](./MultiDrizzle.html){.nonexistent}: Astronomical Image Analysis Software for Python**
+#25. **[MultiDrizzle](./MultiDrizzle.html): Astronomical Image Analysis Software for Python**
 
 Warren J. Hack / Space Telescope Science Institute
 
@@ -240,7 +244,7 @@ The goal of our presentation and paper is to allow someone to begin developing a
 
 ------------------------------------------------------------------------
 
-#27. **Pulling Java Lucene into Python: [PyLucene](http://pylucene.osafoundation.org){.http}**
+#27. **Pulling Java Lucene into Python: [PyLucene](http://pylucene.osafoundation.org)**
 
 Andi Vajda / Open Source Applications Foundation
 
@@ -282,7 +286,7 @@ Mike C. Fletcher / Cain Gang Inc.
 
 This presentation introduces the beginning/intermediate Python programmer to the Descriptor API, from its origins in the functions-are-special-cases \"wart\" in Python 2.1 through the introduction of the attribute-access API in Python 2.2 and to the introduction of function-decorator support in Python 2.4 and the expected Cambrian explosion of decorator classes. We will discuss some of the mechanics of the descriptor API, then focus on \"why and when\" to use descriptors and decorators.
 
-[Presentation Slides](http://www.vrplumber.com/programming/descriptors-pycon2005.pdf){.http}
+[Presentation Slides](http://www.vrplumber.com/programming/descriptors-pycon2005.pdf)
 
 ------------------------------------------------------------------------
 
@@ -296,7 +300,7 @@ Some classic DPs are practically \"built-in\" to Python. Other patterns can be j
 
 Exactly because Python is multi-paradigm, it empowers you to make meaningful design choices; and, as usual, with power comes responsibility \-- you need solid, in-depth understanding of what choices you have available, and of what implications and consequences such choices have, to choose for the best.
 
-When should you use a closure, rather than a class with callable instances? Where is inheritance appropriate, and where is it better to use containment and delegation instead? When should you define \'[slots]{.u}\', what exactly are the implications of doing so, and what alternatives approaches may often be preferable? The purpose of this presentation is also to explore this kind of questions, and to provide the fundamental knowledge and the outlook that will help you answer the questions in the most useful ways for your own applications.
+When should you use a closure, rather than a class with callable instances? Where is inheritance appropriate, and where is it better to use containment and delegation instead? When should you define \'[slots]\', what exactly are the implications of doing so, and what alternatives approaches may often be preferable? The purpose of this presentation is also to explore this kind of questions, and to provide the fundamental knowledge and the outlook that will help you answer the questions in the most useful ways for your own applications.
 
 ------------------------------------------------------------------------
 
@@ -362,9 +366,9 @@ This presentation shows how to best use each of these mechanisms to make your co
 
 #39. **How to Build an Air Traffic Control System**
 
-Neal Norwitz / [MetaSlash](./MetaSlash.html){.nonexistent}
+Neal Norwitz / [MetaSlash](./MetaSlash.html)
 
-I\'ve been working on creating a new ATC system. Of course, it had to be written in Python. ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"} It also uses Twisted and the Tk canvas widget.
+I\'ve been working on creating a new ATC system. Of course, it had to be written in Python. ![:-)](/wiki/europython/img/smile.png ":-)") It also uses Twisted and the Tk canvas widget.
 
 - It already has modest functionality. the situation display can display
 
@@ -374,17 +378,17 @@ aircraft and features of an airspace, such as waypoints, routes, restricted area
 
 #40. **What is the PSF**
 
-Neal Norwitz / [MetaSlash](./MetaSlash.html){.nonexistent}
+Neal Norwitz / [MetaSlash](./MetaSlash.html)
 
 I would like to request that a time slot be reserved for someone (not me) to make a presentation about what the PSF is, its benefits, direction, etc.
 
 ------------------------------------------------------------------------
 
-#42. **Keep It Simple with [PythonCard](./PythonCard.html){.nonexistent}**
+#42. **Keep It Simple with [PythonCard](./PythonCard.html)**
 
 Kevin Altis
 
-In this session, Kevin Altis will demonstrate the process of building cross-platform Python applications with graphical user interfaces using the [PythonCard](./PythonCard.html){.nonexistent} framework and tool set. By giving you access to the full power of Python without requiring you to master complex GUI libraries, [PythonCard](./PythonCard.html){.nonexistent} becomes a power tool for scripting users and professional programmers alike. Creating graphical desktop applications that run across platforms and take advantage of Python\'s simple elegance is easier than you think. And [PyCrust](PyCrust), the embeddable Python shell, puts the power of the Python interpreter at your fingertips.
+In this session, Kevin Altis will demonstrate the process of building cross-platform Python applications with graphical user interfaces using the [PythonCard](./PythonCard.html) framework and tool set. By giving you access to the full power of Python without requiring you to master complex GUI libraries, [PythonCard](./PythonCard.html) becomes a power tool for scripting users and professional programmers alike. Creating graphical desktop applications that run across platforms and take advantage of Python\'s simple elegance is easier than you think. And [PyCrust](PyCrust), the embeddable Python shell, puts the power of the Python interpreter at your fingertips.
 
 ------------------------------------------------------------------------
 
@@ -394,19 +398,19 @@ John Pinner / Clockwork Software Systems
 
 Applications like accounts and payroll are the lifeblood of real world businesses. These applications are usually proprietary and subject to the usual proprietary software licencing mechanisms.
 
-[PayThyme](./PayThyme.html){.nonexistent} is a brand new UK statutory payroll application, the first genuinely new payroll software for some time, and the first Open Source UK payroll.
+[PayThyme](./PayThyme.html) is a brand new UK statutory payroll application, the first genuinely new payroll software for some time, and the first Open Source UK payroll.
 
-Commercially [PayThyme](./PayThyme.html){.nonexistent} breaks new ground in almost every respect : it is the first UK native GNU/Linux payroll, and it has no built-in licence quota on numbers of users, numbers of employees and numbers of payrolls, all of which are restricted in most commercial payrolls. Furthermore, there is just one version of [PayThyme](./PayThyme.html){.nonexistent}, suitable for both the smallest and largest of payrolls, as opposed to existing software which is usually targetted in both capability and price at specific market levels. This allows your payroll to grow with your business. To further confuse conventional business software developers, [PayThyme](./PayThyme.html){.nonexistent} is licensed under the GPL and is available as a free download.
+Commercially [PayThyme](./PayThyme.html) breaks new ground in almost every respect : it is the first UK native GNU/Linux payroll, and it has no built-in licence quota on numbers of users, numbers of employees and numbers of payrolls, all of which are restricted in most commercial payrolls. Furthermore, there is just one version of [PayThyme](./PayThyme.html), suitable for both the smallest and largest of payrolls, as opposed to existing software which is usually targetted in both capability and price at specific market levels. This allows your payroll to grow with your business. To further confuse conventional business software developers, [PayThyme](./PayThyme.html) is licensed under the GPL and is available as a free download.
 
-Technically, [PayThyme](./PayThyme.html){.nonexistent} is also unusual. It uses the Thyme development platform, which is itself Open Source and based on Python and the [PyQt](PyQt) GUI platform. A novel set of data-aware widgets links GUI screens (originated in Qt Designer) with Thyme\'s database filing system, allowing rapid object-oriented application development. The product was developed by a small core team of three people working remotely using a central Subversion repository. The user interface is implemented entirely in Python.
+Technically, [PayThyme](./PayThyme.html) is also unusual. It uses the Thyme development platform, which is itself Open Source and based on Python and the [PyQt](PyQt) GUI platform. A novel set of data-aware widgets links GUI screens (originated in Qt Designer) with Thyme\'s database filing system, allowing rapid object-oriented application development. The product was developed by a small core team of three people working remotely using a central Subversion repository. The user interface is implemented entirely in Python.
 
-[PayThyme](./PayThyme.html){.nonexistent} takes advantage of Python\'s rich set of extension modules, for example in implementing Internet Filing of end-of-year returns to the Inland Revenue via the UK Government Gateway.
+[PayThyme](./PayThyme.html) takes advantage of Python\'s rich set of extension modules, for example in implementing Internet Filing of end-of-year returns to the Inland Revenue via the UK Government Gateway.
 
 ------------------------------------------------------------------------
 
 #44. **Object-oriented design with Python**
 
-Bruce Eckel / www.[MindView](./MindView.html){.nonexistent}.net
+Bruce Eckel / www.[MindView](./MindView.html).net
 
 This session presents general object-oriented design principles, but focuses on object design issues where Python is distinct from mainstream statically-typed languages.
 
@@ -418,7 +422,7 @@ Design patterns issues: Which design patterns in GoF are so C++-ish that they do
 
 An [OpenSpace](OpenSpace) discussion will follow as soon after the session as availability permits.
 
-Bio: [http://mindview.net/Etc/About/about.html](http://mindview.net/Etc/About/about.html){.http}
+Bio: [http://mindview.net/Etc/About/about.html](http://mindview.net/Etc/About/about.html)
 
 ------------------------------------------------------------------------
 
@@ -486,7 +490,7 @@ This is an introduction to the new decimal module. It endeavors to explain why w
 
 #51. **Sequential code in an event-driven world**
 
-Nat Goodspeed / [SolidWorks Corporation](http://www.solidworks.com){.http}
+Nat Goodspeed / [SolidWorks Corporation](http://www.solidworks.com)
 
 In an event-driven system such as a game environment, it\'s common to want to start some action, such as an animation, that will run for several frames. But in an event-driven system, control reaches the same entry point over and over again. There are various ways to ensure that the right code is executed for each frame \-- but using Python generators makes it remarkably natural and readable.
 
@@ -498,33 +502,33 @@ This talk presents the Animator class, along with its friends and relatives Time
 
 Phillip J. Eby / Telecommunity Consultants
 
-In the design of applications, rules are everywhere: business rules, game rules, routing rules, \"expert systems\", code and query optimizers, and rule-based \"agents\" and triggers. But to implement rules, they have to be converted into code \-- usually in the form of decision trees that become increasingly difficult to maintain as the number of rules grows. Recent developments in computer science, however, make it possible to automatically convert rules into decision trees that are guaranteed to be correct and efficient, even for large numbers of rules, without using a specialized logic or rule language like Prolog or Lisp. This presentation will give an overview of how to implement rule-driven systems directly in Python, using Python itself as the language for specifying rules, with faster development and execution times than would be obtained by hand-coding if-then trees. Examples will be based on the predicate dispatch implementation included in the latest version of the [PyProtocols](./PyProtocols.html){.nonexistent} package.
+In the design of applications, rules are everywhere: business rules, game rules, routing rules, \"expert systems\", code and query optimizers, and rule-based \"agents\" and triggers. But to implement rules, they have to be converted into code \-- usually in the form of decision trees that become increasingly difficult to maintain as the number of rules grows. Recent developments in computer science, however, make it possible to automatically convert rules into decision trees that are guaranteed to be correct and efficient, even for large numbers of rules, without using a specialized logic or rule language like Prolog or Lisp. This presentation will give an overview of how to implement rule-driven systems directly in Python, using Python itself as the language for specifying rules, with faster development and execution times than would be obtained by hand-coding if-then trees. Examples will be based on the predicate dispatch implementation included in the latest version of the [PyProtocols](./PyProtocols.html) package.
 
 ------------------------------------------------------------------------
 
-#55. **[SchoolBell](./SchoolBell.html){.nonexistent}: a Zope 3 Calendar Server**
+#55. **[SchoolBell](./SchoolBell.html): a Zope 3 Calendar Server**
 
 Tom Hoffman / [SchoolTool](SchoolTool)
 
-[SchoolBell](./SchoolBell.html){.nonexistent} is an open source calendar server for small to medium sized organizations, written for Zope 3. Each person, group or resource has a calendar accessible via an HTML interface. A user can integrate events from other people or groups into their calendar. iCalendar support allows interoperability with clients like Mozilla Calendar and Apple\'s iCal. Access control can be set for each calendar to allow events to be viewed or added by specific users or groups.
+[SchoolBell](./SchoolBell.html) is an open source calendar server for small to medium sized organizations, written for Zope 3. Each person, group or resource has a calendar accessible via an HTML interface. A user can integrate events from other people or groups into their calendar. iCalendar support allows interoperability with clients like Mozilla Calendar and Apple\'s iCal. Access control can be set for each calendar to allow events to be viewed or added by specific users or groups.
 
-[SchoolBell](./SchoolBell.html){.nonexistent} is also a Zope 3 application that breaks out of the Zope 2\'s \"folders and documents\" paradigm, instead using a directed graph data model. Application objects, such as people, groups and resources. Each object can have facets which model the object\'s responsibilities and encapsulate its data for a particular role that object plays in the system. Objects are connected via relationships. Each relationship\'s type is defined, as is each object\'s role in the relationship. Each object, relationship, role and facet is identified by a URI, facilitating a comprehensive REST-style web services API for all the application\'s functions. This architecture has broad applicability outside of calendaring.
+[SchoolBell](./SchoolBell.html) is also a Zope 3 application that breaks out of the Zope 2\'s \"folders and documents\" paradigm, instead using a directed graph data model. Application objects, such as people, groups and resources. Each object can have facets which model the object\'s responsibilities and encapsulate its data for a particular role that object plays in the system. Objects are connected via relationships. Each relationship\'s type is defined, as is each object\'s role in the relationship. Each object, relationship, role and facet is identified by a URI, facilitating a comprehensive REST-style web services API for all the application\'s functions. This architecture has broad applicability outside of calendaring.
 
-[SchoolBell](./SchoolBell.html){.nonexistent} is based on [SchoolTool](SchoolTool), a free IT infrastructure for schools, funded by the Shuttleworth Foundation. The initial design for [SchoolTool](SchoolTool) was done by Steve Alexander of Canonical Ltd. Subsequent development has been done by Programmers of Vilnius and Etria LLC.
+[SchoolBell](./SchoolBell.html) is based on [SchoolTool](SchoolTool), a free IT infrastructure for schools, funded by the Shuttleworth Foundation. The initial design for [SchoolTool](SchoolTool) was done by Steve Alexander of Canonical Ltd. Subsequent development has been done by Programmers of Vilnius and Etria LLC.
 
-Project manager Tom Hoffman will begin with a tour of [SchoolBell](./SchoolBell.html){.nonexistent}, followed by a discussion of its unique architecture led by Brian Skahan of Etria.
+Project manager Tom Hoffman will begin with a tour of [SchoolBell](./SchoolBell.html), followed by a discussion of its unique architecture led by Brian Skahan of Etria.
 
 ------------------------------------------------------------------------
 
 #56. **Yarn: Working with Messages in Diverse Formats and Protocols**
 
-Abe Fettig / [JotSpot](./JotSpot.html){.nonexistent}
+Abe Fettig / [JotSpot](./JotSpot.html)
 
 People today read, write, and organize information stored in many different places, using many different formats and protocols. In the course of a single day, a person might read and send email, get the latest news through RSS, post to their weblog, create or edit a page on their Wiki, add a new site to their del.icio.us bookmarks, upload digital photos to Flickr, monitor items being sold on eBay, and check on the status of a package being shipped through UPS.
 
 This poses a challenge for application developers. Users want their programs to be able to access their data, regardless of the system in which the data lives. But implementing support for all these formats and protocols is expensive and time consuming.
 
-This talk introduces Yarn, a Python library that allows developers to work with a wide range of file formats, messaging systems, and web services, using a standard API. Yarn currently provides support for reading and writing RSS, Atom, OPML, mbox, and maildir files, on a local filesystem or over HTTP or SFTP; the Atom and [MetaWeblog](./MetaWeblog.html){.nonexistent} blogging APIs; IMAP, POP3, and SMTP; and web services including Google, Amazon, Flickr, del.icio.us, and UPS package tracking. Yarn provides APIs for reading, writing, and editing messages, searching, and navigating folder trees. It also includes such helpful features as metadata storage, connection sharing, caching, and credentials management. An extensible architecture makes it easy to support new formats and protocols through plug-ins.
+This talk introduces Yarn, a Python library that allows developers to work with a wide range of file formats, messaging systems, and web services, using a standard API. Yarn currently provides support for reading and writing RSS, Atom, OPML, mbox, and maildir files, on a local filesystem or over HTTP or SFTP; the Atom and [MetaWeblog](./MetaWeblog.html) blogging APIs; IMAP, POP3, and SMTP; and web services including Google, Amazon, Flickr, del.icio.us, and UPS package tracking. Yarn provides APIs for reading, writing, and editing messages, searching, and navigating folder trees. It also includes such helpful features as metadata storage, connection sharing, caching, and credentials management. An extensible architecture makes it easy to support new formats and protocols through plug-ins.
 
 Yarn is written in 100% pure Python, using the Twisted framework. It is currently licensed under the GPL, but will be released under a more liberal license before [PyCon](PyCon) 2005.
 
@@ -552,13 +556,13 @@ PyObjC Hacking is a quick tour of advanced uses for PyObjC and related tools. Th
 
 ------------------------------------------------------------------------
 
-#59. **[OpenLaszlo](./OpenLaszlo.html){.nonexistent}: A Python Success Story**
+#59. **[OpenLaszlo](./OpenLaszlo.html): A Python Success Story**
 
 Oliver Steele / Laszlo Systems, Inc.
 
-[OpenLaszlo](./OpenLaszlo.html){.nonexistent} is an open source platform for developing interactive client-side web applications. It consists of a compiler, that compiles XML with embedded [JavaScript](./JavaScript.html){.nonexistent} to (currently) Flash files; and a runtime XML and [JavaScript](./JavaScript.html){.nonexistent} library. Applications built using the Laszlo platform have been deployed on the Earthlink home page and Yahoo, among other sites.
+[OpenLaszlo](./OpenLaszlo.html) is an open source platform for developing interactive client-side web applications. It consists of a compiler, that compiles XML with embedded [JavaScript](./JavaScript.html) to (currently) Flash files; and a runtime XML and [JavaScript](./JavaScript.html) library. Applications built using the Laszlo platform have been deployed on the Earthlink home page and Yahoo, among other sites.
 
-The [OpenLaszlo](./OpenLaszlo.html){.nonexistent} compiler and application optimizer were implemented in Jython. The use of Jython allowed us to implement a full-featured deployable [JavaScript](./JavaScript.html){.nonexistent}-to-bytecode compiler in a short amount of time (three months).
+The [OpenLaszlo](./OpenLaszlo.html) compiler and application optimizer were implemented in Jython. The use of Jython allowed us to implement a full-featured deployable [JavaScript](./JavaScript.html)-to-bytecode compiler in a short amount of time (three months).
 
 This talk will describe how Jython\'s introspective, interactive, and integration features enabled the use of development methodologies that made this development speed possible, and how having the compiler in Jython then allowed us to experiment with innovative new features at a rate that would have been discouraged by a static system. It will also describe the challenges of actually deploying a Jython-based solution.
 
@@ -684,27 +688,27 @@ pyblosxom has a growing user base and a small, friendly development community. O
 
 #65. **Developing Database Applications With Schevo**
 
-Patrick K. O\'Brien / [Orbtech](http://orbtech.com/){.http}
+Patrick K. O\'Brien / [Orbtech](http://orbtech.com/)
 
-[Schevo](http://schevo.org/){.http} is both an ODBMS and an Application Framework for Python. It is a toolkit for developing object-oriented database applications, but it also provides a model for the design, persistence and evolution of application domain objects.
+[Schevo](http://schevo.org/) is both an ODBMS and an Application Framework for Python. It is a toolkit for developing object-oriented database applications, but it also provides a model for the design, persistence and evolution of application domain objects.
 
 Schevo supports the storage of these objects in a variety of back-ends, such as Pypersyst, ZODB, and Durus. It supports the maintenance of these objects through a variety of user interface toolkits, such as Qt/PyQt, wxPython, Plone, and Nevow. And it can be used as easily by novices as it can be by experienced Python developers. Come see the latest innovation in data management - Schevo.
 
 A companion paper on Schevo that covers more than was able to be presented (and includes lots of pretty screen shots and more detailed explanations of Schevo concepts) is available here:
 
-[http://schevo.org/documentation/reference/current/](http://schevo.org/documentation/reference/current/){.http}
+[http://schevo.org/documentation/reference/current/](http://schevo.org/documentation/reference/current/)
 
 Just look for the [PyCon](PyCon) 2005 link.
 
 ------------------------------------------------------------------------
 
-#67. **[PyWebOff](./PyWebOff.html){.nonexistent}: Mapping the python web application frameworks**
+#67. **[PyWebOff](./PyWebOff.html): Mapping the python web application frameworks**
 
 Michelle Levesque / University of Toronto
 
 Python\'s simplicity principle (\"there should be one \-- and preferably only one \--obvious way to do it\") has been a major contributer towards making Python so accessible to new users. Unfortunately, this principle doesn\'t seem to apply when choosing a web application framework: there are several dozen to choose from and no guide is available to help make the decision easier.
 
-The presentation will consist of four parts: a description of the problem and justification for why it is indeed a problem (5-10 mins), an introduction to [PyWebOff](./PyWebOff.html){.nonexistent} (5-10 mins), a summary of some of the findings (20 mins), and a discussion of what the next few steps should be towards solving this problem (10 mins).
+The presentation will consist of four parts: a description of the problem and justification for why it is indeed a problem (5-10 mins), an introduction to [PyWebOff](./PyWebOff.html) (5-10 mins), a summary of some of the findings (20 mins), and a discussion of what the next few steps should be towards solving this problem (10 mins).
 
 This 45 minute presentation would be useful to those looking to choose a framework, framework developers, and anyone who has an interest in Python as a web development tool.
 
@@ -750,23 +754,23 @@ This is about the design goals of CMFEditions and about the architecture chosen.
 
 Unfortunately I had to cancel my presentation because I had the flu. A prosa version of the presentations content is available at:
 
-- [presentations content](http://www.incept.ch/opensource/CMFEditions/DevelDoc.html){.http} / [at sourceforge.net (24h behind)](http://cvs.sourceforge.net/viewcvs.py/*checkout*/collective/CMFEditions/doc/DevelDoc.html?rev=1.4){.http}
+- [presentations content](http://www.incept.ch/opensource/CMFEditions/DevelDoc.html) / [at sourceforge.net (24h behind)](http://cvs.sourceforge.net/viewcvs.py/*checkout*/collective/CMFEditions/doc/DevelDoc.html?rev=1.4)
 
 Code:
 
-- [CMFEditions at the Plone collective at sourceforge.net](http://cvs.sourceforge.net/viewcvs.py/collective/CMFEditions/){.http}
+- [CMFEditions at the Plone collective at sourceforge.net](http://cvs.sourceforge.net/viewcvs.py/collective/CMFEditions/)
 
 For questions:
 
-- [collective-versioning@lists.sourceforge.net](mailto:collective-versioning@lists.sourceforge.net){.mailto} / IRC: #cmfeditions at irc.freenode.net
+- [collective-versioning@lists.sourceforge.net](mailto:collective-versioning@lists.sourceforge.net) / IRC: #cmfeditions at irc.freenode.net
 
 ------------------------------------------------------------------------
 
 #72. **WSGIKit: Utilizing WSGI as a platform for inter-framework cooperation**
 
-[Ian Bicking](http://blog.ianbicking.org){.http} / [Imaginary Landscape](http://www.imagescape.com){.http}
+[Ian Bicking](http://blog.ianbicking.org) / [Imaginary Landscape](http://www.imagescape.com)
 
-[WSGI](http://www.python.org/peps/pep-0333.html){.http} (the Web Server Gateway Interface) is a new standard for connecting servers to Python web development framework. WSGI also has the potential to connect frameworks together, and to provide framework-neutral services.
+[WSGI](http://www.python.org/peps/pep-0333.html) (the Web Server Gateway Interface) is a new standard for connecting servers to Python web development framework. WSGI also has the potential to connect frameworks together, and to provide framework-neutral services.
 
 WSGIKit is a reimplementation based on WSGI of the Webware For Python web framework. The implementation maintains backward compatibility, while decomposing many of the functions of Webware into framework-neutral pieces of \"middleware\". The design of WSGIKit can provide an example of how to use WSGI outside of framework-server connections.
 
@@ -804,7 +808,7 @@ The presentation will cover a several of the techniques explored in the paper an
 
 Donovan Preston / Divmod
 
-Google\'s Gmail was the first high-profile example of a highly responsive web application, blurring the line between the desktop and the web. The techniques employed by it to reduce perceived latency have been available for years, but involve a large amount of [JavaScript](./JavaScript.html){.nonexistent} that can be difficult to implement. This presentation will discuss the history of these techniques, implementation strategies, and the use of [LivePage](./LivePage.html){.nonexistent}, included within the Nevow web application framework.
+Google\'s Gmail was the first high-profile example of a highly responsive web application, blurring the line between the desktop and the web. The techniques employed by it to reduce perceived latency have been available for years, but involve a large amount of [JavaScript](./JavaScript.html) that can be difficult to implement. This presentation will discuss the history of these techniques, implementation strategies, and the use of [LivePage](./LivePage.html), included within the Nevow web application framework.
 
 ------------------------------------------------------------------------
 
@@ -858,9 +862,9 @@ One of Python\'s primary benefits is that it automatically manages memory, as an
 
 For additional information on this topic, see my web page about the problem, or the Python-dev archives:
 
-[http://evanjones.ca/python-memory.html](http://evanjones.ca/python-memory.html){.http}
+[http://evanjones.ca/python-memory.html](http://evanjones.ca/python-memory.html)
 
-[http://mail.python.org/pipermail/python-dev/2004-October/049480.html](http://mail.python.org/pipermail/python-dev/2004-October/049480.html){.http}
+[http://mail.python.org/pipermail/python-dev/2004-October/049480.html](http://mail.python.org/pipermail/python-dev/2004-October/049480.html)
 
 ------------------------------------------------------------------------
 
@@ -907,4 +911,3 @@ The purpose of this talk will be to introduce the audience to the Traits package
 ------------------------------------------------------------------------
 
 [CategoryPyCon2005](CategoryPyCon2005)
-:::

@@ -1,6 +1,11 @@
 # HighScore
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 From a private chat:
 
     techtonik> You say yourself - there is no people to review stuff, and that's a good indicator.
@@ -29,11 +34,11 @@ From a private chat:
 
 The plan:
 
-- steal twisted highscores - [http://twistedmatrix.com/highscores/](http://twistedmatrix.com/highscores/){.http} `bzr get http://twistedmatrix.com/highscores/`{.backtick}
+- steal twisted highscores - [http://twistedmatrix.com/highscores/](http://twistedmatrix.com/highscores/) `bzr get http://twistedmatrix.com/highscores/`{.backtick}
 
-  - chromium highscores - [https://chromium-status.appspot.com/cq/top](https://chromium-status.appspot.com/cq/top){.https}
+  - chromium highscores - [https://chromium-status.appspot.com/cq/top](https://chromium-status.appspot.com/cq/top)
 
-  - subversion crediting guidelines - [http://subversion.apache.org/docs/community-guide/conventions.html#crediting](http://subversion.apache.org/docs/community-guide/conventions.html#crediting){.http}
+  - subversion crediting guidelines - [http://subversion.apache.org/docs/community-guide/conventions.html#crediting](http://subversion.apache.org/docs/community-guide/conventions.html#crediting)
 
   - and chromium commit message format
 
@@ -43,4 +48,3 @@ The plan:
   - or allow to use tools outside of Python source tree
 
 - write tools to help with commit message formatting stuff
-:::

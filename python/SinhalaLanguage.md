@@ -1,15 +1,20 @@
 # SinhalaLanguage
 
-::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Sinhala
 
-### ISO Codes {#ISO_Codes}
+### ISO Codes 
 
 - ISO 639-1 si
 - ISO 639-2 sin
 - ISO 639-3 sin
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -31,11 +36,11 @@ Where these pages really need help:
 
 **සිංහල**
 
-Words for code snippet from [speaksinhala.com](http://www.speaksinhala.com/unit_1/lesson_1/vocab1_1.htm){.http}
+Words for code snippet from [speaksinhala.com](http://www.speaksinhala.com/unit_1/lesson_1/vocab1_1.htm)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-22c4545f675541ed848d154c63488198a9986134 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> # transcribing words from image
    2 >>> '\u0DB4\u0DD4\u0DC2\u0DCA\u0DB4\u0DCF' # the Sinaha name Pushpa
    3 >>> 'පුෂ්පා'
@@ -47,9 +52,9 @@ Words for code snippet from [speaksinhala.com](http://www.speaksinhala.com/unit_
 :::
 ::::
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-293399bf388098d6443373351759331b263de705 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # -*- coding: utf-8 -*-
    2 # python 3.0 or 3.1
    3 
@@ -68,11 +73,10 @@ Words for code snippet from [speaksinhala.com](http://www.speaksinhala.com/unit_
 :::
 ::::
 
-[Sinhala-Unicode forum message](http://groups.google.com/group/Sinhala-Unicode/tree/browse_frm/month/2006-02/d7f14bb872efce44?rnum=111&lnk=nl){.http} - message from 2006 introducing Python with code snippets
+[Sinhala-Unicode forum message](http://groups.google.com/group/Sinhala-Unicode/tree/browse_frm/month/2006-02/d7f14bb872efce44?rnum=111&lnk=nl) - message from 2006 introducing Python with code snippets
 
-### Blogs {#Blogs}
+### Blogs 
 
-- [ecolama](http://ecolama.blogspot.com/2009/12/blog-code.html){.http} - web page code syntax highlighter - not Python specific
+- [ecolama](http://ecolama.blogspot.com/2009/12/blog-code.html) - web page code syntax highlighter - not Python specific
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode)
-:::::::

@@ -1,9 +1,14 @@
 # TeachingPythonBof
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Discussions about teaching Python, especially to children.
 
-This will be led by [David Handy](mailto:david@handysoftware.com){.mailto}.
+This will be led by [David Handy](mailto:david@handysoftware.com).
 
 Intro from David
 
@@ -69,9 +74,8 @@ Computer club: after school club. Programming classes may mena they have no prog
 
 Jeff\'s high school has a users group, and his students wrote Guido van Robot. both as a side project, and as a class project. Student and adult mentoring. Kids have enthusiasm, and need a bit of guidance. call your local school and volunteer to mentor children programming.
 
-There was also a discussion of making it easier for teachers to share and contribute programming lessons and exercises. Jeff Elkner talked about his work on the [PyBiblio](http://www.ibiblio.org/obp/pyBiblio/){.http} section of the [Open Book Project](http://www.ibiblio.org/obp){.http}. Everyone thought that Tim Wilson\'s Programming Problems posted there were good. Jeff wants to use [Lore](http://www.twistedmatrix.com/documents/current/howto/lore){.http} from the Twisted project to mark up the Live Wires material and to create a tool for teachers to do the same so that they can contribute material in the same format.
+There was also a discussion of making it easier for teachers to share and contribute programming lessons and exercises. Jeff Elkner talked about his work on the [PyBiblio](http://www.ibiblio.org/obp/pyBiblio/) section of the [Open Book Project](http://www.ibiblio.org/obp). Everyone thought that Tim Wilson\'s Programming Problems posted there were good. Jeff wants to use [Lore](http://www.twistedmatrix.com/documents/current/howto/lore) from the Twisted project to mark up the Live Wires material and to create a tool for teachers to do the same so that they can contribute material in the same format.
 
-We also discussed using wiki\'s for the same purpose. [Zwiki](http://zwiki.org){.http} was recommended and that led to a discussion of wikis being used for similiar purposes. We looked and [wikibooks.org](http://wikibooks.org/wiki/){.http} and noted that their [Python \"text\"](http://wikibooks.org/wiki/Programming:Python){.http} could use considerable contributions.
+We also discussed using wiki\'s for the same purpose. [Zwiki](http://zwiki.org) was recommended and that led to a discussion of wikis being used for similiar purposes. We looked and [wikibooks.org](http://wikibooks.org/wiki/) and noted that their [Python \"text\"](http://wikibooks.org/wiki/Programming:Python) could use considerable contributions.
 
-[python tutor mailing list](http://mail.python.org/mailman/listinfo/tutor){.http} [edu-sig page at python.org](http://www.python.org/sigs/edu-sig/){.http} [edu-sig mail list](http://mail.python.org/mailman/listinfo/edu-sig){.http} irc channel? efnet #gimpdev
-:::
+[python tutor mailing list](http://mail.python.org/mailman/listinfo/tutor) [edu-sig page at python.org](http://www.python.org/sigs/edu-sig/) [edu-sig mail list](http://mail.python.org/mailman/listinfo/edu-sig) irc channel? efnet #gimpdev

@@ -1,33 +1,22 @@
 # HowTo/Sockets
 
-:::: {#content dir="ltr" lang="en"}
-# HOWTO de programación de sockets {#HOWTO_de_programaci.2BAPM-n_de_sockets}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# HOWTO de programación de sockets 
 
 **Versión original de Gordon McMillan**
 
-Traducción del [\"Socket Programming HOWTO\"](http://docs.python.org/howto/sockets.html){.http}
-
-::: table-of-contents
-Contents
-
-1.  [HOWTO de programación de sockets](#HOWTO_de_programaci.2BAPM-n_de_sockets)
-    1.  [Sockets](#Sockets)
-        1.  [Historia](#Historia)
-    2.  [Creación de un socket](#Creaci.2BAPM-n_de_un_socket)
-        1.  [IPC](#IPC)
-    3.  [Uso del socket](#Uso_del_socket)
-        1.  [Datos binarios](#Datos_binarios)
-    4.  [Desconexión](#Desconexi.2BAPM-n)
-        1.  [Cuando los sockets mueren](#Cuando_los_sockets_mueren)
-    5.  [Sockets no bloqueantes](#Sockets_no_bloqueantes)
-        1.  [Rendimiento](#Rendimiento)
-:::
+Traducción del [\"Socket Programming HOWTO\"](http://docs.python.org/howto/sockets.html)
 
 Los sockets se usan casi en cualquier parte, pero son una de las tecnologías peor comprendidas. Este documento es una panorámica de los sockets. No se trata de un tutorial - debe poner trabajo de su parte para hacer que todo funcione. No cubre las cuestiones puntuales (y hay muchas), pero espero que le dé un conocimiento suficiente como para empezar a usarlos decentemente.
 
-Este documento está disponible, en el idioma original, en [http://www.python.org/doc/howto](http://www.python.org/doc/howto){.http}. La versión original de esta traducción fue realizada por David Villa. Una versión actualizada se puede descargar de [http://arco.esi.uclm.es/\~david.villa/doc/repo/python-sockets/Socket-es.pdf](http://arco.esi.uclm.es/~david.villa/doc/repo/python-sockets/Socket-es.pdf){.http}, cuyo fuente está disponible en [https://arco.esi.uclm.es/svn/public/doc/python-sockets/](https://arco.esi.uclm.es/svn/public/doc/python-sockets/){.https}.
+Este documento está disponible, en el idioma original, en [http://www.python.org/doc/howto](http://www.python.org/doc/howto). La versión original de esta traducción fue realizada por David Villa. Una versión actualizada se puede descargar de [http://arco.esi.uclm.es/\~david.villa/doc/repo/python-sockets/Socket-es.pdf](http://arco.esi.uclm.es/~david.villa/doc/repo/python-sockets/Socket-es.pdf), cuyo fuente está disponible en [https://arco.esi.uclm.es/svn/public/doc/python-sockets/](https://arco.esi.uclm.es/svn/public/doc/python-sockets/).
 
-## Sockets {#Sockets}
+## Sockets 
 
 Los sockets se usan casi en cualquier parte, pero son una de las tecnología peor comprendidas. Este documento es una panorámica de los sockets. No se trata de un tutorial - debes poner trabajo de tu parte para hacer que todo funcione. No cubre las cuestiones puntuales (y hay muchas), pero espero que le dé un conocimiento suficiente como para empezar a usarlos decentemente.
 
@@ -35,13 +24,13 @@ Sólo se van a tratar los sockets INET, pero éstos representan el 99% de los so
 
 Parte del problema para entender qué es \'socket\' puede significar unas cuantas cosas con sutiles diferencias, dependiendo del contexto. Lo primero de todo, hay que hacer una distinción entre socket \'cliente\' - un extremo de la conversación, y un socket \'servidor\', que es más como un operador de una centralita. La aplicación cliente (tu navegador, por ejemplo) usa exclusivamente sockets \'cliente\'; el servidor web con el que habla usa tanto sockets \'servidor\' como sockets \'cliente\'.
 
-### Historia {#Historia}
+### Historia 
 
 De las diferentes formas de IPC (Inter Process Communication), los sockets son de lejos la más popular. En una plataforma dada, probablemente hay otras formas de IPC más rápidas, pero para comunicaciones inter-plataforma, los sockets son casi la única elección.
 
 Se inventaron en Berkeley como parte de la variante BSD de UNIX. Se extendieron muy rápidamente junto con Internet. Y con razón \-- la combinación de los sockets con INET hace que la comunicación entre máquinas cualesquiera sea increiblemente sencilla (al menos comparada con otros esquemas).
 
-## Creación de un socket {#Creaci.2BAPM-n_de_un_socket}
+## Creación de un socket 
 
 Cuando ha pulsado el enlace que le ha traído a esta página, su navegador ha hecho algo parecido a lo siguiente:
 
@@ -83,13 +72,13 @@ Bien, ahora tiene un socket servidor, escuchando en el puerto 80. Ahora entra en
 
 Realmente, hay tres modos en los que este bucle puede trabajar - creando un hilo para manejar `clientsocket`, o reestructurar esta aplicación para usar sockets no bloqueantes, y *multiplexar* entre el socket servidor y uno de los clientsockets activos usando `select()`. Lo verá más adelante. La cuestión que es importante entender ahora es ésta: esto es {todo} lo que hace un socket servidor. No envía ningún dato. No recibe ningún dato. Simplemente produce un `clientsocket`. Un socket cliente se crea en respuesta a *otro* socket cliente que invoca `connect()` al host y puerto al que está vinculado el socket servidor. Tan pronto como se crea el socket cliente, se vuelve a escuchar en espera de nuevas conexiones. Los dos clientes son libres de hablar - usan un puerto temporal que se reciclará cuando la conversación termine.
 
-### IPC {#IPC}
+### IPC 
 
 Si necesita IPC rápida entre dos procesos en una misma máquina, debería echar un vistazo a otras formas de memoria compartida que ofrece la plataforma. Un protocolo simple basado en memoria compartida y semáforos es la técnica más rápida.
 
 Si decide usar sockets, vincule el socket *servidor* a \'localhost\'. En otras plataformas, esto implica una atajo a través de varias capas del código de red y puede bastante rápido.
 
-## Uso del socket {#Uso_del_socket}
+## Uso del socket 
 
 Lo primero que debe tener en cuenta, es que le socket *cliente* del navegador web y el socket cliente del servidor web son idénticos. Es decir, es una conversación entre iguales. O por decirlo de otra manera, *como diseñador, debe decidir qué reglas de etiqueta utilizar en la conversación*. Normalmente el socket que conecta comienza la conversación, enviando una petición, o puede que una señal de inicio. Pero eso es una decisión de diseño - no es una norma de los sockets.
 
@@ -144,13 +133,13 @@ Indicar la longitud del mensaje por medio de un prefijo (5 caracteres numéricos
 
 Para no extenderme demasiado, (y preservar mi posición privilegiada), estas mejoras se dejan como ejercicio para el lector.
 
-### Datos binarios {#Datos_binarios}
+### Datos binarios 
 
 Es perfectamente posible enviar datos binarios a través de un socket. El mayor problema es que no todas las máquinas usan los mismos formatos para datos binarios. Por ejemplo, un chip Motorola representa un entero de 16 bit con el valor 1 como dos bytes 0x00 0x01 (*big endian*). Intel y DEC, sin embargo, usan ordenamiento invertido - el mismo 1 es 0x01 0x00 (*little endian*). Las librerías de socket tienen funciones para convertir enteros de 16 y 32 bits - `ntohl(),   htonl(), ntohs(), ntohs()` donde \'n\' significa red(*network*), \'h\' significa *host*, \'s\' significa corto(*short*) y *l* significa \'largo\'(*large*}). Cuando el ordenamiento de la red es el mismo que el del host, estas funciones no hacen nada, pero cuando la máquina tiene ordenamiento invertido, intercambian los bytes del modo apropiado.
 
 En estos tiempos de máquinas de 32 bits, la representación ASCII de datos binarios normalmente ocupa menos espacio que la representación binaria. Se debe a que en una sorprendente cantidad de veces, todos esos \'longs\' tienen valor 0, o 1. La cadena \'0\' serían dos bytes, mientras que en binario serían cuatro. Por supuesto, eso no es conveniente con mensajes de longitud fija. Decisiones, decisiones.
 
-## Desconexión {#Desconexi.2BAPM-n}
+## Desconexión 
 
 Estrictamente hablando, se supone que se debe usar `shutdown()` en un socket antes de cerrarlo con `close()`. `shutdown()` es un aviso al socket del otro extremo. Dependiendo del argumento que se pasa, puede significar \"No voy a enviar nada más, pero seguiré escuchando\", o \"No estoy escuchando\". La mayoría de las librerías de sockets, no obstante, son tan usadas por programadores que descuidan el uso de esta muestra de buena educación que normalmente `close()` es lo mismo que `shutdown()`. De modo que en la mayoría de los casos, no es necesario un `shutdown()` explícito.
 
@@ -158,11 +147,11 @@ Una forma para usar `shutdown()` de forma efectiva es en un intercambio tipo HTT
 
 Python lleva el `shutdown()` automático un paso más allá, cuando el recolector de basura trata un socket, automáticamente hará el `close()` si es necesario. Pero confiar en eso es un muy mal hábito. Si un socket desaparece sin cerrarse, el socket del otro extremo puede quedar bloqueado indefinidamente, creyendo que este extremo simplemente es lento. Por favor, cierre los sockets cuando ya no los necesite.
 
-### Cuando los sockets mueren {#Cuando_los_sockets_mueren}
+### Cuando los sockets mueren 
 
 Probablemente lo peor que puede pasar cuando se usan sockets bloqueantes es lo que sucede cuando el otro extremo cae bruscamente (sin ejecutar un `close()`). Lo más probable es que el socket de este extremo \"se cuelgue\". SOCKSTREAM es un protocolo fiable, y esperará durante mucho, mucho tiempo antes de abandonar la conexión. Si está usando hilos, el hilo completo estará muerto en la práctica. No hay mucho que pueda hacer. En tanto que no haga alguna cosa absurda, como mantener un bloqueo (lock) mientras hace una lectura bloqueante, el hilo no está consumiendo realmente muchos recursos. No intente matar el hilo - parte del motivo por que los hilos son más eficientes que los procesos es que no incluyen la sobrecarga asociada a reciclarlo automático de recursos. En otras palabras, si intenta matar el hilo, es probable que fastidie el proceso completo.
 
-## Sockets no bloqueantes {#Sockets_no_bloqueantes}
+## Sockets no bloqueantes 
 
 Si ha comprendido todo lo anterior, ya sabe más que de lo que necesita saber sobre la mecánica de los sockets. Usará casi siempre las mismas funciones, y del mismo modo. Sólo es eso, si lo hace bien no tendrá problemas.
 
@@ -194,11 +183,10 @@ En realidad, `select()` puede ser útil incluso con sockets bloqueantes. Es un m
 
 **Advertencia de portabilidad**: En UNIX, `select()` funciona tanto con sockets como con ficheros. No intente esto en Windows. En Windows, `select()` sólo funciona con sockets. También debe notar que en C, muchas de las opciones avanzadas con sockets son diferentes en Windows. De hecho, en Windows normalmente se usan hilos (que funcionan muy bien) con sockets. Si quiere rendimiento, su código será muy diferente en Windows y en UNIX.
 
-### Rendimiento {#Rendimiento}
+### Rendimiento 
 
 No hay duda de que el código más rápido es el que usa sockets no bloqueantes y `select()` para multiplexarlos. Se puede enviar una cantidad inmensa de datos que saturen una conexión LAN sin que suponga una carga excesiva para la CPU. El problema es que una aplicación escrita de este modo no puede hacer mucho más - necesita estar lista para generar bytes en cualquier momento.
 
 Asumiendo que se supone que su aplicación hará algo más que eso, utilizar hilos es la solución óptima, (y usar sockets no bloqueantes es más rápido que usar sockets bloqueantes). Desafortunadamente, el soporte de hilos en los UNIX\'es varia en API y calidad. Así que la solución habitual en UNIX es crear un subproceso para manejar cada conexión. La sobrecarga que eso supone es significativa (y en Windows ni lo haga - la sobrecarga por la creación de procesos es enorme en Windows). También implica que, a menos que cada subproceso sea completamente independiente, necesitarás usar otra forma de IPC, como tuberías, o memoria compartida y semáforos, para comunicar el padre y los procesos hijos.
 
 Finalmente, recuerde que a pesar de que los sockets bloqueantes son algo más lentos que los no bloqueantes, en mucho casos son la solución \"correcta\". Después de todo, si su aplicación reacciona ante los datos que recibe de un socket, no tiene mucho sentido complicar la lógica sólo para que la aplicación pueda esperar en un `select()` en lugar de en un `recv()`.
-::::

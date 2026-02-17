@@ -1,9 +1,14 @@
 # MichaelChermside
 
-::: {#content dir="ltr" lang="en"}
-## Michael Chermside {#Michael_Chermside}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Email: [mcherm@mcherm.com](mailto:mcherm@mcherm.com){.mailto}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Michael Chermside 
+
+Email: [mcherm@mcherm.com](mailto:mcherm@mcherm.com)
 
 A frequent reader and less-frequent contributor to various python mailing lists for some time now. Wishes he could convince his employer to consider using Python, but that\'s unlikely.\'
 
@@ -16,4 +21,3 @@ Comments From Others:
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

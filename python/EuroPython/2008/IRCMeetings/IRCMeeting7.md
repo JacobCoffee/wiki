@@ -1,22 +1,27 @@
 # EuroPython/2008/IRCMeetings/IRCMeeting7
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #7 {#IRC_Meeting_.237}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Time/Location {#Time.2FLocation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# IRC Meeting #7 
+
+## Time/Location 
 
 The meeting will take place in the #europython channel on freenode at 19:00 CET on Friday 21st March.
 
-## Present {#Present}
+## Present 
 
 Laura, David, Paul, Lennart, John, Samuel, Marius, Jacob, Zeth, Christian.
 
-## Agenda/Minutes {#Agenda.2FMinutes}
+## Agenda/Minutes 
 
 - Talks/Themes
   - *We decided the basic ground rules for themes and the durations of talks in the last meeting.*
 
-  - **Laura mentioned Steve Holden\'s [Teach Me Twisted](http://catherinedevlin.blogspot.com/2008/03/teach-me-twisted.html){.http} presentation at [PyCon](PyCon). People seem generally positive about trying the same thing at [EuroPython](EuroPython), perhaps as part of an Open Space/Unconference day.**
+  - **Laura mentioned Steve Holden\'s [Teach Me Twisted](http://catherinedevlin.blogspot.com/2008/03/teach-me-twisted.html) presentation at [PyCon](PyCon). People seem generally positive about trying the same thing at [EuroPython](EuroPython), perhaps as part of an Open Space/Unconference day.**
 
   - Workflow discussion (how the talks will be handled)
 
@@ -48,7 +53,7 @@ Laura, David, Paul, Lennart, John, Samuel, Marius, Jacob, Zeth, Christian.
 
   - 
 
-  - Useful link: [http://www.europython.org/community/Talk_Suggestions](http://www.europython.org/community/Talk_Suggestions){.http}
+  - Useful link: [http://www.europython.org/community/Talk_Suggestions](http://www.europython.org/community/Talk_Suggestions)
 - Registration/Budget
   - Progress of the test registration page
 
@@ -56,7 +61,7 @@ Laura, David, Paul, Lennart, John, Samuel, Marius, Jacob, Zeth, Christian.
 
   - Progress of the budget and fees - *Laura/Jacob may have obtained more information about this from Aiste.*
 
-  - Payment systems - investigations and discoveries - Laura will report about the current status with [WorldPay](./WorldPay.html){.nonexistent}
+  - Payment systems - investigations and discoveries - Laura will report about the current status with [WorldPay](./WorldPay.html)
 - Feedback/Surveys
   - Progress on the processing of last year\'s surveys
 - Sponsorship
@@ -68,7 +73,7 @@ Laura, David, Paul, Lennart, John, Samuel, Marius, Jacob, Zeth, Christian.
 
 - **David will give Jacob feedback on the draft.**
 
-- *In the last meeting, we talked about potentially offering sponsors the opportunity to have their own [SponsorSpaces](./SponsorSpaces.html){.nonexistent} in extra rooms at the venue.*
+- *In the last meeting, we talked about potentially offering sponsors the opportunity to have their own [SponsorSpaces](./SponsorSpaces.html) in extra rooms at the venue.*
 
 - Discussion is expected following the happenings at [PyCon](PyCon)
 
@@ -79,7 +84,7 @@ Laura, David, Paul, Lennart, John, Samuel, Marius, Jacob, Zeth, Christian.
   - Sprints
   - Keynotes
 
-## Actions {#Actions}
+## Actions 
 
 - **John, Paul, Zeth:**
 
@@ -95,4 +100,3 @@ Laura, David, Paul, Lennart, John, Samuel, Marius, Jacob, Zeth, Christian.
 - **Marius, Laura:** Marius to help get someone in Vilnius in touch with Laura and the Google people to make the videoconferencing arrangements.
 
 - **John:** Make the suggested changes to the registration page.
-:::

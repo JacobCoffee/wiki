@@ -1,7 +1,12 @@
 # beautiful soup
 
-::: {#content dir="ltr" lang="en"}
-**Beautiful Soup** - \"The Screen-Scraper\'s Friend\" - [http://www.crummy.com/software/BeautifulSoup/](http://www.crummy.com/software/BeautifulSoup/){.http}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+**Beautiful Soup** - \"The Screen-Scraper\'s Friend\" - [http://www.crummy.com/software/BeautifulSoup/](http://www.crummy.com/software/BeautifulSoup/)
 
 Beautiful Soup parses a (possibly invalid) XML or HTML document into a tree representation. It provides methods and Pythonic idioms that make it easy to navigate, search, and modify the tree.
 
@@ -11,27 +16,27 @@ Beautiful Soup works with Python 2.2 and up. It has no external dependencies, bu
 
 \* chardet, for auto-detecting character encodings
 
-- [http://chardet.feedparser.org/](http://chardet.feedparser.org/){.http}
+- [http://chardet.feedparser.org/](http://chardet.feedparser.org/)
 
 \* cjkcodecs and iconv_codec, which add more encodings to the ones supported
 
 - by stock Python.
 
-  [http://cjkpython.i18n.org/](http://cjkpython.i18n.org/){.http}
+  [http://cjkpython.i18n.org/](http://cjkpython.i18n.org/)
 
 Beautiful Soup defines classes for two main parsing strategies:
 
-- [BeautifulStoneSoup](./BeautifulStoneSoup.html){.nonexistent}, for parsing XML, SGML, or your domain-specific
+- [BeautifulStoneSoup](./BeautifulStoneSoup.html), for parsing XML, SGML, or your domain-specific
 
   - language that kind of looks like XML.
 
-- [BeautifulSoup](./BeautifulSoup.html){.nonexistent}, for parsing run-of-the-mill HTML code, be it valid
+- [BeautifulSoup](./BeautifulSoup.html), for parsing run-of-the-mill HTML code, be it valid
 
   - or invalid. This class has web browser-like heuristics for obtaining a sensible parse tree in the face of common HTML errors.
 
-Beautiful Soup also defines a class ([UnicodeDammit](./UnicodeDammit.html){.nonexistent}) for autodetecting the encoding of an HTML or XML document, and converting it to Unicode. Much of this code is taken from Mark Pilgrim\'s Universal Feed Parser.
+Beautiful Soup also defines a class ([UnicodeDammit](./UnicodeDammit.html)) for autodetecting the encoding of an HTML or XML document, and converting it to Unicode. Much of this code is taken from Mark Pilgrim\'s Universal Feed Parser.
 
-For more than you ever wanted to know about Beautiful Soup, see the documentation: [http://www.crummy.com/software/BeautifulSoup/documentation.html](http://www.crummy.com/software/BeautifulSoup/documentation.html){.http}
+For more than you ever wanted to know about Beautiful Soup, see the documentation: [http://www.crummy.com/software/BeautifulSoup/documentation.html](http://www.crummy.com/software/BeautifulSoup/documentation.html)
 
 Here, have some legalese:
 
@@ -1938,4 +1943,3 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AN
         import sys
         soup = BeautifulSoup(sys.stdin)
         print soup.prettify()
-:::

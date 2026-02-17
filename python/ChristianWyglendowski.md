@@ -1,17 +1,22 @@
 # ChristianWyglendowski
 
-::: {#content dir="ltr" lang="en"}
-## Christian Wyglendowski {#Christian_Wyglendowski}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Christian Wyglendowski 
 
 I am a Network Administrator at a small college in Illinois. I began learning Python in 2002 while working as a PC Technician. It has been invaluable for systems administration and was just plain enjoyable to learn (or keep learning, I should say!).
 
-## Code Clinic {#Code_Clinic}
+## Code Clinic 
 
 [BrianvandenBroek](BrianvandenBroek) came up with a great idea to do periodic programming problems with a group of others and then do a shared analysis afterwards to see the different approaches we all took on the problem. At this time, it is called the Python Code Clinic. Other participants with wiki pages are [ChadCrabtree](ChadCrabtree) and [DavidBroadwell](DavidBroadwell).
 
-### Random Writer {#Random_Writer}
+### Random Writer 
 
-Our first project was the [Random Writer](http://nifty.stanford.edu/2003/randomwriter/){.http} from the [Standford Nifty projects site](http://nifty.stanford.edu/){.http}. You can read more about the project at the Nifty site.
+Our first project was the [Random Writer](http://nifty.stanford.edu/2003/randomwriter/) from the [Standford Nifty projects site](http://nifty.stanford.edu/). You can read more about the project at the Nifty site.
 
 I chose to tackle the project from an object oriented perspective. I have slowy been \"getting it\" as far as OOP goes and this proved to be some more good practice. Here is my base class, RandomWriter \<\--\'how do I make that not link?\' asked Christian. See [HelpForBeginners](HelpForBeginners) for why what I did works\--[BrianvandenBroek](BrianvandenBroek):
 
@@ -137,7 +142,7 @@ Here is my implementation file:
         import profile
         profile.run("main()")
 
-#### Analysis {#Analysis}
+#### Analysis 
 
 [ChadCrabtree](ChadCrabtree) already did some great analysis on his wiki page, and I am not going to duplicate that here. I am going to focus on what he brought to light about my algorithm and what I did to improve it.
 
@@ -145,7 +150,7 @@ For his analysis, Chad ran everyones\' random writers through the Python profile
 
 In my approach, for every character to be written to the output file, I searched the input file for occurances of the seed and grabbed the next character. That means that at some level (Python C code I guess) I was looping over the input file for **every** output character! Not very efficient for large output files.
 
-Chad\'s script was the fastest for large output values. He built a dictionary of seeds and subsequent characters and only had to loop over the source file once, no matter what the output size. I like this approach and have since wrote a subclass that incorporates such a cache, or index. Here is my subclass, [FastRandomWriter](./FastRandomWriter.html){.nonexistent}:
+Chad\'s script was the fastest for large output values. He built a dictionary of seeds and subsequent characters and only had to loop over the source file once, no matter what the output size. I like this approach and have since wrote a subclass that incorporates such a cache, or index. Here is my subclass, [FastRandomWriter](./FastRandomWriter.html):
 
     class FastRandomWriter(RandomWriter):
         """Went Chad's route and implemented a one-pass cache of seeds->nextchars.
@@ -200,7 +205,7 @@ Here are the results from my original class:
          4990    0.189    0.000   11.266    0.002 randomwriter.py:64(Step)
             1    0.036    0.036   11.301   11.301 randomwriter.py:74(Run)
 
-And here are the results from [FastRandomWriter](./FastRandomWriter.html){.nonexistent}:
+And here are the results from [FastRandomWriter](./FastRandomWriter.html):
 
     C:\Documents and Settings\Christian\Desktop\randomwriter>python randomwrite.py 1
     0 5000 ..\tom.txt out.txt
@@ -225,7 +230,7 @@ And here are the results from [FastRandomWriter](./FastRandomWriter.html){.nonex
          4990    0.028    0.000    0.028    0.000 randomwriter.py:60(_updateSeed)
             1    0.026    0.026    0.250    0.250 randomwriter.py:74(Run)
 
-I will write more later ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"}
+I will write more later ![:-)](/wiki/europython/img/smile.png ":-)")
 
 ------------------------------------------------------------------------
 
@@ -236,4 +241,3 @@ Email: `<christian AT SPAMFREE dowski DOT com>`
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

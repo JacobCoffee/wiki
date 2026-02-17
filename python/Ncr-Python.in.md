@@ -1,7 +1,12 @@
 # Ncr-Python.in
 
-::: {#content dir="ltr" lang="en"}
-# Ncr-Python.in {#Ncr-Python.in-1}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Ncr-Python.in 
 
 Welcome to Python User Group of National Capital Regions of India - P .!.
 
@@ -15,36 +20,35 @@ Be a Python lover .!.
 
 This wiki page has created in the purpose of making awareness about NCR-Python.in meetings, its schedules and to post its IRC logs.
 
-# Mailing List {#Mailing_List}
+# Mailing List 
 
-[http://mail.python.org/mailman/listinfo/ncr-python.in](http://mail.python.org/mailman/listinfo/ncr-python.in){.http}
+[http://mail.python.org/mailman/listinfo/ncr-python.in](http://mail.python.org/mailman/listinfo/ncr-python.in)
 
-# PyCon India {#PyCon_India}
+# PyCon India 
 
 - Python Conference India 2014 will be held in Bangalore from 26th-28th Sep.
 
-- Registrations are open now. Get your tickets from [http://pyconindia2014.doattend.com/](http://pyconindia2014.doattend.com/){.http}
+- Registrations are open now. Get your tickets from [http://pyconindia2014.doattend.com/](http://pyconindia2014.doattend.com/)
 
-- For more info visit [http://in.pycon.org/2014/](http://in.pycon.org/2014/){.http}
+- For more info visit [http://in.pycon.org/2014/](http://in.pycon.org/2014/)
 
-# Meetings {#Meetings}
+# Meetings 
 
 - We are planning to conduct regular python meeting once in a month
 
-# Contact Persons {#Contact_Persons}
+# Contact Persons 
 
 - Arulant : Arulalant at gmail dot com
 - Satyaakam Goswami : satyaakam at gmail dot com
 
-## Upcoming Meetings {#Upcoming_Meetings}
+## Upcoming Meetings 
 
-## Meetup Summaries {#Meetup_Summaries}
+## Meetup Summaries 
 
-Find Summary of meetup @ [https://wiki.python.org/moin/Ncr-Python.in/meetupsummary](https://wiki.python.org/moin/Ncr-Python.in/meetupsummary){.https}
+Find Summary of meetup @ [https://wiki.python.org/moin/Ncr-Python.in/meetupsummary](https://wiki.python.org/moin/Ncr-Python.in/meetupsummary)
 
-## Earlier Meetings {#Earlier_Meetings}
+## Earlier Meetings 
 
 ------------------------------------------------------------------------
 
 [CategoryPythonIndia](CategoryPythonIndia) [CategoryUsergroups](CategoryUsergroups)
-:::

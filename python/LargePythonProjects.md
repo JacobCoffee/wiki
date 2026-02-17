@@ -1,7 +1,12 @@
 # LargePythonProjects
 
-::::: {#content dir="ltr" lang="en"}
-# Description {#Description}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Description 
 
 This page grew out of a frequently asked question on [CompLangPython](CompLangPython):
 
@@ -9,27 +14,27 @@ This page grew out of a frequently asked question on [CompLangPython](CompLangPy
 
 While the answer is unambiguously **Yes!**, it\'s a little bit trickier than that. For instance, we needed some clear way of defining *how* large a project is. And there were issues about people who wanted/didn\'t want attribution, and projects whose existence had to be kept secret (if we told you, we\'d have to kill you\...).
 
-LOC(Lines Of Code)s are counted by [CLOC](http://cloc.sourceforge.net/){.http}. Only Python codes are included. Docstrings are counted as comments. Large projects are arbitrarily defined as more than 100,000 lines.
+LOC(Lines Of Code)s are counted by [CLOC](http://cloc.sourceforge.net/). Only Python codes are included. Docstrings are counted as comments. Large projects are arbitrarily defined as more than 100,000 lines.
 
-# New List {#New_List}
+# New List 
 
 ::: {}
   --------------------------------- --------- ------------------------------------ -----------------------------------------------------------------------------------------------------------------------
   Name                              Version   LOC                                  Source access
-  [TACTIC](TACTIC)           3.8       198949(blank 84138, comment 39926)   [Downloads](http://community.southpawtech.com/downloads){.http}
-  [Twisted](TwistedMatrix)   11.0.0    146136(blank 54971, comment 72686)   [SVN](http://twistedmatrix.com/documents/current/core/development/policy/svn-dev.html){.http} releases/twisted-11.0.0
-  [Django](Django)           1.3       115306(blank 26810, comment 35533)   [SVN](https://code.djangoproject.com/){.https} releases/1.3
-  [SQLAlchemy](SQLAlchemy)   0.7.2     113485(blank 32694, comment 24498)   [hg](http://www.sqlalchemy.org/develop.html){.http} rel_0_7_2
+  [TACTIC](TACTIC)           3.8       198949(blank 84138, comment 39926)   [Downloads](http://community.southpawtech.com/downloads)
+  [Twisted](TwistedMatrix)   11.0.0    146136(blank 54971, comment 72686)   [SVN](http://twistedmatrix.com/documents/current/core/development/policy/svn-dev.html) releases/twisted-11.0.0
+  [Django](Django)           1.3       115306(blank 26810, comment 35533)   [SVN](https://code.djangoproject.com/) releases/1.3
+  [SQLAlchemy](SQLAlchemy)   0.7.2     113485(blank 32694, comment 24498)   [hg](http://www.sqlalchemy.org/develop.html) rel_0_7_2
   --------------------------------- --------- ------------------------------------ -----------------------------------------------------------------------------------------------------------------------
 :::
 
-# Old {#Old}
+# Old 
 
-We decided to use [pycount](http://www.python.net/crew/gherman/pycount.html){.http} to size the programs, and arbitrarily declared that any program of more than 10,000 lines was \"large\".
+We decided to use [pycount](http://www.python.net/crew/gherman/pycount.html) to size the programs, and arbitrarily declared that any program of more than 10,000 lines was \"large\".
 
 The following list is the result of that effort. Please feel free to add YOUR project as well!
 
-# List {#List}
+# List 
 
 ::: {}
   ----------------------------- ------------------------------------------------ ------------ --------------------------------------------------- --------------
@@ -43,4 +48,3 @@ The following list is the result of that effort. Please feel free to add YOUR pr
   Django                        Lawrence Journal-World                           59111        web application framework                           2010-07-15
   ----------------------------- ------------------------------------------------ ------------ --------------------------------------------------- --------------
 :::
-:::::

@@ -1,7 +1,12 @@
 # PortingPythonToPy3k/PyQt4
 
-::: {#content dir="ltr" lang="en"}
-# PyQt 4.6+ {#PyQt_4.6.2B-}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PyQt 4.6+ 
 
 [PyQt](PyQt)-4.6 and greater have a new API called API2 that is the default when run on Python-3.x. The major difference is that QString does not exist in API2; the library uses the native Python3 str type instead.
 
@@ -26,5 +31,4 @@ To use API2 everywhere:
 
     # Now QtCore.QString is no longer available -- use python2's unicode type or python3's str type instead
 
-From the [pyqt4 reference manual](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/pyqt4ref.html#selecting-incompatible-apis){.http}
-:::
+From the [pyqt4 reference manual](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/pyqt4ref.html#selecting-incompatible-apis)

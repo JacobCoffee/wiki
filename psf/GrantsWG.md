@@ -1,9 +1,14 @@
 # GrantsWG
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 *Note:* When creating new wiki pages related to this group, please use wiki subpages, e.g. GrantsWG/Charter.
 
-## Agenda {#Agenda}
+## Agenda 
 
 The group is up and running. There are some ongoing issues that might be discussed and/or documented:
 
@@ -12,24 +17,24 @@ The group is up and running. There are some ongoing issues that might be discuss
 - Workflow for handling requests
 - Standards for handling grants, relating to financial aid, codes of conduct, etc.
 
-## Resources {#Resources}
+## Resources 
 
-- [PSF Grants Program](https://www.python.org/psf/grants/){.https}
+- [PSF Grants Program](https://www.python.org/psf/grants/)
 
-  [PSF Grants Working Group Charter](https://wiki.python.org/psf/GrantsWG/Charter){.https}
+  [PSF Grants Working Group Charter](https://wiki.python.org/psf/GrantsWG/Charter)
 
-  [On-boarding material for new members](https://wiki.python.org/psf/GrantsWG/onboarding){.https}
+  [On-boarding material for new members](https://wiki.python.org/psf/GrantsWG/onboarding)
 
-## Mailing List {#Mailing_List}
+## Mailing List 
 
-- [psf-grants@python.org](mailto:psf-grants@python.org){.mailto}
+- [psf-grants@python.org](mailto:psf-grants@python.org)
 
-## Administration {#Administration}
+## Administration 
 
 - Chair: Laura Graves (US - non-voting)
 - Vice Chairs: Kushal Das (Asia, India) and Vicky Twomey-Lee (Europe, Ireland)
 
-## Members {#Members}
+## Members 
 
 - Aaron Yankey (Africa, Ghana)
 - Afape Temiloluwa Ruth (Africa, Nigeria)
@@ -44,7 +49,6 @@ The group is up and running. There are some ongoing issues that might be discuss
 - Sayan Chowdhury (Asia, India)
 - Younggun Kim (Asia, South Korea)
 
-## Meetings {#Meetings}
+## Meetings 
 
 - Currently, all business of the working group is conducted via email.
-:::

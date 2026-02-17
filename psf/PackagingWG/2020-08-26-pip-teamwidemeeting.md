@@ -1,6 +1,11 @@
 # PackagingWG/2020-08-26-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Wednesday 26th August
 
 Participants:
@@ -15,12 +20,12 @@ Participants:
 
 - Bernard
 
-- The Uber Conference AI-bot ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+- The Uber Conference AI-bot ![:)](/wiki/europython/img/smile.png ":)")
 
 Agenda:
 
 - PG: We have a bug report that 100% needs fixing before prod.
-  - [https://github.com/pypa/pip/issues/8792](https://github.com/pypa/pip/issues/8792){.https} \-- hashes in the constraints files
+  - [https://github.com/pypa/pip/issues/8792](https://github.com/pypa/pip/issues/8792) \-- hashes in the constraints files
 
   - This needs a few decisions/tasks (do we implement this? what should the behavior be? what would be the \"shape\" of the actual implementation PR be?)
     - probably doesn\'t NEED UX inputs since it\'s mostly a case of \"we didn\'t think of this while making it and someone depends on this behavior\"
@@ -30,11 +35,11 @@ Agenda:
   - FYI that Pradyun will be working on this - we need to document and communicate about this
     - TODO: determine whether this is different than old behavior, and document somewhere on pip.pypa.io, maybe migration guide
 
-- PG: Would it make sense to roll out the fast-deps feature ([McSinyx](./McSinyx.html){.nonexistent} GSoC project) along with the resolver?
+- PG: Would it make sense to roll out the fast-deps feature ([McSinyx](./McSinyx.html) GSoC project) along with the resolver?
 
   - Would make the dependency resolution process faster, since it\'s doing a metadata lookup via a partial download (instead of the entire file).
 
-  - I realized we could do this when reading the survey responses. I don\'t recall if I brought this up before. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+  - I realized we could do this when reading the survey responses. I don\'t recall if I brought this up before. ![:)](/wiki/europython/img/smile.png ":)")
 
   - What options are we considering?
     - a\) roll it out in 20.3
@@ -63,33 +68,33 @@ Agenda:
 
   - resolved \-- Nicole is working on this with Bernard - pip functionality epic
 
-- NH: Can we get any dev time on [https://github.com/pypa/pip/issues/8783](https://github.com/pypa/pip/issues/8783){.https}? Or can we ask community to help with this specific ticket? Would like to collect data ASAP.
+- NH: Can we get any dev time on [https://github.com/pypa/pip/issues/8783](https://github.com/pypa/pip/issues/8783)? Or can we ask community to help with this specific ticket? Would like to collect data ASAP.
 
   - Add email link on pip\'s documentation
   - SH: yes. Maybe ask Yeray? Sviatoslav (@webknjaz)
 
-- NH: Thank you to dev team for providing feedback on pip functionality surveys! ![:D](/wiki/europython/img/biggrin.png ":D"){height="16" width="16"}
+- NH: Thank you to dev team for providing feedback on pip functionality surveys! ![:D](/wiki/europython/img/biggrin.png ":D")
 
 - podcasts
   - FLOSS Weekly Wed Sept 2nd - every Wednesday morning at 9:30am Pacific, 12:30pm Eastern - via Skype
     - Sumana + Pradyun, Georgia as alternate
 
-  - realpython.com [https://realpython.com/podcasts/rpp/](https://realpython.com/podcasts/rpp/){.https}
+  - realpython.com [https://realpython.com/podcasts/rpp/](https://realpython.com/podcasts/rpp/)
 
     - Georgia is open!
 
   - Design podcast that\'s starting - Georgia may have an in there!
 
 - Incentives - Follow up
-  - Stickers --- If [SimSec](./SimSec.html){.nonexistent} pursues making stickers, is there a preference about process? e.g. facilitating a conversation about a logo for pip?
+  - Stickers --- If [SimSec](./SimSec.html) pursues making stickers, is there a preference about process? e.g. facilitating a conversation about a logo for pip?
 
-    - Platypus? [https://discuss.python.org/t/the-packaging-platypus/1939](https://discuss.python.org/t/the-packaging-platypus/1939){.https} [https://monotreme.club/](https://monotreme.club/){.https}
+    - Platypus? [https://discuss.python.org/t/the-packaging-platypus/1939](https://discuss.python.org/t/the-packaging-platypus/1939) [https://monotreme.club/](https://monotreme.club/)
 
       - various people: Platypus is adorable.
 
     - there\'s also the PyPI logo. We could do sticker packs
 
-  - NH has drafted a survey for input on a design brief. preview: [https://forms.gle/RkEDuf1LBB19PosW9](https://forms.gle/RkEDuf1LBB19PosW9){.https}
+  - NH has drafted a survey for input on a design brief. preview: [https://forms.gle/RkEDuf1LBB19PosW9](https://forms.gle/RkEDuf1LBB19PosW9)
 
     - Sumana: Cool!
 
@@ -97,12 +102,12 @@ Agenda:
 
     - Stakeholders who need to approve: pip committers & triage bit holders. And then PSF\'s Trademark people
 
-- NH has a PR open for the UX Docs addition: [https://github.com/pypa/pip/pull/8807](https://github.com/pypa/pip/pull/8807){.https} (Thank you Nicole!)
+- NH has a PR open for the UX Docs addition: [https://github.com/pypa/pip/pull/8807](https://github.com/pypa/pip/pull/8807) (Thank you Nicole!)
 
-  - online RST editor: [http://rst.ninjs.org/](http://rst.ninjs.org/){.http}
+  - online RST editor: [http://rst.ninjs.org/](http://rst.ninjs.org/)
 
 - FYI NH has reduced availability starting September (5 hours per week, limited to Tuesdays)
-  - [SimSec](./SimSec.html){.nonexistent} team is working out the plan here, but hoping to free up more of Georgia\'s time to be more involved.
+  - [SimSec](./SimSec.html) team is working out the plan here, but hoping to free up more of Georgia\'s time to be more involved.
 
 - One thing \-- PG: I need to do the drafts for Resolver backtracking thing.
 
@@ -114,10 +119,10 @@ Pradyun\'s notes from looking at the feedback survey (989272)
 
 - I made the HTML thingie (^\>^), then found that the \"expanded table\" doesn\'t contain the entire response. Using a mix of both those.
 
-  - [https://gist.github.com/pradyunsg/91060eb4e6b9f424f78b5b990ef466fb](https://gist.github.com/pradyunsg/91060eb4e6b9f424f78b5b990ef466fb){.https}
+  - [https://gist.github.com/pradyunsg/91060eb4e6b9f424f78b5b990ef466fb](https://gist.github.com/pradyunsg/91060eb4e6b9f424f78b5b990ef466fb)
 
 - Issue 1: Circular dependencies
-  - [InstallationError](./InstallationError.html){.nonexistent}: Could not determine installation order due to cicular dependency\" (also note the typo)
+  - [InstallationError](./InstallationError.html): Could not determine installation order due to cicular dependency\" (also note the typo)
 
     - TODO: fix the typo
 
@@ -141,7 +146,7 @@ Pradyun\'s notes from looking at the feedback survey (989272)
     - system feedback, and it not being clear what the end point is, or when it will occur.
 
 - Issue 3: hashes in the constraints files
-  - User filed [https://github.com/pypa/pip/issues/8792](https://github.com/pypa/pip/issues/8792){.https}
+  - User filed [https://github.com/pypa/pip/issues/8792](https://github.com/pypa/pip/issues/8792)
 
   - The way functionality in pip intersects is so awesome. There are never edge cases. /s
 
@@ -149,7 +154,7 @@ Pradyun\'s notes from looking at the feedback survey (989272)
 
   - -\> Action:deal with this in the GH issue they\'ve opened.
 
-- Issue 4: Speed ![:(](/wiki/europython/img/sad.png ":("){height="16" width="16"}
+- Issue 4: Speed ![:(](/wiki/europython/img/sad.png ":(")
 
   - \"Never had any issues with the old resolver, but the new one is more than 5 times slower.\"
 
@@ -172,4 +177,3 @@ Pradyun\'s notes from looking at the feedback survey (989272)
     - -\> Action: Reach out to them and ask why?
   - Response 174: does not include entire error message (or clarity about the error). \*maybe\* reach out and as what\'s up?
     - \> Action: Reach out and ask them to explain this further.
-:::

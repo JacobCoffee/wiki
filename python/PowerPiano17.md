@@ -1,11 +1,16 @@
 # PowerPiano17
 
-::: {#content dir="ltr" lang="en"}
-# Contact Informaton {#Contact_Informaton}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Contact Informaton 
 
 Email: PowerPiano17@gmail.com
 
-# Places of Interest {#Places_of_Interest}
+# Places of Interest 
 
 - [FrontPage](FrontPage)
 
@@ -14,4 +19,3 @@ Email: PowerPiano17@gmail.com
 - [Code](Code)
 
 [CategoryHomepage](CategoryHomepage)
-:::

@@ -1,9 +1,14 @@
 # PyOhio/RecordingRelease
 
-:::: {#content dir="ltr" lang="en"}
-Text of this form is shamelessly but gratefully stolen from PyCon, [http://us.pycon.org/2010/conference/release/](http://us.pycon.org/2010/conference/release/){.http .reference .external}
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: {#recording-release-agreement .section}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Text of this form is shamelessly but gratefully stolen from PyCon, [http://us.pycon.org/2010/conference/release/](http://us.pycon.org/2010/conference/release/)
+
+::: 
 ### Recording Release Agreement
 
 PyOhio presentations may be recorded for release over the internet. Presenters must give permission to PyOhio to record, edit, and release audio and/or video of your presentation.
@@ -24,4 +29,3 @@ Legalese:
 > - Submitter specifically affirms the right to perform the User Submissions on PyOhio\'s web sites or on other web sites designated by PyOhio (including, but not necessarily limited to YouTube and Google Video).
 > - Submitter also hereby grants each person receiving the User Submissions distributed by PyOhio a non-exclusive license to access, use, display, and perform the User Submissions in a non-commercial, private context.
 :::
-::::

@@ -1,7 +1,12 @@
 # FrontPage
 
-::: {#content dir="ltr" lang="en"}
-# Welcome to the Jython Wiki! {#Welcome_to_the_Jython_Wiki.21}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Welcome to the Jython Wiki! 
 
 ------------------------------------------------------------------------
 
@@ -16,4 +21,3 @@ Jython is a Java implementation of Python that combines expressive power with cl
 - **Interactive experimentation** - Jython provides an interactive interpreter that can be used to interact with Java packages or with running Java applications. This allows programmers to experiment and debug any Java system using Jython.
 
 - **Rapid application development** - Python programs are typically 2-10X shorter than the equivalent Java program. This translates directly to increased programmer productivity. The seamless interaction between Python and Java allows developers to freely mix the two languages both during development and in shipping products.
-:::

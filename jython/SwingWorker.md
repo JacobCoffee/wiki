@@ -1,15 +1,14 @@
 # SwingWorker
 
-:::::::: {#content dir="ltr" lang="en"}
-# SwingWorker Examples in Jython {#SwingWorker_Examples_in_Jython}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# SwingWorker Examples in Jython 
 
 [DocumentationAndEducation](DocumentationAndEducation)
-
-::: table-of-contents
-Contents
-
-1.  [SwingWorker Examples in Jython](#SwingWorker_Examples_in_Jython)
-:::
 
 ------------------------------------------------------------------------
 
@@ -27,19 +26,19 @@ Very briefly, a Swing program normally comprises of three different types of thr
 
 Only the Event Dispatch Thread should access Swing components (with certain exceptions). Swing components should not even be created by other threads \-- including the Initial Threads.
 
-A good description of these threads is given in the [Concurrency in Swing](http://java.sun.com/docs/books/tutorial/uiswing/concurrency/index.html){.http} lesson in the Swing Tutorial.
+A good description of these threads is given in the [Concurrency in Swing](http://java.sun.com/docs/books/tutorial/uiswing/concurrency/index.html) lesson in the Swing Tutorial.
 
-The SwingWorker class described in the above lesson is only available in Java 6. However, it has been backported to earlier versions see [https://swingworker.dev.java.net/](https://swingworker.dev.java.net/){.https}
+The SwingWorker class described in the above lesson is only available in Java 6. However, it has been backported to earlier versions see [https://swingworker.dev.java.net/](https://swingworker.dev.java.net/)
 
 The remainder of this section shows a translation of two of the examples from the Swing Tutorial to Jython.
 
-- [Flipper.py](SwingWorker#flipper) \-- this is an example where the the worker thread has intermediate results which should be reflected in the GUI. The operation of this example is given [here](http://java.sun.com/docs/books/tutorial/uiswing/concurrency/interim.html){.http}
+- [Flipper.py](SwingWorker#flipper) \-- this is an example where the the worker thread has intermediate results which should be reflected in the GUI. The operation of this example is given [here](http://java.sun.com/docs/books/tutorial/uiswing/concurrency/interim.html)
 
-- [ProgressBarDemo.py](SwingWorker#progress) \-- this is an example showing how the worker thread can communicate with the Event Dispatch Thread using Property Change Listeners. For a description of the example see [here](http://java.sun.com/docs/books/tutorial/uiswing/concurrency/bound.html){.http}
+- [ProgressBarDemo.py](SwingWorker#progress) \-- this is an example showing how the worker thread can communicate with the Event Dispatch Thread using Property Change Listeners. For a description of the example see [here](http://java.sun.com/docs/books/tutorial/uiswing/concurrency/bound.html)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1c1e59cf77ae6e0558e20a8440674450e72d680c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Flipper.py
    2 
    3 from java.lang import Runnable
@@ -168,9 +167,9 @@ The remainder of this section shows a translation of two of the examples from th
 :::
 ::::
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ffc6922feff8fcaa6fdca82d5b1af74385259395 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # ProgressBarDemo.py
    2 
    3 from java.lang import InterruptedException, Runnable, Thread
@@ -295,4 +294,3 @@ The remainder of this section shows a translation of two of the examples from th
 ```
 :::
 ::::
-::::::::

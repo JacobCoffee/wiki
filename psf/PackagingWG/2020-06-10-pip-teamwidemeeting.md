@@ -1,7 +1,12 @@
 # PackagingWG/2020-06-10-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
-# Teamwide meeting {#Teamwide_meeting}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Teamwide meeting 
 
 Wednesday, 10 June 2020
 
@@ -27,7 +32,7 @@ Following up on TODOs from previous meetings:
 
 - TODO: Nicole & TP: agree to add a \"please report this to the pip issue tracker\" prompt to the error message
 
-- TODO: Re: ResolutionImpossible - add \"please report this to [https://github.com/pypa/packaging-problems/issues/](https://github.com/pypa/packaging-problems/issues/){.https} \"
+- TODO: Re: ResolutionImpossible - add \"please report this to [https://github.com/pypa/packaging-problems/issues/](https://github.com/pypa/packaging-problems/issues/) \"
 
 - TODO: team to finish this change (\"some small changes that would be low-cost and radically improve the UX\"/\"easy formatting and info layout changes\" recommended by UX) within the next week.
 
@@ -56,7 +61,7 @@ Agenda:
 
   - TODO: Nicole & TP: agree to add a \"please report this to the pip issue tracker\" prompt to the error message
 
-    - Re: ResolutionImpossible - add \"please report this to [https://github.com/pypa/packaging-problems/issues/](https://github.com/pypa/packaging-problems/issues/){.https} \"
+    - Re: ResolutionImpossible - add \"please report this to [https://github.com/pypa/packaging-problems/issues/](https://github.com/pypa/packaging-problems/issues/) \"
 
     - team to finish this change (\"some small changes that would be low-cost and radically improve the UX\"/\"easy formatting and info layout changes\" recommended by UX) within the next week.
 
@@ -85,7 +90,7 @@ Agenda:
 
   - other that, we don\'t have a clear list of what else might be outstanding. Lack of a checklist makes it uncertain
 
-  - TP: I think I have 1 more: how we report hash error, in case download fom PyPI doesn\'t match hash, raise an error? error msg in legacy resolver is difficult to do in new resolver. Figure out how to do that. Main thing TP has on this checklist\.... not sure what the best format is for such a checklist. I\'ve used a few ways to write down what is failing, what\'s been solved/done, but none of those work very well. Would be nice if someone had better ideas on how to organize this. (TP: I'm currently using HackMD [https://hackmd.io/TkGB1hPQTcu9y_4JwAtGyA?view](https://hackmd.io/TkGB1hPQTcu9y_4JwAtGyA?view){.https} )
+  - TP: I think I have 1 more: how we report hash error, in case download fom PyPI doesn\'t match hash, raise an error? error msg in legacy resolver is difficult to do in new resolver. Figure out how to do that. Main thing TP has on this checklist\.... not sure what the best format is for such a checklist. I\'ve used a few ways to write down what is failing, what\'s been solved/done, but none of those work very well. Would be nice if someone had better ideas on how to organize this. (TP: I'm currently using HackMD [https://hackmd.io/TkGB1hPQTcu9y_4JwAtGyA?view](https://hackmd.io/TkGB1hPQTcu9y_4JwAtGyA?view) )
 
   - Sumana: here\'s what I would suggest: the resolver is a piece of work that has various stages \-- whether or not we \"expose\" the state of the resolver to the user (we have current \"unstable\" in the master branch; it\'ll be default in the future). we\'ve had some discussions we\'ve had about what criterion to use. This sounds like a GitHub project board. (can make issues/PRs/independy card)
 
@@ -105,13 +110,13 @@ Agenda:
 - Resolver flag
   - Pradyun: I will be making a detailed post on Zulip later today, asking for inputs.
 
-- TP posted some improvements to the resolver issue template and hopes Nicole could take a look [https://github.com/pypa/pip/pull/8329](https://github.com/pypa/pip/pull/8329){.https} Nicole: Thank you TP, will look today ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+- TP posted some improvements to the resolver issue template and hopes Nicole could take a look [https://github.com/pypa/pip/pull/8329](https://github.com/pypa/pip/pull/8329) Nicole: Thank you TP, will look today ![:)](/wiki/europython/img/smile.png ":)")
 
-- Error message testing findings and recommendations [https://editor.apps.ei8fdb.org/s/rylD-Qp3L](https://editor.apps.ei8fdb.org/s/rylD-Qp3L){.https}
+- Error message testing findings and recommendations [https://editor.apps.ei8fdb.org/s/rylD-Qp3L](https://editor.apps.ei8fdb.org/s/rylD-Qp3L)
 
-  - \[Bernard walks us through, including [https://www.notion.so/Testing-scenario-6e6b3910a22c40418cb7b1271588e33f](https://www.notion.so/Testing-scenario-6e6b3910a22c40418cb7b1271588e33f){.https} testing scenario\]
+  - \[Bernard walks us through, including [https://www.notion.so/Testing-scenario-6e6b3910a22c40418cb7b1271588e33f](https://www.notion.so/Testing-scenario-6e6b3910a22c40418cb7b1271588e33f) testing scenario\]
 
-    - The error message being tested is at the bottom of  [https://github.com/pypa/pip/issues/8377#issuecomment-638776768](https://github.com/pypa/pip/issues/8377#issuecomment-638776768){.https}
+    - The error message being tested is at the bottom of  [https://github.com/pypa/pip/issues/8377#issuecomment-638776768](https://github.com/pypa/pip/issues/8377#issuecomment-638776768)
 
     - Paul notes: Paul says \"\~=\" is a very rare construct and very rarely seen/used
 
@@ -132,7 +137,7 @@ Agenda:
 
       - TODO: add space in comma-separated parts.
 
-      - [https://editor.apps.ei8fdb.org/s/rylD-Qp3L#Questions-Comments](https://editor.apps.ei8fdb.org/s/rylD-Qp3L#Questions-Comments){.https} 
+      - [https://editor.apps.ei8fdb.org/s/rylD-Qp3L#Questions-Comments](https://editor.apps.ei8fdb.org/s/rylD-Qp3L#Questions-Comments) 
 
       - Technical notes: We need support from pypa/packaging
 
@@ -170,11 +175,11 @@ Agenda:
 
     - the \"**not** meant to act as a list of PyPA agreed best practices or recommendations\" - policy reasons for this? No - this was just Nicole trying to avoid bikeshedding.  Also not clear how something becomes \"official\" doc
 
-      - Pradyun: pip maintainers \"bless\" it. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+      - Pradyun: pip maintainers \"bless\" it. ![:)](/wiki/europython/img/smile.png ":)")
 
       - Paul: Personally, I\'m not too keen on \"blessing\" practices like this\...
 
-      - Pradyun: exactly why I suggested/agreed to having this. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+      - Pradyun: exactly why I suggested/agreed to having this. ![:)](/wiki/europython/img/smile.png ":)")
 
       - Paul: does not like giving people advice in this way, support issues, maintainability\.... if we start saying \"you could try this\" then when something goes wrong, user will come back to PyPA to ask for advice.
         - strongly in favor of a disclaimer. But I do understand why the users \*want\* this.
@@ -207,7 +212,7 @@ Agenda:
   - Pradyun: red is a well-established color for error messaging. nearly all development tools use red to denote failures. I guess we should move the bulk of the reading part away from red. :/
     - TP: One thing I just noticed in some tools is they only color the \"ERROR:\" header, not the messages themselves.
 
-    - In agreement \-- that\'s the same thought I had in the second sentence. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+    - In agreement \-- that\'s the same thought I had in the second sentence. ![:)](/wiki/europython/img/smile.png ":)")
 
     - Bernard: yes. \"Error\" labels red: fine. Helps red-green colorblind people. Rest of the error text should be in default color
 
@@ -221,16 +226,15 @@ Agenda:
 
     - TODO: this would be deferred to packaging lib - Sumana to re-open the issue and explain
 
-    - [https://github.com/pypa/packaging/issues/312](https://github.com/pypa/packaging/issues/312){.https}
+    - [https://github.com/pypa/packaging/issues/312](https://github.com/pypa/packaging/issues/312)
 
   - Sumana: user research is great - a culmination of all the work we have been doing together \\o/
 
-  - Paul: thank you Bernard for doing this work - it\'s confirmed a lot of what we knew and have discussed ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+  - Paul: thank you Bernard for doing this work - it\'s confirmed a lot of what we knew and have discussed ![:)](/wiki/europython/img/smile.png ":)")
 
   - Bernard: when all user interviews are published please read the notes, it will give everyone great insight into our users
 
-  - Pradyun: thank you Bernard!! ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+  - Pradyun: thank you Bernard!! ![:)](/wiki/europython/img/smile.png ":)")
 
 - Ballooning meeting times:
   - Sumana: now I know UX findings discussions take about an hour.
-:::

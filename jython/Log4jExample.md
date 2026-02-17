@@ -1,18 +1,14 @@
 # Log4jExample
 
-:::::: {#content dir="ltr" lang="en"}
-# log4j Example {#log4j_Example}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# log4j Example 
 
 [OtherExamples](OtherExamples)
-
-::: table-of-contents
-Contents
-
-1.  [log4j Example](#log4j_Example)
-    1.  1.  1.  [log4j Example](#log4j_Example-1)
-            2.  [log4j.properties](#log4j.properties)
-            3.  [Example xml file](#Example_xml_file)
-:::
 
 ------------------------------------------------------------------------
 
@@ -26,13 +22,13 @@ This example require several things.
 
 This was tested with Jython 2.2 and Java JVM 1.5 and 1.4.2
 
-#### log4j Example {#log4j_Example-1}
+#### log4j Example 
 
 - This is a simple example to show how easy it is to use log4j in your own scripts. The source is well documented but if you have any questions or want to more info use your favorite search engine and type in log4j.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-b6f15607e5833dfde18b87a57def78597aab76ae dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from org.apache.log4j import * 
    2 
    3 class logtest:
@@ -110,7 +106,7 @@ This was tested with Jython 2.2 and Java JVM 1.5 and 1.4.2
     #above plus filename, linenumber, Class Name, method name
     #log4j.appender.LOGFILE.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss},%p,%c,%F,%L,%C{1},%M %m%n
 
-#### Example xml file {#Example_xml_file}
+#### Example xml file 
 
 - This is here for completeness. Any text file could be use with the example above by changing the \'open\' line
 
@@ -150,4 +146,3 @@ in the above line.
         </GetXmlReport>
       </SOAP-ENV:Body>
     </SOAP-ENV:Envelope>
-::::::

@@ -1,15 +1,20 @@
 # SimpleApp
 
-::::: {#content dir="ltr" lang="en"}
-# Apache Sampleapp.java {#Apache_Sampleapp.java}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Apache Sampleapp.java 
 
 back to [ApacheDerby](ApacheDerby) Example
 
 \--
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3fc676bcfde70b81d6944f7e54699e052ea28327 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 /*
    2    Derby - Class SimpleApp
    3  */
@@ -312,4 +317,3 @@ back to [ApacheDerby](ApacheDerby) Example
 ::::
 
 back to [ApacheDerby](ApacheDerby) Example
-:::::

@@ -1,7 +1,12 @@
 # CategoryDistutilsCookbook
 
-:::: {#content dir="ltr" lang="en"}
-This category collects all of the pages that form the [DistutilsCookbook](./DistutilsCookbook.html){.nonexistent}.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+This category collects all of the pages that form the [DistutilsCookbook](./DistutilsCookbook.html).
 
 ::: searchresults
 1.  [**CategoryDistutilsCookbook**](./CategoryDistutilsCookbook.html?highlight=%28CategoryDistutilsCookbook%29)
@@ -21,4 +26,3 @@ This category collects all of the pages that form the [DistutilsCookbook](./Dist
 ------------------------------------------------------------------------
 
 [CategoryCategory](CategoryCategory)
-::::

@@ -1,13 +1,18 @@
 # CastelliDiSabbia
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Modifica a tuo piacimento questa pagina, facendo tutti gli esperimenti che desideri, mantenendo però inalterata questa parte iniziale, prima dei quattro trattini \"-\" qui sotto. Per favore, **NON** creare nuove pagine senza un contenuto interessante solo per provare\...
 
-**Suggerimento:** Clicca tenendo premuto lo shift su \"[AiutoSuModificaPagina](./AiutoSuModificaPagina.html){.nonexistent}\" per aprire una seconda finestra con le pagine di aiuto.
+**Suggerimento:** Clicca tenendo premuto lo shift su \"[AiutoSuModificaPagina](./AiutoSuModificaPagina.html)\" per aprire una seconda finestra con le pagine di aiuto.
 
 ------------------------------------------------------------------------
 
-## Formattazione {#Formattazione}
+## Formattazione 
 
 *corsivo* **grassetto** `spaziatura fissa`
 
@@ -15,17 +20,17 @@ Modifica a tuo piacimento questa pagina, facendo tutti gli esperimenti che desid
 
     testo preformattato
 
-## Collegamenti {#Collegamenti}
+## Collegamenti 
 
-[AiutoSuModificaPagina](./AiutoSuModificaPagina.html){.nonexistent} [InterWiki](http://moinmo.in/InterWiki "MoinMoin"){.interwiki}
+[AiutoSuModificaPagina](./AiutoSuModificaPagina.html) [InterWiki](http://moinmo.in/InterWiki "MoinMoin")
 
-[http://purl.net/wiki/moin/](http://purl.net/wiki/moin/){.http} [Python](http://www.python.org/){.http}
+[http://purl.net/wiki/moin/](http://purl.net/wiki/moin/) [Python](http://www.python.org/)
 
-[qualcuno@la.fuori.chissa.dove](mailto:qualcuno@la.fuori.chissa.dove){.mailto}
+[qualcuno@la.fuori.chissa.dove](mailto:qualcuno@la.fuori.chissa.dove)
 
-## Elenchi {#Elenchi}
+## Elenchi 
 
-### Puntati {#Puntati}
+### Puntati 
 
 - primo
   1.  rientrato e numerato
@@ -35,10 +40,9 @@ Modifica a tuo piacimento questa pagina, facendo tutti gli esperimenti che desid
 - secondo Sottoparagrafo
   - Sottosottoparagrafo
 
-### Glossario {#Glossario}
+### Glossario 
 
 Termine
 :   Definizione
 
 prova modifica teso
-:::

@@ -1,6 +1,11 @@
 # SummerOfCode/2011/pkumar/PackagingPy2Porting/review
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Here's a review of your proposal. You can reply to specific issues in comments of the GSoC site or amend your wiki page to address my comments.
 
 1.  Since \'Packaging\' is made after many improvisations and modifications over distutils2, it will prove to be a better utility than the currently existing distutils2 for all the versions of python.
@@ -47,7 +52,7 @@ In my opinion, this project is more about 3to2 than packaging. Its deliverable s
 
 What do you think?
 
-## Second review {#Second_review}
+## Second review 
 
 - Some functionalities in python2 works differently compared to python3 i.e. we may need to write slight different codes for the same result, say \'tokenize\' in this case.
 
@@ -76,4 +81,3 @@ I see you've taken my suggestion. Just a note about the wording: "a automated sy
 Can you go through my first review again and reply to the things that you've left out in your first reply?
 
 I recommend you to remove the bits of discussion from your wiki page and amend it quickly (today or tomorrow) to integrate the result of our discussion: reworked list of deliverables (script and 3to2 fixers needed for each version) and adapted timeline (esp. with time allotted to research whether fixers can fix everything or if you'll have to develop a magic comment system to have version-specific code in comments to be uncommented for the right version).
-:::

@@ -1,31 +1,36 @@
 # Bazaar
 
-::: {#content dir="ltr" lang="en"}
-# Using Bazaar to develop Python {#Using_Bazaar_to_develop_Python}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Note: While Python has officially chosen Mercurial for its DVCS, you can still use Bazaar to develop Python. This page describes the current workflow. The migration plan is [PEP 385](http://www.python.org/dev/peps/pep-0385/){.http}.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-Python\'s source code is maintained under the [Subversion](http://subversion.tigris.org){.http} revision control system. Unofficial [Bazaar](http://bazaar-vcs.org){.http} mirrors of the Subversion repository are maintained on Launchpad and are kept up-to-date automatically.
+# Using Bazaar to develop Python 
 
-## What is available? {#What_is_available.3F}
+Note: While Python has officially chosen Mercurial for its DVCS, you can still use Bazaar to develop Python. This page describes the current workflow. The migration plan is [PEP 385](http://www.python.org/dev/peps/pep-0385/).
+
+Python\'s source code is maintained under the [Subversion](http://subversion.tigris.org) revision control system. Unofficial [Bazaar](http://bazaar-vcs.org) mirrors of the Subversion repository are maintained on Launchpad and are kept up-to-date automatically.
+
+## What is available? 
 
 We currently have mirrors of the Python 2.6, trunk (2.7), 3.1, and py3k (3.2) branches available to the public. These branches are synchronized in near-real time with the Subversion master. This means that as commits are made to Subversion, they will be available in Bazaar on Launchpad soon thereafter. Of course, there\'s a bit of a lag imposed by the Launchpad puller.
 
-All of the mirrored branches are available [here](https://code.edge.launchpad.net/python){.https}.
+All of the mirrored branches are available [here](https://code.edge.launchpad.net/python).
 
 Code hosting of Bazaar branches is also available on Launchpad. This means you can branch Python locally via Bazaar, do some development, and then push your branch to Launchpad to share with others. Of course because the master branches are in Subversion, you\'ll still have to go through the standard Python development process to get your changes into mainline. But short of that, you can do all your development in a nice, modern DVCS.
 
-There is a pretty good [Bazaar/Subversion bridge](http://wiki.bazaar.canonical.com/BzrForeignBranches/Subversion){.http} which should allow you to commit your Bazaar branch to the Subversion master, but I have not tried it.
+There is a pretty good [Bazaar/Subversion bridge](http://wiki.bazaar.canonical.com/BzrForeignBranches/Subversion) which should allow you to commit your Bazaar branch to the Subversion master, but I have not tried it.
 
-## What do I need? {#What_do_I_need.3F}
+## What do I need? 
 
-\* [Bazaar 2.0 or newer](http://bazaar-vcs.org/Download){.http}. As of this writing (2010-02-24) Bazaar 2.1 is the most recent release. As Bazaar is written in Python (yay!), it is available for all major platforms, See the Bazaar home page for information about versions for your platform.
+\* [Bazaar 2.0 or newer](http://bazaar-vcs.org/Download). As of this writing (2010-02-24) Bazaar 2.1 is the most recent release. As Bazaar is written in Python (yay!), it is available for all major platforms, See the Bazaar home page for information about versions for your platform.
 
 \* Python 2.4 or newer. Bazaar requires at least Python 2.4.
 
 \* A Launchpad login if you want to push branches to Launchpad. You do not need a login if all you\'re going to do is pull branches from Launchpad.
 
-## How do I get started? {#How_do_I_get_started.3F}
+## How do I get started? 
 
 There are many ways to use Bazaar. Some like to use it the same way they use Subversion. Others like to take advantage of the disconnected and distributed features, so that they can develop code while off the net. The Bazaar web site outlines all these options. The documentation here will describe just one way of working with it.
 
@@ -47,7 +52,7 @@ This will create a working directory called `py3k`{.backtick} in your shared rep
     % cd py3k
     % bzr pull
 
-Now let\'s say you want to work on a fix for [bug 1974](http://bugs.python.org/issue1974){.http}. Bazaar encourages (but doesn\'t require!) small, frequent branches focused on just the task at hand.
+Now let\'s say you want to work on a fix for [bug 1974](http://bugs.python.org/issue1974). Bazaar encourages (but doesn\'t require!) small, frequent branches focused on just the task at hand.
 
     % cd ..
     % bzr branch py3k bug1974
@@ -65,17 +70,17 @@ You can keep iterating on the hack-commit cycle as much as you want, until you a
 
 The last path component can be anything that doesn\'t already exist.
 
-Now everyone (not just core developers) will be able to view, branch, and merge your branch, say to do a code review. You can even create a diff of your branch against the trunk, say to generate a patch for the [Python bug tracker](http://bugs.python.org){.http}.
+Now everyone (not just core developers) will be able to view, branch, and merge your branch, say to do a code review. You can even create a diff of your branch against the trunk, say to generate a patch for the [Python bug tracker](http://bugs.python.org).
 
 You can attach your branch URL to the issue in the Python bug tracker, and it will be much easier for a core developer to review and apply your changes.
 
-## Loggerhead {#Loggerhead}
+## Loggerhead 
 
-[Loggerhead](https://launchpad.net/loggerhead){.https} is the [ViewVC](http://www.viewvc.org/){.http} of Bazaar. It\'s a web interface that lets you explore Python\'s bzr branches, view history, etc. Loggerhead is available for all the Python branches. E.g. the trunk is visible [here](http://bazaar.launchpad.net/~python-dev/python/trunk/files){.http}. Other branches can be viewed by clicking on the appropriate series as listed [here](https://code.edge.launchpad.net/python){.https}.
+[Loggerhead](https://launchpad.net/loggerhead) is the [ViewVC](http://www.viewvc.org/) of Bazaar. It\'s a web interface that lets you explore Python\'s bzr branches, view history, etc. Loggerhead is available for all the Python branches. E.g. the trunk is visible [here](http://bazaar.launchpad.net/~python-dev/python/trunk/files). Other branches can be viewed by clicking on the appropriate series as listed [here](https://code.edge.launchpad.net/python).
 
-## Anything else? {#Anything_else.3F}
+## Anything else? 
 
-You want to create or edit your `~/.bazaar/bazaar.conf`{.backtick} file to set a few things up. Unlike Subversion, Bazaar commits happen locally, so you have control over the email address that gets associated with your changes. You should use an email address that is identifiably you in the Python community. You may also decide to [GPG](http://www.gnupg.org){.http} sign your commits, though this is not required. Here for example is my `bazaar.conf`{.backtick} [file::](file::){.file}
+You want to create or edit your `~/.bazaar/bazaar.conf`{.backtick} file to set a few things up. Unlike Subversion, Bazaar commits happen locally, so you have control over the email address that gets associated with your changes. You should use an email address that is identifiably you in the Python community. You may also decide to [GPG](http://www.gnupg.org) sign your commits, though this is not required. Here for example is my `bazaar.conf`{.backtick} [file::](file::)
 
     [DEFAULT]
     email=Barry Warsaw <barry@python.org>
@@ -85,7 +90,7 @@ You want to create or edit your `~/.bazaar/bazaar.conf`{.backtick} file to set a
     last = log -r-10..-1 --line
     commit = commit --strict
 
-See the Bazaar documentation for more options on [configuring Bazaar](http://bazaar-vcs.org/ConfiguringBzr){.http}.
+See the Bazaar documentation for more options on [configuring Bazaar](http://bazaar-vcs.org/ConfiguringBzr).
 
 If you are running on Ubuntu, you should have a new enough Bazaar if you are running Karmic (9.10) or newer. Lucid (10.04) will ship with Bazaar 2.1.
 
@@ -102,15 +107,14 @@ Christian Heimes points out the following instructions for getting the latest bz
     #  --force-yes because the packages aren't signed yet
     sudo apt-get --force-yes -y install bzr bzr-gtk bzrtools
 
-Also read [https://launchpad.net/\~bzr/+archive](https://launchpad.net/~bzr/+archive){.https} and [http://bazaar-vcs.org/DistroDownloads](http://bazaar-vcs.org/DistroDownloads){.http}
+Also read [https://launchpad.net/\~bzr/+archive](https://launchpad.net/~bzr/+archive) and [http://bazaar-vcs.org/DistroDownloads](http://bazaar-vcs.org/DistroDownloads)
 
-## Where do I get help? {#Where_do_I_get_help.3F}
+## Where do I get help? 
 
-Start by reading the [Bazaar documentation](http://bazaar-vcs.org/Documentation){.http}. There are many ways to use Bazaar and many options, commands and plugins (such as [looms](https://edge.launchpad.net/bzr-loom){.https} which rock) which are not described above. Explore!
+Start by reading the [Bazaar documentation](http://bazaar-vcs.org/Documentation). There are many ways to use Bazaar and many options, commands and plugins (such as [looms](https://edge.launchpad.net/bzr-loom) which rock) which are not described above. Explore!
 
-Ask your questions on the [python-dev@python.org](mailto:python-dev@python.org){.mailto} mailing list. We\'ll keep an eye on things and try to help as much as possible.
+Ask your questions on the [python-dev@python.org](mailto:python-dev@python.org) mailing list. We\'ll keep an eye on things and try to help as much as possible.
 
-Log onto [irc.freenode.net](http://freenode.net/){.http} and ask around on the `#python`{.backtick}, `#python-dev`{.backtick}, or `#bzr`{.backtick} channels. The former two are better for specific questions about Python\'s Bazaar branches, while the latter is better for more general Bazaar questions.
+Log onto [irc.freenode.net](http://freenode.net/) and ask around on the `#python`{.backtick}, `#python-dev`{.backtick}, or `#bzr`{.backtick} channels. The former two are better for specific questions about Python\'s Bazaar branches, while the latter is better for more general Bazaar questions.
 
 Keep refreshing this page! We\'ll try to keep it updated with new information and examples, based on your feedback.
-:::

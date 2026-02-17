@@ -1,11 +1,16 @@
 # PyConIndiaSpeakerNotes
 
-::: {#content dir="ltr" lang="en"}
-# SESSION STAFF INSTRUCTIONS {#SESSION_STAFF_INSTRUCTIONS}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# SESSION STAFF INSTRUCTIONS 
 
 David Goodger had suggested INpycon use their speaker notes which Doug had mailed in. Parts that may not be relevant to INPyCon have been edited.
 
-## Speaker/Session notes {#Speaker.2FSession_notes}
+## Speaker/Session notes 
 
 The key to a great conference is simple: **communication**. Below is a list of instructions for presenters and the session staff. Even if the instructions are not for you, please read them all so you understand what everyone is doing and how we are all working together. In truth, there are only 3 rules:
 
@@ -21,9 +26,9 @@ These notes can be printed out and given to your local volunteers who will be ma
 
 Oh, and in case you were wondering, the most important rule is: **HAVE FUN! (seriously!)**
 
-# Helpful Instructions/Quick-Sheets {#Helpful_Instructions.2FQuick-Sheets}
+# Helpful Instructions/Quick-Sheets 
 
-## Speaker Information {#Speaker_Information}
+## Speaker Information 
 
 - Go to the Green Room at least 10min before your talk to get the latest information, co-ordinate with Session Staff, and test your equipment.
 
@@ -51,7 +56,7 @@ Oh, and in case you were wondering, the most important rule is: **HAVE FUN! (ser
 
 - Attempt to introduce yourself to your Session Staff earlier in the conference.
 
-## Session Staff Information {#Session_Staff_Information}
+## Session Staff Information 
 
 Along with speakers we also have session staff. The session staff are broken into **session chairs** and **session runners**. The chairs sit in the presentation room and assist the speaker and moderate when needed. The runners track down speakers, make sure they are prepared well before getting to the presentation room, and act as a second body for the session chairs whom are stuck in the rooms.
 
@@ -62,7 +67,7 @@ Along with speakers we also have session staff. The session staff are broken int
 - If some plan or procedure does not work, communicate that fact and try to find something which does work with others.
 - Attempt to introduce yourself to your session partner and speakers earlier in the conference.
 
-### Session Runner Information {#Session_Runner_Information}
+### Session Runner Information 
 
 - Be in the Green Room 10min before each talk to meet the speaker.
 - Help the speaker set up their laptop on the test projector with the slides ready to present.
@@ -72,7 +77,7 @@ Along with speakers we also have session staff. The session staff are broken int
 - Help the previous speaker disconnect their equipment (if there is one) and the new speaker hook up theirs (if needed).
 - If there is interest in an Open Space talk from the previous talk, ask if those interested would like assistance with getting a room and posting to the board.
 
-### Session Chair Information {#Session_Chair_Information}
+### Session Chair Information 
 
 - Don\'t forget your Stop Watch and Signs from the Green Room.
 
@@ -105,4 +110,3 @@ Along with speakers we also have session staff. The session staff are broken int
 ------------------------------------------------------------------------
 
 [CategoryPyConIndia](CategoryPyConIndia)
-:::

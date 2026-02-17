@@ -1,7 +1,12 @@
 # PyOhio2008/Supplies
 
-::::: {#content dir="ltr" lang="en"}
-::: {#gear-needed .section}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+::: 
 ### Gear needed
 
 > - Projectors: At least one per scheduled talk track; ideally, Open Space rooms should have projectors, too
@@ -21,7 +26,7 @@
 >   > Steve Johnson has a 3x4\' white board if that is what\'s required.
 :::
 
-::: {#can-be-sponsored .section}
+::: 
 ### Can be sponsored
 
 > - Lunch
@@ -29,4 +34,3 @@
 > - Printing needs
 > - Swag/door prizes
 :::
-:::::

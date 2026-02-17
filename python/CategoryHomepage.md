@@ -1,6 +1,11 @@
 # CategoryHomepage
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Note that such pages are \"owned\" by the respective person, and should not be edited by others, except to leave a message to that person. To do so, just append your message to the page, after four dashes like so:
 
     ----
@@ -535,4 +540,3 @@ Note that such pages are \"owned\" by the respective person, and should not be e
 ------------------------------------------------------------------------
 
 [CategoryCategory](CategoryCategory)
-::::

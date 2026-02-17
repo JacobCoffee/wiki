@@ -1,48 +1,27 @@
 # TrackerDevelopment
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 ::: caution
-**Roundup tracker has been retired in favour of [GitHub](./GitHub.html){.nonexistent} issues.** See [https://github.com/psf/gh-migration](https://github.com/psf/gh-migration){.https}
+**Roundup tracker has been retired in favour of [GitHub](./GitHub.html) issues.** See [https://github.com/psf/gh-migration](https://github.com/psf/gh-migration)
 :::
 
-This page is dedicated to development of Python bug tracker instance at [http://bugs.python.org/](http://bugs.python.org/){.http}\
-We have a [meta tracker](http://psf.upfronthosting.co.za/roundup/meta/){.http} for current issues and [DesiredTrackerFeatures](DesiredTrackerFeatures) page for recording ideas. See also [TrackerDevelopmentPlanning](TrackerDevelopmentPlanning).
+This page is dedicated to development of Python bug tracker instance at [http://bugs.python.org/](http://bugs.python.org/)\
+We have a [meta tracker](http://psf.upfronthosting.co.za/roundup/meta/) for current issues and [DesiredTrackerFeatures](DesiredTrackerFeatures) page for recording ideas. See also [TrackerDevelopmentPlanning](TrackerDevelopmentPlanning).
 
-::: table-of-contents
-Contents
-
-1.  [Docker](#Docker)
-2.  [Requirements](#Requirements)
-    1.  [Getting the source](#Getting_the_source)
-    2.  [Other tracker configurations](#Other_tracker_configurations)
-3.  [Setup bugs.python.org instance](#Setup_bugs.python.org_instance)
-    1.  [Install patched Roundup](#Install_patched_Roundup)
-    2.  [Checkout the python-dev instance](#Checkout_the_python-dev_instance)
-    3.  [Checkout the Rietveld integration (optional)](#Checkout_the_Rietveld_integration_.28optional.29)
-    4.  [Install psycopg2 (PostgreSQL access library for Python)](#Install_psycopg2_.28PostgreSQL_access_library_for_Python.29)
-    5.  [Install and configure PostgreSQL](#Install_and_configure_PostgreSQL)
-    6.  [Configure your Development Roundup Instance](#Configure_your_Development_Roundup_Instance)
-    7.  [Rietveld Setup](#Rietveld_Setup)
-    8.  [irker setup](#irker_setup)
-4.  [Resources for Tracker Development](#Resources_for_Tracker_Development)
-    1.  [Getting Help](#Getting_Help)
-    2.  [Using roundup-admin](#Using_roundup-admin)
-    3.  [The Meta Tracker](#The_Meta_Tracker)
-    4.  [Setting Up an Instance in a VirtualEnv](#Setting_Up_an_Instance_in_a_VirtualEnv)
-    5.  [The Test Tracker](#The_Test_Tracker)
-    6.  [The Experimental Tracker](#The_Experimental_Tracker)
-5.  [Getting Your Own Jython Tracker](#Getting_Your_Own_Jython_Tracker)
-:::
-
-# Docker {#Docker}
+# Docker 
 
 The simplest way to work with the tracker is by using Docker.
 
-Clone [the docker-bpo repo](https://github.com/python/docker-bpo){.https} and follow the README.
+Clone [the docker-bpo repo](https://github.com/python/docker-bpo) and follow the README.
 
 If you want to install the tracker manually follow the instructions below.
 
-# Requirements {#Requirements}
+# Requirements 
 
 This configuration is deployed on production server, so it is good to stick it for development as well:
 
@@ -52,25 +31,25 @@ This configuration is deployed on production server, so it is good to stick it f
 
 - psycopg2 (bindings for the above)
 
-- pyoidc (OpenID Connect library from [https://github.com/rohe/pyoidc](https://github.com/rohe/pyoidc){.https})
+- pyoidc (OpenID Connect library from [https://github.com/rohe/pyoidc](https://github.com/rohe/pyoidc))
 
-[http://bugs.python.org/](http://bugs.python.org/){.http} (`python-dev`{.backtick} tracker instance or configuration) is running PostgreSQL on backed, because it has the best performance for large installations. Besides, there is at least one place in the `python-dev`{.backtick} config with hardcoded dependency on the SQL-based backed.
+[http://bugs.python.org/](http://bugs.python.org/) (`python-dev`{.backtick} tracker instance or configuration) is running PostgreSQL on backed, because it has the best performance for large installations. Besides, there is at least one place in the `python-dev`{.backtick} config with hardcoded dependency on the SQL-based backed.
 
-## Getting the source {#Getting_the_source}
+## Getting the source 
 
-Get patched version of [Roundup tracker](http://www.roundup-tracker.org/){.http} from here:
+Get patched version of [Roundup tracker](http://www.roundup-tracker.org/) from here:
 
-- [http://hg.python.org/tracker/roundup/](http://hg.python.org/tracker/roundup/){.http} (the changes are in the `bugs.python.org`{.backtick} branch)
+- [http://hg.python.org/tracker/roundup/](http://hg.python.org/tracker/roundup/) (the changes are in the `bugs.python.org`{.backtick} branch)
 
-Tracker configuration for [http://bugs.python.org/](http://bugs.python.org/){.http} (called \'tracker home\', \'instance\' or \`environment) is here:
+Tracker configuration for [http://bugs.python.org/](http://bugs.python.org/) (called \'tracker home\', \'instance\' or \`environment) is here:
 
-- Official: [http://hg.python.org/tracker/python-dev/](http://hg.python.org/tracker/python-dev/){.http}
+- Official: [http://hg.python.org/tracker/python-dev/](http://hg.python.org/tracker/python-dev/)
 
-- Mirror: [https://bitbucket.org/rirror/bugs.python.org](https://bitbucket.org/rirror/bugs.python.org){.https}
+- Mirror: [https://bitbucket.org/rirror/bugs.python.org](https://bitbucket.org/rirror/bugs.python.org)
 
-## Other tracker configurations {#Other_tracker_configurations}
+## Other tracker configurations 
 
-There are several Roundup trackers used for Python development. Configuration for them is maintained in [http://hg.python.org/tracker/](http://hg.python.org/tracker/){.http} repositories:
+There are several Roundup trackers used for Python development. Configuration for them is maintained in [http://hg.python.org/tracker/](http://hg.python.org/tracker/) repositories:
 
 - **roundup**: a clone of the original Roundup with our modifications;
 
@@ -86,9 +65,9 @@ There are several Roundup trackers used for Python development. Configuration fo
 
 - **django-gae2django**: a clone of django-gae2django necessary for rietveld;
 
-# Setup bugs.python.org instance {#Setup_bugs.python.org_instance}
+# Setup bugs.python.org instance 
 
-## Install patched Roundup {#Install_patched_Roundup}
+## Install patched Roundup 
 
 Clone code and switch to `bugs.python.org`{.backtick} branch before installing. Here it is installed to hardcoded system-wide location at `/opt/tracker-roundup/`{.backtick}.
 
@@ -106,7 +85,7 @@ Clone code and switch to `bugs.python.org`{.backtick} branch before installing. 
     hg up bugs.python.org
     sudo python setup.py install --prefix /opt/tracker-roundup/
 
-## Checkout the python-dev instance {#Checkout_the_python-dev_instance}
+## Checkout the python-dev instance 
 
 - Read-only clone
 
@@ -116,7 +95,7 @@ Clone code and switch to `bugs.python.org`{.backtick} branch before installing. 
 
       hg clone ssh://hg@hg.python.org/tracker/python-dev
 
-## Checkout the Rietveld integration (optional) {#Checkout_the_Rietveld_integration_.28optional.29}
+## Checkout the Rietveld integration (optional) 
 
 If you want to work on Rietveld code review tool, check out the django-gae2django and rietveld clones in the python-dev/ directory:
 
@@ -142,15 +121,15 @@ After getting the clones **remember to update the branches to bugs.python.org**:
 
 In addition, Django needs to be installed; e.g. the Django 1.2 or 1.3 Debian packages work fine.
 
-## Install psycopg2 (PostgreSQL access library for Python) {#Install_psycopg2_.28PostgreSQL_access_library_for_Python.29}
+## Install psycopg2 (PostgreSQL access library for Python) 
 
 For Debian/Ubuntu:
 
     sudo apt-get install python-psycopg2
 
-For other systems, follow instructions from [psycopg2 site](http://initd.org/psycopg/install/){.http}.
+For other systems, follow instructions from [psycopg2 site](http://initd.org/psycopg/install/).
 
-## Install and configure PostgreSQL {#Install_and_configure_PostgreSQL}
+## Install and configure PostgreSQL 
 
 Other backends may work, but it is recommended to keep development environment close to production.
 
@@ -194,7 +173,7 @@ Create a database user that is allowed to create databases. This user will be us
     postgres=# create user roundup;
     postgres=# alter user roundup with createdb;
 
-## Configure your Development Roundup Instance {#Configure_your_Development_Roundup_Instance}
+## Configure your Development Roundup Instance 
 
 Now enter the python-dev directory, and create the \'db\' directory, as well as the db/backend_name file which decides which backend (i.e. database type) to use:
 
@@ -251,7 +230,7 @@ It might be a good idea to create another alias for roundup admin too:
 
 then add them to your `.bashrc` (or `~/.profile` in Mac OS X)
 
-You should now be able to browse [http://localhost:9999/python-dev/](http://localhost:9999/python-dev/){.http} and get a roundup instance that looks just like [http://bugs.python.org](http://bugs.python.org){.http}, except for some missing new values for fields like Stages and Keywords. It\'s possible to replace **initial_data.py** with an [updated version](./TrackerDevelopment(3f)action(3d)AttachFile(26)do(3d)view(26)target(3d)initial_data_updated(2e)py.html){.nonexistent} so that your fields will have values that match those currently present in the Python Tracker.
+You should now be able to browse [http://localhost:9999/python-dev/](http://localhost:9999/python-dev/) and get a roundup instance that looks just like [http://bugs.python.org](http://bugs.python.org), except for some missing new values for fields like Stages and Keywords. It\'s possible to replace **initial_data.py** with an [updated version](./TrackerDevelopment(3f)action(3d)AttachFile(26)do(3d)view(26)target(3d)initial_data_updated(2e)py.html) so that your fields will have values that match those currently present in the Python Tracker.
 
 The IDs for values in a given field might be different from those in the Python Tracker. This should only be a problem if you try to import CSV files from one tracker into the other.
 
@@ -266,9 +245,9 @@ Create an user from User-\>register in the left sidebar. Note that if you have s
     roundup> commit
     roundup>
 
-You can find your user id clicking on \"Your Details\" in the left sidebar and then looking at the address bar (it should show something similar to [http://localhost:9999/python-dev/user3](http://localhost:9999/python-dev/user3){.http}).
+You can find your user id clicking on \"Your Details\" in the left sidebar and then looking at the address bar (it should show something similar to [http://localhost:9999/python-dev/user3](http://localhost:9999/python-dev/user3)).
 
-## Rietveld Setup {#Rietveld_Setup}
+## Rietveld Setup 
 
 The Roundup and Rietveld data are stored in the same Postgres database. After the Roundup tables have been created, add to python-dev/config.ini:
 
@@ -325,15 +304,15 @@ you can try to remove the table(s) from the database and re-run syncdb and initr
     $ cd ..
     $ PYTHONPATH=detectors/:/opt/tracker-roundup/lib/python2.7/site-packages/ python scripts/initrietveld
 
-## irker setup {#irker_setup}
+## irker setup 
 
 irkerd is a daemon that sends notification on IRC whenever a message is added or an issue is created, and replaces the CIA.vc service.
 
 You will need:
 
-\* irker: [http://www.catb.org/esr/irker/](http://www.catb.org/esr/irker/){.http}
+\* irker: [http://www.catb.org/esr/irker/](http://www.catb.org/esr/irker/)
 
-\* the irc package: [http://pypi.python.org/pypi/irc/](http://pypi.python.org/pypi/irc/){.http}
+\* the irc package: [http://pypi.python.org/pypi/irc/](http://pypi.python.org/pypi/irc/)
 
 To install them you can use:
 
@@ -360,15 +339,15 @@ To start irker use:
 
 You can also use `./irkerd -d3` to see debugging messages.
 
-# Resources for Tracker Development {#Resources_for_Tracker_Development}
+# Resources for Tracker Development 
 
-## Getting Help {#Getting_Help}
+## Getting Help 
 
-Subscribe to and ask your question on the tracker-discuss mailing list. See [http://mail.python.org/mailman/listinfo/tracker-discuss](http://mail.python.org/mailman/listinfo/tracker-discuss){.http}
+Subscribe to and ask your question on the tracker-discuss mailing list. See [http://mail.python.org/mailman/listinfo/tracker-discuss](http://mail.python.org/mailman/listinfo/tracker-discuss)
 
-Since the Python Tracker is a slightly modified version of [Roundup](http://www.roundup-tracker.org){.http}, both Roundup\'s [Documentation](http://www.roundup-tracker.org/docs.html){.http} and [issue tracker](http://issues.roundup-tracker.org/){.http} contain relevant information about how the Python Tracker works and problems one might find working with its code.
+Since the Python Tracker is a slightly modified version of [Roundup](http://www.roundup-tracker.org), both Roundup\'s [Documentation](http://www.roundup-tracker.org/docs.html) and [issue tracker](http://issues.roundup-tracker.org/) contain relevant information about how the Python Tracker works and problems one might find working with its code.
 
-## Using roundup-admin {#Using_roundup-admin}
+## Using roundup-admin 
 
 To start roundup-admin interactively use:
 
@@ -396,55 +375,55 @@ To add back a message deleted accidentally:
 
 The message will be added back in the right position. (This should be equivalent to b.p.o/issueXXX?@action=edit&@add@messages=YYY, but this doesn\'t seem to work.)
 
-## The Meta Tracker {#The_Meta_Tracker}
+## The Meta Tracker 
 
-A [Meta Tracker](http://psf.upfronthosting.co.za/roundup/meta/){.http} is available for handling bugs and features requests for the [Python Tracker](http://bugs.python.org/){.http}.
+A [Meta Tracker](http://psf.upfronthosting.co.za/roundup/meta/) is available for handling bugs and features requests for the [Python Tracker](http://bugs.python.org/).
 
-## Setting Up an Instance in a VirtualEnv {#Setting_Up_an_Instance_in_a_VirtualEnv}
+## Setting Up an Instance in a VirtualEnv 
 
 See [TrackerDevelopmentVirtualEnv](TrackerDevelopmentVirtualEnv).
 
-## The Test Tracker {#The_Test_Tracker}
+## The Test Tracker 
 
-Public test instance of the Python tracker: [http://bot.bio.br/python-dev/](http://bot.bio.br/python-dev/){.http} (currently offine)
+Public test instance of the Python tracker: [http://bot.bio.br/python-dev/](http://bot.bio.br/python-dev/) (currently offine)
 
-Instance that attempts to match the code used in [http://bugs.python.org](http://bugs.python.org){.http} to allow testing, reproducing and verifying fixes for tracker bugs. Can also be used as a sandbox by users interested in learning about Developer, Coordinator or Admin tasks and features. Testing new content (e.g. Components or Statuses) is OK, but new features show be tested in the Experimental Tracker instead.
+Instance that attempts to match the code used in [http://bugs.python.org](http://bugs.python.org) to allow testing, reproducing and verifying fixes for tracker bugs. Can also be used as a sandbox by users interested in learning about Developer, Coordinator or Admin tasks and features. Testing new content (e.g. Components or Statuses) is OK, but new features show be tested in the Experimental Tracker instead.
 
-Currently the email system is disabled (redirected to file), so people interested in having an account there to test new features should email [tracker-discuss](http://mail.python.org/mailman/listinfo/tracker-discuss){.http} to get one. Maintained by [DanielDiniz](DanielDiniz).
+Currently the email system is disabled (redirected to file), so people interested in having an account there to test new features should email [tracker-discuss](http://mail.python.org/mailman/listinfo/tracker-discuss) to get one. Maintained by [DanielDiniz](DanielDiniz).
 
-## The Experimental Tracker {#The_Experimental_Tracker}
+## The Experimental Tracker 
 
-Modified version of the Python tracker: [http://bot.bio.br/python-dev-exp/](http://bot.bio.br/python-dev-exp/){.http} (currently offline)
+Modified version of the Python tracker: [http://bot.bio.br/python-dev-exp/](http://bot.bio.br/python-dev-exp/) (currently offline)
 
 It\'s an instance to showcase and test new features.
 
 New features (2009-04-18):
 
-- [Issue tags](http://mail.python.org/pipermail/tracker-discuss/2009-April/002099.html){.http}
+- [Issue tags](http://mail.python.org/pipermail/tracker-discuss/2009-April/002099.html)
 
-- [Quiet properties](http://psf.upfronthosting.co.za/roundup/meta/issue249){.http}
+- [Quiet properties](http://psf.upfronthosting.co.za/roundup/meta/issue249)
 
-- [Restore removed messages and files](http://psf.upfronthosting.co.za/roundup/meta/issue267){.http}
+- [Restore removed messages and files](http://psf.upfronthosting.co.za/roundup/meta/issue267)
 
-- [Claim (\'assign to self\') and add/remove self as nosy buttons](http://psf.upfronthosting.co.za/roundup/meta/issue258){.http}
+- [Claim (\'assign to self\') and add/remove self as nosy buttons](http://psf.upfronthosting.co.za/roundup/meta/issue258)
 
-- [Don\'t close issues with open dependencies](http://psf.upfronthosting.co.za/roundup/meta/issue266){.http}
+- [Don\'t close issues with open dependencies](http://psf.upfronthosting.co.za/roundup/meta/issue266)
 
-- [Auto-add nosy users based on Components](http://psf.upfronthosting.co.za/roundup/meta/issue258){.http}
+- [Auto-add nosy users based on Components](http://psf.upfronthosting.co.za/roundup/meta/issue258)
 
-- [\"Email me\" buttons for messages and issues, \"Reply by email\"](http://psf.upfronthosting.co.za/roundup/meta/issue245){.http}
+- [\"Email me\" buttons for messages and issues, \"Reply by email\"](http://psf.upfronthosting.co.za/roundup/meta/issue245)
 
-- [RSS feeds (per issue and global)](http://psf.upfronthosting.co.za/roundup/meta/issue155){.http}
+- [RSS feeds (per issue and global)](http://psf.upfronthosting.co.za/roundup/meta/issue155)
 
-- [Display selected issues in the index view](http://psf.upfronthosting.co.za/roundup/meta/issue246){.http}
+- [Display selected issues in the index view](http://psf.upfronthosting.co.za/roundup/meta/issue246)
 
-- [Mass-update/batch-editing support](http://psf.upfronthosting.co.za/roundup/meta/issue248){.http}
+- [Mass-update/batch-editing support](http://psf.upfronthosting.co.za/roundup/meta/issue248)
 
-Currently the email system is disabled (redirected to file), so people interested in having an account there to test new features should email [tracker-discuss](http://mail.python.org/mailman/listinfo/tracker-discuss){.http} to get one. Maintained by [DanielDiniz](DanielDiniz).
+Currently the email system is disabled (redirected to file), so people interested in having an account there to test new features should email [tracker-discuss](http://mail.python.org/mailman/listinfo/tracker-discuss) to get one. Maintained by [DanielDiniz](DanielDiniz).
 
 There is also a list of additional [DesiredTrackerFeatures](DesiredTrackerFeatures) for which no patches yet exist.
 
-# Getting Your Own Jython Tracker {#Getting_Your_Own_Jython_Tracker}
+# Getting Your Own Jython Tracker 
 
 To set up a local Jython tracker, please follow instructions for python-dev tracker with following exceptions:
 
@@ -459,4 +438,3 @@ To set up a local Jython tracker, please follow instructions for python-dev trac
 ------------------------------------------------------------------------
 
 [CategoryTracker](CategoryTracker) [CategoryDevelopmentProcess](CategoryDevelopmentProcess)
-:::::

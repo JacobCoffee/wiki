@@ -1,7 +1,12 @@
 # Pyarmor
 
-::::::::::: {#content dir="ltr" lang="en"}
-# Pyarmor {#Pyarmor-1}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Pyarmor 
 
 Pyarmor is a command line tool used to obfuscate python scripts, bind obfuscated scripts to fixed machine or expire obfuscated scripts. It protects Python scripts by the following ways:
 
@@ -24,9 +29,9 @@ Look at what happened after `foo.py`{.backtick} is obfuscated by Pyarmor. Here a
 
 `dist/foo.py`{.backtick} is obfuscated script, the content is
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-9fe700ef2b31539ace69c638f9aa78572155cda7 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     from pytransfrom import pyarmor_runtime
    2     pyarmor_runtime()
    3 
@@ -37,7 +42,7 @@ Look at what happened after `foo.py`{.backtick} is obfuscated by Pyarmor. Here a
 
 All the other extra files called `Runtime Files`{.backtick}, which are required to run or import obfuscated scripts. So long as runtime files are in any Python path, obfuscated script `dist/foo.py`{.backtick} can be used as normal Python script. That is to say, `the original python scripts can be replaced with obfuscated scripts seamlessly.`{.backtick}
 
-## Obfuscate Scripts {#Obfuscate_Scripts}
+## Obfuscate Scripts 
 
 How to obfuscate python scripts by Pyarmor?
 
@@ -93,23 +98,23 @@ Finally generate obfuscated script
 
 The obfuscated script is a normal Python script, it looks like this
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1af98c282ea171cee50dd82fa2c3dd82232180a5 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     __pyarmor__(__name__, __file__, b'\x01\x0a...')
 ```
 :::
 ::::
 
-## Run Obfuscated Scripts {#Run_Obfuscated_Scripts}
+## Run Obfuscated Scripts 
 
 What happens to run obfuscated script `dist/foo.py`{.backtick} by Python Interpreter?
 
 The first 2 lines, which called `Bootstrap Code`{.backtick}
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-cce61d2385a15de0a4fd92a91ff8ffe745b15154 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     from pytransfrom import pyarmor_runtime
    2     pyarmor_runtime()
 ```
@@ -130,9 +135,9 @@ It will fulfil the following tasks
 
 The next code line in `dist/foo.py`{.backtick} is
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-afc8f7ce892619ac6c34bac92588a21b4a27e29a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     ...
    2 
    3     __pyarmor__(__name__, __file__, b'\x01\x0a...')
@@ -203,7 +208,7 @@ After that, in the runtime of this python process
               Py_RETURN_NONE;
           }
 
-## Usage {#Usage}
+## Usage 
 
 Install
 
@@ -228,25 +233,24 @@ Bind obfuscated scripts to fixed machine and expire it on some day. By default t
         cd dist
         python queens.py
 
-## Support Platforms {#Support_Platforms}
+## Support Platforms 
 
 - Python 2.5, 2.6, 2.7 and Python3
 - win32, win_amd64, linux_i386, linux_x86_64, macosx_intel
 - Embedded Platform: Raspberry Pi, Banana Pi, TS-4600 / TS-7600
 
-Besides, pyarmor works well with [py2exe](./py2exe.html){.nonexistent} and [PyInstaller](PyInstaller). Here are some [examples](https://github.com/dashingsoft/pyarmor/blob/master/src/examples/README.md){.https}.
+Besides, pyarmor works well with [py2exe](./py2exe.html) and [PyInstaller](PyInstaller). Here are some [examples](https://github.com/dashingsoft/pyarmor/blob/master/src/examples/README.md).
 
-## Other Links {#Other_Links}
+## Other Links 
 
-- [Homepage](http://pyarmor.dashingsoft.com){.http}
+- [Homepage](http://pyarmor.dashingsoft.com)
 
-- [Source Code](https://github.com/dashingsoft/pyarmor){.https}
+- [Source Code](https://github.com/dashingsoft/pyarmor)
 
-- [pypi](https://pypi.org/project/pyarmor/){.https}
+- [pypi](https://pypi.org/project/pyarmor/)
 
-- [User Guide](https://github.com/dashingsoft/pyarmor/blob/master/src/user-guide.md){.https}
+- [User Guide](https://github.com/dashingsoft/pyarmor/blob/master/src/user-guide.md)
 
 ------------------------------------------------------------------------
 
 [CategoryDistutilsCookbook](CategoryDistutilsCookbook)
-:::::::::::

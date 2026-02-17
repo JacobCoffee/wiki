@@ -1,13 +1,17 @@
 # AnantaManandhar
 
-::: {#content dir="ltr" lang="en"}
-### Ananta Manandhar {#Ananta_Manandhar}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Learning python ![;)](/wiki/europython/img/smile4.png ";)"){height="16" width="16"}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### Ananta Manandhar 
+
+Learning python ![;)](/wiki/europython/img/smile4.png ";)")
 
 Need to add more
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

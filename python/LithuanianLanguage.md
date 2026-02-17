@@ -1,9 +1,14 @@
 # LithuanianLanguage
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Lithuanian (lt)
 
-::: {.comment .dashed style="display:none"}
+::: 
 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English.
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
@@ -25,13 +30,12 @@ Where these pages really need help:
 
 **lietuvių kalba**
 
-- [Angis](https://angis.lrt.lt/){.https} -- mokymosi platforma su interaktyviomis pamokomis skirta mokiniams neturintiems programavimo patirties. Mokymui naudojama lokalizuota Python 3 versija.
+- [Angis](https://angis.lrt.lt/) -- mokymosi platforma su interaktyviomis pamokomis skirta mokiniams neturintiems programavimo patirties. Mokymui naudojama lokalizuota Python 3 versija.
 
-- [Python 3 vadovėlis](https://wiki.angis.net/w/Python_Vadov%C4%97lis){.https} -- [Angies](https://angis.lrt.lt/){.https} kūrėjų į lietuvių kalbą išverstas Python 3 vadovėlis atitinkantis mokyklinę programą. Jame taip pat galima rasti instrukcijas kaip įsidiegti ir naudoti „LR NŠA Python" programavimo aplinką naudojamą valstybinio brandos egzamino metu.
+- [Python 3 vadovėlis](https://wiki.angis.net/w/Python_Vadov%C4%97lis) -- [Angies](https://angis.lrt.lt/) kūrėjų į lietuvių kalbą išverstas Python 3 vadovėlis atitinkantis mokyklinę programą. Jame taip pat galima rasti instrukcijas kaip įsidiegti ir naudoti „LR NŠA Python" programavimo aplinką naudojamą valstybinio brandos egzamino metu.
 
-- [Computer Science Circles](http://cscircles.cemc.uwaterloo.ca/0-lt/){.http} -- Jurgio Pralgauskio į lietuvių kalbą išverstas Python pamokų rinkinys.
+- [Computer Science Circles](http://cscircles.cemc.uwaterloo.ca/0-lt/) -- Jurgio Pralgauskio į lietuvių kalbą išverstas Python pamokų rinkinys.
 
-- [Vikipedijos straipsnis apie Python](http://lt.wikipedia.org/wiki/Python){.http}
+- [Vikipedijos straipsnis apie Python](http://lt.wikipedia.org/wiki/Python)
 
 [CategoryLanguage](CategoryLanguage)
-::::

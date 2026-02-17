@@ -1,7 +1,12 @@
 # Community
 
-:::: {#content dir="ltr" lang="en"}
-# Participating in the Community {#Participating_in_the_Community}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Participating in the Community 
 
 It has been said that part of Python\'s success is due, at least in part, to the friendly community surrounding the language in general and resources like the [newsgroups and mailing lists](MailingListsAndNewsgroups) in particular.
 
@@ -50,4 +55,3 @@ It has been said that part of Python\'s success is due, at least in part, to the
 :::
 
 So come meet the [EffBot](EffBot), [MartelliBot](MartelliBot), our glorious [BDFL](BDFL) and all the rest of the gang! A cast of thousands!
-::::

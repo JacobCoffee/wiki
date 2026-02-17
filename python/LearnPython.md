@@ -1,18 +1,16 @@
 # LearnPython
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **Learning python by example**
 
-::: table-of-contents
-Contents
+# Python XML & XSLT 
 
-1.  [Python XML & XSLT](#Python_XML_.26_XSLT)
-    1.  [Create and add elements](#Create_and_add_elements)
-:::
-
-# Python XML & XSLT {#Python_XML_.26_XSLT}
-
-## Create and add elements {#Create_and_add_elements}
+## Create and add elements 
 
     from xml.dom.minidom import parseString
 
@@ -85,4 +83,3 @@ Contents
 
     element1.firstChild.appendChild(text2)
     element1.lastChild.appendChild(text1)
-::::

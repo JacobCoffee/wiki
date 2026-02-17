@@ -1,19 +1,24 @@
 # ItalianPythonUrloCoordination
 
-:::: {#content dir="ltr" lang="en"}
-# General Information about python-urlo;) {#General_Information_about_python-urlo.3B.29}
+```{admonition} Legacy Wiki Page
+:class: note
 
-This page will serve as a starting point for the coordination of the italian Python newsletter called python-urlo;) (named of course after the more famous python-url!). Already released issues can be found here: [http://www.python.it/python-urlo](http://www.python.it/python-urlo){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# General Information about python-urlo;) 
+
+This page will serve as a starting point for the coordination of the italian Python newsletter called python-urlo;) (named of course after the more famous python-url!). Already released issues can be found here: [http://www.python.it/python-urlo](http://www.python.it/python-urlo)
 
 The newsletter is maintained by Nicola Paolucci with the collaboration of Luca Simonetti. This page will store the newsletters work in progress as a coordination mean between the authors.
 
 The newsletter is in Italian.
 
-# Newsletter Sources {#Newsletter_Sources}
+# Newsletter Sources 
 
 An incomplete list of sources of this newsletter can be found here: [ItalianPythonUrloSources](ItalianPythonUrloSources).
 
-# Past Issues {#Past_Issues}
+# Past Issues 
 
 Issues already edited using this Wiki:
 
@@ -21,11 +26,11 @@ Issues already edited using this Wiki:
   --------------------------------------------- -----------------------------------------------------------
   [PythonUrloWeek30](PythonUrloWeek30)   [PythonUrloWeek33](PythonUrloWeek33)
   [PythonUrloWeek31](PythonUrloWeek31)   [PythonUrloWeek34](PythonUrloWeek34)
-  [PythonUrloWeek32](PythonUrloWeek32)   [PythonUrloWeek35](./PythonUrloWeek35.html){.nonexistent}
+  [PythonUrloWeek32](PythonUrloWeek32)   [PythonUrloWeek35](./PythonUrloWeek35.html)
   --------------------------------------------- -----------------------------------------------------------
 :::
 
-# Upcoming Issue {#Upcoming_Issue}
+# Upcoming Issue 
 
 The following is a sample of the coming week 35 issue, first time using wiki formatting:
 
@@ -178,4 +183,3 @@ The following is a sample of the coming week 35 issue, first time using wiki for
        Questa newsletter e' stata realizzata con reST_.  
       
     .. _reST: http://docutils.sourceforge.net/rst.html   
-::::

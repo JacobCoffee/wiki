@@ -1,7 +1,12 @@
 # PythonDecoratorProposals
 
-::: {#content dir="ltr" lang="en"}
-## Python Decorator Proposals {#Python_Decorator_Proposals}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Python Decorator Proposals 
 
 See the [next section](PythonDecoratorProposals#head-f22ccf491766760d15b371b8ed27c8a81b7cde2f) for a categorization of different proposals; this section just provides concrete examples.
 
@@ -9,9 +14,9 @@ See the [next section](PythonDecoratorProposals#head-f22ccf491766760d15b371b8ed2
 
 **Decorator Poll** (consider the poll now closed)
 
-Here is an online poll where you can vote between a few different alternative syntaxes for python decorators: [http://wiki.wxpython.org/index.cgi/PythonDecoratorsPoll](http://wiki.wxpython.org/index.cgi/PythonDecoratorsPoll){.http}
+Here is an online poll where you can vote between a few different alternative syntaxes for python decorators: [http://wiki.wxpython.org/index.cgi/PythonDecoratorsPoll](http://wiki.wxpython.org/index.cgi/PythonDecoratorsPoll)
 
-***A more complete poll is currently running on comp.lang.python, with the unfortunate name of \"Alternate decorator syntax decision\", using the options on this [WikiPage](./WikiPage.html){.nonexistent} as the candidates. Please visit that thread and express your preference!***
+***A more complete poll is currently running on comp.lang.python, with the unfortunate name of \"Alternate decorator syntax decision\", using the options on this [WikiPage](./WikiPage.html) as the candidates. Please visit that thread and express your preference!***
 
 ------------------------------------------------------------------------
 
@@ -19,7 +24,7 @@ After the \@decorator syntax was \"accepted\", lots of people threw up alarms an
 
 I give two examples that might be common uses in the future. Classmethod declarations, and something like static typing (adapters), declaring what type parameters a function expects and returns.
 
-### A1. pie decorator syntax {#A1._pie_decorator_syntax}
+### A1. pie decorator syntax 
 
     @classmethod
     def foo(arg1,arg2):
@@ -90,7 +95,7 @@ And here is an example taken from the current test_decorators.py. This exposes t
             self.assertEqual(foo(), 42)
             self.assertEqual(foo.author, 'Cleese')
 
-### A2. pie decorator and space syntax {#A2._pie_decorator_and_space_syntax}
+### A2. pie decorator and space syntax 
 
     @ classmethod
     def foo(arg1,arg2):
@@ -103,7 +108,7 @@ And here is an example taken from the current test_decorators.py. This exposes t
 
 \* 0 This is more readable for some people, less readable for others.
 
-### B. list-before-def syntax {#B._list-before-def_syntax}
+### B. list-before-def syntax 
 
     [classmethod]
     def foo(arg1,arg2):
@@ -137,7 +142,7 @@ And here is an example taken from the current test_decorators.py. This exposes t
 
 - \- Harder to highlight (looks like a normal list)
 
-### C1. list-after-def syntax {#C1._list-after-def_syntax}
+### C1. list-after-def syntax 
 
     def foo(arg1,arg2) [classmethod]:
         ...
@@ -186,7 +191,7 @@ That doesn\'t look particularly ugly to me.
 
 It also isn\'t very long.
 
-Here is an [example Guido just sent to python-dev](http://mail.python.org/pipermail/python-dev/2004-August/047112.html){.http}:
+Here is an [example Guido just sent to python-dev](http://mail.python.org/pipermail/python-dev/2004-August/047112.html):
 
     class C(object):
 
@@ -229,7 +234,7 @@ And he editorializes:
     body) to the front, where it is more in-your-face, it should IMO be
     moved all the way to the front.
 
-### C2. list-after-def syntax with a (pseudo-)keyword {#C2._list-after-def_syntax_with_a_.28pseudo-.29keyword}
+### C2. list-after-def syntax with a (pseudo-)keyword 
 
     def foo(arg1,arg2) using [classmethod]:
         ...
@@ -299,7 +304,7 @@ which feel is more consistent with the rest of python parsing-wise, without decr
 
 (See also J4 below, which moves the keyword, and uses \"@\" signs to make the decorators stand out more.)
 
-### C3. tuple-after-def syntax with a (pseudo-)keyword {#C3._tuple-after-def_syntax_with_a_.28pseudo-.29keyword}
+### C3. tuple-after-def syntax with a (pseudo-)keyword 
 
     def foo(arg1,arg2) using classmethod,:
         ...
@@ -333,7 +338,7 @@ Very similar to C2, but with those slight differences
 
 The 1st drawback could be removed if one allows both tuple and single-element after the pseudo-keyword, trading consistency for readability and convenience.
 
-### C4. tuple-after-def syntax with a % operator {#C4._tuple-after-def_syntax_with_a_.25_operator}
+### C4. tuple-after-def syntax with a % operator 
 
     def foo(arg1,arg2) % classmethod:
         ...
@@ -376,7 +381,7 @@ One more point: % could also be used in chained fashion:
 
 (making it similar to E2 below)
 
-### D1. list at top of function body syntax {#D1._list_at_top_of_function_body_syntax}
+### D1. list at top of function body syntax 
 
     def foo(arg1,arg2):
         [classmethod]
@@ -396,7 +401,7 @@ One more point: % could also be used in chained fashion:
 
 - \+ Solves line wrap problem with above proposal
 
-- 0 There is a hack that implements this now [here](http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/286147){.http}.
+- 0 There is a hack that implements this now [here](http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/286147).
 
 - \- Guido\'s europython presentation said this didn\'t win out, but not why
 
@@ -408,11 +413,11 @@ One more point: % could also be used in chained fashion:
 
 - \- No implementation currently exists.
 
-- \- Guido ruled out any solution involving special syntax inside the block, because \"you shouldn\'t have to peek inside the block to find out important external properties of the function.\" [http://mail.python.org/pipermail/python-dev/2004-August/047279.html](http://mail.python.org/pipermail/python-dev/2004-August/047279.html){.http}
+- \- Guido ruled out any solution involving special syntax inside the block, because \"you shouldn\'t have to peek inside the block to find out important external properties of the function.\" [http://mail.python.org/pipermail/python-dev/2004-August/047279.html](http://mail.python.org/pipermail/python-dev/2004-August/047279.html)
 
-- \- [Guido rejects](http://mail.python.org/pipermail/python-dev/2004-August/047289.html){.http}, because the function body should reflect what the function does; decorators are \"outside\" the function, for its callers.
+- \- [Guido rejects](http://mail.python.org/pipermail/python-dev/2004-August/047289.html), because the function body should reflect what the function does; decorators are \"outside\" the function, for its callers.
 
-### D2. \'dot\'decorators at top of function body syntax {#D2._.27dot.27decorators_at_top_of_function_body_syntax}
+### D2. \'dot\'decorators at top of function body syntax 
 
     def bar(low,high):
         .accepts(int,int)
@@ -442,7 +447,7 @@ Advantages/disadvantages of .decorators:
 
 - \+ No extra cut-and-paste issues, no extra indentation level.
 
-- \+ No smileys. (Does that get a ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} or a \]: ?)
+- \+ No smileys. (Does that get a ![:)](/wiki/europython/img/smile.png ":)") or a \]: ?)
 
 - \+ Will not be silently ignored (doesn\'t use currently legal syntax)
 
@@ -472,11 +477,11 @@ Advantages/disadvantages of .decorators:
 
 - \+ Could use `.doc()` or `.doc =` or `.__doc__ =` as a docstring alternative
 
-- \- Guido ruled out any solution involving special syntax inside the block, because \"you shouldn\'t have to peek inside the block to find out important external properties of the function.\" [http://mail.python.org/pipermail/python-dev/2004-August/047279.html](http://mail.python.org/pipermail/python-dev/2004-August/047279.html){.http}
+- \- Guido ruled out any solution involving special syntax inside the block, because \"you shouldn\'t have to peek inside the block to find out important external properties of the function.\" [http://mail.python.org/pipermail/python-dev/2004-August/047279.html](http://mail.python.org/pipermail/python-dev/2004-August/047279.html)
 
-- \- [Guido rejects](http://mail.python.org/pipermail/python-dev/2004-August/047289.html){.http}, because the function body should reflect what the function does; decorators are \"outside\" the function, for its callers.
+- \- [Guido rejects](http://mail.python.org/pipermail/python-dev/2004-August/047289.html), because the function body should reflect what the function does; decorators are \"outside\" the function, for its callers.
 
-### E1. pie decorator at top of function body syntax {#E1._pie_decorator_at_top_of_function_body_syntax}
+### E1. pie decorator at top of function body syntax 
 
     def foo(arg1,arg2):
         @classmethod
@@ -493,11 +498,11 @@ Advantages/disadvantages of .decorators:
 
 - \- No implementation currently exists.
 
-- \- Guido ruled out any solution involving special syntax inside the block, because \"you shouldn\'t have to peek inside the block to find out important external properties of the function.\" [http://mail.python.org/pipermail/python-dev/2004-August/047279.html](http://mail.python.org/pipermail/python-dev/2004-August/047279.html){.http}
+- \- Guido ruled out any solution involving special syntax inside the block, because \"you shouldn\'t have to peek inside the block to find out important external properties of the function.\" [http://mail.python.org/pipermail/python-dev/2004-August/047279.html](http://mail.python.org/pipermail/python-dev/2004-August/047279.html)
 
-- \- [Guido rejects](http://mail.python.org/pipermail/python-dev/2004-August/047289.html){.http}, because the function body should reflect what the function does; decorators are \"outside\" the function, for its callers.
+- \- [Guido rejects](http://mail.python.org/pipermail/python-dev/2004-August/047289.html), because the function body should reflect what the function does; decorators are \"outside\" the function, for its callers.
 
-### E2. vbar decorator at top of function body syntax {#E2._vbar_decorator_at_top_of_function_body_syntax}
+### E2. vbar decorator at top of function body syntax 
 
     def foo(arg1,arg2):
         |classmethod
@@ -555,9 +560,9 @@ Advantages/disadvantages of .decorators:
 
 - \- When using multiple decorators, the pattern formed by the vertical bars draws the eyes too much and makes it hard to focus on the signature.
 
-- \- Guido ruled out any solution involving special syntax inside the block, because \"you shouldn\'t have to peek inside the block to find out important external properties of the function.\" [http://mail.python.org/pipermail/python-dev/2004-August/047279.html](http://mail.python.org/pipermail/python-dev/2004-August/047279.html){.http}
+- \- Guido ruled out any solution involving special syntax inside the block, because \"you shouldn\'t have to peek inside the block to find out important external properties of the function.\" [http://mail.python.org/pipermail/python-dev/2004-August/047279.html](http://mail.python.org/pipermail/python-dev/2004-August/047279.html)
 
-- \- [Guido rejects](http://mail.python.org/pipermail/python-dev/2004-August/047289.html){.http}, because the function body should reflect what the function does; decorators are \"outside\" the function, for its callers.
+- \- [Guido rejects](http://mail.python.org/pipermail/python-dev/2004-August/047289.html), because the function body should reflect what the function does; decorators are \"outside\" the function, for its callers.
 
 Restyled version:
 
@@ -585,7 +590,7 @@ Restyled version:
 
         """
 
-### E3. vbar decorator after arg {#E3._vbar_decorator_after_arg}
+### E3. vbar decorator after arg 
 
     def longMethodNameForEffect(longArgumentOne=None,
                                 longArgumentTwo=42)
@@ -622,11 +627,11 @@ An alternative (inspired by a typing error I corrected in E2 in the Guido exampl
 
 - \- No implementation currently exists.
 
-- \- Guido ruled out any solution involving special syntax inside the block, because \"you shouldn\'t have to peek inside the block to find out important external properties of the function.\" [http://mail.python.org/pipermail/python-dev/2004-August/047279.html](http://mail.python.org/pipermail/python-dev/2004-August/047279.html){.http}
+- \- Guido ruled out any solution involving special syntax inside the block, because \"you shouldn\'t have to peek inside the block to find out important external properties of the function.\" [http://mail.python.org/pipermail/python-dev/2004-August/047279.html](http://mail.python.org/pipermail/python-dev/2004-August/047279.html)
 
-- \- [Guido rejects](http://mail.python.org/pipermail/python-dev/2004-August/047289.html){.http}, because the function body should reflect what the function does; decorators are \"outside\" the function, for its callers.
+- \- [Guido rejects](http://mail.python.org/pipermail/python-dev/2004-August/047289.html), because the function body should reflect what the function does; decorators are \"outside\" the function, for its callers.
 
-### E4. keyword decorator at top of function body syntax {#E4._keyword_decorator_at_top_of_function_body_syntax}
+### E4. keyword decorator at top of function body syntax 
 
     def foo(arg1,arg2):
         using classmethod
@@ -654,7 +659,7 @@ An alternative (inspired by a typing error I corrected in E2 in the Guido exampl
 
 Similar to E1 and E2 but with keyword
 
-### F. inline syntax {#F._inline_syntax}
+### F. inline syntax 
 
     def classmethod foo(arg1,arg2):
         ...
@@ -671,7 +676,7 @@ Similar to E1 and E2 but with keyword
 - \- Breaks etags (couldn\'t it be fixed?)
 - \- No implementation currently exists.
 
-### F2. inline syntax + new keyword (decodef for example) {#F2._inline_syntax_.2B-_new_keyword_.28decodef_for_example.29}
+### F2. inline syntax + new keyword (decodef for example) 
 
     decodef doo:
         classmethod
@@ -680,7 +685,7 @@ Similar to E1 and E2 but with keyword
     def [doo] foo(arg1,arg2):
         ...
 
-### G. as decorator {#G._as_decorator}
+### G. as decorator 
 
     as classmethod
     def foo(arg1,arg2):
@@ -693,7 +698,7 @@ Similar to E1 and E2 but with keyword
 - \- Guido specifically vetos: \"as\" means \"rename\" in too many logical, common places that are
 - \- No implementation currently exists.
 
-### H. pie decorator using a different character {#H._pie_decorator_using_a_different_character}
+### H. pie decorator using a different character 
 
 For example, using the \'\|\' character:
 
@@ -731,7 +736,7 @@ Restyled version:
     def bar(low,high):
         ...
 
-### I. angle brackets decorator syntax {#I._angle_brackets_decorator_syntax}
+### I. angle brackets decorator syntax 
 
     <classmethod>
     def foo(arg1,arg2):
@@ -747,7 +752,7 @@ Restyled version:
 - \- Parsing of greater-than and less-than becomes more fragile.
 - \- No implementation currently exists.
 
-### J1. new keyword decorator syntax {#J1._new_keyword_decorator_syntax}
+### J1. new keyword decorator syntax 
 
     decorate classmethod:
         def foo(arg1,arg2):
@@ -799,7 +804,7 @@ Here\'s an example of run-away nesting (imagine trying to figure out which decor
          def baz():
            return 0
 
-### J2. expand the def suite {#J2._expand_the_def_suite}
+### J2. expand the def suite 
 
     decorate:
         classmethod
@@ -816,7 +821,7 @@ Here\'s an example of run-away nesting (imagine trying to figure out which decor
     def bar(low,high):
         ...
 
-An extensive paper has been written by Robert Brewer: [Optimal Syntax for Python Decorators](http://www.aminus.org/rbre/python/pydec.html){.http}. A patch implementing this syntax is available here: [http://www.python.org/sf/1013835](http://www.python.org/sf/1013835){.http}.
+An extensive paper has been written by Robert Brewer: [Optimal Syntax for Python Decorators](http://www.aminus.org/rbre/python/pydec.html). A patch implementing this syntax is available here: [http://www.python.org/sf/1013835](http://www.python.org/sf/1013835).
 
 (I have changed the keyword in the second example to \"using\", to match the recommendation in Robert\'s paper. I have left the first example alone, to indicate that the precise choice of keyword is independent of the use of a suite.)
 
@@ -838,7 +843,7 @@ Note that this differs from J5 (and largely from J4) only in whether the functio
 
 - \+ Can smoothly be extended to a full-blown suite allowing for `if __debug__: trace` etc.
 
-- \+ Basic implementation has been posted here: [http://mail.python.org/pipermail/python-list/2004-August/233591.html](http://mail.python.org/pipermail/python-list/2004-August/233591.html){.http}
+- \+ Basic implementation has been posted here: [http://mail.python.org/pipermail/python-list/2004-August/233591.html](http://mail.python.org/pipermail/python-list/2004-August/233591.html)
 
 - \- Requires new keyword
 
@@ -883,7 +888,7 @@ The implementation referenced above does NOT allow a generic suite - but only al
 
 (Instead of the word \"decorate\" it is possible to use some other less lengthy keyword. And even DEF taken uppercase.)
 
-### J3. two part def suite {#J3._two_part_def_suite}
+### J3. two part def suite 
 
     def qux:
         """docstring could be here or below. Two strings probable"""
@@ -911,7 +916,7 @@ Same as J2 but has advantages:
 
 - \- loses the \"definition reflects use\"; you can no longer cut and paste from a call to the definition, or vice versa, because the name is not near the arguments.
 
-### J4 two part def suite with \"@\" decorators {#J4_two_part_def_suite_with_.22.40.22_decorators}
+### J4 two part def suite with \"@\" decorators 
 
 (Note: the missing colon is \*intentional\*. See J5 for version with colon.)
 
@@ -943,7 +948,7 @@ Note that this differs from J5 only by the colon. J5 in turn differs from J2 in 
 
 - \- Some may argue that the \"as\" is not necessary and that the syntax is very similar to a in-body syntax. (The unindented \"as\" is precisely what separates this from the in-body syntax. To me, the difference is startling.)
 
-### J5 two part def suite with \"@\" decorators and colon {#J5_two_part_def_suite_with_.22.40.22_decorators_and_colon}
+### J5 two part def suite with \"@\" decorators and colon 
 
 While the missing colon of J4 was intentional, there are good arguments both ways. Since we\'re listing options, I include this variant of J4.
 
@@ -967,7 +972,7 @@ Note that J5 differs from J2 only in whether the function signature stays with t
 - \+ Colon/linebreak consistency with the rest of the language.
 - \- Some may argue that the \"as\" is not necessary and that the syntax is very similar to a in-body syntax. (The unindented \"as\" is precisely what separates this from the in-body syntax. To me, the difference is startling.)
 
-### K. partitioned syntax syntax {#K._partitioned_syntax_syntax}
+### K. partitioned syntax syntax 
 
 - Use pie-decorator syntax (or some other complex syntax) when arguments
   - are to be passed
@@ -987,7 +992,7 @@ Note that J5 differs from J2 only in whether the function signature stays with t
 - \- Since both methods are legal, it has all the downsides of either syntax, in terms of what it does to the rest of the language or newbie confusion.
 - \- No implementation currently exists.
 
-### L. Keyword other than as and with before def {#L._Keyword_other_than_as_and_with_before_def}
+### L. Keyword other than as and with before def 
 
     using classmethod def foo(arg1,arg2):
         ...
@@ -1020,7 +1025,7 @@ Note that J5 differs from J2 only in whether the function signature stays with t
 
 - \- No implementation currently exists (*very similar to A1 implementation, no?*).
 
-### M. Making def an expression / letting it return a value {#M._Making_def_an_expression_.2F_letting_it_return_a_value}
+### M. Making def an expression / letting it return a value 
 
     deco1(deco2(deco3(
         def func(arg1, arg2):
@@ -1040,11 +1045,11 @@ Note that J5 differs from J2 only in whether the function signature stays with t
 - \- Guido does not want to blur the distinction between statements and expressions.
 - 0 The name would be temporarily bound to the unwrapped function, which changes semantics for some types of wrappers, such as generics and properties.
 
-## Decorator Syntax Breakdown {#Decorator_Syntax_Breakdown}
+## Decorator Syntax Breakdown 
 
 Here\'s a breakdown of some of the different decisions that have to be made in deciding on a decorator syntax. This is an attempt to consolidate some of the common points from the various examples above.
 
-### Indicator {#Indicator}
+### Indicator 
 
 Proposals differ on how some sort of indicator of \"decoratorhood\" is use. These include:
 
@@ -1162,7 +1167,7 @@ Proposals differ on how some sort of indicator of \"decoratorhood\" is use. Thes
   - \- In pre-def locations, would not work in interactive mode (list would be interpreted right away)
   - \- In within-def locations, does not make clear the break between decorators and the rest of the function declaration
 
-### Location {#Location}
+### Location 
 
 Proposals also differ on exactly where the decorator declaration should be made. These include:
 
@@ -1211,9 +1216,9 @@ Proposals also differ on exactly where the decorator declaration should be made.
   - 0 Consistent with docstring location
   - \- Decorators may look like part of the function\'s code, not its declaration. (That is, they look like they\'re evaluated when the function is called, not when it is parsed.) This is a problem for decorations that change the signature, like staticmethod.
 
-- \- Guido ruled out any solution involving special syntax inside the block, because \"you shouldn\'t have to peek inside the block to find out important external properties of the function.\" [http://mail.python.org/pipermail/python-dev/2004-August/047279.html](http://mail.python.org/pipermail/python-dev/2004-August/047279.html){.http}
+- \- Guido ruled out any solution involving special syntax inside the block, because \"you shouldn\'t have to peek inside the block to find out important external properties of the function.\" [http://mail.python.org/pipermail/python-dev/2004-August/047279.html](http://mail.python.org/pipermail/python-dev/2004-August/047279.html)
 
-- \- [Guido rejects](http://mail.python.org/pipermail/python-dev/2004-August/047289.html){.http}, because the function body should reflect what the function does; decorators are \"outside\" the function, for its callers.
+- \- [Guido rejects](http://mail.python.org/pipermail/python-dev/2004-August/047289.html), because the function body should reflect what the function does; decorators are \"outside\" the function, for its callers.
 
   - *Some post-def options*:
 
@@ -1225,7 +1230,7 @@ Proposals also differ on exactly where the decorator declaration should be made.
   - \+ This is what we have now, with the foo=deco(foo) syntax.
   - \- This is too far from the front of the definition, which is one reason for the change. Simply eliminating the retyping of the name might actually be bad for long functions, by introducing magic.
 
-### List Notation {#List_Notation}
+### List Notation 
 
 Decorator syntax, as described in the PEP, must support the application of multiple decorators. Some proposals on how to support this include:
 
@@ -1250,7 +1255,7 @@ Decorator syntax, as described in the PEP, must support the application of multi
   - \- Angle brackets are \"unpaired\" characters
   - \- Parsing of greater-than and less-than becomes more fragile.
 
-### Indentation {#Indentation}
+### Indentation 
 
 Proposals also differ on whether or not decorators should introduce a new block. These include:
 
@@ -1263,7 +1268,7 @@ Proposals also differ on whether or not decorators should introduce a new block.
 
   - \- Can lead to \"runaway\" nesting
 
-  - \- Seems to change flow control or namespace, but doesn\'t really. [Phillip J. Eby](http://mail.python.org/pipermail/python-dev/2004-March/043080.html){.http}
+  - \- Seems to change flow control or namespace, but doesn\'t really. [Phillip J. Eby](http://mail.python.org/pipermail/python-dev/2004-March/043080.html)
 - Indent decorators only
   - \+ Makes locating the function definition easy
 
@@ -1271,23 +1276,23 @@ Proposals also differ on whether or not decorators should introduce a new block.
 
   - \- Technical problems if a block \*starts\* with an optional part? (Someone said yes, someone else said that they tried it and had no problems.)
 
-  - \- [David Eppstein](http://mail.python.org/pipermail/python-dev/2004-August/047666.html){.http} points out that most indented suites can contain arbitrary code. It isn\'t clear what should happen if someone uses a statement (does not return a value); should it be run once? Should it cause an error?
+  - \- [David Eppstein](http://mail.python.org/pipermail/python-dev/2004-August/047666.html) points out that most indented suites can contain arbitrary code. It isn\'t clear what should happen if someone uses a statement (does not return a value); should it be run once? Should it cause an error?
 - No indent
   - \- Uncommon in Python that one line following another one with the same identation has a meaning like this.
 
-### Order of Decorators {#Order_of_Decorators}
+### Order of Decorators 
 
 Should decorators be applied in textual order, or in reverse order (as if they were in nested parentheses around the def).
 
 It seems to have been settled that decorators will be applied starting with the one closest to the \"def\" statement. (This means in-order vs reverse will depend on the eventual location.)
 
-### Allowable Decorators {#Allowable_Decorators}
+### Allowable Decorators 
 
 The eventual decision was that anything should be allowed, but it \*will\* be called with a single argument (the function object) before the function\'s name is bound in the enclosing namespace.
 
 Should None be allowed and just not called? This would allow statements in the decorator suite, and might be useful, but \... it wasn\'t deemed useful enough for a special case, at least in 2.4
 
-### Meaning of decorators {#Meaning_of_decorators}
+### Meaning of decorators 
 
     @deco1
     @deco2(darg1, darg2)
@@ -1308,9 +1313,9 @@ with the following exceptions:
 - The temporary variarables aren\'t really created. Those are just placeholders to indicate that the expression is evaluated (hopefully to produce a callable) before the function definition.
 - The function can be any function, not just a lambda expression (which is more restricted).
 
-## Thinking ahead to Python 3 ? {#Thinking_ahead_to_Python_3_.3F}
+## Thinking ahead to Python 3 ? 
 
-[Christopher King](http://groups.google.com/groups?hl=en&lr=&ie=UTF-8&safe=off&selm=Pine.LNX.4.44.0408050856390.31290-100000%40ccc9.wpi.edu&rnum=1){.http} makes the point that we are trying to do too much with decorators: declare class/static methods, describe function metadata, and mangle functions. It might be best to think about what is best for each separately.
+[Christopher King](http://groups.google.com/groups?hl=en&lr=&ie=UTF-8&safe=off&selm=Pine.LNX.4.44.0408050856390.31290-100000%40ccc9.wpi.edu&rnum=1) makes the point that we are trying to do too much with decorators: declare class/static methods, describe function metadata, and mangle functions. It might be best to think about what is best for each separately.
 
 How might fully loaded functions look in the future?
 
@@ -1342,4 +1347,3 @@ Here it is with the @ symbol:
          """Returns a+b*c."""
 
           return a+b*c
-:::

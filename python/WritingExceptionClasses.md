@@ -1,13 +1,18 @@
 # WritingExceptionClasses
 
-::::::::: {#content dir="ltr" lang="en"}
-# Writing Exception Classes {#Writing_Exception_Classes}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Writing Exception Classes 
 
 Exception classes are not special, you just derive them from Exception:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-b0fff76fb9e1ec624c1dd2f46c1a7f45f04a43e5 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 class HostNotFound(Exception):
    2     def __init__( self, host ):
    3         self.host = host
@@ -18,9 +23,9 @@ Exception classes are not special, you just derive them from Exception:
 
 You may later write:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-39476e85ab4877350c751c54ebf8029861778a5d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 try:
    2     raise HostNotFound("taoriver.net")
    3 except HostNotFound, exc:
@@ -31,11 +36,11 @@ You may later write:
 :::
 ::::
 
-## See Also {#See_Also}
+## See Also 
 
-[HandlingExceptions](HandlingExceptions), [TracebackModule](./TracebackModule.html){.nonexistent}
+[HandlingExceptions](HandlingExceptions), [TracebackModule](./TracebackModule.html)
 
-## Questions {#Questions}
+## Questions 
 
 - How do you relay the traceback information? *Relay the traceback information? Moving it higher up the call-stack? Could you try to explain your question?*
 
@@ -51,9 +56,9 @@ You may later write:
 
 Using Python 2.3:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-399201797c6dedb76fe414df683661dbb6797404 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 class LocalNamesSyntaxError(Exception):
    2     def __init__(self, msg):
    3         self.msg=msg
@@ -77,9 +82,8 @@ Is this a Python2.4 v. Python2.3 thing? Or is there a simple error in my code? \
 
 super() only works for new-style classes. Exception is still an old-style class: type \'classobj\'. I\'ve fixed the example. \-- [JohannesGijsbers](JohannesGijsbers)
 
-Thanks a lot, I was having hardtime figureing this out, as exactly the same construct worked in other places. \-- [HariDara](./HariDara.html){.nonexistent}
+Thanks a lot, I was having hardtime figureing this out, as exactly the same construct worked in other places. \-- [HariDara](./HariDara.html)
 
 It might become a 2.4 vs 2.5 thing though, as 2.5 should allow new-style classes.
 
 Don\'t forget the method name after `super`; it doesn\'t magically assume `__init__`. (fixed above) -kcarnold
-:::::::::

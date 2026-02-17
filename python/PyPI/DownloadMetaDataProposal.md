@@ -1,29 +1,34 @@
 # PyPI/DownloadMetaDataProposal
 
-::: {#content dir="ltr" lang="en"}
-# PyPI Download Meta Data Proposal {#PyPI_Download_Meta_Data_Proposal}
+```{admonition} Legacy Wiki Page
+:class: note
 
-This page collects comments and ideas for a proposal to migrate away from having PyPI-based installers such as easy_install and pip crawl arbitrary links on the [PyPI /simple/ index](https://pypi.python.org/simple/){.https}.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PyPI Download Meta Data Proposal 
+
+This page collects comments and ideas for a proposal to migrate away from having PyPI-based installers such as easy_install and pip crawl arbitrary links on the [PyPI /simple/ index](https://pypi.python.org/simple/).
 
 Here\'s the original posting to the catalog-sig:
 
-- [\[Catalog-sig\] Migrating away from scanning home pages (was: Deprecate External Links)](http://mail.python.org/pipermail/catalog-sig/2013-February/005436.html){.http}
+- [\[Catalog-sig\] Migrating away from scanning home pages (was: Deprecate External Links)](http://mail.python.org/pipermail/catalog-sig/2013-February/005436.html)
 
-## Sketch of the proposal {#Sketch_of_the_proposal}
+## Sketch of the proposal 
 
 Version: 0.1 (older versions can be found in the page history)
 
 Here\'s an approach that would work to start the transition away from crawling websites while not breaking old tools:
 
-### Limiting scans to download_url {#Limiting_scans_to_download_url}
+### Limiting scans to download_url 
 
 Installers and similar tools preferably no longer scan the all links on the /simple/ index, but instead only look at the download links (which can be defined in the package meta data) for packages that don\'t host files on PyPI.
 
-### Going only one level deep {#Going_only_one_level_deep}
+### Going only one level deep 
 
 If the download links point to a meta-file named \"**\<packagename\>-\<version\>-downloads.html#sha256=\<sha256-hashvalue\>**\" (the *downloads.html* file for the purpose of this proposal), the installers download that file, check whether the hash value matches and if it does, scan the file in the same way they would parse the `/simple/` index page of the package - think of the downloads.html file as a symlink to extend the search to an external location, but in a predefined and safe way.
 
-### Notes {#Notes}
+### Notes 
 
 - The creation of the downloads.html file is left to the package owner (we could have a tool to easily create it).
 
@@ -43,11 +48,10 @@ If the download links point to a meta-file named \"**\<packagename\>-\<version\>
 
 - In a later phase of the transition we could have PyPI cache the referenced distribution files locally to improve reliability. This would turn the push strategy for uploading files to PyPI into a pull strategy for those packages and make things a lot easier to handle for package maintainers.
 
-  Since there are legal implications when redistributing files obtained from other servers, either the PyPI terms would have to be adapted, or the download.html file would need to be extended to include a marker, which the PyPI server could then use to enable/disable caching of the distribution files (the commonly used [rel=\"no-follow\" attribute](http://en.wikipedia.org/wiki/Nofollow){.http} could be used for this).
+  Since there are legal implications when redistributing files obtained from other servers, either the PyPI terms would have to be adapted, or the download.html file would need to be extended to include a marker, which the PyPI server could then use to enable/disable caching of the distribution files (the commonly used [rel=\"no-follow\" attribute](http://en.wikipedia.org/wiki/Nofollow) could be used for this).
 
-### Comments {#Comments}
+### Comments 
 
 The above is a sketch, not a fully worked out proposal, so feedback is welcome. Please add your comments here:
 
 \...
-:::

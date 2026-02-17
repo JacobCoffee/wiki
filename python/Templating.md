@@ -1,42 +1,34 @@
 # Templating
 
-:::: {#content dir="ltr" lang="en"}
-# Templating in Python {#Templating_in_Python}
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: table-of-contents
-Contents
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-1.  [Templating in Python](#Templating_in_Python)
-    1.  [Templating Engines](#Templating_Engines)
-    2.  [HTML Shorthand Processors](#HTML_Shorthand_Processors)
-    3.  [Template engines implemented as Internal DSL\'s](#Template_engines_implemented_as_Internal_DSL.27s)
-    4.  [HTML Generation Packages](#HTML_Generation_Packages)
-    5.  [Static Website Generators](#Static_Website_Generators)
-    6.  [Java Templating Engines](#Java_Templating_Engines)
-    7.  [CPython-accessible C Templating Engines](#CPython-accessible_C_Templating_Engines)
-:::
+# Templating in Python 
 
 Templating, and in particular web templating is a way to represent data in different forms. These forms often (but not always) intended to be readable, even attractive, to a human audience. Frequently, templating solutions involve a document (the template) and data. Template usually looks much like the final output, with placeholders instead of actual data (or example data in simplified form), bears common style and visual elements. Data which is presented using that template may be also separated in two parts - data required to be rendered, and data required for template itself (navigation elements if it is a site, button names if it is some UI). Combining template+data produces the final output which is usually (but not always) a web page of some kind.
 
-## Templating Engines {#Templating_Engines}
+## Templating Engines 
 
 There are many, many different HTML/XML templating packages and modules for Python that provide different feature sets and syntaxes. These libraries usually assume that you know how to write HTML or XML.
 
-The number of templating engines is so great because the mechanisms involved are pretty easy to write in Python, at least for a fairly basic template engine; [this recipe from the Python Cookbook](http://code.activestate.com/recipes/52305/){.http} shows how easy it is.
+The number of templating engines is so great because the mechanisms involved are pretty easy to write in Python, at least for a fairly basic template engine; [this recipe from the Python Cookbook](http://code.activestate.com/recipes/52305/) shows how easy it is.
 
-### Engines using Value Substitution {#Engines_using_Value_Substitution}
+### Engines using Value Substitution 
 
 The simplest form of templating engine is that which merely substitutes values into a template in order to produce the final output. They sometimes provide tags for if statements or loops, but they are crude.
 
-- [string.Template (python 3.x)](https://docs.python.org/3.4/library/string.html#template-strings){.https} in the python standard library.
+- [string.Template (python 3.x)](https://docs.python.org/3.4/library/string.html#template-strings) in the python standard library.
 
-- [stringtemplate](http://www.stringtemplate.org/){.http} - employs recursion in order to provide support for complicated templating whilst avoiding side-effects
+- [stringtemplate](http://www.stringtemplate.org/) - employs recursion in order to provide support for complicated templating whilst avoiding side-effects
 
-- [mustache](http://mustache.github.com/){.http} - logic-less templates based on [CTemplate](http://code.google.com/p/google-ctemplate/){.http} with implementation in many languages including Python
+- [mustache](http://mustache.github.com/) - logic-less templates based on [CTemplate](http://code.google.com/p/google-ctemplate/) with implementation in many languages including Python
 
-- [ctemplate-python](https://github.com/mll/ctemplate-python){.https} - fast templating with simple if/loop logic based on [libCtemplate](http://libctemplate.sourceforge.net){.http}
+- [ctemplate-python](https://github.com/mll/ctemplate-python) - fast templating with simple if/loop logic based on [libCtemplate](http://libctemplate.sourceforge.net)
 
-### Engines Mixing Logic into Templates {#Engines_Mixing_Logic_into_Templates}
+### Engines Mixing Logic into Templates 
 
 A popular approach with templating engines is to embed logic or control-flow statements into the templates themselves in a way that can make the the final output appear rather different from the original template. For example:
 
@@ -54,71 +46,71 @@ A popular approach with templating engines is to embed logic or control-flow sta
 
 The introduction of such logic may also cause problems for some XML-based tools. Despite these shortcomings, such templating engines may be more applicable to non-Web templating problems or for situations where separating logic from content may actually make the solution harder to understand.
 
-- [Airspeed](http://airspeed.pythonconsulting.com/){.http} - Velocity Templates for Python
+- [Airspeed](http://airspeed.pythonconsulting.com/) - Velocity Templates for Python
 
 - [Castalian](Castalian)
 
-- [Chameleon](http://chameleon.readthedocs.org/en/latest/){.http} - fast page template implementation which compiles markup templates into python byte code. Used by Pyramid, Zope, Plone and Grok projects.
+- [Chameleon](http://chameleon.readthedocs.org/en/latest/) - fast page template implementation which compiles markup templates into python byte code. Used by Pyramid, Zope, Plone and Grok projects.
 
 - [Cheetah](Cheetah)
 
 - [CubicTemp](CubicTemp)
 
-- [Django template system](https://docs.djangoproject.com/en/1.6/topics/templates/){.https}
+- [Django template system](https://docs.djangoproject.com/en/1.6/topics/templates/)
 
-- [Elements](http://www.nthwave.net/elements/){.http}
+- [Elements](http://www.nthwave.net/elements/)
 
 - [EmPy](EmPy)
 
-- [Evoque page on pypi](https://pypi.python.org/pypi/evoque){.https} - managed eval-based full-featured templating engine, for Python 2.4, 2.5, 2.6 **and 3.0**, features such as unicode, dynamic overlays, *format-extensible* automatic quoting, in-process sandbox, et cetera, while still remaining small, simple and extremely fast \-- performance benchmarks show it to be more or less as fast as Mako, and faster on simpler templates.
+- [Evoque page on pypi](https://pypi.python.org/pypi/evoque) - managed eval-based full-featured templating engine, for Python 2.4, 2.5, 2.6 **and 3.0**, features such as unicode, dynamic overlays, *format-extensible* automatic quoting, in-process sandbox, et cetera, while still remaining small, simple and extremely fast \-- performance benchmarks show it to be more or less as fast as Mako, and faster on simpler templates.
 
-- [HRL (HTML Redemption Language)](http://blog.aerojockey.com/post/hrl){.http} - Powerful macro preprocessor for HTML; macros can embed arbitrary Python code. ( **2010-07-04, Officially discontinued**)
+- [HRL (HTML Redemption Language)](http://blog.aerojockey.com/post/hrl) - Powerful macro preprocessor for HTML; macros can embed arbitrary Python code. ( **2010-07-04, Officially discontinued**)
 
-- [Genshi](http://genshi.edgewall.org/){.http} - XML-based templating engine, used in the popular python tool [trac](./trac.html){.nonexistent}. *Performance tests show that it is the fastest of all xml based templating engines in Python.*
+- [Genshi](http://genshi.edgewall.org/) - XML-based templating engine, used in the popular python tool [trac](./trac.html). *Performance tests show that it is the fastest of all xml based templating engines in Python.*
 
-- [Jinja 2](http://jinja.pocoo.org/){.http} - an extensible, sandboxed text-based templating engine with Django-like syntax (but faster).
+- [Jinja 2](http://jinja.pocoo.org/) - an extensible, sandboxed text-based templating engine with Django-like syntax (but faster).
 
-- [Ashes](https://github.com/mahmoud/ashes#ashes){.https} - A Python 2/3-compatible version of [the Dust templating language](http://akdubya.github.io/dustjs/){.http}, implemented in a single file, also usable through a built-in CLI. Enables template reuse on the frontend through Dust.js.
+- [Ashes](https://github.com/mahmoud/ashes#ashes) - A Python 2/3-compatible version of [the Dust templating language](http://akdubya.github.io/dustjs/), implemented in a single file, also usable through a built-in CLI. Enables template reuse on the frontend through Dust.js.
 
-- [Mako](http://www.makotemplates.org/){.http} - a fast, non-xml, templating engine based on ideas from Myghty.
+- [Mako](http://www.makotemplates.org/) - a fast, non-xml, templating engine based on ideas from Myghty.
 
-- [moody-templates](https://github.com/etianen/moody-templates){.https} - A fast, extensible templating engine for Python 3 with Django-like syntax.
+- [moody-templates](https://github.com/etianen/moody-templates) - A fast, extensible templating engine for Python 3 with Django-like syntax.
 
-- [Myghty](http://www.myghty.org/){.http} inspired by Perl\'s Mason, replaced by Mako and [MyghtyUtils](http://www.python.org/pypi/MyghtyUtils){.http}.
+- [Myghty](http://www.myghty.org/) inspired by Perl\'s Mason, replaced by Mako and [MyghtyUtils](http://www.python.org/pypi/MyghtyUtils).
 
-- [Qpy](https://www.mems-exchange.org/software/DurusWorks/){.https} provides a convenient mechanism for generating safely-quoted html text from python code. It does this by implementing a quoted-string data type and a modification of the python compiler.
+- [Qpy](https://www.mems-exchange.org/software/DurusWorks/) provides a convenient mechanism for generating safely-quoted html text from python code. It does this by implementing a quoted-string data type and a modification of the python compiler.
 
-- [Quik](http://quik.readthedocs.org/){.http} - A fast and lightweight Python template engine
+- [Quik](http://quik.readthedocs.org/) - A fast and lightweight Python template engine
 
-- [PML](http://codingrecipes.com/pml-a-python-template-engine){.http} is a high performance template engine implemented in Python, it supports many advanced features such as template filters, output filters, and more.
+- [PML](http://codingrecipes.com/pml-a-python-template-engine) is a high performance template engine implemented in Python, it supports many advanced features such as template filters, output filters, and more.
 
-- [pyratemp](http://www.simple-is-better.org/template/pyratemp.html){.http} - a very small (\<500 LOC) but complete template-engine, using restricted python-expressions. There are also some [benchmarks and comparisons](http://www.simple-is-better.org/template/){.http} of different template-engines.
+- [pyratemp](http://www.simple-is-better.org/template/pyratemp.html) - a very small (\<500 LOC) but complete template-engine, using restricted python-expressions. There are also some [benchmarks and comparisons](http://www.simple-is-better.org/template/) of different template-engines.
 
-- [Spitfire](https://github.com/youtube/spitfire){.https} - A super fast [Cheetah](Cheetah)-like template system used by [YouTube](https://www.youtube.com/){.https}.
+- [Spitfire](https://github.com/youtube/spitfire) - A super fast [Cheetah](Cheetah)-like template system used by [YouTube](https://www.youtube.com/).
 
 - [Spyce](Spyce)
 
-- [SUIT](https://pypi.python.org/pypi/suit/){.https} - powerful template engine that allows one to define their own syntax to transform templates by using rules.
+- [SUIT](https://pypi.python.org/pypi/suit/) - powerful template engine that allows one to define their own syntax to transform templates by using rules.
 
-- [Tempita](http://pythonpaste.org/tempita){.http} - a fairly simple, small templating language with full Python expressions
+- [Tempita](http://pythonpaste.org/tempita) - a fairly simple, small templating language with full Python expressions
 
-- [Template Toolkit](http://tt2.org/python/index.html){.http} - Python port of Perl template engine
+- [Template Toolkit](http://tt2.org/python/index.html) - Python port of Perl template engine
 
-- [Templet](http://davidbau.com/templet){.http} - a 90-line BSD-licensed utility that defines \@stringfunction and \@unicodefunction python function decorators for simple, robust, and speedy templating.
+- [Templet](http://davidbau.com/templet) - a 90-line BSD-licensed utility that defines \@stringfunction and \@unicodefunction python function decorators for simple, robust, and speedy templating.
 
-- [Templite+](http://www.joonis.de/content/TemplitePythonTemplatingEngine){.http} - A light-weight, fully functional, general purpose templating engine
+- [Templite+](http://www.joonis.de/content/TemplitePythonTemplatingEngine) - A light-weight, fully functional, general purpose templating engine
 
-- [Tenjin](http://www.kuwata-lab.com/tenjin/){.http} is a fast template engine implemented in pure Python. Some benchmarks have shown it to be about x2 faster than Mako, x3 than Cheetah, x9 than Django, x60 than Kid in some situations. However [50% slower](http://mindref.blogspot.com/2012/07/python-fastest-template.html){.http} wheezy.template.
+- [Tenjin](http://www.kuwata-lab.com/tenjin/) is a fast template engine implemented in pure Python. Some benchmarks have shown it to be about x2 faster than Mako, x3 than Cheetah, x9 than Django, x60 than Kid in some situations. However [50% slower](http://mindref.blogspot.com/2012/07/python-fastest-template.html) wheezy.template.
 
-- [Texthon](http://texthon.chipsforbrain.org){.http} - Python-eval based template engine with a focus on generating readable code.
+- [Texthon](http://texthon.chipsforbrain.org) - Python-eval based template engine with a focus on generating readable code.
 
-- [thrases](http://www.sourceforge.net/projects/the-next-please){.http} - format-free Python needing just needing a reserved string (default: \~\~) for separating phrases. Template.init() analyses, which phrases are python and which not, building a python script for exec(). This script is containing only minimal overhead then - Template.render() is near to the theoretical maximum speed. Template.render() can also write directly on a file descriptor for improved performance.
+- [thrases](http://www.sourceforge.net/projects/the-next-please) - format-free Python needing just needing a reserved string (default: \~\~) for separating phrases. Template.init() analyses, which phrases are python and which not, building a python script for exec(). This script is containing only minimal overhead then - Template.render() is near to the theoretical maximum speed. Template.render() can also write directly on a file descriptor for improved performance.
 
-- [Tonnikala](https://github.com/tetframework/Tonnikala){.https} - XML syntax that is very close to that of Kajiki. Tonnikala writes code as Abstract Syntax Trees and optimizes the resulting trees extensively
+- [Tonnikala](https://github.com/tetframework/Tonnikala) - XML syntax that is very close to that of Kajiki. Tonnikala writes code as Abstract Syntax Trees and optimizes the resulting trees extensively
 
-- [trender](https://github.com/transceptor-technology/trender){.https} - A fast, simple and stand-alone Python template engine.
+- [trender](https://github.com/transceptor-technology/trender) - A fast, simple and stand-alone Python template engine.
 
-- [wheezy.template](https://bitbucket.org/akorn/wheezy.template){.https} is written in pure Python code. It is a lightweight template library. The design goals achived:
+- [wheezy.template](https://bitbucket.org/akorn/wheezy.template) is written in pure Python code. It is a lightweight template library. The design goals achived:
 
   - Compact, Expressive, Clean: Minimizes the number of keystrokes required to build a template. Enables fast and well read coding.
 
@@ -126,9 +118,9 @@ The introduction of such logic may also cause problems for some XML-based tools.
 
   - Do Not Repeat Yourself: Master layout templates for inheritance; include and import directives for maximum reuse.
 
-  - [Blazingly Fast](http://mindref.blogspot.com/2012/07/python-fastest-template.html){.http}: Maximum rendering performance: ultimate speed and context preprocessor features.
+  - [Blazingly Fast](http://mindref.blogspot.com/2012/07/python-fastest-template.html): Maximum rendering performance: ultimate speed and context preprocessor features.
 
-### Engines with Annotated Templates {#Engines_with_Annotated_Templates}
+### Engines with Annotated Templates 
 
 The following engines feature template documents whose sections are marked using special attributes (or, less frequently, special elements or tags). For example:
 
@@ -143,121 +135,120 @@ In some systems, the sections are then manipulated within program code; in other
 
 - [ClearSilver](ClearSilver) - uses special elements/tags
 
-- [HTMLTemplate](http://sourceforge.net/projects/py-templates//){.http} - special attributes denote HTML elements that can be manipulated as Python objects (**As of 2013-12-05, this project is no longer under active development.**)
+- [HTMLTemplate](http://sourceforge.net/projects/py-templates//) - special attributes denote HTML elements that can be manipulated as Python objects (**As of 2013-12-05, this project is no longer under active development.**)
 
 - [JonsPythonModules](JonsPythonModules) - uses special comment-like markers
 
-- [meld3](http://www.plope.com/software/meld3/){.http} and [PyMeld](http://www.entrian.com/PyMeld){.http} are very similar
+- [meld3](http://www.plope.com/software/meld3/) and [PyMeld](http://www.entrian.com/PyMeld) are very similar
 
-- [Pyxer](https://github.com/holtwick/pyxer){.https} - based on Genshi parser engine. Optimized for work with Google App Enginge (GAE)
+- [Pyxer](https://github.com/holtwick/pyxer) - based on Genshi parser engine. Optimized for work with Google App Enginge (GAE)
 
 - [pso](pso)
 
-- [Sprite](https://web.archive.org/web/20060819140627/http://pytan.com/public/sprite/){.https} - uses special comment-like markers
+- [Sprite](https://web.archive.org/web/20060819140627/http://pytan.com/public/sprite/) - uses special comment-like markers
 
 - [teng](teng) - uses processing instruction-like markers
 
-- [webstring](http://psilib.sf.net/webstring.html){.http} - uses attributes in XML/HTML templates and a specific character in text templates
+- [webstring](http://psilib.sf.net/webstring.html) - uses attributes in XML/HTML templates and a specific character in text templates
 
-- [XSLTools](https://pypi.python.org/pypi/XSLTools){.https} - uses special attributes (with XML documents providing the data)
+- [XSLTools](https://pypi.python.org/pypi/XSLTools) - uses special attributes (with XML documents providing the data)
 
-- [PyPa](http://gna.org/projects/pypa){.http} - nested comment-delimited blocks that are accessible from Python code as objects.
+- [PyPa](http://gna.org/projects/pypa) - nested comment-delimited blocks that are accessible from Python code as objects.
 
-- [TDI](http://opensource.perlig.de/tdi/){.http} - Manipulate tagged HTML/XML elements with normal Python code. Fast.
+- [TDI](http://opensource.perlig.de/tdi/) - Manipulate tagged HTML/XML elements with normal Python code. Fast.
 
 In other systems, the annotations are actually evaluated in order to produce repeated sections, to omit or include sections, and so on:
 
-- [Genshi](http://genshi.edgewall.org/){.http} - Template engine inspired by Kid, supports both [XML](http://genshi.edgewall.org/wiki/Documentation/xml-templates.html){.http} and [plain-text](http://genshi.edgewall.org/wiki/Documentation/text-templates.html){.http} templates
+- [Genshi](http://genshi.edgewall.org/) - Template engine inspired by Kid, supports both [XML](http://genshi.edgewall.org/wiki/Documentation/xml-templates.html) and [plain-text](http://genshi.edgewall.org/wiki/Documentation/text-templates.html) templates
 
-- [kajiki](http://sourceforge.net/p/kajiki/home/){.http} - Template engine inspired by Genshi
+- [kajiki](http://sourceforge.net/p/kajiki/home/) - Template engine inspired by Genshi
 
-- [htmltmpl](http://htmltmpl.sourceforge.net/){.http} - uses HTML-like elements/tags and supports compilation
+- [htmltmpl](http://htmltmpl.sourceforge.net/) - uses HTML-like elements/tags and supports compilation
 
-- [Kid](https://pypi.python.org/pypi/kid/){.https} - XML based, compiling template engine
+- [Kid](https://pypi.python.org/pypi/kid/) - XML based, compiling template engine
 
-- [SimpleTAL](http://www.owlfish.com/software/simpleTAL/){.http} - introduces a certain amount of logic but in an XML-compatible fashion
+- [SimpleTAL](http://www.owlfish.com/software/simpleTAL/) - introduces a certain amount of logic but in an XML-compatible fashion
 
-- [CherryTemplate](http://sourceforge.net/projects/cherrypy/){.http} - is a Pythonic HTTP toolkit.
+- [CherryTemplate](http://sourceforge.net/projects/cherrypy/) - is a Pythonic HTTP toolkit.
 
-## HTML Shorthand Processors {#HTML_Shorthand_Processors}
+## HTML Shorthand Processors 
 
 The libraries in this section implement simpler markup languages that can be automatically converted to HTML. This lets you avoid having to write HTML by hand.
 
-- [AsciiDoc](http://www.methods.co.nz/asciidoc/){.http}
+- [AsciiDoc](http://www.methods.co.nz/asciidoc/)
 
-- [Markdown](https://pypi.python.org/pypi/Markdown){.https}
+- [Markdown](https://pypi.python.org/pypi/Markdown)
 
 - [PyTextile](PyTextile)
 
 - [reStructuredText](reStructuredText)
 
-- [txt2tags](http://txt2tags.sourceforge.net/){.http}
+- [txt2tags](http://txt2tags.sourceforge.net/)
 
-- [PottyMouth](https://pypi.python.org/pypi/PottyMouth/2.2.1){.https} (for untrusted text input)
+- [PottyMouth](https://pypi.python.org/pypi/PottyMouth/2.2.1) (for untrusted text input)
 
-- [Creole](http://code.google.com/p/python-creole/){.http} (creole to html and html to creole)
+- [Creole](http://code.google.com/p/python-creole/) (creole to html and html to creole)
 
-## Template engines implemented as Internal DSL\'s {#Template_engines_implemented_as_Internal_DSL.27s}
+## Template engines implemented as Internal DSL\'s 
 
-These engines are implemented as an internal DSL, that is, they don\'t process text into markup, rather they represent the final document as actual Python code and data structures. See: [An overview of the benefits of this internal DSL approach vs external template languages](http://bitbucket.org/tavisrudd/throw-out-your-templates/src/tip/throw_out_your_templates.py){.http}
+These engines are implemented as an internal DSL, that is, they don\'t process text into markup, rather they represent the final document as actual Python code and data structures. See: [An overview of the benefits of this internal DSL approach vs external template languages](http://bitbucket.org/tavisrudd/throw-out-your-templates/src/tip/throw_out_your_templates.py)
 
-- [Stan](http://docs.g-vo.org/meetstan.html){.http}
+- [Stan](http://docs.g-vo.org/meetstan.html)
 
-- [Brevé](http://breve.twisty-industries.com/){.http}
+- [Brevé](http://breve.twisty-industries.com/)
 
-- [Dirty](http://dirty.googlecode.com/){.http}
+- [Dirty](http://dirty.googlecode.com/)
 
-## HTML Generation Packages {#HTML_Generation_Packages}
+## HTML Generation Packages 
 
 **Many of these links are dead. Perhaps someone more knowledgeable might want to fix or prune them.**
 
 These packages are not really templating systems in that they do not typically employ a template document as such to define the form of the output they produce, but they can be useful in applications where it is more convenient to programmatically generate output.
 
-- [WebElements](http://www.webelements.in/){.http} allows creating html documents using python objects that represent their DOM equivalents, inspired by QT.
+- [WebElements](http://www.webelements.in/) allows creating html documents using python objects that represent their DOM equivalents, inspired by QT.
 
-- [Genshi](http://genshi.edgewall.org/){.http} The genshi.builder module provides [simple markup generation](http://genshi.edgewall.org/wiki/Documentation/builder.html){.http}
+- [Genshi](http://genshi.edgewall.org/) The genshi.builder module provides [simple markup generation](http://genshi.edgewall.org/wiki/Documentation/builder.html)
 
-- [HTMLgen](https://packages.debian.org/sid/python-htmlgen){.https} A old-school module first written for Python 1.x. Debian\'s package maintainers\' patches bring it into the twenty-first century with Python 2.7 compatibility. [Mirrored](https://github.com/dbohdan/HTMLgen){.https} on [GitHub](./GitHub.html){.nonexistent}.
+- [HTMLgen](https://packages.debian.org/sid/python-htmlgen) A old-school module first written for Python 1.x. Debian\'s package maintainers\' patches bring it into the twenty-first century with Python 2.7 compatibility. [Mirrored](https://github.com/dbohdan/HTMLgen) on [GitHub](./GitHub.html).
 
-- [webhelpers.htmlgen](https://web.archive.org/web/20080914004317/http://pylonshq.com/WebHelpers/module-webhelpers.htmlgen.html){.https} Kind of like HTMLGen, only much simpler. Like stan, only not.
+- [webhelpers.htmlgen](https://web.archive.org/web/20080914004317/http://pylonshq.com/WebHelpers/module-webhelpers.htmlgen.html) Kind of like HTMLGen, only much simpler. Like stan, only not.
 
-- [html](https://pypi.python.org/pypi/html){.https} Provides a simple syntax to generate HTML, XHTML and XML.
+- [html](https://pypi.python.org/pypi/html) Provides a simple syntax to generate HTML, XHTML and XML.
 
-- [HTMLTags](http://code.activestate.com/recipes/366000/){.http}
+- [HTMLTags](http://code.activestate.com/recipes/366000/)
 
-- [HyperText](https://web.archive.org/web/20070202041542/http://dustman.net/andy/python/HyperText/){.https}
+- [HyperText](https://web.archive.org/web/20070202041542/http://dustman.net/andy/python/HyperText/)
 
-- [markup](http://markup.sourceforge.net/){.http} A light-weight and flexible HTML/XML generator
+- [markup](http://markup.sourceforge.net/) A light-weight and flexible HTML/XML generator
 
-- [XIST](http://www.livinglogic.de/Python/xist/){.http}
+- [XIST](http://www.livinglogic.de/Python/xist/)
 
-- [pyhtmloo](http://pyhtmloo.sourceforge.net/){.http} pyhtmloo is a library that allows python developers to use HTML code like any other python objects.
+- [pyhtmloo](http://pyhtmloo.sourceforge.net/) pyhtmloo is a library that allows python developers to use HTML code like any other python objects.
 
-- [Yattag](http://www.yattag.org/){.http} Provides a readable way to write HTML or XML within Python using indented blocks instead of \<tag\>\...\</tag\> constructs.
+- [Yattag](http://www.yattag.org/) Provides a readable way to write HTML or XML within Python using indented blocks instead of \<tag\>\...\</tag\> constructs.
 
-## Static Website Generators {#Static_Website_Generators}
+## Static Website Generators 
 
 Static website generators are more than templating engines in that they create *the whole site structure*, not just individual files. While templating is an important part of their function, determining the site structure and *incorporating structural information* in the output (for example to automatically generate navigational elements) is what really makes a static website generator a useful tool.
 
 See [StaticSiteGenerator](StaticSiteGenerator) for the list.
 
-## Java Templating Engines {#Java_Templating_Engines}
+## Java Templating Engines 
 
 The following templating engines are accessible or usable via Jython:
 
-- [FreeMarker](http://freemarker.org/index.html){.http} (with Jython data binding)
+- [FreeMarker](http://freemarker.org/index.html) (with Jython data binding)
 
-- [Java Server Pages, JSP](http://www.oracle.com/technetwork/java/jsp-138432.html){.http}
+- [Java Server Pages, JSP](http://www.oracle.com/technetwork/java/jsp-138432.html)
 
-- [Velocity](http://velocity.apache.org/){.http}
+- [Velocity](http://velocity.apache.org/)
 
-- [WebMacro](http://www.webmacro.org/){.http}
+- [WebMacro](http://www.webmacro.org/)
 
-## CPython-accessible C Templating Engines {#CPython-accessible_C_Templating_Engines}
+## CPython-accessible C Templating Engines 
 
 - [ClearSilver](ClearSilver) - HTML generation, uses HDF as input format
 
 ------------------------------------------------------------------------
 
 [CategoryTemplate](CategoryTemplate)
-::::

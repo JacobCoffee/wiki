@@ -1,7 +1,12 @@
 # techtonik/ideas
 
-::: {#content dir="ltr" lang="en"}
-### FILE, DIR {#FILE.2C_DIR}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### FILE, DIR 
 
     inspired by: PHP __DIR__, __FILE__ [1]
     status:
@@ -25,13 +30,13 @@
      - name: replacement of frequent pattern
        code: os.path.join(os.path.dirname(__file__), "datafile-here")
 
-1.  [http://www.php.net/manual/en/language.constants.predefined.php](http://www.php.net/manual/en/language.constants.predefined.php){.http}
+1.  [http://www.php.net/manual/en/language.constants.predefined.php](http://www.php.net/manual/en/language.constants.predefined.php)
 
-2.  [https://docs.python.org/3.5/whatsnew/3.4.html](https://docs.python.org/3.5/whatsnew/3.4.html){.https}
+2.  [https://docs.python.org/3.5/whatsnew/3.4.html](https://docs.python.org/3.5/whatsnew/3.4.html)
 
-3.  [https://mail.python.org/pipermail/python-ideas/2013-September/023469.html](https://mail.python.org/pipermail/python-ideas/2013-September/023469.html){.https}
+3.  [https://mail.python.org/pipermail/python-ideas/2013-September/023469.html](https://mail.python.org/pipermail/python-ideas/2013-September/023469.html)
 
-4.  [https://mail.python.org/pipermail/python-ideas/2013-October/023703.html](https://mail.python.org/pipermail/python-ideas/2013-October/023703.html){.https}
+4.  [https://mail.python.org/pipermail/python-ideas/2013-October/023703.html](https://mail.python.org/pipermail/python-ideas/2013-October/023703.html)
 
 <!-- -->
 
@@ -46,4 +51,3 @@
 
     aspects:
      - __dir__ is won't work in packages (Paul Moore)
-:::

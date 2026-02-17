@@ -1,11 +1,16 @@
 # GeorgianLanguage
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Georgian
 
 ISO 639-1 Code: ka
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -27,19 +32,18 @@ Where these pages really need help:
 
 **ქართული ენა**
 
-[http://ka.wikipedia.org/wiki/პითონი\_(პროგრამირების_ენა)](http://ka.wikipedia.org/wiki/პითონი_(პროგრამირების_ენა)){.http} **ვიკიპედია**
+[http://ka.wikipedia.org/wiki/პითონი\_(პროგრამირების_ენა)](http://ka.wikipedia.org/wiki/პითონი_(პროგრამირების_ენა)) **ვიკიპედია**
 
-[brief description](http://soft.ge/main.php?section_id=4&script_id=2&file_id=15){.http}
+[brief description](http://soft.ge/main.php?section_id=4&script_id=2&file_id=15)
 
-[Why work on Python plus download and Windows setup instructions](http://rustavelebi.com/lofiversion/index.php/t576.html){.http}
+[Why work on Python plus download and Windows setup instructions](http://rustavelebi.com/lofiversion/index.php/t576.html)
 
-[2002 Java forum](http://www.sapikhvno.org/viewtopic.php?t=374&start=20){.http} - includes Python code snippet in thread
+[2002 Java forum](http://www.sapikhvno.org/viewtopic.php?t=374&start=20) - includes Python code snippet in thread
 
-[forum - Nokia S60](http://forum.ge/?f=80&showtopic=33990761&st=15){.http}
+[forum - Nokia S60](http://forum.ge/?f=80&showtopic=33990761&st=15)
 
-### Blogs {#Blogs}
+### Blogs 
 
-- [A Hobbyist\'s Scripting](http://blog.webnext.info/python/){.http} - code examples for a variety of topics with associated explanations
+- [A Hobbyist\'s Scripting](http://blog.webnext.info/python/) - code examples for a variety of topics with associated explanations
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode)
-:::

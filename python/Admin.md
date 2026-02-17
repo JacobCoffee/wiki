@@ -1,9 +1,14 @@
 # Admin
 
-::: {#content dir="ltr" lang="en"}
-# python.org administration {#python.org_administration}
+```{admonition} Legacy Wiki Page
+:class: note
 
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} *Please note: The administration pages have all been migrated to the new [PSF Systems Wiki](https://psf.projecthut.com/trac/psfsystems/wiki){.https}. Please no longer add information to these pages. If you need access to the new wiki, please contact [psf@python.org](mailto:psf@python.org){.mailto} for details.*
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# python.org administration 
+
+![/!\\](/wiki/europython/img/alert.png "/!\") *Please note: The administration pages have all been migrated to the new [PSF Systems Wiki](https://psf.projecthut.com/trac/psfsystems/wiki). Please no longer add information to these pages. If you need access to the new wiki, please contact [psf@python.org](mailto:psf@python.org) for details.*
 
 - [Admin/VersionControl](./Admin(2f)VersionControl.html) \-- quick notes on version-controlling config. files.
 
@@ -21,7 +26,7 @@
 
 - [Admin/Mercurial](./Admin(2f)Mercurial.html) \-- mercurial setup
 
-## pydotorg redesign {#pydotorg_redesign}
+## pydotorg redesign 
 
 - [Admin/RedesignRequirements](./Admin(2f)RedesignRequirements.html)
 
@@ -30,4 +35,3 @@
 ------------------------------------------------------------------------
 
 [CategoryPythonWebsite](CategoryPythonWebsite)
-:::

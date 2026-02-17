@@ -1,6 +1,11 @@
 # FortuneCookies
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 - \"Computers are useless. They can only give you answers.\" \-- Pablo Picasso
 
 - \"Any sufficiently advanced bug is indistinguishable from a feature.\" \-- Rich Kulawiec
@@ -29,7 +34,7 @@
 
 - \"This is not a technical issue so much as a human issue; we are limited and so is our time. (Is this a bug or a feature of time? Careful; trick question!)\" \-- Fred Drake on the Documentation SIG, 9 Sep 1998
 
-- \"To my battle-scarred mind, documentation is never more than a hint. Read it once with disbelief suspended, and then again with full throttle skepticism.\" \-- Gordon [McMillan](./McMillan.html){.nonexistent}, 19 Oct 1998
+- \"To my battle-scarred mind, documentation is never more than a hint. Read it once with disbelief suspended, and then again with full throttle skepticism.\" \-- Gordon [McMillan](./McMillan.html), 19 Oct 1998
 
 - \"Constraints often boost creativity.\" \-- Jim Hugunin, 11 Feb 1999
 
@@ -67,5 +72,4 @@
 
 - Namespaces are one honking great idea \-- let\'s do more of those!
 
-- \"\... let me just say that my least-favourite Python error message is \"[SyntaxError](./SyntaxError.html){.nonexistent}: invalid syntax\", which somehow manages to be both overly terse and redundant at the same time. \"\-- Greg Ward, 15 Feb 2000
-:::
+- \"\... let me just say that my least-favourite Python error message is \"[SyntaxError](./SyntaxError.html): invalid syntax\", which somehow manages to be both overly terse and redundant at the same time. \"\-- Greg Ward, 15 Feb 2000

@@ -1,9 +1,14 @@
 # ComputerCampAlexis
 
-::: {#content dir="ltr" lang="en"}
-# Computer Camp near Angers - 20 and 21 October {#Computer_Camp_near_Angers_-_20_and_21_October}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Qui vient quand ? {#Qui_vient_quand_.3F}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Computer Camp near Angers - 20 and 21 October 
+
+## Qui vient quand ? 
 
 (vous pouvez aussi utiliser ça pour le covoiturage)
 
@@ -11,7 +16,6 @@
 
 - Rémy (@Natim), de Paris - Arrivée 20h30 jeudi soir - Départ 21h39 en gare de Angers St-Laud
 
-- jul paris (sous réserve ![;)](/wiki/europython/img/smile4.png ";)"){height="16" width="16"}
+- jul paris (sous réserve ![;)](/wiki/europython/img/smile4.png ";)")
 
 - prevenez moi !
-:::

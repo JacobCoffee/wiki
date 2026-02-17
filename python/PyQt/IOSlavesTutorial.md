@@ -1,23 +1,28 @@
 # PyQt/IOSlavesTutorial
 
-::: {#content dir="ltr" lang="en"}
-# An IOSlave Tutorial {#An_IOSlave_Tutorial}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Note {#Note}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-This document needs to be revised. I am working on [an updated tutorial](http://www.boddie.org.uk/david/Projects/Python/KDE/Docs/kioslaves-tutorial.html){.http} based on a kioslave in the [kioslaves package](http://www.boddie.org.uk/david/Projects/Python/KDE/){.http}.
+# An IOSlave Tutorial 
 
-## Introduction {#Introduction}
+## Note 
+
+This document needs to be revised. I am working on [an updated tutorial](http://www.boddie.org.uk/david/Projects/Python/KDE/Docs/kioslaves-tutorial.html) based on a kioslave in the [kioslaves package](http://www.boddie.org.uk/david/Projects/Python/KDE/).
+
+## Introduction 
 
 The ADFS IOSlave presents the contents of ADFS floppy disk images to the user by inspecting the ADFS filesystem stored within each image and using the KIOSlave API to return this information to client applications. Although the underlying Python module was written with a command line interface in mind, it provides an interface which can be used by an IOSlave without too much of an overhead.
 
 This document outlines the source code and structure of the ADFS IOSlave and aims to be a useful guide to those wishing to write IOSlaves, either in Python or C++.
 
-## Annotated code {#Annotated_code}
+## Annotated code 
 
 It is convenient to examine the source code as it is written in the *kio_adfs.py* file. However, we can at least group some of the methods in order to provide an overview of the IOSlave and separate out the details of the initialisation.
 
-### Initialisation {#Initialisation}
+### Initialisation 
 
 Various classes and namespaces are required in order to communicate with the KIOSlave framework. These are drawn from the `qt`{.backtick}, `kio`{.backtick} and `kdecore`{.backtick} modules:
 
@@ -35,7 +40,7 @@ The `ADFSlib`{.backtick} module is imported. This provides the functionality req
 
 We omit the debugging code to keep this tutorial fairly brief. This can be examined in the distributed source code.
 
-### The slave class {#The_slave_class}
+### The slave class 
 
 We define a class which will be used to create instances of this IOSlave. The class must be derived from the `KIO.SlaveBase`{.backtick} class so that it can communicate with clients via the DCOP mechanism. Various operations are supported if the appropriate method (represented as virtual functions in C++) are reimplemented in our subclass.
 
@@ -144,7 +149,7 @@ We attempt to open the disk image using a class from the support module. This wi
             
             return image_path
 
-### The get file operation {#The_get_file_operation}
+### The get file operation 
 
 Various fundamental operations are required if the IOSlave is going to perform a useful function. The first of these is provided by the `get`{.backtick} method which reads files in the disk image and sends their contents to the client. The first thing this method does is check the URL supplied using the previously defined `parse_url`{.backtick} method, reporting an error if the URL is unusable:
 
@@ -187,7 +192,7 @@ The end of the data string is indicated by an empty `QByteArray`{.backtick} befo
             
             self.finished()
 
-### The stat operation {#The_stat_operation}
+### The stat operation 
 
 The `stat`{.backtick} method returns information about files and directories within the disk image. It is very important that this method works properly as, otherwise, the IOSlave will not work as expected and may appear to be behaving in an unpredictable manner. For example, clients such as Konqueror often use the `stat`{.backtick} method to find out information about objects before calling `get`{.backtick}, so failure to read a file may actually be the result of a misbehaving `stat`{.backtick} operation.
 
@@ -250,11 +255,11 @@ After a description of the object found has been constructed, it only remains fo
             
                 self.error(KIO.ERR_DOES_NOT_EXIST, path)
 
-### The mimetype operation {#The_mimetype_operation}
+### The mimetype operation 
 
 In many virtual filesystems, the `mimetype`{.backtick} operation would require a certain amount of work to determine MIME types of files, or sufficient planning to ensure that data is returned in a format in line with a predetermined MIME type. Since its use is optional, we do not define a method to determine the MIME types of any files within our virtual filesystem. The client will have to inspect the contents of such files in order to determine their MIME types.
 
-### The listDir operation {#The_listDir_operation}
+### The listDir operation 
 
 The contents of a directory on our virtual filesystem are returned by the `listDir`{.backtick} method. This works like the `stat`{.backtick} method, but returns information on multiple objects within a directory.
 
@@ -332,7 +337,7 @@ A list of files is kept in the second item of the object returned from the suppo
             
             self.finished()
 
-### The dispatch loop {#The_dispatch_loop}
+### The dispatch loop 
 
 Although not entirely necessary, we implement a `dispatchLoop`{.backtick} method which simply calls the corresponding method of the base class:
 
@@ -340,11 +345,11 @@ Although not entirely necessary, we implement a `dispatchLoop`{.backtick} method
         
             KIO.SlaveBase.dispatchLoop(self)
 
-## Utility methods {#Utility_methods}
+## Utility methods 
 
 We define some methods which, although necessary for this IOSlave to work, are not standard virtual methods to be reimplemented. However, they do contain code which might be usefully reused in other IOSlaves.
 
-### Building file system entries {#Building_file_system_entries}
+### Building file system entries 
 
 We create a method to assist in building filesystem entries to return to the client via the KIOSlave infrastructure. For this example, some basic details of each file or directory in the disk image is derived from information contained within and stored within standard `KIO.UDSAtom`{.backtick} instances.
 
@@ -434,7 +439,7 @@ Having determined the MIME type we now declare all the relevant attributes of th
             
             return entry
 
-### Encoding filenames {#Encoding_filenames}
+### Encoding filenames 
 
 The following two internal methods deal with the translation of paths and filenames within the disk image to and from canonical URL style paths. These are only of interest to those familiar with ADFS style paths.
 
@@ -459,7 +464,7 @@ The following two internal methods deal with the translation of paths and filena
         
             return unicode(KURL.decode_string(name))
 
-### Locating objects within a disk image {#Locating_objects_within_a_disk_image}
+### Locating objects within a disk image 
 
 A key element in the construction of an IOSlave is the method used to map between the URLs given by client applications and the conventions of the virtual filesystems represented by the IOSlave. In this instance, the disk image contains a working snapshot of an ADFS filesystem which must be navigated in order to extract objects referenced by the client.
 
@@ -575,4 +580,3 @@ Unlike files, directories can occur at any point in the descent into the filesys
 At this point, no matching objects were found, therefore we return `None`{.backtick} to indicate failure:
 
             return None
-:::

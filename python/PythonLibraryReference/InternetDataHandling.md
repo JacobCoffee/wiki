@@ -1,6 +1,11 @@
 # PythonLibraryReference/InternetDataHandling
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [Python Library Reference](PythonLibraryReference)
 
 ::: {}
@@ -9,7 +14,7 @@
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-# Internet Data Handling {#Internet_Data_Handling}
+# Internet Data Handling 
 
 12.1 formatter \-- Generic output formatting
 
@@ -35,21 +40,21 @@
 
 12.7 mimetypes \-- Map filenames to MIME types
 
-12.7.1 [MimeTypes](./MimeTypes.html){.nonexistent} Objects
+12.7.1 [MimeTypes](./MimeTypes.html) Objects
 
-12.8 [MimeWriter](./MimeWriter.html){.nonexistent} \-- Generic MIME file writer
+12.8 [MimeWriter](./MimeWriter.html) \-- Generic MIME file writer
 
-12.8.1 [MimeWriter](./MimeWriter.html){.nonexistent} Objects
+12.8.1 [MimeWriter](./MimeWriter.html) Objects
 
 12.9 mimify \-- MIME processing of mail messages
 
 12.10 multifile \-- Support for files containing distinct parts
 
-12.10.1 [MultiFile](./MultiFile.html){.nonexistent} Objects 12.10.2 [MultiFile](./MultiFile.html){.nonexistent} Example
+12.10.1 [MultiFile](./MultiFile.html) Objects 12.10.2 [MultiFile](./MultiFile.html) Example
 
 12.11 rfc822 \-- Parse RFC 2822 mail headers
 
-12.11.1 Message Objects 12.11.2 [AddressList](./AddressList.html){.nonexistent} Objects
+12.11.1 Message Objects 12.11.2 [AddressList](./AddressList.html) Objects
 
 12.12 base64 \-- Encode and decode MIME base64 data
 
@@ -77,9 +82,8 @@
 
 12.20.1 Module Contents 12.20.2 Dialects and Formatting Parameters 12.20.3 Reader Objects 12.20.4 Writer Objects 12.20.5 Examples
 
-## Comments {#Comments}
+## Comments 
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-::::

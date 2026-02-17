@@ -1,7 +1,12 @@
 # MacPython/Growl/Terminology
 
-:::: {#content dir="ltr" lang="en"}
-*([GrowlHelperApp](./GrowlHelperApp.html){.nonexistent}.app terminology, generated from /Library/PreferencePanes/Growl.prefPane/Contents/Resources/GrowlHelperApp.app)*
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+*([GrowlHelperApp](./GrowlHelperApp.html).app terminology, generated from /Library/PreferencePanes/Growl.prefPane/Contents/Resources/GrowlHelperApp.app)*
 
 ::: {}
   -------------- -----------------------------------------------------------------------------------------------------------------------------------------
@@ -11,11 +16,11 @@
   -------------- -----------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-## Growl {#Growl}
+## Growl 
 
-[AppleScript](./AppleScript.html){.nonexistent} for the Growl Notification System
+[AppleScript](./AppleScript.html) for the Growl Notification System
 
-### Commands {#Commands}
+### Commands 
 
 - **application.notify(\...)** \-- Post a notification to be displayed via Growl\
 
@@ -23,8 +28,8 @@
     **title**=*Text* \-- title of the notification to display\
     **description**=*Text* \-- full text of the notification to display\
     **application_name**=*Text* \-- name of the application posting the notification.\
-    \[**image_from_location**=*[InsertionLoc](./InsertionLoc.html){.nonexistent}*\] \-- Location of the image file to use for this notification. Accepts aliases, paths and [file:///](file:///){.file} URLs.\
-    \[**icon_of_file**=*[InsertionLoc](./InsertionLoc.html){.nonexistent}*\] \-- Location of the file whose icon should be used as the image for this notification. Accepts aliases, paths and [file:///](file:///){.file} URLs. e.g. \'[file:///Applications\'.\<\<BR\>\>](file:///Applications'.%3C%3CBR%3E%3E){.file} \[**icon_of_application**=*Text*\] \-- Name of the application whose icon should be used for this notification. For example, \'Mail.app\'.\
+    \[**image_from_location**=*[InsertionLoc](./InsertionLoc.html)*\] \-- Location of the image file to use for this notification. Accepts aliases, paths and [file:///](file:///) URLs.\
+    \[**icon_of_file**=*[InsertionLoc](./InsertionLoc.html)*\] \-- Location of the file whose icon should be used as the image for this notification. Accepts aliases, paths and [file:///](file:///) URLs. e.g. \'[file:///Applications\'.\<\<BR\>\>](file:///Applications'.%3C%3CBR%3E%3E) \[**icon_of_application**=*Text*\] \-- Name of the application whose icon should be used for this notification. For example, \'Mail.app\'.\
     \[**image**=*k.Image*\] \-- TIFF Image to be used for the notification.\
     \[**pictImage**=*k.Picture*\] \-- PICT Image to be used for the notification.\
     \[**sticky**=*Boolean*\] \-- whether or not the notification displayed should time out. Defaults to \'no\'.\
@@ -39,9 +44,8 @@
     \[**icon_of_application**=*Text*\] \-- Name of the application whose icon should be used for this notification. For example, \'Mail.app\'.\
     Result: *None*
 
-### Classes {#Classes}
+### Classes 
 
 - **Picture**
 
   **Image**
-::::

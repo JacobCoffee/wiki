@@ -1,13 +1,17 @@
 # GrantsWGGroup
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Members of the GrantsWGGroup (these have edit permission for the WG pages):
 
-- [LauraGraves](./LauraGraves.html){.nonexistent}
+- [LauraGraves](./LauraGraves.html)
 
 - marienordin
 
-- [VickyLee](./VickyLee.html){.nonexistent}
+- [VickyLee](./VickyLee.html)
 
 For help on how this page works, please see the [HelpOnGroups](HelpOnGroups) page.
-:::

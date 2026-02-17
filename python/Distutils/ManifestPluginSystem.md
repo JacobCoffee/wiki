@@ -1,7 +1,12 @@
 # Distutils/ManifestPluginSystem
 
-::: {#content dir="ltr" lang="en"}
-# Problem {#Problem}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Problem 
 
 Right now there are several ways to build the MANIFEST file that comes with a source distribution, besides the scripts.
 
@@ -33,7 +38,7 @@ Result :
 
 - Bill and John will have to maintain their own versions of setup.py (and maybe MANIFEST.in) until they merge.
 
-# Proposal {#Proposal}
+# Proposal 
 
 This proposal does not solve the problem, because it\'s unsolvable. Unless everyone use the same way to list the files, people have to work around. This proposal make Distutils simpler to use, no matter how people build their file list.
 
@@ -48,7 +53,7 @@ Let\'s add in Distutils:
   - a `static`{.backtick} plugin, that points to a MANIFEST static file
 - a new manifest metadata
 
-## plugin system {#plugin_system}
+## plugin system 
 
 The plugin system is inspired from Setuptools entry points.
 
@@ -94,7 +99,7 @@ An optional parameter can be use to get more information:
 
 Without parameters, list_plugins() returns all objects.
 
-## How a plugin is called and used ? {#How_a_plugin_is_called_and_used_.3F}
+## How a plugin is called and used ? 
 
 A plugin is called with a in-out argument called `filelist`{.backtick}, an optional `root_path`{.backtick} argument and a list of keywords:
 
@@ -104,7 +109,7 @@ If `root_path`{.backtick} is None, the plugin might want to use the current work
 
 In `sdist`{.backtick}, the plugin is called with the current working directory and all options passed to `sdist`{.backtick}.
 
-## How to choose one or several plugin {#How_to_choose_one_or_several_plugin}
+## How to choose one or several plugin 
 
 `sdist`{.backtick} will have a new option, called `manifest`{.backtick}, this option is a list of plugin names. If not given, \[\'default\'\] is used by default.
 
@@ -127,7 +132,7 @@ The `sdist`{.backtick} command will loop over all plugins to build the file list
 
 Each plugin is able to add or remove a file from the file list.
 
-## the manifest metadata {#the_manifest_metadata}
+## the manifest metadata 
 
 The manifest metadata already exists in a sense. It\'s not in PKG-INFO itself, but lands into the `.egg-info`{.backtick} directory once it\'s built.
 
@@ -136,4 +141,3 @@ A new display option will allow people to get it without having to call `sdist`{
         $ python setup.py --manifest
 
 This will call the `get_filelist()`{.backtick} function and display its result in the standard output.
-:::

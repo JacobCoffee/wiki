@@ -1,57 +1,50 @@
 # PythonQuestions
 
-:::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Add your questions here and we\'ll do our best to answer them.
 
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} If you subscribe to this page you will be notified when it changes. That way you can easily tell if/when your question has been answered.
+![/!\\](/wiki/europython/img/alert.png "/!\") If you subscribe to this page you will be notified when it changes. That way you can easily tell if/when your question has been answered.
 
 But see also:
 
-- The [Python FAQ Wizard](http://www.python.org/cgi-bin/faqw.py){.http}.
+- The [Python FAQ Wizard](http://www.python.org/cgi-bin/faqw.py).
 
-- The FAQTs [knowledge base](http://www.faqts.com/knowledge_base/index.phtml/fid/199){.http}.
+- The FAQTs [knowledge base](http://www.faqts.com/knowledge_base/index.phtml/fid/199).
 
-- [PythonFaq](http://purl.net/wiki/python/PythonFaq "EfnetPythonWiki"){.interwiki} on #Python wiki.
+- [PythonFaq](http://purl.net/wiki/python/PythonFaq "EfnetPythonWiki") on #Python wiki.
 
-- The [Infrequently Asked Questions](http://norvig.com/python-iaq.html){.http} list maintained by [Peter Norvig](http://norvig.com){.http}.
+- The [Infrequently Asked Questions](http://norvig.com/python-iaq.html) list maintained by [Peter Norvig](http://norvig.com).
 
 - [Python20FrequentlyAskedQuestions](Python20FrequentlyAskedQuestions) (archive)
 
 ------------------------------------------------------------------------
 
-::: table-of-contents
-Contents
-
-1.  [Win 95 Installation](#Win_95_Installation)
-2.  [pyexpat Module](#pyexpat_Module)
-3.  [Documentation in Windows Helpfile Format](#Documentation_in_Windows_Helpfile_Format)
-4.  [Windows XP look-and-feel](#Windows_XP_look-and-feel)
-5.  [Missing Readline Module](#Missing_Readline_Module)
-6.  [How to Access Tomcat from Python](#How_to_Access_Tomcat_from_Python)
-7.  [Python Object ID](#Python_Object_ID)
-:::
-
-## Win 95 Installation {#Win_95_Installation}
+## Win 95 Installation 
 
 **Q.** I run a Windows 95 200 MHz Compaq computer, when I tried to install Python 2.0, the installation program consistently crashes/freezes at 52% of the process. Can you give me any suggestions?
 
-**A.** Make sure you have enough disk space. Accept the default choices the installer suggests. Make sure all other programs are killed first, especially virus scanners (use Ctrl+Alt+Del repeatedly to kill off everything except Explorer and Systray). Try a more recent version of Python (like 2.2.1), which uses better installer technology. Try an [ActiveState](ActiveState) installer, which uses completely different installer technology. Try the minimalist [PythonWare](./PythonWare.html){.nonexistent} installer, which seems to amount to an automated unzip. Accept that Microsoft no longer supports Win95 and plan to get another OS.
+**A.** Make sure you have enough disk space. Accept the default choices the installer suggests. Make sure all other programs are killed first, especially virus scanners (use Ctrl+Alt+Del repeatedly to kill off everything except Explorer and Systray). Try a more recent version of Python (like 2.2.1), which uses better installer technology. Try an [ActiveState](ActiveState) installer, which uses completely different installer technology. Try the minimalist [PythonWare](./PythonWare.html) installer, which seems to amount to an automated unzip. Accept that Microsoft no longer supports Win95 and plan to get another OS.
 
-## pyexpat Module {#pyexpat_Module}
+## pyexpat Module 
 
 **Q.** I just downloaded version 2.0. When I try to run the test_sax.py module it complains that it can\'t find the driver pyexpat.py. I looked in the distribution and it doesn\'t seem to be there? I\'m running on Solaris 2.7. Thank You.
 
 **A.** The pyexpat module is a compiled extension module. See the comments in the Modules/Setup file for instructions on getting and building the required C library. Once you\'ve built that, enable the module in the Modules/Setup file and type \"make\" in the top level of the Python source tree. \"make \--install\" will re-install Python for you, or you can copy Modules/pyexpat.so to \$exec_prefix/lib/python2.0/lib-dynload/ if you\'re building modules as shared objects.
 
-## Documentation in Windows Helpfile Format {#Documentation_in_Windows_Helpfile_Format}
+## Documentation in Windows Helpfile Format 
 
 **Q.** Where do I get the documentation for Python in the CHM (Compiled HTML) format?
 
-**A.** See [http://www.orgmf.com.ar/condor/pytstuff.html](http://www.orgmf.com.ar/condor/pytstuff.html){.http}.
+**A.** See [http://www.orgmf.com.ar/condor/pytstuff.html](http://www.orgmf.com.ar/condor/pytstuff.html).
 
 **A.** Since version 2.3 included in Windows distribution.
 
-## Windows XP look-and-feel {#Windows_XP_look-and-feel}
+## Windows XP look-and-feel 
 
 **Q.** How can I make [WxPython](WxPython) on Windows XP assume XP look-and-feel?
 
@@ -75,7 +68,7 @@ This may also affect other Python modules that use Windows display API.
 
 - Follow-up (a *very* late one): With Python 2.2.2 it caused all windowed applications ([TkInter](TkInter) too) to crash on window close on my machine. Applications are not required (just allowed) to support the new DLL\'s for the XP fancy look. If you run into this problem and deleting manifests doesn\'t help, try un- and reinstalling Python.
 
-## Missing Readline Module {#Missing_Readline_Module}
+## Missing Readline Module 
 
 I have problem when i first install Python 2.4. It seems that the distribution lack readline.py
 
@@ -92,7 +85,7 @@ It\'s possible that the readline module is a separate package in your SUSE Linux
 
 -Do not type if you do not know. I compiled Python 2.4.4 from source ./configure \--enable-readline make make install and I get this error.
 
-## How to Access Tomcat from Python {#How_to_Access_Tomcat_from_Python}
+## How to Access Tomcat from Python 
 
 Looking for examples of accessing Tomcat applications from Python.
 
@@ -130,13 +123,13 @@ I will be looking myself, and will post what I learn here, but so far Tomcat app
 
 This yields a 401 \'not authorized\' when it should not, i.e. the username and password are correct. This is to connect to the page for the Tomcat manager application as a test, not to do any real work.
 
-## Python Object ID {#Python_Object_ID}
+## Python Object ID 
 
 You can get a unique ID number for any object:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a22d51e5a8ebd0aab1a5c384007bb5b78dbc508e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> x="hello"
    2 >>> id( x )
    3 10855264
@@ -151,9 +144,9 @@ What can I do to take 10855264, in this case, and see if I can get back \"hello\
 
 Or is that not possible, without making a dictionary to hold it?
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-6bd466c2ab43b4276ab8a58a631774b820ec0ba1 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> x="hello"
    2 >>> d={}
    3 >>> d[id(x)]=x
@@ -171,4 +164,3 @@ Contributors: [SteveHolden](SteveHolden), [FredrikLundh](FredrikLundh), [Johanne
 ------------------------------------------------------------------------
 
 [CategoryFaq](CategoryFaq)
-::::::::

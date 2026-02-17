@@ -1,17 +1,22 @@
 # EnumerationProgramming
 
-::::::: {#content dir="ltr" lang="en"}
-# Enumeration Programming {#Enumeration_Programming}
+```{admonition} Legacy Wiki Page
+:class: note
 
-### Why, When {#Why.2C_When}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-This Implementation is really near to the UML description of [\<\<Enumeration\>\>]{title="Cannot load macro Enumeration"}. It uses new style class.
+# Enumeration Programming 
 
-### Code {#Code}
+### Why, When 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8afa1157e1831e51a8c019434c9d78793cfdbad7 dir="ltr" lang="en"}
+This Implementation is really near to the UML description of [\<\<Enumeration\>\>]. It uses new style class.
+
+### Code 
+
+:::: 
+::: 
+``` 
    1 # code is public domain
    2 
    3 class Enumeration(object):
@@ -44,11 +49,11 @@ This Implementation is really near to the UML description of [\<\<Enumeration\>\
 :::
 ::::
 
-### Example {#Example}
+### Example 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-48b52b75cacc3e96f71ec6471ed61c8cd53af8ce dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 class PrimaryColorKind(Enumeration):
    2     pass
    3 PrimaryColorKind('Rouge')
@@ -84,4 +89,3 @@ output is :
     #Rouge #Violet
     Set([PrimaryColorKind('Vert'), PrimaryColorKind('Rouge'), ColorKind('Violet'), PrimaryColorKind('Bleu')])
     PrimaryColorKind('Rouge') ColorKind('Violet')
-:::::::

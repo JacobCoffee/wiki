@@ -1,7 +1,12 @@
 # ElectionsWorkgroupPlanning
 
-::: {#content dir="ltr" lang="en"}
-[https://mail.python.org/pipermail/elections-wg/2015-May/000074.html](https://mail.python.org/pipermail/elections-wg/2015-May/000074.html){.https}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[https://mail.python.org/pipermail/elections-wg/2015-May/000074.html](https://mail.python.org/pipermail/elections-wg/2015-May/000074.html)
 
 Kicking off a thread about what requirements we think we should have for a PSF voting system.
 
@@ -29,7 +34,7 @@ Defining a threat model is probably the first thing we should do really, because
 
 ------------------------------------------------------------------------
 
-[https://mail.python.org/pipermail/elections-wg/2015-May/000083.html](https://mail.python.org/pipermail/elections-wg/2015-May/000083.html){.https} These are the hard requirements I think we need for the PSF:
+[https://mail.python.org/pipermail/elections-wg/2015-May/000083.html](https://mail.python.org/pipermail/elections-wg/2015-May/000083.html) These are the hard requirements I think we need for the PSF:
 
 - voting should be easy
 - voting should be possible in a central place and via a web
@@ -58,15 +63,15 @@ Ideally, I would like to see the \"emailing links to ballots\" approach go away,
 
 ------------------------------------------------------------------------
 
-[https://mail.python.org/pipermail/elections-wg/2015-May/000060.html](https://mail.python.org/pipermail/elections-wg/2015-May/000060.html){.https}
+[https://mail.python.org/pipermail/elections-wg/2015-May/000060.html](https://mail.python.org/pipermail/elections-wg/2015-May/000060.html)
 
-I found the mailing list email finally ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+I found the mailing list email finally ![:)](/wiki/europython/img/smile.png ":)")
 
 Working group: please see my charter request below.
 
 On Fri, May 22, 2015 at 3:22 PM, Ewa Jodlowska \<ewa at python.org\> wrote:
 
-\> Hi Ian and Laura, \> \> I was not sure which email address you went with for this mailing list so \> I am emailing you individually. Please feel free to send my request on to \> the mailing list. \> \> As a PSF working group, there needs to be a charter in place. At minimal, \> we need to know how you will operate (make decisions, vote, etc), how you \> will communicate, and who is so far part of the group. \> \> There is a template available here: \> [https://wiki.python.org/psf/Example%20PSF%20Workgroup%20Charter](https://wiki.python.org/psf/Example%20PSF%20Workgroup%20Charter){.https} \> \> Once you have this complete, please send it to me so I can get the board \> to acknowledge the working group.
+\> Hi Ian and Laura, \> \> I was not sure which email address you went with for this mailing list so \> I am emailing you individually. Please feel free to send my request on to \> the mailing list. \> \> As a PSF working group, there needs to be a charter in place. At minimal, \> we need to know how you will operate (make decisions, vote, etc), how you \> will communicate, and who is so far part of the group. \> \> There is a template available here: \> [https://wiki.python.org/psf/Example%20PSF%20Workgroup%20Charter](https://wiki.python.org/psf/Example%20PSF%20Workgroup%20Charter) \> \> Once you have this complete, please send it to me so I can get the board \> to acknowledge the working group.
 
 \-- Best regards, Ewa Jodlowska
 
@@ -75,4 +80,3 @@ On Fri, May 22, 2015 at 3:22 PM, Ewa Jodlowska \<ewa at python.org\> wrote:
 bylaws
 
 informing those who won that they have.
-:::

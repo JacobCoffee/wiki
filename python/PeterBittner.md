@@ -1,15 +1,19 @@
 # PeterBittner
 
-::: {#content dir="ltr" lang="en"}
-## Peter Bittner {#Peter_Bittner}
+```{admonition} Legacy Wiki Page
+:class: note
 
-- [http://twitter.com/peterbittner](http://twitter.com/peterbittner){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Python projects I\'m contributing to {#Python_projects_I.27m_contributing_to}
+## Peter Bittner 
 
-- [http://pyjs.org](http://pyjs.org){.http} Pyjamas: a Python to [JavaScript](./JavaScript.html){.nonexistent} translator, and RIA framework as a port of GWT
+- [http://twitter.com/peterbittner](http://twitter.com/peterbittner)
+
+## Python projects I\'m contributing to 
+
+- [http://pyjs.org](http://pyjs.org) Pyjamas: a Python to [JavaScript](./JavaScript.html) translator, and RIA framework as a port of GWT
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

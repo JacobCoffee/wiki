@@ -1,11 +1,15 @@
 # Mercurial
 
-::: {#content dir="ltr" lang="en"}
-[Mercurial](http://mercurial.selenic.com/wiki/){.http} is DVCS (distributed version control system) to which the Python core development community [recently migrated](http://www.python.org/dev/peps/pep-0385/){.http}.
+```{admonition} Legacy Wiki Page
+:class: note
 
-[![\[ATTACH\]](/wiki/europython/img/attach.png "[ATTACH]"){height="32" width="32"}]( "Create new drawing "repositorylayout.tdraw (opens in new window)""){.nonexistent}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[Mercurial](http://mercurial.selenic.com/wiki/) is DVCS (distributed version control system) to which the Python core development community [recently migrated](http://www.python.org/dev/peps/pep-0385/).
+
+[![\[ATTACH\]](/wiki/europython/img/attach.png "[ATTACH]")]( "Create new drawing "repositorylayout.tdraw (opens in new window)"")
 
 ------------------------------------------------------------------------
 
 [CategoryDevelopmentProcess](CategoryDevelopmentProcess)
-:::

@@ -1,13 +1,18 @@
 # PythonSpeed/Profiling
 
-::: {#content dir="ltr" lang="en"}
-# Profiling Python Programs {#Profiling_Python_Programs}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Profiling Python Programs 
 
 See [PythonDebuggingTools#Profilers](PythonDebuggingTools#Profilers) for a list of profilers
 
-## Scalene {#Scalene}
+## Scalene 
 
-The [Scalene profiler](https://github.com/emeryberger/scalene){.https} is both easy to use and provides a number of advantages over the profilers bundled with Python:
+The [Scalene profiler](https://github.com/emeryberger/scalene) is both easy to use and provides a number of advantages over the profilers bundled with Python:
 
 1.  Scalene is **fast**. It uses sampling instead of instrumentation or relying on Python\'s tracing facilities. Its overhead is typically no more than 10-20% (and often less).
 
@@ -21,9 +26,8 @@ The [Scalene profiler](https://github.com/emeryberger/scalene){.https} is both e
 
 6.  Scalene profiles **copying volume**, making it easy to spot inadvertent copying, especially due to crossing Python/library boundaries (e.g., accidentally converting numpy arrays into Python arrays, and vice versa).
 
-See the [Scalene home page](https://github.com/emeryberger/scalene){.https} for installation and usage instructions.
+See the [Scalene home page](https://github.com/emeryberger/scalene) for installation and usage instructions.
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-:::

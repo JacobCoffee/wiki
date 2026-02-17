@@ -1,9 +1,14 @@
 # MongolianLanguage
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Mongolian
 
-ISO 639-1 Code: mn [1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+ISO 639-1 Code: mn [1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -23,23 +28,22 @@ Where these pages really need help:
 
 **Монгол хэл**
 
-### Blogs {#Blogs}
+### Blogs 
 
-- [Erdenbat](http://ganaa-it.blogspot.com/search/label/Python){.http}
+- [Erdenbat](http://ganaa-it.blogspot.com/search/label/Python)
 
-- [dulmandakh](http://www.dulmandakh.com/search?q=python){.http}
+- [dulmandakh](http://www.dulmandakh.com/search?q=python)
 
-- [usi](http://dn.usi.mn/tiki-index.php?page=python_gui_gtk){.http} - pyGTK - code
+- [usi](http://dn.usi.mn/tiki-index.php?page=python_gui_gtk) - pyGTK - code
 
-- [dagvadorj](http://dagvadorj.blogspot.com/2009/07/python_19.html){.http} - Android dev - code
+- [dagvadorj](http://dagvadorj.blogspot.com/2009/07/python_19.html) - Android dev - code
 
-- [pythondiver](http://pythondiver.blogspot.com/2010/02/blog-post.html){.http}
+- [pythondiver](http://pythondiver.blogspot.com/2010/02/blog-post.html)
 
-- [pythondiver](http://pythondiver.blogspot.com/2010/02/blog-post_09.html){.http} - code
+- [pythondiver](http://pythondiver.blogspot.com/2010/02/blog-post_09.html) - code
 
-- [pythondiver](http://pythondiver.blogspot.com/2010/02/pygame_2494.html){.http} - pygame
+- [pythondiver](http://pythondiver.blogspot.com/2010/02/pygame_2494.html) - pygame
 
-- [pythondiver](http://pythondiver.blogspot.com/2010/05/blog-post.html){.http} - Beginner, Lesson
+- [pythondiver](http://pythondiver.blogspot.com/2010/05/blog-post.html) - Beginner, Lesson
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode)
-:::

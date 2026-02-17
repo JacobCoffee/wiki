@@ -1,11 +1,16 @@
 # PythonWebsite/Learning
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 At [PyCon](PyCon) 2009, Steve Holden suggested building a microsite for people who wish to learn Python.
 
 We already have [BeginnersGuide](BeginnersGuide), but it\'s buried in the wiki and is pretty dense text. This microsite would have a cleaner design and fewer links.
 
-## Possible names {#Possible_names}
+## Possible names 
 
 Vote here:
 
@@ -19,7 +24,7 @@ Vote here:
 
 We should probably avoid \'Learning Python\', since that\'s an O\'Reilly book title. Likewise there is a book called \'Beginning Python\'.
 
-## Content {#Content}
+## Content 
 
 Notes on the current content are at [PythonWebsite/Learning/Top](./PythonWebsite(2f)Learning(2f)Top.html). The site primarily links to resources, so its page architecture is pretty shallow.
 
@@ -27,7 +32,6 @@ Should it target Python 2, 3 or both? Python 3 would be better, but would mean t
 
 How about commissioning prominent authors to produce an article each on a range of subjects?
 
-## Design {#Design}
+## Design 
 
 To avoid spending volunteer time on yet another site design, we should just re-use the existing python.org page design (though not necessarily the same site-building script and infrastructure.)
-:::

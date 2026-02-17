@@ -1,33 +1,22 @@
 # Unicode
 
-:::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Resources to help you learn how to handle Unicode in your Python programs:
 
-::: table-of-contents
-Contents
+## General Unicode Resources 
 
-1.  [General Unicode Resources](#General_Unicode_Resources)
-2.  [Python-Specific Resources](#Python-Specific_Resources)
-    1.  [Standard Reference](#Standard_Reference)
-    2.  [Tutorials](#Tutorials)
-    3.  [Sample Code](#Sample_Code)
-    4.  [Pitfalls](#Pitfalls)
-    5.  [Supported Encodings](#Supported_Encodings)
-    6.  [\"The Truth about Unicode in Python\"](#A.22The_Truth_about_Unicode_in_Python.22)
-3.  [Discussion](#Discussion)
-    1.  [Conversation between Lion and Bayle](#Conversation_between_Lion_and_Bayle)
-    2.  [(Discussion continued)](#A.28Discussion_continued.29)
-:::
+- [The Absolute Minimum Every Software Developer Must Know about Unicode](http://www.joelonsoftware.com/articles/Unicode.html) - short intro to Unicode
 
-## General Unicode Resources {#General_Unicode_Resources}
+- [Unicode](http://www.wikipedia.com/wiki/Unicode "WikiPedia") \-- Wikipedia unicode entry
 
-- [The Absolute Minimum Every Software Developer Must Know about Unicode](http://www.joelonsoftware.com/articles/Unicode.html){.http} - short intro to Unicode
+## Python-Specific Resources 
 
-- [Unicode](http://www.wikipedia.com/wiki/Unicode "WikiPedia"){.interwiki} \-- Wikipedia unicode entry
-
-## Python-Specific Resources {#Python-Specific_Resources}
-
-### Standard Reference {#Standard_Reference}
+### Standard Reference 
 
 Search the Python reference for:
 
@@ -35,29 +24,29 @@ Search the Python reference for:
 
 - string handling - example: `u'Hello\u0020World !'`{.backtick}
 
-- [unicodedata](http://docs.python.org/lib/module-unicodedata.html){.http} module
+- [unicodedata](http://docs.python.org/lib/module-unicodedata.html) module
 
 - regular expressions - see the `(?u)`{.backtick} flag, and the `re.UNICODE`{.backtick} constant
 
 - exceptions - `UnicodeEncodeError`{.backtick}
 
-### Tutorials {#Tutorials}
+### Tutorials 
 
-- [End to End Unicode Web Applications in Python](http://dalchemy.com/opensource/unicodedoc/){.http}
+- [End to End Unicode Web Applications in Python](http://dalchemy.com/opensource/unicodedoc/)
 
-- [Dive Into Python: Unicode](http://diveintopython.org/xml_processing/unicode.html){.http}
+- [Dive Into Python: Unicode](http://diveintopython.org/xml_processing/unicode.html)
 
-- [Python and Unicode](http://www.egenix.com/files/python/Unicode-EPC2002-Talk.pdf){.http} (pdf talk) He also has a [brief tutorial](http://www.reportlab.com/i18n/python_unicode_tutorial.html){.http}.
+- [Python and Unicode](http://www.egenix.com/files/python/Unicode-EPC2002-Talk.pdf) (pdf talk) He also has a [brief tutorial](http://www.reportlab.com/i18n/python_unicode_tutorial.html).
 
-- [Unicode for Programmers](http://www.jorendorff.com/articles/unicode/index.html){.http} - Java and Python info
+- [Unicode for Programmers](http://www.jorendorff.com/articles/unicode/index.html) - Java and Python info
 
-- [Python Unicode Objects](http://effbot.org/zone/unicode-objects.htm){.http} - brief notes
+- [Python Unicode Objects](http://effbot.org/zone/unicode-objects.htm) - brief notes
 
-### Sample Code {#Sample_Code}
+### Sample Code 
 
-- [HTMLifying and UnHTMLifying](http://www.intertwingly.net/blog/1581.html){.http} - see atomef.py
+- [HTMLifying and UnHTMLifying](http://www.intertwingly.net/blog/1581.html) - see atomef.py
 
-### Pitfalls {#Pitfalls}
+### Pitfalls 
 
 - [StrIsNotAString](StrIsNotAString)
 
@@ -71,11 +60,11 @@ Search the Python reference for:
 
 - [DefaultEncoding](DefaultEncoding)
 
-- [The standard encodings list](http://docs.python.org/lib/standard-encodings.html){.http} is for the current version of python. [GB2312](http://en.wikipedia.org/wiki/GB2312){.http} (PRC Chinese,) for example, is in Python2.4, but [not in Python2.2, nor Python2.3.](http://www.xahlee.org/perl-python/charset_encoding.html){.http}
+- [The standard encodings list](http://docs.python.org/lib/standard-encodings.html) is for the current version of python. [GB2312](http://en.wikipedia.org/wiki/GB2312) (PRC Chinese,) for example, is in Python2.4, but [not in Python2.2, nor Python2.3.](http://www.xahlee.org/perl-python/charset_encoding.html)
 
-### Supported Encodings {#Supported_Encodings}
+### Supported Encodings 
 
-There is a [list of standard encodings in the Python documentation.](http://docs.python.org/lib/standard-encodings.html){.http}
+There is a [list of standard encodings in the Python documentation.](http://docs.python.org/lib/standard-encodings.html)
 
 Encodings can be registered at runtime, as well, with the codecs module.
 
@@ -97,15 +86,15 @@ Another is to list aliases from the encodings module.
 
 Contributors: [LionKimbro](LionKimbro), [FredDrake](FredDrake), [JürgenHermann](./J(c3bc)rgenHermann.html).
 
-### \"The Truth about Unicode in Python\" {#A.22The_Truth_about_Unicode_in_Python.22}
+### \"The Truth about Unicode in Python\" 
 
-[The Truth about Unicode in Python](http://www.cmlenz.net/archives/2008/07/the-truth-about-unicode-in-python){.http}
+[The Truth about Unicode in Python](http://www.cmlenz.net/archives/2008/07/the-truth-about-unicode-in-python)
 
-## Discussion {#Discussion}
+## Discussion 
 
-Here\'s a conversation that I had on [CommunityWiki;](http://communitywiki.org/){.http} I\'d like to bring the main ideas into here.
+Here\'s a conversation that I had on [CommunityWiki;](http://communitywiki.org/) I\'d like to bring the main ideas into here.
 
-### Conversation between Lion and Bayle {#Conversation_between_Lion_and_Bayle}
+### Conversation between Lion and Bayle 
 
 That looks like 32-bits per character, so I\'d say it\'s some form of little-endian utf-32.
 
@@ -113,9 +102,9 @@ And for some strange reason, Python only comes with \"utf-8\" and \"utf-16\" as 
 
 You can:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-5352da6321dff6240d48a5423a3e07a2aa2dbdf3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> bytes = "H\x00i\x00\n\x00"
    2 >>> unistring = bytes.decode('utf-16')
    3 >>> print unistring
@@ -130,9 +119,9 @@ I\'ve been wanting to diagram how Python unicode works, like how I diagrammed it
 
 Basically, \"encode\" is meant to be called *from* unicode data, and \"decode\" is meant to be called *from* bytes data. Continuing from above:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4523277d098f2f7c51de5e0e3007848f058fc737 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> bytes
    2 'H\x00i\x00\n\x00'
    3 >>> unistring = bytes.decode('utf-16')
@@ -170,13 +159,12 @@ Again, sadly, I have no idea how to get from UTF-32 to Python unicode. I don\'t 
 
 That said, if I\'m actually serving UTF-32 to you somehow,\... \...then there\'s probably a way I just don\'t know.
 
-### (Discussion continued) {#A.28Discussion_continued.29}
+### (Discussion continued) 
 
-On side-notes, I think the diagrams I\'ve posted for [WorkingWithTime](WorkingWithTime) and [RegularExpressions](./RegularExpressions.html){.nonexistent} were eaten up in the transition to [MoinMoin](MoinMoin) 1.3; I\'ll repost them soon, after I get [my own wiki](http://wiki.taoriver.net/){.http} upgraded to 1.3.
+On side-notes, I think the diagrams I\'ve posted for [WorkingWithTime](WorkingWithTime) and [RegularExpressions](./RegularExpressions.html) were eaten up in the transition to [MoinMoin](MoinMoin) 1.3; I\'ll repost them soon, after I get [my own wiki](http://wiki.taoriver.net/) upgraded to 1.3.
 
 \-- [LionKimbro](LionKimbro) 2005-02-06 02:56:28
 
 ------------------------------------------------------------------------
 
 [CategoryUnicode](CategoryUnicode)
-::::::::

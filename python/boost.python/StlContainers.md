@@ -1,21 +1,14 @@
 # boost.python/StlContainers
 
-:::: {#content dir="ltr" lang="en"}
-It\'s a pity that BPL doesn\'t wrap STL containers out of the box. It would be good to have \"batteries included\". But to be fair, a fully featured container wrapper is a lot of code and will take very long to compile. It is a major research project to develop \"a best\" fully featured container wrapper. Note that what you want depends on the element type (e.g. what makes sense for std::complex\<\> as an element type does not necessarily make sense for double, what makes sense for double might not make sense for int and vice versa, etc. etc.)! I cannot even imagine what a comprehensive solution for std::map\<\> could look like since it will have to deal with combinations of two types. To see an example of a more-or-less fully featured multi-dimensional array wrapper look at [flex_wrapper.h](http://cci.lbl.gov/cctbx_sources/scitbx/array_family/boost_python/flex_wrapper.h){.http}
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: table-of-contents
-Contents
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-1.  [C++ classes](#C.2B-.2B-_classes)
-2.  [list](#list)
-3.  [map](#map)
-4.  [key in container](#key_in_container)
-5.  [iterators](#iterators)
-6.  [index](#index)
-7.  [download](#download)
-:::
+It\'s a pity that BPL doesn\'t wrap STL containers out of the box. It would be good to have \"batteries included\". But to be fair, a fully featured container wrapper is a lot of code and will take very long to compile. It is a major research project to develop \"a best\" fully featured container wrapper. Note that what you want depends on the element type (e.g. what makes sense for std::complex\<\> as an element type does not necessarily make sense for double, what makes sense for double might not make sense for int and vice versa, etc. etc.)! I cannot even imagine what a comprehensive solution for std::map\<\> could look like since it will have to deal with combinations of two types. To see an example of a more-or-less fully featured multi-dimensional array wrapper look at [flex_wrapper.h](http://cci.lbl.gov/cctbx_sources/scitbx/array_family/boost_python/flex_wrapper.h)
 
-### C++ classes {#C.2B-.2B-_classes}
+### C++ classes 
 
 In our case we have vector and map to wrap and had to decide how to wrap them.
 
@@ -51,15 +44,15 @@ So we have to revert to approach (a) and write a wrapper to add Python container
 
 To pretend a Python **list** a class shall have methods:
 
-- [len]{.u},
+- [len],
 
-- [getitem]{.u} to be readable,
+- [getitem] to be readable,
 
-- [setitem]{.u} to be writable,
+- [setitem] to be writable,
 
-- [delitem]{.u} to delete elements.
+- [delitem] to delete elements.
 
-We have [len]{.u} right away:
+We have [len] right away:
 
               .def("__len__", &Geometry::size)
 
@@ -150,7 +143,7 @@ And in our case:
 
 But it\'s only very basic functionality. Let\'s add some convinience.
 
-### key in container {#key_in_container}
+### key in container 
 
 To use python construct `key in container` we need to implement `__contains__`{.backtick}:
 
@@ -225,5 +218,4 @@ and we are all set.
 
 ### download
 
-You can download container helper classes from [container.h](attachments/boost(2e)python(2f)StlContainers/container.h){.attachment}. \<- The file is **EMPTY**!!!
-::::
+You can download container helper classes from [container.h](attachments/boost(2e)python(2f)StlContainers/container.h). \<- The file is **EMPTY**!!!

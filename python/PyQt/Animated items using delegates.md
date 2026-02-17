@@ -1,7 +1,12 @@
 # PyQt/Animated items using delegates
 
-::::: {#content dir="ltr" lang="en"}
-# Animated items using delegates {#Animated_items_using_delegates}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Animated items using delegates 
 
 A nasty hack involving a custom delegate, timer events and a signal to inform a view that it needs to repaint itself. It is just a proof of concept.
 
@@ -13,9 +18,9 @@ Things that are wrong with this code:
 - The signal in the delegate is connected to the viewport of the view instead of the view itself (it doesn\'t work otherwise).
 - The delegate simply shifts the normal content of the waiting items and paints a pixmap - it doesn\'t try to replace or add an icon to existing items.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-25a8962ac5c8d8c452181ab9d39268793eb337a3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import pyqtSignal, Qt, QVariant
    3 from PyQt4.QtGui import *
@@ -169,4 +174,3 @@ Things that are wrong with this code:
 ```
 :::
 ::::
-:::::

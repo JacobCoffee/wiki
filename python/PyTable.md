@@ -1,13 +1,18 @@
 # PyTable
 
-::: {#content dir="ltr" lang="en"}
-[MikeFletcher](./MikeFletcher.html){.nonexistent}:
+```{admonition} Legacy Wiki Page
+:class: note
 
-[PyTable\'s](http://pypi.python.org/pypi/pytable/){.http} primary strength is its schema-driven nature. A database plan (schema) is created which maps the structure of the database into a run-time introspectable data structure.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[MikeFletcher](./MikeFletcher.html):
+
+[PyTable\'s](http://pypi.python.org/pypi/pytable/) primary strength is its schema-driven nature. A database plan (schema) is created which maps the structure of the database into a run-time introspectable data structure.
 
 Normally the schema is created in Python code, and used to drive the creation of the database, (though facilities are available for extracting a basic schema from the database). The schema can include information regarding what classes to instantiate when retrieving records for a given table (with suitable defaults provided). The schema is used internally by DBRow objects to implement update and insert queries, for instance. In other words, the DBRow objects can look at themselves to decide what actually needs to be done to accomplish a given task (such as specifying their row uniquely in the table).
 
-PyTable sits halfway between the raw [DbApi](./DbApi.html){.nonexistent} (where you know only approximate data-type, name, and a few other minimal pieces of information) and a system such as [PyDO](PyDO) (where the database interactions are done through an object-oriented API). PyTable is still very much about generating and running SQL code, you are not forced into the *everything is an object* mould, you can still run raw SQL (with some helper mechanisms to make creating complex queries easier) and integrate those queries into your row classes. The PyTable DBRow objects are simply very rich introspectable wrappers around the DB-API records (you can use non-DBRow records too).
+PyTable sits halfway between the raw [DbApi](./DbApi.html) (where you know only approximate data-type, name, and a few other minimal pieces of information) and a system such as [PyDO](PyDO) (where the database interactions are done through an object-oriented API). PyTable is still very much about generating and running SQL code, you are not forced into the *everything is an object* mould, you can still run raw SQL (with some helper mechanisms to make creating complex queries easier) and integrate those queries into your row classes. The PyTable DBRow objects are simply very rich introspectable wrappers around the DB-API records (you can use non-DBRow records too).
 
 As to BasicProperty, its purpose is to allow for defining rich *attribute descriptors*, similar to the property objects built in to Python 2.2 and above. Distinction being that the BasicProperty descriptors are far more involved, including default values/functions, two levels of storage hooks for customizing behaviour, the ability to auto-coerce values to/from data-types on save/restore, support for list-of types etceteras. BasicProperty is an extremely general mechanism, so it\'s a little hard to say what particular benefit it has without looking at particular applications.
 
@@ -26,4 +31,3 @@ Back to the subject at hand; In effect, PyTable is about trying to make the nitt
 - An object-relational mapper: though it may seem like it, PyTable doesn\'t convert references to records automatically (unless you explicitly code a property to do so), it doesn\'t map pivot tables to pseudo-dictionaries, in general, it only executes the SQL you tell it to execute
 
 - Finished: there\'s still a lot of work to do to get to 1.0 beta 1 for PyTable
-:::

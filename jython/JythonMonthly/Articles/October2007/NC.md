@@ -1,11 +1,16 @@
 # JythonMonthly/Articles/October2007/NC
 
-::::: {#content dir="ltr" lang="en"}
-# Newbie Notes: Creating a Grid Layout of Data Distributed Among Files in a Directory {#Newbie_Notes:_Creating_a_Grid_Layout_of_Data_Distributed_Among_Files_in_a_Directory}
+```{admonition} Legacy Wiki Page
+:class: note
 
-#### Submitted By: Rob Andrews {#Submitted_By:_Rob_Andrews}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-### Introducing Newbie Notes {#Introducing_Newbie_Notes}
+# Newbie Notes: Creating a Grid Layout of Data Distributed Among Files in a Directory 
+
+#### Submitted By: Rob Andrews 
+
+### Introducing Newbie Notes 
 
 Welcome to my first article for "newbies" (non-derogatory, of course) to jython in Jython Monthly. Jython users often approach it with some expertise in one or more areas of software development, but lacking familiarity with some other relevant aspects of jython programming.
 
@@ -13,7 +18,7 @@ I hope to present in my articles some basic techniques, ideas, and gotchas to he
 
 I will try to introduce some fundamental ideas in ways that should cause as little cross-platform trouble as possible and endeavor to keep each article concise enough to avoid a bog of details.
 
-### Task Analysis {#Task_Analysis}
+### Task Analysis 
 
 In this first article, let\'s look at a common scripting task in which one has to produce a tab-delimited table of marketing information about a set of customers (a \*very\* common task for me, as I provide data services for marketing purposes).
 
@@ -31,13 +36,13 @@ An example of such a file (with descriptive comment per line):
 
 The task at hand is to produce a file in which each line contains the contents of one of the client information files, with each line in the source file written out as one of a series of tab-delimited fields in the created file. Additionally, the programmer appends a readable timestamp of when the record was inserted into the file.
 
-### Implementation {#Implementation}
+### Implementation 
 
 Let\'s look at the code:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f1e068698a321f45720680c293ac30c3afca4e54 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # import of modules from standard library
    2 import time, glob
    3 
@@ -69,7 +74,7 @@ Let\'s look at the code:
 :::
 ::::
 
-### Avoiding Headaches {#Avoiding_Headaches}
+### Avoiding Headaches 
 
 Notice in the creation of the demographicsDir variable that \'/\' is used instead of \'\\\', despite the fact that the \'C:\' suggests this is taking place on a computer running Windows. It is possible, and not amazingly difficult, to write code using the typical Windows \'\\\' character, but doing so introduces some potentially fussy details involving raw strings and/or having to escape one \'\\\' with another, so that \'\\\\\' produces the result one would expect from \'\\\'.
 
@@ -77,19 +82,19 @@ I also opted to wrap file and directory names in variables for a few different r
 
 Secondly, and of equal importance, is that using meaningful variable names in your code will make it easier to read and understand later. Someone (and that someone may well be you) will have to maintain that code sooner or later, and far fewer tears will be shed if good names were chosen right from the start.
 
-### Using \'import\' to Add Functionality {#Using_.27import.27_to_Add_Functionality}
+### Using \'import\' to Add Functionality 
 
 The code begins with an statement to import a couple of modules used in the code. The glob module makes available glob.glob(), which we used to match files ending in \'.dat\' at the beginning of the first \'for\' loop. The time module makes available time.ctime(), used to insert a human-readable timestamp into the grid file we\'re writing.
 
 As a rule, it\'s desirable to import proven functionality already available instead of writing new code for old problems.
 
-### Pythonic Whitespace {#Pythonic_Whitespace}
+### Pythonic Whitespace 
 
 If you are a java developer unfamiliar with python, you may be wondering where some of your various fine curly braces and semicolons have gone. In jython, whitespace is used to keep track of statements and code blocks, so the curly braces and semicolons may be used for other purposes.
 
 One of the basic ideas involved in this use of whitespace is that well-written code is indented for readability anyway, so why include redundant characters when the proper indentation can get the job done nicely all by itself?
 
-### Reading, Writing, and Looping Through Contents of Multiple Files {#Reading.2C_Writing.2C_and_Looping_Through_Contents_of_Multiple_Files}
+### Reading, Writing, and Looping Through Contents of Multiple Files 
 
 Inside the first \'for\' loop, new statements are indented a certain amount, and each is indented the same amount as all other statements in the loop.
 
@@ -103,13 +108,12 @@ In the main \'for\' loop, each input file is opened once with the \'r\' argument
 
 So we start off with multiple input files, but only create one output file. And if the output file already exists, neither the file nor its current contents are over-written.
 
-### Looking Ahead {#Looking_Ahead}
+### Looking Ahead 
 
 In future articles, we can build on these and other basic ideas, such as exception handling to deal with potential snags your scripts may encounter, various ways of obtaining variable data from outside the script\'s source file (shell arguments, raw user input, GUI form data, etc.), more sophisticated string formatting operations, incorporating java resources, etc.
 
 I hope these articles will make jython more approachable to new users and welcome both comment and correction.
 
-##### About the Author {#About_the_Author}
+##### About the Author 
 
-Rob Andrews is a Programmer Analyst at [Sourcelink](http://www.sourcelink.com){.http}.
-:::::
+Rob Andrews is a Programmer Analyst at [Sourcelink](http://www.sourcelink.com).

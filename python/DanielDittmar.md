@@ -1,11 +1,16 @@
 # DanielDittmar
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Editor of [WebProgramming](WebProgramming).
 
-[mailto:daniel@dittmar.net](mailto:daniel@dittmar.net){.mailto}
+[mailto:daniel@dittmar.net](mailto:daniel@dittmar.net)
 
-#### Python cheat sheet {#Python_cheat_sheet}
+#### Python cheat sheet 
 
     pickle:
       cPickle.dump (object, open (fname, 'wb'), 1)
@@ -21,9 +26,9 @@ Editor of [WebProgramming](WebProgramming).
       import tempfile
       var = tempfile.mktemp () # deprecated
 
-#### To do {#To_do}
+#### To do 
 
-##### Information Search Tree {#Information_Search_Tree}
+##### Information Search Tree 
 
 - c.l.p
 
@@ -40,4 +45,3 @@ Editor of [WebProgramming](WebProgramming).
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

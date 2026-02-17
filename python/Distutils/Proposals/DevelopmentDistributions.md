@@ -1,21 +1,16 @@
 # Distutils/Proposals/DevelopmentDistributions
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [Abstract](#Abstract)
-2.  [Rationale](#Rationale)
-3.  [Detailed Plan](#Detailed_Plan)
-4.  [References](#References)
-5.  [Copyright and License Terms](#Copyright_and_License_Terms)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Abstract {#Abstract}
+## Abstract 
 
 Give Python developers using distutils2 a way to import modules and packages from a source tree without building or installing it.
 
-## Rationale {#Rationale}
+## Rationale 
 
 People want to import their modules to try them while developing without reinstalling them constantly or mucking with import paths. The code will most of the time come from a version-controlled directory or an unpacked archive.
 
@@ -23,7 +18,7 @@ This proposal does not talk about VCS integration (for example building distribu
 
 Open issues: how to enable scripts provided by the distribution; how to make the dist-info directory available to pkgutil.
 
-## Detailed Plan {#Detailed_Plan}
+## Detailed Plan 
 
 Provide a command that makes code in an arbitrary directory available for import and use without requiring to rebuild or reinstall it when the files change.
 
@@ -35,15 +30,14 @@ When the code includes C extensions, users will need to run build_ext \--inplace
 
 An option to the uninstall command would be used to remove the .pth file.
 
-## References {#References}
+## References 
 
-1.  [Setuptools' develop command](http://peak.telecommunity.com/DevCenter/setuptools#development-mode){.http}
+1.  [Setuptools' develop command](http://peak.telecommunity.com/DevCenter/setuptools#development-mode)
 
-2.  [Buildutils' use command](http://pypi.python.org/pypi/buildutils/0.3){.http}
+2.  [Buildutils' use command](http://pypi.python.org/pypi/buildutils/0.3)
 
-3.  [8668](http://bugs.python.org/issue8668 "Issue"){.interwiki}
+3.  [8668](http://bugs.python.org/issue8668 "Issue")
 
-## Copyright and License Terms {#Copyright_and_License_Terms}
+## Copyright and License Terms 
 
 I, [ÉricAraujo](./(c389)ricAraujo.html), make this document available to anyone for all purposes and intents, including edition and distribution, in the limits allowed by their jurisdictions. (There is no such thing as "placing in the public domain".)
-::::

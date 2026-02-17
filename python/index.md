@@ -164,7 +164,6 @@ AlbanianLanguage
 Albatross
 AldoUrem
 AleksanderPiotrowski
-Alex Clark
 AlexClark
 AlexLevy
 AlexMartelli
@@ -274,7 +273,6 @@ BeginnersGuide
 BeginnersGuideChinese
 BeginnersWorkshop
 BelarusianLanguage
-BelorussianLanguage
 BengaliLanguage
 BenjaminPeterson
 BenjiYork
@@ -301,7 +299,6 @@ BoaConstructor
 BobIppolito
 BodoLanguage
 BooLanguage
-BoostPython
 BosnianLanguage
 BostonPig
 BoulderJam
@@ -341,7 +338,6 @@ CaioRomao
 CalebHattingh
 CallForPaper2011
 CallForTrackers
-CamelCase
 CameronDewe
 CameronLaird
 Can I get a job with python_
@@ -416,7 +412,6 @@ CharlottesvillePythonUserGroup
 CheeseShop
 CheeseShopDev
 CheeseShopTutorial
-CheeseShopXmlRpc
 Cheetah
 CherryPy
 ChiPy
@@ -426,7 +421,6 @@ ChoiceOfFreebies
 ChoosingDatabase
 ChoosingGuiToolkits
 ChrisAndrews
-ChrisArmstrong
 ChrisAtLee
 ChrisCalloway
 ChrisMcDonough
@@ -475,7 +469,6 @@ ConfigParserExamples
 ConfigParserGoals
 ConfigParserShootout
 ConfigurationAndBuildTools
-ContentManagement
 ContentManagementSystems
 ContinuousIntegration
 ConventionHowto
@@ -568,7 +561,6 @@ DistributionUtilities
 Distutils
 Distutils2
 DistutilsBof
-DistutilsInstallDataScattered
 DistutilsMetadata
 DistutilsSprint
 DistutilsTesting
@@ -619,12 +611,10 @@ EDAtools
 EWDurbin
 Early2to3Migrations
 EasyAsPy
-EasyGui
 EasyInstall
 Eclipse
 EclipsePythonIntegration
 Ed Leafe
-EdLeafe
 EditPythonCodeChinese
 EditedSystemPages
 EditorConfigurationHowto
@@ -718,7 +708,6 @@ ExtensionTutorial
 ExtremeProgramming
 EzequielMarquez
 F2PY
-FLTK
 Fabio
 FatemehTarashi
 FehlendePersönlicheSeite
@@ -767,7 +756,6 @@ FunctionalProgramming
 FutureProofPython
 FxPy
 FöräldrarlösaSidor
-GIL
 GSoC
 GSoC14_email
 GUI Programming in Python
@@ -790,7 +778,6 @@ Gerald Senarclens de Grancy
 GeraldKlix
 Geremy Condra
 GerhardHaering
-GerhardHäring
 GermanLanguage
 GermanPythonBooks
 GetInvolved
@@ -882,10 +869,8 @@ Humor
 HungarianLanguage
 HungarianPythonBooks
 HyperToons
-IDE
 IDEKeyboardShortcuts
 IDEStudio
-IDEs
 IDLE
 IDLEextensions
 IDLEfork
@@ -913,7 +898,6 @@ Informix
 Ingres
 InitialTestingPlan
 InnAndConferenceCenter
-InstantMessaging
 IntegratedDevelopmentEnvironments
 IntegratingPythonWithOtherLanguages
 IntegrationLab
@@ -1162,7 +1146,6 @@ MissingHomePage
 MissingPage
 ModPython
 ModPythonBof
-ModificationsRécentes
 ModificheRecenti
 ModulesAsPlugins
 MohamedAinab
@@ -1208,7 +1191,6 @@ NotebookInterfaceForIpython
 NoufalIbrahim
 NumArray
 NumPy
-Numeric
 NumericAndScientific
 NumericAndScientificRecipes
 NumericAndScientificRecipesInPython
@@ -1230,12 +1212,10 @@ OpenEmbedded
 OpenGL
 OpenKomodo
 OpenSource
-OpenSourceCommunity
 OpenSpace
 OpenSpaceSessions
 OperatorHook
 OptParse
-Option parsing tools
 OptionParsing
 Oracle
 OrganizationsUsingPython
@@ -1250,14 +1230,7 @@ OutOfPrintBooks
 Outreachy
 PATX
 PEEPs
-PEP
-PEP 257
-PEP 8
-PEP257
 PEP3107FunctionAnnotationsRehash
-PEP8
-PIL
-PSF
 PSF Python Job Board
 PSFInfrastructure
 PUN
@@ -1353,7 +1326,6 @@ ProfileReplacementProject
 Programmatic
 ProjectFileAndDirectoryLayout
 ProjectGroupsTemplate
-ProjectTemplate
 ProjectsForLearning
 PromotingPythonBof
 ProposalForPyConIndia
@@ -1498,15 +1470,11 @@ PyOpenGlPyGameOpenSpace
 PyPE
 PyPI
 PyPIComments
-PyPIJSON
-PyPIOAuth
 PyPISimple
 PyPITestingInfrastructure
-PyPIXmlRpc
 PyPerl
 PyPerlish
 PyPiDocumentationHosting
-PyPiHostingDocumentation
 PyPiImplementations
 PyPiTestServer
 PyPortMidi
@@ -1574,7 +1542,6 @@ PythonAndJ2EE
 PythonAndParrot
 PythonApplications
 PythonArabicCommunity
-PythonAroundTheWorld
 PythonAsaFirstLanguage
 PythonAudioMaterial
 PythonBarCamp
@@ -1598,7 +1565,6 @@ PythonCdToDo
 PythonCdTools
 PythonCdWiki
 PythonCommitterGuidelines
-PythonCommunities
 PythonConferences
 PythonConsulting
 PythonCookBook
@@ -1644,9 +1610,7 @@ PythonInMusic
 PythonInWebPage
 PythonInaTie
 PythonInfo
-PythonInfoWiki
 PythonInstalledByDefault
-PythonIrcChannel
 PythonJobs
 PythonLabsPython
 PythonLanguage
@@ -1687,7 +1651,6 @@ PythonSupport
 PythonTesters
 PythonTestingToolsTaxonomy
 PythonThreeDotOh
-PythonThreeThousand
 PythonTraining
 PythonTrainingGroup
 PythonTutorList
@@ -1708,7 +1671,6 @@ PythonWebKit
 PythonWebModules
 PythonWebsite
 PythonWebsiteContentMigration
-PythonWebsiteConventions
 PythonWebsiteCreatingNewTickets
 PythonWebsiteDetails
 PythonWebsiteHomePage
@@ -1812,12 +1774,10 @@ Schevo
 SchoolTool
 SchoolToolSprint
 SchoolsUsingPython
-SciPy
 SciTe
 ScientificProgrammingBooks
 ScientificPython
 Screencasting
-ScriptableInPython
 ScriptingJava
 SeaPig
 SeanGillies
@@ -1861,7 +1821,6 @@ SliceOverNegatives
 SlideShowHandOutTemplate
 SlideShowTemplate
 SlideTemplate
-Slither
 SlovakLanguage
 SloveneLanguage
 SlumpvisSida
@@ -1878,7 +1837,6 @@ SpecialInterestGroups
 SpecializedCommercialHosts
 SpectaGen
 SpectaReg
-SpeedDotPythonDotOrg
 SpeedUp2to3PatternMatching
 SpeedUpInterpreterStartup
 Sphinx
@@ -1898,7 +1856,6 @@ Stani
 Starlanes2Sprint
 StarshipPython
 StarshipTransfer
-StartSeite
 StartingYourUsersGroup
 State Machine via Decorators
 StateProgramming
@@ -2005,7 +1962,6 @@ TipsForInHouseUserGroups
 TitleContributorsDiscussionTemplate
 TitusBrown
 Tix
-TkInter
 TkZinc
 Tkinter3000
 ToMKorn
@@ -2155,7 +2111,6 @@ WikiSandKasse
 WikiSandLåda
 WikiSandkasten
 WikiSpam
-WikiTasks
 WikiTipOfTheDay
 WikiTippDesTages
 WikiUsers
@@ -2167,7 +2122,6 @@ Win32All
 WindowsBooks
 WindowsCompilers
 Wing IDE
-WingIde
 WinniPUG
 WinnipugBuildoutPresentation
 WinstonWolff
@@ -2258,7 +2212,6 @@ higkoo
 hmspy
 houcine cherif
 iKaaro
-implementation
 jEdit
 jHepWork
 jacdeh

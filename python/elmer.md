@@ -1,7 +1,12 @@
 # elmer
 
-::: {#content dir="ltr" lang="en"}
-**elmer** [http://elmer.sourceforge.net](http://elmer.sourceforge.net){.http}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+**elmer** [http://elmer.sourceforge.net](http://elmer.sourceforge.net)
 
 - **Elmer allows Python code to run from C, as if it was written in C.**
 
@@ -118,13 +123,13 @@ Elmer allows developers to leverage the strengths of various languages without t
 
 Although the core features of elmer have gone unchanged for several years, and it has been successfully used in a large commercial project by many different kinds of developers, it is still considered beta. Your feedback is greatly appreciated!
 
-[http://elmer.sourceforge.net](http://elmer.sourceforge.net){.http}
+[http://elmer.sourceforge.net](http://elmer.sourceforge.net)
 
-# Windows Build Mods {#Windows_Build_Mods}
+# Windows Build Mods 
 
 Needed to make a couple of changes to get it to build using Microsoft VS.Net 2003:
 
-{{{libTarget = buildEnv.[StaticLibrary](./StaticLibrary.html){.nonexistent}( target=\"elmer\",
+{{{libTarget = buildEnv.[StaticLibrary](./StaticLibrary.html)( target=\"elmer\",
 
 - source=ELMER_C_SRCS )
 
@@ -132,11 +137,10 @@ Needed to make a couple of changes to get it to build using Microsoft VS.Net 200
 
 instead of:
 
-{{{libTarget = buildEnv.[StaticLibrary](./StaticLibrary.html){.nonexistent}( target=\"elmer\",
+{{{libTarget = buildEnv.[StaticLibrary](./StaticLibrary.html)( target=\"elmer\",
 
 - source=ELMER_C_SRCS + ELMER_H_FILES )
 
 }}}
 
 Also with MS.Net you need to specify CPPFLAGS=/TP on the commandline in order to compile a .c file as C++ (otherwise defaults to C compiler and fails).
-:::

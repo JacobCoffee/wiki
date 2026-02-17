@@ -1,7 +1,12 @@
 # PyCon2006/Tutorials/Python102
 
-::: {#content dir="ltr" lang="en"}
-# \"Python 102\" - What to do after you\'ve learned the syntax. {#A.22Python_102.22_-_What_to_do_after_you.27ve_learned_the_syntax.}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# \"Python 102\" - What to do after you\'ve learned the syntax. 
 
 **NEW - Follow-up session will be held Sunday afternoon. Check the schedule for details.**
 
@@ -9,11 +14,11 @@
 
 **Target audience:** Beginning programmers who have had a little exposure to the Python language. More experienced programmers familiar with other languages but no real experience with Python.
 
-**Recommended prerequisites:** This session assumes some familiarity - but not necessarily proficiency - with the material presented in \"The Python Tutorial\" ([http://www.python.org/doc/current/tut/tut.html](http://www.python.org/doc/current/tut/tut.html){.http})
+**Recommended prerequisites:** This session assumes some familiarity - but not necessarily proficiency - with the material presented in \"The Python Tutorial\" ([http://www.python.org/doc/current/tut/tut.html](http://www.python.org/doc/current/tut/tut.html))
 
 **Focus:** These topics will be presented in the context of several real-life examples drawn from my own personal experience. The sample programs being explored are \'real\' in that they can be used to solve real problems and aren\'t just manufactured as examples.
 
-Topics include:[BoardGameSocial](./BoardGameSocial.html){.nonexistent}
+Topics include:[BoardGameSocial](./BoardGameSocial.html)
 
 A. Language Features
 
@@ -42,4 +47,3 @@ A. Libraries
 **Case study 2:** Comparing a list of file names to the contents of a directory. (Part of a process to identify duplicate files on a hard drive.)
 
 These are just two of the case studies that will be used in this course. Others will be provided, and may be included in the class if time permits.
-:::

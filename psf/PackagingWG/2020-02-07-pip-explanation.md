@@ -1,19 +1,14 @@
 # PackagingWG/2020-02-07-pip-explanation
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 \[Bernard and Pradyun spoke on Feb 6 and Feb 7 to give Bernard an understanding of pip\'s architecture.\]
 
-::: table-of-contents
-Contents
-
-1.  [Feb 6th](#Feb_6th)
-2.  [Feb 7th](#Feb_7th)
-    1.  [USER STORY](#USER_STORY)
-    2.  [Experiment](#Experiment)
-    3.  [The resolver](#The_resolver)
-:::
-
-# Feb 6th {#Feb_6th}
+# Feb 6th 
 
 Pradyun/Bernard discussion, 6 Feb 2020
 
@@ -38,21 +33,21 @@ The different parts of pip:
 
 - config files - saves the user having to express synat ever time (e.g., looking to user\'s own dev infra for downloading packages, etc)
 
-- cli - parsing user input syntax [https://pip.pypa.io/en/stable/user_guide/#config-file](https://pip.pypa.io/en/stable/user_guide/#config-file){.https}
+- cli - parsing user input syntax [https://pip.pypa.io/en/stable/user_guide/#config-file](https://pip.pypa.io/en/stable/user_guide/#config-file)
 
 - implentation files -
 
-- [https://pip.pypa.io/en/stable/reference/](https://pip.pypa.io/en/stable/reference/){.https}
+- [https://pip.pypa.io/en/stable/reference/](https://pip.pypa.io/en/stable/reference/)
 
-- [https://pip.pypa.io/en/stable/user_guide/#config-precedence](https://pip.pypa.io/en/stable/user_guide/#config-precedence){.https}
+- [https://pip.pypa.io/en/stable/user_guide/#config-precedence](https://pip.pypa.io/en/stable/user_guide/#config-precedence)
 
-- [https://packaging.python.org/key_projects/](https://packaging.python.org/key_projects/){.https}
+- [https://packaging.python.org/key_projects/](https://packaging.python.org/key_projects/)
 
-- [https://pradyunsg.me/talks/slides/2019-python-packaging-overview.pdf](https://pradyunsg.me/talks/slides/2019-python-packaging-overview.pdf){.https} \-- some relevant notes
+- [https://pradyunsg.me/talks/slides/2019-python-packaging-overview.pdf](https://pradyunsg.me/talks/slides/2019-python-packaging-overview.pdf) \-- some relevant notes
 
-- [https://pradyunsg.me/talks/](https://pradyunsg.me/talks/){.https} \-- has the video of the talk corresponding to those slides
+- [https://pradyunsg.me/talks/](https://pradyunsg.me/talks/) \-- has the video of the talk corresponding to those slides
 
-Chunks of work ([https://github.com/pypa/pip/milestone/10](https://github.com/pypa/pip/milestone/10){.https})
+Chunks of work ([https://github.com/pypa/pip/milestone/10](https://github.com/pypa/pip/milestone/10))
 
 knowing what the key func is
 
@@ -70,9 +65,9 @@ which switches are useful? which are not?
 
 How possible is it for us to map all the pip command journeys\' flows? Essentially
 
-Look at how long this is: [https://pip.pypa.io/en/stable/reference/pip_install/](https://pip.pypa.io/en/stable/reference/pip_install/){.https} (complexity in pip\'s options)
+Look at how long this is: [https://pip.pypa.io/en/stable/reference/pip_install/](https://pip.pypa.io/en/stable/reference/pip_install/) (complexity in pip\'s options)
 
-# Feb 7th {#Feb_7th}
+# Feb 7th 
 
 Pradyun / Bernard discussion 7 Feb 2020
 
@@ -96,7 +91,7 @@ Research question (needs better work):
 
 If I\'m a dev of a project that I want to publish that on PyPI. PyPI accepts certain types of files - wheels and distro - to go from local dir on my PC (which has all the files) to the state i can upload a built distro to pypi or a company server - that step is is unclear.
 
-The reasons are described in this thread [https://discuss.python.org/t/building-distributions-and-drawing-the-platypus/2062](https://discuss.python.org/t/building-distributions-and-drawing-the-platypus/2062){.https} . (Ignore the last 2/3 comments there\'s a lot of discussion.)
+The reasons are described in this thread [https://discuss.python.org/t/building-distributions-and-drawing-the-platypus/2062](https://discuss.python.org/t/building-distributions-and-drawing-the-platypus/2062) . (Ignore the last 2/3 comments there\'s a lot of discussion.)
 
 Q for me: what UX work needs to be carried out for this?
 
@@ -116,7 +111,7 @@ Design: ideally the output of this would be to \"put all of this functionality i
 
 review: install a bunch of packages and use the different
 
-*search tagged issues: [https://github.com/pypa/pip/labels/C%3A%20search](https://github.com/pypa/pip/labels/C%3A%20search){.https}*
+*search tagged issues: [https://github.com/pypa/pip/labels/C%3A%20search](https://github.com/pypa/pip/labels/C%3A%20search)*
 
 2 patterns that users had issues with: no error messages / errors+info were together or \"mysterious\" messages
 
@@ -128,17 +123,17 @@ It depends on the context of how to display errors.
 
 We have output that have holes that we want to fill - we need to work out what context needs to be given to the user
 
-- [https://github.com/pypa/pip/milestone/25](https://github.com/pypa/pip/milestone/25){.https}
+- [https://github.com/pypa/pip/milestone/25](https://github.com/pypa/pip/milestone/25)
 
-- [https://github.com/pypa/pip/issues/5182](https://github.com/pypa/pip/issues/5182){.https} \-- as an example - instead of displaying an exception, better to wrap it into a \"we tried to do this, but it failed\".
+- [https://github.com/pypa/pip/issues/5182](https://github.com/pypa/pip/issues/5182) \-- as an example - instead of displaying an exception, better to wrap it into a \"we tried to do this, but it failed\".
 
 Past case of similar issues
 
-- [https://github.com/pypa/pip/issues/5237](https://github.com/pypa/pip/issues/5237){.https} (issue)
+- [https://github.com/pypa/pip/issues/5237](https://github.com/pypa/pip/issues/5237) (issue)
 
-- [https://github.com/pypa/pip/pull/5239](https://github.com/pypa/pip/pull/5239){.https} (fix)
+- [https://github.com/pypa/pip/pull/5239](https://github.com/pypa/pip/pull/5239) (fix)
 
-Best practices for writing error messages: [https://www.nngroup.com/articles/ten-usability-heuristics/](https://www.nngroup.com/articles/ten-usability-heuristics/){.https}
+Best practices for writing error messages: [https://www.nngroup.com/articles/ten-usability-heuristics/](https://www.nngroup.com/articles/ten-usability-heuristics/)
 
 desk research: are there best design guidelines for writing error messages for promoting heuristic #9?
 
@@ -150,11 +145,11 @@ Good outcome: Maintainer guidelines for error messages
 
 Optimistic outcome: Maintainer guidance on identifying areas where we might have such errors
 
-[https://wiki.python.org/psf/Pip2020DonorFundedRoadmap](https://wiki.python.org/psf/Pip2020DonorFundedRoadmap){.https}
+[https://wiki.python.org/psf/Pip2020DonorFundedRoadmap](https://wiki.python.org/psf/Pip2020DonorFundedRoadmap)
 
 *verbosity / output + failure visibility* Broader than error messages. is this in/out of scope?
 
-## USER STORY {#USER_STORY}
+## USER STORY 
 
 As a user I want to know whats make the display less mysterious
 
@@ -166,11 +161,11 @@ Do we want to interrupt the user in a resolve dep. issue, or print an error at t
 
 TODO read this:
 
-- [https://github.com/pypa/pip/issues/4649](https://github.com/pypa/pip/issues/4649){.https}
+- [https://github.com/pypa/pip/issues/4649](https://github.com/pypa/pip/issues/4649)
 
-- [https://github.com/pypa/pip/issues/4649#issuecomment-333690763](https://github.com/pypa/pip/issues/4649#issuecomment-333690763){.https}
+- [https://github.com/pypa/pip/issues/4649#issuecomment-333690763](https://github.com/pypa/pip/issues/4649#issuecomment-333690763)
 
-- [https://github.com/pypa/pip/issues/4649#issuecomment-333738894](https://github.com/pypa/pip/issues/4649#issuecomment-333738894){.https}
+- [https://github.com/pypa/pip/issues/4649#issuecomment-333738894](https://github.com/pypa/pip/issues/4649#issuecomment-333738894)
 
 Does the structure make sense?
 
@@ -180,7 +175,7 @@ Cascading tasks
 
 - have helpers in the code there is a lot of output - do we want to show \*everything\*?
 
-## Experiment {#Experiment}
+## Experiment 
 
 experiment: take a package with lots of dependencies
 
@@ -201,7 +196,7 @@ Are there \"defined\" steps in the complication?
   - repeat
 - then finally install
 
-## The resolver {#The_resolver}
+## The resolver 
 
 *resolver* this resolves what to download, build, this gives us a state and how to get there.
 
@@ -223,17 +218,17 @@ download - we\'ll dump this into a dir the user
 
 - TODO: user documentation about pip wheel and pip install
 - TODO: discuss the nuance between install / download / wheel
-  - suggestion: look at .py files for details: [https://github.com/pypa/pip/tree/master/src/pip/\_internal/commands](https://github.com/pypa/pip/tree/master/src/pip/_internal/commands){.https}
+  - suggestion: look at .py files for details: [https://github.com/pypa/pip/tree/master/src/pip/\_internal/commands](https://github.com/pypa/pip/tree/master/src/pip/_internal/commands)
 
-    - [https://github.com/pypa/pip/blob/master/src/pip/\_internal/commands/download.py#L131](https://github.com/pypa/pip/blob/master/src/pip/_internal/commands/download.py#L131){.https}
+    - [https://github.com/pypa/pip/blob/master/src/pip/\_internal/commands/download.py#L131](https://github.com/pypa/pip/blob/master/src/pip/_internal/commands/download.py#L131)
 
-    - [https://github.com/pypa/pip/blob/master/src/pip/\_internal/commands/install.py#L327](https://github.com/pypa/pip/blob/master/src/pip/_internal/commands/install.py#L327){.https}
+    - [https://github.com/pypa/pip/blob/master/src/pip/\_internal/commands/install.py#L327](https://github.com/pypa/pip/blob/master/src/pip/_internal/commands/install.py#L327)
 
-    - [https://github.com/pypa/pip/blob/master/src/pip/\_internal/commands/wheel.py#L157](https://github.com/pypa/pip/blob/master/src/pip/_internal/commands/wheel.py#L157){.https}
+    - [https://github.com/pypa/pip/blob/master/src/pip/\_internal/commands/wheel.py#L157](https://github.com/pypa/pip/blob/master/src/pip/_internal/commands/wheel.py#L157)
 
       - see what happens after resolver.resolve
 
-*review the command line usability for automated scripts* pfmoore filed it \-- [https://github.com/pypa/pip/issues/6099](https://github.com/pypa/pip/issues/6099){.https}
+*review the command line usability for automated scripts* pfmoore filed it \-- [https://github.com/pypa/pip/issues/6099](https://github.com/pypa/pip/issues/6099)
 
 \"pip blowsup it usually ends up breaking someones pipeline. a lot of people are going to pinged, probably in the middle of the night.\"
 
@@ -264,7 +259,7 @@ I get paid to work on python, everyday. I have specific workflows, I want contro
 
 - no idea how to even start with these; what\'s a priority etc - Pradyun
 
-TODO: reread [https://packaging.python.org/glossary/](https://packaging.python.org/glossary/){.https} as a result of today\'s discussion
+TODO: reread [https://packaging.python.org/glossary/](https://packaging.python.org/glossary/) as a result of today\'s discussion
 
 Non-professional users will find it easier to find errors/warnings at the end
 
@@ -272,13 +267,12 @@ Non-professional users will find it easier to find errors/warnings at the end
 
 Bernard to make a branch for this work, make it and test it. Maybe work with Pradyun on the messaging.
 
-- [https://github.com/pypa/packaging-problems/wiki](https://github.com/pypa/packaging-problems/wiki){.https}
+- [https://github.com/pypa/packaging-problems/wiki](https://github.com/pypa/packaging-problems/wiki)
 
-- [https://github.com/bokeh/bokeh/wiki](https://github.com/bokeh/bokeh/wiki){.https}
+- [https://github.com/bokeh/bokeh/wiki](https://github.com/bokeh/bokeh/wiki)
 
 - TODO bernard: give Pradyun link to the where I will be putting this notes.
 
 - TODO bernard: Improve and restore packaging problems wiki
 
-- TODO bernard: reread and digest: [https://github.com/pypa/packaging-problems/wiki/User-experience-issues](https://github.com/pypa/packaging-problems/wiki/User-experience-issues){.https}
-::::
+- TODO bernard: reread and digest: [https://github.com/pypa/packaging-problems/wiki/User-experience-issues](https://github.com/pypa/packaging-problems/wiki/User-experience-issues)

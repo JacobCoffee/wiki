@@ -1,13 +1,17 @@
 # jeromefreeman
 
-::: {#content dir="ltr" lang="en"}
-## Jerome L Freeman {#Jerome_L_Freeman}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Email: \<\<[freeman.jerome@gmail.com](mailto:freeman.jerome@gmail.com){.mailto}\>\>
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Jerome L Freeman 
+
+Email: \<\<[freeman.jerome@gmail.com](mailto:freeman.jerome@gmail.com)\>\>
 
 \...
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

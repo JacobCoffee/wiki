@@ -18,7 +18,6 @@ SocialNetworkingActivities
 SponsorReception
 SprintSignups
 Staff
-SurveyDemo
 TeachMeTwisted
 Texas Pythoneers%21
 ```

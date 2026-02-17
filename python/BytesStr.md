@@ -1,22 +1,27 @@
 # BytesStr
 
-::: {#content dir="ltr" lang="en"}
-# Text handling in Python 3 {#Text_handling_in_Python_3}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Text handling in Python 3 
 
 Python 3 uses two very different types:
 
-- `bytes`: intended to represent raw byte data. For more information on this type, please consult [PEP 358](http://www.python.org/dev/peps/pep-0358/){.http}.
+- `bytes`: intended to represent raw byte data. For more information on this type, please consult [PEP 358](http://www.python.org/dev/peps/pep-0358/).
 
 - `str`: a unicode character string
 
-## Choosing Between \"bytes\" and \"str\" {#Choosing_Between_.22bytes.22_and_.22str.22}
+## Choosing Between \"bytes\" and \"str\" 
 
 When choosing the type you want to use to work with text you have to ask yourself: do I manipulate characters or bytes (integers)? \"A\" is a character and 65 is an integer. Examples:
 
 - a network socket manipulates bytes
 - a text parser manipulates characters (uses lower, strip, etc. methods)
 
-## Iterating over \"bytes\" {#Iterating_over_.22bytes.22}
+## Iterating over \"bytes\" 
 
 It\'s important to note that the `bytes` iterator generates integers and not characters:
 
@@ -26,7 +31,7 @@ It\'s important to note that the `bytes` iterator generates integers and not cha
     98
     99
 
-## Comparing \"bytes\" {#Comparing_.22bytes.22}
+## Comparing \"bytes\" 
 
 Comparing one `bytes` object to another works as expected:
 
@@ -59,7 +64,7 @@ As mentioned earlier, getting an item of a bytes returns an integer, not a bytes
     >>> b'xyz'[0]
     120
 
-### Hashing \"bytes\" {#Hashing_.22bytes.22}
+### Hashing \"bytes\" 
 
 `bytes` is mutable, and as a result, it\'s not hashable. Among other things, this means that `bytes` objects can\'t be used as keys in dictionaries.
 
@@ -73,7 +78,6 @@ Other solutions include:
 
 - avoid using hash
 
-# Historical information {#Historical_information}
+# Historical information 
 
-For historical information that may be useful in porting or maintaining remaining Python 2 systems, please see [previous page revisions](https://wiki.python.org/moin/BytesStr?action=recall&rev=12){.https}.
-:::
+For historical information that may be useful in porting or maintaining remaining Python 2 systems, please see [previous page revisions](https://wiki.python.org/moin/BytesStr?action=recall&rev=12).

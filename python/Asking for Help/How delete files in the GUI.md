@@ -1,7 +1,12 @@
 # Asking for Help/How delete files in the GUI
 
-:::: {#content dir="ltr" lang="en"}
-# Asking for Help: How delete files in the GUI {#Asking_for_Help:_How_delete_files_in_the_GUI}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: How delete files in the GUI 
 
 I use the GUI Python Shell (Idle V3.2) and I have many files names in the menu File \--\> Recent Files, I hope delete some files because the list is very important, how do this?
 
@@ -12,4 +17,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp)
-::::

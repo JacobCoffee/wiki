@@ -1,11 +1,16 @@
 # ConfigObj
 
-::: {#content dir="ltr" lang="en"}
-# ConfigObj {#ConfigObj-1}
+```{admonition} Legacy Wiki Page
+:class: note
 
-[ConfigObj 4 Manual and Download](http://www.voidspace.org.uk/python/configobj.html){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-This is now a very powerful config file parser - by [MichaelFoord](MichaelFoord) and [NicolaLarosa](./NicolaLarosa.html){.nonexistent}.
+# ConfigObj 
+
+[ConfigObj 4 Manual and Download](http://www.voidspace.org.uk/python/configobj.html)
+
+This is now a very powerful config file parser - by [MichaelFoord](MichaelFoord) and [NicolaLarosa](./NicolaLarosa.html).
 
 As of version 4 it reads and writes sections nested to \*any\* depth. It uses square brackets round section markers to denote nesting. this means it is compatible with most files written for [ConfigParser](ConfigParser) : ::
 
@@ -35,4 +40,3 @@ ConfigObj also has a feature I \*think\* is unique - in the shape of a tightly i
 The type specification is kept in a separate schema (which has a simple key = checkname(parameters) syntax and also allows for default values. The validation process checks that the config file matches the schema and fills in any default values. It also converts all values that pass into the required type.
 
 This means a ConfigObj is an abstraction of \*config data\* - not just the config file, at no cost to the \*user\*. The validation system is simple and extendable.
-:::

@@ -1,7 +1,12 @@
 # PyOhio/Staff
 
-::::: {#content dir="ltr" lang="en"}
-::: {#pyohio-2010 .section}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+::: 
 ### PyOhio 2010
 
   --------------------------------------------------------------------------------------------------------------------------
@@ -42,10 +47,10 @@
   Lodging coordinator                   
   --------------------------------------------------------------------------------------------------------------------------
 
-More information about some of these roles can be found at [PyOhio/Tasks](./PyOhio(2f)Tasks.html){.reference .external}.
+More information about some of these roles can be found at [PyOhio/Tasks](./PyOhio(2f)Tasks.html).
 :::
 
-::: {#pyohio-2009 .section}
+::: 
 ### PyOhio 2009
 
 PyOhio will be volunteer-run. Please sign yourself up for an open position, or define your own position! The more people help out, the better PyOhio will be.
@@ -94,4 +99,3 @@ Several other positions have not been filled. Step up!
   (your suggestion here)                               
   -----------------------------------------------------------------------
 :::
-:::::

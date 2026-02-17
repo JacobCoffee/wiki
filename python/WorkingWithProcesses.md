@@ -1,17 +1,22 @@
 # WorkingWithProcesses
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 These are just some notes about working with processes in Python.
 
-The module of interest is `os`. [(os module documentation)](http://www.python.org/doc/current/lib/module-os.html){.http}
+The module of interest is `os`. [(os module documentation)](http://www.python.org/doc/current/lib/module-os.html)
 
 Environment variables are accessed through a dictionary, `os.environ`.
 
-Processes are created with `os.popen`, [described in os 6.1.2.](http://www.python.org/doc/current/lib/os-newstreams.html#os-newstreams){.http}
+Processes are created with `os.popen`, [described in os 6.1.2.](http://www.python.org/doc/current/lib/os-newstreams.html#os-newstreams)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-6094bc9f3bdb5b1256a217c1f6daf6de4a560023 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import os
    2 
    3 # Export an environment variable
@@ -28,4 +33,3 @@ Processes are created with `os.popen`, [described in os 6.1.2.](http://www.pytho
 ```
 :::
 ::::
-:::::

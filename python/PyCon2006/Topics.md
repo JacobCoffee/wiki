@@ -1,6 +1,11 @@
 # PyCon2006/Topics
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 What sorts of papers and open space events would you like to see?
 
 Anything on object databases, such as Durus, Schevo, and ZODB.
@@ -13,7 +18,7 @@ Pypy - a deeper look into it. News / plans about it.
 
 Unununium - the python OS.
 
-[SciPy](SciPy), Numeric, [BioPy](./BioPy.html){.nonexistent}
+[SciPy](SciPy), Numeric, [BioPy](./BioPy.html)
 
 wxPython - Especially anything beyond \"how to create your first wxPython app\"
 
@@ -26,4 +31,3 @@ decorators - when and how to use them
 ------------------------------------------------------------------------
 
 [CategoryPyCon2006](CategoryPyCon2006) [CategoryPyCon2006](CategoryPyCon2006)
-:::

@@ -1,9 +1,14 @@
 # PyQt/A custom Python class-based 1D model
 
-::::: {#content dir="ltr" lang="en"}
-# A custom Python class-based 1D model {#A_custom_Python_class-based_1D_model}
+```{admonition} Legacy Wiki Page
+:class: note
 
-On 2010-04-12, on the `#pyqt`{.backtick} channel on Freenode, `rowinggolfer`{.backtick} [pasted](http://paste.debian.net/68590/){.http} the following model with these remarks:
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# A custom Python class-based 1D model 
+
+On 2010-04-12, on the `#pyqt`{.backtick} channel on Freenode, `rowinggolfer`{.backtick} [pasted](http://paste.debian.net/68590/) the following model with these remarks:
 
     [18:20] <rowinggolfer> I played with a custom python class based 1d model, attached to a listview, and accessed via drag/drop.
     [18:20] <rowinggolfer> I put the code up here for anyone to play with / fine tune.
@@ -12,9 +17,9 @@ On 2010-04-12, on the `#pyqt`{.backtick} channel on Freenode, `rowinggolfer`{.ba
     [18:21] <rowinggolfer> and converting to a bytestream using pickle
     [18:22] <rowinggolfer> I also played with generating a nice pixmap for the drag, but decided that the grabwidget method is easiest.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1a57a6287929d05bf9769f8cb3da9da79892fb12 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import datetime
    2 import cPickle
    3 import pickle
@@ -185,4 +190,3 @@ On 2010-04-12, on the `#pyqt`{.backtick} channel on Freenode, `rowinggolfer`{.ba
 ```
 :::
 ::::
-:::::

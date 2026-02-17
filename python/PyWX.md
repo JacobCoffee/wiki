@@ -1,9 +1,14 @@
 # PyWX
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 A framework for [WebProgramming](WebProgramming).
 
-### Masthead {#Masthead}
+### Masthead 
 
 URL
 
@@ -22,23 +27,23 @@ platforms
 Python versions
 :   ???
 
-### Deployment Platforms {#Deployment_Platforms}
+### Deployment Platforms 
 
 AOLserver 3.0 - 3.2
 
-### Suitability {#Suitability}
+### Suitability 
 
-### Development Interfaces {#Development_Interfaces}
+### Development Interfaces 
 
-### Environment Access {#Environment_Access}
+### Environment Access 
 
-### Session, Identification and Authentication {#Session.2C_Identification_and_Authentication}
+### Session, Identification and Authentication 
 
-### Persistence Support {#Persistence_Support}
+### Persistence Support 
 
-### Presentation Support {#Presentation_Support}
+### Presentation Support 
 
-### InTheirOwnWords {#InTheirOwnWords}
+### InTheirOwnWords 
 
 - Threaded execution
 
@@ -54,7 +59,6 @@ AOLserver 3.0 - 3.2
 
 - Internal [Webware](./Webware.html) adaptor
 
-### Comments {#Comments}
+### Comments 
 
-### Hosting {#Hosting}
-:::
+### Hosting 

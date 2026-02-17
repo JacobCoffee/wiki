@@ -1,7 +1,12 @@
 # OutOfPrintBooks
 
-:::: {#content dir="ltr" lang="en"}
-# Out of print books. {#Out_of_print_books.}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Out of print books. 
 
 ::: caution
 **Out of print Python books.**
@@ -9,11 +14,11 @@
 All books in this category are out of print. They may contain outdated information and are listed here only for historical reference.
 :::
 
-![{i}](/wiki/europython/img/icon-info.png "{i}"){height="16" width="16"} Ordered by publication date.
+![{i}](/wiki/europython/img/icon-info.png "{i}") Ordered by publication date.
 
-## Internet Programming with Python {#Internet_Programming_with_Python}
+## Internet Programming with Python 
 
-![Internet Programming width Python book cover](attachments/OutOfPrintBooks/internet_programming_python_cover.png "Internet Programming width Python book cover"){.attachment align="right" width="130"}
+![Internet Programming width Python book cover](attachments/OutOfPrintBooks/internet_programming_python_cover.png "Internet Programming width Python book cover")
 
 - **By:** Aaron Watters, Guido van Rossum and James C. Ahlstrom.
 
@@ -29,13 +34,13 @@ All books in this category are out of print. They may contain outdated informati
 
 This was the very first Python book to be published.
 
-**Links:** [Pythonpros (The Wayback Machine)](http://web.archive.org/web/20031101115325/http://www.pythonpros.com/arw/ipwp.html){.http} , [FSB Associates (The Wayback Machine)](http://web.archive.org/web/20031004031523/http://www.fsbassociates.com/books/python.htm){.http} ,[Chapter 1 (The Wayback Machine)](http://web.archive.org/web/20031003113033/http://www.fsbassociates.com/books/pythonchpt1.htm){.http} , [Linux Journal review](http://www.linuxjournal.com/article/2152){.http}
+**Links:** [Pythonpros (The Wayback Machine)](http://web.archive.org/web/20031101115325/http://www.pythonpros.com/arw/ipwp.html) , [FSB Associates (The Wayback Machine)](http://web.archive.org/web/20031004031523/http://www.fsbassociates.com/books/python.htm) ,[Chapter 1 (The Wayback Machine)](http://web.archive.org/web/20031003113033/http://www.fsbassociates.com/books/pythonchpt1.htm) , [Linux Journal review](http://www.linuxjournal.com/article/2152)
 
 ------------------------------------------------------------------------
 
-## Programming Python (1st edition) {#Programming_Python_.281st_edition.29}
+## Programming Python (1st edition) 
 
-![Programming Python 1st edition book cover](attachments/OutOfPrintBooks/programming_python_1st_cover.png "Programming Python 1st edition book cover"){.attachment align="right" width="130"}
+![Programming Python 1st edition book cover](attachments/OutOfPrintBooks/programming_python_1st_cover.png "Programming Python 1st edition book cover")
 
 - **By:** Mark Lutz
 
@@ -49,13 +54,13 @@ This was the very first Python book to be published.
 
 - **Python version covered:** 1.3
 
-**Links:** [O\'Reilly\'s webpage](http://shop.oreilly.com/product/9781565921979.do){.http} , [Mark Lutz\'s webpage](http://www.rmi.net/~lutz/about-pp1e.html){.http} , [foreword by Guido van Rossum](https://www.python.org/doc/essays/foreword/){.https}
+**Links:** [O\'Reilly\'s webpage](http://shop.oreilly.com/product/9781565921979.do) , [Mark Lutz\'s webpage](http://www.rmi.net/~lutz/about-pp1e.html) , [foreword by Guido van Rossum](https://www.python.org/doc/essays/foreword/)
 
 ------------------------------------------------------------------------
 
-## Python Pocket Reference (1st edition) {#Python_Pocket_Reference_.281st_edition.29}
+## Python Pocket Reference (1st edition) 
 
-![Python Pocket Reference 1st edition book cover](attachments/OutOfPrintBooks/python_pocket_reference_1st_cover.png "Python Pocket Reference 1st edition book cover"){.attachment align="right" width="130"}
+![Python Pocket Reference 1st edition book cover](attachments/OutOfPrintBooks/python_pocket_reference_1st_cover.png "Python Pocket Reference 1st edition book cover")
 
 - **By:** Mark Lutz.
 
@@ -69,13 +74,13 @@ This was the very first Python book to be published.
 
 - **Python version covered:** 1.5.1
 
-**Links:** [O\'Reilly\'s webpage](http://shop.oreilly.com/product/9781565925007.do){.http} , [Mark Lutz\'s webpage](http://www.rmi.net/~lutz/about-ppr.html){.http}
+**Links:** [O\'Reilly\'s webpage](http://shop.oreilly.com/product/9781565925007.do) , [Mark Lutz\'s webpage](http://www.rmi.net/~lutz/about-ppr.html)
 
 ------------------------------------------------------------------------
 
-## Learning Python (1st edition) {#Learning_Python_.281st_edition.29}
+## Learning Python (1st edition) 
 
-![Learning Python 1st edition book cover](attachments/OutOfPrintBooks/learning_python_1st_cover.png "Learning Python 1st edition book cover"){.attachment align="right" width="130"}
+![Learning Python 1st edition book cover](attachments/OutOfPrintBooks/learning_python_1st_cover.png "Learning Python 1st edition book cover")
 
 - **By:** Mark Lutz and David Ascher.
 
@@ -89,13 +94,13 @@ This was the very first Python book to be published.
 
 - **Python version covered:** 1.5.2
 
-**Links:** [O\'Reilly\'s webpage](http://shop.oreilly.com/product/9781565924642.do){.http} , [Mark Lutz\'s webpage](http://www.rmi.net/~lutz/about-lp1e.html){.http}
+**Links:** [O\'Reilly\'s webpage](http://shop.oreilly.com/product/9781565924642.do) , [Mark Lutz\'s webpage](http://www.rmi.net/~lutz/about-lp1e.html)
 
 ------------------------------------------------------------------------
 
-## Python Annotated Archives {#Python_Annotated_Archives}
+## Python Annotated Archives 
 
-![Python Annotated Archives book cover](attachments/OutOfPrintBooks/python_annotated_archives_cover.jpg "Python Annotated Archives book cover"){.attachment align="right" width="120"}
+![Python Annotated Archives book cover](attachments/OutOfPrintBooks/python_annotated_archives_cover.jpg "Python Annotated Archives book cover")
 
 - **By:** Martin C. Brown
 
@@ -111,9 +116,9 @@ This was the very first Python book to be published.
 
 ------------------------------------------------------------------------
 
-## Programming with Python {#Programming_with_Python}
+## Programming with Python 
 
-![Programming with Python book cover](attachments/OutOfPrintBooks/programming_with_Python_cover.png "Programming with Python book cover"){.attachment align="right" width="120"}
+![Programming with Python book cover](attachments/OutOfPrintBooks/programming_with_Python_cover.png "Programming with Python book cover")
 
 - **By:** Tim Altom and Mitch Chapman.
 
@@ -129,7 +134,7 @@ This was the very first Python book to be published.
 
 ------------------------------------------------------------------------
 
-## Python Essential Reference (1st edition) {#Python_Essential_Reference_.281st_edition.29}
+## Python Essential Reference (1st edition) 
 
 - **By:** David M.Beazley.
 
@@ -143,11 +148,11 @@ This was the very first Python book to be published.
 
 - **Python version covered:** 1.5.2
 
-**Links:** [David Beazley\'s webpage](http://www.dabeaz.com/per.html){.http} , [Pearson webpage](http://www.pearsoned.co.uk/bookshop/detail.asp?WT.oss=978-0735709010&WT.oss_r=1&item=205831){.http}
+**Links:** [David Beazley\'s webpage](http://www.dabeaz.com/per.html) , [Pearson webpage](http://www.pearsoned.co.uk/bookshop/detail.asp?WT.oss=978-0735709010&WT.oss_r=1&item=205831)
 
 ------------------------------------------------------------------------
 
-## The Quick Python Book {#The_Quick_Python_Book}
+## The Quick Python Book 
 
 - **By:** Daryl Harms and Kenneth McDonald.
 
@@ -159,11 +164,11 @@ This was the very first Python book to be published.
 
 - **Python version covered:** 1.5.2
 
-**Links:** [Manning\'s webpage](http://www.manning.com/harms/){.http}
+**Links:** [Manning\'s webpage](http://www.manning.com/harms/)
 
 ------------------------------------------------------------------------
 
-## Teach Yourself Python in 24 Hours (1st edition) {#Teach_Yourself_Python_in_24_Hours_.281st_edition.29}
+## Teach Yourself Python in 24 Hours (1st edition) 
 
 - **By:** Ivan van Laningham
 
@@ -179,11 +184,11 @@ This was the very first Python book to be published.
 
 This book\'s primary aim is to teach programming using Python as the language. Readers don\'t need previous programming experience.
 
-**Links:** [Ivan van Laningham\'s webpage](http://www.pauahtun.org/TYPython/){.http} [Pearson webpage](http://www.pearsoned.co.uk/bookshop/detail.asp?WT.oss=978-0672317354&WT.oss_r=1&item=235903){.http}
+**Links:** [Ivan van Laningham\'s webpage](http://www.pauahtun.org/TYPython/) [Pearson webpage](http://www.pearsoned.co.uk/bookshop/detail.asp?WT.oss=978-0672317354&WT.oss_r=1&item=235903)
 
 ------------------------------------------------------------------------
 
-## Core Python Programming (1st edition) {#Core_Python_Programming_.281st_edition.29}
+## Core Python Programming (1st edition) 
 
 - **By:** Wesley Chun.
 
@@ -197,11 +202,11 @@ This book\'s primary aim is to teach programming using Python as the language. R
 
 - **Python version covered:** 1.6
 
-**Links:** [Pearson\'s webpage](http://www.informit.com/store/core-python-programming-9780130260369){.http} , [Wesley Chun\'s webpage](http://corepython.com/cpp1e/){.http} , [Chapter 1 (PDF)](http://vig.pearsoned.com/samplechapter/0130260363.pdf){.http} , [Linux Journal book review](http://www.linuxjournal.com/article/4564){.http}
+**Links:** [Pearson\'s webpage](http://www.informit.com/store/core-python-programming-9780130260369) , [Wesley Chun\'s webpage](http://corepython.com/cpp1e/) , [Chapter 1 (PDF)](http://vig.pearsoned.com/samplechapter/0130260363.pdf) , [Linux Journal book review](http://www.linuxjournal.com/article/4564)
 
 ------------------------------------------------------------------------
 
-## Programming Python (2nd edition) {#Programming_Python_.282nd_edition.29}
+## Programming Python (2nd edition) 
 
 - **By:** Mark Lutz
 
@@ -215,11 +220,11 @@ This book\'s primary aim is to teach programming using Python as the language. R
 
 - **Python version covered:** 2.0
 
-**Links:** [O\'Reilly\'s webpage](http://shop.oreilly.com/product/9780596000851.do){.http} , [Mark Lutz\'s webpage](http://www.rmi.net/~lutz/about-pp2e.html){.http} , [Foreword by Guido van Rossum](https://www.python.org/doc/essays/foreword2/){.https} , [Google Books](https://books.google.com/books?id=c8pV-TzyfBUC&printsec=frontcover){.https}
+**Links:** [O\'Reilly\'s webpage](http://shop.oreilly.com/product/9780596000851.do) , [Mark Lutz\'s webpage](http://www.rmi.net/~lutz/about-pp2e.html) , [Foreword by Guido van Rossum](https://www.python.org/doc/essays/foreword2/) , [Google Books](https://books.google.com/books?id=c8pV-TzyfBUC&printsec=frontcover)
 
 ------------------------------------------------------------------------
 
-## Python Essential Reference (2nd edition) {#Python_Essential_Reference_.282nd_edition.29}
+## Python Essential Reference (2nd edition) 
 
 - **By:** David M. Beazley.
 
@@ -233,11 +238,11 @@ This book\'s primary aim is to teach programming using Python as the language. R
 
 - **Python version covered:** 2.1
 
-**Links:** [David Beazley\'s webpage](http://www.dabeaz.com/per.html){.http} [Pearson webpage](http://www.pearsoned.co.uk/bookshop/detail.asp?WT.oss=978-0735710917&WT.oss_r=1&item=246881){.http} , [Google books](https://books.google.com/books?id=dmTxDL53i1AC&printsec=frontcover){.https}
+**Links:** [David Beazley\'s webpage](http://www.dabeaz.com/per.html) [Pearson webpage](http://www.pearsoned.co.uk/bookshop/detail.asp?WT.oss=978-0735710917&WT.oss_r=1&item=246881) , [Google books](https://books.google.com/books?id=dmTxDL53i1AC&printsec=frontcover)
 
 ------------------------------------------------------------------------
 
-## Perl to Python Migration {#Perl_to_Python_Migration}
+## Perl to Python Migration 
 
 - **By:** Martin C. Brown
 
@@ -253,11 +258,11 @@ This book\'s primary aim is to teach programming using Python as the language. R
 
 \"Are you a Perl programmer who would like to be able to program in Python? Brimming with a wealth of practical examples and resources, this book will show you how.\"
 
-**Links:** [Pearson Editorial](http://www.informit.com/store/perl-to-python-migration-9780201734881){.http} , [Martin C. Brown Web page (The Wayback Machine)](http://web.archive.org/web/20030719084705/http://mcwords.com/projects/books/p2py/){.http}
+**Links:** [Pearson Editorial](http://www.informit.com/store/perl-to-python-migration-9780201734881) , [Martin C. Brown Web page (The Wayback Machine)](http://web.archive.org/web/20030719084705/http://mcwords.com/projects/books/p2py/)
 
 ------------------------------------------------------------------------
 
-## Python Pocket Reference (2nd Edition) {#Python_Pocket_Reference_.282nd_Edition.29}
+## Python Pocket Reference (2nd Edition) 
 
 - **By:** Mark Lutz.
 
@@ -271,11 +276,11 @@ This book\'s primary aim is to teach programming using Python as the language. R
 
 - **Python version covered:** 2.1
 
-**Links:** [O\'Reilly\'s webpage](http://shop.oreilly.com/product/9780596001896.do){.http} , [Google books](https://books.google.com/books?id=q4LtdR0cAiYC&printsec=frontcover){.https}
+**Links:** [O\'Reilly\'s webpage](http://shop.oreilly.com/product/9780596001896.do) , [Google books](https://books.google.com/books?id=q4LtdR0cAiYC&printsec=frontcover)
 
 ------------------------------------------------------------------------
 
-## Python Programming Patterns {#Python_Programming_Patterns}
+## Python Programming Patterns 
 
 - **By:** Thomas Christopher.
 
@@ -289,5 +294,4 @@ This book\'s primary aim is to teach programming using Python as the language. R
 
 - **Python version covered:** 2.1
 
-**Links:** [Pearson webpage](http://www.pearsoned.co.uk/bookshop/detail.asp?WT.oss=978-0130409560&WT.oss_r=1&item=231723){.http}
-::::
+**Links:** [Pearson webpage](http://www.pearsoned.co.uk/bookshop/detail.asp?WT.oss=978-0130409560&WT.oss_r=1&item=231723)

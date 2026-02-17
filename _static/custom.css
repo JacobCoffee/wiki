@@ -1,1 +1,218 @@
-/* Python Wiki Archive - custom overrides */
+/* Python Wiki — Custom Theme Overrides */
+
+/* ── Python Brand Colors ─────────────────────────────────── */
+:root {
+  --python-blue: #306998;
+  --python-blue-dark: #1e4f72;
+  --python-blue-light: #4b8bbe;
+  --python-yellow: #ffd43b;
+  --python-yellow-dark: #f0c020;
+  --python-yellow-muted: #ffe873;
+  --python-bg-warm: #fefcf5;
+  --wiki-hero-gradient: linear-gradient(135deg, #306998 0%, #1e4f72 50%, #0d2137 100%);
+}
+
+/* ── Landing Page Hero ───────────────────────────────────── */
+.landing .hero {
+  background: var(--wiki-hero-gradient);
+  padding: 4rem 2rem 3rem;
+  border-radius: 0 0 2rem 2rem;
+  margin: -2rem -1rem 2rem;
+  text-align: center;
+}
+
+/* Hero headings — bright white on Python blue */
+body[data-page="index"] .yue h1:first-of-type {
+  font-size: 3.6rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  background: linear-gradient(135deg, #ffffff 0%, #ffe873 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.3rem;
+}
+
+/* Lead paragraph styling */
+body[data-page="index"] .yue .lead p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: var(--sy-c-text-weak);
+  max-width: 44rem;
+  margin: 0 auto 1.5rem;
+}
+
+/* ── Hero Buttons ────────────────────────────────────────── */
+body[data-page="index"] .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+}
+
+body[data-page="index"] .buttons a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 2rem;
+  border-radius: 0.6rem;
+  font-weight: 600;
+  font-size: 1.05rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+body[data-page="index"] .buttons a:first-child {
+  background: var(--python-blue);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(48, 105, 152, 0.4);
+}
+
+body[data-page="index"] .buttons a:first-child:hover {
+  background: var(--python-blue-dark);
+  box-shadow: 0 6px 20px rgba(48, 105, 152, 0.5);
+  transform: translateY(-1px);
+}
+
+body[data-page="index"] .buttons a:nth-child(2) {
+  background: transparent;
+  color: var(--sy-c-text);
+  border: 2px solid var(--sy-c-divider);
+}
+
+body[data-page="index"] .buttons a:nth-child(2):hover {
+  border-color: var(--python-blue);
+  color: var(--python-blue);
+}
+
+body[data-page="index"] .buttons a:nth-child(3) {
+  background: transparent;
+  color: var(--sy-c-text);
+  border: 2px solid var(--sy-c-divider);
+}
+
+body[data-page="index"] .buttons a:nth-child(3):hover {
+  border-color: var(--python-yellow-dark);
+  color: var(--python-yellow-dark);
+}
+
+/* ── Stats Bar ───────────────────────────────────────────── */
+.wiki-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+  margin: 0 auto 2rem;
+  max-width: 40rem;
+}
+
+.wiki-stats .stat {
+  text-align: center;
+}
+
+.wiki-stats .stat-number {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--python-blue);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.wiki-stats .stat-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--sy-c-text-weak);
+  font-weight: 500;
+}
+
+/* ── Section Cards ───────────────────────────────────────── */
+body[data-page="index"] .sd-card {
+  border: 1px solid var(--sy-c-divider);
+  border-radius: 1rem;
+  transition: all 0.25s ease;
+  overflow: hidden;
+}
+
+body[data-page="index"] .sd-card:hover {
+  border-color: var(--python-blue-light);
+  box-shadow: 0 8px 30px rgba(48, 105, 152, 0.12);
+  transform: translateY(-3px);
+}
+
+body[data-page="index"] .sd-card .sd-card-header {
+  border-bottom: 2px solid var(--python-yellow);
+  padding: 1.2rem 1.5rem 0.8rem;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+body[data-page="index"] .sd-card .sd-card-body {
+  padding: 1rem 1.5rem;
+}
+
+body[data-page="index"] .sd-card .sd-card-footer {
+  padding: 0.8rem 1.5rem;
+  background: var(--sy-c-bg-weak);
+  font-size: 0.9rem;
+}
+
+/* ── Category Pills (grid cards in "Browse by Topic") ────── */
+body[data-page="index"] .surface .sd-card {
+  border: none;
+  background: var(--sy-c-bg-weak);
+  border-radius: 0.75rem;
+}
+
+body[data-page="index"] .surface .sd-card:hover {
+  background: var(--python-blue);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(48, 105, 152, 0.25);
+}
+
+body[data-page="index"] .surface .sd-card:hover * {
+  color: #fff !important;
+}
+
+/* ── Archive Notice ──────────────────────────────────────── */
+.archive-notice {
+  background: linear-gradient(135deg, rgba(255, 212, 59, 0.08), rgba(48, 105, 152, 0.06));
+  border: 1px solid rgba(255, 212, 59, 0.3);
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+/* ── Legacy Wiki Notice (on every imported page) ─────────── */
+.admonition.note .admonition-title:has(+ p a[href="https://www.python.org"]),
+.admonition.note:has(p a[href="https://www.python.org"]) {
+  font-size: 0.88rem;
+  border-left-color: var(--python-blue);
+  background: linear-gradient(135deg, rgba(48, 105, 152, 0.04), rgba(255, 212, 59, 0.03));
+}
+
+/* ── Dark mode adjustments ───────────────────────────────── */
+html[data-theme="dark"] {
+  --python-blue: #4b8bbe;
+  --python-blue-dark: #306998;
+}
+
+html[data-theme="dark"] body[data-page="index"] .buttons a:first-child {
+  background: var(--python-blue);
+  box-shadow: 0 4px 14px rgba(75, 139, 190, 0.3);
+}
+
+html[data-theme="dark"] .wiki-stats .stat-number {
+  color: var(--python-yellow);
+}
+
+html[data-theme="dark"] .archive-notice {
+  background: linear-gradient(135deg, rgba(255, 212, 59, 0.05), rgba(48, 105, 152, 0.08));
+  border-color: rgba(255, 212, 59, 0.15);
+}

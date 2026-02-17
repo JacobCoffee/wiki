@@ -1,11 +1,15 @@
 # TimFreund
 
-::: {#content dir="ltr" lang="en"}
-## Tim Freund {#Tim_Freund}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Tim Freund 
 
 Email: \<tim AT digital-achievement DOT com\>
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

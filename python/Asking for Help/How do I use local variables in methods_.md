@@ -1,7 +1,12 @@
 # Asking for Help/How do I use local variables in methods?
 
-::: {#content dir="ltr" lang="en"}
-# Local Variables in Functions {#Local_Variables_in_Functions}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Local Variables in Functions 
 
 \"How do I use local variables in a function within a class? (I do not want to use self.x, as this makes the instance have variables. I want variables local to my function, that get destroyed at the end of it.) I can only think of using del at the end of the function, is there a better way?\"
 
@@ -19,4 +24,3 @@ In short, you always get local variables in Python unless you use the `global`{.
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::

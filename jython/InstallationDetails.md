@@ -1,26 +1,22 @@
 # InstallationDetails
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **Contents**
 
-::: table-of-contents
-Contents
-
-1.  [Installation](#Installation)
-2.  [Generation of start scripts](#Generation_of_start_scripts)
-3.  [Troubleshooting](#Troubleshooting)
-4.  [A list of all the options](#A_list_of_all_the_options)
-:::
-
-## Installation {#Installation}
+## Installation 
 
 To start the installation, please proceed as follows:
 
-- download the installer .jar file and save it locally ([Download](http://www.jython.org/Project/download.html){.http})
+- download the installer .jar file and save it locally ([Download](http://www.jython.org/Project/download.html))
 
 - double-click this .jar file , or type: `java -jar jython_installer-2.2.jar`{.backtick}
 
-This will bring up the GUI installer (BROKEN LINK [A bit older Screen shots, reflecting 2.2](http://homepage.sunrise.ch/mysunrise/ohumbel/HEAD/install-HEAD.html){.http}).
+This will bring up the GUI installer (BROKEN LINK [A bit older Screen shots, reflecting 2.2](http://homepage.sunrise.ch/mysunrise/ohumbel/HEAD/install-HEAD.html)).
 
 On true headless systems, the installer will automatically switch to console mode. You can force console mode using the `--console`{.backtick} switch:
 
@@ -30,13 +26,13 @@ For command line aficionados, there is also a silent mode, which requires at lea
 
 - `java -jar jython_installer-2.2.jar -s -d /usr/lib/jython-22`{.backtick}
 
-## Generation of start scripts {#Generation_of_start_scripts}
+## Generation of start scripts 
 
 On Windows, the installer creates a `jython.bat`{.backtick} and a `jythonc.bat`{.backtick} file. On all other platforms, it creates a `jython`{.backtick} and `jythonc`{.backtick} file, which are unix like shell scripts. If you have installed a shell on Windows (like cygwin, for example), the installer in addition will create unix like shell scripts.
 
 These scripts have been tested on a wide range of platforms. Please let us know if you need different scripts on a specific platform.
 
-## Troubleshooting {#Troubleshooting}
+## Troubleshooting 
 
 If one of the GUI steps should appear empty, or with no text visible: Please try to press **Previous** and then **Next** again.
 
@@ -50,7 +46,7 @@ The GUI which appears when pressing the **Browse** button in selecting the targe
 
 If all else fails, try using silent or console mode.
 
-## A list of all the options {#A_list_of_all_the_options}
+## A list of all the options 
 
     $ java -jar jython_installer-2.2.jar --help
     usage:
@@ -123,4 +119,3 @@ If all else fails, try using silent or console mode.
     example of an autotest installation, using a different jre for the start scripts:
             java -jar jython_installer-2.2.jar -A -j javaHome -v
             (make sure you do NOT touch mouse NOR keyboard after hitting enter/return!)
-::::

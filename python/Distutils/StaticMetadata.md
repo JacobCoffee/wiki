@@ -1,18 +1,23 @@
 # Distutils/StaticMetadata
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page discuss the way to separate the metadata in a static PKG-INFO like file.
 
-- use the distutils.dist.[DistutilsMetadata](DistutilsMetadata) as a basis to think about a read/write API [an example](http://bugs.python.org/file12746/get_metadata.diff){.http}
+- use the distutils.dist.[DistutilsMetadata](DistutilsMetadata) as a basis to think about a read/write API [an example](http://bugs.python.org/file12746/get_metadata.diff)
 
-  - \- implemented in distutils2.metadata.[DistributionMetadata](./DistributionMetadata.html){.nonexistent}
+  - \- implemented in distutils2.metadata.[DistributionMetadata](./DistributionMetadata.html)
 
 - think about the dynamic metadata issue (can we provide something for that ?)
 
 - write a best practice guide for people to separate their metadata in a separate file, and use it in their setup.py
-  - \- progress about that tracked in [http://bugs.python.org/issue8252](http://bugs.python.org/issue8252){.http}
+  - \- progress about that tracked in [http://bugs.python.org/issue8252](http://bugs.python.org/issue8252)
 
-## TresSeaver\'s notes {#TresSeaver.27s_notes}
+## TresSeaver\'s notes 
 
 Matthias Klose and I worked on this a bit. We settled on the idea of reusing the \'setup.cfg\' file, by relaxing the \"one section per command\" rule to allow spelling more arbitrary metadata.
 
@@ -37,7 +42,7 @@ In particular, we proposed the following changes:
 
   - Alternative: add one or more new sections, not based on a command, which captures the extra stuff.
 
-    See [http://hg.python.org/distutils2/file/tip/docs/design/wiki.rst](http://hg.python.org/distutils2/file/tip/docs/design/wiki.rst){.http} ---ÉA
+    See [http://hg.python.org/distutils2/file/tip/docs/design/wiki.rst](http://hg.python.org/distutils2/file/tip/docs/design/wiki.rst) ---ÉA
 
 - Add a distutils command which generates [ConfigParser](ConfigParser) section text (on \'sys.stdout\') based on values passed to \'setup()\'. This command would provide a migration path for existing distributions, who would capture the output to a file, review it, and then concatenate it onto their \'setup.cfg\'.
 
@@ -46,7 +51,7 @@ In particular, we proposed the following changes:
 
     - from setuptools import setup
 
-    except [ImportError](./ImportError.html){.nonexistent}:
+    except [ImportError](./ImportError.html):
 
     - from distutils import setup
 
@@ -56,4 +61,3 @@ In particular, we proposed the following changes:
   - \$ python -m distutils.commands.install
 
   or a generated script which did the same thing.
-:::

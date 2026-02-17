@@ -1,9 +1,14 @@
 # SingletonProgramming
 
-::::: {#content dir="ltr" lang="en"}
-# Singleton {#Singleton}
+```{admonition} Legacy Wiki Page
+:class: note
 
-See also [http://c2.com/cgi/wiki?PythonSingleton](http://c2.com/cgi/wiki?PythonSingleton){.http} and [http://www.python.org/workshops/1997-10/proceedings/savikko.html](http://www.python.org/workshops/1997-10/proceedings/savikko.html){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Singleton 
+
+See also [http://c2.com/cgi/wiki?PythonSingleton](http://c2.com/cgi/wiki?PythonSingleton) and [http://www.python.org/workshops/1997-10/proceedings/savikko.html](http://www.python.org/workshops/1997-10/proceedings/savikko.html)
 
 ### classmethod
 
@@ -18,9 +23,9 @@ See also [http://c2.com/cgi/wiki?PythonSingleton](http://c2.com/cgi/wiki?PythonS
 
 **cons**
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-13488591c5b060918e8deb83fe6014d93ee91d45 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Code is Public Domain.
    2 class Singleton:
    3     _singleton = None
@@ -68,4 +73,3 @@ See also [http://c2.com/cgi/wiki?PythonSingleton](http://c2.com/cgi/wiki?PythonS
 ```
 :::
 ::::
-:::::

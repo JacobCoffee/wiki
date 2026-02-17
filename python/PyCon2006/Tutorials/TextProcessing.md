@@ -1,19 +1,24 @@
 # PyCon2006/Tutorials/TextProcessing
 
-:::::: {#content dir="ltr" lang="en"}
-::: {#intended-audience .section}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+::: 
 ### Intended Audience
 
 Beginning to intermediate programmers. A basic working knowledge of Python is assumed.
 :::
 
-::: {#summary .section}
+::: 
 ### Summary
 
 This tutorial will introduce beginning to intermediate programmers to the many useful Python tools & techniques for text and data processing. Topics will include regular expressions, filtering data with generators, and parsing.
 :::
 
-::: {#outline .section}
+::: 
 ### Outline
 
 - Common data sources needing processing:
@@ -41,6 +46,5 @@ This tutorial will introduce beginning to intermediate programmers to the many u
   - \"real\" parsers (including XML)
   - state machines
 
-Please send feedback & ideas for further specific topics to the trainer, David Goodger ([email](mailto:goodger@python.org){.mailto .reference .external}, [home page](http://python.net/~goodger){.http .reference .external}).
+Please send feedback & ideas for further specific topics to the trainer, David Goodger ([email](mailto:goodger@python.org), [home page](http://python.net/~goodger)).
 :::
-::::::

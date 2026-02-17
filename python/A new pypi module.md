@@ -1,7 +1,12 @@
 # A new pypi module
 
-::: {#content dir="ltr" lang="en"}
-# Create a new package in python called pypi {#Create_a_new_package_in_python_called_pypi}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Create a new package in python called pypi 
 
 - PEP: XXX
 - Title: Create a new package in python called pypi
@@ -10,11 +15,11 @@
 - Status: Draft
 - Python-Version: 2.6
 
-## Abstract {#Abstract}
+## Abstract 
 
 This PEP describes how the commands that are used to register and upload a package to PyPI can be extracted from distutils and put in a new independant package in Python called pypi, that would also describe the PyPI protocol.
 
-## Motivation {#Motivation}
+## Motivation 
 
 distutils is responsible for too many things, and the register and upload commands are completely standalone. In other words they can be extracted from distutils and placed into a new package that would also describe the protocol used by the PyPI server.
 
@@ -31,11 +36,11 @@ Let\'s improve all of this by:
 
 The last point would let anyone implement this protocol for the client-side or the server-side, by using this package as a base.
 
-## Improving password handling {#Improving_password_handling}
+## Improving password handling 
 
 Currently, the password and the user are in clear text in .pypirc. This is a bit insecure. Let\'s make it an optional and if not provided let the user type it at the prompt when needed.
 
-## Improving metadata controls {#Improving_metadata_controls}
+## Improving metadata controls 
 
 When a package is uploaded at PyPI, there are several things that can be done on the client-side in order to control it.
 
@@ -51,7 +56,7 @@ A new variable in .pypirc can be added in order to block a registration or an up
 
 From there, the command line utility will be able to decide if it should continue or not. The problem with the reST control is that it would require docutils.
 
-## Providing a command line utility, independantly from setup.py {#Providing_a_command_line_utility.2C_independantly_from_setup.py}
+## Providing a command line utility, independantly from setup.py 
 
 Let\'s drop the setup.py command line to register and upload a package. The new pypi package can handle this as long as the package is pointed. A high-level script can be provided in the Scripts/ folder of Python, and a developer can use it to control, register or upload a package. And also to browse PyPI.
 
@@ -86,17 +91,17 @@ Here\'s a example of such a session:
         
         Password changed
 
-The pypi command could also let you browse PyPI, like the Yolk project does (see [http://pypi.python.org/pypi/yolk](http://pypi.python.org/pypi/yolk){.http})
+The pypi command could also let you browse PyPI, like the Yolk project does (see [http://pypi.python.org/pypi/yolk](http://pypi.python.org/pypi/yolk))
 
 Browsing capabilities using PyPI XML-RPC features : XXX TBD
 
-## Clearly describe the PyPI protocol {#Clearly_describe_the_PyPI_protocol}
+## Clearly describe the PyPI protocol 
 
 XXX TBD : describe the methods inmplemented in the [CheeseShop](CheeseShop)
 
-## How ? {#How_.3F}
+## How ? 
 
-A first refactoring was made a few months ago to allow users to handle several PyPI logins and servers in .pypirc ([http://bugs.python.org/issue1858](http://bugs.python.org/issue1858){.http}) and the code responsible for .pypirc managment and for handling the registering and the upload were isolated.
+A first refactoring was made a few months ago to allow users to handle several PyPI logins and servers in .pypirc ([http://bugs.python.org/issue1858](http://bugs.python.org/issue1858)) and the code responsible for .pypirc managment and for handling the registering and the upload were isolated.
 
 The first action would be to create a new package called pypi and to copy the code from distutils, in order to make it work on its own.
 
@@ -109,4 +114,3 @@ The files to use are:
 We can add deprecated flags into distutils, just to warn people to use the new module instead.
 
 XXX to be finished
-:::

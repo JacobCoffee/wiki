@@ -1,9 +1,14 @@
 # CAPI CookBook
 
-::: {#content dir="ltr" lang="en"}
-Describe CAPI [CookBook](./CookBook.html){.nonexistent} here.
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Functions for returning an error with one call {#Functions_for_returning_an_error_with_one_call}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Describe CAPI [CookBook](./CookBook.html) here.
+
+## Functions for returning an error with one call 
 
     PyObject *EXPP_ReturnPyObjError( PyObject * type, char *error_msg )
     {                               /* same as above, just to change its name smoothly */
@@ -17,7 +22,7 @@ Describe CAPI [CookBook](./CookBook.html){.nonexistent} here.
             return -1;
     }
 
-## Return in incremented reference {#Return_in_incremented_reference}
+## Return in incremented reference 
 
     PyObject *EXPP_incr_ret( PyObject * object )
     {
@@ -25,7 +30,7 @@ Describe CAPI [CookBook](./CookBook.html){.nonexistent} here.
             return ( object );
     }
 
-## Check sequence type {#Check_sequence_type}
+## Check sequence type 
 
     /*****************************************************************************/
     /* Description: Checks whether all objects in a PySequence are of a same  */
@@ -50,7 +55,7 @@ Describe CAPI [CookBook](./CookBook.html){.nonexistent} here.
             return result;          /* 1 if all of 'against' type, 2 if there are (also) Nones */
     }
 
-## Tuple Prepend {#Tuple_Prepend}
+## Tuple Prepend 
 
     /*
      * Helper function for subtypes that use the base types methods.
@@ -79,7 +84,7 @@ Describe CAPI [CookBook](./CookBook.html){.nonexistent} here.
             return new_tuple;
     }
 
-## Methods into dictionary {#Methods_into_dictionary}
+## Methods into dictionary 
 
     /* this function adds methods to a dictionary.
      * in cases where the methods do not go into a module as is useual
@@ -96,7 +101,7 @@ Describe CAPI [CookBook](./CookBook.html){.nonexistent} here.
             }
     }
 
-## Anonymous Pointer Comparison {#Anonymous_Pointer_Comparison}
+## Anonymous Pointer Comparison 
 
 **add to the header\...**
 
@@ -121,4 +126,3 @@ Describe CAPI [CookBook](./CookBook.html){.nonexistent} here.
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-:::

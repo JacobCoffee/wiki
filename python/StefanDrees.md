@@ -1,7 +1,12 @@
 # StefanDrees
 
-::: {#content dir="ltr" lang="en"}
-## Stefan Drees {#Stefan_Drees}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Stefan Drees 
 
 Email: `<stefan AT SPAMFREE drees DOT name>`
 
@@ -12,4 +17,3 @@ Ich löse gerne die Probleme anderer Leute mit Gedichten und Prosa in Python. Of
 J\'aime de résoudre des problèmes des autres, avec des poèmes et prose écrit en Python. Souvent, j\'écris en prose, mais néanmoins est-il une solution.
 
 [CategoryHomepage](CategoryHomepage)
-:::

@@ -1,18 +1,12 @@
 # EditPythonCodeChinese
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [如何编辑Python代码 How To Edit Python Code](#A.2BWYJPVX8Wj5E-Python.2BTuN4AQ_How_To_Edit_Python_Code)
-    1.  [不要混合使用Tab和空格! Do Not Mix Tabs and Spaces!](#A.2BTg2JgW33VAhPf3Uo-Tab.2BVIx6emg8.21_Do_Not_Mix_Tabs_and_Spaces.21)
-    2.  [文本编辑器的选择 Choosing a Text Editor](#A.2BZYdnLH8Wj5FWaHaEkAli6Q_Choosing_a_Text_Editor)
-    3.  [配置文本编辑器Configuring a Text Editor](#A.2BkU1.2FbmWHZyx.2FFo.2BRVmg-Configuring_a_Text_Editor)
-    4.  [编者注释Editorial Note](#A.2BfxaABWzokco-Editorial_Note)
-2.  [其它资源Other Resources](#A.2BUXZbg41EbpA-Other_Resources)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-# 如何编辑Python代码 How To Edit Python Code {#A.2BWYJPVX8Wj5E-Python.2BTuN4AQ_How_To_Edit_Python_Code}
+# 如何编辑Python代码 How To Edit Python Code 
 
 Python uses an indentation-based syntax for grouping statements into blocks. For example:
 
@@ -41,7 +35,7 @@ This leads us to introduce the golden rule\...
 
 ------------------------------------------------------------------------
 
-## 不要混合使用Tab和空格! Do Not Mix Tabs and Spaces! {#A.2BTg2JgW33VAhPf3Uo-Tab.2BVIx6emg8.21_Do_Not_Mix_Tabs_and_Spaces.21}
+## 不要混合使用Tab和空格! Do Not Mix Tabs and Spaces! 
 
 Now, this doesn\'t mean that you can\'t use the `Tab`{.backtick} key on your keyboard: it just means that your editor has to be set up properly so that tab characters aren\'t mixed in with space characters. Tab characters often appear as very wide spaces in text, typically making the cursor jump to a position further across in the editor window or terminal.
 
@@ -77,13 +71,13 @@ Although a C or C++ compiler will accept something like this, there may be a cle
 
 虽然C或C++编译器可以接受类似的格式，但是程序员的缩进与最终代码的行为明显不匹配。显然，不管缩进在编程语言语法中扮演何种角色，不\"整洁\"的编辑习惯都是有危害的。
 
-## 文本编辑器的选择 Choosing a Text Editor {#A.2BZYdnLH8Wj5FWaHaEkAli6Q_Choosing_a_Text_Editor}
+## 文本编辑器的选择 Choosing a Text Editor 
 
 You may have a favourite text editor which you want to use to edit Python code. Hopefully, this editor will be slightly more sophisticated than the Notepad editor (on Windows) and will let you change its settings so that Python code can be edited effectively. Many text editors have support for syntax highlighting (so that different aspects of the text have different colours - keywords might be yellow, strings might be purple, and so on), and such things can be worthwhile benefits which can lure you away from more primitive (if more familiar) programs. A list of Python-compatible editors can be found on the [PythonEditors](PythonEditors) page.
 
 也许你已经有一个喜爱的编辑器想用来进行Python代码编辑。希望这款编辑器比Notepad记事本编辑器(Windows系统中)更高级一些，可以通过更改设置使编辑Python代码更有效率。许多文本编辑器支持语法加亮（因此文本的不同部分可以用不同颜色来显示-关键字可显为黄色，字符串可显为紫色，等等），以及有一些吸引你抛弃原有的编辑器（可能是你熟悉的）的特性。你可以在[PythonEditors](PythonEditors)页面找到与Python兼容的编辑器列表。
 
-## 配置文本编辑器Configuring a Text Editor {#A.2BkU1.2FbmWHZyx.2FFo.2BRVmg-Configuring_a_Text_Editor}
+## 配置文本编辑器Configuring a Text Editor 
 
 Now that you\'ve made a choice from the [PythonEditors](PythonEditors) list, you\'ll want to make sure that it is set up properly. Below you\'ll find a guide for a number of different editors dealing with important Python issues such as indentation (tabs and spaces) as well as other more general issues like encodings and syntax highlighting/colouring.
 
@@ -91,17 +85,16 @@ Now that you\'ve made a choice from the [PythonEditors](PythonEditors) list, you
 
 - [Vim](Vim) and related editors
 
-## 编者注释Editorial Note {#A.2BfxaABWzokco-Editorial_Note}
+## 编者注释Editorial Note 
 
 Feel free to add entries about other editors in the section above. Try to arrange the entries in ascending alphabetical order.
 
 您可在以上部分自由添加其它编辑器的条目。添加时注意按字母前后顺序罗列条目位置。
 
-# 其它资源Other Resources {#A.2BUXZbg41EbpA-Other_Resources}
+# 其它资源Other Resources 
 
-- [PEP 8 - Style Guide for Python Code](http://www.python.org/dev/peps/pep-0008/){.http}
+- [PEP 8 - Style Guide for Python Code](http://www.python.org/dev/peps/pep-0008/)
 
 ------------------------------------------------------------------------
 
 [CategoryEditors](CategoryEditors)
-::::

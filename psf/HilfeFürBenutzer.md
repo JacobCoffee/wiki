@@ -1,6 +1,11 @@
 # HilfeFürBenutzer
 
-::: {#content dir="ltr" lang="de"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [HilfeInhalt](HilfeInhalt) \> HilfeFürBenutzer
 
 Diese Seite listet Seiten, die für die User da sind. Für einen wirklich schnellen Überblick gehe zu [HilfeZurMoinWikiSyntax](HilfeZurMoinWikiSyntax).
@@ -22,4 +27,3 @@ Diese Seite listet Seiten, die für die User da sind. Für einen wirklich schnel
 - [HilfeZuAktionen](HilfeZuAktionen) - Werkzeuge, die auf Seiten oder dem ganzen Wiki arbeiten
 
 - [HilfeZurSynchronisation](HilfeZurSynchronisation) - wie man zwei Wikis miteinander abgleicht
-:::

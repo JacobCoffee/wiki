@@ -1,11 +1,16 @@
 # PyConDC2005/ChandlerSprint
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The Chandler Sprint is a good chance to learn about Chandler and meet people working on the project.
 
 There will be a presentation during the conference on how to write a Chandler parcel, and during the Sprint, we will probably be working on a number of simple parcels. We\'ll update this page with some additional parcel ideas, please feel free to add your own ideas for \"\"simple\"\" parcels.
 
-### Parcel Ideas {#Parcel_Ideas}
+### Parcel Ideas 
 
 - del.icio.us parcel
   - new kind(s)
@@ -25,15 +30,15 @@ There will be a presentation during the conference on how to write a Chandler pa
 
 Also, if you are interested in learning more about / contributing to the internals of Chandler itself, there will be a number of Chandler contributors present for the sprint.
 
-### Tool Ideas {#Tool_Ideas}
+### Tool Ideas 
 
 - extend repository viewer to be able to edit attributes
 
-### Other Ideas {#Other_Ideas}
+### Other Ideas 
 
 If you are planning attend the sprint, please leave your name below, or contact Ted Leung, the sprint coach \-- twl at osafoundation.org
 
-### Sprint participants {#Sprint_participants}
+### Sprint participants 
 
 - Ted Leung
 
@@ -45,5 +50,4 @@ If you are planning attend the sprint, please leave your name below, or contact 
 
 - [Kragen Sitaker](./Kragen(20)Sitaker.html) (maybe)
 
-- [BillZingler](./BillZingler.html){.nonexistent}
-:::
+- [BillZingler](./BillZingler.html)

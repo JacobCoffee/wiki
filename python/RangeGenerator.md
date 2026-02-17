@@ -1,17 +1,22 @@
 # RangeGenerator
 
-::: {#content dir="ltr" lang="en"}
-Below is a little range generator, irange, which is compatible with range. More specifically, `[i for i in irange(*args)] == range(*args)]`. This will let us iterator over large spans of numbers without resorting to [xrange](./xrange.html){.nonexistent}, which is a lazy list as opposed to a generator.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Below is a little range generator, irange, which is compatible with range. More specifically, `[i for i in irange(*args)] == range(*args)]`. This will let us iterator over large spans of numbers without resorting to [xrange](./xrange.html), which is a lazy list as opposed to a generator.
 
 Would a function of similar semantics likely be accepted into the standard library within itertools?
 
 [lwickjr](lwickjr): I like the idea. Anyone else?
 
-The author doesn\'t have the time/energy to write/push a [PEP](PEP) for the [PythonEnhancementProcess](./PythonEnhancementProcess.html){.nonexistent}. If you think this generator is a good idea, please submit a [PEP](PEP).
+The author doesn\'t have the time/energy to write/push a [PEP](PEP) for the [PythonEnhancementProcess](./PythonEnhancementProcess.html). If you think this generator is a good idea, please submit a [PEP](PEP).
 
 [lwickjr](lwickjr): Neither do I. Anyone else?
 
-# Test Suite {#Test_Suite}
+# Test Suite 
 
 Here is the test:
 
@@ -85,7 +90,7 @@ Here is the test:
         counter = count(*counter_args)
         return takewhile(predicate, counter)
 
-# Alternate Implementation {#Alternate_Implementation}
+# Alternate Implementation 
 
 Perhaps a simple implementation can be constructed using \*count\* and \*islice\* from intertools?. \-- Anon
 
@@ -145,4 +150,3 @@ I think it\'s way too much code, and also it does not accept named parameters. H
 The test case I am less fond of - while it does test the functionality, it doesn\'t support [TestDrivenDevelopment](TestDrivenDevelopment) as well. It would be nice to have a test from unitest to allow someone building a big system to easily run a suite of tests they like.
 
 Next step write a PEP someone?
-:::

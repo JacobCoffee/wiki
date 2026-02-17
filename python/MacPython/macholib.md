@@ -1,13 +1,18 @@
 # MacPython/macholib
 
-::: {#content dir="ltr" lang="en"}
-I followed a link labelled \"macholib trac\", and it took me to this page, so here we go. ![;-)](/wiki/europython/img/smile4.png ";-)"){height="16" width="16"}
+```{admonition} Legacy Wiki Page
+:class: note
 
-issue #1: TypeError when macholib is just being installed due to setup_requires reporter: [zooko@zooko.com](mailto:zooko@zooko.com){.mailto}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+I followed a link labelled \"macholib trac\", and it took me to this page, so here we go. ![;-)](/wiki/europython/img/smile4.png ";-)")
+
+issue #1: TypeError when macholib is just being installed due to setup_requires reporter: [zooko@zooko.com](mailto:zooko@zooko.com)
 
 As detected by a TahoeLAFS buildbot:
 
-[http://allmydata.org/buildbot/builders/zooko%20ootles%20Mac-amd64%2010.4/builds/225/steps/mac_exe/logs/stdio](http://allmydata.org/buildbot/builders/zooko%20ootles%20Mac-amd64%2010.4/builds/225/steps/mac_exe/logs/stdio){.http}
+[http://allmydata.org/buildbot/builders/zooko%20ootles%20Mac-amd64%2010.4/builds/225/steps/mac_exe/logs/stdio](http://allmydata.org/buildbot/builders/zooko%20ootles%20Mac-amd64%2010.4/builds/225/steps/mac_exe/logs/stdio)
 
 When macholib is not currently installed, but is marked as \"setup_requires\" in the setup.py file, then py2app yields the following traceback:
 
@@ -35,4 +40,3 @@ When macholib is not currently installed, but is marked as \"setup_requires\" in
         cannot create 'builtin_function_or_method' instances
 
 If you try the same build again (so this time a macholib egg is already present in the PWD then the build succeeds.
-:::

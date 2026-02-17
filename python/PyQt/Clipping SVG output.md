@@ -1,17 +1,22 @@
 # PyQt/Clipping SVG output
 
-::::::: {#content dir="ltr" lang="en"}
-# Clipping SVG output {#Clipping_SVG_output}
+```{admonition} Legacy Wiki Page
+:class: note
 
-In a [message to the qt-interest mailing list](http://lists.trolltech.com/pipermail/qt-interest/2009-September/012599.html){.http}, Jeremy Sanders asked if it was possible to clip polylines before sending them to a paint device. This was partly to overcome the limitations of Qt\'s SVG paint device, QSvgGenerator, which doesn\'t support clipping.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-![svg_output.png](attachments/PyQt(2f)Clipping(20)SVG(20)output/svg_output.png "svg_output.png"){.attachment}
+# Clipping SVG output 
+
+In a [message to the qt-interest mailing list](http://lists.trolltech.com/pipermail/qt-interest/2009-September/012599.html), Jeremy Sanders asked if it was possible to clip polylines before sending them to a paint device. This was partly to overcome the limitations of Qt\'s SVG paint device, QSvgGenerator, which doesn\'t support clipping.
+
+![svg_output.png](attachments/PyQt(2f)Clipping(20)SVG(20)output/svg_output.png "svg_output.png")
 
 The following example code shows how to clip painter output when generating an SVG, using a QPainterPath as a stencil by passing the painter paths to be rendered to its QPainterPath.intersected() method and drawing the result. Note that this only works for pens with zero width.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-70d6a2b5c8f8ad1515c5a5a9d5ebc5fab55bdd99 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import random, sys
    2 from PyQt4.QtCore import QSize, Qt
    3 from PyQt4.QtGui import *
@@ -90,11 +95,11 @@ The following example code shows how to clip painter output when generating an S
 
 One way to deal with non-zero-width pens is to use QPainterPathStroker. This creates an outline of a painter path, converting pen strokes to fillable paths. We can use this to create paths which we can then effectively clip using the stencil path.
 
-![svg_output_stroked.png](attachments/PyQt(2f)Clipping(20)SVG(20)output/svg_output_stroked.png "svg_output_stroked.png"){.attachment}
+![svg_output_stroked.png](attachments/PyQt(2f)Clipping(20)SVG(20)output/svg_output_stroked.png "svg_output_stroked.png")
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f1c1d8eb35690385a482c2e06246035737f02502 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import random, sys
    2 from PyQt4.QtCore import QSize, Qt
    3 from PyQt4.QtGui import *
@@ -181,4 +186,3 @@ One way to deal with non-zero-width pens is to use QPainterPathStroker. This cre
 ```
 :::
 ::::
-:::::::

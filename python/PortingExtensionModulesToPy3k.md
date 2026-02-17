@@ -1,7 +1,12 @@
 # PortingExtensionModulesToPy3k
 
-:::::::::::::::::: {#content dir="ltr" lang="en"}
-::: {.admonition .caution}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+::: 
 Caution!
 
 **Python 2.x will no longer be supported after 1 Jan 2020.**
@@ -9,13 +14,13 @@ Caution!
 Python 2 reaches end of life in January 2020, and will no longer receive security updates. This page has resources to help with porting applications still running Python 2 to Python 3.
 :::
 
-::: {.admonition .note}
+::: 
 Note
 
-The first draft for this document was written by Benjamin Peterson at [http://docs.python.org/howto/cporting](http://docs.python.org/howto/cporting){.http .reference .external}.
+The first draft for this document was written by Benjamin Peterson at [http://docs.python.org/howto/cporting](http://docs.python.org/howto/cporting).
 :::
 
-:::::::::::: {#porting-extension-modules-to-3-0 .section}
+:::::::::::: 
 ### Porting Extension Modules to 3.0
 
   --------- -------------------
@@ -28,7 +33,7 @@ Abstract
 Although changing the C-API was not one of Python 3.0\'s objectives, the many Python level changes made leaving 2.x\'s API intact impossible. In fact, some changes such as `int` and `long` unification are more obvious on the C level. This document endeavors to document incompatibilities and how they can be worked around.
 :::
 
-::: {#conditional-compilation .section}
+::: 
 #### Conditional compilation
 
 The easiest way to compile only some code for 3.0 is to check if `PY_MAJOR_VERSION` is greater than or equal to 3.
@@ -40,12 +45,12 @@ The easiest way to compile only some code for 3.0 is to check if `PY_MAJOR_VERSI
 API functions that are not present can be aliased to their equivalents within conditional blocks.
 :::
 
-::::: {#changes-to-object-apis .section}
+::::: 
 #### Changes to Object APIs
 
 Python 3.0 merged together some types with similar functions while cleanly separating others.
 
-::: {#str-unicode-unification .section}
+::: 
 ##### str/unicode Unification
 
 Python 3.0\'s `str` (`PyString_*` functions in C) type is equivalent to 2.x\'s `unicode` (`PyUnicode_*`). The old 8-bit string type has become `bytes`. Python 2.6 and later provide a compatibility header, `bytesobject.h`, mapping `PyBytes` names to `PyString` ones. For best compatibility with 3.0, `PyUnicode` should be used for textual data and `PyBytes` for binary data. It\'s also important to remember that `PyBytes` and `PyUnicode` in 3.0 are not interchangeable like `PyString` and `PyString` are in 2.x. The following example shows best practices with regards to `PyUnicode`, `PyString`, and `PyBytes`.
@@ -87,7 +92,7 @@ Python 3.0\'s `str` (`PyString_*` functions in C) type is equivalent to 2.x\'s `
     }
 :::
 
-::: {#long-int-unification .section}
+::: 
 ##### long/int Unification
 
 In Python 3.0, there is only one integer type. It is called `int` on the Python level, but actually corresponds to 2.x\'s `long` type. In the C-API, `PyInt_*` functions are replaced by their `PyLong_*` neighbors. The best course of action here is using the `PyInt_*` functions aliased to `PyLong_*` found in `intobject.h`. The abstract `PyNumber_*` APIs can also be used in some cases.
@@ -108,10 +113,10 @@ In Python 3.0, there is only one integer type. It is called `int` on the Python 
 :::
 :::::
 
-:::: {#module-initialization-and-state .section}
+:::: 
 #### Module initialization and state
 
-Python 3.0 has a revamped extension module initialization system. (See PEP [PEP 3121](http://www.python.org/dev/peps/pep-3121){.http .reference .external}.) Instead of storing module state in globals, they should be stored in an interpreter specific structure. Creating modules that act correctly in both 2.x and 3.0 is tricky. The following simple example demonstrates how.
+Python 3.0 has a revamped extension module initialization system. (See PEP [PEP 3121](http://www.python.org/dev/peps/pep-3121).) Instead of storing module state in globals, they should be stored in an interpreter specific structure. Creating modules that act correctly in both 2.x and 3.0 is tricky. The following simple example demonstrates how.
 
     #include "Python.h"
 
@@ -196,7 +201,7 @@ Python 3.0 has a revamped extension module initialization system. (See PEP [PEP 
     #endif
     }
 
-::: {#embedding .section}
+::: 
 ##### Embedding
 
 When defining a module for an embedded interpreter, the module has to be registered in the PyImport_Inittab table; simply calling `PyModule_Create` or the module\'s init function is not enough. Use `PyImport_AppendInittab` to register your module with its init function:
@@ -209,37 +214,37 @@ Note that this method also works for python 2.4 at least.
 :::
 ::::
 
-::: {#pycobject-pycapsule .section}
+::: 
 #### PyCObject / PyCapsule
 
 The PyCObject is being phased out starting with Python 3.1. The new PyCapsule object should be used instead.
 :::
 
-::: {#other-options .section}
+::: 
 #### Other options
 
-If you are writing a new extension module, you might consider [Cython](http://www.cython.org){.http .reference .external}. It translates a Python-like language to C. The extension modules it creates are compatible with Python 3.x and 2.x.
+If you are writing a new extension module, you might consider [Cython](http://www.cython.org). It translates a Python-like language to C. The extension modules it creates are compatible with Python 3.x and 2.x.
 :::
 ::::::::::::
 
-::: {#martin-s-notes-from-psycopg2-porting .section}
+::: 
 ### Martin\'s notes from psycopg2 porting
 
 - bytes vs. strings 2. To keep the implementation portable across 2.x and 3.x, I added a number of macros. Most useful was Text_FromUTF8, particularly when applied to the (many) string literals. It is defined as PyString_FromString for 2.x, and PyUnicode_FromString for 3.x.
 - RO is gone, you need to use READONLY (which also works in 2.x).
 - PyVarObject_HEAD_INIT needs to be used for types. I define it for 2.x if it isn\'t already defined.
 - module initialization is different. I moved the majority of the code into a static function, which then gets conditionally called from either the 2.x or 3.x init routine.
-- More detail written up for the [python-porting list](https://mail.python.org/pipermail/python-porting/2008-December/000010.html){.https .reference .external}
+- More detail written up for the [python-porting list](https://mail.python.org/pipermail/python-porting/2008-December/000010.html)
 :::
 
-::: {#philip-semanchuk-s-notes-from-porting-posix-ipc-and-sysv-ipc .section}
+::: 
 ### Philip Semanchuk\'s notes from porting posix_ipc and sysv_ipc
 
-I added Python 3 compatibility to my modules [posix_ipc](http://semanchuk.com/philip/posix_ipc/){.http .reference .external} and [sysv_ipc](http://semanchuk.com/philip/sysv_ipc/){.http .reference .external} while retaining compatibility with Python 2.x (from 2.4 or 2.5, at least). I managed to keep it all in one codebase.
+I added Python 3 compatibility to my modules [posix_ipc](http://semanchuk.com/philip/posix_ipc/) and [sysv_ipc](http://semanchuk.com/philip/sysv_ipc/) while retaining compatibility with Python 2.x (from 2.4 or 2.5, at least). I managed to keep it all in one codebase.
 
 I didn\'t know this document existed when I did my work, so I did things the hard way. I started by reading the Python 3 C API documentation and then compiling my Python 2.x code and attacking where the compiler complained.
 
-Note that [Python 3.0 has been given a decent burial](http://www.python.org/download/releases/3.0.1/){.http .reference .external} so you probably don\'t need to support it. Start working with Python 3.1; it\'s easier.
+Note that [Python 3.0 has been given a decent burial](http://www.python.org/download/releases/3.0.1/) so you probably don\'t need to support it. Start working with Python 3.1; it\'s easier.
 
 I used a lot of the same techniques Martin used (see psycopg notes above). One major stylistic difference is that instead of defining a macro like Martin\'s Text_FromUTF8, I have a lot of code that looks like this:
 
@@ -260,12 +265,11 @@ Something that helped me a lot generally was to download the source for cx_Oracl
 My modules and cx_Oracle are all BSD-licensed so even GPLed projects can mine the source code for tips.
 :::
 
-::: {#links .section}
+::: 
 ### Links
 
-> - [Brandon Rhodes on porting a C extension module to Python 3.0](http://rhodesmill.org/brandon/2008/porting-a-c-extension-module-to-python-30/){.http .reference .external}
-> - sq_slice handling has changed. Simple slicing was removed from the C API. [Notes on how to fix it.](http://renesd.blogspot.com/2009/07/python3-c-api-simple-slicing-sqslice.html){.http .reference .external}
-> - [Stephen Deibel\'s blog post on supporting Python 2.0 through 3.0](http://pythonology.blogspot.com/2009/02/making-code-run-on-python-20-through-30.html){.http .reference .external}
-> - [Py3kExtensionModules](https://wiki.python.org/moin/Py3kExtensionModules){.https .reference .external}
+> - [Brandon Rhodes on porting a C extension module to Python 3.0](http://rhodesmill.org/brandon/2008/porting-a-c-extension-module-to-python-30/)
+> - sq_slice handling has changed. Simple slicing was removed from the C API. [Notes on how to fix it.](http://renesd.blogspot.com/2009/07/python3-c-api-simple-slicing-sqslice.html)
+> - [Stephen Deibel\'s blog post on supporting Python 2.0 through 3.0](http://pythonology.blogspot.com/2009/02/making-code-run-on-python-20-through-30.html)
+> - [Py3kExtensionModules](https://wiki.python.org/moin/Py3kExtensionModules)
 :::
-::::::::::::::::::

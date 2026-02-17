@@ -1,22 +1,27 @@
 # PostgreSQL
 
-::: {#content dir="ltr" lang="en"}
-# PostgreSQL {#PostgreSQL-1}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PostgreSQL 
 
 URL
 
-:   [http://www.postgresql.org/](http://www.postgresql.org/){.http}
+:   [http://www.postgresql.org/](http://www.postgresql.org/)
 
 licence
 :   BSD
 
 platforms
 
-:   Unix, win32 ([NT-based Microsoft operating system](http://www.postgresql.org/docs/faqs.FAQ_MINGW.html){.http})
+:   Unix, win32 ([NT-based Microsoft operating system](http://www.postgresql.org/docs/faqs.FAQ_MINGW.html))
 
-## Pros {#Pros}
+## Pros 
 
-From the [features page](http://www.postgresql.org/about/){.http}:
+From the [features page](http://www.postgresql.org/about/):
 
 - Good compliance with SQL standards
 - Supports many SQL features
@@ -33,17 +38,17 @@ From the [features page](http://www.postgresql.org/about/){.http}:
 - Serializable transaction isolation
 - Multi-Version Concurrency Control (MVCC) for highly scalable concurrent applications
 
-## Cons {#Cons}
+## Cons 
 
 - \[To be written\]
 
-## DB API 2.0 Drivers {#DB_API_2.0_Drivers}
+## DB API 2.0 Drivers 
 
 ### psycopg2
 
 URL
 
-:   [http://initd.org/psycopg/](http://initd.org/psycopg/){.http}
+:   [http://initd.org/psycopg/](http://initd.org/psycopg/)
 
 Licence
 :   LGPL
@@ -59,13 +64,13 @@ Maintenance
 
 Psycopg is the most popular PostgreSQL adapter for the Python programming language. At its core it fully implements the Python DB API 2.0 specifications. Several extensions allow access to many of the features offered by PostgreSQL.
 
-Extended documentation available on [http://initd.org/psycopg/docs/](http://initd.org/psycopg/docs/){.http}
+Extended documentation available on [http://initd.org/psycopg/docs/](http://initd.org/psycopg/docs/)
 
-### PyGreSQL {#PyGreSQL}
+### PyGreSQL 
 
 URL
 
-:   [http://www.pygresql.org/](http://www.pygresql.org/){.http}
+:   [http://www.pygresql.org/](http://www.pygresql.org/)
 
 licence
 :   BSD-like
@@ -79,11 +84,11 @@ Python versions
 Maintenance
 :   Last version released is 5.0 (2016-03-20)
 
-### pyPgSQL {#pyPgSQL}
+### pyPgSQL 
 
 URL
 
-:   [http://pypgsql.sourceforge.net](http://pypgsql.sourceforge.net){.http}
+:   [http://pypgsql.sourceforge.net](http://pypgsql.sourceforge.net)
 
 Licence
 :   BSD-like (depends on mxDateTime, which may be GPL-incompatible)
@@ -97,17 +102,17 @@ Python versions
 Maintenance
 :   Active, sporatic (as of 10/2003)
 
-#### Extensions to DB API {#Extensions_to_DB_API}
+#### Extensions to DB API 
 
-- The fetch methods on cursors return an instances of [PgResultSet](./PgResultSet.html){.nonexistent}, which you can use to access rows by index (like in DB-API), dictionary-like or with attributes. This feature can be turned off for a slight performance boost.
+- The fetch methods on cursors return an instances of [PgResultSet](./PgResultSet.html), which you can use to access rows by index (like in DB-API), dictionary-like or with attributes. This feature can be turned off for a slight performance boost.
 
 - Support for PostgreSQL notifications in the low-level API.
 
-### mxODBC {#mxODBC}
+### mxODBC 
 
 URL
 
-:   [http://www.egenix.com/products/python/mxODBC/](http://www.egenix.com/products/python/mxODBC/){.http}
+:   [http://www.egenix.com/products/python/mxODBC/](http://www.egenix.com/products/python/mxODBC/)
 
 Licence
 :   eGenix Commercial License
@@ -118,7 +123,7 @@ Platforms
 Python versions
 :   2.4 - 2.7
 
-mxODBC is compatible with the [PostgreSQL ODBC driver](http://www.postgresql.org/ftp/odbc/versions/){.http} on Windows and Unix.
+mxODBC is compatible with the [PostgreSQL ODBC driver](http://www.postgresql.org/ftp/odbc/versions/) on Windows and Unix.
 
 Note that you have to enable the advanced option \"Use bytea for lo\" in case you want to work with BLOBs.
 
@@ -126,7 +131,7 @@ Note that you have to enable the advanced option \"Use bytea for lo\" in case yo
 
 URL
 
-:   [https://github.com/mkleehammer/pyodbc](https://github.com/mkleehammer/pyodbc){.https}
+:   [https://github.com/mkleehammer/pyodbc](https://github.com/mkleehammer/pyodbc)
 
 License
 :   MIT
@@ -145,7 +150,7 @@ Precompiled binaries are available for Windows. RedHat Enterprise Linux, Centos,
 
 URL
 
-:   [http://python.projects.postgresql.org](http://python.projects.postgresql.org){.http}
+:   [http://python.projects.postgresql.org](http://python.projects.postgresql.org)
 
 License
 :   BSD/MIT/PSF
@@ -159,7 +164,7 @@ Python version
 Maintenance
 :   Active development
 
-#### Comments {#Comments}
+#### Comments 
 
 Python 3 port of pg_proboscis and friends. Pure Python with C optimizations. Prepared statement driven APIs, PG-API.(DB-API is there as well).
 
@@ -169,7 +174,7 @@ Written with efficiency and flexibility in mind. Data is streamed in when reques
 
 URL
 
-:   [https://launchpad.net/txpostgres/](https://launchpad.net/txpostgres/){.https}
+:   [https://launchpad.net/txpostgres/](https://launchpad.net/txpostgres/)
 
 License
 :   MIT/X/Expat
@@ -187,7 +192,7 @@ Can be used as a drop-in replacement for Twisted\'s adbapi module when working w
 
 URL
 
-:   [https://github.com/tlocke/pg8000](https://github.com/tlocke/pg8000){.https}
+:   [https://github.com/tlocke/pg8000](https://github.com/tlocke/pg8000)
 
 License
 :   BSD
@@ -200,11 +205,11 @@ Python version
 
 pg8000 is somewhat distinctive in that it is written entirely in Python.
 
-### PyPyODBC (Pure Python ODBC) {#PyPyODBC_.28Pure_Python_ODBC.29}
+### PyPyODBC (Pure Python ODBC) 
 
 URL
 
-:   [https://github.com/jiangwen365/pypyodbc](https://github.com/jiangwen365/pypyodbc){.https}
+:   [https://github.com/jiangwen365/pypyodbc](https://github.com/jiangwen365/pypyodbc)
 
 License
 :   MIT
@@ -221,11 +226,11 @@ Almost totally same usage as pyodbc ( can be seen as a re-implementation of pyod
 
 Simple - the whole module is implemented in a single python script with less than 3000 lines.
 
-### mxODBC Connect {#mxODBC_Connect}
+### mxODBC Connect 
 
 URL
 
-:   [http://www.egenix.com/products/python/mxODBCConnect/](http://www.egenix.com/products/python/mxODBCConnect/){.http}
+:   [http://www.egenix.com/products/python/mxODBCConnect/](http://www.egenix.com/products/python/mxODBCConnect/)
 
 License
 :   eGenix Commercial License 1.3.0
@@ -238,23 +243,23 @@ Python versions
 
 mxODBC Connect is a commercial client-server product that allows connecting Python to ODBC compatible databases running on remote servers without requiring an ODBC driver on the client side. The product uses mxODBC on the server side and provides a highly portable Python library for the client side. As such it supports all database backend that mxODBC supports, but allows connecting to these from many different Python-supported platforms.
 
-mxODBC Connect supports asynchronous query execution via the popular [gevent package](http://www.gevent.org/){.http}, provides secure certificate based authentication, SSL encrypted database connections, comes with full support for stored procedures, multiple result sets, Unicode, a common interface on all platforms and implements [many other useful features](http://www.egenix.com/products/python/mxODBCConnect/#Features){.http}.
+mxODBC Connect supports asynchronous query execution via the popular [gevent package](http://www.gevent.org/), provides secure certificate based authentication, SSL encrypted database connections, comes with full support for stored procedures, multiple result sets, Unicode, a common interface on all platforms and implements [many other useful features](http://www.egenix.com/products/python/mxODBCConnect/#Features).
 
-mxODBC Connect Server is compatible with the [PostgreSQL ODBC drivers](http://www.postgresql.org/ftp/odbc/versions/){.http}.
+mxODBC Connect Server is compatible with the [PostgreSQL ODBC drivers](http://www.postgresql.org/ftp/odbc/versions/).
 
-### Other Python Interfaces for PostgreSQL {#Other_Python_Interfaces_for_PostgreSQL}
+### Other Python Interfaces for PostgreSQL 
 
 These entries still need to be updated to the standard format (see above):
 
-- [PoPy](./PoPy.html){.nonexistent}: [http://sourceforge.net/projects/popy](http://sourceforge.net/projects/popy){.http}
+- [PoPy](./PoPy.html): [http://sourceforge.net/projects/popy](http://sourceforge.net/projects/popy)
 
   - No activity since 2003
 
-- pgasync: [http://jamwt.com/pgasync/](http://jamwt.com/pgasync/){.http}
+- pgasync: [http://jamwt.com/pgasync/](http://jamwt.com/pgasync/)
 
   - Asynchronous and pure Python. Speed comparable to C bindings. Special support for Twisted.
 
-- bpgsql: [http://barryp.org/software/bpgsql/](http://barryp.org/software/bpgsql/){.http}
+- bpgsql: [http://barryp.org/software/bpgsql/](http://barryp.org/software/bpgsql/)
 
   - Barebones pure-Python PostgreSQL client
 
@@ -262,11 +267,10 @@ These entries still need to be updated to the standard format (see above):
 
 ------------------------------------------------------------------------
 
-## Supported Python Applications {#Supported_Python_Applications}
+## Supported Python Applications 
 
 - [Zope](Zope)
 
-- [DbDoc](./DbDoc.html){.nonexistent}
+- [DbDoc](./DbDoc.html)
 
 - three PostgreSQL drivers (using pgdb, included with the PostgreSQL distro, pypgsql, and psycopg) exist for [PyDO](PyDO) (Python Data Objects)
-:::

@@ -1,11 +1,16 @@
 # tk md5
 
-::: {#content dir="ltr" lang="en"}
-# Description {#Description}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Description 
 
 Create an MD5 Hash with this little script that comes with a simple TKinter GUI. Get more info on creating MD5 hashes at [Md5Passwords](Md5Passwords)
 
-# Code {#Code}
+# Code 
 
     from Tkinter import *
     import hashlib
@@ -41,4 +46,3 @@ Create an MD5 Hash with this little script that comes with a simple TKinter GUI.
 
 
     root.mainloop()
-:::

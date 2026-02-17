@@ -1,9 +1,14 @@
 # PackagingWG/2018-02-26-Warehouse
 
-::: {#content dir="ltr" lang="en"}
-# Warehouse weekly meeting, Feb 26, 2018 {#Warehouse_weekly_meeting.2C_Feb_26.2C_2018}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Present {#Present}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Warehouse weekly meeting, Feb 26, 2018 
+
+## Present 
 
 - Sumana
 - Laura
@@ -13,7 +18,7 @@
 
 (Mark absent, as he\'d told us he would be)
 
-## Done/working on/blockers {#Done.2Fworking_on.2Fblockers}
+## Done/working on/blockers 
 
 - Nicole
   - Not blocked
@@ -29,11 +34,11 @@
 - Laura
   - Assisted Sumana with scheduling IRC office hours for maintainers
 
-  - Fixed [https://github.com/pypa/warehouse/issues/2869](https://github.com/pypa/warehouse/issues/2869){.https}
+  - Fixed [https://github.com/pypa/warehouse/issues/2869](https://github.com/pypa/warehouse/issues/2869)
 
-  - Created a PR for [https://github.com/pypa/warehouse/issues/2875](https://github.com/pypa/warehouse/issues/2875){.https}, about to revise to address Dustin\'s review
+  - Created a PR for [https://github.com/pypa/warehouse/issues/2875](https://github.com/pypa/warehouse/issues/2875), about to revise to address Dustin\'s review
 
-  - open to hearing what bug to work on next (Sumana suggests [https://github.com/pypa/warehouse/issues/1299](https://github.com/pypa/warehouse/issues/1299){.https} )
+  - open to hearing what bug to work on next (Sumana suggests [https://github.com/pypa/warehouse/issues/1299](https://github.com/pypa/warehouse/issues/1299) )
 - Ernest
   - Spam: ate time, but not in scope of MOSS grant.
 
@@ -45,22 +50,22 @@
 - Sumana
   - got PyPA membership (yay!) - working on some twine tickets
 
-  - wrote some API docs (#3055) & packaging guide updates ( [https://github.com/pypa/python-packaging-user-guide/pull/440](https://github.com/pypa/python-packaging-user-guide/pull/440){.https} , [https://github.com/pypa/python-packaging-user-guide/pull/439](https://github.com/pypa/python-packaging-user-guide/pull/439){.https} )
+  - wrote some API docs (#3055) & packaging guide updates ( [https://github.com/pypa/python-packaging-user-guide/pull/440](https://github.com/pypa/python-packaging-user-guide/pull/440) , [https://github.com/pypa/python-packaging-user-guide/pull/439](https://github.com/pypa/python-packaging-user-guide/pull/439) )
 
-  - waiting on Nicole to merge [https://github.com/nlhkabu/nlhkabu.github.io/pull/10](https://github.com/nlhkabu/nlhkabu.github.io/pull/10){.https} so Sumana can reply to #2417, #2562, maybe #945 and #1935 - Will look at this tonight \-- DONE
+  - waiting on Nicole to merge [https://github.com/nlhkabu/nlhkabu.github.io/pull/10](https://github.com/nlhkabu/nlhkabu.github.io/pull/10) so Sumana can reply to #2417, #2562, maybe #945 and #1935 - Will look at this tonight \-- DONE
 
   - next: lots of outreach/publicity and docs
 - Mark - not present
   - Open Tech Fund grant proposal - deadline at end of this month
   - PEP 541
 
-## Reschedule March 5th meeting {#Reschedule_March_5th_meeting}
+## Reschedule March 5th meeting 
 
-- Nicole \-- is later on Monday March 5th ok, or should we move to Tuesday the 6th? - Either works, but I\'d prefer tues if it works for everyone else ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+- Nicole \-- is later on Monday March 5th ok, or should we move to Tuesday the 6th? - Either works, but I\'d prefer tues if it works for everyone else ![:)](/wiki/europython/img/smile.png ":)")
 
   - Laura to update \-- DONE
 
-## IRC livechats/office hours {#IRC_livechats.2Foffice_hours}
+## IRC livechats/office hours 
 
 1.  Tuesday Feb 27th: 1700 UTC / noon-1pm EST
 2.  Tuesday Feb 27th: 2300 UTC / 6pm-7pm EST
@@ -69,34 +74,34 @@
 
 you\'ll get calendar invites
 
-## Open Tech Fund grant-seeking - improving security for users {#Open_Tech_Fund_grant-seeking_-_improving_security_for_users}
+## Open Tech Fund grant-seeking - improving security for users 
 
 - Mark needs our help on Etherpad. See Slack and packaging-wg thread
   - Nicole, Ernest, Sumana, Dustin, Laura are all in
 
   - Submit an estimate
 
-  - add accessibility audit? Esp. important given use of [JavaScript](./JavaScript.html){.nonexistent}
+  - add accessibility audit? Esp. important given use of [JavaScript](./JavaScript.html)
 
   - Localization
 - let\'s put all our ideas in the Etherpad and winnow from there
 
-## Milestone progress, publicity planning {#Milestone_progress.2C_publicity_planning}
+## Milestone progress, publicity planning 
 
 - Milestones 1 & 2 cleared
 
-  - [https://pyfound.blogspot.com/2018/02/python-package-maintainers-help-test.html](https://pyfound.blogspot.com/2018/02/python-package-maintainers-help-test.html){.https} posted
+  - [https://pyfound.blogspot.com/2018/02/python-package-maintainers-help-test.html](https://pyfound.blogspot.com/2018/02/python-package-maintainers-help-test.html) posted
 
-  - some of [https://docs.google.com/document/d/1j1c-Waa2l0ikbfHblto5py9_KWiOgqgo02x2SLTKmKs/edit](https://docs.google.com/document/d/1j1c-Waa2l0ikbfHblto5py9_KWiOgqgo02x2SLTKmKs/edit){.https} still not done yet - Sumana needs to execute
+  - some of [https://docs.google.com/document/d/1j1c-Waa2l0ikbfHblto5py9_KWiOgqgo02x2SLTKmKs/edit](https://docs.google.com/document/d/1j1c-Waa2l0ikbfHblto5py9_KWiOgqgo02x2SLTKmKs/edit) still not done yet - Sumana needs to execute
 
   - pypi-legacy banner?
     - Yes, add banner - don\'t put on non-logged in pages, just for logged in maintainers
 
   - Sumana will continue to send emails and promote Warehouse to testers
 
-- [https://github.com/pypa/warehouse/projects/1](https://github.com/pypa/warehouse/projects/1){.https} We\'re closing in on Milestone 3: Publicize beta
+- [https://github.com/pypa/warehouse/projects/1](https://github.com/pypa/warehouse/projects/1) We\'re closing in on Milestone 3: Publicize beta
 
-  - Warehouse: 7 open bugs in [https://github.com/pypa/warehouse/milestone/10](https://github.com/pypa/warehouse/milestone/10){.https}
+  - Warehouse: 7 open bugs in [https://github.com/pypa/warehouse/milestone/10](https://github.com/pypa/warehouse/milestone/10)
 
   - infra: readiness?
     - Ernest: Just gonna start using \[other infra\] to start getting something working, we\'ll throw it away and move to \[infra\] when \[blocker resolved\]. (Update as of Tuesday: blocker is now resolved!)
@@ -110,7 +115,7 @@ you\'ll get calendar invites
 
   - Ernest will unblock himself by using Google \-- needs metrics & monitoring \-- will work with Dustin
 
-  - Depending on DI\'s workload I might work with him to get him running with instrumenting stuff? No pressure, but he\'s in a good spot as far as knowledge of inside bits to help ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+  - Depending on DI\'s workload I might work with him to get him running with instrumenting stuff? No pressure, but he\'s in a good spot as far as knowledge of inside bits to help ![:)](/wiki/europython/img/smile.png ":)")
 
     - YES PLEASE - di yayayaya! we\'ll schedule offline.
 
@@ -119,46 +124,46 @@ you\'ll get calendar invites
 - Reach out to 3rd party services about new pypi.org domain #2935
   - Sumana will need help on this
 
-- Brainstorming for places we could promote the beta, the launch, and the shutdown [https://docs.google.com/document/d/1uinYN4hjq5Yzz1oWFcGqC5XE45wXF4sh3heqtid6EW8/edit](https://docs.google.com/document/d/1uinYN4hjq5Yzz1oWFcGqC5XE45wXF4sh3heqtid6EW8/edit){.https}
+- Brainstorming for places we could promote the beta, the launch, and the shutdown [https://docs.google.com/document/d/1uinYN4hjq5Yzz1oWFcGqC5XE45wXF4sh3heqtid6EW8/edit](https://docs.google.com/document/d/1uinYN4hjq5Yzz1oWFcGqC5XE45wXF4sh3heqtid6EW8/edit)
 
-## Ask Donald for {#Ask_Donald_for}
+## Ask Donald for 
 
 - \[infra\]
 
-- Review [https://github.com/pypa/packaging/pull/125](https://github.com/pypa/packaging/pull/125){.https}
+- Review [https://github.com/pypa/packaging/pull/125](https://github.com/pypa/packaging/pull/125)
 
-## Bug triage/double-checking {#Bug_triage.2Fdouble-checking}
+## Bug triage/double-checking 
 
 - User forgot PyPI password, packaging-problems #122
   - Ernest or Dustin?
     - Ernest: on it.
 
-- Version lookup should take PEP 440 normalization into account #445 [https://github.com/pypa/warehouse/issues/445](https://github.com/pypa/warehouse/issues/445){.https}
+- Version lookup should take PEP 440 normalization into account #445 [https://github.com/pypa/warehouse/issues/445](https://github.com/pypa/warehouse/issues/445)
 
   - can we put this off till after launch?
     - Ernest: +1 to Donald\'s note saying we absolutely can.
     - Dustin currently working on version normalization for pypa/packaging so this will be shipped soon
 
-- incremental search indexing #701 [https://github.com/pypa/warehouse/issues/701](https://github.com/pypa/warehouse/issues/701){.https}
+- incremental search indexing #701 [https://github.com/pypa/warehouse/issues/701](https://github.com/pypa/warehouse/issues/701)
 
   - Need it for the beta or launch? or postpone to post-launch?
     - Nice to have, I\'m -1 to making it a blocker for launch
     - Wasim will take on Elasticsearch issues
     - Someone else left some Elasticsearch comments, Dustin and Sumana will track them down - TODO
 
-- show maintainer\'s name next to avatar on project page #3005 [https://github.com/pypa/warehouse/issues/3005](https://github.com/pypa/warehouse/issues/3005){.https}
+- show maintainer\'s name next to avatar on project page #3005 [https://github.com/pypa/warehouse/issues/3005](https://github.com/pypa/warehouse/issues/3005)
 
   - If Laura doesn\'t fix it with her fix to the very similar #2875 (fixing the project collaboration page), same cool-but-not-urgent milestone?
     - Nicole will review this week
 
-- Improve default browse page order, or remove link #3062 [https://github.com/pypa/warehouse/issues/3062](https://github.com/pypa/warehouse/issues/3062){.https}
+- Improve default browse page order, or remove link #3062 [https://github.com/pypa/warehouse/issues/3062](https://github.com/pypa/warehouse/issues/3062)
 
   - Need this for launch?
     - Ernest: nah, but not really a huge lift to improve UX here. +1
     - May save users confusion - do earlier?
     - Resolution: insert a temporary fix, then fix more thoroughly later
 
-- 499 client error when uploading #2533 [https://github.com/pypa/warehouse/issues/2533](https://github.com/pypa/warehouse/issues/2533){.https}
+- 499 client error when uploading #2533 [https://github.com/pypa/warehouse/issues/2533](https://github.com/pypa/warehouse/issues/2533)
 
   - user has submitted a commit that fails - next steps?
     - Ernest: I\'m leaning towards delay/close until we have better control over our hosting/infra to investigate. Heroku is inscrutable.
@@ -166,12 +171,12 @@ you\'ll get calendar invites
     - Ask user for traceroutes, DNS, information about their ISP/network provider? Theory that heroku is blocking them
     - Not a priority to debug remotely \-- will be off Heroku soon
 
-- [https://code.launchpad.net/%7Edustin-ingram/pkginfo/add-new-fields/+merge/330572](https://code.launchpad.net/~dustin-ingram/pkginfo/add-new-fields/+merge/330572){.https} pkg_info update towards Markdown support [https://github.com/pypa/warehouse/issues/869#issuecomment-340928703](https://github.com/pypa/warehouse/issues/869#issuecomment-340928703){.https}
+- [https://code.launchpad.net/%7Edustin-ingram/pkginfo/add-new-fields/+merge/330572](https://code.launchpad.net/~dustin-ingram/pkginfo/add-new-fields/+merge/330572) pkg_info update towards Markdown support [https://github.com/pypa/warehouse/issues/869#issuecomment-340928703](https://github.com/pypa/warehouse/issues/869#issuecomment-340928703)
 
   - need any help? should be good!
     - know what needs done, just need time
 
-  - need anything in readme_renderer? [https://github.com/pypa/readme_renderer/pulls](https://github.com/pypa/readme_renderer/pulls){.https}
+  - need anything in readme_renderer? [https://github.com/pypa/readme_renderer/pulls](https://github.com/pypa/readme_renderer/pulls)
 
     - nope readmerender is good
 
@@ -179,10 +184,9 @@ you\'ll get calendar invites
 
   - Will save a headache when people ask about it, nice to have
 
-## TODO {#TODO}
+## TODO 
 
 - add another IRC office hours at 23:00 UTC
   - Laura send calendar invites for IRC office hours -DONE
   - Sumana to update wiki page to reflect Tuesday IRC livechat 2300 UTC / 6pm-7pm EST - DONE
 - Dustin and Sumana to find good Elasticsearch comments
-:::

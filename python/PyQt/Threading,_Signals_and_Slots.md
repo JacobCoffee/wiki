@@ -1,13 +1,18 @@
 # PyQt/Threading,_Signals_and_Slots
 
-::: {#content dir="ltr" lang="en"}
-## Introduction {#Introduction}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Introduction 
 
 In some applications it is often necessary to perform long-running tasks, such as computations or network operations, that cannot be broken up into smaller pieces and processed alongside normal application events. In such cases, we would like to be able to perform these tasks in a way that does not interfere with the normal running of the application, and ensure that the user interface continues to be updated. One way of achieving this is to perform these tasks in a separate thread to the main user interface thread, and only interact with it when we have results we need to display.
 
 This example shows how to create a separate thread to perform a task - in this case, drawing stars for a picture - while continuing to run the main user interface thread. The worker thread draws each star onto its own individual image, and it passes each image back to the example\'s window which resides in the main application thread.
 
-## The User Interface {#The_User_Interface}
+## The User Interface 
 
 We begin by importing the modules we require. We need the `math`{.backtick} and `random`{.backtick} modules to help us draw stars.
 
@@ -92,7 +97,7 @@ The `updateUi()`{.backtick} slot is called when a thread stops running. Since we
 
 Now that we have seen how an instance of the `Window`{.backtick} class uses the worker thread, let us take a look at the thread\'s implementation.
 
-## The Worker Thread {#The_Worker_Thread}
+## The Worker Thread 
 
 The worker thread is implemented as a [PyQt](PyQt) thread rather than a Python thread since we want to take advantage of the signals and slots mechanism to communicate with the main application.
 
@@ -193,7 +198,7 @@ For each star drawn, we send the main thread information about where it should b
 
 Since `QRect`{.backtick} and `QImage`{.backtick} objects can be serialized for transmission via the signals and slots mechanism, they can be sent between threads in this way, making it convenient to use threads in a wide range of situations where built-in types are used.
 
-## Running the Example {#Running_the_Example}
+## Running the Example 
 
 We only need one more piece of code to complete the example:
 
@@ -203,4 +208,3 @@ We only need one more piece of code to complete the example:
         window = Window()
         window.show()
         sys.exit(app.exec_())
-:::

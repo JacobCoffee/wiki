@@ -1,6 +1,11 @@
 # PackagingWG/2020-09-30-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Wed Sept 30
 
 Participants:
@@ -40,9 +45,9 @@ Agenda:
   - SH: from yesterday\'s call:
     - Georgia: giving Sumana access to resolver survey (while still giving Pradyun access to annotate things). Working on it today \-- DONE via Bernard sharing in a different medium
 
-    - Pradyun: has filed an issue for the rollout flag, and triaged stuff and made an issue for 20.3 release \-- [https://github.com/pypa/pip/issues/8936](https://github.com/pypa/pip/issues/8936){.https}
+    - Pradyun: has filed an issue for the rollout flag, and triaged stuff and made an issue for 20.3 release \-- [https://github.com/pypa/pip/issues/8936](https://github.com/pypa/pip/issues/8936)
 
-    - Sumana: video is done (yay) \-- [https://www.youtube.com/watch?v=B4GQCBBsuNU](https://www.youtube.com/watch?v=B4GQCBBsuNU){.https}
+    - Sumana: video is done (yay) \-- [https://www.youtube.com/watch?v=B4GQCBBsuNU](https://www.youtube.com/watch?v=B4GQCBBsuNU)
 
       - next: invoice approval
       - trying to rearrange Tuesday meeting to half an hour later
@@ -54,7 +59,7 @@ Agenda:
 
       - Develop templates for UI bugs, commands, error messages, output, documentation, and configuration files
 
-      - Teach other pip developers UX practices per [https://simplysecure.org/what-we-do/user-research/](https://simplysecure.org/what-we-do/user-research/){.https}
+      - Teach other pip developers UX practices per [https://simplysecure.org/what-we-do/user-research/](https://simplysecure.org/what-we-do/user-research/)
     - SH: lecture vs workshop, one-to-many, etc has opinions
       - think the people who are major contributors to pip will be able to devote a few hours a couple of times for synchronous things
         - check availability.
@@ -67,16 +72,16 @@ Agenda:
     - PG: might have something later.
       - SH: Pradyun might find it easier to have a rough reference to base his ideas/understanding of off to provide feedback \"now\"
       - GA: will find a link to the a guidebook that we worked on with Internews and others re: open source projects, feedback loops, etc
-        - [https://usable.tools/guidebook/](https://usable.tools/guidebook/){.https}
+        - [https://usable.tools/guidebook/](https://usable.tools/guidebook/)
       - SH: SS has experience around feedback loop, what information is useful for making decisions.
         - (PG: \*nodding aggressively in agreement\*)
 
 - Performance
-  - [https://github.com/pypa/pip/issues/8664](https://github.com/pypa/pip/issues/8664){.https} & [https://github.com/pypa/pip/issues/8905](https://github.com/pypa/pip/issues/8905){.https}
+  - [https://github.com/pypa/pip/issues/8664](https://github.com/pypa/pip/issues/8664) & [https://github.com/pypa/pip/issues/8905](https://github.com/pypa/pip/issues/8905)
 
     - SH: avoid a disruptive rollout if we\'re not ready yet.
 
-    - PG: marked [https://github.com/pypa/pip/pull/8932](https://github.com/pypa/pip/pull/8932){.https} as the blocker for now, and once that\'s done, I think we\'ll be OK?
+    - PG: marked [https://github.com/pypa/pip/pull/8932](https://github.com/pypa/pip/pull/8932) as the blocker for now, and once that\'s done, I think we\'ll be OK?
 
       - TP has filed some PRs based on our discussion that make the resolver less eager to hit the network, & give users more control \-- if pip is slow, we give the user the ability to restrict space it searches by trying \[something\] first. When user provides several requirements, we may try to loosen a constraint before trying tightening things?
 
@@ -85,7 +90,7 @@ Agenda:
       - but we don\'t have a good answer to `ResolutionTooDeep`{.backtick} discussion \-- if it\'s taking too long, right now we don\'t stop and say \"we\'re taking too long\".
 
     - SH: benchmarking?
-      - Pradyun has some sample `requirements.txt`{.backtick} files locally. if it\'s not 20x slower I think we should go ahead? will post in [https://github.com/pypa/pip/issues/8664](https://github.com/pypa/pip/issues/8664){.https} and we\'ll take discussion from there
+      - Pradyun has some sample `requirements.txt`{.backtick} files locally. if it\'s not 20x slower I think we should go ahead? will post in [https://github.com/pypa/pip/issues/8664](https://github.com/pypa/pip/issues/8664) and we\'ll take discussion from there
 
     - uhm, the so, we have a few differnet realted problems
       - in the \"base case\" (no backtracking) \-- what level of slowdown is good enough?
@@ -139,15 +144,14 @@ Agenda:
 
             - GA: a crazy idea!
               - estimated time of completion: If there\'s a way to check the dependency list, to tell how long it might take \-- a guesstimate?
-                - PG: not sure if that\'s possible by October. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+                - PG: not sure if that\'s possible by October. ![:)](/wiki/europython/img/smile.png ":)")
 
-                - TODO: Sumana: great idea! let\'s file a ticket! but for far future \-- DONE, Georgia filed [https://github.com/pypa/pip/issues/8943](https://github.com/pypa/pip/issues/8943){.https}
+                - TODO: Sumana: great idea! let\'s file a ticket! but for far future \-- DONE, Georgia filed [https://github.com/pypa/pip/issues/8943](https://github.com/pypa/pip/issues/8943)
 
 - pip 20.2.4 (documentation updates)
   - Q (to SH): do we only want documentation updates here? Cutting the release off master isn\'t 100% ideal (since that goes out to \*everyone\*)
 
 - go/no-go decision: performance and go/no-go decision on new resolver as default in 20.3
-  - Q: do we want a \"lame\" beta-ish release for the resolver, to ensure our changes worked? ![:o](/wiki/europython/img/redface.png ":o"){height="16" width="16"}
+  - Q: do we want a \"lame\" beta-ish release for the resolver, to ensure our changes worked? ![:o](/wiki/europython/img/redface.png ":o")
 
   - SH: so, over the next few days, we\'re gonna know more about performance. I\'d like our chat on Tuesday, to be focused on what do we now know and what improvements we\'ve made + what we can change \-- make a decision tree, and figure things out \-- and figure out if we\'re putting out 20.3 in October.
-:::

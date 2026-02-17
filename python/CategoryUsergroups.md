@@ -1,7 +1,12 @@
 # CategoryUsergroups
 
-:::: {#content dir="ltr" lang="en"}
-[WikiCategories](http://c2.com/cgi/wiki?WikiCategories "Wiki"){.interwiki} category tag marking a page about Python Usergroups.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[WikiCategories](http://c2.com/cgi/wiki?WikiCategories "Wiki") category tag marking a page about Python Usergroups.
 
 ::: searchresults
 1.  [AthensPUG](./AthensPUG.html?highlight=%28CategoryUsergroups%29)
@@ -46,4 +51,3 @@
 ------------------------------------------------------------------------
 
 [CategoryCategory](CategoryCategory)
-::::

@@ -1,6 +1,11 @@
 # PythonPhilosophy
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 According to [TimPeters](TimPeters):
 
 1.  Beautiful is better than ugly.
@@ -39,15 +44,14 @@ According to [TimPeters](TimPeters):
 
 18. If the implementation is easy to explain, it may be a good idea.
 
-19. [NameSpace](http://c2.com/cgi/wiki?NameSpace "Wiki"){.interwiki}s are one honking great idea \-- let\'s do more of those!
+19. [NameSpace](http://c2.com/cgi/wiki?NameSpace "Wiki")s are one honking great idea \-- let\'s do more of those!
 
 ------------------------------------------------------------------------
 
-[EasterEgg](http://c2.com/cgi/wiki?EasterEgg "Wiki"){.interwiki}: If you have Python 2.1.2 or later you can read the Philosophy of Python whenever you want. Just do the following:
+[EasterEgg](http://c2.com/cgi/wiki?EasterEgg "Wiki"): If you have Python 2.1.2 or later you can read the Philosophy of Python whenever you want. Just do the following:
 
      $ python
      Python 2.2 (#1, Apr 17 2002, 16:11:12) 
      [GCC 2.95.2 19991024 (release)] on some-os
      Type "help", "copyright", "credits" or "license" for more information.
      >>> import this
-:::

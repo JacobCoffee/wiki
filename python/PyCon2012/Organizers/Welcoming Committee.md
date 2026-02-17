@@ -1,7 +1,12 @@
 # PyCon2012/Organizers/Welcoming Committee
 
-:::::: {#content dir="ltr" lang="en"}
-::: {#purpose .section}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+::: 
 ### Purpose
 
 The Welcoming Committee provides a welcoming experience for newbies of all kinds to PyCon. If you are new to:
@@ -15,7 +20,7 @@ The Welcoming Committee provides a welcoming experience for newbies of all kinds
 then the Welcoming Committee may be of service to you.
 :::
 
-::: {#participate .section}
+::: 
 ### Participate
 
 Please take a moment to help us by answering the question, \"How could PyCon make you feel (even) more welcome?\"
@@ -28,7 +33,7 @@ Plans are being formed for the following events.
 The Welcoming Committee is a sub-committee of the PyCon Organizers group. Anyone who wants to own any part of Welcoming may participate.
 :::
 
-::: {#membership .section}
+::: 
 ### Membership
 
 The \"committee\" (it\'s something of a joke name, since it does not meet or vote) is loosely made up of the following people, possibly plus unnamed others. Please add yourself if you wish to help.
@@ -38,4 +43,3 @@ The \"committee\" (it\'s something of a joke name, since it does not meet or vot
 - RamiChowdhury (aka necaris)
 - PeterKropf
 :::
-::::::

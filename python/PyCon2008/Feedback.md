@@ -1,23 +1,28 @@
 # PyCon2008/Feedback
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 These are the results from the feedback forms (both online and paper) for [PyCon](PyCon) 2008. There were 497 respondents in all, but not every person answered every question.
 
 Numbers in parentheses are the counts of how many times an item was mentioned.
 
 See [/Comments](./PyCon2008(2f)Feedback(2f)Comments.html) for the essay-type comments from the feedback forms.
 
-# Overall ratings {#Overall_ratings}
+# Overall ratings 
 
-## Is this your first PyCon? {#Is_this_your_first_PyCon.3F}
+## Is this your first PyCon? 
 
 Yes 61.2% (297) No 38.8% (188)
 
-## What days did you attend PyCon? {#What_days_did_you_attend_PyCon.3F}
+## What days did you attend PyCon? 
 
 Friday 99.0% (488) Saturday 97.2% (479) Sunday 91.9% (453) Tutorials 43.8% (216) Sprints 30.6% (151)
 
-## How did you hear about PyCon? {#How_did_you_hear_about_PyCon.3F}
+## How did you hear about PyCon? 
 
     django
     django on FreeNode
@@ -334,7 +339,7 @@ Friday 99.0% (488) Saturday 97.2% (479) Sunday 91.9% (453) Tutorials 43.8% (216)
     www.python.org
     years ago on comp.lang.python
 
-## Please rate \... {#Please_rate_...}
+## Please rate \... 
 
             very low        low              high          very high        N/A          Response Average     Num. respondents
     your overall satisfaction with PyCon 2007 in general    
@@ -350,7 +355,7 @@ Friday 99.0% (488) Saturday 97.2% (479) Sunday 91.9% (453) Tutorials 43.8% (216)
     your likelihood of attending next year  
             2.5% (12)       10.6% (52)      42.1% (206)     42.5% (208)     2.2% (11)       3.28                 489
 
-## Would you prefer a conference that took place {#Would_you_prefer_a_conference_that_took_place}
+## Would you prefer a conference that took place 
 
 Only on weekdays 17.6% (82)
 
@@ -358,9 +363,9 @@ Includes one weekend day (starts on Sunday or ends on Saturday) 23.1% (108)
 
 Includes two weekend days 59.3% (277)
 
-# Talks {#Talks}
+# Talks 
 
-## What were your favorite talks? {#What_were_your_favorite_talks.3F}
+## What were your favorite talks? 
 
     185 40.5% Keynote: Guido van Rossum "Python 3000 And You"
     90 19.7% Core Python Containers -- Under the Hood Mr. Raymond D Hettinger
@@ -522,7 +527,7 @@ Other (please specify)
 
     only attended tutorial
 
-## What 5 topics should have been covered at PyCon? {#What_5_topics_should_have_been_covered_at_PyCon.3F}
+## What 5 topics should have been covered at PyCon? 
 
     "C" Extensions
     "using python to change the world" came up in a BoF
@@ -993,9 +998,9 @@ Other (please specify)
     zope object database programming
     Zope/Zope3
 
-# Accommodations {#Accommodations}
+# Accommodations 
 
-## Where did you stay? {#Where_did_you_stay.3F}
+## Where did you stay? 
 
 Hotel 60.8% (281)
 
@@ -1015,7 +1020,7 @@ Other:
     DoubleTree with Conference Rate
     Sofitel
 
-## What is your maximum per-person nightly room budget for accommodations? {#What_is_your_maximum_per-person_nightly_room_budget_for_accommodations.3F}
+## What is your maximum per-person nightly room budget for accommodations? 
 
 \$75 or less 13.1% (56)
 
@@ -1029,7 +1034,7 @@ Other:
 
 More than \$200 3.3% (14)
 
-## How are you paying for your PyCon trip? {#How_are_you_paying_for_your_PyCon_trip.3F}
+## How are you paying for your PyCon trip? 
 
 100% self-funded 32.1% (148)
 
@@ -1153,7 +1158,7 @@ Sharing with a group of friends 5.6% (25)
 
 N/A 14.8% (66)
 
-# Location {#Location}
+# Location 
 
 [PyCon](PyCon) 2009 will be in Chicago again. Where would you like to see [PyCon](PyCon) 2010 or a future [PyCon](PyCon)? Enter up to 3 cities or regions:
 
@@ -2226,15 +2231,15 @@ If you do attend a user group, estimate your monthly user group attendance:
     ~35
     ~50
 
-# Tutorials {#Tutorials}
+# Tutorials 
 
-## Would you be interested in attending half-day (3-hour) tutorials next year? {#Would_you_be_interested_in_attending_half-day_.283-hour.29_tutorials_next_year.3F}
+## Would you be interested in attending half-day (3-hour) tutorials next year? 
 
 Yes 65.8% (290)
 
 No 34.2% (151)
 
-## If yes, please list 3 tutorial subjects you would like to attend. {#If_yes.2C_please_list_3_tutorial_subjects_you_would_like_to_attend.}
+## If yes, please list 3 tutorial subjects you would like to attend. 
 
     1/3 django & 1/3 turbogears & 1/3 everybody else: help me make an informed choice
     2D/3D frameworks
@@ -2883,4 +2888,3 @@ See [/Comments](./PyCon2008(2f)Feedback(2f)Comments.html).
 ------------------------------------------------------------------------
 
 [CategoryPyCon2008](CategoryPyCon2008) [CategoryPyConPlanning](CategoryPyConPlanning)
-:::

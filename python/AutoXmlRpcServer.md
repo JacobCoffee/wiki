@@ -1,37 +1,33 @@
 # AutoXmlRpcServer
 
-:::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This is an \"automatic [DocXmlRpcServer](DocXmlRpcServer).\" There is also a CGI variant: [AutoXmlRpcCgi](AutoXmlRpcCgi).
 
-::: table-of-contents
-Contents
-
-1.  1.  [Tutorial](#Tutorial)
-    2.  [Notes](#Notes)
-    3.  [Code: xrserver.py](#Code:_xrserver.py)
-2.  [Discussion](#Discussion)
-:::
-
-## Tutorial {#Tutorial}
+## Tutorial 
 
 Suppose you have a Python module:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8435b0a743f29894f4e881444b26d95cf2ecbaf7 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def spam():
    2     return "spam"
 ```
 :::
 ::::
 
-How can you share that on [IRC?](http://www.irchelp.org/){.http}
+How can you share that on [IRC?](http://www.irchelp.org/)
 
 Mark it like this:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d4894e2547147338aec757b93719bc265d106b3f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 XMLRPC_namespace = "eggs"
    2 
    3 def spam():
@@ -49,9 +45,9 @@ You\'re XML-RPC server\'s up and running, port 8000.
 
 Your friends can now call your function!
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1484af5e2699d69df10a68f68ab33182838630d4 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import xmlrpclib
    2 
    3 server = xmlrpclib.ServerProxy("http://example.com:8000/")
@@ -62,7 +58,7 @@ Your friends can now call your function!
 
 There it is!
 
-## Notes {#Notes}
+## Notes 
 
 - What if you can\'t run a server? Use [AutoXmlRpcCgi](AutoXmlRpcCgi)!
 
@@ -72,13 +68,13 @@ There it is!
 
 - This code demonstrates [ModulesAsPlugins](ModulesAsPlugins), [DocXmlRpcServer](DocXmlRpcServer), [OptParse](OptParse), and (hopefully) [PythonStyle](PythonStyle).
 
-- If you define a function \"uli\" (`def uli(msg):`), you can call it in IRC with [UliBot!](http://onebigsoup.wiki.taoriver.net/moin.cgi/UliBot){.http}
+- If you define a function \"uli\" (`def uli(msg):`), you can call it in IRC with [UliBot!](http://onebigsoup.wiki.taoriver.net/moin.cgi/UliBot)
 
-## Code: xrserver.py {#Code:_xrserver.py}
+## Code: xrserver.py 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-57bf90880a739c5ba6ab21579b0d57c0e7111c9e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #!/usr/bin/env python
    2 """Serve specially marked modules by XML-RPC.
    3 
@@ -188,7 +184,7 @@ There it is!
 :::
 ::::
 
-# Discussion {#Discussion}
+# Discussion 
 
 This could be improved. Some ideas:
 
@@ -199,7 +195,6 @@ This could be improved. Some ideas:
 - Respond gracefully to CTRL-C.
 
 - Log modules successfully loaded.
-  - If you\'re either brave or insane, make use of the [LoggingModule](./LoggingModule.html){.nonexistent}.
+  - If you\'re either brave or insane, make use of the [LoggingModule](./LoggingModule.html).
 
 \-- [LionKimbro](LionKimbro) 2005-04-17 05:51:41
-::::::::::::

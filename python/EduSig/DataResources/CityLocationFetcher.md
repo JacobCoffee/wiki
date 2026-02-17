@@ -1,9 +1,14 @@
 # EduSig/DataResources/CityLocationFetcher
 
-::::::: {#content dir="ltr" lang="en"}
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f10438e20a927e80767d6f8d6765958ca396b62d dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+:::: 
+::: 
+``` 
    1 import urllib2                                                                                                            
    2 from BeautifulSoup import BeautifulStoneSoup                                                                              
    3                                                                                                                           
@@ -49,15 +54,15 @@
 
 - This example uses standard Python except for
 
-  [the BeautifulSoup package](http://www.crummy.com/software/BeautifulSoup/){.http} which must be installed separately.
+  [the BeautifulSoup package](http://www.crummy.com/software/BeautifulSoup/) which must be installed separately.
 
 ------------------------------------------------------------------------
 
 Here\'s a version which uses the built-in XML processing capabilities of Python:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-6dade2254da0f2a4ae79927b4e423b43815b946f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import urllib, xml.dom.minidom
    2 
    3 class City:
@@ -109,4 +114,3 @@ Here\'s a version which uses the built-in XML processing capabilities of Python:
 ------------------------------------------------------------------------
 
 [CategoryPythonInEducation](CategoryPythonInEducation)
-:::::::

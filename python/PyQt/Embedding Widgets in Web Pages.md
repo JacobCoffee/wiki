@@ -1,9 +1,14 @@
 # PyQt/Embedding Widgets in Web Pages
 
-::: {#content dir="ltr" lang="en"}
-# Embedding Widgets in Web Pages {#Embedding_Widgets_in_Web_Pages}
+```{admonition} Legacy Wiki Page
+:class: note
 
-This example was written in preparation for the [Plugging into the Web](http://doc.qt.digia.com/qq/qq26-webplugin.html){.http} article for Qt Quarterly 26 and posted here in response to [a message on the Python-list mailing list](http://www.riverbankcomputing.com/pipermail/pyqt/2009-June/023306.html){.http}.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Embedding Widgets in Web Pages 
+
+This example was written in preparation for the [Plugging into the Web](http://doc.qt.digia.com/qq/qq26-webplugin.html) article for Qt Quarterly 26 and posted here in response to [a message on the Python-list mailing list](http://www.riverbankcomputing.com/pipermail/pyqt/2009-June/023306.html).
 
 We begin by importing the [PyQt4](PyQt4) modules and defining a simple HTML page:
 
@@ -91,4 +96,3 @@ In the main program, we enable plugins globally for the application, set our own
         sys.exit(app.exec_())
 
 The result should be a page containing a title and a simple decorated widget.
-:::

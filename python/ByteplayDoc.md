@@ -1,25 +1,30 @@
 # ByteplayDoc
 
-:::::::::::: {#content dir="ltr" lang="en"}
-[en](./en.html){.nonexistent}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[en](./en.html)
 
 # byteplay Module Documentation
 
-::: {#about-byteplay .section}
+::: 
 ### About byteplay
 
-byteplay is a module which lets you easily play with Python bytecode. I wrote it because I needed to manipulate Python bytecode, but didn\'t find any suitable tool. Michael Hudson\'s bytecodehacks ([http://bytecodehacks.sourceforge.net/](http://bytecodehacks.sourceforge.net/){.http .reference .external}) could have worked fine for me, but it only works with Python 1.5.2. I also looked at Phillip J. Eby\'s peak.util.assembler ([http://pypi.python.org/pypi/BytecodeAssembler](http://pypi.python.org/pypi/BytecodeAssembler){.http .reference .external}), but it\'s intended at creating new code objects from scratch, not for manipulating existing code objects.
+byteplay is a module which lets you easily play with Python bytecode. I wrote it because I needed to manipulate Python bytecode, but didn\'t find any suitable tool. Michael Hudson\'s bytecodehacks ([http://bytecodehacks.sourceforge.net/](http://bytecodehacks.sourceforge.net/)) could have worked fine for me, but it only works with Python 1.5.2. I also looked at Phillip J. Eby\'s peak.util.assembler ([http://pypi.python.org/pypi/BytecodeAssembler](http://pypi.python.org/pypi/BytecodeAssembler)), but it\'s intended at creating new code objects from scratch, not for manipulating existing code objects.
 
 So I wrote byteplay. The basic idea is simple: define a new type, named Code, which is equivalent to Python code objects, but, unlike Python code objects, is easy to play with. \"Equivalent\" means that every Python code object can be converted to a Code object and vice-versa, without losing any important information on the way. \"Easy to play with\" means\... well, exactly that. The representation should be as simple as possible, letting the infrastructure sort out technical details which do not affect the final behaviour.
 
 If you are interested in changing the behaviour of functions, or in assembling functions on your own, you may find byteplay useful. You may also find it useful if you are interested in how Python\'s bytecode actually works - byteplay lets you easily play with existing bytecode and see what happens, which is a great way to learn. You are also welcome to check byteplay\'s (pure Python) code, to see how it manipulates real bytecode.
 
-byteplay can be downloaded from [http://byteplay.googlecode.com/svn/trunk/byteplay.py](http://byteplay.googlecode.com/svn/trunk/byteplay.py){.http .reference .external} . See [http://code.google.com/p/byteplay/](http://code.google.com/p/byteplay/){.http .reference .external} for a bit more administrative info. An extended fork, including Py3k compatibility, is available at [http://github.com/serprex/byteplay](http://github.com/serprex/byteplay){.http .reference .external}
+byteplay can be downloaded from [http://byteplay.googlecode.com/svn/trunk/byteplay.py](http://byteplay.googlecode.com/svn/trunk/byteplay.py) . See [http://code.google.com/p/byteplay/](http://code.google.com/p/byteplay/) for a bit more administrative info. An extended fork, including Py3k compatibility, is available at [http://github.com/serprex/byteplay](http://github.com/serprex/byteplay)
 
 Feel free to improve this document - that\'s why it\'s on the wiki! Also, if you find it useful, please drop me an email at noamraph at gmail dot com - it would be nice knowing that what I did was useful to someone\...
 :::
 
-::: {#a-quick-example .section}
+::: 
 ### A Quick Example
 
 Let\'s start from a quick example, to give you a taste of what byteplay does. Let\'s define this stupid function:
@@ -69,7 +74,7 @@ Ok, now let\'s play! Say we want to change the function, to print its arguments 
     (5, 3)
 :::
 
-::: {#opcodes .section}
+::: 
 ### Opcodes
 
 We have seen that the code list contains opcode constants such as LOAD_FAST. These are instances of the Opcode class. The Opcode class is a subclass of int, which overrides the `__repr__` method to return the string representation of an opcode. This means that instead of using a constant such as LOAD_FAST, a numerical constant such as 124 can be used. Opcode instances are, of course, much easier to understand. The byteplay module creates Opcode instances for all the interpreter opcodes. They can be found in the `opcodes` set, and also in the module\'s global namespace, so you can write `from byteplay import *` and use the opcode constants immediately.
@@ -77,7 +82,7 @@ We have seen that the code list contains opcode constants such as LOAD_FAST. The
 byteplay doesn\'t include a constant for the EXTENDED_ARG opcode, as it is not used by byteplay\'s representation.
 :::
 
-::: {#module-contents .section}
+::: 
 ### Module Contents
 
 These are byteplay\'s public attributes, which are imported when `from byteplay import *` is done.
@@ -207,10 +212,10 @@ For your convenience, another class was defined:
 And, last but not least - the Code class itself!
 :::
 
-:::::: {#the-code-class .section}
+:::::: 
 ### The Code Class
 
-::: {#constructor .section}
+::: 
 #### Constructor
 
     Code(code, freevars, args, varargs, varkwargs, newlocals,
@@ -219,7 +224,7 @@ And, last but not least - the Code class itself!
 This constructs a new Code object. The argument are simply values for the Code object data attributes - see below.
 :::
 
-::: {#data-attributes .section}
+::: 
 #### Data Attributes
 
 We\'ll start with the data attributes - those are read/write, and distinguish one code instance from another. First come the attributes which affect the operation of the interpreter when it executes the code, and then come attributes which give extra information, useful for debugging and introspection.
@@ -328,7 +333,7 @@ Now come attributes with additional information about the code:
 :   A string: The docstring for functions created from this code.
 :::
 
-::: {#methods .section}
+::: 
 #### Methods
 
 These are the Code class methods.
@@ -344,7 +349,7 @@ These are the Code class methods.
 :::
 ::::::
 
-::: {#stack-depth-calculation .section}
+::: 
 ### Stack-depth Calculation
 
 What was described above is enough for using byteplay. However, if you encounter an \"Inconsistent code\" exception when you try to assemble your code and wonder what it means, or if you just want to learn more about Python\'s stack behaviour, this section is for you.
@@ -367,4 +372,3 @@ Another complication: the SETUP_FINALLY opcode specifies an address to jump to i
 
 The solution is pretty simple. We will treat the SETUP_FINALLY opcode as if it pushes 1 element to its target - this makes it consistent with the 1 element which is pushed if the target is reached by normal flow. However, we will calculate the stack state as if at the target line there was an opcode which pushed 2 elements to the stack. This is done so that the maximum stack size calculation will be correct. Those 2 extra elements will be popped by the END_FINALLY opcode, which will be treated as though it always pops 3 elements. That\'s all! Just be aware of that when you are playing with SETUP_FINALLY and END_FINALLY opcodes\...
 :::
-::::::::::::

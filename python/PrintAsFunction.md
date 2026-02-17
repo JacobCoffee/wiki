@@ -1,13 +1,18 @@
 # PrintAsFunction
 
-::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page discusses the benefits of replacing the current `print`{.backtick} statement with an equivalent builtin. The `write`{.backtick} and `writeln`{.backtick} functions presented below do everything the `print`{.backtick} statement does without requiring any hacking of the grammar, and also make a number of things significantly easier.
 
 Guido has made it clear he wants to get rid of the `print`{.backtick} statement in [Python3.0](./Python3(2e)0.html). This page considers why we would want to go that way, and how we can actually get there. It should be turned into a PEP eventually.
 
 FYI: Python 3.0 has been released with a print function, and Python 2.6 has `from __future__ import print_function`{.backtick} to enable this on a per-module basis. Further discussion here is therefore quite futile. GvR.
 
-### Benefits of using a function instead of a statement {#Benefits_of_using_a_function_instead_of_a_statement}
+### Benefits of using a function instead of a statement 
 
 - Extended call syntax provides better interaction with sequences
 
@@ -27,7 +32,7 @@ FYI: Python 3.0 has been released with a print function, and Python 2.6 has `fro
     - add to benefits: easier transition to other function/method calls
     - if it were me, I\'d use \'to=\' or \'file=\' rather than \'stream=\' (too long)
 
-### Guido\'s own arguments {#Guido.27s_own_arguments}
+### Guido\'s own arguments 
 
 There is a theoretical argument: print is the only application-level functionality that has a statement dedicated to it. Within Python\'s world, syntax is generally used as a last resort, when something *can\'t* be done without help from the compiler. Print doesn\'t qualify for such an exception (quite the opposite actually).
 
@@ -61,15 +66,15 @@ But more important to me are my own experiences exploring the boundaries of prin
 
 Summarizing, my main problems with print as a statement are the transformations \-- when print doesn\'t cut it, you have to switch to something entirely different. If it were a function the switch would feel much smoother. I find that important: things that are conceptually related should be syntactically related (within the realm of common sense, as always).
 
-### Getting there from here {#Getting_there_from_here}
+### Getting there from here 
 
 The example implementation below shows that creating a function with the desired behaviour is quite straightforward. However, calling the builtin `print`{.backtick} is a problem due to the fact that `print`{.backtick} is a reserved word in Python 2.x. Since the `print`{.backtick} statement will be around until Py3K allows us to break backwards compatibility, devising a transition plan that lets programmers \'get ready early\' for the Py3K transition becomes a significant challenge.
 
-If, on the other hand, the builtin has a different name, it is quite feasible to introduce it during the 2.x series. In [PEP 3000](http://www.python.org/peps/pep-3000.html){.http}, it is suggested that the `print`{.backtick} statement be replaced by two builtins: `write`{.backtick} and `writeln`{.backtick}. These names are used in the example below. By using alternative names, and providing the builtins in the 2.x series, it is possible to \'future-proof\' code against the removal of the `print`{.backtick} statement in Py3k.
+If, on the other hand, the builtin has a different name, it is quite feasible to introduce it during the 2.x series. In [PEP 3000](http://www.python.org/peps/pep-3000.html), it is suggested that the `print`{.backtick} statement be replaced by two builtins: `write`{.backtick} and `writeln`{.backtick}. These names are used in the example below. By using alternative names, and providing the builtins in the 2.x series, it is possible to \'future-proof\' code against the removal of the `print`{.backtick} statement in Py3k.
 
 This technique of having two printing operations is not uncommon - Java has both `print`{.backtick} and `println`{.backtick} methods, and C# has `Write`{.backtick} and `WriteLine`{.backtick}. The main problem with the approach is that the `writeln`{.backtick} form will actually be more commonly used, but has the longer, less obvious name of the two proposed functions. This perception of relative use is based on a comparison of relative usage levels of the two current forms of the `print`{.backtick} statement (i.e., with and without the trailing comma) by some of the developers on python-dev.
 
-- [\[lwickjr](./(5b)lwickjr.html){.nonexistent}: Why TWO functions? Why can\'t we specify `printFunc(....,"\n")`?\]
+- [\[lwickjr](./(5b)lwickjr.html): Why TWO functions? Why can\'t we specify `printFunc(....,"\n")`?\]
 
 Some other names for the builtins which have been suggested are:
 
@@ -95,15 +100,15 @@ Some other names for the builtins which have been suggested are:
 
   - Maybe file-objects should have `write()`{.backtick}- and `writeln()`{.backtick}-methods similar to the built-in functions? *\-- TS*
 
-  [\[lwickjr](./(5b)lwickjr.html){.nonexistent}: don\'t they already have something similar?\]
+  [\[lwickjr](./(5b)lwickjr.html): don\'t they already have something similar?\]
 
-### Sample implementation {#Sample_implementation}
+### Sample implementation 
 
-This is a Python 2.4 compatible sample implementation of the approach currently in [PEP 3000](http://www.python.org/peps/pep-3000.html){.http}. This version of `writeln`{.backtick} doesn\'t provide a `linesep`{.backtick} keyword argument in order to keep things simple. Some other variations are covered further down this Wiki page.
+This is a Python 2.4 compatible sample implementation of the approach currently in [PEP 3000](http://www.python.org/peps/pep-3000.html). This version of `writeln`{.backtick} doesn\'t provide a `linesep`{.backtick} keyword argument in order to keep things simple. Some other variations are covered further down this Wiki page.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-db71246b1360122bd9530c727342beb18296b53c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def write(*args, **kwds):
    2     """Functional replacement for the print statement
    3 
@@ -149,13 +154,13 @@ This is a Python 2.4 compatible sample implementation of the approach currently 
 :::
 ::::
 
-### Code comparisons {#Code_comparisons}
+### Code comparisons 
 
 These are some comparisons of current `print`{.backtick} statements with the equivalent code using the builtins `write`{.backtick} and `writeln`{.backtick}.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-aef444b750189045372b0e9d0435cf38ae9117ce dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Standard printing
    2 print 1, 2, 3
    3 writeln(1, 2, 3)
@@ -187,13 +192,13 @@ These are some comparisons of current `print`{.backtick} statements with the equ
 :::
 ::::
 
-### Newline / No-newline {#Newline_.2F_No-newline}
+### Newline / No-newline 
 
 Another possibility to deal with the newline / no-newline cases would be to have a single function which would take an extra keyword argument \"linesep\" or \"end\" (or perhaps some slight magic: an empty string as the last argument), so to print without newline, you would do
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-15f3ea6ddb07f02db30cb67613f777255bf87dd3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Print without a trailing newline
    2 print 1, 2, 3,
    3 writeln(1, 2, 3, end='')
@@ -211,15 +216,15 @@ The default case should be to insert a newline.
 
 <!-- -->
 
-- [\[lwickjr](./(5b)lwickjr.html){.nonexistent}: I quite agree. Ugly, but explicit is better than implicit. Function with NO seperator and NO newline: +5 How about `def printFunc(*args): print "".join(map(str, args))`\]
+- [\[lwickjr](./(5b)lwickjr.html): I quite agree. Ugly, but explicit is better than implicit. Function with NO seperator and NO newline: +5 How about `def printFunc(*args): print "".join(map(str, args))`\]
 
-### Iterating Iterables {#Iterating_Iterables}
+### Iterating Iterables 
 
 Another potentially interesting improvement could be for the function to iterate all iterables, in order to be able to use generator expressions without having to use the star syntax and to avoid the creation of a temporary sequence. This would allow:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-9a456a960a4ea901642d353707e0578048961c1e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Print a generator expression
    2 print " ".join(str(x*x) for x in range(10))
    3 writeln(x*x for x in range(10))
@@ -231,21 +236,21 @@ Another potentially interesting improvement could be for the function to iterate
 
 This behaviour could be optionally triggered by a keyword argument \"iter\". Another possibility would be to always do the iteration and to force the caller to str() the generator if he wants to print it without iteration (happens rarely).
 
-- Nailing down this kind of behaviour is trickier than one might think. The python-dev discussion of the Python 2.5 candidate library function [itertools.walk](http://mail.python.org/pipermail/python-dev/2005-March/052215.html){.http} goes over some of the potential problems. We\'ve survived without fancy iterator handling in the print statement - let\'s avoid adding anything we don\'t have a demonstrated need for (the extended call syntax stuff comes \'for free\' with the conversion to using a function). - *Alyssa Coghlan*
+- Nailing down this kind of behaviour is trickier than one might think. The python-dev discussion of the Python 2.5 candidate library function [itertools.walk](http://mail.python.org/pipermail/python-dev/2005-March/052215.html) goes over some of the potential problems. We\'ve survived without fancy iterator handling in the print statement - let\'s avoid adding anything we don\'t have a demonstrated need for (the extended call syntax stuff comes \'for free\' with the conversion to using a function). - *Alyssa Coghlan*
 
   - *BDFL comments:* bah. implicitly exhausting iterables has side effects, which is a bad idea for a print function. It would not be a good idea if commenting out a print() call changes the behavior of the program.
 
 <!-- -->
 
-- [\[lwickjr](./(5b)lwickjr.html){.nonexistent}: How about this? Define `repr(iterator)` to return `"<iteratorData>"` and `str(iterator)}} to return something like {{{" ".join([i for i in iterator])`? -5\]
+- [\[lwickjr](./(5b)lwickjr.html): How about this? Define `repr(iterator)` to return `"<iteratorData>"` and `str(iterator)}} to return something like {{{" ".join([i for i in iterator])`? -5\]
 
-### Another Strawman {#Another_Strawman}
+### Another Strawman 
 
 Here\'s my own strawman implementation of `write()` and `writef()` using semantics I think are pretty useful. I\'ll post to python-dev about the details. - *Barry Warsaw*
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-43bf3d0bb8f204847363c038e15b5e2f65dc8ace dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from string import Template
    3 
@@ -350,15 +355,15 @@ Here\'s my own strawman implementation of `write()` and `writef()` using semanti
 
 <!-- -->
 
-- [\[lwickjr](./(5b)lwickjr.html){.nonexistent}: `def printf(format, *args): print(format(format, *args))`? This definition will actually work with `print` either a statement or function. Further, formatting and printing are seperate concepts and should not be tightly coupled.\]
+- [\[lwickjr](./(5b)lwickjr.html): `def printf(format, *args): print(format(format, *args))`? This definition will actually work with `print` either a statement or function. Further, formatting and printing are seperate concepts and should not be tightly coupled.\]
 
-### Another variant - \`format\` builtin {#Another_variant_-_.60format.60_builtin}
+### Another variant - \`format\` builtin 
 
 Barry\'s `writef`{.backtick} builtin cuts down a little on the typing, but is somewhat inflexible in that it only supports `string %`{.backtick} or `string.Template`{.backtick} formatting when printing directly to a stream. It also causes problems by preventing the use of `to`{.backtick} or `nl`{.backtick} as keywords in the format string. A separate `format`{.backtick} builtin would deal with both of those problems, at the expense of some extra typing when using it. Such a builtin would also help with avoiding some of the tuple related quirks of the string mod operator, as well as making it easy to write code that supports both types of string formatting. The version below is based on Barry\'s, but eliminates the `Separator`{.backtick} concept, and replaces `writef`{.backtick} with `format`{.backtick} - *Alyssa Coghlan*
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-5ce6d953cd800e46cb48aaae4f985262e6bada06 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from string import Template
    3 
@@ -425,15 +430,15 @@ Barry\'s `writef`{.backtick} builtin cuts down a little on the typing, but is so
 :::
 ::::
 
-### Displaying iterators {#Displaying_iterators}
+### Displaying iterators 
 
 I\'m looking into an approach which adds explicit support for displaying iterators into the string mod operator. The intent is that `"%''j" % (my_seq,)`{.backtick} will become roughly equivalent to `''.join(map(str, my_seq))`{.backtick}. - *Alyssa Coghlan*
 
-[SF Patch #1281573](http://sourceforge.net/tracker/?func=detail&aid=1281573&group_id=5470&atid=305470){.http} for anyone who wants to play with it. Only strings are supported so far (no Unicode), but it illustrates the concept quite well.
+[SF Patch #1281573](http://sourceforge.net/tracker/?func=detail&aid=1281573&group_id=5470&atid=305470) for anyone who wants to play with it. Only strings are supported so far (no Unicode), but it illustrates the concept quite well.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a6bb8ead26e4a2d1c1a284c0b5df9c3f4b8f3a72 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Print a simple sequence
    2 print " ".join(map(str, range(10)))
    3 print "%' 'j" % range(10)
@@ -449,11 +454,11 @@ I\'m looking into an approach which adds explicit support for displaying iterato
 
 <!-- -->
 
-- [\[lwickjr](./(5b)lwickjr.html){.nonexistent}: I prefer that `repr()` and `str()` be the Official Pythonic Way to decide which representation gets written. How about `def printFunc(*args): print "".join(map(str, args))` and `def writeFunc(*args): print "".join(map(repr, args))`?\]
+- [\[lwickjr](./(5b)lwickjr.html): I prefer that `repr()` and `str()` be the Official Pythonic Way to decide which representation gets written. How about `def printFunc(*args): print "".join(map(str, args))` and `def writeFunc(*args): print "".join(map(repr, args))`?\]
 
-### Scrap C-Style Formatting {#Scrap_C-Style_Formatting}
+### Scrap C-Style Formatting 
 
-What\'s one more strawman, right? ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} My approach is tailor-made for gettext (although I\'m no expert in gettext usage). Keywords become the default and positionals disappear completely.
+What\'s one more strawman, right? ![:)](/wiki/europython/img/smile.png ":)") My approach is tailor-made for gettext (although I\'m no expert in gettext usage). Keywords become the default and positionals disappear completely.
 
 `>>> print('x = {x}, y = {y}, z = {z}', x=x, y=y, z=z)`
 
@@ -469,9 +474,9 @@ but only if you don\'t mind exposing them (debatable). If you need something bes
 
 Or maybe even something that allows arbitrary arguments to be passed to the formatter. - *Adam Olsen*
 
-### Another idea {#Another_idea}
+### Another idea 
 
-String formatting with %\* is a bad idea, imho. Since python is anyway dynamic by nature, why not add built-in string evaluation, as in boo [http://boo.codehaus.org](http://boo.codehaus.org){.http}. for example:
+String formatting with %\* is a bad idea, imho. Since python is anyway dynamic by nature, why not add built-in string evaluation, as in boo [http://boo.codehaus.org](http://boo.codehaus.org). for example:
 
     x = "lucy"
     write("i love ${x}")
@@ -491,13 +496,13 @@ but rather
 
 which is much more readable and easier to maintain. imagine working with 20 \'%s\' in a single string! it\'s a disaster. even using the silly %(name) is bad, since you then have to fill a huge dict after your string.
 
-(\*) backticks: yes, backticks mean repr(), but did anyone ever hear of them? [\[lwickjr](./(5b)lwickjr.html){.nonexistent}: I use them regularly.\] i think they are depricated anyway. [\[lwickjr](./(5b)lwickjr.html){.nonexistent}: Why?\] adding a new built-in type, evalstr (\"evaluating string\"), marked by backticks, is very simple and almost completely backwards compatible. and it works not only in the context of printing output.
+(\*) backticks: yes, backticks mean repr(), but did anyone ever hear of them? [\[lwickjr](./(5b)lwickjr.html): I use them regularly.\] i think they are depricated anyway. [\[lwickjr](./(5b)lwickjr.html): Why?\] adding a new built-in type, evalstr (\"evaluating string\"), marked by backticks, is very simple and almost completely backwards compatible. and it works not only in the context of printing output.
 
     write(`hello ${os.getuid()}, the time now is ${time.asctime()}, and you are running on ${os.name}`)
 
 true, it doesnt solve the write/writeln \"problem\", and i must admit that print as a statement is a pretty useful feature (no parenthesis hassle), but adding evalstrings will make long format string possible and maintainable. plus, it gets us rid of the ugly writef or printf proposals.
 
-### Yet Another Formatting Alternative {#Yet_Another_Formatting_Alternative}
+### Yet Another Formatting Alternative 
 
 There\'s a few goals for any formatting scheme
 
@@ -544,7 +549,7 @@ Looking this over, the weakest link seems to be in the formatter aspects. It nee
 
 \- *Adam Olsen*
 
-### Extend String.Template? {#Extend_String.Template.3F}
+### Extend String.Template? 
 
 The basic idea would be to incorporate the functionality of the existing `string.Template` module as a built-in. The format prefix characters are stolen directly from Perl, which makes them both lightweight and familiar.
 
@@ -563,4 +568,3 @@ Ideally, what we would then have is something similar to the Perl syntax:
     print t"Hello, $user!"
 
 \- *Talin*
-:::::::::::::::::

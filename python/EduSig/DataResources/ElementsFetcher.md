@@ -1,9 +1,14 @@
 # EduSig/DataResources/ElementsFetcher
 
-::::: {#content dir="ltr" lang="en"}
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-007312088199cef417ecd854d5ca3b6264c4ecc2 dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+:::: 
+::: 
+``` 
    1 import urllib2
    2 from BeautifulSoup import BeautifulSoup
    3 
@@ -55,9 +60,8 @@
 
 - This example uses standard Python except for
 
-  [the BeautifulSoup package](http://www.crummy.com/software/BeautifulSoup/){.http} which must be installed separately.
+  [the BeautifulSoup package](http://www.crummy.com/software/BeautifulSoup/) which must be installed separately.
 
 ------------------------------------------------------------------------
 
 [CategoryPythonInEducation](CategoryPythonInEducation)
-:::::

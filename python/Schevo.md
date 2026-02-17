@@ -1,19 +1,12 @@
 # Schevo
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [Masthead](#Masthead)
-2.  [Synopsis](#Synopsis)
-3.  [Features](#Features)
-4.  [Supported Python applications](#Supported_Python_applications)
-5.  [Pros](#Pros)
-6.  [Cons](#Cons)
-7.  [See Also](#See_Also)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Masthead {#Masthead}
+## Masthead 
 
 License
 :   MIT
@@ -28,13 +21,13 @@ Versions
 
 Maintainer
 
-:   [Etienne Robillard](https://wiki.python.org/moin/EtienneRobillard){.https}
+:   [Etienne Robillard](https://wiki.python.org/moin/EtienneRobillard)
 
-## Synopsis {#Synopsis}
+## Synopsis 
 
 Next-generation Object-Oriented DBMS
 
-## Features {#Features}
+## Features 
 
 - Rapid Development
 
@@ -56,7 +49,7 @@ Next-generation Object-Oriented DBMS
 
 - PyPy and Python 3 Support
 
-## Supported Python applications {#Supported_Python_applications}
+## Supported Python applications 
 
 - [Django](Django)
 
@@ -68,21 +61,20 @@ Next-generation Object-Oriented DBMS
 
 - uWSGI
 
-## Pros {#Pros}
+## Pros 
 
 - Persistent storage on top of [Durus](Durus) and [ZODB](ZODB).
 
 - epoll support
 
-## Cons {#Cons}
+## Cons 
 
 - GTK2 bindings depends on Python 2.7
 
-## See Also {#See_Also}
+## See Also 
 
-- [SchevoEditor](https://www.isotopesoftware.ca/wiki/LibSchevo/SchevoEditor){.https}: A GTK2-based editor for Schevo databases
+- [SchevoEditor](https://www.isotopesoftware.ca/wiki/LibSchevo/SchevoEditor): A GTK2-based editor for Schevo databases
 
-- [Source code](https://bitbucket.org/tkadm30/libschevo){.https}
+- [Source code](https://bitbucket.org/tkadm30/libschevo)
 
-- [LibSchevo Wiki](https://www.isotopesoftware.ca/wiki/LibSchevo){.https}
-::::
+- [LibSchevo Wiki](https://www.isotopesoftware.ca/wiki/LibSchevo)

@@ -1,9 +1,14 @@
 # LuisdelaOrden
 
-::: {#content dir="ltr" lang="en"}
-## LuisdelaOrden {#LuisdelaOrden-1}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Luis de la Orden Mendoza ![B)](/wiki/europython/img/smile2.png "B)"){height="16" width="16"}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## LuisdelaOrden 
+
+Luis de la Orden Mendoza ![B)](/wiki/europython/img/smile2.png "B)")
 
 From Spain.
 
@@ -14,4 +19,3 @@ Editing [OutOfPrintBooks](OutOfPrintBooks)
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage) [CategoryHomepage](CategoryHomepage)
-:::

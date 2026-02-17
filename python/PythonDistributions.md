@@ -1,31 +1,36 @@
 # PythonDistributions
 
-::: {#content dir="ltr" lang="en"}
-# Python Distributions {#Python_Distributions}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Python Distributions 
 
 Aside from the official CPython distribution available from python.org, other distributions based on CPython include the following:
 
-- [ActivePython](http://www.activestate.com/activepython){.http} from [ActiveState](ActiveState)
+- [ActivePython](http://www.activestate.com/activepython) from [ActiveState](ActiveState)
 
-- [Anaconda](https://store.continuum.io/cshop/anaconda/){.https} from Continuum Analytics
+- [Anaconda](https://store.continuum.io/cshop/anaconda/) from Continuum Analytics
 
-- [ChinesePython Project](http://www.chinesepython.org){.http}: Translation of Python\'s keywords, internal types and classes into Chinese. Eventually allows a programmer to write Python programs in Chinese.
+- [ChinesePython Project](http://www.chinesepython.org): Translation of Python\'s keywords, internal types and classes into Chinese. Eventually allows a programmer to write Python programs in Chinese.
 
-- [Enthought\'s](https://enthought.com/){.https} [EDM](https://www.enthought.com/enthought-deployment-manager/){.https}
+- [Enthought\'s](https://enthought.com/) [EDM](https://www.enthought.com/enthought-deployment-manager/)
 
-- [Win9xPython](http://gillibert.fr/andre/projects/python){.http}: Backport of mainline CPython 2.6/2.7 to old versions of Windows 9x/NT.
+- [Win9xPython](http://gillibert.fr/andre/projects/python): Backport of mainline CPython 2.6/2.7 to old versions of Windows 9x/NT.
 
 - [IPython](IPython) and its [IPyKit](IPyKit) variant
 
-- [PocketPython](http://www.murkworks.com/Research/Python/PocketPCPython/Overview){.http}
+- [PocketPython](http://www.murkworks.com/Research/Python/PocketPCPython/Overview)
 
-- [Portable Python](http://www.portablepython.com){.http}: Run Python from USB device - no installation needed.
+- [Portable Python](http://www.portablepython.com): Run Python from USB device - no installation needed.
 
 - [PyIMSL Studio](./PyIMSL(20)Studio.html)
 
 - [PyPy](PyPy): a Python implementation in Python.
 
-- [Python(x,y)](https://python-xy.github.io/){.https}: Python(x,y) is a scientific-oriented Python Distribution based on Qt, Eclipse and [Spyder](https://www.spyder-ide.org/){.https}
+- [Python(x,y)](https://python-xy.github.io/): Python(x,y) is a scientific-oriented Python Distribution based on Qt, Eclipse and [Spyder](https://www.spyder-ide.org/)
 
 - [PythonForArmLinux](PythonForArmLinux)
 
@@ -35,13 +40,12 @@ Aside from the official CPython distribution available from python.org, other di
 
 - [StacklessPython](StacklessPython)
 
-- [Tiny Python](http://web.archive.org/web/20060326191953/http://www.mhuffman.com/resource/index.html){.http} (archived link) - not to be confused with tinypy
+- [Tiny Python](http://web.archive.org/web/20060326191953/http://www.mhuffman.com/resource/index.html) (archived link) - not to be confused with tinypy
 
-- [WinPython](https://winpython.github.io){.https}: Another scientific-focused Python distribution, based around [Spyder](https://www.spyder-ide.org/){.https}
+- [WinPython](https://winpython.github.io): Another scientific-focused Python distribution, based around [Spyder](https://www.spyder-ide.org/)
 
 See also:
 
 - [EmbeddedPython](EmbeddedPython) for details of minimal or reduced size Python distributions and implementations.
 
 - The master list of [Python implementations](implementation).
-:::

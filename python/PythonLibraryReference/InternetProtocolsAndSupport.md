@@ -1,6 +1,11 @@
 # PythonLibraryReference/InternetProtocolsAndSupport
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [Python Library Reference](PythonLibraryReference)
 
 ::: {}
@@ -9,7 +14,7 @@
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-# 11. Internet Protocols And Support {#A11._Internet_Protocols_And_Support}
+# 11. Internet Protocols And Support 
 
 11.1 webbrowser \-- Convenient Web-browser controller
 
@@ -27,7 +32,7 @@
 
 11.5 urllib2 \-- extensible library for opening URLs
 
-11.5.1 Request Objects 11.5.2 [OpenerDirector](./OpenerDirector.html){.nonexistent} Objects 11.5.3 [BaseHandler](./BaseHandler.html){.nonexistent} Objects 11.5.4 HTTPRedirectHandler Objects 11.5.5 [ProxyHandler](./ProxyHandler.html){.nonexistent} Objects 11.5.6 HTTPPasswordMgr Objects 11.5.7 [AbstractBasicAuthHandler](./AbstractBasicAuthHandler.html){.nonexistent} Objects 11.5.8 HTTPBasicAuthHandler Objects 11.5.9 [ProxyBasicAuthHandler](./ProxyBasicAuthHandler.html){.nonexistent} Objects 11.5.10 [AbstractDigestAuthHandler](./AbstractDigestAuthHandler.html){.nonexistent} Objects 11.5.11 HTTPDigestAuthHandler Objects 11.5.12 [ProxyDigestAuthHandler](./ProxyDigestAuthHandler.html){.nonexistent} Objects 11.5.13 HTTPHandler Objects 11.5.14 HTTPSHandler Objects 11.5.15 [FileHandler](./FileHandler.html){.nonexistent} Objects 11.5.16 FTPHandler Objects 11.5.17 CacheFTPHandler Objects 11.5.18 [GopherHandler](./GopherHandler.html){.nonexistent} Objects 11.5.19 [UnknownHandler](./UnknownHandler.html){.nonexistent} Objects 11.5.20 Examples
+11.5.1 Request Objects 11.5.2 [OpenerDirector](./OpenerDirector.html) Objects 11.5.3 [BaseHandler](./BaseHandler.html) Objects 11.5.4 HTTPRedirectHandler Objects 11.5.5 [ProxyHandler](./ProxyHandler.html) Objects 11.5.6 HTTPPasswordMgr Objects 11.5.7 [AbstractBasicAuthHandler](./AbstractBasicAuthHandler.html) Objects 11.5.8 HTTPBasicAuthHandler Objects 11.5.9 [ProxyBasicAuthHandler](./ProxyBasicAuthHandler.html) Objects 11.5.10 [AbstractDigestAuthHandler](./AbstractDigestAuthHandler.html) Objects 11.5.11 HTTPDigestAuthHandler Objects 11.5.12 [ProxyDigestAuthHandler](./ProxyDigestAuthHandler.html) Objects 11.5.13 HTTPHandler Objects 11.5.14 HTTPSHandler Objects 11.5.15 [FileHandler](./FileHandler.html) Objects 11.5.16 FTPHandler Objects 11.5.17 CacheFTPHandler Objects 11.5.18 [GopherHandler](./GopherHandler.html) Objects 11.5.19 [UnknownHandler](./UnknownHandler.html) Objects 11.5.20 Examples
 
 11.6 httplib \-- HTTP protocol client
 
@@ -61,7 +66,7 @@
 
 11.14 urlparse \-- Parse URLs into components
 
-11.15 [SocketServer](./SocketServer.html){.nonexistent} \-- A framework for network servers
+11.15 [SocketServer](./SocketServer.html) \-- A framework for network servers
 
 11.16 BaseHTTPServer \-- Basic HTTP server
 
@@ -75,7 +80,7 @@
 
 11.20 xmlrpclib \-- XML-RPC client access
 
-11.20.1 [ServerProxy](./ServerProxy.html){.nonexistent} Objects 11.20.2 Boolean Objects 11.20.3 [DateTime](./DateTime.html){.nonexistent} Objects 11.20.4 Binary Objects 11.20.5 Fault Objects 11.20.6 [ProtocolError](./ProtocolError.html){.nonexistent} Objects 11.20.7 Convenience Functions 11.20.8 Example of Client Usage
+11.20.1 [ServerProxy](./ServerProxy.html) Objects 11.20.2 Boolean Objects 11.20.3 [DateTime](./DateTime.html) Objects 11.20.4 Binary Objects 11.20.5 Fault Objects 11.20.6 [ProtocolError](./ProtocolError.html) Objects 11.20.7 Convenience Functions 11.20.8 Example of Client Usage
 
 11.21 SimpleXMLRPCServer \-- Basic XML-RPC server
 
@@ -96,4 +101,3 @@
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-::::

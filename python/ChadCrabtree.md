@@ -1,13 +1,18 @@
 # ChadCrabtree
 
-::: {#content dir="ltr" lang="en"}
-## Chad Crabtree {#Chad_Crabtree}
+```{admonition} Legacy Wiki Page
+:class: note
 
-I reside in Livonia, Michigan and I work at a coffee shop. I have been using python for about 5 years after reading [How to Become a Hacker]{.u} article. I have thus far written about 10k loc and feel that I\'m finally starting to get this programing thing. I recently took part in a Code Clinic from the Tutor mailing list check it out on [BrianvandenBroek](BrianvandenBroek)\'s page.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-My company can be found at [http://www.imperialdata.net](http://www.imperialdata.net){.http} all the development I do is in python.
+## Chad Crabtree 
 
-## Random Writer Code Clinic {#Random_Writer_Code_Clinic}
+I reside in Livonia, Michigan and I work at a coffee shop. I have been using python for about 5 years after reading [How to Become a Hacker] article. I have thus far written about 10k loc and feel that I\'m finally starting to get this programing thing. I recently took part in a Code Clinic from the Tutor mailing list check it out on [BrianvandenBroek](BrianvandenBroek)\'s page.
+
+My company can be found at [http://www.imperialdata.net](http://www.imperialdata.net) all the development I do is in python.
+
+## Random Writer Code Clinic 
 
 ------------------------------------------------------------------------
 
@@ -202,7 +207,7 @@ I noticed this would cause the output to be much longer. I changed the line in h
 
 Brian's code was 364 loc with a whole bunch of comments and doc strings. Christians Code was 128 loc with comments and spaces between functions. David's was 124 with copious comments and good spacing. Mine was 108 after I took out all the extra white
 
-you can find the originals here [Randomwriter Clinic Source](http://www.imperialdata.net/randomwriter_clinic.zip){.http}
+you can find the originals here [Randomwriter Clinic Source](http://www.imperialdata.net/randomwriter_clinic.zip)
 
 Note: I did make changes to the sources in order to do the profiling and to use the timeit module.
 
@@ -215,4 +220,3 @@ Email: base64.decodestring(\'ZmxheGVhdGVyQHlhaG9vLmNvbQ==\\n\')
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

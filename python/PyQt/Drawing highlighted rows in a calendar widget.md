@@ -1,13 +1,18 @@
 # PyQt/Drawing highlighted rows in a calendar widget
 
-::::: {#content dir="ltr" lang="en"}
-# Drawing highlighted rows in a calendar widget {#Drawing_highlighted_rows_in_a_calendar_widget}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Drawing highlighted rows in a calendar widget 
 
 On the Freenode #pyqt channel, rowinggolfer asked if it was possible to highlight the current week in a calendar widget.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-97009f10503a63d580df412bf916bfb173e09bd1 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from PyQt4.QtCore import *
    2 from PyQt4.QtGui import *
    3 
@@ -40,4 +45,3 @@ On the Freenode #pyqt channel, rowinggolfer asked if it was possible to highligh
 ```
 :::
 ::::
-:::::

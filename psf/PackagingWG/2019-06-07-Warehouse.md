@@ -1,6 +1,11 @@
 # PackagingWG/2019-06-07-Warehouse
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 7 June 2019
 
 **Attendees:**
@@ -27,7 +32,7 @@
 
 - Sumana to ask Duo to offer their eyes on the existing PR \-- point out things they like/don\'t like about how William is using their library
 
-- Sumana to ask the NYU crew for opinions on threat model/needs discussion/how much security do we need here? [GitHub](./GitHub.html){.nonexistent} issues
+- Sumana to ask the NYU crew for opinions on threat model/needs discussion/how much security do we need here? [GitHub](./GitHub.html) issues
 
 - Sumana to ask Mattias to become part of this miniteam! ask re availability! Help with PR review would be great!
 
@@ -42,7 +47,7 @@
     2.  getting reviews faster
         1.  a thumbs-up from Dustin or Ernest is sufficient to approve. They are the accepting parties.
 
-        2.  during Eastern business hours, please \"blow \[Ernest\] up\" - if you\'re waiting for a review, ping but not via [GitHub](./GitHub.html){.nonexistent} notifications. IRC or Slack.
+        2.  during Eastern business hours, please \"blow \[Ernest\] up\" - if you\'re waiting for a review, ping but not via [GitHub](./GitHub.html) notifications. IRC or Slack.
 
     3.  tight scope of work
         1.  Sumana trying to get volunteers to do stuff that is more ancillary
@@ -62,7 +67,7 @@
             2.  If we\'re talking about running an audit, need to do that across codebase, split up front/back. Nicole could set up time with the relevant person to \.... who will it be? William?
                 1.  TODO - William to confirm with his internal PM that it\'s ok to switch tasks now and do the initial a11y audit right away
 
-        3.  some existing research on finding issues & adding a11y checks to CI: [https://github.com/SolutionGuidance/psm/issues/415](https://github.com/SolutionGuidance/psm/issues/415){.https}
+        3.  some existing research on finding issues & adding a11y checks to CI: [https://github.com/SolutionGuidance/psm/issues/415](https://github.com/SolutionGuidance/psm/issues/415)
     2.  Localization/internationalisation (estimate: 3 weeks for Trail of Bits, ? for Nicole):
         1.  changing hardcoded strings to localizable: bunch of tedious labelling work. Who can/wants to do it?
             1.  Nicole could do some on templates while ToB does on views\.... could split it up
@@ -83,7 +88,7 @@
         4.  user testing, possible documentation\....
             1.  TODO: Nicole to reach out to some users to get direct UX feedback. Maybe they could help facilitate/participate
 
-    2.  Mattias \[address\] [https://github.com/JazzBrotha](https://github.com/JazzBrotha){.https} is a front end developer working at axesslab.com \<[http://axesslab.com\>](http://axesslab.com%3E){.http}. Axesslab pay their employees to work on any open source project for up to 10 hours per month, and Mattias is interested in using that time to help us! ![:D](/wiki/europython/img/biggrin.png ":D"){height="16" width="16"} (as of a year ago.) Already did a light audit: [https://wiki.python.org/psf/PackagingWG?action=AttachFile&do=get&target=May-2018-Warehouse-accessibility-audit-Mattias-JazzBrotha](https://wiki.python.org/psf/PackagingWG?action=AttachFile&do=get&target=May-2018-Warehouse-accessibility-audit-Mattias-JazzBrotha){.https} [May2018WarehouseaccessibilityauditMattiasJazzBrotha.pdf](attachments/PackagingWG(2f)2019(2d)06(2d)07(2d)Warehouse/May2018WarehouseaccessibilityauditMattiasJazzBrotha.pdf){.attachment} which Nicole turned into [https://github.com/pypa/warehouse/labels/accessibility](https://github.com/pypa/warehouse/labels/accessibility){.https}
+    2.  Mattias \[address\] [https://github.com/JazzBrotha](https://github.com/JazzBrotha) is a front end developer working at axesslab.com \<[http://axesslab.com\>](http://axesslab.com%3E). Axesslab pay their employees to work on any open source project for up to 10 hours per month, and Mattias is interested in using that time to help us! ![:D](/wiki/europython/img/biggrin.png ":D") (as of a year ago.) Already did a light audit: [https://wiki.python.org/psf/PackagingWG?action=AttachFile&do=get&target=May-2018-Warehouse-accessibility-audit-Mattias-JazzBrotha](https://wiki.python.org/psf/PackagingWG?action=AttachFile&do=get&target=May-2018-Warehouse-accessibility-audit-Mattias-JazzBrotha) [May2018WarehouseaccessibilityauditMattiasJazzBrotha.pdf](attachments/PackagingWG(2f)2019(2d)06(2d)07(2d)Warehouse/May2018WarehouseaccessibilityauditMattiasJazzBrotha.pdf) which Nicole turned into [https://github.com/pypa/warehouse/labels/accessibility](https://github.com/pypa/warehouse/labels/accessibility)
 
         1.  Ask for more auditing and recommendation work?
             1.  TODO: Sumana to ask Mattias to become part of this miniteam! ask re availability! Help with PR review would be great!
@@ -95,14 +100,14 @@
 
         2.  TODO: Ernest or Dustin to talk with Filippo re Golang experience
 
-        3.  TODO: Sumana to ask them for opinions on threat model/needs discussion/how much security do we need here? [GitHub](./GitHub.html){.nonexistent} issues
+        3.  TODO: Sumana to ask them for opinions on threat model/needs discussion/how much security do we need here? [GitHub](./GitHub.html) issues
 
 **Any other general updates?**
 
 - Ernest: burn rate?
   - number of invoices Ernest\'s received \.... needs updates
 
-- Sumana: adding issues to milestones [https://github.com/pypa/warehouse/milestones?direction=asc&sort=count&state=open](https://github.com/pypa/warehouse/milestones?direction=asc&sort=count&state=open){.https}
+- Sumana: adding issues to milestones [https://github.com/pypa/warehouse/milestones?direction=asc&sort=count&state=open](https://github.com/pypa/warehouse/milestones?direction=asc&sort=count&state=open)
 
 - Everyone: invoices!
 
@@ -112,4 +117,3 @@
   - TODO: Sumana to start rollout prep, \"how to test this\" documentation
 
 Unavailability between now & end of August: \[availability details redacted\]
-:::

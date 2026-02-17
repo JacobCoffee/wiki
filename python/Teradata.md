@@ -1,13 +1,18 @@
 # Teradata
 
-::: {#content dir="ltr" lang="en"}
-# Teradata {#Teradata-1}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## General Information {#General_Information}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Teradata 
+
+## General Information 
 
 URL
 
-:   [http://www.teradata.com/products-and-services/Teradata-Database/](http://www.teradata.com/products-and-services/Teradata-Database/){.http}
+:   [http://www.teradata.com/products-and-services/Teradata-Database/](http://www.teradata.com/products-and-services/Teradata-Database/)
 
 licence
 :   proprietary
@@ -15,22 +20,22 @@ licence
 platforms
 :   Linux (servers, VMs, mainframes)
 
-## Pros {#Pros}
+## Pros 
 
 - Big Data compatible
 - Data Warehouse
 
-## Cons {#Cons}
+## Cons 
 
 ------------------------------------------------------------------------
 
-## DB API 2.0 Drivers {#DB_API_2.0_Drivers}
+## DB API 2.0 Drivers 
 
-### mxODBC {#mxODBC}
+### mxODBC 
 
 URL
 
-:   [http://www.egenix.com/products/python/mxODBC/](http://www.egenix.com/products/python/mxODBC/){.http}
+:   [http://www.egenix.com/products/python/mxODBC/](http://www.egenix.com/products/python/mxODBC/)
 
 Licence
 :   commercial
@@ -43,15 +48,15 @@ Python versions
 
 Commercially supported fully DB-API 2.0 compliant ODBC database interface from eGenix.com; actively maintained since 1997.
 
-mxODBC comes with full support for stored procedures, multiple result sets, Unicode, a common interface on all platforms and [many other useful features](http://www.egenix.com/products/python/mxODBC/#Features){.http}.
+mxODBC comes with full support for stored procedures, multiple result sets, Unicode, a common interface on all platforms and [many other useful features](http://www.egenix.com/products/python/mxODBC/#Features).
 
 mxODBC has been successfully tested with the Teradata ODBC drivers.
 
-### mxODBC Connect {#mxODBC_Connect}
+### mxODBC Connect 
 
 URL
 
-:   [http://www.egenix.com/products/python/mxODBCConnect/](http://www.egenix.com/products/python/mxODBCConnect/){.http}
+:   [http://www.egenix.com/products/python/mxODBCConnect/](http://www.egenix.com/products/python/mxODBCConnect/)
 
 License
 :   eGenix Commercial License 1.3.0
@@ -64,17 +69,16 @@ Python versions
 
 mxODBC Connect is a commercial client-server product that allows connecting Python to ODBC compatible databases running on remote servers without requiring an ODBC driver on the client side. The product uses mxODBC on the server side and provides a highly portable Python library for the client side. As such it supports all database backend that mxODBC supports, but allows connecting to these from many different Python-supported platforms.
 
-mxODBC Connect supports asynchronous query execution via the popular [gevent package](http://www.gevent.org/){.http}, provides secure certificate based authentication, SSL encrypted database connections, comes with full support for stored procedures, multiple result sets, Unicode, a common interface on all platforms and implements [many other useful features](http://www.egenix.com/products/python/mxODBCConnect/#Features){.http}.
+mxODBC Connect supports asynchronous query execution via the popular [gevent package](http://www.gevent.org/), provides secure certificate based authentication, SSL encrypted database connections, comes with full support for stored procedures, multiple result sets, Unicode, a common interface on all platforms and implements [many other useful features](http://www.egenix.com/products/python/mxODBCConnect/#Features).
 
 mxODBC Connect Server is compatible with the Teradata ODBC drivers.
 
-## Other Drivers {#Other_Drivers}
+## Other Drivers 
 
 - N/A
 
 ------------------------------------------------------------------------
 
-## Supported Python Applications {#Supported_Python_Applications}
+## Supported Python Applications 
 
 - N/A
-:::

@@ -1,6 +1,11 @@
 # FormatReference
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Formatting Cheat Sheet (string.format):
 
            "{" [field_name] ["!" conversion] [":" format_spec] "}"
@@ -34,13 +39,12 @@ Formatting Cheat Sheet (string.format):
       f, F, % fixed point                      (upper case) X base 16
       g, G, n (general numbers)                   (x100, f) % percentage
 
-## See Also {#See_Also}
+## See Also 
 
-- [Format String Syntax](http://docs.python.org/library/string.html#format-string-syntax){.http} (Python 2.x documentation)
+- [Format String Syntax](http://docs.python.org/library/string.html#format-string-syntax) (Python 2.x documentation)
 
-- \* [Format String Syntax](https://docs.python.org/3/library/string.html#format-string-syntax){.https} (Python 3.x documentation)
+- \* [Format String Syntax](https://docs.python.org/3/library/string.html#format-string-syntax) (Python 3.x documentation)
 
-- [Format Specification Mini-Language](http://docs.python.org/library/string.html#format-specification-mini-language){.http} (Python 2.x documentation)
+- [Format Specification Mini-Language](http://docs.python.org/library/string.html#format-specification-mini-language) (Python 2.x documentation)
 
-- \* [Format Specification Mini-Language](https://docs.python.org/3/library/string.html#format-specification-mini-language){.https} (Python 3.x documentation)
-:::
+- \* [Format Specification Mini-Language](https://docs.python.org/3/library/string.html#format-specification-mini-language) (Python 3.x documentation)

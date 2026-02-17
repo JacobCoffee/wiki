@@ -1,11 +1,16 @@
 # ctypes
 
-::: {#content dir="ltr" lang="en"}
-\"ctypes is an advanced [FFI](./FFI.html){.nonexistent} \... package for Python \...\", according to its [home page](http://www.python.net/crew/theller/ctypes/){.http}.
+```{admonition} Legacy Wiki Page
+:class: note
 
-[Python 2.5](./Python(20)2(2e)5.html){.nonexistent} includes ctypes.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-### CTypes FAQs {#CTypes_FAQs}
+\"ctypes is an advanced [FFI](./FFI.html) \... package for Python \...\", according to its [home page](http://www.python.net/crew/theller/ctypes/).
+
+[Python 2.5](./Python(20)2(2e)5.html) includes ctypes.
+
+### CTypes FAQs 
 
 **FAQ: How do I copy bytes to Python from a ctypes.Structure?**
 
@@ -62,11 +67,11 @@ FAQ: Why is the documentation for ctypes so utterly worthless and devoid of usef
 
 1\. Learn how to edit this Wiki page at:
 
-[http://wiki.python.org/moin/WikiSandBox](http://wiki.python.org/moin/WikiSandBox){.http}
+[http://wiki.python.org/moin/WikiSandBox](http://wiki.python.org/moin/WikiSandBox)
 
 2\. Post newbie CTypes questions into comp.lang.python, per the remarkable invitation of:
 
-*from: [http://wiki.python.org/moin/MovingToPythonFromOtherLanguages](http://wiki.python.org/moin/MovingToPythonFromOtherLanguages){.http}*
+*from: [http://wiki.python.org/moin/MovingToPythonFromOtherLanguages](http://wiki.python.org/moin/MovingToPythonFromOtherLanguages)*
 
 *Don\'t be surprised to have your questions answered by the original \... The best thing about comp.lang.python is how \"newbie-friendly\" the mail group is. You can ask any question and never get a \"RTFM\" thrown back at you.*
 
@@ -74,23 +79,22 @@ FAQ: Why is the documentation for ctypes so utterly worthless and devoid of usef
 
 1\. Read a version of the CTypes tutorial:
 
-The search [http://www.google.com/search?q=site%3Adocs.python.org+ctypes](http://www.google.com/search?q=site:docs.python.org+ctypes){.http} once upon a time did find [http://docs.python.org/lib/module-ctypes.html](http://docs.python.org/lib/module-ctypes.html){.http}
+The search [http://www.google.com/search?q=site%3Adocs.python.org+ctypes](http://www.google.com/search?q=site:docs.python.org+ctypes) once upon a time did find [http://docs.python.org/lib/module-ctypes.html](http://docs.python.org/lib/module-ctypes.html)
 
 2\. Download and locally search a version of the CTypes tutorial.
 
-The search [http://www.google.com/search?q=ctypes+tutorial](http://www.google.com/search?q=ctypes+tutorial){.http} once upon a time did find [http://python.net/crew/theller/ctypes/tutorial.html](http://python.net/crew/theller/ctypes/tutorial.html){.http}
+The search [http://www.google.com/search?q=ctypes+tutorial](http://www.google.com/search?q=ctypes+tutorial) once upon a time did find [http://python.net/crew/theller/ctypes/tutorial.html](http://python.net/crew/theller/ctypes/tutorial.html)
 
 3\. Read other CTypes wiki\'s:
 
-The search [http://www.google.com/search?q=ctypes+python+wiki](http://www.google.com/search?q=ctypes+python+wiki){.http} once upon a time did find [http://starship.python.net/crew/theller/wiki](http://starship.python.net/crew/theller/wiki){.http}
+The search [http://www.google.com/search?q=ctypes+python+wiki](http://www.google.com/search?q=ctypes+python+wiki) once upon a time did find [http://starship.python.net/crew/theller/wiki](http://starship.python.net/crew/theller/wiki)
 
 **FAQ: How do I convert between c declarations (in .h files) to ctypes declarations?**
 
 It would be nice if you could define a struct only once. Is there any module that can parse .h files structs? It seems like it should be here.
 
-*The only such parse I know of is part of the python SWIG package ([http://www.swig.org/](http://www.swig.org/){.http}). I imagine that it could become involved to write a far more lean and concise parser without ending up relying on a full fledge C compiler like this (unless you wanted to define only a subset of valid C headers for which to write your parser for).*
+*The only such parse I know of is part of the python SWIG package ([http://www.swig.org/](http://www.swig.org/)). I imagine that it could become involved to write a far more lean and concise parser without ending up relying on a full fledge C compiler like this (unless you wanted to define only a subset of valid C headers for which to write your parser for).*
 
 ------------------------------------------------------------------------
 
 - [CategoryFaq](CategoryFaq)
-:::

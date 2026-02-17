@@ -1,30 +1,10 @@
 # PythonSpeed/PerformanceTips
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [Other Versions](#Other_Versions)
-2.  [Overview: Optimize what needs optimizing](#Overview:_Optimize_what_needs_optimizing)
-3.  [Choose the Right Data Structure](#Choose_the_Right_Data_Structure)
-4.  [Sorting](#Sorting)
-5.  [String Concatenation](#String_Concatenation)
-6.  [Loops](#Loops)
-7.  [Avoiding dots\...](#Avoiding_dots...)
-8.  [Local Variables](#Local_Variables)
-9.  [Initializing Dictionary Elements](#Initializing_Dictionary_Elements)
-10. [Import Statement Overhead](#Import_Statement_Overhead)
-11. [Data Aggregation](#Data_Aggregation)
-12. [Doing Stuff Less Often](#Doing_Stuff_Less_Often)
-13. [Python is not C](#Python_is_not_C)
-14. [Use xrange instead of range](#Use_xrange_instead_of_range)
-15. [Re-map Functions at runtime](#Re-map_Functions_at_runtime)
-16. [Profiling Code](#Profiling_Code)
-    1.  [Profiling](#Profiling)
-    2.  [The cProfile Module](#The_cProfile_Module)
-    3.  [Trace Module](#Trace_Module)
-    4.  [Visualizing Profiling Results](#Visualizing_Profiling_Results)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
 This page is devoted to various tips and tricks that help improve the performance of your Python programs. Wherever the information comes from someone else, I\'ve tried to identify the source.
 
@@ -32,13 +12,13 @@ Python has changed in some significant ways since I first wrote my \"fast python
 
 You should always test these tips with your application and the specific version of the Python [implementation](PythonImplementations) you intend to use and not just blindly accept that one method is faster than another. See the [profiling](./PythonSpeed(2f)PerformanceTips.html#Profiling) section for more details.
 
-Also new since this was originally written are packages like [Cython](http://cython.org/){.http}, [Pyrex](http://www.cosc.canterbury.ac.nz/~greg/python/Pyrex/){.http}, [Psyco](http://psyco.sourceforge.net/){.http}, [Weave](http://www.scipy.org/Weave){.http}, [Shed Skin](http://code.google.com/p/shedskin/){.http} and [PyInline](http://pyinline.sourceforge.net/){.http}, which can dramatically improve your application\'s performance by making it easier to push performance-critical code into C or machine language.
+Also new since this was originally written are packages like [Cython](http://cython.org/), [Pyrex](http://www.cosc.canterbury.ac.nz/~greg/python/Pyrex/), [Psyco](http://psyco.sourceforge.net/), [Weave](http://www.scipy.org/Weave), [Shed Skin](http://code.google.com/p/shedskin/) and [PyInline](http://pyinline.sourceforge.net/), which can dramatically improve your application\'s performance by making it easier to push performance-critical code into C or machine language.
 
-## Other Versions {#Other_Versions}
+## Other Versions 
 
-- Russian: [http://omsk.lug.ru/wacko/PythonHacking/PerfomanceTips](http://omsk.lug.ru/wacko/PythonHacking/PerfomanceTips){.http}
+- Russian: [http://omsk.lug.ru/wacko/PythonHacking/PerfomanceTips](http://omsk.lug.ru/wacko/PythonHacking/PerfomanceTips)
 
-## Overview: Optimize what needs optimizing {#Overview:_Optimize_what_needs_optimizing}
+## Overview: Optimize what needs optimizing 
 
 You can only know what makes your program slow after first getting the program to give correct results, then running it to see if the correct program is slow. When found to be slow, profiling can show what parts of the program are consuming most of the time. A comprehensive but quick-to-run test suite can then ensure that future optimizations don\'t change the correctness of your program. In short:
 
@@ -50,17 +30,17 @@ You can only know what makes your program slow after first getting the program t
 
 Certain optimizations amount to good programming style and so should be learned as you learn the language. An example would be moving the calculation of values that don\'t change within a loop, outside of the loop.
 
-## Choose the Right Data Structure {#Choose_the_Right_Data_Structure}
+## Choose the Right Data Structure 
 
 TBD.
 
-## Sorting {#Sorting}
+## Sorting 
 
 Sorting lists of basic Python objects is generally pretty efficient. The sort method for lists takes an optional comparison function as an argument that can be used to change the sorting behavior. This is quite convenient, though it can significantly slow down your sorts, as the comparison function will be called many times. In Python 2.4, you should use the key argument to the built-in sort instead, which should be the fastest way to sort.
 
 Only if you are using older versions of Python (before 2.4) does the following advice from Guido van Rossum apply:
 
-An alternative way to speed up sorts is to construct a list of tuples whose first element is a sort key that will sort properly using the default comparison, and whose second element is the original list element. This is the so-called [Schwartzian Transform](http://www.google.com/search?q=Schwartzian+Transform){.http}, also known as [DecorateSortUndecorate](./DecorateSortUndecorate.html){.nonexistent} (DSU).
+An alternative way to speed up sorts is to construct a list of tuples whose first element is a sort key that will sort properly using the default comparison, and whose second element is the original list element. This is the so-called [Schwartzian Transform](http://www.google.com/search?q=Schwartzian+Transform), also known as [DecorateSortUndecorate](./DecorateSortUndecorate.html) (DSU).
 
 Suppose, for example, you have a list of tuples that you want to sort by the n-th field of each tuple. The following function will do that.
 
@@ -115,7 +95,7 @@ Note that the original item is never used for sorting, only the returned key - t
     nlist.sort()
     nlist = [val for (key, index, val) in nlist]
 
-## String Concatenation {#String_Concatenation}
+## String Concatenation 
 
 The accuracy of this section is disputed with respect to later versions of Python. In CPython 2.5, string concatenation is fairly fast, although this may not apply likewise to other Python implementations. See [ConcatenationTestCode](ConcatenationTestCode) for a discussion.
 
@@ -152,9 +132,9 @@ Even better, for readability (this has nothing to do with efficiency other than 
 
 This last two are going to be much faster, especially when piled up over many CGI script executions, and easier to modify to boot. In addition, the slow way of doing things got slower in Python 2.0 with the addition of rich comparisons to the language. It now takes the Python virtual machine a lot longer to figure out how to concatenate two strings. (Don\'t forget that Python does all method lookup at runtime.)
 
-## Loops {#Loops}
+## Loops 
 
-Python supports a couple of looping constructs. The `for` statement is most commonly used. It loops over the elements of a sequence, assigning each to the loop variable. If the body of your loop is simple, the interpreter overhead of the `for` loop itself can be a substantial amount of the overhead. This is where the [map](http://www.python.org/doc/lib/built-in-funcs.html){.http} function is handy. You can think of `map` as a `for` moved into C code. The only restriction is that the \"loop body\" of `map` must be a function call. Besides the syntactic benefit of list comprehensions, they are often as fast or faster than equivalent use of `map`.
+Python supports a couple of looping constructs. The `for` statement is most commonly used. It loops over the elements of a sequence, assigning each to the loop variable. If the body of your loop is simple, the interpreter overhead of the `for` loop itself can be a substantial amount of the overhead. This is where the [map](http://www.python.org/doc/lib/built-in-funcs.html) function is handy. You can think of `map` as a `for` moved into C code. The only restriction is that the \"loop body\" of `map` must be a function call. Besides the syntactic benefit of list comprehensions, they are often as fast or faster than equivalent use of `map`.
 
 Here\'s a straightforward example. Instead of looping over a list of words and converting them to upper case:
 
@@ -176,9 +156,9 @@ Generator expressions were added to Python in version 2.4. They function more-or
 
 Which method is appropriate will depend on what version of Python you\'re using and the characteristics of the data you are manipulating.
 
-Guido van Rossum wrote a much more detailed (and succinct) examination of [loop optimization](http://www.python.org/doc/essays/list2str/){.http} that is definitely worth reading.
+Guido van Rossum wrote a much more detailed (and succinct) examination of [loop optimization](http://www.python.org/doc/essays/list2str/) that is definitely worth reading.
 
-## Avoiding dots\... {#Avoiding_dots...}
+## Avoiding dots\... 
 
 Suppose you can\'t use `map` or a list comprehension? You may be stuck with the for loop. The for loop example has another inefficiency. Both `newlist.append` and `word.upper` are function references that are reevaluated each time through the loop. The original loop can be replaced with:
 
@@ -190,7 +170,7 @@ Suppose you can\'t use `map` or a list comprehension? You may be stuck with the 
 
 This technique should be used with caution. It gets more difficult to maintain if the loop is large. Unless you are intimately familiar with that piece of code you will find yourself scanning up to check the definitions of `append` and `upper`.
 
-## Local Variables {#Local_Variables}
+## Local Variables 
 
 The final speedup available to us for the non-`map` version of the `for` loop is to use local variables wherever possible. If the above loop is cast as a function, `append` and `upper` become local variables. Python accesses local variables much more efficiently than global variables.
 
@@ -210,7 +190,7 @@ At the time I originally wrote this I was using a 100MHz Pentium running BSDI. I
     Local variable & no dots 1.79
     Using map function 0.54
 
-## Initializing Dictionary Elements {#Initializing_Dictionary_Elements}
+## Initializing Dictionary Elements 
 
 Suppose you are building a dictionary of word frequencies and you\'ve already broken your text up into a list of words. You might execute something like:
 
@@ -240,7 +220,7 @@ A third alternative became available with the release of Python 2.x. Dictionarie
 
 When I originally wrote this section, there were clear situations where one of the first two approaches was faster. It seems that all three approaches now exhibit similar performance (within about 10% of each other), more or less independent of the properties of the list of words.
 
-Other options are [defaultdict](http://docs.python.org/3/library/collections.html#collections.defaultdict){.http} and (since python 3.1) [Counter](https://docs.python.org/3/library/collections.html#counter-objects){.https}:
+Other options are [defaultdict](http://docs.python.org/3/library/collections.html#collections.defaultdict) and (since python 3.1) [Counter](https://docs.python.org/3/library/collections.html#counter-objects):
 
     from collections import defaultdict
 
@@ -265,11 +245,11 @@ All the options presented so far involve a double lookup: the dictionary is sear
 
 A drawback to `setdefault` is that a default value is constructed for each call whether it is used or not. Also, since dictionary lookup is fast, it seems difficult even to contrive an example where the double lookup is the bottleneck. As always it is wise to measure these costs before settling on an implementation.
 
-## Import Statement Overhead {#Import_Statement_Overhead}
+## Import Statement Overhead 
 
 `import` statements can be executed just about anywhere. It\'s often useful to place them inside functions to restrict their visibility and/or reduce initial startup time. Although Python\'s interpreter is optimized to not import the same module multiple times, repeatedly executing an import statement can seriously affect performance in some circumstances.
 
-Consider the following two snippets of code (originally from Greg [McFarlane](./McFarlane.html){.nonexistent}, I believe - I found it unattributed in a comp.lang.python [python-list@python.org](mailto:python-list@python.org){.mailto} posting and later attributed to him in another source):
+Consider the following two snippets of code (originally from Greg [McFarlane](./McFarlane.html), I believe - I found it unattributed in a comp.lang.python [python-list@python.org](mailto:python-list@python.org) posting and later attributed to him in another source):
 
     def doit1():
         import string ###### import statement inside function
@@ -340,7 +320,7 @@ A good way to do lazy imports is:
 
 This way the `email` module will only be imported once, on the first invocation of `parse_email()`.
 
-## Data Aggregation {#Data_Aggregation}
+## Data Aggregation 
 
 Function call overhead in Python is relatively high, especially compared with the execution speed of a builtin function. This strongly suggests that where appropriate, functions should handle data aggregates. Here\'s a contrived example written in Python.
 
@@ -386,11 +366,11 @@ Here\'s the proof in the pudding using an interactive session:
 
 Even written in Python, the second example runs about four times faster than the first. Had `doit` been written in C the difference would likely have been even greater (exchanging a Python `for` loop for a C `for` loop as well as removing most of the function calls).
 
-## Doing Stuff Less Often {#Doing_Stuff_Less_Often}
+## Doing Stuff Less Often 
 
 The Python interpreter performs some periodic checks. In particular, it decides whether or not to let another thread run and whether or not to run a pending call (typically a call established by a signal handler). Most of the time there\'s nothing to do, so performing these checks each pass around the interpreter loop can slow things down. There is a function in the `sys` module, `setcheckinterval`, which you can call to tell the interpreter how often to perform these periodic checks. Prior to the release of Python 2.3 it defaulted to 10. In 2.3 this was raised to 100. If you aren\'t running with threads and you don\'t expect to be catching many signals, setting this to a larger value can improve the interpreter\'s performance, sometimes substantially.
 
-## Python is not C {#Python_is_not_C}
+## Python is not C 
 
 It is also not Perl, Java, C++ or Haskell. Be careful when transferring your knowledge of how other languages perform to Python. A simple example serves to demonstrate:
 
@@ -451,7 +431,7 @@ into Python code that looks something like
 
 and use it to conclude that Python must be much slower than Perl. As others have pointed out numerous times, Python is slower than Perl for some things and faster for others. Relative performance also often depends on your experience with the two languages.
 
-## Use xrange instead of range {#Use_xrange_instead_of_range}
+## Use xrange instead of range 
 
 This section no longer applies if you\'re using Python 3, where `range`{.backtick} now provides an iterator over ranges of arbitrary size, and where `xrange`{.backtick} no longer exists.
 
@@ -486,7 +466,7 @@ And for this reason, the code runs instantly. If you substitute `range` there, P
 
 In Python versions before 2.2, `xrange` objects also supported optimizations such as fast membership testing (`i in xrange(n)`). These features were removed in 2.2 due to lack of use.
 
-## Re-map Functions at runtime {#Re-map_Functions_at_runtime}
+## Re-map Functions at runtime 
 
 Say you have a function
 
@@ -526,15 +506,15 @@ Well, your check will have an if statement slowing you down all the time except 
 
 Well, this example is fairly inadequate, but if the \'if\' statement is a pretty complicated expression (or something with lots of dots), you can save yourself evaluating it, if you know it will only be true the first time.
 
-## Profiling Code {#Profiling_Code}
+## Profiling Code 
 
 The first step to speeding up your program is learning where the bottlenecks lie. It hardly makes sense to optimize code that is never executed or that already runs fast. I use two modules to help locate the hotspots in my code, profile and trace. In later examples I also use the `timeit` module, which is new in Python 2.3.
 
-![(!)](/wiki/europython/img/idea.png "(!)"){height="16" width="16"} The advice in this section is out of date. See the separate [profiling](./PythonSpeed(2f)Profiling.html) document for alternatives to the approaches given below.
+![(!)](/wiki/europython/img/idea.png "(!)") The advice in this section is out of date. See the separate [profiling](./PythonSpeed(2f)Profiling.html) document for alternatives to the approaches given below.
 
-### Profiling {#Profiling}
+### Profiling 
 
-There are a number of [profiling modules](http://docs.python.org/library/profile.html){.http} included in the Python distribution. Using one of these to profile the execution of a set of functions is quite easy. Suppose your main function is called `main`{.backtick}, takes no arguments and you want to execute it under the control of the `profile`{.backtick} module. In its simplest form you just execute
+There are a number of [profiling modules](http://docs.python.org/library/profile.html) included in the Python distribution. Using one of these to profile the execution of a set of functions is quite easy. Suppose your main function is called `main`{.backtick}, takes no arguments and you want to execute it under the control of the `profile`{.backtick} module. In its simplest form you just execute
 
     import profile
     profile.run('main()')
@@ -543,15 +523,15 @@ When `main()`{.backtick} returns, the `profile`{.backtick} module will print a t
 
 A slightly longer description of profiling using the `profile`{.backtick} and `pstats`{.backtick} modules can be found here (archived version):
 
-[http://web.archive.org/web/20060506162444/http://wingware.com/doc/howtos/performance-profiling-python-code](http://web.archive.org/web/20060506162444/http://wingware.com/doc/howtos/performance-profiling-python-code){.http}
+[http://web.archive.org/web/20060506162444/http://wingware.com/doc/howtos/performance-profiling-python-code](http://web.archive.org/web/20060506162444/http://wingware.com/doc/howtos/performance-profiling-python-code)
 
-### The cProfile Module {#The_cProfile_Module}
+### The cProfile Module 
 
-The [\`cProfile\` module](https://docs.python.org/3/library/profile.html){.https} is an alternative to `profile`{.backtick} written in C that generally runs *much* faster. It uses the same interface.
+The [\`cProfile\` module](https://docs.python.org/3/library/profile.html) is an alternative to `profile`{.backtick} written in C that generally runs *much* faster. It uses the same interface.
 
-### Trace Module {#Trace_Module}
+### Trace Module 
 
-The [trace module](http://www.python.org/doc/current/lib/module-trace.html){.http} is a spin-off of the profile module I wrote originally to perform some crude statement level test coverage. It\'s been heavily modified by several other people since I released my initial crude effort. As of Python 2.0 you should find trace.py in the Tools/scripts directory of the Python distribution. Starting with Python 2.3 it\'s in the standard library (the Lib directory). You can copy it to your local bin directory and set the execute permission, then execute it directly. It\'s easy to run from the command line to trace execution of whole scripts:
+The [trace module](http://www.python.org/doc/current/lib/module-trace.html) is a spin-off of the profile module I wrote originally to perform some crude statement level test coverage. It\'s been heavily modified by several other people since I released my initial crude effort. As of Python 2.0 you should find trace.py in the Tools/scripts directory of the Python distribution. Starting with Python 2.3 it\'s in the standard library (the Lib directory). You can copy it to your local bin directory and set the execute permission, then execute it directly. It\'s easy to run from the command line to trace execution of whole scripts:
 
     % trace.py -t spam.py eggs
 
@@ -559,15 +539,15 @@ In Python 2.4 it\'s even easier to run. Just execute `python -m trace`.
 
 There\'s no separate documentation, but you can execute \"pydoc trace\" to view the inline documentation.
 
-### Visualizing Profiling Results {#Visualizing_Profiling_Results}
+### Visualizing Profiling Results 
 
-[RunSnakeRun](http://www.vrplumber.com/programming/runsnakerun/){.http} is a GUI tool by Mike Fletcher which visualizes profile dumps from cProfile using square maps. Function/method calls may be sorted according to various criteria, and source code may be displayed alongside the visualization and call statistics. Currently (April 2016) RunSnakeRun supports Python 2.x only - thus it cannot load profile data generated by Python 3 programs.
+[RunSnakeRun](http://www.vrplumber.com/programming/runsnakerun/) is a GUI tool by Mike Fletcher which visualizes profile dumps from cProfile using square maps. Function/method calls may be sorted according to various criteria, and source code may be displayed alongside the visualization and call statistics. Currently (April 2016) RunSnakeRun supports Python 2.x only - thus it cannot load profile data generated by Python 3 programs.
 
 An example usage:
 
     runsnake some_profile_dump.prof
 
-[Gprof2Dot](http://code.google.com/p/jrfonseca/wiki/Gprof2Dot){.http} is a python based tool that can transform profiling results output into a graph that can be converted into a PNG image or SVG.
+[Gprof2Dot](http://code.google.com/p/jrfonseca/wiki/Gprof2Dot) is a python based tool that can transform profiling results output into a graph that can be converted into a PNG image or SVG.
 
 A typical profiling session with python 2.5 looks like this (on older platforms you will need to use actual script instead of the -m option):
 
@@ -575,27 +555,27 @@ A typical profiling session with python 2.5 looks like this (on older platforms 
     python -m pbp.scripts.gprof2dot -f pstats -o stat.dot stat.prof
     dot -ostat.png -Tpng stat.dot
 
-[PyCallGraph](http://pycallgraph.slowchop.com/){.http} pycallgraph is a Python module that creates call graphs for Python programs. It generates a PNG file showing an modules\'s function calls and their link to other function calls, the amount of times a function was called and the time spent in that function.
+[PyCallGraph](http://pycallgraph.slowchop.com/) pycallgraph is a Python module that creates call graphs for Python programs. It generates a PNG file showing an modules\'s function calls and their link to other function calls, the amount of times a function was called and the time spent in that function.
 
 Typical usage:
 
     pycallgraph scriptname.py
 
-[PyProf2CallTree](https://bitbucket.org/ogrisel/pyprof2calltree){.https} is a script to help visualize profiling data collected with the cProfile python module with the [kcachegrind](http://kcachegrind.sourceforge.net/html/Home.html){.http} graphical calltree analyser.
+[PyProf2CallTree](https://bitbucket.org/ogrisel/pyprof2calltree) is a script to help visualize profiling data collected with the cProfile python module with the [kcachegrind](http://kcachegrind.sourceforge.net/html/Home.html) graphical calltree analyser.
 
 Typical usage:
 
     python -m cProfile -o stat.prof MYSCRIPY.PY [ARGS...]
     python pyprof2calltree.py -i stat.prof -k
 
-[ProfileEye](https://pypi.python.org/pypi/ProfileEye/){.https} is a browser-based frontend to [gprof2dot](https://github.com/jrfonseca/gprof2dot){.https} using [d3.js](http://d3js.org/){.http} for decluttering visual information.
+[ProfileEye](https://pypi.python.org/pypi/ProfileEye/) is a browser-based frontend to [gprof2dot](https://github.com/jrfonseca/gprof2dot) using [d3.js](http://d3js.org/) for decluttering visual information.
 
 Typical usage:
 
     python -m profile -o output.pstats path/to/your/script arg1 arg2
     gprof2dot -f pstats output.pstats | profile_eye --file-colon_line-colon-label-format > profile_output.html
 
-[SnakeViz](https://jiffyclub.github.io/snakeviz/){.https} is a browser-based visualizer for profile data.
+[SnakeViz](https://jiffyclub.github.io/snakeviz/) is a browser-based visualizer for profile data.
 
 Typical usage:
 
@@ -605,4 +585,3 @@ Typical usage:
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-::::

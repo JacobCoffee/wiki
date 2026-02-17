@@ -1,9 +1,14 @@
 # UpgradingPostgreSQL
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Because many Python services use PostreSQL, this instruction is here.
 
-### Upgrading PostgreSQL from 8.4 to 9.1 {#Upgrading_PostgreSQL_from_8.4_to_9.1}
+### Upgrading PostgreSQL from 8.4 to 9.1 
 
 If you have a database running on PostgreSQL 8.4 and you want to update it to 9.1, follow these steps:
 
@@ -26,4 +31,3 @@ If you have a database running on PostgreSQL 8.4 and you want to update it to 9.
 you check the value of shmmax with `sysctl -a | grep -i shm`. You can change the value permanently adding `kernel.shmmax = 34922496` in `/etc/sysctl.d/30-postgresql-shm.conf` and running `sudo sysctl -p` to apply the changes, or temporarily with `sudo sysctl kernel.shmmax=34922496`.
 
 1.  If everything works with 9.1 you can then remove 8.4;
-:::

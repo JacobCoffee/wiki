@@ -1,7 +1,12 @@
 # PyConIndia2009
 
-:::: {#content dir="ltr" lang="en"}
-Website: [http://in.pycon.org](http://in.pycon.org){.http}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Website: [http://in.pycon.org](http://in.pycon.org)
 
 Venue: CSA, Indian Institute of Science, Bangalore
 
@@ -31,4 +36,3 @@ Note: please add the category as given below to any page you create so that it g
 ------------------------------------------------------------------------
 
 [CategoryPyConIndia2009](CategoryPyConIndia2009)
-::::

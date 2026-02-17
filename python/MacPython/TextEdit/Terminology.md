@@ -1,7 +1,12 @@
 # MacPython/TextEdit/Terminology
 
-:::: {#content dir="ltr" lang="en"}
-*([TextEdit](./TextEdit.html){.nonexistent}.app terminology, generated from /Applications/TextEdit.app)*
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+*([TextEdit](./TextEdit.html).app terminology, generated from /Applications/TextEdit.app)*
 
 ::: {}
   -------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -11,11 +16,11 @@
   -------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-## Standard Suite {#Standard_Suite}
+## Standard Suite 
 
 Common classes and commands for most applications.
 
-### Commands {#Commands}
+### Commands 
 
 - **reference.get()** \-- Get the data for an object.\
 
@@ -23,7 +28,7 @@ Common classes and commands for most applications.
 
   **reference.save(\...)** \-- Save an object.\
 
-  - \[**as**=*[UnicodeText](./UnicodeText.html){.nonexistent}*\] \-- The file type in which to save the data.\
+  - \[**as**=*[UnicodeText](./UnicodeText.html)*\] \-- The file type in which to save the data.\
     \[**in\_**=*Alias*\] \-- The file in which to save the object.\
     Result: *None*
 
@@ -39,7 +44,7 @@ Common classes and commands for most applications.
 
   **reference.duplicate(\...)** \-- Copy object(s) and put the copies at a new location.\
 
-  - **to**=*[InsertionLoc](./InsertionLoc.html){.nonexistent}* \-- The location for the new object(s).\
+  - **to**=*[InsertionLoc](./InsertionLoc.html)* \-- The location for the new object(s).\
     \[**with_properties**=*AERecord*\] \-- Properties to be set in the new duplicated object(s).\
     Result: *None*
 
@@ -56,8 +61,8 @@ Common classes and commands for most applications.
   - \[**with_properties**=*AERecord*\] \-- The initial values for properties of the object.\
     **new**=*Type* \-- The class of the new object.\
     \[**with_data**=*Anything*\] \-- The initial data for the object.\
-    \[**at**=*[InsertionLoc](./InsertionLoc.html){.nonexistent}*\] \-- The location at which to insert the object.\
-    Result: *[ObjectSpecifier](./ObjectSpecifier.html){.nonexistent}* \-- the reply for the command
+    \[**at**=*[InsertionLoc](./InsertionLoc.html)*\] \-- The location at which to insert the object.\
+    Result: *[ObjectSpecifier](./ObjectSpecifier.html)* \-- the reply for the command
 
   **application.open(\...)** \-- Open an object.\
 
@@ -77,7 +82,7 @@ Common classes and commands for most applications.
 
   **reference.move(\...)** \-- Move object(s) to a new location.\
 
-  - **to**=*[InsertionLoc](./InsertionLoc.html){.nonexistent}* \-- The new location for the object(s).\
+  - **to**=*[InsertionLoc](./InsertionLoc.html)* \-- The new location for the object(s).\
     Result: *None*
 
   **reference.quit(\...)** \-- Quit an application.\
@@ -85,17 +90,17 @@ Common classes and commands for most applications.
   - \[**saving**=*k.yes \| k.no \| k.ask*\] \-- Specifies whether changes should be saved before quitting.\
     Result: *None*
 
-### Classes {#Classes}
+### Classes 
 
-- **document** \-- A [/TextEdit](./MacPython(2f)TextEdit(2f)Terminology(2f)TextEdit.html){.nonexistent} document.
+- **document** \-- A [/TextEdit](./MacPython(2f)TextEdit(2f)Terminology(2f)TextEdit.html) document.
 
   - Parent:
     - *[item](./MacPython(2f)TextEdit(2f)Terminology.html#class_item)*
 
     Properties:
     - **modified** (r/o) *Boolean* \-- Has the document been modified since the last save?\
-      **path** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The document\'s path.\
-      **name** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The document\'s name.\
+      **path** *[UnicodeText](./UnicodeText.html)* \-- The document\'s path.\
+      **name** *[UnicodeText](./UnicodeText.html)* \-- The document\'s name.\
       **text** *[k.text](./MacPython(2f)TextEdit(2f)Terminology.html#class_text)* \-- The text of the document.\
 
   **item** \-- A scriptable object.
@@ -115,7 +120,7 @@ Common classes and commands for most applications.
     Properties:
     - **zoomed** *Boolean* \-- Whether the window is currently zoomed.\
       **miniaturized** *Boolean* \-- Whether the window is currently miniaturized.\
-      **name** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The full title of the window.\
+      **name** *[UnicodeText](./UnicodeText.html)* \-- The full title of the window.\
       **floating** (r/o) *Boolean* \-- Whether the window floats.\
       **modal** (r/o) *Boolean* \-- Whether the window is the application\'s current modal window.\
       **miniaturizable** (r/o) *Boolean* \-- Whether the window can be miniaturized.\
@@ -129,15 +134,15 @@ Common classes and commands for most applications.
       **index** *SInt32* \-- The index of the window in the back-to-front window ordering.\
       **document** (r/o) *[k.document](./MacPython(2f)TextEdit(2f)Terminology.html#class_document)* \-- The document whose contents are being displayed in the window.\
 
-  **application** \-- [TextEdit](./TextEdit.html){.nonexistent}\'s top level scripting object.
+  **application** \-- [TextEdit](./TextEdit.html)\'s top level scripting object.
 
   - Parent:
     - *[item](./MacPython(2f)TextEdit(2f)Terminology.html#class_item)*
 
     Properties:
-    - **version** (r/o) *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The version of the application.\
+    - **version** (r/o) *[UnicodeText](./UnicodeText.html)* \-- The version of the application.\
       **frontmost** (r/o) *Boolean* \-- Is this the frontmost (active) application?\
-      **name** (r/o) *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the application.\
+      **name** (r/o) *[UnicodeText](./UnicodeText.html)* \-- The name of the application.\
 
     Elements:
     - **[windows](./MacPython(2f)TextEdit(2f)Terminology.html#class_window)** \-- *name \| index \| relative \| range \| test \| id*\
@@ -148,11 +153,11 @@ Common classes and commands for most applications.
   - Parent:
     - *[item](./MacPython(2f)TextEdit(2f)Terminology.html#class_item)*
 
-## Text Suite {#Text_Suite}
+## Text Suite 
 
 A set of basic classes for text processing.
 
-### Classes {#Classes-1}
+### Classes 
 
 - **attachment** \-- Represents an inline text attachment. This class is used mainly for make commands.
 
@@ -160,7 +165,7 @@ A set of basic classes for text processing.
     - *[text](./MacPython(2f)TextEdit(2f)Terminology.html#class_text)*
 
     Properties:
-    - **file_name** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The path to the file for the attachment\
+    - **file_name** *[UnicodeText](./UnicodeText.html)* \-- The path to the file for the attachment\
 
   **text** \-- Rich (styled) text
 
@@ -172,7 +177,7 @@ A set of basic classes for text processing.
 
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **color** *[k.color](./MacPython(2f)TextEdit(2f)Terminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -189,7 +194,7 @@ A set of basic classes for text processing.
 
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **color** *[k.color](./MacPython(2f)TextEdit(2f)Terminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -206,7 +211,7 @@ A set of basic classes for text processing.
 
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **color** *[k.color](./MacPython(2f)TextEdit(2f)Terminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -223,7 +228,7 @@ A set of basic classes for text processing.
 
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **color** *[k.color](./MacPython(2f)TextEdit(2f)Terminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -240,7 +245,7 @@ A set of basic classes for text processing.
 
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **color** *[k.color](./MacPython(2f)TextEdit(2f)Terminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -249,4 +254,3 @@ A set of basic classes for text processing.
       **[attachment](./MacPython(2f)TextEdit(2f)Terminology.html#class_attachment)** \-- *index \| relative \| range \| test*\
       **[words](./MacPython(2f)TextEdit(2f)Terminology.html#class_word)** \-- *index \| relative \| range \| test*\
       **[paragraphs](./MacPython(2f)TextEdit(2f)Terminology.html#class_paragraph)** \-- *index \| relative \| range \| test*\
-::::

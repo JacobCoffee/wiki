@@ -1,125 +1,129 @@
 # Ncr-Python.in/PythonCompaniesInIndia
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This is a page taken up from [BangPypers](BangPypers) page , will try to update it as and when i learn about companies and
 
-# Python Companies in India {#Python_Companies_in_India}
+# Python Companies in India 
 
 Add Python Company name here. Please maintain Alphabetical order.
 
-## Ahmedabad {#Ahmedabad}
+## Ahmedabad 
 
-- [Tech Receptives](http://www.techreceptives.com){.http}, Ahmedabad , Gujarat
+- [Tech Receptives](http://www.techreceptives.com), Ahmedabad , Gujarat
 
-- [N J Consultancy](http://www.njconsultancy.com){.http}, Ahmedabad , Gujarat
+- [N J Consultancy](http://www.njconsultancy.com), Ahmedabad , Gujarat
 
-## Bangalore {#Bangalore}
+## Bangalore 
 
-- [Comat Technologies Pvt. Ltd.](http://www.comat.com){.http}, Richmond Town, Bangalore
+- [Comat Technologies Pvt. Ltd.](http://www.comat.com), Richmond Town, Bangalore
 
-- [DIQ Technologies](http://www.diqtech.com/){.http}, Bangalore
+- [DIQ Technologies](http://www.diqtech.com/), Bangalore
 
-- [Hidden Reflex.](http://www.hiddenreflex.com/){.http}, Bangalore
+- [Hidden Reflex.](http://www.hiddenreflex.com/), Bangalore
 
-- [HSBSoft Technologies Pvt Ltd.](http://www.hsbsoft.com/){.http}, Bangalore
+- [HSBSoft Technologies Pvt Ltd.](http://www.hsbsoft.com/), Bangalore
 
-- [Mahiti Infotech](http://www.mahiti.org/){.http}, Bangalore
+- [Mahiti Infotech](http://www.mahiti.org/), Bangalore
 
-- [Moog Aircraft Group](http://www.moog.com){.http}, Electronic City, Bangalore
+- [Moog Aircraft Group](http://www.moog.com), Electronic City, Bangalore
 
-- [Outdu MediaTech Pvt Ltd](http://www.outdu.com){.http}, Ulsoor, Bangalore.
+- [Outdu MediaTech Pvt Ltd](http://www.outdu.com), Ulsoor, Bangalore.
 
-- [Servelots Infotech Pvt. Ltd.](http://www.servelots.com){.http}, #3354, K.R.Road, Bangalore
+- [Servelots Infotech Pvt. Ltd.](http://www.servelots.com), #3354, K.R.Road, Bangalore
 
-- [SnappyFingers](http://www.snappyfingers.com/){.http}, Bangalore
+- [SnappyFingers](http://www.snappyfingers.com/), Bangalore
 
-- [Tavant Technologies](http://www.tavant.com){.http}, Bangalore
+- [Tavant Technologies](http://www.tavant.com), Bangalore
 
-- [Trellisys Technologies](http://www.trellisys.net){.http}, Bangalore
+- [Trellisys Technologies](http://www.trellisys.net), Bangalore
 
-- [Wisdom Tap](http://www.wisdomtap.com/){.http}, Kagdasapura, Bangalore
+- [Wisdom Tap](http://www.wisdomtap.com/), Kagdasapura, Bangalore
 
-- [ZeOmega Infotech Pvt. Ltd.](http://www.zeomega.com/){.http}, #86, Palyam House, South End Road, Bangalore
+- [ZeOmega Infotech Pvt. Ltd.](http://www.zeomega.com/), #86, Palyam House, South End Road, Bangalore
 
-## Chennai {#Chennai}
+## Chennai 
 
-- [Efficient Frontier Technology India Pvt. Ltd.](http://www.efrontier.com/){.http}, Teynampet, Chennai
+- [Efficient Frontier Technology India Pvt. Ltd.](http://www.efrontier.com/), Teynampet, Chennai
 
-- [Global Analytics India Pvt. Ltd.](http://www.global-analytics.com/){.http}, Navallur, Chennai
+- [Global Analytics India Pvt. Ltd.](http://www.global-analytics.com/), Navallur, Chennai
 
-- [iMorph Innovation Center, Pvt. Ltd](http://www.imorph.com/){.http}, Chennai
+- [iMorph Innovation Center, Pvt. Ltd](http://www.imorph.com/), Chennai
 
-- [Serendio Software Pvt Ltd](http://www.serendio.com/){.http}
+- [Serendio Software Pvt Ltd](http://www.serendio.com/)
 
-- [Silver Stripe Software](http://www.silverstripesoftware.com){.http}, Chennai
+- [Silver Stripe Software](http://www.silverstripesoftware.com), Chennai
 
-- [Tachyon Technologies](http://tachyon.in){.http}, Chennai
+- [Tachyon Technologies](http://tachyon.in), Chennai
 
-## Coimbatore {#Coimbatore}
+## Coimbatore 
 
-- [Cognizant Technology Solution](http://www.cognizant.com){.http}, Coimbatore
+- [Cognizant Technology Solution](http://www.cognizant.com), Coimbatore
 
-## Delhi {#Delhi}
+## Delhi 
 
-- [Initto technology](http://www.initto.com){.http}, Delhi
+- [Initto technology](http://www.initto.com), Delhi
 
-- [Learning Concepts](http://www.learningconcepts.in){.http}, Delhi
+- [Learning Concepts](http://www.learningconcepts.in), Delhi
 
-- [Movico Technologies](http://www.movicotech.com/){.http}, Gurgoan
+- [Movico Technologies](http://www.movicotech.com/), Gurgoan
 
-- [Pariksha Labs](http://www.parikshalabs.com){.http} , Gurgoan
+- [Pariksha Labs](http://www.parikshalabs.com) , Gurgoan
 
-- [Open Labs](http://www.openlabs.co.in/){.http} , Noida
+- [Open Labs](http://www.openlabs.co.in/) , Noida
 
-- [SoundSource Consultancy](http://www.soundsource.in){.http}, Delhi
+- [SoundSource Consultancy](http://www.soundsource.in), Delhi
 
-- [Srijan Technologies, Pvt. Ltd.](http://srijan.in){.http}, Delhi
+- [Srijan Technologies, Pvt. Ltd.](http://srijan.in), Delhi
 
-- [Tata Consultancy Service Ltd.](http://www.tcs.com){.http}, Gurgaon
+- [Tata Consultancy Service Ltd.](http://www.tcs.com), Gurgaon
 
-- [Gale Technologies](http://www.galetechnologies.com){.http}, Noida
+- [Gale Technologies](http://www.galetechnologies.com), Noida
 
-## Hyderabad {#Hyderabad}
+## Hyderabad 
 
-- [Brainwave](http://www.brainwavelive.com/){.http}, Hyderabad
+- [Brainwave](http://www.brainwavelive.com/), Hyderabad
 
-- [Infotech Entreprises](http://www.infotech-enterprises.com/){.http}, Hyderabad
+- [Infotech Entreprises](http://www.infotech-enterprises.com/), Hyderabad
 
-- [Usware Technologies](http://uswaretech.com){.http}, Hyderabad
+- [Usware Technologies](http://uswaretech.com), Hyderabad
 
-## Kerala {#Kerala}
+## Kerala 
 
-- [Core Solutions](http://www.coresolutionsindia.com/){.http}, Calicut, Kerala
+- [Core Solutions](http://www.coresolutionsindia.com/), Calicut, Kerala
 
-- [Pearlsoft](http://www.pearlsoft.in/){.http}, Kochi/Trivandrum
+- [Pearlsoft](http://www.pearlsoft.in/), Kochi/Trivandrum
 
-## Kolkata {#Kolkata}
+## Kolkata 
 
-- [Brainwave](http://www.brainwavelive.com/){.http}, 3/1 Dr. U.N. Bhramachari Street, Kolkata
+- [Brainwave](http://www.brainwavelive.com/), 3/1 Dr. U.N. Bhramachari Street, Kolkata
 
-## Pune {#Pune}
+## Pune 
 
-- [Infinitely Beta Technologies](http://infinitelybeta.com){.http}, Pune
+- [Infinitely Beta Technologies](http://infinitelybeta.com), Pune
 
-- [Pragmatic Technology Solutions](http://www.pragtech.co.in){.http}, Pune
+- [Pragmatic Technology Solutions](http://www.pragtech.co.in), Pune
 
-- [Red Hat Software Services](http://www.rhss.redhat.com){.http}, Pune
+- [Red Hat Software Services](http://www.rhss.redhat.com), Pune
 
-- [Tetrahedrix](http://www.tetrahedrix.com/){.http},Koregaon Park,Pune
+- [Tetrahedrix](http://www.tetrahedrix.com/),Koregaon Park,Pune
 
-- [Zensar Technologies](http://www.zensar.com){.http}, Pune
+- [Zensar Technologies](http://www.zensar.com), Pune
 
-- [Reconnex India (now part of McAfee)](http://www.reconnex.net){.http}, Pune
+- [Reconnex India (now part of McAfee)](http://www.reconnex.net), Pune
 
-- [Opel IT Services](http://www.opelitservices.com){.http}, Pune
+- [Opel IT Services](http://www.opelitservices.com), Pune
 
-## Srinagar {#Srinagar}
+## Srinagar 
 
-- [iKraft Software Pvt Ltd](http://ikraftsoft.com/){.http}, Zam Zam Complex, Rambagh, Srinagar - 190015, J & K
+- [iKraft Software Pvt Ltd](http://ikraftsoft.com/), Zam Zam Complex, Rambagh, Srinagar - 190015, J & K
 
-- [Kolahoi](http://kolahoi.com//){.http}, Upper Soura, Srinagar, J & K
+- [Kolahoi](http://kolahoi.com//), Upper Soura, Srinagar, J & K
 
 ------------------------------------------------------------------------
 
 [CategoryPythonIndia](CategoryPythonIndia) [CategoryAdvocacy](CategoryAdvocacy)
-:::

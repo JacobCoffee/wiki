@@ -1,19 +1,24 @@
 # CiviCRMImport
 
-::: {#content dir="ltr" lang="en"}
-AMK\'s test setup: [http://psf.amk.ca/drupal-6.20/civicrm/dashboard](http://psf.amk.ca/drupal-6.20/civicrm/dashboard){.http} User: psfdemo PW: zaytinya
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+AMK\'s test setup: [http://psf.amk.ca/drupal-6.20/civicrm/dashboard](http://psf.amk.ca/drupal-6.20/civicrm/dashboard) User: psfdemo PW: zaytinya
 
 Kurt\'s setup: Drupal 6, CiviCRM 3.3.
 
-- [http://psfmember.org/d/](http://psfmember.org/d/){.http} \-- Drupal
+- [http://psfmember.org/d/](http://psfmember.org/d/) \-- Drupal
 
-- [http://psfmember.org/d/user/login](http://psfmember.org/d/user/login){.http} to login
+- [http://psfmember.org/d/user/login](http://psfmember.org/d/user/login) to login
 
-- [http://psfmember.org/d/admin](http://psfmember.org/d/admin){.http} for Drupal admin & configuration.
+- [http://psfmember.org/d/admin](http://psfmember.org/d/admin) for Drupal admin & configuration.
 
-- [http://psfmember.org/d/civicrm/dashboard](http://psfmember.org/d/civicrm/dashboard){.http} for CiviCRM dashboard.
+- [http://psfmember.org/d/civicrm/dashboard](http://psfmember.org/d/civicrm/dashboard) for CiviCRM dashboard.
 
-# Fields for Individual import {#Fields_for_Individual_import}
+# Fields for Individual import 
 
     birth date
     City
@@ -33,7 +38,7 @@ Kurt\'s setup: Drupal 6, CiviCRM 3.3.
     supplemental address 1,2
     url
 
-# Fields for Company Membership import {#Fields_for_Company_Membership_import}
+# Fields for Company Membership import 
 
     Contact ID
     Contact e-mail
@@ -49,21 +54,21 @@ Kurt\'s setup: Drupal 6, CiviCRM 3.3.
     Status Override 
     Test
 
-# Fields for CiviCRM\'s membership import {#Fields_for_CiviCRM.27s_membership_import}
+# Fields for CiviCRM\'s membership import 
 
     Membership Type
     Membership Start Date
     E-mail (to match to the contact)
 
-Discussion of importing in CRM docs: [http://en.flossmanuals.net/CiviCRM/ContactsAddingAndImporting](http://en.flossmanuals.net/CiviCRM/ContactsAddingAndImporting){.http}
+Discussion of importing in CRM docs: [http://en.flossmanuals.net/CiviCRM/ContactsAddingAndImporting](http://en.flossmanuals.net/CiviCRM/ContactsAddingAndImporting)
 
-# Tasks {#Tasks}
+# Tasks 
 
-## CiviCRM configuration {#CiviCRM_configuration}
+## CiviCRM configuration 
 
 - Go to Administer \> Global Settings \> Localization. Under \"Available Countries\", leave the right-hand side blank. Under \"Available States and Provinces\", add Canada, the US, the UK, Germany, New Zealand, and Argentina.
 
-## Conversion process {#Conversion_process}
+## Conversion process 
 
 - Import individual records (nominated members, and then non-members).
   - Edit file: South Korea -\> \"Korea, Republic of\".
@@ -73,11 +78,11 @@ Discussion of importing in CRM docs: [http://en.flossmanuals.net/CiviCRM/Contact
   - Create \'nominated\' membership. Emeritus members will be created as \'nominated\' and then cancelled.
   - Does Pat have data for the initial start date?
 - Import company records.
-  - Export sponsor members from [MatrixMaxx](./MatrixMaxx.html){.nonexistent}.
+  - Export sponsor members from [MatrixMaxx](./MatrixMaxx.html).
 
-  - Edit file: \"Corporate Member\" -\> \"Sponsor\"; \"Active\" -\> \"Current\" (watch for [ActiveState](./ActiveState.html){.nonexistent}\'s record!)
+  - Edit file: \"Corporate Member\" -\> \"Sponsor\"; \"Active\" -\> \"Current\" (watch for [ActiveState](./ActiveState.html)\'s record!)
 
-  - Edit file: fix \@hitmeister.de e-mail, [res@opsware.com](mailto:res@opsware.com){.mailto} e-mail
+  - Edit file: fix \@hitmeister.de e-mail, [res@opsware.com](mailto:res@opsware.com) e-mail
 
   - Import into CRM. Maxx\'s date format is mm/dd/yyyy.
 
@@ -87,11 +92,10 @@ CiviCRM doesn\'t support committees; should check that the committee rosters are
 
 Perhaps Groups could be used for this? \--KBK
 
-# Process {#Process}
+# Process 
 
 Target numbers: Companies: 37 total, 27 corporate members, 10 non-members.
 
 Target numbers: Individuals: 138 nominated members, 23 non-members.
 
-Should I bother converting the [MatrixMaxx](./MatrixMaxx.html){.nonexistent} applications, for either companies or individuals? Probably not.
-:::
+Should I bother converting the [MatrixMaxx](./MatrixMaxx.html) applications, for either companies or individuals? Probably not.

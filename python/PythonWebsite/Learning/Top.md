@@ -1,7 +1,12 @@
 # PythonWebsite/Learning/Top
 
-:::::::::::::: {#content dir="ltr" lang="en"}
-:::: {#goals .section}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+:::: 
 ### Goals
 
 This is a micro-site to direct new users to hand-picked Python resources so they can figure out what Python is and how to learn it.
@@ -9,7 +14,7 @@ This is a micro-site to direct new users to hand-picked Python resources so they
 - Site must have an attractive and text-light design. \* To this end, no list will have more than 5-6 items.
 - Site must either not require much ongoing maintenance, or must be maintable in some collective way (a CMS; a wiki; etc.).
 
-::: {#non-goals .section}
+::: 
 #### Non-goals
 
 - Completeness: it\'s impossible to link to everything.
@@ -17,7 +22,7 @@ This is a micro-site to direct new users to hand-picked Python resources so they
 :::
 ::::
 
-::: {#notes-on-content .section}
+::: 
 ### Notes on Content
 
 Top page will feature:
@@ -28,7 +33,7 @@ Top page will feature:
 The sub-page will contain the title and the expanded content below.
 :::
 
-::: {#top-page .section}
+::: 
 ### Top page
 
 What is Python? : Python is an easy-to-learn but powerful programming language, available as open source. (more)
@@ -44,7 +49,7 @@ Finding Libraries : Explore the thousands of add-on libraries available for Pyth
 Joining the Community : Connect to other Python users on the web, at local user groups, and at conferences. (more)
 :::
 
-::: {#what-is-python .section}
+::: 
 ### What is Python?
 
 Subhead: Python is an easy-to-learn but powerful programming language, available as open source. (more)
@@ -59,10 +64,10 @@ Python features:
 
 Some applications that use Python are:
 
-- [Django](http://www.djangoproject.com/){.http .reference .external}: \"The Web framework for perfectionists with deadlines.\"
-- [Blender](http://www.blender.org){.http .reference .external}: 3D content creation suite.
-- [SciPy](http://www.scipy.org){.http .reference .external}: Library of scientific tools.
-- [Roundup](http://roundup.sourceforge.net){.http .reference .external} and [Trac](http://www.edgewall.com/trac/){.http .reference .external} for bug tracking and project management.
+- [Django](http://www.djangoproject.com/): \"The Web framework for perfectionists with deadlines.\"
+- [Blender](http://www.blender.org): 3D content creation suite.
+- [SciPy](http://www.scipy.org): Library of scientific tools.
+- [Roundup](http://roundup.sourceforge.net) and [Trac](http://www.edgewall.com/trac/) for bug tracking and project management.
 
 Some companies and organizations that use Python are: (partial listing of PSF members)
 
@@ -71,25 +76,25 @@ Some companies and organizations that use Python are: (partial listing of PSF me
 > - Lucasfilm
 > - Hewlett-Packard (Opsware, Tabblo)
 > - Red Hat (XXX or Ubuntu? or both?)
-> - Read our [collection of Python success stories](http://www.python.org/about/success/){.http .reference .external}.
+> - Read our [collection of Python success stories](http://www.python.org/about/success/).
 :::
 
-::: {#learning-more .section}
+::: 
 ### Learning More
 
 Subhead: Find books, videos, and online documentation for Python. (more)
 
 Learn Python by reading:
 
-> - [Online documentation](http://docs.python.org){.http .reference .external} at python.org. Start with [the Python tutorial](http://docs.python.org/tutorial/){.http .reference .external}.
-> - [Learning Python](http://oreilly.com/catalog/9781565924642/){.http .reference .external} (on [Google Books](http://books.google.com/books?id=nEJ-jcYF2fMC&printsec=frontcover){.http .reference .external}, [Programming Python](http://oreilly.com/catalog/9780596000851/){.http .reference .external} (on [Google Books](http://books.google.com/books?id=5zYVUIl7F0QC){.http .reference .external}), by Mark Lutz; published by O\'Reilly Media.
-> - [Core Python Programming](http://python.net/crew/wesc/cpp/){.http .reference .external} (on [Google Books](http://books.google.com/books?id=mh0bU6NXrBgC&printsec=frontcover){.http .reference .external}), by Wesley Chun; published by Prentice Hall.
-> - [Python Essential Reference](http://books.google.com/books?id=kQom0WiUbZQC&printsec=frontcover){.http .reference .external} (on [Google Books](http://books.google.com/books?id=kQom0WiUbZQC&printsec=frontcover){.http .reference .external}), by David Beazley; published by New Riders.
+> - [Online documentation](http://docs.python.org) at python.org. Start with [the Python tutorial](http://docs.python.org/tutorial/).
+> - [Learning Python](http://oreilly.com/catalog/9781565924642/) (on [Google Books](http://books.google.com/books?id=nEJ-jcYF2fMC&printsec=frontcover), [Programming Python](http://oreilly.com/catalog/9780596000851/) (on [Google Books](http://books.google.com/books?id=5zYVUIl7F0QC)), by Mark Lutz; published by O\'Reilly Media.
+> - [Core Python Programming](http://python.net/crew/wesc/cpp/) (on [Google Books](http://books.google.com/books?id=mh0bU6NXrBgC&printsec=frontcover)), by Wesley Chun; published by Prentice Hall.
+> - [Python Essential Reference](http://books.google.com/books?id=kQom0WiUbZQC&printsec=frontcover) (on [Google Books](http://books.google.com/books?id=kQom0WiUbZQC&printsec=frontcover)), by David Beazley; published by New Riders.
 
 Or, learn Python by watching:
 
 > - PyCon 2009 tutorials
-> - [Python Fundamentals lesson DVD](http://python.net/crew/wesc/cpp/pf/){.http .reference .external}, taught by Wesley Chun.
+> - [Python Fundamentals lesson DVD](http://python.net/crew/wesc/cpp/pf/), taught by Wesley Chun.
 
 Take a Python course:
 
@@ -97,7 +102,7 @@ Take a Python course:
 > - link to wiki list
 :::
 
-::: {#try-python .section}
+::: 
 ### Try Python
 
 Subhead: Download Python for your computer, check whether it\'s already part of your system, or even try it on the web. (more)
@@ -109,7 +114,7 @@ Is Python already installed?
 Link to shell.appspot.com, sample programs
 :::
 
-::: {#tools-for-python-development .section}
+::: 
 ### Tools for Python Development
 
 Subhead: Powerful development environments and editors help you write and debug Python code.
@@ -136,7 +141,7 @@ Checking tools: pylint/pychecker/pyflakes
 What else?
 :::
 
-::: {#finding-libraries .section}
+::: 
 ### Finding Libraries
 
 Subhead: Explore the thousands of add-on libraries available for Python. (more)
@@ -146,7 +151,7 @@ PyPI; commonly-used libraries
 Link to an easy-install tutorial/page?
 :::
 
-::: {#joining-the-community .section}
+::: 
 ### Joining the Community
 
 Subhead: Connect to other Python users on the web, at local user groups, and at conferences. (more)
@@ -164,7 +169,7 @@ Conferences
 PSF
 :::
 
-::: {#additional-topics .section}
+::: 
 ### Additional topics?
 
 I\'m not sure whether the following material is worth including.
@@ -175,4 +180,3 @@ I\'m not sure whether the following material is worth including.
 - A news page that pulls RSS feeds from pypi and python.org?
 - Link to Software Carpentry tutorials?
 :::
-::::::::::::::

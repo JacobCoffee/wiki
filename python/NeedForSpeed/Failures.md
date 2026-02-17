@@ -1,7 +1,12 @@
 # NeedForSpeed/Failures
 
-::: {#content dir="ltr" lang="en"}
-# Things that we tried but decided were not good ideas. {#Things_that_we_tried_but_decided_were_not_good_ideas.}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Things that we tried but decided were not good ideas. 
 
 **Using more aggressive calling conventions/inlining in ceval**
 
@@ -13,21 +18,21 @@ Adding the ability to pre-allocate builtin list storage. At best we can speed up
 
 **Out-thinking exceptions**
 
-CPython spends considerable time moving exception info around among thread states, frame objects, and the `sys`{.backtick} module. This code is complicated and under-documented. Patch [1145039](http://bugs.python.org/issue1145039 "SF"){.interwiki} took a stab at reverse-engineering a weak invariant, and exploited it for a bit of speed. That worked fine so far as it went (and a variant was checked in), but it\'s likely more remains to be gotten. Alas, the `tim-exc_sanity`{.backtick} branch set up to try that consumed a lot of time fighting mysteries, and looks like it\'s more trouble than it\'s worth.
+CPython spends considerable time moving exception info around among thread states, frame objects, and the `sys`{.backtick} module. This code is complicated and under-documented. Patch [1145039](http://bugs.python.org/issue1145039 "SF") took a stab at reverse-engineering a weak invariant, and exploited it for a bit of speed. That worked fine so far as it went (and a variant was checked in), but it\'s likely more remains to be gotten. Alas, the `tim-exc_sanity`{.backtick} branch set up to try that consumed a lot of time fighting mysteries, and looks like it\'s more trouble than it\'s worth.
 
-**Singleton of [StopIteration](./StopIteration.html){.nonexistent}**
+**Singleton of [StopIteration](./StopIteration.html)**
 
-As part of the new exceptions implementation, we tried making a singleton [StopIteration](./StopIteration.html){.nonexistent} instance. No speedup was detected. This is primarily due to most uses of [StopIteration](./StopIteration.html){.nonexistent} using the type object directly (ie \"raise [StopIteration](./StopIteration.html){.nonexistent}\" vs. \"raise [StopIteration](./StopIteration.html){.nonexistent}()\"). Even for a crafted test case where the instance use was forced there was no detectable change in speed.
+As part of the new exceptions implementation, we tried making a singleton [StopIteration](./StopIteration.html) instance. No speedup was detected. This is primarily due to most uses of [StopIteration](./StopIteration.html) using the type object directly (ie \"raise [StopIteration](./StopIteration.html)\" vs. \"raise [StopIteration](./StopIteration.html)()\"). Even for a crafted test case where the instance use was forced there was no detectable change in speed.
 
 **GET_SIZE Macros**
 
-Making a [PyDict](./PyDict.html){.nonexistent}\_GET_SIZE like [PyTuple](./PyTuple.html){.nonexistent}\_GET_SIZE doesn\'t give a measurable improvement in pybench or pystone. This is likely because the compiler notices that those functions that use it have alreaday done NULL checks and frequently [PyDict](./PyDict.html){.nonexistent}\_Check so we aren\'t telling it anything it didn\'t already know.
+Making a [PyDict](./PyDict.html)\_GET_SIZE like [PyTuple](./PyTuple.html)\_GET_SIZE doesn\'t give a measurable improvement in pybench or pystone. This is likely because the compiler notices that those functions that use it have alreaday done NULL checks and frequently [PyDict](./PyDict.html)\_Check so we aren\'t telling it anything it didn\'t already know.
 
-Conversely changing all Py(Tuple\|List)\_GET_SIZE to point to plain Size has no measurable slowdown! Well, in the range of 0.5%, which may just be noise. Switching the #define to the real functions generates some spurious warnings because the regular methods expect [PyObjects](./PyObjects.html){.nonexistent} and not the more specific types.
+Conversely changing all Py(Tuple\|List)\_GET_SIZE to point to plain Size has no measurable slowdown! Well, in the range of 0.5%, which may just be noise. Switching the #define to the real functions generates some spurious warnings because the regular methods expect [PyObjects](./PyObjects.html) and not the more specific types.
 
 **Specializing Dictionaries**
 
-One man-day was spent trying to seperate the dicts used in namespaces (module.[dict]{.u}, instance/type/class [dicts]{.u}) the result was changing over a quarter of the [PyDict](./PyDict.html){.nonexistent}\* macros in the trunk to [PySymdict](./PySymdict.html){.nonexistent} (over half if you exclude Modules/). This was such a massive change it was abandoned after sprint Day1.
+One man-day was spent trying to seperate the dicts used in namespaces (module.[dict], instance/type/class [dicts]) the result was changing over a quarter of the [PyDict](./PyDict.html)\* macros in the trunk to [PySymdict](./PySymdict.html) (over half if you exclude Modules/). This was such a massive change it was abandoned after sprint Day1.
 
 **Switching to 64-bit ints on 32-bit platforms**
 
@@ -40,4 +45,3 @@ Tried not using the pymalloc module in the VC8 windows build environment. MS boa
 **Unicode Classification**
 
 Disabling the Unicode classification stuff (isupper) and using the c-runtime supplied one, turned out to be much slower. no surprises.
-:::

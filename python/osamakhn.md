@@ -1,17 +1,21 @@
 # osamakhn
 
-::: {#content dir="ltr" lang="en"}
-## Osama Khan (@osamakhn) {#Osama_Khan_.28.40osamakhn.29}
+```{admonition} Legacy Wiki Page
+:class: note
 
-#### Co-ordinator, Pakistan Python User Group. Aspiring Entrepreneur. {#Co-ordinator.2C_Pakistan_Python_User_Group._Aspiring_Entrepreneur.}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- National User Group: [Python Pakistan](http://www.python.org.pk){.http}
+## Osama Khan (@osamakhn) 
 
-- Website: [www.osamakhan.com](http://www.osamakhan.com){.http}
+#### Co-ordinator, Pakistan Python User Group. Aspiring Entrepreneur. 
+
+- National User Group: [Python Pakistan](http://www.python.org.pk)
+
+- Website: [www.osamakhan.com](http://www.osamakhan.com)
 
 - Email: `<mail AT osamakhan DOT com>`
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

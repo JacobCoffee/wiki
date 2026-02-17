@@ -1,33 +1,37 @@
 # Inventory
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 pydotorg inventory.
 
 ::: {}
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+------------------------------------+
 | **Where**                                                                                                                                                 | **What**                          | **More Info/Complaints**           |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+------------------------------------+
-| [http://wiki.python.org/](http://wiki.python.org/){.http}                                                                                                 | [MoinMoin](MoinMoin)       | [Admin/Wiki](./Admin(2f)Wiki.html) |
+| [http://wiki.python.org/](http://wiki.python.org/)                                                                                                 | [MoinMoin](MoinMoin)       | [Admin/Wiki](./Admin(2f)Wiki.html) |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+------------------------------------+
 |                                                                                                                                                                                               |                                    |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+------------------------------------+
-| [http://psf.upfronthosting.co.za/](http://psf.upfronthosting.co.za/){.http}                                                                               | Tracker About Tracker             | techtonik:Yet another login        |
+| [http://psf.upfronthosting.co.za/](http://psf.upfronthosting.co.za/)                                                                               | Tracker About Tracker             | techtonik:Yet another login        |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+------------------------------------+
-| [http://bugs.python.org/](http://bugs.python.org/){.http}                                                                                                 | [RoundUp](RoundUp) Tracker | techtonik:Custom OpenID hack       |
+| [http://bugs.python.org/](http://bugs.python.org/)                                                                                                 | [RoundUp](RoundUp) Tracker | techtonik:Custom OpenID hack       |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+------------------------------------+
-| [http://bugs.jython.org/](http://bugs.jython.org/){.http}                                                                                                 | Jython Tracker                    |                                    |
+| [http://bugs.jython.org/](http://bugs.jython.org/)                                                                                                 | Jython Tracker                    |                                    |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+------------------------------------+
 |                                                                                                                                                                                               |                                    |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+------------------------------------+
-| [http://sourceforge.net/tracker/?group_id=66150&atid=513503 SourceForge](http://sourceforge.net/tracker/?group_id=66150&atid=513503%20SourceForge){.http} | PyPI Tracker                      | techtonik:Horrible interface       |
+| [http://sourceforge.net/tracker/?group_id=66150&atid=513503 SourceForge](http://sourceforge.net/tracker/?group_id=66150&atid=513503%20SourceForge) | PyPI Tracker                      | techtonik:Horrible interface       |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+------------------------------------+
 |                                                                                                                                                                                               |                                    |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------+
 :::
 
-[https://hg.python.org/](https://hg.python.org/){.https} - source code repositories
+[https://hg.python.org/](https://hg.python.org/) - source code repositories
 
 ------------------------------------------------------------------------
 
 [CategoryDevelopmentProcess](CategoryDevelopmentProcess)
-::::

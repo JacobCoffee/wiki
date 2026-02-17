@@ -1,17 +1,22 @@
 # BrunoRocha
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Bruno Cezar Rocha
 
 +-------------------+------------------------------------------------------------------------------------+
-| home page         | [http://www.brunorocha.org](http://www.brunorocha.org){.http .reference .external} |
+| home page         | [http://www.brunorocha.org](http://www.brunorocha.org) |
 +-------------------+------------------------------------------------------------------------------------+
 | email             | rochacbruno@gmail.com                                                              |
 +-------------------+------------------------------------------------------------------------------------+
 | instant messaging | - Google Talk: rochacbruno@gmail.com                                               |
 |                   | - Skype: rochacbruno                                                               |
 +-------------------+------------------------------------------------------------------------------------+
-| location          | ::::: {.first .last .line-block}                                                   |
+| location          | :::::                                                    |
 |                   | ::: line                                                                           |
 |                   | Granja Viana                                                                       |
 |                   | :::                                                                                |
@@ -21,15 +26,14 @@
 |                   | :::                                                                                |
 |                   | :::::                                                                              |
 +-------------------+------------------------------------------------------------------------------------+
-| projects          | - [Quokka CMS](http://www.quokkaproject.org){.http .reference .external}           |
-|                   | - [Opps - Django CMS](http://github.com/opps){.http .reference .external}          |
+| projects          | - [Quokka CMS](http://www.quokkaproject.org)           |
+|                   | - [Opps - Django CMS](http://github.com/opps)          |
 +-------------------+------------------------------------------------------------------------------------+
-| Links             | - [github](http://www.github.com.com/rochacbruno){.http .reference .external}      |
-|                   | - [blog](http://brunorocha.org){.http .reference .external}                        |
-|                   | - [Curso de Python](http://cursodepython.com.br){.http .reference .external}       |
+| Links             | - [github](http://www.github.com.com/rochacbruno)      |
+|                   | - [blog](http://brunorocha.org)                        |
+|                   | - [Curso de Python](http://cursodepython.com.br)       |
 +-------------------+------------------------------------------------------------------------------------+
 
 ------------------------------------------------------------------------
 
-[CategoryHomepage](CategoryHomepage){.reference .external}
-:::
+[CategoryHomepage](CategoryHomepage)

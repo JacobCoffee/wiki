@@ -1,23 +1,28 @@
 # BangPypers
 
-::: {#content dir="ltr" lang="en"}
-# BangPypers {#BangPypers-1}
+```{admonition} Legacy Wiki Page
+:class: note
 
-[![http://mail.python.org/mailman/listinfo/bangpypers](http://bangpypers.sourceforge.net/bpug.png "http://mail.python.org/mailman/listinfo/bangpypers"){.external_image}](http://mail.python.org/mailman/listinfo/bangpypers){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-# Website {#Website}
+# BangPypers 
 
-[http://bangalore.python.org.in/](http://bangalore.python.org.in/){.http}
+[![http://mail.python.org/mailman/listinfo/bangpypers](http://bangpypers.sourceforge.net/bpug.png "http://mail.python.org/mailman/listinfo/bangpypers")](http://mail.python.org/mailman/listinfo/bangpypers)
 
-# Mailing List {#Mailing_List}
+# Website 
 
-[http://mail.python.org/mailman/listinfo/bangpypers](http://mail.python.org/mailman/listinfo/bangpypers){.http}
+[http://bangalore.python.org.in/](http://bangalore.python.org.in/)
 
-# Meetup Page {#Meetup_Page}
+# Mailing List 
 
-[https://www.meetup.com/bangpypers](https://www.meetup.com/bangpypers){.https}
+[http://mail.python.org/mailman/listinfo/bangpypers](http://mail.python.org/mailman/listinfo/bangpypers)
 
-# Frequently Asked Questions {#Frequently_Asked_Questions}
+# Meetup Page 
+
+[https://www.meetup.com/bangpypers](https://www.meetup.com/bangpypers)
+
+# Frequently Asked Questions 
 
 - [BangPypers/PythonEditors](./BangPypers(2f)PythonEditors.html)
 
@@ -25,7 +30,7 @@
 
 - [BangPypers/PresentationTopics](./BangPypers(2f)PresentationTopics.html)
 
-# PyCon India {#PyCon_India}
+# PyCon India 
 
 - [PyConIndiaSpeakerNotes](PyConIndiaSpeakerNotes)
 
@@ -37,11 +42,11 @@
 
 - [PyConIndiaLogos](PyConIndiaLogos)
 
-- [PyConIndiaPublicity](./PyConIndiaPublicity.html){.nonexistent}
+- [PyConIndiaPublicity](./PyConIndiaPublicity.html)
 
 - [PyConIndiaCallForProposals](PyConIndiaCallForProposals)
 
-- [PyConIN_Sponsors](http://wiki.python.org/moin/PyConIN_Sponsors){.http}
+- [PyConIN_Sponsors](http://wiki.python.org/moin/PyConIN_Sponsors)
 
 - [PyConIndiaInvitation](PyConIndiaInvitation)
 
@@ -49,21 +54,21 @@
 
 - [PyConIndiaFlyer](PyConIndiaFlyer)
 
-## Ideation {#Ideation}
+## Ideation 
 
 - [ProposalForPyConIndia](ProposalForPyConIndia)
 
-# Meetings {#Meetings}
+# Meetings 
 
-## IRC LOGS {#IRC_LOGS}
+## IRC LOGS 
 
-- [All IRC logs are available here](http://wiki.python.org/moin/BangPypers/IRCLogs){.http}
+- [All IRC logs are available here](http://wiki.python.org/moin/BangPypers/IRCLogs)
 
-## Upcoming Meetings {#Upcoming_Meetings}
+## Upcoming Meetings 
 
 - [BangPypers/Meeting25July2009](./BangPypers(2f)Meeting25July2009.html)
 
-## Earlier Meetings {#Earlier_Meetings}
+## Earlier Meetings 
 
 - [BangPypers/Meeting03May2009](./BangPypers(2f)Meeting03May2009.html)
 
@@ -81,13 +86,12 @@
 
 - [BangPypers/BoFatFossInBangalore](./BangPypers(2f)BoFatFossInBangalore.html) (what happend to this meeting ?)
 
-## Social {#Social}
+## Social 
 
-- [Facebook](https://www.facebook.com/bangpypers){.https}
+- [Facebook](https://www.facebook.com/bangpypers)
 
-- [Twitter](https://twitter.com/__bangpypers__){.https}
+- [Twitter](https://twitter.com/__bangpypers__)
 
 ------------------------------------------------------------------------
 
 [CategoryUsergroups](CategoryUsergroups) [CategoryPythonIndia](CategoryPythonIndia) [CategoryPyConIndia](CategoryPyConIndia)
-:::

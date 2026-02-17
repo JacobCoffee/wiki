@@ -1,9 +1,14 @@
 # BrainStorm
 
-::: {#content dir="ltr" lang="en"}
-# Python and Databases Brainstorm {#Python_and_Databases_Brainstorm}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Pamphlet {#Pamphlet}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Python and Databases Brainstorm 
+
+## Pamphlet 
 
 This is where we need to settle on what to cover in the flyer. We need to keep it concise because there is not much room. Here are the topics I think are relevant:
 
@@ -14,4 +19,3 @@ This is where we need to settle on what to cover in the flyer. We need to keep i
 - A brief example on connecting to and calling a database.
 
 - Something about speed vs. C/C++ or Java?
-:::

@@ -1,11 +1,16 @@
 # PyCon2006/Venue
 
-::: {#content dir="ltr" lang="en"}
-The venue for [PyCon2006](PyCon2006) is the [Dallas / Addison Marriott Quorum](http://marriott.com/property/propertypage/DALQC){.http}, 14901 Dallas Pkwy, Dallas, TX 75254-7551
+```{admonition} Legacy Wiki Page
+:class: note
 
-The original bid is at: [Dallas/Fort Worth](http://python.taupro.com/DfwPyConBid/Overview){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-# Desirable Venue Characteristics {#Desirable_Venue_Characteristics}
+The venue for [PyCon2006](PyCon2006) is the [Dallas / Addison Marriott Quorum](http://marriott.com/property/propertypage/DALQC), 14901 Dallas Pkwy, Dallas, TX 75254-7551
+
+The original bid is at: [Dallas/Fort Worth](http://python.taupro.com/DfwPyConBid/Overview)
+
+# Desirable Venue Characteristics 
 
 - Must allow maintaining [PyCon](PyCon) as a low-cost conference (early bird registration around \$175-200).
 
@@ -27,25 +32,25 @@ The original bid is at: [Dallas/Fort Worth](http://python.taupro.com/DfwPyConBid
 
 - nearby open area where people can sit and have spur-of-the-moment meetings and collaborations. This can be a plaza, terrace, indoor court, etc. If outdoor, we\'ll need provisions for inclement weather. - MO
 
-# Ideas {#Ideas}
+# Ideas 
 
-- Withdrawn: The Chicago Python User Group ([http://chipy.org](http://chipy.org){.http}) bid for hosting [PyCon](PyCon); an unnamed university\'s offer.
+- Withdrawn: The Chicago Python User Group ([http://chipy.org](http://chipy.org)) bid for hosting [PyCon](PyCon); an unnamed university\'s offer.
 
 - Rejected: [InnAndConferenceCenter](InnAndConferenceCenter), near DC
 
 - a university near Boston that prefers to remain unnamed.
 
-- University of Delaware, Newark, DE [http://www.udel.edu/conf/clayton_rm.htm](http://www.udel.edu/conf/clayton_rm.htm){.http}
+- University of Delaware, Newark, DE [http://www.udel.edu/conf/clayton_rm.htm](http://www.udel.edu/conf/clayton_rm.htm)
 
-- Trenton Marriott at Lafayette Yard [http://marriott.com/property/propertypage.mi?marshaCode=TTNMC](http://marriott.com/property/propertypage.mi?marshaCode=TTNMC){.http}
+- Trenton Marriott at Lafayette Yard [http://marriott.com/property/propertypage.mi?marshaCode=TTNMC](http://marriott.com/property/propertypage.mi?marshaCode=TTNMC)
 
   - Commercial location, but the room rates are listed at \$79. Trenton is not an exciting place so far as I can tell, but it is easily accessible from NY and Philadelphia.
 
-- San Diego State University conference center [http://www.sa.sdsu.edu/hrlo/conference/](http://www.sa.sdsu.edu/hrlo/conference/){.http}
+- San Diego State University conference center [http://www.sa.sdsu.edu/hrlo/conference/](http://www.sa.sdsu.edu/hrlo/conference/)
 
-- Emory University conference center [http://www.emoryconferencecenter.com/Emory.html](http://www.emoryconferencecenter.com/Emory.html){.http}
+- Emory University conference center [http://www.emoryconferencecenter.com/Emory.html](http://www.emoryconferencecenter.com/Emory.html)
 
-## Questions for site visit {#Questions_for_site_visit}
+## Questions for site visit 
 
 - Get detailed food costs: costs for breakfast, lunch, breaks. Are tips/tax included? **Do we have a choice of caterers? \--[CatherineDevlin](CatherineDevlin)**
 
@@ -64,4 +69,3 @@ The original bid is at: [Dallas/Fort Worth](http://python.taupro.com/DfwPyConBid
 ------------------------------------------------------------------------
 
 [CategoryPyConPlanning](CategoryPyConPlanning)
-:::

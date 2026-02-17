@@ -1,18 +1,23 @@
 # SetuptoolsOnJython
 
-::: {#content dir="ltr" lang="en"}
-### setuptools includes Jython trunk support as of version 0.6c8! {#setuptools_includes_Jython_trunk_support_as_of_version_0.6c8.21}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Setuptools trunk and its 0.6 branch have had [a couple of changes](http://svn.python.org/view?rev=60062&view=rev){.http} (discussed [here on distutils-sig](http://mail.python.org/pipermail/distutils-sig/2008-January/008617.html){.http}) made to fix incompatibilities with Jython.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### setuptools includes Jython trunk support as of version 0.6c8! 
+
+Setuptools trunk and its 0.6 branch have had [a couple of changes](http://svn.python.org/view?rev=60062&view=rev) (discussed [here on distutils-sig](http://mail.python.org/pipermail/distutils-sig/2008-January/008617.html)) made to fix incompatibilities with Jython.
 
 Even as of these changes, there are a couple improvements that can be made to running setuptools on Jython:
 
-- Most importantly, the lack of os.chmod. chmod can be implemented with JNA. setuptools simply avoids chmod if it does not exist as of ***[r60062](http://svn.python.org/view?rev=60062&view=rev){.http})***
+- Most importantly, the lack of os.chmod. chmod can be implemented with JNA. setuptools simply avoids chmod if it does not exist as of ***[r60062](http://svn.python.org/view?rev=60062&view=rev))***
 
 - setuptools\' use of marshal: setuptools uses marshal.load in two places \-- to get a code object from a .pyc file, so it can scan the code object\'s co_names and co_consts (basically to read a module\'s variables without importing it). This isn\'t portable: Jython\'s compiled .pys (actually Java .class files) can\'t be read via marshal, nor do Jython\'s code objects support co_names and co_consts
   - the two places this is used:
 
-  - when a package doesn\'t mark itself as zip_safe, setuptools will scan it for special variable names (like \'[file]{.u}\') to determine zip_safetyness. ***(setuptools defaults to zip_safe=False for archives that don\'t set it as of [r60062](http://svn.python.org/view?rev=60062&view=rev){.http})*** We could get around the lack of marshal compatibility here by using the tokenize module to read the source code. This wouldn\'t work in the rare case of a byte-code only egg.
+  - when a package doesn\'t mark itself as zip_safe, setuptools will scan it for special variable names (like \'[file]\') to determine zip_safetyness. ***(setuptools defaults to zip_safe=False for archives that don\'t set it as of [r60062](http://svn.python.org/view?rev=60062&view=rev))*** We could get around the lack of marshal compatibility here by using the tokenize module to read the source code. This wouldn\'t work in the rare case of a byte-code only egg.
 
   - setuptools.depend.get_module_constant: a generic way to grab the value of a module variable. currently only used by Require.get_version ***setuptools.depend is experimental, unsupported functionality that we don\'t need to worry about***
 
@@ -32,11 +37,11 @@ The Jython changes made for setuptools:
 
 - tarfile module ***Added in r3850***
 
-- a valid sys.executable. required by setuptools and distutils for spawning subprocesses. ***Added in r3867, enabled via -Dpython.executable (see [http://article.gmane.org/gmane.comp.lang.jython.devel/4068](http://article.gmane.org/gmane.comp.lang.jython.devel/4068){.http} )***
+- a valid sys.executable. required by setuptools and distutils for spawning subprocesses. ***Added in r3867, enabled via -Dpython.executable (see [http://article.gmane.org/gmane.comp.lang.jython.devel/4068](http://article.gmane.org/gmane.comp.lang.jython.devel/4068) )***
 
 - a site-packages dir (jython needs to include it on sys.path by default). required by setuptools and distutils ***Added in r3886***
 
-- distutils: requires [a number of small patches](http://hg.underboss.org/jython-pjenvey/rev/1026fe32c01c){.http}:
+- distutils: requires [a number of small patches](http://hg.underboss.org/jython-pjenvey/rev/1026fe32c01c):
 
   - a valid sys.executable ***Added in r3867***
 
@@ -56,4 +61,3 @@ The Jython changes made for setuptools:
 - os.lstat. setuptools cut and pasted shutil\'s rmtree from CPython 2.4, which uses lstat to check for a directory vs a symlink to a directory. We now support an os.stat that fills in st_mode\'s directory bit, but can we support lstat? (We definitely can with JNA)? Can setuptools avoid lstat completely (requiring a patch)? I don\'t think Java can safely determine a sym link yet. Java 1.7\'s JSR 203 (nio part 2) should address this as well as chmod, but we obviously need a solution for Java 1.5 ***Turned out we can implement a simple lstat in pure Java, added in r4014***
 
 - for Jython on Windows: distutils.filelist.translate_pattern required ntpath to work correctly, and setuptools required chdir to not canonicalize the pathname via java.io.File ***both issues fixed with usage of ntpath, in r4171***
-:::

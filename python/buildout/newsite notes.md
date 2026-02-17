@@ -1,7 +1,12 @@
 # buildout/newsite notes
 
-::: {#content dir="ltr" lang="en"}
-# Rough Notes on a Possible Website for buildout ( [http://www.buildout.org/](http://www.buildout.org/){.http .reference .external} )
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Rough Notes on a Possible Website for buildout ( [http://www.buildout.org/](http://www.buildout.org/) )
 
 Objectives:
 
@@ -46,4 +51,3 @@ Approach:
 > - host it on a community machine, perhaps where Zope Foundation is now
 > - base it on a Zope 3 site installation
 > - rely upon contributed documents written in reStructuredText
-:::

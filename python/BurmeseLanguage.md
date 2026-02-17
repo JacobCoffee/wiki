@@ -1,9 +1,14 @@
 # BurmeseLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Burmese
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -37,9 +42,9 @@ This is One of Myanmar Encoding, Zawgyi Encoding, Its not by Unicode.org though.
 
 This is the results I just tested with Python 3.1.1 today.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-02d6b59c7b0d8cf7a69010b6f8412f28d394d7f0 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>>
    2 Python 3.1.1 (r311:74483, Aug 17 2009, 17:02:12) [MSC v.1500 32 bit (Intel)] on win32
    3 Type "copyright", "credits" or "license()" for more information.
@@ -55,21 +60,20 @@ This is the results I just tested with Python 3.1.1 today.
 
 rgds, Mark
 
-### Blogs {#Blogs}
+### Blogs 
 
-- [blog - general description](http://www.mgpyone.co.cc/search/label/Python){.http}
+- [blog - general description](http://www.mgpyone.co.cc/search/label/Python)
 
-- [soemin blog - mixed English-မြန်မာဘာသာ](http://www.soemin.net/search/label/Python%7CRuby){.http}
+- [soemin blog - mixed English-မြန်မာဘာသာ](http://www.soemin.net/search/label/Python%7CRuby)
 
-- [soemin blog](http://www.soemin.net/2009/03/why-reordering-is-needed-in-burmese.html){.http} - why-reordering-is-needed-in-burmese
+- [soemin blog](http://www.soemin.net/2009/03/why-reordering-is-needed-in-burmese.html) - why-reordering-is-needed-in-burmese
 
-- [soemin blog](http://www.soemin.net/2009/03/few-things-about-utf-8-encoding-and.html){.http} - few-things-about-utf-8-encoding-and-Myanmar - Python code snippet with cburglish module
+- [soemin blog](http://www.soemin.net/2009/03/few-things-about-utf-8-encoding-and.html) - few-things-about-utf-8-encoding-and-Myanmar - Python code snippet with cburglish module
 
-- [my-mm.org](http://box02.my-mm.org/search/label/Python){.http} - blogs labelled Python - mostly related to zawgyi_keyboard.py
+- [my-mm.org](http://box02.my-mm.org/search/label/Python) - blogs labelled Python - mostly related to zawgyi_keyboard.py
 
-- [box02.my-mm.org](http://box02.my-mm.org/2010/04/own-mobile-applications-with-nokia.html){.http} - nokia, s60
+- [box02.my-mm.org](http://box02.my-mm.org/2010/04/own-mobile-applications-with-nokia.html) - nokia, s60
 
-[ဝီကီပိဒိယ](http://my.wikipedia.org/wiki/Python_(programming_language)){.http} Wikipedia stub
+[ဝီကီပိဒိယ](http://my.wikipedia.org/wiki/Python_(programming_language)) Wikipedia stub
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode)
-:::::

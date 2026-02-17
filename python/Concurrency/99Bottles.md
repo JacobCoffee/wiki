@@ -1,6 +1,11 @@
 # Concurrency/99Bottles
 
-:::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # 99 Concurrent Bottles of Beer
 
     99 bottles of beer on the wall, 99 bottles of beer.
@@ -9,32 +14,13 @@
     97 bottles of beer on the wall, 97 bottles of beer
     98 bottles of beer on the wall, 98 bottles of beer
 
-The purpose of this page is to show solutions to common concurrent problems in different styles/toolkits. Inspired by [99 Bottles of Beer](http://99-bottles-of-beer.net/){.http}. It is not intended to demonstrate high-performance code, but rather to give potential users a sense of what typical code using the various libraries looks like.
+The purpose of this page is to show solutions to common concurrent problems in different styles/toolkits. Inspired by [99 Bottles of Beer](http://99-bottles-of-beer.net/). It is not intended to demonstrate high-performance code, but rather to give potential users a sense of what typical code using the various libraries looks like.
 
 These example are interesting, in that they provide an idea of clarity, how much boiler plate code is needed, how message passing looks, and how to yield to the operating system.
 
 Include a brief description if you add to this page. Please make sure your source is well commented - concurrency is hard!
 
-::: table-of-contents
-Contents
-
-1.  [The Problem](#The_Problem)
-2.  [Errata](#Errata)
-3.  [Solutions](#Solutions)
-    1.  [Generator](#Generator)
-    2.  [Coroutines](#Coroutines)
-    3.  [Greenlets](#Greenlets)
-    4.  [Gevent](#Gevent)
-    5.  [Kamaelia](#Kamaelia)
-    6.  [Twisted](#Twisted)
-    7.  [Fibra](#Fibra)
-    8.  [Stackless](#Stackless)
-    9.  [circuits](#circuits)
-    10. [pprocess](#pprocess)
-    11. [pypes](#pypes)
-:::
-
-## The Problem {#The_Problem}
+## The Problem 
 
 Implement
 
@@ -43,21 +29,21 @@ Implement
 
 in concurrent Python. On unix, you can send syslog messages via `logger`{.backtick}; filenames may vary.
 
-## Errata {#Errata}
+## Errata 
 
 Solutions using readline() will exhibit bugs if less than a full line is flushed to disk. If your input file is syslog, this shouldn\'t be a problem however.
 
 Glyph makes the very valid point that these examples are in fact serial programs (ie, they don\'t do more than one thing at a time). A better example would be following multiple files simultaneously.
 
-## Solutions {#Solutions}
+## Solutions 
 
-### Generator {#Generator}
+### Generator 
 
 Generators implement a \"pull-style\" approach to concurrency.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3e39fa372ab8eb53be0502b0f73c903c82fa2f31 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import time
    2 import re
    3 
@@ -91,13 +77,13 @@ Generators implement a \"pull-style\" approach to concurrency.
 :::
 ::::
 
-### Coroutines {#Coroutines}
+### Coroutines 
 
 The inversion of the generator example above, coroutines use a \"push-style\" approach to concurrency:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c116dba27eb8f6328d55175bded5961e9200c362 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import time
    2 import re
    3 from functools import wraps
@@ -144,13 +130,13 @@ The inversion of the generator example above, coroutines use a \"push-style\" ap
 :::
 ::::
 
-### Greenlets {#Greenlets}
+### Greenlets 
 
 Greenlets are similar to coroutines.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4e5ec4d9e407b566f0eb18f2a4ea97a2a2d76700 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import greenlet
    2 import time
    3 import re
@@ -196,13 +182,13 @@ Greenlets are similar to coroutines.
 :::
 ::::
 
-### Gevent {#Gevent}
+### Gevent 
 
-[Gevent](http://www.gevent.org){.http} builds user-level threads on top of greenlets.
+[Gevent](http://www.gevent.org) builds user-level threads on top of greenlets.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-7f55367d55397d3414f071426d9962d184434472 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import re
    2 import gevent
    3 from gevent.queue import Queue
@@ -246,11 +232,11 @@ Greenlets are similar to coroutines.
 :::
 ::::
 
-### Kamaelia {#Kamaelia}
+### Kamaelia 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ca8a5cad80c68d3b7eb4419add4ffa01e689fe68 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import time
    2 import re
    3 
@@ -307,11 +293,11 @@ Greenlets are similar to coroutines.
 :::
 ::::
 
-### Twisted {#Twisted}
+### Twisted 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-b972a7b9c773fba81c67a9108c600575fa71ed40 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from twisted.protocols.basic import LineReceiver
    2 from twisted.python import log
    3 
@@ -364,11 +350,11 @@ Greenlets are similar to coroutines.
 :::
 ::::
 
-### Fibra {#Fibra}
+### Fibra 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c09fd57c2c700218eac795137a39de8cd263559a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import fibra
    2 import re
    3 
@@ -399,11 +385,11 @@ Greenlets are similar to coroutines.
 :::
 ::::
 
-### Stackless {#Stackless}
+### Stackless 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-31358f51dee73e176ab71e6c21c890464270e67e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import stackless
    2 import time
    3 import re
@@ -444,9 +430,9 @@ Greenlets are similar to coroutines.
 
 ### circuits
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-fecc545f2f5ddfc5ba66c0ebd47443a51406c55e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 
    3 from circuits.io import File
@@ -476,9 +462,9 @@ Greenlets are similar to coroutines.
 
 This example needs pprocess 0.5. The activity functions are similar to the generator (and other) solutions, and the differences lie in the use of the `multigrep`{.backtick} function, which is invoked to provide `grep`{.backtick} functionality for each pattern in a separate process, and in the way the `multigrep`{.backtick} function itself follows several files using the `multifollow`{.backtick} callable (the `follow`{.backtick} function invoked in a separate process). A channel is used in the `follow`{.backtick} function to communicate new lines which are then consumed via a queue in the `grep`{.backtick} function, which in turn communicates matching lines via a channel which are then consumed by the `printer`{.backtick} function.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-54dcd939cd53cf94b870798ed2680b4c9ccb2774 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import pprocess
    2 import time
    3 import re
@@ -534,9 +520,9 @@ This example needs pprocess 0.5. The activity functions are similar to the gener
 
 Here is a simple example based on the pypes framework. It should look similar to the Stackless example above. Pypes abstracts away the semantics of tasklets and channels and provides a model for looser coupling. This makes connecting components at runtime easier which is necessary since at the point in which the component is created, it has no idea what other components it might be interacting with.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-cb8124ac002304c3809ede29664a7027d0dba94d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # load the pypes framework
    2 from pkg_resources import require
    3 require('pypes')
@@ -605,4 +591,3 @@ Here is a simple example based on the pypes framework. It should look similar to
 ```
 :::
 ::::
-::::::::::::::::::::::::::

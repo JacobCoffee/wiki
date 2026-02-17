@@ -1,7 +1,11 @@
 # AdvocacyWritingTasks/DataVisualizationGraphing
 
-::: {#content dir="ltr" lang="en"}
-# Outline for: \"Python: Data Visualization and Graphing\" {#Outline_for:_.22Python:_Data_Visualization_and_Graphing.22}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Outline for: \"Python: Data Visualization and Graphing\" 
 
 - ???
-:::

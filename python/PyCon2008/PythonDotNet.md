@@ -1,6 +1,11 @@
 # PyCon2008/PythonDotNet
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Proposed Time: 7:00pm - 8:30pm
 
 Proposed Place: Love Int\'l B (30 seats)
@@ -29,4 +34,3 @@ We don\'t have a specific schedule planned for the session, but we hope to have 
 - Discussion of [IronPython](IronPython) related projects like Ironclad (C Extensions from [IronPython](IronPython)) and Coils (Static wrappers for [IronPython](IronPython) classes)
 
 - Discussion of Python inspired languages on .NET, like Cobra and Boo, and the Dynamic Language Runtime
-:::

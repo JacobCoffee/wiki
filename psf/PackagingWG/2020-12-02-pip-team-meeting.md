@@ -1,6 +1,11 @@
 # PackagingWG/2020-12-02-pip-team-meeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Wednesday 2 December Participants
 
 - Ernest
@@ -14,7 +19,7 @@ Agenda
 - 20.3 responses from our public
   - Ernest offers to jump in and moderate any \"particularly spicy responses\"
 
-  - Discussion of some responses, [https://twitter.com/pradyunsg/status/1333917512069689350](https://twitter.com/pradyunsg/status/1333917512069689350){.https} \... Georgia notes: given the infrastructural level of change, we\'re more likely to hear from a \... \# ? of people \.... will only hear from a few people who are highly impacted
+  - Discussion of some responses, [https://twitter.com/pradyunsg/status/1333917512069689350](https://twitter.com/pradyunsg/status/1333917512069689350) \... Georgia notes: given the infrastructural level of change, we\'re more likely to hear from a \... \# ? of people \.... will only hear from a few people who are highly impacted
 
     - Great! Now we know who you are! How can we hear from you in the future?
 
@@ -23,7 +28,7 @@ Agenda
     - TODO: Sumana to round up positive responses
 
 - CZI agenda for next week
-  - [https://bit.ly/EOSS20](https://bit.ly/EOSS20){.https}
+  - [https://bit.ly/EOSS20](https://bit.ly/EOSS20)
 
   - Keynotes --- we could divvy up
 
@@ -55,17 +60,17 @@ Agenda
 
 - 20.3.1 and 20.3.2 planning & triaging issues
 
-  - Issues to consider: [https://github.com/pypa/pip/milestone/43](https://github.com/pypa/pip/milestone/43){.https}
+  - Issues to consider: [https://github.com/pypa/pip/milestone/43](https://github.com/pypa/pip/milestone/43)
 
   - Pradyun: will cut a release with what\'s on master at the moment. Help PyCharm. Update milestone to 20.3.2, and then\... not 100% sure what we want to get out first
 
   - 2 UX issues:
-    - [https://github.com/pypa/pip/issues/9186](https://github.com/pypa/pip/issues/9186){.https} 20.3 fails to resolve NumPy pre wheel name properly
+    - [https://github.com/pypa/pip/issues/9186](https://github.com/pypa/pip/issues/9186) 20.3 fails to resolve NumPy pre wheel name properly
 
       - a break due to Anaconda changing names of wheel files in their nightly index. Pradyun thinks we could improve the error message
       - TODO: Pradyun will propose a better error message later this week, then check with UX team to validate
 
-    - [https://github.com/pypa/pip/issues/9181](https://github.com/pypa/pip/issues/9181){.https} - straightforward to fix, need to update an error message
+    - [https://github.com/pypa/pip/issues/9181](https://github.com/pypa/pip/issues/9181) - straightforward to fix, need to update an error message
 
 - deprecation timeline & 21.0
 
@@ -87,4 +92,3 @@ Agenda
     - Pradyun: fine either way.
     - Sumana: can wait, and assess in late December whether problems brought up were actually easy to fix
   - DO NOT need to delay ripping out support for Python 2 since they are already only using legacy resolver
-:::

@@ -1,40 +1,45 @@
 # PythonSoftwareFoundation/BoardCandidates2011
 
-::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Candidates for the 2011 PSF Board of Directors
 
 The following people have been nominated as Directors of the Python Software Foundation for the term beginning in March 2011. Their self-written summaries follow.
 
 There are currently 13 seats on the Board of Directors (last changed in the 2010 PSF Members vote).
 
-::: {#nominees .contents .topic}
+::: 
 Nominees
 
-- [Jesse Noller](#jesse-noller){#id1 .reference .internal}
-- [Raymond Hettinger](#raymond-hettinger){#id2 .reference .internal}
-- [David Mertz](#david-mertz){#id3 .reference .internal}
-- [Jeff Rush](#jeff-rush){#id4 .reference .internal}
-- [Tim Peters](#tim-peters){#id5 .reference .internal}
-- [Allison Randal](#allison-randal){#id6 .reference .internal}
-- [Steve Holden](#steve-holden){#id7 .reference .internal}
-- [Marc-André Lemburg](#marc-andre-lemburg){#id8 .reference .internal}
-- [Greg Stein](#greg-stein){#id9 .reference .internal}
-- [Gloria Willadsen](#gloria-willadsen){#id10 .reference .internal}
-- [Martin v. Löwis](#martin-v-lowis){#id11 .reference .internal}
-- [Douglas Napoleone](#douglas-napoleone){#id12 .reference .internal}
+- [Jesse Noller](#jesse-noller)
+- [Raymond Hettinger](#raymond-hettinger)
+- [David Mertz](#david-mertz)
+- [Jeff Rush](#jeff-rush)
+- [Tim Peters](#tim-peters)
+- [Allison Randal](#allison-randal)
+- [Steve Holden](#steve-holden)
+- [Marc-André Lemburg](#marc-andre-lemburg)
+- [Greg Stein](#greg-stein)
+- [Gloria Willadsen](#gloria-willadsen)
+- [Martin v. Löwis](#martin-v-lowis)
+- [Douglas Napoleone](#douglas-napoleone)
 :::
 
 ::: topic
 Links
 
-- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html){.reference .external}
-- [2010 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html){.reference .external}
-- [2009 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2009.html){.reference .external}
-- [2008 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2008.html){.reference .external}
+- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html)
+- [2010 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html)
+- [2009 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2009.html)
+- [2008 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2008.html)
 :::
 
-::: {#jesse-noller .section}
-### [Jesse Noller](#id1){.toc-backref}
+::: 
+### [Jesse Noller](#id1)
 
 *2010 Board Member.*
 
@@ -42,15 +47,15 @@ Links
 >
 > Just three things that Jesse has accomplished in the last year show his dedication to Python and the PSF.
 >
-> > - Established the [Sprints Project](./Sprints(20)Project.html){.nonexistent .reference .external} and funded several worthwhile projects. This is the PSF at its best - finding and serving Python-related projects to advance the language as a whole. Not only did this get code committed for the benefit of Python generally, Jesse also got the Python Sprints website launched (an endeavor in itself).
+> > - Established the [Sprints Project](./Sprints(20)Project.html) and funded several worthwhile projects. This is the PSF at its best - finding and serving Python-related projects to advance the language as a whole. Not only did this get code committed for the benefit of Python generally, Jesse also got the Python Sprints website launched (an endeavor in itself).
 > > - Served as Program Committee Chair (PyCon 2010) and Co-Chair (PyCon 2011). This is a lot of work and is the PSF\'s biggest project from year to year. Jesse knows about how PyCon works from the inside out, having established himself as a real contributor over several years.
 > > - Acted as a mini-BDFL for PEP 3148, shepherding the Futures module through the PEP process all the way to acceptance.
 >
 > In addition, Jesse continues to work as a core committer, blogs about Python, works at a Python Startup, and is always active defending and explaining Python on Reddit and Hacker News.
 :::
 
-::: {#raymond-hettinger .section}
-### [Raymond Hettinger](#id2){.toc-backref}
+::: 
+### [Raymond Hettinger](#id2)
 
 - Board Member in 2008, 2009 and 2010.
 - Active code committer (bug fixes, documentation, and new features).
@@ -60,8 +65,8 @@ Links
 - Author of the Whatsnew documentation.
 :::
 
-::: {#david-mertz .section}
-### [David Mertz](#id3){.toc-backref}
+::: 
+### [David Mertz](#id3)
 
 *2010 Board Member.*
 
@@ -74,20 +79,20 @@ By background, I am a recovering humanities academic, tempted away from post-str
 I am the author of Addison Wesley\'s *Text Processing in Python*, of the IBM developerWorks\' column *Charming Python* (since 2001), and of various other articles advancing and explaining the use of Python and its tools and libraries. I have created some moderately well-used FOSS Python tools (most collected in Gnosis Utilities). Sometimes speaker at PyCon and OSCON. I have been an advocate for use of Python by several public-interest software projects, including in the voting software developed by the Open Voting Consortium (I was CTO and board member of that organization). I also have been a consultant with a number of notable Python-using organizations, at the margins helping to expand that use.
 :::
 
-::: {#jeff-rush .section}
-### [Jeff Rush](#id4){.toc-backref}
+::: 
+### [Jeff Rush](#id4)
 
 *2010 Board Member.*
 :::
 
-::: {#tim-peters .section}
-### [Tim Peters](#id5){.toc-backref}
+::: 
+### [Tim Peters](#id5)
 
 *2010 Board Member.*
 :::
 
-::: {#allison-randal .section}
-### [Allison Randal](#id6){.toc-backref}
+::: 
+### [Allison Randal](#id6)
 
 *2010 Board Member.*
 
@@ -98,14 +103,14 @@ I\'m the Ubuntu Technical Architect, and in that role I\'m working with Barry Wa
 In my first year on the Board I learned a great deal about the inner workings of the PSF, participating in the usual day-to-day operations of the Board and higher-level strategic discussions. If elected, I plan to serve in a more active way this year, most likely in the area of improving the foundation\'s responsiveness to and management of grants and grant applications. I will have more time for the PSF this year, as I have stepped down from my position as chairman of the Parrot Foundation.
 :::
 
-::: {#steve-holden .section}
-### [Steve Holden](#id7){.toc-backref}
+::: 
+### [Steve Holden](#id7)
 
 *2010 Board Member.*
 :::
 
-::: {#marc-andre-lemburg .section}
-### [Marc-André Lemburg](#id8){.toc-backref}
+::: 
+### [Marc-André Lemburg](#id8)
 
 *2010 Board Member.*
 
@@ -127,7 +132,7 @@ Here\'s my 2010 agenda, which is still valid:
 
 During my year on the board, I carried on the work started by Steve to setup a budget for the PSF to work with. This was completed for 2010 with the help of Steve, Doug Napoleone and Kurt Kaiser. It made working with grants and spendings in general a lot easier for the board. We are currently working on setting up the budget plan for 2011.
 
-The net effect of having such a budget was that we were able to give out many more grants than in previous years. See [http://www.python.org/psf/records/board/resolutions/](http://www.python.org/psf/records/board/resolutions/){.http .reference .external} for details.
+The net effect of having such a budget was that we were able to give out many more grants than in previous years. See [http://www.python.org/psf/records/board/resolutions/](http://www.python.org/psf/records/board/resolutions/) for details.
 
 I also kicked off two new PSF projects: one to create a professional quality marketing brochure for Python which will help us get Python known outside the developer community and another one to make PyPI both more performant and reliable by pushing most of the content onto a content delivery network in an automated way.
 
@@ -136,14 +141,14 @@ Both projects are run by small teams and working steadily towards reaching their
 I\'d like to continue with the work started in 2010 and look forward to another year serving on the board.
 :::
 
-::: {#greg-stein .section}
-### [Greg Stein](#id9){.toc-backref}
+::: 
+### [Greg Stein](#id9)
 
 *2010 Board Member.*
 :::
 
-::: {#gloria-willadsen .section}
-### [Gloria Willadsen](#id10){.toc-backref}
+::: 
+### [Gloria Willadsen](#id10)
 
 *2010 Board Member.*
 
@@ -156,14 +161,14 @@ I am currently in the process of planning a NYC Python mini-conference (if such 
 I hope to to be re-elected to the board. I spent this year respectfully listening and learning, interjecting here and there, contributing small bits where appropriate. I feel as if next year, I can truly contribute and hopefully move some existing conventions and policies in positive directions.
 :::
 
-::: {#martin-v-lowis .section}
-### [Martin v. Löwis](#id11){.toc-backref}
+::: 
+### [Martin v. Löwis](#id11)
 
 *2010 Board Member.*
 :::
 
-::: {#douglas-napoleone .section}
-### [Douglas Napoleone](#id12){.toc-backref}
+::: 
+### [Douglas Napoleone](#id12)
 
 *2010 Board Member.*
 
@@ -176,4 +181,3 @@ Please use the following format:
 
     Description.
 :::
-:::::::::::::::::

@@ -1,6 +1,11 @@
 # Fabio
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 I\'m a 31 years old System Analyst, playing this role since 1998. I\'ve been working with POO since 1996, OOAD and UML since 2001. Nowadays I\'m working with .NET framework, maintaining and developing solutions for Private Retirement and life insurance market.
 
 I read some articles about python and got interested to known about it.
@@ -12,4 +17,3 @@ I worked with Delphi(1996-1998), JAVA (2001-2002), Visual Basic(1999-2006) and n
 Other tools experience: Rational Suite, ERWin and Jude Take UML Modeling tool.
 
 [CategoryHomepage](CategoryHomepage)
-:::

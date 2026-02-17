@@ -1,6 +1,11 @@
 # ZufallsSeite
 
-::: {#content dir="ltr" lang="de"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Dies ist eine Liste von 25 zufällig ausgewählten Seiten (aus den insgesamt 3616 Seiten):
 
 - [AlexisLeQuoc](AlexisLeQuoc)
@@ -28,4 +33,3 @@ Dies ist eine Liste von 25 zufällig ausgewählten Seiten (aus den insgesamt 361
 - [SummerOfCode/2012](./SummerOfCode(2f)2012.html)
 - [WegWeiser](WegWeiser)
 - [WikiCourse/17 External links](./WikiCourse(2f)17(20)External(20)links.html)
-:::

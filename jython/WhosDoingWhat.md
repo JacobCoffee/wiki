@@ -1,19 +1,24 @@
 # WhosDoingWhat
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 the peanut gallery: \"Who is doing the SSL support?\"
 
-## An experimental To-Do List {#An_experimental_To-Do_List}
+## An experimental To-Do List 
 
-Some of the developers update their [task lists](https://jython.basecamphq.com/login){.https} online. Anonymous login is as follows:
+Some of the developers update their [task lists](https://jython.basecamphq.com/login) online. Anonymous login is as follows:
 
 - user: `jythonbasecampguest`{.backtick}
 
 - password: `jythonguest`{.backtick}
 
-If you\'d like to have a personal account, please [request one](mailto:jython@extreme.st){.mailto}.
+If you\'d like to have a personal account, please [request one](mailto:jython@extreme.st).
 
-## Individuals {#Individuals}
+## Individuals 
 
 [OtiHumbel](OtiHumbel)
 
@@ -23,7 +28,7 @@ If you\'d like to have a personal account, please [request one](mailto:jython@ex
 
 [TimFreund](TimFreund)
 
-- [Jython BuildBot](http://jython.achievewith.us/buildbot/){.http} (contact Tim to add or edit a build slave)
+- [Jython BuildBot](http://jython.achievewith.us/buildbot/) (contact Tim to add or edit a build slave)
 
 [JoshJuneau](JoshJuneau)
 
@@ -43,7 +48,7 @@ If you\'d like to have a personal account, please [request one](mailto:jython@ex
 
 - [RelicensingJython](RelicensingJython)
 
-- bytes type (from [PEP 358](http://www.python.org/dev/peps/pep-0358/){.http}; being added to Python 3000 and 2.6)
+- bytes type (from [PEP 358](http://www.python.org/dev/peps/pep-0358/); being added to Python 3000 and 2.6)
 
 [JimBaker](JimBaker)
 
@@ -66,9 +71,8 @@ If you\'d like to have a personal account, please [request one](mailto:jython@ex
 
 [AlanKennedy](AlanKennedy)
 
-- Network modules, i.e. [NewSocketModule](NewSocketModule), [SelectModule](SelectModule), httplib, ftplib, [BaseHttpServer](./BaseHttpServer.html){.nonexistent}, etc
+- Network modules, i.e. [NewSocketModule](NewSocketModule), [SelectModule](SelectModule), httplib, ftplib, [BaseHttpServer](./BaseHttpServer.html), etc
 
 - Modjy, the jython WSGI to servlets gateway
 
-  [jyson](http://jyson.xhaus.com){.http}, a fast pure-java JSON codec for jython
-:::
+  [jyson](http://jyson.xhaus.com), a fast pure-java JSON codec for jython

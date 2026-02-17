@@ -1,6 +1,11 @@
 # TilfældigSide
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 En liste over 25 tilfældige sider (ud af 3616 i alt):
 
 - [Asking for Help/remove write protected file forcefully like \"rm -f\"](./Asking(20)for(20)Help(2f)remove(20)write(20)protected(20)file(20)forcefully(20)like(2022)rm(202d)f(22).html)
@@ -28,4 +33,3 @@ En liste over 25 tilfældige sider (ud af 3616 i alt):
 - [ShellRedirectionFails](ShellRedirectionFails)
 - [UpgradingPostgreSQL](UpgradingPostgreSQL)
 - [VirtualCollaboratoryBof](VirtualCollaboratoryBof)
-:::

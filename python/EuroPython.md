@@ -1,31 +1,36 @@
 # EuroPython
 
-::: {#content dir="ltr" lang="en"}
-## EuroPython started in 2002 {#EuroPython_started_in_2002}
+```{admonition} Legacy Wiki Page
+:class: note
 
-The [EuroPython](https://www.europython.eu/){.https} conference series was started in 2002 as a community initiative by a team of Python enthusiast in Europe to bring together Python and Zope users and developers, as well as provide an opportunity for those who are interested in these technologies to learn more about them.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-[EuroPython 2002](https://web.archive.org/web/20020802042807/http://www.europython.org/){.https} was the first major entirely community driven and organized Python event world-wide.
+## EuroPython started in 2002 
+
+The [EuroPython](https://www.europython.eu/) conference series was started in 2002 as a community initiative by a team of Python enthusiast in Europe to bring together Python and Zope users and developers, as well as provide an opportunity for those who are interested in these technologies to learn more about them.
+
+[EuroPython 2002](https://web.archive.org/web/20020802042807/http://www.europython.org/) was the first major entirely community driven and organized Python event world-wide.
 
 Since then, EuroPython has come a long way and is now the largest event in Europe for all topics where Python is used, e.g. web technologies, science, data science, numerics, high performance computing, robotics, networking, etc.
 
-## EuroPython Society {#EuroPython_Society}
+## EuroPython Society 
 
 In 2004, the *EuroPython Society* was created as non-profit organization to provide a legal body for the organization, owning the trademark, managing the EuroPython organization and helping grow Python in Europe by offering grants and support for other conferences and events.
 
-- [EuroPython Society](https://www.europython-society.org/){.https} - home page and blog of the Society
+- [EuroPython Society](https://www.europython-society.org/) - home page and blog of the Society
 
-- [EuroPython Conference Series Resources](https://www.europython-society.org/europython/){.https} - conference programs, brochures, statistics, etc. for all years
+- [EuroPython Conference Series Resources](https://www.europython-society.org/europython/) - conference programs, brochures, statistics, etc. for all years
 
-- [EuroPython Workgroups](https://www.europython-society.org/workgroups){.https} - EuroPython is organized by a number of workgroups, anyone interested in helping can participate (please see the page for details and application)
+- [EuroPython Workgroups](https://www.europython-society.org/workgroups) - EuroPython is organized by a number of workgroups, anyone interested in helping can participate (please see the page for details and application)
 
-## EuroPython Resources {#EuroPython_Resources}
+## EuroPython Resources 
 
 Important EuroPython conference websites:
 
-- [Current edition of EuroPython](https://www.europython.eu/){.https} - always updated to point to the latest edition
+- [Current edition of EuroPython](https://www.europython.eu/) - always updated to point to the latest edition
 
-- [List of all EuroPython editions](https://www.europython-society.org/europython/){.https} - with links to their websites or archived websites
+- [List of all EuroPython editions](https://www.europython-society.org/europython/) - with links to their websites or archived websites
 
 EuroPython resources available in this wiki:
 
@@ -43,11 +48,11 @@ EuroPython resources available in this wiki:
 
 - [EuroPython2014](EuroPython2014) - Wiki for the 2014 conference (Berlin, Germany)
 
-- [EuroPython 2013](https://ep2013.europython.eu/ep2013){.https} - archived website for the 2013 conference (Florence, Italy)
+- [EuroPython 2013](https://ep2013.europython.eu/ep2013) - archived website for the 2013 conference (Florence, Italy)
 
-- [EuroPython 2012](https://ep2013.europython.eu/ep2012){.https} - archived website for the 2012 conference (Florence, Italy)
+- [EuroPython 2012](https://ep2013.europython.eu/ep2012) - archived website for the 2012 conference (Florence, Italy)
 
-- [EuroPython 2011](https://ep2013.europython.eu/ep2011){.https} - archived website for the 2011 conference (Florence, Italy)
+- [EuroPython 2011](https://ep2013.europython.eu/ep2011) - archived website for the 2011 conference (Florence, Italy)
 
 - [EuroPython2010](EuroPython2010) - Wiki for the 2010 conference (Birmingham, United Kingdom)
 
@@ -67,17 +72,16 @@ EuroPython resources available in this wiki:
 
 - [/2002](./EuroPython(2f)2002.html) - information pertaining to the first event in 2002
 
-The [EuroPython mailing list](mailto:europython@python.org){.mailto} [(info)](http://mail.python.org/mailman/listinfo/europython){.http} [(archives)](http://mail.python.org/pipermail/europython/){.http} is the place for ongoing discussion of previous and future conferences.
+The [EuroPython mailing list](mailto:europython@python.org) [(info)](http://mail.python.org/mailman/listinfo/europython) [(archives)](http://mail.python.org/pipermail/europython/) is the place for ongoing discussion of previous and future conferences.
 
-## Sponsoring EuroPython {#Sponsoring_EuroPython}
+## Sponsoring EuroPython 
 
-Sponsors should see information on the Web site: [http://www.europython.eu/sponsors/](http://www.europython.eu/sponsors/){.http}
+Sponsors should see information on the Web site: [http://www.europython.eu/sponsors/](http://www.europython.eu/sponsors/)
 
-## Older Resources {#Older_Resources}
+## Older Resources 
 
 This information is outdated, since the EuroPython organization has moved on since the early days, but we leave it here for reference and inspiration:
 
 For conference organisers, the [/SoftwareRequirements](./EuroPython(2f)SoftwareRequirements.html) page looks at the issues around conference management software.
 
 [EuroPythonImprove](EuroPythonImprove) is a start page for discussing how to improve the conference and the conference web site.
-:::

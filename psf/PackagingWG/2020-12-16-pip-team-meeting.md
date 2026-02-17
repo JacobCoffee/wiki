@@ -1,6 +1,11 @@
 # PackagingWG/2020-12-16-pip-team-meeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Wednesday 16 Dec
 
 Participants
@@ -13,17 +18,17 @@ Participants
 Agenda
 
 - \[team chitchat \-- talking about shopping, discussion of our favorite trousers\]
-  - [https://www.patagonia.com/product/mens-performance-straight-fit-jeans-regular/56025.html?dwvar_56025_color=DDNM&cgid=mens-pants-jeans-jeans](https://www.patagonia.com/product/mens-performance-straight-fit-jeans-regular/56025.html?dwvar_56025_color=DDNM&cgid=mens-pants-jeans-jeans){.https}
+  - [https://www.patagonia.com/product/mens-performance-straight-fit-jeans-regular/56025.html?dwvar_56025_color=DDNM&cgid=mens-pants-jeans-jeans](https://www.patagonia.com/product/mens-performance-straight-fit-jeans-regular/56025.html?dwvar_56025_color=DDNM&cgid=mens-pants-jeans-jeans)
 
-  - [https://shopduer.com/products/mens-stretch-denim-shorts?variant=13155811983404&color=volcanic](https://shopduer.com/products/mens-stretch-denim-shorts?variant=13155811983404&color=volcanic){.https}
+  - [https://shopduer.com/products/mens-stretch-denim-shorts?variant=13155811983404&color=volcanic](https://shopduer.com/products/mens-stretch-denim-shorts?variant=13155811983404&color=volcanic)
 
-  - [https://shopduer.com/collections/mens-stretch-jeans/products/mens-stretch-jeans-slim?color=heritage-rinse](https://shopduer.com/collections/mens-stretch-jeans/products/mens-stretch-jeans-slim?color=heritage-rinse){.https}
+  - [https://shopduer.com/collections/mens-stretch-jeans/products/mens-stretch-jeans-slim?color=heritage-rinse](https://shopduer.com/collections/mens-stretch-jeans/products/mens-stretch-jeans-slim?color=heritage-rinse)
 
-  - These are a Welsh jeans company: [https://hiutdenim.co.uk/](https://hiutdenim.co.uk/){.https} who do (I think) lifetime repairs
+  - These are a Welsh jeans company: [https://hiutdenim.co.uk/](https://hiutdenim.co.uk/) who do (I think) lifetime repairs
 
     - durable
 
-  - [https://www.universalstandard.com/](https://www.universalstandard.com/){.https}
+  - [https://www.universalstandard.com/](https://www.universalstandard.com/)
 
     - pushing for size inclusivity
     - trade-in and trade-up program
@@ -31,7 +36,7 @@ Agenda
   - warning against Rapha \[British cycling sportswear\]
     - Veblen!!!!! \[Sumana is referring to the social theorist who discusses status and cost\]
 
-    - For Georgia - \"classic\" (1977) Top Gear episode: [https://www.youtube.com/watch?v=Hbqx3aMky0c](https://www.youtube.com/watch?v=Hbqx3aMky0c){.https}
+    - For Georgia - \"classic\" (1977) Top Gear episode: [https://www.youtube.com/watch?v=Hbqx3aMky0c](https://www.youtube.com/watch?v=Hbqx3aMky0c)
 
 - UX training signups
   - 7 responses so far. First week of Jan are more optimal; more people will probably come once times are announced
@@ -63,18 +68,17 @@ Agenda
         - other surveys: Bernard asked people whether they would like to contact us, willing to have us contact them; an email address was optiona. maybe 30% gave email addresses. Probably some duplication between that and UX panel.
 
   - Georgia: we posted a call for submissions for the logo work for pip \-- posted to job board \[but for free/unpaid\] \-- need to check whether it will go live. We may have some logo ideas to review over the next few weeks
-    - It\'s published: [https://opensourcedesign.net/jobs/jobs/2020-12-15-help-design-a-logo-for-pip](https://opensourcedesign.net/jobs/jobs/2020-12-15-help-design-a-logo-for-pip){.https}
+    - It\'s published: [https://opensourcedesign.net/jobs/jobs/2020-12-15-help-design-a-logo-for-pip](https://opensourcedesign.net/jobs/jobs/2020-12-15-help-design-a-logo-for-pip)
 
       - in case we get results from this: who will make the decisions about the logo
       - Simply Secure is offering to help further with this past end of SS engagement, as free/voluntary help, thank you, and it was out of scope for original funded engagement
 
 - upcoming meetings: Pradyun may be unavailable on 23rd
 
-- FOSDEM [https://lists.fosdem.org/pipermail/fosdem/2020q4/003114.html](https://lists.fosdem.org/pipermail/fosdem/2020q4/003114.html){.https}
+- FOSDEM [https://lists.fosdem.org/pipermail/fosdem/2020q4/003114.html](https://lists.fosdem.org/pipermail/fosdem/2020q4/003114.html)
 
   - Python devroom: Submission deadline: 26th of December 2020; Talk format: 25min of content + 5min of questions
 
   - organizers: Eric Gazoni (eric at adimian.com) & Jens Roelant (jens at adimian.com)
 
   - idea: talk proposal by Simply Secure + Pradyun about resolver work holistically
-:::

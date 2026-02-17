@@ -1,15 +1,20 @@
 # EuroPython/2007/IrcMeetings/IrcMeeting3
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #3 {#IRC_Meeting_.233}
+```{admonition} Legacy Wiki Page
+:class: note
 
-[Meeting minutes](http://codespeak.net/svn/user/mwh/ep2007/meeting-notes-2007-03-21.html){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Time/Location {#Time.2FLocation}
+# IRC Meeting #3 
+
+[Meeting minutes](http://codespeak.net/svn/user/mwh/ep2007/meeting-notes-2007-03-21.html)
+
+## Time/Location 
 
 The meeting will take place on Wednesday 21st of March (2007-03-21) 18:00 CET (17:00 UTC/GMT) in the #europython channel on freenode.net.
 
-## Agenda {#Agenda}
+## Agenda 
 
 No agenda has been published yet. The following points are likely to be covered:
 
@@ -29,5 +34,4 @@ Some more things worth covering, perhaps:
 
 - Sponsorship: is it time to seek sponsors? Consider also Web site banners and other materials.
 
-- On discounts and pricing: comparisons with [RuPy](http://rupy.wmid.amu.edu.pl){.http} might be drawn, but I suppose that their 15 EUR student price (and 95 EUR regular price) takes advantage of certain venue factors and other things. That conference also only has two tracks (one Python) over two days (10 hours programme length; 20 \"track hours\") vs. 3 to 4 tracks over three days for [EuroPython](EuroPython) 2006 (over 22 hours programme length; over 63 \"track hours\" including keynotes and lightning talks).
-:::
+- On discounts and pricing: comparisons with [RuPy](http://rupy.wmid.amu.edu.pl) might be drawn, but I suppose that their 15 EUR student price (and 95 EUR regular price) takes advantage of certain venue factors and other things. That conference also only has two tracks (one Python) over two days (10 hours programme length; 20 \"track hours\") vs. 3 to 4 tracks over three days for [EuroPython](EuroPython) 2006 (over 22 hours programme length; over 63 \"track hours\" including keynotes and lightning talks).

@@ -1,7 +1,12 @@
 # StartSeite
 
-::: {#content dir="ltr" lang="de"}
-# WikiName Wiki {#WikiName_Wiki}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# WikiName Wiki 
 
 Worum geht es in diesem Wiki?
 
@@ -17,7 +22,7 @@ Wichtige Einstiegsseiten:
 
 **Beachten Sie auch die englische Startseite: [FrontPage](FrontPage).**
 
-## Wie man diese Seiten benutzt {#Wie_man_diese_Seiten_benutzt}
+## Wie man diese Seiten benutzt 
 
 Ein Wiki wird von einer gemeinschaftlichen Idee getragen, jeder kann seinen Beitrag leisten und daran teilhaben:
 
@@ -29,7 +34,6 @@ Ein Wiki wird von einer gemeinschaftlichen Idee getragen, jeder kann seinen Beit
 
 - Auf [HilfeFürAnfänger](./HilfeF(c3bc)rAnf(c3a4)nger.html) stehen weitere Hinweise; [HilfeInhalt](HilfeInhalt) verlinkt auf alle Hilfeseiten.
 
-Um mehr darüber zu erfahren, was ein [WikiWikiWeb](WikiWikiWeb) ist, können Sie [WarumWikiFunktioniert](http://www.wikiservice.at/dse/wiki.cgi?WarumWikiFunktioniert "DseWiki"){.interwiki} lesen.
+Um mehr darüber zu erfahren, was ein [WikiWikiWeb](WikiWikiWeb) ist, können Sie [WarumWikiFunktioniert](http://www.wikiservice.at/dse/wiki.cgi?WarumWikiFunktioniert "DseWiki") lesen.
 
-Dieses Wiki basiert auf [MoinMoin](http://moinmo.in/){.http}.
-:::
+Dieses Wiki basiert auf [MoinMoin](http://moinmo.in/).

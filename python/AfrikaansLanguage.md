@@ -1,11 +1,16 @@
 # AfrikaansLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Afrikaans
 
 ISO 639-1 Code: af
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -27,9 +32,9 @@ Where these pages really need help:
 
 **Afrikaans**
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-b248c667760c13fb1baba93b19878c494b233a0c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Python 3.0/3.1
    2 
    3 def groete(naam):
@@ -42,23 +47,22 @@ Where these pages really need help:
 :::
 ::::
 
-### Blogs {#Blogs}
+### Blogs 
 
-- [blog](http://www.goeiegenugtig.co.za/?tag=python){.http} - mixed English and Afrikaans
+- [blog](http://www.goeiegenugtig.co.za/?tag=python) - mixed English and Afrikaans
 
-- [Django code snippet](http://pastie.textmate.org/pastes/248708/edit){.http}
+- [Django code snippet](http://pastie.textmate.org/pastes/248708/edit)
 
-- [mailinglist question - postgres](http://lists.debian.org/debian-user/1998/02/msg00226.html){.http}
+- [mailinglist question - postgres](http://lists.debian.org/debian-user/1998/02/msg00226.html)
 
-- [mail thread - include](http://dsp.sun.ac.za/pipermail/dsp_help/2004-September/000026.html){.http}
+- [mail thread - include](http://dsp.sun.ac.za/pipermail/dsp_help/2004-September/000026.html)
 
-- [(Wikipedia Stub)](http://af.wikipedia.org/wiki/Python){.http}
+- [(Wikipedia Stub)](http://af.wikipedia.org/wiki/Python)
 
-- [kariaan](http://kariaan.blogspot.com/2010/01/modbus-en-python.html){.http} - modbus-en-python
+- [kariaan](http://kariaan.blogspot.com/2010/01/modbus-en-python.html) - modbus-en-python
 
-- [pythonoutjie](http://letterdash.com/pythonoutjie){.http} - links with explanations in Afrikaans
+- [pythonoutjie](http://letterdash.com/pythonoutjie) - links with explanations in Afrikaans
 
 [DutchLanguage](DutchLanguage)
 
 [CategoryLanguage](CategoryLanguage)
-:::::

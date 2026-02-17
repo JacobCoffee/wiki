@@ -1,13 +1,18 @@
 # Py3kStringFormatting
 
-:::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # String formatting methods in Python 3000, based on PEP 3101
 
   --------- ------------------
   Author:   Andrea Bucciotti
   --------- ------------------
 
-::: {#current-formatting-methods .section}
+::: 
 ### Current formatting methods
 
 Python 3.0 currently provides two methods of string interpolation:
@@ -20,7 +25,7 @@ The first one has been removed because, as a binary operator, it can take at mos
 On the other hand the string.Template module is felt that serves a distinct need and for that reason is not going to be removed or changed.
 :::
 
-::: {#get-started-the-new-method-format .section}
+::: 
 ### Get started: the new method, format!
 
 The built-in string class (and also the Unicode class in 2.6) will gain a new method, \'format\', which takes an arbitrary number of positional and keyword arguments.
@@ -54,7 +59,7 @@ The new string is:
 The element within the braces is called a \'field\'. Fields consist of a \'field name\', which can either be simple or compound, and an optional \'format specifier\'.
 :::
 
-::: {#simple-and-compound-field-names .section}
+::: 
 ### Simple and Compound field names
 
 A simple field name is a valid base-10 integer, or a valid Python identifier.
@@ -90,7 +95,7 @@ In the above example, the string \'name\' really is the literal string \'name\',
 Because keys are not quote-delimited, it is not possible to specify arbitrary dictionary keys (e.g., the strings \"10\" or \":-\]\") from within a format string.
 :::
 
-::: {#format-specification .section}
+::: 
 ### Format Specification
 
 If an object does not define its own format specifiers, a standard set of format specifiers is used.
@@ -264,7 +269,7 @@ If an object does not define its own format specifiers, a standard set of format
   > ```
 :::
 
-::: {#explicit-conversion-flag .section}
+::: 
 ### Explicit Conversion Flag
 
 The explicit conversion flag is used to transform the format field value before it is formatted. Currently, two explicit conversion flags are recognized:
@@ -281,7 +286,7 @@ These flags are placed before the format specifier:
     >>> 'Hello               '
 :::
 
-::: {#customize-the-format-method .section}
+::: 
 ### Customize the format method
 
 The new, global built-in function \'format\' simply calls this special method:
@@ -296,7 +301,7 @@ Any class can override the `__format__` method to provide custom formatting for 
             ...
 :::
 
-::: {#a-final-example .section}
+::: 
 ### A final Example
 
 Now, how do we stitch all this stuff toghether?
@@ -316,4 +321,3 @@ I\'ll try to give you an example script that sum quite everything we saw:
 
         print('{0: {1}20g}'.format(a,b))
 :::
-::::::::::

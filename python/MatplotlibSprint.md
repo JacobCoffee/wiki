@@ -1,11 +1,16 @@
 # MatplotlibSprint
 
-::: {#content dir="ltr" lang="en"}
-# Matplotlib Sprint {#Matplotlib_Sprint}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Matplotlib Sprint 
 
 We\'ll be doing a sprint starting around 10AM on matplotlib. There aren\'t a fixed set of topics yet, but please joing a discussion on matplotlib-users or matplotlib-devel if you have some specific ideas, or just add it to the wiki.
 
-We have a list of official goals at [http://matplotlib.sf.net/goals.html](http://matplotlib.sf.net/goals.html){.http} page and we could try to pick off as many of these as possible. Here are some things of particular interest to me (John Hunter)
+We have a list of official goals at [http://matplotlib.sf.net/goals.html](http://matplotlib.sf.net/goals.html) page and we could try to pick off as many of these as possible. Here are some things of particular interest to me (John Hunter)
 
 Topic ideas
 
@@ -25,9 +30,8 @@ Topic ideas
 
 Participants
 
-- John Hunter \<[jdhunter@ace.bsd.uchicago.edu](mailto:jdhunter@ace.bsd.uchicago.edu){.mailto}\>
+- John Hunter \<[jdhunter@ace.bsd.uchicago.edu](mailto:jdhunter@ace.bsd.uchicago.edu)\>
 
 - John Gill
 
 - Michael Twomey
-:::

@@ -1,24 +1,20 @@
 # AutoXmlRpcCgi
 
-:::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This is a CGI version of the \"automatic [DocXmlRpcServer](DocXmlRpcServer).\"
 
-::: table-of-contents
-Contents
-
-1.  1.  [Tutorial](#Tutorial)
-    2.  [Notes](#Notes)
-    3.  [Code: xrcgi.py](#Code:_xrcgi.py)
-2.  [Discussion](#Discussion)
-:::
-
-## Tutorial {#Tutorial}
+## Tutorial 
 
 Suppose you have a Python module:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8435b0a743f29894f4e881444b26d95cf2ecbaf7 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def spam():
    2     return "spam"
 ```
@@ -29,9 +25,9 @@ How can we quickly share this functionality?
 
 Mark it like this:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d4894e2547147338aec757b93719bc265d106b3f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 XMLRPC_namespace = "eggs"
    2 
    3 def spam():
@@ -46,9 +42,9 @@ You can use that function via XML-RPC on the CGI.
 
 Your friends can now call your function!
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ed756b43607f3c4d4ae098b7c1abd20ce270f7a9 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import xmlrpclib
    2 
    3 server = xmlrpclib.ServerProxy("http://example.net/xrcgi.py")
@@ -59,19 +55,19 @@ Your friends can now call your function!
 
 There it is!
 
-## Notes {#Notes}
+## Notes 
 
 - If you set XMLRPC_namespace to None, then namespaces aren\'t used.
 
 - This code demonstrates [ModulesAsPlugins](ModulesAsPlugins), [CgiScripts](CgiScripts), [DocXmlRpcServer](DocXmlRpcServer), and (hopefully) [PythonStyle](PythonStyle).
 
-- If you define a function \"uli\" (`def uli(msg):`), you can call it in IRC with [UliBot!](http://onebigsoup.wiki.taoriver.net/moin.cgi/UliBot){.http}
+- If you define a function \"uli\" (`def uli(msg):`), you can call it in IRC with [UliBot!](http://onebigsoup.wiki.taoriver.net/moin.cgi/UliBot)
 
-## Code: xrcgi.py {#Code:_xrcgi.py}
+## Code: xrcgi.py 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-68546a4519fc156fee4d2b80404b29c32539d6b5 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #!/usr/bin/env python2.4
    2 """CGI between XML-RPC web requests, and specially marked modules.
    3 
@@ -162,14 +158,13 @@ There it is!
 :::
 ::::
 
-# Discussion {#Discussion}
+# Discussion 
 
 This could be improved. Some ideas:
 
 - What if there\'s an exception while loading a module? What then?
 - Log modules successfully loaded.
-  - If you\'re either brave or insane, make use of the [LoggingModule](./LoggingModule.html){.nonexistent}.
+  - If you\'re either brave or insane, make use of the [LoggingModule](./LoggingModule.html).
 - Perhaps perform some sort of caching, to speed up invocation.
 
 \-- [LionKimbro](LionKimbro) 2005-04-17 05:51:41
-::::::::::::

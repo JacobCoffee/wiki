@@ -1,11 +1,15 @@
 # apug meeting 10-12-2006
 
-::: {#content dir="ltr" lang="en"}
-## Austin Python Users Group Meeting {#Austin_Python_Users_Group_Meeting}
+```{admonition} Legacy Wiki Page
+:class: note
 
-# October 12, 2006 {#October_12.2C_2006}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-Three people showed up. It was highly informal. I gave an impromptu and not very useful overview of [PyLinda](http://www-users.cs.york.ac.uk/~aw/pylinda/,){.http}. (Next time I will bring my slides.)
+## Austin Python Users Group Meeting 
+
+# October 12, 2006 
+
+Three people showed up. It was highly informal. I gave an impromptu and not very useful overview of [PyLinda](http://www-users.cs.york.ac.uk/~aw/pylinda/,). (Next time I will bring my slides.)
 
 \-- Rock Howard, AMD
-:::

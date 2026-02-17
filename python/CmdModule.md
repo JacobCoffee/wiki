@@ -1,6 +1,11 @@
 # CmdModule
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The `cmd` module makes it easy to make command line interfaces in your programs.
 
 `cmd` is different than [OptParse](OptParse), in that [OptParse](OptParse) is a tool for making command line tools.
@@ -21,11 +26,11 @@ In these days of graphical user interfaces, a command line interpreter seems ant
 
 And even if you plan to create GUI software, it\'s often good to start with a text interface. This will allow you to focus on the applicative logic independently of the interface. This is often a good way to create modular software.
 
-# cmd module basics {#cmd_module_basics}
+# cmd module basics 
 
 The module defines only one class: the `Cmd` class. Creating a command line interpreter is done by sub-classing the `cmd.Cmd` class.
 
-## Creating a command {#Creating_a_command}
+## Creating a command 
 
 The main goal of an interpreter is to respond to commands. A command is the first part of a line of text entered at the interpreter prompt. This part is defined as the longest string of characters contained in the `identchars` member. By default `identchars` contains non accented letters, digits and the underscore symbol. The end of the line is the command\'s parameters.
 
@@ -43,7 +48,7 @@ The interpreter uses the following format to signal errors:
 
 It\'s generally a good idea to use the same format for application errors.
 
-### return value {#return_value}
+### return value 
 
 In the most common case: commands shouldn\'t return a value. The exception is when you want to exit the interpreter loop: any command that returns a true value stops the interpreter.
 
@@ -70,7 +75,7 @@ Now if you run the interpreter, you will have:
     (Cmd) add 5 4
     9
 
-## Help {#Help}
+## Help 
 
 Help support is another strength of the cmd module. You can provide documentation for the xxx command by defining the `help_xxx` method. For the add command, you could for example define:
 
@@ -90,7 +95,7 @@ You can also define help for topics that are not related to commands:
 
 The interpreter understands the ? character as a shortcut for the help command.
 
-## Completion {#Completion}
+## Completion 
 
 Completion is a very interesting feature: when the user presses the TAB key, the interpreter will try to complete the command or propose several alternatives. Completion will be available only if the computer supports the readline module. You can disable completion by passing the None value to the completekey attribute of the Cmd class constructor.
 
@@ -112,7 +117,7 @@ The `complete_xxx` method takes four arguments:
 
 It should return a list (possibly empty) of strings representing the possible completions. The arguments begidx and endidx are useful when completion depends on the position of the argument.
 
-## Starting the interpreter {#Starting_the_interpreter}
+## Starting the interpreter 
 
 Once you have defined your own interpreter class, the only thing left to do is to create an instance and to call the mainloop method:
 
@@ -121,18 +126,18 @@ Once you have defined your own interpreter class, the only thing left to do is t
 
 In python 2.1 and 2.2 (and possibly some older, as well as future releases?) mainloop() has been renamed to cmdloop()
 
-# Interface customization {#Interface_customization}
+# Interface customization 
 
 The cmd module provides several hooks to change the behavior of the interpreter. You should note that your users won\'t necessary thank you should you deviate from the standard behavior.
 
-## Empty lines {#Empty_lines}
+## Empty lines 
 
 By default when an empty line is entered, the last command is repeated. You can change this behavior by overriding the `emptyline` method. For example to disable the repetition of the last command:
 
     def emptyline(self):
         pass
 
-## Help summary {#Help_summary}
+## Help summary 
 
 When the help command is called without arguments, it prints a summary of all the documentation topics:
 
@@ -166,13 +171,13 @@ You can customize this screen with several data members:
 
 - `self.undoc_header ` define the title of the *undocumented commands* section
 
-## Introduction message {#Introduction_message}
+## Introduction message 
 
 At startup, the interpreter print the `self.intro` string. This string can be overridden via an optional argument to the `cmdloop()` method.
 
-# Advanced material {#Advanced_material}
+# Advanced material 
 
-## Defaults handling {#Defaults_handling}
+## Defaults handling 
 
 - The `default` method can be overridden for handling commands for which there is no `do_xxx` method
 
@@ -180,7 +185,7 @@ At startup, the interpreter print the `self.intro` string. This string can be ov
 
 Theses methods have the same parameters as the `do_xxx` and `complete_xxx` methods.
 
-## Nested interpreters {#Nested_interpreters}
+## Nested interpreters 
 
 If your program becomes complex, or if your data structure is hierarchical, it can be interesting to define nested interpreters (calling an interpreter inside an other interpreter). In that case, I like having a prompt like:
 
@@ -197,7 +202,7 @@ You can do this by changing the prompt attribute of the nested interpreter:
 
 Note that it can be a better practice to do this in the constructor of the nested interpreter.
 
-## Modal interaction {#Modal_interaction}
+## Modal interaction 
 
 Sometimes, it can be useful to have a more directed, interactive session with the users. The Cmd class allows you to use the `print` and `raw_input` functions without any problems:
 
@@ -208,7 +213,7 @@ Sometimes, it can be useful to have a more directed, interactive session with th
 
 *FIXME: How to change completion behavior of raw_input?*
 
-## The interpreter loop {#The_interpreter_loop}
+## The interpreter loop 
 
 At the start of the interpreter loop the preloop method is called, and at the end of the loop the postloop method is called. These methods take no arguments, and return no values. The following shows how to make the interpreter more polite:
 
@@ -220,7 +225,7 @@ At the start of the interpreter loop the preloop method is called, and at the en
             print 'Goodbye'
             super(polite_cmd,self).postloop()
 
-## Command processing {#Command_processing}
+## Command processing 
 
 When a command line is processed, several methods are called:
 
@@ -254,11 +259,11 @@ However, if you want to simulate an interpreter entry, you should call these thr
 
 This will prevent problems if you later want a class to inherit one which has modified the hooks.
 
-## Creating components {#Creating_components}
+## Creating components 
 
 One other strengths of the cmd module is that it handles multiple inheritance. That means that you can create helper classes intended to provide additional features.
 
-### Shell access {#Shell_access}
+### Shell access 
 
     import os
     class shell_cmd(cmd.Cmd,object):
@@ -277,7 +282,7 @@ By deriving from this class, you will be able to execute any shell command:
 
 By the way, the cmd module understands the ! character as a shortcut for the shell command.
 
-### Exit {#Exit}
+### Exit 
 
     class exit_cmd(cmd.Cmd,object):
         def can_exit(self):
@@ -298,19 +303,19 @@ By the way, the cmd module understands the ! character as a shortcut for the she
 
 This class provides the exit command to abort the interpreter. You can protect exit by overriding the can_exit method.
 
-### Gluing all together {#Gluing_all_together}
+### Gluing all together 
 
 Now with a class that inherits both from `exit_cmd` and `shell_cmd` you will be able to define an interpreter that understands the shell and exit commands.
 
-# References {#References}
+# References 
 
-[cmd module reference](http://www.python.org/doc/current/lib/Cmd-objects.html){.http}
+[cmd module reference](http://www.python.org/doc/current/lib/Cmd-objects.html)
 
-# Example Code {#Example_Code}
+# Example Code 
 
-[listcmd.py](https://github.com/agroszer/komodo-python-dbgp/blob/master/dbgp/listcmd.py){.https} - from Komodo Remote Debugger
+[listcmd.py](https://github.com/agroszer/komodo-python-dbgp/blob/master/dbgp/listcmd.py) - from Komodo Remote Debugger
 
-# Discussion {#Discussion}
+# Discussion 
 
 It would be cool if you could call these mini-command lines from \"the\" command line.
 
@@ -325,4 +330,3 @@ Something like \"-c\" for Python, where you can pass in a line, and get back the
 The `onecmd()` function may be what you\'re after. Write your interpreter as you normally would. Then, in main, parse the command line for a \'-c\' option. If you find it, call `onecmd()` with the string following the \'-c\' as the parameter, else call `cmdloop()`.
 
 \-- Mark Workman 2026-02-14 16:07:16
-:::

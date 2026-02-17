@@ -1,7 +1,12 @@
 # boost.python/CrossExtensionModuleDependencies
 
-::: {#content dir="ltr" lang="en"}
-[DavidAbrahams](./DavidAbrahams.html){.nonexistent}: This is going to have to be a FAQ about dynamic linking, RTTI, and exception-handling issues in general.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[DavidAbrahams](./DavidAbrahams.html): This is going to have to be a FAQ about dynamic linking, RTTI, and exception-handling issues in general.
 
 There are three basic dynamic linking models; I\'ll call these
 
@@ -42,4 +47,3 @@ The problem we had earlier with catching exceptions is an interaction with the c
 \>\> The Windows crash, FWIW, is a poor-QOI issue \"bug\" in the Dinkumware standard library that ships with vc6. vc7 solves it.
 
 This problem is that the vc6 associative containers use a special static data member representing a \"NULL\" node, used as a sentinel to tell the container implementation where the \"edge\" is, so it would stop searching there. Because you instantiated the map\<\> template in two separate extension modules, each one got it\'s own copy of the \"NULL\" node, and a map passed across the boundary would contain the wrong sentinel value for the code on the other side.
-:::

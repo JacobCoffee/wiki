@@ -1,25 +1,14 @@
 # PSF Python Job Board/Reviewers
 
-:::: {#content dir="ltr" lang="en"}
-# PSF Python Job Board {#PSF_Python_Job_Board}
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: table-of-contents
-Contents
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-1.  [PSF Python Job Board](#PSF_Python_Job_Board)
-    1.  [Team members](#Team_members)
-    2.  [Job Board Work Group Charter](#Job_Board_Work_Group_Charter)
-    3.  [Volunteering as Reviewer](#Volunteering_as_Reviewer)
-    4.  [Reviewer Policy](#Reviewer_Policy)
-    5.  [Review Criteria](#Review_Criteria)
-    6.  [Review Process](#Review_Process)
-        1.  [Approval Process](#Approval_Process)
-            1.  [Posting not compliant](#Posting_not_compliant)
-            2.  [Posting compliant](#Posting_compliant)
-            3.  [Not sure whether compliant or not](#Not_sure_whether_compliant_or_not)
-:::
+# PSF Python Job Board 
 
-## Team members {#Team_members}
+## Team members 
 
 These are team members who review job postings and help giving usability feedback to the developers:
 
@@ -51,13 +40,13 @@ Past members:
 - Simon Hayward
 - Skip Montanaro
 
-## Job Board Work Group Charter {#Job_Board_Work_Group_Charter}
+## Job Board Work Group Charter 
 
-[https://docs.google.com/document/d/1apw6qY1SL23RvYdHVoBaIAwClpAvlE6uH31NqWP3yB0/edit?usp=sharing](https://docs.google.com/document/d/1apw6qY1SL23RvYdHVoBaIAwClpAvlE6uH31NqWP3yB0/edit?usp=sharing){.https}
+[https://docs.google.com/document/d/1apw6qY1SL23RvYdHVoBaIAwClpAvlE6uH31NqWP3yB0/edit?usp=sharing](https://docs.google.com/document/d/1apw6qY1SL23RvYdHVoBaIAwClpAvlE6uH31NqWP3yB0/edit?usp=sharing)
 
-## Volunteering as Reviewer {#Volunteering_as_Reviewer}
+## Volunteering as Reviewer 
 
-If you\'d like to help out as a reviewer, please read through this page to understand the review process, sign up to the [jobs mailing list](https://mail.python.org/mailman/listinfo/jobs){.https} and introduce yourself. Please also disclose your affiliation with the introduction.
+If you\'d like to help out as a reviewer, please read through this page to understand the review process, sign up to the [jobs mailing list](https://mail.python.org/mailman/listinfo/jobs) and introduce yourself. Please also disclose your affiliation with the introduction.
 
 We can then follow through this process to get you signed up:
 
@@ -65,19 +54,19 @@ We can then follow through this process to get you signed up:
 
 - create a python.org account
 
-- send the account name to [jobs@python.org](mailto:jobs@python.org){.mailto}
+- send the account name to [jobs@python.org](mailto:jobs@python.org)
 
 - we\'ll get your permissions correctly set up and add your name to this page
 
 - you can then proceed with reviews using the review panel
 
-## Reviewer Policy {#Reviewer_Policy}
+## Reviewer Policy 
 
 The policy is very simple and straightforward:
 
 - Reviewers should not work on job submissions by companies they are affiliated with.
 
-## Review Criteria {#Review_Criteria}
+## Review Criteria 
 
 Reviewers should review job postings based on these criteria. Postings which do not meet these criteria should be \*\*rejected\*\*, explaining what to correct as comment (prior to rejecting it). The submitters will receive the comment by email and can resubmit the posting with the corrections applied,
 
@@ -89,27 +78,27 @@ Reviewers should review job postings based on these criteria. Postings which do 
 - the job URL must point to a meaningful web page, e.g. the company page, a more detailed job description, etc.
 - the email address used in the posting should look like a valid email address
 
-## Review Process {#Review_Process}
+## Review Process 
 
 The jobs app provide a page which lists all jobs in the approval queue:
 
-- [https://www.python.org/jobs/review/](https://www.python.org/jobs/review/){.https}
+- [https://www.python.org/jobs/review/](https://www.python.org/jobs/review/)
 
 New jobs will automatically be listed on this page. Jobs can be *approved*, *rejected*, *archived* or *removed*. The processes to be used for each of these steps are described below.
 
 If you make a mistake, e.g. hit the wrong button, you can fix this by going to the jobs table admin interface and manually adjust the status of the job posting again:
 
-- [https://www.python.org/admin/jobs/job/](https://www.python.org/admin/jobs/job/){.https}
+- [https://www.python.org/admin/jobs/job/](https://www.python.org/admin/jobs/job/)
 
 (if you need help with this, please ask on the jobs mailing list)
 
-### Approval Process {#Approval_Process}
+### Approval Process 
 
 Before hitting the approval button, please review the posting by clicking on the *Review* button of the posting. This will open the job details page, which allows you to check the job description.
 
 Further down on the page you will find review controls. There is a comment section and a section to approve/reject/edit the posting.
 
-#### Posting not compliant {#Posting_not_compliant}
+#### Posting not compliant 
 
 If you find that the job description does not comply to the review criteria listed above, please:
 
@@ -126,7 +115,7 @@ to have the posting rejected. The job submitter can then file a new updated post
 
 The system will automatically send a rejection notice to the submitter, so no additional email is necessary.
 
-#### Posting compliant {#Posting_compliant}
+#### Posting compliant 
 
 If a job posting complies to the above review criteria, please make sure that:
 
@@ -146,10 +135,9 @@ to have the posting approved and listed.
 
 The system will automatically post a comment to the submitters, informing them of the approval, so no additional email is necessary.
 
-#### Not sure whether compliant or not {#Not_sure_whether_compliant_or_not}
+#### Not sure whether compliant or not 
 
 If you are not sure whether a posting is compliant or not, you can either:
 
 - leave it untouched for someone else to pick up and decide, or
 - write to the jobs list asking for help/guidance/opinions
-::::

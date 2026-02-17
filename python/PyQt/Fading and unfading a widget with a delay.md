@@ -1,15 +1,20 @@
 # PyQt/Fading and unfading a widget with a delay
 
-::::: {#content dir="ltr" lang="en"}
-# Fading and unfading a widget with a delay {#Fading_and_unfading_a_widget_with_a_delay}
+```{admonition} Legacy Wiki Page
+:class: note
 
-On the PyQt mailing list, [Tim and Alison Bentley](http://www.riverbankcomputing.com/pipermail/pyqt/2009-November/025007.html){.http} asked for a way to produce a fade-unfade animation.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Fading and unfading a widget with a delay 
+
+On the PyQt mailing list, [Tim and Alison Bentley](http://www.riverbankcomputing.com/pipermail/pyqt/2009-November/025007.html) asked for a way to produce a fade-unfade animation.
 
 The following example code uses a single-shot QTimer to schedule the unfade step of the animation for one second after the fade occurs.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-e0f11ff5cc78049a31ff83766888f569af0208a2 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import *
    3 from PyQt4.QtGui import *
@@ -46,4 +51,3 @@ The following example code uses a single-shot QTimer to schedule the unfade step
 ```
 :::
 ::::
-:::::

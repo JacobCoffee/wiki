@@ -1,15 +1,20 @@
 # cppyy
 
-::::: {#content dir="ltr" lang="en"}
-The [cppyy](http://cppyy.readthedocs.io){.http} package provides fast, automatic, Python-C++ bindings, including run-time instantiation of C++ templates, cross-inheritance, callbacks, auto-casting, transparent use of smart pointers, etc., etc. Many C++ idioms are automatically recognized and \"pythonized\" (given a Python look-and-feel), allowing drop-in placement in Python idioms and integration with standard libraries such as [NumPy](NumPy) and ctypes. Most importantly it makes it possible to write higher-level (with ownership, threading, and application-specific rules) Python modules on top of C++ in pure Python, without the need to learn an intermediate language or language extension.
+```{admonition} Legacy Wiki Page
+:class: note
 
-Cppyy works by integrating the Clang/LLVM-based [Cling C++ interpreter](https://github.com/vgvassilev/cling){.https}, providing interactive access to C/C++ from Python. It enables calling C++ from Python and calling Python from C++. Using precompiled modules, a class loader, and an everything-lazy implementation, cppyy is designed for automatic generation of Python bindings for large scale C++ programs. [PyPy](PyPy) supports cppyy natively for high performance, as described in this [PyHPC\'16](http://wlav.web.cern.ch/wlav/Cppyy_LavrijsenDutta_PyHPC16.pdf){.http} paper.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+The [cppyy](http://cppyy.readthedocs.io) package provides fast, automatic, Python-C++ bindings, including run-time instantiation of C++ templates, cross-inheritance, callbacks, auto-casting, transparent use of smart pointers, etc., etc. Many C++ idioms are automatically recognized and \"pythonized\" (given a Python look-and-feel), allowing drop-in placement in Python idioms and integration with standard libraries such as [NumPy](NumPy) and ctypes. Most importantly it makes it possible to write higher-level (with ownership, threading, and application-specific rules) Python modules on top of C++ in pure Python, without the need to learn an intermediate language or language extension.
+
+Cppyy works by integrating the Clang/LLVM-based [Cling C++ interpreter](https://github.com/vgvassilev/cling), providing interactive access to C/C++ from Python. It enables calling C++ from Python and calling Python from C++. Using precompiled modules, a class loader, and an everything-lazy implementation, cppyy is designed for automatic generation of Python bindings for large scale C++ programs. [PyPy](PyPy) supports cppyy natively for high performance, as described in this [PyHPC\'16](http://wlav.web.cern.ch/wlav/Cppyy_LavrijsenDutta_PyHPC16.pdf) paper.
 
 An example session follows:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-424638bfb9886c4d7ec2e0fe6366b6247feed982 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> import cppyy
    2 >>> cppyy.cppdef("""
    3 ... class MyClass {
@@ -52,7 +57,7 @@ An example session follows:
 :::
 ::::
 
-Source and wheels (for [ManyLinux](./ManyLinux.html){.nonexistent}, Mac, and Windows 32b and 64b) are available on PyPI. To install, run:
+Source and wheels (for [ManyLinux](./ManyLinux.html), Mac, and Windows 32b and 64b) are available on PyPI. To install, run:
 
     $ python -m pip install cppyy
 
@@ -60,5 +65,4 @@ If you prefer conda, cpppy is also available from conda-forge for Linux and Mac:
 
     $ ﻿conda install -c conda-forge cppyy
 
-Full details are in the cppyy documentation: [http://cppyy.readthedocs.io](http://cppyy.readthedocs.io){.http}
-:::::
+Full details are in the cppyy documentation: [http://cppyy.readthedocs.io](http://cppyy.readthedocs.io)

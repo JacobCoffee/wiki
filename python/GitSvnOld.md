@@ -1,19 +1,24 @@
 # GitSvnOld
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 ::: caution
 Python is now hosted in a Mercurial repository. This page is currently outdated.
 :::
 
-# Checking out the Python Source Code with Git {#Checking_out_the_Python_Source_Code_with_Git}
+# Checking out the Python Source Code with Git 
 
 Note that the Python source is eventually going to be moved from Subversion of Mercurial. When that happens, the Git repositories will likely stop being updated.
 
 Also note that these instructions should not be considered a good introduction to typical Git usage. They are necessarily complex because they try to be efficient in network bandwidth while still working with the existing Subversion infrastructure.
 
-## Introduction {#Introduction}
+## Introduction 
 
-Python\'s source code currently maintained under the [Subversion](http://subversion.tigris.org){.http} revision control system. This document describes how to checkout the source as a [Git](http://git-scm.com/){.http} repository. Some advantages of using git are:
+Python\'s source code currently maintained under the [Subversion](http://subversion.tigris.org) revision control system. This document describes how to checkout the source as a [Git](http://git-scm.com/) repository. Some advantages of using git are:
 
 \* The entire history is available locally so you easily work without network access.
 
@@ -21,7 +26,7 @@ Python\'s source code currently maintained under the [Subversion](http://subvers
 
 \* Operations like `git diff`{.backtick} and `git log`{.backtick} are much faster than the Subversion equivalents.
 
-## Doing the initial checkout {#Doing_the_initial_checkout}
+## Doing the initial checkout 
 
 Git\'s pack format is efficient but the entire VC history of Python still consumes a lot of space (currently around 90 MB). You could use `git-svn`{.backtick} to create a local repository (please don\'t do that) but it\'s much faster to use the native git protocol. To allow that, there are Git repositories on svn.python.org that are updated every hour. Changes since that time can be pulled using `git-svn`{.backtick}.
 
@@ -54,7 +59,7 @@ The local branch `master`{.backtick} and the remote branch `git-svn`{.backtick} 
 
 This should complete quickly because nearly all the data is already local and the `git-svn`{.backtick} command will merely go through the logs and extract the Subversion revision numbers.
 
-## Keeping up-to-date {#Keeping_up-to-date}
+## Keeping up-to-date 
 
 Using the `git svn fetch`{.backtick} command closely matches the behavior of the `svn update`{.backtick} command. It will fetch new versions from the Subversion repository and then rebase your local changes on top of them::
 
@@ -72,13 +77,13 @@ However, if you have local changes then you probably want to use `rebase`{.backt
 
         git rebase git-svn
 
-## Sharing work {#Sharing_work}
+## Sharing work 
 
-Please refer to the [Git SVN tutorial](http://git.or.cz/course/svn.html){.http} for general instructions on how to interact with a Subversion repository. The `git format-patch`{.backtick}, `git am`{.backtick} and `git apply`{.backtick} commands are very useful when dealing with patches.
+Please refer to the [Git SVN tutorial](http://git.or.cz/course/svn.html) for general instructions on how to interact with a Subversion repository. The `git format-patch`{.backtick}, `git am`{.backtick} and `git apply`{.backtick} commands are very useful when dealing with patches.
 
 If you have write access to the SVN repository then you can use `git svn dcommit`{.backtick} to push your local commits directly into the public SVN repository. Take extra care before using `dcommit`{.backtick}. It\'s a good idea to use `git log`{.backtick} or `gitk`{.backtick} to check what will be sent before actually running `dcommit`{.backtick}. Also note that your local copy must be up-to-date (e.g. via `git svn rebase`{.backtick}) for `dcommit`{.backtick} to work.
 
-## Python 3 branch {#Python_3_branch}
+## Python 3 branch 
 
 There is also a Git repository for the py3k branch. The following commands assume read-write access to the SVN repository and will create a local repository (the important difference is with the SVN and Git URLs)::
 
@@ -90,4 +95,3 @@ There is also a Git repository for the py3k branch. The following commands assum
         git config remote.git-svn.fetch refs/heads/master:refs/remotes/git-svn
         git fetch git-svn
         git pull git-svn master
-::::

@@ -1,6 +1,11 @@
 # StatementOfValues
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The following text has been derived from the proposed template [CodeOfConduct](CodeOfConduct), to create a PSF-specific variant. It has been submitted to the board as a counter-proposal to considering the CoC in isolation, that deliberately avoids any claims that might be construed as the PSF attempting to police the conduct of the entire Python community, while only being a small part of that community (albeit an influential part through the activities of our members and through the actions of the PSF board).
 
 While I initially proposed this as as \*alternative\* to Brian\'s Code of Conduct, I have instead come around to the viewing it as a \*complement\* to that template: I think we should vote for \*and approve\* both of them, for different purposes. I therefore suggest the following (or similar) motions be presented to the membership as part of the upcoming ballot:
@@ -21,25 +26,24 @@ Differences from the template code:
 
 ------------------------------------------------------------------------
 
-# Code of Conduct for Python Software Foundation Members {#Code_of_Conduct_for_Python_Software_Foundation_Members}
+# Code of Conduct for Python Software Foundation Members 
 
 The Python community is made up of members from around the globe with a diverse set of skills, personalities, and experiences. It is through these differences that our community experiences great successes and continued growth. When we're working with members of the community, we aim to follow these guidelines to help steer our interactions and strive to keep Python a positive, successful, and growing community.
 
 Python Software Foundation members are:
 
-## Open {#Open}
+## Open 
 
 - Members of the foundation are open to collaboration, whether it's on PEPs, patches, problems, or otherwise. We're receptive to constructive comment and criticism, as the experiences and skill sets of other community members contribute to the whole of our efforts. We're accepting of all who wish to take part in our activities, fostering an environment where anyone can participate and everyone can make a difference.
 
-## Considerate {#Considerate}
+## Considerate 
 
 - Members of the foundation are considerate of their peers \-- other Python users. We're thoughtful when addressing the efforts of others, keeping in mind that often times the labor was completed simply for the good of the community. We're attentive in our communications, whether in person or online, and we're tactful when approaching differing views.
 
-## Respectful {#Respectful}
+## Respectful 
 
 - Members of the foundation are respectful. We're respectful of others, their positions, their skills, their commitments, and their efforts. We're respectful of the volunteer efforts that permeate the Python community. We're respectful of the processes set forth in the community, and we work within them. When we disagree, we are courteous in raising our issues.
 
 In addition to striving to exhibit these traits ourselves, as Python Software Foundation members, we seek to promote and encourage these values throughout the broader Python community.
 
 Overall, we\'re good to each other. We contribute to this community not because we have to, but because we want to. When we remember that, these guidelines will come naturally.
-:::

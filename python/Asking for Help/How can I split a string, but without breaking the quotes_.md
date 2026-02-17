@@ -1,7 +1,12 @@
 # Asking for Help/How can I split a string, but without breaking the quotes?
 
-::: {#content dir="ltr" lang="en"}
-# Asking for Help: How can I split a string, but without breaking the quotes {#Asking_for_Help:_How_can_I_split_a_string.2C_but_without_breaking_the_quotes}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: How can I split a string, but without breaking the quotes 
 
 I\'m trying to split a string, but without breaking the quotes
 
@@ -25,4 +30,3 @@ It is `"\g<1>"`{.backtick}, of course, as there are no commas to replace in `"\g
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::

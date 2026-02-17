@@ -1,11 +1,16 @@
 # PSF Python Job Board/Jobs App Reviews
 
-::: {#content dir="ltr" lang="en"}
-# Jobs App Reviews {#Jobs_App_Reviews}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Jobs App Reviews 
 
 Please post your jobs app review here. We will then use them as basis for the job app design and user stories.
 
-## Review 1 {#Review_1}
+## Review 1 
 
 From an initial scan of the newjobs URL, I generated these issues:
 
@@ -23,7 +28,7 @@ From an initial scan of the newjobs URL, I generated these issues:
 
 7\. The \"agency\" checkbox should be a property of the company info. Either a company hires its own workforce directly, or is an agency hiring on behalf of other companies. I\'ve yet to see an agency advertising for Python programmers to fill its own needs.
 
-## Run-though of the job submission process by GilesThomas {#Run-though_of_the_job_submission_process_by_GilesThomas}
+## Run-though of the job submission process by GilesThomas 
 
 - Went to jobs site.
 
@@ -45,7 +50,7 @@ From an initial scan of the newjobs URL, I generated these issues:
 
 - From the jobs admin page, I saw the job but the status was \"Draft\"
 
-- As you\'d expect from that, when I went to [http://www.python.org/newjobs/review/](http://www.python.org/newjobs/review/){.http}, the job was not there (and nor was the one Marc-Andre approved earlier)
+- As you\'d expect from that, when I went to [http://www.python.org/newjobs/review/](http://www.python.org/newjobs/review/), the job was not there (and nor was the one Marc-Andre approved earlier)
 
 - Went back to the window where I submitted it, and added a comment.
 
@@ -85,17 +90,16 @@ From an initial scan of the newjobs URL, I generated these issues:
 
 - Marked as \"removed\" in database
 
-## Suggested review workflow {#Suggested_review_workflow}
+## Suggested review workflow 
 
-1\. Submit an example job via [http://www.python.org/newjobs/create/](http://www.python.org/newjobs/create/){.http}; use your email address as submitter address so that you can check the emails being sent by the system
+1\. Submit an example job via [http://www.python.org/newjobs/create/](http://www.python.org/newjobs/create/); use your email address as submitter address so that you can check the emails being sent by the system
 
-2\. Check posting in [http://www.python.org/newjobs/review/](http://www.python.org/newjobs/review/){.http}
+2\. Check posting in [http://www.python.org/newjobs/review/](http://www.python.org/newjobs/review/)
 
-3\. Review by clicking on the job ID, e.g. [http://www.python.org/newjobs/68/review/](http://www.python.org/newjobs/68/review/){.http}
+3\. Review by clicking on the job ID, e.g. [http://www.python.org/newjobs/68/review/](http://www.python.org/newjobs/68/review/)
 
 4\. Add a note; see where it goes and whether an email is generated
 
-5\. Approve a job in [http://www.python.org/newjobs/review/](http://www.python.org/newjobs/review/){.http}; see whether an email is generated
+5\. Approve a job in [http://www.python.org/newjobs/review/](http://www.python.org/newjobs/review/); see whether an email is generated
 
-6\. Reject a job in [http://www.python.org/newjobs/review/](http://www.python.org/newjobs/review/){.http}; see whether an email is generated
-:::
+6\. Reject a job in [http://www.python.org/newjobs/review/](http://www.python.org/newjobs/review/); see whether an email is generated

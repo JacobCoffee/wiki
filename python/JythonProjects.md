@@ -1,11 +1,16 @@
 # JythonProjects
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 JythonProjects:
 
 Port IDLE to swing. IDLE is a very nice integrated developers environment. It would be great to have such a nice tool in jython.
 
-- Why not port Tk to Java, or adapt it to an existing [TkJava](./TkJava.html){.nonexistent} binding? Some Java programmers might appreciate it as well.
+- Why not port Tk to Java, or adapt it to an existing [TkJava](./TkJava.html) binding? Some Java programmers might appreciate it as well.
 
 ------------------------------------------------------------------------
 
@@ -22,4 +27,3 @@ A few OS X (or UNIX in general, I guess) Jython suggestions:
 ------------------------------------------------------------------------
 
 [CategoryJython](CategoryJython)
-:::

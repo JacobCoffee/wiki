@@ -1,15 +1,12 @@
 # PoiExample
 
-:::::::: {#content dir="ltr" lang="en"}
-# Apache Poi Examples {#Apache_Poi_Examples}
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: table-of-contents
-Contents
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-1.  [Apache Poi Examples](#Apache_Poi_Examples)
-    1.  1.  [Create Spreadsheet](#Create_Spreadsheet)
-        2.  [Read an Excel file](#Read_an_Excel_file)
-:::
+# Apache Poi Examples 
 
 back to [OtherExamples](OtherExamples)
 
@@ -17,15 +14,15 @@ back to [OtherExamples](OtherExamples)
 
 Below are a few Poi examples. These examples requires Apache Poi installed and on the classpath.
 
-### Create Spreadsheet {#Create_Spreadsheet}
+### Create Spreadsheet 
 
 This is from the Jython mailing list and was posted September 2007
 
-This is based on Java code at [http://officewriter.softartisans.com/OfficeWriter-306.aspx](http://officewriter.softartisans.com/OfficeWriter-306.aspx){.http} and converted to Jython by Alfonso Reyes
+This is based on Java code at [http://officewriter.softartisans.com/OfficeWriter-306.aspx](http://officewriter.softartisans.com/OfficeWriter-306.aspx) and converted to Jython by Alfonso Reyes
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-38e580b14c55bcef4ccea50be438250e24fd2399 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #jython poi example. from Jython mailing list
    2 
    3 from java.io import FileOutputStream
@@ -138,15 +135,15 @@ This is based on Java code at [http://officewriter.softartisans.com/OfficeWriter
 :::
 ::::
 
-### Read an Excel file {#Read_an_Excel_file}
+### Read an Excel file 
 
-Posted to the Jython-users mailing list by Alfonso Reyes on October 14, 2007 This Jython code will open and read an existant Excel file you can download the file at [http://www.nabble.com/file/p13199712/Book1.xls](http://www.nabble.com/file/p13199712/Book1.xls){.http}
+Posted to the Jython-users mailing list by Alfonso Reyes on October 14, 2007 This Jython code will open and read an existant Excel file you can download the file at [http://www.nabble.com/file/p13199712/Book1.xls](http://www.nabble.com/file/p13199712/Book1.xls)
 
 To do: - create the excel file if it doesn\'t exist - a nicer printing method - a method to print values or formulas in the cells
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-9792909940a007034a31f49b354b0738c38da6f1 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """    read.py
    2 Read an existant Excel file (Book1.xls) and show it on the screen
    3 """   
@@ -192,4 +189,3 @@ To do: - create the excel file if it doesn\'t exist - a nicer printing method - 
 ::::
 
 back to [OtherExamples](OtherExamples)
-::::::::

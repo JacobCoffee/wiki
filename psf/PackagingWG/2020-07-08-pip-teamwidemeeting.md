@@ -1,6 +1,11 @@
 # PackagingWG/2020-07-08-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Team Meeting - Wednesday 8th July
 
 Attendees:
@@ -24,7 +29,7 @@ Agenda:
       - on archiving: unblocked
 
   - Nicole:
-    - no blockers. status: need to make a PR for feature flag docs. Need to look into research question we will discuss later. If I have time this week, look into [https://github.com/pypa/pip/issues/8492](https://github.com/pypa/pip/issues/8492){.https}  to give user more info when they get ResolutionImpossible error. Would be nice to have that in by 20.2. But most importantly, don\'t make the new resolver default before this is sorted.
+    - no blockers. status: need to make a PR for feature flag docs. Need to look into research question we will discuss later. If I have time this week, look into [https://github.com/pypa/pip/issues/8492](https://github.com/pypa/pip/issues/8492)  to give user more info when they get ResolutionImpossible error. Would be nice to have that in by 20.2. But most importantly, don\'t make the new resolver default before this is sorted.
 
   - Ernest:
     - reviewing draft of mid-year writeup
@@ -38,11 +43,11 @@ Agenda:
       - Pradyun can review after meeting
     - I also need to finish test manual-style docs and start working on release blog post etc. for 20.2
 
-  - General: [https://twitter.com/skamille/status/1280640072719761419](https://twitter.com/skamille/status/1280640072719761419){.https}
+  - General: [https://twitter.com/skamille/status/1280640072719761419](https://twitter.com/skamille/status/1280640072719761419)
 - UX
   - UX research topics.
     - 4 \"epics\" identified:
-      - Carry out research to understand who uses pip #8518 (Bernard leading) [https://github.com/pypa/pip/issues/8518](https://github.com/pypa/pip/issues/8518){.https}
+      - Carry out research to understand who uses pip #8518 (Bernard leading) [https://github.com/pypa/pip/issues/8518](https://github.com/pypa/pip/issues/8518)
 
         - this is foundational to other questions \-- connected to the other parts
           - Pradyun: \*nods aggressively in agreement\*
@@ -59,23 +64,23 @@ Agenda:
                 - Pradyun: Discourse is the right place, but conversations there will diverge and derail quickly, so it\'s good to have a specific wording to prevent derails
                 - Georgia: makes sense. Let\'s draft something ahead of time and then have a more guided discussion. Like a survey but on Discourse. Some prompted questions.
 
-            - Nicole: would it be worth opening up [https://github.com/pypa/pip/issues/8520](https://github.com/pypa/pip/issues/8520){.https} - what do maintainers want to know about pip? on Discourse
+            - Nicole: would it be worth opening up [https://github.com/pypa/pip/issues/8520](https://github.com/pypa/pip/issues/8520) - what do maintainers want to know about pip? on Discourse
 
               - Sumana: sounds good to me.
               - Pradyun: yes-ish but not 100% sure about mixing the channels \-- no need to be discussing on Discourse.:)
               - Georgia: related to the discussion about discussions on Discourse 
               - Sumana: a better way to go about this would be to ask the discourse mods to lock the thread immediately \-- we only use it on Discourse, only to use d.p.o. for signal boosting
 
-      - Carry out research about pip documentation #8517 (Nicole leading) [https://github.com/pypa/pip/issues/8517](https://github.com/pypa/pip/issues/8517){.https}
+      - Carry out research about pip documentation #8517 (Nicole leading) [https://github.com/pypa/pip/issues/8517](https://github.com/pypa/pip/issues/8517)
 
         - Nicole: had a chat with a PhD candidate who may be able to help with the documentation epic - user research, data analysis. Have reached out to Daniele Procida, Django core team member who works on docs, to check whether he can review docs plan
           - \\o/
         - Sumana: any open questions?
         - Nicole: not at this stage.
 
-      - Carry out research to understand pip functionality #8516 (Nicole leading) [https://github.com/pypa/pip/issues/8516](https://github.com/pypa/pip/issues/8516){.https}
+      - Carry out research to understand pip functionality #8516 (Nicole leading) [https://github.com/pypa/pip/issues/8516](https://github.com/pypa/pip/issues/8516)
 
-      - Carry out research to understand pip in the package management ecosystem #8515 (Bernard leading) [https://github.com/pypa/pip/issues/8515](https://github.com/pypa/pip/issues/8515){.https}
+      - Carry out research to understand pip in the package management ecosystem #8515 (Bernard leading) [https://github.com/pypa/pip/issues/8515](https://github.com/pypa/pip/issues/8515)
 
         - Q: pip compared to tools in other ecosystems? or pip compared to other tools in the \*Python\* ecosystem?
 
@@ -91,14 +96,14 @@ Agenda:
         - Ernest: we field stuff about network connections to Warehouse. pip can get confused re corporate proxies, etc. \.... discussions have happened re network telemetry in the pip client to help troubleshooting
           - Ernest: there are a thousand exceptions tht can happen - TLS, DNS, certificates, timestamp \.... ultiimately problem: people get a traceback and not a message \"we tried to connect to Warehouse but we had invalid certificate\" - that would be a huge UX improvement. Could find GitHub issues where the issue was a corp proxy. Converting the \"Traceback\" into an error message \-- very hard
 
-            - Is this a place for better error messaging in pip? \-- answered already. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+            - Is this a place for better error messaging in pip? \-- answered already. ![:)](/wiki/europython/img/smile.png ":)")
 
             - Possible research question: How do other package managers deal with network funkiness/proxies? (prior research might be network redirect/portal capture pages)
 
         - Sumana: suggestions for resources for the packaging ecosystems \-- talking to people / reading docs etc:
-          - [https://manifest.fm/](https://manifest.fm/){.https} \-- the Manifest Podcast, a podcast about package management tools.
+          - [https://manifest.fm/](https://manifest.fm/) \-- the Manifest Podcast, a podcast about package management tools.
 
-          - [https://blog.tidelift.com/the-state-of-package-signing-across-package-managers](https://blog.tidelift.com/the-state-of-package-signing-across-package-managers){.https} - click around tags to explore for information/discussions about other package managers
+          - [https://blog.tidelift.com/the-state-of-package-signing-across-package-managers](https://blog.tidelift.com/the-state-of-package-signing-across-package-managers) - click around tags to explore for information/discussions about other package managers
 
         - Beyond comparisms with other tools \-- look into ecology of interfaces \-- what does pip draw from & live with?
 
@@ -108,7 +113,7 @@ Agenda:
             - Bernard: would like to discuss more later on
             - Georgia: relates to #8518 defining who pip users are
 
-      - [https://github.com/pypa/pip/issues/8520](https://github.com/pypa/pip/issues/8520){.https} - what do maintainers want to know about pip? will integrate into answers to other 4
+      - [https://github.com/pypa/pip/issues/8520](https://github.com/pypa/pip/issues/8520) - what do maintainers want to know about pip? will integrate into answers to other 4
 
       - 
 
@@ -120,7 +125,7 @@ Agenda:
       - Sumana: any other bits of the epic, that we could discuss in this call?
         - Question about personas, and how to perform / present the user research.
 - \* \* Problem - we need confirmation from the team that this research will be useful/actionable:
-  - please respond to [https://github.com/pypa/pip/issues/8520](https://github.com/pypa/pip/issues/8520){.https}
+  - please respond to [https://github.com/pypa/pip/issues/8520](https://github.com/pypa/pip/issues/8520)
 
     - Nicole: got a response from Pradyun and Paul on this.
       - TODO: Pradyun to drop an email to pip\'s maintainers.
@@ -169,7 +174,6 @@ Agenda:
 
   <!-- -->
 
-  - Can we have a date for [https://github.com/pypa/pip/issues/8546](https://github.com/pypa/pip/issues/8546){.https}?
+  - Can we have a date for [https://github.com/pypa/pip/issues/8546](https://github.com/pypa/pip/issues/8546)?
 
     - TODO: Nicole followup on ticket with Sumana & Pradyun
-:::

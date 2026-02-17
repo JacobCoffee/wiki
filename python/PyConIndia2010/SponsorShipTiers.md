@@ -1,7 +1,12 @@
 # PyConIndia2010/SponsorShipTiers
 
-::: {#content dir="ltr" lang="en"}
-# PyConIndia 2010 Sponsorship Prospectus {#PyConIndia_2010_Sponsorship_Prospectus}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PyConIndia 2010 Sponsorship Prospectus 
 
 The Indian Python Software Society(IPSS) and the [PyCon](PyCon) India organizing committee are happy to announce the second [PyCon](PyCon) India. The conference will be held at MSRIT, Bangalore on 25th and 26th September 2010.
 
@@ -13,13 +18,13 @@ The tiers and benefits are listed below. For more details, please contact
 
 - Name : Noufal Ibrahim
 
-- Email: [noufal@gmail.com](mailto:noufal@gmail.com){.mailto}
+- Email: [noufal@gmail.com](mailto:noufal@gmail.com)
 
 - Phone: +919880240460
 
-# Sponsorship Tiers {#Sponsorship_Tiers}
+# Sponsorship Tiers 
 
-## Platinum (1L) {#Platinum_.281L.29}
+## Platinum (1L) 
 
 - Name on Banner
 - Name on site
@@ -28,22 +33,21 @@ The tiers and benefits are listed below. For more details, please contact
 - Name on Swag bag
 - Prominent stall
 
-## Gold (50k) {#Gold_.2850k.29}
+## Gold (50k) 
 
 - Name on banner
 - Name on site
 - Name in brochure
 - Contact information of delegates (unless they\'ve opted out).
 
-## Silver (25k) {#Silver_.2825k.29}
+## Silver (25k) 
 
 - Name on banner
 - Name on site
 - Name in brochure
 
-PDF version to send to sponsors via. email : [Sponsorship brochure.pdf](attachments/PyConIndia2010(2f)SponsorShipTiers/Sponsorship%20brochure.pdf){.attachment}
+PDF version to send to sponsors via. email : [Sponsorship brochure.pdf](attachments/PyConIndia2010(2f)SponsorShipTiers/Sponsorship%20brochure.pdf)
 
 ------------------------------------------------------------------------
 
 [CategoryPyConIndia](CategoryPyConIndia)
-:::

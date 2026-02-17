@@ -1,6 +1,11 @@
 # OpenGL
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 OpenGL is a well-known library for displaying 2D and 3D graphics.
 
 On a Linux system, OpenGL is divided into a number of distinct libraries:
@@ -13,4 +18,3 @@ On a Linux system, OpenGL is divided into a number of distinct libraries:
 Because there are so many libraries, programming OpenGL is kind of a mess; one program may use constants and functions from several of the above libraries.
 
 The [PyOpenGL](PyOpenGL) library is the set of Python bindings for OpenGL.
-:::

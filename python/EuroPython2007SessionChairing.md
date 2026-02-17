@@ -1,9 +1,14 @@
 # EuroPython2007SessionChairing
 
-:::::: {#content dir="ltr" lang="en"}
-Rooms are identified by name. The more detailed timetable is at [http://www.europython.org/timetable](http://www.europython.org/timetable){.http}.
+```{admonition} Legacy Wiki Page
+:class: note
 
-# Day 1 {#Day_1}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Rooms are identified by name. The more detailed timetable is at [http://www.europython.org/timetable](http://www.europython.org/timetable).
+
+# Day 1 
 
 ::: {}
   ------------- -------------------------------- ------------ ------------- -----------
@@ -15,7 +20,7 @@ Rooms are identified by name. The more detailed timetable is at [http://www.euro
   ------------- -------------------------------- ------------ ------------- -----------
 :::
 
-# Day 2 {#Day_2}
+# Day 2 
 
 ::: {}
 +-------------+:---------:+:---------------------:+:----------------------:+:----------------------:+
@@ -31,7 +36,7 @@ Rooms are identified by name. The more detailed timetable is at [http://www.euro
 +-------------+-------------------------------------------------------------------------------------+
 :::
 
-# Day 3 {#Day_3}
+# Day 3 
 
 ::: {}
 +-------------+:-----------:+:-----------------------:+:----------:+:---------:+
@@ -46,4 +51,3 @@ Rooms are identified by name. The more detailed timetable is at [http://www.euro
 | PM2         | Lightning Talks                                                |
 +-------------+----------------------------------------------------------------+
 :::
-::::::

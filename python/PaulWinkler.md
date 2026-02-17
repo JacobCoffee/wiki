@@ -1,11 +1,15 @@
 # PaulWinkler
 
-::: {#content dir="ltr" lang="en"}
-[stuff@slinkp.com](mailto:stuff@slinkp.com){.mailto} - zope & python developer.
+```{admonition} Legacy Wiki Page
+:class: note
 
-here is a [TestWikiWordHello](./TestWikiWordHello.html){.nonexistent}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[stuff@slinkp.com](mailto:stuff@slinkp.com) - zope & python developer.
+
+here is a [TestWikiWordHello](./TestWikiWordHello.html)
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

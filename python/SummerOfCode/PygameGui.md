@@ -1,7 +1,12 @@
 # SummerOfCode/PygameGui
 
-::: {#content dir="ltr" lang="en"}
-# A Pygame GUI Toolkit. {#A_Pygame_GUI_Toolkit.}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# A Pygame GUI Toolkit. 
 
 **On second thoughts, this sort of project probably isn\'t needed, for many different reasons.** - [SimonWittber](SimonWittber)
 
@@ -23,9 +28,8 @@ It should also provide customisable layout managers for widget layout. Grid, Hor
 
 ------------------------------------------------------------------------
 
-## Some reasons why this proposal isn\'t needed: {#Some_reasons_why_this_proposal_isn.27t_needed:}
+## Some reasons why this proposal isn\'t needed: 
 
 - PGU is good enough for most people who want a Pygame GUI.
 - Most games / multimedia applications use custom GUI code.
 - IMO, the only part of a GUI toolkit which can be successfully genericised for these sorts of applications is the event loop and dispatch mechanism.
-:::

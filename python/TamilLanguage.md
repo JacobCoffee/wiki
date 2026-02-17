@@ -1,11 +1,16 @@
 # TamilLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Tamil
 
 ISO 639-1 Code: ta
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -27,11 +32,11 @@ Where these pages really need help:
 
 **தமிழ்**
 
-Words for code snippet from [masteranylanguage.com](http://www.masteranylanguage.com/cgi/f/rView.pl?pc=MALTamil&tc=Foods&vm=fc&sw=1&la=){.http}
+Words for code snippet from [masteranylanguage.com](http://www.masteranylanguage.com/cgi/f/rView.pl?pc=MALTamil&tc=Foods&vm=fc&sw=1&la=)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f9a536dd5071164262d806185fbc59dd107fe781 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # -*- coding: utf-8 -*-
    2 # python 3.0 or 3.1
    3 
@@ -65,15 +70,14 @@ Words for code snippet from [masteranylanguage.com](http://www.masteranylanguage
 :::
 ::::
 
-[http://ta.wikipedia.org/wiki/பைத்தான்](http://ta.wikipedia.org/wiki/பைத்தான்){.http} Wikipedia
+[http://ta.wikipedia.org/wiki/பைத்தான்](http://ta.wikipedia.org/wiki/பைத்தான்) Wikipedia
 
-[http://www.tamilnation.org/digital/tic_03/16_rganesh.pdf](http://www.tamilnation.org/digital/tic_03/16_rganesh.pdf){.http} Paper on Tamil version of Python (Pytham)
+[http://www.tamilnation.org/digital/tic_03/16_rganesh.pdf](http://www.tamilnation.org/digital/tic_03/16_rganesh.pdf) Paper on Tamil version of Python (Pytham)
 
-[download Python related scripts(?)](http://students.uta.edu/mx/mxa6471/download.html){.http}
+[download Python related scripts(?)](http://students.uta.edu/mx/mxa6471/download.html)
 
-[Pycon India 2009 TDD](http://www.slideshare.net/Siddhi/test-driven-development-with-python){.http} - has section on reversing Tamil string (Unicode behaves differently than ASCII)
+[Pycon India 2009 TDD](http://www.slideshare.net/Siddhi/test-driven-development-with-python) - has section on reversing Tamil string (Unicode behaves differently than ASCII)
 
-[Ubuntu forum](http://locoteam.ubuntuforums.org/showthread.php?t=884394&page=3){.http} - some code for detecting Tamil Unicode string.
+[Ubuntu forum](http://locoteam.ubuntuforums.org/showthread.php?t=884394&page=3) - some code for detecting Tamil Unicode string.
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode) [CategoryPyConIndia2009](CategoryPyConIndia2009)
-:::::

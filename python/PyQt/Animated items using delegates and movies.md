@@ -1,13 +1,18 @@
 # PyQt/Animated items using delegates and movies
 
-::::::::::::::::: {#content dir="ltr" lang="en"}
-# Animated items using delegates and movies {#Animated_items_using_delegates_and_movies}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Animated items using delegates and movies 
 
 This example shows how to use a custom delegate with an animation to indicate that an item is busy, or perhaps waiting for additional data.
 
-Example code: [movie_delegate.py](attachments/PyQt(2f)Animated(20)items(20)using(20)delegates(20)and(20)movies/movie_delegate.py){.attachment}
+Example code: [movie_delegate.py](attachments/PyQt(2f)Animated(20)items(20)using(20)delegates(20)and(20)movies/movie_delegate.py)
 
-## Outline {#Outline}
+## Outline 
 
 For convenience, we re-use QStandardItemModel and QStandardItem. Real world models may be completely implemented from scratch by subclassing QAbstractItemModel or one of its subclasses.
 
@@ -15,9 +20,9 @@ To produce busy items, we create QStandardItem instances, some of which we modif
 
 We subclass QStandardItemModel so that we can examine items as they are added to the model. We create timers for waiting items to simulate some delay in obtaining data, and we keep track of the associated items so that we can change their states when the timers elapse.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-e4ada601484ae1f9e15fa3e0a56a9013d5673cbf dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import random, sys
    2 from PyQt4.QtCore import pyqtSignal, QObject, Qt, QTimer, QVariant
    3 from PyQt4.QtGui import *
@@ -27,9 +32,9 @@ We subclass QStandardItemModel so that we can examine items as they are added to
 
 The delegate class uses a QMovie instance to generate images to display for waiting items. We create a custom signal, `needsRedraw`{.backtick}, that we emit every time the movie changes its current frame.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ef181928cfc5e5e6e531b5b43d98398090ea7f5a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 class Delegate(QItemDelegate):
    2 
    3     needsRedraw = pyqtSignal()
@@ -67,9 +72,9 @@ We reimplement the `paint()`{.backtick} method of the delegate, adjusting the re
 
 The customisations to the model class are minimal. We provide a custom signal, `finished`{.backtick}, so that we can inform other components when all waiting items have finished, and we keep a dictionary that maps timers to pending items.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2eeb2a04f595646b46011e52e15185eb7d908a01 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 class Model(QStandardItemModel):
    2 
    3     finished = pyqtSignal()
@@ -94,13 +99,13 @@ The customisations to the model class are minimal. We provide a custom signal, `
 :::
 ::::
 
-Reimplementing the `appendRow()`{.backtick} method, we create timers for items that are waiting (they have their [UserRole](./UserRole.html){.nonexistent} set to True), and store them in the `pendingItems`{.backtick} dictionary. Each timer\'s `timeout`{.backtick} signal is connected to the `checkPending()`{.backtick} slot.
+Reimplementing the `appendRow()`{.backtick} method, we create timers for items that are waiting (they have their [UserRole](./UserRole.html) set to True), and store them in the `pendingItems`{.backtick} dictionary. Each timer\'s `timeout`{.backtick} signal is connected to the `checkPending()`{.backtick} slot.
 
 This method simply retrieves the corresponding item for each timer and updates its state so that the delegate no longer shows it as a waiting item. It then deletes the dictionary entry (and the timer, since it is the dictionary key). If no items remain in the dictionary, we emit the `finished`{.backtick} signal.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3afe51478209683989beace769f2336f8c242782 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     def checkPending(self):
    2     
    3         # Check when items are updated so that we can emit the finished()
@@ -118,9 +123,9 @@ We might want to be more careful with items here. For example, we may need to de
 
 The creation of the model and items is as we described in the outline. We create a standard view and an instance of our custom model, which we populate with standard items, making sure to mark some of them as waiting items.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-acb8033c2fdbb2f1b12196ae092cebe32d0b0ec0 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 if __name__ == "__main__":
    2 
    3     random.seed()
@@ -142,11 +147,11 @@ The creation of the model and items is as we described in the outline. We create
 :::
 ::::
 
-The delegate is set up with an animation (see [animation.mng](attachments/PyQt(2f)Animated(20)items(20)using(20)delegates(20)and(20)movies/animation.mng){.attachment}) and its `needsRedraw`{.backtick} signal is connected to the `update()`{.backtick} slot of the view\'s viewport - using the view\'s `update()`{.backtick} slot is not sufficient, it seems. We start the movie.
+The delegate is set up with an animation (see [animation.mng](attachments/PyQt(2f)Animated(20)items(20)using(20)delegates(20)and(20)movies/animation.mng)) and its `needsRedraw`{.backtick} signal is connected to the `update()`{.backtick} slot of the view\'s viewport - using the view\'s `update()`{.backtick} slot is not sufficient, it seems. We start the movie.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-5ba9aecb9ba80070fa6e00b1bcbe124a8c9a985c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     delegate = Delegate(QMovie("animation.mng"))
    2     view.setItemDelegate(delegate)
    3     delegate.needsRedraw.connect(view.viewport().update)
@@ -162,16 +167,15 @@ We connect the model\'s `finished`{.backtick} slot to the delegate\'s `stopMovie
 
 Now we can show the view and start the event loop.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-e2aa23974b82306823037db47885f82b2c4a8149 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     view.show()
    2     sys.exit(app.exec_())
 ```
 :::
 ::::
 
-## Conclusions {#Conclusions}
+## Conclusions 
 
 This appears to work quite well, and it should be possible to write more abstract models that actually need to wait for data, but I\'m not satisfied with having lots of low-level connections between the components. Perhaps I\'ll apply the technique to a real world model and create a new example based on my experience.
-:::::::::::::::::

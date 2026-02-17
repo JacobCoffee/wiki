@@ -1,6 +1,11 @@
 # PackagingWG/2017-12-19-Warehouse
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Meeting: Tuesday, Dec. 19th Attendees:
 
 - Laura Hampton
@@ -11,9 +16,9 @@ Meeting: Tuesday, Dec. 19th Attendees:
 - Donald Stufft
 - Nicole Harris
 
-**I. Which of these issues ought to be in the Maintainer MVP milestone?** Maintainer MVP milestone: [https://github.com/pypa/warehouse/milestone/8](https://github.com/pypa/warehouse/milestone/8){.https} Probable:
+**I. Which of these issues ought to be in the Maintainer MVP milestone?** Maintainer MVP milestone: [https://github.com/pypa/warehouse/milestone/8](https://github.com/pypa/warehouse/milestone/8) Probable:
 
-- [https://github.com/pypa/warehouse/issues/424](https://github.com/pypa/warehouse/issues/424){.https} We need UI that will allow users to modify the project/release/files they register & upload to Warehouse.
+- [https://github.com/pypa/warehouse/issues/424](https://github.com/pypa/warehouse/issues/424) We need UI that will allow users to modify the project/release/files they register & upload to Warehouse.
 
   - Upload may be deprecated, but how should users modify?
 
@@ -33,36 +38,36 @@ Meeting: Tuesday, Dec. 19th Attendees:
 
     - TODO: Sumana & Donald to update per above
 
-- [https://github.com/pypa/warehouse/issues/423](https://github.com/pypa/warehouse/issues/423){.https} - Enable users to modify their own account
+- [https://github.com/pypa/warehouse/issues/423](https://github.com/pypa/warehouse/issues/423) - Enable users to modify their own account
 
   - *Resolution:* Ernest - absolutely MVP milestone
 
-  - Existing PR: [https://github.com/pypa/warehouse/pull/1847](https://github.com/pypa/warehouse/pull/1847){.https}
+  - Existing PR: [https://github.com/pypa/warehouse/pull/1847](https://github.com/pypa/warehouse/pull/1847)
 
     - TODO: Sumana to message contributor to say \.... \-- we have time to work on this, do you have time to update & rebase in the next few days?
 
   - Nicole: do we want to do dummy backend first? or backend first? if someone could create empty view with empty template in next few days, I have somewhere to put HTML, I could work on it
     - Dustin will provide this
 
-- [https://github.com/pypa/warehouse/issues/956](https://github.com/pypa/warehouse/issues/956){.https} UI for adding maintainers
+- [https://github.com/pypa/warehouse/issues/956](https://github.com/pypa/warehouse/issues/956) UI for adding maintainers
 
   - *Resolution:* Ernest - absolutely MVP milestone
 
-- [https://github.com/pypa/warehouse/issues/1228](https://github.com/pypa/warehouse/issues/1228){.https} Implement \"forgot password\" feature
+- [https://github.com/pypa/warehouse/issues/1228](https://github.com/pypa/warehouse/issues/1228) Implement \"forgot password\" feature
 
   - *Resolution:* Ernest - absolutely MVP milestone
 
-  - Existing PR: [https://github.com/pypa/warehouse/pull/1262](https://github.com/pypa/warehouse/pull/1262){.https}
+  - Existing PR: [https://github.com/pypa/warehouse/pull/1262](https://github.com/pypa/warehouse/pull/1262)
 
     - TODO: Sumana to message contributor to say \.... \-- we have time to work on this, do you have time to update & rebase in the next few days?
 
-- [https://github.com/pypa/warehouse/issues/2216](https://github.com/pypa/warehouse/issues/2216){.https} Classifiers in development DB are out of date
+- [https://github.com/pypa/warehouse/issues/2216](https://github.com/pypa/warehouse/issues/2216) Classifiers in development DB are out of date
 
   - Dustin - mild annoyance for users - consult Donald; issue is out of date
 
   - *Resolution:* push to later milestone
 
-- [https://github.com/pypa/warehouse/issues/2418](https://github.com/pypa/warehouse/issues/2418){.https} Blacklisting project does not purge the cache
+- [https://github.com/pypa/warehouse/issues/2418](https://github.com/pypa/warehouse/issues/2418) Blacklisting project does not purge the cache
 
   - Security implications?
 
@@ -72,7 +77,7 @@ Meeting: Tuesday, Dec. 19th Attendees:
 
 Also need to discuss (issues added during meeting):
 
-- [https://github.com/pypa/warehouse/issues/61](https://github.com/pypa/warehouse/issues/61){.https} OpenID Login/Google Login?
+- [https://github.com/pypa/warehouse/issues/61](https://github.com/pypa/warehouse/issues/61) OpenID Login/Google Login?
 
   - Ernest: Probably \_should\_ be available, but not \_strictly\_ necessary for Maintainer MVP
 
@@ -84,7 +89,7 @@ Also need to discuss (issues added during meeting):
 
   - Donald: TODO: Poke hornets nest on this (distutils-sig discussion)
 
-- [https://github.com/pypa/warehouse/issues/582](https://github.com/pypa/warehouse/issues/582){.https} Removal/Redirect \-- documentation uploaded to python-hosted
+- [https://github.com/pypa/warehouse/issues/582](https://github.com/pypa/warehouse/issues/582) Removal/Redirect \-- documentation uploaded to python-hosted
 
   - Explanation: you used to be able to upload a tarball we would extract & host on a path at pythonhosted and people used that as official hosting (some people)
 
@@ -98,48 +103,48 @@ Also need to discuss (issues added during meeting):
 
 Maybe:
 
-- [https://github.com/pypa/warehouse/issues/398](https://github.com/pypa/warehouse/issues/398){.https} Hook sessions into pyramid_tm to make them transactional
+- [https://github.com/pypa/warehouse/issues/398](https://github.com/pypa/warehouse/issues/398) Hook sessions into pyramid_tm to make them transactional
 
   - Ernest - this may done? Implementation detail.
 
   - *Resolution:* Donald - not an issue for the MVP milestone
 
-- [https://github.com/pypa/warehouse/issues/2144](https://github.com/pypa/warehouse/issues/2144){.https} import SCSS tools
+- [https://github.com/pypa/warehouse/issues/2144](https://github.com/pypa/warehouse/issues/2144) import SCSS tools
 
   - Ernest - consult Nicole
 
   - *Resolution:* Nicole: just a refactor, not for any milestone
 
-- [https://github.com/pypa/warehouse/issues/1919](https://github.com/pypa/warehouse/issues/1919){.https} functionality to rename a project
+- [https://github.com/pypa/warehouse/issues/1919](https://github.com/pypa/warehouse/issues/1919) functionality to rename a project
 
   - *Resolution:* Ernest: new feature! def not MVP/milestone1 likely an \"admin\" feature.
 
-- [https://github.com/pypa/warehouse/issues/472](https://github.com/pypa/warehouse/issues/472){.https} Handle Version Sorting *(or a related issue, or breaking out a sub-issue?)*
+- [https://github.com/pypa/warehouse/issues/472](https://github.com/pypa/warehouse/issues/472) Handle Version Sorting *(or a related issue, or breaking out a sub-issue?)*
 
-  - *Resolution:* Ernest: [https://github.com/pypa/warehouse/issues/472#issuecomment-295899658](https://github.com/pypa/warehouse/issues/472#issuecomment-295899658){.https} notes that this is not milestone1
+  - *Resolution:* Ernest: [https://github.com/pypa/warehouse/issues/472#issuecomment-295899658](https://github.com/pypa/warehouse/issues/472#issuecomment-295899658) notes that this is not milestone1
 
-- [https://github.com/pypa/warehouse/issues/1536](https://github.com/pypa/warehouse/issues/1536){.https} Tests depend on `manifest.json`{.backtick} existing
+- [https://github.com/pypa/warehouse/issues/1536](https://github.com/pypa/warehouse/issues/1536) Tests depend on `manifest.json`{.backtick} existing
 
   - *Resolution:* Dustin - not part of MVP milestone
 
-Sumana wonders whether previous decision was correct ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} :
+Sumana wonders whether previous decision was correct ![:)](/wiki/europython/img/smile.png ":)") :
 
-- [https://github.com/pypa/warehouse/issues/2486](https://github.com/pypa/warehouse/issues/2486){.https} File size limit error message should include size of the limit
+- [https://github.com/pypa/warehouse/issues/2486](https://github.com/pypa/warehouse/issues/2486) File size limit error message should include size of the limit
 
   - *Resolution:* Dustin - I think this can be included in the MVP
 
-  - Existing PR: [https://github.com/pypa/warehouse/pull/2487](https://github.com/pypa/warehouse/pull/2487){.https}
+  - Existing PR: [https://github.com/pypa/warehouse/pull/2487](https://github.com/pypa/warehouse/pull/2487)
 
-- [https://github.com/pypa/warehouse/issues/1322](https://github.com/pypa/warehouse/issues/1322){.https} Add roadmap to documentation - link to it from footer
+- [https://github.com/pypa/warehouse/issues/1322](https://github.com/pypa/warehouse/issues/1322) Add roadmap to documentation - link to it from footer
 
   - Donald - out of date one may be worse than none
   - Sumana - need roadmap only during project, and then remove?
     - *Resolution:* add to MVP milestone, remove in launch milestone
 
-- [https://github.com/pypa/warehouse/issues/2170](https://github.com/pypa/warehouse/issues/2170){.https} How to update the \"Description\" in pypi.org ?
+- [https://github.com/pypa/warehouse/issues/2170](https://github.com/pypa/warehouse/issues/2170) How to update the \"Description\" in pypi.org ?
 
   - Dustin - Likely not going to be supported
-    - Instead: staged releases [https://github.com/pypa/warehouse/issues/726](https://github.com/pypa/warehouse/issues/726){.https} , supporting Markdown [https://github.com/pypa/warehouse/issues/2206](https://github.com/pypa/warehouse/issues/2206){.https} , telling people to run `python setup.py check -r -s`{.backtick} first [https://github.com/pypa/python-packaging-user-guide/issues/210](https://github.com/pypa/python-packaging-user-guide/issues/210){.https}
+    - Instead: staged releases [https://github.com/pypa/warehouse/issues/726](https://github.com/pypa/warehouse/issues/726) , supporting Markdown [https://github.com/pypa/warehouse/issues/2206](https://github.com/pypa/warehouse/issues/2206) , telling people to run `python setup.py check -r -s`{.backtick} first [https://github.com/pypa/python-packaging-user-guide/issues/210](https://github.com/pypa/python-packaging-user-guide/issues/210)
 
   - Ernest - not part of MVP milestone
 
@@ -149,13 +154,13 @@ Sumana wonders whether previous decision was correct ![:)](/wiki/europython/img/
 
   - Ernest: Personally I\'m \_for\_ allowing description updates in a limited time period after release (1-2wks)
 
-  - *RESOLUTION:* say: we\'re not going to do this right now, but let\'s discuss on distutils-sig (this is now at [https://mail.python.org/pipermail/distutils-sig/2017-December/031826.html](https://mail.python.org/pipermail/distutils-sig/2017-December/031826.html){.https} )
+  - *RESOLUTION:* say: we\'re not going to do this right now, but let\'s discuss on distutils-sig (this is now at [https://mail.python.org/pipermail/distutils-sig/2017-December/031826.html](https://mail.python.org/pipermail/distutils-sig/2017-December/031826.html) )
 
     - TODO: Donald to WONTFIX
 
-- [https://github.com/pypa/warehouse/issues/789](https://github.com/pypa/warehouse/issues/789){.https} Dependency and Reverse Dependency
+- [https://github.com/pypa/warehouse/issues/789](https://github.com/pypa/warehouse/issues/789) Dependency and Reverse Dependency
 
-  - *Resolution:* Ernest: Definitely not MVP/milestone1, this is a new feature ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+  - *Resolution:* Ernest: Definitely not MVP/milestone1, this is a new feature ![:)](/wiki/europython/img/smile.png ":)")
 
 **II. Discuss schedule and decide: what is our tentative deadline for the first milestone?** Assignments - what\'s on whose plate?
 
@@ -165,9 +170,9 @@ Sumana wonders whether previous decision was correct ![:)](/wiki/europython/img/
 - Ernest:
   - Ernest: Deprecation/Password warning on Google/OpenID Login for pypi-legacy
 
-  - Ernest: [https://github.com/pypa/warehouse/issues/582](https://github.com/pypa/warehouse/issues/582){.https} notes on delete/redirect for pythonhosted
+  - Ernest: [https://github.com/pypa/warehouse/issues/582](https://github.com/pypa/warehouse/issues/582) notes on delete/redirect for pythonhosted
 
-  - Ernest: Ping E. Holscher on [https://github.com/pypa/warehouse/issues/582](https://github.com/pypa/warehouse/issues/582){.https}
+  - Ernest: Ping E. Holscher on [https://github.com/pypa/warehouse/issues/582](https://github.com/pypa/warehouse/issues/582)
 
   - Ernest: Continuing to push platform/foundation for kuberenetes deploy - Hope to have this done and move onto actual warehouse things by EOW
 
@@ -179,9 +184,8 @@ Sumana wonders whether previous decision was correct ![:)](/wiki/europython/img/
 
 - Sumana & Laura:
 
-  - turn notes from this meeting into [GitHub](./GitHub.html){.nonexistent} updates, solidify Milestone 1
+  - turn notes from this meeting into [GitHub](./GitHub.html) updates, solidify Milestone 1
 
-Deferred till after [GitHub](./GitHub.html){.nonexistent} updates:
+Deferred till after [GitHub](./GitHub.html) updates:
 
 - Figure out hours estimates for these issues and delivery date range
-:::

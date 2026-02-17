@@ -1,15 +1,19 @@
 # HilfeVorlage
 
-::: {#content dir="ltr" lang="de"}
-## Vorlage für Hilfe-Seiten {#Vorlage_f.2BAPw-r_Hilfe-Seiten}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Vorlage für Hilfe-Seiten 
 
 Text.
 
-### Beispiel {#Beispiel}
+### Beispiel 
 
     xxx
 
-### Anzeige {#Anzeige}
+### Anzeige 
 
 xxx
-:::

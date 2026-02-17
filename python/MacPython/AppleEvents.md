@@ -1,7 +1,11 @@
 # MacPython/AppleEvents
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 AppleEvents are a kind of RPC used to pass around \"serialized objects\". Typically AppleEvents are passed around between processes on the same machine, but the mechanisms exist to do it over a network (but are turned off by default in OS X for security reasons). These serialized objects have a target (a process id, basically), a command (get, set, play track, quit, open, new, etc), and arguments to a command. The target (or runtime) will pass back a serialized object (an error, list, nothing, integer, string, reference, etc) as a result. All of this is strongly typed and is essentially stored in tuples of `(FourCharacterCode, somebytes)`, where [../FourCharacterCode](./MacPython(2f)FourCharacterCode.html) is the run time type information. In the Apple world, it\'s extremely common to see [../FourCharacterCode](./MacPython(2f)FourCharacterCode.html) used for enumerated constants such as [../AEDesc](./MacPython(2f)AEDesc.html) type codes or application signatures. The kind of objects you can pass around are pretty rich, and are a mix of value objects (strings, integers, lists, etc) and reference objects (`the desktop` \-- a property reference of the Application subclass if you happen to be dispatching AppleEvents to Finder).
 
 AppleEvents are not particularly human readable, but [../AppleScript](./MacPython(2f)AppleScript.html) is. It is highly likely that an application that has worthwhile scripting support has a \"terminology\" resource, which is sort of like a C header file full of `#define`\'s. They map human-readable names and documentation (including additional type information) to four character codes, but there is no guarantee that the terminology is actually correct (though they often are). These terminologies and an extremely simple runtime are basically what [../AppleScript](./MacPython(2f)AppleScript.html) is, and the three high level Apple Event wrappers for Python (../gensuitemodule, [../AppscriptModule](./MacPython(2f)AppscriptModule.html), [../aeve](./MacPython(2f)aeve.html)) consist primarily of code that tries to locate, decode, and translate these terminologies into something that can be easily used from Python. Fortunately, all this said, you probably don\'t need to know much of anything about AppleEvents to take advantage of them as a client of scriptable applications.
-:::

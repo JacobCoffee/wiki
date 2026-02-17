@@ -1,7 +1,12 @@
 # JythonDeveloperGuide/PortingPythonModulesToJython
 
-:::: {#content dir="ltr" lang="en"}
-Porting an existing Python module written in C into Java that Jython understands is a pretty straightforward task so it can serve as a good introduction to the Jython codebase. I\'m going to explain how to go about porting the [csv](http://www.python.org/doc/2.3.5/lib/module-csv.html){.http} module here.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Porting an existing Python module written in C into Java that Jython understands is a pretty straightforward task so it can serve as a good introduction to the Jython codebase. I\'m going to explain how to go about porting the [csv](http://www.python.org/doc/2.3.5/lib/module-csv.html) module here.
 
 1.  Declare your intention to implement the csv module on the Jython dev list so no one else starts working on it.
 
@@ -13,7 +18,7 @@ Porting an existing Python module written in C into Java that Jython understands
 
 5.  Keep adding pieces to \_csv.java till the tests pass
 
-6.  Submit a patch to the [tracker](http://www.jython.org/patches){.http}.
+6.  Submit a patch to the [tracker](http://www.jython.org/patches).
 
 7.  Revel in the glory of another implemented module
 
@@ -30,7 +35,7 @@ The table below contains modules implemented in C in Python that are missing in 
   ------------- ------- -------------------------------------
 :::
 
-## Comments {#Comments}
+## Comments 
 
 **Why have you called the Java file \_csv.java instead of just csv.java? Is there a convention here and if so, why don\'t all the classes follow the same convention.**
 
@@ -43,4 +48,3 @@ Long answer: Hmmm. Will have to swat up on CPython\'s module naming conventions 
 **Will the `test_csv.py`{.backtick} file automatically appear after a build or do we have to implement this ourself?**
 
 *pdrummond*: `test_csv.py`{.backtick} will appear auto-magically after a build in `dist/Lib/test`{.backtick} (at least, it will in the 2.3 branch) and it is a CPython test script.
-::::

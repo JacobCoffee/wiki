@@ -1,11 +1,16 @@
 # KonkaniLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Describe Konkani कोंकणी and include links to Python information in कोंकणी Language here.
 
 ISO 639-2 Code: kok
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -25,11 +30,11 @@ Where these pages really need help:
 
 **कोंकणी**
 
-Words for code snippet from [savemylangugae.org](http://www.savemylanguage.org/konkani/englishtokonkani.php){.http}
+Words for code snippet from [savemylangugae.org](http://www.savemylanguage.org/konkani/englishtokonkani.php)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-271a90a595d38d5b1bc38b93ae40b9822c28ae1f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # -*- coding: utf-8 -*-
    2 # python 3.0 or 3.1
    3 
@@ -49,4 +54,3 @@ Words for code snippet from [savemylangugae.org](http://www.savemylanguage.org/k
 ------------------------------------------------------------------------
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode) [CategoryPythonIndia](CategoryPythonIndia)
-:::::

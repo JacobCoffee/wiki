@@ -1,18 +1,23 @@
 # PythonCdFun
 
-::: {#content dir="ltr" lang="en"}
-# Movies {#Movies}
+```{admonition} Legacy Wiki Page
+:class: note
 
-- [Introducing Python (big version, not on CD)](http:docs/movies/IntroducingPython.mpg){.http} **mpeg**
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- [Introducing Python (small version)](http:docs/movies/IntroducingPython.mov){.http} **Quicktime .mov**
+# Movies 
 
-- [Python Yoda](http:docs/movies/yoda_python.avi){.http} **avi**
+- [Introducing Python (big version, not on CD)](http:docs/movies/IntroducingPython.mpg) **mpeg**
 
-This seems to be the original source for Yoda on Python: [http://www.python.org/doc/humor/#python-vs-perl-according-to-yoda](http://www.python.org/doc/humor/#python-vs-perl-according-to-yoda){.http}
+- [Introducing Python (small version)](http:docs/movies/IntroducingPython.mov) **Quicktime .mov**
+
+- [Python Yoda](http:docs/movies/yoda_python.avi) **avi**
+
+This seems to be the original source for Yoda on Python: [http://www.python.org/doc/humor/#python-vs-perl-according-to-yoda](http://www.python.org/doc/humor/#python-vs-perl-according-to-yoda)
 
 **A morality tale of Perl versus Python**\
-**rec.humor.funny - 3 Nov 1999 by [funkster@midwinter.com](mailto:funkster@midwinter.com){.mailto}**
+**rec.humor.funny - 3 Nov 1999 by [funkster@midwinter.com](mailto:funkster@midwinter.com)**
 
 EXTERIOR: DAGOBAH\--DAY
 :   With Yoda strapped to his back, Luke climbs up one of the many thick vines that grow in the swamp until he reaches the Dagobah statistics lab. Panting heavily, he continues his exercises\--grepping, installing new packages, logging in as root, and writing replacements for two-year-old shell scripts in Python.
@@ -31,4 +36,3 @@ LUKE
 
 YODA
 :   You will know. When your code you try to read six months from now.
-:::

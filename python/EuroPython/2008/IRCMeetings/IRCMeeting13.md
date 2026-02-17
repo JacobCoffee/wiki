@@ -1,21 +1,26 @@
 # EuroPython/2008/IRCMeetings/IRCMeeting13
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #13 {#IRC_Meeting_.2313}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# IRC Meeting #13 
 
 (Actually, this is more like meeting #14 or #15, but we kept the agenda from meeting #12 for two or three weeks.)
 
-## Time/Location {#Time.2FLocation}
+## Time/Location 
 
 The meeting will take place in the #europython channel on freenode at 18:00 CEST on Thursday 29th May.
 
 Please look at the minutes from the last meeting for more background information: [../IRCMeeting12](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting12.html)
 
-## Present {#Present}
+## Present 
 
 Laura, Stephan, Jacob, John, Aiste, David, Harald
 
-## Agenda/Minutes {#Agenda.2FMinutes}
+## Agenda/Minutes 
 
 - Registration/Budget - status as early registration end approaches
   - **We\'re close to the early bird deadline, so we need to remind people to register.**
@@ -46,7 +51,7 @@ Laura, Stephan, Jacob, John, Aiste, David, Harald
     - **We\'ll try to approach Sun, Canonical and possibly Opera.**
   - Further discussion of the sponsorship of attendees (plus any information that should be published).
 
-- T-shirts (as noted on [this page](http://www.europython.org/community/T-Shirts){.http})
+- T-shirts (as noted on [this page](http://www.europython.org/community/T-Shirts))
 
   - **Aiste will start the process of producing T-shirts.**
 
@@ -63,7 +68,6 @@ Laura, Stephan, Jacob, John, Aiste, David, Harald
 
   - **Food for sprints will be ordered after the conference starts.**
 
-## Actions {#Actions}
+## Actions 
 
 - See the bold sections above\...
-:::

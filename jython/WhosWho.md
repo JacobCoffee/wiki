@@ -1,6 +1,11 @@
 # WhosWho
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 For now, refer to [WhosDoingWhat](WhosDoingWhat).
 
 Jython Mailing List Roll Call (temp until we can decide a good home for this):
@@ -23,13 +28,12 @@ Python as a language is great\...but cpython is very hard to push in a corporate
 
 **What I am interested in:** - More frequent releases - Plan, with reasonable but hopefully better-defined timeline (instead of just \"soon\", although admittedly \"soon\" is much better than \"it\'s ready when it\'s ready\"). - Dissemination of Jython knowledge
 
-**Where I think i can help (at the moment):** - Adding more proper documentation to Java classes - Continuous integration, if the Jython lead deems it necessary\--I\'ve got quite an experience setting up and maintaining [CruiseControl](./CruiseControl.html){.nonexistent} - Testing Jython releases
+**Where I think i can help (at the moment):** - Adding more proper documentation to Java classes - Continuous integration, if the Jython lead deems it necessary\--I\'ve got quite an experience setting up and maintaining [CruiseControl](./CruiseControl.html) - Testing Jython releases
 
 **Why I like jython:**
 
-I love Python. My company use Java ![:)](/wiki/modernized/img/smile.png ":)"){height="16" width="16"}
+I love Python. My company use Java ![:)](/wiki/modernized/img/smile.png ":)")
 
-The fact is, I\'m lazy. I don\'t want to learn [BeanShell](./BeanShell.html){.nonexistent} just for the sake of using [BeanShell](./BeanShell.html){.nonexistent}. I don\'t want to learn Groovy just for the sake of using Groovy. I like Jython, however, because most of what I learn while using Jython transfers to CPython, which is pretty much a write once run anywhere language. My fluency in the language transfers to even to .NET with [IronPython](./IronPython.html){.nonexistent}.
+The fact is, I\'m lazy. I don\'t want to learn [BeanShell](./BeanShell.html) just for the sake of using [BeanShell](./BeanShell.html). I don\'t want to learn Groovy just for the sake of using Groovy. I like Jython, however, because most of what I learn while using Jython transfers to CPython, which is pretty much a write once run anywhere language. My fluency in the language transfers to even to .NET with [IronPython](./IronPython.html).
 
-It pains me to see that Jython is relegated into a background role, with [BeanShell](./BeanShell.html){.nonexistent} and Groovy taking the spotlights, especially with the advent of javax.script. If we miss this window of opportunity with Mustang, it will be a \"negative pulse\", i.e.: \"The Pulse of Death\" we\'re sending to the world regarding Jython\'s well being. (People will go like, \"See? Jython is dead, man.\". etc.)
-:::
+It pains me to see that Jython is relegated into a background role, with [BeanShell](./BeanShell.html) and Groovy taking the spotlights, especially with the advent of javax.script. If we miss this window of opportunity with Mustang, it will be a \"negative pulse\", i.e.: \"The Pulse of Death\" we\'re sending to the world regarding Jython\'s well being. (People will go like, \"See? Jython is dead, man.\". etc.)

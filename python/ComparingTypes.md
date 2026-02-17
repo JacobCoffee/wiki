@@ -1,6 +1,11 @@
 # ComparingTypes
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 - Shows common types/objects from other languages and suggests a suitable python type/object.
 
 These two tables to show some *comparable* collection types when transfering from another language to python. It gives you a good place to look if nothing else.
@@ -34,9 +39,8 @@ And conversly if you were to try and replace something in python you can use the
 - ::: {}
     ------------- --------- ----------------------------------------------------------------- ------- ------
     python        php       Java                                                              C/C++   perl
-    list          array\*   java.util.[ArrayList](./ArrayList.html){.nonexistent}\<Object\>   array   ?
-    dictionary    array     [HashMap](./HashMap.html){.nonexistent}\<Object,Object\>          Map     ?
+    list          array\*   java.util.[ArrayList](./ArrayList.html)\<Object\>   array   ?
+    dictionary    array     [HashMap](./HashMap.html)\<Object,Object\>          Map     ?
     array.array   ?         array                                                             array   ?
     ------------- --------- ----------------------------------------------------------------- ------- ------
   :::
-:::::

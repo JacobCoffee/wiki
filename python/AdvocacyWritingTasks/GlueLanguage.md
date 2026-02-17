@@ -1,9 +1,14 @@
 # AdvocacyWritingTasks/GlueLanguage
 
-::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Python as a Glue Language
 
-::: {#introduction .section}
+::: 
 ### Introduction
 
 The Python® language interpreter can be used as a glue language to connect software components. Components can then be manipulated by Python scripts and combined in new ways.
@@ -17,13 +22,13 @@ What can you do with scripting access to an existing system?
 - Use external libraries for performance or features
 :::
 
-::: {#c-c-systems .section}
+::: 
 ### C/C++ Systems
 
-The most widely used Python interpreter is the C implementation available from [http://www.python.org/](http://www.python.org/){.http .reference .external} and included in Mac OS X® and many Linux distributions. A Microsoft Windows® version is available from [http://www.python.org/](http://www.python.org/){.http .reference .external}. There are a variety of tools to interface between Python and C code.
+The most widely used Python interpreter is the C implementation available from [http://www.python.org/](http://www.python.org/) and included in Mac OS X® and many Linux distributions. A Microsoft Windows® version is available from [http://www.python.org/](http://www.python.org/). There are a variety of tools to interface between Python and C code.
 :::
 
-::: {#ctypes .section}
+::: 
 ### ctypes
 
 The ctypes package is a foreign-function interface included with Python 2.5 and later versions that can load shared libraries (.dylib files on MacOS X, .so files on Linux, DLLs on Windows) and call arbitrary library functions.
@@ -47,15 +52,15 @@ The following example from the pyglet multimedia library uses ctypes to wrap som
     XSetAfterFunction.restype = POINTER(CFUNCTYPE(c_int, POINTER(Display)))
     XSetAfterFunction.argtypes = [POINTER(Display), CFUNCTYPE(c_int, POINTER(Display))]
 
-For more information about ctypes, refer to the ctypes section in the Python documentation ([2.5 version](http://docs.python.org/lib/module-ctypes.html){.http .reference .external}).
+For more information about ctypes, refer to the ctypes section in the Python documentation ([2.5 version](http://docs.python.org/lib/module-ctypes.html)).
 :::
 
-::: {#pyrex .section}
+::: 
 ### Pyrex
 
-Pyrex ([http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/](http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/){.http .reference .external}) is a compiler that translates a Python-like language into C code for an extension module.
+Pyrex ([http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/](http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/)) is a compiler that translates a Python-like language into C code for an extension module.
 
-The following example is taken from the Pyrex wrapper for libxel ([https://gna.org/projects/libxel](https://gna.org/projects/libxel){.https .reference .external}), an event logging library:
+The following example is taken from the Pyrex wrapper for libxel ([https://gna.org/projects/libxel](https://gna.org/projects/libxel)), an event logging library:
 
     cdef extern from "xel/xel.h":
       int   xelInit(char *)
@@ -91,12 +96,12 @@ The following example is taken from the Pyrex wrapper for libxel ([https://gna.o
           xelEnd()
 :::
 
-::: {#swig-for-c-c-libraries-across-languages .section}
+::: 
 ### SWIG for C/C++ libraries across languages
 
-SWIG, the Simple Wrapper Interface Generator ([http://www.swig.org/](http://www.swig.org/){.http .reference .external}), parses C/C++ header files and custom interface descriptions, generating C code for an extension wrapping the C functions and data types. SWIG can use the same input to generate wrappers for several different language environments; supported languages other than Python include Perl, Tcl, Ruby, PHP, Java, and Common Lisp.
+SWIG, the Simple Wrapper Interface Generator ([http://www.swig.org/](http://www.swig.org/)), parses C/C++ header files and custom interface descriptions, generating C code for an extension wrapping the C functions and data types. SWIG can use the same input to generate wrappers for several different language environments; supported languages other than Python include Perl, Tcl, Ruby, PHP, Java, and Common Lisp.
 
-The following partial examples were taken from the SWIG bindings for the Subversion version control system ([http://subversion.tigris.org/](http://subversion.tigris.org/){.http .reference .external}):
+The following partial examples were taken from the SWIG bindings for the Subversion version control system ([http://subversion.tigris.org/](http://subversion.tigris.org/)):
 
     %include svn_global.swg
 
@@ -131,12 +136,12 @@ The following partial examples were taken from the SWIG bindings for the Subvers
     void apr_pool_clear(apr_pool_t *p);
 :::
 
-::: {#boost-python-for-c-libraries .section}
+::: 
 ### Boost.Python for C++ libraries
 
-Boost.Python ([http://www.boost.org/libs/python/doc/](http://www.boost.org/libs/python/doc/){.http .reference .external}) is a framework for wrapping C++ classes and functions as Python extensions without requiring any modifications to the original C++ code or headers.
+Boost.Python ([http://www.boost.org/libs/python/doc/](http://www.boost.org/libs/python/doc/)) is a framework for wrapping C++ classes and functions as Python extensions without requiring any modifications to the original C++ code or headers.
 
-The following example, taken from the pyactivemq project ([http://code.google.com/p/pyactivemq/](http://code.google.com/p/pyactivemq/){.http .reference .external}), wraps the `Message` class from the ActiveMQ-CPP library:
+The following example, taken from the pyactivemq project ([http://code.google.com/p/pyactivemq/](http://code.google.com/p/pyactivemq/)), wraps the `Message` class from the ActiveMQ-CPP library:
 
     #include <boost/python.hpp>
     #include <cms/Message.h>
@@ -173,10 +178,10 @@ The following example, taken from the pyactivemq project ([http://code.google.co
 This wrapper can be compiled using the Boost tools to produce a shared library that Python can import and use as a module.
 :::
 
-::: {#sip-for-c-libraries .section}
+::: 
 ### SIP for C++ libraries
 
-SIP ([http://www.riverbankcomputing.co.uk/sip/](http://www.riverbankcomputing.co.uk/sip/){.http .reference .external}) parses interface specifications to create Python bindings for C and C++ libraries. Originally written for wrapping the Qt® libraries from Trolltech®, SIP is now used for other projects as well.
+SIP ([http://www.riverbankcomputing.co.uk/sip/](http://www.riverbankcomputing.co.uk/sip/)) parses interface specifications to create Python bindings for C and C++ libraries. Originally written for wrapping the Qt® libraries from Trolltech®, SIP is now used for other projects as well.
 
 The following SIP example wraps a C++ class called `Word`, making the class constructor and the `reverse()` method available as a Python module called `word`.
 
@@ -197,7 +202,7 @@ The following SIP example wraps a C++ class called `Word`, making the class cons
     };
 :::
 
-::: {#python-s-c-api .section}
+::: 
 ### Python\'s C API
 
 The Python interpreter has a documented C API for writing extension modules. Writing simple wrappers atop a C library is a straightforward task
@@ -224,14 +229,14 @@ The following example from Python\'s source code wraps the `is_term_resized()` f
     }
 :::
 
-::: {#embedding-python .section}
+::: 
 ### Embedding Python
 
 The most common approach for integrating Python into a system is to write extension modules that can then be used by Python scripts. In this approach, the Python interpreter is the top-level component, the one that controls the overall logic of the application.
 
 It\'s also possible to embed Python within an application, leaving the application as the top level and calling Python functions or executing strings containing code as required by the application. For example, Vim uses Python as a scripting language.
 
-The following example is taken from the \"Extending and Embedding the Python Interpreter\", part of Python\'s documentation set ([http://docs.python.org/ext/](http://docs.python.org/ext/){.http .reference .external}). The example takes the filename of a Python file, a function name, and optional string arguments, and calls the function passing the provided arguments.
+The following example is taken from the \"Extending and Embedding the Python Interpreter\", part of Python\'s documentation set ([http://docs.python.org/ext/](http://docs.python.org/ext/)). The example takes the filename of a Python file, a function name, and optional string arguments, and calls the function passing the provided arguments.
 
     #include <Python.h>
 
@@ -304,12 +309,12 @@ The following example is taken from the \"Extending and Embedding the Python Int
     }
 :::
 
-::: {#jython-for-java-components .section}
+::: 
 ### Jython for Java Components
 
-For systems written in Java蒂, Jython ([http://www.jython.org/](http://www.jython.org/){.http .reference .external}) is an implementation of Python written in pure Java that provides automatic access to Java classes from both scripts and an interactive prompt.
+For systems written in Java蒂, Jython ([http://www.jython.org/](http://www.jython.org/)) is an implementation of Python written in pure Java that provides automatic access to Java classes from both scripts and an interactive prompt.
 
-The following small script demonstrates using Swing from Jython, and is taken from the first chapter of \"Jython Essentials\" by Samuele Pedroni and Noel Rappin, published by O\'Reilly & Associates ([http://www.oreilly.com/catalog/jythoness/](http://www.oreilly.com/catalog/jythoness/){.http .reference .external}):
+The following small script demonstrates using Swing from Jython, and is taken from the first chapter of \"Jython Essentials\" by Samuele Pedroni and Noel Rappin, published by O\'Reilly & Associates ([http://www.oreilly.com/catalog/jythoness/](http://www.oreilly.com/catalog/jythoness/)):
 
     import java.lang as lang
     import javax.swing as swing
@@ -342,12 +347,12 @@ The following small script demonstrates using Swing from Jython, and is taken fr
     win.show()
 :::
 
-::: {#ironpython-for-clr-components .section}
+::: 
 ### IronPython for CLR Components
 
-IronPython, an implementation of Python written in C#, provides automatic access to CLR/.NET assemblies. IronPython runs on both Microsoft® .NET and on Novell® Mono. The IronPython web site is at [http://www.codeplex.com/Wiki/View.aspx?ProjectName=IronPython](http://www.codeplex.com/Wiki/View.aspx?ProjectName=IronPython){.http .reference .external}.
+IronPython, an implementation of Python written in C#, provides automatic access to CLR/.NET assemblies. IronPython runs on both Microsoft® .NET and on Novell® Mono. The IronPython web site is at [http://www.codeplex.com/Wiki/View.aspx?ProjectName=IronPython](http://www.codeplex.com/Wiki/View.aspx?ProjectName=IronPython).
 
-The following small script demonstrates using the Windows Forms API from IronPython, and is taken from Michael Foord\'s IronPython/Windows Forms tutorial at \<[http://www.voidspace.org.uk/ironpython/winforms/index.shtml](http://www.voidspace.org.uk/ironpython/winforms/index.shtml){.http .reference .external}\>:
+The following small script demonstrates using the Windows Forms API from IronPython, and is taken from Michael Foord\'s IronPython/Windows Forms tutorial at \<[http://www.voidspace.org.uk/ironpython/winforms/index.shtml](http://www.voidspace.org.uk/ironpython/winforms/index.shtml)\>:
 
     import sys
     sys.path.append(r'C:\Python24\Lib')
@@ -389,7 +394,7 @@ The following small script demonstrates using the Windows Forms API from IronPyt
     Application.Run(form)
 :::
 
-::: {#legal .section}
+::: 
 ### Legal
 
 Python is a registered trademark of the Python Software Foundation.
@@ -408,4 +413,3 @@ Tcl
 
 Windows is a registered trademark of Microsoft Corporation in the United States and other countries.
 :::
-:::::::::::::::

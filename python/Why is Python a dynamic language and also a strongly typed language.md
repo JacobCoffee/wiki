@@ -1,6 +1,11 @@
 # Why is Python a dynamic language and also a strongly typed language
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 SEE: **[Ten things people want to know about Python](./Ten(20)things(20)people(20)want(20)to(20)know(20)about(20)Python.html)** for more details.
 
 Answer
@@ -13,7 +18,7 @@ Another answer:
 
 And another one:
 
-- In a weakly typed language a compiler / interpreter will sometimes change the type of a variable. For example, in some languages (like [JavaScript](./JavaScript.html){.nonexistent}) you can add strings to numbers `'x' + 3`{.backtick} becomes `'x3'`{.backtick}. This can be a problem because if you have made a mistake in your program, instead of raising an exception execution will continue but your variables now have wrong and unexpected values. In a strongly typed language (like Python) you can\'t perform operations inappropriate to the type of the object - attempting to add numbers to strings will fail. Problems like these are easier to diagnose because the exception is raised at the point where the error occurs rather than at some other, potentially far removed, place.
+- In a weakly typed language a compiler / interpreter will sometimes change the type of a variable. For example, in some languages (like [JavaScript](./JavaScript.html)) you can add strings to numbers `'x' + 3`{.backtick} becomes `'x3'`{.backtick}. This can be a problem because if you have made a mistake in your program, instead of raising an exception execution will continue but your variables now have wrong and unexpected values. In a strongly typed language (like Python) you can\'t perform operations inappropriate to the type of the object - attempting to add numbers to strings will fail. Problems like these are easier to diagnose because the exception is raised at the point where the error occurs rather than at some other, potentially far removed, place.
 
 - In a statically typed language, the type of variables must be known (and usually declared) at the point at which it is used. Attempting to use it will be an error. In a dynamically typed language, objects still have a type, but it is determined at runtime. You are free to bind names (variables) to different objects with a different type. So long as you only perform operations valid for the type the interpreter doesn\'t care what type they actually are.
 
@@ -25,5 +30,4 @@ And another:
 
 Real Life Example:
 
-This author ([SkipMontanaro](SkipMontanaro)) used to operate a now defunct concert calendar website. The backend was implemented in Python, but the front end was implemented in [Mason](http://www.masonhq.com){.http}, a Perl-based web application platform. One bug which took awhile to figure out was why entering concert dates for the band \"311\" failed. Python was seeing an int instead of a string. It turns out somewhere in the Perl or Mason frontend \"311\" was being converted into an integer.
-:::
+This author ([SkipMontanaro](SkipMontanaro)) used to operate a now defunct concert calendar website. The backend was implemented in Python, but the front end was implemented in [Mason](http://www.masonhq.com), a Perl-based web application platform. One bug which took awhile to figure out was why entering concert dates for the band \"311\" failed. Python was seeing an int instead of a string. It turns out somewhere in the Perl or Mason frontend \"311\" was being converted into an integer.

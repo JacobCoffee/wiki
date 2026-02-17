@@ -1,9 +1,14 @@
 # Email SIG/DesignThoughts
 
-::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Design Thoughts
 
-::: {#guiding-thoughts .section}
+::: 
 ### Guiding Thoughts
 
 - To decide what to do with broken email we need to decide:
@@ -17,7 +22,7 @@
 - A more property based API would be nice.
 :::
 
-::: {#required-elements .section}
+::: 
 ### Required Elements
 
 - The code and documentation should state clearly what RFCs are implemented.
@@ -76,7 +81,7 @@
 - It should be possible for third party extensions to add converters to the MIME part registration system (see timezones in the datetime module for a model).
 :::
 
-::: {#interesting-ideas .section}
+::: 
 ### Interesting Ideas
 
 - An API for telling the system to store the decoded content of a MIME part in the filename specified in the MIME headers. (If the part is already stored on disk by the disk storage hooks, this might be a simple rename, thus avoiding the data transfer required if this API is not provided).
@@ -88,7 +93,7 @@
 - Instead of trying to pass things like header lengths up and down the call stack, let\'s support a \"formatting policy\" object that can be attached to message objects or the generator that encapsulate things like header wrapping rules, EOL-settings, etc. The generator would then apply the formatting policy to that message object and any other object below it in the MIME hierarchy. Headers might also inherit this policy and be able to override it on a per-header basis. This might also work well for supporting different wrapping policies based on the destination of the message (e.g. messages being spewed out a mail server have different requirements than messages being spewed out of a web server).
 :::
 
-::: {#issues .section}
+::: 
 ### Issues
 
 - How does the desire for not-quite-ducklike objects for badly formed input data mesh with the desire for a plugin system for instantiating the objects that represent the payloads?
@@ -96,4 +101,3 @@
 - We believe that there are no cross-part context items that would prevent the lazy decoding of MIME parts, but this has not been confirmed. It is the case that when parsing an inner MIME part, access to the boundary delimiter for the outer parts is required. There may also be some issues for semantic parsing with Content-ID references.
 - Multipart/report could be both a Message-with-sub-Messages *and* a single specialized object type; this possibility should be considered in the API design.
 :::
-:::::::

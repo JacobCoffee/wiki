@@ -1,7 +1,12 @@
 # Asking for Help/Is there a way to use i instead of j for complex numbers?
 
-:::: {#content dir="ltr" lang="en"}
-# Asking for Help: Is there a way to use i instead of j for complex numbers? {#Asking_for_Help:_Is_there_a_way_to_use_i_instead_of_j_for_complex_numbers.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: Is there a way to use i instead of j for complex numbers? 
 
 (What the title says, I guess.)
 
@@ -12,4 +17,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp)
-::::

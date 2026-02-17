@@ -1,24 +1,29 @@
 # InstallationInstructions2
 
-:::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Installation
 
-::: {#contents .contents .topic}
+::: 
 Contents
 
-- [Jython 2.5.x and 2.2.x](#jython-2-5-x-and-2-2-x){#id1 .reference .internal}
-  - [Basic Install](#basic-install){#id2 .reference .internal}
-  - [Standalone mode](#standalone-mode){#id3 .reference .internal}
-  - [Installation options](#installation-options){#id4 .reference .internal}
+- [Jython 2.5.x and 2.2.x](#jython-2-5-x-and-2-2-x)
+  - [Basic Install](#basic-install)
+  - [Standalone mode](#standalone-mode)
+  - [Installation options](#installation-options)
 :::
 
-:::::: {#jython-2-5-x-and-2-2-x .section}
-### [Jython 2.5.x and 2.2.x](#id1){.toc-backref}
+:::::: 
+### [Jython 2.5.x and 2.2.x](#id1)
 
-::: {#basic-install .section}
-#### [Basic Install](#id2){.toc-backref}
+::: 
+#### [Basic Install](#id2)
 
-Jython 2.5 and 2.2.1 are distributed as executable jar file installers. After [downloading](DownloadInstructions){.reference .external} it, either double click the jython_installer-2.5.0.jar or run java with the -jar option
+Jython 2.5 and 2.2.1 are distributed as executable jar file installers. After [downloading](DownloadInstructions) it, either double click the jython_installer-2.5.0.jar or run java with the -jar option
 
     java -jar jython_installer-2.5.0.jar
 
@@ -29,8 +34,8 @@ This will start the regular GUI installer on most systems, or a console installe
 The installer will then walk through a similar set of steps in graphical or console mode: showing the license, selecting an install directory and JVM and actually copying Jython to the filesystem. After this completes, Jython is installed in the directory you selected. Executing a script in the install directory, `jython` on Unix-like systems or `jython.bat` on Windows, will start up the Jython console, which can be used to dynamically explore Jython and the Java runtime, or to run Jython scripts.
 :::
 
-::: {#standalone-mode .section}
-#### [Standalone mode](#id3){.toc-backref}
+::: 
+#### [Standalone mode](#id3)
 
 The standalone option does no caching and so avoids the startup overhead (most likely at the cost of some speed in calling Java classes, but I have not profiled it)
 
@@ -51,12 +56,11 @@ Of course you can run scripts just by calling them as you might expect:
 Or, add this file to the classpath of your application.
 :::
 
-::: {#installation-options .section}
-#### [Installation options](#id4){.toc-backref}
+::: 
+#### [Installation options](#id4)
 
 You can get a list of installer options (to install Jython unattended, for example) by running:
 
     $ java -jar jython_installer-2.5.0.jar --help
 :::
 ::::::
-::::::::

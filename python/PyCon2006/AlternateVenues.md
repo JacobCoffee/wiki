@@ -1,7 +1,12 @@
 # PyCon2006/AlternateVenues
 
-::: {#content dir="ltr" lang="en"}
-# Preliminary DC-area surveys {#Preliminary_DC-area_surveys}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Preliminary DC-area surveys 
 
 Please add information here that you have obtained from specific venues. Where possible please include contact details for your sources of information, and **add your own identity**.
 
@@ -24,21 +29,20 @@ Please add information here that you have obtained from specific venues. Where p
   - There are rooms that hold 100 - 250 people, including the colony ballroom
   - Recommended talking to UMUC, as it is more self contained and perhaps more appropriate. Am waiting on a callback from Stamp Union.
 
-# Other possibilities {#Other_possibilities}
+# Other possibilities 
 
 Some possible sites:
 
-National Rural Electric Cooperative Association (really!) [http://www.conferencesolution.com/](http://www.conferencesolution.com/){.http} (Arlington, up to 750)
+National Rural Electric Cooperative Association (really!) [http://www.conferencesolution.com/](http://www.conferencesolution.com/) (Arlington, up to 750)
 
-Marymount U.: [http://www.marymount.edu/confcenter/main.html](http://www.marymount.edu/confcenter/main.html){.http} (Arlington, up to 750, but only available from May to August 1st),
+Marymount U.: [http://www.marymount.edu/confcenter/main.html](http://www.marymount.edu/confcenter/main.html) (Arlington, up to 750, but only available from May to August 1st),
 
-[DoubleTree](./DoubleTree.html){.nonexistent} Tysons Corner: [http://www.doubletree.com/en/dt/hotels/index.jhtml?ctyhocn=IADLRDT](http://www.doubletree.com/en/dt/hotels/index.jhtml?ctyhocn=IADLRDT){.http} (largest room is 600; calls itself \"executive\", so probably pricy).
+[DoubleTree](./DoubleTree.html) Tysons Corner: [http://www.doubletree.com/en/dt/hotels/index.jhtml?ctyhocn=IADLRDT](http://www.doubletree.com/en/dt/hotels/index.jhtml?ctyhocn=IADLRDT) (largest room is 600; calls itself \"executive\", so probably pricy).
 
-4H Center, Chevy Chase, Maryland [http://www.4hcenter.org/index.html](http://www.4hcenter.org/index.html){.http} (up to 800, but specializing in youth conferences; has 800 beds available, though)
+4H Center, Chevy Chase, Maryland [http://www.4hcenter.org/index.html](http://www.4hcenter.org/index.html) (up to 800, but specializing in youth conferences; has 800 beds available, though)
 
-Hilton Mark Center, Alexandria [http://www.hilton.com/en/hi/hotels/index.jhtml?ctyhocn=DCAAHHH](http://www.hilton.com/en/hi/hotels/index.jhtml?ctyhocn=DCAAHHH){.http} (largest room seats 1200; this is where Python10 was held; forget about mass transit, though).
+Hilton Mark Center, Alexandria [http://www.hilton.com/en/hi/hotels/index.jhtml?ctyhocn=DCAAHHH](http://www.hilton.com/en/hi/hotels/index.jhtml?ctyhocn=DCAAHHH) (largest room seats 1200; this is where Python10 was held; forget about mass transit, though).
 
 ------------------------------------------------------------------------
 
 [CategoryPyConPlanning](CategoryPyConPlanning)
-:::

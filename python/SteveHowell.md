@@ -1,15 +1,20 @@
 # SteveHowell
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Hi, my name is Steve Howell, and I have been programming in Python more or less full time since 2001.
 
 In 2010 I attempted to submit a patch to CPython shown here: [ProposalToSpeedUpListOperations](ProposalToSpeedUpListOperations)
 
 I mainly use Python at work now, but I have also contributed to open source projects. Here are some things that I\'ve done in the Open Source world:
 
-- [http://gvr.sourceforge.net/](http://gvr.sourceforge.net/){.http} (Guido van Robot learning IDE)
+- [http://gvr.sourceforge.net/](http://gvr.sourceforge.net/) (Guido van Robot learning IDE)
 
-  the initial version of [LocalSiteMap](./LocalSiteMap.html){.nonexistent} feature in [MoinMoin](MoinMoin)
+  the initial version of [LocalSiteMap](./LocalSiteMap.html) feature in [MoinMoin](MoinMoin)
 
 Here is an early version of the code on the [SimplePrograms](SimplePrograms) page. I wrote most of the initial code, with helpful edits from other folks.
 
@@ -174,4 +179,3 @@ All of this code has been tested on 2.4 or 2.5.
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

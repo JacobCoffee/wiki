@@ -1,49 +1,54 @@
 # MacPython/AppleScriptNotes
 
-::: {#content dir="ltr" lang="en"}
-# filesystem bookmarks {#filesystem_bookmarks}
+```{admonition} Legacy Wiki Page
+:class: note
 
-- [file:///Library/ScriptingAdditions/](file:///Library/ScriptingAdditions/){.file} (probably)
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- [file:///System/Library/ScriptingAdditions/](file:///System/Library/ScriptingAdditions/){.file} (.app and .osax bundles)
+# filesystem bookmarks 
 
-- [file:///System/Library/Components/AppleScript.component](file:///System/Library/Components/AppleScript.component){.file} (the core stuff in here)
+- [file:///Library/ScriptingAdditions/](file:///Library/ScriptingAdditions/) (probably)
 
-- [file:///System/Library/Frameworks/Python.framework/Versions/2.3/lib/python2.3/plat-mac/Carbon/AppleEvents.py](file:///System/Library/Frameworks/Python.framework/Versions/2.3/lib/python2.3/plat-mac/Carbon/AppleEvents.py){.file} (constants)
+- [file:///System/Library/ScriptingAdditions/](file:///System/Library/ScriptingAdditions/) (.app and .osax bundles)
+
+- [file:///System/Library/Components/AppleScript.component](file:///System/Library/Components/AppleScript.component) (the core stuff in here)
+
+- [file:///System/Library/Frameworks/Python.framework/Versions/2.3/lib/python2.3/plat-mac/Carbon/AppleEvents.py](file:///System/Library/Frameworks/Python.framework/Versions/2.3/lib/python2.3/plat-mac/Carbon/AppleEvents.py) (constants)
 
 # bookmarks
 
-- [http://developer.apple.com/technotes/tn/tn1164.html](http://developer.apple.com/technotes/tn/tn1164.html){.http}
+- [http://developer.apple.com/technotes/tn/tn1164.html](http://developer.apple.com/technotes/tn/tn1164.html)
 
-- [http://developer.apple.com/documentation/mac/IAC/IAC-2.html](http://developer.apple.com/documentation/mac/IAC/IAC-2.html){.http}
+- [http://developer.apple.com/documentation/mac/IAC/IAC-2.html](http://developer.apple.com/documentation/mac/IAC/IAC-2.html)
 
-- [http://developer.apple.com/documentation/AppleScript/Conceptual/AppleScriptLangGuide/index.html](http://developer.apple.com/documentation/AppleScript/Conceptual/AppleScriptLangGuide/index.html){.http}
+- [http://developer.apple.com/documentation/AppleScript/Conceptual/AppleScriptLangGuide/index.html](http://developer.apple.com/documentation/AppleScript/Conceptual/AppleScriptLangGuide/index.html)
 
-- [http://maccentral.macworld.com/features/applescriptprimer16/](http://maccentral.macworld.com/features/applescriptprimer16/){.http}
+- [http://maccentral.macworld.com/features/applescriptprimer16/](http://maccentral.macworld.com/features/applescriptprimer16/)
 
-- [http://www.mactech.com/articles/develop/issue_10/Clark_final.html](http://www.mactech.com/articles/develop/issue_10/Clark_final.html){.http}
+- [http://www.mactech.com/articles/develop/issue_10/Clark_final.html](http://www.mactech.com/articles/develop/issue_10/Clark_final.html)
 
-- [http://www.mactech.com/articles/mactech/Vol.10/10.01/ExtendApplescript/](http://www.mactech.com/articles/mactech/Vol.10/10.01/ExtendApplescript/){.http}
+- [http://www.mactech.com/articles/mactech/Vol.10/10.01/ExtendApplescript/](http://www.mactech.com/articles/mactech/Vol.10/10.01/ExtendApplescript/)
 
-- [http://www.mactech.com/articles/mactech/Vol.11/11.07/aeteResources/](http://www.mactech.com/articles/mactech/Vol.11/11.07/aeteResources/){.http}
+- [http://www.mactech.com/articles/mactech/Vol.11/11.07/aeteResources/](http://www.mactech.com/articles/mactech/Vol.11/11.07/aeteResources/)
 
-- [http://www.mactech.com/articles/develop/issue_12/Berdahl_final.html](http://www.mactech.com/articles/develop/issue_12/Berdahl_final.html){.http}
+- [http://www.mactech.com/articles/develop/issue_12/Berdahl_final.html](http://www.mactech.com/articles/develop/issue_12/Berdahl_final.html)
 
-- [http://www.mactech.com/articles/develop/issue_21/21simone.html](http://www.mactech.com/articles/develop/issue_21/21simone.html){.http}
+- [http://www.mactech.com/articles/develop/issue_21/21simone.html](http://www.mactech.com/articles/develop/issue_21/21simone.html)
 
-- [http://www.mactech.com/articles/develop/issue_23/according.html](http://www.mactech.com/articles/develop/issue_23/according.html){.http}
+- [http://www.mactech.com/articles/develop/issue_23/according.html](http://www.mactech.com/articles/develop/issue_23/according.html)
 
-- [http://soundfarmer.com/moin.cgi/AppleEventsPython](http://soundfarmer.com/moin.cgi/AppleEventsPython){.http}
+- [http://soundfarmer.com/moin.cgi/AppleEventsPython](http://soundfarmer.com/moin.cgi/AppleEventsPython)
 
-- [http://www.prefab.com/scriptweb/archive/developerarticles.html](http://www.prefab.com/scriptweb/archive/developerarticles.html){.http}
+- [http://www.prefab.com/scriptweb/archive/developerarticles.html](http://www.prefab.com/scriptweb/archive/developerarticles.html)
 
-- [http://www.scripting.com/samples/](http://www.scripting.com/samples/){.http}
+- [http://www.scripting.com/samples/](http://www.scripting.com/samples/)
 
-- [http://search.cpan.org/\~cnandor/Mac-Glue/Glue.pm](http://search.cpan.org/~cnandor/Mac-Glue/Glue.pm){.http}
+- [http://search.cpan.org/\~cnandor/Mac-Glue/Glue.pm](http://search.cpan.org/~cnandor/Mac-Glue/Glue.pm)
 
-- [http://citeseer.nj.nec.com/555351.html](http://citeseer.nj.nec.com/555351.html){.http}
+- [http://citeseer.nj.nec.com/555351.html](http://citeseer.nj.nec.com/555351.html)
 
-# snippets from mactech aeteResources {#snippets_from_mactech_aeteResources}
+# snippets from mactech aeteResources 
 
 ## suites
 
@@ -57,7 +62,7 @@ If a suite is described in the system's 'aeut' resource and you support it compl
 
 ## events
 
-Parameters do not have to be named, since they can be identified by their position in the event as long as no parameters are left out before them. However, if there is more than one optional parameter, all optional parameters should be named. Also, optional parameters should come after all required parameters, to minimize the chances of confusing [/AppleScript](./MacPython(2f)AppleScriptNotes(2f)AppleScript.html){.nonexistent} or the Apple Event Manager with omitted positional parameters.
+Parameters do not have to be named, since they can be identified by their position in the event as long as no parameters are left out before them. However, if there is more than one optional parameter, all optional parameters should be named. Also, optional parameters should come after all required parameters, to minimize the chances of confusing [/AppleScript](./MacPython(2f)AppleScriptNotes(2f)AppleScript.html) or the Apple Event Manager with omitted positional parameters.
 
 ## classes
 
@@ -81,7 +86,6 @@ A property can also belong to more than one class. To do this, you must set the 
 
 If a property can be modified by an event, then the Read/Write flag should be set. If its value is a list (e.g., the styles which are applied to a text item), then the List of Values flag should be set. The Masculine and Feminine flags, once again, don't apply to English.
 
-# text chunks {#text_chunks}
+# text chunks 
 
 useful builtin suites:
-:::

@@ -1,15 +1,20 @@
 # PyQt/Reading selections from a selection model
 
-::::: {#content dir="ltr" lang="en"}
-# Reading selections from a selection model {#Reading_selections_from_a_selection_model}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Reading selections from a selection model 
 
 On the `#pyqt`{.backtick} channel on freenode, `GHellings`{.backtick} asked for a way to get all selected items in a QListWidget.
 
 The following example, adapted from a code snippet in Qt, shows how to access the selected items in a table via its QItemSelectionModel and update them.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8c9b1319d9c2fb6e9fe4a69533fe42e1d8289476 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import QModelIndex
    3 from PyQt4.QtGui import *
@@ -79,4 +84,3 @@ The following example, adapted from a code snippet in Qt, shows how to access th
 ```
 :::
 ::::
-:::::

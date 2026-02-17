@@ -1,13 +1,18 @@
 # EscapingHtml
 
-::::::::::::::: {#content dir="ltr" lang="en"}
-# Escaping HTML {#Escaping_HTML}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Escaping HTML 
 
 The `cgi` module that comes with Python has an `escape()` function:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-507ffc387dea0c7b22117f8bfb0e21a4473c605c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import cgi
    2 
    3 s = cgi.escape( """& < >""" )   # s = "&amp; &lt; &gt;"
@@ -17,11 +22,11 @@ The `cgi` module that comes with Python has an `escape()` function:
 
 However, it doesn\'t escape characters beyond `&`, `<`, and `>`. If it is used as `cgi.escape(string_to_escape, quote=True)`, it also escapes `"`.
 
-Recent Python 3.2 have [html module](https://docs.python.org/3/library/html.html){.https} with `html.escape()` and `html.unescape()` functions. `html.escape()` differs from `cgi.escape()` by its defaults to `quote=True`:
+Recent Python 3.2 have [html module](https://docs.python.org/3/library/html.html) with `html.escape()` and `html.unescape()` functions. `html.escape()` differs from `cgi.escape()` by its defaults to `quote=True`:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-77e22d2643eb0e7b157b0d0dabe2e0ede79c869c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import html
    2 
    3 s = html.escape( """& < " ' >""" )   # s = '&amp; &lt; &quot; &#x27; &gt;'
@@ -31,9 +36,9 @@ Recent Python 3.2 have [html module](https://docs.python.org/3/library/html.html
 
 Here\'s a small snippet that will let you escape quotes and apostrophes as well:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-b258b0f8932c5b4a2c6c0261ab55d641bbf1f8b9 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 html_escape_table = {
    2     "&": "&amp;",
    3     '"': "&quot;",
@@ -51,9 +56,9 @@ Here\'s a small snippet that will let you escape quotes and apostrophes as well:
 
 You can also use `escape()` from `xml.sax.saxutils` to escape html. This function should execute faster. The `unescape()` function of the same module can be passed the same arguments to decode a string.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-aee31769c54c45c25798e77aadda0f9fdda4482f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from xml.sax.saxutils import escape, unescape
    2 # escape() and unescape() takes care of &, < and >.
    3 html_escape_table = {
@@ -71,13 +76,13 @@ You can also use `escape()` from `xml.sax.saxutils` to escape html. This functio
 :::
 ::::
 
-## Unescaping HTML {#Unescaping_HTML}
+## Unescaping HTML 
 
 Undoing the escaping performed by `cgi.escape()` isn\'t directly supported by the library. This can be accomplished using a fairly simple function, however:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-701582460ac0eb0ec5707b2fbc0d1ed3cfc2e779 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def unescape(s):
    2     s = s.replace("&lt;", "<")
    3     s = s.replace("&gt;", ">")
@@ -88,7 +93,7 @@ Undoing the escaping performed by `cgi.escape()` isn\'t directly supported by th
 :::
 ::::
 
-or alternatively (before [issue2927](http://bugs.python.org/issue2927){.http}):
+or alternatively (before [issue2927](http://bugs.python.org/issue2927)):
 
     >>> from HTMLParser import HTMLParser
     >>> HTMLParser.unescape.__func__(HTMLParser, 'ss&copy;')
@@ -98,9 +103,9 @@ Note that this will undo exactly what `cgi.escape()` does; it\'s easy to extend 
 
 This approach is simple and fairly efficient, but is limited to supporting the entities given in the list. A more thorough approach would be to perform the same processing as an HTML parser. Using the HTML parser from the standard library is a little more expensive, but many more entity replacements are supported \"out of the box.\" The table of entities which are supported can be found in the `htmlentitydefs` module from the library; this is not normally used directly, but the `htmllib` module uses it to support most common entities. It can be used very easily:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-80e280d2a5a502dc7c6e59590ee22e6f72471278 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import htmllib
    2 
    3 def unescape(s):
@@ -116,7 +121,7 @@ This version has the additional advantage that it supports character references 
 
 A more efficient implementation would simply parse the string for entity and character references directly (and would be a good candidate for the library, if there\'s really a need for it outside of HTML data).
 
-## Formal htmlentitydefs {#Formal_htmlentitydefs}
+## Formal htmlentitydefs 
 
 Yet another approach available with recent Python takes advantage of htmlentitydefs:
 
@@ -126,7 +131,7 @@ Yet another approach available with recent Python takes advantage of htmlentityd
         return re.sub('&(%s);' % '|'.join(name2codepoint),
                 lambda m: unichr(name2codepoint[m.group(1)]), s)
 
-## Builtin HTML/XML escaping via ASCII encoding {#Builtin_HTML.2FXML_escaping_via_ASCII_encoding}
+## Builtin HTML/XML escaping via ASCII encoding 
 
 A very easy way to transform non-ASCII characters like German umlauts or letters with accents into their HTML equivalents is simply encoding them from unicode to ASCII and use the `xmlcharrefreplace` encoding error handling:
 
@@ -136,11 +141,10 @@ A very easy way to transform non-ASCII characters like German umlauts or letters
 
 Note, that this does only transform *non*-ASCII characters and therefore leaves `<`, `>`, `?` as they are. However, you can combine this technique with the `cgi.escape`.
 
-## See Also {#See_Also}
+## See Also 
 
 XML entities are different from, if related to, HTML entities. This page hints at the details:
 
 - [EscapingXml](EscapingXml)
 
-John J. Lee discusses still more refinements in implementation in [this comp.lang.python follow-up](http://groups.google.com/group/comp.lang.python/msg/ce3fc3330cbbac0a){.http}.
-:::::::::::::::
+John J. Lee discusses still more refinements in implementation in [this comp.lang.python follow-up](http://groups.google.com/group/comp.lang.python/msg/ce3fc3330cbbac0a).

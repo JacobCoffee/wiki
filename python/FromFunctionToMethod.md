@@ -1,7 +1,12 @@
 # FromFunctionToMethod
 
-::: {#content dir="ltr" lang="en"}
-# From Function to Method {#From_Function_to_Method}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# From Function to Method 
 
 Bruno Desthuilliers / John Posner
 
@@ -9,7 +14,7 @@ Python newcomers often have hard time understanding the \"magic\" behind Python\
 
 Here\'s a brief \-- but hopefully helpful \-- overview of what exactly *is* a Python method, showing how Python magically inserts `self`{.backtick} or `cls`{.backtick} into the argument list of a method call.
 
-## From Function \... {#From_Function_...}
+## From Function \... 
 
 The **def** statement *always* yields a function object. Always. If you don\'t believe it, try the following snippet:
 
@@ -22,7 +27,7 @@ The **def** statement *always* yields a function object. Always. If you don\'t b
 
 So, why is it that `type(Foo.bar)`{.backtick} is not the same as `type(Foo.__dict__['bar'])`{.backtick}? The answer is: attribute lookup rules and the descriptor protocol.
 
-## \... To Method, via the Descriptor Protocol {#A..._To_Method.2C_via_the_Descriptor_Protocol}
+## \... To Method, via the Descriptor Protocol 
 
 The descriptor protocol specifies that during an attribute lookup, if a name resolves to a class attribute *and* this attribute has a `__get__`{.backtick} method, then this `__get__`{.backtick} method is called. The argument list to this call includes either:
 
@@ -70,15 +75,14 @@ So, what turns a function into a method is not that the function is defined in a
     Foo.method(f) # invocations produce
     func(f)       # the same result
 
-## References {#References}
+## References 
 
 In the official Python documentation, the basics are at:
 
-- [Implementing Descriptors](http://docs.python.org/reference/datamodel.html#implementing-descriptors){.http}
+- [Implementing Descriptors](http://docs.python.org/reference/datamodel.html#implementing-descriptors)
 
-- [Invoking Descriptors](http://docs.python.org/reference/datamodel.html#invoking-descriptors){.http}
+- [Invoking Descriptors](http://docs.python.org/reference/datamodel.html#invoking-descriptors)
 
 For an in-depth treatment, including a discussion of static methods and class methods, see:
 
-- [Descriptor HowTo Guide](http://docs.python.org/2/howto/descriptor.html){.http} (Python 2) - [Descriptor HowTo Guide](http://docs.python.org/3/howto/descriptor.html){.http} (Python 3).
-:::
+- [Descriptor HowTo Guide](http://docs.python.org/2/howto/descriptor.html) (Python 2) - [Descriptor HowTo Guide](http://docs.python.org/3/howto/descriptor.html) (Python 3).

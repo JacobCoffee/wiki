@@ -1,11 +1,16 @@
 # PyCon2006/Tutorials/UsingDatabaseWithPython
 
-::: {#content dir="ltr" lang="en"}
-# Audience {#Audience}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Audience 
 
 Python programmers with a desire to understand how to build cross-platform database applications.
 
-# Summary {#Summary}
+# Summary 
 
 This tutorial will introduce the student to the relational model and SQL. It will present the DB API and show how it can be used in a relatively platform-independent way to maintain source portablility of Python database applications.
 
@@ -15,7 +20,7 @@ To undertake the practical examples they should have a database installed on the
 
 Before class students should verify their ability to connect to the newly-created database from Python.
 
-# Outline {#Outline}
+# Outline 
 
 1\. A Super-Fast Introduction to the Relational Model
 
@@ -44,4 +49,3 @@ Before class students should verify their ability to connect to the newly-create
 7\. Putting it All Together
 
 - Some real applications code
-:::

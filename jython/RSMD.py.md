@@ -1,13 +1,18 @@
 # RSMD.py
 
-::::: {#content dir="ltr" lang="en"}
-# Apache Derby RSMD.py {#Apache_Derby_RSMD.py}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Apache Derby RSMD.py 
 
 back to [ApacheDerby](ApacheDerby) Example page.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-00de92e64d652fe5f42f6143e530787ae64533b3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #--------------------------------------------------------------------------
    2 # RSMD() - Routine used to gather the "interesting" ResultSet MetaData
    3 #--------------------------------------------------------------------------
@@ -71,4 +76,3 @@ back to [ApacheDerby](ApacheDerby) Example page.
 ::::
 
 back to [ApacheDerby](ApacheDerby) Example page.
-:::::

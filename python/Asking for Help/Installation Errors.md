@@ -1,7 +1,12 @@
 # Asking for Help/Installation Errors
 
-:::: {#content dir="ltr" lang="en"}
-# Installation Error Python 2x & 3x .msi packages (Windows7 Ultimate amd64 OS) {#Installation_Error_Python_2x_.26_3x_.msi_packages__.28Windows7_Ultimate_amd64_OS.29}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Installation Error Python 2x & 3x .msi packages (Windows7 Ultimate amd64 OS) 
 
 \... After a reinstall of my OS and basic apps e.g., AV, notepad ++, etc\... I downloaded the Python .msi\'s for 2.7.2 amd64bit and tried to install it. It showed this error:
 
@@ -20,4 +25,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp)
-::::

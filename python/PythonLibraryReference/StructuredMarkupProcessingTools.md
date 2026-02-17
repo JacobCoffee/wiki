@@ -1,6 +1,11 @@
 # PythonLibraryReference/StructuredMarkupProcessingTools
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [Python Library Reference](PythonLibraryReference)
 
 ::: {}
@@ -9,7 +14,7 @@
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-# Structured Markup Processing Tools {#Structured_Markup_Processing_Tools}
+# Structured Markup Processing Tools 
 
 13.1 HTMLParser \-- Simple HTML and XHTML parser
 
@@ -23,7 +28,7 @@
 
 13.5 xml.parsers.expat \-- Fast XML parsing using Expat
 
-13.5.1 XMLParser Objects 13.5.2 [ExpatError](./ExpatError.html){.nonexistent} Exceptions 13.5.3 Example 13.5.4 Content Model Descriptions 13.5.5 Expat error constants
+13.5.1 XMLParser Objects 13.5.2 [ExpatError](./ExpatError.html) Exceptions 13.5.3 Example 13.5.4 Content Model Descriptions 13.5.5 Expat error constants
 
 13.6 xml.dom \-- The Document Object Model API
 
@@ -43,21 +48,20 @@
 
 13.10 xml.sax.handler \-- Base classes for SAX handlers
 
-13.10.1 [ContentHandler](./ContentHandler.html){.nonexistent} Objects 13.10.2 DTDHandler Objects 13.10.3 [EntityResolver](./EntityResolver.html){.nonexistent} Objects 13.10.4 [ErrorHandler](./ErrorHandler.html){.nonexistent} Objects
+13.10.1 [ContentHandler](./ContentHandler.html) Objects 13.10.2 DTDHandler Objects 13.10.3 [EntityResolver](./EntityResolver.html) Objects 13.10.4 [ErrorHandler](./ErrorHandler.html) Objects
 
 13.11 xml.sax.saxutils \-- SAX Utilities
 
 13.12 xml.sax.xmlreader \-- Interface for XML parsers
 
-13.12.1 XMLReader Objects 13.12.2 [IncrementalParser](./IncrementalParser.html){.nonexistent} Objects 13.12.3 Locator Objects 13.12.4 [InputSource](./InputSource.html){.nonexistent} Objects 13.12.5 The Attributes Interface 13.12.6 The AttributesNS Interface
+13.12.1 XMLReader Objects 13.12.2 [IncrementalParser](./IncrementalParser.html) Objects 13.12.3 Locator Objects 13.12.4 [InputSource](./InputSource.html) Objects 13.12.5 The Attributes Interface 13.12.6 The AttributesNS Interface
 
 13.13 xmllib \-- A parser for XML documents
 
 13.13.1 XML Namespaces
 
-## Comments {#Comments}
+## Comments 
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-::::

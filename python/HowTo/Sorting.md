@@ -1,30 +1,20 @@
 # HowTo/Sorting
 
-:::: {#content dir="ltr" lang="en"}
-# Sorting Mini-HOW TO {#Sorting_Mini-HOW_TO}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Sorting Mini-HOW TO 
 
 **Original version by Andrew Dalke with a major update by Raymond Hettinger**
-
-::: table-of-contents
-Contents
-
-1.  [Sorting Mini-HOW TO](#Sorting_Mini-HOW_TO)
-    1.  [Sorting Basics](#Sorting_Basics)
-    2.  [Key Functions](#Key_Functions)
-    3.  [Operator Module Functions](#Operator_Module_Functions)
-    4.  [Ascending and Descending](#Ascending_and_Descending)
-    5.  [Sort Stability and Complex Sorts](#Sort_Stability_and_Complex_Sorts)
-    6.  [The Old Way Using Decorate-Sort-Undecorate](#The_Old_Way_Using_Decorate-Sort-Undecorate)
-    7.  [The Old Way Using the cmp Parameter](#The_Old_Way_Using_the_cmp_Parameter)
-    8.  [Maintaining Sort Order](#Maintaining_Sort_Order)
-    9.  [Odd and Ends](#Odd_and_Ends)
-:::
 
 Python lists have a built-in `sort()` method that modifies the list in-place and a `sorted()` built-in function that builds a new sorted list from an iterable.
 
 There are many ways to use them to sort data and there doesn\'t appear to be a single, central place in the various manuals describing them, so I\'ll do so here.
 
-## Sorting Basics {#Sorting_Basics}
+## Sorting Basics 
 
 A simple ascending sort is very easy \-- just call the `sorted()` function. It returns a new sorted list:
 
@@ -43,7 +33,7 @@ Another difference is that the `list.sort()` method is only defined for lists. I
     >>> sorted({1: 'D', 2: 'B', 3: 'B', 4: 'E', 5: 'A'})
     [1, 2, 3, 4, 5]
 
-## Key Functions {#Key_Functions}
+## Key Functions 
 
 Starting with Python 2.4, both `list.sort()` and `sorted()` added a `key` parameter to specify a function to be called on each list element prior to making comparisons.
 
@@ -84,9 +74,9 @@ The same technique works for objects with named attributes. For example:
     >>> sorted(student_objects, key=lambda student: student.age)   # sort by age
     [('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
 
-## Operator Module Functions {#Operator_Module_Functions}
+## Operator Module Functions 
 
-The key-function patterns shown above are very common, so Python provides convenience functions to make accessor functions easier and faster. The [operator module](http://docs.python.org/library/operator.html#module-operator){.http} has `itemgetter`, `attrgetter`, and starting in Python 2.6 a `methodcaller` function.
+The key-function patterns shown above are very common, so Python provides convenience functions to make accessor functions easier and faster. The [operator module](http://docs.python.org/library/operator.html#module-operator) has `itemgetter`, `attrgetter`, and starting in Python 2.6 a `methodcaller` function.
 
 Using those functions, the above examples become simpler and faster.
 
@@ -113,7 +103,7 @@ The third function from the operator module, `methodcaller` is used in the follo
     >>> sorted(student_objects, key=methodcaller('weighted_grade'))
     [('jane', 'B', 12), ('dave', 'B', 10), ('john', 'A', 15)]
 
-## Ascending and Descending {#Ascending_and_Descending}
+## Ascending and Descending 
 
 Both `list.sort()` and `sorted()` accept a `reverse` parameter with a boolean value. This is using to flag descending sorts. For example, to get the student data in reverse age order:
 
@@ -123,9 +113,9 @@ Both `list.sort()` and `sorted()` accept a `reverse` parameter with a boolean va
     >>> sorted(student_objects, key=attrgetter('age'), reverse=True)
     [('john', 'A', 15), ('jane', 'B', 12), ('dave', 'B', 10)]
 
-## Sort Stability and Complex Sorts {#Sort_Stability_and_Complex_Sorts}
+## Sort Stability and Complex Sorts 
 
-Starting with Python 2.2, sorts are guaranteed to be [stable](http://en.wikipedia.org/wiki/Sorting_algorithm#Stability){.http}. That means that when multiple records have the same key, their original order is preserved.
+Starting with Python 2.2, sorts are guaranteed to be [stable](http://en.wikipedia.org/wiki/Sorting_algorithm#Stability). That means that when multiple records have the same key, their original order is preserved.
 
     >>> data = [('red', 1), ('blue', 1), ('red', 2), ('blue', 2)]
     >>> sorted(data, key=itemgetter(0))
@@ -139,9 +129,9 @@ This wonderful property lets you build complex sorts in a series of sorting step
     >>> sorted(s, key=attrgetter('grade'), reverse=True)       # now sort on primary key, descending
     [('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
 
-The [Timsort](http://en.wikipedia.org/wiki/Timsort){.http} algorithm used in Python does multiple sorts efficiently because it can take advantage of any ordering already present in a dataset.
+The [Timsort](http://en.wikipedia.org/wiki/Timsort) algorithm used in Python does multiple sorts efficiently because it can take advantage of any ordering already present in a dataset.
 
-## The Old Way Using Decorate-Sort-Undecorate {#The_Old_Way_Using_Decorate-Sort-Undecorate}
+## The Old Way Using Decorate-Sort-Undecorate 
 
 This idiom is called Decorate-Sort-Undecorate after its three steps:
 
@@ -164,11 +154,11 @@ It is not strictly necessary in all cases to include the index `i` in the decora
 
 - The original items do not have to be comparable because the ordering of the decorated tuples will be determined by at most the first two items. So for example the original list could contain `complex` numbers which cannot be sorted directly.
 
-Another name for this idiom is [Schwartzian transform](http://en.wikipedia.org/wiki/Schwartzian_transform){.http}, after Randal L. Schwartz, who popularized it among Perl programmers.
+Another name for this idiom is [Schwartzian transform](http://en.wikipedia.org/wiki/Schwartzian_transform), after Randal L. Schwartz, who popularized it among Perl programmers.
 
 For large lists and lists where the comparison information is expensive to calculate, and Python versions before 2.4, DSU is likely to be the fastest way to sort the list. For 2.4 and later, key functions provide the same functionality.
 
-## The Old Way Using the cmp Parameter {#The_Old_Way_Using_the_cmp_Parameter}
+## The Old Way Using the cmp Parameter 
 
 Many constructs given in this HOWTO assume Python 2.4 or later. Before that, there was no `sorted()` builtin and `list.sort()` took no keyword arguments. Instead, all of the Py2.x versions supported a `cmp` parameter to handle user specified comparison functions.
 
@@ -216,25 +206,25 @@ To convert to a key function, just wrap the old comparison function:
 
 In Python 2.7, the *cmp_to_key()* tool was added to the *functools* module.
 
-## Maintaining Sort Order {#Maintaining_Sort_Order}
+## Maintaining Sort Order 
 
-Python does not provide modules like C++\'s set and map data types as part of its standard library. This is a concious decision on the part of Guido, et al to preserve \"one obvious way to do it.\" Instead Python delegates this task to third-party libraries that are available on the [Python Package Index](https://pypi.python.org/pypi){.https}. These libraries use various techniques to maintain list, dict, and set types in sorted order. Maintaining order using a specialized data structure can avoid very slow behavior (quadratic run-time) in the naive approach of editing and constantly re-sorting. Several implementations are described here.
+Python does not provide modules like C++\'s set and map data types as part of its standard library. This is a concious decision on the part of Guido, et al to preserve \"one obvious way to do it.\" Instead Python delegates this task to third-party libraries that are available on the [Python Package Index](https://pypi.python.org/pypi). These libraries use various techniques to maintain list, dict, and set types in sorted order. Maintaining order using a specialized data structure can avoid very slow behavior (quadratic run-time) in the naive approach of editing and constantly re-sorting. Several implementations are described here.
 
-- [Python SortedContainers Module](http://www.grantjenks.com/docs/sortedcontainers/){.http} - Pure-Python implementation that is fast-as-C implementations. Implements sorted list, dict, and set data types. Testing includes 100% code coverage and hours of stress. Documentation includes full API reference, [performance comparison](http://www.grantjenks.com/docs/sortedcontainers/performance.html){.http}, and contributing/development guidelines.
+- [Python SortedContainers Module](http://www.grantjenks.com/docs/sortedcontainers/) - Pure-Python implementation that is fast-as-C implementations. Implements sorted list, dict, and set data types. Testing includes 100% code coverage and hours of stress. Documentation includes full API reference, [performance comparison](http://www.grantjenks.com/docs/sortedcontainers/performance.html), and contributing/development guidelines.
 
-- [Python rbtree Module](https://pypi.python.org/pypi/rbtree){.https} - Provides a fast, C-implementation for dict and set data types. Based on a red-black tree implementation.
+- [Python rbtree Module](https://pypi.python.org/pypi/rbtree) - Provides a fast, C-implementation for dict and set data types. Based on a red-black tree implementation.
 
-- [Python treap Module](https://pypi.python.org/pypi/treap){.https} - Provides a sorted dict data type. Uses a treap for implementation and improves performance using Cython.
+- [Python treap Module](https://pypi.python.org/pypi/treap) - Provides a sorted dict data type. Uses a treap for implementation and improves performance using Cython.
 
-- [Python bintrees Module](https://pypi.python.org/pypi/bintrees){.https} - Provides several tree-based implementations for dict and set data types. Fastest implementations are based on AVL and Red-Black trees. Implemented in C. Extends the conventional API to provide set operations for dict data types.
+- [Python bintrees Module](https://pypi.python.org/pypi/bintrees) - Provides several tree-based implementations for dict and set data types. Fastest implementations are based on AVL and Red-Black trees. Implemented in C. Extends the conventional API to provide set operations for dict data types.
 
-- [Python banyan Module](https://pypi.python.org/pypi/Banyan){.https} - Provides a fast, C-implementation for dict and set data types.
+- [Python banyan Module](https://pypi.python.org/pypi/Banyan) - Provides a fast, C-implementation for dict and set data types.
 
-- [Python skiplistcollections Module](https://pypi.python.org/pypi/skiplistcollections){.https} - Pure-Python implementation based on skip-lists providing a limited API for dict and set data types.
+- [Python skiplistcollections Module](https://pypi.python.org/pypi/skiplistcollections) - Pure-Python implementation based on skip-lists providing a limited API for dict and set data types.
 
-- [Python blist Module](https://pypi.python.org/pypi/blist){.https} - Provides sorted list, dict and set data types based on the \"blist\" data type, a B-tree implementation. Implemented in Python and C.
+- [Python blist Module](https://pypi.python.org/pypi/blist) - Provides sorted list, dict and set data types based on the \"blist\" data type, a B-tree implementation. Implemented in Python and C.
 
-## Odd and Ends {#Odd_and_Ends}
+## Odd and Ends 
 
 - For locale aware sorting, use `locale.strxfrm()` for a key function or `locale.strcoll()` for a comparison function.
 
@@ -260,4 +250,3 @@ Python does not provide modules like C++\'s set and map data types as part of it
         >>> newgrades = {'john': 'F', 'jane':'A', 'dave': 'C'}
         >>> sorted(students, key=newgrades.__getitem__)
         ['jane', 'dave', 'john']
-::::

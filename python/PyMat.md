@@ -1,5 +1,9 @@
 # PyMat
 
-::: {#content dir="ltr" lang="en"}
-[http://claymore.engineer.gvsu.edu/\~steriana/Python/pymat.html](http://claymore.engineer.gvsu.edu/~steriana/Python/pymat.html){.http}
-:::
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[http://claymore.engineer.gvsu.edu/\~steriana/Python/pymat.html](http://claymore.engineer.gvsu.edu/~steriana/Python/pymat.html)

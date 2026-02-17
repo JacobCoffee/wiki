@@ -1,11 +1,16 @@
 # SubclassingBuiltInTypes
 
-::: {#content dir="ltr" lang="en"}
-## See Also {#See_Also}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## See Also 
 
 - [SubclassingDictionaries](SubclassingDictionaries)
 
-# Discussion {#Discussion}
+# Discussion 
 
 I wonder a lot, \"How do I subclass built-in types?\"
 
@@ -50,15 +55,14 @@ Comments?
 
 For instance, on the `int` class, there are some gazillion methods:
 
-#!python \>\>\> dir( 42 ) \[\'[abs]{.u}\', \'[add]{.u}\', \'[and]{.u}\', \'[class]{.u}\', \'[cmp]{.u}\', \'[coerce]{.u}\', \'[delattr]{.u}\', \'[div]{.u}\', \'[divmod]{.u}\', \'[doc]{.u}\', \'[float]{.u}\', \'[floordiv]{.u}\', \'[getattribute]{.u}\', \'[getnewargs]{.u}\', \'[hash]{.u}\', \'[hex]{.u}\', \'[init]{.u}\', \'[int]{.u}\', \'[invert]{.u}\', \'[long]{.u}\',
+#!python \>\>\> dir( 42 ) \[\'[abs]\', \'[add]\', \'[and]\', \'[class]\', \'[cmp]\', \'[coerce]\', \'[delattr]\', \'[div]\', \'[divmod]\', \'[doc]\', \'[float]\', \'[floordiv]\', \'[getattribute]\', \'[getnewargs]\', \'[hash]\', \'[hex]\', \'[init]\', \'[int]\', \'[invert]\', \'[long]\',
 
-- \'[lshift]{.u}\', \'[mod]{.u}\', \'[mul]{.u}\', \'[neg]{.u}\', \'[new]{.u}\', \'[nonzero]{.u}\', \'[oct]{.u}\',
+- \'[lshift]\', \'[mod]\', \'[mul]\', \'[neg]\', \'[new]\', \'[nonzero]\', \'[oct]\',
 
-\'[or]{.u}\', \'[pos]{.u}\', \'[pow]{.u}\', \'[radd]{.u}\', \'[rand]{.u}\', \'[rdiv]{.u}\', \'[rdivmod]{.u}\', \'[reduce]{.u}\', \'[reduce_ex]{.u}\', \'[repr]{.u}\', \'[rfloordiv]{.u}\', \'[rlshift]{.u}\', \'[rmod]{.u}\', \'[rmul]{.u}\', \'[ror]{.u}\', \'[rpow]{.u}\', \'[rrshift]{.u}\', \'[rshift]{.u}\', \'[rsub]{.u}\', \'[rtruediv]{.u}\', \'[rxor]{.u}\', \'[setattr]{.u}\', \'[str]{.u}\', \'[sub]{.u}\', \'[truediv]{.u}\', \'[xor]{.u}\'\] \>\>\> }}}
+\'[or]\', \'[pos]\', \'[pow]\', \'[radd]\', \'[rand]\', \'[rdiv]\', \'[rdivmod]\', \'[reduce]\', \'[reduce_ex]\', \'[repr]\', \'[rfloordiv]\', \'[rlshift]\', \'[rmod]\', \'[rmul]\', \'[ror]\', \'[rpow]\', \'[rrshift]\', \'[rshift]\', \'[rsub]\', \'[rtruediv]\', \'[rxor]\', \'[setattr]\', \'[str]\', \'[sub]\', \'[truediv]\', \'[xor]\'\] \>\>\> }}}
 
 If you want to make something that\'s functionally *like* an int, can you get around having to implement all these methods?
 
-Maybe I have the wrong page title; Maybe this shouldn\'t be called \"SubclassingBuiltInTypes,\" but rather \"[SimulatingBuiltInTypes](./SimulatingBuiltInTypes.html){.nonexistent}.\"
+Maybe I have the wrong page title; Maybe this shouldn\'t be called \"SubclassingBuiltInTypes,\" but rather \"[SimulatingBuiltInTypes](./SimulatingBuiltInTypes.html).\"
 
 \-- [LionKimbro](LionKimbro) 2004-09-13 00:00:50
-:::

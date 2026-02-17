@@ -1,7 +1,12 @@
 # TestingJython
 
-::: {#content dir="ltr" lang="en"}
-## TestingJython {#TestingJython-1}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## TestingJython 
 
 A few notes on the various Jython test collections.
 
@@ -61,7 +66,7 @@ This should create a bugtests/support_config.py suitable for dev setup. Or just 
 
 This will execute the tests using your development build, and should create a support_config.py if not already there. If a support_config.py already exists (say you created one by hand or had to edit the auto-generated version) it will be used without change.
 
-### zxJDBC tests {#zxJDBC_tests}
+### zxJDBC tests 
 
 In Lib/test/zxjdbc is yet another set of test cases covering the zxJDBC database api. For these tests you need to configure the databases you have available in an xml config file (see the included test.xml for examples), then execute the driver \'runner.py\' for some particular db:
 
@@ -73,7 +78,6 @@ or
 
 to run the tests for all configured db\'s.
 
-### misc tests {#misc_tests}
+### misc tests 
 
 In Lib/test/bugs is another set of test cases, seemingly from bug reports as they are named prXYZ.py. No clue yet what drives them or if they are included from another test case somewhere, guidance appreciated!
-:::

@@ -1,19 +1,23 @@
 # StefanVanDerWalt
 
-::: {#content dir="ltr" lang="en"}
-# Stéfan van der Walt {#St.2BAOk-fan_van_der_Walt}
+```{admonition} Legacy Wiki Page
+:class: note
 
-I am a researcher at the Berkeley Institute for Data Science, and the founder of [scikit-image](http://scikit-image){.http}. Much of my time is spent on improving the scientific Python ecosystem.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- Email: [stefanv@berkeley.edu](mailto:stefanv@berkeley.edu){.mailto}
+# Stéfan van der Walt 
 
-- [GitHub](./GitHub.html){.nonexistent}: [\@stefanv](https://github.com/stefanv){.https}
+I am a researcher at the Berkeley Institute for Data Science, and the founder of [scikit-image](http://scikit-image). Much of my time is spent on improving the scientific Python ecosystem.
 
-- Twitter: [\@stefanvdwalt](https://twitter.com/stefanvdwalt){.https}
+- Email: [stefanv@berkeley.edu](mailto:stefanv@berkeley.edu)
 
-- Homepage: [http://mentat.za.net](http://mentat.za.net){.http}
+- [GitHub](./GitHub.html): [\@stefanv](https://github.com/stefanv)
+
+- Twitter: [\@stefanvdwalt](https://twitter.com/stefanvdwalt)
+
+- Homepage: [http://mentat.za.net](http://mentat.za.net)
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

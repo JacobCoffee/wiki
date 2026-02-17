@@ -1,28 +1,20 @@
 # WikiSandkasten
 
-:::::: {#content dir="ltr" lang="en"}
-Hier kann nach Lust und Laune experimentiert werden - nach den vier Strichen (Quellcode Zeile 8 ![;)](/wiki/europython/img/smile4.png ";)"){height="16" width="16"} ).
+```{admonition} Legacy Wiki Page
+:class: note
 
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} Bitte lege **KEINE** neue Seite ohne sinnvollen Inhalt an.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Hier kann nach Lust und Laune experimentiert werden - nach den vier Strichen (Quellcode Zeile 8 ![;)](/wiki/europython/img/smile4.png ";)") ).
+
+![/!\\](/wiki/europython/img/alert.png "/!\") Bitte lege **KEINE** neue Seite ohne sinnvollen Inhalt an.
 
 **Tipp:** Am besten ein zweites Fenster mit [HilfeInhalt](HilfeInhalt) öffnen.
 
 ------------------------------------------------------------------------
 
-::: table-of-contents
-Contents
-
-1.  [Formatierung](#Formatierung)
-2.  [Verlinken](#Verlinken)
-    1.  [Wiki](#Wiki)
-    2.  [Richtung Internet](#Richtung_Internet)
-    3.  [email](#email)
-3.  [Listen](#Listen)
-4.  [InterWiki](#InterWiki)
-5.  [Zeichnungen](#Zeichnungen)
-:::
-
-# Formatierung {#Formatierung}
+# Formatierung 
 
 *kursiv* **fett** `Schreibmaschinenschrift`
 
@@ -43,25 +35,25 @@ Mischen von *kursiv* und **fett**:
 ::: {}
   ------------------------------------------------------------------------------------------------------------------------ ---------- ---------- ---------- ----------
   Spalte 1                                                                                                                 Spalte 2   Spalte 3   Spalte 4   Spalte 5
-  a mit Fußnote^[1](#fnref-afe5af359945552208fbf5ed84906e3bf361427b){#fndef-afe5af359945552208fbf5ed84906e3bf361427b-0}^   b          c          d          e
+  a mit Fußnote^[1](#fnref-afe5af359945552208fbf5ed84906e3bf361427b)^   b          c          d          e
   ------------------------------------------------------------------------------------------------------------------------ ---------- ---------- ---------- ----------
 :::
 
-# Verlinken {#Verlinken}
+# Verlinken 
 
-## Wiki {#Wiki}
+## Wiki 
 
-[HilfeZumEditieren](HilfeZumEditieren) [InterWiki](http://moinmo.in/InterWiki "MoinMoin"){.interwiki}
+[HilfeZumEditieren](HilfeZumEditieren) [InterWiki](http://moinmo.in/InterWiki "MoinMoin")
 
-## Richtung Internet {#Richtung_Internet}
+## Richtung Internet 
 
-[http://purl.net/wiki/moin/](http://purl.net/wiki/moin/){.http} [Python](http://www.python.org/){.http}
+[http://purl.net/wiki/moin/](http://purl.net/wiki/moin/) [Python](http://www.python.org/)
 
 ## email
 
-[name@the.inter.net](mailto:name@the.inter.net){.mailto}
+[name@the.inter.net](mailto:name@the.inter.net)
 
-# Listen {#Listen}
+# Listen 
 
 - erstens
   1.  verschachtelt und numeriert
@@ -78,17 +70,16 @@ Mischen von *kursiv* und **fett**:
 
     erstens erstens erstens
 
-# InterWiki {#InterWiki}
+# InterWiki 
 
-[AFAIK](http://sunir.org/apps/meta.pl?wiki=JargonFile&redirect=AFAIK "JargonFile"){.interwiki}
+[AFAIK](http://sunir.org/apps/meta.pl?wiki=JargonFile&redirect=AFAIK "JargonFile")
 
-[readlink](http://www.FreeBSD.org/cgi/man.cgi?apropos=1&query=readlink "FreeBSDman"){.interwiki}
+[readlink](http://www.FreeBSD.org/cgi/man.cgi?apropos=1&query=readlink "FreeBSDman")
 
-# Zeichnungen {#Zeichnungen}
+# Zeichnungen 
 
-[![\[ATTACH\]](/wiki/europython/img/attach.png "[ATTACH]"){height="32" width="32"}]( "Create new drawing "meinezeichnung.tdraw (opens in new window)""){.nonexistent}
+[![\[ATTACH\]](/wiki/europython/img/attach.png "[ATTACH]")]( "Create new drawing "meinezeichnung.tdraw (opens in new window)"")
 
 ::: footnotes
-1.  []{#fnref-afe5af359945552208fbf5ed84906e3bf361427b}meine Fußnote ([1](#fndef-afe5af359945552208fbf5ed84906e3bf361427b-0))
+1.  []meine Fußnote ([1](#fndef-afe5af359945552208fbf5ed84906e3bf361427b-0))
 :::
-::::::

@@ -1,65 +1,70 @@
 # PythonSoftwareFoundation/BoardCandidates2012
 
-::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Candidates for the 2012 PSF Board of Directors
 
 The following people have been nominated as Directors of the Python Software Foundation for the term beginning in March 2012. Their self-written summaries follow.
 
 There are currently 13 seats on the Board of Directors (last changed in the 2010 PSF Members vote), but proposals are underway to decrease that number to 11 in the March 2012 members vote.
 
-::: {#nominees .contents .topic}
+::: 
 Nominees
 
-- [Steve Holden](#steve-holden){#id4 .reference .internal}
-- [Van Lindberg](#van-lindberg){#id5 .reference .internal}
-- [Tim Peters](#tim-peters){#id6 .reference .internal}
-- [Marc-Andre Lemburg](#marc-andre-lemburg){#id7 .reference .internal}
-- [Martin v. Löwis](#martin-v-lowis){#id8 .reference .internal}
-- [Jessica McKellar](#jessica-mckellar){#id9 .reference .internal}
-- [Jesse Noller](#jesse-noller){#id10 .reference .internal}
-- [David Mertz](#david-mertz){#id11 .reference .internal}
-- [Daniel Greenfeld](#daniel-greenfeld){#id12 .reference .internal}
-- [Andrew Kuchling](#andrew-kuchling){#id13 .reference .internal}
-- [Doug Napoleone](#doug-napoleone){#id14 .reference .internal}
-- [Brian Curtin](#brian-curtin){#id15 .reference .internal}
+- [Steve Holden](#steve-holden)
+- [Van Lindberg](#van-lindberg)
+- [Tim Peters](#tim-peters)
+- [Marc-Andre Lemburg](#marc-andre-lemburg)
+- [Martin v. Löwis](#martin-v-lowis)
+- [Jessica McKellar](#jessica-mckellar)
+- [Jesse Noller](#jesse-noller)
+- [David Mertz](#david-mertz)
+- [Daniel Greenfeld](#daniel-greenfeld)
+- [Andrew Kuchling](#andrew-kuchling)
+- [Doug Napoleone](#doug-napoleone)
+- [Brian Curtin](#brian-curtin)
 :::
 
 ::: topic
 Links
 
-- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html){.reference .external}
-- [2011 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html){.reference .external}
-- [2010 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html){.reference .external}
-- [2009 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2009.html){.reference .external}
-- [2008 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2008.html){.reference .external}
+- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html)
+- [2011 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html)
+- [2010 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html)
+- [2009 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2009.html)
+- [2008 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2008.html)
 :::
 
-::: {#steve-holden .section}
-### [Steve Holden](#id4){.toc-backref}
+::: 
+### [Steve Holden](#id4)
 
 *2011 Board Member.*
 
 I have been a board member since 2004, and the board has elected me as chairman each year since 2008. I am seeking one final year of office as a director, during which I would like to consolidate the structural and financial changes I have made over the last few years to ensure the Foundation\'s long-term stability.
 :::
 
-::: {#van-lindberg .section}
-### [Van Lindberg](#id5){.toc-backref}
+::: 
+### [Van Lindberg](#id5)
 
 *New Board Member.*
 
 (Nominated by Steve Holden.) I am a long-time Python user, having first started with version 1.4. Relative to the work of the PSF itself, I have been the PSF\'s legal counsel since 2007. 2012 will also be my fifth year working with the PyCon organizing committee; in 2008 and 2009 I ran sponsorship and publicity, and for the 2010-2011 cycle was the chair of PyCon US.
 :::
 
-::: {#tim-peters .section}
-### [Tim Peters](#id6){.toc-backref}
+::: 
+### [Tim Peters](#id6)
 
 *2011 Board Member.*
 
 I\'m again running under the banner of the venerable Institutional Memory Party (I\'ve served on the Board since its beginning). I\'m pleased with the Board\'s actions, and don\'t have ambitious visions for doing more. That may not be exciting, but it helps keep the PSF solvent ;-)
 :::
 
-::: {#marc-andre-lemburg .section}
-### [Marc-Andre Lemburg](#id7){.toc-backref}
+::: 
+### [Marc-Andre Lemburg](#id7)
 
 *2011 Board Member.*
 
@@ -100,16 +105,16 @@ During the last term, most of my energy went into the PR project to create a pro
 I\'d like to continue with the work started in 2010 and look forward to another year serving on the board.
 :::
 
-::: {#martin-v-lowis .section}
-### [Martin v. Löwis](#id8){.toc-backref}
+::: 
+### [Martin v. Löwis](#id8)
 
 *2011 Board Member*
 
 I will continue to work on PSF infrastructure issues, and represent the views of a core Python contributor to the board.
 :::
 
-::: {#jessica-mckellar .section}
-### [Jessica McKellar](#id9){.toc-backref}
+::: 
+### [Jessica McKellar](#id9)
 
 *New Board Member.*
 
@@ -119,36 +124,36 @@ I will continue to work on PSF infrastructure issues, and represent the views of
 
 Jessica is a kernel engineer living in Cambridge, MA. She works for Oracle by way of the recent acquisition of Ksplice, a software startup out of MIT.
 
-Jessica is a PSF member and is on the Outreach and Education Committee. Some actions she has taken as part of this committee include: \* conducting a [Python user group organizer survey](http://pyfound.blogspot.com/2011/06/tell-us-about-your-user-group.html){.http .reference .external} \* revamping the [PSF grants program documentation](http://www.python.org/psf/grants/){.http .reference .external} \* [promoting PyCon events to underrepresented communities](https://openhatch.org/blog/2012/beginning-pythonistas-present-a-poster-at-pycon-2012/){.https .reference .external}
+Jessica is a PSF member and is on the Outreach and Education Committee. Some actions she has taken as part of this committee include: \* conducting a [Python user group organizer survey](http://pyfound.blogspot.com/2011/06/tell-us-about-your-user-group.html) \* revamping the [PSF grants program documentation](http://www.python.org/psf/grants/) \* [promoting PyCon events to underrepresented communities](https://openhatch.org/blog/2012/beginning-pythonistas-present-a-poster-at-pycon-2012/)
 
-She is also an organizer for the [Boston Python user group](http://bostonpython.com){.http .reference .external}, the largest user group in the US, with over 1600 members. The user group runs monthly lecture-style events, monthly unstructured project nights, and weekend workshops. Jessica leads a beginners\' corner at the project nights and makes sure there is excellent content every month for and by Pythonistas of all programming backgrounds, including lectures, lightning talks, and opportunities to contribute to open source projects.
+She is also an organizer for the [Boston Python user group](http://bostonpython.com), the largest user group in the US, with over 1600 members. The user group runs monthly lecture-style events, monthly unstructured project nights, and weekend workshops. Jessica leads a beginners\' corner at the project nights and makes sure there is excellent content every month for and by Pythonistas of all programming backgrounds, including lectures, lightning talks, and opportunities to contribute to open source projects.
 
-She is the lead organizer, curriculum developer, and lecturer for the [Boston Python Workshop](http://bostonpythonworkshop.com){.http .reference .external}, an intro to Python workshop for women and their friends run under the auspices of the Boston Python user group. The workshop runs every 2 months and has run 5 times so far, helping over 200 learn Python and become a part of the local programming community. The workshops have 3 goals:
+She is the lead organizer, curriculum developer, and lecturer for the [Boston Python Workshop](http://bostonpythonworkshop.com), an intro to Python workshop for women and their friends run under the auspices of the Boston Python user group. The workshop runs every 2 months and has run 5 times so far, helping over 200 learn Python and become a part of the local programming community. The workshops have 3 goals:
 
 - To show new programmers and the Boston Python community examples of smart, confident, capable programmers of all backgrounds.
 - To bring new, awesome, diverse people into local Python programming communities through diversity and outreach events.
 - To inspire other people to run their own introductory workshops and outreach events, and to get more user groups thinking about diversity and outreach.
 
-The workshop material is all online and Creative Commons-licensed and has been used at intro to Python events around the world. [The PSF awarded the Boston Python Workshop a grant](http://pyfound.blogspot.com/2011/11/boston-python-workshop-psf-grant.html){.http .reference .external} to support the workshop as it continues to grow and to help 3 new user groups in the US bootstrap their own workshops. Jessica has travelled to Philadelphia to work with PhillyPUG on an outreach workshop as part of this grant.
+The workshop material is all online and Creative Commons-licensed and has been used at intro to Python events around the world. [The PSF awarded the Boston Python Workshop a grant](http://pyfound.blogspot.com/2011/11/boston-python-workshop-psf-grant.html) to support the workshop as it continues to grow and to help 3 new user groups in the US bootstrap their own workshops. Jessica has travelled to Philadelphia to work with PhillyPUG on an outreach workshop as part of this grant.
 
-She is a maintainer for the [Twisted](http://twistedmatrix.com){.http .reference .external} and [OpenHatch](http://openhatch.org/){.http .reference .external} Python projects. She is writing a [chapter on Twisted](http://www.aosabook.org/en/index.html#twisted){.http .reference .external} for The Architecture of Open Source Applications, is working with O\'Reilly to release a new edition of Twisted Network Programming Essentials, and is presenting a PyCon 2012 poster on Twisted as a case study in getting and retaining contributors to open source projects. Besides working on the code for the OpenHatch website and open source training missions, she helps run weekend workshops introducing college students to the tools and community around open source development as part of the [Open Source Comes to Campus](http://campus.openhatch.org/){.http .reference .external} OpenHatch program.
+She is a maintainer for the [Twisted](http://twistedmatrix.com) and [OpenHatch](http://openhatch.org/) Python projects. She is writing a [chapter on Twisted](http://www.aosabook.org/en/index.html#twisted) for The Architecture of Open Source Applications, is working with O\'Reilly to release a new edition of Twisted Network Programming Essentials, and is presenting a PyCon 2012 poster on Twisted as a case study in getting and retaining contributors to open source projects. Besides working on the code for the OpenHatch website and open source training missions, she helps run weekend workshops introducing college students to the tools and community around open source development as part of the [Open Source Comes to Campus](http://campus.openhatch.org/) OpenHatch program.
 :::
 
-::: {#jesse-noller .section}
-### [Jesse Noller](#id10){.toc-backref}
+::: 
+### [Jesse Noller](#id10)
 
 *2011 Board Member.*
 
 - I have been on the board since the 2010 election.
-- I did some stuff last year: [http://jessenoller.com/2011/12/30/2011-in-review-the-python-portion/](http://jessenoller.com/2011/12/30/2011-in-review-the-python-portion/){.http .reference .external}
+- I did some stuff last year: [http://jessenoller.com/2011/12/30/2011-in-review-the-python-portion/](http://jessenoller.com/2011/12/30/2011-in-review-the-python-portion/)
 - Got sponsorship/funding to get all new infrastructure for python.org
 - Got the RFP under way for the redesign and overhaul of python.org - stalled due to PyCon
 - Chaired PyCon 2012. Expect 1800 Attendees, over 120 sponsors and partners.
 - I need to write up future plans.
 :::
 
-::: {#david-mertz .section}
-### [David Mertz](#id11){.toc-backref}
+::: 
+### [David Mertz](#id11)
 
 *2011 Board Member.*
 
@@ -163,14 +168,14 @@ She is a maintainer for the [Twisted](http://twistedmatrix.com){.http .reference
 - Sometimes speaker at PyCon and OSCON. I have been an advocate for use of Python by several public-interest software projects, including in the voting software developed by the Open Voting Consortium (I was CTO and board member of that organization). I also have been a consultant with a number of notable Python-using organizations, at the margins helping to expand that use.
 :::
 
-::: {#daniel-greenfeld .section}
-### [Daniel Greenfeld](#id12){.toc-backref}
+::: 
+### [Daniel Greenfeld](#id12)
 
 *New Board Member.*
 
 Nominated by Jacob Kaplan-Moss.
 
-Daniel Greenfeld, aka **pydanny**, is a long-time Pythonista and a contributor to a variety of projects, mostly around the Python web space. He\'s been active in the Zope, Plone, and Django communities, has released a variety of [open source projects of his own](https://github.com/pydanny){.https .reference .external}, most recently [Open Comparison](http://opencomparison.org/){.http .reference .external}, the software behind [Django Packages](http://djangopackages.com/){.http .reference .external}.
+Daniel Greenfeld, aka **pydanny**, is a long-time Pythonista and a contributor to a variety of projects, mostly around the Python web space. He\'s been active in the Zope, Plone, and Django communities, has released a variety of [open source projects of his own](https://github.com/pydanny), most recently [Open Comparison](http://opencomparison.org/), the software behind [Django Packages](http://djangopackages.com/).
 
 This is what Danny has to say about his goals for being on the board:
 
@@ -191,8 +196,8 @@ Perhaps the greatest compliment I can give to Danny is this: we don\'t always ag
 
 ------------------------------------------------------------------------
 
-::: {#andrew-kuchling .section}
-### [Andrew Kuchling](#id13){.toc-backref}
+::: 
+### [Andrew Kuchling](#id13)
 
 *New Board Member.*
 
@@ -203,8 +208,8 @@ I\'m very pleased with the PSF\'s increased activity level for the past two year
 
 ------------------------------------------------------------------------
 
-::: {#doug-napoleone .section}
-### [Doug Napoleone](#id14){.toc-backref}
+::: 
+### [Doug Napoleone](#id14)
 
 *2011 Board Member.*
 
@@ -218,8 +223,8 @@ I am very pleased with the more active role the Board and the PSF in general has
 
 ------------------------------------------------------------------------
 
-::: {#brian-curtin .section}
-### [Brian Curtin](#id15){.toc-backref}
+::: 
+### [Brian Curtin](#id15)
 
 *New Board Member*
 
@@ -242,4 +247,3 @@ Please use the following format:
     Description.
     ----
 :::
-:::::::::::::::::

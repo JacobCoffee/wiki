@@ -1,6 +1,11 @@
 # HowToReleaseJython
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 These are just some rough notes on the steps needed to make a full release of Jython. I generally run ant full-build as a test beforehand, as well as testing many of these steps throughout, but since that isn\'t strictly necessary I\'m not including it here. full-build requires all of the optional jars for the build be available and named in ant.properties. See build.xml for more information.
 
 1.  Update files in trunk that have information on the current version
@@ -10,7 +15,7 @@ These are just some rough notes on the steps needed to make a full release of Jy
     4.  README
 2.  Run regrtest and the bugtests
 3.  Copy maint to a tag
-    1.  svn cp [https://jython.svn.sourceforge.net/svnroot/jython/branches/Release_2_2maint](https://jython.svn.sourceforge.net/svnroot/jython/branches/Release_2_2maint){.https} [https://jython.svn.sourceforge.net/svnroot/jython/tags/Release_2_2_1](https://jython.svn.sourceforge.net/svnroot/jython/tags/Release_2_2_1){.https}
+    1.  svn cp [https://jython.svn.sourceforge.net/svnroot/jython/branches/Release_2_2maint](https://jython.svn.sourceforge.net/svnroot/jython/branches/Release_2_2maint) [https://jython.svn.sourceforge.net/svnroot/jython/tags/Release_2_2_1](https://jython.svn.sourceforge.net/svnroot/jython/tags/Release_2_2_1)
 4.  build from tag
     1.  \"svn up\" to get the revision number incremented by the tagging above.
     2.  set local properties in ant.properties, mine for 2.5.1rc1:
@@ -28,7 +33,7 @@ These are just some rough notes on the steps needed to make a full release of Jy
 
     3.  create with a name in line with the version like 2.2rc1
 
-    4.  upload the built installer [https://frs.sourceforge.net/webupload](https://frs.sourceforge.net/webupload){.https} as documented on [http://apps.sourceforge.net/trac/sitedocs/wiki/Release%20files%20for%20download](http://apps.sourceforge.net/trac/sitedocs/wiki/Release%20files%20for%20download){.http}
+    4.  upload the built installer [https://frs.sourceforge.net/webupload](https://frs.sourceforge.net/webupload) as documented on [http://apps.sourceforge.net/trac/sitedocs/wiki/Release%20files%20for%20download](http://apps.sourceforge.net/trac/sitedocs/wiki/Release%20files%20for%20download)
 
     5.  associate the uploaded file with the new release
 
@@ -45,10 +50,9 @@ These are just some rough notes on the steps needed to make a full release of Jy
 
     2.  scp dist/jython-2.2-rc1-bundle.jar shell.sf.net:/home/groups/j/jy/jython/htdocs
 
-    3.  File a jira issue for the upload as described in \"Posting the request\" on [http://maven.apache.org/guides/mini/guide-central-repository-upload.html](http://maven.apache.org/guides/mini/guide-central-repository-upload.html){.http}
+    3.  File a jira issue for the upload as described in \"Posting the request\" on [http://maven.apache.org/guides/mini/guide-central-repository-upload.html](http://maven.apache.org/guides/mini/guide-central-repository-upload.html)
 8.  other actions after publishing
     1.  change the #jython irc channel topic
     2.  announce on twitter (as jython), irc channel, mailing lists, blog \...
     3.  add a new level in the bug tracker
     4.  update build.xml for trunk again
-:::

@@ -1,7 +1,12 @@
 # PyCon2006/Sprints/PythonCore
 
-::: {#content dir="ltr" lang="en"}
-# Possible Topics {#Possible_Topics}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Possible Topics 
 
 - Implementing PEPs
   - PEP 328 absolute/relative import
@@ -24,13 +29,13 @@
 - Patch/bug processing
   - Incorporate PEP content into the LaTeX docs
 
-  - Bugs to look at: [777884](http://bugs.python.org/issue777884 "SF"){.interwiki} (needs ruling from an XML/minidom maintainer)
+  - Bugs to look at: [777884](http://bugs.python.org/issue777884 "SF") (needs ruling from an XML/minidom maintainer)
 
-  - Patches to look at: [686545](http://bugs.python.org/issue686545 "SF"){.interwiki} (mailbox modification \-- SoC-supported work)
+  - Patches to look at: [686545](http://bugs.python.org/issue686545 "SF") (mailbox modification \-- SoC-supported work)
 
-  - Bugs/patches left over from last Bug Day ([PythonBugDayStatus](./PythonBugDayStatus.html){.nonexistent})
+  - Bugs/patches left over from last Bug Day ([PythonBugDayStatus](./PythonBugDayStatus.html))
 
-  - [BuildBot](BuildBot)-discovered bugs ([http://wiki.python.org/moin/BuildBot](http://wiki.python.org/moin/BuildBot){.http} and [http://www.python.org/dev/buildbot/](http://www.python.org/dev/buildbot/){.http})
+  - [BuildBot](BuildBot)-discovered bugs ([http://wiki.python.org/moin/BuildBot](http://wiki.python.org/moin/BuildBot) and [http://www.python.org/dev/buildbot/](http://www.python.org/dev/buildbot/))
 - Build
   - Rewrite setup.py (for simplification and easier customization)
 - Hash out bytes type
@@ -38,9 +43,8 @@
 - Implement final decision on outputting integers in different bases
 - rewrite setup.py
 
-# Attendees {#Attendees}
+# Attendees 
 
 - Brett Cannon
 - Thomas Wouters
 - John Ehresman (probably)
-:::

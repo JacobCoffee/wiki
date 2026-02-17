@@ -1,6 +1,11 @@
 # MethodDispatch
 
-::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 One pattern of ensuring that a Jython base class implemented in Java can call an `@ExposedMethod`{.backtick} that has potentially been overridden in Python is to have a pair of methods on the base class:
 
 - a `public`{.backtick} method named for the method to be overridden by the derived class.
@@ -13,9 +18,9 @@ Then the derived class overrides the super class method in the [standard fashion
 
 This is done the use of the `rest`{.backtick} directive in the derived template - e.g. a typical implementation is:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4b2479c87136ea464356491c81cf26c4cd4725d7 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1   base_class: PyDefaultDict
    2   want_dict: true
    3   ctr:
@@ -33,11 +38,11 @@ This is done the use of the `rest`{.backtick} directive in the derived template 
 :::
 ::::
 
-So the base class now defines an **@[ExposedMethod](./ExposedMethod.html){.nonexistent}**:
+So the base class now defines an **@[ExposedMethod](./ExposedMethod.html)**:
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-236f123439900b2b7ba81abcb73056a45077b6cb dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1      @ExposedMethod
    2      final PyObject defaultdict___missing__(PyObject key) {
    3          if (defaultFactory == Py.None) {
@@ -51,9 +56,9 @@ So the base class now defines an **@[ExposedMethod](./ExposedMethod.html){.nonex
 
 and the public method calls the `@ExposedMethod`{.backtick} directly like:
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-beac9761b4a3ebcf2d29ba8efd0c3524e2233764 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1      public PyObject __missing__(PyObject key) {
    2          return defaultdict___missing__(key);
    3      }
@@ -62,4 +67,3 @@ and the public method calls the `@ExposedMethod`{.backtick} directly like:
 ::::
 
 So if any method in the base class calls the `public`{.backtick} method it will result in standard Java dynamic method dispatch to a `Py*Derived`{.backtick} class if the instance in question has derived from the base class and that will call the overridden python method if it exists or default back to the base classes implementation via `super`{.backtick}.
-:::::::::

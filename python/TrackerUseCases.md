@@ -1,6 +1,11 @@
 # TrackerUseCases
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page describes various things I want to try with a candidate tracker.
 
 - Sign in as a developer and file a bug.
@@ -44,4 +49,3 @@ This page describes various things I want to try with a candidate tracker.
 ------------------------------------------------------------------------
 
 [CategoryTracker](CategoryTracker) [CategoryTracker](CategoryTracker)
-:::

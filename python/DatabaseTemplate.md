@@ -1,7 +1,12 @@
 # DatabaseTemplate
 
-::: {#content dir="ltr" lang="en"}
-# database name {#database_name}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# database name 
 
 URL
 
@@ -15,17 +20,17 @@ platforms
 
 :   
 
-## Pros {#Pros}
+## Pros 
 
-## Cons {#Cons}
+## Cons 
 
 ------------------------------------------------------------------------
 
-## DB API 2.0 Drivers {#DB_API_2.0_Drivers}
+## DB API 2.0 Drivers 
 
 (Delete if not applicable)
 
-### driver name {#driver_name}
+### driver name 
 
 URL
 
@@ -43,19 +48,19 @@ Python versions
 
 :   
 
-#### Extensions to DB API {#Extensions_to_DB_API}
+#### Extensions to DB API 
 
 (Delete if not applicable)
 
-#### Comments {#Comments}
+#### Comments 
 
 (Delete if not applicable)
 
-## Other Drivers {#Other_Drivers}
+## Other Drivers 
 
 (Delete if not applicable)
 
-### driver name {#driver_name-1}
+### driver name 
 
 URL
 
@@ -73,21 +78,20 @@ Python versions
 
 :   
 
-#### Programming Model {#Programming_Model}
+#### Programming Model 
 
 (Delete if not applicable)
 
-#### Comments {#Comments-1}
+#### Comments 
 
 (Delete if not applicable)
 
 ------------------------------------------------------------------------
 
-## Supported Python Applications {#Supported_Python_Applications}
+## Supported Python Applications 
 
 (Delete if not applicable)
 
 ------------------------------------------------------------------------
 
 [CategoryTemplate](CategoryTemplate)
-:::

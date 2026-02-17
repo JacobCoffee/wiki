@@ -1,17 +1,22 @@
 # PyQt/Creating a widget with a fixed aspect ratio
 
-::::: {#content dir="ltr" lang="en"}
-# Creating a widget with a fixed aspect ratio {#Creating_a_widget_with_a_fixed_aspect_ratio}
+```{admonition} Legacy Wiki Page
+:class: note
 
-On the `#pyqt`{.backtick} channel on [Freenode](http://freenode.net){.http}, `magicblaze007`{.backtick} asked for an example of a custom widget with a fixed aspect ratio.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-One place to look for information is the Qt Quarterly article, [Trading Height for Width](http://doc.qt.digia.com/qq/qq04-height-for-width.html){.http} which shows how this is done using C++ and Qt 3.
+# Creating a widget with a fixed aspect ratio 
+
+On the `#pyqt`{.backtick} channel on [Freenode](http://freenode.net), `magicblaze007`{.backtick} asked for an example of a custom widget with a fixed aspect ratio.
+
+One place to look for information is the Qt Quarterly article, [Trading Height for Width](http://doc.qt.digia.com/qq/qq04-height-for-width.html) which shows how this is done using C++ and Qt 3.
 
 Another example is shown here.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c31e49487f48d1a401a1c29a9914e6042139ecba dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import pyqtSignal, QSize, Qt
    3 from PyQt4.QtGui import *
@@ -86,4 +91,3 @@ Another example is shown here.
 ```
 :::
 ::::
-:::::

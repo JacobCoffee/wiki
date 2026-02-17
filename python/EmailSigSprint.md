@@ -1,7 +1,12 @@
 # EmailSigSprint
 
-::: {#content dir="ltr" lang="en"}
-### Potential plans for the EmailSigSprint {#Potential_plans_for_the_EmailSigSprint}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### Potential plans for the EmailSigSprint 
 
 Here are some things we could do during an email sprint. I\'m not sure whether there is 4 days worth of work here, or just two.
 
@@ -12,4 +17,3 @@ Here are some things we could do during an email sprint. I\'m not sure whether t
 - Implement support for more RFCs
 - Write a suite of email address validators that doesn\'t depend on rfc822.py and is more consistent with RFC 2822.
 - Other topics?
-:::

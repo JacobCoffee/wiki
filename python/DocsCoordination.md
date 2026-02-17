@@ -1,7 +1,12 @@
 # DocsCoordination
 
-::: {#content dir="ltr" lang="en"}
-# Coordination pages {#Coordination_pages}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Coordination pages 
 
 for the Python Documentation Team (see also [DocTools](DocTools)).
 
@@ -11,7 +16,6 @@ for the Python Documentation Team (see also [DocTools](DocTools)).
 
 - [/Committers](./DocsCoordination(2f)Committers.html) \-- who can commit changes to SVN
 
-### Archive {#Archive}
+### Archive 
 
 - [/Welcome](./DocsCoordination(2f)Welcome.html) \-- welcome email with first steps, useful info has been merged to separate Wiki pages
-:::

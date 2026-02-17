@@ -1,13 +1,18 @@
 # MoinPagesEditorGroup
 
-::: {#content dir="ltr" lang="en"}
-See [EditingOnMoinMaster](http://moinmoin.wikiwikiweb.de/EditingOnMoinMaster "MoinMoin"){.interwiki}.
+```{admonition} Legacy Wiki Page
+:class: note
 
-- [AlexGrönholm](./AlexGr(c3b6)nholm.html){.nonexistent}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+See [EditingOnMoinMaster](http://moinmoin.wikiwikiweb.de/EditingOnMoinMaster "MoinMoin").
+
+- [AlexGrönholm](./AlexGr(c3b6)nholm.html)
 
 - [AndrewKuchling](AndrewKuchling)
 
-- [BarryWarsaw](./BarryWarsaw.html){.nonexistent}
+- [BarryWarsaw](./BarryWarsaw.html)
 
 - [BerlinBrown](BerlinBrown)
 
@@ -19,21 +24,21 @@ See [EditingOnMoinMaster](http://moinmoin.wikiwikiweb.de/EditingOnMoinMaster "Mo
 
 - [ClarkUpdike](ClarkUpdike)
 
-- [FinnBock](./FinnBock.html){.nonexistent}
+- [FinnBock](./FinnBock.html)
 
 - [FrankWierzbicki](FrankWierzbicki)
 
-- [JamesAbley](./JamesAbley.html){.nonexistent}
+- [JamesAbley](./JamesAbley.html)
 
 - [JimBaker](JimBaker)
 
 - [JoshJuneau](JoshJuneau)
 
-- [KentJohnson](./KentJohnson.html){.nonexistent}
+- [KentJohnson](./KentJohnson.html)
 
-- [KevinButler](./KevinButler.html){.nonexistent}
+- [KevinButler](./KevinButler.html)
 
-- [LarryBugbee](./LarryBugbee.html){.nonexistent}
+- [LarryBugbee](./LarryBugbee.html)
 
 - [LaurentPloix](LaurentPloix)
 
@@ -43,23 +48,22 @@ See [EditingOnMoinMaster](http://moinmoin.wikiwikiweb.de/EditingOnMoinMaster "Mo
 
 - [NicholasRiley](NicholasRiley)
 
-- [NoelRappin](./NoelRappin.html){.nonexistent}
+- [NoelRappin](./NoelRappin.html)
 
-- [NunoLeitao](./NunoLeitao.html){.nonexistent}
+- [NunoLeitao](./NunoLeitao.html)
 
-- [OllieRutherfurd](./OllieRutherfurd.html){.nonexistent}
+- [OllieRutherfurd](./OllieRutherfurd.html)
 
 - [OtiHumbel](OtiHumbel)
 
-- [PaulBoddie](./PaulBoddie.html){.nonexistent}
+- [PaulBoddie](./PaulBoddie.html)
 
 - [PhilipMontgomery](PhilipMontgomery)
 
-- [RandyHudson](./RandyHudson.html){.nonexistent}
+- [RandyHudson](./RandyHudson.html)
 
 - [SamuelePedroni](SamuelePedroni)
 
-- [SeanMcGrath](./SeanMcGrath.html){.nonexistent}
+- [SeanMcGrath](./SeanMcGrath.html)
 
-- [ToddMoyer](./ToddMoyer.html){.nonexistent}
-:::
+- [ToddMoyer](./ToddMoyer.html)

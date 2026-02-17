@@ -1,7 +1,12 @@
 # PyOhio/Publicity
 
-::: {#content dir="ltr" lang="en"}
-# Publicity {#Publicity}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Publicity 
 
 These are just some of the things that the publicity team is responsible for:
 
@@ -11,23 +16,23 @@ These are just some of the things that the publicity team is responsible for:
 - Get flyers together to be handed out at user groups, events, etc.
 - Get a PR pack together for distribution.
 - List the event on community calendars:
-  - [Python Events Calendar](http://wiki.python.org/moin/PythonEvents){.http}
+  - [Python Events Calendar](http://wiki.python.org/moin/PythonEvents)
 
-  - [Community Megaphone](http://www.communitymegaphone.com){.http}
+  - [Community Megaphone](http://www.communitymegaphone.com)
 
-  - [Cleveland Tech Events](http://tinyurl.com/clevtecheventscalendar){.http}
+  - [Cleveland Tech Events](http://tinyurl.com/clevtecheventscalendar)
 
-  - [TechLife Columbus](http://www.meetup.com/techlifecolumbus/calendar/){.http}
+  - [TechLife Columbus](http://www.meetup.com/techlifecolumbus/calendar/)
 - Set up various social networking sites:
-  - [LinkedIn (networking group)](http://www.linkedin.com/groups?gid=1895625){.http}
+  - [LinkedIn (networking group)](http://www.linkedin.com/groups?gid=1895625)
 
-  - [LinkedIn (event)](http://events.linkedin.com/PyOhio/pub/77211){.http}
+  - [LinkedIn (event)](http://events.linkedin.com/PyOhio/pub/77211)
 
-  - [Twitter](http://www.twitter.com/pyohio){.http}
+  - [Twitter](http://www.twitter.com/pyohio)
 
-  - [CrowdVine](http://pyohio.crowdvine.com){.http}
+  - [CrowdVine](http://pyohio.crowdvine.com)
 
-  - [Facebook](http://www.facebook.com/home.php#/event.php?eid=70963182191&ref=ts){.http}
+  - [Facebook](http://www.facebook.com/home.php#/event.php?eid=70963182191&ref=ts)
 
 Some of the things that we would like to do include:
 
@@ -37,4 +42,3 @@ Some of the things that we would like to do include:
   - What are sprints?
   - What are lightning talks?
   - What are open spaces?
-:::

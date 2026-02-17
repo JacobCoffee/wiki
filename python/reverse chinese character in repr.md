@@ -1,6 +1,11 @@
 # reverse chinese character in repr
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
     # This program reverses the hex code in the repr of any value back into chinese character.
     # If you find any problem, please tell me.
     # author: Simeon Chaos simeon.chaos@gmail.com
@@ -65,4 +70,3 @@
 ------------------------------------------------------------------------
 
 [CategoryFaq](CategoryFaq)
-:::

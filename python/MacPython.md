@@ -1,7 +1,12 @@
 # MacPython
 
-::: {#content dir="ltr" lang="en"}
-# Documentation {#Documentation}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Documentation 
 
 ------------------------------------------------------------------------
 
@@ -21,13 +26,13 @@
 
 - [/Leopard](./MacPython(2f)Leopard.html) (Mac OS X 10.5.x)
 
-# Community {#Community}
+# Community 
 
 ------------------------------------------------------------------------
 
-There\'s a new IRC chat room ( #macpython on irc.freenode.net ) for development of/with MacPython. see the [MacPythonChannel](./MacPythonChannel.html){.nonexistent} page for more information.
+There\'s a new IRC chat room ( #macpython on irc.freenode.net ) for development of/with MacPython. see the [MacPythonChannel](./MacPythonChannel.html) page for more information.
 
-# Interesting Projects {#Interesting_Projects}
+# Interesting Projects 
 
 ------------------------------------------------------------------------
 
@@ -49,7 +54,7 @@ MacPython projects (that have additional information available on this wiki):
 
 - [/aeve](./MacPython(2f)aeve.html)
 
-- [/TecManager](./MacPython(2f)TecManager.html){.nonexistent}
+- [/TecManager](./MacPython(2f)TecManager.html)
 
 - [/LaunchServices](./MacPython(2f)LaunchServices.html)
 
@@ -65,7 +70,7 @@ MacPython projects (that have additional information available on this wiki):
 
 - [/AppscriptModule](./MacPython(2f)AppscriptModule.html)
 
-# People {#People}
+# People 
 
 ------------------------------------------------------------------------
 
@@ -93,13 +98,13 @@ MacPython contributors and module authors (incomplete list, in no particular ord
 
 - [ErikVanBlokland](ErikVanBlokland)
 
-- [TalLeming](./TalLeming.html){.nonexistent}
+- [TalLeming](./TalLeming.html)
 
 - [BillBumgarner](BillBumgarner)
 
-- [SteveMajewski](./SteveMajewski.html){.nonexistent}
+- [SteveMajewski](./SteveMajewski.html)
 
-- [LeleGaifax](./LeleGaifax.html){.nonexistent}
+- [LeleGaifax](./LeleGaifax.html)
 
 - [DonovanPreston](DonovanPreston)
 
@@ -111,5 +116,4 @@ MacPython contributors and module authors (incomplete list, in no particular ord
 
 ------------------------------------------------------------------------
 
-[CategoryMac](./CategoryMac.html){.nonexistent}
-:::
+[CategoryMac](./CategoryMac.html)

@@ -1,23 +1,28 @@
 # SSL
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 SSL stands for **Secure Sockets Layer** and is designed to create secure connection between client and server. Secure means that connection is encrypted and therefore protected from eavesdropping. It also allows to validate server identity.
 
-### SSL support status {#SSL_support_status}
+### SSL support status 
 
-- **ssl** module (internal for Python 2.6+, external for Python 2.5 - [http://pypi.python.org/pypi/ssl](http://pypi.python.org/pypi/ssl){.http}). Unfortunately, there are no external binaries for Python 2.5 on Windows (and that makes [AppEngine](AppEngine) uploads insecure).
+- **ssl** module (internal for Python 2.6+, external for Python 2.5 - [http://pypi.python.org/pypi/ssl](http://pypi.python.org/pypi/ssl)). Unfortunately, there are no external binaries for Python 2.5 on Windows (and that makes [AppEngine](AppEngine) uploads insecure).
 
   - **ssl** doesn\'t validate server identity and hence vulnerable to MITM attack by default (read below).
 
 - **pyOpenSSL**, external module for Python 2.3+, doesn\'t validate server identity, vulnerable to MITM attack by default.
 
-There is a serious security issue with **ssl** and **pyOpenSSL** libraries that provide SSL support. They may require valid certificate from server, but do not check it actually belongs to this server. This allows successful Man-in-the-middle attack using valid certificate from other site - [http://bugs.python.org/issue1589](http://bugs.python.org/issue1589){.http} Libraries validate that certificate is correct and correctly signed by root certificate, but it does not check that site name matches the name specified in certificate.
+There is a serious security issue with **ssl** and **pyOpenSSL** libraries that provide SSL support. They may require valid certificate from server, but do not check it actually belongs to this server. This allows successful Man-in-the-middle attack using valid certificate from other site - [http://bugs.python.org/issue1589](http://bugs.python.org/issue1589) Libraries validate that certificate is correct and correctly signed by root certificate, but it does not check that site name matches the name specified in certificate.
 
-### Validating server identity with ssl module {#Validating_server_identity_with_ssl_module}
+### Validating server identity with ssl module 
 
 Client need to connect to server over SSL, fetch its certificate, check that the certificate is valid (signed properly) and belongs to this server (server name).
 
-Let\'s illustrate **ssl** vulnerability in Python 2.x versions. The following snippet should fail - it replaces HOST \"www.google.com\" to connect to with its IP address. If you try to use this IP in Chrome like [https://74.125.232.50](https://74.125.232.50){.https} - it will show an error, but **ssl** library will not.
+Let\'s illustrate **ssl** vulnerability in Python 2.x versions. The following snippet should fail - it replaces HOST \"www.google.com\" to connect to with its IP address. If you try to use this IP in Chrome like [https://74.125.232.50](https://74.125.232.50) - it will show an error, but **ssl** library will not.
 
     import socket
     import ssl
@@ -44,7 +49,7 @@ Let\'s illustrate **ssl** vulnerability in Python 2.x versions. The following sn
       ca_certs="cacerts.txt"
     )
 
-You will need \"cacerts.txt\" file that contains root certificates placed alongside the script - feel free to use the one attached to this page or see below how to get an updated list. To check that certificate validation works - use [https://www.debian-administration.org/](https://www.debian-administration.org/){.https} in HOST name. This site\'s certificate is not signed by any root certificates from \"cacerts.txt\", so you will get an error.
+You will need \"cacerts.txt\" file that contains root certificates placed alongside the script - feel free to use the one attached to this page or see below how to get an updated list. To check that certificate validation works - use [https://www.debian-administration.org/](https://www.debian-administration.org/) in HOST name. This site\'s certificate is not signed by any root certificates from \"cacerts.txt\", so you will get an error.
 
 To validate that a certificate matches requested site, you need to check *commonName* field in the *subject* of the certificate. This information can be accessed with *getpeercert()* method of wrapped socket.
 
@@ -84,7 +89,7 @@ To validate that a certificate matches requested site, you need to check *common
 
 That\'s it.
 
-### Validating server certificate with pyOpenSSL module {#Validating_server_certificate_with_pyOpenSSL_module}
+### Validating server certificate with pyOpenSSL module 
 
     import socket
     from OpenSSL import SSL
@@ -123,13 +128,12 @@ That\'s it.
     sock.connect((HOST, PORT))
     sock.do_handshake()
 
-### Validate certificate expiration {#Validate_certificate_expiration}
+### Validate certificate expiration 
 
 Needs to be researched if Python SSL libraries validate certificate expiration times correctly. Entrypoint: certificate fields *notBefore* and *notAfter*.
 
-### Get updated list of root certificates {#Get_updated_list_of_root_certificates}
+### Get updated list of root certificates 
 
-You will need the latest version of certificate data from [http://hg.mozilla.org/mozilla-central/file/tip/security/nss/lib/ckfw/builtins/certdata.txt](http://hg.mozilla.org/mozilla-central/file/tip/security/nss/lib/ckfw/builtins/certdata.txt){.http} and convert it to PEM format by any of available tools.
+You will need the latest version of certificate data from [http://hg.mozilla.org/mozilla-central/file/tip/security/nss/lib/ckfw/builtins/certdata.txt](http://hg.mozilla.org/mozilla-central/file/tip/security/nss/lib/ckfw/builtins/certdata.txt) and convert it to PEM format by any of available tools.
 
-Or just grab the latest version from [http://curl.haxx.se/ca/cacert.pem](http://curl.haxx.se/ca/cacert.pem){.http}
-:::
+Or just grab the latest version from [http://curl.haxx.se/ca/cacert.pem](http://curl.haxx.se/ca/cacert.pem)

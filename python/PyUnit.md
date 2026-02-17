@@ -1,17 +1,22 @@
 # PyUnit
 
-::::: {#content dir="ltr" lang="en"}
-# PyUnit {#PyUnit-1}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PyUnit 
 
 PyUnit is an easy way to create unit testing programs and [UnitTests](UnitTests) with Python. (Note that docs.python.org uses the name \"unittest\", which is also the module name.)
 
-## Basic Example {#Basic_Example}
+## Basic Example 
 
 Here\'s a basic example, making use of standard PyUnit conventions.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-717871cbdea3bbc6a1b935df41988a7805ccbb13 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import unittest
    2 from foobarbaz import Foo # code from module you're testing
    3 
@@ -58,21 +63,20 @@ Here\'s a basic example, making use of standard PyUnit conventions.
 :::
 ::::
 
-For more details, see [the PyUnit manual](http://pyunit.sourceforge.net/pyunit.html){.http} and \"unittest\" at [docs.python.org](https://docs.python.org/3.6/library/unittest.html){.https}.
+For more details, see [the PyUnit manual](http://pyunit.sourceforge.net/pyunit.html) and \"unittest\" at [docs.python.org](https://docs.python.org/3.6/library/unittest.html).
 
-## See Also {#See_Also}
+## See Also 
 
-- [SourceForge.net PyUnit site](http://pyunit.sourceforge.net){.http}
+- [SourceForge.net PyUnit site](http://pyunit.sourceforge.net)
 
-- [Using Section of the PyUnit manual](http://pyunit.sourceforge.net/pyunit.html#USING){.http}
+- [Using Section of the PyUnit manual](http://pyunit.sourceforge.net/pyunit.html#USING)
 
-- [Dive into Python](https://www.cmi.ac.in/~madhavan/courses/prog2-2012/docs/diveintopython3/unit-testing.html){.https} chapter on unit testing
+- [Dive into Python](https://www.cmi.ac.in/~madhavan/courses/prog2-2012/docs/diveintopython3/unit-testing.html) chapter on unit testing
 
 - [UnitTests](UnitTests)
 
 ------------------------------------------------------------------------
 
-# Discussion {#Discussion}
+# Discussion 
 
 - (none yet!)
-:::::

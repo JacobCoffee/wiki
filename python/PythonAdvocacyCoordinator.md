@@ -1,7 +1,12 @@
 # PythonAdvocacyCoordinator
 
-::: {#content dir="ltr" lang="en"}
-In mid-2006, the PSF agreed to hire [JeffreyRush](JeffreyRush) for full-time work on [Advocacy](Advocacy). The contract was renewed for another six months starting March 15, 2007, along with a [list of tasks to tackle](http://www.python.org/psf/grants/advocacy/revised-tasks.pdf){.http}.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+In mid-2006, the PSF agreed to hire [JeffreyRush](JeffreyRush) for full-time work on [Advocacy](Advocacy). The contract was renewed for another six months starting March 15, 2007, along with a [list of tasks to tackle](http://www.python.org/psf/grants/advocacy/revised-tasks.pdf).
 
 ------------------------------------------------------------------------
 
@@ -23,7 +28,7 @@ Current Tasks:
 
 - Hold another online meeting of the Usergroup Support Committee.
 
-- Use the [www.python.org mockup area](http://www.dfwpython.org:8000/){.http} to test some proposed changes, re a \"spotlight\" topic and a \"get involved\" feature, and get feedback from the community.
+- Use the [www.python.org mockup area](http://www.dfwpython.org:8000/) to test some proposed changes, re a \"spotlight\" topic and a \"get involved\" feature, and get feedback from the community.
 
 - Decide how to create a \"spotlight\" box on www.python.org, in consultation with the pydotorg group.
 
@@ -39,9 +44,8 @@ Existing Challenges (most recent at top):
 
 ------------------------------------------------------------------------
 
-For active discussion on advocating the use of Python, please join the [Advocacy mailing list](http://mail.python.org/mailman/listinfo/advocacy){.http} and visit the [Advocacy - Get Involved!](http://advocacy.python.org/getinvolved){.http} site.
+For active discussion on advocating the use of Python, please join the [Advocacy mailing list](http://mail.python.org/mailman/listinfo/advocacy) and visit the [Advocacy - Get Involved!](http://advocacy.python.org/getinvolved) site.
 
 ------------------------------------------------------------------------
 
 [CategoryAdvocacy](CategoryAdvocacy) [CategoryAdvocacy](CategoryAdvocacy)
-:::

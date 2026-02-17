@@ -1,6 +1,11 @@
 # PythonLibraryReference/ThePythonProfiler/ReferenceManual
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [Python Library Reference](PythonLibraryReference)
 
 [The Python Profiler](./PythonLibraryReference(2f)ThePythonProfiler.html)
@@ -11,11 +16,10 @@
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-# 10.5 Instant Reference Manual {#A10.5_Instant_Reference_Manual}
+# 10.5 Instant Reference Manual 
 
-## 10.5.1 The Stats Class {#A10.5.1_The_Stats_Class}
+## 10.5.1 The Stats Class 
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-::::

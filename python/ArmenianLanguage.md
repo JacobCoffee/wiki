@@ -1,11 +1,16 @@
 # ArmenianLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Armenian
 
 ISO 639-1 Code: hy
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -27,11 +32,11 @@ Where these pages really need help:
 
 **Հայերեն լեզու**
 
-[Armenian in snippet courtesy of Hasmik Gharibyan]{.comment style="display:none"}
+[Armenian in snippet courtesy of Hasmik Gharibyan]
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-9f88f5e746c016a4d6561cf3376aec89cc408834 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # python 3.0/3.1
    2 # English                   
    3 to_say = ['hello', 
@@ -56,7 +61,6 @@ Where these pages really need help:
 :::
 ::::
 
-[Python versus C++ discussion on forum (no code)](http://www.akumb.am/showthread.php?p=1783729){.http}
+[Python versus C++ discussion on forum (no code)](http://www.akumb.am/showthread.php?p=1783729)
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode)
-:::::

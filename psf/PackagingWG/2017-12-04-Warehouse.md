@@ -1,6 +1,11 @@
 # PackagingWG/2017-12-04-Warehouse
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 - Warehouse kickoff meeting, 12-04-2017
       -------------------------------------
       Attending:
@@ -50,4 +55,3 @@
        - It would be useful to have some smaller feature-based milestones to use to organize our activity, especially to help parallelize people's work. The basic division for parallelization is probably (a) user based interactions (being able to reset your password, manage your projects and releases through Warehouse) and infrastructure (infrastructure and deployment on new hosting).
 
          Our APIs work, but aren't robust enough for the amount of traffic that would flow through once we redirect pypi.python.org. And we can split up things we need in order for pip install to work (for users) and things we need for the UI to be redirected (features for maintainers). The UI side is where the bulk of the work is less done, primarily UI flows around management and similar tasks.
-:::

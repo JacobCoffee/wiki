@@ -1,6 +1,11 @@
 # PoundPythonWeb/mod_python
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 At [#python.web](PoundPythonWeb) we warn against using mod_python. Here\'s a handful of the reasons:
 
 1.  It complicates your upgrade process, as versions of Python, Apache, and mod_python must be coordinated. The appropriate versions are not always available for some combinations.
@@ -19,5 +24,4 @@ At [#python.web](PoundPythonWeb) we warn against using mod_python. Here\'s a han
 
 8.  Using nginx as a front-end is usually a more speedy and flexible solution.
 
-9.  When using mod_python.publisher you have to keep in mind that any object globaly accessible with string representation is exposed to the web except you add an underscore in front. If not thought on ahead this kills your code in notime (so make sure to read this first ![:))](/wiki/europython/img/smile3.png ":))"){height="16" width="16"}
-:::
+9.  When using mod_python.publisher you have to keep in mind that any object globaly accessible with string representation is exposed to the web except you add an underscore in front. If not thought on ahead this kills your code in notime (so make sure to read this first ![:))](/wiki/europython/img/smile3.png ":))")

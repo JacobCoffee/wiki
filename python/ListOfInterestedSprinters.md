@@ -1,7 +1,12 @@
 # ListOfInterestedSprinters
 
-::: {#content dir="ltr" lang="en"}
-### People who are interested in sprinting {#People_who_are_interested_in_sprinting}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### People who are interested in sprinting 
 
 - Jeremy Hylton
 
@@ -26,4 +31,3 @@
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon)
-:::

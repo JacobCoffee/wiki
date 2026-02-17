@@ -1,9 +1,14 @@
 # CollectionsIntegration/PySequence
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Notes/Discussion/Decisions on having `PySequence`{.backtick} implement `java.util.List`{.backtick}\...
 
-### Topics {#Topics}
+### Topics 
 
 - [InitModule](./CollectionsIntegration(2f)PySequence.html#initmodule)
 
@@ -25,4 +30,3 @@ This wasn\'t a case of over-commenting, just a case of not maintaining the comme
 \</whine\>
 
 Of course, if I knew more about the code to begin with, I probably would have figured it out faster. But the comments are supposed to be there help the neophytes, no?
-:::

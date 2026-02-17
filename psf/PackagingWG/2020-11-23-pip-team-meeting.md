@@ -1,6 +1,11 @@
 # PackagingWG/2020-11-23-pip-team-meeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Tuesday 23 November Participants
 
 - Nicole
@@ -31,7 +36,7 @@ Agenda
     - continuing to summarise research finds we have
     - no blockers right now
 
-  - Q from Pradyun: has nicole seen the Matomo PR/discussion? [https://github.com/pypa/pip/issues/8517#issuecomment-730373194](https://github.com/pypa/pip/issues/8517#issuecomment-730373194){.https}
+  - Q from Pradyun: has nicole seen the Matomo PR/discussion? [https://github.com/pypa/pip/issues/8517#issuecomment-730373194](https://github.com/pypa/pip/issues/8517#issuecomment-730373194)
 
     - ? what is blocking it being merged?
       - consensus
@@ -55,4 +60,3 @@ Agenda
 - discussion of 20.3 release - deferred till tomorrow
 
 - discussion of prepping for UX training - deferred till tomorrow
-:::

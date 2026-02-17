@@ -1,7 +1,12 @@
 # satyag
 
-::: {#content dir="ltr" lang="en"}
-==Satyaakam Goswami aka satyag was dingo before i lost my nick ![;-)](/wiki/europython/img/smile4.png ";-)"){height="16" width="16"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+==Satyaakam Goswami aka satyag was dingo before i lost my nick ![;-)](/wiki/europython/img/smile4.png ";-)")
 
 - I am Free and Open Source Software consultant from India focussing on Business and IT infrastructure Apps
 
@@ -11,7 +16,7 @@
 
 ==Profile==
 
-- [http://www.linkedin.com/in/satyaakam](http://www.linkedin.com/in/satyaakam){.http}
+- [http://www.linkedin.com/in/satyaakam](http://www.linkedin.com/in/satyaakam)
 
 ==My Passion==
 
@@ -19,9 +24,8 @@
 
 ==My Blog==
 
-- [http://www.satyaakam.net](http://www.satyaakam.net){.http}
+- [http://www.satyaakam.net](http://www.satyaakam.net)
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

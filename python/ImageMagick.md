@@ -1,11 +1,16 @@
 # ImageMagick
 
-::: {#content dir="ltr" lang="en"}
-ImageMagick see [http://www.imagemagick.org/](http://www.imagemagick.org/){.http} ![;)](/wiki/europython/img/smile4.png ";)"){height="16" width="16"}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Download: [http://www.imagemagick.org/download/python/](http://www.imagemagick.org/download/python/){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-Book on ImageMagick see : [http://www.packtpub.com/imagemagick/book](http://www.packtpub.com/imagemagick/book){.http}
+ImageMagick see [http://www.imagemagick.org/](http://www.imagemagick.org/) ![;)](/wiki/europython/img/smile4.png ";)")
+
+Download: [http://www.imagemagick.org/download/python/](http://www.imagemagick.org/download/python/)
+
+Book on ImageMagick see : [http://www.packtpub.com/imagemagick/book](http://www.packtpub.com/imagemagick/book)
 
 [PythonMagick](PythonMagick) is the Python binding of the ImageMagick library.
 
@@ -13,7 +18,7 @@ ImageMagick® is a free software suite to create, edit, and compose bitmap image
 
 ImageMagick is free software: it is delivered with full source code and can be freely used, copied, modified and distributed. Its license is compatible with the GPL. It runs on all major operating systems.
 
-Most of the functionality of ImageMagick can be used interactively from the command line; more often, however, the features are used from programs written in the programming languages C, Ch, C++, Java, Perl, PHP, Python, Ruby, Tcl/Tk, for which ready-made ImageMagick interfaces ([PerlMagick](./PerlMagick.html){.nonexistent}, Magick++, [PythonMagick](PythonMagick), [MagickWand](./MagickWand.html){.nonexistent} for PHP, RMagick, [TclMagick](./TclMagick.html){.nonexistent}, and JMagick) are available. This makes it possible to modify or create images automatically and dynamically.
+Most of the functionality of ImageMagick can be used interactively from the command line; more often, however, the features are used from programs written in the programming languages C, Ch, C++, Java, Perl, PHP, Python, Ruby, Tcl/Tk, for which ready-made ImageMagick interfaces ([PerlMagick](./PerlMagick.html), Magick++, [PythonMagick](PythonMagick), [MagickWand](./MagickWand.html) for PHP, RMagick, [TclMagick](./TclMagick.html), and JMagick) are available. This makes it possible to modify or create images automatically and dynamically.
 
 ImageMagick supports many image formats (over 90 major formats) including formats like GIF, JPEG, JPEG-2000, PNG, PDF, PhotoCD, TIFF, and DPX.
 
@@ -28,4 +33,3 @@ Here are just a few examples of what ImageMagick can do:
 - Draw shapes or text on an image
 - Decorate an image with a border or frame
 - Describe the format and characteristics of an image
-:::

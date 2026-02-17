@@ -1,7 +1,11 @@
 # Registrations Available
 
-::: {#content dir="ltr" lang="en"}
-# Unable to attend at last minute, looking to sell registration {#Unable_to_attend_at_last_minute.2C_looking_to_sell_registration}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Unable to attend at last minute, looking to sell registration 
 
 List of people with available registrations:
-:::

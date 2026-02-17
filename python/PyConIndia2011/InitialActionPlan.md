@@ -1,7 +1,12 @@
 # PyConIndia2011/InitialActionPlan
 
-::: {#content dir="ltr" lang="en"}
-# PyCon India 2011 Action Plan {#PyCon_India_2011_Action_Plan}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PyCon India 2011 Action Plan 
 
 - Overall calendar
   - Branding
@@ -21,7 +26,7 @@
 - Sponsorships
   - FOSEE
 
-  - [ZeOmega](./ZeOmega.html){.nonexistent}
+  - [ZeOmega](./ZeOmega.html)
 
   - PSF
 
@@ -41,7 +46,7 @@
   - Around 1L left over.
 
 - Coordinators
-  - We need separate coordinators for each major area. [PyCon India Speaker Notes](http://wiki.python.org/moin/PyConIndiaSpeakerNotes){.http}
+  - We need separate coordinators for each major area. [PyCon India Speaker Notes](http://wiki.python.org/moin/PyConIndiaSpeakerNotes)
 
   - Delegates
 
@@ -66,9 +71,8 @@
   - Delegate registration to doattend.com. Great job with Ruby Conf India
     - Will take this up, Shalin Jain who runs doattend.com is a good friend \~ kausikram
 
-- [WiFi](./WiFi.html){.nonexistent}
+- [WiFi](./WiFi.html)
 
-  - Let\'s hook in someone like [AirTel](./AirTel.html){.nonexistent}?
+  - Let\'s hook in someone like [AirTel](./AirTel.html)?
 
   - **Hire enterprise grade wireless routers** - Sriram from ThoughtWorks suggested this.
-:::

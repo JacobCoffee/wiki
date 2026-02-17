@@ -1,7 +1,12 @@
 # CategoryPyConSpeakerPage
 
-:::: {#content dir="ltr" lang="en"}
-A category for [PyConSpeakers](./PyConSpeakers.html){.nonexistent} to put their pages in
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+A category for [PyConSpeakers](./PyConSpeakers.html) to put their pages in
 
 ::: searchresults
 1.  [**CategoryPyConSpeakerPage**](./CategoryPyConSpeakerPage.html?highlight=%28CategoryPyConSpeakerPage%29)
@@ -17,4 +22,3 @@ A category for [PyConSpeakers](./PyConSpeakers.html){.nonexistent} to put their 
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon)
-::::

@@ -1,16 +1,21 @@
 # BangPypers/Meeting17May2009
 
-::: {#content dir="ltr" lang="en"}
-## Details {#Details}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Details 
 
 - Venue: Barista, Church Street - Opposite Java City (off Brigade road), Bangalore
 - Time: 5pm to 7pm on 17 May 2009
 
-## Agenda {#Agenda}
+## Agenda 
 
 - Discuss [PyCon](PyCon) India (Follow up on the points from the last meeting)
 
-## Participants {#Participants}
+## Participants 
 
 - Anand Chitipothu
 - S Ramdas
@@ -18,13 +23,13 @@
 - Noufal Ibrahim
 - Puneeth
 
-## Summary {#Summary}
+## Summary 
 
-### Attendees {#Attendees}
+### Attendees 
 
 Anand Chitipothu, Senthil Kumaran, Noufal Ibrahim, Srikanth Gaikwad, Puneeth, Kamal Govindraj
 
-### General points {#General_points}
+### General points 
 
 - No keynote speaker
   - We are not planning to have a keynote speaker for now.
@@ -38,16 +43,16 @@ Anand Chitipothu, Senthil Kumaran, Noufal Ibrahim, Srikanth Gaikwad, Puneeth, Ka
 
 - We are planning to have a small [PyCon](PyCon) India Logo Design contest. Noufal will mail the list with the details.
 
-### From last meeting {#From_last_meeting}
+### From last meeting 
 
-#### Venue (Anand C.) {#Venue_.28Anand_C..29}
+#### Venue (Anand C.) 
 
 - IISc. is available and confirmed.
 - There are no expenses to consider
 - As for food, there is a a restaurant inside IISc. which might cater food. This has to be investigated.
 - Wireless setup has to investigated
 
-#### Mailing list and Website (Anand Pillai (along with Kenneth)) {#Mailing_list_and_Website_.28Anand_Pillai_.28along_with_Kenneth.29.29}
+#### Mailing list and Website (Anand Pillai (along with Kenneth)) 
 
 - The website is the gating point for us to being publicity and marketing.
 
@@ -62,24 +67,23 @@ Anand Chitipothu, Senthil Kumaran, Noufal Ibrahim, Srikanth Gaikwad, Puneeth, Ka
 
 - Noufal will follow up and get the details from Anand and Kenneth.
 
-#### Publicity (Senthil) {#Publicity_.28Senthil.29}
+#### Publicity (Senthil) 
 
 - Mailing details of the event to everyone
 - We can actually start on proper publicity only after we get the site up.
 - Puneeth mentioned that colleges need to be targetted as many of the budding programmers will be there. Noufal will create a quick list of colleges and send it out to the list which can be expanded and we can contact them when the site is ready.
 
-#### Registration of a non-profit (Ramdas) {#Registration_of_a_non-profit_.28Ramdas.29}
+#### Registration of a non-profit (Ramdas) 
 
 - Check the feasibility of registering a non-profit which we can use to handle financial and publicity matters.
 - Senthil will check with Ramdas about the status.
 
-### Other things to do that came up {#Other_things_to_do_that_came_up}
+### Other things to do that came up 
 
-#### Possible people to contact {#Possible_people_to_contact}
+#### Possible people to contact 
 
 - There might be people who can contribute their experiences to the community as a whole.
 
 ------------------------------------------------------------------------
 
 [CategoryPythonIndia](CategoryPythonIndia)
-:::

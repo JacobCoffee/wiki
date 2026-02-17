@@ -1,9 +1,14 @@
 # IPSS/CommitteeResolutions
 
-::::::: {#content dir="ltr" lang="en"}
-# Resolutions of IPSS Committee {#Resolutions_of_IPSS_Committee}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## 1. Resolution no 1 {#Resolution_no_1}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Resolutions of IPSS Committee 
+
+## 1. Resolution no 1 
 
 Resolution passed by the Committee of the Indian Python Software Society at their meeting held on the 12th day of April 2010:
 
@@ -33,7 +38,7 @@ Signed
   ------------------------ ------------------
 :::
 
-## 2. Resolution no 2 {#Resolution_no_2}
+## 2. Resolution no 2 
 
 Resolution passed by the Committee of the Indian Python Software Society at their meeting held on the 9th day of July 2010:
 
@@ -59,7 +64,7 @@ Signed
   ------------------------ ------------------
 :::
 
-## 3. Resolution no 3 {#Resolution_no_3}
+## 3. Resolution no 3 
 
 Resolution passed by the Committee of the Indian Python Software Society at their meeting held on the 4th day of September 2010:
 
@@ -69,11 +74,11 @@ Resolved that
 2.  That the draft notice for the AGM given below be accepted
 3.  That the register of members be closed from 9 pm on Monday the 6th of September till 9 pm on Saturday the 26th of September.
 
-### 3.1. Draft Notice for the 1st AGM {#Draft_Notice_for_the_1st_AGM}
+### 3.1. Draft Notice for the 1st AGM 
 
 The first Annual General Body Meeting of the IPSS will be held at 7 pm at the MS Ramaiah College of Engineering, Bangalore. All members as well as anyone interested in the society are welcome to attend.
 
-#### 3.1.1. Agenda {#Agenda}
+#### 3.1.1. Agenda 
 
 - Welcome address by the President
 - Annual report for the year 2009-2010 by the Secretary
@@ -103,7 +108,7 @@ Signed
   ------------------------ -----------------
 :::
 
-## 4. Resolution no 4 {#Resolution_no_4}
+## 4. Resolution no 4 
 
 Resolution passed by the Committee of the Indian Python Software Society at their meeting held on the 20th day of July 2011:
 
@@ -113,11 +118,11 @@ Resolved that
 2.  That the draft notice for the AGM given below be accepted
 3.  That the register of members be closed from 9 pm on Saturday the 27th of August till 9 pm on Saturday the 17th of September.
 
-### 4.1. Draft Notice for the 2nd AGM {#Draft_Notice_for_the_2nd_AGM}
+### 4.1. Draft Notice for the 2nd AGM 
 
 The second Annual General Body Meeting of the IPSS will be held at 17th September 2011 at the Symbiosis Pune at 6 pm. All members as well as anyone interested in the society are welcome to attend.
 
-#### 4.1.1. Agenda {#Agenda-1}
+#### 4.1.1. Agenda 
 
 - Welcome address by the President
 - Annual report for the year 2010-2011 by the Secretary
@@ -149,4 +154,3 @@ Signed
 \-\--
 
 [CategoryIndianPythonSoftwareSociety](CategoryIndianPythonSoftwareSociety)
-:::::::

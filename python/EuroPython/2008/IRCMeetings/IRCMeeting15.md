@@ -1,26 +1,31 @@
 # EuroPython/2008/IRCMeetings/IRCMeeting15
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #15 {#IRC_Meeting_.2315}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Time/Location {#Time.2FLocation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# IRC Meeting #15 
+
+## Time/Location 
 
 The meeting will take place in the #europython channel on freenode at 18:00 CEST on Thursday 12th June.
 
 Please look at the minutes from the last meeting for more background information: [../IRCMeeting14](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting14.html)
 
-## Present {#Present}
+## Present 
 
 David, Jacob, John, Laura, Lennart, Samuele
 
-## Agenda/Minutes {#Agenda.2FMinutes}
+## Agenda/Minutes 
 
 - Registration/Budget - status
   - **158 delegates**
 
-  - **Visa invitations were discussed, and the [Wiki was updated](http://www.europython.org/Travel%20Visas){.http}.**
+  - **Visa invitations were discussed, and the [Wiki was updated](http://www.europython.org/Travel%20Visas).**
 
-  - **Various [PayPal](./PayPal.html){.nonexistent} and bank issues were discussed and deferred until later.**
+  - **Various [PayPal](./PayPal.html) and bank issues were discussed and deferred until later.**
 
 - Keynotes - any updates
 
@@ -38,7 +43,7 @@ David, Jacob, John, Laura, Lennart, Samuele
 
   - Banner images
 
-- T-shirts (as noted on [this page](http://www.europython.org/community/T-Shirts){.http})
+- T-shirts (as noted on [this page](http://www.europython.org/community/T-Shirts))
 
   - **Zack (the artist) has been put in touch with one of the local organisers.**
 
@@ -48,7 +53,6 @@ David, Jacob, John, Laura, Lennart, Samuele
 
 - food - any updates, costs, etc.
 
-## Actions {#Actions}
+## Actions 
 
 - See the bold sections above\...
-:::

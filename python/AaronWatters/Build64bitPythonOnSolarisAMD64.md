@@ -1,6 +1,11 @@
 # AaronWatters/Build64bitPythonOnSolarisAMD64
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Describe AaronWatters/Build64bitPythonOnSolarisAMD64 here.
 
 On Solaris using 64 bit Intel compatible processors you can build applications like Python in either 32 bit mode or 64 bit mode.
@@ -22,4 +27,3 @@ To use Python with 64 bit components you need to build python in 64 bit mode. I 
          gmake
 
 It\'s possible that some of the above is redundant, but it worked for me. This makes Python build in 64 bit mode, using 64 bit libraries and a 64 bit loader. The \"-R\" part was particularly problematic to track down \-- it gets the right loader (I think). I hope this helps someone (like me later when I lose this information).
-:::

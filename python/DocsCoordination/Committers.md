@@ -1,7 +1,12 @@
 # DocsCoordination/Committers
 
-::: {#content dir="ltr" lang="en"}
-# Docs committers {#Docs_committers}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Docs committers 
 
 This page lists all team members having commit access to doctools and the Doc tree and can be sent patches.
 
@@ -13,5 +18,4 @@ This page lists all team members having commit access to doctools and the Doc tr
 
 - Mark Summerfield \<mark qtrac.eu\> \-- GMT
 
-The timezone is listed so that you can send a patch to a committer who\'s likely to be awake when you are ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
-:::
+The timezone is listed so that you can send a patch to a committer who\'s likely to be awake when you are ![:)](/wiki/europython/img/smile.png ":)")

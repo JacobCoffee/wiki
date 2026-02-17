@@ -1,13 +1,18 @@
 # Asking for Help/How to store information in variable arrays?
 
-::::::::: {#content dir="ltr" lang="en"}
-# How to store information in variable arrays? {#How_to_store_information_in_variable_arrays.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# How to store information in variable arrays? 
 
 How would I store information in variables that I can go back later and compare? Such as
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3bbe682b512956f3ca4468dc8a0db905af2920fa dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 x = 1
    2 text = []
    3 while x <= 10:
@@ -30,9 +35,9 @@ edit: that should work now We initialize a list first with `text = []`{.backti
 
 You can use the `in`{.backtick} operator:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-aca064d1720df2b630a5804aa4ef9f510286ae11 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 if number in text:
    2     print "Number already entered!"
 ```
@@ -41,9 +46,9 @@ You can use the `in`{.backtick} operator:
 
 If you choose to use a set instead of a list\...
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-cbf5c44f49c442b159af008cf18c53f16663ab4a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 text = set()
 ```
 :::
@@ -54,4 +59,3 @@ If you choose to use a set instead of a list\...
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::::::::

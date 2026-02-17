@@ -1,7 +1,12 @@
 # HierConfig
 
-::: {#content dir="ltr" lang="en"}
-Many programs are built these days by assembling components together, and Python programs are no exception. In general, the designer may choose to expose multiple configuration points, and will benefit if there is one standard way of doing so. From the perspective which views programs as hierarchical constructions of configurable components, it would seem to follow logically that configuration of the components should also be hierarchical in nature. The two-level (section, key) model as exemplified by the present [ConfigParser](ConfigParser) does not offer sufficient power. If it did, why does Windows need a registry? ![;-)](/wiki/europython/img/smile4.png ";-)"){height="16" width="16"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Many programs are built these days by assembling components together, and Python programs are no exception. In general, the designer may choose to expose multiple configuration points, and will benefit if there is one standard way of doing so. From the perspective which views programs as hierarchical constructions of configurable components, it would seem to follow logically that configuration of the components should also be hierarchical in nature. The two-level (section, key) model as exemplified by the present [ConfigParser](ConfigParser) does not offer sufficient power. If it did, why does Windows need a registry? ![;-)](/wiki/europython/img/smile4.png ";-)")
 
 I\'ve been thinking about how to improve the configuration of the logging package (which currently uses [ConfigParser](ConfigParser)) and playing with some ideas which may have more general applicability. I\'m posting them here and seeking feedback.
 
@@ -63,15 +68,15 @@ The second file contains the logging configuration. It refers to the application
 
 The \$-notation resolves entries when they are required. You can think of it like substitution, which is why the \$ character was selected. The use of specific characters such as \'@\' and \'\$\' is, however, preliminary and can be easily changed if feedback warrants it. You can lay out the file with as much whitespace as you like - indent according to taste.
 
-An implementation module using this format has been released: see the [tutorial](http://www.red-dove.com/python_config.html){.http} and [full API documentation](http://www.red-dove.com/config/index.html){.http}. The tutorial covers changing and saving configurations, cascading and merging configurations, and integration with optparse for access to command-line options in the configuration.
+An implementation module using this format has been released: see the [tutorial](http://www.red-dove.com/python_config.html) and [full API documentation](http://www.red-dove.com/config/index.html). The tutorial covers changing and saving configurations, cascading and merging configurations, and integration with optparse for access to command-line options in the configuration.
 
-You can download the latest implementation from [PyPI](http://www.python.org/pypi?:action=display&name=config){.http} or via the download link on the tutorial page.
+You can download the latest implementation from [PyPI](http://www.python.org/pypi?:action=display&name=config) or via the download link on the tutorial page.
 
 \-- [VinaySajip](VinaySajip)
 
 ------------------------------------------------------------------------
 
-I ([PeterOtten](./PeterOtten.html){.nonexistent}) have tried to translate the above sample configuration into a much simpler format that was recently suggested by [SkipMontanaro](SkipMontanaro).
+I ([PeterOtten](./PeterOtten.html)) have tried to translate the above sample configuration into a much simpler format that was recently suggested by [SkipMontanaro](SkipMontanaro).
 
 I think that calculations like building an email address should not be performed in a configfile but are rather the task of the application that uses it. The example has therefore significantly been dumbed down.
 
@@ -127,7 +132,7 @@ As far as use of expressions in the config file, I am ambivalent, and curious to
 
 ------------------------------------------------------------------------
 
-I ([StephenHansen](./StephenHansen.html){.nonexistent}) have been evaluating this module and went so far as to plug it into our system to see how it works, and I like it a great deal.
+I ([StephenHansen](./StephenHansen.html)) have been evaluating this module and went so far as to plug it into our system to see how it works, and I like it a great deal.
 
 In particular, I prefer the \"python like list\" format for specifying multiple values to using the same name multiple times, or having something like \'handler0=\...\' \'handler1=\...\'. It actually makes the config file less readable by users, I think.
 
@@ -154,11 +159,11 @@ In a very \"user-friendly\" format, which is then turned into a proper DSN in ou
 
 ------------------------------------------------------------------------
 
-[ZCML](http://cvs.zope.org/Zope3/doc/zcml/){.http} (unlike .ini files) handles nested input fairly well. The syntax looks a little like an Apache config; though from much of what I\'ve seen, it\'s straight XML. \-- [IanBicking](IanBicking)
+[ZCML](http://cvs.zope.org/Zope3/doc/zcml/) (unlike .ini files) handles nested input fairly well. The syntax looks a little like an Apache config; though from much of what I\'ve seen, it\'s straight XML. \-- [IanBicking](IanBicking)
 
 - Is there a better link for ZCML than the one above? There appears to be nothing in the form of overview documentation on the Zope site, including dev.zope.org - I did site searches for \"ZCML\" and \"configuration\" and nothing came up which looked immediately useful. I don\'t have a particular problem with ZCML, other than the fact that by dint of being XML, it is fairly verbose; and I would guess (please correct me if I\'m wrong) that it is Zope-centric rather than general-purpose. \-- [VinaySajip](VinaySajip)
 
-Maybe I\'m confusing ZCML and [ZConfig](http://www.zope.org/Members/fdrake/zconfig/){.http}; there\'s a ZConfig presentation at [http://zope.org/Members/mcdonc/Presentations/ZConfigPaper](http://zope.org/Members/mcdonc/Presentations/ZConfigPaper){.http} \-- ZCML is much more XML-based, where ZConfig is like an Apache file. ZCML is used for a lot of configuration inside Zope 3, which has a very different idea of what configuration is. (Intended for \"system integrators\" as opposed to \"system administrators\".) I believe both were intended to be usable outside of Zope, but haven\'t been packaged as such (yet).
+Maybe I\'m confusing ZCML and [ZConfig](http://www.zope.org/Members/fdrake/zconfig/); there\'s a ZConfig presentation at [http://zope.org/Members/mcdonc/Presentations/ZConfigPaper](http://zope.org/Members/mcdonc/Presentations/ZConfigPaper) \-- ZCML is much more XML-based, where ZConfig is like an Apache file. ZCML is used for a lot of configuration inside Zope 3, which has a very different idea of what configuration is. (Intended for \"system integrators\" as opposed to \"system administrators\".) I believe both were intended to be usable outside of Zope, but haven\'t been packaged as such (yet).
 
 Another way to deal with nested configurations would be to parse the names. I think one package I\'ve seen does this. So sections are just a sort of \"with\" statement. I.e.:
 
@@ -241,7 +246,7 @@ It uses \'dictionary\' access - which maintains a proper separation of the attri
 
 Nested sections are indicated by additional square brackets around the sections headers. It allows comma separated lists. It also allows single values to be multiple lines with triple quotes.
 
-See the [ConfigObj Homepage](http://www.voidspace.org.uk/python/configobj.html){.http}.
+See the [ConfigObj Homepage](http://www.voidspace.org.uk/python/configobj.html).
 
     [virtual hosts]
 
@@ -274,19 +279,18 @@ A nice added feature is the integrated validation system. This defines a a \*sim
 
 The system includes \'repeated sections\' which are an easy way of saying \'teh following specification applies to \*all\* subsections in this section\'. For the above example we could define a \'configspec\' for all hosts. Every host we added would then be validated using that spec.
 
-For details of this see the [Validate Homepage](http://www.voidspace.org.uk/python/validate.html){.http}.
+For details of this see the [Validate Homepage](http://www.voidspace.org.uk/python/validate.html).
 
 ------------------------------------------------------------------------
 
 A lot of the text format seems similar to JSON. I wonder if there would be any disadvantages to using JSON to marshal and unmarshal the configuration so that it would also be machine editable from Java as well without requiring a new custom Java library since there are already JSON libraries available for that.
 
-Just curious because this library seems very useful and powerful but making it readable and writable programmatically outside of Python would seem advantageous. I wrote something a couple of years ago to do similar things in Java using Commons Configuration under the covers, but I get really tired of XML sometimes ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+Just curious because this library seems very useful and powerful but making it readable and writable programmatically outside of Python would seem advantageous. I wrote something a couple of years ago to do similar things in Java using Commons Configuration under the covers, but I get really tired of XML sometimes ![:)](/wiki/europython/img/smile.png ":)")
 
 Not being critical because I certainly applaud your effort and design thinking.
 
-\-- [DavidMccurley](./DavidMccurley.html){.nonexistent}
+\-- [DavidMccurley](./DavidMccurley.html)
 
-The format is similar to Python and JSON but a superset of it, which is why JSON wasn\'t used - it wasn\'t enough. For example, standard JSON does not support the use of the include notation (`@"abc.def"`), evaluation (`` `abc` ``), cross-reference (`$abc`), or expressions (`abc + def`). In addition, JSON (like Python, and unlike [JavaScript](./JavaScript.html){.nonexistent}) requires use of literal strings as keys in mappings. Hence the more natural ` { path : "a/b" } ` must be written as ` { "path" : "a/b" } `, which is harder to parse.
+The format is similar to Python and JSON but a superset of it, which is why JSON wasn\'t used - it wasn\'t enough. For example, standard JSON does not support the use of the include notation (`@"abc.def"`), evaluation (`` `abc` ``), cross-reference (`$abc`), or expressions (`abc + def`). In addition, JSON (like Python, and unlike [JavaScript](./JavaScript.html)) requires use of literal strings as keys in mappings. Hence the more natural ` { path : "a/b" } ` must be written as ` { "path" : "a/b" } `, which is harder to parse.
 
 \-- [VinaySajip](VinaySajip)
-:::

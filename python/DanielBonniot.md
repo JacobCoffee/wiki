@@ -1,13 +1,17 @@
 # DanielBonniot
 
-::: {#content dir="ltr" lang="en"}
-## Daniel Bonniot {#Daniel_Bonniot}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Email: [Daniel.Bonniot@inria.fr](mailto:Daniel.Bonniot@inria.fr){.mailto}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-I\'m the main designer of the [Nice programming language](http://nice.sourceforge.net){.http}. See [PythonVsNice](PythonVsNice) for a comparison with Python.
+## Daniel Bonniot 
+
+Email: [Daniel.Bonniot@inria.fr](mailto:Daniel.Bonniot@inria.fr)
+
+I\'m the main designer of the [Nice programming language](http://nice.sourceforge.net). See [PythonVsNice](PythonVsNice) for a comparison with Python.
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

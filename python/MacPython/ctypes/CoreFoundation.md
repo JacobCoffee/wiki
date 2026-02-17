@@ -1,7 +1,12 @@
 # MacPython/ctypes/CoreFoundation
 
-::: {#content dir="ltr" lang="en"}
-Here\'s a rendering of [CoreFoundation](./CoreFoundation.html){.nonexistent} types for ctypes, by Thomas Heller\'s xml2py tool. This was done with OS X 10.4.10 on a PowerPC Mac on 10/23/2007.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Here\'s a rendering of [CoreFoundation](./CoreFoundation.html) types for ctypes, by Thomas Heller\'s xml2py tool. This was done with OS X 10.4.10 on a PowerPC Mac on 10/23/2007.
 
     from ctypes import *
 
@@ -1455,4 +1460,3 @@ Here\'s a rendering of [CoreFoundation](./CoreFoundation.html){.nonexistent} typ
                'kCFStringEncodingMacKannada', '__CFUserNotification',
                'kCFStringEncodingEUC_TW', 'kCFCalendarUnitHour',
                'CFMessagePortRef', 'CFXMLNodeRef']
-:::

@@ -1,19 +1,24 @@
 # PyQt/Graphics_View_-_Text_Effects
 
-::::: {#content dir="ltr" lang="en"}
-# Graphics View - Text Effects {#Graphics_View_-_Text_Effects}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Graphics View - Text Effects 
 
 With just a QGraphicsScene, a QGraphicsView and a few input widgets, we can draw text in a variety of interesting ways.
 
-![text-effects.png](attachments/PyQt(2f)Graphics_View_(2d)_Text_Effects/text-effects.png "text-effects.png"){.attachment}
+![text-effects.png](attachments/PyQt(2f)Graphics_View_(2d)_Text_Effects/text-effects.png "text-effects.png")
 
-## Importing Modules {#Importing_Modules}
+## Importing Modules 
 
 We begin by importing the standard `sys`{.backtick} module and some classes from the [PyQt4](PyQt4) package:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-cf2e84ab2e45cef8aff9eea3e7ba4e1ce922b7f5 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import *
    3 from PyQt4.QtGui import *
@@ -23,7 +28,7 @@ We begin by importing the standard `sys`{.backtick} module and some classes from
 
 For convenience, we import all the classes in [PyQt4](PyQt4)\'s `QtCore`{.backtick} and `QtGui`{.backtick} modules rather than listing only those we need. The only disadvantage to this is that the program\'s namespace will contain all the classes from those modules.
 
-## Creating a Window {#Creating_a_Window}
+## Creating a Window 
 
 The application\'s window will be an instance of the `Window`{.backtick} custom widget class, derived from `QWidget`{.backtick}, which we will use as a container for other widgets.
 
@@ -150,4 +155,3 @@ The main program is as simple as possible. We create an application instance, cr
         sys.exit(app.exec_())
 
 We call the application\'s `exec_()`{.backtick} method and pass its return value to the `sys.exit()`{.backtick} function. The application doesn\'t exit immediately because the Qt event loop is entered when `exec_()`{.backtick} is called, and control does not return to the main program until the window is closed. At this point, `sys.exit()`{.backtick} is finally called with the result from the application.
-:::::

@@ -1,7 +1,12 @@
 # WithStatementAndOpenGl
 
-::: {#content dir="ltr" lang="en"}
-(I think you should bring this up in the [OpenGl](./OpenGl.html){.nonexistent} community; if the with-statement supports the usage I don\'t see why not. [GvR](GvR))
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+(I think you should bring this up in the [OpenGl](./OpenGl.html) community; if the with-statement supports the usage I don\'t see why not. [GvR](GvR))
 
 (Doing so. \-- Andrew Dalke)
 
@@ -105,4 +110,3 @@ Assuming a few minor helper classes and a couple of new `__enter__/__exit__` met
                                    glVertex3f(*points[i])
 
 Shorter, cleaner, less error-prone, easier to read and maintain. +1 from me! \-- Andrew Dalke
-:::

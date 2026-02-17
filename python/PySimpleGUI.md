@@ -1,6 +1,11 @@
 # PySimpleGUI
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 PySimpleGUI is a python library that wraps tkinter, Qt (pyside2), wxPython and Remi (for browser support), allowing very fast and simple-to-learn GUI programming. PySimpleGUI defaults to using tkinter, but the user can change to another supported GUI library by just changing one line.
 
 PySimpleGUI can be installed using \'pip install pysimplegui\' or by copying the file \'pysimplegui.py\' from the github repository
@@ -15,11 +20,10 @@ The 4 pillars of the PySimpleGUI project include, the entire PySimpleGUI system.
 
 It is possible to support PySimpleGUI\'s main developer via donations (links on the github page)
 
-##### Links: {#Links:}
+##### Links: 
 
-- Github: [http://www.PySimpleGUI.com](http://www.PySimpleGUI.com){.http} that forwards to the main github project [https://github.com/PySimpleGUI/PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI){.https}
+- Github: [http://www.PySimpleGUI.com](http://www.PySimpleGUI.com) that forwards to the main github project [https://github.com/PySimpleGUI/PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)
 
-- Documentation: [http://www.pysimplegui.org/](http://www.pysimplegui.org/){.http} leading to: [https://pysimplegui.readthedocs.io/en/latest/](https://pysimplegui.readthedocs.io/en/latest/){.https}
+- Documentation: [http://www.pysimplegui.org/](http://www.pysimplegui.org/) leading to: [https://pysimplegui.readthedocs.io/en/latest/](https://pysimplegui.readthedocs.io/en/latest/)
 
-- Issues: [https://github.com/PySimpleGUI/PySimpleGUI/issues](https://github.com/PySimpleGUI/PySimpleGUI/issues){.https}
-:::
+- Issues: [https://github.com/PySimpleGUI/PySimpleGUI/issues](https://github.com/PySimpleGUI/PySimpleGUI/issues)

@@ -1,6 +1,11 @@
 # SurveyQuestions
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 My contacts where email based, so I started by asking if they wanted to correspond by phone or email:
 
     Hi [contact],
@@ -39,4 +44,3 @@ For email follow ups, I\'m starting with something like this:
     [your sig]
 
 Of course I try to personalize the second email, especially the first part.
-:::

@@ -1,27 +1,22 @@
 # UdpCommunication
 
-:::::::::::::::::::::: {#content dir="ltr" lang="en"}
-# UDP Communication {#UDP_Communication}
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: table-of-contents
-Contents
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-1.  [UDP Communication](#UDP_Communication)
-    1.  [Sending](#Sending)
-    2.  [Receiving](#Receiving)
-    3.  [Using UDP for e.g. File Transfers](#Using_UDP_for_e.g._File_Transfers)
-    4.  [Multicasting?](#Multicasting.3F)
-:::
+# UDP Communication 
 
-See also [SoapOverUdp](./SoapOverUdp.html){.nonexistent}, [TcpCommunication](TcpCommunication)
+See also [SoapOverUdp](./SoapOverUdp.html), [TcpCommunication](TcpCommunication)
 
-## Sending {#Sending}
+## Sending 
 
 Here\'s simple code to post a note by UDP in Python 3:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c7a3f6ba422497f4dc59f7ee70da682ec2726a72 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import socket
    2 
    3 UDP_IP = "127.0.0.1"
@@ -39,13 +34,13 @@ Here\'s simple code to post a note by UDP in Python 3:
 :::
 ::::
 
-## Receiving {#Receiving}
+## Receiving 
 
 Here\'s simple code to receive UDP messages in Python 3:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-60759983b77d9e5650a253e88b9ac4b5e607d69c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import socket
    2 
    3 UDP_IP = "127.0.0.1"
@@ -62,13 +57,13 @@ Here\'s simple code to receive UDP messages in Python 3:
 :::
 ::::
 
-## Using UDP for e.g. File Transfers {#Using_UDP_for_e.g._File_Transfers}
+## Using UDP for e.g. File Transfers 
 
 If considering extending this example for e.g. file transfers, keep in mind that UDP is not reliable. So you\'ll have to handle packets getting lost and packets arriving out of order. In effect, to get something reliable you\'ll need to implement something similar to TCP on top of UDP, and you might want to consider using TCP instead.
 
-That being said, sometimes you *need* to use UDP, e.g. for [UDP hole punching](http://en.wikipedia.org/wiki/UDP_hole_punching){.http}. In that case, consider [TFTP](http://en.wikipedia.org/wiki/TFTP){.http} [for python](https://www.google.com/search?q=python+tftp){.https} or [UDT](http://udt.sourceforge.net/){.http} [for python](https://www.google.com/search?q=python+udt){.https}
+That being said, sometimes you *need* to use UDP, e.g. for [UDP hole punching](http://en.wikipedia.org/wiki/UDP_hole_punching). In that case, consider [TFTP](http://en.wikipedia.org/wiki/TFTP) [for python](https://www.google.com/search?q=python+tftp) or [UDT](http://udt.sourceforge.net/) [for python](https://www.google.com/search?q=python+udt)
 
-## Multicasting? {#Multicasting.3F}
+## Multicasting? 
 
 The *official* example of multicast can be found at /usr/share/doc/python2.3/examples/Demo/sockets/mcast.py (at least on Debian Sarge, after `apt-get install python-examples`{.backtick}). It worked on my machine, but I have yet to try it running on different machines. \-- \-- 200.138.245.121 2006-08-09 03:20:30
 
@@ -82,9 +77,9 @@ I\'ve been googling for some time now, and *still* have yet to find a *working* 
 
 (I added an \"=\" to the \"4sl\" struct packing. Both the old version and the new version work on my 32-bit machine, but the Python documentation for the struct module suggests that \"l\" would be 64 bits on an LP64 or LPI64 platform without it, so I thought it would be prudent to add. \-- Kragen Sitaker 2010-04-28 07:03:00)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a430227df6fec21193e114c9d69053364cc47721 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import socket
    2 import struct
    3 
@@ -102,13 +97,13 @@ I\'ve been googling for some time now, and *still* have yet to find a *working* 
 :::
 ::::
 
-The mreq packing is based on [some code that I found,](http://www.senux.com/linux/network/multicast/){.http} *that does not work.* On my computer, at least.
+The mreq packing is based on [some code that I found,](http://www.senux.com/linux/network/multicast/) *that does not work.* On my computer, at least.
 
 Sending to multicast groups is just fine; Here\'s some functional text:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ae28bb891fe950234b0f58a400e9885a74018fd9 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import socket
    2 
    3 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
@@ -122,11 +117,11 @@ Sending to multicast groups is just fine; Here\'s some functional text:
 
 *Note the above example is missing a bind() call. This will work OK if there is a multicast route setup in the IP routing table {i.e. os.system(\'route add 224.51.105.104 eth0\')} But without a bind() nor route, the kernel will not determine which network interface to send the data on, and will return an error. There may be other ways for the \"socket to network interface\" mapping to be defined, but I forget what they are. (Chris David)*
 
-The above multicasting examples do not work on my computer, but I was able to fix them using code from [http://sourceforge.net/projects/pyzeroconf](http://sourceforge.net/projects/pyzeroconf){.http}. Try these examples:
+The above multicasting examples do not work on my computer, but I was able to fix them using code from [http://sourceforge.net/projects/pyzeroconf](http://sourceforge.net/projects/pyzeroconf). Try these examples:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-bc4011331d4881e04a01c92b22ab4491fc186a6e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # UDP multicast examples, Hugo Vincent, 2005-05-14.
    2 import socket
    3 
@@ -173,13 +168,13 @@ The above multicasting examples do not work on my computer, but I was able to fi
 
 At this point, I\'m beginning to think: \"Python multicast simply *does not work.*\"
 
-- Are you running on Windows 2000/XP (pre-SP2)/Server 2003 with more than one network adapter? If so, the problem is Windows, not Python. The original code works for me on Windows 2000 (1 network adapter), but fails under XP Pro (pre-SP2, 3 adapters though 2 are disabled). Microsoft has a [support page](http://support.microsoft.com/default.aspx?scid=kb;en-us;827536){.http} on the issue. The problem appears to be in the receiver: with both machines running the receiver, the Win2K machine sees packets sent from both machines, while the receiver on XP sees messages sent from the Win2K machine only. This, despite specifying the local IP address of the appropriate adapter in the second part of the mreq structure in the IP_ADD_MEMBERSHIP call. \-- [VinaySajip](VinaySajip) *Hm, that\'s interesting. No, I\'m not running on Windows; I\'m running on FC3. That said, I hadn\'t considered the machine as a possible problem. What I\'ll do is this: I\'ll run this on my* home *FC3 computer, and on my* home *Redhat 9 computer, and see if I can get it to work on one of them.* \-- [LionKimbro](LionKimbro) 2005-01-20 02:07:18 *The new version still doesn\'t work for me. I mean, it* does *work for local traffic: the host talking with itself. But as soon as I get to another link-local computer, and do the same over again, it doesn\'t work. I\'ve replaced 127.0.0.1 with the actual IP address of the computer, and I\'ve shut down the firewall (service iptables stop). No dice. This is all on my FC3 host, again.* \-- [LionKimbro](LionKimbro) 2005-04-14 17:27:42 *When implementing multicast, it\'s important to understand the requirements of [IGMP](ftp://ftp.rfc-editor.org/in-notes/rfc3376.txt){.ftp}, especially when working in a switched network. IGMP describes how routers should exchange membership information, but does not describe how layer 2 switches should handle this. Many switches have a feature called IGMP snooping, where the switch snoops for IGMP traffic, thereby gaining knowledge of which switch ports belong to a multicast group. Cheap switches typically either does not handle this or handles it wrongly.* \-- Asgeir S. Nilsen 2005-05-09 19:39:00 *The first version, I tested side-by-side equivalent C code. The C code worked, the Python code did not. Thus, I ruled out special router, switch, hub issues. However, the second version, I just ran the Python code. I did not test vis-a-vis C code. Sol, I will have to try it vis-a-vis C code, again, to be sure.* \-- [LionKimbro](LionKimbro) 2005-05-09 22:56:26
+- Are you running on Windows 2000/XP (pre-SP2)/Server 2003 with more than one network adapter? If so, the problem is Windows, not Python. The original code works for me on Windows 2000 (1 network adapter), but fails under XP Pro (pre-SP2, 3 adapters though 2 are disabled). Microsoft has a [support page](http://support.microsoft.com/default.aspx?scid=kb;en-us;827536) on the issue. The problem appears to be in the receiver: with both machines running the receiver, the Win2K machine sees packets sent from both machines, while the receiver on XP sees messages sent from the Win2K machine only. This, despite specifying the local IP address of the appropriate adapter in the second part of the mreq structure in the IP_ADD_MEMBERSHIP call. \-- [VinaySajip](VinaySajip) *Hm, that\'s interesting. No, I\'m not running on Windows; I\'m running on FC3. That said, I hadn\'t considered the machine as a possible problem. What I\'ll do is this: I\'ll run this on my* home *FC3 computer, and on my* home *Redhat 9 computer, and see if I can get it to work on one of them.* \-- [LionKimbro](LionKimbro) 2005-01-20 02:07:18 *The new version still doesn\'t work for me. I mean, it* does *work for local traffic: the host talking with itself. But as soon as I get to another link-local computer, and do the same over again, it doesn\'t work. I\'ve replaced 127.0.0.1 with the actual IP address of the computer, and I\'ve shut down the firewall (service iptables stop). No dice. This is all on my FC3 host, again.* \-- [LionKimbro](LionKimbro) 2005-04-14 17:27:42 *When implementing multicast, it\'s important to understand the requirements of [IGMP](ftp://ftp.rfc-editor.org/in-notes/rfc3376.txt), especially when working in a switched network. IGMP describes how routers should exchange membership information, but does not describe how layer 2 switches should handle this. Many switches have a feature called IGMP snooping, where the switch snoops for IGMP traffic, thereby gaining knowledge of which switch ports belong to a multicast group. Cheap switches typically either does not handle this or handles it wrongly.* \-- Asgeir S. Nilsen 2005-05-09 19:39:00 *The first version, I tested side-by-side equivalent C code. The C code worked, the Python code did not. Thus, I ruled out special router, switch, hub issues. However, the second version, I just ran the Python code. I did not test vis-a-vis C code. Sol, I will have to try it vis-a-vis C code, again, to be sure.* \-- [LionKimbro](LionKimbro) 2005-05-09 22:56:26
 
 It\'s too bad we don\'t have anything as simple as this:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-7281c3595d7fe183529435c6bd4253137de1060b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import UDP
    2 
    3 sock = UDP.MulticastListener("239.192.0.100", 1000)  # Listen on port 1000
@@ -188,9 +183,9 @@ It\'s too bad we don\'t have anything as simple as this:
 :::
 ::::
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-883ded0657ace958b7a01c1397ef308b5d2c443b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import UDP
    2 
    3 UDP.send("Hello, world!", "239.192.0.100", 1000)
@@ -204,9 +199,9 @@ It\'s too bad we don\'t have anything as simple as this:
 
 You could do something like this:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-81fe6ef478bf1e2f8ea74b7b081a7c71352d057f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 class McastSocket(socket.socket):
    2   def __init__(self, local_port, reuse=False):
    3     socket.socket.__init__(self, socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
@@ -226,9 +221,9 @@ You could do something like this:
 
 Then to listen to multicast events locally:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-fd2174f9712b75715f8231806aff6afbc38c7729 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 sock = McastSocket(local_port=12345, reuse=1)
    2 sock.mcast_add('239.192.9.9', '127.0.0.1')
 ```
@@ -237,7 +232,7 @@ Then to listen to multicast events locally:
 
 The perl IO::Socket::Multicast class doesn\'t look much different from this.
 
-\-- [PaulBrannan](./PaulBrannan.html){.nonexistent}
+\-- [PaulBrannan](./PaulBrannan.html)
 
 I was able to get the above example to work fine on a linux platform, with one small change. I had to put a \"4sl\" in the pack statement for creating mreq. It seems as if when I didn\'t have a 4, the pack statement was just using the first octet (somehow dropping the other octets), so I could only create the multi-cast \"listener\" on a 234.0.0.0 ip. After some debugging, I put the 4 in front of the \"s\", which forced it to get all 4 octets from the inet_aton, and everything worked fine. Hope this helps.
 
@@ -247,7 +242,7 @@ I was able to get the above example to work fine on a linux platform, with one s
 
 - *For the \"s\" format character, the count is interpreted as the size of the string, \... For packing, the string is truncated or padded with null bytes as appropriate to make it fit.*
 
-=UPDATE:= Definitive UDP multicasting example code can be found in [PyZeroConf](./PyZeroConf.html){.nonexistent} at [http://sourceforge.net/projects/pyzeroconf](http://sourceforge.net/projects/pyzeroconf){.http}
+=UPDATE:= Definitive UDP multicasting example code can be found in [PyZeroConf](./PyZeroConf.html) at [http://sourceforge.net/projects/pyzeroconf](http://sourceforge.net/projects/pyzeroconf)
 
 ------------------------------------------------------------------------
 
@@ -255,13 +250,12 @@ How can it be definitive, if you have to download a whole project in order to re
 
 ------------------------------------------------------------------------
 
-\* [How to Write New Components for Kamaelia](http://kamaelia.sourceforge.net/cgi-bin/blog/blog.cgi?rm=viewpost&nodeid=1113495151){.http} has example code for doing multicast send and receipt at the top.
+\* [How to Write New Components for Kamaelia](http://kamaelia.sourceforge.net/cgi-bin/blog/blog.cgi?rm=viewpost&nodeid=1113495151) has example code for doing multicast send and receipt at the top.
 
 ------------------------------------------------------------------------
 
-Perhaps this is what you are looking for: [http://www.doughellmann.com/PyMOTW/socket/multicast.html](http://www.doughellmann.com/PyMOTW/socket/multicast.html){.http}
+Perhaps this is what you are looking for: [http://www.doughellmann.com/PyMOTW/socket/multicast.html](http://www.doughellmann.com/PyMOTW/socket/multicast.html)
 
 \-- cswank
 
 ------------------------------------------------------------------------
-::::::::::::::::::::::

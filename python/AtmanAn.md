@@ -1,13 +1,17 @@
 # AtmanAn
 
-::: {#content dir="ltr" lang="en"}
-## Your Name {#Your_Name}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Email: \<[twinsant@gmail.com](mailto:twinsant@gmail.com){.mailto}\>
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-Homepage: [twinsant.link](https://twinsant.link){.https}
+## Your Name 
+
+Email: \<[twinsant@gmail.com](mailto:twinsant@gmail.com)\>
+
+Homepage: [twinsant.link](https://twinsant.link)
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

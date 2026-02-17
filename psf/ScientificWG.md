@@ -1,38 +1,43 @@
 # ScientificWG
 
-::: {#content dir="ltr" lang="en"}
-# Scientific Python Working Group {#Scientific_Python_Working_Group}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Scientific Python Working Group 
 
 *Note:* When creating new wiki pages related to this group, please use wiki subpages, e.g. BylawsWG/Charter.
 
-## Agenda {#Agenda}
+## Agenda 
 
 This working group shall draw on the expertise of both the PSF and NumFOCUS, and on the broader scientific Python community in general, to select the best use of its budgeted funds to advance the scope, breadth, and utility of Python for scientific work.  In essence, the purpose of the group is to grant funds allocated to it by the PSF towards conferences, user groups, educational, and development efforts.
 
-## Resources {#Resources}
+## Resources 
 
 - As of 24Sep19, the Scientific WG has a yearly budget of \$30,000 USD
 
-- [Scientific Python Working Group google form](http://goo.gl/forms/j9nB4fc9Eo){.http}
+- [Scientific Python Working Group google form](http://goo.gl/forms/j9nB4fc9Eo)
 
 - [Scientific Python WG Charter](./ScientificWG(2f)Charter_v3.html) (updated 24Sep19)
 
-## Mailing List {#Mailing_List}
+## Mailing List 
 
-- [Scientific Python WG Mailing List](http://mail.python.org/mailman/listinfo/scientific){.http}
+- [Scientific Python WG Mailing List](http://mail.python.org/mailman/listinfo/scientific)
 
   The ML archives are set to private for the time being. Subscriptions must be approved by the admins. [DavidMertz](DavidMertz) and [StefanVanDerWalt](StefanVanDerWalt) are the list admins.
 
-## Discussions {#Discussions}
+## Discussions 
 
-Discussions will happen on the mailing list: [scientific@python.org](mailto:scientific@python.org){.mailto}.
+Discussions will happen on the mailing list: [scientific@python.org](mailto:scientific@python.org).
 
-## Administration {#Administration}
+## Administration 
 
 - David Mertz (co-chair)
 - Stefan van der Walt (co-chair)
 
-## Members (alphabetical by surname) {#Members_.28alphabetical_by_surname.29}
+## Members (alphabetical by surname) 
 
 - Dana Bauer
 - Alexandre Fioravante de Siqueira
@@ -44,27 +49,27 @@ Discussions will happen on the mailing list: [scientific@python.org](mailto:scie
 - Anthony Scopatz
 - Carol Willing
 
-## Meetings {#Meetings}
+## Meetings 
 
 - TBA
 
-## Approved Grant Requests {#Approved_Grant_Requests}
+## Approved Grant Requests 
 
 - (Approved 6/15/21) RESOLVED, that the Python Software Foundation Scientific Working Group grant 4000 USD to Layne Sadler to fund development work on the AIQC framework\'s support for time series preprocessing and analysis.
 
 - (Approved 4/20/21) RESOLVED, that the Python Software Foundation Scientific Working Group grant 300 USD to Sandhya Prabhakaran for lease of an EC2 instance needed in development of Sparcle for spatial transcriptomics.
 
-- (Approved 2/26/21) RESOLVED, that the Python Software Foundation Scientific Working Group grant 4000 USD to Nicholas [McKibben](./McKibben.html){.nonexistent} ([https://github.com/mckib2/pygrappa/](https://github.com/mckib2/pygrappa/){.https}) for Accesible MRI Parallel Imaging through PyGRAPPA
+- (Approved 2/26/21) RESOLVED, that the Python Software Foundation Scientific Working Group grant 4000 USD to Nicholas [McKibben](./McKibben.html) ([https://github.com/mckib2/pygrappa/](https://github.com/mckib2/pygrappa/)) for Accesible MRI Parallel Imaging through PyGRAPPA
 
 - (Approved 2/25/21) RESOLVED, that the Python Software Foundation Scientific Working Group grant 4000 USD for Online Learning Content Development for Spyder.
 
 - (Approved 2/25/21) RESOLVED, that the Python Software Foundation Scientific Working Group grant 4000 USD for Development and Maintenance of The Carpentries Python Curriculum.
 
-- (Approved 2/25/21) RESOLVED, that the Python Software Foundation Scientific Working Group grant 2500 USD to Create documentation on how to deploy docs via [GitHub](./GitHub.html){.nonexistent} Actions and move scientific projects from Travis-CI to [GitHub](./GitHub.html){.nonexistent} Actions.
+- (Approved 2/25/21) RESOLVED, that the Python Software Foundation Scientific Working Group grant 2500 USD to Create documentation on how to deploy docs via [GitHub](./GitHub.html) Actions and move scientific projects from Travis-CI to [GitHub](./GitHub.html) Actions.
 
 - (Approved 2/25/21) RESOLVED, that the Python Software Foundation Scientific Working Group grant 3000 USD for development of Python wrapper for C-Blosc2.
 
-- (Approved 2/16/21) RESOLVED, that the Python Software Foundation Scientific Working Group grant 4000 USD to qu4nt ([http://qu4nt.com/](http://qu4nt.com/){.http}) for translating the scikit-learn documentation to Spanish.
+- (Approved 2/16/21) RESOLVED, that the Python Software Foundation Scientific Working Group grant 4000 USD to qu4nt ([http://qu4nt.com/](http://qu4nt.com/)) for translating the scikit-learn documentation to Spanish.
 
 - (Approved 3/9/20) RESOLVED, that the Python Software Foundation Scientific Working Group grant \$2,400 USD to the Python in Astronomy event happening in Dublin, Ireland April 20-24, 2020.
 
@@ -72,43 +77,43 @@ Discussions will happen on the mailing list: [scientific@python.org](mailto:scie
 
 - (Approved 3/9/20) RESOLVED, that the Python Software Foundation Scientific Working Group grant \$2,500 USD to the Python Machine Learning event happening in Basel, Switzerland May 18-19, 2020.
 
-- (Approved 2/12/19) RESOLVED, that the PSF Python Scientific Working Group sponsor the [SciPy2019](./SciPy2019.html){.nonexistent} conference\'s Financial Aid Program for the amount of 6000 USD.
+- (Approved 2/12/19) RESOLVED, that the PSF Python Scientific Working Group sponsor the [SciPy2019](./SciPy2019.html) conference\'s Financial Aid Program for the amount of 6000 USD.
 
 - (Approved 6/13/18) RESOLVED: The PSF Scientific Work Group shall grant \$1500 to the Joint ICML and IJCAI Workshop on Computational Biology 2018 for use in finding three (3) travel awards.
 
 - (Approved 2/12/18) RESOLVED, that the Python Software Foundation Scientific Work Group grant the first Python in High Energy Physics (HEP), PyHEP, workshop taking place July 2018 in Sofia, Bulgaria in the amount of US\$1250, based on an expected attendance of 50. If organizers indicate a larger attendance, the PSF will sponsor additional students at \$25/person up to an \$1800 total grant.
 
-- (Approved 2/1/18) RESOLVED that the Python Software Foundation sponsor [SciPy](./SciPy.html){.nonexistent} 2018 at the silver level for the amount of US\$2000.
+- (Approved 2/1/18) RESOLVED that the Python Software Foundation sponsor [SciPy](./SciPy.html) 2018 at the silver level for the amount of US\$2000.
 
 - (Approved 1/18/18) RESOLVED, the Python Software Foundation's Scientific Work Group grant \$600 to the Python in Astronomy 2018 workshop, to be held April 30, 2018 in Cardiff, UK.
 
-- (Approved 11/01/17) RESOLVED, that the Python Software Foundation\'s Scientific Python Working Group grant Gold Sponsorship of \$2048 USD to the [SciPy](./SciPy.html){.nonexistent} Latin America Conference that is happening in Sancti Spiritus Nov 22-25, 2017. **Note:** This conference was subsequently canceled.
+- (Approved 11/01/17) RESOLVED, that the Python Software Foundation\'s Scientific Python Working Group grant Gold Sponsorship of \$2048 USD to the [SciPy](./SciPy.html) Latin America Conference that is happening in Sancti Spiritus Nov 22-25, 2017. **Note:** This conference was subsequently canceled.
 
-- (10/23/17) The board approved an additional \$5,000 for the 2017 year: RESOLVED, that the Python Software Foundation recognizes the new Scientific Python Work Group charter located here [https://wiki.python.org/psf/ScientificWG/Charter_v2](https://wiki.python.org/psf/ScientificWG/Charter_v2){.https} and approve an additional budget of \$5,000 USD for the work group Approved 13-0-0 via email vote on October 23, 2017
+- (10/23/17) The board approved an additional \$5,000 for the 2017 year: RESOLVED, that the Python Software Foundation recognizes the new Scientific Python Work Group charter located here [https://wiki.python.org/psf/ScientificWG/Charter_v2](https://wiki.python.org/psf/ScientificWG/Charter_v2) and approve an additional budget of \$5,000 USD for the work group Approved 13-0-0 via email vote on October 23, 2017
 
-- (Approved 10/03/17) RESOLVED, that the PSF Scientific Working group adopts a new charter, as outlined at [https://wiki.python.org/psf/ScientificWG/Charter_v2](https://wiki.python.org/psf/ScientificWG/Charter_v2){.https}
+- (Approved 10/03/17) RESOLVED, that the PSF Scientific Working group adopts a new charter, as outlined at [https://wiki.python.org/psf/ScientificWG/Charter_v2](https://wiki.python.org/psf/ScientificWG/Charter_v2)
 
 - (Approved 4/15/16) RESOLVED, that the PSF Scientific Python Working Group approve a grant of 800 EUR for a scientific Software Carpentry workshop to be held at Lund University in May 2016.
 
 - (Approved 4/12/16) \$400 to Pieter Kubben: Based on resolution from Jan. 7, 2015, we agreed to pay SNI \$800 for 2 papers once they were published. One has been published, but the invoice is for the full \$800. We also said we would look over the paper(s) before funding.
 
-- (Approved 3/24/2016) [PyData](./PyData.html){.nonexistent} London, \$1,800 USD
+- (Approved 3/24/2016) [PyData](./PyData.html) London, \$1,800 USD
 
-- (Approved 3/14/16) RESOLVED, that the PSF Scientific Python Working Group approve a grant for [SciPy](./SciPy.html){.nonexistent} 2016 in the amount of \$2,000 USD for their conference happening in July 2016.
+- (Approved 3/14/16) RESOLVED, that the PSF Scientific Python Working Group approve a grant for [SciPy](./SciPy.html) 2016 in the amount of \$2,000 USD for their conference happening in July 2016.
 
-- (Approved 01/8/16) RESOLVED, that the Python Software Foundation Scientific Python working group grants 5000 USD to the [SciPy/NumPy](./SciPy(2f)NumPy.html){.nonexistent} community for the creation of a MinGW static toolchain which will enable building the [SciPy](./SciPy.html){.nonexistent} stack of scientific computing packages on Windows.
+- (Approved 01/8/16) RESOLVED, that the Python Software Foundation Scientific Python working group grants 5000 USD to the [SciPy/NumPy](./SciPy(2f)NumPy.html) community for the creation of a MinGW static toolchain which will enable building the [SciPy](./SciPy.html) stack of scientific computing packages on Windows.
 
-- (Approved 2/26/2015) [SciPy](./SciPy.html){.nonexistent} Latin America, \$2,000 USD
+- (Approved 2/26/2015) [SciPy](./SciPy.html) Latin America, \$2,000 USD
 
 - (Approved 12/1/15) RESOLVED, that the Python Software Foundation grant \$500 USD to the Python in Astronomy Conference happening at University of Washington eScience Institute in March 2016.
 
-- (Approved 11/27/15) RESOLVED, that the Python Software Foundation sponsor [SciPy](./SciPy.html){.nonexistent} India taking place December 14-16, 2015 at IIT Bombay, Mumbai, India, in the amount of \$2000 USD.
+- (Approved 11/27/15) RESOLVED, that the Python Software Foundation sponsor [SciPy](./SciPy.html) India taking place December 14-16, 2015 at IIT Bombay, Mumbai, India, in the amount of \$2000 USD.
 
-- (Approved 11/12/15) RESOLVED, that the PSF Scientific Python Work Group approve a grant for [PyData](./PyData.html){.nonexistent} Madrid in the amount of \$2,000 USD for their conference happening in April of 2016.
+- (Approved 11/12/15) RESOLVED, that the PSF Scientific Python Work Group approve a grant for [PyData](./PyData.html) Madrid in the amount of \$2,000 USD for their conference happening in April of 2016.
 
 - (Approved 8/20/15) RESOLVED, that the Python Software Foundation grant Brett Morris \$2,250 USD to travel to Google Summer of Code/PSF to present project \"astroplan\" at the .Astronomy conference in Sydney, Australia.
 
-## Budget {#Budget}
+## Budget 
 
     | Date             | Description                                 | Debit | Credit |
     |------------------+---------------------------------------------+-------+--------|
@@ -128,7 +133,7 @@ Discussions will happen on the mailing list: [scientific@python.org](mailto:scie
     |------------------+---------------------------------------------+-------+--------|
     |                  | Total                                       |  2300 |        |
 
-## Budget History {#Budget_History}
+## Budget History 
 
     | Date             | Description                   |    Debit |   Credit |
     |------------------+-------------------------------+----------+----------|
@@ -156,4 +161,3 @@ Discussions will happen on the mailing list: [scientific@python.org](mailto:scie
     |                  | Subtotal                      | 32163.96 | 32163.96 |
     |------------------+-------------------------------+----------+----------|
     |                  | Total                         |       0. |          |
-:::

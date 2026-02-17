@@ -1,6 +1,11 @@
 # PythonLibraryReference/GraphicalUserInterfacesWithTk
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [PythonLibraryReference](PythonLibraryReference)
 
 ::: {}
@@ -9,7 +14,7 @@
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-# Graphical User Interfaces With Tk {#Graphical_User_Interfaces_With_Tk}
+# Graphical User Interfaces With Tk 
 
 16.1 Tkinter \-- Python interface to Tcl/Tk
 
@@ -19,11 +24,11 @@
 
 16.2.1 Using Tix 16.2.2 Tix Widgets 16.2.3 Tix Commands
 
-16.3 [ScrolledText](./ScrolledText.html){.nonexistent} \-- Scrolled Text Widget
+16.3 [ScrolledText](./ScrolledText.html) \-- Scrolled Text Widget
 
 16.4 turtle \-- Turtle graphics for Tk
 
-16.4.1 Pen and [RawPen](./RawPen.html){.nonexistent} Objects
+16.4.1 Pen and [RawPen](./RawPen.html) Objects
 
 16.5 Idle
 
@@ -31,9 +36,8 @@
 
 16.6 Other Graphical User Interface Packages
 
-## Comments {#Comments}
+## Comments 
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-::::

@@ -1,7 +1,12 @@
 # PyCon2006/Announcements
 
-::: {#content dir="ltr" lang="en"}
-## Closing Address {#Closing_Address}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Closing Address 
 
 Here ends the conference.
 
@@ -30,4 +35,3 @@ The Python Software Foundation is the non-profit organization that makes [PyCon]
 I thank the planning committee, and all volunteers who have done a great job of running the reg. desk, chairing sessions, stuffing bags, and helping keep the conference going. They have made the conference possible.
 
 And finally I thank you, the audience. [PyCon](PyCon) is a playground for the Python community to enjoy, and a place to build and connect. It has been my pleasure and honour to help. Thank you for coming. See you next year!
-:::

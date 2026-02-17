@@ -1,26 +1,19 @@
 # CrashingPython
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [ctypes](#ctypes)
-2.  [Bogus Input](#Bogus_Input)
-3.  [Exhausting Resources](#Exhausting_Resources)
-4.  [GC/weakref interaction](#GC.2Fweakref_interaction)
-5.  [Dangerous Modules](#Dangerous_Modules)
-6.  [Multithreading](#Multithreading)
-7.  [Other](#Other)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-While a lot of effort has gone into making it difficult or impossible to crash the Python interpreter in normal usage, there are lots fairly easy ways to crash the interpreter. The BDFL [pronounced](http://mail.python.org/pipermail/python-dev/2006-January/059621.html){.http} recently on the python-dev mailing list:
+While a lot of effort has gone into making it difficult or impossible to crash the Python interpreter in normal usage, there are lots fairly easy ways to crash the interpreter. The BDFL [pronounced](http://mail.python.org/pipermail/python-dev/2006-January/059621.html) recently on the python-dev mailing list:
 
         I'm not saying it's uncrashable. I'm saying that if you crash it, it's a
         bug unless proven harebrained.
 
 I thought it might be worthwhile to document some ways the interpreter can be crashed \-- although most of these are very unlikely to crop up in real code.
 
-There is also [a directory in SVN repository](http://svn.python.org/view/python/trunk/Lib/test/crashers/){.http} that demonstrates known ways to crash Python.
+There is also [a directory in SVN repository](http://svn.python.org/view/python/trunk/Lib/test/crashers/) that demonstrates known ways to crash Python.
 
 ## 1. ctypes
 
@@ -36,9 +29,9 @@ There is also [a directory in SVN repository](http://svn.python.org/view/python/
                     c += 1
             j
 
-from [pyl](https://www.pooryorick.com/secure/wiki/Pub/Pyl){.https}
+from [pyl](https://www.pooryorick.com/secure/wiki/Pub/Pyl)
 
-## 2. Bogus Input {#Bogus_Input}
+## 2. Bogus Input 
 
 Through Python 2.4 you could crash the interpreter by redirecting stdin from a directory:
 
@@ -77,7 +70,7 @@ Executing random code, since the interpreter does not verify the well-formed-nes
         from types import CodeType as code
         exec code(0, 5, 8, 0, "hello moshe", (), (), (), "", "", 0, "") 
 
-## 3. Exhausting Resources {#Exhausting_Resources}
+## 3. Exhausting Resources 
 
 There are a number of areas where resource exhaustion can crash the interpreter. Here\'s one fairly easy to demonstrate way to do it though:
 
@@ -104,7 +97,7 @@ A slightly subtler example involves getting the interpreter to exhaust some reso
         >>> del f
         Segmentation fault
 
-## 4. GC/weakref interaction {#GC.2Fweakref_interaction}
+## 4. GC/weakref interaction 
 
 Interaction between these two systems has historically been a sticky point for CPython. There is still at least one problem in Python 2.4.2:
 
@@ -127,7 +120,7 @@ Interaction between these two systems has historically been a sticky point for C
         >>> g()
         Segmentation fault
 
-## 5. Dangerous Modules {#Dangerous_Modules}
+## 5. Dangerous Modules 
 
 Some modules are designed to allow programmers access to the guts of things. Naturally, they also give programmers the opportunity to shoot themselves in the foot. Here are a few.
 
@@ -139,13 +132,13 @@ Some modules are designed to allow programmers access to the guts of things. Nat
 
 - The `gc` module can be manipulated to give access to partially constructed object, accessing fields of which can cause crashes.
 
-## 6. Multithreading {#Multithreading}
+## 6. Multithreading 
 
 Some modules (or rather objects in them) can cause a crash, if they are used imporperly **in multiple threads**;
 
 \* Refering to the same MySQLdb connection, can cause Segmentation fault.
 
-## 7. Other {#Other}
+## 7. Other 
 
 I\`ve got another way:
 
@@ -158,4 +151,3 @@ I have written a Tkinter GUI editor \[called \"GWiz\"\] to help me create and ma
 Also causes segmentation fault on some systems (Archlinux, MacOSX, Windows)
 
 \-- glen_quagmire
-::::

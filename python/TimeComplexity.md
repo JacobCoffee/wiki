@@ -1,13 +1,18 @@
 # TimeComplexity
 
-::::::: {#content dir="ltr" lang="en"}
-## Time & Space Complexity Reference {#Time_.26_Space_Complexity_Reference}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Time & Space Complexity Reference 
 
 There is an open source project that acts as comprehensive cross reference for time and space complexity for Python and the standard library. It was partially inspired by this wiki page.
 
-[Python Time & Space Complexity Reference](https://pythoncomplexity.com/){.https}
+[Python Time & Space Complexity Reference](https://pythoncomplexity.com/)
 
-## Time Complexity {#Time_Complexity}
+## Time Complexity 
 
 This page documents the time-complexity (aka \"Big O\" or \"Big Oh\") of various operations in current CPython. Other Python implementations (or older or still-under development versions of CPython) may have slightly different performance characteristics. However, it is generally safe to assume that they are not slower by more than a factor of O(log n).
 
@@ -21,7 +26,7 @@ Internally, a list is represented as an array; the largest costs come from growi
 
 ::: {}
   --------------------------------------------------------------------------------- ------------------ ------------------------------------------------------------------------------------
-  **Operation**                                                                     **Average Case**   **[Amortized Worst Case](http://en.wikipedia.org/wiki/Amortized_analysis){.http}**
+  **Operation**                                                                     **Average Case**   **[Amortized Worst Case](http://en.wikipedia.org/wiki/Amortized_analysis)**
   Copy                                                                              O(n)               O(n)
   Append\[1\]                                                                       O(1)               O(1)
   Pop last                                                                          O(1)               O(1)
@@ -35,7 +40,7 @@ Internally, a list is represented as an array; the largest costs come from growi
   Del Slice                                                                         O(n)               O(n)
   Set Slice                                                                         O(k+n)             O(k+n)
   Extend\[1\]                                                                       O(k)               O(k)
-  [Sort](http://svn.python.org/projects/python/trunk/Objects/listsort.txt){.http}   O(n log n)         O(n log n)
+  [Sort](http://svn.python.org/projects/python/trunk/Objects/listsort.txt)   O(n log n)         O(n log n)
   Multiply                                                                          O(nk)              O(nk)
   x in s                                                                            O(n)               
   min(s), max(s)                                                                    O(n)               
@@ -71,7 +76,7 @@ See dict \-- the implementation is intentionally very similar.
   ----------------------------------- ------------------------------------------------------------------------- ------------------------------------------------ ------------------------------------------------
   **Operation**                       **Average case**                                                          **Worst Case**                                   **notes**
   x in s                              O(1)                                                                      O(n)                                             
-  Union s\|t                          [O(len(s)+len(t))](./TimeComplexity_(28)SetCode(29).html){.nonexistent}                                                    
+  Union s\|t                          [O(len(s)+len(t))](./TimeComplexity_(28)SetCode(29).html)                                                    
   Intersection s&t                    O(min(len(s), len(t)))                                                    O(len(s) \* len(t))                              replace \"min\" with \"max\" if t is not a set
   Multiple intersection s1&s2&..&sn                                                                             (n-1)\*O(l) where l is max(len(s1),..,len(sn))   
   Difference s-t                      O(len(s))                                                                                                                  
@@ -81,7 +86,7 @@ See dict \-- the implementation is intentionally very similar.
   ----------------------------------- ------------------------------------------------------------------------- ------------------------------------------------ ------------------------------------------------
 :::
 
-- As seen in the [source code](https://github.com/python/cpython/blob/master/Objects/setobject.c){.https} the complexities for set difference s-t or s.difference(t) (`set_difference()`) and in-place set difference s.difference_update(t) (`set_difference_update_internal()`) are different! The first one is O(len(s)) (for every element in s add it to the new set, if not in t). The second one is O(len(t)) (for every element in t remove it from s). So care must be taken as to which is preferred, depending on which one is the longest set and whether a new set is needed.
+- As seen in the [source code](https://github.com/python/cpython/blob/master/Objects/setobject.c) the complexities for set difference s-t or s.difference(t) (`set_difference()`) and in-place set difference s.difference_update(t) (`set_difference_update_internal()`) are different! The first one is O(len(s)) (for every element in s add it to the new set, if not in t). The second one is O(len(t)) (for every element in t remove it from s). So care must be taken as to which is preferred, depending on which one is the longest set and whether a new set is needed.
 
 - To perform set operations like s-t, both s and t need to be sets. However you can do the method equivalents even if t is any iterable, for example s.difference(l), where l is a list.
 
@@ -103,11 +108,10 @@ Note that there is a fast-path for dicts that (in practice) only deal with str k
   ---------------- ------------------ --------------------------
 :::
 
-# Notes {#Notes}
+# Notes 
 
 \[1\] = These operations rely on the \"Amortized\" part of \"Amortized Worst Case\". Individual actions may take surprisingly long, depending on the history of the container.
 
 \[2\] = Popping the intermediate element at index **k** from a list of size **n** shifts all elements *after* **k** by one slot to the left using memmove. **n - k** elements have to be moved, so the operation is **O(n - k)**. The best case is popping the second to last element, which necessitates one move, the worst case is popping the first element, which involves **n - 1** moves. The average case for an average value of **k** is popping the element the middle of the list, which takes **O(n/2) = O(n)** operations.
 
 \[3\] = For these operations, the worst case *n* is the maximum size the container ever achieved, rather than just the current size. For example, if N objects are added to a dictionary, then N-1 are deleted, the dictionary will still be sized for N objects (at least) until another insertion is made.
-:::::::

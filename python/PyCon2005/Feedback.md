@@ -1,7 +1,12 @@
 # PyCon2005/Feedback
 
-::: {#content dir="ltr" lang="en"}
-Rescued from archive.org at [this page](http://web.archive.org/web/20070222052545/http://wiki.python.org/moin/PyCon2005/Feedback){.http}.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Rescued from archive.org at [this page](http://web.archive.org/web/20070222052545/http://wiki.python.org/moin/PyCon2005/Feedback).
 
 This page summarizes the feedback from the user-response forms from [PyCon](PyCon) 2005. Overall ratings
 
@@ -100,7 +105,7 @@ Disclaimer: these are not scientific counts.
 
 Vote count:
 
-- - [PyWebOff](./PyWebOff.html){.nonexistent} (28 votes)
+- - [PyWebOff](./PyWebOff.html) (28 votes)
 
 - - Keynote: GvR (17)
 
@@ -112,7 +117,7 @@ Vote count:
 
 - - OOP \-- Martelli (15)
 
-- - [PythonCard](./PythonCard.html){.nonexistent} (15)
+- - [PythonCard](./PythonCard.html) (15)
 
 - - Bruce Eckel (15)
 
@@ -162,7 +167,7 @@ Vote count:
 
 - - Schevo (2)
 
-- - [PyChinko](./PyChinko.html){.nonexistent} (2)
+- - [PyChinko](./PyChinko.html) (2)
 
 - - Layered Event System (2)
 
@@ -182,7 +187,7 @@ Vote count:
 
 - - Personal Internet Endpoint (2)
 
-Single votes: Learning Arabic, Happy Hooking, [SchoolBell](./SchoolBell.html){.nonexistent}, Localized Type Inference, Time of Day, Documentation Costs Avoided, Streaming Python, [PyBlosxom](./PyBlosxom.html){.nonexistent}, [PyLucene](PyLucene). Accommodations
+Single votes: Learning Arabic, Happy Hooking, [SchoolBell](./SchoolBell.html), Localized Type Inference, Time of Day, Documentation Costs Avoided, Streaming Python, [PyBlosxom](./PyBlosxom.html), [PyLucene](PyLucene). Accommodations
 
 \"Where did you stay?\"
 
@@ -435,4 +440,3 @@ One-vote items
 - - Use larger font for printed schedule
 
 - - Online feedback, & return immediate feedback to attendees during con
-:::

@@ -1,7 +1,12 @@
 # BoxModel
 
-::::: {#content dir="ltr" lang="en"}
-**Box Model** refers to something like [the W3C CSS box model.](http://www.w3.org/TR/CSS21/box.html){.http}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+**Box Model** refers to something like [the W3C CSS box model.](http://www.w3.org/TR/CSS21/box.html)
 
 - Names for coordinates.
 - Names for widths and heights.
@@ -19,15 +24,15 @@ Is there anything *easily reusable* in Python that presently does this sort of w
 
 (Perhaps [WxPython](WxPython) can be (ab)used for this purpose..? Can you do all the size calculations, without ever rendering anything, or initializing wx?)
 
-## Example {#Example}
+## Example 
 
 Here\'s some Python code that can track horizontal layouts.
 
 That is, as long as you nest cells *horizontally,* everything works out and gets calculated.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-13e32a533dde559b7867e227c883c9eb9c285813 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 class Rect:
    2     def __init__(self, size=0):
    3         if hasattr(size, "__int__"):
@@ -106,4 +111,3 @@ That is, as long as you nest cells *horizontally,* everything works out and gets
 ```
 :::
 ::::
-:::::

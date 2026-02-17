@@ -1,11 +1,16 @@
 # BosnianLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Bosnian
 
 ISO 639-1 Code: bs
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -27,9 +32,9 @@ Where these pages really need help:
 
 **bosanski**
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f501bd8bd9ea585b7c99ac6248a5a57a23eae14c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # -*- coding: utf-8 -*-
    2 # python 3.0 or 3.1
    3 
@@ -43,9 +48,8 @@ Where these pages really need help:
 :::
 ::::
 
-[Wikipedia](http://bs.wikipedia.org/wiki/Python_programski_jezik){.http} (Wikipedia stub)
+[Wikipedia](http://bs.wikipedia.org/wiki/Python_programski_jezik) (Wikipedia stub)
 
 [CroatianLanguage](CroatianLanguage)
 
 [CategoryLanguage](CategoryLanguage)
-:::::

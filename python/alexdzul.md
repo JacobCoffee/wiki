@@ -1,25 +1,30 @@
 # alexdzul
 
-::: {#content dir="ltr" lang="en"}
-## Alex Dzul ( Sr. Python & Django Developer). {#Alex_Dzul_.28_Sr._Python_.26_Django_Developer.29.}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Email: [alexexc2@gmail.com](mailto:alexexc2@gmail.com){.mailto}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Alex Dzul ( Sr. Python & Django Developer). 
+
+Email: [alexexc2@gmail.com](mailto:alexexc2@gmail.com)
 
 I am part of the Latin community that promotes Python Languaje.
 
-## Python Communities. {#Python_Communities.}
+## Python Communities. 
 
-- [Pythonízame](http://pythoniza.me){.http}. World Python News in Spanish
+- [Pythonízame](http://pythoniza.me). World Python News in Spanish
 
-- [Video blog Django](http://youtube.com/alexexc2){.http}. Youtube Channel to learn Django Framework in spanish.
+- [Video blog Django](http://youtube.com/alexexc2). Youtube Channel to learn Django Framework in spanish.
 
-- [Django Blogspot](http://alex-django.blogspot.mx/){.http}. Django Blog in Spanish.
+- [Django Blogspot](http://alex-django.blogspot.mx/). Django Blog in Spanish.
 
-## Pypi Packages. {#Pypi_Packages.}
+## Pypi Packages. 
 
-- [pyql-weather](https://pypi.python.org/pypi?name=pyql-weather&version=0.1&:action=display){.https}. Yahoo Weather in Python.
+- [pyql-weather](https://pypi.python.org/pypi?name=pyql-weather&version=0.1&:action=display). Yahoo Weather in Python.
 
-## Current Job. {#Current_Job.}
+## Current Job. 
 
     Grupo Plenum.
 
@@ -27,7 +32,7 @@ I am part of the Latin community that promotes Python Languaje.
 
 I\'m responsible for leading software projects that require a scientific and research work in the area of agribusiness, education and turism. Most projects are developed in python.
 
-## Skills Programmer. {#Skills_Programmer.}
+## Skills Programmer. 
 
 - Django. Web Framework for Python.
 
@@ -41,5 +46,4 @@ I\'m responsible for leading software projects that require a scientific and res
 
 - Flask. Micro web Frameworks for Python.
 
-- [PyAgrum](./PyAgrum.html){.nonexistent}. For Bayes Networks programming.
-:::
+- [PyAgrum](./PyAgrum.html). For Bayes Networks programming.

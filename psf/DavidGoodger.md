@@ -1,14 +1,19 @@
 # DavidGoodger
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # David Goodger
 
 +-------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | pronounced        | like "Badger", but **Good**!                                                                                                                                  |
 +-------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| home page         | [http://python.net/\~goodger](http://python.net/~goodger){.http .reference .external} (résumé, articles, GPG key, etc.)                                       |
+| home page         | [http://python.net/\~goodger](http://python.net/~goodger) (résumé, articles, GPG key, etc.)                                       |
 +-------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| email             | [goodger@python.org](mailto:goodger@python.org){.mailto .reference .external} & [dgoodger@gmail.com](mailto:dgoodger@gmail.com){.mailto .reference .external} |
+| email             | [goodger@python.org](mailto:goodger@python.org) & [dgoodger@gmail.com](mailto:dgoodger@gmail.com) |
 +-------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | instant messaging | - Google Talk: dgoodger@gmail.com                                                                                                                             |
 |                   |                                                                                                                                                               |
@@ -16,7 +21,7 @@
 +-------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | skype             | david.goodger (not normally active; IM me first)                                                                                                              |
 +-------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| address           | :::::: {.first .last .line-block}                                                                                                                             |
+| address           | ::::::                                                                                                                              |
 |                   | ::: line                                                                                                                                                      |
 |                   | 72 42nd Avenue                                                                                                                                                |
 |                   | :::                                                                                                                                                           |
@@ -32,14 +37,13 @@
 +-------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | telephone         | home=514-453-2443; mobile=514-662-2443; US mobile=651-442-2286                                                                                                |
 +-------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| projects          | - [Docutils](http://docutils.sf.net){.http .reference .external}                                                                                              |
-|                   | - [Polyform Puzzler](http://puzzler.sf.net){.http .reference .external}                                                                                       |
-|                   | - others listed on [my projects page](http://python.net/~goodger/projects/){.http .reference .external}                                                       |
+| projects          | - [Docutils](http://docutils.sf.net)                                                                                              |
+|                   | - [Polyform Puzzler](http://puzzler.sf.net)                                                                                       |
+|                   | - others listed on [my projects page](http://python.net/~goodger/projects/)                                                       |
 +-------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| blogs             | - [Pythonista & Techno-Geek](http://www.artima.com/weblogs/index.jsp?blogger=goodger){.http .reference .external}, my personal blog                           |
+| blogs             | - [Pythonista & Techno-Geek](http://www.artima.com/weblogs/index.jsp?blogger=goodger), my personal blog                           |
 +-------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ------------------------------------------------------------------------
 
-[CategoryHomepage](CategoryHomepage){.reference .external}
-:::
+[CategoryHomepage](CategoryHomepage)

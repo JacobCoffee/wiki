@@ -1,7 +1,12 @@
 # yasserkhan
 
-::: {#content dir="ltr" lang="en"}
-## Y R K {#Y_R_K}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Y R K 
 
 Email: `<yasser.rafiq AT SPAMFREE gmail DOT com>`
 
@@ -12,4 +17,3 @@ This is Yasser Rafiq Khan. I am a software engineering student from OIST bhopal.
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

@@ -1,13 +1,18 @@
 # PyQt/Using a translation of Qt
 
-::::: {#content dir="ltr" lang="en"}
-# Using a translation of Qt {#Using_a_translation_of_Qt}
+```{admonition} Legacy Wiki Page
+:class: note
 
-On the `#pyqt`{.backtick} channel on [freenode](http://freenode.net){.http}, `Fisiu`{.backtick} asked about getting localized versions of the Qt dialogs.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-9d6490909f568cb4bf8083599d32d6d7d0473f29 dir="ltr" lang="en"}
+# Using a translation of Qt 
+
+On the `#pyqt`{.backtick} channel on [freenode](http://freenode.net), `Fisiu`{.backtick} asked about getting localized versions of the Qt dialogs.
+
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import *
    3 from PyQt4.QtGui import *
@@ -26,4 +31,3 @@ On the `#pyqt`{.backtick} channel on [freenode](http://freenode.net){.http}, `Fi
 ```
 :::
 ::::
-:::::

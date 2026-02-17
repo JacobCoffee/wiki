@@ -1,7 +1,12 @@
 # PyConHelpers
 
-::: {#content dir="ltr" lang="en"}
-### What Can I Do for PyCon? {#What_Can_I_Do_for_PyCon.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### What Can I Do for PyCon? 
 
 Matt Payne asked me what he could do for [PyCon](PyCon). I came up with a few ideas and, rather than just communicate them privately, I thought I\'d use the dynamic nature of the Wiki to throw these out to anybody who might be asking the same question. I\'d like to thank Matt for stimulating me to express my ambitions for the conference more clearly \-- *steve*
 
@@ -21,7 +26,7 @@ Well, before [PyCon](PyCon):
 
 - You could publicize the conference anywhere and everywhere relevant (See the [PyConPromotion](PyConPromotion) page)
 
-- You could move to DC ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"}
+- You could move to DC ![:-)](/wiki/europython/img/smile.png ":-)")
 
 - You could think about all the administrivia that\'s need to run a friendly and professional conference and produce checklists, liaise with suppliers, suggest sources
 
@@ -58,4 +63,3 @@ During [PyCon](PyCon):
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon)
-:::

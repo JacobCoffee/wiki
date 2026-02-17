@@ -1,15 +1,20 @@
 # Abdur-Rahmaan Janhangeer
 
-::: {#content dir="ltr" lang="en"}
-## Info {#Info}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Info 
 
 Name: Abdur-Rahmaan Janhangeer
 
-Mail: [arj.python@gmail.com](mailto:arj.python@gmail.com){.mailto}
+Mail: [arj.python@gmail.com](mailto:arj.python@gmail.com)
 
 \...
 
-# About {#About}
+# About 
 
 ❤ python, from 🇲🇺
 
@@ -20,4 +25,3 @@ Mail: [arj.python@gmail.com](mailto:arj.python@gmail.com){.mailto}
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

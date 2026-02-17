@@ -1,7 +1,12 @@
 # PyCon/Attendance
 
-::: {#content dir="ltr" lang="en"}
-Attendance figures for past [PyCons](./PyCons.html){.nonexistent}:
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Attendance figures for past [PyCons](./PyCons.html):
 
 - 1994: 20
 
@@ -26,4 +31,3 @@ Attendance figures for past [PyCons](./PyCons.html){.nonexistent}:
 - 2008: 1040 attendees (Chicago)
 
 - 2009: 948 attendees (Chicago)
-:::

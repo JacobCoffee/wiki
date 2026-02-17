@@ -1,24 +1,18 @@
 # Admin/Email/SpamBayes
 
-:::: {#content dir="ltr" lang="en"}
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} *Please note: The administration pages have all been migrated to the new [PSF Systems Wiki](https://psf.projecthut.com/trac/psfsystems/wiki){.https}. Please no longer add information to these pages. If you need access to the new wiki, please contact [psf@python.org](mailto:psf@python.org){.mailto} for details.*
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: table-of-contents
-Contents
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-1.  [SpamBayes on mail.python.org](#SpamBayes_on_mail.python.org)
-    1.  [Integration With Postfix](#Integration_With_Postfix)
-    2.  [Integration With Usenet](#Integration_With_Usenet)
-    3.  [Care and Feeding](#Care_and_Feeding)
-        1.  [Classifying Held Mail](#Classifying_Held_Mail)
-        2.  [Troubleshooting](#Troubleshooting)
-:::
+![/!\\](/wiki/europython/img/alert.png "/!\") *Please note: The administration pages have all been migrated to the new [PSF Systems Wiki](https://psf.projecthut.com/trac/psfsystems/wiki). Please no longer add information to these pages. If you need access to the new wiki, please contact [psf@python.org](mailto:psf@python.org) for details.*
 
-# SpamBayes on mail.python.org {#SpamBayes_on_mail.python.org}
+# SpamBayes on mail.python.org 
 
-As a highly visible mail server, mail.python.org receives more than its fair share of spam, originating both from incoming SMTP traffic and from Usenet. Just one part of the suite of tools used to stem the tide, the [SpamBayes](http://www.spambayes.org/){.http} spam filter is integrated into the mail handling system on mail.python.org at both places. In the SMTP processing pipeline it is the last filter applied to incoming mail before it is handed off to [Mailman](http://www.list.org){.http}. It is the only filter applied to messages arriving via Usenet, gated between the Usenet newsgroup `comp.lang.python` and the `python-list@python.org` mailing list.
+As a highly visible mail server, mail.python.org receives more than its fair share of spam, originating both from incoming SMTP traffic and from Usenet. Just one part of the suite of tools used to stem the tide, the [SpamBayes](http://www.spambayes.org/) spam filter is integrated into the mail handling system on mail.python.org at both places. In the SMTP processing pipeline it is the last filter applied to incoming mail before it is handed off to [Mailman](http://www.list.org). It is the only filter applied to messages arriving via Usenet, gated between the Usenet newsgroup `comp.lang.python` and the `python-list@python.org` mailing list.
 
-## Integration With Postfix {#Integration_With_Postfix}
+## Integration With Postfix 
 
 SpamBayes is integrated into the mail processing on mail.python.org in a daemon process, `mpo_smtpd` which serves as the local mail transport agent (**correct term?**). This server does more than run SpamBayes, but it does that, rejecting messages which appear to be spam during the SMTP session, passing along messages which appear to be clearly good (ham) and delaying, then later holding messages for moderator review which score in the middle (unsure). The source for the server is in `/usr/local/src/mpo_proxy`.
 
@@ -29,17 +23,17 @@ By agreed upon policy, emails destined for certain addresses on mail.python.org 
 
 Note that the source directory is just an rsync of a Subversion repository, so you probably don\'t want to directly edit files in the source directory except in emergency situations. If you do edit files in the `mpo_proxy` directory make sure to also apply them to the Subversion repository. If you don\'t have a repository of your own send a unidiff to `postmaster@python.org` with a brief explanation of the changes.
 
-## Integration With Usenet {#Integration_With_Usenet}
+## Integration With Usenet 
 
 Usenet news postings from `comp.lang.python` are distributed to the `python-list@python.org` mailing list using Mailman\'s `gate_news` program. A locally modified version uses SpamBayes to score these posts. Messages which score as spam or unsure are held for moderator approval. Messages which score as ham are forwarded to the mailing list. These changes have been (are being? will be?) propagated upstream to the Mailman developers.
 
-## Care and Feeding {#Care_and_Feeding}
+## Care and Feeding 
 
 SpamBayes scores messages based on the collected wisdom stored in a set of known good (ham) and bad (spam) messages. Messages can be scored as ham, spam or unsure. Messages which score as spam are discarded, ham messages are forwarded on to their destination and unsure messages are held for moderator review.
 
 Both messages held by `mpo_smtpd` and `gate_news` will land in the moderator\'s queue(s). `mpo_smtpd` is a little cleaner in its implementation, saving unsure messages to `/var/spool/spambayes/unsure`, one message per file. `gate_news` currently only holds messages for the list moderator but doesn\'t save a copy in the unsure directory. It\'s currently the responsibility of the moderator to forward such messages to someone who can incorporate them into the training database. Fortunately, since this only affects those of us who moderate the `python-list` mailing list, only a few people need to understand this extra step. When moderating such messages, simply use the Mailman moderation forwarding capability to send them to the person primarily responsible for the training database. At the moment that is `Skip Montanaro|mailto:skip@pobox.com`.
 
-### Classifying Held Mail {#Classifying_Held_Mail}
+### Classifying Held Mail 
 
 I have a typically idiosyncratic way of processing the held messages. I rely heavily on bash history to recall and execute the necessary steps. YMMV. For all of this you need to be root. Feedback on streamlining the process is welcome.
 
@@ -92,7 +86,6 @@ It typically only takes three to five rounds to converge to no misses. If it tak
 
 The last bit of `install.sh` just tails the current log file. It\'s probably a good idea to take a little longer look at it with `tail -f /var/log/mpo_smtpd/current`.
 
-### Troubleshooting {#Troubleshooting}
+### Troubleshooting 
 
 TBD. :-/
-::::

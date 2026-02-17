@@ -1,15 +1,20 @@
 # boost.python/list
 
-::: {#content dir="ltr" lang="en"}
-## Introduction {#Introduction}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Introduction 
 
 \<boost/python/list.hpp\> defines the list class, which \...
 
-## Classes {#Classes}
+## Classes 
 
 Class list \...
 
-## Class list synopsis {#Class_list_synopsis}
+## Class list synopsis 
 
     namespace boost { namespace python { 
 
@@ -59,7 +64,7 @@ Class list \...
         void sort(T const& value)
     };
 
-## Class listconstructors {#Class_listconstructors}
+## Class listconstructors 
 
 list();
 
@@ -69,7 +74,7 @@ explicit list(object_cref sequence);
 
 Requires::??? Effects::???
 
-## Class list functions {#Class_list_functions}
+## Class list functions 
 
 void append(object_cref); template \<class T\> void append(T const& x)
 
@@ -107,7 +112,6 @@ void sort(); void sort(object_cref cmpfunc); template \<class T\> void sort(T co
 
 Requires::??? Effects::???
 
-## Example(s) {#Example.28s.29}
+## Example(s) 
 
 \...
-:::

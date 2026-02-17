@@ -1,11 +1,16 @@
 # ProposalToSpeedUpListOperations
 
-::: {#content dir="ltr" lang="en"}
-## Abstract {#Abstract}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Abstract 
 
 Operations on lists that insert/delete elements at the end of the list are not symmetric in CPython. Inserting/deleting from the end is O(1); inserting/deleting at the beginning is O(N). This proposal attempts to improve performance for remove operations at the front of the list to an O(1) operation by lazily releasing memory. Insertions are still tricky to make O(1), but they can be made to at least reclaim space from lazy removes.
 
-## Motivation {#Motivation}
+## Motivation 
 
 The author of the patch discovered the admonition against using pop(0) in the tutorial and had used it in some of his own programs, notably parsers.
 
@@ -18,7 +23,7 @@ Here are the proposed benefits:
 - While not super common, there do exist programs today that pop from the top, either using pop itself or del, including programs in the standard library
 - The language moratorium provides a good window for performance improvements in general (even if this one does not pass the litmus test for other reasons)
 
-## Rationale {#Rationale}
+## Rationale 
 
 The rationale for improving the speed of list removes should be fairly self-evident; the merits of the proposal then need to be measured against the tradeoffs required to gain that speed.
 
@@ -32,7 +37,7 @@ Many objections have been presented:
 
 - An O(1) solution would postpone the release of the memory from the orphaned pointers.
 
-- An O(1) solution would slow down calls to list_resize, [PyList](./PyList.html){.nonexistent}\_new, and list_dealloc.
+- An O(1) solution would slow down calls to list_resize, [PyList](./PyList.html)\_new, and list_dealloc.
 
 - For small and medium sized lists, memmove()\'s penalty is usually drowned out by other operations on the list elements.
 
@@ -48,7 +53,7 @@ The alternatives to list, deque and blist, do not replicate all the features of 
 
 Postponing the release of memory after popping the first element off the list is wasteful, but in the alternative scenario, users would be avoiding pop(0) in the first place and needlessly tying up memory not only for the list pointers, but the list elements themselves (although they could set elements to None). The patch does limit the number of orphan pointers, and it does reclaim orphans when new elements gets inserted to the front of the list.
 
-The changes to [PyList](./PyList.html){.nonexistent}\_new and list_dealloc are small, and those methods only get called once during the lifetime of a list. The changes to list_resize would be the most likely to counteract other speedup gains.
+The changes to [PyList](./PyList.html)\_new and list_dealloc are small, and those methods only get called once during the lifetime of a list. The changes to list_resize would be the most likely to counteract other speedup gains.
 
 Although memmove() is rarely the largest bottleneck in a Python program, every little speedup counts.
 
@@ -56,11 +61,10 @@ The assertion that current large Python programs today do not tend to pop elemen
 
 The patch does not break the public interface for third party extensions.
 
-## Implementation {#Implementation}
+## Implementation 
 
 [SteveHowell](SteveHowell) submitted the first draft of a fix, which you can find here.
 
-[http://codereview.appspot.com/194083/show](http://codereview.appspot.com/194083/show){.http}
+[http://codereview.appspot.com/194083/show](http://codereview.appspot.com/194083/show)
 
 For a small test program the patch produces a 100X speedup.
-:::

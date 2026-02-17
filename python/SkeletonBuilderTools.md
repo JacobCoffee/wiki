@@ -1,13 +1,18 @@
 # SkeletonBuilderTools
 
-::: {#content dir="ltr" lang="en"}
-## Skeleton Builder Tools {#Skeleton_Builder_Tools}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Skeleton Builder Tools 
 
 A skeleton builder tools are tools that takes a directory skeleton, copies over its directory structure to a target folder and uses a template engine to dynamically generate the files.
 
 In alphabetical order:
 
-- [Cookiecutter](http://cookiecutter.readthedocs.org/en/latest/){.http}
+- [Cookiecutter](http://cookiecutter.readthedocs.org/en/latest/)
 
   - uses Jinja2 template engine.
 
@@ -15,41 +20,40 @@ In alphabetical order:
 
   - Tested for use with Python 3.3, 2.7, 2.6, Linux, Mac OS X, and Windows.
 
-  - Extremely popular, with over 30 community contributed templates available for Python, Django, Flask, [JavaScript](./JavaScript.html){.nonexistent}, Ruby, C, Open Stack, and HTML.
+  - Extremely popular, with over 30 community contributed templates available for Python, Django, Flask, [JavaScript](./JavaScript.html), Ruby, C, Open Stack, and HTML.
 
   <!-- -->
 
-  - List of [Full feature set](https://github.com/audreyr/cookiecutter#features){.https}
+  - List of [Full feature set](https://github.com/audreyr/cookiecutter#features)
 
-  - 3rd-party: [cookiedough](https://pypi.org/project/cookiedough/){.https} GUI browser/installer with \~4150 cookiecutter templates.
+  - 3rd-party: [cookiedough](https://pypi.org/project/cookiedough/) GUI browser/installer with \~4150 cookiecutter templates.
 
-- [django-admin.py startproject](https://docs.djangoproject.com/en/1.5/intro/tutorial01/){.https}
+- [django-admin.py startproject](https://docs.djangoproject.com/en/1.5/intro/tutorial01/)
 
-  - (limited to [Django](https://docs.djangoproject.com/){.https} framework)
+  - (limited to [Django](https://docs.djangoproject.com/) framework)
 
-- [Echafaudage](http://harobed.github.io/echafaudage/){.http}
+- [Echafaudage](http://harobed.github.io/echafaudage/)
 
-  - use [tempita](http://pythonpaste.org/tempita/){.http} template engine
+  - use [tempita](http://pythonpaste.org/tempita/) template engine
 
   - config file is in json format
 
   - specific feature : standalone file executable directly with python -c \"\$(curl \...)\"
 
-- [mr.bob](http://mrbob.readthedocs.org/en/latest/){.http}
+- [mr.bob](http://mrbob.readthedocs.org/en/latest/)
 
   - use Jinja2 template engine
 
   - config file is in ini format
 
-  - specific feature : pre, post [hooks](http://mrbob.readthedocs.org/en/latest/templateauthor.html#hooks){.http}
+  - specific feature : pre, post [hooks](http://mrbob.readthedocs.org/en/latest/templateauthor.html#hooks)
 
-- [pcreate](http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/project.html?highlight=pcreate){.http} (limited to [Pyramid](http://pyramid.readthedocs.org/en/latest/){.http} framework)
+- [pcreate](http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/project.html?highlight=pcreate) (limited to [Pyramid](http://pyramid.readthedocs.org/en/latest/) framework)
 
-- [Paste Script](http://pythonpaste.org/script/){.http}
+- [Paste Script](http://pythonpaste.org/script/)
 
-### Limited to package creation {#Limited_to_package_creation}
+### Limited to package creation 
 
-- [python-packager](https://github.com/fcurella/python-packager){.https}
+- [python-packager](https://github.com/fcurella/python-packager)
 
-- [modern-package-template](https://pypi.python.org/pypi/modern-package-template/){.https} (deprecated)
-:::
+- [modern-package-template](https://pypi.python.org/pypi/modern-package-template/) (deprecated)

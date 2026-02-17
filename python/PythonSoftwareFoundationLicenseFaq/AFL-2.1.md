@@ -1,7 +1,12 @@
 # PythonSoftwareFoundationLicenseFaq/AFL-2.1
 
-::: {#content dir="ltr" lang="en"}
-# Academic Free License v. 2.1 {#Academic_Free_License_v._2.1}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Academic Free License v. 2.1 
 
 This Academic Free License (the \"License\") applies to any original work of authorship (the \"Original Work\") whose owner (the \"Licensor\") has placed the following notice immediately following the copyright notice for the Original Work:
 
@@ -44,4 +49,3 @@ This Academic Free License (the \"License\") applies to any original work of aut
 15\) **Right to Use.** You may use the Original Work in all ways not otherwise restricted or conditioned by this License or by law, and Licensor promises not to interfere with or be responsible for such uses by You.
 
 This license is Copyright (C) 2003-2004 Lawrence E. Rosen. All rights reserved. Permission is hereby granted to copy and distribute this license without modification. This license may not be modified without the express written permission of its copyright owner.
-:::

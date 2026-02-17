@@ -1,9 +1,13 @@
 # MacPython/TclTkAqua
 
-::: {#content dir="ltr" lang="en"}
-# Tcl/Tk Aqua {#Tcl.2FTk_Aqua}
+```{admonition} Legacy Wiki Page
+:class: note
 
-[http://tcltkaqua.sf.net/](http://tcltkaqua.sf.net/){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Tcl/Tk Aqua 
+
+[http://tcltkaqua.sf.net/](http://tcltkaqua.sf.net/)
 
 A binary distribution of the Mac OS X native Tcl/Tk and many popular extensions.
-:::

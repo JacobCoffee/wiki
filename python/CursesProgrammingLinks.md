@@ -1,15 +1,19 @@
 # CursesProgrammingLinks
 
-::: {#content dir="ltr" lang="en"}
-- [Charming Python: Curses Programming (David Mertz)](http://www-106.ibm.com/developerworks/linux/library/l-python6.html){.http}
+```{admonition} Legacy Wiki Page
+:class: note
 
-- [Curses Programming with Python (A.M. Kuchling, Eric S. Raymond)](http://www.amk.ca/python/howto/curses/curses.html){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- [Parnassus: Text Based UI](http://www.vex.net/parnassus/apyllo.py?i=243256747){.http}
+- [Charming Python: Curses Programming (David Mertz)](http://www-106.ibm.com/developerworks/linux/library/l-python6.html)
 
-- [PyNcurses Home Page](http://pyncurses.sourceforge.net/){.http}
+- [Curses Programming with Python (A.M. Kuchling, Eric S. Raymond)](http://www.amk.ca/python/howto/curses/curses.html)
 
-- [urwid](http://excess.org/urwid/){.http} Python/curses widget/interface library
+- [Parnassus: Text Based UI](http://www.vex.net/parnassus/apyllo.py?i=243256747)
 
-- [tput/raw_sample.py](http://bitbucket.org/jimd/trite-snippets/src/tip/tput/raw_sample.py){.http} (Example of using Python curses for `tput`{.backtick} like functions)
-:::
+- [PyNcurses Home Page](http://pyncurses.sourceforge.net/)
+
+- [urwid](http://excess.org/urwid/) Python/curses widget/interface library
+
+- [tput/raw_sample.py](http://bitbucket.org/jimd/trite-snippets/src/tip/tput/raw_sample.py) (Example of using Python curses for `tput`{.backtick} like functions)

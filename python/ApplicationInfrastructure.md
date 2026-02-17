@@ -1,7 +1,12 @@
 # ApplicationInfrastructure
 
-::: {#content dir="ltr" lang="en"}
-# Reusable application infrastructure {#Reusable_application_infrastructure}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Reusable application infrastructure 
 
 A quick overview of components needed for a reusable application infrastructure. *Reusable* means that external projects can easily reuse the basic building blocks to implement their project-specific (i.e. coupled to that particular project) application/plugin stores. *Application* is used in more or less equivalent sense to a Python package.
 
@@ -48,13 +53,13 @@ What is not covered:
 
 Lets assume that the API is called `appinfra`{.backtick}.
 
-## Application descriptors {#Application_descriptors}
+## Application descriptors 
 
-Application descriptors are instances of `App`{.backtick} class. The latter is a struct-like container class for all application meta-data. See [http://docs.python.org/distutils/setupscript.html#additional-meta-data](http://docs.python.org/distutils/setupscript.html#additional-meta-data){.http} for the main fields, also [http://peak.telecommunity.com/DevCenter/PkgResources](http://peak.telecommunity.com/DevCenter/PkgResources){.http}.
+Application descriptors are instances of `App`{.backtick} class. The latter is a struct-like container class for all application meta-data. See [http://docs.python.org/distutils/setupscript.html#additional-meta-data](http://docs.python.org/distutils/setupscript.html#additional-meta-data) for the main fields, also [http://peak.telecommunity.com/DevCenter/PkgResources](http://peak.telecommunity.com/DevCenter/PkgResources).
 
 The propsed API uses the following fields that are described below: `version`{.backtick}, `depends`{.backtick}, `python_versions`{.backtick}, `download_url`{.backtick}, `platforms`{.backtick}.
 
-## A sample main() that uses the API {#A_sample_main.28.29_that_uses_the_API}
+## A sample main() that uses the API 
 
 This illustrates a high-level use case for the API, both system-level tools and framework-specific tools would be implemented in similar manner:
 
@@ -102,7 +107,7 @@ This illustrates a high-level use case for the API, both system-level tools and 
         appname, appversion = sys.argv[1:]
         install_app(appname, appversion)
 
-## Fetch API {#Fetch_API}
+## Fetch API 
 
 The `fetch`{.backtick} or `download`{.backtick} module contains the following functions:
 
@@ -130,7 +135,7 @@ Behaviour:
 
 - downloads the application package from `download_url`{.backtick} to system temporary directory, returns the full path to the resulting file
 
-## Verification API {#Verification_API}
+## Verification API 
 
 The `verify`{.backtick} module contains the following functions:
 
@@ -146,7 +151,7 @@ Verifies if the string representation of current platform is in `platforms`{.bac
 
 Verifies if the digest matches the package file\'s digest. Digest is in the form `algoname:digest_value_in_base64`{.backtick}.
 
-## Dependency API {#Dependency_API}
+## Dependency API 
 
 The `deps`{.backtick} module contains the following functions:
 
@@ -172,7 +177,7 @@ Behaviour:
 
 Selects the \"best\" version from `supported_version`{.backtick}, a list of strings. \"Best\" version is the highest released version (this may need more thought).
 
-## Package API {#Package_API}
+## Package API 
 
 The `package`{.backtick} module contains the following functions:
 
@@ -188,7 +193,7 @@ Verifies if the unpacked package directory has expected structure. There will be
 
 Compiles the C/C++/whatnot sources to binaries.
 
-## Version API {#Version_API}
+## Version API 
 
 Version format will be strictly defined (both the string representation and capabilities of the `Version`{.backtick} class) according to best practices.
 
@@ -214,9 +219,9 @@ Packages have to utilise the `Version`{.backtick} class below for specifying the
     # or
     VERSION = version.Version(1, 0, version.ALPHA, 1)
 
-## Example implementation {#Example_implementation}
+## Example implementation 
 
-### Version handling {#Version_handling}
+### Version handling 
 
 `appinfra.version`{.backtick} module (tested, working code):
 
@@ -414,7 +419,7 @@ Samples of version ordering:
         assert v1 != v2
         assert v3 == v5
 
-### Dependency handling {#Dependency_handling}
+### Dependency handling 
 
 `deps`{.backtick} module (untested code, may break horribly):
 
@@ -455,7 +460,6 @@ Samples of version ordering:
 
         return False
 
-## Copyright {#Copyright}
+## Copyright 
 
 This document is in public domain. Created by Mart Sõmermaa, mrts.pydev at gmail dot com.
-:::

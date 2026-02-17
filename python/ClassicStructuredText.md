@@ -1,9 +1,14 @@
 # ClassicStructuredText
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 ClassicStructuredText is the original [StructuredText](StructuredText) markup. It was developed by Jim Fulton of Zope Corporation and first released in 1996. It is now part of the Z Object Publishing Environment (Zope).
 
-The following text describes ClassicStructuredText and how it tries to make use of indentation and simple symbology to guess the structure of a document. For the next generation of structured text, see [StructuredTextNG](http://dev.zope.org/Members/jim/StructuredTextWiki/StructuredTextNG){.http}.
+The following text describes ClassicStructuredText and how it tries to make use of indentation and simple symbology to guess the structure of a document. For the next generation of structured text, see [StructuredTextNG](http://dev.zope.org/Members/jim/StructuredTextWiki/StructuredTextNG).
 
 A structured string consists of a sequence of paragraphs separated by one or more blank lines. Each paragraph has a level which is defined as the minimum indentation of the paragraph. A paragraph is a sub-paragraph of another paragraph if the other paragraph is the last preceding paragraph that has a lower level.
 
@@ -31,17 +36,17 @@ Special symbology is used to indicate special constructs:
 
 - Text encloded by double quotes followed by a colon, a URL, and concluded by punctuation plus white space, \*or\* just white space, is treated as a hyper link. For example:
 
-  - \"Zope\":[http://www.zope.org/](http://www.zope.org/){.http} is \...
+  - \"Zope\":[http://www.zope.org/](http://www.zope.org/) is \...
 
-  Is interpreted as \'\<a href=\"[http://www.zope.org/\"\>Zope\</a\>](http://www.zope.org/%22%3EZope%3C/a%3E){.http} is \....\'
+  Is interpreted as \'\<a href=\"[http://www.zope.org/\"\>Zope\</a\>](http://www.zope.org/%22%3EZope%3C/a%3E) is \....\'
 
   **Note:** This works for relative as well as absolute URLs.
 
 - Text enclosed by double quotes followed by a comma, one or more spaces, an absolute URL and concluded by punctuation plus white space, or just white space, is treated as a hyper link. For example:
 
-  - \"mail me\", [mailto:amos@digicool.com](mailto:amos@digicool.com){.mailto}.
+  - \"mail me\", [mailto:amos@digicool.com](mailto:amos@digicool.com).
 
-  Is interpreted as \'\<a href=\"[mailto:amos@digicool.com\"\>mail](mailto:amos@digicool.com%22%3Email){.mailto} me\</a\>.\'
+  Is interpreted as \'\<a href=\"[mailto:amos@digicool.com\"\>mail](mailto:amos@digicool.com%22%3Email) me\</a\>.\'
 
 - Text enclosed in brackets which consists only of letters, digits, underscores and dashes is treated as hyper links within the document. For example:
 
@@ -75,4 +80,3 @@ Special symbology is used to indicate special constructs:
     | Eggs       | 3          |
     +------------+------------+
     :::
-:::

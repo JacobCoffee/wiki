@@ -1,6 +1,11 @@
 # PyCon2007AndBeyond
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 At this BoF, we\'ll begin planning for [PyCon](PyCon) 2007, and also discuss plans for [PyCon](PyCon) in 2008 and the following years.
 
 Who should attend:
@@ -13,7 +18,7 @@ Time: 4:45PM on Sunday
 
 Location: not yet set; perhaps in the Addison room.
 
-## Attendees {#Attendees}
+## Attendees 
 
 - [AndrewKuchling](AndrewKuchling) (Chair, [PyCon](PyCon) 2006, 2007?)
 
@@ -21,11 +26,11 @@ Location: not yet set; perhaps in the Addison room.
 
 - [DavidGoodger](DavidGoodger)
 
-## Notes {#Notes}
+## Notes 
 
 I\'d **definitely** like to see if we can revive our East coast University contacts for 2008. That has the potential to remove many of the commercial pressures, and could be a jolly good venue too! *SH*
 
-## Draft agenda {#Draft_agenda}
+## Draft agenda 
 
 Total duration of meeting: 75 minutes. (But we can run as long as participants want to.)
 
@@ -58,4 +63,3 @@ Total duration of meeting: 75 minutes. (But we can run as long as participants w
 ------------------------------------------------------------------------
 
 [CategoryPyConPlanning](CategoryPyConPlanning)
-:::

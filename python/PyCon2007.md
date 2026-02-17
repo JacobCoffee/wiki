@@ -1,15 +1,20 @@
 # PyCon2007
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [PyCon](PyCon) 2007 was held near Dallas, Texas.
 
 - [Accepted Talks](./PyCon2007(2f)Talks.html)
 
-The main conference web site was [http://us.pycon.org/TX2007/](http://us.pycon.org/TX2007/){.http}.
+The main conference web site was [http://us.pycon.org/TX2007/](http://us.pycon.org/TX2007/).
 
-The venue was the Dallas-Addison Marriott Quorum ([reserve a room](http://us.pycon.org/Addison/Hotels){.http} / [Hotel\'s Website](http://marriott.com/property/propertypage/DALQC){.http} / [Map to Hotel](http://maps.yahoo.com/maps_result?addr=14901+Dallas+Parkway&csz=Dallas%2C+Texas+75254&country=us){.http})
+The venue was the Dallas-Addison Marriott Quorum ([reserve a room](http://us.pycon.org/Addison/Hotels) / [Hotel\'s Website](http://marriott.com/property/propertypage/DALQC) / [Map to Hotel](http://maps.yahoo.com/maps_result?addr=14901+Dallas+Parkway&csz=Dallas%2C+Texas+75254&country=us))
 
-# Dates and times {#Dates_and_times}
+# Dates and times 
 
 The conference schedule was:
 
@@ -25,4 +30,3 @@ The conference schedule was:
 ------------------------------------------------------------------------
 
 [CategoryPyCon2007](CategoryPyCon2007)
-:::

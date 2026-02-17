@@ -1,7 +1,11 @@
 # MailArchivingOpenSpace
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Organizers: [KaPingYee](KaPingYee) and [BarryWarsaw](BarryWarsaw)
 
-Attendees: [BarryWarsaw](BarryWarsaw), [KaPingYee](KaPingYee), [ThomasWouters](./ThomasWouters.html){.nonexistent}, [AleksTotic](./AleksTotic.html){.nonexistent}, [AbhaySaxena](AbhaySaxena), [AndrewKuchling](AndrewKuchling)
-:::
+Attendees: [BarryWarsaw](BarryWarsaw), [KaPingYee](KaPingYee), [ThomasWouters](./ThomasWouters.html), [AleksTotic](./AleksTotic.html), [AbhaySaxena](AbhaySaxena), [AndrewKuchling](AndrewKuchling)

@@ -1,11 +1,16 @@
 # DocsCoordination/Tasks
 
-::: {#content dir="ltr" lang="en"}
-# Tasks {#Tasks}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Tasks 
 
 for the documentation team
 
-## Coding tasks {#Coding_tasks}
+## Coding tasks 
 
 for those who want to develop the toolset
 
@@ -17,9 +22,9 @@ for those who want to develop the toolset
 
 - I\'d like to ask all of you to look at the new built documentation and collect thoughts about it \-- not the content, but mainly the infrastructure such as navigational elements, accessibility etc.
 
-  Note that the web application does use [JavaScript](./JavaScript.html){.nonexistent} in some places, but only for better usability (hopefully). Users without [JavaScript](./JavaScript.html){.nonexistent} may not lose any functionality. (This should be confirmed every now and then.)
+  Note that the web application does use [JavaScript](./JavaScript.html) in some places, but only for better usability (hopefully). Users without [JavaScript](./JavaScript.html) may not lose any functionality. (This should be confirmed every now and then.)
 
-### The TODO file {#The_TODO_file}
+### The TODO file 
 
 The `doctools/TODO`{.backtick} file lists some things that should be done. At the moment, these are:
 
@@ -43,11 +48,11 @@ The `doctools/TODO`{.backtick} file lists some things that should be done. At th
 
 - add search via Xapian? optionally have a contents tree view in the sidebar (AJAX based)?
 
-## Content tasks {#Content_tasks}
+## Content tasks 
 
 **Roundup bugs**
 
-- There are lots of bugs and feature requests in the Python issue tracker at [http://bugs.python.org/](http://bugs.python.org/){.http}, and even the occasional patch with category \"Documentation\". However, most of these are pretty big tasks though, such as (mostly obscure or advanced) features that are not documented, or documented not in the official docs, but some essay (new-style classes!). If you tackle an issue, mention the issue number in the commit message or in the patch email, and I will close the report accordingly.
+- There are lots of bugs and feature requests in the Python issue tracker at [http://bugs.python.org/](http://bugs.python.org/), and even the occasional patch with category \"Documentation\". However, most of these are pretty big tasks though, such as (mostly obscure or advanced) features that are not documented, or documented not in the official docs, but some essay (new-style classes!). If you tackle an issue, mention the issue number in the commit message or in the patch email, and I will close the report accordingly.
 
 **In the Wiki**
 
@@ -62,4 +67,3 @@ reference and done some things myself, but only inserted XXX comments for others
 - Similarly, the library reference is the place where code samples
 
 must be read through and adapted to Python 3 syntax if applicable.
-:::

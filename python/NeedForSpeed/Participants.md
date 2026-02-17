@@ -1,6 +1,11 @@
 # NeedForSpeed/Participants
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The following people are currently expected at the [NeedForSpeed](NeedForSpeed) sprint. Each delegate has been asked to provide a small amount of biographical data and information about their approach to the sprint, which has been added where available
 
 John Benediktsson
@@ -11,7 +16,7 @@ Martin Blais
 
 - Martin Blais from Montreal, Canada, has a background in high-end
 
-  computer graphics. After completing his graduate studies, he went on to work for graphics companies on global illumination problems and post-production software. He has been a heavy user of the Python language since 1999. Occasionally providing independent consulting services, he now offers a professional training course on Python. Martin is also currently involved in an independent venture related to the web. You can find many of his public bits of code at [http://furius.ca](http://furius.ca){.http}
+  computer graphics. After completing his graduate studies, he went on to work for graphics companies on global illumination problems and post-production software. He has been a heavy user of the Python language since 1999. Occasionally providing independent consulting services, he now offers a professional training course on Python. Martin is also currently involved in an independent venture related to the web. You can find many of his public bits of code at [http://furius.ca](http://furius.ca)
 
 Georg Brandl
 
@@ -47,11 +52,11 @@ Richard Jones
 
 Fredrik Lundh
 
-- Fredrik Lundh is a principal of Secret Labs, Inc., the creators of [PythonWorks](./PythonWorks.html){.nonexistent}, an integrated development environment (IDE) for Python. He is an expert on the use of Python with images and graphics and is also the creator of the Python Imaging Library (PIL). He is an active member of the Python community and a frequent contributor to the Python newsgroups. His website and blog are at [http://effbot.org/](http://effbot.org/){.http} He appreciates that someone posted a short bio for him, and hopes to find some time to make it a little more up to date before his current boss sees it.
+- Fredrik Lundh is a principal of Secret Labs, Inc., the creators of [PythonWorks](./PythonWorks.html), an integrated development environment (IDE) for Python. He is an expert on the use of Python with images and graphics and is also the creator of the Python Imaging Library (PIL). He is an active member of the Python community and a frequent contributor to the Python newsgroups. His website and blog are at [http://effbot.org/](http://effbot.org/) He appreciates that someone posted a short bio for him, and hopes to find some time to make it a little more up to date before his current boss sees it.
 
 Tim Peters
 
-- Uncle Timmy is a notorious Python old-timer, widely despised for his uncanny ability to channel Guido\'s secret thoughts. In a computer career spanning more than 25 years, he single-handedly destroyed several domestic computer industries, including American supercomputing (Cray Research, Kendall Square Research), computer speech recognition (Dragon Systems), and the dot-com boom of the late 90\'s ([BeOpen](./BeOpen.html){.nonexistent}.com). Growing kinder with age, or perhaps just forgetful, he recently left Zope Corporation before destroying it.
+- Uncle Timmy is a notorious Python old-timer, widely despised for his uncanny ability to channel Guido\'s secret thoughts. In a computer career spanning more than 25 years, he single-handedly destroyed several domestic computer industries, including American supercomputing (Cray Research, Kendall Square Research), computer speech recognition (Dragon Systems), and the dot-com boom of the late 90\'s ([BeOpen](./BeOpen.html).com). Growing kinder with age, or perhaps just forgetful, he recently left Zope Corporation before destroying it.
 
 Runar Petursson
 
@@ -59,7 +64,7 @@ Runar Petursson
 
 Sean Reifschneider
 
-- Sean Reifschneider, from Fort Collins, Colorado, is a founder and member of technical staff of tummy.com, ltd. He\'s been a Python user and advocate since 1997. The primary area he expects to be working on relate to performance improvements via re-implementation of code in C and other C Python or python library work. He expects to make use of unit tests to ensure quality of resulting code and quantify performance improvements. He looks forward to a successful sprint, in part, for selfish reasons. If the sprint outcome is positive, hopefully we all will be invited to and sponsored for attendance at future sprints. ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"}
+- Sean Reifschneider, from Fort Collins, Colorado, is a founder and member of technical staff of tummy.com, ltd. He\'s been a Python user and advocate since 1997. The primary area he expects to be working on relate to performance improvements via re-implementation of code in C and other C Python or python library work. He expects to make use of unit tests to ensure quality of resulting code and quantify performance improvements. He looks forward to a successful sprint, in part, for selfish reasons. If the sprint outcome is positive, hopefully we all will be invited to and sponsored for attendance at future sprints. ![:-)](/wiki/europython/img/smile.png ":-)")
 
 Richard M Tew
 
@@ -68,4 +73,3 @@ Richard M Tew
 Christian Tismer
 
 - Major contributor to the [PyPy](PyPy) project and creator of [StacklessPython](StacklessPython).
-:::

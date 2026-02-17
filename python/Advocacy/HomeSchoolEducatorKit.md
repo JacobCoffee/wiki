@@ -1,19 +1,24 @@
 # Advocacy/HomeSchoolEducatorKit
 
-::: {#content dir="ltr" lang="en"}
-# Python Advocacy Kit for Home Schooling Educators {#Python_Advocacy_Kit_for_Home_Schooling_Educators}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Python Advocacy Kit for Home Schooling Educators 
 
 The intent of this page is to collect ideas on what should be included in such a kit. Elsewhere, we are soliciting flyers and whitepapers which when finished will be used to make up advocacy kits.
 
 *Suppose you\'re a parent who is home schooling kids and you\'d like to adopt Python in the classroom. Perhaps you\'re teaching programming or perhaps you\'re teaching physics, chemistry or some other topic and know that Python can give students the modeling and analysis tools gain further insight. What materials would you need to make that happen? How would these materials differ from what a conventional K-12 educator would need?*
 
-## Background Materials {#Background_Materials}
+## Background Materials 
 
-- [http://www.unschooling.com/](http://www.unschooling.com/){.http}
+- [http://www.unschooling.com/](http://www.unschooling.com/)
 
-- [http://a2zhomeschooling.com](http://a2zhomeschooling.com){.http}
+- [http://a2zhomeschooling.com](http://a2zhomeschooling.com)
 
-- [http://www.educationrevolution.org/](http://www.educationrevolution.org/){.http}
+- [http://www.educationrevolution.org/](http://www.educationrevolution.org/)
 
 This wiki page is a collection point - we will later relocate, organize with other related content and write abstracts about them so that others can find them more easily.
 
@@ -65,9 +70,8 @@ There is quite a mix of whitepapers above because it isn\'t possible to guess wh
 
 ------------------------------------------------------------------------
 
-For active discussion on advocating the use of Python, please join the [Advocacy mailing list](http://mail.python.org/mailman/listinfo/advocacy){.http} and visit the [Advocacy - Get Involved!](http://advocacy.python.org/getinvolved){.http} site.
+For active discussion on advocating the use of Python, please join the [Advocacy mailing list](http://mail.python.org/mailman/listinfo/advocacy) and visit the [Advocacy - Get Involved!](http://advocacy.python.org/getinvolved) site.
 
 ------------------------------------------------------------------------
 
 [CategoryAdvocacy](CategoryAdvocacy) [CategoryAdvocacy](CategoryAdvocacy)
-:::

@@ -1,6 +1,11 @@
 # AdminGroup
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 - [AndrewKuchling](AndrewKuchling)
 
 - [BarryWarsaw](BarryWarsaw)
@@ -9,27 +14,27 @@
 
 - [CarlTrachte](CarlTrachte)
 
-- [DaleAthanasias](./DaleAthanasias.html){.nonexistent}
+- [DaleAthanasias](./DaleAthanasias.html)
 
 - [DavidGoodger](DavidGoodger)
 
-- [DmitryVasiliev](./DmitryVasiliev.html){.nonexistent}
+- [DmitryVasiliev](./DmitryVasiliev.html)
 
-- [EduardoPadoan](./EduardoPadoan.html){.nonexistent}
+- [EduardoPadoan](./EduardoPadoan.html)
 
 - EWDurbin
 
-- [EzioMelotti](./EzioMelotti.html){.nonexistent}
+- [EzioMelotti](./EzioMelotti.html)
 
 - [FredDrake](FredDrake)
 
 - [JeffRush](JeffRush)
 
-- [KevinWalzer](./KevinWalzer.html){.nonexistent}
+- [KevinWalzer](./KevinWalzer.html)
 
 - [MarcAndreLemburg](MarcAndreLemburg)
 
-- [MartijnPieters](./MartijnPieters.html){.nonexistent}
+- [MartijnPieters](./MartijnPieters.html)
 
 - [MartinvonLoewis](MartinvonLoewis)
 
@@ -51,9 +56,8 @@
 
 - [TerriOda](TerriOda)
 
-- [ThomasWouters](./ThomasWouters.html){.nonexistent}
+- [ThomasWouters](./ThomasWouters.html)
 
 - tkadm30
 
 - marienordin
-:::

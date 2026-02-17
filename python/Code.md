@@ -1,6 +1,11 @@
 # Code
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 There\'s a lot of useful code out there that\'s not big enough to be its own module or its own project, but still useful for various purposes.
 
 Until we get a lot of code, this little page can serve as a useful focal point.
@@ -29,9 +34,9 @@ Until we get a lot of code, this little page can serve as a useful focal point.
 
 - [Generators](Generators)
 
-- [LeeEdwin/DownloadCenter](./LeeEdwin(2f)DownloadCenter.html) - programs by [LeeEdwin](./LeeEdwin.html){.nonexistent}
+- [LeeEdwin/DownloadCenter](./LeeEdwin(2f)DownloadCenter.html) - programs by [LeeEdwin](./LeeEdwin.html)
 
-- [LeeEdwin/CodeShare](./LeeEdwin(2f)CodeShare.html){.nonexistent} - another place to post your code
+- [LeeEdwin/CodeShare](./LeeEdwin(2f)CodeShare.html) - another place to post your code
 
 - [lwickjr/Modules](./lwickjr(2f)Modules.html)/Alias - an alias facility for I.D.L.E.
 
@@ -48,4 +53,3 @@ Until we get a lot of code, this little page can serve as a useful focal point.
 ------------------------------------------------------------------------
 
 For a list of other sites providing Python code, see [PublishingPythonModules](PublishingPythonModules); for some recommendations, see [UsefulModules](UsefulModules).
-:::

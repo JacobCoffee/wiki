@@ -1,15 +1,20 @@
 # PyCon2006/RegistrationDesk
 
-::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 PyConTX2006 needs your help! Volunteers at the registration desk will help register conference goers, give out conference materials, and provide information. If you\'d like to help out, please add your name to the schedule below for the hours you intend to volunteer. If you change your mind later on be sure to remove your name, so that we\'ll know when we need replacements. If you only want to volunteer for half an hour please feel free to change the time increments; currently the assumption is you\'re volunteering for a full hour.
 
 Filling empty slots is most important, but we need three people at the desk Friday morning. Later on one person per time slot will do.
 
-Here\'s the [talks schedule](http://www.python.org/pycon/2006/schedule.html){.http .reference .external} and the [list of talks with abstracts](http://wiki.python.org/moin/PyCon2006/Talks){.http .reference .external}. We also need volunteer [session chairs](./PyCon2006(2f)SessionChairs.html){.reference .external}.
+Here\'s the [talks schedule](http://www.python.org/pycon/2006/schedule.html) and the [list of talks with abstracts](http://wiki.python.org/moin/PyCon2006/Talks). We also need volunteer [session chairs](./PyCon2006(2f)SessionChairs.html).
 
-You may also send email to [David Goodger](mailto:goodger@python.org){.mailto .reference .external}, the volunteer coordinator. There\'s no need to confirm; I\'m automatically informed of changes to this page.
+You may also send email to [David Goodger](mailto:goodger@python.org), the volunteer coordinator. There\'s no need to confirm; I\'m automatically informed of changes to this page.
 
-::: {#thursday-tutorials-day .section}
+::: 
 ### Thursday \-- Tutorials Day
 
 We\'ll need two or three people at the desk until 10AM, and one person after that.
@@ -25,7 +30,7 @@ We\'ll need two or three people at the desk until 10AM, and one person after tha
 - 4:00 PM \-- Bonnie Allen
 :::
 
-::: {#friday-conference-day-1 .section}
+::: 
 ### Friday \-- Conference Day 1
 
 There should be at least three people at the desk in the early morning. The busiest registration time is between 8AM and 9AM. We\'ll need two people per time slot from 10AM, and one person from 1PM.
@@ -44,7 +49,7 @@ There should be at least three people at the desk in the early morning. The busi
 - 6:00 PM \-- Bonnie Allen
 :::
 
-::: {#saturday-conference-day-2 .section}
+::: 
 ### Saturday \-- Conference Day 2
 
 There should be two people at the desk in the early morning, and one person per slot from 10AM.
@@ -62,7 +67,7 @@ There should be two people at the desk in the early morning, and one person per 
 - 6:00 PM \--
 :::
 
-::: {#sunday-conference-day-3 .section}
+::: 
 ### Sunday \-- Conference Day 3
 
 There should be one person at the desk all day.
@@ -78,6 +83,5 @@ There should be one person at the desk all day.
 
 ------------------------------------------------------------------------
 
-[CategoryPyCon2006](CategoryPyCon2006){.reference .external}
+[CategoryPyCon2006](CategoryPyCon2006)
 :::
-:::::::

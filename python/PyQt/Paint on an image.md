@@ -1,17 +1,22 @@
 # PyQt/Paint on an image
 
-::::: {#content dir="ltr" lang="en"}
-# Paint on an image {#Paint_on_an_image}
+```{admonition} Legacy Wiki Page
+:class: note
 
-On the `comp.lang.python`{.backtick} newsgroup (`python-list`{.backtick}), Laszlo Nagy asked for suggestions for a library to render antialiased images using [TrueType](./TrueType.html){.nonexistent} font files.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-Here is a hurriedly written program to do that ([source code](attachments/PyQt(2f)Paint(20)on(20)an(20)image/painttext.py "source code"){.attachment}).
+# Paint on an image 
 
-![painttext.png](attachments/PyQt(2f)Paint(20)on(20)an(20)image/painttext.png "painttext.png"){.attachment}
+On the `comp.lang.python`{.backtick} newsgroup (`python-list`{.backtick}), Laszlo Nagy asked for suggestions for a library to render antialiased images using [TrueType](./TrueType.html) font files.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-970190076e7fa26e7e0adb6ffd7023397ccce2c6 dir="ltr" lang="en"}
+Here is a hurriedly written program to do that ([source code](attachments/PyQt(2f)Paint(20)on(20)an(20)image/painttext.py "source code")).
+
+![painttext.png](attachments/PyQt(2f)Paint(20)on(20)an(20)image/painttext.png "painttext.png")
+
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import Qt
    3 from PyQt4.QtGui import *
@@ -96,4 +101,3 @@ Here is a hurriedly written program to do that ([source code](attachments/PyQt(2
 ```
 :::
 ::::
-:::::

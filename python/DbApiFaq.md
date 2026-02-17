@@ -1,15 +1,14 @@
 # DbApiFaq
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 These are the frequently asked questions from the DB-SIG mailing list.
 
-::: table-of-contents
-Contents
-
-1.  [How do I pass parameters to the cursor.execute method?](#How_do_I_pass_parameters_to_the_cursor.execute_method.3F)
-:::
-
-## How do I pass parameters to the cursor.execute method? {#How_do_I_pass_parameters_to_the_cursor.execute_method.3F}
+## How do I pass parameters to the cursor.execute method? 
 
 Don\'t use the \'%\' concatenation operator, pass them as a series of extra parameters. For instance
 
@@ -21,7 +20,7 @@ May do what you want, but more by accident than design. If you change it to;
 
 Then the DB-API module will make sure your value is correctly escaped and turned into an object appropriate for the database.
 
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} Drivers differ in the way the parameters are passed to .execute();
+![/!\\](/wiki/europython/img/alert.png "/!\") Drivers differ in the way the parameters are passed to .execute();
 
 Some examples of parameter passing:
 
@@ -35,7 +34,7 @@ Some examples of parameter passing:
 
 - keyword args: `.execute ("... col = :arg", arg = "value")`
 
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} Drivers also differ in the substitution sequence used to denote a parameter. The substitution style can be inspected by reading the `paramstyle` atribute of the module being used:
+![/!\\](/wiki/europython/img/alert.png "/!\") Drivers also differ in the substitution sequence used to denote a parameter. The substitution style can be inspected by reading the `paramstyle` atribute of the module being used:
 
     >>> print module_name.paramstyle
     'qmark'
@@ -52,11 +51,10 @@ Some examples of usage for each `paramstyle`:
 
 - named: `.execute("... WHERE my_column = :name", {"name": value}) `
 
-See the `paramstyle` section (under Module Interface) in the [DB-API 2.0 specification](http://www.python.org/peps/pep-0249.html){.http} for more information.
+See the `paramstyle` section (under Module Interface) in the [DB-API 2.0 specification](http://www.python.org/peps/pep-0249.html) for more information.
 
 See also: [DbApiCheatSheet](DbApiCheatSheet) (under construction)
 
 ------------------------------------------------------------------------
 
-[CategoryDatabase](./CategoryDatabase.html){.nonexistent}
-::::
+[CategoryDatabase](./CategoryDatabase.html)

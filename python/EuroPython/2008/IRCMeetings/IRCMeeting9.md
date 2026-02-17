@@ -1,26 +1,31 @@
 # EuroPython/2008/IRCMeetings/IRCMeeting9
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #9 {#IRC_Meeting_.239}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Time/Location {#Time.2FLocation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# IRC Meeting #9 
+
+## Time/Location 
 
 The meeting will take place in the #europython channel on freenode at 18:00 CET on Thursday 3rd April.
 
 Please look at the minutes from the last meeting for more background information: [../IRCMeeting8](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting8.html)
 
-## Present {#Present}
+## Present 
 
 Paul, David, Christian, Marius, Carl, Stephan
 
-## Agenda/Minutes {#Agenda.2FMinutes}
+## Agenda/Minutes 
 
 - Talks/Themes
   - *Paul* to report on the status of python.org mailing lists for talks/contact. **Paul will follow up and try to get the lists created as soon as possible.**
 
-  - Final theme changes and feedback on the [call for participation draft](http://www.europython.org/community/Planning/CallForParticipationDraft){.http}.
+  - Final theme changes and feedback on the [call for participation draft](http://www.europython.org/community/Planning/CallForParticipationDraft).
 
-    - Useful link: [http://www.europython.org/community/Talk_Suggestions](http://www.europython.org/community/Talk_Suggestions){.http}
+    - Useful link: [http://www.europython.org/community/Talk_Suggestions](http://www.europython.org/community/Talk_Suggestions)
 
   - *David* to report back about publicising tutorials on the *tutor* mailing list. **No responses received.**
 
@@ -32,7 +37,7 @@ Paul, David, Christian, Marius, Carl, Stephan
 
   - Details of fees are required for registration. Discussion required!
 
-  - *Laura* to indicate any change in the status of payment systems, [WorldPay](./WorldPay.html){.nonexistent}, and so on.
+  - *Laura* to indicate any change in the status of payment systems, [WorldPay](./WorldPay.html), and so on.
 - Feedback/Surveys
   - Progress on the processing of last year\'s surveys
 - Sponsorship
@@ -45,7 +50,6 @@ Paul, David, Christian, Marius, Carl, Stephan
   - Keynotes
   - Sprints
 
-## Actions {#Actions}
+## Actions 
 
 - See the bold sections above\...
-:::

@@ -1,13 +1,18 @@
 # MacPython/Growl
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **About Growl:**
 
-- Editor: [The Growl Development Team](http://growl.info/team.php){.http}
+- Editor: [The Growl Development Team](http://growl.info/team.php)
 
-- Product Page: [Growl](http://growl.info/){.http}
+- Product Page: [Growl](http://growl.info/)
 
-- Scripting Page: [AppleScript Support for Growl](http://growl.info/documentation/applescript-support.php){.http}
+- Scripting Page: [AppleScript Support for Growl](http://growl.info/documentation/applescript-support.php)
 
 - Description: \"*Growl is a global notification system for Mac OS X. Any application can send a notification to Growl, which will display an attractive message on your screen.*\"
 
@@ -19,17 +24,16 @@
 
 **Appscripting in Depth:**
 
-- [/FrequentlyAskedQuestions](./MacPython(2f)Growl(2f)FrequentlyAskedQuestions.html){.nonexistent}
+- [/FrequentlyAskedQuestions](./MacPython(2f)Growl(2f)FrequentlyAskedQuestions.html)
 
 - [/Examples](./MacPython(2f)Growl(2f)Examples.html)
 
-- [/Annoyances](./MacPython(2f)Growl(2f)Annoyances.html){.nonexistent}
+- [/Annoyances](./MacPython(2f)Growl(2f)Annoyances.html)
 
-- [/TipsAndTricks](./MacPython(2f)Growl(2f)TipsAndTricks.html){.nonexistent}
+- [/TipsAndTricks](./MacPython(2f)Growl(2f)TipsAndTricks.html)
 
-- [/Bugs](./MacPython(2f)Growl(2f)Bugs.html){.nonexistent}
+- [/Bugs](./MacPython(2f)Growl(2f)Bugs.html)
 
-- [/MiscNotes](./MacPython(2f)Growl(2f)MiscNotes.html){.nonexistent}
+- [/MiscNotes](./MacPython(2f)Growl(2f)MiscNotes.html)
 
-- [/UsefulLinks](./MacPython(2f)Growl(2f)UsefulLinks.html){.nonexistent}
-:::
+- [/UsefulLinks](./MacPython(2f)Growl(2f)UsefulLinks.html)

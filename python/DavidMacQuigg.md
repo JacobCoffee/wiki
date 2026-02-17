@@ -1,6 +1,11 @@
 # DavidMacQuigg
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
     *************************************************************     *
     * David MacQuigg, PhD              * email:  dmq'at'gain.com   *  *
     * IC Design Engineer               * phone:  USA 520-721-4583  *  *  *
@@ -9,7 +14,7 @@
     * VRS Consulting, P.C.             * Tucson, Arizona 85710        *
     *************************************************************     *
 
-I\'m an IC Design Engineer with a new mission - developing a simple, open-source platform for circuit designers to use all the tools they need for design entry, simulation, and analysis. My chosen language for this platform is Python, because I want to make it easy for non-programmers to jump in and fix problems or add features as the needs arise. I\'m also teaching a circuit-design laboratory at the University of Arizona in which Python will be heavily emphasized. [http://ece.arizona.edu/\~edatools/](http://ece.arizona.edu/~edatools/){.http}
+I\'m an IC Design Engineer with a new mission - developing a simple, open-source platform for circuit designers to use all the tools they need for design entry, simulation, and analysis. My chosen language for this platform is Python, because I want to make it easy for non-programmers to jump in and fix problems or add features as the needs arise. I\'m also teaching a circuit-design laboratory at the University of Arizona in which Python will be heavily emphasized. [http://ece.arizona.edu/\~edatools/](http://ece.arizona.edu/~edatools/)
 
 My interest in Python was sparked by years of frustration with the tools used in circuit design. Complex and poorly-designed tool interfaces seem to make every tool a \"black box\" that never does what you want, and distracts you from focusing on the challenges of your design. If only I could write my own little program to run these tools, I knew I could make them do what I wanted. The available languages, however, either didn\'t have the capabilities I needed (BASIC), or were too complex (C++) for a technical professional who is not a full-time programmer, and does not have time to master the language and stay in practice. Since learning Python, I almost never use these other languages.
 
@@ -24,4 +29,3 @@ If we do this right, the result will be win-win for both open-source and commerc
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage) `     `{.backtick}[EDAtools](EDAtools)
-:::

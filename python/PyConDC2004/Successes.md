@@ -1,9 +1,14 @@
 # PyConDC2004/Successes
 
-::: {#content dir="ltr" lang="en"}
-This page describes the actual progress and accomplishments that were made at [PyCon2004](./PyCon2004.html){.nonexistent}.
+```{admonition} Legacy Wiki Page
+:class: note
 
-- Core Python: the 2.4 release schedule, PEP [0320](http://www.python.org/dev/peps/pep-0320 "PEP"){.interwiki}, was updated after a meeting of python-dev people, and we now have a plan for 2.4.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+This page describes the actual progress and accomplishments that were made at [PyCon2004](./PyCon2004.html).
+
+- Core Python: the 2.4 release schedule, PEP [0320](http://www.python.org/dev/peps/pep-0320 "PEP"), was updated after a meeting of python-dev people, and we now have a plan for 2.4.
 
 - Core Python: A bunch of bugs and patches were processed. (Anyone know how many?)
 
@@ -21,5 +26,4 @@ This page describes the actual progress and accomplishments that were made at [P
 
 - PGP key-signing party was held.
 
-- Meeting of \"small business Python users\" led to [a new mailing list](http://www.python-in-business.org/cgi-bin/mailman/listinfo/spuf){.http} being created.
-:::
+- Meeting of \"small business Python users\" led to [a new mailing list](http://www.python-in-business.org/cgi-bin/mailman/listinfo/spuf) being created.

@@ -1,6 +1,11 @@
 # PyCon2010BayPiggiesBid
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [BayPiggies](BayPiggies) has taken the lead in making a bid for [PyCon2010](PyCon2010) in the San Francisco Bay Area. See [PyCon2010BayPiggiesProposal](PyCon2010BayPiggiesProposal) and [SanFrancisco](SanFrancisco) for more information.
 
 The following are the questions asked by Python.org of bidders to host [PyCon](PyCon).
@@ -15,31 +20,31 @@ Right. We can identify candidates, but we won\'t be negotiating the contract.
 
 - *Tell us, briefly, what\'s good and what\'s great about the city/region/state that would make it a good place to host [PyCon](PyCon).*
 
-[BayPiggies](http://www.baypiggies.org/){.http}, Silicon Valley, San Francisco, Guido, The Exploratorium, Google, Stanford, UC Berkeley, Napa, Santa Cruz, Monterey, Carmel, Pebble Beach, Big Sur\...
+[BayPiggies](http://www.baypiggies.org/), Silicon Valley, San Francisco, Guido, The Exploratorium, Google, Stanford, UC Berkeley, Napa, Santa Cruz, Monterey, Carmel, Pebble Beach, Big Sur\...
 
 *Tell us the pros and cons about the local area:*
 
 - \+ *Are major venues (1000+ person capacity) plentiful?*
 
-- [Moscone](http://www.moscone.com/){.http}}
+- [Moscone](http://www.moscone.com/)}
 
-- [Santa Clara Convention Center](http://www.santaclara.org/conventioncenter/){.http}
+- [Santa Clara Convention Center](http://www.santaclara.org/conventioncenter/)
 
-- [San Jose Convention Center](http://sanjose.org/meetings/facilities/convention.php){.http}
+- [San Jose Convention Center](http://sanjose.org/meetings/facilities/convention.php)
 
-- [Oakland Convention Center](http://www.oaklandcvb.com/){.http}
+- [Oakland Convention Center](http://www.oaklandcvb.com/)
 
-- [Hilton Hotels](http://www1.hilton.com/){.http}
+- [Hilton Hotels](http://www1.hilton.com/)
 
-- [Marriott Hotel](http://sanjosemarriott.com/){.http}
+- [Marriott Hotel](http://sanjosemarriott.com/)
 
-- [Doubletree Hotel](http://dtsj.com/){.http}
+- [Doubletree Hotel](http://dtsj.com/)
 
-- [Westin](http://www.starwoodhotels.com/westin/index.html){.http}
+- [Westin](http://www.starwoodhotels.com/westin/index.html)
 
-- [Holiday Inn](http://www.ichotelsgroup.com/){.http}
+- [Holiday Inn](http://www.ichotelsgroup.com/)
 
-- [Fairmont Hotel](http://www.fairmont.com/){.http}
+- [Fairmont Hotel](http://www.fairmont.com/)
 
 We could have a reception at The Exploratorium and offer them a coding sprint.
 
@@ -61,23 +66,23 @@ San Francisco, Peninsula, South Bay, East Bay
 
 One-way prices.
 
-- [SF Muni](http://www.sfmuni.com/){.http} \$1.75
+- [SF Muni](http://www.sfmuni.com/) \$1.75
 
-- [Santa Clara County VTA](http://www.vta.org/){.http} \$1.75 (includes Santa Clara County Light Rail) \$1.75
+- [Santa Clara County VTA](http://www.vta.org/) \$1.75 (includes Santa Clara County Light Rail) \$1.75
 
-- [AC Transit](http://www.flyoakland.com/ac_transit.shtml){.http} Alameda/Contra Costa counties \$1.75
+- [AC Transit](http://www.flyoakland.com/ac_transit.shtml) Alameda/Contra Costa counties \$1.75
 
-- [Caltrain](http://caltrain.com/){.http} San Jose Diridon (Zone 4) to SF 4th & Townsend (Zone 1) \$7.50; SFO-SF \$4.00
+- [Caltrain](http://caltrain.com/) San Jose Diridon (Zone 4) to SF 4th & Townsend (Zone 1) \$7.50; SFO-SF \$4.00
 
-- [Amtrak](http://www.flyoakland.com/amtrak.shtml){.http} Oakland-San Jose \$13.00
+- [Amtrak](http://www.flyoakland.com/amtrak.shtml) Oakland-San Jose \$13.00
 
-- [BART](http://www.bart.gov/){.http} SFO to Montgomery St., SF \$5.35; Oakland Coliseum to Montogmery St., SF \$3.55
+- [BART](http://www.bart.gov/) SFO to Montgomery St., SF \$5.35; Oakland Coliseum to Montogmery St., SF \$3.55
 
-- [AirBART shuttle](http://www.flyoakland.com/bart_airbart.shtml){.http} OAK to Oakland Coliseum, \$3
+- [AirBART shuttle](http://www.flyoakland.com/bart_airbart.shtml) OAK to Oakland Coliseum, \$3
 
-- \[[http://www.bayshuttle.com/](http://www.bayshuttle.com/){.http} Bay Shuttle, SFO-SF \$16.00
+- \[[http://www.bayshuttle.com/](http://www.bayshuttle.com/) Bay Shuttle, SFO-SF \$16.00
 
-- [All Bay Area shuttles](http://www.bayareashuttles.net/bay_area_airport_shuttle.htm){.http} SFO-San Jose, about \$40.00
+- [All Bay Area shuttles](http://www.bayareashuttles.net/bay_area_airport_shuttle.htm) SFO-San Jose, about \$40.00
 
 SF taxi companies:
 
@@ -109,7 +114,7 @@ Usually within a few blocks.
 
   o *Any tech-related events?*
 
-Only a few hundred in recent years. ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"}
+Only a few hundred in recent years. ![:-)](/wiki/europython/img/smile.png ":-)")
 
 A sampling of recent and currently scheduled tech conferences:
 
@@ -123,7 +128,7 @@ A sampling of recent and currently scheduled tech conferences:
 
 - Web 2.0
 
-- [JavaOne](./JavaOne.html){.nonexistent}
+- [JavaOne](./JavaOne.html)
 
 - Cisco Systems Conference
 
@@ -135,7 +140,7 @@ A sampling of recent and currently scheduled tech conferences:
 
 - Technosium
 
-- [DesignCon](./DesignCon.html){.nonexistent}
+- [DesignCon](./DesignCon.html)
 
 - Search Marketing Expo
 
@@ -169,7 +174,7 @@ Dozens, including volunteers from Google.
 
 Guido. Google, 200+ OLPC XO users and developers\...
 
-- \+ *Looking at the [PyCon staff](http://us.pycon.org/2008/about/staff/){.http} roles list, are there any local people who would be committed to filling a particular role?*
+- \+ *Looking at the [PyCon staff](http://us.pycon.org/2008/about/staff/) roles list, are there any local people who would be committed to filling a particular role?*
 
 Yes.
 
@@ -191,11 +196,11 @@ Indeed.
 
 - Bay Area Zope Users
 
-- SF Bay Area [PloneLounge](./PloneLounge.html){.nonexistent}
+- SF Bay Area [PloneLounge](./PloneLounge.html)
 
 - Berkeley Plone Users Group
 
-See also [SF Bay Area Scripting Groups](http://www.cfcl.com/rdm/bass/groups.php){.http}
+See also [SF Bay Area Scripting Groups](http://www.cfcl.com/rdm/bass/groups.php)
 
 - \+ *Local companies doing exciting things with Python?*
 
@@ -203,7 +208,7 @@ See also [SF Bay Area Scripting Groups](http://www.cfcl.com/rdm/bass/groups.php)
 
 Google, for a start. They say they want to continue sponsoring [PyCon](PyCon).
 
-The [LucasFilm](./LucasFilm.html){.nonexistent} people at [PyCon2008](PyCon2008) say they want to get us invited for a tour of their headquarters (also [LucasArts](./LucasArts.html){.nonexistent}) in the Letterman Building in the Presidio of San Francisco.
+The [LucasFilm](./LucasFilm.html) people at [PyCon2008](PyCon2008) say they want to get us invited for a tour of their headquarters (also [LucasArts](./LucasArts.html)) in the Letterman Building in the Presidio of San Francisco.
 
 We haven\'t talked to the other tech companies in the area, but we expect to come up with something.
 
@@ -215,5 +220,4 @@ Uh, wow. Well, Google, HP, Apple, Intel, AMD, IBM, Oracle, Cisco, and a cast of 
 
 - o *Do they use Python?*
 
-Google, LucasFilm/ILM, [YouTube](./YouTube.html){.nonexistent}, VMware, Yahoo!, Cisco, [IronPort](./IronPort.html){.nonexistent}, eBay, [BitTorrent](./BitTorrent.html){.nonexistent}, Slide, Facebook, HP, IBM, Apple, Oracle, LSI Logic\... [DICE](http://www.dice.com/){.http} has more than 370 Bay Area job listings for Python today (2008-4-14) at companies including HP, AMD, Conde Nast Publications, Deloitte, Dreamworks Animation, eBay, E\*trade, Google, IBM, Macy\'s, Nokia, NVIDIA, [SourceForge](SourceForge), Sun, Walmart, Yahoo [Juju](http://www.job-search-engine.com/jobs?k=python&l=San+Francisco%2C+CA){.http} lists other Python jobs: Cisco, Acxiom, Macrovision\...
-:::
+Google, LucasFilm/ILM, [YouTube](./YouTube.html), VMware, Yahoo!, Cisco, [IronPort](./IronPort.html), eBay, [BitTorrent](./BitTorrent.html), Slide, Facebook, HP, IBM, Apple, Oracle, LSI Logic\... [DICE](http://www.dice.com/) has more than 370 Bay Area job listings for Python today (2008-4-14) at companies including HP, AMD, Conde Nast Publications, Deloitte, Dreamworks Animation, eBay, E\*trade, Google, IBM, Macy\'s, Nokia, NVIDIA, [SourceForge](SourceForge), Sun, Walmart, Yahoo [Juju](http://www.job-search-engine.com/jobs?k=python&l=San+Francisco%2C+CA) lists other Python jobs: Cisco, Acxiom, Macrovision\...

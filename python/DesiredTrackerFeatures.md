@@ -1,9 +1,14 @@
 # DesiredTrackerFeatures
 
-::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Desired Tracker Features
 
-::: {#patch-and-test-tracking .section}
+::: 
 ### Patch and Test Tracking
 
 Instead of the \'needs test\' and \'needs patch\' stages, it would be better to have a checkbox grid something like this:
@@ -29,10 +34,10 @@ The stages could be something like \"discussing\" (when no patch has been provid
 
 In the meanwhile the stages could be changed to \"needs unit test\", \"needs patch\", \"needs review\", \"resolved\".
 
-> See also some notes on [python-dev](http://mail.python.org/pipermail/python-dev/2011-March/109877.html){.http .reference .external}
+> See also some notes on [python-dev](http://mail.python.org/pipermail/python-dev/2011-March/109877.html)
 :::
 
-::: {#python-version-tracking .section}
+::: 
 ### Python Version Tracking
 
 Instead of a multi-selection list for python versions, perhaps we could have a list of versions like this:
@@ -63,7 +68,7 @@ With values like \'unaffected\', \'affected\', \'committed\', \'to be ported\'.
 >
 > Using checkboxes instead of multi-value select elements is a huge usability win.(No references handy, just memory.) ---merwok
 >
-> > Checkboxes are better from an usability point of view but might make the interface more cluttered. Hiding somehow the values that are not selected might make the situation better, but previous experiments with this weren\'t too successful. Using a lower opacity for unchecked fields and restore it on hover might work. For some experiments with checkboxes see [http://psf.upfronthosting.co.za/roundup/meta/issue384](http://psf.upfronthosting.co.za/roundup/meta/issue384){.http .reference .external}
+> > Checkboxes are better from an usability point of view but might make the interface more cluttered. Hiding somehow the values that are not selected might make the situation better, but previous experiments with this weren\'t too successful. Using a lower opacity for unchecked fields and restore it on hover might work. For some experiments with checkboxes see [http://psf.upfronthosting.co.za/roundup/meta/issue384](http://psf.upfronthosting.co.za/roundup/meta/issue384)
 > >
 > > Checkboxes could be used for versions, like:
 > >
@@ -79,7 +84,7 @@ With values like \'unaffected\', \'affected\', \'committed\', \'to be ported\'.
 > > the \'3rd party\' value could IMHO be removed, since there are only 3 issues opened that use it.
 :::
 
-::: {#new-field-for-module-package .section}
+::: 
 ### New Field for Module/Package
 
 When I want to find all bugs related to one module or package, I have to use the plain text search, which could give false positives and leave out valid results. For some packages I can use a component, e.g. Distutils, but not for all. I suggest a new field that would allow selecting what module(s)/package(s) a bug apply to. This would provide reliable and discoverable URIs for people who want to monitor particular modules or packages.
@@ -102,22 +107,22 @@ When I want to find all bugs related to one module or package, I have to use the
 >
 >             :   
 >
->                 Found this: [http://psf.upfronthosting.co.za/roundup/meta/issue78](http://psf.upfronthosting.co.za/roundup/meta/issue78){.http .reference .external} ---merwok
+>                 Found this: [http://psf.upfronthosting.co.za/roundup/meta/issue78](http://psf.upfronthosting.co.za/roundup/meta/issue78) ---merwok
 >
 >                 :   
 >
 >                     Nice catch. But that\'s not python-dev requests RDM is referring to. -techtonik
->                     :   [http://psf.upfronthosting.co.za/roundup/meta/issue373](http://psf.upfronthosting.co.za/roundup/meta/issue373){.http .reference .external}
+>                     :   [http://psf.upfronthosting.co.za/roundup/meta/issue373](http://psf.upfronthosting.co.za/roundup/meta/issue373)
 :::
 
-::: {#easier-monitoring .section}
+::: 
 ### Easier Monitoring
 
 (merwok)
 
-Provide Atom feeds for saved queries to make keeping up with a particular area or component easier. (See [http://psf.upfronthosting.co.za/roundup/meta/issue155](http://psf.upfronthosting.co.za/roundup/meta/issue155){.http .reference .external}, which however uses one of the legacy RSS formats.)
+Provide Atom feeds for saved queries to make keeping up with a particular area or component easier. (See [http://psf.upfronthosting.co.za/roundup/meta/issue155](http://psf.upfronthosting.co.za/roundup/meta/issue155), which however uses one of the legacy RSS formats.)
 
-Add OpenSearch support to allow browsers to get search suggestions (completion) and scripts to get search results as easily-parsable feeds (see [Wikipedia's OpenSearch file](http://fr.wikipedia.org/w/opensearch_desc.php){.http .reference .external} for an example). It means adding one simple XML file, and returning search results as Atom feeds with some OpenSearch elements.
+Add OpenSearch support to allow browsers to get search suggestions (completion) and scripts to get search results as easily-parsable feeds (see [Wikipedia's OpenSearch file](http://fr.wikipedia.org/w/opensearch_desc.php) for an example). It means adding one simple XML file, and returning search results as Atom feeds with some OpenSearch elements.
 
 Allow any user to set her/himself as auto-nosy for some criteria. Allow any user with developer status to set her/himself as auto-assignee for some for some criteria.
 
@@ -126,7 +131,7 @@ Allow any user to set her/himself as auto-nosy for some criteria. Allow any user
 Add a stats page that shows stats and graphs similar to the ones included in the weekly summary reports.
 :::
 
-::: {#files .section}
+::: 
 ### Files
 
 (merwok)
@@ -137,7 +142,7 @@ Attach files to emails sent to nosy if they have a sane mime type and size (poss
 :   This can be already enabled in Roundup, but the sanity check should probably be implemented separately.
 :::
 
-::: {#misc .section}
+::: 
 ### Misc
 
 There could be a short (one line) description that depending on the stage of the issue says what should be done next (triaging, adding tests, a patch, review it, commit it), with a link to the respective section of the devguide.
@@ -146,7 +151,7 @@ There could be a short (one line) description that depending on the stage of the
 
 The template for a new issue could include a short introduction that links to the devguide and suggests to check if a similar issue already exists before reporting a new one.
 
-When an issue is closed stage should be automatically set to \'resolved\'. \[Done in [#595](http://psf.upfronthosting.co.za/roundup/meta/issue595){.http .reference .external}\]
+When an issue is closed stage should be automatically set to \'resolved\'. \[Done in [#595](http://psf.upfronthosting.co.za/roundup/meta/issue595)\]
 
 There should be a field in which you can enter an issue number of an issue of which this issue is a duplicate, and submitting it should
 
@@ -164,7 +169,7 @@ Assignment should be open to anyone with an account. Assignment suggests respons
 
 > There might be an \'assigned to\' field open to everyone is working or wants to work on the issue and a \'reviewer/committer\' field for a core developer that can review and commit the patch once it\'s ready.
 
-Mails for \"unimportant\" changes (e.g. nosy changes, files/msgs removed) could be avoided. These changes could still be included in the next message or when enough unimportant changes are collected, making sure that it\'s clear who changed what. The only problem is that if there\'s no \"next message\" the change will pass unnoticed. This is a problem especially for messages that gets removed accidentally. See [#279](http://psf.upfronthosting.co.za/roundup/meta/issue279){.http .reference .external}.
+Mails for \"unimportant\" changes (e.g. nosy changes, files/msgs removed) could be avoided. These changes could still be included in the next message or when enough unimportant changes are collected, making sure that it\'s clear who changed what. The only problem is that if there\'s no \"next message\" the change will pass unnoticed. This is a problem especially for messages that gets removed accidentally. See [#279](http://psf.upfronthosting.co.za/roundup/meta/issue279).
 
 Links to msgs (e.g. msg12345) should use anchors (i.e. issue1234#msg12345).
 
@@ -172,10 +177,9 @@ Ability to make groups of related issues, i.e. issue7833, issue8870 and issue887
 
 Ability to link/track status of issues from external trackers. \-- techtonik
 
-Consider Trac 0.12 as an alternative to Roundup [http://trac.edgewall.org/wiki/TracWorkflow](http://trac.edgewall.org/wiki/TracWorkflow){.http .reference .external} \-- techtonik
+Consider Trac 0.12 as an alternative to Roundup [http://trac.edgewall.org/wiki/TracWorkflow](http://trac.edgewall.org/wiki/TracWorkflow) \-- techtonik
 
 ------------------------------------------------------------------------
 
 CategoryTracker
 :::
-:::::::::

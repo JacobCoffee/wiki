@@ -1,13 +1,18 @@
 # PyQt/Undo and redo with line edits
 
-::::: {#content dir="ltr" lang="en"}
-# Undo and redo with line edits {#Undo_and_redo_with_line_edits}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Undo and redo with line edits 
 
 On `comp.lang.python`{.backtick}, Zabin asked for some help with undo/redo and a form interface.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-9f543eaa2f8764e5572e7078f49ae80ecb0078e8 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 
    3 from PyQt4.QtGui import *
@@ -90,4 +95,3 @@ On `comp.lang.python`{.backtick}, Zabin asked for some help with undo/redo and a
 ```
 :::
 ::::
-:::::

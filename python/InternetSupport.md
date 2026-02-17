@@ -1,17 +1,21 @@
 # InternetSupport
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 *Please enter software under a category. If a category is missing, please add it!*
 
-- [WebServerExtensions](./WebServerExtensions.html){.nonexistent}
+- [WebServerExtensions](./WebServerExtensions.html)
 
-- [MailandNews](./MailandNews.html){.nonexistent}
+- [MailandNews](./MailandNews.html)
 
 - [InstantMessaging](InstantMessaging)
 
-- [InteractiveChat](./InteractiveChat.html){.nonexistent}
+- [InteractiveChat](./InteractiveChat.html)
 
-- [TeamWare](./TeamWare.html){.nonexistent}
+- [TeamWare](./TeamWare.html)
 
 - [ContentManagementSystems](ContentManagementSystems)
-:::

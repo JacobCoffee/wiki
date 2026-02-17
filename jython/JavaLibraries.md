@@ -1,20 +1,18 @@
 # JavaLibraries
 
-:::::: {#content dir="ltr" lang="en"}
-# Using Java Classes in Jython {#Using_Java_Classes_in_Jython}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Using Java Classes in Jython 
 
 [DocumentationAndEducation](DocumentationAndEducation)
 
-::: table-of-contents
-Contents
-
-1.  [Using Java Classes in Jython](#Using_Java_Classes_in_Jython)
-    1.  1.  [Array](#Array)
-:::
-
 ------------------------------------------------------------------------
 
-### Array {#Array}
+### Array 
 
 Posted to the Jython-users mailing list by Alfonso Reyes on October 14, 2007\
 
@@ -24,9 +22,9 @@ To do:\
 - the class should automatically instantiate and return the array\
 - a print method that can print the class or any arrays operating outside the class
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f2f26d84cef8a534c073d3e6525a3f0104344fd7 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """     3D array with class
    2 
    3 """
@@ -75,4 +73,3 @@ To do:\
 ```
 :::
 ::::
-::::::

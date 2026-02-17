@@ -1,11 +1,16 @@
 # PackagingWG/2018-04-23-Warehouse
 
-::: {#content dir="ltr" lang="en"}
-# Warehouse weekly meeting {#Warehouse_weekly_meeting}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Warehouse weekly meeting 
 
 Monday, 23 April 2018
 
-## Present {#Present}
+## Present 
 
 - Nicole
 - Dustin
@@ -14,7 +19,7 @@ Monday, 23 April 2018
 - Ernest
 - Mark
 
-## Announcements {#Announcements}
+## Announcements 
 
 From Jochai at Mozilla, last week:
 
@@ -24,7 +29,7 @@ Sumana: unavailable much of this week
 
 Ernest: We\'ve done \_50\_ deploys since prod launch!!!
 
-## Working on/blocked {#Working_on.2Fblocked}
+## Working on/blocked 
 
 Nicole:
 
@@ -34,7 +39,7 @@ Nicole:
 
 - Starting planning for next round of user tests (and user test training). 59 volunteers \\o/
 
-- No blockers ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+- No blockers ![:)](/wiki/europython/img/smile.png ":)")
 
 Sumana:
 
@@ -47,7 +52,7 @@ Need to:
 
 Mark:
 
-- tweeting from \@ThePSF about PyPI launch? - TODO - followup with Betsy/Marketing WG\-- DONE [https://twitter.com/di_codes/status/985896605294448640](https://twitter.com/di_codes/status/985896605294448640){.https}
+- tweeting from \@ThePSF about PyPI launch? - TODO - followup with Betsy/Marketing WG\-- DONE [https://twitter.com/di_codes/status/985896605294448640](https://twitter.com/di_codes/status/985896605294448640)
 
 - need Open Tech Fund feedback from team \-- DEADLINE April 26th
 
@@ -61,7 +66,7 @@ Ernest:
 
 - Search Index - may be resolved, Memory Consumption, HTTP 5xx errors - trending toward 0 errors
 
-- Blocked: Just on time! April 30 can\'t come soon enough ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+- Blocked: Just on time! April 30 can\'t come soon enough ![:)](/wiki/europython/img/smile.png ":)")
 
 Dustin:
 
@@ -70,23 +75,23 @@ Dustin:
 
 Laura:
 
-- Promoted new PyPI on mailing list and the Changelog: [https://blog.python.org/2018/04/new-pypi-launched-legacy-pypi-shutting.html](https://blog.python.org/2018/04/new-pypi-launched-legacy-pypi-shutting.html){.https} and LWN: [https://lwn.net/Articles/752192/](https://lwn.net/Articles/752192/){.https}
+- Promoted new PyPI on mailing list and the Changelog: [https://blog.python.org/2018/04/new-pypi-launched-legacy-pypi-shutting.html](https://blog.python.org/2018/04/new-pypi-launched-legacy-pypi-shutting.html) and LWN: [https://lwn.net/Articles/752192/](https://lwn.net/Articles/752192/)
 
 - Sprint with NYC Python and PyLadies this Thursday!
 
-## Ask Donald for {#Ask_Donald_for}
+## Ask Donald for 
 
 - Update GDPR issue with VanL\'s reply
 
-## Upcoming talks/sprints? {#Upcoming_talks.2Fsprints.3F}
+## Upcoming talks/sprints? 
 
 - PyPA \[redacted\] sprint \-- October 27/28? TODO Sumana to reach out to PyPA today
 
-- I think we should consider submitting a session to Open Source Summit, Wednesday, August 29 -- Friday, August 31, 2018 in Vancouver, Canada. [https://events.linuxfoundation.org/events/open-source-summit-north-america-2018/program/cfp/](https://events.linuxfoundation.org/events/open-source-summit-north-america-2018/program/cfp/){.https} --- CfP closes April 29th. 2000+ attendees, includes subconferences LinuxCon, ContainerCon and CloudOpen, and I think it might be a good opportunity to sell to the business-open-sourcey community, \"here\'s what Packaging WG did with this much funding, here are the benefits we could offer to the industry if we had \$[\_.\" ]{.u}
+- I think we should consider submitting a session to Open Source Summit, Wednesday, August 29 -- Friday, August 31, 2018 in Vancouver, Canada. [https://events.linuxfoundation.org/events/open-source-summit-north-america-2018/program/cfp/](https://events.linuxfoundation.org/events/open-source-summit-north-america-2018/program/cfp/) --- CfP closes April 29th. 2000+ attendees, includes subconferences LinuxCon, ContainerCon and CloudOpen, and I think it might be a good opportunity to sell to the business-open-sourcey community, \"here\'s what Packaging WG did with this much funding, here are the benefits we could offer to the industry if we had \$[\_.\" ]
 
   - Sumana TODO - ask Packaging WG \-- DONE
 
-## After April 30th: momentum {#After_April_30th:_momentum}
+## After April 30th: momentum 
 
 Who\'s committing to what as volunteers after grant is over?
 
@@ -102,9 +107,9 @@ Who\'s committing to what as volunteers after grant is over?
 
 - Sumana: will work on Python stuff \<8 hours/week
 
-Ernest, Dustin, and Nicole to try to concentrate volunteer time on supporting, responding to volunteers, and to find potential coordinator/co-maintainer candidates at[ [PyCon](./PyCon.html){.nonexistent} ]{.u}sprints[ ]{.u}
+Ernest, Dustin, and Nicole to try to concentrate volunteer time on supporting, responding to volunteers, and to find potential coordinator/co-maintainer candidates at[ [PyCon](./PyCon.html) ]sprints[ ]
 
-## TODO {#TODO}
+## TODO 
 
 Everyone:
 
@@ -113,7 +118,7 @@ Everyone:
 
 Sumana:
 
-- file issue re: redirects for search/filter queries \-- [DONE](https://github.com/pypa/warehouse/issues/3799){.https}
+- file issue re: redirects for search/filter queries \-- [DONE](https://github.com/pypa/warehouse/issues/3799)
 
 - Submit request for OTF Red Team audit
 
@@ -130,4 +135,3 @@ Donald:
 Mark:
 
 - Update MOSS budget spreadsheet \-- update the column for \"Estimate\" to include reallocation that occurred
-:::

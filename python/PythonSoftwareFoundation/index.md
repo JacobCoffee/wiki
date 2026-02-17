@@ -19,6 +19,4 @@ DutiesAndResponsibilitiesOfDirectors
 ExpectationsOfBoardDirectors
 FellowNominations
 Proposals
-ProposalsForDiscussion
-ProposalsForResolution
 ```

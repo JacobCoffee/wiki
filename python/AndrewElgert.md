@@ -1,7 +1,12 @@
 # AndrewElgert
 
-::: {#content dir="ltr" lang="en"}
-## Andrew Elgert {#Andrew_Elgert}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Andrew Elgert 
 
 Pythonista and founder of [PyRVA](RichmondPythonUserGroup).
 
@@ -12,4 +17,3 @@ Email: `<andrew DOT elgert AT SPAMFREE gmail DOT com>`
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

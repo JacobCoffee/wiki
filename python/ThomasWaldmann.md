@@ -1,7 +1,12 @@
 # ThomasWaldmann
 
-::: {#content dir="ltr" lang="en"}
-# About {#About}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# About 
 
 I am one of the core developers of the [MoinMoin](MoinMoin) Python Wiki Engine (also used here).
 
@@ -11,9 +16,8 @@ Soon I began hacking the [MoinMoin](MoinMoin) code and thus fell in love with Py
 
 Meanwhile I avoid doing coding in any other language if it can be done in Python, too.
 
-# Contact {#Contact}
+# Contact 
 
 I usually hang around on #moin IRC channel on irc.freenode.net, so if you need any [MoinMoin](MoinMoin) help, feel free to contact me there.
 
-My (mostly german) wiki homepage is at [ThomasWaldmann](http://linuxwiki.org/ThomasWaldmann "LinuxWiki"){.interwiki} - there is also my email address.
-:::
+My (mostly german) wiki homepage is at [ThomasWaldmann](http://linuxwiki.org/ThomasWaldmann "LinuxWiki") - there is also my email address.

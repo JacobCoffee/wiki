@@ -1,6 +1,11 @@
 # BeginnersGuide/OverviewChinese
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Python是一种简洁但功能强大的面向对象编程语言，它类似Perl，Ruby，Scheme或Java。
 
 Python的特点：
@@ -28,4 +33,3 @@ Python语言的编程语言特性：
 可以查看[SimpleProgramsChinese](SimpleProgramsChinese)，收集了一些代码行逐步变多的短程序，它们展示了Python的语法和可读性
 
 编写Python代码一点都不难------但你需要使用PEP代码风格，你可以学习Pythonchecker.com上的在线资源来测试、检查和改进你的代码风格
-:::

@@ -1,6 +1,11 @@
 # SliceOverNegatives
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 How slice works:
 
     >>> a = list(range(10))
@@ -32,4 +37,3 @@ I believe slicing with negative indices works as expected:
     [1, 2, 3, 4, 5, 6, 7, 8]
 
 You just need to remember that a negative index means offset from the end while a positive index means offset from the start. Thus above, `-9` references offset `10-9 == 1`.
-:::

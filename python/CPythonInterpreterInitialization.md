@@ -1,11 +1,16 @@
 # CPythonInterpreterInitialization
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The initialisation process for the CPython interpreter is complicated and while some parts of it are well documented, there\'s no cohesive overview of the whole process, and the quality of the documentation of the individual steps is quite uneven. This can lead to difficulties for developers of other applications that want to embed CPython, application authors that want to more strictly control the execution environment of their Python software (or just debug their software when it misbehaves) and CPython core developers considering proposals that further change the initialisation sequence.
 
 This page is primarily aimed at collecting links to the existing documentation resources, proposals that affect the startup sequence, and some possible ideas for cleaning up and rationalising the startup process.
 
-## Phases of Initialisation {#Phases_of_Initialisation}
+## Phases of Initialisation 
 
 (These phases are neither comprehensive nor in sequence - yet)
 
@@ -152,76 +157,76 @@ The following sketch highlights some of the C level functions and global variabl
             |  +-"sts" is the return code for the interpreter invocation
             +
 
-## Existing Related Documentation {#Existing_Related_Documentation}
+## Existing Related Documentation 
 
 As the heading says, this section is for links to any documentation that currently exists
 
-- [Import system specification](http://docs.python.org/3/reference/import.html){.http}
+- [Import system specification](http://docs.python.org/3/reference/import.html)
 
-- [C API initialization/finalization documentation](http://docs.python.org/3/c-api/init.html){.http}
+- [C API initialization/finalization documentation](http://docs.python.org/3/c-api/init.html)
 
-- [Command line usage guide](http://docs.python.org/3/using/cmdline.html){.http}
+- [Command line usage guide](http://docs.python.org/3/using/cmdline.html)
 
 - python -h
 
-- [site module documentation](http://docs.python.org/3/library/site){.http}
+- [site module documentation](http://docs.python.org/3/library/site)
 
-- [venv module documentation](http://docs.python.org/3/library/venv){.http}
+- [venv module documentation](http://docs.python.org/3/library/venv)
 
-- [Virtual environments proposal (PEP 405)](http://www.python.org/dev/peps/pep-0405/){.http}
+- [Virtual environments proposal (PEP 405)](http://www.python.org/dev/peps/pep-0405/)
 
-## Relevant code areas {#Relevant_code_areas}
+## Relevant code areas 
 
 This section is for direct links into relevant parts of the CPython source (where there\'s no good existing docs)
 
-- [pythonrun.c, home of Py_Initialize and friends](http://hg.python.org/cpython/file/default/Python/pythonrun.c){.http}
+- [pythonrun.c, home of Py_Initialize and friends](http://hg.python.org/cpython/file/default/Python/pythonrun.c)
 
-- [Direct link to \_PyInitializeEx_Private](http://hg.python.org/cpython/file/default/Python/pythonrun.c#l243){.http}
+- [Direct link to \_PyInitializeEx_Private](http://hg.python.org/cpython/file/default/Python/pythonrun.c#l243)
 
-- [main.c, home of the CLI definition in Py_Main](http://hg.python.org/cpython/file/default/Modules/main.c){.http}
+- [main.c, home of the CLI definition in Py_Main](http://hg.python.org/cpython/file/default/Modules/main.c)
 
-- [python.c, source for the actual binary that calls Py_Main from the Python library](http://hg.python.org/cpython/file/default/Modules/python.c){.http}
+- [python.c, source for the actual binary that calls Py_Main from the Python library](http://hg.python.org/cpython/file/default/Modules/python.c)
 
-- [sysmodule.c, where \_Py_SysInit does a lot of work](http://hg.python.org/cpython/file/default/Python/sysmodule.c#l1549){.http}
+- [sysmodule.c, where \_Py_SysInit does a lot of work](http://hg.python.org/cpython/file/default/Python/sysmodule.c#l1549)
 
-- [Hash seed randomisation](http://hg.python.org/cpython/file/default/Python/random.c){.http}
+- [Hash seed randomisation](http://hg.python.org/cpython/file/default/Python/random.c)
 
-- [Global flag declarations (most of them, anyway)](http://hg.python.org/cpython/file/default/Python/pythonrun.c#l82){.http}
+- [Global flag declarations (most of them, anyway)](http://hg.python.org/cpython/file/default/Python/pythonrun.c#l82)
 
-- [Figuring out various filesystem related details](http://hg.python.org/cpython/file/default/Modules/getpath.c){.http}
+- [Figuring out various filesystem related details](http://hg.python.org/cpython/file/default/Modules/getpath.c)
 
 I know it makes no sense that main.c and python.c are in the Modules directory and sysmodule.c is in the Python directory, but that\'s a 20+ year old code base for you\...
 
-## Proposed Additions/Enhancements {#Proposed_Additions.2FEnhancements}
+## Proposed Additions/Enhancements 
 
 This section is primarily for links to CPython tracker issues that propose changes for 3.4+ that mean adding even \*more\* flexibility to the initialisation process.
 
-- [Override first sys.path entry](http://bugs.python.org/issue13475){.http}
+- [Override first sys.path entry](http://bugs.python.org/issue13475)
 
-- [Run code prior to \_\_main\_\_ execution](http://bugs.python.org/issue14803){.http}
+- [Run code prior to \_\_main\_\_ execution](http://bugs.python.org/issue14803)
 
-- [Add to sys.path via command line](http://bugs.python.org/issue15716){.http}
+- [Add to sys.path via command line](http://bugs.python.org/issue15716)
 
-- [Run in an isolated mode](http://bugs.python.org/issue16499){.http}
+- [Run in an isolated mode](http://bugs.python.org/issue16499)
 
-- [Detecting when sys.path\[0\] may be inside a package (part of PEP 395, rendered more challenging by PEP 420)](http://www.python.org/dev/peps/pep-0395/){.http}
+- [Detecting when sys.path\[0\] may be inside a package (part of PEP 395, rendered more challenging by PEP 420)](http://www.python.org/dev/peps/pep-0395/)
 
-- [Setting IO encoding in embedded Python](http://bugs.python.org/issue16129){.http}
+- [Setting IO encoding in embedded Python](http://bugs.python.org/issue16129)
 
 - Generally making CPython more embedding friendly
 
-## Preliminary Ideas {#Preliminary_Ideas}
+## Preliminary Ideas 
 
 This part is a scratchpad for half-baked ideas that may or may not end up being useful/viable
 
 - Perhaps Py_Initialize could be split into multiple steps?:
-  - Py\_[PreConfigure](./PreConfigure.html){.nonexistent} (sets up the basic data types and the core eval loop, but no IO or OS interfaces except the memory allocator)
+  - Py\_[PreConfigure](./PreConfigure.html) (sets up the basic data types and the core eval loop, but no IO or OS interfaces except the memory allocator)
 
-  - Py\_[GetStandardConfig](./GetStandardConfig.html){.nonexistent} (pass in a dict requesting standard population of configuration settings - with a way to say not to bother working out some things when an embedding application plans to override them completely, e.g. by prepopulating them with \"None\")
+  - Py\_[GetStandardConfig](./GetStandardConfig.html) (pass in a dict requesting standard population of configuration settings - with a way to say not to bother working out some things when an embedding application plans to override them completely, e.g. by prepopulating them with \"None\")
 
   - Py_Configure (pass in a dict specifying the configuration settings to use, completes the initialisation process)
 
-  - embedding applications could then just decide which settings they wanted to blacklist when calling Py\_[GetStandardConfig](./GetStandardConfig.html){.nonexistent}. They would also have the option to tweak the standard config before passing it to Py_Configure
+  - embedding applications could then just decide which settings they wanted to blacklist when calling Py\_[GetStandardConfig](./GetStandardConfig.html). They would also have the option to tweak the standard config before passing it to Py_Configure
 - Concrete use case: \"System Python\"
   - create an \"spython\" alternate executable
   - doesn\'t set sys.path\[0\] based on the current directory or executable location
@@ -232,4 +237,3 @@ This part is a scratchpad for half-baked ideas that may or may not end up being 
 ------------------------------------------------------------------------
 
 [CategoryInternals](CategoryInternals)
-:::

@@ -1,19 +1,23 @@
 # DmitriBrechalov
 
-::: {#content dir="ltr" lang="en"}
-## Dmitri Brechalov {#Dmitri_Brechalov}
+```{admonition} Legacy Wiki Page
+:class: note
 
-- [http://dmych.wikispaces.com/](http://dmych.wikispaces.com/){.http} \-- new wiki-site!
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- [http://dmych.objectis.net](http://dmych.objectis.net){.http}
+## Dmitri Brechalov 
 
-- [EmacsWiki Page](http://www.emacswiki.org/cgi-bin/wiki.pl?DmitriBrechalov "EmacsWiki"){.interwiki}
+- [http://dmych.wikispaces.com/](http://dmych.wikispaces.com/) \-- new wiki-site!
 
-### Translations {#Translations}
+- [http://dmych.objectis.net](http://dmych.objectis.net)
 
-- [Jonathan Gardner\'s PyQt Tutorial translated into Russian](http://dmych.wikispaces.com/PyQtTutorial){.http} (Original text is here: [JonathanGardnerPyQtTutorial](JonathanGardnerPyQtTutorial))
+- [EmacsWiki Page](http://www.emacswiki.org/cgi-bin/wiki.pl?DmitriBrechalov "EmacsWiki")
+
+### Translations 
+
+- [Jonathan Gardner\'s PyQt Tutorial translated into Russian](http://dmych.wikispaces.com/PyQtTutorial) (Original text is here: [JonathanGardnerPyQtTutorial](JonathanGardnerPyQtTutorial))
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

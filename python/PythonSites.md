@@ -1,11 +1,16 @@
 # pythonsites
 
-::: {#content dir="ltr" lang="en"}
-## Python中文网 {#Python.2BTi1lh39R-}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Python中文网 
 
 Email: `<blueelwang@gmail.com>`
 
-python中文开发者请移步[python中文网](http://www.pythontab.com){.http}交流学习。
+python中文开发者请移步[python中文网](http://www.pythontab.com)交流学习。
 
 搜索一下大家就会知道，python有两个主要的版本，python2 和 python3 ，但是python又不同于其他语言，向下兼容，python3是不向下兼容的，但是绝大多数组件和扩展都是基于python2的，下面就来总结一下python2和python3的区别。
 
@@ -56,7 +61,7 @@ Py3.X源码文件默认使用utf-8编码，这就使得以下代码是合法的�
   - \>\>\> 0666 438 \>\>\> oct(438) \'0666\'
 
   3.X这样：
-  - \>\>\> 0666 [SyntaxError](./SyntaxError.html){.nonexistent}: invalid token (\<pyshell#63\>, line 1) \>\>\> 0o666 438 \>\>\> oct(438) \'0o666\'
+  - \>\>\> 0666 [SyntaxError](./SyntaxError.html): invalid token (\<pyshell#63\>, line 1) \>\>\> 0o666 438 \>\>\> oct(438) \'0o666\'
 
 11）增加了 2进制字面量和bin()函数
 
@@ -70,161 +75,160 @@ Py3.X源码文件默认使用utf-8编码，这就使得以下代码是合法的�
 
 - \>\>\> class C(object):
 
-  - def [init]{.u}(self, a):
+  - def [init](self, a):
 
     - print(\'C\', a)
 
   \>\>\> class D(C):
 
-  - def [init(self, a): ]{.u}
+  - def [init(self, a): ]
 
-    - [super().]{.u}init[(a) \# 无参数调用super() ]{.u}
+    - [super().]init[(a) \# 无参数调用super() ]
 
-  [\>\>\> D(8) C 8 ]{.u} [\<]{.u}main[.D object at 0x00D7ED90\> ]{.u}
+  [\>\>\> D(8) C 8 ] [\<]main[.D object at 0x00D7ED90\> ]
 
-[14）新的metaclass语法： ]{.u}
+[14）新的metaclass语法： ]
 
-- [class Foo(\*bases, \*\*kwds): . pass ]{.u}
+- [class Foo(\*bases, \*\*kwds): . pass ]
 
-[15）支持class decorator。用法与函数decorator一样： ]{.u}
+[15）支持class decorator。用法与函数decorator一样： ]
 
-- [\>\>\> def foo(cls_a): ]{.u}
+- [\>\>\> def foo(cls_a): ]
 
-  - [def print_func(self): . print(\'Hello, world!\') ]{.u}
+  - [def print_func(self): . print(\'Hello, world!\') ]
 
 cls_a.print = print_func return cls_a
 
-- [\>\>\> \@foo class C(object): ]{.u}
+- [\>\>\> \@foo class C(object): ]
 
-  - [pass ]{.u}
+  - [pass ]
 
-  [\>\>\> C().print() Hello, world! ]{.u}
+  [\>\>\> C().print() Hello, world! ]
 
-[class decorator可以用来玩玩狸猫换太子的大把戏。更多请参阅PEP 3129 ]{.u}
+[class decorator可以用来玩玩狸猫换太子的大把戏。更多请参阅PEP 3129 ]
 
-[4. 字符串和字节串 ]{.u}
+[4. 字符串和字节串 ]
 
-[1）现在字符串只有str一种类型，但它跟2.x版本的unicode几乎一样。 ]{.u}
+[1）现在字符串只有str一种类型，但它跟2.x版本的unicode几乎一样。 ]
 
-[2）关于字节串，请参阅"数据类型"的第2条目 ]{.u}
+[2）关于字节串，请参阅"数据类型"的第2条目 ]
 
-[5.数据类型 ]{.u}
+[5.数据类型 ]
 
-[1）Py3.X去除了long类型，现在只有一种整型------int，但它的行为就像2.X版本的long ]{.u}
+[1）Py3.X去除了long类型，现在只有一种整型------int，但它的行为就像2.X版本的long ]
 
-[2）新增了bytes类型，对应于2.X版本的八位串，定义一个bytes字面量的方法如下： ]{.u}
+[2）新增了bytes类型，对应于2.X版本的八位串，定义一个bytes字面量的方法如下： ]
 
-- [\>\>\> b = b\'china\' ]{.u} [\>\>\> type(b) ]{.u} [\<type \'bytes\'\> ]{.u}
+- [\>\>\> b = b\'china\' ] [\>\>\> type(b) ] [\<type \'bytes\'\> ]
 
-[str对象和bytes对象可以使用.encode() (str -\> bytes) or .decode() (bytes -\> str)方法相互转化。 ]{.u}
+[str对象和bytes对象可以使用.encode() (str -\> bytes) or .decode() (bytes -\> str)方法相互转化。 ]
 
-- [\>\>\> s = b.decode() ]{.u} [\>\>\> s \'china\' ]{.u} [\>\>\> b1 = s.encode() ]{.u} [\>\>\> b1 b\'china\' ]{.u}
+- [\>\>\> s = b.decode() ] [\>\>\> s \'china\' ] [\>\>\> b1 = s.encode() ] [\>\>\> b1 b\'china\' ]
 
-[3）dict的.keys()、.items 和.values()方法返回迭代器，而之前的iterkeys()等函数都被废弃。同时去掉的还有 ]{.u}
+[3）dict的.keys()、.items 和.values()方法返回迭代器，而之前的iterkeys()等函数都被废弃。同时去掉的还有 ]
 
-[dict.has_key()，用 in替代它吧 ]{.u}
+[dict.has_key()，用 in替代它吧 ]
 
-[6.面向对象 ]{.u}
+[6.面向对象 ]
 
-[1）引入抽象基类（Abstraact Base Classes，ABCs）。 ]{.u}
+[1）引入抽象基类（Abstraact Base Classes，ABCs）。 ]
 
-[2）容器类和迭代器类被ABCs化，所以cellections模块里的类型比Py2.5多了很多。 ]{.u}
+[2）容器类和迭代器类被ABCs化，所以cellections模块里的类型比Py2.5多了很多。 ]
 
-- [\>\>\> import collections ]{.u} [\>\>\> print(\'\\n\'.join(dir(collections))) Callable Container Hashable ]{.u} [[ItemsView](./ItemsView.html){.nonexistent} Iterable Iterator ]{.u} [[KeysView](./KeysView.html){.nonexistent} Mapping ]{.u} [[MappingView](./MappingView.html){.nonexistent} ]{.u} [[MutableMapping](./MutableMapping.html){.nonexistent} ]{.u} [[MutableSequence](./MutableSequence.html){.nonexistent} ]{.u} [[MutableSet](./MutableSet.html){.nonexistent} ]{.u} [[NamedTuple](./NamedTuple.html){.nonexistent} Sequence Set Sized ]{.u} [[ValuesView](./ValuesView.html){.nonexistent} ]{.u} all[ ]{.u} builtins[ ]{.u} doc[ ]{.u} file[ ]{.u} name[ \_abcoll \_itemgetter \_sys defaultdict deque ]{.u}
+- [\>\>\> import collections ] [\>\>\> print(\'\\n\'.join(dir(collections))) Callable Container Hashable ] [[ItemsView](./ItemsView.html) Iterable Iterator ] [[KeysView](./KeysView.html) Mapping ] [[MappingView](./MappingView.html) ] [[MutableMapping](./MutableMapping.html) ] [[MutableSequence](./MutableSequence.html) ] [[MutableSet](./MutableSet.html) ] [[NamedTuple](./NamedTuple.html) Sequence Set Sized ] [[ValuesView](./ValuesView.html) ] all[ ] builtins[ ] doc[ ] file[ ] name[ \_abcoll \_itemgetter \_sys defaultdict deque ]
 
-[另外，数值类型也被ABCs化。关于这两点，请参阅 PEP 3119和PEP 3141。 ]{.u}
+[另外，数值类型也被ABCs化。关于这两点，请参阅 PEP 3119和PEP 3141。 ]
 
-[3）迭代器的next()方法改名为]{.u}next[()，并增加内置函数next()，用以调用迭代器的]{.u}next[()方法 ]{.u}
+[3）迭代器的next()方法改名为]next[()，并增加内置函数next()，用以调用迭代器的]next[()方法 ]
 
-[4）增加了@abstractmethod和 \@abstractproperty两个 decorator，编写抽象方法（属性）更加方便。 ]{.u}
+[4）增加了@abstractmethod和 \@abstractproperty两个 decorator，编写抽象方法（属性）更加方便。 ]
 
-[7.异常 ]{.u}
+[7.异常 ]
 
-[1）所以异常都从 [BaseException](./BaseException.html){.nonexistent}继承，并删除了[StardardError](./StardardError.html){.nonexistent} ]{.u}
+[1）所以异常都从 [BaseException](./BaseException.html)继承，并删除了[StardardError](./StardardError.html) ]
 
-[2）去除了异常类的序列行为和.message属性 ]{.u}
+[2）去除了异常类的序列行为和.message属性 ]
 
-[3）用 raise Exception(args)代替 raise Exception, args语法 ]{.u}
+[3）用 raise Exception(args)代替 raise Exception, args语法 ]
 
-[4）捕获异常的语法改变，引入了as关键字来标识异常实例，在Py2.5中： ]{.u}
+[4）捕获异常的语法改变，引入了as关键字来标识异常实例，在Py2.5中： ]
 
-- [\>\>\> try: ]{.u}
+- [\>\>\> try: ]
 
-- [.. raise [NotImplementedError](./NotImplementedError.html){.nonexistent}(\'Error\') ]{.u}
+- [.. raise [NotImplementedError](./NotImplementedError.html)(\'Error\') ]
 
-- [.. except [NotImplementedError](./NotImplementedError.html){.nonexistent}, error: ]{.u}
+- [.. except [NotImplementedError](./NotImplementedError.html), error: ]
 
-- [.. print error.message ]{.u}
+- [.. print error.message ]
 
-- [.. Error ]{.u}
+- [.. Error ]
 
-[在Py3.0中： ]{.u}
+[在Py3.0中： ]
 
-- [\>\>\> try: ]{.u}
+- [\>\>\> try: ]
 
-  - [raise [NotImplementedError](./NotImplementedError.html){.nonexistent}(\'Error\') ]{.u}
+  - [raise [NotImplementedError](./NotImplementedError.html)(\'Error\') ]
 
-  - [except [NotImplementedError](./NotImplementedError.html){.nonexistent} as error: #注意这个 as ]{.u}
+  - [except [NotImplementedError](./NotImplementedError.html) as error: #注意这个 as ]
 
-    - [print(str(error)) ]{.u}
+    - [print(str(error)) ]
 
-  [Error ]{.u}
+  [Error ]
 
-[5）异常链，因为]{.u}context[在3.0a1版本中没有实现 ]{.u}
+[5）异常链，因为]context[在3.0a1版本中没有实现 ]
 
-[8.模块变动 ]{.u}
+[8.模块变动 ]
 
-[1）移除了cPickle模块，可以使用pickle模块代替。最终我们将会有一个透明高效的模块。 ]{.u}
+[1）移除了cPickle模块，可以使用pickle模块代替。最终我们将会有一个透明高效的模块。 ]
 
-[2）移除了imageop模块 ]{.u}
+[2）移除了imageop模块 ]
 
-[3）移除了 audiodev, Bastion, bsddb185, exceptions, linuxaudiodev, md5, [MimeWriter](./MimeWriter.html){.nonexistent}, mimify, popen2, ]{.u}
+[3）移除了 audiodev, Bastion, bsddb185, exceptions, linuxaudiodev, md5, [MimeWriter](./MimeWriter.html), mimify, popen2, ]
 
-[rexec, sets, sha, stringold, strop, sunaudiodev, timing和xmllib模块 ]{.u}
+[rexec, sets, sha, stringold, strop, sunaudiodev, timing和xmllib模块 ]
 
-[4）移除了bsddb模块(单独发布，可以从http://www.jcea.es/programacion/pybsddb.htm获取) ]{.u}
+[4）移除了bsddb模块(单独发布，可以从http://www.jcea.es/programacion/pybsddb.htm获取) ]
 
-[5）移除了new模块 ]{.u}
+[5）移除了new模块 ]
 
-[6）os.tmpnam()和os.tmpfile()函数被移动到tmpfile模块下 ]{.u}
+[6）os.tmpnam()和os.tmpfile()函数被移动到tmpfile模块下 ]
 
-[7）tokenize模块现在使用bytes工作。主要的入口点不再是generate_tokens，而是 tokenize.tokenize() ]{.u}
+[7）tokenize模块现在使用bytes工作。主要的入口点不再是generate_tokens，而是 tokenize.tokenize() ]
 
-[9.其它 ]{.u}
+[9.其它 ]
 
-[1）xrange() 改名为range()，要想使用range()获得一个list，必须显式调用： ]{.u}
+[1）xrange() 改名为range()，要想使用range()获得一个list，必须显式调用： ]
 
-- [\>\>\> list(range(10)) \[0, 1, 2, 3, 4, 5, 6, 7, 8, 9\] ]{.u}
+- [\>\>\> list(range(10)) \[0, 1, 2, 3, 4, 5, 6, 7, 8, 9\] ]
 
-[2）bytes对象不能hash，也不支持 b.lower()、b.strip()和b.split()方法，但对于后两者可以使用 b.strip(b' ]{.u}
+[2）bytes对象不能hash，也不支持 b.lower()、b.strip()和b.split()方法，但对于后两者可以使用 b.strip(b' ]
 
-[\\n\\t\\r \\f')和b.split(b' ')来达到相同目的 ]{.u}
+[\\n\\t\\r \\f')和b.split(b' ')来达到相同目的 ]
 
-[3）zip()、map()和filter()都返回迭代器。而apply()、 callable()、coerce()、 execfile()、reduce()和reload ]{.u}
+[3）zip()、map()和filter()都返回迭代器。而apply()、 callable()、coerce()、 execfile()、reduce()和reload ]
 
-[()函数都被去除了 ]{.u}
+[()函数都被去除了 ]
 
-[现在可以使用hasattr()来替换 callable(). hasattr()的语法如：hasattr(string, \']{.u}name[\') ]{.u}
+[现在可以使用hasattr()来替换 callable(). hasattr()的语法如：hasattr(string, \']name[\') ]
 
-[4）string.letters和相关的.lowercase和.uppercase被去除，请改用string.ascii_letters 等 ]{.u}
+[4）string.letters和相关的.lowercase和.uppercase被去除，请改用string.ascii_letters 等 ]
 
-[5）如果x \< y的不能比较，抛出[TypeError](TypeError)异常。2.x版本是返回伪随机布尔值的 ]{.u}
+[5）如果x \< y的不能比较，抛出[TypeError](TypeError)异常。2.x版本是返回伪随机布尔值的 ]
 
-[6）]{.u}getslice[系列成员被废弃。a\[i:j\]根据上下文转换为a.]{.u}getitem[(slice(I, j))或 ]{.u}setitem[和 ]{.u}
+[6）]getslice[系列成员被废弃。a\[i:j\]根据上下文转换为a.]getitem[(slice(I, j))或 ]setitem[和 ]
 
-delitem[调用 ]{.u}
+delitem[调用 ]
 
-[7）file类被废弃，在Py2.5中： ]{.u}
+[7）file类被废弃，在Py2.5中： ]
 
-- [\>\>\> file ]{.u} [\<type \'file\'\> ]{.u}
+- [\>\>\> file ] [\<type \'file\'\> ]
 
-[在Py3.X中： ]{.u}
+[在Py3.X中： ]
 
-- [\>\>\> file Traceback (most recent call last): ]{.u} [File \"\<pyshell#120\>\", line 1, in \<module\> ]{.u}
+- [\>\>\> file Traceback (most recent call last): ] [File \"\<pyshell#120\>\", line 1, in \<module\> ]
 
-  - [file ]{.u}
+  - [file ]
 
 ------------------------------------------------------------------------
 
-[ [CategoryHomepage](CategoryHomepage) ]{.u}
-:::
+[ [CategoryHomepage](CategoryHomepage) ]

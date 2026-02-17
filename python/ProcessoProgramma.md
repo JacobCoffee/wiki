@@ -1,9 +1,14 @@
 # ProcessoProgramma
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 *\[note: Ho raccolto il nome di questa pagina da un dizionario su internet . Come tale \[,questa pagina,\]può contenere degli errori, di grammatica o di altro genere. Se tu conosci L\' Italiano meglio di me, ti prego di rinominare questa pagina (anche a ritroso,se del caso).\]*
 
-Titolerei questo programmino = Blocco dei processi = tengo a precisare una cosa: Al fine di poter usare le lettere accentate che nell\' orignale del linguaggio inglese non sono riconosciute, e quindi nemmeno nei commenti all\'interno del codice, e se lo facessi senza la giusta indicazione il parser segnalerebbe un errore, devo scrivere subito dopo la prima riga, che a tutti è nota e cioè #! /usr/bin/python , questa indicazione: **\# -\*- coding: utf-8 -\*-** . In tal modo posso tranquillamente usare nei commenti le lettere accentate che si usano nel linguaggio classico Italiano. Aggiungo ancora un messaggio per l\'autore di questa pagina **mi congratulo per la sua conoscenza dell\'Italiano** e vorrei prendere contatto con lui per dialogare su python e tutto quanto concerne questo fantastico linguaggio di programmazione. Può scrivermi qui [vonkes@gmail.com](mailto:vonkes@gmail.com){.mailto} se vuole. Non entro nel merito del programma che segue ma mi permetterò ,eventualmente, di migliorare quei commenti che, forse, possono risultare poco chiari. Spero di non suscitare i risentimenti dell\'autore.
+Titolerei questo programmino = Blocco dei processi = tengo a precisare una cosa: Al fine di poter usare le lettere accentate che nell\' orignale del linguaggio inglese non sono riconosciute, e quindi nemmeno nei commenti all\'interno del codice, e se lo facessi senza la giusta indicazione il parser segnalerebbe un errore, devo scrivere subito dopo la prima riga, che a tutti è nota e cioè #! /usr/bin/python , questa indicazione: **\# -\*- coding: utf-8 -\*-** . In tal modo posso tranquillamente usare nei commenti le lettere accentate che si usano nel linguaggio classico Italiano. Aggiungo ancora un messaggio per l\'autore di questa pagina **mi congratulo per la sua conoscenza dell\'Italiano** e vorrei prendere contatto con lui per dialogare su python e tutto quanto concerne questo fantastico linguaggio di programmazione. Può scrivermi qui [vonkes@gmail.com](mailto:vonkes@gmail.com) se vuole. Non entro nel merito del programma che segue ma mi permetterò ,eventualmente, di migliorare quei commenti che, forse, possono risultare poco chiari. Spero di non suscitare i risentimenti dell\'autore.
 
 **Da questo punto in avanti è tutta opera dell\'autore**
 
@@ -39,7 +44,7 @@ Inizio questa pagina facendo una domanda. Come si può fermare un processo dall\
 
 Il problema è che `EventChannel.waitEvent()` è una operazione di blocco. Così se l\'evento non si verifica, allora il nostro lavoro non si fermerà mai. *(`EventChannel` e `EventHandler` sono classi che io ho inventato per questo esempio)*
 
-## Suggerimenti {#Suggerimenti}
+## Suggerimenti 
 
 - Utilizzando il metodo `shutdown()` si spingono alcuni innocui eventi nell\'evento channel
 
@@ -51,9 +56,9 @@ Il problema è che `EventChannel.waitEvent()` è una operazione di blocco. Così
 
 - oppure usando Queue passiamo dei dati . Manipolare gli errori con il manipolatore ( e.g. stampa \[print\] poi alla console), mantiene vivo il processo
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ad92b26621fee5ae5532f9253a446713b0d35e73 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # -*- coding: utf-8 -*-     #   vedi la intestazione di A.CHESSA
    2 import Queue, threading, traceback
    3 
@@ -129,11 +134,10 @@ Il problema è che `EventChannel.waitEvent()` è una operazione di blocco. Così
 :::
 ::::
 
-# Chiamata ad una Funzione \"C\" che blocca tutti i processi {#Chiamata_ad_una_Funzione_.22C.22_che_blocca_tutti_i_processi}
+# Chiamata ad una Funzione \"C\" che blocca tutti i processi 
 
 Ho un modulo in \"c\" che pone delle interrogazioni al D.B. Queste interrogazioni pongono ad off il server SQLper essere processato.Posso usare delle mie funzioni di interrogazione dentro i processi per avere un lavoro come questo `time.sleep()`,blocco il corrente processo finchè lui termina ma permette agli altri processi di continuare le operazioni. Non ho visto questi indirizzamenti in nessuno dei libri che possiedo.
 
-# Risorse {#Risorse}
+# Risorse 
 
-- [Aahz OSCON 2001 presentatione](http://starship.python.net/crew/aahz/OSCON2001/index.html){.http}
-:::::
+- [Aahz OSCON 2001 presentatione](http://starship.python.net/crew/aahz/OSCON2001/index.html)

@@ -1,6 +1,11 @@
 # ReadingHtmlForms
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 A friend of mine recently asked, \"Is there anything in Python that can read forms?
 
 He\'s got perl code that looks like this:
@@ -19,17 +24,16 @@ Does anyone know of Python code or a Python module that will help you read out f
 
 \-- [StefanBehnel](StefanBehnel)
 
-[lxml.html](http://lxml.de/lxmlhtml.html#forms){.http} has pretty sophisticated HTML form support.
+[lxml.html](http://lxml.de/lxmlhtml.html#forms) has pretty sophisticated HTML form support.
 
 \-- [LionKimbro](LionKimbro) 2004-06-03 07:39:12
 
 Look at:
 
-- Mechanize: [http://wwwsearch.sourceforge.net/mechanize/](http://wwwsearch.sourceforge.net/mechanize/){.http} (which is based on a Perl module)
+- Mechanize: [http://wwwsearch.sourceforge.net/mechanize/](http://wwwsearch.sourceforge.net/mechanize/) (which is based on a Perl module)
 
-- Webunit: [http://www.mechanicalcat.net/tech/webunit/](http://www.mechanicalcat.net/tech/webunit/){.http}
+- Webunit: [http://www.mechanicalcat.net/tech/webunit/](http://www.mechanicalcat.net/tech/webunit/)
 
 ------------------------------------------------------------------------
 
 [CategoryFaq](CategoryFaq)
-:::

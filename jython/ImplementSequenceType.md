@@ -1,13 +1,18 @@
 # ImplementSequenceType
 
-::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Information that might be useful while implementing or maintaining a sequence type, based on things I discovered while trying to implement `bytearray`.
 
-# Sequence Types {#Sequence_Types}
+# Sequence Types 
 
 Jython provides some apparatus to support the implementation of sequence types.
 
-## Helper class SequenceIndexDelegate {#Helper_class_SequenceIndexDelegate}
+## Helper class SequenceIndexDelegate 
 
 The range of things that can appear in Python as the \"index\" of a sequence type is a lot broader than in most languages. Consider
 
@@ -28,9 +33,9 @@ If you were the implementer of `list`, your implementation of `__delitem__(self,
 
 Jython provides a useful abstract class `org.python.core.SequenceIndexDelegate` that recognises whether the key was a simple integer or a slice, deals with illegal types and range checks, and in the case of a slice, converts it into indexes you can use safely in a `for` loop where you do the actual operation. To connect these goodies into your implementation, create a concrete inner class extending `SequenceIndexDelegate` by overriding the required 8 methods with call-back methods into your own implementation:
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d6c37751fa37c3653ab0729cb9086d8c6d1912cd dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     public abstract int len();
    2     public abstract PyObject getItem(int idx);
    3     public abstract void setItem(int idx, PyObject value);
@@ -45,15 +50,15 @@ Jython provides a useful abstract class `org.python.core.SequenceIndexDelegate` 
 
 Your implementations of the standard API, such as `__setitem__`, can delegate almost immediately to corresponding methods of this inner class, with all their arguments uninspected. The inner class will then call the right methods from these 8 to handle the actual work. There\'s still plenty for your code to deal with, but you can do it knowing the arguments are of well-defined type and have safe values.
 
-## Base class PySequence {#Base_class_PySequence}
+## Base class PySequence 
 
 Jython provides further help in the form of `org.python.core.PySequence`, with the intention that an implementer of sequence types extend the class. This has been used as a base for Python types `list` and `array.array`, and soon `bytearray`.
 
 `PySequence` uses the delegaion technique discussed in the previous section, however it cannot do all the work. Although it makes the delgate concrete, the implementations of most of the 8 callback methods themselves depend on abstract methods within `PySequence`. Here is an extract:
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-05062be7676ac9e0bb7ffa7274ebb7d40e027c87 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     protected final SequenceIndexDelegate delegator = new SequenceIndexDelegate() {
    2 
    3 ...
@@ -74,9 +79,9 @@ Jython provides further help in the form of `org.python.core.PySequence`, with t
 
 The methods `pyset` and `setSlice` referenced here are amongst 7 methods that extensions implementing sequence types are expected to override:
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8316ee99b22c06d14282598565f7adae6f3416e3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     // These methods must be defined for any sequence
    2     protected abstract PyObject pyget(int index);
    3     protected abstract PyObject getslice(int start, int stop, int step);
@@ -106,9 +111,9 @@ You can see that read-access methods are abstract, but methods that change conte
 
 `PySequence` also provides actual implementations for methods `__setitem__` in terms of the delegate:
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-9c0c6fb2e8fa5d3543cf00c518684b5f256f362b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     // Java API
    2     @Override
    3     public void __setitem__(int index, PyObject value) {
@@ -128,9 +133,9 @@ You can see that read-access methods are abstract, but methods that change conte
 
 Although this last method `PySequence.seq__setitem__(PyObject, PyObject)` is essentially the entrypoint we need from Python, it cannot be exposed directly as (say) `list.__setitem(self,key,value)`: it has the wrong name and is not directly in the implementing class. So in `PyList` we find:
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-7cc00b4a20e526c0a2c5ba583feee453cc1e9c1f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     @ExposedMethod(doc = BuiltinDocs.list___setitem___doc)
    2     final synchronized void list___setitem__(PyObject o, PyObject def) {
    3         seq___setitem__(o, def);
@@ -161,9 +166,9 @@ The sequence of method calls will then be like:
 
 Notice that the slice, ostensibly a bad fit for a length 20 sequence, was transformed into three integers that can validly index the sequence as:
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2b693ae9413ccc15998f1ccdcc790d5ad953e43c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1         for (int i=19; i>-1; i+=-3)
    2                 b.myList.get(i);
 ```
@@ -174,9 +179,9 @@ which is both the correct meaning for the slice and runs no risk of access out o
 
 The case `step==1` means a contiguous slice `[start:stop]`. Implementations usually deal with this as a special case either because it has different semantics (e.g. in `__setitem__` or `__delitem___`), or because contiguous elements can be processed with an efficient block operation. A helper function `PySequence.sliceLength(start, stop, step)` exists to make the processing loop easier to get right. A typical idiom is:
 
-:::: {.highlight .java}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-e505a974c8eaee4bacf33d3242adcd217e949393 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     if (step == 1) {
    2         // Do something efficient with block start...stop-1
    3     } else {
@@ -188,4 +193,3 @@ The case `step==1` means a contiguous slice `[start:stop]`. Implementations usua
 ```
 :::
 ::::
-:::::::::::::::::

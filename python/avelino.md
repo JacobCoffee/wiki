@@ -1,13 +1,17 @@
 # avelino
 
-::: {#content dir="ltr" lang="en"}
-## Thiago Avelino {#Thiago_Avelino}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Thiago Avelino 
 
 Email: `<thiago AT SPAMFREE avelino DOT xxx>`
 
-Github: [github.com/avelino](https://github.com/avelino){.https}
+Github: [github.com/avelino](https://github.com/avelino)
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

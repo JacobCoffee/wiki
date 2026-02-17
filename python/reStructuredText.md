@@ -1,31 +1,36 @@
 # reStructuredText
 
-::::::::::: {#content dir="ltr" lang="en"}
-# reStructuredText (reST) {#reStructuredText_.28reST.29}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# reStructuredText (reST) 
 
 reStructuredText is a complete rewrite of [StructuredText](StructuredText) by David Goodger.
 
 It is distributed as part of Docutils.
 
-- Project page: [http://docutils.sourceforge.net/](http://docutils.sourceforge.net/){.http}
+- Project page: [http://docutils.sourceforge.net/](http://docutils.sourceforge.net/)
 
-- Release download: [http://sourceforge.net/project/showfiles.php?group_id=38414](http://sourceforge.net/project/showfiles.php?group_id=38414){.http}
+- Release download: [http://sourceforge.net/project/showfiles.php?group_id=38414](http://sourceforge.net/project/showfiles.php?group_id=38414)
 
-- Development snapshots: [http://docutils.sourceforge.net/#development-snapshots](http://docutils.sourceforge.net/#development-snapshots){.http}
+- Development snapshots: [http://docutils.sourceforge.net/#development-snapshots](http://docutils.sourceforge.net/#development-snapshots)
 
 More information:
 
-- [An Introduction to reStructuredText](http://docutils.sourceforge.net/spec/rst/introduction.html){.http} - goals & history
+- [An Introduction to reStructuredText](http://docutils.sourceforge.net/spec/rst/introduction.html) - goals & history
 
-- [A reStructuredText Primer](http://docutils.sourceforge.net/docs/rst/quickstart.html){.http} - how to write reST text
+- [A reStructuredText Primer](http://docutils.sourceforge.net/docs/rst/quickstart.html) - how to write reST text
 
-- [reStructuredText Markup Specification](http://docutils.sourceforge.net/spec/rst/reStructuredText.html){.http} - details on writing reST text
+- [reStructuredText Markup Specification](http://docutils.sourceforge.net/spec/rst/reStructuredText.html) - details on writing reST text
 
-- [Brett Cannon\'s PyCon Tutorial](http://www.ocf.berkeley.edu/~bac/rest_tutorial.html){.http}
+- [Brett Cannon\'s PyCon Tutorial](http://www.ocf.berkeley.edu/~bac/rest_tutorial.html)
 
-![{i}](/wiki/europython/img/icon-info.png "{i}"){height="16" width="16"} [MoinMoin](MoinMoin) contains an (incomplete) bridge to the docutils\'s parser, you can try this by using \"#format rst\" as the first line of a wiki page. See [RestSample](http://moinmo.in/RestSample "MoinMoin"){.interwiki} for an example. This of course only works when you use the current CVS version, and when docutils is installed.
+![{i}](/wiki/europython/img/icon-info.png "{i}") [MoinMoin](MoinMoin) contains an (incomplete) bridge to the docutils\'s parser, you can try this by using \"#format rst\" as the first line of a wiki page. See [RestSample](http://moinmo.in/RestSample "MoinMoin") for an example. This of course only works when you use the current CVS version, and when docutils is installed.
 
-## Reading reST, Writing HTML {#Reading_reST.2C_Writing_HTML}
+## Reading reST, Writing HTML 
 
 There\'s surprisingly little on the web and in the documentation about reading reST, and writing HTML.
 
@@ -33,13 +38,13 @@ There\'s documentation on how to read reST, and output an entire HTML document. 
 
 Here are two approaches that have been found.
 
-### The \"Official\" Way {#The_.22Official.22_Way}
+### The \"Official\" Way 
 
 There is no \"official\" way, but here\'s a method that works with the reST system.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f938bb30f53afd8824fbf14997b9e5884a7ce716 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from docutils import core
    2 from docutils.writers.html4css1 import Writer,HTMLTranslator
    3 
@@ -90,24 +95,24 @@ There is no \"official\" way, but here\'s a method that works with the reST syst
 
 If you want everything wrapped in a div tag, (perhaps to, say, delineate a \"comment\" tag,) you can add the following to the `HTMLFragmentTranslator` class:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1d8d74359dbdd3fe8cf9671c55953515e675cb6c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     def visit_document(self,node):
    2         self.body.append(self.starttag(node,"div",CLASS="comment"))
 ```
 :::
 ::::
 
-These techniques were culled from [an ASPN article,](http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/193890){.http} and connected comments.
+These techniques were culled from [an ASPN article,](http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/193890) and connected comments.
 
-### The \"Easy\" Way {#The_.22Easy.22_Way}
+### The \"Easy\" Way 
 
 [IanBicking](IanBicking) has contributed this code, which reads a source text (in reST), and writes HTML:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-428f3516b71ccd88d277fd49a74c1032bff89167 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 html = docutils.core.publish_string(
    2            source=text,
    3            writer_name='html')
@@ -118,13 +123,13 @@ These techniques were culled from [an ASPN article,](http://aspn.activestate.com
 
 \"It may feel wrong, but it works, and works reliably.\"
 
-### The \"Cool\" Way {#The_.22Cool.22_Way}
+### The \"Cool\" Way 
 
 \"This sure is a lot cooler and generates a nice and more kosher html fragment from the \'official\' reST-to-html fragment example above.\"-[MaxPa](MaxPa)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-0b723e6991d246c1bdeaffd981ae61dde50bf9c2 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from docutils import core
    2 
    3 def reST_to_html_fragment(a_str):
@@ -136,15 +141,14 @@ These techniques were culled from [an ASPN article,](http://aspn.activestate.com
 :::
 ::::
 
-### See Also: {#See_Also:}
+### See Also: 
 
 [PyTextile](PyTextile) is a similar, but different, text-to-html converter. It was originally intended for HTML fragments, unlike reStructuredText.
 
-## Discussion {#Discussion}
+## Discussion 
 
 I\'ve been having problems getting reST to work from a blog script I\'ve written. It seems that there\'s a part in Publisher where I\'m triggering an exception, and then Publisher calls *exit,* so I can\'t see what\'s wrong.
 
 I\'ll leave notes here if I figure out how to get around this problem. \-- [LionKimbro](LionKimbro)
 
-No luck finding a way to get around the publisher\'s exit, but I did find something interesting: [http://sourceforge.net/mailarchive/forum.php?thread_id=3740457&forum_id=8812](http://sourceforge.net/mailarchive/forum.php?thread_id=3740457&forum_id=8812){.http} \-- [LionKimbro](LionKimbro)
-:::::::::::
+No luck finding a way to get around the publisher\'s exit, but I did find something interesting: [http://sourceforge.net/mailarchive/forum.php?thread_id=3740457&forum_id=8812](http://sourceforge.net/mailarchive/forum.php?thread_id=3740457&forum_id=8812) \-- [LionKimbro](LionKimbro)

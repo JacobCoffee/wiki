@@ -1,7 +1,12 @@
 # PyQt/Making non-clickable widgets clickable
 
-::::::: {#content dir="ltr" lang="en"}
-# Making non-clickable widgets clickable {#Making_non-clickable_widgets_clickable}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Making non-clickable widgets clickable 
 
 On the `#pyqt`{.backtick} channel on Freenode, `xh`{.backtick} asked if it was possible to make QLabel objects clickable without subclassing.
 
@@ -12,13 +17,13 @@ There are two ways to do this:
 
 These are shown below.
 
-## Event filters {#Event_filters}
+## Event filters 
 
 The following example code shows how to use event filters to do this. It uses one filter object per label, which is created when the `clickable()`{.backtick} function is called with the widget that is to be click-enabled. The function returns a `clicked()`{.backtick} signal that actually belongs to the filter object. The caller can connect this signal to a suitable callable object.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-73a5de317d3071af9f16fab28731fc7b4f4625bc dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import *
    3 from PyQt4.QtGui import *
@@ -84,13 +89,13 @@ The following example code shows how to use event filters to do this. It uses on
 :::
 ::::
 
-## Assigning new methods {#Assigning_new_methods}
+## Assigning new methods 
 
 As `xh`{.backtick} pointed out, it should be possible to assign new event handler methods to instances of QLabel, and this should work as long as the labels were created in Python:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-92b874989d88e8bdf4e37eecd617ef47b9632feb dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtGui import *
    3 
@@ -132,4 +137,3 @@ As `xh`{.backtick} pointed out, it should be possible to assign new event handle
 ```
 :::
 ::::
-:::::::

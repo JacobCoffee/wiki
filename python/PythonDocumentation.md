@@ -1,21 +1,25 @@
 # PythonDocumentation
 
-::: {#content dir="ltr" lang="en"}
-# Python Documentation {#Python_Documentation}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Current Python Documentation {#Current_Python_Documentation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-Python\'s documentation is found online at [docs.python.org](https://docs.python.org/){.https}, including all current translations.
+# Python Documentation 
 
-## Documentation for end-of-life Python releases {#Documentation_for_end-of-life_Python_releases}
+## Current Python Documentation 
 
-Older versions of the standard documentation are kept available as well, since many users have to maintain code for older versions of the interpreter as well. These can be found at [https://www.python.org/doc/versions.html](https://www.python.org/doc/versions.html){.https}.
+Python\'s documentation is found online at [docs.python.org](https://docs.python.org/), including all current translations.
 
-## Other learning resources {#Other_learning_resources}
+## Documentation for end-of-life Python releases 
 
-[https://www.python.org/doc/](https://www.python.org/doc/){.https} lists other resources, including books and alternative introductory material.
+Older versions of the standard documentation are kept available as well, since many users have to maintain code for older versions of the interpreter as well. These can be found at [https://www.python.org/doc/versions.html](https://www.python.org/doc/versions.html).
+
+## Other learning resources 
+
+[https://www.python.org/doc/](https://www.python.org/doc/) lists other resources, including books and alternative introductory material.
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-:::

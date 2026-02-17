@@ -1,7 +1,12 @@
 # WebsiteRedesignProposal
 
-::: {#content dir="ltr" lang="en"}
-# Development of python.org Website to promote and inform about python {#Development_of_python.org_Website_to_promote_and_inform_about_python}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Development of python.org Website to promote and inform about python 
 
 **Note:** This proposal was funded and completed. See [PythonWebsite](PythonWebsite) for information on ongoing content and tool development for the python.org website.
 
@@ -60,7 +65,7 @@ The modules will also provides a simple to use framework under which existing co
 
 It goes without saying that just as our current work has been made without expected recompense, once the project is complete we would continue to work at the framework and commit ourselves to supporting an administration server that would host the templating and content system. It is expected that the flat html files that the systems generated will remain hosted at it\'s current location.
 
-Although the work will be completed as a collaboration between our developers, each developer will have a main responsibility. Matt Goodall (one of the two main Nevow developers) will be creating the templating system. Tim Parkin will be working on the content storage framework and any modifications needed on the [PyYaml](./PyYaml.html){.nonexistent} module (which is currently maintained by Pollenation Internet). Certain pages will require additional templates building in order to accommodate their different layouts; these templates will be provided by Pollenation.
+Although the work will be completed as a collaboration between our developers, each developer will have a main responsibility. Matt Goodall (one of the two main Nevow developers) will be creating the templating system. Tim Parkin will be working on the content storage framework and any modifications needed on the [PyYaml](./PyYaml.html) module (which is currently maintained by Pollenation Internet). Certain pages will require additional templates building in order to accommodate their different layouts; these templates will be provided by Pollenation.
 
 Pollenation would like to have a small credit in the footer (which would help enormously - the text \'web design\' in a small font in the footer with a link to our website would be more than adequate. It could appear alongside the hosting credits - a small icon would be sufficient if text is unacceptable). This credit would help use continue in business and enable our business to continue offering web support for the Python site.
 
@@ -72,7 +77,7 @@ Managing Director
 
 ------------------------------------------------------------------------
 
-# APPENDIX - Details of YAML page generation {#APPENDIX_-_Details_of_YAML_page_generation}
+# APPENDIX - Details of YAML page generation 
 
 The following is a draft example of how the YAML template data files would look. The example is based on the home page of the site and is consequently more complex than typical pages would be. This does demonstrate the flexibility of the proposed system however.
 
@@ -136,4 +141,3 @@ From this it can be seen that to generate a new page is as simple as generating 
     e: tim at pollenation dot net   w: http://www.pollenation.net 
     t: +44 (0)113 2252500    m: +44 (0)7980 594768
     f: +44 (0)845 2802368
-:::

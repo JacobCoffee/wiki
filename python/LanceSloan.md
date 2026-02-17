@@ -1,6 +1,11 @@
 # LanceSloan
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This is my personal page\...
 
 I like using Python, but I don\'t always get as much time to do it as I would like. There is a lot of pressure at work for me to embrace Java, so I\'m doing that as much as I can for now. Later, maybe I can inject Python into those Java projects via Jython!
@@ -16,4 +21,3 @@ My Python interests include:
 - [AppleScript](./MacPython(2f)AppleScript.html)
 
 [CategoryHomepage](CategoryHomepage)
-:::

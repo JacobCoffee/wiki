@@ -1,17 +1,22 @@
 # AlternativePathClass
 
-::: {#content dir="ltr" lang="en"}
-This page describes directory-based path classes, an alternative to [PEP 355](http://www.python.org/dev/peps/pep-0355/){.http} which is string-based.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+This page describes directory-based path classes, an alternative to [PEP 355](http://www.python.org/dev/peps/pep-0355/) which is string-based.
 
 ***Please keep the proposals internally consistent and according to the authors\' intentions.*** You can state objections in the Comment section under each proposal, or in the general topic sections below the proposals.
 
 ------------------------------------------------------------------------
 
-# Proposal #1 (Noam Raphael) {#Proposal_.231_.28Noam_Raphael.29}
+# Proposal #1 (Noam Raphael) 
 
 The source can be found in [AlternativePathModule](AlternativePathModule).
 
-## Introduction {#Introduction}
+## Introduction 
 
 Hello,
 
@@ -26,9 +31,9 @@ My basic problem with the current proposed path module is that it\'s a bit\... m
 
 So I tried to organize it all. The following section describes the changes. I think that the result may make file and path manipulation really easier. All these are ideas - I would like to hear what you think about them.
 
-## Major Changes {#Major_Changes}
+## Major Changes 
 
-### a tuple instead of a string {#a_tuple_instead_of_a_string}
+### a tuple instead of a string 
 
 The biggest conceptual change is that my path object is a subclass of *tuple* rather than *str*. For example,
 
@@ -66,7 +71,7 @@ This means that paths starting with a drive letter alone (UnrootedDrive instance
 
 I really think that it\'s a better way to handle paths. If you want an example, compare the current implementation of relpathto and my implementation.
 
-### Easier attributes for stat objects {#Easier_attributes_for_stat_objects}
+### Easier attributes for stat objects 
 
 The current path objects includes:
 
@@ -96,7 +101,7 @@ I think that isfile, isdir should be kept (along with lisfile, lisdir), since I 
 
 I think that still, isdir, isfile and islink should be added to stat_result objects: They turned out pretty useful in writing some of the more complex path methods.
 
-### One Method for Finding Files {#One_Method_for_Finding_Files}
+### One Method for Finding Files 
 
 (They\'re actually two, but with exactly the same interface). The original path object has these methods for finding files:
 
@@ -128,13 +133,13 @@ Now, for the promised additional method. The current implementation of glob does
 
 Oh, and it returns an iterator, not a list.
 
-### Separation of Calculations and System Calls {#Separation_of_Calculations_and_System_Calls}
+### Separation of Calculations and System Calls 
 
 I like to know when I\'m using system calls and when I don\'t. It turns out that using tuples instead of strings makes it possible to define all operations which do not use system calls as properties or operators, and all operations which do use system calls as methods.
 
 The only exception currently is .match(). What can I do?
 
-### Reduce the Number of Methods {#Reduce_the_Number_of_Methods}
+### Reduce the Number of Methods 
 
 I think that the number of methods should be reduced. The most obvious example are the copy functions. In the current proposal:
 
@@ -150,7 +155,7 @@ In my proposal:
 
 It\'s just that I think that copyfile, copymode and copystat aren\'t usually useful, and there\'s no reason not to unite copy and copy2.
 
-## Other Changes {#Other_Changes}
+## Other Changes 
 
 Here is a list of the smaller things I\'ve changed in my proposal.
 
@@ -193,7 +198,7 @@ match - The current implementation matches the base name of the path against a p
 
 matchcase - I removed it. If you see a reason for keeping it, tell me.
 
-## Comparison to the Current Path Class {#Comparison_to_the_Current_Path_Class}
+## Comparison to the Current Path Class 
 
 Here\'s a comparison of doing things using the current path class and doing things using my proposed path class.
 
@@ -295,31 +300,31 @@ Here\'s a comparison of doing things using the current path class and doing thin
     # Special stuff from os
     chroot, startfile - unchanged.
 
-## Open Issues {#Open_Issues}
+## Open Issues 
 
 Unicode - I have no idea about unicode paths. My current implementation simply uses str. This should be changed, I guess.
 
 Slash-terminated paths - In my current implementation, paths ending with a slash are normalized to paths without a slash (this is also the behaviour of os.path.normpath). However, they aren\'t really the same: stat() on paths ending with a slash fails if they aren\'t directories, and lstat() treats them as directories even if they are symlinks. Perhaps a final empty string should be allowed.
 
-## Comments on proposal #1 {#Comments_on_proposal_.231}
+## Comments on proposal #1 
 
 Please write here comments. Thanks!
 
 ------------------------------------------------------------------------
 
-# Proposal #2 (Mike Orr) {#Proposal_.232_.28Mike_Orr.29}
+# Proposal #2 (Mike Orr) 
 
-Two classes in os.path: [FilePath](./FilePath.html){.nonexistent}, [DirectoryPath](./DirectoryPath.html){.nonexistent}. These are defined in posixpath, ntpath, etc. Inheritance graph:
+Two classes in os.path: [FilePath](./FilePath.html), [DirectoryPath](./DirectoryPath.html). These are defined in posixpath, ntpath, etc. Inheritance graph:
 
-- posixpath.[FilePath](./FilePath.html){.nonexistent} -\> basepath.[FilePath](./FilePath.html){.nonexistent} -\> basepath.Path -\> object
+- posixpath.[FilePath](./FilePath.html) -\> basepath.[FilePath](./FilePath.html) -\> basepath.Path -\> object
 
-  posixpath.[DirectoryPath](./DirectoryPath.html){.nonexistent} -\> basepath.[DirectoryPath](./DirectoryPath.html){.nonexistent} -\> basepath.[BasePath](./BasePath.html){.nonexistent} -\> object
+  posixpath.[DirectoryPath](./DirectoryPath.html) -\> basepath.[DirectoryPath](./DirectoryPath.html) -\> basepath.[BasePath](./BasePath.html) -\> object
 
-Both describe a path via their attributes, including a tuple of directory components. For [DirectoryPath](./DirectoryPath.html){.nonexistent}, all components are directories. For [FilePath](./FilePath.html){.nonexistent}, the final component is a non-directory. The filesystem object described by the path may or may not exist. If a method is called that depends on an existing directory but a file is found instead, or vice versa, raise [DirectoryError](./DirectoryError.html){.nonexistent} (subclass of [PathError](./PathError.html){.nonexistent}).
+Both describe a path via their attributes, including a tuple of directory components. For [DirectoryPath](./DirectoryPath.html), all components are directories. For [FilePath](./FilePath.html), the final component is a non-directory. The filesystem object described by the path may or may not exist. If a method is called that depends on an existing directory but a file is found instead, or vice versa, raise [DirectoryError](./DirectoryError.html) (subclass of [PathError](./PathError.html)).
 
-Paths are immutable and may be used as dictionary keys. .[str]{.u}() returns the string equivalent. The open() builtin should accept Path objects. Paths use unicode internally.
+Paths are immutable and may be used as dictionary keys. .[str]() returns the string equivalent. The open() builtin should accept Path objects. Paths use unicode internally.
 
-XXX TODO: Split the combined Path below and Noam\'s class above into [FilePath](./FilePath.html){.nonexistent} and [DirectoryPath](./DirectoryPath.html){.nonexistent}.
+XXX TODO: Split the combined Path below and Noam\'s class above into [FilePath](./FilePath.html) and [DirectoryPath](./DirectoryPath.html).
 
     class Path(object):     
 
@@ -386,37 +391,37 @@ XXX TODO: Split the combined Path below and Noam\'s class above into [FilePath](
 
         expand()       # Same as .expanduser().expandvars().
 
-[MutablePath](./MutablePath.html){.nonexistent} is a subclass that\'s mutable, so it cannot be used as a dictionary key. The .path attribute is a list.
+[MutablePath](./MutablePath.html) is a subclass that\'s mutable, so it cannot be used as a dictionary key. The .path attribute is a list.
 
-## Open issues {#Open_issues}
+## Open issues 
 
-Should \*Path subclass str or unicode? Advantages: drop-in replacement for string paths. Disadvantages: str/unicode dichotomy, can\'t use p[-N](./(2d)N.html){.nonexistent} to return a derived path with N directories dropped.
+Should \*Path subclass str or unicode? Advantages: drop-in replacement for string paths. Disadvantages: str/unicode dichotomy, can\'t use p[-N](./(2d)N.html) to return a derived path with N directories dropped.
 
-Rename [FilePath](./FilePath.html){.nonexistent} to Path, and Path to [BasePath](./BasePath.html){.nonexistent}?
+Rename [FilePath](./FilePath.html) to Path, and Path to [BasePath](./BasePath.html)?
 
 Should .isdir() etc be Path methods or should one do p.stat().isdir?
 
 Consider using .delete() instead of .remove() or .unlink().
 
-Should Path and [MutablePath](./MutablePath.html){.nonexistent} be called [FrozenPath](./FrozenPath.html){.nonexistent} and Path? Or frozenpath and path?
+Should Path and [MutablePath](./MutablePath.html) be called [FrozenPath](./FrozenPath.html) and Path? Or frozenpath and path?
 
-## Comments on proposal #2 {#Comments_on_proposal_.232}
+## Comments on proposal #2 
 
 None yet.
 
 ------------------------------------------------------------------------
 
-# Summary of Python-dev discussion {#Summary_of_Python-dev_discussion}
+# Summary of Python-dev discussion 
 
 Threads:
 
-- [http://mail.python.org/pipermail/python-dev/2006-April/063977.html](http://mail.python.org/pipermail/python-dev/2006-April/063977.html){.http}
+- [http://mail.python.org/pipermail/python-dev/2006-April/063977.html](http://mail.python.org/pipermail/python-dev/2006-April/063977.html)
 
-- [http://mail.python.org/pipermail/python-dev/2006-May/064745.html](http://mail.python.org/pipermail/python-dev/2006-May/064745.html){.http}
+- [http://mail.python.org/pipermail/python-dev/2006-May/064745.html](http://mail.python.org/pipermail/python-dev/2006-May/064745.html)
 
-- [http://mail.python.org/pipermail/python-dev/2006-May/064749.html](http://mail.python.org/pipermail/python-dev/2006-May/064749.html){.http}
+- [http://mail.python.org/pipermail/python-dev/2006-May/064749.html](http://mail.python.org/pipermail/python-dev/2006-May/064749.html)
 
-- [http://mail.python.org/pipermail/python-dev/2006-May/064802.html](http://mail.python.org/pipermail/python-dev/2006-May/064802.html){.http} (proposal #1)
+- [http://mail.python.org/pipermail/python-dev/2006-May/064802.html](http://mail.python.org/pipermail/python-dev/2006-May/064802.html) (proposal #1)
 
 There is general agreement for a new PEP containing one of these proposals.
 
@@ -450,4 +455,3 @@ What should happen to the os.path functions and other redundancies?
 - Remove them in Python 3.0.
 
 Greg Ewing suggested splitting the filename on .extsep. Alyssa Coghlan and Mike Orr pointed out that extensions are merely conventions on some OSes, and the user has to tell us which apparent extensions to consider as extensions. How many extensions does \"foo.2006-02-12.tar.gz\" have? \"foo.2006.02.12.tar.gz\"? And directories normally do \*not\* have extensions (\"cron.daily\", \"modules.autoload.d\").
-:::

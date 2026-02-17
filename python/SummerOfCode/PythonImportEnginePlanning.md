@@ -1,9 +1,14 @@
 # SummerOfCode/PythonImportEnginePlanning
 
-::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Page for design and implementation details for the Import Engine GSoC 2011 project.
 
-[http://www.google-melange.com/gsoc/proposal/review/google/gsoc2011/gslodkowicz/1](http://www.google-melange.com/gsoc/proposal/review/google/gsoc2011/gslodkowicz/1){.http .reference .external}
+[http://www.google-melange.com/gsoc/proposal/review/google/gsoc2011/gslodkowicz/1](http://www.google-melange.com/gsoc/proposal/review/google/gsoc2011/gslodkowicz/1)
 
 PEP: XXX
 
@@ -13,7 +18,7 @@ Version: \$Revision\$
 
 Last-Modified: \$Date\$
 
-Author: Alyssa Coghlan \<[ncoghlan@gmail.com](mailto:ncoghlan@gmail.com){.mailto .reference .external}\>, Greg Slodkowicz \<[jergosh@gmail.com](mailto:jergosh@gmail.com){.mailto .reference .external}\>
+Author: Alyssa Coghlan \<[ncoghlan@gmail.com](mailto:ncoghlan@gmail.com)\>, Greg Slodkowicz \<[jergosh@gmail.com](mailto:jergosh@gmail.com)\>
 
 Status: Draft
 
@@ -25,13 +30,13 @@ Created: 4-Jul-2011
 
 Post-History: XXX
 
-::: {#abstract .section}
+::: 
 ### Abstract
 
-This PEP proposes incorporating an \'import engine\' class which would encapsulate all state related to importing modules into a single object and provide an alternative to the built-in implementation of the import statement, which is syntactic sugar for the `__import__()` method. Currently the bulk of importing work is done by means of module finders and loaders, and their interfaces would require a simple change in order to work both the builtin import functionality and importing via import engine objects. In that sense, this PEP constitutes a revision of finder and loader interfaces described in PEP 302 [\[1\]](#id5){#id1 .footnote-reference}.
+This PEP proposes incorporating an \'import engine\' class which would encapsulate all state related to importing modules into a single object and provide an alternative to the built-in implementation of the import statement, which is syntactic sugar for the `__import__()` method. Currently the bulk of importing work is done by means of module finders and loaders, and their interfaces would require a simple change in order to work both the builtin import functionality and importing via import engine objects. In that sense, this PEP constitutes a revision of finder and loader interfaces described in PEP 302 [\[1\]](#id5).
 :::
 
-::: {#rationale .section}
+::: 
 ### Rationale
 
 Historically, any modification to the import functionality required re-implementing `__import__()` entirely. PEP 302 provides a major improvement by introducing separation between imports of different types of modules. As a result, additional process-global state is stored in the sys module. This, along with earlier import-related global state, comprises:
@@ -46,28 +51,28 @@ Historically, any modification to the import functionality required re-implement
 Isolating this state would allow multiple import states to be conveniently stored within a process. Placing the import functionality in a self-contained object would allow subclassing to add additional features (e.g. module import notifications or fine-grained control over which modules can be imported). The engine would also be subclassed to make it possible to use the import engine API to interact with the existing process-global state.
 :::
 
-::: {#proposal .section}
+::: 
 ### Proposal
 
-We propose introducing an ImportEngine class to encapsulate import functionality. This includes the `__import__()` function which can be used to as an alternative to the built-in `__import__()` when desired and also `import_module()`, equivalent to `importlib.import_module()` [\[3\]](#id7){#id2 .footnote-reference}.
+We propose introducing an ImportEngine class to encapsulate import functionality. This includes the `__import__()` function which can be used to as an alternative to the built-in `__import__()` when desired and also `import_module()`, equivalent to `importlib.import_module()` [\[3\]](#id7).
 
 Since the new style finders and loaders should also have the option to modify the global import state, we introduce a `GlobalImportState` class with an interface identical to `ImportEngine` but taking advantage of the global state. This can be easily implemented using class properties.
 :::
 
-::::::: {#design-and-implementation .section}
+::::::: 
 ### Design and Implementation
 
-::: {#api .section}
+::: 
 #### API
 
 The proposed extension would consist of the following objects:
 
 `engine.ImportEngine`
 
-> `__import__(self, name, globals={}, locals={}, fromlist=[], level=0)` Reimplementation of the builtin `__import__()` function. The import of a module will proceed using the state stored in the ImportEngine instance rather than the global import state. For full documentation of `__import__` funtionality, see [\[2\]](#id6){#id3 .footnote-reference} . `__import__()` from `ImportEngine` and its subclasses can be used to customise the behaviour of the `import` statement by replacing `__builtin__.__import__` with `ImportEngine.__import__`.
+> `__import__(self, name, globals={}, locals={}, fromlist=[], level=0)` Reimplementation of the builtin `__import__()` function. The import of a module will proceed using the state stored in the ImportEngine instance rather than the global import state. For full documentation of `__import__` funtionality, see [\[2\]](#id6) . `__import__()` from `ImportEngine` and its subclasses can be used to customise the behaviour of the `import` statement by replacing `__builtin__.__import__` with `ImportEngine.__import__`.
 
 `import_module(name, package=None)`
-:   A reimplementation of `importlib.import_module()` which uses the import state stored in the ImportEngine instance. See [\[3\]](#id7){#id4 .footnote-reference} for a full reference.
+:   A reimplementation of `importlib.import_module()` which uses the import state stored in the ImportEngine instance. See [\[3\]](#id7) for a full reference.
 
 `from_engine(self, other)`
 :   Create a new import object from another ImportEngine instance. The new object is initialised with a copy of the state in `other`. When called on `engine.sysengine` as `other`, `from_engine()` can be used to create an ImportEngine object with a **copy** of the global import state.
@@ -76,14 +81,14 @@ The proposed extension would consist of the following objects:
 :   Convenience class to provide engine-like access to the global state. Provides `__import__()`, `import_module()` and `from_engine()` methods like `ImportEngine` but writes through to the global state in `sys`.
 :::
 
-::: {#global-variables .section}
+::: 
 #### Global variables
 
 `engine.sysengine`
 :   Instance of GlobalImportEngine provided for convenience (e. g. for use by module finders and loaders).
 :::
 
-::: {#necessary-changes-to-finder-loader-interfaces .section}
+::: 
 #### Necessary changes to finder/loader interfaces:
 
 `find_module` (cls, fullname, path=None, **engine=None**)
@@ -98,10 +103,10 @@ The only difference between \'new style\' and PEP 302 compatible finders/loaders
 
       ...
 
-An implementation based on Brett Cannon\'s importlib has been developed by Greg Slodkowicz as part of the 2011 Google Summer of Code. The code repository is located at [https://bitbucket.org/jergosh/gsoc_import_engine/](https://bitbucket.org/jergosh/gsoc_import_engine/){.https .reference .external}.
+An implementation based on Brett Cannon\'s importlib has been developed by Greg Slodkowicz as part of the 2011 Google Summer of Code. The code repository is located at [https://bitbucket.org/jergosh/gsoc_import_engine/](https://bitbucket.org/jergosh/gsoc_import_engine/).
 :::
 
-::: {#open-issues .section}
+::: 
 #### Open Issues
 
 The existing importlib implementation depends on several functions from `imp`, Python\'s builtin implementation of `__import__` located in *Python/import.c*. These functions are unaware of ImportEngine and place the newly imported module in `sys.modules`. Naturally, this is a problem from the ImportEngine point of view. The offending methods are:
@@ -115,25 +120,24 @@ Similarly, `imp.NullImporter` implements a `load_module` method which is incompa
 :::
 :::::::
 
-::: {#references .section}
+::: 
 ### References
 
   ---------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [\[1\]](#id1){.fn-backref}   PEP 302, New Import Hooks, J van Rossum, Moore ([http://www.python.org/dev/peps/pep-0302](http://www.python.org/dev/peps/pep-0302){.http .reference .external})
+  [\[1\]](#id1)   PEP 302, New Import Hooks, J van Rossum, Moore ([http://www.python.org/dev/peps/pep-0302](http://www.python.org/dev/peps/pep-0302))
   ---------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ---------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [\[2\]](#id3){.fn-backref}   \_\_import\_\_() builtin function, The Python Standard Library documentation ([http://docs.python.org/library/functions.html#\_\_import\_\_](http://docs.python.org/library/functions.html#__import__){.http .reference .external})
+  [\[2\]](#id3)   \_\_import\_\_() builtin function, The Python Standard Library documentation ([http://docs.python.org/library/functions.html#\_\_import\_\_](http://docs.python.org/library/functions.html#__import__))
   ---------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  \[3\]   *([1](#id2){.fn-backref}, [2](#id4){.fn-backref})* Importlib documentation, Cannon ([http://docs.python.org/dev/library/importlib](http://docs.python.org/dev/library/importlib){.http .reference .external})
+  \[3\]   *([1](#id2), [2](#id4))* Importlib documentation, Cannon ([http://docs.python.org/dev/library/importlib](http://docs.python.org/dev/library/importlib))
   ------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-::: {#copyright .section}
+::: 
 ### Copyright
 
 This document has been placed in the public domain.
 :::
-:::::::::::::

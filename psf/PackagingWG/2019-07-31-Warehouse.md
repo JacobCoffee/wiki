@@ -1,7 +1,12 @@
 # PackagingWG/2019-07-31-Warehouse
 
-::: {#content dir="ltr" lang="en"}
-# Audit log design {#Audit_log_design}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Audit log design 
 
 July 31, 2019, conference call
 
@@ -14,11 +19,11 @@ Participants:
 - Donald
 - Nicole
 
-Issue: [https://github.com/pypa/warehouse/issues/5863](https://github.com/pypa/warehouse/issues/5863){.https} \-- putting summary of this meeting in a comment on that issue
+Issue: [https://github.com/pypa/warehouse/issues/5863](https://github.com/pypa/warehouse/issues/5863) \-- putting summary of this meeting in a comment on that issue
 
 Goal: review approaches to designing audit log functionality
 
-## Basic design approach for auditing API {#Basic_design_approach_for_auditing_API}
+## Basic design approach for auditing API 
 
 Will asked a few general approach questions.
 
@@ -35,7 +40,7 @@ How do we want the auditing API to look? 3 choices:
 
 *Our choice*: New API, called in tandem with metrics calls in places where both are needed/desired.
 
-## Storage {#Storage}
+## Storage 
 
 2nd question: Storage! How long a duration? Up to last n auditable records, up to last n weeks, FOREVERRR, etc.? maybe not do this inside of Postgres, use a document store?
 
@@ -51,9 +56,9 @@ Our journal is just Postgres tables. 2 classes of audit info to store:
 
   - ?? is there good prior art on duration? What does GitHub do? They don\'t explicitly say duration of user log, Donald only sees back to May 7th\.... May be the past 50 events
 
-  - [Simply Secure](https://simplysecure.org/){.https} might have some good resources on this
+  - [Simply Secure](https://simplysecure.org/) might have some good resources on this
 
-  - **TODO**: look into prior art/best practices \-- [https://github.com/pypa/warehouse/issues/3532](https://github.com/pypa/warehouse/issues/3532){.https}
+  - **TODO**: look into prior art/best practices \-- [https://github.com/pypa/warehouse/issues/3532](https://github.com/pypa/warehouse/issues/3532)
 
 Will: what about API tokens? question of security boundary. Maintainer seeing whether an Owner has created an API token
 
@@ -64,9 +69,9 @@ General discussion:
 - Does this user have 2fa on or not? yes, that\'s important for transparency.
 - even if we add a 2-factor flow for upload API, does it matter how a user is authenticating? But: in case of a compromise, might be useful for someone to know \"my token was compromised\" \-- to know what to revoke
 
-## Scope of this task {#Scope_of_this_task}
+## Scope of this task 
 
-Will: scoping questions: Trail of Bits is scoped to work on (as mentioned in [https://github.com/pypa/warehouse/issues/5863#issue-445032729](https://github.com/pypa/warehouse/issues/5863#issue-445032729){.https} ):
+Will: scoping questions: Trail of Bits is scoped to work on (as mentioned in [https://github.com/pypa/warehouse/issues/5863#issue-445032729](https://github.com/pypa/warehouse/issues/5863#issue-445032729) ):
 
 - Add auditing for user actions in PyPI
 - Add auditing for project actions in PyPI
@@ -110,7 +115,7 @@ Donald:
 
 - a potential way to hide that it\'s periodic: build filtering into queries. Have query that pulls into data for User page also filter for 2 weeks. so data isn\'t dependent on when last cron ran
 
-Sumana: Email notifications like [https://github.com/pypa/warehouse/issues/5808](https://github.com/pypa/warehouse/issues/5808){.https} are out of scope
+Sumana: Email notifications like [https://github.com/pypa/warehouse/issues/5808](https://github.com/pypa/warehouse/issues/5808) are out of scope
 
 Ernest:
 
@@ -128,7 +133,7 @@ Re: who gets to see what?
 
 - for the public as a whole: for project events, we may want to show events but hide some info about each event, e.g. IP. Nicole is taking note of this for designing templates.
 
-## Estimated date of completion for audit logging functionality {#Estimated_date_of_completion_for_audit_logging_functionality}
+## Estimated date of completion for audit logging functionality 
 
 Will: estimate: can have additional models and views done by probably end of next week. Then, work with Nicole on UI and - for initial merge - determining initial events to expose
 
@@ -136,15 +141,14 @@ Nicole: then another week or so to have templates merged.
 
 *Resolved:* Try to work towards merging on Aug 16
 
-(But let\'s not be surprised if getting out of beta on [WebAuthn](./WebAuthn.html){.nonexistent} and API keys ends up slowing this down)
+(But let\'s not be surprised if getting out of beta on [WebAuthn](./WebAuthn.html) and API keys ends up slowing this down)
 
-## Miscellaneous {#Miscellaneous}
+## Miscellaneous 
 
-Ernest: **\*\*Important\*\*** INVOICES 4 JULY PLZZZZZZZ \<3 **\*\*Important\*\***: We need to update our view on runway ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+Ernest: **\*\*Important\*\*** INVOICES 4 JULY PLZZZZZZZ \<3 **\*\*Important\*\***: We need to update our view on runway ![:)](/wiki/europython/img/smile.png ":)")
 
-## TODOs {#TODOs}
+## TODOs 
 
 1.  Will, Nicole, and Sumana: submit July invoices ASAP
 
-2.  Nicole: look into best practices/prior art for how long to store user behavior in this audit log \-- [https://github.com/pypa/warehouse/issues/3532](https://github.com/pypa/warehouse/issues/3532){.https}
-:::
+2.  Nicole: look into best practices/prior art for how long to store user behavior in this audit log \-- [https://github.com/pypa/warehouse/issues/3532](https://github.com/pypa/warehouse/issues/3532)

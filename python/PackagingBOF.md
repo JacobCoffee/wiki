@@ -1,7 +1,12 @@
 # PackagingBOF
 
-::: {#content dir="ltr" lang="en"}
-# 1. Summary {#Summary}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# 1. Summary 
 
 The following topics came up during the two BoF meetings. Thanks to Jeff Rush for his summary sent to the Distutils-sig mailing list! (This list may be incomplete, please feel free to add to it.)
 
@@ -43,7 +48,7 @@ A fair question is whether it is the job of setuptools (or any Python packaging 
 
 As mentioned, some of these concerns can be resolved by adding customization-pressure-release entrypoints to setuptools, and some can be handled with much better documentation of use cases and what to do. And some of it is confusion over packaging libraries versus applications, where setuptools focuses on the former and zc.buildout focuses on the latter. But buildout is very young, maintains isolation from the system Python and was not known to many of the packaging BoF attendees.
 
-# 2. Other Enthought Notes {#Other_Enthought_Notes}
+# 2. Other Enthought Notes 
 
 - When different eggs require the same project but with different version requirements, setuptools/easy_install doesn\'t attempt to merge the requirements or inform you that there is no way to simultaneously satisfy both requirements. Instead, it installs the best match for the first requirement and then chokes on the second if its \'best match\' for the first doesn\'t work for the second. We propose a change where all \*known\* requirements are tracked and intersected before a download of a dependency is made. This way an application egg, which is usually what a user would request and thus is likely to be the first processed, can explicitly identify library versions and the install tool would always intersect these with any library dependency versions.
 
@@ -59,15 +64,14 @@ As mentioned, some of these concerns can be resolved by adding customization-pre
 
 - It would be nice if we could have 2 eggs of the same version, one binary built with debug support and without it, in a egg repository. And then we\'d need some way to pick which to install.
 
-# 3. Other Debian/Ubuntu Notes {#Other_Debian.2FUbuntu_Notes}
+# 3. Other Debian/Ubuntu Notes 
 
-- Standardize version numbers such that no heuristics are needed for version comparisions. See [http://www.us.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Version](http://www.us.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Version){.http} for a format addressing errors in version handling (epochs) and handling prerelease and release candidate versions. The paragraph about debian revisions does not apply.
+- Standardize version numbers such that no heuristics are needed for version comparisions. See [http://www.us.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Version](http://www.us.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Version) for a format addressing errors in version handling (epochs) and handling prerelease and release candidate versions. The paragraph about debian revisions does not apply.
 
 - Archive maintainance in Debian/Ubuntu is expensive and requires manual interaction when a binary package enters the distribution or leaves the distribution; this is the main reason for modules and extensions packaged in unversioned packages. Such a package can be used for more than one python version. Think about it as a \"fat package\" like Darwin binaries which could be built for more than one architecture, but here for more than one python version. It would be nice to have some support for such a layout such as having non-conflicting file names for .so and .pyc files.
 
-# 4. Invitation Text {#Invitation_Text}
+# 4. Invitation Text 
 
 Enthought is currently using eggs and several extensions to eggs in order to package and ship the Enthought Python Distribution. In doing this, we have encountered multiple opportunities for improving the current approach to packaging and distribution using eggs that we would like to discuss with anyone else in the Python community interested in these issues.
 
 Some of our ideas are well-developed and others are more ephemeral. We would like to spend an hour or two discussing these ideas and comparing notes with anyone else interested in packaging and distributing python modules.
-:::

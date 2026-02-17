@@ -1,9 +1,13 @@
 # MplMentors
 
-::: {#content dir="ltr" lang="en"}
-# Matplotlib Mentors for GSOC 2009 {#Matplotlib_Mentors_for_GSOC_2009}
+```{admonition} Legacy Wiki Page
+:class: note
 
-John Hunter: [email address](mailto:jdh2358@gmail.com){.mailto}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-Michael Droettboom: [email address](mailto:mdroe@stsci.edu){.mailto}
-:::
+# Matplotlib Mentors for GSOC 2009 
+
+John Hunter: [email address](mailto:jdh2358@gmail.com)
+
+Michael Droettboom: [email address](mailto:mdroe@stsci.edu)

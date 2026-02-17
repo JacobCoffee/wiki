@@ -1,6 +1,11 @@
 # PackagingWG/2018-03-26-Warehouse
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Monday, March 26th meeting notes
 
 Present \[Nicole unavailable\]:
@@ -11,15 +16,15 @@ Present \[Nicole unavailable\]:
 - Dustin
 - Mark
 
-# News {#News}
+# News 
 
-Beta released [https://pyfound.blogspot.com/2018/03/warehouse-all-new-pypi-is-now-in-beta.html](https://pyfound.blogspot.com/2018/03/warehouse-all-new-pypi-is-now-in-beta.html){.https}
+Beta released [https://pyfound.blogspot.com/2018/03/warehouse-all-new-pypi-is-now-in-beta.html](https://pyfound.blogspot.com/2018/03/warehouse-all-new-pypi-is-now-in-beta.html)
 
-# Blocked on anything? Announcements? {#Blocked_on_anything.3F_Announcements.3F}
+# Blocked on anything? Announcements? 
 
 Laura:
 
-- will be reviewing PRs - starting with [GitHub](./GitHub.html){.nonexistent}-Flavored Markdown
+- will be reviewing PRs - starting with [GitHub](./GitHub.html)-Flavored Markdown
 
 Sumana:
 
@@ -55,11 +60,11 @@ Mark:
 
 - FB Grant (March 31st): due this week - Mark will try to finish draft by Wed, submit Fri
 
-- PEP 541 Finalized: [https://www.python.org/dev/peps/pep-0541/](https://www.python.org/dev/peps/pep-0541/){.https}
+- PEP 541 Finalized: [https://www.python.org/dev/peps/pep-0541/](https://www.python.org/dev/peps/pep-0541/)
 
-- Needs licenses and binaries for [HashiCorp](./HashiCorp.html){.nonexistent} from Ernest (not high priority)
+- Needs licenses and binaries for [HashiCorp](./HashiCorp.html) from Ernest (not high priority)
 
-# Followup {#Followup}
+# Followup 
 
 - When can we announce \[infra\] credits? - PSF drafting a letter to \[other\] contact - that they will be getting PSF infra
 
@@ -67,13 +72,13 @@ Mark:
 
 - Mark: Facebook & NLNet grants: see above
 
-# Bug triage {#Bug_triage}
+# Bug triage 
 
-User support ticket system [https://github.com/pypa/warehouse/issues/3231](https://github.com/pypa/warehouse/issues/3231){.https}
+User support ticket system [https://github.com/pypa/warehouse/issues/3231](https://github.com/pypa/warehouse/issues/3231)
 
 - Sumana asks: prioritize higher?
 
-- look for a support queue instead of [GitHub](./GitHub.html){.nonexistent} issues
+- look for a support queue instead of [GitHub](./GitHub.html) issues
 
 - find inexpensive commercial solution and pay for out of Packaging WG funds
 
@@ -81,11 +86,11 @@ User support ticket system [https://github.com/pypa/warehouse/issues/3231](https
 
 - Resolution: revisit in 2 weeks when team is reassembled, see who has time to investigate
 
-# Need from Donald {#Need_from_Donald}
+# Need from Donald 
 
 - transparent \[sponsor\] logo (sponsor really, Ernest can email our contact)
 
-# TODO {#TODO}
+# TODO 
 
 - Ernest & Dustin - project end dates based on updated fund allocation
 
@@ -93,5 +98,4 @@ User support ticket system [https://github.com/pypa/warehouse/issues/3231](https
 
 - trim NL Net grant application since we can only ask for \$35,000 - SH will do, coordinate with Ernest
 
-- Mark needs licenses and binaries for [HashiCorp](./HashiCorp.html){.nonexistent} from Ernest (not high priority)
-:::
+- Mark needs licenses and binaries for [HashiCorp](./HashiCorp.html) from Ernest (not high priority)

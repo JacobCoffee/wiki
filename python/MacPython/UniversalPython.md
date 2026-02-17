@@ -1,11 +1,16 @@
 # MacPython/UniversalPython
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Differences between [MacPython](MacPython) 2.4.1 and Universal Python 2.4.2:
 
 - `/ApplicationsMacPython-2.4` is now `/Applications/Python 2.4`
 
-- PythonIDE, [/PackageManager](./MacPython(2f)UniversalPython(2f)PackageManager.html){.nonexistent} are gone. These applications have been deprecated for quite a long time, and depend on [WASTE](http://www.merzwaren.com/waste/){.http}, which is somewhat non-free and is not available for x86.
+- PythonIDE, [/PackageManager](./MacPython(2f)UniversalPython(2f)PackageManager.html) are gone. These applications have been deprecated for quite a long time, and depend on [WASTE](http://www.merzwaren.com/waste/), which is somewhat non-free and is not available for x86.
 
 - select.poll and related constants exist on systems that have a correct poll implementation (definitely 10.4.4).
 
@@ -33,5 +38,4 @@ Patches in Universal Python 2.4.2 vs Python 2.4.2 source trees:
 
 - distribution scripts have been rewritten in python rather than a hodgepodge of makefiles
 
-- [/PythonLauncher](./MacPython(2f)UniversalPython(2f)PythonLauncher.html){.nonexistent} is built without xcode/pbxbuild
-:::
+- [/PythonLauncher](./MacPython(2f)UniversalPython(2f)PythonLauncher.html) is built without xcode/pbxbuild

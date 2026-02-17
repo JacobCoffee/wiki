@@ -1,13 +1,18 @@
 # PyOhio/PyOhioHuddle
 
-:::::::::: {#content dir="ltr" lang="en"}
-::: {#pyohio-open-space .section}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+::: 
 ### PyOhio open space
 
 Notes (mostly questions) jottted down during the PyOhio planning huddle held as an open-space at PyCon 2009.
 :::
 
-::: {#location .section}
+::: 
 ### Location
 
 > - Will they allow Wearable Python to come & sell?
@@ -16,7 +21,7 @@ Notes (mostly questions) jottted down during the PyOhio planning huddle held as 
 > - Microsoft has a large Columbus office - perhaps it would be available for other (pre-conference?) activities
 :::
 
-::: {#offices .section}
+::: 
 ### Offices
 
 > - Food Coordinator
@@ -27,7 +32,7 @@ Notes (mostly questions) jottted down during the PyOhio planning huddle held as 
 > - After-party Coordinator
 :::
 
-::: {#publicity .section}
+::: 
 ### Publicity
 
 > - Hooray to Sarah D.
@@ -41,7 +46,7 @@ Notes (mostly questions) jottted down during the PyOhio planning huddle held as 
 > - We already have a Twitter feed. Should we get a LinkedIn group, too?
 :::
 
-::: {#sponsorship .section}
+::: 
 ### Sponsorship
 
 > - AGI was our primary sponsor last year - hopefully they\'ll repeat
@@ -50,14 +55,14 @@ Notes (mostly questions) jottted down during the PyOhio planning huddle held as 
 > - We need a sponsor prospectus - see those for PyCon, CodeMash for examples
 :::
 
-::: {#tasks .section}
+::: 
 ### Tasks
 
 > - Call For Propoals (generic)
 > - Later - targeted call for specific talk types
 :::
 
-::: {#activities .section}
+::: 
 ### Activities
 
 > - A Beginners\' Track
@@ -71,4 +76,3 @@ Photography - We should make sure to take & publish photos this year. They\'re g
 
 Fluffy, the world\'s largest python, lives at the Columbus Zoo. How can we capitalize on this? A live FluffyCam? Can she be our mascot?
 :::
-::::::::::

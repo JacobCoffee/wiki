@@ -1,19 +1,24 @@
 # PythonGlossary
 
-::: {#content dir="ltr" lang="en"}
-# Python Glossary {#Python_Glossary}
+```{admonition} Legacy Wiki Page
+:class: note
 
-If you know a term you\'d like defined, simply enter it with `???`{.backtick} for the definition, then subscribe to updates to this page (you\'ll need to set up a profile on the [UserPreferences](./UserPreferences.html){.nonexistent} page). Someone will come along and complete it and you\'ll be reminded to check back when you are notified of changes to this page.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-A [symbol glossary](attachments/PythonGlossary/PySymbols.html "symbol glossary"){.attachment} is also available.
+# Python Glossary 
+
+If you know a term you\'d like defined, simply enter it with `???`{.backtick} for the definition, then subscribe to updates to this page (you\'ll need to set up a profile on the [UserPreferences](./UserPreferences.html) page). Someone will come along and complete it and you\'ll be reminded to check back when you are notified of changes to this page.
+
+A [symbol glossary](attachments/PythonGlossary/PySymbols.html "symbol glossary") is also available.
 
 ------------------------------------------------------------------------
 
-## A-M {#A-M}
+## A-M 
 
 - **Attribute** - Values associated with an individual object. Attributes are accessed using the \'dot syntax\': *a.x* means fetch the x attribute from the \'a\' object.
 
-- **BDFL** - Acronym for \"Benevolent Dictator For Life\" - a.k.a. [Guido van Rossum](http://www.python.org/~guido/){.http}, Python\'s primary creator, figurehead and decision-maker.
+- **BDFL** - Acronym for \"Benevolent Dictator For Life\" - a.k.a. [Guido van Rossum](http://www.python.org/~guido/), Python\'s primary creator, figurehead and decision-maker.
 
 - **byte code** - The internal representation of a Python program in the interpreter. The byte code is also cached in .pyc and .pyo files so that executing the same file is faster the second time (the step of compilation from source to byte code can be saved). This \"intermediate language\" is said to run on a \"virtual machine\" that calls the subroutines corresponding to each bytecode.
 
@@ -45,7 +50,7 @@ A [symbol glossary](attachments/PythonGlossary/PySymbols.html "symbol glossary")
 
 - **exception** ???
 
-- **first-class object** A first class object in a programming language is a language object that can be created dynamically, stored in a variable, passed as a parameter to a function and returned as a result by a function (from [http://www.cs.unm.edu/\~crowley/phdExams/1997xfall/pl.html](http://www.cs.unm.edu/~crowley/phdExams/1997xfall/pl.html){.http}). In Python, practically all objects are first-class, including functions, types, and classes.
+- **first-class object** A first class object in a programming language is a language object that can be created dynamically, stored in a variable, passed as a parameter to a function and returned as a result by a function (from [http://www.cs.unm.edu/\~crowley/phdExams/1997xfall/pl.html](http://www.cs.unm.edu/~crowley/phdExams/1997xfall/pl.html)). In Python, practically all objects are first-class, including functions, types, and classes.
 
 - **function** - A block of code that is invoked by a \"calling\" program, best used to provide an autonomous service or calculation.
 
@@ -95,7 +100,7 @@ A [symbol glossary](attachments/PythonGlossary/PySymbols.html "symbol glossary")
 
 - **mutable** - Mutable objects can change their value but keep their `id()`{.backtick}. See also **immutable**.
 
-## N-Z {#N-Z}
+## N-Z 
 
 - **namespace** - The place where a variable is stored in a Python program\'s memory. Namespaces are implemented as a dictionary. There are the local, global and builtins namespaces and the nested namespaces in objects (in methods). Namespaces support modularity by preventing naming conflicts. For instance, `__builtins__.open()`{.backtick} and `os.open()`{.backtick} are distinguished by their namespaces. Namespaces also aid readability and maintainabilty by making it clear which modules implement a function. For instance, writing `random.seed()`{.backtick} and `itertools.izip()`{.backtick} will make it clear that those functions are implemented by the `random`{.backtick} and `itertools`{.backtick} modules respectively.
 
@@ -109,7 +114,7 @@ A [symbol glossary](attachments/PythonGlossary/PySymbols.html "symbol glossary")
 
 - **property** - a built-in data type, used to implement managed (computed) attributes. You assign the property object created by the call **property**( *optional-args* **)** to a class attribute. When the attribute is accessed through an *instance* of the class, it dispatches functions that implement the managed-attribute operations, such as get-the-value and set-the-value.
 
-- **Python 3000** - older name for [Python 3](https://www.python.org/dev/peps/pep-3000/){.https}. An update to the language that allowed breaking changes to be made in order to add features and improve various functionality.
+- **Python 3000** - older name for [Python 3](https://www.python.org/dev/peps/pep-3000/). An update to the language that allowed breaking changes to be made in order to add features and improve various functionality.
 
 - **regular expression** - A formula for matching strings that follow some pattern. Regular expressions are made up of normal characters and *metacharacters*. In the simplest case, a regular expression looks like a standard search string. For example, the regular expression \"testing\" contains no metacharacters. It will match \"testing\" and \"123testing\" but it will not match \"Testing\". Metacharacters match some expressions like \'.\' metacharacter match any single character in a search string.
 
@@ -141,11 +146,10 @@ A [symbol glossary](attachments/PythonGlossary/PySymbols.html "symbol glossary")
 
 - **\>\>\>** - The typical Python prompt of the interactive shell. Often seen for code examples that can be tried right away in the interpreter. Not to be confused with \"\>\" symbols used for the indentation of cited material on email lists.
 
-# Historical information {#Historical_information}
+# Historical information 
 
-Previous versions of this page were mostly written before Python 3 was commonly used. For historical interest or Python 2-specific definitions, please see [previous page revisions](https://wiki.python.org/moin/PythonGlossary?action=recall&rev=36){.https}.
+Previous versions of this page were mostly written before Python 3 was commonly used. For historical interest or Python 2-specific definitions, please see [previous page revisions](https://wiki.python.org/moin/PythonGlossary?action=recall&rev=36).
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-:::

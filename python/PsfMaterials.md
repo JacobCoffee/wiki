@@ -1,15 +1,20 @@
 # PsfMaterials
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Stephan Deibel suggested that the PSF could use some printed material to hand out at conferences. (This page overlaps the [evangelism support materials](./evangelism(20)support(20)materials.html) page.)
 
-# Brochure {#Brochure}
+# Brochure 
 
 Brief introduction & overview; perhaps a single 8.5x11 page folded twice.
 
 *The design should work for A4 size too, since that is the European standard* - SH
 
-## Outline {#Outline}
+## Outline 
 
 - PSF intro: \"is a non-profit founded in XXX, with goal of XXX\"
 - What does the PSF do?
@@ -27,17 +32,16 @@ Brief introduction & overview; perhaps a single 8.5x11 page folded twice.
 - How to donate to the PSF?
 - For more information: links, address
 
-# Posters {#Posters}
+# Posters 
 
 Facundo Batista suggested a big poster with a big logo and the Zen of Python.
 
 Maybe the quick reference could be turned into a poster, too.
 
-# CDs {#CDs}
+# CDs 
 
 Not sure what should go on a python.org CD?
 
 - The code, plus a copy of the web site?
 
 - A bootable Linux distribution w/ lots of Python toys (like the [PythonCd](PythonCd)).
-:::

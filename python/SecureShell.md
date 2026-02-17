@@ -1,55 +1,60 @@
 # SecureShell
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 There are several ways to use **Secure Shell (SSH)** in Python.
 
 ## paramiko
 
 Paramiko is a native Python implementation of SSH.
 
-- [Paramiko website](http://www.paramiko.org/){.http} \-- project home page
+- [Paramiko website](http://www.paramiko.org/) \-- project home page
 
-- [https://github.com/paramiko/paramiko](https://github.com/paramiko/paramiko){.https}
+- [https://github.com/paramiko/paramiko](https://github.com/paramiko/paramiko)
 
-- [http://jessenoller.com/2009/02/05/ssh-programming-with-paramiko-completely-different/](http://jessenoller.com/2009/02/05/ssh-programming-with-paramiko-completely-different/){.http} \-- Article by Jesse Noller
+- [http://jessenoller.com/2009/02/05/ssh-programming-with-paramiko-completely-different/](http://jessenoller.com/2009/02/05/ssh-programming-with-paramiko-completely-different/) \-- Article by Jesse Noller
 
 ## pyssh
 
-- [pyssh website](http://pyssh.sourceforge.net/){.http} \-- project home page
+- [pyssh website](http://pyssh.sourceforge.net/) \-- project home page
 
-- [pyssh mailing list](http://sourceforge.net/mailarchive/forum.php?forum=pyssh-discuss){.http} \-- not very active (2006-03-26)
+- [pyssh mailing list](http://sourceforge.net/mailarchive/forum.php?forum=pyssh-discuss) \-- not very active (2006-03-26)
 
 ## conch
 
 conch is another native implementation of SSH and part of the Twisted Matrix project
 
-- [http://twistedmatrix.com/projects/conch](http://twistedmatrix.com/projects/conch){.http} \-- conch home
+- [http://twistedmatrix.com/projects/conch](http://twistedmatrix.com/projects/conch) \-- conch home
 
-## Fabric {#Fabric}
+## Fabric 
 
 Fabric uses paramiko to implement a higher-level API for performing commands over SSH, particularly for deployment and system administration tasks.
 
-- [http://fabfile.org](http://fabfile.org){.http}
+- [http://fabfile.org](http://fabfile.org)
 
-## Spur {#Spur}
+## Spur 
 
 Spur is a thin wrapper around paramiko, aiming to provide a simpler API than paramiko for common SSH operations.
 
-- [https://github.com/mwilliamson/spur.py](https://github.com/mwilliamson/spur.py){.https}
+- [https://github.com/mwilliamson/spur.py](https://github.com/mwilliamson/spur.py)
 
-## SSH wrapper {#SSH_wrapper}
+## SSH wrapper 
 
 Some tools just wrap around existing ssh/sftp implementations.
 
-- [keyphrene SSH wrapper, UNIX, Windows & MacOS](http://sourceforge.net/projects/orgkeyphrene/){.http}
+- [keyphrene SSH wrapper, UNIX, Windows & MacOS](http://sourceforge.net/projects/orgkeyphrene/)
 
-- [PySCP pscp wrapper](http://membres.lycos.fr/fredp/python/pyscp.html){.http} \-- wraps Windows `pscp`, which is part of [the Putty suite](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html){.http}
+- [PySCP pscp wrapper](http://membres.lycos.fr/fredp/python/pyscp.html) \-- wraps Windows `pscp`, which is part of [the Putty suite](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 
-## See Also {#See_Also}
+## See Also 
 
-- [Wikipedia:SSH](http://en.wikipedia.org/wiki/SSH){.http} \-- wikipedia article on Secure Shell
+- [Wikipedia:SSH](http://en.wikipedia.org/wiki/SSH) \-- wikipedia article on Secure Shell
 
-## Discussion {#Discussion}
+## Discussion 
 
 I\'m investigating the use of SSH in Python.
 
@@ -60,4 +65,3 @@ I want something that will work in both Windows and Linux, that can operate like
 You can use org.keyphrene. This library has been tested on Windows, Linux, and MacOS.
 
 \-- Vincent 2006-04-06 18:02:01
-:::

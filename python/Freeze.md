@@ -1,19 +1,24 @@
 # Freeze
 
-:::::: {#content dir="ltr" lang="en"}
-# Freeze {#Freeze-1}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Freeze is a \"[pure Python](./pure(20)Python.html){.nonexistent}\" utility that ships with Python. You can use Freeze to compile executables for Unix systems.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Freeze 
+
+Freeze is a \"[pure Python](./pure(20)Python.html)\" utility that ships with Python. You can use Freeze to compile executables for Unix systems.
 
 If you want to write Python, but you don\'t know if your clients have Python installed, use this!
 
-## How to Use {#How_to_Use}
+## How to Use 
 
 Create a Python program, \"hello.py\"
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-259f2e41f01883e631a3183cb00e3214f048ca3e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 print "Hello, World!"
 ```
 :::
@@ -407,7 +412,7 @@ Next, run make:
 
 ta da!
 
-## See Also {#See_Also}
+## See Also 
 
 - [Py2Exe](Py2Exe) \-- like Freeze, but makes Windows executables
 
@@ -415,7 +420,7 @@ ta da!
 
 - README \-- the README file for the \"freeze\" utility that comes with Python
 
-# Discussion {#Discussion}
+# Discussion 
 
 I may be doing something wrong; I don\'t think it should be including just about every module under the sun.
 
@@ -573,13 +578,13 @@ Two systems:
       File "test.py", line 2, in <module>
     ImportError: No module named time
 
-It\'s as if the dynload libraries aren\'t frozen. ![:-(](/wiki/europython/img/sad.png ":-("){height="16" width="16"}
+It\'s as if the dynload libraries aren\'t frozen. ![:-(](/wiki/europython/img/sad.png ":-(")
 
 \...
 
 Reply to self: That \*is\* the case. The Warning is saying that those modules will not be in the binary! (Shouldn\'t that be an error?)
 
-The fix is to rebuild it [using static modules](http://groups.google.com/group/comp.lang.python/browse_frm/thread/9407982ad24b62ec/5018f9abebaa285a?lnk=st&q=build+python+static&rnum=3&hl=en#5018f9abebaa285a){.http}. See `Modules/Setup` for docs. The short fix is to run this before you run `./configure` to build python:
+The fix is to rebuild it [using static modules](http://groups.google.com/group/comp.lang.python/browse_frm/thread/9407982ad24b62ec/5018f9abebaa285a?lnk=st&q=build+python+static&rnum=3&hl=en#5018f9abebaa285a). See `Modules/Setup` for docs. The short fix is to run this before you run `./configure` to build python:
 
     perl -pi -e 's!(^#\*shared\*)!*static*\n$1!' Modules/Setup.dist
 
@@ -594,5 +599,4 @@ How can I fix it?
 
 ------------------------------------------------------------------------
 
-You probably need to install the `python-dev`{.backtick} or `python-devel`{.backtick} package for your system. For example, on Debian the [python2.7-dev](http://packages.debian.org/wheezy/python2.7-dev){.http} package provides the `/usr/lib/python2.7/config`{.backtick} directory (amongst [other things](http://packages.debian.org/wheezy/i386/python2.7-dev/filelist){.http}), and will itself be installed if you install the `python-dev`{.backtick} package in this case. \-- [PaulBoddie](PaulBoddie) 2013-12-01 23:13:20
-::::::
+You probably need to install the `python-dev`{.backtick} or `python-devel`{.backtick} package for your system. For example, on Debian the [python2.7-dev](http://packages.debian.org/wheezy/python2.7-dev) package provides the `/usr/lib/python2.7/config`{.backtick} directory (amongst [other things](http://packages.debian.org/wheezy/i386/python2.7-dev/filelist)), and will itself be installed if you install the `python-dev`{.backtick} package in this case. \-- [PaulBoddie](PaulBoddie) 2013-12-01 23:13:20

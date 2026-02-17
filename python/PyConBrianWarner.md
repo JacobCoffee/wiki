@@ -1,11 +1,16 @@
 # PyConBrianWarner
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 I will be giving two talks at [PyCon](PyCon) this year.
 
-# BuildBot: build/test automation {#BuildBot:_build.2Ftest_automation}
+# BuildBot: build/test automation 
 
-## Abstract {#Abstract}
+## Abstract 
 
 The BuildBot is a system to automate the compile/test cycle required by most software projects to validate code changes. By automatically rebuilding and testing the tree each time something has changed, build problems are pinpointed quickly, before other developers are inconvenienced by the failure. The guilty developer can be identified and harassed without human intervention. By running the builds on a variety of platforms, developers who do not have the facilities to test their changes everywhere before checkin will at least know shortly afterwards whether they have broken the build or not. Warning counts, lint checks, image size, compile time, and other build parameters can be tracked over time, are more visible, and are therefore easier to improve.
 
@@ -23,23 +28,23 @@ Features:
 - debug tools to force a new build, submit fake Changes, query slave status
 - released under the GPL
 
-## Presentation Notes {#Presentation_Notes}
+## Presentation Notes 
 
 I will be walking through the basic features of the BuildBot, demonstrating a sample installation which runs the Twisted unit test suite on all checkins. By that time, the code should be available on Sourceforge along with more documentation.
 
-This presentation is currently [scheduled](http://www.python.org/pycon/pycon-schedule.html){.http} for 10am on friday March 28th.
+This presentation is currently [scheduled](http://www.python.org/pycon/pycon-schedule.html) for 10am on friday March 28th.
 
-The full paper is available at [http://www.lothar.com/tech/papers/PyCon-2003/buildbot-pycon/buildbot.html](http://www.lothar.com/tech/papers/PyCon-2003/buildbot-pycon/buildbot.html){.http} .
+The full paper is available at [http://www.lothar.com/tech/papers/PyCon-2003/buildbot-pycon/buildbot.html](http://www.lothar.com/tech/papers/PyCon-2003/buildbot-pycon/buildbot.html) .
 
-# Perspective Broker: RPC in Twisted {#Perspective_Broker:_RPC_in_Twisted}
+# Perspective Broker: RPC in Twisted 
 
-## Abstract {#Abstract-1}
+## Abstract 
 
-One of the core services provided by the [Twisted](http://www.twistedmatrix.com){.http} networking framework is \"Perspective Broker\", which provides a clean, secure, easy-to-use Remote Procedure Call (RPC) mechanism. This paper explains the novel features of PB, describes the security model and its implementation, and provides brief examples of usage.
+One of the core services provided by the [Twisted](http://www.twistedmatrix.com) networking framework is \"Perspective Broker\", which provides a clean, secure, easy-to-use Remote Procedure Call (RPC) mechanism. This paper explains the novel features of PB, describes the security model and its implementation, and provides brief examples of usage.
 
 PB is used as a foundation for many other services in Twisted, as well as projects built upon the Twisted framework. twisted.web servers can delegate responsibility for different portions of URL-space by distributing PB messages to the object that owns that subspace. twisted.im is an instant-messaging protocol that runs over PB. Applications like CVSToys use PB to distribute notices every time a CVS commit has occurred. Using PB allows these projects to focus on the interesting parts.
 
-## Presentation Notes {#Presentation_Notes-1}
+## Presentation Notes 
 
 I\'ll be walking through the main features of PB, running short sample programs to demonstrate how it all works. The presentation is currently scheduled for 3:15pm on wednesday March 26th.
 
@@ -47,13 +52,12 @@ I\'d recommend attending the \"Deferred Execution in Twisted\" talk scheduled fo
 
 I\'d also suggest the Twisted Tutorial which should happen just before this talk.
 
-The full paper is available at [http://www.lothar.com/tech/papers/PyCon-2003/pb-pycon/pb.html](http://www.lothar.com/tech/papers/PyCon-2003/pb-pycon/pb.html){.http} .
+The full paper is available at [http://www.lothar.com/tech/papers/PyCon-2003/pb-pycon/pb.html](http://www.lothar.com/tech/papers/PyCon-2003/pb-pycon/pb.html) .
 
-# Questions? Suggestions? {#Questions.3F_Suggestions.3F}
+# Questions? Suggestions? 
 
 Please add any questions, suggestions, or things you\'d like me to cover in the presentation here.
 
 - Does the BuildBot have a home page yet?
 
-- A: (22Mar2003): Yes. [http://buildbot.sourceforge.net/](http://buildbot.sourceforge.net/){.http} is the URL. It is still pretty sparse, but there is a copy of the paper and some installation hints. Join the mailing list to be notified when a release is ready.
-:::
+- A: (22Mar2003): Yes. [http://buildbot.sourceforge.net/](http://buildbot.sourceforge.net/) is the URL. It is still pretty sparse, but there is a copy of the paper and some installation hints. Join the mailing list to be notified when a release is ready.

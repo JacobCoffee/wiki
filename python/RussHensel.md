@@ -1,7 +1,12 @@
 # RussHensel
 
-::::::::: {#content dir="ltr" lang="en"}
-## Russ Hensel {#Russ_Hensel}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Russ Hensel 
 
 New member a bit new to python, but programming since 1963
 
@@ -9,9 +14,9 @@ Interested in:
 
 [SageMath](SageMath) among others
 
-[SageMath single cell test](./SageMath(20)single(20)cell(20)test.html){.nonexistent}
+[SageMath single cell test](./SageMath(20)single(20)cell(20)test.html)
 
-Email: [\<\<russ_hensel(you AT SPAMFREE comcast DOT net)\>\>]{title="Cannot load macro russ_hensel"}
+Email: [\<\<russ_hensel(you AT SPAMFREE comcast DOT net)\>\>]
 
 \...
 
@@ -21,9 +26,9 @@ Just Testing
 
 again
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1596d58e70594684e4effd17128db7685b65dbbc dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 (x,y) = (5,0)
    2 try:
    3   z = x/y
@@ -33,9 +38,9 @@ again
 :::
 ::::
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1596d58e70594684e4effd17128db7685b65dbbc-1 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 (x,y) = (5,0)
    2 try:
    3   z = x/y
@@ -45,9 +50,9 @@ again
 :::
 ::::
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1596d58e70594684e4effd17128db7685b65dbbc-2 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 (x,y) = (5,0)
    2 try:
    3   z = x/y
@@ -58,4 +63,3 @@ again
 ::::
 
 [CategoryHomepage](CategoryHomepage)
-:::::::::

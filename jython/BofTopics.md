@@ -1,7 +1,12 @@
 # BofTopics
 
-::: {#content dir="ltr" lang="en"}
-# Jython BOF Topics {#Jython_BOF_Topics}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Jython BOF Topics 
 
 **Topics and/or questions from outside the Jython development team**
 
@@ -27,23 +32,23 @@
 
 - 1635 4 weeks ago Update demos to 2.5.2 compliance open
 
-- 1639 4 weeks ago JBoss 5, vfszip protocol in use for jarFileName in [PySystemState](./PySystemState.html){.nonexistent} open
+- 1639 4 weeks ago JBoss 5, vfszip protocol in use for jarFileName in [PySystemState](./PySystemState.html) open
 
 - 1618 4 weeks ago Default globals dict should be a regular Python dict, not a stringmap open
 
-- 1540 2 weeks ago Calling a protected Java method from a Python subclass causes recursion depth [RuntimeError](./RuntimeError.html){.nonexistent} open
+- 1540 2 weeks ago Calling a protected Java method from a Python subclass causes recursion depth [RuntimeError](./RuntimeError.html) open
 
 - 1492 2 weeks ago Jython not handling Java Iterators properly. open
 
 - 1647 2 weeks ago zxJDBC does not handle NVARCHAR open
 
-- 1642 1 week ago JSR223 [PyScriptEngine#getInterface](./PyScriptEngine.html#getInterface){.nonexistent} returns a NPE when called with zero args open
+- 1642 1 week ago JSR223 [PyScriptEngine#getInterface](./PyScriptEngine.html#getInterface) returns a NPE when called with zero args open
 
 - 1568 1 week ago sys.stdout.encoding returns wrong value in Windows with Jython 2.5.1 open
 
-- 1543 1 week ago [PyArray](./PyArray.html){.nonexistent} fails to clean up pre-allocated space open
+- 1543 1 week ago [PyArray](./PyArray.html) fails to clean up pre-allocated space open
 
-- 1653 6 days ago [PyModule](./PyModule.html){.nonexistent} loses visibility of attributes open
+- 1653 6 days ago [PyModule](./PyModule.html) loses visibility of attributes open
 
 - 1650 1/4 hour ago Current Jython docs refer to Python 2.6 functionality open
 
@@ -66,4 +71,3 @@
   - I began work, but time fell short
   - Any offers to take a look?
 - Would be great to roll into a 2.6
-:::

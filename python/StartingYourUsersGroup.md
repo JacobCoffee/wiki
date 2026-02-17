@@ -1,38 +1,22 @@
 # StartingYourUsersGroup
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page describes tips and best practices for **group organizers** in regards to:
 
 - **Creating** a new Python user group (You should have checked [LocalUserGroups](LocalUserGroups) to ensure that there is not an existing group already).
 
 - **Improving** an existing Python user group.
 
-![group-organizers-small.png](attachments/StartingYourUsersGroup/group-organizers-small.png "group-organizers-small.png"){.attachment} ![group-organizers3-small.png](attachments/StartingYourUsersGroup/group-organizers3-small.png "group-organizers3-small.png"){.attachment} ![group-organizers2-small.png](attachments/StartingYourUsersGroup/group-organizers2-small.png "group-organizers2-small.png"){.attachment}
+![group-organizers-small.png](attachments/StartingYourUsersGroup/group-organizers-small.png "group-organizers-small.png") ![group-organizers3-small.png](attachments/StartingYourUsersGroup/group-organizers3-small.png "group-organizers3-small.png") ![group-organizers2-small.png](attachments/StartingYourUsersGroup/group-organizers2-small.png "group-organizers2-small.png")
 
-::: table-of-contents
-Contents
+# Starting Your Python Users Group 
 
-1.  [Starting Your Python Users Group](#Starting_Your_Python_Users_Group)
-    1.  [Checklist](#Checklist)
-    2.  [Getting the Word Out](#Getting_the_Word_Out)
-    3.  [Finding the right location](#Finding_the_right_location)
-    4.  [Organizing Activities](#Organizing_Activities)
-    5.  [Possible Group Projects](#Possible_Group_Projects)
-    6.  [Speakers](#Speakers)
-    7.  [Social meetings](#Social_meetings)
-    8.  [Presenting for upcoming conferences](#Presenting_for_upcoming_conferences)
-    9.  [Hack sessions](#Hack_sessions)
-    10. [Other types of meetings](#Other_types_of_meetings)
-    11. [PSF](#PSF)
-2.  [Day-to-day operation](#Day-to-day_operation)
-3.  [Videos to watch](#Videos_to_watch)
-4.  [Notes from BOF at PyCon 2013](#Notes_from_BOF_at_PyCon_2013)
-5.  [Appendix](#Appendix)
-:::
-
-# Starting Your Python Users Group {#Starting_Your_Python_Users_Group}
-
-## Checklist {#Checklist}
+## Checklist 
 
 These are the initial steps to prepare before the first meeting:
 
@@ -48,9 +32,9 @@ These are the initial steps to prepare before the first meeting:
 
 - Define the means to promote the group (See *Getting the word out* below)
 
-## Getting the Word Out {#Getting_the_Word_Out}
+## Getting the Word Out 
 
-- Create a chapter on [python.meetup.com](http://python.meetup.com){.http}. Such chapters cost per month; some say \$19.95/month but I\'m paying \$9.95/month so far. It\'s a good way for people to find you though, and you can take donations from the membership. Here in the DFW Pythoneers, we have found many of our members via this method. (Much the same is true for Houston.)\
+- Create a chapter on [python.meetup.com](http://python.meetup.com). Such chapters cost per month; some say \$19.95/month but I\'m paying \$9.95/month so far. It\'s a good way for people to find you though, and you can take donations from the membership. Here in the DFW Pythoneers, we have found many of our members via this method. (Much the same is true for Houston.)\
 
   Standard ways of communicating meetings (i.e. you don\'t *have* to use one of the above sites):
 
@@ -66,13 +50,13 @@ These are the initial steps to prepare before the first meeting:
 
 - Produce some podcasts (or even better screencasts) and get them listed on video.google.com, Python 411 and such. Be sure to edit in a publicity blurb about your user group.
 
-- Set up a Google adwords (or similar) campaign targeting your local geographic area for search terms such as Python, Java, and scripting. Keeping the spread local keeps the cost reasonable. We targeted the province of Manitoba in Canada, population 1 million, for [http://WinniPUG.ca](http://WinniPUG.ca){.http}, both Python and Java, for about \$60 per year, and it generated a lot of interest. We pass a hat at meetings to cover the cost.
+- Set up a Google adwords (or similar) campaign targeting your local geographic area for search terms such as Python, Java, and scripting. Keeping the spread local keeps the cost reasonable. We targeted the province of Manitoba in Canada, population 1 million, for [http://WinniPUG.ca](http://WinniPUG.ca), both Python and Java, for about \$60 per year, and it generated a lot of interest. We pass a hat at meetings to cover the cost.
 
 <!-- -->
 
 - Consider putting your group on facebook, upcoming, and other places. Note that there is a cost to putting your energies into keeping these multiple places up to date, but it can get you users who would otherwise not find you. So you need to balance your time constraints to your desire to grow the size of the group.
 
-## Finding the right location {#Finding_the_right_location}
+## Finding the right location 
 
 - It\'s good to have a location you can rely upon, monthly, without fail.
 - Businesses that are heavily invested in your technology may sponsor your group.
@@ -80,7 +64,7 @@ These are the initial steps to prepare before the first meeting:
 - Bars may host groups on off-nights - they can see it as a way to fill their bar with people.
 - Coworking spaces are often a good choice as well, as they want their members to be able to network.
 
-## Organizing Activities {#Organizing_Activities}
+## Organizing Activities 
 
 - *Decide on the flavor of your meetings.*
 
@@ -99,7 +83,7 @@ There are lots of different things to do at meetings.
 - Some people find it works not to have a topic but just have people talk about what they\'ve found interesting and what they\'re working on.
 - Often groups meet for beer/food before and/or after the meeting, to give people a chance to congregate and hang out after the meeting place has closed.
 
-## Possible Group Projects {#Possible_Group_Projects}
+## Possible Group Projects 
 
 - Put together a club website using one of the many Python web frameworks.
 - Establish a club mailing list, wiki and subversion repository.
@@ -107,23 +91,23 @@ There are lots of different things to do at meetings.
 - Work to run a \"scripting conference\" in your area, bringing together proponents of the various languages. Some people will convert, either because your group looks like more fun or Python is such a cool language.
 - Work to run a \"web technology conference\" in your area, bringing together proponents of the various approaches. Many just want \*something\* to easily produce web sites and if Python is more friendly, they\'ll give it a try.
 
-## Speakers {#Speakers}
+## Speakers 
 
 I\'ve found that keeping the presentations short, and maybe having two or three speakers, is a good alternative to having one speaker (unless a good speaker volunteers!). It takes some of the load off the speaker and gets more people involved.
 
-## Social meetings {#Social_meetings}
+## Social meetings 
 
 Some groups hold social meetings occasionally, often inviting other tech groups. This can be a potluck affair so that the only real concern is getting the space. The Portland group has a twice-a-year social even where the dynamic-language groups all get together.
 
-## Presenting for upcoming conferences {#Presenting_for_upcoming_conferences}
+## Presenting for upcoming conferences 
 
 A local meeting is a good place to have members practice for upcoming conferences. You may find that if you can find three people to give a presentation on a topic that suddenly you are creating something larger.
 
-## Hack sessions {#Hack_sessions}
+## Hack sessions 
 
 I don\'t have experience with this yet, but if you get people together to work on projects, you can have some people show up with projects they\'re already interested in and have others show up without projects and people will gravitate towards the projects they\'re interested in. It works well if experienced programmers come with projects and the less experienced programmers can pair up with them. I\'d love to hear more about how to make these work.
 
-## Other types of meetings {#Other_types_of_meetings}
+## Other types of meetings 
 
 One of the amazing things about tech today is that if you state clearly that something is going to happen, and give people enough information about what you\'re planning, people will show up. Some other types of meetings I\'ve heard people running or participating in:
 
@@ -135,33 +119,33 @@ One of the amazing things about tech today is that if you state clearly that som
 
 - Local conferences
 
-- Topic days, like pymug (the UG of Mauritius) organised a [Web Scraping Day](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/262206827/){.https}
+- Topic days, like pymug (the UG of Mauritius) organised a [Web Scraping Day](https://www.meetup.com/MauritiusSoftwareCraftsmanshipCommunity/events/262206827/)
 
 Your group could host any one of these.
 
-## PSF {#PSF}
+## PSF 
 
-- [PSF Grants Program](http://www.python.org/psf/grants/){.http}
+- [PSF Grants Program](http://www.python.org/psf/grants/)
 
-- Contact the fiscal sponsorship team to become a fiscal sponsoree of the PSF to receive donations from sponsors in the U.S., similar to [Donation for Boston Python](http://donate.bostonpython.com){.http}. A list of current projects & contact info is available here: [https://www.python.org/psf/fiscal-sponsorees/](https://www.python.org/psf/fiscal-sponsorees/){.https}
+- Contact the fiscal sponsorship team to become a fiscal sponsoree of the PSF to receive donations from sponsors in the U.S., similar to [Donation for Boston Python](http://donate.bostonpython.com). A list of current projects & contact info is available here: [https://www.python.org/psf/fiscal-sponsorees/](https://www.python.org/psf/fiscal-sponsorees/)
 
-# Day-to-day operation {#Day-to-day_operation}
+# Day-to-day operation 
 
-If you are organizing a user group event, please consider adding the event to the [Python Event Calendar](http://pycon.org#calendar){.http} on pycon.org and in the side bar of the python.org website. This calendar is administered by a group of volunteers. Please see the [PythonEventsCalendar](PythonEventsCalendar) wiki page for details on how to get events listed.
+If you are organizing a user group event, please consider adding the event to the [Python Event Calendar](http://pycon.org#calendar) on pycon.org and in the side bar of the python.org website. This calendar is administered by a group of volunteers. Please see the [PythonEventsCalendar](PythonEventsCalendar) wiki page for details on how to get events listed.
 
-The [Group-organizers](http://mail.python.org/mailman/listinfo/group-organizers){.http} mailing list supports people starting and running user groups. A [post in the archives of the Group-organizers list](http://mail.python.org/mailman/private/group-organizers/2007-June/000003.html){.http} describes several organizing tactics (you must join the list in order to view its archives).
+The [Group-organizers](http://mail.python.org/mailman/listinfo/group-organizers) mailing list supports people starting and running user groups. A [post in the archives of the Group-organizers list](http://mail.python.org/mailman/private/group-organizers/2007-June/000003.html) describes several organizing tactics (you must join the list in order to view its archives).
 
-Also, please consider posting news from your user group on the [Python User Group Blog](http://python-groups.blogspot.com/){.http}!
+Also, please consider posting news from your user group on the [Python User Group Blog](http://python-groups.blogspot.com/)!
 
 You may draw on the [PythonSpeakers](PythonSpeakers) page to help find speakers.
 
-# Videos to watch {#Videos_to_watch}
+# Videos to watch 
 
-- [Diversity in practice: How the Boston Python User Group grew to 1700 people and over 15% women](https://www.youtube.com/watch?v=QrITN6GZDu4){.https}, by Jessica [McKellar](./McKellar.html){.nonexistent} and Asheesh Laroia, [PyCon](PyCon) 2012.
+- [Diversity in practice: How the Boston Python User Group grew to 1700 people and over 15% women](https://www.youtube.com/watch?v=QrITN6GZDu4), by Jessica [McKellar](./McKellar.html) and Asheesh Laroia, [PyCon](PyCon) 2012.
 
-- [Montreal-Python \-- Lessons Learned from Bootstraping a Python Community](http://blip.tv/pycon-us-videos-2009-2010-2011/pycon-2011-montreal-python-lessons-learned-from-bootstraping-a-python-community-4901495){.http}, by Yannick Gingras at [PyCon](PyCon) 2011.
+- [Montreal-Python \-- Lessons Learned from Bootstraping a Python Community](http://blip.tv/pycon-us-videos-2009-2010-2011/pycon-2011-montreal-python-lessons-learned-from-bootstraping-a-python-community-4901495), by Yannick Gingras at [PyCon](PyCon) 2011.
 
-# Notes from BOF at PyCon 2013 {#Notes_from_BOF_at_PyCon_2013}
+# Notes from BOF at PyCon 2013 
 
 - Find out other local user groups, like Ruby, PHP, Java, Hacker Garage, etc.
   - Attend one of their meetings and invite their members.
@@ -181,11 +165,11 @@ You may draw on the [PythonSpeakers](PythonSpeakers) page to help find speakers.
 
 - Ask existing members to invite friends or relatives to the meetup.
 
-- Reach women in technical jobs. See [Boston Python Workshop](http://bostonpythonworkshop.com/){.http}.
+- Reach women in technical jobs. See [Boston Python Workshop](http://bostonpythonworkshop.com/).
 
 - Invite external speakers, they will invite their friends.
 
-- Use google+, [LinkedIn](./LinkedIn.html){.nonexistent}, twitter, facebook
+- Use google+, [LinkedIn](./LinkedIn.html), twitter, facebook
 
 - Ask one of the meetup attendants to blog about the meetup and share pictures.
 
@@ -197,7 +181,7 @@ You may draw on the [PythonSpeakers](PythonSpeakers) page to help find speakers.
 
 - List half a dozen modules and ask attendants to do a lightning talk on one.
 
-- [Project night](https://openhatch.org/wiki/Project_night){.https} - get help from others.
+- [Project night](https://openhatch.org/wiki/Project_night) - get help from others.
 
 - Workshop
   - Friday practice
@@ -210,27 +194,26 @@ You may draw on the [PythonSpeakers](PythonSpeakers) page to help find speakers.
 
 - Slide presentation Karakoke - show a set of slides, do the talk
 
-# Appendix {#Appendix}
+# Appendix 
 
 Alternatives to meetup:
 
-- [http://facebook.com/](http://facebook.com/){.http}
+- [http://facebook.com/](http://facebook.com/)
 
-- [http://www.amiando.com/](http://www.amiando.com/){.http}
+- [http://www.amiando.com/](http://www.amiando.com/)
 
-- [http://meetin.org/](http://meetin.org/){.http}
+- [http://meetin.org/](http://meetin.org/)
 
-- [http://upcoming.org/](http://upcoming.org/){.http}
+- [http://upcoming.org/](http://upcoming.org/)
 
-- [http://suretomeet.com/](http://suretomeet.com/){.http}
+- [http://suretomeet.com/](http://suretomeet.com/)
 
-- [http://eventbrite.com/](http://eventbrite.com/){.http}
+- [http://eventbrite.com/](http://eventbrite.com/)
 
-- [http://www.groupomatic.com/](http://www.groupomatic.com/){.http}
+- [http://www.groupomatic.com/](http://www.groupomatic.com/)
 
 Discussion of meetup alternatives:
 
-- [http://ma.tt/2005/04/meetup-replacement/](http://ma.tt/2005/04/meetup-replacement/){.http}
+- [http://ma.tt/2005/04/meetup-replacement/](http://ma.tt/2005/04/meetup-replacement/)
 
-- [http://www.suite101.com/content/alternatives-to-meetupcom\-\--proscons-for-organizersmembers-a323311](http://www.suite101.com/content/alternatives-to-meetupcom---proscons-for-organizersmembers-a323311){.http}
-::::
+- [http://www.suite101.com/content/alternatives-to-meetupcom\-\--proscons-for-organizersmembers-a323311](http://www.suite101.com/content/alternatives-to-meetupcom---proscons-for-organizersmembers-a323311)

@@ -1,9 +1,14 @@
 # AlternativePathModule
 
-::::: {#content dir="ltr" lang="en"}
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-696169a68bb4868a015f98f75d1d922210bb2f87 dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+:::: 
+::: 
+``` 
    1 """ path.py - An object representing a path to a file or a directory.
    2 
    3 Based on the path module by Jason Orendorff
@@ -1155,4 +1160,3 @@
 ```
 :::
 ::::
-:::::

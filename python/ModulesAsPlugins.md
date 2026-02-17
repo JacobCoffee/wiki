@@ -1,28 +1,22 @@
 # ModulesAsPlugins
 
-:::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Here\'s how to find all the modules in some directory, and import them.
 
-::: table-of-contents
-Contents
-
-1.  1.  [Finding Modules in a Directory](#Finding_Modules_in_a_Directory)
-    2.  [Importing the Modules](#Importing_the_Modules)
-    3.  [Finding the Things Inside a Module](#Finding_the_Things_Inside_a_Module)
-    4.  [Finding Functions Within a Module](#Finding_Functions_Within_a_Module)
-    5.  [See Also](#See_Also)
-2.  [Discussion](#Discussion)
-:::
-
-## Finding Modules in a Directory {#Finding_Modules_in_a_Directory}
+## Finding Modules in a Directory 
 
 Is there a better way than just listing the contents of the directory, and taking those tiles that end with \".pyc\" or \".py\"..?
 
 But perhaps there isn\'t.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-608ee6802d2e0d5fd684c07c30c4722c5ef8250c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import os
    2 
    3 def find_modules(path="."):
@@ -46,15 +40,15 @@ But perhaps there isn\'t.
 :::
 ::::
 
-## Importing the Modules {#Importing_the_Modules}
+## Importing the Modules 
 
 How do you import a module, once you have it\'s name?
 
 With the [ImpModule](ImpModule)! It dynamically loads named modules.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-dbd6584a1f7a79a0010c31c499f4c8989c445a52 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import imp
    2 
    3 def load_module(name, path=["."]):
@@ -67,25 +61,25 @@ With the [ImpModule](ImpModule)! It dynamically loads named modules.
 :::
 ::::
 
-## Finding the Things Inside a Module {#Finding_the_Things_Inside_a_Module}
+## Finding the Things Inside a Module 
 
 Once you have your module, you can look inside it, with `.__dict__`.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-39802305090c9383e3442921828f481b6233d6a6 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 module.__dict__
 ```
 :::
 ::::
 
-## Finding Functions Within a Module {#Finding_Functions_Within_a_Module}
+## Finding Functions Within a Module 
 
 We just look for dictionary values that are of type `types.FunctionType`.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ac088e4acff8e22049974cb653d2e2385ab6240f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def functions_in_module(module)
    2     functions = []
    3     for obj in module.__dict__.values():
@@ -96,11 +90,11 @@ We just look for dictionary values that are of type `types.FunctionType`.
 :::
 ::::
 
-## See Also {#See_Also}
+## See Also 
 
 The [DocXmlRpcServer](DocXmlRpcServer) page includes code demonstrating the use of these techniques.
 
-# Discussion {#Discussion}
+# Discussion 
 
 I got this error when executing find_modules() in a package directory. That is the directory contained an ` __init.py__` file:
 
@@ -132,5 +126,4 @@ Here\'s what seems to work for me. I got rid of \'s\' altogether.
 
 All the best,
 
-[JoeDorocak](./JoeDorocak.html){.nonexistent}
-::::::::::::
+[JoeDorocak](./JoeDorocak.html)

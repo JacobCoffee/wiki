@@ -1,20 +1,16 @@
 # CvsToSvn
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [Update vs. Status](#Update_vs._Status)
-2.  [Checkins](#Checkins)
-3.  [Branching](#Branching)
-4.  [File Modes](#File_Modes)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-The Python development team recently switched from using CVS hosted at [SourceForge](SourceForge) to Subversion hosted at svn.python.org. There are many similarities between the two, but there are some differences as well. This page provides general tips. More details about using Subversion as it relates specifically to Python development are available in the [Python developer\'s FAQ](http://www.python.org/dev/devfaq.html#subversion-svn){.http}.
+The Python development team recently switched from using CVS hosted at [SourceForge](SourceForge) to Subversion hosted at svn.python.org. There are many similarities between the two, but there are some differences as well. This page provides general tips. More details about using Subversion as it relates specifically to Python development are available in the [Python developer\'s FAQ](http://www.python.org/dev/devfaq.html#subversion-svn).
 
 (Most of the initial content came from a python-dev post by Tim Peters.)
 
-# Update vs. Status {#Update_vs._Status}
+# Update vs. Status 
 
 CVS uses `update` for all sorts of things. SVN has different commands for several of the use cases CVS\'s update conflates:
 
@@ -30,11 +26,11 @@ CVS uses `update` for all sorts of things. SVN has different commands for severa
 
   this reverts **all** changes made in revision NEW, no matter how many files were involved.
 
-# Checkins {#Checkins}
+# Checkins 
 
 Revision numbers apply to the entire repository, not just to single files. Every checkin conceptually creates a new version of the entire repository, uniquely identified by its revision number. This is very powerful, but subtle, and CVS has nothing like it. A glimpse of its power was given just above, talking about the ease of reverting an entire checkin in one easy gulp.
 
-# Branching {#Branching}
+# Branching 
 
 You\'re working on a trunk sandbox and discover it\'s going to take longer than you hoped. Now you wish you had created a branch. This is actually dead easy: create a new branch of the trunk. `svn switch` your sandbox to that new branch; this leaves your local change alone, which is key. `svn commit` \-- you\'re done! There\'s now a branch on the server matching your fiddled local state.
 
@@ -45,7 +41,7 @@ You\'re working on a trunk sandbox and discover it\'s going to take longer than 
 
 Making a branch or tag goes very fast under SVN. Because branches and tags are just conventionally-named directories, you can delete them (like any other directory) when you\'re done with them. These conspire to make simple applications of branches much more pleasant than under CVS.
 
-# File Modes {#File_Modes}
+# File Modes 
 
 CVS uses text mode for files by default. SVN uses binary mode. The latter is safer, but creates endless low-level snags for x-platform development. I encourage Python developers to include this gibberish in their SVN config file:
 
@@ -65,4 +61,3 @@ CVS uses text mode for files by default. SVN uses binary mode. The latter is saf
 Then SVN will set the necessary `svn:eol-style` property to \"native\" on new text files you commit. I\'ve never yet seen it tag a file inappropriately using this trick, but it\'s guaranteed to screw up \_all\_ text files without something like this (unless you have the patience and discipline to manually set eol-style=native on all new text files you add).
 
 For the above to work you will also have to make sure the `enable-auto-props` configuration key is set to \"yes\".
-::::

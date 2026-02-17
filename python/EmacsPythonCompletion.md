@@ -1,7 +1,12 @@
 # EmacsPythonCompletion
 
-::: {#content dir="ltr" lang="en"}
-# Python Completion in emacs {#Python_Completion_in_emacs}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Python Completion in emacs 
 
 - new version 16/10-2003
   - now runs on windows, does not need rlcompleter
@@ -25,7 +30,7 @@ TRICK: (4+5) is great for calling functions like:
 
 where I can \_never\_ remember whether it\'s the list or seperator first
 
-Get it directly from SVN: [http://slog.dk/svn/home/jensen/emacs-lisp/addon/py-complete.el](http://web.archive.org/web/*/http://slog.dk/svn/home/jensen/emacs-lisp/addon/py-complete.el){.http} (link to archived versions)
+Get it directly from SVN: [http://slog.dk/svn/home/jensen/emacs-lisp/addon/py-complete.el](http://web.archive.org/web/*/http://slog.dk/svn/home/jensen/emacs-lisp/addon/py-complete.el) (link to archived versions)
 
 Feel free to suggest improvements, or to just improve the code yourself.
 
@@ -33,9 +38,8 @@ Feel free to suggest improvements, or to just improve the code yourself.
 
 - 2007-02-15 add
 
-also check this: [Bash-like Tab Completion in Emacs python-mode](http://timchen119.blogspot.com/2007/02/bash-like-tab-completion-in-emacs.html){.http}
+also check this: [Bash-like Tab Completion in Emacs python-mode](http://timchen119.blogspot.com/2007/02/bash-like-tab-completion-in-emacs.html)
 
 ------------------------------------------------------------------------
 
 [CategoryEditors](CategoryEditors)
-:::

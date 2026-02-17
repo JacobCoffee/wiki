@@ -1,31 +1,20 @@
 # JonathanGardnerPyQtTutorial
 
-:::: {#content dir="ltr" lang="en"}
-# Jonathan Gardner\'s PyQt Tutorial {#Jonathan_Gardner.27s_PyQt_Tutorial}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Jonathan Gardner\'s PyQt Tutorial 
 
 This is a short tutorial to get you up to speed with [PyQt](PyQt). It assumes some knowledge of bash, Python, and Qt.
 
-If you have questions or comments, you can send them to me at [jgardner@jonathangardner.net](mailto:jgardner@jonathangardner.net){.mailto}. You may also make corrections to this page.
+If you have questions or comments, you can send them to me at [jgardner@jonathangardner.net](mailto:jgardner@jonathangardner.net). You may also make corrections to this page.
 
-A (brazilian) portuguese translation is available at [https://web.archive.org/web/20081017155041/http://www.pythonbrasil.com.br/moin.cgi/TutorialPyQt](https://web.archive.org/web/20081017155041/http://www.pythonbrasil.com.br/moin.cgi/TutorialPyQt){.https} thanks to Rodrigo B. Vieira.
+A (brazilian) portuguese translation is available at [https://web.archive.org/web/20081017155041/http://www.pythonbrasil.com.br/moin.cgi/TutorialPyQt](https://web.archive.org/web/20081017155041/http://www.pythonbrasil.com.br/moin.cgi/TutorialPyQt) thanks to Rodrigo B. Vieira.
 
-::: table-of-contents
-Contents
-
-1.  [Jonathan Gardner\'s PyQt Tutorial](#Jonathan_Gardner.27s_PyQt_Tutorial)
-    1.  [Abstract](#Abstract)
-    2.  [Requirements](#Requirements)
-    3.  [Using Qt Designer](#Using_Qt_Designer)
-    4.  [Using pyuic](#Using_pyuic)
-        1.  [Theory](#Theory)
-    5.  [Running Your Application](#Running_Your_Application)
-    6.  [Setting the Default Date / Time](#Setting_the_Default_Date_.2F_Time)
-    7.  [Signals and Slots](#Signals_and_Slots)
-    8.  [Homework](#Homework)
-    9.  [Future Directions](#Future_Directions)
-:::
-
-## Abstract {#Abstract}
+## Abstract 
 
 We will cover:
 
@@ -34,7 +23,7 @@ We will cover:
 - Using Qt Signals and Slots in Python.
 - Creating a simple application to interface with the \'at\' program.
 
-## Requirements {#Requirements}
+## Requirements 
 
 You will need:
 
@@ -55,7 +44,7 @@ You should already know:
 
 If you haven\'t fulfilled these requirements, you may have some trouble getting the tutorial to work.
 
-## Using Qt Designer {#Using_Qt_Designer}
+## Using Qt Designer 
 
 First things first. We\'ll start where I start. Open up a bash prompt. Start Qt Designer by typing the following command:
 
@@ -77,7 +66,7 @@ Now, rearrange the layout using the Qt layout tools to your heart\'s content. Yo
 
 Save the file in a project directory for this tutorial. If you haven\'t already created one, create one called \"pyqt_tutorial\" or something. Save the file as \"at.ui\".
 
-## Using pyuic {#Using_pyuic}
+## Using pyuic 
 
 Go back to your bash prompt, or open up a new one. Go into the project directory, and run these commands.
 
@@ -89,7 +78,7 @@ This command will store the generated python code that comes from the Qt ui file
 
 Everytime we change the ui file, we need to regenerate the at_auto.py file. Let\'s add this command to a makefile.
 
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} Tabs are important!
+![/!\\](/wiki/europython/img/alert.png "/!\") Tabs are important!
 
 - $ cat > Makefile
       at_auto.py : at.ui
@@ -109,13 +98,13 @@ Notice that it says something about all the files being up to date. Let\'s touch
 
 Now it echos out the commands it runs. You see that it has successfully regenerated at_auto.py.
 
-### Theory {#Theory}
+### Theory 
 
 The idea here is that you want the GUI developer to be able to go and make changes to the GUI interface (like moving stuff around) without affecting the logic behind the GUI. So with your setup right now, all the GUI developer has to do is use Qt Designer to change the at.ui file, and then run make to see his changed take effect.
 
 Your make file will get more complicated as you add more files. Be sure to read more about make so that you make good design decisions early on about how to use make properly.
 
-## Running Your Application {#Running_Your_Application}
+## Running Your Application 
 
 So we have that at.ui file, and the at_auto.py file. How do we actually run the app?
 
@@ -157,7 +146,7 @@ exec python at.py
 
 chmod 700 myscript and you\'re set !
 
-## Setting the Default Date / Time {#Setting_the_Default_Date_.2F_Time}
+## Setting the Default Date / Time 
 
 Let\'s set a default value for the QDateTimeEdit widget. The QDateTimeEdit widget expects a QDateTime for an argument to the setDateTime method, so we\'ll have to create one. But how to set the time of the QDateTime? Examination of the documentation reveals that the setTime_t method will allow us to set the date with the time in seconds from the Unix epoch. We can get that from the time() function in the built-in time module.
 
@@ -170,7 +159,7 @@ Here\'s the code that does that. We\'ll put this in the `__init__`{.backtick} me
 
 This code snippet should show how easily python and [PyQt](PyQt) work with each other. It should also demonstrate the thought processes you\'ll have to go through to manipulate Qt\'s widgets.
 
-## Signals and Slots {#Signals_and_Slots}
+## Signals and Slots 
 
 Everything you do from here on out is connecting Signals to Slots. It\'s pretty easy, which is why I like [PyQt](PyQt).
 
@@ -187,7 +176,7 @@ When you bind a signal to a slot, you can do one of the following:
 
         QObject.connect(some_object, SIGNAL('toggled(bool)'), some_python_callable)
 
-    See here for an example how to simplify this task with decorators (in Python 2.4): [http://www.diotavelli.net/PyQtWiki/SignalDecorator](http://www.diotavelli.net/PyQtWiki/SignalDecorator){.http}
+    See here for an example how to simplify this task with decorators (in Python 2.4): [http://www.diotavelli.net/PyQtWiki/SignalDecorator](http://www.diotavelli.net/PyQtWiki/SignalDecorator)
 - Bind a C++ Signal to a C++ Signal
   - You won\'t do this very often, but it comes in handy.
 
@@ -269,7 +258,7 @@ Here is the final code for the \'at.py\' file.
           w.show()
           a.exec_loop()
 
-## Homework {#Homework}
+## Homework 
 
 With the time remaining, you may want to add a few extensions.
 
@@ -283,9 +272,8 @@ With the time remaining, you may want to add a few extensions.
 
 - Add functionality to edit or remove queued \'at\' jobs. Try to reuse as much code as possible. (Hint: the widget that will schedule a new \'at\' job is already finished. Try embedding it in a QDialog.)
 
-## Future Directions {#Future_Directions}
+## Future Directions 
 
 This application could be part of a suite of Unix command line interfaces. What other commands would you like to implement? I suggest giving things like \"crontab\" and \"ps\" a try. Parsing the output of these commands isn\'t too difficult, and the interface with them is pretty easy.
 
 You may also want to try and combine your new apps with the \'at\' app. If you like, you can sell them as a Unix graphical interface, but you\'ll have to buy the commercial license for both Qt and [PyQt](PyQt) unless you stick with something like the GPL.
-::::

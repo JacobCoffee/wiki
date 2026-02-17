@@ -1,13 +1,18 @@
 # PyQt/Using a different view with QComboBox
 
-::::: {#content dir="ltr" lang="en"}
-# Using a different view with QComboBox {#Using_a_different_view_with_QComboBox}
+```{admonition} Legacy Wiki Page
+:class: note
 
-On the PyQt mailing list, Adam W. asked for \"[A simple way to add another column to QComboBox?](http://www.riverbankcomputing.com/pipermail/pyqt/2009-September/024242.html){.http}\". Here is some sample code that does this:
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ff6520533d3120b0c99395fcf7534303da654f27 dir="ltr" lang="en"}
+# Using a different view with QComboBox 
+
+On the PyQt mailing list, Adam W. asked for \"[A simple way to add another column to QComboBox?](http://www.riverbankcomputing.com/pipermail/pyqt/2009-September/024242.html)\". Here is some sample code that does this:
+
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import Qt, QVariant
    3 from PyQt4.QtGui import *
@@ -43,7 +48,6 @@ On the PyQt mailing list, Adam W. asked for \"[A simple way to add another colum
 
 Note that we set the model on the combo box, not the view.
 
-Some improvements could be made to this code. For example, at small sizes the pop-up doesn\'t always show both columns. Perhaps the combo box\'s [sizeAdjustPolicy](http://qt.nokia.com/doc/4.5/qcombobox.html#sizeAdjustPolicy-prop){.http} property would help with this.
+Some improvements could be made to this code. For example, at small sizes the pop-up doesn\'t always show both columns. Perhaps the combo box\'s [sizeAdjustPolicy](http://qt.nokia.com/doc/4.5/qcombobox.html#sizeAdjustPolicy-prop) property would help with this.
 
 An alternative way to display custom items in the combo box would be to implement a custom item delegate and set that on the combo box.
-:::::

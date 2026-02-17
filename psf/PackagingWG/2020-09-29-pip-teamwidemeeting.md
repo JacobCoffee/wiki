@@ -1,6 +1,11 @@
 # PackagingWG/2020-09-29-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Tuesday Sept 29
 
 Participants:
@@ -17,9 +22,9 @@ Status & blockers
 
   - TP & Paul and Pradyun having discussions about performance, reducing how much we hit the network. Pradyun will probably make a rough draft of what he & Bernard are discussing.
 
-  - TODO: actually adding flag for rollout. Including filing a flag for it. \-- DONE [https://github.com/pypa/pip/issues/8937](https://github.com/pypa/pip/issues/8937){.https}
+  - TODO: actually adding flag for rollout. Including filing a flag for it. \-- DONE [https://github.com/pypa/pip/issues/8937](https://github.com/pypa/pip/issues/8937)
 - Nicole:
-  - been continuing to conduct user interviews. blocker: no-shows ![:(](/wiki/europython/img/sad.png ":("){height="16" width="16"} not unusual. Also: had an interview where we talked about `pip wheel`{.backtick} and would like to better understand (talk with Pradyun).
+  - been continuing to conduct user interviews. blocker: no-shows ![:(](/wiki/europython/img/sad.png ":(") not unusual. Also: had an interview where we talked about `pip wheel`{.backtick} and would like to better understand (talk with Pradyun).
 
   - now promoting the survey on pip install. numbers are good - response rate and promoting/outreach seems to be working! \"buy a feature\" - waded into Reddit, may not do that again.
     - Sumana: disclaimer that she doesn\'t know about efficacy of Reddit, Instagram, Facebook, Hacker News
@@ -49,9 +54,8 @@ Status & blockers
   - Want to have discussion about 20.3 release + the resolver in it.
     - Specifically, the performance.
 
-  - Blockers: none, other than the video \-- DONE [https://www.youtube.com/watch?v=B4GQCBBsuNU](https://www.youtube.com/watch?v=B4GQCBBsuNU){.https}
+  - Blockers: none, other than the video \-- DONE [https://www.youtube.com/watch?v=B4GQCBBsuNU](https://www.youtube.com/watch?v=B4GQCBBsuNU)
 - Ernest
   - need Pradyun\'s invoice
 
 Tomorrow: to discuss: performance and go/no-go decision on new resolver as default in 20.3
-:::

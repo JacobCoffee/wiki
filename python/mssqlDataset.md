@@ -1,7 +1,12 @@
 # mssqlDataset
 
-::: {#content dir="ltr" lang="en"}
-# mssqlDataset {#mssqlDataset-1}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# mssqlDataset 
 
     import pymssql
 
@@ -47,4 +52,3 @@
                     self.rows=list()
                     for fetch in fetches:
                             self.rows.append(mssqlDatarow(self.fieldNames,fetch))
-:::

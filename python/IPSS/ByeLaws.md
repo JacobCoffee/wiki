@@ -1,6 +1,11 @@
 # IPSS/ByeLaws
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **BYE -- LAWS**
 
 1.  NAME OF THE SOCIETY:INDIAN PYTHON SOFTWARE SOCIETY
@@ -292,4 +297,3 @@
 ------------------------------------------------------------------------
 
 [CategoryIndianPythonSoftwareSociety](CategoryIndianPythonSoftwareSociety)
-:::

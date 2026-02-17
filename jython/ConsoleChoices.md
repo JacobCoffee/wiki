@@ -1,24 +1,14 @@
 # ConsoleChoices
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **Contents**
 
-::: table-of-contents
-Contents
-
-1.  [The Console](#The_Console)
-    1.  [Choosing a Console (jython command)](#Choosing_a_Console_.28jython_command.29)
-    2.  [Choosing a Console (embedded interpreter)](#Choosing_a_Console_.28embedded_interpreter.29)
-    3.  [Properties of the Available Consoles](#Properties_of_the_Available_Consoles)
-        1.  [JLineConsole](#JLineConsole)
-        2.  [ReadlineConsole](#ReadlineConsole)
-        3.  [PlainConsole](#PlainConsole)
-    4.  [Notes on using the Consoles](#Notes_on_using_the_Consoles)
-        1.  [Linux](#Linux)
-        2.  [Windows](#Windows)
-:::
-
-# The Console {#The_Console}
+# The Console 
 
 Left to itself, a Java program simply reads and writes characters at the console through JVM-provided streams. This plain behaviour may be augmented by the command window on your system with some line-editing capability (such as using the cursor keys to revisit a typo back up the line), or the ability to recall previously entered lines. On Unix-like systems it is common for a shell or console application to use a library that provides sophisticated editing and line recall, while the console itself provides little more than a line buffer with delete. On Windows, the command window provides basic editing and recall, from which applications benefit without further effort.
 
@@ -26,7 +16,7 @@ In order to privide a common behaviour across platforms, the Jython interpreter 
 
 The choice of console affects interactions with the user through `sys,stdin`{.backtick}, `sys.stdout`{.backtick} and `raw_input()`{.backtick}. `raw_input()`{.backtick} always uses the other two streams to issue its prompt and read your response. The Python prompt `>>> `{.backtick} is issued through `raw_input()`{.backtick}.
 
-## Choosing a Console (jython command) {#Choosing_a_Console_.28jython_command.29}
+## Choosing a Console (jython command) 
 
 The console is chosen by naming a class in the Jython setting `python.console`{.backtick} (see [Settings](Settings)). The sources of this setting, in descending order of precedence are:
 
@@ -38,7 +28,7 @@ The console is chosen by naming a class in the Jython setting `python.console`{.
 
 The default Jython registry makes no setting of `python.console`{.backtick} so if you do not set `python.console`{.backtick} on the command line you will get a JLineConsole. If you specify a class that cannot be found, or some other error occurs while loading and initialising the alleged console, you will get a non-fatal error and a PlainConsole.
 
-## Choosing a Console (embedded interpreter) {#Choosing_a_Console_.28embedded_interpreter.29}
+## Choosing a Console (embedded interpreter) 
 
 The console is chosen by naming a class in the Jython setting `python.console`{.backtick} (see [Settings](Settings)). The sources of this setting, in descending order of precedence are:
 
@@ -50,11 +40,11 @@ If `python.console`{.backtick} remains undefined the console class is `org.pytho
 
 The default Jython registry makes no setting of `python.console`{.backtick} so if you do not set `python.console`{.backtick} on the command line you will get a PlainConsole. If you specify a class that cannot be found, or some other error occurs while loading and initialising the alleged console, you will get a non-fatal error and a PlainConsole.
 
-When using the embedded interpreter, PlainConsole is the recommended choice as installing the line-editing consoles will have a permanent and perhaps confusing effect on the application\'s use of the standard streams. If you use a line-diting console, do so by setting `python.console`{.backtick} and getting the interpreter before taking any references to `System.in`{.backtick} or `System.out`{.backtick}. When using the JSR-223 script engine, the engine directs the interpreter to use its own streams, with which it wraps `System.in`{.backtick} and `System.out`{.backtick} before initialising Jython. The [ScriptEngine](./ScriptEngine.html){.nonexistent} does not then benefit from the installed console.
+When using the embedded interpreter, PlainConsole is the recommended choice as installing the line-editing consoles will have a permanent and perhaps confusing effect on the application\'s use of the standard streams. If you use a line-diting console, do so by setting `python.console`{.backtick} and getting the interpreter before taking any references to `System.in`{.backtick} or `System.out`{.backtick}. When using the JSR-223 script engine, the engine directs the interpreter to use its own streams, with which it wraps `System.in`{.backtick} and `System.out`{.backtick} before initialising Jython. The [ScriptEngine](./ScriptEngine.html) does not then benefit from the installed console.
 
-## Properties of the Available Consoles {#Properties_of_the_Available_Consoles}
+## Properties of the Available Consoles 
 
-### JLineConsole {#JLineConsole}
+### JLineConsole 
 
 **JLineConsole** (`-Dpython.console=org.python.util.JLineConsole`) provides line-editing cross-platform. The behaviour of the system terminal is radically altered, and `System.in`{.backtick} and `System.out`{.backtick} are both replaced by specialised objects. `sys.stdin`{.backtick} and `sys.stdout`{.backtick} wrap these objects instead of the original JVM ones. In the event of an uncontrolled exit of the JVM you may need to type blindly `stty sane` (Unix) to get a console that echoes correctly.
 
@@ -63,7 +53,7 @@ In version 2.7 of Jython, the JLine console has been tested to work with:
 - Windows codepages 1252 and 1253 (therefore probably works with other single-byte encodings). It does not work with the UTF-8 codepage 65001.
 - Linux (Mint 14) Gnome terminal with locales en_GB.UTF-8, en_GB.iso88591, el_GR.iso88597 (therefore probably works with other single-byte encodings).
 
-### ReadlineConsole {#ReadlineConsole}
+### ReadlineConsole 
 
 **ReadlineConsole**: (`-Dpython.console=org.python.util.ReadlineConsole`) is an alternative (Unix) line-editing console that uses the library `libjavareadline`{.backtick}. The behaviour of the system terminal is altered, and `System.in`{.backtick} and `System.out`{.backtick} are both replaced by specialised objects. `sys.stdin`{.backtick} and `sys.stdout`{.backtick} wrap these objects instead of the original JVM ones. The readline console takes an extra setting `python.console.readlinelib`{.backtick} with values of `GnuReadline`{.backtick} or `Editline`{.backtick}.
 
@@ -75,17 +65,17 @@ The Readline console has been tested using `-Dpython.console.readlinelib=Editlin
 
 - Linux (Mint 14) Gnome terminal with locales en_GB.iso88591, el_GR.iso88597 (therefore probably works with other single-byte encodings). It does not recognise characters beyond US-ASCII when the locale is UTF-8.
 
-### PlainConsole {#PlainConsole}
+### PlainConsole 
 
 **PlainConsole**: (`-Dpython.console=org.python.core.PlainConsole` or simply `-Dpython.console= `) provides no (additional) line-editing. `System.in`{.backtick}and `System.out`{.backtick} are unmolested.
 
 `PlainConsole`{.backtick} is inconvenient on Linux because there is no line recall or and not facility to correct typing mistakes other than to delete backwards to the error. It is acceptable on Windows since the system itself provides some line recall and editing.
 
-## Notes on using the Consoles {#Notes_on_using_the_Consoles}
+## Notes on using the Consoles 
 
 Encoding is a tricky subject.
 
-### Linux {#Linux}
+### Linux 
 
 This is based on Linux Mint 14 (a Ubuntu derivative), the `bash`{.backtick} shell and Gnome Terminal. By default, the environment uses UTF-8 and you can expect the `JLineConsole`{.backtick} and `ReadlineConsole`{.backtick} (with `python.console.readlinelib=GnuReadline`{.backtick}) to work. The `ReadlineConsole`{.backtick} with `python.console.readlinelib=Editline`{.backtick} appears only to accept US-ASCII.
 
@@ -104,7 +94,7 @@ The JVM should then pick up the encoding in use and configure the console object
     >>> sys.stdin.encoding
     'ISO-8859-1'
 
-### Windows {#Windows}
+### Windows 
 
 This is based on Windows 7 command shell. When using the command window with non-ascii characters, in order to get characters represented correctly on screen, you must set a \"TrueType\" font (from the properties menu of the window). You can expect the `JLineConsole`{.backtick} to work with any single-byte encoding, but it does not work with codepage 65001, the close approximation to UTF-8. The root of this problem is that Windows uses a different \"wide character\" API for this, while JLine only calls the byte-oriented one.
 
@@ -120,4 +110,3 @@ To obtain an environment with ISO-8859-1 encoding, launch as
     >>> import sys
     >>> sys.stdin.encoding
     'Cp1252'
-::::

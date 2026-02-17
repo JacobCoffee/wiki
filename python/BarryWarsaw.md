@@ -1,11 +1,16 @@
 # BarryWarsaw
 
-::: {#content dir="ltr" lang="en"}
-![](http://www.python.org/~guido/pycon03/PyCon/thumbs/P3260137-THUMB.JPG "http://www.python.org/~guido/pycon03/PyCon/thumbs/P3260137-THUMB.JPG"){.external_image}
+```{admonition} Legacy Wiki Page
+:class: note
 
-BarryWarsaw has his home page at [http://barry.warsaw.us/](http://barry.warsaw.us/){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Some useful Emacs stuff for Python hacking {#Some_useful_Emacs_stuff_for_Python_hacking}
+![](http://www.python.org/~guido/pycon03/PyCon/thumbs/P3260137-THUMB.JPG "http://www.python.org/~guido/pycon03/PyCon/thumbs/P3260137-THUMB.JPG")
+
+BarryWarsaw has his home page at [http://barry.warsaw.us/](http://barry.warsaw.us/)
+
+## Some useful Emacs stuff for Python hacking 
 
     (require 'flymake)
 
@@ -51,4 +56,3 @@ BarryWarsaw has his home page at [http://barry.warsaw.us/](http://barry.warsaw.u
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

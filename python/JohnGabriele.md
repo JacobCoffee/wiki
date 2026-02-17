@@ -1,7 +1,12 @@
 # JohnGabriele
 
-::: {#content dir="ltr" lang="en"}
-## John M. Gabriele {#John_M._Gabriele}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## John M. Gabriele 
 
 Email: `<jmg3000 AT SPAM-FREE gmail DOT com>`
 
@@ -15,4 +20,3 @@ Email: `<jmg3000 AT SPAM-FREE gmail DOT com>`
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

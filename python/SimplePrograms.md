@@ -1,6 +1,11 @@
 # SimplePrograms
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The examples below will increase in number of lines of code and difficulty:
 
 1 line: Output
@@ -350,7 +355,7 @@ The examples below will increase in number of lines of code and difficulty:
 
 ------------------------------------------------------------------------
 
-33 lines: \"Guess the Number\" Game (edited) from [http://inventwithpython.com](http://inventwithpython.com){.http}
+33 lines: \"Guess the Number\" Game (edited) from [http://inventwithpython.com](http://inventwithpython.com)
 
     import random
 
@@ -384,4 +389,3 @@ The examples below will increase in number of lines of code and difficulty:
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-:::

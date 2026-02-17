@@ -1,6 +1,11 @@
 # VerwaisteSeiten
 
-::: {#content dir="ltr" lang="de"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Hier ist eine Liste von Seiten, auf die keine andere Seite verweist:
 
 1.  [1](1)
@@ -176,4 +181,3 @@ Hier ist eine Liste von Seiten, auf die keine andere Seite verweist:
 171. [jythonuser](jythonuser)
 172. [linrh](linrh)
 173. [test](test)
-:::

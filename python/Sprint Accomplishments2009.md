@@ -1,9 +1,14 @@
 # Sprint Accomplishments2009
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 List what your sprint has accomplished this year!
 
-### Django {#Django}
+### Django 
 
 - 160 Commits
 - 74 Tickets Resolved
@@ -11,7 +16,7 @@ List what your sprint has accomplished this year!
 - 33 Patches Submitted
 - 3 Additions to the AUTHORS file
 
-#### Noteworthy Changes/Fixes {#Noteworthy_Changes.2FFixes}
+#### Noteworthy Changes/Fixes 
 
 - Major Documentation Fixes
 
@@ -19,7 +24,7 @@ List what your sprint has accomplished this year!
 
 - CSRF Updates
 
-- [SpatialLite](./SpatialLite.html){.nonexistent} Support in [GeoDjango](./GeoDjango.html){.nonexistent}
+- [SpatialLite](./SpatialLite.html) Support in [GeoDjango](./GeoDjango.html)
 
 - test-utils pluggable support
 
@@ -33,11 +38,10 @@ List what your sprint has accomplished this year!
 
 - A Pony
 
-### Awesome Python Sprint Project A {#Awesome_Python_Sprint_Project_A}
+### Awesome Python Sprint Project A 
 
-#### Noteworthy Changes {#Noteworthy_Changes}
+#### Noteworthy Changes 
 
-### Awesome Python Sprint Project B {#Awesome_Python_Sprint_Project_B}
+### Awesome Python Sprint Project B 
 
-#### Noteworthy Changes {#Noteworthy_Changes-1}
-:::
+#### Noteworthy Changes 

@@ -1,6 +1,11 @@
 # EasyAsPy
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This probably shouldn\'t be the first example, but it\'s a nice one:
 
 ------------------------------------------------------------------------
@@ -30,4 +35,3 @@ Ask the experienced coder to code this up in the language of his or her choice. 
 ------------------------------------------------------------------------
 
 [CategoryAdvocacy](CategoryAdvocacy)
-:::

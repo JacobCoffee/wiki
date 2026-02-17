@@ -1,9 +1,14 @@
 # Distutils/Versions
 
-::: {#content dir="ltr" lang="en"}
-# Proposed Version Schemes {#Proposed_Version_Schemes}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Numeric Portion {#Numeric_Portion}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Proposed Version Schemes 
+
+## Numeric Portion 
 
 Legal/Rational Versions can consist of any number of digits with dots as a field separator. The last field may have alphabetic characters. Proposals for those are explained below.
 
@@ -15,11 +20,11 @@ Examples:
     1.0.0 > 1.0
     1.0.1 > 1.0.0.1000
 
-## Alphabetic Portion {#Alphabetic_Portion}
+## Alphabetic Portion 
 
 The last field may contain non numeric characters
 
-### Proposal 1 {#Proposal_1}
+### Proposal 1 
 
 They sort in lexographic order. These are always post releases
 
@@ -28,7 +33,7 @@ Examples:
     1.1a > 1.1
     1.1zz > 1.1a
 
-### Proposal 2 {#Proposal_2}
+### Proposal 2 
 
 They sort in lexographic order except for the following special names.
 
@@ -51,4 +56,3 @@ Examples:
     1.1a
     1.1b
     1.1c
-:::

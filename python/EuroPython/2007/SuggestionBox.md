@@ -1,24 +1,29 @@
 # EuroPython/2007/SuggestionBox
 
-::: {#content dir="ltr" lang="en"}
-# SuggestionBox {#SuggestionBox}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# SuggestionBox 
 
 This page is intended to be some kind of register of suggestions for the improved organisation of the conference in the future, although there\'s no better time than the present to suggest and make improvements to the way things are done.
 
 Feel free to add suggestions, marking those which could be introduced already for this conference with **2007**.
 
-**Note** that this is more of an organisational suggestion box rather than something recording opinions about the actual conference. See [EuroPython2007Feedback](./EuroPython2007Feedback.html){.nonexistent} for a general suggestion box about the conference and your experience of it.
+**Note** that this is more of an organisational suggestion box rather than something recording opinions about the actual conference. See [EuroPython2007Feedback](./EuroPython2007Feedback.html) for a general suggestion box about the conference and your experience of it.
 
-## Suggestions {#Suggestions}
+## Suggestions 
 
 The suggestions are organised into a few mostly separate categories.
 
-### Organisation {#Organisation}
+### Organisation 
 
 - Make the non-venue-specific processes more prominent - this is where the wider community can really play a part: the Web site, registration, talk reviewers and track/theme management.
 - Reach out to the community before starting to organise the conference - consider a Call For Organisers in order to get volunteers for the above things.
 
-### Registration and Processes {#Registration_and_Processes}
+### Registration and Processes 
 
 - **2007** Get feedback from the community about specific things that we suspect could be done better. For example:
 
@@ -37,7 +42,7 @@ The suggestions are organised into a few mostly separate categories.
 
 - Consider the registration of the organisers and invitees.
 
-### Infrastructure {#Infrastructure}
+### Infrastructure 
 
 See the [EuroPython/SoftwareRequirements](./EuroPython(2f)SoftwareRequirements.html) for more thoughts.
 
@@ -48,4 +53,3 @@ See the [EuroPython/SoftwareRequirements](./EuroPython(2f)SoftwareRequirements.h
 - Try and get the accommodation provider to provide bookings over the Internet.
 
 - Get connected to e-payment providers *well in advance*.
-:::

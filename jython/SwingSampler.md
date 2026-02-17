@@ -1,19 +1,18 @@
 # SwingSampler
 
-:::: {#content dir="ltr" lang="en"}
-# Swing Sampler {#Swing_Sampler}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Swing Sampler 
 
 [SwingExamples](SwingExamples)
 
-::: table-of-contents
-Contents
-
-1.  [Swing Sampler](#Swing_Sampler)
-:::
-
 ------------------------------------------------------------------------
 
-Stored here for posterity\'s sake it was found on [http://hcc.cc.gatech.edu/documents/230_Edwards_swing-sampler.py](http://hcc.cc.gatech.edu/documents/230_Edwards_swing-sampler.py){.http} and the nature of the web being what it is who knows how long it would be there or if I could find it again. This is exactly as I found it. I have verified that it works with Jython 2.2 with Java JVM 1.5 & 1.6 and based on the code I suspect it would work with a 1.4.2 JVM
+Stored here for posterity\'s sake it was found on [http://hcc.cc.gatech.edu/documents/230_Edwards_swing-sampler.py](http://hcc.cc.gatech.edu/documents/230_Edwards_swing-sampler.py) and the nature of the web being what it is who knows how long it would be there or if I could find it again. This is exactly as I found it. I have verified that it works with Jython 2.2 with Java JVM 1.5 & 1.6 and based on the code I suspect it would work with a 1.4.2 JVM
 
     # 
     # This code shows a sampler of common Java Swing widget types.  This is
@@ -291,4 +290,3 @@ Stored here for posterity\'s sake it was found on [http://hcc.cc.gatech.edu/docu
     #
     if __name__ == "__main__":
             sampler = SwingSampler()
-::::

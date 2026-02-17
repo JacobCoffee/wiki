@@ -1,19 +1,23 @@
 # WinnipugBuildoutPresentation
 
-::: {#content dir="ltr" lang="en"}
-Website: [http://pypi.python.org/pypi/zc.buildout](http://pypi.python.org/pypi/zc.buildout){.http}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Source for demo material: [http://rhodesmill.org/brandon/buildout/](http://rhodesmill.org/brandon/buildout/){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-bootstrap.py: [http://svn.zope.org/\*checkout\*/zc.buildout/trunk/bootstrap/bootstrap.py](http://svn.zope.org/*checkout*/zc.buildout/trunk/bootstrap/bootstrap.py){.http}
+Website: [http://pypi.python.org/pypi/zc.buildout](http://pypi.python.org/pypi/zc.buildout)
+
+Source for demo material: [http://rhodesmill.org/brandon/buildout/](http://rhodesmill.org/brandon/buildout/)
+
+bootstrap.py: [http://svn.zope.org/\*checkout\*/zc.buildout/trunk/bootstrap/bootstrap.py](http://svn.zope.org/*checkout*/zc.buildout/trunk/bootstrap/bootstrap.py)
 
 Background information:
 
-[Python Eggs](http://peak.telecommunity.com/DevCenter/PythonEggs){.http}
+[Python Eggs](http://peak.telecommunity.com/DevCenter/PythonEggs)
 
-[Easy Install](http://peak.telecommunity.com/DevCenter/EasyInstall){.http}
+[Easy Install](http://peak.telecommunity.com/DevCenter/EasyInstall)
 
-[setuptools](http://peak.telecommunity.com/DevCenter/setuptools){.http}
+[setuptools](http://peak.telecommunity.com/DevCenter/setuptools)
 
-Using buildout with Plone: [http://plone.org/documentation/tutorial/buildout/](http://plone.org/documentation/tutorial/buildout/){.http}
-:::
+Using buildout with Plone: [http://plone.org/documentation/tutorial/buildout/](http://plone.org/documentation/tutorial/buildout/)

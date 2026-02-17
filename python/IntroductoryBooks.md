@@ -1,11 +1,16 @@
 # IntroductoryBooks
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The books on this page are all general introductions to the Python language. Most of these books will contain a few chapters on particular applications such as GUI interfaces or Web programming, but won\'t go into great detail on any one topic; refer to the [PythonBooks](PythonBooks) page for lists of application-specific books. Experienced programmers who prefer a brief and condensed introduction should look at the list of [ReferenceBooks](ReferenceBooks).
 
 ------------------------------------------------------------------------
 
-[Python from Scratch](https://pythonfromscratch.com){.https}
+[Python from Scratch](https://pythonfromscratch.com)
 
 By Nilo Ney Coutinho Menezes
 
@@ -25,7 +30,7 @@ Students who want to learn programming on their own, the book was written so you
 
 ------------------------------------------------------------------------
 
-[The Quick Python Book, 4th Edition](https://shortener.manning.com/1GBV){.https}
+[The Quick Python Book, 4th Edition](https://shortener.manning.com/1GBV)
 
 By Naomi Ceder
 
@@ -33,7 +38,7 @@ By Naomi Ceder
 - ISBN 9781633436336 580 pages
 - Publication Feb, 2025
 
-Sample chapters, liveBook, and source code available on the Manning Publications web site: [The Quick Python Book, 4th Edition](https://shortener.manning.com/1GBV){.https}
+Sample chapters, liveBook, and source code available on the Manning Publications web site: [The Quick Python Book, 4th Edition](https://shortener.manning.com/1GBV)
 
 **Book overview:**
 
@@ -55,7 +60,7 @@ This book is for someone who knows how to program, who whats to learn Python qui
 
 ------------------------------------------------------------------------
 
-[Python knowledge building step by step from the basics to the first desktop application](https://play.google.com/store/books/details/Dr_Csaba_Dobreff_Python_knowledge_building_step_by?id=JMZDEQAAQBAJ){.https}
+[Python knowledge building step by step from the basics to the first desktop application](https://play.google.com/store/books/details/Dr_Csaba_Dobreff_Python_knowledge_building_step_by?id=JMZDEQAAQBAJ)
 
 Dr. Csaba Dobreff
 
@@ -77,7 +82,7 @@ As the presented body of knowledge is gradually deepening and leads to more and 
 
 ------------------------------------------------------------------------
 
-[PyFlo - A Free, Interactive Guide to Python Programming](https://pyflo.net){.https}
+[PyFlo - A Free, Interactive Guide to Python Programming](https://pyflo.net)
 
 Benjamin Dicken
 
@@ -97,7 +102,7 @@ This completely free tool will help jump-start your Python programming career.
 
 ------------------------------------------------------------------------
 
-[Essential Python for Machine Learning](https://www.amazon.com/dp/B0C9SDNCP3){.https}
+[Essential Python for Machine Learning](https://www.amazon.com/dp/B0C9SDNCP3)
 
 Abhishek Singh
 
@@ -117,7 +122,7 @@ Whether you are a student, aspiring data scientist, or a Python enthusiast looki
 
 ------------------------------------------------------------------------
 
-[Master Python Using Version 3.11: Learn Python Like Never Before](https://www.amazon.com/dp/B0BW32CWD5){.https}
+[Master Python Using Version 3.11: Learn Python Like Never Before](https://www.amazon.com/dp/B0BW32CWD5)
 
 Abhishek Singh
 
@@ -129,7 +134,7 @@ One of the most popular programming languages used nowadays is called Python. It
 
 ------------------------------------------------------------------------
 
-[Python from the Very Beginning](https://pythonfromtheverybeginning.com/){.https}
+[Python from the Very Beginning](https://pythonfromtheverybeginning.com/)
 
 John Whitington
 
@@ -145,11 +150,11 @@ In *Python from the Very Beginning* John Whitington takes a no-prerequisites app
 
 Second edition, fully updated in 2023.
 
-[Amazon printed and Kindle](https://www.amazon.com/Python-Very-Beginning-exercises-answers/dp/0957671156/){.https} [PDF and EPUB eBook](https://pythonfromtheverybeginning.com/){.https}
+[Amazon printed and Kindle](https://www.amazon.com/Python-Very-Beginning-exercises-answers/dp/0957671156/) [PDF and EPUB eBook](https://pythonfromtheverybeginning.com/)
 
 ------------------------------------------------------------------------
 
-[The Art of Clean Code: Best Practices to Eliminate Complexity and Simplify Your Life](https://nostarch.com/art-clean-code){.https}
+[The Art of Clean Code: Best Practices to Eliminate Complexity and Simplify Your Life](https://nostarch.com/art-clean-code)
 
 Christian Mayer
 
@@ -170,11 +175,11 @@ The eight core principles in *The Art of Clean Code* will teach you how to write
 
 The book's guiding principle is simplicity: reduce and simplify, then reinvest energy in the important parts to save you countless hours and ease the often onerous task of code maintenance.
 
-Amazon: [The Art of Clean Code](https://www.amazon.com/Art-Clean-Code-Practices-Complexity/dp/1718502184){.https}
+Amazon: [The Art of Clean Code](https://www.amazon.com/Art-Clean-Code-Practices-Complexity/dp/1718502184)
 
 ------------------------------------------------------------------------
 
-[Python Dash: Build Data Analysis and Visualization Apps with Plotly](https://nostarch.com/python-dash){.https}
+[Python Dash: Build Data Analysis and Visualization Apps with Plotly](https://nostarch.com/python-dash)
 
 Adam Schroeder, Christian Mayer, and Ann Marie Ward
 
@@ -196,11 +201,11 @@ In this book you will:
 
 Dash combines several technologies to get you building dashboards quickly and efficiently. This book will do the same.
 
-Amazon: [Python Dash: Build Data Analysis and Visualization Apps with Plotly](https://www.amazon.com/Python-Dash-Christian-Mayer-dp-1718502222/dp/1718502222){.https}
+Amazon: [Python Dash: Build Data Analysis and Visualization Apps with Plotly](https://www.amazon.com/Python-Dash-Christian-Mayer-dp-1718502222/dp/1718502222)
 
 ------------------------------------------------------------------------
 
-[Learn to Code by Solving Problems: A Python Programming Primer](https://nostarch.com/learn-code-solving-problems){.https}
+[Learn to Code by Solving Problems: A Python Programming Primer](https://nostarch.com/learn-code-solving-problems)
 
 Daniel Zingaro
 
@@ -216,7 +221,7 @@ This isn't just a Python book. You'll definitely learn Python here. But you'll a
 
 ------------------------------------------------------------------------
 
-[Leaving the Rat Race with Python: An Insider\'s Guide to Freelance Developing](https://smile.amazon.com/gp/product/B08G1XLDNB/){.https}
+[Leaving the Rat Race with Python: An Insider\'s Guide to Freelance Developing](https://smile.amazon.com/gp/product/B08G1XLDNB/)
 
 *Amazon Smile Link ;)*
 
@@ -232,11 +237,11 @@ As an insider\'s guide to freelance developing, *Leaving the Rat Race* helps you
 
 By following the instructions in this book, you\'ll create new joy, happiness, and a sense of independence and self-reliance. Because life\'s too short to work a company you don\'t believe in!
 
-[Kindle Amazon](https://smile.amazon.com/gp/product/B08G1XLDNB/){.https} [eBook PDF](https://blog.finxter.com/book-leaving-the-rat-race-with-python/){.https} [Book + Resources Python Freelancing](https://python-freelancer.com/){.https}
+[Kindle Amazon](https://smile.amazon.com/gp/product/B08G1XLDNB/) [eBook PDF](https://blog.finxter.com/book-leaving-the-rat-race-with-python/) [Book + Resources Python Freelancing](https://python-freelancer.com/)
 
 ------------------------------------------------------------------------
 
-[https://www.amazon.com/dp/1094777978](https://www.amazon.com/dp/1094777978){.https}
+[https://www.amazon.com/dp/1094777978](https://www.amazon.com/dp/1094777978)
 
 Abhishek Singh, Zohaib Hasan
 
@@ -246,11 +251,11 @@ ISBN-13: 978-1094777979 73 Pages (April 20, 2019)
 
 **Awarded as one of the best books of regular expression in 2020 and 2021 by bookauthority.org.** Regular Expression is one topic which is nightmare for many seasoned programmers also. And what better choice than Python could have been? An easy to understand language to explain an uneasy to understand topic. This book is designed for absolute beginners with elementary knowledge of Python language. Regular Expressions are considered as a tough topic and usually they are not covered in syllabus in much detail. Mostly, a chapter is given on this topic in syllabus or curriculum books. But here, a complete book is dedicated. This book covers Regular Expression in detail with plenty of examples covering password validation, email ID validation, string manipulations etc. and their step by step analysis. The examples are presented in such a way that one can feel like coding only by reading the codes itself. The book is written in a way to give stress free environment.
 
-[Learning Regular Expression Page](https://regexusingpython.wordpress.com/){.https}
+[Learning Regular Expression Page](https://regexusingpython.wordpress.com/)
 
 ------------------------------------------------------------------------
 
-[Actionable Python 3.8](https://www.amazon.com/Python-3-8-Nat-Dunn/dp/1951959027){.https}
+[Actionable Python 3.8](https://www.amazon.com/Python-3-8-Nat-Dunn/dp/1951959027)
 
 Nat Dunn, Webucator
 
@@ -266,13 +271,13 @@ If you get excited by solving hard problems... if you're into Sudoku, or crosswo
 
 This book assume no prior knowledge of Python, but it introduces some pretty advanced topics, such as working with databases, scraping the web, and object-oriented Python.
 
-[Learning IoT Page](https://www.learningiot.net/){.https}
+[Learning IoT Page](https://www.learningiot.net/)
 
 ------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
-[Learning IoT with Python and Raspberry Pi](https://www.barnesandnoble.com/w/learning-iot-with-python-and-raspberry-pi-ei-horvath/1133345171?ean=9780578549361){.https}
+[Learning IoT with Python and Raspberry Pi](https://www.barnesandnoble.com/w/learning-iot-with-python-and-raspberry-pi-ei-horvath/1133345171?ean=9780578549361)
 
 E.I. Horvath E.A. Horvath
 
@@ -304,11 +309,11 @@ The very nature of IoT requires a knowledge of a programming language and electr
 - Play an audio file.
 - Control a robot using a multi-threaded application.
 
-[Learning IoT Page](https://www.learningiot.net/){.https}
+[Learning IoT Page](https://www.learningiot.net/)
 
 ------------------------------------------------------------------------
 
-[The Python Coding Book: Understanding what programming really is](https://thepythoncodingbook.com/){.https}
+[The Python Coding Book: Understanding what programming really is](https://thepythoncodingbook.com/)
 
 Stephen Gruppetta
 
@@ -333,15 +338,15 @@ Freely available online book
 - 11 \| Functional Programming and Lambda Functions
 - 12 \| Analysing Data Using pandas
 
-[The Python Coding Book: Understanding what programming really is](https://thepythoncodingbook.com/){.https}
+[The Python Coding Book: Understanding what programming really is](https://thepythoncodingbook.com/)
 
 ------------------------------------------------------------------------
 
-[Python One-Liners](https://www.amazon.com/gp/product/B07ZY7XMX8){.https}
+[Python One-Liners](https://www.amazon.com/gp/product/B07ZY7XMX8)
 
 Christian Mayer
 
-ASIN: B07ZY7XMX8 [NoStarch](./NoStarch.html){.nonexistent} 256 Pages (May 2020)
+ASIN: B07ZY7XMX8 [NoStarch](./NoStarch.html) 256 Pages (May 2020)
 
 **Book Overview:**
 
@@ -349,11 +354,11 @@ Python programmers will improve their computer science skills with these useful 
 
 Python One-Liners will show readers how to perform useful tasks with one line of Python code. Following a brief Python refresher, the book covers essential advanced topics like slicing, list comprehension, broadcasting, lambda functions, algorithms, regular expressions, neural networks, logistic regression and more. Each of the 50 book sections introduces a problem to solve, walks the reader through the skills necessary to solve that problem, then provides a concise one-liner Python solution with a detailed explanation.
 
-[Book page (free material)](https://pythononeliners.com/){.https} [Publisher\'s page](https://nostarch.com/pythononeliners){.https}
+[Book page (free material)](https://pythononeliners.com/) [Publisher\'s page](https://nostarch.com/pythononeliners)
 
 ------------------------------------------------------------------------
 
-[Learn Programming in Python with Cody Jackson](https://www.packtpub.com/application-development/learn-programming-python-cody-jackson){.https}
+[Learn Programming in Python with Cody Jackson](https://www.packtpub.com/application-development/learn-programming-python-cody-jackson)
 
 Cody Jackson
 
@@ -367,11 +372,11 @@ Python is a cross-platform language used by organizations such as Google and NAS
 
 The book starts with the basics of programming, and describes Python syntax while developing the skills to make complete programs. In the first part of the book, readers will be going through all the concepts with short and easy-to-understand code samples that will prepare them for the comprehensive application built in parts 2 and 3. The second part of the book will explore topics such as application requirements, building the application, testing, and documentation. It is here that you will get a solid understanding of building an end-to-end application in Python. The next part will show you how to complete your applications by converting text-based simulation into an interactive, graphical user interface, using a desktop GUI framework. After reading the book, you will be confident in developing a complete application in Python, from program design to documentation to deployment.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/learn-programming-python-cody-jackson){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/learn-programming-python-cody-jackson)
 
 ------------------------------------------------------------------------
 
-[Python 3 Object-Oriented Programming - Third Edition](https://www.packtpub.com/application-development/python-3-object-oriented-programming-third-edition){.https}
+[Python 3 Object-Oriented Programming - Third Edition](https://www.packtpub.com/application-development/python-3-object-oriented-programming-third-edition)
 
 Dusty Phillips
 
@@ -385,11 +390,11 @@ Starting with a detailed analysis of object-oriented programming, you will use t
 
 By the end of the book, you will have thoroughly learned object-oriented principles using Python syntax and be able to create robust and reliable programs confidently.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/python-3-object-oriented-programming-third-edition){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/python-3-object-oriented-programming-third-edition)
 
 ------------------------------------------------------------------------
 
-**\'Start Here: Python Programming for Beginners** [\"Start Here: Python Programming for beginners\"](http://www.toonzcat.com/book.html){.http} by Jody S. Ginther was written after the changes made in Python 3. It is aimed at total beginners and uses hands-on practice and humor to make learning to program more relaxing and enjoyable.
+**\'Start Here: Python Programming for Beginners** [\"Start Here: Python Programming for beginners\"](http://www.toonzcat.com/book.html) by Jody S. Ginther was written after the changes made in Python 3. It is aimed at total beginners and uses hands-on practice and humor to make learning to program more relaxing and enjoyable.
 
 ------------------------------------------------------------------------
 
@@ -397,7 +402,7 @@ By the end of the book, you will have thoroughly learned object-oriented princip
 
 ISBN: 978-0-9754759-4-2, LCCN: 2010906917, 605 pages
 
-[\"Software Development I: with Python\"](http://www.softbaugh.com/courses/python1/){.http}
+[\"Software Development I: with Python\"](http://www.softbaugh.com/courses/python1/)
 
 Tom Baugh
 
@@ -427,7 +432,7 @@ Python Programming in Context is a clear, accessible introduction to the fundame
 
 *dead link*
 
-[http://www.jbpub.com/catalog/9780763746025/](http://www.jbpub.com/catalog/9780763746025/){.http}
+[http://www.jbpub.com/catalog/9780763746025/](http://www.jbpub.com/catalog/9780763746025/)
 
 ------------------------------------------------------------------------
 
@@ -439,7 +444,7 @@ ISBN: 978159526-713-9, 512 pages, Llumina Press, April 2007
 
 This book is a paper companion to the \"Python First\" digital pack from studypack.com. The complete digital study pack features e-texts, slides, a wealth of detailed self-guided labs that learners can complete on their own, sample programs, and extensive quizzes. The book offers a printed version of the e-texts and self-guided labs in the same format as they appear in the online digital pack.
 
-[Publisher\'s page](http://www.llumina.com/store/python.htm){.http}
+[Publisher\'s page](http://www.llumina.com/store/python.htm)
 
 ------------------------------------------------------------------------
 
@@ -449,7 +454,7 @@ Steven F. Lott
 
 How do you learn Python? By doing a series of exercises, each of which adds a single new feature of the language. This 250+ page book has 31 chapters that will help you build Python programming skills through a series of exercises. This book includes six projects from straight-forward to sophisticated that will help solidify your Python skills.
 
-[http://homepage.mac.com/s_lott/books/python.html](http://homepage.mac.com/s_lott/books/python.html){.http}
+[http://homepage.mac.com/s_lott/books/python.html](http://homepage.mac.com/s_lott/books/python.html)
 
 ------------------------------------------------------------------------
 
@@ -459,7 +464,7 @@ Steven F. Lott
 
 How do you learn to solve your own programs by writing programs? By doing a series of exercises, each of which builds up a part of the skill set we call \"computer programming\". This book has 54 chapters that will help you build basic programming skills through a series of exercises that grow from simple identification of the parts of your computer through to statistical simulations.
 
-[http://homepage.mac.com/s_lott/books/nonprogrammer.html](http://homepage.mac.com/s_lott/books/nonprogrammer.html){.http}
+[http://homepage.mac.com/s_lott/books/nonprogrammer.html](http://homepage.mac.com/s_lott/books/nonprogrammer.html)
 
 ------------------------------------------------------------------------
 
@@ -469,7 +474,7 @@ How do you learn to solve your own programs by writing programs? By doing a seri
 
 A Byte of Python is a book on programming using the Python language. It serves as a tutorial or guide to the Python language for anyone. If all you know is how to save text files, then you can learn Python using this book. If you are an expert programmer who loves C, Perl, Java or C#, you can also learn Python using this book.
 
-This book can be read online or downloaded from [http://www.swaroopch.com/notes/Python](http://www.swaroopch.com/notes/Python){.http}
+This book can be read online or downloaded from [http://www.swaroopch.com/notes/Python](http://www.swaroopch.com/notes/Python)
 
 ------------------------------------------------------------------------
 
@@ -477,11 +482,11 @@ This book can be read online or downloaded from [http://www.swaroopch.com/notes/
 
 - Magnus Lie Hetland
 
-[1590590066](http://www.amazon.com/exec/obidos/ISBN=1590590066 "ISBN"){.interwiki}, 619 pages, APress (August 2002)
+[1590590066](http://www.amazon.com/exec/obidos/ISBN=1590590066 "ISBN"), 619 pages, APress (August 2002)
 
 The first half of this book introduces the Python language, and the second half demonstrates its usage in various practical projects such as \"automated document conversion, newsgroup administration, graphical PDF document generation, remote document maintenance, the creation of a peer-to-peer system with XML-RPC, database integration, and GUI and game development.\" A new edition of this book is available under the title **Beginning Python: From Novice to Professional**.
 
-[Publisher\'s page](http://www.apress.com/book/bookDisplay.html?bID=93){.http}
+[Publisher\'s page](http://www.apress.com/book/bookDisplay.html?bID=93)
 
 ------------------------------------------------------------------------
 
@@ -489,11 +494,11 @@ The first half of this book introduces the Python language, and the second half 
 
 - Magnus Lie Hetland
 
-[1-59059-519-x](http://www.amazon.com/exec/obidos/ISBN=1-59059-519-x "ISBN"){.interwiki}, 640 pages, APress (September 2005)
+[1-59059-519-x](http://www.amazon.com/exec/obidos/ISBN=1-59059-519-x "ISBN"), 640 pages, APress (September 2005)
 
 This is an update of **Practical Python**.
 
-[Publisher\'s page](http://www.apress.com/book/bookDisplay.html?bID=10013){.http}
+[Publisher\'s page](http://www.apress.com/book/bookDisplay.html?bID=10013)
 
 ------------------------------------------------------------------------
 
@@ -505,7 +510,7 @@ This is an update of **Practical Python**.
 
 Written by a homeschooling Dad for teenage youth, this introductory computer programming book is for people who have no prior programming experience. Teaches the basic principles of programming using Python, with lots of examples. Small video game project at the end. Good for self-study or classroom use.
 
-[http://www.handysoftware.com/cpif/](http://www.handysoftware.com/cpif/){.http}
+[http://www.handysoftware.com/cpif/](http://www.handysoftware.com/cpif/)
 
 ------------------------------------------------------------------------
 
@@ -513,11 +518,11 @@ Written by a homeschooling Dad for teenage youth, this introductory computer pro
 
 - Michael Dawson
 
-[1592000738](http://www.amazon.com/exec/obidos/ISBN=1592000738 "ISBN"){.interwiki} Premier Press, 456 pages (2003)
+[1592000738](http://www.amazon.com/exec/obidos/ISBN=1592000738 "ISBN") Premier Press, 456 pages (2003)
 
 Simple intro accessible for beginners. Very hands-on and fun, utilizes development of games to teach each concept. Great for visual and hands-on learners alike.
 
-[Publisher\'s page](http://www.premierpressbooks.com/ptr_detail.cfm?group=Programming&isbn=1-59200-073-8){.http}
+[Publisher\'s page](http://www.premierpressbooks.com/ptr_detail.cfm?group=Programming&isbn=1-59200-073-8)
 
 ------------------------------------------------------------------------
 
@@ -525,7 +530,7 @@ Simple intro accessible for beginners. Very hands-on and fun, utilizes developme
 
 ------------------------------------------------------------------------
 
-[The Python Apprentice](https://www.packtpub.com/application-development/python-apprentice){.https}
+[The Python Apprentice](https://www.packtpub.com/application-development/python-apprentice)
 
 Robert Smallshire, Austin Bingham
 
@@ -543,11 +548,11 @@ Before you master Python, you need to learn the culture and the tools to become 
 - Develop libraries on your own
 - Become familiar with the basics of Python testing
 
-[Publisher\'s page](https://www.packtpub.com/application-development/python-apprentice){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/python-apprentice)
 
 ------------------------------------------------------------------------
 
-[Learn Python in 7 Days](https://www.packtpub.com/application-development/learn-python-7-days){.https}
+[Learn Python in 7 Days](https://www.packtpub.com/application-development/learn-python-7-days)
 
 Mohit, Bhaskar N. Das
 
@@ -571,11 +576,11 @@ By the end of this book, you will be able to take your skills to the next level 
 - Learn dictionary operation and methods
 - Discover the scope and function of variables with arguments and return value
 
-[Publisher\'s page](https://www.packtpub.com/application-development/learn-python-7-days){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/learn-python-7-days)
 
 ------------------------------------------------------------------------
 
-[What You Need to Know about Machine Learning](https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-machine-learning2){.https} **(Free eBook)**
+[What You Need to Know about Machine Learning](https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-machine-learning2) **(Free eBook)**
 
 By Gabriel A. Cánepa
 
@@ -591,11 +596,11 @@ This book offers you the perfect place to lay the foundation for your work in th
 - Understand and identify potential real-world scenarios where machine learning can be applied
 - Lay the foundations to get started in the wide world of machine learning
 
-[Publisher\'s Page](https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-machine-learning2){.https}
+[Publisher\'s Page](https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-machine-learning2)
 
 ------------------------------------------------------------------------
 
-[What You Need to Know about Python](https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-python2){.https} **(Free eBook)**
+[What You Need to Know about Python](https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-python2) **(Free eBook)**
 
 By Pierluigi Riti
 
@@ -613,13 +618,13 @@ With this book you'll experience the basics of Python, what it can be used for, 
 
 - Let Jupyter handle your data visualization
 
-- Get an introduction to the world of [DevOps](./DevOps.html){.nonexistent}
+- Get an introduction to the world of [DevOps](./DevOps.html)
 
-[Publisher\'s Page](https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-python2){.https}
+[Publisher\'s Page](https://www.packtpub.com/packt/free-ebook/what-you-need-know-about-python2)
 
 ------------------------------------------------------------------------
 
-[Learn Python](https://www.manning.com/books/get-programming){.https}
+[Learn Python](https://www.manning.com/books/get-programming)
 
 By Ana Bell
 
@@ -639,13 +644,13 @@ Learn Python is an introduction to programming using one of the most popular pro
 
 Anyone without programming experience who wants an easy-to-follow book that guides you through short lessons and exercises.
 
-Chapter 4 available for free: [Variables and Expressions: Giving Names and Values to Things](https://manning-content.s3.amazonaws.com/download/e/2d021c6-d4ed-40e5-8f6d-084f92ccbb86/SampleCh04.pdf){.https}
+Chapter 4 available for free: [Variables and Expressions: Giving Names and Values to Things](https://manning-content.s3.amazonaws.com/download/e/2d021c6-d4ed-40e5-8f6d-084f92ccbb86/SampleCh04.pdf)
 
-Chapter 30 available for free: [Making your own Object Types](https://manning-content.s3.amazonaws.com/download/3/145ee71-1acd-4e02-a9b0-fb0f1892485e/SampleCh30.pdf){.https}
+Chapter 30 available for free: [Making your own Object Types](https://manning-content.s3.amazonaws.com/download/3/145ee71-1acd-4e02-a9b0-fb0f1892485e/SampleCh30.pdf)
 
 ------------------------------------------------------------------------
 
-[The Quick Python Book, 3rd Edition](https://www.manning.com/books/the-quick-python-book-third-edition){.https}
+[The Quick Python Book, 3rd Edition](https://www.manning.com/books/the-quick-python-book-third-edition)
 
 By Naomi Ceder
 
@@ -653,7 +658,7 @@ By Naomi Ceder
 - ISBN 9781617294037 400 pages (estimated)
 - MEAP began December 2016, Publication in Spring 2017 (estimated)
 
-MEAP: early access to chapters as they are being written, available at the Manning Publications web site: [The Quick Python Book, 3rd Edition](https://www.manning.com/books/the-quick-python-book-third-edition){.https}
+MEAP: early access to chapters as they are being written, available at the Manning Publications web site: [The Quick Python Book, 3rd Edition](https://www.manning.com/books/the-quick-python-book-third-edition)
 
 **Book overview:**
 
@@ -665,11 +670,11 @@ After exploring Python\'s syntax, control flow, and basic data structures, the b
 
 This book is for someone who knows how to program, who whats to learn Python quickly and efficiently.
 
-Chapter 1 available for free: [About Python](https://www.manning.com/books/the-quick-python-book-third-edition#downloads){.https}
+Chapter 1 available for free: [About Python](https://www.manning.com/books/the-quick-python-book-third-edition#downloads)
 
 ------------------------------------------------------------------------
 
-[Python Machine Learning Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-cookbook){.https}
+[Python Machine Learning Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-cookbook)
 
 By Prateek Joshi
 
@@ -694,11 +699,11 @@ Machine learning is becoming increasingly pervasive in the modern data-driven wo
 
 This book is for Python programmers who are looking to use machine-learning algorithms to create real-world applications. This book is friendly to Python beginners, but familiarity with Python programming would certainly be useful to play around with the code.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-cookbook){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-cookbook)
 
 ------------------------------------------------------------------------
 
-[Modular Programming with Python](https://www.packtpub.com/application-development/modular-programming-python){.https}
+[Modular Programming with Python](https://www.packtpub.com/application-development/modular-programming-python)
 
 By Erik Westra
 
@@ -706,7 +711,7 @@ ISBN 13: 9781785884481 Packt Publishing 246 pages (May 2016)
 
 **Book overview:**
 
-This book will help readers develop readable, reliable, and maintainable programs in Python. Starting with an introduction to the concept of modules and packages, this book shows how you can use these building blocks to organize a complex program into logical parts and make sure those parts are working correctly together. Using clearly written, real-world examples, this book demonstrates how you can use modular techniques to build better programs. A number of common modular programming patterns are covered, including divide-and-conquer, abstraction, encapsulation, wrappers and extensibility. You will also learn how to test your modules and packages, how to prepare your code for sharing with other people, and how to publish your modules and packages on [GitHub](./GitHub.html){.nonexistent} and the Python Package Index so that other people can use them. Finally, you will learn how to use modular design techniques to be a more effective programmer.
+This book will help readers develop readable, reliable, and maintainable programs in Python. Starting with an introduction to the concept of modules and packages, this book shows how you can use these building blocks to organize a complex program into logical parts and make sure those parts are working correctly together. Using clearly written, real-world examples, this book demonstrates how you can use modular techniques to build better programs. A number of common modular programming patterns are covered, including divide-and-conquer, abstraction, encapsulation, wrappers and extensibility. You will also learn how to test your modules and packages, how to prepare your code for sharing with other people, and how to publish your modules and packages on [GitHub](./GitHub.html) and the Python Package Index so that other people can use them. Finally, you will learn how to use modular design techniques to be a more effective programmer.
 
 - Learn how to use modules and packages to organize your Python code
 
@@ -718,7 +723,7 @@ This book will help readers develop readable, reliable, and maintainable program
 
 - Create reusable modules that other programmers can use
 
-- Learn how to use [GitHub](./GitHub.html){.nonexistent} and the Python Package Index to share your code with other people
+- Learn how to use [GitHub](./GitHub.html) and the Python Package Index to share your code with other people
 
 - Make use of modules and packages that others have written
 
@@ -728,11 +733,11 @@ This book will help readers develop readable, reliable, and maintainable program
 
 This book is intended for beginner to intermediate level Python programmers who wish to learn how to use modules and packages within their programs. While readers must understand the basics of Python programming, no knowledge of modular programming techniques is required.
 
-[Publisher\'s page](https://www.packtpub.com/application-development/modular-programming-python){.https}
+[Publisher\'s page](https://www.packtpub.com/application-development/modular-programming-python)
 
 ------------------------------------------------------------------------
 
-[The Coder\'s Apprentice: Learning programming with Python 3](http://www.spronck.net/pythonbook){.http}
+[The Coder\'s Apprentice: Learning programming with Python 3](http://www.spronck.net/pythonbook)
 
 By Pieter Spronck
 
@@ -757,7 +762,7 @@ The book is freely available as PDF.
 
 ------------------------------------------------------------------------
 
-[Learning Python for Forensics](https://www.packtpub.com/networking-and-servers/learning-python-forensics){.https}
+[Learning Python for Forensics](https://www.packtpub.com/networking-and-servers/learning-python-forensics)
 
 By Preston Miller, Chapin Bryce
 
@@ -779,11 +784,11 @@ This book will illustrate how and why you should learn Python to strengthen your
 
 If you are a forensics student, hobbyist, or professional that is seeking to increase your understanding in forensics through the use of a programming language, then this book is for you.You are not required to have previous experience in programming to learn and master the content within this book. This material, created by forensic professionals, was written with a unique perspective and understanding of examiners who wish to learn programming.
 
-[Publisher\'s page](https://www.packtpub.com/networking-and-servers/learning-python-forensics){.https}
+[Publisher\'s page](https://www.packtpub.com/networking-and-servers/learning-python-forensics)
 
 ------------------------------------------------------------------------
 
-[Practical Data Analysis Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/practical-data-analysis-cookbook){.https}
+[Practical Data Analysis Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/practical-data-analysis-cookbook)
 
 By Tomasz Drabas
 
@@ -793,7 +798,7 @@ ISBN 13: 9781783551668 Packt Publishing 384 pages (April 2016)
 
 This book provides a rich set of independent recipes that dive into the world of data analytics and modeling using a variety of approaches, tools, and algorithms. You will learn the basics of data handling and modeling, and will build your skills gradually toward more advanced topics such as simulations, raw text processing, social interactions analysis, and more.
 
-- Read, clean, transform, and store your data usng Pandas and [OpenRefine](./OpenRefine.html){.nonexistent}.
+- Read, clean, transform, and store your data usng Pandas and [OpenRefine](./OpenRefine.html).
 
 - Understand your data and explore the relationships between variables using Pandas and D3.js.
 
@@ -805,7 +810,7 @@ This book provides a rich set of independent recipes that dive into the world of
 
 - Explore social interactions and identify fraudulent activities with graph theory concepts using NetworkX and Gephi.
 
-- Scrape Internet web pages using urlib and [BeautifulSoup](./BeautifulSoup.html){.nonexistent} and get to know natural language processing techniques to classify movies ratings using NLTK .
+- Scrape Internet web pages using urlib and [BeautifulSoup](./BeautifulSoup.html) and get to know natural language processing techniques to classify movies ratings using NLTK .
 
 - Study simulation techniques in an example of a gas station with agent-based modeling.
 
@@ -813,11 +818,11 @@ This book provides a rich set of independent recipes that dive into the world of
 
 This hands-on recipe guide is divided into three sections that tackle and overcome real-world data modeling problems faced by data analysts/scientist in their everyday work. Each independent recipe is written in an easy-to-follow and step-by-step fashion.
 
-[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/practical-data-analysis-cookbook){.https}
+[Publisher\'s page](https://www.packtpub.com/big-data-and-business-intelligence/practical-data-analysis-cookbook)
 
 ------------------------------------------------------------------------
 
-[Python Projects for Kids](https://www.packtpub.com/application-development/python-projects-kids){.https}
+[Python Projects for Kids](https://www.packtpub.com/application-development/python-projects-kids)
 
 Jessica Ingrassellino
 
@@ -845,7 +850,7 @@ This book is for kids (aged 10 and over). This is book is intended for absolute 
 
 ------------------------------------------------------------------------
 
-[Learn to Program with Minecraft](https://www.nostarch.com/pythonwithminecraft){.https}
+[Learn to Program with Minecraft](https://www.nostarch.com/pythonwithminecraft)
 
 Craig Richardson
 
@@ -877,7 +882,7 @@ Uses Python 3
 
 ------------------------------------------------------------------------
 
-[Automate the Boring Stuff with Python](https://www.nostarch.com/automatestuff){.https}
+[Automate the Boring Stuff with Python](https://www.nostarch.com/automatestuff)
 
 Al Sweigart
 
@@ -905,7 +910,7 @@ Note: The programs in this book are written to run on Python 3.
 
 ------------------------------------------------------------------------
 
-[Doing Math with Python](https://www.nostarch.com/doingmathwithpython){.https}
+[Doing Math with Python](https://www.nostarch.com/doingmathwithpython)
 
 Amit Saha
 
@@ -923,7 +928,7 @@ Suggested for ages 14 and up.
 
 ------------------------------------------------------------------------
 
-[Python Crash Course](https://www.nostarch.com/pythoncrashcourse){.https}
+[Python Crash Course](https://www.nostarch.com/pythoncrashcourse)
 
 Eric Matthes
 
@@ -951,7 +956,7 @@ Uses Python 2 and 3
 
 ------------------------------------------------------------------------
 
-[Python for Kids](https://www.nostarch.com/pythonforkids){.https}
+[Python for Kids](https://www.nostarch.com/pythonforkids)
 
 Jason Briggs
 
@@ -983,7 +988,7 @@ Featuring original artwork by Miran Lipovača!
 
 ------------------------------------------------------------------------
 
-[Teach Your Kids to Code](https://www.nostarch.com/teachkids){.https}
+[Teach Your Kids to Code](https://www.nostarch.com/teachkids)
 
 Bryson Payne
 
@@ -1006,7 +1011,7 @@ Whether you\'ve been coding for years or have never programmed anything at all, 
 
 ------------------------------------------------------------------------
 
-[Python for complete beginners](http://www.amazon.com/Python-complete-beginners-friendly-experience/dp/1514376989/){.http}
+[Python for complete beginners](http://www.amazon.com/Python-complete-beginners-friendly-experience/dp/1514376989/)
 
 Dr. Martin Jones
 
@@ -1022,27 +1027,27 @@ The book doesn\'t assume any previous knowledge, and introduces fundamental prog
 
 The book takes a unique approach to practical exercises. Rather than simply presenting you with the solutions, it shows you how large, complex programs are gradually built up from simple building blocks, explaining the role of every line. You can download the examples and exercise solutions - edit, modify and run them yourself.
 
-Examples and exercise files available at the author\'s website: [Python for complete beginners](http://pythonforcompletebeginners.com/){.http}
+Examples and exercise files available at the author\'s website: [Python for complete beginners](http://pythonforcompletebeginners.com/)
 
 ------------------------------------------------------------------------
 
-[Geoprocessing with Python](http://www.manning.com/garrard/){.http}
+[Geoprocessing with Python](http://www.manning.com/garrard/)
 
 Chris Garrard
 
 Manning Publications ISBN: 9781617292149, 400 pages, MEAP Began May 2014
 
-Geospatial data is hard to ignore. Nearly every car, phone, or camera has a GPS sensor, and aerial photos, satellite imagery, and data representing political boundaries, roads, rivers, and streams are available for free download from many websites. Geoprocessing is the science of reading, analyzing, and presenting geospatial data programmatically. The Python language, along with dozens of open source libraries and tools, makes it possible to take on professional geoprocessing tasks without investing in expensive proprietary packages like ArcGIS and [MapInfo](./MapInfo.html){.nonexistent}.
+Geospatial data is hard to ignore. Nearly every car, phone, or camera has a GPS sensor, and aerial photos, satellite imagery, and data representing political boundaries, roads, rivers, and streams are available for free download from many websites. Geoprocessing is the science of reading, analyzing, and presenting geospatial data programmatically. The Python language, along with dozens of open source libraries and tools, makes it possible to take on professional geoprocessing tasks without investing in expensive proprietary packages like ArcGIS and [MapInfo](./MapInfo.html).
 
 Geoprocessing with Python teaches you how to use the Python programming language along with free and open source tools to read, write, and process geospatial data. You\'ll learn how to access available data sets to make maps or perform your own analyses using free and open source tools like the GDAL, Shapely, and Fiona Python modules. You\'ll master core practices like handling multiple vector file formats, editing and manipulating geometries, applying spatial and attribute filters, working with projections, and performing basic analyses on vector data. You\'ll also learn how to create geospatial data, rather than just consuming it. The book also covers how to manipulate and analyze raster data, such as aerial photographs, satellite images, and digital elevation models.
 
-Chapter one available for free: [Introduction](http://www.manning.com/garrard/GeoPython_MEAP_ch01.pdf){.http}
+Chapter one available for free: [Introduction](http://www.manning.com/garrard/GeoPython_MEAP_ch01.pdf)
 
-MEAP Available at Manning Publications\'s Site: [Geoprocessing with Python](http://www.manning.com/garrard/){.http}
+MEAP Available at Manning Publications\'s Site: [Geoprocessing with Python](http://www.manning.com/garrard/)
 
 ------------------------------------------------------------------------
 
-[Algorithms and Programming Course](https://books.google.com.br/books?id=HvSsCAAAQBAJ){.https}
+[Algorithms and Programming Course](https://books.google.com.br/books?id=HvSsCAAAQBAJ)
 
 Guilherme Soares Lima
 
@@ -1052,7 +1057,7 @@ The book is a gentle introtuction to algorithms and programming with Python, spe
 
 ------------------------------------------------------------------------
 
-[Fundamentals of Python: First Programs](http://www.cengagebrain.com/shop/isbn/9781111822705){.http}
+[Fundamentals of Python: First Programs](http://www.cengagebrain.com/shop/isbn/9781111822705)
 
 Ken Lambert
 
@@ -1071,11 +1076,11 @@ An introduction to programming and problem solving with Python (CS1). Covers alg
 9.  Graphical User Interfaces.
 10. Multithreading, Networks, and Client/Server Programming.
 
-Link to example programs and other information at the author\'s [website](http://home.wlu.edu/~lambertk/python/cs1python/index.html){.http}.
+Link to example programs and other information at the author\'s [website](http://home.wlu.edu/~lambertk/python/cs1python/index.html).
 
 ------------------------------------------------------------------------
 
-[Fundamentals of Python: Data Structures](http://www.cengagebrain.com/shop/isbn/9781285752006){.http}
+[Fundamentals of Python: Data Structures](http://www.cengagebrain.com/shop/isbn/9781285752006)
 
 Ken Lambert
 
@@ -1096,17 +1101,17 @@ An introduction to Python with data structures (CS2). Covers the design of colle
 11. Sets and Dictionaries.
 12. Graphs.
 
-Link to example programs and other information at the author\'s [website](http://home.wlu.edu/~lambertk/python/cs2python/index.html){.http}.
+Link to example programs and other information at the author\'s [website](http://home.wlu.edu/~lambertk/python/cs2python/index.html).
 
 ------------------------------------------------------------------------
 
-[Easy GUI Programming in Python](http://home.wlu.edu/~lambertk/breezypythongui/easyguibook.html){.http}
+[Easy GUI Programming in Python](http://home.wlu.edu/~lambertk/breezypythongui/easyguibook.html)
 
 Ken Lambert
 
 ISBN-13: 978-0-9859567-0-7 (August, 2012, 110 pages, ebook only)
 
-An introduction to GUI programming in Python. Topics include the basics of window layout, widget configuration, and responding to user events. The book uses a toolkit, [breezypythongui](http://home.wlu.edu/~lambertk/breezypythongui/index.html){.http}, to explore GUI concepts and resources within a simple coding framework.
+An introduction to GUI programming in Python. Topics include the basics of window layout, widget configuration, and responding to user events. The book uses a toolkit, [breezypythongui](http://home.wlu.edu/~lambertk/breezypythongui/index.html), to explore GUI concepts and resources within a simple coding framework.
 
 1.  The Hello World Program
 2.  Windows, Layouts, and Window Components
@@ -1121,11 +1126,11 @@ An introduction to GUI programming in Python. Topics include the basics of windo
 11. Canvases and Graphics Operations
 12. Responding to Mouse Events in Canvases
 
-Link to example programs and ebook vendor sites at the author\'s [website](http://home.wlu.edu/~lambertk/breezypythongui/easyguibook.html){.http}.
+Link to example programs and ebook vendor sites at the author\'s [website](http://home.wlu.edu/~lambertk/breezypythongui/easyguibook.html).
 
 ------------------------------------------------------------------------
 
-[Building Machine Learning Systems with Python](http://www.packtpub.com/building-machine-learning-systems-with-python/book){.http}
+[Building Machine Learning Systems with Python](http://www.packtpub.com/building-machine-learning-systems-with-python/book)
 
 By Willi Richert, Luis Pedro Coelho
 
@@ -1143,11 +1148,11 @@ This book is for Python programmers who are beginners in machine learning, but w
 
 This book primarily targets Python developers who want to learn and build machine learning in their projects, or who want to provide machine learning support to their existing projects, and see them getting implemented effectively.
 
-[Publisher\'s page](http://www.packtpub.com/building-machine-learning-systems-with-python/book){.http}
+[Publisher\'s page](http://www.packtpub.com/building-machine-learning-systems-with-python/book)
 
 ------------------------------------------------------------------------
 
-[Learning to Program Using Python](https://www.createspace.com/3611970){.https}
+[Learning to Program Using Python](https://www.createspace.com/3611970)
 
 Cody Jackson
 
@@ -1157,17 +1162,17 @@ An introduction to computer programming, using the easy, yet powerful, Python pr
 
 The ideas covered in this book provide the reader with many major programming topics, applicable to a wide variety of programming languages. After reading this book, the reader should be able to quickly create simple to medium-level programs and be prepared to tackle more complex programming tasks.
 
-[Print version](https://www.createspace.com/3611970){.https}
+[Print version](https://www.createspace.com/3611970)
 
-[Kindle version (no DRM)](http://www.amazon.com/dp/B0063ZM6I0){.http}
+[Kindle version (no DRM)](http://www.amazon.com/dp/B0063ZM6I0)
 
-The book\'s [website](http://python-ebook.blogspot.com){.http} also provides alternative electronic versions for free, without DRM. In addition, source code files for programs shown in the book are also available.
+The book\'s [website](http://python-ebook.blogspot.com) also provides alternative electronic versions for free, without DRM. In addition, source code files for programs shown in the book are also available.
 
 ------------------------------------------------------------------------
 
-[Python 2.6 Text Processing Beginner\'s Guide](https://www.packtpub.com/python-2-6-text-processing-beginners-guide/book){.https}
+[Python 2.6 Text Processing Beginner\'s Guide](https://www.packtpub.com/python-2-6-text-processing-beginners-guide/book)
 
-Jeff [McNeil](./McNeil.html){.nonexistent}
+Jeff [McNeil](./McNeil.html)
 
 ISBN 13: 978-1-84951-212-1 Packt Publishing 380 pages (December 2010)
 
@@ -1178,7 +1183,7 @@ The easiest way to learn how to manipulate text with Python:
 - Learn to use the most popular text processing libraries available for Python
 - Packed with examples to guide you through
 
-[Publisher\'s page](https://www.packtpub.com/python-2-6-text-processing-beginners-guide/book){.https}
+[Publisher\'s page](https://www.packtpub.com/python-2-6-text-processing-beginners-guide/book)
 
 ------------------------------------------------------------------------
 
@@ -1188,7 +1193,7 @@ The easiest way to learn how to manipulate text with Python:
 
 An in-depth, tutorial introduction to Python core language fundamentals, based on 260 live classes taught by the author. This edition is updated to cover both Python 3.X and 2.X. It is specifically based on 3.3 and 2.7, but is applicable to other releases.
 
-Links: [author](http://www.rmi.net/~lutz/about-lp5e.html){.http}, [publisher](http://shop.oreilly.com/product/0636920028154.do){.http}.
+Links: [author](http://www.rmi.net/~lutz/about-lp5e.html), [publisher](http://shop.oreilly.com/product/0636920028154.do).
 
 ------------------------------------------------------------------------
 
@@ -1198,7 +1203,7 @@ Links: [author](http://www.rmi.net/~lutz/about-lp5e.html){.http}, [publisher](ht
 
 An in-depth, tutorial introduction to common Python application programming domains, and a follow-up to the core language coverage of Learning Python. This edition is updated to use Python 3.X (3.1 and 3.2 specifically), but is still largely applicable to most 2.X readers.
 
-Links: [author](http://www.rmi.net/~lutz/about-pp4e.html){.http}, [publisher](http://shop.oreilly.com/product/9780596158118.do){.http}.
+Links: [author](http://www.rmi.net/~lutz/about-pp4e.html), [publisher](http://shop.oreilly.com/product/9780596158118.do).
 
 ------------------------------------------------------------------------
 
@@ -1208,11 +1213,11 @@ Links: [author](http://www.rmi.net/~lutz/about-pp4e.html){.http}, [publisher](ht
 
 A reference-only book, designed to serve as a companion to both Learning Python and Programming Python. This edition is updated to cover both Python 3.X and 2.X. It is specifically based on 3.1 and 2.6, but is applicable to other releases.
 
-Links: [author](http://www.rmi.net/~lutz/about-pyref4e.html){.http}, [publisher](http://shop.oreilly.com/product/9780596158095.do){.http}.
+Links: [author](http://www.rmi.net/~lutz/about-pyref4e.html), [publisher](http://shop.oreilly.com/product/9780596158095.do).
 
 ------------------------------------------------------------------------
 
-[Head First Python](http://oreilly.com/catalog/9781449382674/){.http} by Paul Barry
+[Head First Python](http://oreilly.com/catalog/9781449382674/) by Paul Barry
 
 - Published by: O\'Reilly Media, November 2010, 496 pages.
 - Print ISBN: 978-1-4493-8267-4, ISBN 10: 1-4493-8267-3
@@ -1224,11 +1229,11 @@ Ever wished you could learn Python from a book? Head First Python helps you lear
 
 This book is designed to get you up to speed with Python as quickly as possible.
 
-See [http://python.itcarlow.ie](http://python.itcarlow.ie){.http} and [http://www.headfirstlabs.com/books/hfpython/](http://www.headfirstlabs.com/books/hfpython/){.http} for more details.
+See [http://python.itcarlow.ie](http://python.itcarlow.ie) and [http://www.headfirstlabs.com/books/hfpython/](http://www.headfirstlabs.com/books/hfpython/) for more details.
 
 ------------------------------------------------------------------------
 
-[Practical Programming](http://www.pragprog.com/titles/gwpy2/practical-programming){.http} by Jennifer Campbell, Paul Gries, and Jason Montojo
+[Practical Programming](http://www.pragprog.com/titles/gwpy2/practical-programming) by Jennifer Campbell, Paul Gries, and Jason Montojo
 
 Practical Programming (2nd edition): An Introduction to Computer Science Using Python 3
 
@@ -1239,7 +1244,7 @@ Computers are used in every part of science from ecology to particle physics. Th
 
 ------------------------------------------------------------------------
 
-[Practical Programming](http://www.pragprog.com/titles/gwpy/practical-programming){.http} by Jennifer Campbell, Paul Gries, Jason Montojo, and Greg Wilson
+[Practical Programming](http://www.pragprog.com/titles/gwpy/practical-programming) by Jennifer Campbell, Paul Gries, Jason Montojo, and Greg Wilson
 
 Practical Programming: An Introduction to Computer Science Using Python
 
@@ -1250,7 +1255,7 @@ Computers are used in every part of science from ecology to particle physics. Th
 
 ------------------------------------------------------------------------
 
-[Python 3 Object Oriented Programming](https://www.packtpub.com/python-3-object-oriented-programming/book){.https}
+[Python 3 Object Oriented Programming](https://www.packtpub.com/python-3-object-oriented-programming/book)
 
 Dusty Phillips
 
@@ -1272,23 +1277,23 @@ If you are an object-oriented programmer for other languages, you too will find 
 
 Python 2 programmers seeking a leg up in the new world of Python 3 will also find the book beneficial, and you need not necessarily know Python 2.
 
-[Publisher\'s page](https://www.packtpub.com/python-3-object-oriented-programming/book){.https}
+[Publisher\'s page](https://www.packtpub.com/python-3-object-oriented-programming/book)
 
 ------------------------------------------------------------------------
 
-[The Practice of Computing Using Python](http://www.pearsonhighered.com/educator/product/Practice-of-Computing-using-Python-The/9780136110675.page){.http} by Bill Punch and Rich Enbody
+[The Practice of Computing Using Python](http://www.pearsonhighered.com/educator/product/Practice-of-Computing-using-Python-The/9780136110675.page) by Bill Punch and Rich Enbody
 
 - ISBN-10: 0136110673
 - ISBN-13: 9780136110675
 - Addison-Wesley, 696 pp, 02/25/2010
 
-The Computer Science Department of Michigan State University converted their Introduction to Programming Course [CSE 231](http:www.cse.msu.edu/~cse231){.http} to Python in the Fall of 2007. One of the products of this change was this textbook, written as a general introduction to CS1 using Python. The book adopts the theme of \"data manipulation\" for its examples, focusing on using real-world datasets and manipulating them (averages, graphs, indicies, searches, etc.) in various ways.
+The Computer Science Department of Michigan State University converted their Introduction to Programming Course [CSE 231](http:www.cse.msu.edu/~cse231) to Python in the Fall of 2007. One of the products of this change was this textbook, written as a general introduction to CS1 using Python. The book adopts the theme of \"data manipulation\" for its examples, focusing on using real-world datasets and manipulating them (averages, graphs, indicies, searches, etc.) in various ways.
 
 The book covers the standard CS1 curriculum, and includes extensive algorithm development sections to help students in their study of computing. Supplemental material is also provided including: full set of power point slides, collaborative lab exercises, project homeworks and solutions to over 600 exercises in the book.
 
 ------------------------------------------------------------------------
 
-[Head First Programming](http://www.headfirstlabs.com/books/hfprog){.http} by Paul Barry and David Griffiths
+[Head First Programming](http://www.headfirstlabs.com/books/hfprog) by Paul Barry and David Griffiths
 
 A Learner\'s Guide to Programming, using the Python Language
 
@@ -1303,7 +1308,7 @@ Learn the basic tools to start writing the programs that interests you, not the 
 
 ------------------------------------------------------------------------
 
-[Programming in Python 3: A Complete Introduction to the Python Language (Second Edition)](http://www.qtrac.eu/py3book.html){.http} by Mark Summerfield
+[Programming in Python 3: A Complete Introduction to the Python Language (Second Edition)](http://www.qtrac.eu/py3book.html) by Mark Summerfield
 
 - ISBN10: 0321680561
 - Addison-Wesley Professional
@@ -1315,11 +1320,11 @@ The book will be useful to people who program professionally as part of their jo
 
 The book teaches solid procedural style programming, then builds on that to teach solid object-oriented programming, and then goes on to more advanced topics such as descriptors and class decorators. But even newcomers to Python 3 should be able to write useful (although small and basic) programs after reading chapter 1, and then go on to create larger and more sophisticated programs as they work through the chapters.
 
-The book\'s [web site](http://www.qtrac.eu/py3book.html){.http} lists the table of contents and has links to extracts. It also has all the examples and exercise solutions available for download.
+The book\'s [web site](http://www.qtrac.eu/py3book.html) lists the table of contents and has links to extracts. It also has all the examples and exercise solutions available for download.
 
 ------------------------------------------------------------------------
 
-[Python for Software Design: How to Think Like a Computer Scientist](http://www.cambridge.org/us/catalogue/catalogue.asp?isbn=9780521725965){.http} by Allen B. Downey, Olin College of Engineering, Massachusetts
+[Python for Software Design: How to Think Like a Computer Scientist](http://www.cambridge.org/us/catalogue/catalogue.asp?isbn=9780521725965) by Allen B. Downey, Olin College of Engineering, Massachusetts
 
 - ISBN-13: 9780521725965)
 - Cambridge University Press
@@ -1329,7 +1334,7 @@ Python for Software Design is a concise introduction to software design using th
 
 ------------------------------------------------------------------------
 
-[Hello World! Computer Programming for Kids and Other Beginners](http://www.manning.com/sande){.http} by Warren Sande and Carter Sande
+[Hello World! Computer Programming for Kids and Other Beginners](http://www.manning.com/sande) by Warren Sande and Carter Sande
 
 - ISBN10: 1933988495
 - Manning Publications
@@ -1341,11 +1346,11 @@ Your computer won\'t respond when you yell at it. Why not learn to talk to your 
 
 Hello World! provides a gentle but thorough introduction to the world of computer programming. It\'s written in language a 12-year-old can follow, but anyone who wants to learn how to program a computer can use it. Even adults. Written by Warren Sande and his son, Carter, and reviewed by professional educators, this book is kid-tested and parent-approved. You don\'t need to know anything about programming to use the book. But you should know the basics of using a computer\--e-mail, surfing the web, listening to music, and so forth. If you can start a program and save a file, you should have no trouble using this book.
 
-Color ebook and black and white print book are both available from the publisher at [www.manning.com/sande](http://www.manning.com/sande){.http}.
+Color ebook and black and white print book are both available from the publisher at [www.manning.com/sande](http://www.manning.com/sande).
 
 ------------------------------------------------------------------------
 
-[Hello Python!](http://manning.com/briggs/){.http} by Anthony Briggs
+[Hello Python!](http://manning.com/briggs/) by Anthony Briggs
 
 - Foreword by Steve Holden
 - 424 pages (February, 2012)
@@ -1357,11 +1362,11 @@ A more advanced book than Hello World!, it takes a different tack. You follow al
 
 ------------------------------------------------------------------------
 
-**[The Quick Python Book, 2nd edition](http://www.manning.com/ceder/){.http}**
+**[The Quick Python Book, 2nd edition](http://www.manning.com/ceder/)**
 
 - Naomi Ceder
 
-- [ISBN13:978-1935182207](http://www.amazon.com/Quick-Python-Book-Second/dp/193518220X/ref=sr_1_1?ie=UTF8&qid=1309567984&sr=8-1){.http}
+- [ISBN13:978-1935182207](http://www.amazon.com/Quick-Python-Book-Second/dp/193518220X/ref=sr_1_1?ie=UTF8&qid=1309567984&sr=8-1)
 
 - Manning Publications,
 
@@ -1371,15 +1376,15 @@ This revision of Manning\'s popular The Quick Python Book offers a clear, crisp 
 
 After exploring Python\'s syntax, control flow, and basic data structures, the book shows how to create, test, and deploy full applications and larger code libraries. It addresses established Python features as well as the advanced object-oriented options available in Python 3. Along the way, you\'ll survey the current Python development landscape, including GUI programming, testing, database access, and web frameworks.
 
-[Chapter 4](http://manning.com/ceder/SampleChapter-4.pdf){.http} [Chapter 6](http://manning.com/ceder/SampleChapter-6.pdf){.http}
+[Chapter 4](http://manning.com/ceder/SampleChapter-4.pdf) [Chapter 6](http://manning.com/ceder/SampleChapter-6.pdf)
 
-[Review by Jim Kohli, dzone.com](http://books.dzone.com/reviews/quick-python-book-delivers){.http}
+[Review by Jim Kohli, dzone.com](http://books.dzone.com/reviews/quick-python-book-delivers)
 
-Ebook and print book are both available from the publisher at [www.manning.com/ceder](http://www.manning.com/ceder){.http}.
+Ebook and print book are both available from the publisher at [www.manning.com/ceder](http://www.manning.com/ceder).
 
 ------------------------------------------------------------------------
 
-[IronPython in Action](http://www.ironpythoninaction.com/){.http} by Michael Foord
+[IronPython in Action](http://www.ironpythoninaction.com/) by Michael Foord
 
 - ISBN10: 1933988339
 - Manning Publications
@@ -1391,7 +1396,7 @@ Ebook and print book are both available from the publisher at [www.manning.com/c
 
 As well as covering specific topics and both Python and .NET libraries the book pays special attention to the nitty-gritty details of Python and .NET integration that previous experience with Python or C# won\'t necessarily have prepared you for.
 
-Color ebook and black and white print book are both available from the publisher at [www.manning.com/foord](http://www.manning.com/foord){.http}.
+Color ebook and black and white print book are both available from the publisher at [www.manning.com/foord](http://www.manning.com/foord).
 
 ------------------------------------------------------------------------
 
@@ -1403,7 +1408,7 @@ Gain a fundamental understanding of Python's syntax and features with the second
 
 Updated to reflect the latest in Python programming paradigms and several of the most crucial features found in the forthcoming Python 3.0 (otherwise known as Python 3000), advanced topics, such as extending Python and packaging/distributing Python applications, are also covered.
 
-[Home Page](http://www.apress.com/book/view/9781590599822/){.http} (includes electronic version)
+[Home Page](http://www.apress.com/book/view/9781590599822/) (includes electronic version)
 
 ------------------------------------------------------------------------
 
@@ -1413,9 +1418,9 @@ Updated to reflect the latest in Python programming paradigms and several of the
 
 This is a textbook for an object-oriented introduction to computer science course (CS1) using Python.
 
-[Home Page](http://prenhall.com/goldwasser){.http}
+[Home Page](http://prenhall.com/goldwasser)
 
-[0136150314](http://www.amazon.com/exec/obidos/ISBN=0136150314 "ISBN"){.interwiki}, Prentice Hall Publishing, 688 pages (October 2007)
+[0136150314](http://www.amazon.com/exec/obidos/ISBN=0136150314 "ISBN"), Prentice Hall Publishing, 688 pages (October 2007)
 
 ------------------------------------------------------------------------
 
@@ -1423,11 +1428,11 @@ This is a textbook for an object-oriented introduction to computer science cours
 
 - Guido van Rossum, and Fred L. Drake, Jr. (Editor)
 
-[0954161769](http://www.amazon.com/exec/obidos/ISBN=0954161769 "ISBN"){.interwiki}, Network Theory Ltd, 164 pages (November 2006)
+[0954161769](http://www.amazon.com/exec/obidos/ISBN=0954161769 "ISBN"), Network Theory Ltd, 164 pages (November 2006)
 
 This is a printed edition of the official Python tutorial by Guido van Rossum. For each copy sold \$1 will be donated to the Python Software Foundation.
 
-[Home Page](http://www.network-theory.co.uk/python/manual/){.http} (includes electronic version)
+[Home Page](http://www.network-theory.co.uk/python/manual/) (includes electronic version)
 
 ------------------------------------------------------------------------
 
@@ -1435,9 +1440,9 @@ This is a printed edition of the official Python tutorial by Guido van Rossum. F
 
 - Stef Maruch and Aahz Maruch
 
-[0471778648](http://www.amazon.com/exec/obidos/ISBN=0471778648 "ISBN"){.interwiki}, For Dummies, 410 pages (August 2006)
+[0471778648](http://www.amazon.com/exec/obidos/ISBN=0471778648 "ISBN"), For Dummies, 410 pages (August 2006)
 
-[Home Page](http://www.pythonfood.com/){.http}
+[Home Page](http://www.pythonfood.com/)
 
 Following the usual Dummies style, this book takes a light-hearted approach to introducing Python. In addition to Python itself, *Python for Dummies* also gives lots of advice about good programming practices.
 
@@ -1445,7 +1450,7 @@ Following the usual Dummies style, this book takes a light-hearted approach to i
 
 **Introduction to Computing and Programming Using Python: A Multimedia Approach** Mark Guzdial
 
-ISBN: 0131176552 [http://coweb.cc.gatech.edu/mediaComp-teach](http://coweb.cc.gatech.edu/mediaComp-teach){.http}
+ISBN: 0131176552 [http://coweb.cc.gatech.edu/mediaComp-teach](http://coweb.cc.gatech.edu/mediaComp-teach)
 
 An introduction to programming by manipulating digital media \-\-- creating negatives and grayscale pictures, splicing sounds, implementing chromakey.
 
@@ -1467,9 +1472,9 @@ The new 2nd edition is expanded (300 new pages!) and updated through Python 2.5 
 
 From an anonymous reviewer: \"Very well written. It is the clearest, friendliest book I have come across yet for explaining Python, and putting it in a wider context. It does not presume a large amount of other experience. It may be too slow for more advanced people, but it does go into some important Python topics carefully and in depth. Unlike too many beginner books, it never condescends or tortures the reader with childish hide-and-seek prose games. Not too many in-depth real-world examples in the book (hopefully he will do a followup volume), it sticks to gaining a solid grasp of Python syntax and structure.\"
 
-[Home Page](http://corepython.com){.http} (includes book reviews, errata, sample chapter, links to alternate editions, source code from the book, and more!)
+[Home Page](http://corepython.com) (includes book reviews, errata, sample chapter, links to alternate editions, source code from the book, and more!)
 
-Links regarding the 1st edition: [IBM Developer Works review](http://www-106.ibm.com/developerworks/linux/library/l-pbook3.html){.http} [Linux Journal review](http://www2.linuxjournal.com/lj-issues/issue85/4564.html){.http} [Chinese edition](http://www.china-pub.com/computers/common/info.asp?id=3097){.http} [O\'Reilly Safari electronic edition](http://safari1.oreilly.com/main.asp?bookname=0130260363){.http} [Indian edition (English)](http://www.prakashbooks.com/details.php3?id=5806){.http} [Korean edition](http://www.wowbook.com/computer/book/info/book_detail.asp?isbn=ISBN89-450-7052-4){.http} [Association of C/C++ Users review](http://www.accu.org/bookreviews/public/reviews/c/c002320.htm){.http} [Python Learning Foundation review](http://www.awaretek.com/CorePython.html){.http} [Mississippi Python users group (Useless Python) review](http://uselesspython.com/gettingstarted.html){.http}
+Links regarding the 1st edition: [IBM Developer Works review](http://www-106.ibm.com/developerworks/linux/library/l-pbook3.html) [Linux Journal review](http://www2.linuxjournal.com/lj-issues/issue85/4564.html) [Chinese edition](http://www.china-pub.com/computers/common/info.asp?id=3097) [O\'Reilly Safari electronic edition](http://safari1.oreilly.com/main.asp?bookname=0130260363) [Indian edition (English)](http://www.prakashbooks.com/details.php3?id=5806) [Korean edition](http://www.wowbook.com/computer/book/info/book_detail.asp?isbn=ISBN89-450-7052-4) [Association of C/C++ Users review](http://www.accu.org/bookreviews/public/reviews/c/c002320.htm) [Python Learning Foundation review](http://www.awaretek.com/CorePython.html) [Mississippi Python users group (Useless Python) review](http://uselesspython.com/gettingstarted.html)
 
 ------------------------------------------------------------------------
 
@@ -1477,11 +1482,11 @@ Links regarding the 1st edition: [IBM Developer Works review](http://www-106.ibm
 
 - John Zelle
 
-[1887902996](http://www.amazon.com/exec/obidos/ISBN=1887902996 "ISBN"){.interwiki}, Franklin Beedle & Associates, December 2003
+[1887902996](http://www.amazon.com/exec/obidos/ISBN=1887902996 "ISBN"), Franklin Beedle & Associates, December 2003
 
 This is a textbook for a \"traditional\" introduction to computer science course (CS1) using Python.
 
-[Home Page](http://mcsp.wartburg.edu/zelle/python){.http}
+[Home Page](http://mcsp.wartburg.edu/zelle/python)
 
 ------------------------------------------------------------------------
 
@@ -1489,11 +1494,11 @@ This is a textbook for a \"traditional\" introduction to computer science course
 
 - Allen Downey, Jeff Elkner and Chris Meyers
 
-[0971677506](http://www.amazon.com/exec/obidos/ISBN=0971677506 "ISBN"){.interwiki}, Green Tea Press 288 pages
+[0971677506](http://www.amazon.com/exec/obidos/ISBN=0971677506 "ISBN"), Green Tea Press 288 pages
 
 How to Think\... is a free textbook available under the GNU Free Documentation License. It is a true beginners book. The ebook version is free and available in PDF, HTML and [PostScript](PostScript).
 
-[Home Page](http://thinkpython.com){.http}
+[Home Page](http://thinkpython.com)
 
 ------------------------------------------------------------------------
 
@@ -1501,11 +1506,11 @@ How to Think\... is a free textbook available under the GNU Free Documentation L
 
 - Mark Pilgrim
 
-[1590593561](http://www.amazon.com/exec/obidos/ISBN=1590593561 "ISBN"){.interwiki}, Apress 432 pages
+[1590593561](http://www.amazon.com/exec/obidos/ISBN=1590593561 "ISBN"), Apress 432 pages
 
-Dive Into Python is a free Python ebook for experienced programmers available under the GNU Free Documentation License. A printed version has been published by Apress [http://www.apress.com/](http://www.apress.com/){.http}, and is available through all major outlets.
+Dive Into Python is a free Python ebook for experienced programmers available under the GNU Free Documentation License. A printed version has been published by Apress [http://www.apress.com/](http://www.apress.com/), and is available through all major outlets.
 
-[Home Page](http://www.diveintopython.net/){.http}
+[Home Page](http://www.diveintopython.net/)
 
 ------------------------------------------------------------------------
 
@@ -1513,27 +1518,27 @@ Dive Into Python is a free Python ebook for experienced programmers available un
 
 - Mark Lutz
 
-[0596158068](http://www.amazon.com/exec/obidos/ISBN=0596158068 "ISBN"){.interwiki} O\'Reilly & Associates, 1216 pages (September 2009)
+[0596158068](http://www.amazon.com/exec/obidos/ISBN=0596158068 "ISBN") O\'Reilly & Associates, 1216 pages (September 2009)
 
 Learning Python is meant for beginning Python programmers, and others seeking a quick introduction to the language. It focuses on core language fundamentals in depth, is based on Mark Lutz\'s Python training classes, and includes numerous exercises with solutions to guide the reader through a hands-on learning experience.
 
-[O\'Reilly\'s catalog page](http://www.oreilly.com/catalog/9780596158071/){.http} [Author\'s book page](http://rmi.net/~lutz/about-lp4e.html){.http} [Sample chapters](http://oreilly.com/catalog/9780596158071/toc.html){.http} [Review of first edition by Phil Hughes in Linux Journal](http://www2.linuxjournal.com/lj-issues/issue66/3541.html){.http}
+[O\'Reilly\'s catalog page](http://www.oreilly.com/catalog/9780596158071/) [Author\'s book page](http://rmi.net/~lutz/about-lp4e.html) [Sample chapters](http://oreilly.com/catalog/9780596158071/toc.html) [Review of first edition by Phil Hughes in Linux Journal](http://www2.linuxjournal.com/lj-issues/issue66/3541.html)
 
 ------------------------------------------------------------------------
 
 **The Quick Python Book**
 
-- Daryl Harms, Kenneth [McDonald](./McDonald.html){.nonexistent}
+- Daryl Harms, Kenneth [McDonald](./McDonald.html)
 
-[1884777740](http://www.amazon.com/exec/obidos/ISBN=1884777740 "ISBN"){.interwiki}, Manning Publications, 275 pages (October 1999)
+[1884777740](http://www.amazon.com/exec/obidos/ISBN=1884777740 "ISBN"), Manning Publications, 275 pages (October 1999)
 
 A clear and concise description of Python aimed at readers who are already familiar with programming in at least one other language.
 
-[Two sample chapters](http://www.manning.com/getpage.html?project=harms&filename=Chapters.html){.http} [Review by Francis Glassborow in \_C Vu\_](http://www.accu.org/bookreviews/public/reviews/q/q002082.htm){.http} [Review by Phil Hughes](http://www2.linuxjournal.com/lj-issues/issue73/3851.html){.http} [Review by AMK](http://www.amk.ca/python/books/qpb.html){.http}
+[Two sample chapters](http://www.manning.com/getpage.html?project=harms&filename=Chapters.html) [Review by Francis Glassborow in \_C Vu\_](http://www.accu.org/bookreviews/public/reviews/q/q002082.htm) [Review by Phil Hughes](http://www2.linuxjournal.com/lj-issues/issue73/3851.html) [Review by AMK](http://www.amk.ca/python/books/qpb.html)
 
 A 2nd edition (complete rewrite moving it from Python 1.x to 3.x was published Jan 2010.
 
-[Publisher\'s page for The Quick Python Book, 2nd ed.](http://www.manning.com/ceder/){.http}
+[Publisher\'s page for The Quick Python Book, 2nd ed.](http://www.manning.com/ceder/)
 
 ------------------------------------------------------------------------
 
@@ -1541,11 +1546,11 @@ A 2nd edition (complete rewrite moving it from Python 1.x to 3.x was published J
 
 - Alan Gauld
 
-[0201709384](http://www.amazon.com/exec/obidos/ISBN=0201709384 "ISBN"){.interwiki}, Addison-Wesley, 270 pages (December, 2000)
+[0201709384](http://www.amazon.com/exec/obidos/ISBN=0201709384 "ISBN"), Addison-Wesley, 270 pages (December, 2000)
 
 This book teaches programming in Python to true beginners. It started as a popular Web tutorial, and been expanded into a complete book.
 
-[Home Page](http://www.freenetpages.co.uk/hp/alan.gauld/index.htm){.http}
+[Home Page](http://www.freenetpages.co.uk/hp/alan.gauld/index.htm)
 
 ------------------------------------------------------------------------
 
@@ -1553,11 +1558,11 @@ This book teaches programming in Python to true beginners. It started as a popul
 
 - Mark Lutz
 
-[0596009259](http://www.amazon.com/exec/obidos/ISBN=0596009259 "ISBN"){.interwiki}, O\'Reilly & Associates, 1596 pages (August, 2006)
+[0596009259](http://www.amazon.com/exec/obidos/ISBN=0596009259 "ISBN"), O\'Reilly & Associates, 1596 pages (August, 2006)
 
 A Python classic, updated and expanded to cover Python 2.5. The first edition, published in 1996, was the first Python book project to be signed. Programming Python is about what you can do with Python after you\'ve mastered the language fundamentals - it assumes you already know the core language, and focuses on applications programming in gradual tutorial fashion. It is designed to be a natural follow-up to the book Learning Python. This book includes 300 pages on GUIs, 500 on Internet programming, and more on databases, systems programming, text processing, Python/C integration, and other topics. Also available in PDF form from O\'Reilly.
 
-[O\'Reilly\'s catalog page](http://www.oreilly.com/catalog/python3/){.http} [Author\'s book page](http://www.rmi.net/~lutz/about-pp3e.html){.http} [Foreword by Guido van Rossum](http://www.python.org/doc/essays/foreword.html){.http} [Review of the first edition by Greg Wilson](http://www.ercb.com/ddj/1997/ddj.9711.html){.http} [Review of the first edition by Terry Rooker in ;login:](http://www.usenix.org/publications/login/1998-4/python.html){.http} [Review of the first edition by Danny Yee](http://dannyreviews.com/h/Python.html){.http}
+[O\'Reilly\'s catalog page](http://www.oreilly.com/catalog/python3/) [Author\'s book page](http://www.rmi.net/~lutz/about-pp3e.html) [Foreword by Guido van Rossum](http://www.python.org/doc/essays/foreword.html) [Review of the first edition by Greg Wilson](http://www.ercb.com/ddj/1997/ddj.9711.html) [Review of the first edition by Terry Rooker in ;login:](http://www.usenix.org/publications/login/1998-4/python.html) [Review of the first edition by Danny Yee](http://dannyreviews.com/h/Python.html)
 
 ------------------------------------------------------------------------
 
@@ -1565,7 +1570,7 @@ A Python classic, updated and expanded to cover Python 2.5. The first edition, p
 
 - Mark Lutz
 
-[0596009402](http://www.amazon.com/exec/obidos/ISBN=0596009402 "ISBN"){.interwiki}, O\'Reilly & Associates, 160 pages (February, 2005)
+[0596009402](http://www.amazon.com/exec/obidos/ISBN=0596009402 "ISBN"), O\'Reilly & Associates, 160 pages (February, 2005)
 
 This handy reference guide summarizes Python statements, built-in functions, escape and formatting codes, and other prominent Python language features.
 
@@ -1575,11 +1580,11 @@ This handy reference guide summarizes Python statements, built-in functions, esc
 
 - [FredrikLundh](FredrikLundh)
 
-[0596000960](http://www.amazon.com/exec/obidos/ISBN=0596000960 "ISBN"){.interwiki}, O\'Reilly & Associates, 250 pages (February 2001)
+[0596000960](http://www.amazon.com/exec/obidos/ISBN=0596000960 "ISBN"), O\'Reilly & Associates, 250 pages (February 2001)
 
 Based in part on 3,000 newsgroup articles written by Python veteran [FredrikLundh](FredrikLundh) over the last four and half years, this book provides sample scripts for all standard modules in the Python library. Also available in German.
 
-[Author\'s book page](http://www.pythonware.com/people/fredrik/librarybook.htm){.http} [Electronic edition (archived snapshot)](https://web.archive.org/web/20201017142948/http://effbot.org/zone/librarybook-index.htm){.https}
+[Author\'s book page](http://www.pythonware.com/people/fredrik/librarybook.htm) [Electronic edition (archived snapshot)](https://web.archive.org/web/20201017142948/http://effbot.org/zone/librarybook-index.htm)
 
 ------------------------------------------------------------------------
 
@@ -1587,7 +1592,7 @@ Based in part on 3,000 newsgroup articles written by Python veteran [FredrikLund
 
 - George K. Thiruvathukal, John Shafaee and Thomas Christopher
 
-[0130410659](http://www.amazon.com/exec/obidos/ISBN=0130410659 "ISBN"){.interwiki}, Prentice Hall, 450 pages (October 2001)
+[0130410659](http://www.amazon.com/exec/obidos/ISBN=0130410659 "ISBN"), Prentice Hall, 450 pages (October 2001)
 
 The book has introductory chapters on Python, networking, Apache, Linux, and MySQL. It is a self- contained reference to Python and open-source programming that makes use of Python to develop real applications that are also available under an open source license.
 
@@ -1597,9 +1602,9 @@ The book has introductory chapters on Python, networking, Apache, Linux, and MyS
 
 - Tim Altom with Mitch Chapman,
 
-[0761523340](http://www.amazon.com/exec/obidos/ISBN=0761523340 "ISBN"){.interwiki}, Prima Publishing, (October 1999)
+[0761523340](http://www.amazon.com/exec/obidos/ISBN=0761523340 "ISBN"), Prima Publishing, (October 1999)
 
-[Review by Phil Hughes in Linux Journal](http://www2.linuxjournal.com/lj-issues/issue73/3851.html){.http} [Review by Cary Miller](http://lists.tummy.com/pipermail/frpythoneers/2000-June/000085.html){.http}
+[Review by Phil Hughes in Linux Journal](http://www2.linuxjournal.com/lj-issues/issue73/3851.html) [Review by Cary Miller](http://lists.tummy.com/pipermail/frpythoneers/2000-June/000085.html)
 
 ------------------------------------------------------------------------
 
@@ -1607,7 +1612,7 @@ The book has introductory chapters on Python, networking, Apache, Linux, and MyS
 
 - Andre Lessa
 
-[0672319942](http://www.amazon.com/exec/obidos/ISBN=0672319942 "ISBN"){.interwiki}, Sams, 600 pages (December 2000)
+[0672319942](http://www.amazon.com/exec/obidos/ISBN=0672319942 "ISBN"), Sams, 600 pages (December 2000)
 
 ------------------------------------------------------------------------
 
@@ -1615,11 +1620,11 @@ The book has introductory chapters on Python, networking, Apache, Linux, and MyS
 
 - Harvey M Deitel, Paul J Deitel, Jonathan Liperi, Ben Wiedermann
 
-[0130923613](http://www.amazon.com/exec/obidos/ISBN=0130923613 "ISBN"){.interwiki}, Prentice Hall, 1376 pages (2002)
+[0130923613](http://www.amazon.com/exec/obidos/ISBN=0130923613 "ISBN"), Prentice Hall, 1376 pages (2002)
 
 In the renowned Deitel series \"How to Program\"
 
-[description](http://vig.prenhall.com/catalog/academic/product/1,4096,0130923613,00.html){.http}
+[description](http://vig.prenhall.com/catalog/academic/product/1,4096,0130923613,00.html)
 
 ------------------------------------------------------------------------
 
@@ -1629,13 +1634,13 @@ In the renowned Deitel series \"How to Program\"
 
 The free text is available at:
 
-[http://gnosis.cx/TPiP/](http://gnosis.cx/TPiP/){.http}
+[http://gnosis.cx/TPiP/](http://gnosis.cx/TPiP/)
 
 Buy the dead-trees version at:
 
-[http://tinyurl.com/jskh](http://tinyurl.com/jskh){.http}
+[http://tinyurl.com/jskh](http://tinyurl.com/jskh)
 
-A review by Danny Yee at: [http://dannyreviews.com/h/Text_Python.html](http://dannyreviews.com/h/Text_Python.html){.http}
+A review by Danny Yee at: [http://dannyreviews.com/h/Text_Python.html](http://dannyreviews.com/h/Text_Python.html)
 
 See also: [TextProcessingInPython](TextProcessingInPython)
 
@@ -1647,9 +1652,9 @@ Prentice-Hall, 2001
 
 ISBN: 0130409561
 
-There\'s a [sample chapter](http://www.informit.com/articles/printerfriendly.asp?p=28672&rl=1){.http} at informIT
+There\'s a [sample chapter](http://www.informit.com/articles/printerfriendly.asp?p=28672&rl=1) at informIT
 
-Reviews: [ACCU review](http://www.accu.org/bookreviews/public/reviews/p/p003210.htm){.http} by Francis Glasborow; one of several books in Mertz\'s [book roundup #3](http://gnosis.cx/publish/programming/charming_python_b8.html){.http}
+Reviews: [ACCU review](http://www.accu.org/bookreviews/public/reviews/p/p003210.htm) by Francis Glasborow; one of several books in Mertz\'s [book roundup #3](http://gnosis.cx/publish/programming/charming_python_b8.html)
 
 ------------------------------------------------------------------------
 
@@ -1659,45 +1664,45 @@ Atanas Radenski
 
 The \'Python First\' digital pack provides a gentle introduction to computer science. It is more than a book: Ten self-contained online chapters consist of e-texts, slides, 62 labs, tens of sample programs, and online quizzes. The \'Python First\' pack includes a wealth of detailed self-guided labs that you can complete on your own.
 
-[Home Page](http://studypack.com/comp/course/view.php?id=232){.http}
+[Home Page](http://studypack.com/comp/course/view.php?id=232)
 
 ------------------------------------------------------------------------
 
-**[Programming with Python](https://thomasweise.github.io/programmingWithPython/programmingWithPython.pdf){.https}** by Thomas Weise
+**[Programming with Python](https://thomasweise.github.io/programmingWithPython/programmingWithPython.pdf)** by Thomas Weise
 
-The goal of this book is to teach practical programming with the Python language to high school, undergraduate, and graduate students alike (in English language). Hopefully, readers without prior knowledge can follow the text. Therefore, all concepts are introduced using examples and discussed comprehensively. All examples are available online in the [GitHub repository](https://github.com/thomasWeise/programmingWithPythonCode){.https} associated with this book, so that readers can play with them easily. Actually, the goal of the book is not just to teach programming, but to teach programming as a part of the software development process. This means that from the very beginning, we will attempt to push the reader towards writing clean code with comments and documentation as well as to use various tools for finding potential issues. While this book is work in progress, we hope that it will eventually teach all the elements of Python software creation. We hope that it can enable readers without prior programming experience to develop beautiful and maintainable software.
+The goal of this book is to teach practical programming with the Python language to high school, undergraduate, and graduate students alike (in English language). Hopefully, readers without prior knowledge can follow the text. Therefore, all concepts are introduced using examples and discussed comprehensively. All examples are available online in the [GitHub repository](https://github.com/thomasWeise/programmingWithPythonCode) associated with this book, so that readers can play with them easily. Actually, the goal of the book is not just to teach programming, but to teach programming as a part of the software development process. This means that from the very beginning, we will attempt to push the reader towards writing clean code with comments and documentation as well as to use various tools for finding potential issues. While this book is work in progress, we hope that it will eventually teach all the elements of Python software creation. We hope that it can enable readers without prior programming experience to develop beautiful and maintainable software.
 
-All the material available alongside with the book, including slides in German language, can be found on the [book website](https://thomasweise.github.io/programmingWithPython){.https}. The book is actively developed in a [GitHub Repository](https://github.com/thomasWeise/programmingWithPython){.https} and thus not only free but also open source itself. If you find any issue, error, typo, have a suggestion, or want to drop a review \-- feel free to open an [issue](https://github.com/thomasWeise/programmingWithPython/issues){.https}.
+All the material available alongside with the book, including slides in German language, can be found on the [book website](https://thomasweise.github.io/programmingWithPython). The book is actively developed in a [GitHub Repository](https://github.com/thomasWeise/programmingWithPython) and thus not only free but also open source itself. If you find any issue, error, typo, have a suggestion, or want to drop a review \-- feel free to open an [issue](https://github.com/thomasWeise/programmingWithPython/issues).
 
-## Python 2 {#Python_2}
+## Python 2 
 
-**Practical Programming (in Python)** [\"Practical Programming (in Python)\"](https://launchpad.net/practical-programming){.https} is meant as a first programming course and is tightly aligned with the [University of Otago](http://www.otago.ac.nz){.http} introductory programming course called [Practical Programming](http://www.cs.otago.ac.nz/student/papers.php?name=COMP150){.http}. The textbook is organized into 24 \"lectures\" that cover all the basics of programming (sequence, selection, iteration, functions etc), plus all the major data structures supplied by Python.
+**Practical Programming (in Python)** [\"Practical Programming (in Python)\"](https://launchpad.net/practical-programming) is meant as a first programming course and is tightly aligned with the [University of Otago](http://www.otago.ac.nz) introductory programming course called [Practical Programming](http://www.cs.otago.ac.nz/student/papers.php?name=COMP150). The textbook is organized into 24 \"lectures\" that cover all the basics of programming (sequence, selection, iteration, functions etc), plus all the major data structures supplied by Python.
 
-This textbook is a modified version of [\"How to Think Like a Computer Scientist: Learning with Python 2nd Edition\"](http://www.openbookproject.net/thinkcs/python/english2e/){.http}, by Jeffrey Elkner, Allen B. Downey and Chris Meyers.
+This textbook is a modified version of [\"How to Think Like a Computer Scientist: Learning with Python 2nd Edition\"](http://www.openbookproject.net/thinkcs/python/english2e/), by Jeffrey Elkner, Allen B. Downey and Chris Meyers.
 
 ------------------------------------------------------------------------
 
-## Books no longer available {#Books_no_longer_available}
+## Books no longer available 
 
 ------------------------------------------------------------------------
 
 **How Would Pareto Learn Python!**
 
-[Rahul Verma](http://www.testingperspective.com/?page_id=1889){.http}
+[Rahul Verma](http://www.testingperspective.com/?page_id=1889)
 
 Python is a very powerful high level object oriented language and has easy bindings with C,C++,Java etc. It can very well be the first and the only language needed by a software tester for routine test automation tasks as well as for building robust general purpose test automation frameworks.
 
 This online book is written keeping beginners in Python in mind. It bridges the gap between very basic tutorials and comprehensive books.
 
-The book is provided for free by [Talent Reboot Trainings and Asessments](http://www.talentreboot.com){.http} and hosts the online version of the book as a part of its official website.
+The book is provided for free by [Talent Reboot Trainings and Asessments](http://www.talentreboot.com) and hosts the online version of the book as a part of its official website.
 
-[Read Online Free Version - How Would Pareto Learn Python](http://www.talentreboot.com/publications/book-how-would-pareto-learn-python/){.http}
+[Read Online Free Version - How Would Pareto Learn Python](http://www.talentreboot.com/publications/book-how-would-pareto-learn-python/)
 
 [CategoryPythonInEducation](CategoryPythonInEducation) [CategoryDocumentation](CategoryDocumentation)
 
 ------------------------------------------------------------------------
 
-[Learning Python](https://www.packtpub.com/packt/free-ebook/learning-python){.https} (**Free eBook**)
+[Learning Python](https://www.packtpub.com/packt/free-ebook/learning-python) (**Free eBook**)
 
 By Fabrizio Romano
 
@@ -1719,9 +1724,8 @@ This book goes deeper than simply showing you how to build a Python app, giving 
 
 This book is meant for programmers who wants to learn Python programming from a basic to an expert level. The book is mostly self-contained and introduces Python programming to a new reader and can help him become an expert in this trade.
 
-[Publisher\'s page](http://www.packtpub.com/packt/free-ebook/learning-python){.http}
+[Publisher\'s page](http://www.packtpub.com/packt/free-ebook/learning-python)
 
 ------------------------------------------------------------------------
 
 [CategoryPythonWebsite](CategoryPythonWebsite) [CategoryPyCon2008](CategoryPyCon2008) [CategoryPythonInEducation](CategoryPythonInEducation)
-:::

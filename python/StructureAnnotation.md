@@ -1,6 +1,11 @@
 # StructureAnnotation
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 StructureAnnotation presentation technologies (see [DataRepresentation](DataRepresentation)) marks regions of content in a Web page (or other resource to be presented) with indications that such regions represent or \"map onto\" particular data structures or parts of data structures. Consequently, the content is transformed using a combination of this mapping and the underlying data, and in the purest form of StructureAnnotation, no explicit programmatic transformations are employed (unlike in [PythonInWebPage](PythonInWebPage) systems) - the data structures appear to do all the work.
 
 A fictional example of this concept could be provided as follows:
@@ -26,5 +31,4 @@ Some example systems are
 
 - [ZopePageTemplates](ZopePageTemplates)
 
-- Cocoon, I guess, which is Java, but has good design stuff to rip off ![;)](/wiki/europython/img/smile4.png ";)"){height="16" width="16"}
-:::
+- Cocoon, I guess, which is Java, but has good design stuff to rip off ![;)](/wiki/europython/img/smile4.png ";)")

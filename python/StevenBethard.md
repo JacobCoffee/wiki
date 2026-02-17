@@ -1,7 +1,12 @@
 # StevenBethard
 
-::: {#content dir="ltr" lang="en"}
-## Steven Bethard {#Steven_Bethard}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Steven Bethard 
 
 Email: `<steven.bethard@gmail.com>`
 
@@ -28,4 +33,3 @@ Email: `<steven.bethard@gmail.com>`
 [PathClass](PathClass)
 
 \-\-- [CategoryHomepage](CategoryHomepage)
-:::

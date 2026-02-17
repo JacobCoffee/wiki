@@ -1,17 +1,22 @@
 # CgiScripts
 
-::::: {#content dir="ltr" lang="en"}
-# CGI (Common Gateway Interface) Scripts {#CGI_.28Common_Gateway_Interface.29_Scripts}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# CGI (Common Gateway Interface) Scripts 
 
 The **cgi module** is part of the core library of Python.
 
-- [cgi module (Python 2.x)](https://docs.python.org/2/library/cgi.html){.https}
+- [cgi module (Python 2.x)](https://docs.python.org/2/library/cgi.html)
 
-- [cgi module (Python 3.x)](https://docs.python.org/3/library/cgi.html){.https}
+- [cgi module (Python 3.x)](https://docs.python.org/3/library/cgi.html)
 
 The simplest CGI script that can be considered interesting involves printing out an HTTP header (\"Content-type: text/html\") and a Web page. In addition, you might want to handle any incoming inputs from things like HTML forms or request parameters. In the earliest days of CGI, shell scripts were sometimes used to do things like this, so the principles are not particularly advanced.
 
-## Configuration {#Configuration}
+## Configuration 
 
 It can be an annoying experience getting the permissions just right on a script so that Web servers like Apache will run it, but the following checklist may be of some use:
 
@@ -27,13 +32,13 @@ It can be an annoying experience getting the permissions just right on a script 
 
 In addition you should make sure your script has the correct \*\*line endings\*\* for your server.
 
-## Sample Code {#Sample_Code}
+## Sample Code 
 
 The following code attempts to combine simple output of a Web page with the processing of input from users viewing the page. You may wish to choose the actual first line of the script based on one of the first two lines provided below - the first one for Windows and dependent on the Python install path, whereas the second may only work on UNIX-like systems.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4011c0c55db4a9b1fcd6ed3c18b68b5e77c3093c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #!C:\Python27\python.exe -u
    2 #!/usr/bin/env python
    3 
@@ -74,32 +79,32 @@ The following code attempts to combine simple output of a Web page with the proc
 :::
 ::::
 
-## See Also {#See_Also}
+## See Also 
 
 - [WebProgramming](WebProgramming) - the natural next step beyond simple CGI scripts.
 
-- [cgi module documentation](http://www.python.org/doc/current/lib/module-cgi.html){.http}
+- [cgi module documentation](http://www.python.org/doc/current/lib/module-cgi.html)
 
-- [Cookie module documentation](http://www.python.org/doc/current/lib/module-Cookie.html){.http}
+- [Cookie module documentation](http://www.python.org/doc/current/lib/module-Cookie.html)
 
-- [Python CGI tutorial](http://webpython.codepoint.net/){.http} - setup in a shared host, forms, debug, shell commands, cookies, etc
+- [Python CGI tutorial](http://webpython.codepoint.net/) - setup in a shared host, forms, debug, shell commands, cookies, etc
 
-- [python CGI tutorial](http://www.cs.virginia.edu/~lab2q/lesson_7/){.http} - w/ hints about maintaining sessions either through forms or through cookies
+- [python CGI tutorial](http://www.cs.virginia.edu/~lab2q/lesson_7/) - w/ hints about maintaining sessions either through forms or through cookies
 
-- [python CGI tutorial](http://gnosis.cx/publish/programming/feature_5min_python.html){.http} - w/ hints about printing out tracebacks
+- [python CGI tutorial](http://gnosis.cx/publish/programming/feature_5min_python.html) - w/ hints about printing out tracebacks
 
-- [other internet protocol module documentation](http://www.python.org/doc/current/lib/internet.html){.http}
+- [other internet protocol module documentation](http://www.python.org/doc/current/lib/internet.html)
 
-- [Writing CGI Scripts in Python](http://www.devshed.com/index2.php?option=content&task=view&id=198&pop=1&page=0&hide_js=1){.http}
+- [Writing CGI Scripts in Python](http://www.devshed.com/index2.php?option=content&task=view&id=198&pop=1&page=0&hide_js=1)
 
-- [Voidspace Python CGI collection](http://www.voidspace.org.uk/python/cgi.shtml){.http} - Working Python CGI scripts to use and/or study
+- [Voidspace Python CGI collection](http://www.voidspace.org.uk/python/cgi.shtml) - Working Python CGI scripts to use and/or study
 
 ------------------------------------------------------------------------
 
-## Discussion {#Discussion}
+## Discussion 
 
 - We need a good python CGI framework - Sridhar R
-  - Nevow and [Wallaby](http://srid.bsdnerds.org/hacking/wallaby/){.http} Define \"framework,\" though. Do you mean something like a Django-type deal or something that just makes it easier to write CGI apps?
+  - Nevow and [Wallaby](http://srid.bsdnerds.org/hacking/wallaby/) Define \"framework,\" though. Do you mean something like a Django-type deal or something that just makes it easier to write CGI apps?
 
 ------------------------------------------------------------------------
 
@@ -109,11 +114,10 @@ There are many frameworks for Python Web Application [TurboGears](TurboGears) Dj
 
 But it would be Nice if python provides native support for Session Handling, JSON - like XML-RPC Standard Environment for RPC + WSGI and future technologies\.... for Easy Web Development
 
--Vinoth [vinoth.3v@gmail.com](mailto:vinoth.3v@gmail.com){.mailto}
+-Vinoth [vinoth.3v@gmail.com](mailto:vinoth.3v@gmail.com)
 
 Many shared hosting servers do not allow persistent processes. They kill a script if it runs for more than 3 minutes. This frameworks do not explain (or make life easier) for someone who as only cgi and ftp. Do you know any way to code easier/faster in this circumstances ? Osvaldo
 
 ------------------------------------------------------------------------
 
 [CategoryPythonWebsite](CategoryPythonWebsite)
-:::::

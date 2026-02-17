@@ -1,33 +1,38 @@
 # DbusExamples
 
-::::::::::::: {#content dir="ltr" lang="en"}
-The [D-Bus library](http://www.freedesktop.org/wiki/Software/dbus){.http} is a messaging library used by various desktop environments (GNOME, KDE, etc) for interprocess communication.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+The [D-Bus library](http://www.freedesktop.org/wiki/Software/dbus) is a messaging library used by various desktop environments (GNOME, KDE, etc) for interprocess communication.
 
 There are multiple Python bindings for DBus:
 
-- GDbus and [QtDbus](./QtDbus.html){.nonexistent} are wrappers over the C/C++ APIs of GLib and Qt
+- GDbus and [QtDbus](./QtDbus.html) are wrappers over the C/C++ APIs of GLib and Qt
 
-- [pydbus](https://github.com/LEW21/pydbus){.https} is a modern, pythonic API with the goal of being as invisible a layer between the exported API and its user as possible
+- [pydbus](https://github.com/LEW21/pydbus) is a modern, pythonic API with the goal of being as invisible a layer between the exported API and its user as possible
 
-- [dasbus](https://github.com/rhinstaller/dasbus){.https} is a Python3-only alternative to pydbus with additional features and better flexibility
+- [dasbus](https://github.com/rhinstaller/dasbus) is a Python3-only alternative to pydbus with additional features and better flexibility
 
-- [dbus-python](https://dbus.freedesktop.org/doc/dbus-python/){.https} is a legacy API, built with a deprecated dbus-glib library, and involving a lot of type-guessing (despite \"explicit is better than implicit\" and \"resist the temptation to guess\").
+- [dbus-python](https://dbus.freedesktop.org/doc/dbus-python/) is a legacy API, built with a deprecated dbus-glib library, and involving a lot of type-guessing (despite \"explicit is better than implicit\" and \"resist the temptation to guess\").
 
-- [txdbus](https://pypi.python.org/pypi/txdbus){.https} is a native Python implementation of the D-Bus protocol for the Twisted networking framework.
+- [txdbus](https://pypi.python.org/pypi/txdbus) is a native Python implementation of the D-Bus protocol for the Twisted networking framework.
 
-- [dbus-next](https://pypi.org/project/dbus-next/){.https} is a native Python library for D-Bus with support for multiple IO backends suitable for GUI develeopment and cross platform projects.
+- [dbus-next](https://pypi.org/project/dbus-next/) is a native Python library for D-Bus with support for multiple IO backends suitable for GUI develeopment and cross platform projects.
 
-- [python-sdbus](https://github.com/python-sdbus/python-sdbus){.https} modern D-Bus library supporting both asyncio and blocking calls, unified client-server classes and type hints.
+- [python-sdbus](https://github.com/python-sdbus/python-sdbus) modern D-Bus library supporting both asyncio and blocking calls, unified client-server classes and type hints.
 
-See also: [DBusBindings](https://www.freedesktop.org/wiki/Software/DBusBindings/#python){.https} on Freedesktop wiki.
+See also: [DBusBindings](https://www.freedesktop.org/wiki/Software/DBusBindings/#python) on Freedesktop wiki.
 
 The `dbus-viewer`{.backtick} and `qdbusviewer`{.backtick} programs let you browse through the services and interfaces available on your system.
 
 # pydbus
 
-For more information see [pydbus\'s Readme](https://github.com/LEW21/pydbus/blob/master/README.rst){.https}.
+For more information see [pydbus\'s Readme](https://github.com/LEW21/pydbus/blob/master/README.rst).
 
-## Introspection {#Introspection}
+## Introspection 
 
     from pydbus import SessionBus
     bus = SessionBus()
@@ -63,7 +68,7 @@ Output:
         </method>
      ...
 
-## Calling an interface method {#Calling_an_interface_method}
+## Calling an interface method 
 
 After executing the introspection example:
 
@@ -84,9 +89,9 @@ The following example makes your system hibernate:
 
 # dasbus
 
-For more information see [dasbus\'s documentation](https://dasbus.readthedocs.io/){.https}.
+For more information see [dasbus\'s documentation](https://dasbus.readthedocs.io/).
 
-## Introspection of a remote object {#Introspection_of_a_remote_object}
+## Introspection of a remote object 
 
 Introspection returns an XML string containing information about interfaces, methods, properties and signals of the remote object.
 
@@ -102,7 +107,7 @@ Introspection returns an XML string containing information about interfaces, met
     # Call the Introspect method of the remote object.
     print(remote_object.Introspect())
 
-## Accessing a remote property {#Accessing_a_remote_property}
+## Accessing a remote property 
 
 The following example prints the current hostname.
 
@@ -116,7 +121,7 @@ The following example prints the current hostname.
 
     print(proxy.Hostname)
 
-## Calling a remote method {#Calling_a_remote_method}
+## Calling a remote method 
 
 The following example sends a notification to the notification server.
 
@@ -137,17 +142,17 @@ The following example sends a notification to the notification server.
 
 # dbus-next
 
-For more information see [dbus-next\'s documentation](https://python-dbus-next.readthedocs.io/){.https}.
+For more information see [dbus-next\'s documentation](https://python-dbus-next.readthedocs.io/).
 
-## The client interface {#The_client_interface}
+## The client interface 
 
 To use a service on the bus, the library constructs a proxy object you can use to call methods, get and set properties, and listen to signals.
 
 This example connects to a media player and controls it with the MPRIS DBus interface using python\'s asyncio backend.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-b2ccfdfaf693abd69d01da6e20b965fd5eef540b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from dbus_next.aio import MessageBus
    2 
    3 import asyncio
@@ -187,13 +192,13 @@ This example connects to a media player and controls it with the MPRIS DBus inte
 :::
 ::::
 
-## The service interface {#The_service_interface}
+## The service interface 
 
-To define a service on the bus, use the [ServiceInterface](./ServiceInterface.html){.nonexistent} class and decorate class methods to specify DBus methods, properties, and signals with their type signatures.
+To define a service on the bus, use the [ServiceInterface](./ServiceInterface.html) class and decorate class methods to specify DBus methods, properties, and signals with their type signatures.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-31b45f1d3cc1616465fb8bd32699afe5aa461a18 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from dbus_next.service import ServiceInterface, method, dbus_property, signal, Variant
    2 from dbus_next.aio MessageBus
    3 
@@ -244,15 +249,15 @@ To define a service on the bus, use the [ServiceInterface](./ServiceInterface.ht
 
 # python-sdbus
 
-See [python-sdbus documentation for API reference and quickstart guides](https://python-sdbus.readthedocs.io/en/latest/index.html){.https}.
+See [python-sdbus documentation for API reference and quickstart guides](https://python-sdbus.readthedocs.io/en/latest/index.html).
 
 Python-sdbus has a unified client and server classes where one class can be used both as a client proxy and as a server.
 
-## Interface class definition {#Interface_class_definition}
+## Interface class definition 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c2f4924d0c0f141eef8d99e13b2440c0249484bb dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from sdbus import (DbusInterfaceCommonAsync, dbus_method_async,
    2                    dbus_property_async, dbus_signal_async)
    3 
@@ -285,11 +290,11 @@ Python-sdbus has a unified client and server classes where one class can be used
 :::
 ::::
 
-## Server {#Server}
+## Server 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2d0397f4f1a4e2a0127cd78690cc2735a040ad88 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from asyncio import new_event_loop, sleep
    2 from random import randint
    3 from time import time
@@ -330,11 +335,11 @@ Python-sdbus has a unified client and server classes where one class can be used
 :::
 ::::
 
-## Client {#Client}
+## Client 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-dbddc80272fe51ed256c0727922fbd238d8dfcb9 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from asyncio import new_event_loop
    2 
    3 from example_interface import ExampleInterface
@@ -371,4 +376,3 @@ Python-sdbus has a unified client and server classes where one class can be used
 ```
 :::
 ::::
-:::::::::::::

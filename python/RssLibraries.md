@@ -1,35 +1,40 @@
 # RssLibraries
 
-::::::::::::: {#content dir="ltr" lang="en"}
-# Python RSS Code {#Python_RSS_Code}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Python RSS Code 
 
 Articles:
 
-- [The PythonWeb services developer: RSS for Python](http://www-106.ibm.com/developerworks/webservices/library/ws-pyth11.html){.http}
+- [The PythonWeb services developer: RSS for Python](http://www-106.ibm.com/developerworks/webservices/library/ws-pyth11.html)
 
-- [http://codeboje.de/blog/archives/Feeds-and-python-II.html](http://codeboje.de/blog/archives/Feeds-and-python-II.html){.http} - Short articles about using Universal Feed Parser
+- [http://codeboje.de/blog/archives/Feeds-and-python-II.html](http://codeboje.de/blog/archives/Feeds-and-python-II.html) - Short articles about using Universal Feed Parser
 
 Libraries:
 
-- [the Universal Feed Parser](http://code.google.com/p/feedparser/){.http} - Reads 9 RSS versions and Atom
+- [the Universal Feed Parser](http://code.google.com/p/feedparser/) - Reads 9 RSS versions and Atom
 
-- [RSS.py](http://www.mnot.net/python/RSS.py){.http} - reads most RSS versions, produces RSS 1.0
+- [RSS.py](http://www.mnot.net/python/RSS.py) - reads most RSS versions, produces RSS 1.0
 
 - [SpycyRoll](SpycyRoll) - I don\'t know much about - this is an *aggregator,* and perhaps other stuff as well
 
-- [PyRSS2Gen](http://www.dalkescientific.com/Python/PyRSS2Gen.html){.http} - produces RSS 2.0
+- [PyRSS2Gen](http://www.dalkescientific.com/Python/PyRSS2Gen.html) - produces RSS 2.0
 
-## Feed Parser {#Feed_Parser}
+## Feed Parser 
 
-Feed Parser is an awesome RSS reader. It is now hosted on Google Code & Sourceforge - [Universal Feed Parser on Google Code](http://code.google.com/p/feedparser/){.http} ([Project Page on SourceForge](http://sourceforge.net/projects/feedparser/){.http}).
+Feed Parser is an awesome RSS reader. It is now hosted on Google Code & Sourceforge - [Universal Feed Parser on Google Code](http://code.google.com/p/feedparser/) ([Project Page on SourceForge](http://sourceforge.net/projects/feedparser/)).
 
-[Universal Feed Parser documentation](http://packages.python.org/feedparser/){.http}.
+[Universal Feed Parser documentation](http://packages.python.org/feedparser/).
 
 Download it, and then start a Python prompt in the same directory.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-eb13f26e72bc0af343ad3e28aea7ebbf692778b1 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import feedparser
    2 
    3 python_wiki_rss_url = "http://www.python.org/cgi-bin/moinmoin/" \
@@ -73,15 +78,15 @@ For each item in `feed["items"]`, we have:
   -------------------------- -----------------------------------------------
 :::
 
-## Aggregating Feeds with Feed Parser {#Aggregating_Feeds_with_Feed_Parser}
+## Aggregating Feeds with Feed Parser 
 
 If you\'re pulling down a lot of feeds, and aggregating them:
 
-First, you may want to use [Future threads](http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/84317){.http} to pull down your feeds. That way, you can send out 5 requests immediately, and wait for them all to come back at once, rather than sending out a request, waiting for it to come in, send out another request, wait for it to come back in, etc., etc.,.
+First, you may want to use [Future threads](http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/84317) to pull down your feeds. That way, you can send out 5 requests immediately, and wait for them all to come back at once, rather than sending out a request, waiting for it to come in, send out another request, wait for it to come back in, etc., etc.,.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-b47ad635074e6b5c7ab497db912d83a5be4bc2ba dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from future import Future
    2 
    3 hit_list = [ "http://...", "...", "..." ] # list of feeds to pull down
@@ -96,9 +101,9 @@ First, you may want to use [Future threads](http://aspn.activestate.com/ASPN/Coo
 
 Now that you have your feeds, extract all the entries.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-7b0c63290f2bb8c206d0583634f870e76cb928b3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 entries = []
    2 for feed in feeds:
    3     entries.extend( feed[ "items" ] )
@@ -108,9 +113,9 @@ Now that you have your feeds, extract all the entries.
 
 \...and sort them, by [SortingListsOfDictionaries](SortingListsOfDictionaries):
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-6a6b067fb1804398fb711017c1cfbc85c5fa9dd8 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 sorted_entries = sorted(entries, key=lambda entry: entry["date_parsed"])
    2 sorted_entries.reverse() # for most recent entries first
 ```
@@ -119,25 +124,25 @@ Now that you have your feeds, extract all the entries.
 
 Congratulations! You\'ve aggregated a bunch of changes!
 
-## Contributors {#Contributors}
+## Contributors 
 
 [LionKimbro](LionKimbro)
 
-## Links {#Links}
+## Links 
 
-- [RawDog](http://offog.org/code/rawdog.html){.http} is an RSS aggregator written in Python & using [Feed Parser](http://diveintomark.org/projects/feed_parser/){.http}
+- [RawDog](http://offog.org/code/rawdog.html) is an RSS aggregator written in Python & using [Feed Parser](http://diveintomark.org/projects/feed_parser/)
 
-- [Feedjack](http://www.feedjack.org/){.http} Planet like Feed aggregator using Universal Feed Parser and the django webframework
+- [Feedjack](http://www.feedjack.org/) Planet like Feed aggregator using Universal Feed Parser and the django webframework
 
-## Discussion {#Discussion}
+## Discussion 
 
-Getting the \"author\"/\"contributor\" out of most [ModWiki](./ModWiki.html){.nonexistent} RSS feeds with the feedparser module is a bit confusing as of now. Right now (feedparser 3.3), it goes into the \"rdf_value\" attribute of the entry.
+Getting the \"author\"/\"contributor\" out of most [ModWiki](./ModWiki.html) RSS feeds with the feedparser module is a bit confusing as of now. Right now (feedparser 3.3), it goes into the \"rdf_value\" attribute of the entry.
 
 ------------------------------------------------------------------------
 
 I\'m moving the following out of the main text:
 
-- [RawDog](./RawDog.html){.nonexistent} is a ready made aggregator if you don\'t want to write your own.
+- [RawDog](./RawDog.html) is a ready made aggregator if you don\'t want to write your own.
 
 Are you concerned that I\'m encouraging people to reduplicate efforts, making aggregator after aggregator after aggregator?
 
@@ -147,7 +152,7 @@ In particular: I wrote the code because I needed a [MoinMoin](MoinMoin) macro th
 
 I imagine that there are other good reasons to write aggregating code.
 
-That said, [RawDog](./RawDog.html){.nonexistent} *is* Python, and it *is* using Feed Parser, so I\'ve linked it at the bottom of the page.
+That said, [RawDog](./RawDog.html) *is* Python, and it *is* using Feed Parser, so I\'ve linked it at the bottom of the page.
 
 \-- [LionKimbro](LionKimbro) 2004-12-27 08:44:40
 
@@ -166,9 +171,9 @@ Similarly, I\'m removing:
 
   - avoid updates on the hour or half hour. Try a random time into the hour, like 27 or 33 or whatever, or poll at an interval like 693 minutes rather than 600, so that only rarely do you poll sites near the hour boundry. It is problematic for sites to get polled by hundreds of aggregators on the hour.
 
-  - be sure to use [HttpConditionalGetRequests](./HttpConditionalGetRequests.html){.nonexistent} and honour content-expires response flags
+  - be sure to use [HttpConditionalGetRequests](./HttpConditionalGetRequests.html) and honour content-expires response flags
 
-  - be sure to support [HttpCompression](./HttpCompression.html){.nonexistent} in the responses.
+  - be sure to support [HttpCompression](./HttpCompression.html) in the responses.
 
 Maybe there\'s some other page on some other wiki where this belongs. I don\'t think that space is here.
 
@@ -180,9 +185,8 @@ This isn\'t really about writing aggregators.
 
 ------------------------------------------------------------------------
 
-Can someone please give a sample of how [FeedParser](./FeedParser.html){.nonexistent} works along with Future Threads to make an RSS AGGREGATOR.
+Can someone please give a sample of how [FeedParser](./FeedParser.html) works along with Future Threads to make an RSS AGGREGATOR.
 
 Manasa
 
 ------------------------------------------------------------------------
-:::::::::::::

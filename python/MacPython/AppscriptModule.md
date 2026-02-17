@@ -1,7 +1,12 @@
 # MacPython/AppscriptModule
 
-::: {#content dir="ltr" lang="en"}
-# What is Appscript? {#What_is_Appscript.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# What is Appscript? 
 
 Appscript is a high-level, user-friendly [MacPython](MacPython)-to-Apple Event Manager bridge that allows you to control scriptable Mac OS X applications using ordinary Python scripts. Appscript makes [MacPython](MacPython) a serious alternative to Apple\'s own [../AppleScript](./MacPython(2f)AppleScript.html) language for automating your Mac.
 
@@ -9,7 +14,7 @@ For example, to get the value of the first paragraph of the topmost document in 
 
     app('TextEdit').documents[1].paragraphs[1].get()
 
-This is equivalent to the [/AppleScript](./MacPython(2f)AppscriptModule(2f)AppleScript.html){.nonexistent} statement:
+This is equivalent to the [/AppleScript](./MacPython(2f)AppscriptModule(2f)AppleScript.html) statement:
 
     get paragraph 1 of document 1 of application "TextEdit"
 
@@ -29,13 +34,13 @@ Appscript builds upon lower-level Python packages (aem, osaterminology) to provi
 
 See:
 
-- [http://appscript.sourceforge.net/](http://appscript.sourceforge.net/){.http}
+- [http://appscript.sourceforge.net/](http://appscript.sourceforge.net/)
 
-# Application scripting notes {#Application_scripting_notes}
+# Application scripting notes 
 
 Pages containing additional information on scripting individual applications:
 
-- [../Apple Mail](./MacPython(2f)Apple(20)Mail.html){.nonexistent}
+- [../Apple Mail](./MacPython(2f)Apple(20)Mail.html)
 
 - [../Audio Hijack Pro](./MacPython(2f)Audio(20)Hijack(20)Pro.html)
 
@@ -47,7 +52,7 @@ Pages containing additional information on scripting individual applications:
 
 - [../Growl](./MacPython(2f)Growl.html)
 
-- [../Illustrator](./MacPython(2f)Illustrator.html){.nonexistent}
+- [../Illustrator](./MacPython(2f)Illustrator.html)
 
 - [../InDesign](./MacPython(2f)InDesign.html)
 
@@ -59,7 +64,7 @@ Pages containing additional information on scripting individual applications:
 
 - [../iTunes](./MacPython(2f)iTunes.html)
 
-- [../iView MediaPro](./MacPython(2f)iView(20)MediaPro.html){.nonexistent}
+- [../iView MediaPro](./MacPython(2f)iView(20)MediaPro.html)
 
 - [../Microsoft Powerpoint](./MacPython(2f)Microsoft(20)Powerpoint.html)
 
@@ -78,4 +83,3 @@ Pages containing additional information on scripting individual applications:
 - [../TextEdit](./MacPython(2f)TextEdit.html)
 
 - [../VoodooPad](./MacPython(2f)VoodooPad.html)
-:::

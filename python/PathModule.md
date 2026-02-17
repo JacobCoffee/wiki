@@ -1,9 +1,14 @@
 # PathModule
 
-::::: {#content dir="ltr" lang="en"}
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8fabdf611d00f40fa92bd36f76b60d095bfc1489 dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+:::: 
+::: 
+``` 
    1 # -*- coding: iso-8859-1 -*-
    2 """ path.py - An object representing a path to a file or directory.
    3 
@@ -547,4 +552,3 @@
 ```
 :::
 ::::
-:::::

@@ -1,11 +1,16 @@
 # SerbianLanguage
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Serbian
 
 ISO 639-1 Code: sr
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -27,31 +32,30 @@ Where these pages really need help:
 
 **Српски**
 
-### Python Tutorial {#Python_Tutorial}
+### Python Tutorial 
 
-- [Uvod](http://domacitutoriali.com/python-uvod){.http}
+- [Uvod](http://domacitutoriali.com/python-uvod)
 
-- [Osnovna sintaksa](http://domacitutoriali.com/python-osnovna-sintaksa){.http}
+- [Osnovna sintaksa](http://domacitutoriali.com/python-osnovna-sintaksa)
 
-- [Promenljive](http://domacitutoriali.com/python-promenljive){.http}
+- [Promenljive](http://domacitutoriali.com/python-promenljive)
 
-- [Osnovni operatori](http://domacitutoriali.com/python-osnovni-operatori){.http}
+- [Osnovni operatori](http://domacitutoriali.com/python-osnovni-operatori)
 
-- [Upravljačke strukture](http://domacitutoriali.com/python-upravljacke-strukture){.http}
+- [Upravljačke strukture](http://domacitutoriali.com/python-upravljacke-strukture)
 
-- [Stringovi](http://domacitutoriali.com/python-stringovi){.http}
+- [Stringovi](http://domacitutoriali.com/python-stringovi)
 
-- [Liste](http://domacitutoriali.com/python-liste){.http}
+- [Liste](http://domacitutoriali.com/python-liste)
 
-- [Tuple](http://domacitutoriali.com/python-tuple){.http}
+- [Tuple](http://domacitutoriali.com/python-tuple)
 
-### Blogs {#Blogs}
+### Blogs 
 
-- [Domaći Tutoriali](http://domacitutoriali.com/taxonomy/term/148){.http}
+- [Domaći Tutoriali](http://domacitutoriali.com/taxonomy/term/148)
 
-- [danilo segan blog](http://danilo.segan.org/blog/python){.http}
+- [danilo segan blog](http://danilo.segan.org/blog/python)
 
-[Википедију](http://sr.wikipedia.org/wiki/Програмски_језик_Пајтон){.http}
+[Википедију](http://sr.wikipedia.org/wiki/Програмски_језик_Пајтон)
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode)
-:::

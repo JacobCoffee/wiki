@@ -1,6 +1,11 @@
 # UsingAssertionsEffectively
 
-::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Python\'s `assert` statement helps you find bugs more quickly and with less pain. This note has some suggestions on good ways to use it.
 
 Here are some observations about debugging:
@@ -15,9 +20,9 @@ Assertions are a systematic way to check that the internal state of a program is
 
 Let me be explicit by giving an example. Suppose we have a simple database-like class which keeps an index from name to a numeric id, and from id to name.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-b2601399fa1b97b7b2144208bfe370cd31409d0a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1   class MyDB:
    2     def __init__(self):
    3       self._id2name_map = {}
@@ -39,9 +44,9 @@ The symptoms are likely to be pretty confusing: code that uses the file will see
 
 A good place to add assertions to this class would be to check that the data-structure invariants are correct. For example:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-5155d57d31d46ae18b2704a9e8ddff68cac2633a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     def by_name(self, name):
    2       id = self._name2id_map[name]
    3       assert self._id2name_map[id] == name
@@ -56,9 +61,9 @@ Assertions are particularly useful in Python because of Python\'s powerful and f
 
 For example:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c6ae7e897599d7ed5ed50f5b191ba373b00ee4ee dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1   from types import *
    2   class MyDB:
    3     ...
@@ -75,9 +80,9 @@ If you\'ve been feeling (understandably) nervous about lack of parameter type ch
 
 You can also do this for classes, though the expression is a bit different.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a131fd7a7f9f561f9a911c57824ffe594b3637e1 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1   class PrintQueueList:
    2     ...
    3     def add(self, new_queue):
@@ -108,9 +113,8 @@ Assertions are not a substitute for unit tests or system tests, but rather a com
 
 Assertions should \*not\* be used to test for failure cases that can occur because of bad user input or operating system/environment failures, such as a file not being found. Instead, you should raise an exception, or print an error message, or whatever is appropriate. One important reason why assertions should only be used for self-tests of the program is that assertions can be disabled at compile time.
 
-If Python is started with the -O option, then assertions will be stripped out and not evaluated. So if code uses assertions heavily, but is performance-critical, then there is a system for turning them off in release builds. (But don\'t do this unless it\'s really necessary. It\'s been scientifically proven that some bugs only show up when a customer uses the machine and we want assertions to help there too. ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"} )
+If Python is started with the -O option, then assertions will be stripped out and not evaluated. So if code uses assertions heavily, but is performance-critical, then there is a system for turning them off in release builds. (But don\'t do this unless it\'s really necessary. It\'s been scientifically proven that some bugs only show up when a customer uses the machine and we want assertions to help there too. ![:-)](/wiki/europython/img/smile.png ":-)") )
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-:::::::::::

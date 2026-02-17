@@ -1,17 +1,21 @@
 # ApacPyConWiki
 
-::: {#content dir="ltr" lang="en"}
-Moved to [PyConAPAC](https://wiki.python.org/moin/PyConAPAC){.https}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Planning Page for Apac Pycon 2012 {#Planning_Page_for_Apac_Pycon_2012}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-### Things in Progress {#Things_in_Progress}
+Moved to [PyConAPAC](https://wiki.python.org/moin/PyConAPAC)
 
-### Call for papers {#Call_for_papers}
+## Planning Page for Apac Pycon 2012 
+
+### Things in Progress 
+
+### Call for papers 
 
 === Call for tutorials ===
 
 === T-Shirt design ===
 
 === Registration to Open soon ===
-:::

@@ -1,9 +1,14 @@
 # WikiAttack2013
 
-::: {#content dir="ltr" lang="en"}
-# Wiki Attack January 2013 {#Wiki_Attack_January_2013}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Summary {#Summary}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Wiki Attack January 2013 
+
+## Summary 
 
 The python.org wikis for Python, Jython and the Python Software Foundation (PSF) were subject to a security breach and later attack which caused all of the wiki data to be destroyed on January 5 2013.
 
@@ -17,17 +22,17 @@ If you have created new accounts after June 24 2012, those accounts will no long
 
 Moving forward, we will no longer allow changing wiki pages without login and have put additional security measures in place to prevent attacks like the one we came under. The PSF has also funded the change of the [MoinMoin](MoinMoin) code base to include support for the passlib library, which provides much better means of protecting password information on the server than the SHA-1 based hash scheme used before [MoinMoin](MoinMoin) 1.9.6. This new support will be available in [MoinMoin](MoinMoin) 1.9.7.
 
-Please report any problems you find with the wiki to the [mailto:pydotorg-www@python.org](mailto:pydotorg-www@python.org){.mailto} mailing list.
+Please report any problems you find with the wiki to the [mailto:pydotorg-www@python.org](mailto:pydotorg-www@python.org) mailing list.
 
-## Attack Analysis {#Attack_Analysis}
+## Attack Analysis 
 
 In the week of January 14 2013, we ran a longer analysis of the attack on the wiki VM. This is a summary of the things we found.
 
 The attack used on the wiki was apparently the same as the one which hit Debian:
 
-- [http://wiki.debian.org/DebianWiki/SecurityIncident2012](http://wiki.debian.org/DebianWiki/SecurityIncident2012){.http}
+- [http://wiki.debian.org/DebianWiki/SecurityIncident2012](http://wiki.debian.org/DebianWiki/SecurityIncident2012)
 
-Someone used the [https://security-tracker.debian.org/tracker/CVE-2012-6081](https://security-tracker.debian.org/tracker/CVE-2012-6081){.https} vulnerability to upload an action plugin to the server called moinexec.py, which was then subsequently used to run commands on the moin user account.
+Someone used the [https://security-tracker.debian.org/tracker/CVE-2012-6081](https://security-tracker.debian.org/tracker/CVE-2012-6081) vulnerability to upload an action plugin to the server called moinexec.py, which was then subsequently used to run commands on the moin user account.
 
 The few logs that were still accessible showed that someone tried sudo on Dec 28 2012, but without success.
 
@@ -39,11 +44,11 @@ Of course, without the moin user files available, getting a better picture of wh
 
 We were subsequently approached by the person who ran the rm -r \*, so we know now that the original attack was performed by different people, most probably the same that attacked the Debian wiki. It is also obvious that the people who installed the plugin, had different intentions than causing easy to detect damage on the system.
 
-Since the logs on the VM only go back 5 ![(!)](/wiki/europython/img/idea.png "(!)"){height="16" width="16"} days for server web logs and 7 ![(!)](/wiki/europython/img/idea.png "(!)"){height="16" width="16"} days for system logs, it was impossible to determine the amount of information leakage caused by the attack.
+Since the logs on the VM only go back 5 ![(!)](/wiki/europython/img/idea.png "(!)") days for server web logs and 7 ![(!)](/wiki/europython/img/idea.png "(!)") days for system logs, it was impossible to determine the amount of information leakage caused by the attack.
 
 It is likely that the passwords and user configuration details were inspected in the same way as was done for the Debian wiki.
 
-## Content Recovery {#Content_Recovery}
+## Content Recovery 
 
 Since we were not in the comfortable position to use a backup for restoring the wiki content (our most recent backup dates back to June 24 2012), we tried to get as much information from archive.org, the Google cache and the Yahoo/Bing cache as possible.
 
@@ -59,7 +64,7 @@ Still, the restored files do contain pages that were not available in the archiv
 
 Additionally, none of the newer attachments to wiki pages could be restored.
 
-## Content Restoration {#Content_Restoration}
+## Content Restoration 
 
 In the week of January 21, we then continued the work to prepare the archive downloads for reintegration into the wiki.
 
@@ -71,23 +76,23 @@ We then setup a new VM for the wiki and configured it to use the newly added pas
 
 Note that as part of the recovery process, some pages were changed from ReST markup to wiki markup. This is due to the fact that the restore process via the HTML archive dumps always creates wiki markup.
 
-## Wiki Cleanup {#Wiki_Cleanup}
+## Wiki Cleanup 
 
 After the recovery step, we ran a wiki cleanup. This means that \"empty\" and deleted pages were moved out of the way.
 
 We also changed the user preference settings from the old \"python\" theme to the current \"europython\" theme, which is also used for all new accounts.
 
-## Moving to HTTPS {#Moving_to_HTTPS}
+## Moving to HTTPS 
 
 We have enabled HTTPS access to the wiki to further enhance security and avoid having to send clear text passwords over the network in order to log in to the wikis.
 
-If you have not been using HTTPS links to the wiki login page yet, please be advised that your password may have been sniffed on the network at e.g. a conference. It is best to [change it again](./WikiAttack2013.html?action=userprefs){.action} and stop using HTTP links to the wiki login page.
+If you have not been using HTTPS links to the wiki login page yet, please be advised that your password may have been sniffed on the network at e.g. a conference. It is best to [change it again](./WikiAttack2013.html?action=userprefs) and stop using HTTP links to the wiki login page.
 
-## Next Steps {#Next_Steps}
+## Next Steps 
 
 After the official moin 1.9.7 release, we will switch from the current moin checkout we\'re using to the official release.
 
-## Timeline {#Timeline}
+## Timeline 
 
 - 2012-07-24: Likely date of the original exploit installation
 
@@ -97,7 +102,7 @@ After the official moin 1.9.7 release, we will switch from the current moin chec
 
 - 2013-01-25: New wiki server switched online in test mode
 
-- 2013-03-24: Enabled experimental [https://wiki.python.org/](https://wiki.python.org/){.https} service
+- 2013-03-24: Enabled experimental [https://wiki.python.org/](https://wiki.python.org/) service
 
 - 2013-07-30: Enabled redirect from HTTP URLs to HTTPS URLs; doesn\'t work yet, due to LB problems.
 
@@ -105,7 +110,7 @@ After the official moin 1.9.7 release, we will switch from the current moin chec
 
 - 2013-09-04: HTTPS configuration is now complete. Added HSTS headers to all outgoing requests.
 
-## Credits {#Credits}
+## Credits 
 
 These people have put in significant work to get the wiki back online (in alphabetical order).
 
@@ -118,4 +123,3 @@ These people have put in significant work to get the wiki back online (in alphab
 - Thomas Waldmann (adding passlib support to [MoinMoin](MoinMoin), help with the configuration)
 
 \-- Python Software Foundation
-:::

@@ -1,7 +1,12 @@
 # HomepageVorlage
 
-::: {#content dir="ltr" lang="de"}
-# \@ME@ {#A.40ME.40}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# \@ME@ 
 
 E-Mail: `<vorname DOT nachname AT SPAMFREE example DOT net>`
 
@@ -10,4 +15,3 @@ E-Mail: `<vorname DOT nachname AT SPAMFREE example DOT net>`
 ------------------------------------------------------------------------
 
 [KategorieHomepage](KategorieHomepage)
-:::

@@ -1,11 +1,16 @@
 # MarathiLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python information in Marathi.
 
 ISO 639-1 Code: mr
 
-**मराठी** [1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+**मराठी** [1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -25,11 +30,11 @@ Where these pages really need help:
 
 मराठी भाषेतील पाइथन (Python) पृष्ठ। मध्ये आपले स्वागत आहे.
 
-[code snippet provided by vid]{.comment style="display:none"}
+[code snippet provided by vid]
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-037d16ad67157ca3cbc54addbbfb1b953712f186 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def Namaste('विद्या'):
    2  sAngA = "Namaste, {0}. आपण कसे आहात ?".format('Vidya')
    3  print(to_say)
@@ -41,13 +46,12 @@ Where these pages really need help:
 :::
 ::::
 
-[Marathi-language Wikipedia page for help]{.comment style="display:none"} [http://mr.wikipedia.org/wiki/विकिपीडिआ_साहाय्य:Setup_For_Devanagari](http://mr.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%86_%E0%A4%B8%E0%A4%BE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A5%8D%E0%A4%AF:Setup_For_Devanagari){.http}
+[Marathi-language Wikipedia page for help] [http://mr.wikipedia.org/wiki/विकिपीडिआ_साहाय्य:Setup_For_Devanagari](http://mr.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%86_%E0%A4%B8%E0%A4%BE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A5%8D%E0%A4%AF:Setup_For_Devanagari)
 
-### Blogs {#Blogs}
+### Blogs 
 
-- [techmarathi](http://techmarathi.com/java-%E0%A4%AA%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE-python-%E0%A4%95%E0%A4%BE-%E0%A4%9A%E0%A4%BE%E0%A4%82%E0%A4%97%E0%A4%B2%E0%A5%80){.http} - comparison of Java and Python
+- [techmarathi](http://techmarathi.com/java-%E0%A4%AA%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE-python-%E0%A4%95%E0%A4%BE-%E0%A4%9A%E0%A4%BE%E0%A4%82%E0%A4%97%E0%A4%B2%E0%A5%80) - comparison of Java and Python
 
 ------------------------------------------------------------------------
 
 [CategoryLanguage](CategoryLanguage) [CategoryPythonIndia](CategoryPythonIndia) [CategoryUnicode](CategoryUnicode)
-:::::

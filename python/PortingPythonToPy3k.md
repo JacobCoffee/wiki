@@ -1,7 +1,12 @@
 # PortingPythonToPy3k
 
-:::::::::::::::::::: {#content dir="ltr" lang="en"}
-::: {.admonition .caution}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+::: 
 Caution!
 
 **Python 2.x will no longer be supported after 1 Jan 2020.**
@@ -9,18 +14,18 @@ Caution!
 Python 2 reaches end of life in January 2020, and will no longer receive security updates. This page has resources to help with porting applications still running Python 2 to Python 3.
 :::
 
-:::::::::::::::::: {#porting-python-code-to-3-x .section}
+:::::::::::::::::: 
 ### Porting Python Code to 3.x
 
 There are three ways to support Python 3:
 
 1.  make code run unmodified in both Python 2 and Python 3
-2.  maintain a Python 2 base and use [2to3](2to3){.reference .external} to generate Python 3 code
-3.  maintain a Python 3 base and use [3to2](3to2){.reference .external} to generate Python 2 code
+2.  maintain a Python 2 base and use [2to3](2to3) to generate Python 3 code
+3.  maintain a Python 3 base and use [3to2](3to2) to generate Python 2 code
 
-Each approach has its strengths and weaknesses. Beyond this document, the approaches are also discussed in the official [HOWTO on porting Python 2 code to Python 3](http://docs.python.org/py3k/howto/pyporting.html){.http .reference .external}.
+Each approach has its strengths and weaknesses. Beyond this document, the approaches are also discussed in the official [HOWTO on porting Python 2 code to Python 3](http://docs.python.org/py3k/howto/pyporting.html).
 
-::::::::: {#approach-1-make-code-run-unmodified-in-both-python-2-and-python-3 .section}
+::::::::: 
 #### Approach 1: Make code run unmodified in both Python 2 and Python 3
 
 Supporting code that runs in both Python 2.6 and Python 3 is now not much more difficult than porting to Python 3 and leaving behind Python 2.6.
@@ -32,17 +37,17 @@ Python 2.6 and 2.7 provide forward-compatibility for some of the new syntax in P
 
 Beyond `__future__` imports, two 3rd-party packages that greatly ease the task of supporting both Python 2 and Python 3 in a single codebase are:
 
-- [future](http://python-future.org){.http .reference .external}. future makes it possible to support both Python versions from one clean, hack-free codebase.
-- [six](http://pythonhosted.org/six/){.http .reference .external}. six is a thinner layer that also supports older versions\--like 2.3, 2.4, and 2.5\--which is very awkward without six.
+- [future](http://python-future.org). future makes it possible to support both Python versions from one clean, hack-free codebase.
+- [six](http://pythonhosted.org/six/). six is a thinner layer that also supports older versions\--like 2.3, 2.4, and 2.5\--which is very awkward without six.
 
-For more information about the many forward-compatibility features that were added in Python 2.6 and Python 2.7, see these pages: [What\'s New in Python 2.6](http://docs.python.org/whatsnew/2.6.html){.http .reference .external} and [What\'s New in Python 2.7](http://docs.python.org/whatsnew/2.7.html){.http .reference .external}.
+For more information about the many forward-compatibility features that were added in Python 2.6 and Python 2.7, see these pages: [What\'s New in Python 2.6](http://docs.python.org/whatsnew/2.6.html) and [What\'s New in Python 2.7](http://docs.python.org/whatsnew/2.7.html).
 
-::: {#strings-and-unicode .section}
+::: 
 ##### Strings and Unicode
 
-As of Python 2.6 the 2.x line includes a \"bytes = str\" alias in the builtins. Along with the bytes literal syntax, this allows binary data stored in a `str` instance to be clearly flagged so that it will use the correct type when the code is run in 3.x (either directly or via the [2to3](2to3){.reference .external} conversion tool). The reason it is done this way rather than backporting the 3.x `bytes` type is that most 2.x APIs that expect immutable binary data expect it as an 8-bit `str` instance.
+As of Python 2.6 the 2.x line includes a \"bytes = str\" alias in the builtins. Along with the bytes literal syntax, this allows binary data stored in a `str` instance to be clearly flagged so that it will use the correct type when the code is run in 3.x (either directly or via the [2to3](2to3) conversion tool). The reason it is done this way rather than backporting the 3.x `bytes` type is that most 2.x APIs that expect immutable binary data expect it as an 8-bit `str` instance.
 
-[future](http://python-future.org){.http .reference .external} solves this problem by providing [backports](http://python-future.org/what_else.html#bytes){.http .reference .external} of the `bytes` and `str` objects from Python 3 that inherit from Python 2\'s `str` and `unicode` objects, respectively.
+[future](http://python-future.org) solves this problem by providing [backports](http://python-future.org/what_else.html#bytes) of the `bytes` and `str` objects from Python 3 that inherit from Python 2\'s `str` and `unicode` objects, respectively.
 
 To support versions earlier than 2.6, it is possible to define the alias at the top of the module:
 
@@ -59,10 +64,10 @@ When using \"from \_\_future\_\_ import unicode_literals\" in a module, it may a
       pass # Forward compatibility with Py3k
 :::
 
-::::: {#supporting-older-python-versions .section}
+::::: 
 ##### Supporting older Python versions
 
-::: {#print-statement-function .section}
+::: 
 ###### Print Statement/Function
 
 Since `print` is a statement in Python 2 and a function in Python 3, the `print` statement cannot be used in code that runs in both Python 2.5 and Python 3.
@@ -82,7 +87,7 @@ with this:
     sys.stdout.write('hello world\n')
 :::
 
-::: {#exceptions .section}
+::: 
 ###### Exceptions
 
 Python 2.6 introduced the `as` keyword for exceptions which is used in Python 3:
@@ -102,7 +107,7 @@ Python versions \<2.6, which do not support the `as` keyword, have incompatible 
 :::
 :::::
 
-::: {#relative-imports .section}
+::: 
 ##### Relative Imports
 
 Python 3 makes a distinction between relative and absolute imports, dropping support for implicit relative imports. In Python 2.5+, use `from __future__ import absolute_import` to get the same behavior as Python 3. To support older versions as well, only use absolute imports. Replace a relative import:
@@ -114,29 +119,29 @@ with an absolute import:
     from mypackage.xyz import abc
 :::
 
-::: {#integer-division .section}
+::: 
 ##### Integer Division
 
 Make sure to use from \_\_future\_\_ import division (introduced in Python 2.2) to get the non-truncating behavior, which is default in Python 3.
 :::
 :::::::::
 
-::: {#additional-resources .section}
+::: 
 #### Additional resources
 
-- [http://stromberg.dnsalias.org/\~dstromberg/Intro-to-Python/](http://stromberg.dnsalias.org/~dstromberg/Intro-to-Python/){.http .reference .external}
+- [http://stromberg.dnsalias.org/\~dstromberg/Intro-to-Python/](http://stromberg.dnsalias.org/~dstromberg/Intro-to-Python/)
 :::
 
-:::: {#approach-2-maintain-a-python-2-base-and-use-2to3-to-generate-python-3-code .section}
+:::: 
 #### Approach 2: Maintain a Python 2 base and use 2to3 to generate Python 3 code
 
-Make sure the code runs in Python 2.6 and use [2to3](2to3){.reference .external}
+Make sure the code runs in Python 2.6 and use [2to3](2to3)
 
 This approach does *not* require that support for versions before 2.6 needs to be dropped. Even the need to test with 2.6 is not strict - one could just as well use this approach on code that has never been tested with 2.6, and is only known to work on 2.5.
 
-[2to3](2to3){.reference .external} is a Python program that reads Python 2.x source code and applies a series of fixers to transform it into valid Python 3.x code. The standard library contains a rich set of fixers that will handle almost all code. [2to3](2to3){.reference .external} supporting library *lib2to3* is, however, a flexible and generic library, so it is possible to write your own fixers for [2to3](2to3){.reference .external}. *lib2to3* could also be adapted to custom applications in which Python code needs to be edited automatically. For more information about [2to3](2to3){.reference .external}, see: [http://doc.python.org/library/2to3.html](http://doc.python.org/library/2to3.html){.http .reference .external}
+[2to3](2to3) is a Python program that reads Python 2.x source code and applies a series of fixers to transform it into valid Python 3.x code. The standard library contains a rich set of fixers that will handle almost all code. [2to3](2to3) supporting library *lib2to3* is, however, a flexible and generic library, so it is possible to write your own fixers for [2to3](2to3). *lib2to3* could also be adapted to custom applications in which Python code needs to be edited automatically. For more information about [2to3](2to3), see: [http://doc.python.org/library/2to3.html](http://doc.python.org/library/2to3.html)
 
-Usage of [2to3](2to3){.reference .external} can be integrated into the installation process: [2to3](2to3){.reference .external} can be run as a build step in distutils. With distutils, the following fragments are needed in a setup.py:
+Usage of [2to3](2to3) can be integrated into the installation process: [2to3](2to3) can be run as a build step in distutils. With distutils, the following fragments are needed in a setup.py:
 
     try:
         from distutils.command.build_py import build_py_2to3 as build_py
@@ -160,12 +165,12 @@ For distribute, this approach can be expressed as:
       use_2to3=True
     )
 
-Manual changes (not done by [2to3](2to3){.reference .external}):
+Manual changes (not done by [2to3](2to3)):
 
-- os.path.walk =\> os.walk: see [issue4601](http://bugs.python.org/issue4601){.http .reference .external}.
+- os.path.walk =\> os.walk: see [issue4601](http://bugs.python.org/issue4601).
 - rfc822 =\> email
 
-::: {#strings-and-bytes .section}
+::: 
 ##### Strings and Bytes
 
 Design decisions needs to be taken what exactly must be represented as bytes, and what as strings (Unicode data). In many cases, this is easy. However, data sent or received over pipes or sockets are usually in binary mode, so explicit conversions may be necessary. For example, the Postgres API requires SQL queries to be transmitted in the connection encoding. It is probably easiest to convert the queries to the connection encoding as early as possible.
@@ -179,63 +184,62 @@ The flush() clears out any text (unicode) data that is stored in the TextIOWrapp
 :::
 ::::
 
-::: {#approach-3-maintain-a-python-3-base-and-use-3to2-or-futurize-to-generate-python-2-code .section}
+::: 
 #### Approach 3: Maintain a Python 3 base and use 3to2 or futurize to generate Python 2 code
 
-3to2 is a tool to help with automatically converting Python 3-only code into Python 2-only code. See [3to2](3to2){.reference .external}.
+3to2 is a tool to help with automatically converting Python 3-only code into Python 2-only code. See [3to2](3to2).
 
-An alternative is to use the `futurize` script from the [future](http://python-future.org){.http .reference .external} package with the [\--from3](http://python-future.org/automatic_conversion.html#backwards-3-to-both){.http .reference .external} option. This extends 3to2 by adding imports from the future package to provide Python 2 compatibility from the same codebase.
+An alternative is to use the `futurize` script from the [future](http://python-future.org) package with the [\--from3](http://python-future.org/automatic_conversion.html#backwards-3-to-both) option. This extends 3to2 by adding imports from the future package to provide Python 2 compatibility from the same codebase.
 :::
 
-:::::: {#id3 .section}
+:::::: 
 #### Additional resources
 
-- [http://python-future.org](http://python-future.org){.http .reference .external}
-- [http://diveintopython3.org/porting-code-to-python-3-with-2to3.html](http://diveintopython3.org/porting-code-to-python-3-with-2to3.html){.http .reference .external}
-- [http://packages.python.org/distribute/python3.html](http://packages.python.org/distribute/python3.html){.http .reference .external}
-- [http://lucumr.pocoo.org/2010/2/11/porting-to-python-3-a-guide](http://lucumr.pocoo.org/2010/2/11/porting-to-python-3-a-guide){.http .reference .external}
-- [http://lucumr.pocoo.org/2011/1/22/forwards-compatible-python/](http://lucumr.pocoo.org/2011/1/22/forwards-compatible-python/){.http .reference .external}
-- [http://techspot.zzzeek.org/2011/01/24/zzzeek-s-guide-to-python-3-porting](http://techspot.zzzeek.org/2011/01/24/zzzeek-s-guide-to-python-3-porting){.http .reference .external}
-- [https://pythonconverter.com](https://pythonconverter.com){.https .reference .external}
-- Consultants available to hire for Python 2 support and migration: [https://wiki.python.org/moin/PythonConsulting/Python%202%20support%20and%20migration](https://wiki.python.org/moin/PythonConsulting/Python%202%20support%20and%20migration){.https .reference .external}
-- Projects that need to continue using 2.7 can use a fork that promises to preserve backwards compatibility like [Tauthon](https://github.com/naftaliharris/tauthon){.https .reference .external}
-- [Porting Py65 (and my Superboard) to Python 3](http://dabeaz.blogspot.com/2011/01/porting-py65-and-my-superboard-to.html){.http .reference .external} - 19 Jan 2011
-- [Supporting Python 3: An in-depth guide - Migrating Strategies](http://python3porting.com/strategies.html){.http .reference .external}
-- [\"Moving to Python 3\"](http://lwn.net/Articles/426906/){.http .reference .external} - LWN.net, 9 Feb 2011.
+- [http://python-future.org](http://python-future.org)
+- [http://diveintopython3.org/porting-code-to-python-3-with-2to3.html](http://diveintopython3.org/porting-code-to-python-3-with-2to3.html)
+- [http://packages.python.org/distribute/python3.html](http://packages.python.org/distribute/python3.html)
+- [http://lucumr.pocoo.org/2010/2/11/porting-to-python-3-a-guide](http://lucumr.pocoo.org/2010/2/11/porting-to-python-3-a-guide)
+- [http://lucumr.pocoo.org/2011/1/22/forwards-compatible-python/](http://lucumr.pocoo.org/2011/1/22/forwards-compatible-python/)
+- [http://techspot.zzzeek.org/2011/01/24/zzzeek-s-guide-to-python-3-porting](http://techspot.zzzeek.org/2011/01/24/zzzeek-s-guide-to-python-3-porting)
+- [https://pythonconverter.com](https://pythonconverter.com)
+- Consultants available to hire for Python 2 support and migration: [https://wiki.python.org/moin/PythonConsulting/Python%202%20support%20and%20migration](https://wiki.python.org/moin/PythonConsulting/Python%202%20support%20and%20migration)
+- Projects that need to continue using 2.7 can use a fork that promises to preserve backwards compatibility like [Tauthon](https://github.com/naftaliharris/tauthon)
+- [Porting Py65 (and my Superboard) to Python 3](http://dabeaz.blogspot.com/2011/01/porting-py65-and-my-superboard-to.html) - 19 Jan 2011
+- [Supporting Python 3: An in-depth guide - Migrating Strategies](http://python3porting.com/strategies.html)
+- [\"Moving to Python 3\"](http://lwn.net/Articles/426906/) - LWN.net, 9 Feb 2011.
 
-::: {#martin-s-notes-from-psycopg2 .section}
+::: 
 ##### Martin\'s notes from psycopg2
 
 - the buffer object is gone; I use memoryview in 3.x.
 - various tests where in the code of the form if version_major == and version_minor \> 4 (say, or 5) This will break for 3.x; you have to write if (version_major == 2 and version_minor \> 4) or version_major \> 2
 - Python code 2: setup.py needs to run in both versions. I had to replace popen2 with subprocess if available. Also, map() now returns an iterator, which I explicitly convert into list, and so on.
-- Python code 3: the test suite doesn\'t get installed, and hence not auto-converted with [2to3](2to3){.reference .external} support. I explicitly added a [2to3](2to3){.reference .external} conversion into the test runner, which copies the py3 version of the test into a separate directory.
+- Python code 3: the test suite doesn\'t get installed, and hence not auto-converted with [2to3](2to3) support. I explicitly added a [2to3](2to3) conversion into the test runner, which copies the py3 version of the test into a separate directory.
 :::
 
-::: {#differences-in-specific-libraries .section}
+::: 
 ##### Differences in specific libraries
 
 These are porting notes on differences in third party libraries when run on Python 2 and Python 3.
 
-- [PyQt4](./PortingPythonToPy3k(2f)PyQt4.html){.reference .external}
+- [PyQt4](./PortingPythonToPy3k(2f)PyQt4.html)
 :::
 
-::: {#more-links .section}
+::: 
 ##### More links
 
-- a bunch of very useful reference code: [http://code.google.com/p/python-incompatibility/](http://code.google.com/p/python-incompatibility/){.http .reference .external}
-- [PortingDjangoTo3k](PortingDjangoTo3k){.reference .external}
-- [Porting Durus / QP / Qpy / Dulcinea, using approach targeting Python 2 and Python 3 off same code base](http://mail.mems-exchange.org/durusmail/qp/441/){.http .reference .external} - packages released but not in pypi yet.
-- [Early2to3Migrations](Early2to3Migrations){.reference .external}
-- [Stephan Deibel\'s blog post on code usable from Python 2.0 through 3.0](http://pythonology.blogspot.com/2009/02/making-code-run-on-python-20-through-30.html){.http .reference .external}
-- [Python code that demonstrates differences between 2.5 and 3.0, and ways of making the same code run on 2.6 and 3.x](http://python-incompatibility.googlecode.com/){.http .reference .external}
-- Georg Brandl\'s blog post collecting some information: [http://pythonic.pocoo.org/2008/12/14/python-3-porting-resources](http://pythonic.pocoo.org/2008/12/14/python-3-porting-resources){.http .reference .external}
-- A blog post about porting experience: [psycopg2 porting to Python 3: a report](http://initd.org/psycopg/articles/2011/01/24/psycopg2-porting-python-3-report/){.http .reference .external}
-- Reference Card: Moving from Python 2 to Python 3: [http://ptgmedia.pearsoncmg.com/imprint_downloads/informit/promotions/python/python2python3.pdf](http://ptgmedia.pearsoncmg.com/imprint_downloads/informit/promotions/python/python2python3.pdf){.http .reference .external}
-- [Lennart Regebro\'s overview of Porting strategies](http://python3porting.com/strategies.html){.http .reference .external}
-- [Dropbox\' migration to Python 3](https://blogs.dropbox.com/tech/2018/09/how-we-rolled-out-one-of-the-largest-python-3-migrations-ever/){.https .reference .external}
-- [Instagram\'s migration to Python 3](https://thenewstack.io/instagram-makes-smooth-move-python-3/){.https .reference .external}
+- a bunch of very useful reference code: [http://code.google.com/p/python-incompatibility/](http://code.google.com/p/python-incompatibility/)
+- [PortingDjangoTo3k](PortingDjangoTo3k)
+- [Porting Durus / QP / Qpy / Dulcinea, using approach targeting Python 2 and Python 3 off same code base](http://mail.mems-exchange.org/durusmail/qp/441/) - packages released but not in pypi yet.
+- [Early2to3Migrations](Early2to3Migrations)
+- [Stephan Deibel\'s blog post on code usable from Python 2.0 through 3.0](http://pythonology.blogspot.com/2009/02/making-code-run-on-python-20-through-30.html)
+- [Python code that demonstrates differences between 2.5 and 3.0, and ways of making the same code run on 2.6 and 3.x](http://python-incompatibility.googlecode.com/)
+- Georg Brandl\'s blog post collecting some information: [http://pythonic.pocoo.org/2008/12/14/python-3-porting-resources](http://pythonic.pocoo.org/2008/12/14/python-3-porting-resources)
+- A blog post about porting experience: [psycopg2 porting to Python 3: a report](http://initd.org/psycopg/articles/2011/01/24/psycopg2-porting-python-3-report/)
+- Reference Card: Moving from Python 2 to Python 3: [http://ptgmedia.pearsoncmg.com/imprint_downloads/informit/promotions/python/python2python3.pdf](http://ptgmedia.pearsoncmg.com/imprint_downloads/informit/promotions/python/python2python3.pdf)
+- [Lennart Regebro\'s overview of Porting strategies](http://python3porting.com/strategies.html)
+- [Dropbox\' migration to Python 3](https://blogs.dropbox.com/tech/2018/09/how-we-rolled-out-one-of-the-largest-python-3-migrations-ever/)
+- [Instagram\'s migration to Python 3](https://thenewstack.io/instagram-makes-smooth-move-python-3/)
 :::
 ::::::
 ::::::::::::::::::
-::::::::::::::::::::

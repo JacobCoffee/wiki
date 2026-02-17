@@ -1,9 +1,14 @@
 # Attendee Notes
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Addenda to Attendee Notes for PyCon 2008
 
-This page is for addenda to the [Attendee Notes](http://us.pycon.org/2008/about/notes/){.http .reference .external} page on the [PyCon web site](http://us.pycon.org/){.http .reference .external}.
+This page is for addenda to the [Attendee Notes](http://us.pycon.org/2008/about/notes/) page on the [PyCon web site](http://us.pycon.org/).
 
 Please edit this page with your suggested changes below. This page is monitored and the main page will be updated regularly.
 
@@ -11,7 +16,7 @@ Thanks!
 
 ------------------------------------------------------------------------
 
-Can you add a link to the [Facebook Group](http://www.facebook.com/group.php?gid=78464525183){.http .reference .external} for PyCon\'09 in Social Software section?
+Can you add a link to the [Facebook Group](http://www.facebook.com/group.php?gid=78464525183) for PyCon\'09 in Social Software section?
 
 ------------------------------------------------------------------------
 
@@ -41,5 +46,4 @@ For those international travellers arriving at O\'Hare Terminal 5, the hotel shu
 
 ------------------------------------------------------------------------
 
-[CategoryPyConPlanning](CategoryPyConPlanning){.reference .external}
-:::
+[CategoryPyConPlanning](CategoryPyConPlanning)

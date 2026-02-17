@@ -1,6 +1,11 @@
 # PackagingWG/2020-07-01-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **Teamwide meeting**
 
 (These notes have been edited for clarity.)
@@ -25,7 +30,7 @@
     - TODO: Sumana set up invite for Friday 10am \-- DONE
     - Georgia can help with editing/feedback after
 - new resolver enable/disable flag
-  - [https://github.com/pypa/pip/issues/8371](https://github.com/pypa/pip/issues/8371){.https} & [https://python.zulipchat.com/#narrow/stream/218659-pip-development/topic/UX.3A.20What.20flag.20will.20users.20use.20to.20call.20the.20new.20resolver.3F.20%28.23.2E.2E.2E/near/202548182](https://python.zulipchat.com/#narrow/stream/218659-pip-development/topic/UX.3A.20What.20flag.20will.20users.20use.20to.20call.20the.20new.20resolver.3F.20%28.23.2E.2E.2E/near/202548182){.https}
+  - [https://github.com/pypa/pip/issues/8371](https://github.com/pypa/pip/issues/8371) & [https://python.zulipchat.com/#narrow/stream/218659-pip-development/topic/UX.3A.20What.20flag.20will.20users.20use.20to.20call.20the.20new.20resolver.3F.20%28.23.2E.2E.2E/near/202548182](https://python.zulipchat.com/#narrow/stream/218659-pip-development/topic/UX.3A.20What.20flag.20will.20users.20use.20to.20call.20the.20new.20resolver.3F.20%28.23.2E.2E.2E/near/202548182)
 
   - TBD: naming + timeline of removal of \--unstable-feature
 
@@ -36,7 +41,7 @@
   - TODO: Nicole to add this decision to GitHub issue
 
   - TODO: Nicole to add documentation of \"here\'s how we do release flags\" to developer docs. 
-    - Suggestion: probably in [https://pip.pypa.io/en/latest/development/release-process/](https://pip.pypa.io/en/latest/development/release-process/){.https} ? (next to deprecation policy)
+    - Suggestion: probably in [https://pip.pypa.io/en/latest/development/release-process/](https://pip.pypa.io/en/latest/development/release-process/) ? (next to deprecation policy)
 
     - Pradyun: when we add developer docs???? about release flags, belongs near deprecation policy
 
@@ -66,7 +71,7 @@
         - Sumana: it might come up
         - in writeup, maybe expand on decisionmaking
 - beta? and timing of release
-  - [https://github.com/pypa/pip/issues/8206](https://github.com/pypa/pip/issues/8206){.https} says \"early July\" now
+  - [https://github.com/pypa/pip/issues/8206](https://github.com/pypa/pip/issues/8206) says \"early July\" now
 
   - Either:
     - 1\. make an early July beta release, get feedback from it, and then do a late July release of 20.2
@@ -77,9 +82,9 @@
 
   - Nicole: prefer the second which gives us more time for user testing
 
-  - Pradyun: we have a explicitly documented relesaes policy saying we can do a beta [https://pip.pypa.io/en/stable/development/release-process/](https://pip.pypa.io/en/stable/development/release-process/){.https} . this fits with that. Also lets us use that with other pip stuff\... the setup.py change that ? wants to make? both are good, but have a slight preference for approach 1 \.... more used to in terms of prcess.
+  - Pradyun: we have a explicitly documented relesaes policy saying we can do a beta [https://pip.pypa.io/en/stable/development/release-process/](https://pip.pypa.io/en/stable/development/release-process/) . this fits with that. Also lets us use that with other pip stuff\... the setup.py change that ? wants to make? both are good, but have a slight preference for approach 1 \.... more used to in terms of prcess.
 
-    - [https://github.com/pypa/pip/issues/7628](https://github.com/pypa/pip/issues/7628){.https} Pradyun mentioned wanting long beta cycles
+    - [https://github.com/pypa/pip/issues/7628](https://github.com/pypa/pip/issues/7628) Pradyun mentioned wanting long beta cycles
 
       - but: we have good capacity to do a communication push around this beta, and we\'ve advertised it in general that we will do this.
 
@@ -101,7 +106,7 @@
 
   - Nicole: #8346 and #8492 \-- would be nice if we could get those done before we make resovler the default.
 
-  - [https://github.com/pypa/pip/issues/8346](https://github.com/pypa/pip/issues/8346){.https} & [https://github.com/pypa/pip/issues/8492](https://github.com/pypa/pip/issues/8492){.https}
+  - [https://github.com/pypa/pip/issues/8346](https://github.com/pypa/pip/issues/8346) & [https://github.com/pypa/pip/issues/8492](https://github.com/pypa/pip/issues/8492)
 
   - Bernard: if, in both situations, resolver is behind a flag, what is the difference to the user?
 
@@ -140,4 +145,3 @@
   - Need to know what we can shift in CZI budget
 - changing meeting rhythm now that we have fewer people?
   - Fewer restraints re: timing/schedule. Sumana will send out invitation/note via Bethany
-:::

@@ -1,7 +1,12 @@
 # Asking for Help/readline under MS
 
-::: {#content dir="ltr" lang="en"}
-# Asking for Help: \... {#Asking_for_Help:_...}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: \... 
 
 readline under ms windows
 
@@ -13,11 +18,10 @@ I\'m writing little console application, and it would be great to have auto-comp
 
 What can you suggest? (migration on linux isn\'t an option %)
 
-Try asking on [python-list@python.org](mailto:python-list@python.org){.mailto} or [help@python.org](mailto:help@python.org){.mailto}.
+Try asking on [python-list@python.org](mailto:python-list@python.org) or [help@python.org](mailto:help@python.org).
 
-- Should we remove [AskingForHelp](./AskingForHelp.html){.nonexistent} pages at all? Actually, there is Windows version of readline for IPython. \-- [techtonik](techtonik) 2011-04-02 18:35:26
+- Should we remove [AskingForHelp](./AskingForHelp.html) pages at all? Actually, there is Windows version of readline for IPython. \-- [techtonik](techtonik) 2011-04-02 18:35:26
 
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::

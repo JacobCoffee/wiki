@@ -1,23 +1,18 @@
 # Distutils/Proposals/Template
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [Abstract](#Abstract)
-2.  [Rationale](#Rationale)
-3.  [Requirements/Ideas](#Requirements.2FIdeas)
-4.  [References](#References)
-5.  [Copyright](#Copyright)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Abstract {#Abstract}
+## Abstract 
 
-## Rationale {#Rationale}
+## Rationale 
 
-## Requirements/Ideas {#Requirements.2FIdeas}
+## Requirements/Ideas 
 
-## References {#References}
+## References 
 
 1.  egg and bacon
 2.  egg sausage and bacon
@@ -28,7 +23,6 @@ Contents
 7.  spam egg spam spam bacon and spam
 8.  spam sausage spam spam bacon spam tomato and spam
 
-## Copyright {#Copyright}
+## Copyright 
 
 This document has been placed in the public domain.
-::::

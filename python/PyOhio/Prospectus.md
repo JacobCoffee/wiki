@@ -1,9 +1,14 @@
 # PyOhio/Prospectus
 
-::: {#content dir="ltr" lang="en"}
-*Download prospectus in PDF format here:* [sponsor_prospectus_2011.pdf](attachments/PyOhio(2f)Prospectus/sponsor_prospectus_2011.pdf){.attachment}
+```{admonition} Legacy Wiki Page
+:class: note
 
-# PyOhio 2011 Sponsor Prospectus {#PyOhio_2011_Sponsor_Prospectus}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+*Download prospectus in PDF format here:* [sponsor_prospectus_2011.pdf](attachments/PyOhio(2f)Prospectus/sponsor_prospectus_2011.pdf)
+
+# PyOhio 2011 Sponsor Prospectus 
 
 Python is a popular programming language used extensively for web programming, scientific applications, and in the financial industry. Python is used for systems administration, and finds itself at the core of nearly every modern Linux distribution. Because of its easy of setup and syntax, Python also is being used as an introductory programming language at the high school and college level. But don\'t let the ease-of-use fool you, it is also being used for heavy lifting by Google, NASA, the Securities and Exchange Commission, and many others.
 
@@ -11,7 +16,7 @@ PyOhio is a two-day conference touching on all aspects of Python programming. Th
 
 ***PyOhio 2011 will be held Saturday, July 30 and Sunday, July 31, 2011 in the conference facility at the Ohio Union at Ohio State University.*** This is the fourth year for PyOhio, and it has grown every year.
 
-## Why sponsor PyOhio? {#Why_sponsor_PyOhio.3F}
+## Why sponsor PyOhio? 
 
 PyOhio attendees are a variety of working professionals, students, academics, and others who are passionate about technology and passionate about keeping themselves up-to-date - so much so that they\'ll take a weekend of their own to immerse themselves in their favorite (but not their only) language. This makes them the acknowledged leaders in their fields, the ones their peers look to.
 
@@ -26,27 +31,27 @@ Sponsoring PyOhio lets the attendees know that, like them, you stand out - that 
 
 PyOhio is considered by many to be one of the premier regional Python conferences, and attracts notable Python talent. Next Day Video, the same company that records the national Python conference talks, will record all PyOhio talks and place them online after the conference.
 
-## Who runs PyOhio? {#Who_runs_PyOhio.3F}
+## Who runs PyOhio? 
 
 PyOhio is run entirely by a group of regional volunteers, but is held in cooperation with the Python Software Foundation. Your PyOhio sponsorship should qualify as a pre-tax business expense; however, if you require a an official 501(c) organization to accept your contribution, please contact our conference chair Eric Floehr about sponsoring PyOhio via the PSF.
 
-## What will your PyOhio sponsorship dollars go towards {#What_will_your_PyOhio_sponsorship_dollars_go_towards}
+## What will your PyOhio sponsorship dollars go towards 
 
 You sponsorship dollars will be used to cover the expenses of the conference: facilities rental, coffee/snack service, printing of the program, and the like. We also defray the cost of video recording of all the talks (your logo can appear before every video!), and for meals during the code sprints (if possible). We are printing t-shirts this year and would like to defray some of the costs of that as well.
 
 This year, we would like to charter a 501(c) foundation to take ownership of the [PyOhio](PyOhio) conference, retain any excess donations, and use the funds to present "Day of Python" events around the Midwest, as well as offer introductory Python programming classes and materials to high school students.
 
-## Sponsorship Levels {#Sponsorship_Levels}
+## Sponsorship Levels 
 
-**[T-Shirt Sponsor (\$3000) (limited to 1 sponsor)]{.u}**
+**[T-Shirt Sponsor (\$3000) (limited to 1 sponsor)]**
 
 - Your logo ***alone*** will appear on conference t-shirts
 
 - All benefits of Presenting Sponsorship
 
-**[Presenting Sponsor (\$2000) (limited to 3 sponsors)]{.u}**
+**[Presenting Sponsor (\$2000) (limited to 3 sponsors)]**
 
-- ***Your logo*** on session videos, to be available indefinitely on the [Python Miro Community](./python(2e)mirocommunity(2e)org.html){.nonexistent}. (Python conference session videos total over 50,000 downloads per month)
+- ***Your logo*** on session videos, to be available indefinitely on the [Python Miro Community](./python(2e)mirocommunity(2e)org.html). (Python conference session videos total over 50,000 downloads per month)
 
 - Full-page advertisement in conference program
 
@@ -64,7 +69,7 @@ This year, we would like to charter a 501(c) foundation to take ownership of the
 
 - Prominently mentioned as a Presenting Sponsor in all out-bound marketing
 
-**[Principle Sponsor (\$1000)]{.u}**
+**[Principle Sponsor (\$1000)]**
 
 - Half-page advertisement in conference program
 
@@ -76,7 +81,7 @@ This year, we would like to charter a 501(c) foundation to take ownership of the
 
 - Literature in attendee handouts
 
-**[Premium Sponsor (\$500)]{.u}**
+**[Premium Sponsor (\$500)]**
 
 - Quarter-page advertisement in conference program
 
@@ -92,5 +97,4 @@ Sincerely,
 
 *The organizers of [PyOhio](PyOhio) 2011*
 
-*[pyohio-organizers@python.org](mailto:pyohio-organizers@python.org){.mailto}*
-:::
+*[pyohio-organizers@python.org](mailto:pyohio-organizers@python.org)*

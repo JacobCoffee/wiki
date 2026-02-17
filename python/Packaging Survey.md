@@ -1,9 +1,14 @@
 # Packaging Survey
 
-::: {#content dir="ltr" lang="en"}
-This survey will be put online in a [SurveyMonkey](./SurveyMonkey.html){.nonexistent}-like system whenever it is ready\...
+```{admonition} Legacy Wiki Page
+:class: note
 
-# 1. Part 1, how do you work ? {#Part_1.2C_how_do_you_work_.3F}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+This survey will be put online in a [SurveyMonkey](./SurveyMonkey.html)-like system whenever it is ready\...
+
+# 1. Part 1, how do you work ? 
 
 - Who are you ? (one answer)
   1.  Professional developer using Python exclusively.
@@ -75,7 +80,7 @@ This survey will be put online in a [SurveyMonkey](./SurveyMonkey.html){.nonexis
 
   8.  Other: \<say what\>
 
-- Do you work with setuptools\' namespaced packages ? A namespace package is a package that may be split across multiple project distributions. For example, Zope 3\'s zope package is a namespace package, because subpackages like zope.interface and zope.publisher may be distributed separately (see [http://peak.telecommunity.com/DevCenter/setuptools](http://peak.telecommunity.com/DevCenter/setuptools){.http}) (one answer)
+- Do you work with setuptools\' namespaced packages ? A namespace package is a package that may be split across multiple project distributions. For example, Zope 3\'s zope package is a namespace package, because subpackages like zope.interface and zope.publisher may be distributed separately (see [http://peak.telecommunity.com/DevCenter/setuptools](http://peak.telecommunity.com/DevCenter/setuptools)) (one answer)
 
   1.  Yes
   2.  No
@@ -104,7 +109,7 @@ This survey will be put online in a [SurveyMonkey](./SurveyMonkey.html){.nonexis
 - Where are you located ?
   - \<open question\>
 
-# 2. Part 2, What\'s missing ? What is wrong ? {#Part_2.2C_What.27s_missing_.3F_What_is_wrong_.3F}
+# 2. Part 2, What\'s missing ? What is wrong ? 
 
 - What are in your opinion, the 5 most important problems (bad behaviors or missing features) in Distutils today ?
   - \<open question\>
@@ -115,8 +120,7 @@ This survey will be put online in a [SurveyMonkey](./SurveyMonkey.html){.nonexis
 
 ------------------------------------------------------------------------
 
-# 3. Questions {#Questions}
+# 3. Questions 
 
 1.  Regarding the questions that ask \"what are the 5 most important X\", is it possible for the survey to instead list a number of choices and let the person taking the survey rank them from most- to least-important?
     - You probably don\'t know all the possible answers. Ask the user \"What are they?\" and they will tell you. Ask the user \"Which of these\", and they tend to think only of the choices on your list.
-:::

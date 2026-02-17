@@ -1,6 +1,11 @@
 # ForældreløseSider
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 En liste over sider ingen andre sider linker til:
 
 1.  [2.x-vs-3.x-survey](./2(2e)x(2d)vs(2d)3(2e)x(2d)survey.html)
@@ -603,4 +608,3 @@ En liste over sider ingen andre sider linker til:
 598. [初学者入门](./(e5889de5ada6e88085e585a5e997a8).html)
 599. [初学者入门/下载](./(e5889de5ada6e88085e585a5e997a82fe4b88be8bdbd).html)
 600. [初学者入门/概述](./(e5889de5ada6e88085e585a5e997a82fe6a682e8bfb0).html)
-:::

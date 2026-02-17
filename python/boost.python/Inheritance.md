@@ -1,7 +1,12 @@
 # boost.python/Inheritance
 
-::: {#content dir="ltr" lang="en"}
-## Inheritance in Python {#Inheritance_in_Python}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Inheritance in Python 
 
 Boost.Python extension classes support single and multiple-inheritance in Python, just like regular Python classes. You can arbitrarily mix built-in Python classes with extension classes in a derived class\' tuple of bases. Whenever a Boost.Python extension class is among the bases for a new class in Python, the result is an extension class:
 
@@ -19,7 +24,7 @@ Boost.Python extension classes support single and multiple-inheritance in Python
     >>> x.g()
     'MyExtensionClass.g()'
 
-## Reflecting C++ Inheritance Relationships {#Reflecting_C.2B-.2B-_Inheritance_Relationships}
+## Reflecting C++ Inheritance Relationships 
 
 Boost.Python also allows us to represent C++ inheritance relationships so that wrapped derived classes may be passed where values, pointers, or references to a base class are expected as arguments. The declare_base member function of class_builder\<\> is used to establish the relationship between base and derived classes:
 
@@ -80,4 +85,3 @@ objects of wrapped class Derived can be passed where Derived is expected but whe
 
     >>> get_derived_x(derived_as_base()) 
     -1
-:::

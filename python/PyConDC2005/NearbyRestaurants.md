@@ -1,6 +1,11 @@
 # PyConDC2005/NearbyRestaurants
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page will list restaurants near the [PyCon](PyCon) conference site. If you have a particularly good or bad experience with a particular restaurant, or discover a good one that isn\'t listed, please add your account to this page.
 
 Georgetown, an upscale neighbourhood to the west of the Foggy Bottom area, has many fine restaurants as long as you\'re willing to walk there; parking is scarce and buses aren\'t particularly frequent. If you\'re willing to walk somewhere for dinner, though, you could consider Georgetown.
@@ -11,9 +16,9 @@ The Metro station closest to [PyCon](PyCon) is Foggy Bottom; walk up to Eye Stre
 
 If you\'re trying to use a store locator, the Cafritz Center\'s Zip code is 20052.
 
-# In the building {#In_the_building}
+# In the building 
 
-See this [page](http://www.campuslifestyles.net/en-US/eCampus1/GWUDining/Locations/J-Street.htm){.http} for more information.
+See this [page](http://www.campuslifestyles.net/en-US/eCampus1/GWUDining/Locations/J-Street.htm) for more information.
 
 (On Saturday/Sunday, it looks like the stores in the building are all closed; March Break was the previous week. They should be open on Monday.)
 
@@ -34,7 +39,7 @@ In the basement:
 
 - District Market: grocery store with sandwiches, fruit, etc.
 
-# Across the street {#Across_the_street}
+# Across the street 
 
 If you leave the building by the main entrance, you\'ll see a large Tower Records across the street. This is actually part of a small mall (called \"2000 Pennsylvania\") which has a number of additional choices.
 
@@ -46,7 +51,7 @@ If you leave the building by the main entrance, you\'ll see a large Tower Record
 - La Prima \-- carry-out sandwiches, bagels, baked treats
 - Vaccaro\'s Italian Pastry \-- pastries and coffee
 
-# Nearby {#Nearby}
+# Nearby 
 
 There are many restaurants in the blocks surrounding the conference center. They\'re almost all located to the north of [PyCon](PyCon); southwards the area is mostly university buildings or residences.
 
@@ -92,11 +97,11 @@ There are also restaurants on K Street. They tend to be pricier, so you may pref
 - The Prime Rib
 - Thai Kingdom
 
-Vegetarians can consult the [Washington DC section on VegGuide.org](http://www.vegguide.org/location/view.mhtml?location_id=96&new_query=1){.http}.
+Vegetarians can consult the [Washington DC section on VegGuide.org](http://www.vegguide.org/location/view.mhtml?location_id=96&new_query=1).
 
-# Other nearby resources {#Other_nearby_resources}
+# Other nearby resources 
 
-## Drugstores {#Drugstores}
+## Drugstores 
 
 The District Market store located in the basement carries some toiletries and over-the-counter medications.
 
@@ -104,17 +109,17 @@ There is a CVS drugstore at 1901 Pennsylvania (corner of 19th and Penn), and ano
 
 *If you find any others that are closer, please record them here.*
 
-## Bookstores {#Bookstores}
+## Bookstores 
 
-[Reiter\'s](http://www.reiters.com/){.http} is the largest technical and scientific bookstore in the DC area, and is definitely worth a visit; they also carry legal and professional titles. It\'s a few blocks to the north of [PyCon](PyCon), at 2021 K Street.
+[Reiter\'s](http://www.reiters.com/) is the largest technical and scientific bookstore in the DC area, and is definitely worth a visit; they also carry legal and professional titles. It\'s a few blocks to the north of [PyCon](PyCon), at 2021 K Street.
 
 The GW University bookstore is on the first floor of the Cafritz Center.
 
 There is a Borders at 600 14th Street, and a three-floor Barnes&Noble in Georgetown at 3040 M Street.
 
-If you prefer to spend your money at independent booksellers, there are a number of smaller independent bookstores located in Georgetown, such as Bridge Street Books at 2814 Pennsylvania. Consult [Evelyn Leeper\'s bookstore list](http://www.geocities.com/Athens/4824/na-dc.htm#georgetown){.http} for a complete list. (And don\'t forget the museum gift shops, too; Shakespeare lovers \*will\* want to go visit the Folger, for example.)
+If you prefer to spend your money at independent booksellers, there are a number of smaller independent bookstores located in Georgetown, such as Bridge Street Books at 2814 Pennsylvania. Consult [Evelyn Leeper\'s bookstore list](http://www.geocities.com/Athens/4824/na-dc.htm#georgetown) for a complete list. (And don\'t forget the museum gift shops, too; Shakespeare lovers \*will\* want to go visit the Folger, for example.)
 
-## Copying Services {#Copying_Services}
+## Copying Services 
 
 There is a Fedex/Kinko\'s in the basement of the Cafritz Center.
 
@@ -125,4 +130,3 @@ For office supplies: a Staples is located at the corner of L and 19th, and an Of
 ------------------------------------------------------------------------
 
 [CategoryPyCon2005](CategoryPyCon2005)
-:::

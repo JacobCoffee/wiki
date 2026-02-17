@@ -1,6 +1,11 @@
 # MacPython/iTunes
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Does anyone know how to add a track to a playlist using appscript?
 
 Maybe something like this:
@@ -48,4 +53,3 @@ Create a new playlist on a certain source (i.e. either the library or an ipod, a
 src.make( new=k.user_playlist, with_properties={k.name: \'My new playlist\'} )
 
 ------------------------------------------------------------------------
-:::

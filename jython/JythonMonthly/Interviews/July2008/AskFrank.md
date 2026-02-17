@@ -1,25 +1,30 @@
 # JythonMonthly/Interviews/July2008/AskFrank
 
-::: {#content dir="ltr" lang="en"}
-# Ask Frank! {#Ask_Frank.21}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Ask Frank! 
 
 Welcome to the Ask Frank question form for July 2008!
 
-I\'ve been in touch with [Frank Wierzbicki](http://fwierzbicki.blogspot.com/){.http} of Sun Microsystems. In case you aren\'t aware, Frank is one of the top Jython developers, and [earlier this year](http://fwierzbicki.blogspot.com/2008/02/jythons-future-looking-sunny.html){.http} Sun Microsystems hired him to work on Jython full time!
+I\'ve been in touch with [Frank Wierzbicki](http://fwierzbicki.blogspot.com/) of Sun Microsystems. In case you aren\'t aware, Frank is one of the top Jython developers, and [earlier this year](http://fwierzbicki.blogspot.com/2008/02/jythons-future-looking-sunny.html) Sun Microsystems hired him to work on Jython full time!
 
 Thanks to everyone for your participation\...this is a great opportunity for the Jython community. Special thanks to Frank Wierzbicki for his time!
 
 Josh Juneau
 
-[Gather Event Planning](http://www.gathereventplanning.com){.http} [juneau001@gmail.com](mailto:juneau001@gmail.com){.mailto}
+[Gather Event Planning](http://www.gathereventplanning.com) [juneau001@gmail.com](mailto:juneau001@gmail.com)
 
-## Questions for Frank {#Questions_for_Frank}
+## Questions for Frank 
 
 I\'ll start it off with the question we all want to ask:
 
 1\) *You\'ve been with Sun for just over three months now, how is Jython development at Sun been going so far?*
 
-***Sun has been great. They genuinely want me to just do more of what I had been doing. They really want to see Jython succeed. I\'ve also been helping with some [NetBeans](./NetBeans.html){.nonexistent} work \-- mainly helping them use the antlr parser that I wrote for Jython in [NetBeans](./NetBeans.html){.nonexistent}.***
+***Sun has been great. They genuinely want me to just do more of what I had been doing. They really want to see Jython succeed. I\'ve also been helping with some [NetBeans](./NetBeans.html) work \-- mainly helping them use the antlr parser that I wrote for Jython in [NetBeans](./NetBeans.html).***
 
 2\) *To me it seems from the Python side, Jython is considered irrelevant. Is there any effort to get Jython more into a cooperative effort with Python development? (marvin greenberg, public dot marvin on gmail dot com)*
 
@@ -29,21 +34,21 @@ I\'ll start it off with the question we all want to ask:
 
 - Here\'s my 2 cents worth:
 
-3\) *Building on question 2, IDE/Editor support, there is a fair amount of Python support in IDE\'s but with the exception of Eclipse with [PyDev](./PyDev.html){.nonexistent} is there any true Jython support (ie Python with Java)*
+3\) *Building on question 2, IDE/Editor support, there is a fair amount of Python support in IDE\'s but with the exception of Eclipse with [PyDev](./PyDev.html) is there any true Jython support (ie Python with Java)*
 
-***I don\'t personally spend much time using IDEs (which btw is a situation I should remedy \-- for some reason IDEs have never \"fit my brain\" \-- but I have seen developers that I respect use them to great advantage - I \*do\* use them for refactoring in Java) but other Jython developers tell me that Eclipse does allow breakpoints, etc to work between Jython and Java projects. Also, given the JRuby support that I\'ve seen in [NetBeans](./NetBeans.html){.nonexistent}, I expect the same from that project once the Jython/Python support appears \-- see nbpython project for more: [https://nbpython.dev.java.net/](https://nbpython.dev.java.net/){.https}.***
+***I don\'t personally spend much time using IDEs (which btw is a situation I should remedy \-- for some reason IDEs have never \"fit my brain\" \-- but I have seen developers that I respect use them to great advantage - I \*do\* use them for refactoring in Java) but other Jython developers tell me that Eclipse does allow breakpoints, etc to work between Jython and Java projects. Also, given the JRuby support that I\'ve seen in [NetBeans](./NetBeans.html), I expect the same from that project once the Jython/Python support appears \-- see nbpython project for more: [https://nbpython.dev.java.net/](https://nbpython.dev.java.net/).***
 
 4\) *A while back there was talk about scripting languages being able share object at the JVM level, for example, Jython using JRuby objects. Is there any news in that regard?*
 
-***Nothing concrete yet. We can actually do that in a limited way now, by using each languages support of creating a Java interface, and using the Java integration of these languages (so from Jython you can implement a Java interface, then from JRuby you could call that interface). This is clunky though, and we would like to do better. A cool project looking into this is Attila Szegedi\'s metaobject protocol (MOP) project: [http://dynalang.sourceforge.net/](http://dynalang.sourceforge.net/){.http}***
+***Nothing concrete yet. We can actually do that in a limited way now, by using each languages support of creating a Java interface, and using the Java integration of these languages (so from Jython you can implement a Java interface, then from JRuby you could call that interface). This is clunky though, and we would like to do better. A cool project looking into this is Attila Szegedi\'s metaobject protocol (MOP) project: [http://dynalang.sourceforge.net/](http://dynalang.sourceforge.net/)***
 
 5\) *With you working at Sun now, obviously they have gained in stature but where does Sun see JVM based scripting languages, like Jython fitting into the over all picture with future JVM and Java versions.*
 
-***Sun is very interested in making the JVM a rich environment for many languages. Certainly in the past the JVM was developed as a Java-only kind of place. This is no longer the case. There is some really interesting work going on to make the JVM a really great environment for languages like Jython. For more see the Da Vinci Machine project (also called the multi-language VM or mlvm \-- in my opinion \"Da Vinci Machine\" is a way cooler name): [http://openjdk.java.net/projects/mlvm/](http://openjdk.java.net/projects/mlvm/){.http}***
+***Sun is very interested in making the JVM a rich environment for many languages. Certainly in the past the JVM was developed as a Java-only kind of place. This is no longer the case. There is some really interesting work going on to make the JVM a really great environment for languages like Jython. For more see the Da Vinci Machine project (also called the multi-language VM or mlvm \-- in my opinion \"Da Vinci Machine\" is a way cooler name): [http://openjdk.java.net/projects/mlvm/](http://openjdk.java.net/projects/mlvm/)***
 
-5.5) *(not related to q5, just days later ![:)](/wiki/modernized/img/smile.png ":)"){height="16" width="16"} ) Would the results of Java profiling tools like findbugs, Jprofiler or myKit be helpful or more importantly useful to you or one of the members of the development team?*
+5.5) *(not related to q5, just days later ![:)](/wiki/modernized/img/smile.png ":)") ) Would the results of Java profiling tools like findbugs, Jprofiler or myKit be helpful or more importantly useful to you or one of the members of the development team?*
 
-***Certainly \-- some of the Jython devs, particularly Nicholas Riley are using profiling tools already. Nicholas is using [YourKit](./YourKit.html){.nonexistent} ([http://www.yourkit.com/java/profiler/index.jsp](http://www.yourkit.com/java/profiler/index.jsp){.http}).***
+***Certainly \-- some of the Jython devs, particularly Nicholas Riley are using profiling tools already. Nicholas is using [YourKit](./YourKit.html) ([http://www.yourkit.com/java/profiler/index.jsp](http://www.yourkit.com/java/profiler/index.jsp)).***
 
 Thanks Frank and Josh.\
 Greg.
@@ -64,7 +69,7 @@ Greg.
 
 9\) *Sun as some developers working in JRuby and now you are working in Jython. Do you work together in some type of \"open source java dynamic languages\" lab or is your work uncoordinated?*
 
-**\'There is no physical \"language lab\". I am in North Carolina and the JRuby guys are located in Minnesota. But there has been collaboration (For example, we are directly using their work for a Jython posix layer: see [https://svn.codehaus.org/jruby-contrib/trunk/jna-posix/](https://svn.codehaus.org/jruby-contrib/trunk/jna-posix/){.https}). I expect there will be much more collaboration in the future. The JRuby folks have pre-explored many of the trails that Jython needs to follow.**
+**\'There is no physical \"language lab\". I am in North Carolina and the JRuby guys are located in Minnesota. But there has been collaboration (For example, we are directly using their work for a Jython posix layer: see [https://svn.codehaus.org/jruby-contrib/trunk/jna-posix/](https://svn.codehaus.org/jruby-contrib/trunk/jna-posix/)). I expect there will be much more collaboration in the future. The JRuby folks have pre-explored many of the trails that Jython needs to follow.**
 
 10\) Have you heard of Fortress? From a language point of view what do you consider more revolutionary in it? AFAIK it has currently only an interpreter and being so it is kinda-dynamic. Do you think we\'ll have a JFortress?
 
@@ -92,7 +97,7 @@ Anthony Kong
 
 - 13)What would be the first steps for someone that wants to help with developing Jython itself?
 
-**Where to start? Are there lightweight tasks? Which skills are really needed? Etc. The first thing would be to try compiling Jython on your local system and see how it works. See [http://wiki.python.org/jython/JythonDeveloperGuide](http://wiki.python.org/jython/JythonDeveloperGuide){.http} for more. Next you might want to see if there is a particular Python module that you want to use or that isn\'t working \-- and take a look at why it isn\'t working (and give us a bug report or try to fix it!)**
+**Where to start? Are there lightweight tasks? Which skills are really needed? Etc. The first thing would be to try compiling Jython on your local system and see how it works. See [http://wiki.python.org/jython/JythonDeveloperGuide](http://wiki.python.org/jython/JythonDeveloperGuide) for more. Next you might want to see if there is a particular Python module that you want to use or that isn\'t working \-- and take a look at why it isn\'t working (and give us a bug report or try to fix it!)**
 
 thx, Berco Beute
 
@@ -100,7 +105,7 @@ thx, Berco Beute
 
 - 14\) Do you plan on releasing any milestones in the development of jython2.5?
 
-**Timely question ![:)](/wiki/modernized/img/smile.png ":)"){height="16" width="16"} \-- see [http://fwierzbicki.blogspot.com/2008/07/jython-25-alpha-released.html](http://fwierzbicki.blogspot.com/2008/07/jython-25-alpha-released.html){.http} for the alpha announcement.**
+**Timely question ![:)](/wiki/modernized/img/smile.png ":)") \-- see [http://fwierzbicki.blogspot.com/2008/07/jython-25-alpha-released.html](http://fwierzbicki.blogspot.com/2008/07/jython-25-alpha-released.html) for the alpha announcement.**
 
 Thanks, Allan Davis
 
@@ -122,8 +127,7 @@ Cheers, Anthony
 
 - 17\) I\'m a non-Java programmer who\'s into Jython programming. It seems that Jython is geared more towards the Java developers; for example, creating stand-alone jar applications is only practical if you already know Java. Are there any attempts to \"not alienate\" (for lack of a better term) people like me? I\'m sure Jython would love to have a much wider audience.
 
-**The main thrust of 2.5 work has been to get to a modern version of Python that is better able to run typical Python programs that we see heavily used (like Django, [TurboGears](./TurboGears.html){.nonexistent}, and Pylons). In the course of this work we have improved support for more standard Python practices like the use of setuptools. Our first target is to make Jython a really good implementation of Python. Hopefully that will help\...**
+**The main thrust of 2.5 work has been to get to a modern version of Python that is better able to run typical Python programs that we see heavily used (like Django, [TurboGears](./TurboGears.html), and Pylons). In the course of this work we have improved support for more standard Python practices like the use of setuptools. Our first target is to make Jython a really good implementation of Python. Hopefully that will help\...**
 
 - Submitted by astigmatik
 - 
-:::

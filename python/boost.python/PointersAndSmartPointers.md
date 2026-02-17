@@ -1,11 +1,16 @@
 # boost.python/PointersAndSmartPointers
 
-::: {#content dir="ltr" lang="en"}
-## Pointers and smart pointers {#Pointers_and_smart_pointers}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Pointers and smart pointers 
 
 Since Python handles memory allocation and garbage collection automatically, the concept of a \"pointer\" is not meaningful in Python. However, many C++ APIs expose either raw pointers or shared pointers, to wrap these APIs we need to deal with pointers.
 
-### Raw C++ Pointers {#Raw_C.2B-.2B-_Pointers}
+### Raw C++ Pointers 
 
 The lifetime of C++ objects created by `new A` can be handled by Python\'s garbage collection by using the `manage_new_object` return policy:
 
@@ -29,7 +34,7 @@ A sample python program:
     an_A = A.create()
     print an_A.hello()
 
-### Smart pointers {#Smart_pointers}
+### Smart pointers 
 
 The usage of smart pointers (e.g. `boost::shared_ptr<T>`) is another common way to give away ownership of objects in C++. These kinds of smart pointer are automatically handled if you declare their existence when declaring the class to boost::python. This is done by including the holding type as a template parameter to `class_<>`, like in the following example:
 
@@ -61,7 +66,7 @@ A sample python program:
     an_A = A.create()
     print an_A.hello()
 
-### Smart Pointer Example with OpenSceneGraph {#Smart_Pointer_Example_with_OpenSceneGraph}
+### Smart Pointer Example with OpenSceneGraph 
 
 The Node.cpp file:
 
@@ -86,4 +91,3 @@ The Node.cpp file:
     }
 
 This creates an opaque Node pointer. It can be extended to expose members of Node objects, or used as is to return opaque references to Node objects. For opaque references, the module must still be imported by the Python app. If Node.pyd is in a package directory, importing it in the `__init__.py` file in that directory seems to be a simple, workable solution.
-:::

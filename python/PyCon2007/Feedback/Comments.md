@@ -1,9 +1,14 @@
 # PyCon2007/Feedback/Comments
 
-::: {#content dir="ltr" lang="en"}
-# Other comments {#Other_comments}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## How can we improve PyCon next year? {#How_can_we_improve_PyCon_next_year.3F}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Other comments 
+
+## How can we improve PyCon next year? 
 
 Have lightning talk speakers sign up for lightning talks in advance, and have people vote on the lightning talks on the first day or so, so it gets a little more condensed? OTOH that kinda defeats the purpose of lightning talks. Just an idea.
 
@@ -17,9 +22,9 @@ At the moment, I\'m too ecstatic about this one to have any criticism in mind. I
 
 more wireless bandwidth, more vendors,
 
-See if you can get Guido to dress up in the BDFL costume from Monty Python ![;-)](/wiki/europython/img/smile4.png ";-)"){height="16" width="16"}
+See if you can get Guido to dress up in the BDFL costume from Monty Python ![;-)](/wiki/europython/img/smile4.png ";-)")
 
-Make sure hotel guests are not relocated. Better snacks. More tutorial days/options. Free [WiFi](./WiFi.html){.nonexistent} in hotel room
+Make sure hotel guests are not relocated. Better snacks. More tutorial days/options. Free [WiFi](./WiFi.html) in hotel room
 
 Perhaps better sound? Also, I got \*VERY\* annoyed at people constantly coming in late to every single talk. It really disrupted things. It was very aggravating and very rude.
 
@@ -67,7 +72,7 @@ Consider organizing the talks into categories (or maybe even tracks in the sched
 
 Begin call for papers much sooner, specifically targeting more technical papers, in-depth talks that give code demonstrations.
 
-Overall, the organization of the event exceeded my expectations. 1. Eliminate the \'How Python is helping to change the XYZ industry\' talks. These are usually the most boring. On the rare occasions they might have something interesting to offer, they can\'t release project source. OTOH, these talks help narrow down my personal selection process. ![;-)](/wiki/europython/img/smile4.png ";-)"){height="16" width="16"} 2. Maybe have a separate internet channel for the speaker\'s computers. Or inform them not to expect a reliable connection.
+Overall, the organization of the event exceeded my expectations. 1. Eliminate the \'How Python is helping to change the XYZ industry\' talks. These are usually the most boring. On the rare occasions they might have something interesting to offer, they can\'t release project source. OTOH, these talks help narrow down my personal selection process. ![;-)](/wiki/europython/img/smile4.png ";-)") 2. Maybe have a separate internet channel for the speaker\'s computers. Or inform them not to expect a reliable connection.
 
 We need more room!! A great problem to have. There were times when people were eating lunch on the floor. It would also be nice to have easier access to the schedule; perhaps either projected somewhere or on overhead monitors.
 
@@ -117,7 +122,7 @@ The food should be available for a longer time. It seems like the food was put a
 
 Take lightning talks back to what they really represent, rather than some vendor ad-spot. Make sure they are 5 minutes or less. Better scheduling of tracks - too many times graphics or game talks were scheduled against each other. Or pure language talks (eg. pypy vs. python-dev)
 
-1\) Many of the presentations I attended could have been given in a lightning talk. This would hopefully force those with poor presentation skills to work on their presentations more, instead of appearing that they had not done so at all. Preparing for a presentation is certainly more than preparing [PowerPoint](./PowerPoint.html){.nonexistent}. 2) Allow more time for keynotes! The r0ml keynote especially \-- I could have listened to him all day. Have a break time maybe \-- allow the keynote speaker to continue for those who are digging the speaker, allow other talks to go on at the same time after this break time. 3) Along with number 1 \-- possibly more time for lightning talks? Some 5 minutes, others 10 minutes. Reserve one room for lightning talks (introductions to things) while other, longer talks are going on. A lot of the talks I attended were introductions to a library/application/framework/etc. I could have read the website in less time than it took the presenters to present the material they had. An introduction is an introduction. Keep it short. Reserve the longer talks (30-45 minutes) for more in depth information of the topic.
+1\) Many of the presentations I attended could have been given in a lightning talk. This would hopefully force those with poor presentation skills to work on their presentations more, instead of appearing that they had not done so at all. Preparing for a presentation is certainly more than preparing [PowerPoint](./PowerPoint.html). 2) Allow more time for keynotes! The r0ml keynote especially \-- I could have listened to him all day. Have a break time maybe \-- allow the keynote speaker to continue for those who are digging the speaker, allow other talks to go on at the same time after this break time. 3) Along with number 1 \-- possibly more time for lightning talks? Some 5 minutes, others 10 minutes. Reserve one room for lightning talks (introductions to things) while other, longer talks are going on. A lot of the talks I attended were introductions to a library/application/framework/etc. I could have read the website in less time than it took the presenters to present the material they had. An introduction is an introduction. Keep it short. Reserve the longer talks (30-45 minutes) for more in depth information of the topic.
 
 Allow for repeats of \'Best Of\' at the end. Had to miss a few of the sessions I heard really good things about. Try to restrict session speakers to people who have a visible history with the topics they are speaking on. Two of the keynotes were similar, would prefer more variety.
 
@@ -129,11 +134,11 @@ Better hotel.
 
 Personally I\'d prefer more focus on uses for Python other than web apps and database frontends. There were only a few talks having to do with scientific computing with python, which is what I use it for.
 
-I don\'t have much to give here. This was my first [PyCon](PyCon) and I absolutely loved every second of it. Everything worked out perfectly. If the conference was one day longer with talks that would have been very cool! Well, the Internet connection worked very well for me. I never had a dropped signal. The throughput wasn\'t great, but for the number of computers it was handling I didn\'t mind one bit. But improving the amount of bandwidth would be nice, but only if you are able too. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+I don\'t have much to give here. This was my first [PyCon](PyCon) and I absolutely loved every second of it. Everything worked out perfectly. If the conference was one day longer with talks that would have been very cool! Well, the Internet connection worked very well for me. I never had a dropped signal. The throughput wasn\'t great, but for the number of computers it was handling I didn\'t mind one bit. But improving the amount of bandwidth would be nice, but only if you are able too. ![:)](/wiki/europython/img/smile.png ":)")
 
 Please find a venue w. free wifi in the rooms. Perhaps find a way to record video directly from presenters\' machines, instead of having to videotape dimly lit projection screens?
 
-Improve and integrate various apps (registration, speakers, sponsorship). Add social features with mashups to [LinkedIn](./LinkedIn.html){.nonexistent} and similar sites (I\'ll be talking with Doug about this).
+Improve and integrate various apps (registration, speakers, sponsorship). Add social features with mashups to [LinkedIn](./LinkedIn.html) and similar sites (I\'ll be talking with Doug about this).
 
 Definitely work on the network problem. It really wasn\'t that bad but at times you couldn\'t do anything. I would really liked to have had slides available for many of the talks. I know it\'s not feasible in many cases but it really helps to be able to follow along when a speaker is not exactly experienced in public speaking and/or I am sitting in the back row behind someone that is tall.
 
@@ -151,7 +156,7 @@ The food was not very good this year. The most important thing would be to start
 - give a longer dinner break (1.5 hours?) because it was difficult to get back to the evening activities on time
 - have a schedule application like the main one for the bofs and other such activities
 
-The conf. net access was great. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} It\'d be nice to find a hotel that had access in the rooms too. I\'d also to be closer to the airports.
+The conf. net access was great. ![:)](/wiki/europython/img/smile.png ":)") It\'d be nice to find a hotel that had access in the rooms too. I\'d also to be closer to the airports.
 
 Better wireless support.
 
@@ -175,7 +180,7 @@ a\) avoid refuse(food) cluttering-up tables b) discourage people from entering s
 
 Session chairs for all sessions and videos of all talks would be good.
 
-The snacks ran out very quickly. If you ran to the restroom, you went hungry. Provide a restaurant guide like [http://www.schneier.com/restaurants-rsa2006.pdf](http://www.schneier.com/restaurants-rsa2006.pdf){.http} \... ok, it doesn\'t have to be /that/ good, but a basic guide would be really nice. (Hmm\... sell ad space? Oooo\... you should get tummy.com to sponsor it! ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} ) Assuming solid wireless, a softcopy would be enough. The events schedule page looked really nice, but was hard to use in Konqueror; the detail boxes disappear when you try to access the links in them.
+The snacks ran out very quickly. If you ran to the restroom, you went hungry. Provide a restaurant guide like [http://www.schneier.com/restaurants-rsa2006.pdf](http://www.schneier.com/restaurants-rsa2006.pdf) \... ok, it doesn\'t have to be /that/ good, but a basic guide would be really nice. (Hmm\... sell ad space? Oooo\... you should get tummy.com to sponsor it! ![:)](/wiki/europython/img/smile.png ":)") ) Assuming solid wireless, a softcopy would be enough. The events schedule page looked really nice, but was hard to use in Konqueror; the detail boxes disappear when you try to access the links in them.
 
 \- PROVIDE BREAKFAST!!!!!!!!!!!! - Choose a location that does not have snow and where temperatures are significantly above freezing. - Choose a venue that has adequate space. This year was too crowded.
 
@@ -185,7 +190,7 @@ Better organized lightning talks Less recruiting, or less blatant recruiting at 
 
 Shorten keynotes by 15 minutes. Add 1 more session to day Better open session room management
 
-More organizing of [PyEdu](./PyEdu.html){.nonexistent} activities: at least a BoF.
+More organizing of [PyEdu](./PyEdu.html) activities: at least a BoF.
 
 Add a Squid Proxy server with some very fast Disk I/O, and at least two caching only DNS servers. This could be a huge performance increase.
 
@@ -205,7 +210,7 @@ This was a really awesome conference. It would have been really cool to have the
 
 More space in tutorials.
 
-Needs to have a mechanism for individual attendees who may not know other attendees to be able to be grouped together for dinners. (e.g. the \'I\'m a stranger\' buttons at [MacWorld](./MacWorld.html){.nonexistent}; or a message board)
+Needs to have a mechanism for individual attendees who may not know other attendees to be able to be grouped together for dinners. (e.g. the \'I\'m a stranger\' buttons at [MacWorld](./MacWorld.html); or a message board)
 
 Hold it in Chicago.
 
@@ -219,11 +224,11 @@ Hold it closer to my home (Toronto). Chicago\'s a good start.
 
 Build the us.pycon.org site with a Zope 3-based CMS.
 
-The [WiFi](./WiFi.html){.nonexistent} was good - but not 100%. Some talks I just couldn\'t get online. Some of the \'case study\' talks were pretty dull. Putting the Python-dev talk alongside [PyPy](PyPy) and WSGI was frustrating ! The evenings were disorganised generally.
+The [WiFi](./WiFi.html) was good - but not 100%. Some talks I just couldn\'t get online. Some of the \'case study\' talks were pretty dull. Putting the Python-dev talk alongside [PyPy](PyPy) and WSGI was frustrating ! The evenings were disorganised generally.
 
 Make it cheaper. More lightning talks. Encourage REAL pair programming in the sprints. The sprints were silent coding for most of the people.
 
-## Other comments? {#Other_comments.3F}
+## Other comments? 
 
 The conference this year seemed to be the smoothest run [PyCon](PyCon) yet. Kudos to all the organizers who put in all the hard work to make it look so easy.
 
@@ -255,7 +260,7 @@ I didn\'t care for the restrictions on bringing in food. In other words, have be
 
 Best [PyCon](PyCon) ever.
 
-This conference rivaled the later DC [PyCons](./PyCons.html){.nonexistent} as far as attendance, excellence, and business/personal networking are concerned: most excellent.
+This conference rivaled the later DC [PyCons](./PyCons.html) as far as attendance, excellence, and business/personal networking are concerned: most excellent.
 
 I enjoyed working with Mary and Bonnie out at the registration desk, and will probably sign up again to help out next year, assuming I attend.
 
@@ -325,13 +330,13 @@ Great Job!
 
 it was fun. thanks
 
-Lots of fun ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+Lots of fun ![:)](/wiki/europython/img/smile.png ":)")
 
 Organizers were magnificent, you all deserve medals.
 
 Pycon was great this year, better than the last. I would like to see more examples in the talks next year. It might be nice if you created a \'How to give a talk\' document for would be presenters. It should include basic presentation stuff, encouragements to use examples and readable fonts. The water and candies on the tables were cool, as well as the post up boards for talks/bofs and jobs. I also liked the placement of the lightning talks. More lightening talks!!! Thanks for all the hard work!
 
-The vast majority of the talks were so short (30 minutes) as to be useless. I very much enjoyed the tutorials. Without getting to tutorial length of sessions, I\'d much rather see more in-depth coverage. Though the overall value for [PyCon](PyCon) is widely agreed to be fantastic, I\'m a little turned off of coming again, because I can get a list of the sessions, spend 5 minutes googling each, and get pretty much the same amount of content. Code samples matter. Running code matters. Think [CodeCon](./CodeCon.html){.nonexistent}.
+The vast majority of the talks were so short (30 minutes) as to be useless. I very much enjoyed the tutorials. Without getting to tutorial length of sessions, I\'d much rather see more in-depth coverage. Though the overall value for [PyCon](PyCon) is widely agreed to be fantastic, I\'m a little turned off of coming again, because I can get a list of the sessions, spend 5 minutes googling each, and get pretty much the same amount of content. Code samples matter. Running code matters. Think [CodeCon](./CodeCon.html).
 
 I \*loved\* it!
 
@@ -378,4 +383,3 @@ It was wonderful!
 Everything was great! Thank you!
 
 Networking was great. Can\'t wait to go again. The food was terrific. Compliments to the chef.
-:::

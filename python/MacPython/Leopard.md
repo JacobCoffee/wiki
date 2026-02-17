@@ -1,11 +1,16 @@
 # MacPython/Leopard
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Python releases have progressed far enough that it may be worth installing the current [MacPython](MacPython) distribution, however there may be conflicts between [MacPython](MacPython) installations and Mac OS X development tools, such as problems building PyObjC applications in Xcode. Mac OS X 10.5.x (Leopard) comes with the 2.5.1 Python distribution pre-installed, with an integrated Python Launcher.app. At the time of Leopard\'s launch, the official release version of Python was also 2.5.1. So some users may wish to avoid installing the pythonmac.org distribution and use the built-in python. However, the built-in python does not include IDLE.app and the standard pythonmac.org distribution will not allow its installation without the installation of at least a complete, redundant Python.framework.
 
 Some people have legitimate reasons for wanting to install IDLE on Leopard. E.g., even though Leopard\'s Xcode 3.0 (and later) supports Python development, it does so in a heavyweight, support-all-of-Cocoa fashion. And educators teaching Python who wish to do so in a platform-agnostic way may also be best served by IDLE.
 
-As mentioned at [http://www.givegoodweb.com/post/39/idle-on-leopard](http://www.givegoodweb.com/post/39/idle-on-leopard){.http}, IDLE, as a module rather than an application, is actually built into the default Python installed with Leopard. You can invoke IDLE from within the Python shell by typing the following:
+As mentioned at [http://www.givegoodweb.com/post/39/idle-on-leopard](http://www.givegoodweb.com/post/39/idle-on-leopard), IDLE, as a module rather than an application, is actually built into the default Python installed with Leopard. You can invoke IDLE from within the Python shell by typing the following:
 
 - import idlelib.idle
 
@@ -19,7 +24,7 @@ The following steps will allow the installation of IDLE.app (and other [MacPytho
 
 1\. Download and mount:
 
-- [http://pythonmac.org/packages/py25-fat/dmg/python-2.5-macosx.dmg](http://pythonmac.org/packages/py25-fat/dmg/python-2.5-macosx.dmg){.http}
+- [http://pythonmac.org/packages/py25-fat/dmg/python-2.5-macosx.dmg](http://pythonmac.org/packages/py25-fat/dmg/python-2.5-macosx.dmg)
 
 2\. In Finder, do a Show Package Contents on \"[MacPython](MacPython).mpkg\" and navigate to Contents \> Packages \> [PythonApplications](PythonApplications)-2.5.pkg.
 
@@ -37,4 +42,3 @@ You\'re done! IDLE.app works as intended. And since the pythonmac.org distro is 
 **UPDATED WARNING:** This is a potentially dangerous change to your system! If you leave this symbolic link in place and then later attempt to install another version of Python, using a python.org installer or anything else that installs into \"/Library/Frameworks/Python.framework\", you risk overwriting the Apple-supplied Python files in \"/System/Library/Frameworks\". If you go ahead with the above suggestion, remember to remove the symbolic link before installing new versions of Python!
 
 It is recommended that you delete the newly installed Python Launcher.app, because it is already present inside the system Python.framework. If you have installed Apple\'s developer tools (Xcode et al), it is recommended that you delete the newly installed Build Applet.app, because it is already present in /Developer/Applications/Utilities/MacPython 2.5.
-:::

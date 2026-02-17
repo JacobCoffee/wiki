@@ -1,7 +1,12 @@
 # PyQt/Adding the Gopher Protocol to QtWebKit
 
-::: {#content dir="ltr" lang="en"}
-# Adding the Gopher Protocol to QtWebKit {#Adding_the_Gopher_Protocol_to_QtWebKit}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Adding the Gopher Protocol to QtWebKit 
 
     import os, sys
 
@@ -259,4 +264,3 @@
         window = Window()
         window.show()
         sys.exit(app.exec_())
-:::

@@ -1,9 +1,14 @@
 # PyQt/QML callback function
 
-::: {#content dir="ltr" lang="en"}
-# PyQt5 callback function {#PyQt5_callback_function}
+```{admonition} Legacy Wiki Page
+:class: note
 
-This example code is available for download on [GitHub](https://github.com/ben-github/PyQt5-QML-CallbackFunction){.https}. This demo shows a QML calling a python function and passing a (QML) callback function as an argument. The python backend can then run the QML callback function. This can be useful for passing data from the python backend to the GUI and having the GUI be responsible for updating the graphical elements (via the callback function). Also, this can be used for non-blocking asynchronous updates of the GUI: By running the QML GUI in a separate thread as the python backend, The QML can request an update on data but not be blocking while that data is being obtained. While the QML GUI is running, python gets updated data over a slow link (REST query, serial port, etc) and once the data is ready, the callback function can be executed.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PyQt5 callback function 
+
+This example code is available for download on [GitHub](https://github.com/ben-github/PyQt5-QML-CallbackFunction). This demo shows a QML calling a python function and passing a (QML) callback function as an argument. The python backend can then run the QML callback function. This can be useful for passing data from the python backend to the GUI and having the GUI be responsible for updating the graphical elements (via the callback function). Also, this can be used for non-blocking asynchronous updates of the GUI: By running the QML GUI in a separate thread as the python backend, The QML can request an update on data but not be blocking while that data is being obtained. While the QML GUI is running, python gets updated data over a slow link (REST query, serial port, etc) and once the data is ready, the callback function can be executed.
 
 The code consists of three files. The shortest is the QML file which basically just loads the javascript to be run for the QML:
 
@@ -120,4 +125,3 @@ Most of that code is just setting up a QML application. The enqueue function is 
 ahead of the function definition to tell it that the second argument to the function is an object of type QJSValue (which contains our QML callback function). The function just puts the callback function in a list, self.callback.
 
 The other two functions to look at are processResponses and dump. processResponses is called by the application.js file and runs the dump. dump iterates over all elements in the self.callback list and calls them using the QJSValue method call. The functions are called with an argument of QJSValue(\'asdf\') which is just a string, but anything passed back to the QML must be of the type QJSValue.
-:::

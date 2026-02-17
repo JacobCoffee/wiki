@@ -1,13 +1,18 @@
 # PythonWebModules
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 A framework for [WebProgramming](WebProgramming).
 
-### Masthead {#Masthead}
+### Masthead 
 
 URL
 
-:   [http://www.pythonweb.org](http://www.pythonweb.org){.http}
+:   [http://www.pythonweb.org](http://www.pythonweb.org)
 
 Version
 
@@ -25,9 +30,9 @@ Python versions
 Status
 :   Beta (although the author uses it in commercial applications)
 
-### Introduction {#Introduction}
+### Introduction 
 
-These modules used to be known as the lemon modules. The CVS is still hosted at [http://lemon.sourceforge.net/](http://lemon.sourceforge.net/){.http}
+These modules used to be known as the lemon modules. The CVS is still hosted at [http://lemon.sourceforge.net/](http://lemon.sourceforge.net/)
 
 \"It is better to have a flexible module that can be used intuitively than an all-singing, all-dancing framework that no-one can be bothered to learn.\"
 
@@ -37,11 +42,11 @@ A key part of the project is the creation of documentation and examples to allow
 
 The modules can easily be used on shared web hosting accounts running Apache and Python for example.
 
-### Getting Started {#Getting_Started}
+### Getting Started 
 
-First you need to download the latest relase from [http://www.pythonweb.org/projects/webmodules/release/current/](http://www.pythonweb.org/projects/webmodules/release/current/){.http} and then read the getting started guide at [http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/overview/](http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/overview/){.http}
+First you need to download the latest relase from [http://www.pythonweb.org/projects/webmodules/release/current/](http://www.pythonweb.org/projects/webmodules/release/current/) and then read the getting started guide at [http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/overview/](http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/overview/)
 
-### Session, Identification and Authentication {#Session.2C_Identification_and_Authentication}
+### Session, Identification and Authentication 
 
 Session handling is done through the web.session module as follows:
 
@@ -55,15 +60,15 @@ Identity and identification handling is achieved through the web.auth module whi
 
 Both modules can either use a database supported by web.database or a file store to store the information between requests.
 
-### Forms and Fields {#Forms_and_Fields}
+### Forms and Fields 
 
 One of the more tedious tasks of web programing is creating HTML forms and validating field input. The web.form module allows you to create forms from Field objects. There are Field objects for all the standard HTML fields.
 
 HTML generation and user input validation and requesting the user to correct errors are all handled by the Form object.
 
-Fields also exist for the common Python objects such integers, string, datetime objects etc as well as email and URL fields. These fields convert the value chosen by the user in the form directly to the appropriate Python type so no conversion is required. A [DateTime](./DateTime.html){.nonexistent} field returns a datetime.datetime object, an Integer field returns an integer. a [StringSelect](./StringSelect.html){.nonexistent} field allows the user to choose one string from a choice and an [EmailCheckBoxGroup](./EmailCheckBoxGroup.html){.nonexistent} allows the choice of one or more Email addresses.
+Fields also exist for the common Python objects such integers, string, datetime objects etc as well as email and URL fields. These fields convert the value chosen by the user in the form directly to the appropriate Python type so no conversion is required. A [DateTime](./DateTime.html) field returns a datetime.datetime object, an Integer field returns an integer. a [StringSelect](./StringSelect.html) field allows the user to choose one string from a choice and an [EmailCheckBoxGroup](./EmailCheckBoxGroup.html) allows the choice of one or more Email addresses.
 
-### Database Support {#Database_Support}
+### Database Support 
 
 A major part of the project are the database modules.
 
@@ -81,9 +86,9 @@ The feature which sets the web.database.object apart from rivals like SQLObject 
 
 A database object can in theory have any storage driver (text, XML, SQL Datbase, DBM) although currently only a driver for the web.database module has been written. This means that any storage system with a driver for web.database can be used with web.database.object. This currently includes MySQL, ODBC, SQLite and, to an extent, Gadlfy.
 
-More information is available in the module reference at [http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/lib/web.html](http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/lib/web.html){.http}
+More information is available in the module reference at [http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/lib/web.html](http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/lib/web.html)
 
-### Presentation Support {#Presentation_Support}
+### Presentation Support 
 
 The modules support a number of presentation options including Dreamweaver MX, XYAPTU and simple \'%(value)\' style replacements. The preferred method of producing output is perhaps using Cheetah.
 
@@ -93,15 +98,15 @@ import web.template
 
 html = web.template.parse(type=\'cheetah\', file=\'test.tmpl\', dict={\'title\':\'Web Modules\'})
 
-### Documentation {#Documentation}
+### Documentation 
 
-Full documentation on the latest version of the software is availble at [http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/](http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/){.http}
+Full documentation on the latest version of the software is availble at [http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/](http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/)
 
-### Other Features {#Other_Features}
+### Other Features 
 
 Other features which make these modules stand out are plain and HTML email support, simple graph creation, full error handling and datetime compatibity classes for Python 2.2.
 
-### Deployment Platforms {#Deployment_Platforms}
+### Deployment Platforms 
 
 The Web Modules were written because although there are quite a few web application frameworks available they are either too simplistic, or require adminster rights to install and so cannot be used with most shared hosting accounts.
 
@@ -109,33 +114,32 @@ The modules provide everything needed to write data-driven websites without need
 
 Developers can use the modules with other servers such as Zope or on their own but the author tends to use them in CGI scripts on Apache running on FreeBSD or Linux servers.
 
-### Development Interfaces {#Development_Interfaces}
+### Development Interfaces 
 
 The modules are desinged to be used in any way you like. They do not tie you to a CGI way of working or a servlet architecture. You can use them as building blocks to create your own way of doing things.
 
 If you prefer some help though the examples in the documentation assume for simplicity you are using a CGI approach.
 
-The examples are listed at [http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/web/examples.html](http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/web/examples.html){.http}
+The examples are listed at [http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/web/examples.html](http://www.pythonweb.org/projects/webmodules/doc/current/html_multipage/web/examples.html)
 
-### Hosting {#Hosting}
+### Hosting 
 
 Most UNIX hosts which support Python 2.2 or above and include a web.database supported driver such as MySQLdb will be an ideal platform for using these modules.
 
-I use and would reccomend [http://www.gradwell.com](http://www.gradwell.com){.http}
+I use and would reccomend [http://www.gradwell.com](http://www.gradwell.com)
 
-If you are after cheap hosting to have a play with that might break at any moment try [http://www.web-mania.com](http://www.web-mania.com){.http}
+If you are after cheap hosting to have a play with that might break at any moment try [http://www.web-mania.com](http://www.web-mania.com)
 
-### Future {#Future}
+### Future 
 
-Future releases will also conform to the WSGI being discussed on the WEB-SIG mailing list at the moment. [Read the project plan](http://www.pythonweb.org/project/plan.html){.http}.
+Future releases will also conform to the WSGI being discussed on the WEB-SIG mailing list at the moment. [Read the project plan](http://www.pythonweb.org/project/plan.html).
 
-### InTheirOwnWords {#InTheirOwnWords}
+### InTheirOwnWords 
 
 Although much of the functionality of these modules is replicated elsewhere, I believe this is the most complete set of modules available that doesn\'t tie you into using a particular architecture. In each component I have tried to go one stage further than other sofware available.
 
 I would appreciate feedback, encouragement or comments if you have any to author \<at\> pythonweb.org.
 
-### Comments {#Comments}
+### Comments 
 
 This area is for comments and discussion with other Python Web Developers.. I\'d appreciate your thoughts.
-:::

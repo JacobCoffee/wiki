@@ -1,27 +1,32 @@
 # JobsWG
 
-::: {#content dir="ltr" lang="en"}
-# Jobs Working Group {#Jobs_Working_Group}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Agenda {#Agenda}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Jobs Working Group 
+
+## Agenda 
 
 This working group shall review job board listings and give usability feedback to the PSF\'s Infrastructure Director.
 
-## Resources {#Resources}
+## Resources 
 
 - Financial resources needed TBD
 
 - [Jobs WG Charter](./JobsWG(2f)Charter.html)
 
-## Mailing List {#Mailing_List}
+## Mailing List 
 
-- [https://mail.python.org/mailman/listinfo/jobs](https://mail.python.org/mailman/listinfo/jobs){.https} The ML archives are set to private for the time being. Subscriptions must be approved by the admins. Betsy Waliszewski is the list admin.
+- [https://mail.python.org/mailman/listinfo/jobs](https://mail.python.org/mailman/listinfo/jobs) The ML archives are set to private for the time being. Subscriptions must be approved by the admins. Betsy Waliszewski is the list admin.
 
-## Discussions {#Discussions}
+## Discussions 
 
 Discussions will happen on the mailing list.
 
-## Administration {#Administration}
+## Administration 
 
 - Jon Clement (chair)
 - Admin: Betsy Waliszewski
@@ -38,7 +43,6 @@ Participants:
 - Devesh Kumar Singh
 - Robert Grant
 
-## Meetings {#Meetings}
+## Meetings 
 
 - As needed
-:::

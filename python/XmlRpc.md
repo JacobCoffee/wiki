@@ -1,19 +1,24 @@
 # XmlRpc
 
-::::::::: {#content dir="ltr" lang="en"}
-# XML-RPC {#XML-RPC}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# XML-RPC 
 
 XML-RPC is a neat way to send messages across the Internet.
 
 The neat thing about XML-RPC is that it transports *native data structures*- you can ship off lists, strings, dictionaries, and numbers.
 
-You can [read more about it over on C2,](http://c2.com/cgi/wiki?XmlRpc "Wiki"){.interwiki} or on [the XML-RPC home page.](http://www.xmlrpc.com/){.http}
+You can [read more about it over on C2,](http://c2.com/cgi/wiki?XmlRpc "Wiki") or on [the XML-RPC home page.](http://www.xmlrpc.com/)
 
-## Sample Code {#Sample_Code}
+## Sample Code 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8086857753664840679992df19b2887872ea8c2e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import xmlrpclib
    2 
    3 XMLRPC_SERVER_URL = "http://www.python.org/cgi-bin/moinmoin/?action=xmlrpc"
@@ -28,15 +33,15 @@ You can [read more about it over on C2,](http://c2.com/cgi/wiki?XmlRpc "Wiki"){.
 
 This code calls the [PythonInfo](PythonInfo) wiki, and receives the [TitleIndex](TitleIndex) as a list.
 
-## Message Format {#Message_Format}
+## Message Format 
 
 If you can communicate strings, you can do XML-RPC. You could even do it by e-mail!
 
 Here\'s how to make your string:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-cb6dd057992b1f57597ccc4e31e6ce80310ed042 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import xmlrpclib
    2 
    3 func_name = "foo"
@@ -84,9 +89,9 @@ Here\'s how to make your string:
 
 \...which can then be turned *back* into Python data:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-df1bbfcdb669cceb1d3f9a9e3836b105d7a19d54 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 call_data = xmlrpclib.loads( call_string )
 ```
 :::
@@ -98,17 +103,16 @@ Here\'s how to make your string:
 
 That is, the first item is the arguments tuple, and the second item is the name of the function.
 
-The capabilities are described under \"Convenience Functions\" in [the xmlrpclib documentation.](http://docs.python.org/lib/module-xmlrpclib.html){.http}
+The capabilities are described under \"Convenience Functions\" in [the xmlrpclib documentation.](http://docs.python.org/lib/module-xmlrpclib.html)
 
-## See Also {#See_Also}
+## See Also 
 
-- [official xmlrpclib example](http://docs.python.org/lib/xmlrpc-client-example.html){.http}
+- [official xmlrpclib example](http://docs.python.org/lib/xmlrpc-client-example.html)
 
-- [xmlrpclib documentation](https://docs.python.org/2/library/xmlrpclib.html){.https}
+- [xmlrpclib documentation](https://docs.python.org/2/library/xmlrpclib.html)
 
-- [XML-RPC: It Works Both Ways (onlamp.com)](http://www.onlamp.com/pub/a/python/2001/01/17/xmlrpcserver.html){.http}
+- [XML-RPC: It Works Both Ways (onlamp.com)](http://www.onlamp.com/pub/a/python/2001/01/17/xmlrpcserver.html)
 
 - [DocXmlRpcServer](DocXmlRpcServer) - class to help make an XML-RPC server
 
-- [Providing XML-RPC Services via CGI](http://effbot.org/zone/xmlrpc-cgi.htm){.http}
-:::::::::
+- [Providing XML-RPC Services via CGI](http://effbot.org/zone/xmlrpc-cgi.htm)

@@ -1,11 +1,16 @@
 # PyQt/Using_Python_Custom_Widgets_in_Qt_Designer
 
-::: {#content dir="ltr" lang="en"}
-## Introduction {#Introduction}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Recent versions of [PyQt](PyQt) contain something special for developers who use [Qt Designer](http://doc.qt.digia.com/4.3/designer-manual.html){.http} to design the user interfaces for their applications. In addition to the full range of standard Qt widgets, you can now install your own pure Python custom widgets and use them in your designs. All the signals, slots and properties defined in Python are accessible in Designer\'s user interface and behave just the same as for widgets written in C++.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Background Information {#Background_Information}
+## Introduction 
+
+Recent versions of [PyQt](PyQt) contain something special for developers who use [Qt Designer](http://doc.qt.digia.com/4.3/designer-manual.html) to design the user interfaces for their applications. In addition to the full range of standard Qt widgets, you can now install your own pure Python custom widgets and use them in your designs. All the signals, slots and properties defined in Python are accessible in Designer\'s user interface and behave just the same as for widgets written in C++.
+
+## Background Information 
 
 Qt Designer is a user interface design tool for Qt applications that makes it possible for non-programmers to create user interfaces for applications. In many respects, it separates the design of an application from its function, leaving designers in control of its look and feel and basic usability while developers write the underlying application logic.
 
@@ -19,15 +24,15 @@ In C++, developers have to create an additional plugin class, based on QDesigner
 
 In Python, an additional plugin class is also needed, but developers only need to put the modules containing the custom widget and plugin class on special paths so that Qt Designer can find them. Since the custom widget code does not need to be built or combined with the plugin code, very little extra work is required in order to make custom widgets work with Qt Designer.
 
-## An Example Custom Widget {#An_Example_Custom_Widget}
+## An Example Custom Widget 
 
-The `PyAnalogClock`{.backtick} widget is a version of the [Analog Clock example](http://doc.trolltech.com/4.3/widgets-analogclock.html){.http} supplied with Qt 4 and [PyQt4](PyQt4) which provides a property to allow the clock to show the time in different time zones, a slot to enable the time zone to be changed in response to signals from other components, and two signals of its own to report changes to the time and time zone.
+The `PyAnalogClock`{.backtick} widget is a version of the [Analog Clock example](http://doc.trolltech.com/4.3/widgets-analogclock.html) supplied with Qt 4 and [PyQt4](PyQt4) which provides a property to allow the clock to show the time in different time zones, a slot to enable the time zone to be changed in response to signals from other components, and two signals of its own to report changes to the time and time zone.
 
-![designer-analog-clock-shadow.png](attachments/PyQt(2f)Using_Python_Custom_Widgets_in_Qt_Designer/designer-analog-clock-shadow.png "designer-analog-clock-shadow.png"){.attachment}
+![designer-analog-clock-shadow.png](attachments/PyQt(2f)Using_Python_Custom_Widgets_in_Qt_Designer/designer-analog-clock-shadow.png "designer-analog-clock-shadow.png")
 
 Instead of quoting the example in full, we will only note the changes that need to be made to the Analog Clock example in order to integrate it with Qt Designer. Refer to the original example to see how the clock performs tasks such as painting and event handling.
 
-### Adding Signals {#Adding_Signals}
+### Adding Signals 
 
 The first change we make to the original widget is to declare the signals the widget is able to emit. Normally, this isn\'t something that [PyQt](PyQt) widgets need to do --- arbitrary signals can be emitted at any time --- but Qt Designer needs to be know about the custom widget\'s signals so that it can connect them to slots in other widgets.
 
@@ -59,7 +64,7 @@ The `updateTime()`{.backtick} method simply emits the current time every second 
 
 The `timeZoneChanged()`{.backtick} signal is emitted whenever the user, or another component, changes the time zone property. This is shown in the following section.
 
-### Adding a Property {#Adding_a_Property}
+### Adding a Property 
 
 The `timeZone`{.backtick} property is implemented using the `getTimeZone()`{.backtick} getter method, the `setTimeZone()`{.backtick} setter method, and the `resetTimeZone()`{.backtick} method.
 
@@ -95,11 +100,11 @@ Qt-style properties are defined differently to Python\'s properties. To declare 
 
         timeZone = QtCore.pyqtProperty("int", getTimeZone, setTimeZone, resetTimeZone)
 
-### Adding a Slot {#Adding_a_Slot}
+### Adding a Slot 
 
 Since it may be useful to be able to update the clock\'s time zone from other input widgets, we want to make the `setTimeZone()`{.backtick} method a slot. Normally, we don\'t have to do anything special to use methods as slots with [PyQt](PyQt), but Qt Designer needs this information to allow users to select suitable slots when connecting components together.
 
-We use the [standard decorator syntax](http://www.riverbankcomputing.com/Docs/PyQt4/pyqt4ref.html#the-qtcore-pyqtsignature-decorator){.http} that is used to annotate methods for use with `pyuic4`{.backtick} and [PyQt4](PyQt4)\'s `uic`{.backtick} module. Here\'s the annotated `setTimeZone()`{.backtick} method:
+We use the [standard decorator syntax](http://www.riverbankcomputing.com/Docs/PyQt4/pyqt4ref.html#the-qtcore-pyqtsignature-decorator) that is used to annotate methods for use with `pyuic4`{.backtick} and [PyQt4](PyQt4)\'s `uic`{.backtick} module. Here\'s the annotated `setTimeZone()`{.backtick} method:
 
         @QtCore.pyqtSignature("setTimeZone(int)")
         def setTimeZone(self, value):
@@ -111,7 +116,7 @@ We use the [standard decorator syntax](http://www.riverbankcomputing.com/Docs/Py
 
 The `@pyqtSignature`{.backtick} decorator is used to tell [PyQt](PyQt) which argument type the method expects, and is especially useful when you want to define slots with the same name that accept different argument types. This allows the method to be a Qt slot, which means that it can be found by Qt Designer (and other C++ components) via Qt\'s meta-object system.
 
-## Defining the Widget\'s Plugin Interface {#Defining_the_Widget.27s_Plugin_Interface}
+## Defining the Widget\'s Plugin Interface 
 
 Before the widget can be used in Qt Designer, we need to prepare another class that describes our custom widget and tells Qt Designer how to instantiate it. The approach used is the same as that used for C++ plugins; the only difference being that we derive our plugin class from a [PyQt](PyQt)-specific base class. Nonetheless, we must still implement the interface required of custom widget plugins, even if we use Python instead of C++ to do so.
 
@@ -178,7 +183,7 @@ Qt Designer treats container widgets differently to other types of widget. If th
 
 Since our custom widget is not a specialized container widget, this method returns `False`{.backtick} instead.
 
-The `domXml()`{.backtick} method returns an XML description of a custom widget instance that describes default values for its properties. Each custom widget created by this plugin will be configured using this description. The XML schema can be found at [http://doc.trolltech.com/designer-ui-file-format.html](http://doc.trolltech.com/designer-ui-file-format.html){.http}.
+The `domXml()`{.backtick} method returns an XML description of a custom widget instance that describes default values for its properties. Each custom widget created by this plugin will be configured using this description. The XML schema can be found at [http://doc.trolltech.com/designer-ui-file-format.html](http://doc.trolltech.com/designer-ui-file-format.html).
 
         def domXml(self):
             return (
@@ -200,9 +205,9 @@ The `includeFile()`{.backtick} method returns the module containing the custom w
         def includeFile(self):
             return "analogclock"
 
-## Extending a Qt widget while maintaining Designer features {#Extending_a_Qt_widget_while_maintaining_Designer_features}
+## Extending a Qt widget while maintaining Designer features 
 
-For example suppose you want to extend a `QStackedWidget`{.backtick} while maintaining useful designer features like the *Insert new page* menu. This is easily achieved by supplying a special XML structure (described [in the schema](http://doc.trolltech.com/designer-ui-file-format.html){.http}) with the `domXML`{.backtick} method.
+For example suppose you want to extend a `QStackedWidget`{.backtick} while maintaining useful designer features like the *Insert new page* menu. This is easily achieved by supplying a special XML structure (described [in the schema](http://doc.trolltech.com/designer-ui-file-format.html)) with the `domXML`{.backtick} method.
 
 Key concept is the usage of `customWidgets`{.backtick} and `customWidget`{.backtick} elements and `extends`{.backtick} attribute of `customWidget`{.backtick}.
 
@@ -231,11 +236,10 @@ Here comes a full example: we are defining a new `CSlidingPanel`{.backtick} clas
                 </ui>""".format(self.toolTip(), self.whatsThis())
             )
 
-## Using the Custom Widget in Qt Designer {#Using_the_Custom_Widget_in_Qt_Designer}
+## Using the Custom Widget in Qt Designer 
 
 [PyQt4](PyQt4) includes a common plugin loader for Qt Designer that enables widgets written in Python, with corresponding plugin interfaces defined in the way shown above, to be automatically loaded by Qt Designer when it is run. However, in order for this to work, we need to place the modules containing the custom widget and its plugin class in the appropriate locations in the file system.
 
 By default, modules containing plugin classes should be located in the `python`{.backtick} directory inside the directory containing the other Qt plugins for Qt Designer. For testing purposes, the `PYQTDESIGNERPATH`{.backtick} environment variable can be used to refer to the location of the modules containing the plugin classes.
 
 The modules containing the custom widgets themselves only need to be located on one of the standard paths recognized by Python, and can therefore be installed in the user\'s `site-packages`{.backtick} directory, or the `PYTHONPATH`{.backtick} environment variable can be set to refer to their location.
-:::

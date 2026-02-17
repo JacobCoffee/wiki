@@ -1,21 +1,26 @@
 # BundleBuilder
 
-::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **Note:** BundleBuilder is going to be replaced by [py2app](./MacPython(2f)py2app.html), a distutils extension that converts python scripts into executable Mac OS X applications, able to run without requiring an existing Python installation. This is a replacement for bundlebuilder. If you have used the PyObjC 1.2 installer, you do not need this because py2app 0.1.7 is included.
 
-**Note:** Because py2app\'s development has slowed, BundleBuilder remains a useful alternative if you encounter issues with py2app. BundleBuilder has been removed from Python 3.x but extracting the module from the Python 2.x source tree and modifying as needed should not be difficult. See \* [http://www.pythonmac.org/wiki/BundleBuilder](http://www.pythonmac.org/wiki/BundleBuilder){.http} for more information.
+**Note:** Because py2app\'s development has slowed, BundleBuilder remains a useful alternative if you encounter issues with py2app. BundleBuilder has been removed from Python 3.x but extracting the module from the Python 2.x source tree and modifying as needed should not be difficult. See \* [http://www.pythonmac.org/wiki/BundleBuilder](http://www.pythonmac.org/wiki/BundleBuilder) for more information.
 
 ------------------------------------------------------------------------
 
 Also see:
 
-- [http://www.pythonmac.org/wiki/BundleBuilder](http://www.pythonmac.org/wiki/BundleBuilder){.http}
+- [http://www.pythonmac.org/wiki/BundleBuilder](http://www.pythonmac.org/wiki/BundleBuilder)
 
 BundleBuilder is a script that lets you create applets, or more importantly, standalone Python application bundles on Mac. To create an application bundle on Mac, you need to create a script which starts bundlebuilder, tells it what files and libraries you want to package, and then lets it do its thing. Here is an minimal bundlebuilder script for a fictional PyObjC application:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ed6a4b10482a23270e4d961b18e4c2ec62454ce7 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from bundlebuilder import buildapp
    2 
    3 buildapp(
@@ -42,7 +47,7 @@ To create a standalone application, it is typically invoked like this:
 
 - \% python buildapp.py \--standalone \--strip build
 
-The \--standalone option will cause almost everything that\'s needed (and nothing more!) to be included in the .app bundle. It analyzes which modules are (potentially) used. Sometimes this does not include enough (it may miss modules that are imported dynamically through the [import]{.u} hook), sometimes it includes too much (it follows every potential dependency, even if there on a brach of the code which will never be executed. To tweak what\'s included, use the \--include, \--package and \--exclude bundlebuilder options.
+The \--standalone option will cause almost everything that\'s needed (and nothing more!) to be included in the .app bundle. It analyzes which modules are (potentially) used. Sometimes this does not include enough (it may miss modules that are imported dynamically through the [import] hook), sometimes it includes too much (it follows every potential dependency, even if there on a brach of the code which will never be executed. To tweak what\'s included, use the \--include, \--package and \--exclude bundlebuilder options.
 
 The \--strip option will strip all executable files inside the application bundle of their debugging info, which will have a huge impact on the size of the final bundle.
 
@@ -50,9 +55,9 @@ Try \--help for a list of options.
 
 Here is a more elaborate example script that showcases more features of bundlebuilder, yet will only build a standalone application:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-37750ff785636e68055f79e1e1a67fbeb51d5807 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import bundlebuilder, os
    2 
    3 # I set this to make adding subfolders into the package easier
@@ -91,4 +96,3 @@ Here is a more elaborate example script that showcases more features of bundlebu
 In the future, BundleBuilder will be able to detect and incorporate shared libraries as well, meaning you will only need to worry about adding your own files to the bundle.
 
 Todo: Troubleshooting bundlebuilder problems section? Yes, especially the encodings problem; it\'s a FAQ in the py2exe world. The quick fix is to add \--package=encodings to bundlebuilder\'s command line options. However, this includes all of the encodings package, which for many applications means unnecessary bloat.
-:::::::

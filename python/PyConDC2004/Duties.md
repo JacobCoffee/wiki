@@ -1,9 +1,14 @@
 # PyConDC2004/Duties
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 For use of organizers, please do not mess with this.
 
-## Assigned duties for PyCon 2004 {#Assigned_duties_for_PyCon_2004}
+## Assigned duties for PyCon 2004 
 
 This is a list of [PyCon](PyCon) tasks that need someone to be in charge of. The responsible person should of course feel free to draft other people; you\'re just making a commitment to ensure that the work gets done.
 
@@ -49,7 +54,7 @@ The tasks are listed roughly in descending order of Aahz\'s opinion of critical 
 
 - Info desk, ()
 
-- On-site network, (Michael [McLay](./McLay.html){.nonexistent})
+- On-site network, (Michael [McLay](./McLay.html))
 
 ------------------------------------------------------------------------
 
@@ -58,4 +63,3 @@ Archives: [PyConDuties2003](PyConDuties2003)
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon)
-:::

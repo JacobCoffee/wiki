@@ -1,7 +1,12 @@
 # Asking for Help/PythonFramework-x.x.pkg installation fails. Is there a workaround?
 
-::: {#content dir="ltr" lang="en"}
-# PythonFramework-x.x.pkg installation fails. Is there a workaround? {#PythonFramework-x.x.pkg_installation_fails._Is_there_a_workaround.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PythonFramework-x.x.pkg installation fails. Is there a workaround? 
 
 1.  Right click on python-x.x.x-macosx.dmg, then select \"Show Package Contents.\"
 
@@ -24,4 +29,3 @@ Explanation: This is the error message I got: Apparently, PythonFramework was no
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::

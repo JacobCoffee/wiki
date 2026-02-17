@@ -1,6 +1,11 @@
 # Iterator
 
-::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 An **iterable** object is an object that implements `__iter__`, which is expected to return an **iterator** object.
 
 An **iterator** object implements `__next__`, which is expected to return the next element of the iterable object that returned it, and to raise a `StopIteration` exception when no more elements are available.
@@ -9,13 +14,13 @@ In the simplest case, the iterable will implement `__next__` itself and return `
 
 You can use iterables in for loops, to construct lists with list comprehensions, or as input arguments for the `list` function.
 
-## Example Iterator {#Example_Iterator}
+## Example Iterator 
 
 Here is an iterator that returns a random number of 1\'s:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c24cec6c5535b3b63560f9c3b997f013f7351d06 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import random
    2 
    3 class RandomIterable:
@@ -37,9 +42,9 @@ Here is an iterator that returns a random number of 1\'s:
 
 **A:** Iterators will typically need to maintain some kind of position state information (e.g., the index of the last element returned). If the iterable maintained that state itself, it would become inherently non-reentrant (meaning you could use it only one loop at a time).
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-aa0df00b1b47cc5b1a8b23e1364e421ddd753794 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 for eggs in RandomIterable():
    2     print(eggs)
 ```
@@ -48,9 +53,9 @@ Here is an iterator that returns a random number of 1\'s:
 
 You can also use it in list construction:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-05c109f8bedd918fe68419fab53bb8d621267183 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 >>> list(RandomIterable())
    2 [1]
    3 >>> list(RandomIterable())
@@ -67,19 +72,18 @@ You can also use it in list construction:
 
 An object isn\'t iterable unless it provides `__iter__`. And for an object to be a valid iterator, it must provide `__next__`.
 
-## Manual usage {#Manual_usage}
+## Manual usage 
 
 Although you won\'t need this in most cases, you can manually get the iterator from an iterable object by using the `iter()` function. Similary, you can manually call `__next___` using the `next()` function.
 
-## Links {#Links}
+## Links 
 
-- [PEP-234: Iterators](http://www.python.org/peps/pep-0234.html){.http}
+- [PEP-234: Iterators](http://www.python.org/peps/pep-0234.html)
 
-- [Itertools: Functions creating iterators for efficient looping](https://docs.python.org/3/library/itertools.html){.https}
+- [Itertools: Functions creating iterators for efficient looping](https://docs.python.org/3/library/itertools.html)
 
-- [Functional programming and iterators](https://docs.python.org/3/howto/functional.html?highlight=iterator#functional-howto-iterators){.https}
+- [Functional programming and iterators](https://docs.python.org/3/howto/functional.html?highlight=iterator#functional-howto-iterators)
 
-- [Python iterator basics (how they work + examples)](https://python.land/deep-dives/python-iterator){.https}
+- [Python iterator basics (how they work + examples)](https://python.land/deep-dives/python-iterator)
 
 See also: [Generators](Generators)
-:::::::::

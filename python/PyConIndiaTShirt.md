@@ -1,15 +1,20 @@
 # PyConIndiaTShirt
 
-::: {#content dir="ltr" lang="en"}
-# Overall design {#Overall_design}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Overall design 
 
 - Logo in the front on the chest
 - Black on white or white on black?
 - Catchy phrase on the back.
 
-## Phrases {#Phrases}
+## Phrases 
 
-The initial list has been taken and trimmed from [http://us.pycon.org/TX2007/Slogans](http://us.pycon.org/TX2007/Slogans){.http}
+The initial list has been taken and trimmed from [http://us.pycon.org/TX2007/Slogans](http://us.pycon.org/TX2007/Slogans)
 
 **Please add your vote before August 7 2009 23:59**
 
@@ -28,7 +33,6 @@ The initial list has been taken and trimmed from [http://us.pycon.org/TX2007/Slo
 13. Python: so eye-opening that I can\'t C anymore! (+devi) (-Noufal)(-Aneesh)
 14. Readability counts, use python for writing! (-Aneesh)
 
-## Mockups {#Mockups}
+## Mockups 
 
-![mockup.gif](attachments/PyConIndiaTShirt/mockup.gif "mockup.gif"){.attachment}
-:::
+![mockup.gif](attachments/PyConIndiaTShirt/mockup.gif "mockup.gif")

@@ -1,17 +1,22 @@
 # PyCon2006/SpeakerNotes
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page collects suggestions for speakers and presenters at [PyCon](PyCon). Thank you very much for taking the time and trouble to make a presentation. We really appreciate your efforts.
 
 There will be a panel discussion, \"Tips for Presenters\", at 6PM the evening before the conference begins (Thursday, February 23) in the Bent Tree III room. We encourage you to attend this panel to pick up some tips and tricks for improving your presentations.
 
-# The final version of your proposal {#The_final_version_of_your_proposal}
+# The final version of your proposal 
 
 - [PyCon](PyCon) does not have a published volume of proceedings, but the slides and other materials for talks are made available on-line. Therefore, be sure your presentation can be turned into a format suitable for online viewing. While PDF is permitted, HTML is better. Keep graphics reasonably sized for web access.
 
-- Finish preparing your slides and other materials before [PyCon](PyCon), and upload it to [the conference submission system](http://submit.python.org){.http}. This gives the audience more information in choosing which talks to attend, and people can refer to the slides if they miss something during your talk.
+- Finish preparing your slides and other materials before [PyCon](PyCon), and upload it to [the conference submission system](http://submit.python.org). This gives the audience more information in choosing which talks to attend, and people can refer to the slides if they miss something during your talk.
 
-# A Presentation is not a Paper (Slide Sample) {#A_Presentation_is_not_a_Paper_.28Slide_Sample.29}
+# A Presentation is not a Paper (Slide Sample) 
 
 - The slides are primarily to support your talk
 - Slides should not be too \"busy\"
@@ -21,7 +26,7 @@ There will be a panel discussion, \"Tips for Presenters\", at 6PM the evening be
 - Only hit the most important points on the slides
   - Expand as you speak if there\'s audience interest
 
-# Presentation advice {#Presentation_advice}
+# Presentation advice 
 
 - For a 30-minute slot, you have 25 minutes to talk plus 5 minutes for questions. 45-minute slots mean you have 40 minutes to talk and 5 minutes for questions. Time your talk accordingly.
 
@@ -34,7 +39,7 @@ There will be a panel discussion, \"Tips for Presenters\", at 6PM the evening be
 - If in doubt, err on the side of not talking long enough. It\'s better to have the audience thinking \"That talk left me wanting more. I need to go talk to the presenter/download the package/go to the BoF,\" than \"That talk stretched 15 minutes of material into an hour. What a waste of time.\"
 - Don\'t waste time on introductory material, e.g. explaining Python\'s syntax, explaining XML for fifteen slides.
 
-# Speaking Techniques {#Speaking_Techniques}
+# Speaking Techniques 
 
 - If you are nervous, there\'s nothing wrong with admitting that
   - The information you present is your talk\'s primary value
@@ -62,19 +67,18 @@ There will be a panel discussion, \"Tips for Presenters\", at 6PM the evening be
 
 - During the Q&A portion of the talk, always repeat any questions that were asked without a microphone - otherwise many people in the audience won\'t hear the question.
 
-# Other resources {#Other_resources}
+# Other resources 
 
-- [Conference Presentation Judo](http://perl.plover.com/yak/presentation/){.http} \-- aimed at people giving three-hour tutorials, but many suggestions apply to shorter talks like those given at [PyCon](PyCon).
+- [Conference Presentation Judo](http://perl.plover.com/yak/presentation/) \-- aimed at people giving three-hour tutorials, but many suggestions apply to shorter talks like those given at [PyCon](PyCon).
 
-- [SAGE/LISA Conference Presentation advice](http://www.sage.org/presentation/){.http}
+- [SAGE/LISA Conference Presentation advice](http://www.sage.org/presentation/)
 
-- [How to Give a Bad Talk](http://www.cs.wisc.edu/~markhill/conference-talk.html#badtalk){.http}
+- [How to Give a Bad Talk](http://www.cs.wisc.edu/~markhill/conference-talk.html#badtalk)
 
-- [S5](http://www.meyerweb.com/eric/tools/s5/){.http} \-- if you want to write your presentation slides in HTML, S5 is a collection of CSS stylesheets and [JavaScript](./JavaScript.html){.nonexistent} code well-suited for standard-compliant HTML presentations.
+- [S5](http://www.meyerweb.com/eric/tools/s5/) \-- if you want to write your presentation slides in HTML, S5 is a collection of CSS stylesheets and [JavaScript](./JavaScript.html) code well-suited for standard-compliant HTML presentations.
 
-- [Docutils/S5](http://docutils.sourceforge.net/docs/user/slide-shows.html){.http} \-- if you want to write your presentation slides in reStructuredText, Docutils now has S5/HTML support.
+- [Docutils/S5](http://docutils.sourceforge.net/docs/user/slide-shows.html) \-- if you want to write your presentation slides in reStructuredText, Docutils now has S5/HTML support.
 
 ------------------------------------------------------------------------
 
 [CategoryPyCon2006](CategoryPyCon2006)
-:::

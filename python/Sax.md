@@ -1,17 +1,22 @@
 # Sax
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 \"Sax\" is an XML parser that operates element by element, line by line.
 
 [MiniDom](MiniDom) sucks up an entire XML file, holds it in memory, and lets you work with it. Sax, on the other hand, emits events as it goes step by step through the file.
 
-**NOTE**: A similarly fast but much simpler way to extract information from an XML document in an event-driven, memory efficient fashion is [ElementTree.iterparse()](http://docs.python.org/library/xml.etree.elementtree.html#xml.etree.ElementTree.iterparse){.http}.
+**NOTE**: A similarly fast but much simpler way to extract information from an XML document in an event-driven, memory efficient fashion is [ElementTree.iterparse()](http://docs.python.org/library/xml.etree.elementtree.html#xml.etree.ElementTree.iterparse).
 
-## Example {#Example}
+## Example 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-32fa4678096c8fdfaefb7aa9052525fd7f8bdf3e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import xml.sax
    2 
    3 class InkscapeSvgHandler(xml.sax.ContentHandler):
@@ -27,17 +32,16 @@
 :::
 ::::
 
-## Links {#Links}
+## Links 
 
-- [HtmlParser](./HtmlParser.html){.nonexistent} \-- similar module, tailored to HTML interpretation
+- [HtmlParser](./HtmlParser.html) \-- similar module, tailored to HTML interpretation
 
-- [Python Library Reference, xml.sax](http://docs.python.org/lib/module-xml.sax.html){.http} \-- API documentation
+- [Python Library Reference, xml.sax](http://docs.python.org/lib/module-xml.sax.html) \-- API documentation
 
-- [Python XML FAQ and How-to](http://www.rexx.com/~dkuhlman/pyxmlfaq.html){.http} \-- describes sax & [MiniDom](MiniDom)
+- [Python XML FAQ and How-to](http://www.rexx.com/~dkuhlman/pyxmlfaq.html) \-- describes sax & [MiniDom](MiniDom)
 
-- [SAX: The Simple API for XML](http://pyxml.sourceforge.net/topics/howto/section-SAX.html){.http} \-- wordy tutorial
+- [SAX: The Simple API for XML](http://pyxml.sourceforge.net/topics/howto/section-SAX.html) \-- wordy tutorial
 
-- [Charming Python:Revisiting XML tools for Python](http://www-106.ibm.com/developerworks/linux/library/l-pxml.html){.http} \-- kind of old
+- [Charming Python:Revisiting XML tools for Python](http://www-106.ibm.com/developerworks/linux/library/l-pxml.html) \-- kind of old
 
-- [Usings SAX for Proper XML Output](http://www.xml.com/pub/a/2003/03/12/py-xml.html){.http}
-:::::
+- [Usings SAX for Proper XML Output](http://www.xml.com/pub/a/2003/03/12/py-xml.html)

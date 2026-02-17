@@ -1,13 +1,18 @@
 # MSS
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 A framework for [WebProgramming](WebProgramming).
 
-### Masthead {#Masthead}
+### Masthead 
 
 URL
 
-:   [http://mss.cynetix.co.uk](http://mss.cynetix.co.uk){.http}
+:   [http://mss.cynetix.co.uk](http://mss.cynetix.co.uk)
 
 version
 
@@ -24,21 +29,21 @@ Python versions
 
 :   
 
-### Deployment Platforms {#Deployment_Platforms}
+### Deployment Platforms 
 
-### Suitability {#Suitability}
+### Suitability 
 
-### Development Interfaces {#Development_Interfaces}
+### Development Interfaces 
 
-### Environment Access {#Environment_Access}
+### Environment Access 
 
-### Session, Identification and Authentication {#Session.2C_Identification_and_Authentication}
+### Session, Identification and Authentication 
 
-### Persistence Support {#Persistence_Support}
+### Persistence Support 
 
-### Presentation Support {#Presentation_Support}
+### Presentation Support 
 
-### InTheirOwnWords {#InTheirOwnWords}
+### InTheirOwnWords 
 
 **Problem Domain Background**
 
@@ -52,7 +57,6 @@ Although 3-Tier architecture solves many problems, there are few solutions that 
 
 MSS - A middle tier framework written in Python for plugging services in. Any client that can retrieve a web page can retrieve data from MSS - it\'s that easy. All the developer does is drop their \'new_service.py\' into the services directory and it works. No need to know how MSS works, there\'s a generic service provided so writing a new service should be a doddle and MSS will work straight out of the box.
 
-### Comments {#Comments}
+### Comments 
 
-### Hosting {#Hosting}
-:::
+### Hosting 

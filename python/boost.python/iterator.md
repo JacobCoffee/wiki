@@ -1,7 +1,12 @@
 # boost.python/iterator
 
-::: {#content dir="ltr" lang="en"}
-### C++ Iterators {#C.2B-.2B-_Iterators}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### C++ Iterators 
 
 Python iterator support a highly flexible interface allowing:
 
@@ -38,7 +43,7 @@ Python iterator support a highly flexible interface allowing:
                    &my_sequence<heavy>::begin
                  , &my_sequence<heavy>::end))
 
-### Custom Iterators {#Custom_Iterators}
+### Custom Iterators 
 
 Suppose we have custom iterator class providing next() member function. To expose it let\'s take an approach from scitbx package:
 
@@ -74,4 +79,3 @@ Suppose we have custom iterator class providing next() member function. To expos
       ...
       iterator_wrappers<const MyClass,MyIter>().wrap("Iterator");
     }
-:::

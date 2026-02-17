@@ -1,11 +1,16 @@
 # KashmiriLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Describe Kashmiri कॉशुर and include links to Python information in कॉशुर Language here.
 
 ISO 639-1 Code: ks
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -25,11 +30,11 @@ Where these pages really need help:
 
 **कॉशुर**
 
-Text for code snippet taken verbatim from introduction to [Wikipedia](http://ks.wikipedia.org/wiki/Main_Page){.http}; cannot get Koshur text (right to left) to render in idle (work in progress).
+Text for code snippet taken verbatim from introduction to [Wikipedia](http://ks.wikipedia.org/wiki/Main_Page); cannot get Koshur text (right to left) to render in idle (work in progress).
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-88b73c3f8bc04f92fa31aceb1e9fc7151bd3aa41 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # -*- coding: utf-8 -*-
    2 # python 3.0 or 3.1
    3 
@@ -55,9 +60,8 @@ Text for code snippet taken verbatim from introduction to [Wikipedia](http://ks.
 :::
 ::::
 
-[http://en.wikipedia.org/wiki/Kashmiri_language](http://en.wikipedia.org/wiki/Kashmiri_language){.http}
+[http://en.wikipedia.org/wiki/Kashmiri_language](http://en.wikipedia.org/wiki/Kashmiri_language)
 
 ------------------------------------------------------------------------
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode) [CategoryPythonIndia](CategoryPythonIndia)
-:::::

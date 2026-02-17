@@ -1,7 +1,12 @@
 # PyConDC2004/Network
 
-::: {#content dir="ltr" lang="en"}
-### Conference {#Conference}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### Conference 
 
 For those who wish to bring laptops (or those who feel like lugging around something heavier), there will be network access available on-site for conference participants.
 
@@ -17,11 +22,10 @@ Wireless Access:
 Wired Access:
 :   The amphitheater also has 10 MHz wired sockets in each of the seat arms, however, this installation is new and has not been thoroughly tested. There will be (a limited number of) hubs available in the breakout rooms (you should bring your own ethernet cable).
 
-### Sprints {#Sprints}
+### Sprints 
 
 Net access WILL be available during the sprints to all sprint participants (see above). Offers to bring equipment for others to share during the sprints would not be turned away.
 
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon)
-:::

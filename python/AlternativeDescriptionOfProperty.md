@@ -1,13 +1,18 @@
 # AlternativeDescriptionOfProperty
 
-::: {#content dir="ltr" lang="en"}
-# Alternative Description of Property {#Alternative_Description_of_Property}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Alternative Description of Property 
 
 John Posner
 
-Following is a revision of the official documentation for **property**, which can be found at [http://docs.python.org/library/functions.html#property](http://docs.python.org/library/functions.html#property){.http}. For an introduction to Python\'s property feature, see [ComputedAttributesUsingPropertyObjects](ComputedAttributesUsingPropertyObjects).
+Following is a revision of the official documentation for **property**, which can be found at [http://docs.python.org/library/functions.html#property](http://docs.python.org/library/functions.html#property). For an introduction to Python\'s property feature, see [ComputedAttributesUsingPropertyObjects](ComputedAttributesUsingPropertyObjects).
 
-## property(\[getfn\[, setfn\[, delfn\[, docstr\]\]\]\]) {#property.28.5Bgetfn.5B.2C_setfn.5B.2C_delfn.5B.2C_docstr.5D.5D.5D.5D.29}
+## property(\[getfn\[, setfn\[, delfn\[, docstr\]\]\]\]) 
 
 **property** is a built-in data type, used to implement managed (computed) attributes. You assign the property object created by the call `property(optional-args)`{.backtick} to a class attribute of a new-style class (a class that inherits from **object**). When the attribute is accessed through an instance of the class, it dispatches functions that implement the managed-attribute operations.
 
@@ -79,4 +84,3 @@ These attributes are read-only, but a property object also has `getter`{.backtic
             del self._x
 
 Using the same name `x`{.backtick} for all the methods causes this name to be repeatedly rebound, to a series of property objects created by the decorators. The process starts with an \"empty\" property, and gradually builds up to a property that is \"full\" of dispatch functions.
-:::

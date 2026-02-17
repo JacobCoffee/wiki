@@ -1,17 +1,21 @@
 # albert
 
-::: {#content dir="ltr" lang="en"}
-## Albert Zeyer {#Albert_Zeyer}
+```{admonition} Legacy Wiki Page
+:class: note
 
-- Email: [albzey@gmail.com](mailto:albzey@gmail.com){.mailto}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- Homepage: [http://www.az2000.de](http://www.az2000.de){.http}
+## Albert Zeyer 
 
-- [GitHub](./GitHub.html){.nonexistent}: [https://github.com/albertz](https://github.com/albertz){.https}
+- Email: [albzey@gmail.com](mailto:albzey@gmail.com)
 
-Biggest Python Open Source project: [My music player](http://albertz.github.io/music-player){.http}.
+- Homepage: [http://www.az2000.de](http://www.az2000.de)
+
+- [GitHub](./GitHub.html): [https://github.com/albertz](https://github.com/albertz)
+
+Biggest Python Open Source project: [My music player](http://albertz.github.io/music-player).
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

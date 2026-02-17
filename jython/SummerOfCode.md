@@ -1,21 +1,25 @@
 # SummerOfCode
 
-::: {#content dir="ltr" lang="en"}
-# Google Summer of Code {#Google_Summer_of_Code}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Some project ideas that might work for Google\'s summer of code. The Python folks have [very good advice](http://wiki.python.org/moin/SummerOfCode){.http} for submitting proposals.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Potential Mentors {#Potential_Mentors}
+# Google Summer of Code 
+
+Some project ideas that might work for Google\'s summer of code. The Python folks have [very good advice](http://wiki.python.org/moin/SummerOfCode) for submitting proposals.
+
+## Potential Mentors 
 
 - [FrankWierzbicki](FrankWierzbicki)
 
-## AcceptedProjects {#AcceptedProjects}
+## AcceptedProjects 
 
 There are no accepted projects yet.
 
 See [/PotentialProjects](./SummerOfCode(2f)PotentialProjects.html) for some ideas.
 
-## Past Google Summers of Code {#Past_Google_Summers_of_Code}
+## Past Google Summers of Code 
 
 [/SummerOfCode2007](./SummerOfCode(2f)SummerOfCode2007.html)
-:::

@@ -1,24 +1,29 @@
 # ExtensionTutorial
 
-::::::::: {#content dir="ltr" lang="en"}
-# Creating a Python Extension Module from Scratch {#Creating_a_Python_Extension_Module_from_Scratch}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Creating a Python Extension Module from Scratch 
 
 This guide will take you through the process of creating a Python extension module. It is assumed that you have a recent Python version (2.4 or later) and setuptools installed.
 
 We\'ll be creating a project called \'examp\' (short for \'example\'.)
 
-### Step 1: Create the project directory {#Step_1:_Create_the_project_directory}
+### Step 1: Create the project directory 
 
     > mkdir examp
     > cd examp
 
-### Step 2: Create the setup.py script {#Step_2:_Create_the_setup.py_script}
+### Step 2: Create the setup.py script 
 
 In the directory you just created, make a new file, setup.py containing the following:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-0a3139db4d9f6e0e4510e4131aaf5bbf195ff076 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from setuptools import setup, Extension
    2 
    3 setup(
@@ -44,13 +49,13 @@ In the directory you just created, make a new file, setup.py containing the foll
 
 The `setup.py` file tells Python how to compile, test, and install your extension module.
 
-### Step 3: Create the module source file {#Step_3:_Create_the_module_source_file}
+### Step 3: Create the module source file 
 
 This will be located in the location specified in the `setup.py` script given above; in this example, the location is `examp/src/examp.c`. This file will contain the following:
 
-:::: {.highlight .cpp}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-bb8cebdadff290302ee3799d8d3998e22fc5b98b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #include <Python.h>
    2 
    3 PyMODINIT_FUNC initexamp(void)
@@ -65,20 +70,20 @@ This will be located in the location specified in the `setup.py` script given ab
 
 As you can see, this is a pretty minimal extension module - it does nothing but establish that there is, in fact, a module. We\'ll add more to this later, but for now, let\'s just see if we can get it to compile and run.
 
-### Step 4: Create the unit test module {#Step_4:_Create_the_unit_test_module}
+### Step 4: Create the unit test module 
 
-Create an empty [init.py]{.u} file in examp/test.
+Create an empty [init.py] file in examp/test.
 
     > mkdir test
     > touch test/__init__.py
 
-### Step 5: Create the unit test source file {#Step_5:_Create_the_unit_test_source_file}
+### Step 5: Create the unit test source file 
 
 This will be located in `examp/test/examp_unittest.py`. This file will contain the following.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c69c78c95cca3e42b101a8e35b3d90cbcba17b30 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import unittest
    2 import doctest
    3 
@@ -105,7 +110,7 @@ At this point, your directory structure should look like this:
         __init__.py
         examp_unittest.py
 
-### Step 6: Build and test the module {#Step_6:_Build_and_test_the_module}
+### Step 6: Build and test the module 
 
     > python setup.py test
 
@@ -114,4 +119,3 @@ If everything is correct, your extension module should have built, and you shoul
 ------------------------------------------------------------------------
 
 [CategoryDistutilsCookbook](CategoryDistutilsCookbook)
-:::::::::

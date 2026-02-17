@@ -1,6 +1,11 @@
 # UnicodeEncodeError
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The `UnicodeEncodeError` normally happens when encoding a `unicode` string into a certain coding. Since codings map only a limited number of `unicode` characters to `str` strings, a non-presented character will cause the coding-specific `encode()` to fail.
 
     Encoding from unicode to str.
@@ -42,9 +47,8 @@ Alternatively, a [TypeError](TypeError) exception could always be thrown on rece
       File "encodings/utf_8.py", line 16, in decode
     UnicodeEncodeError: 'ascii' codec can't encode character u'\u0411' in position 0: ordinal not in range(128)
 
-Python 3000 will prohibit decoding of Unicode strings, according to PEP [3137](http://www.python.org/dev/peps/pep-3137 "PEP"){.interwiki}: *\"encoding always takes a Unicode string and returns a bytes sequence, and decoding always takes a bytes sequence and returns a Unicode string\"*.
+Python 3000 will prohibit decoding of Unicode strings, according to PEP [3137](http://www.python.org/dev/peps/pep-3137 "PEP"): *\"encoding always takes a Unicode string and returns a bytes sequence, and decoding always takes a bytes sequence and returns a Unicode string\"*.
 
 ------------------------------------------------------------------------
 
 [CategoryUnicode](CategoryUnicode)
-:::

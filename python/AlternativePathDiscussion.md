@@ -1,23 +1,28 @@
 # AlternativePathDiscussion
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page describes parts of the Path class design which are in discussion. It is meant to show the current state of the discussion, so when we reach a consensus, we can delete all the discussion details and just write the decision. Please write your opinions below in the appropriate section, or start a new section. Also indicate what you agree with, so we know how close to consensus we are.
 
 This discussion will be used to write a PEP (an alternative to PEP 355) and reference implementation.
 
-# Work coordination {#Work_coordination}
+# Work coordination 
 
 Mike (2006/08/20): I\'ll be working on a reference implementation and a PEP soon. Anybody else feel inclined? We should get working now if we want this in Python 2.6.
 
-# Constructor {#Constructor}
+# Constructor 
 
 **agreed:** {{{Path(\"/a/b\") =\> a Path object for \"/a/b\". Path() =\> same as Path(os.curdir). Path.cwd() =\> same as Path(os.getcwd()). Path(\[\"a\", \"b\"\]) =\> same as Path(\'a/b\') - since a path is a sequence of items, it should be initializable from an iterable of items.}}}
 
-# Representation {#Representation}
+# Representation 
 
 **agreed:** A logical representation is better than a string representation. `p[:]` should behave like a tuple of path components (directories and the final filename). `p[n1:n2` should return a new Path containing only the sliced components. `p1 + p2` should join paths. This eliminates the need for several properties/methods: .parent, .name, .join(), .split(), etc. `str(p)` should return a platform-specific string representing the entire path.
 
-# Joining absolute paths {#Joining_absolute_paths}
+# Joining absolute paths 
 
 Mike: ` p1 + p2 ` should return p2 if it isn\'t relative.
 
@@ -33,7 +38,7 @@ Mike: My proposal matches existing os.path.join() behavior. We shouldn\'t contra
 
 Noam: About the length: I feel it\'s nice that addition preserves this property, that\'s all. About cwd() + something: the abspath method does that.
 
-# Path + string {#Path_.2B-_string}
+# Path + string 
 
 What should `Path("/a/b") + "c"` do? Alternatives:
 
@@ -49,7 +54,7 @@ Mike: Maybe. But Guido rejected `/` for joining; he may also reject `+`. Its obv
 
 Noam: Another point against automatic conversion: it doesn\'t preserve the property that (a + b) + c == a + (b + c). But it is convinient\...
 
-## One sequence or several parts? {#One_sequence_or_several_parts.3F}
+## One sequence or several parts? 
 
 **agreed:** The filename or leaf directory should be the final component of the sequence, with extensions treated as part of the filename.
 
@@ -65,15 +70,15 @@ Mike: Note that slicing off the front of an absolute path makes a relative path.
 
 Noam: which is great.
 
-## A seperate class for files and directories? {#A_seperate_class_for_files_and_directories.3F}
+## A seperate class for files and directories? 
 
 **agreed:** The same class will represent a file, directory, or symbolic link. (Reasons can be found in the wiki history)
 
-## Inheritance from str to allow easy use in other functions {#Inheritance_from_str_to_allow_easy_use_in_other_functions}
+## Inheritance from str to allow easy use in other functions 
 
 Noam, Mike: This won\'t work. Strings must slice by character, and this is incompatible with slicing by directory component.
 
-## Inheritance from tuple {#Inheritance_from_tuple}
+## Inheritance from tuple 
 
 Noam: I think it works well. Guido said that he didn\'t like it, but I don\'t understand why. If all the data is stored in the sequence, I think a sequence interface should be provided. As far as I can see, the tuple interface is just that: an interface for an immutable sequence. This means that it doesn\'t cause any unwanted restrictions, so I don\'t see why not to inherit from it.
 
@@ -89,11 +94,11 @@ Mike: Containment is better than inheritance. Never subclass if you can reasonab
 
 Noam: You can always use containment - you never really need to subclass. I think that if it\'s agreed that all the data is stored in the sequence, inheritence from tuple is ok, since we really behave like an immutable sequence, and add some operations about the sequence.
 
-## Immutability {#Immutability}
+## Immutability 
 
 Noam, Jason, Mike: I think that immutable paths are somewhat easier to implement, and allow usage as dictionary keys. I think that if we have managed to live so far without mutable strings, we will manage to live without mutable paths. I don\'t see this as a major issue, but immutable paths can be somewhat more efficient: you can hash the string representation, and you can make sure you have a path by writing things like ` dst=path(dst) `, and if dst is already a path, no new object will be created.
 
-# In which module(s)? {#In_which_module.28s.29.3F}
+# In which module(s)? 
 
 Mike: A new \'basepath\' module would contain the common base class. The platform modules (posixpath, ntpath, etc) already exist and are the logical place for these Path classes.
 
@@ -103,11 +108,11 @@ Mike: Putting code for disparate architectures in one module is asking for troub
 
 Noam: Ok. It\'s basically an implementation detail, so we can decide on it after we implement the full class.
 
-# Filenames {#Filenames}
+# Filenames 
 
 Mike: If we use `+` for path joining, we need a way to create a derived path from a modified filename. Example: \"I want to add a prefix or suffix to the filename portion of \"/a/b/filename\". Splitting/rejoining the path is messy, especially if you have to modify the base name but preserve the extensions. No specific API proposal yet.
 
-# Extensions {#Extensions}
+# Extensions 
 
 **agreed:** extensions are critical, so the class must make it easy to query/modify them without splitting/rejoining the Path. Like directories, extensions have a platform-specific separator. Unlike directories, extensions are conventions rather than OS-enforced rules: not every apparent extension should be treated as such. The user must tell us when to recognize extensions, defined as N number of filename suffixes beginning with the platform\'s extension separator (.extsep). For instance, most users consider \"filename.2005-05-13.tar.gz\" and \"filename.2006.05.13.tar.gz\" as having two extensions each (\".tar.gz\"), even though the number of apparent extensions is larger.
 
@@ -150,9 +155,9 @@ Mike: OK on .ext and .withoutext. Concerned about using subclasses, but maybe it
 
 Noam: Excellent!
 
-# Stat {#Stat}
+# Stat 
 
-**agreed:** p.stat() and p.lstat() should return an enhanced version of Python\'s os.stat() object, with attributes like `p.stat().mtime` for all information traditionally provided by stat. Include Noam\'s additional properties from [http://wiki.python.org/moin/AlternativePathModule](http://wiki.python.org/moin/AlternativePathModule){.http}. Do not have Path methods duplicating stat attributes.
+**agreed:** p.stat() and p.lstat() should return an enhanced version of Python\'s os.stat() object, with attributes like `p.stat().mtime` for all information traditionally provided by stat. Include Noam\'s additional properties from [http://wiki.python.org/moin/AlternativePathModule](http://wiki.python.org/moin/AlternativePathModule). Do not have Path methods duplicating stat attributes.
 
 Mike: Unlike os.stat(), do not support ugly attributes like .st_mtime or tuple indexing.
 
@@ -164,7 +169,7 @@ Noam: I don\'t really mind - we can take this to python-dev / guido decision.
 
 Mike: I formerly proposed moving all stat attributes into Path methods, because the distinction between \"stat attribute\" and \"other file info\" was arbitrarily defined by Unix tradition, but withdrew this because it\'s not critical. Having .stat() does let the user cache the result, and having .lstat() avoids the need for a parallel set of methods that don\'t follow symlinks.
 
-# Finding files {#Finding_files}
+# Finding files 
 
 Jason Orendorff\'s path module has three methods returning a non-recursive list of paths: listdir, files, dirs; and three methods returning a recursive iteration of paths: walk, walkfiles, walkdirs. Noam proposed combining all these plus filename globbing into one method: glob, with a special pattern \"\*\*\" meaning \"any subdirectory or recursive path of subdirectories\".
 
@@ -255,7 +260,7 @@ Mike: Note that .isfile() and .isspecial() follow symbolic links, so they refer 
 
 Noam: About .isspecial(), I think that it ought to be left as an attribute of stat, as I wrote. About lisfile(): It should return True if p.lexists() and p.stat().isfile - it should return True only for files, not for symlinks and dirs.
 
-# Access Permissions {#Access_Permissions}
+# Access Permissions 
 
 Noam: I think that the \"access\" method should be replaced by three straightforward methods, which don\'t require the use of a constant from somewhere: p.isreadable(), p.iswriteable(), p.isexecutable().
 
@@ -263,7 +268,7 @@ Mike: .canread(), .canwrite(), .canexecute(). The access() function is cumbersom
 
 Noam: These are indeed better names.
 
-# Expand {#Expand}
+# Expand 
 
 Noam: I removed expand. There\'s no need to use normpath, so it\'s equivalent to .expanduser().expandvars(), and I think that the explicit form is better.
 
@@ -318,7 +323,7 @@ Noam: I\'m not sure about pairedwalk() - it may be a bit complicated, I\'m afrai
 
 Mike: I\'m now thinking about a class with methods to handle each of the exceptional cases, and boolean attributes for the alternative behaviors. Then we\'d define one or more default behaviors as `copytree = CopyTree.__call__`.
 
-# Copy {#Copy}
+# Copy 
 
 Nick:
 
@@ -342,7 +347,7 @@ Mike: src.copy(dest, mode=False, time=False). .copy_to is OK, .copyto is bad. Al
 
 Noam: About copymode vs. mode: I prefer copymode. \"mode\" seems like a mode specification (like in mkdir), not like a boolean.
 
-# Unicode {#Unicode}
+# Unicode 
 
 Noam: Someone with experience with unicode filenames, please help!
 
@@ -368,7 +373,7 @@ Noam: Here\'s another suggestion. I think it\'s good. It\'s based on the behavio
 
 Path objects will be homogeneous containers of either str or unicode items. This will be determined upon construction: if they are constructor from a unicode string, or from a sequence containing a unicode string, all elements will be unicode strings. Furthermore, all methods returning strings will return strings of that type, and all methods returning paths will return paths containing strings of that kind.
 
-# Obsoleting other modules {#Obsoleting_other_modules}
+# Obsoleting other modules 
 
 Nick:
 
@@ -382,9 +387,9 @@ Jason: The new API should be the one high-level API for this type of stuff. All 
 
 Mike: We cannot deprecate the existing functions in Python 2.x; too many existing programs would break. But we can discourage them in the documentation.
 
-# Additional methods/attributes {#Additional_methods.2Fattributes}
+# Additional methods/attributes 
 
-## .purge() {#A.purge.28.29}
+## .purge() 
 
 Mike: Delete \"it\" recursively if it exists, whatever it is. This is convenient when you don\'t care whether it\'s a file or directory, you just want to overwrite it, and you don\'t want to take six lines of code to do it.
 
@@ -409,7 +414,7 @@ Mike: The purpose of this module (or any Python module) is to make the calling c
 
 Noam: Ok, let\'s leave this to python-dev / Guido\'s decision.
 
-# mkdir/rmdir {#mkdir.2Frmdir}
+# mkdir/rmdir 
 
 Mike: These should succeed silently if the operation is already done. Otherwise the user has to write an unnecessary \"if p.exists():\" around it. If the user really cares whether the item exists, he can explicity write the if-stanza. If not, he shouldn\'t be forced to clutter his code, especially since that obscures whether it does matter or not that the item existed.
 
@@ -424,4 +429,3 @@ Mike: This is supposed to be an improved API. Programs are more readable if the 
 Noam: I\'m not sure about the name. makedirs/removedirs is more verbose but not too verbose, and keeps \"name compatibility\" with the os module. On the other hand, mkdirs/rmdirs looks more like mkdir/rmdir. We can leave this to python-dev/Guido decision.
 
 Jason wrote that Guido prefers separate functions for different cases, and in this case, I prefer it too. I think that a simple API is generally better than a complex API. I think that in this case, separate functions are simpler than one function with another option.
-:::

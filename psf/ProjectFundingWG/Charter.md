@@ -1,39 +1,28 @@
 # ProjectFundingWG/Charter
 
-:::: {#content dir="ltr" lang="en"}
-# Project Funding WG {#Project_Funding_WG}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Project Funding WG 
 
 The Project Funding Working Group was approved by the PSF Board on 11 June 2020.
 
-::: table-of-contents
-Contents
-
-1.  [Project Funding WG](#Project_Funding_WG)
-    1.  [Purpose & Common Goals](#Purpose_.26_Common_Goals)
-    2.  [Active Time](#Active_Time)
-    3.  [Rules & Guidelines](#Rules_.26_Guidelines)
-        1.  [Decision Making Procedures](#Decision_Making_Procedures)
-            1.  [Voting](#Voting)
-            2.  [Interaction with other Working Groups](#Interaction_with_other_Working_Groups)
-    4.  [Communication Plan](#Communication_Plan)
-    5.  [List of Participants/Who we are](#List_of_Participants.2FWho_we_are)
-    6.  [Support Requirements](#Support_Requirements)
-    7.  [Core Values & Internal Governance](#Core_Values_.26_Internal_Governance)
-:::
-
-## Purpose & Common Goals {#Purpose_.26_Common_Goals}
+## Purpose & Common Goals 
 
 This Working Group researches, and advises Python community volunteers on applying for external grants and similar funding to advance the mission of the PSF, which includes, but is not limited to, things such as advancing the Python core, Python-related infrastructure, key Python projects, and Python education and awareness.
 
 The Working Group:
 
-- researches available grants and similar funds, such as those listed [in the Open Source Alliance for Open Scholarship Handbook](https://osaos.codeforscience.org/resource-list-funding/){.https}
+- researches available grants and similar funds, such as those listed [in the Open Source Alliance for Open Scholarship Handbook](https://osaos.codeforscience.org/resource-list-funding/)
 
 - liaises with companies that would give directed gifts for specific projects
 
-- aids volunteers in developing budgets, using resources like [the OSAOS Handbook budgeting guide](https://osaos.codeforscience.org/budgeting/){.https}
+- aids volunteers in developing budgets, using resources like [the OSAOS Handbook budgeting guide](https://osaos.codeforscience.org/budgeting/)
 
-- gathers ideas for fundable projects, like [the list of fundable Python packaging improvements](https://github.com/psf/fundable-packaging-improvements/){.https}
+- gathers ideas for fundable projects, like [the list of fundable Python packaging improvements](https://github.com/psf/fundable-packaging-improvements/)
 
 - writes and curates reusable grant application materials
 
@@ -45,7 +34,7 @@ Goals:
 
 - Unblock progress for Python developers
 
-- Increase the amount of Research and Development going on in the Python ecosystem (See [Russell Keith-McGee\'s 2019 PyCon keynote](https://pyvideo.org/pycon-us-2019/russell-keith-magee-keynote-pycon-2019.html){.https})
+- Increase the amount of Research and Development going on in the Python ecosystem (See [Russell Keith-McGee\'s 2019 PyCon keynote](https://pyvideo.org/pycon-us-2019/russell-keith-magee-keynote-pycon-2019.html))
 
 - Reduce redundancy and missed opportunities in grant application process
 
@@ -57,11 +46,11 @@ Goals:
 
 The short-term goal of this working group is to organize resources and knowledge about common funding mechanisms within the community. As the working group gains these skills, there may be a time in the future where we request PSF funding for work on grantwriting and project management of grants. We expect this activity to generate additive revenue for the PSF in the form of admin fees, and to increase the sustainability of the PSF and the larger Python ecosystem through increased funding.
 
-## Active Time {#Active_Time}
+## Active Time 
 
 This working group will exist indefinitely (at the pleasure of the PSF Board) and does not have a predetermined end date.
 
-## Rules & Guidelines {#Rules_.26_Guidelines}
+## Rules & Guidelines 
 
 - If/when a particular individual has a conflict of interest (such as, they are requesting funds for themselves or a company they are affiliated with), they will excuse themselves from any voting.
 - The workgroup will not take longer than 2 weeks to discuss and vote on a proposal to disburse funds to a project or effort, or to hire grantwriting or project management services.
@@ -69,7 +58,7 @@ This working group will exist indefinitely (at the pleasure of the PSF Board) an
 - At any time the PSF board may, at its discretion, add any number of non-voting observers to the working group to observe and participate in discussion.
 - Any grant that involves the PSF in a material way (including as the organization receiving the funding) will be approved prior to application, by people nominated by the PSF Board. The initial person able to do this is the PSF Executive Director, but this will be expanded in time.
 
-### Decision Making Procedures {#Decision_Making_Procedures}
+### Decision Making Procedures 
 
 Decisions on what fundraising and projects/efforts to support, and whether to engage paid grantwriting or project management services, will be done using the voting procedures outlined below. Anyone may propose or request funding for a specific project/effort to be considered by the WG, or suggest the WG consider a particular source of funding, by contacting the publicly available email address.The WG will prioritize researching and applying to funding sources that:
 
@@ -87,17 +76,17 @@ The WG will prioritize finding funding for projects or initiatives that:
 
 When adding new members to the working group, prospective members must send an email to the publicly available email address introducing themselves along with a description of why they want to be a member and what they bring to the process. Approval of new members will be decided using the voting procedures detailed below:
 
-#### Voting {#Voting}
+#### Voting 
 
 A vote for any proposal will last for 5 days, or when all voting members have voted, whichever comes first. For a proposal to be successful it must have at least two +1\'s, more +1\'s than -0\'s, and no -1. Voting should generally be done using the mailing list, but may be done in any venue given agreement of all voting members.
 
-#### Interaction with other Working Groups {#Interaction_with_other_Working_Groups}
+#### Interaction with other Working Groups 
 
 The Project Funding Working Group will gather resources and provide advice to make each of our other WGs more successful in their grantwriting, recruiting, and project management. If volunteers are interested in applying for a particular funded project under the PSF\'s auspices, but no other Working Group is available and interested in applying for and executing it, the Project Funding Working Group will consider being the institutional home for that project (submitting applications, making hiring decisions, disbursing money, and reporting to funders and stakeholders).
 
 The Project Funding WG will make a best effort to keep track of other WGs\' grant proposals and funding initiatives, to avoid accidental duplication or missed opportunities.
 
-## Communication Plan {#Communication_Plan}
+## Communication Plan 
 
 Every alternate month (six times per year), the chair will schedule and lead a meeting or discussion thread for the working group to review funding opportunities and decide which to pursue.We\'ll communicate internally as necessary using:
 
@@ -115,9 +104,9 @@ For public-facing communication:
 
 - Collecting ideas for fundable projects: a public GitHub repository (and possibly the python.org wiki)
 
-- Publishing proposals and announcements: the python.org wiki, [https://discuss.python.org](https://discuss.python.org/){.https}, a public GitHub repository, and the PSF blog and social media
+- Publishing proposals and announcements: the python.org wiki, [https://discuss.python.org](https://discuss.python.org/), a public GitHub repository, and the PSF blog and social media
 
-## List of Participants/Who we are {#List_of_Participants.2FWho_we_are}
+## List of Participants/Who we are 
 
 Chairs: Eric Holscher & Jacqueline Kazil
 
@@ -130,7 +119,7 @@ Participants:
 - Cristina Muñoz
 - Jannis Leidel
 
-## Support Requirements {#Support_Requirements}
+## Support Requirements 
 
 What resources will you need from the PSF in order to have a functional and effective workgroup?
 
@@ -152,7 +141,7 @@ What resources will you need from the PSF in order to have a functional and effe
 
 - Possible future funding of the group for contract grantwriting and project management services
 
-## Core Values & Internal Governance {#Core_Values_.26_Internal_Governance}
+## Core Values & Internal Governance 
 
 The core values for this group are:
 
@@ -164,5 +153,4 @@ The core values for this group are:
 - Accountability
 - Constructiveness
 
-The workgroup adopts [the PSF Code of Conduct](https://www.python.org/psf/codeofconduct/){.https}. Any actions (found by a majority of the WG) made against the principles in the Code of Conduct will result in the acting person being removed from the WG.
-::::
+The workgroup adopts [the PSF Code of Conduct](https://www.python.org/psf/codeofconduct/). Any actions (found by a majority of the WG) made against the principles in the Code of Conduct will result in the acting person being removed from the WG.

@@ -1,6 +1,11 @@
 # boost.python/class
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **class\_\<\>** statement constructs python class object.
 
 Usually it\'s included in BOOST_PYTHON_MODULE to wrap C++ class:
@@ -73,4 +78,3 @@ There are several problems with the above arrangement, but the most important on
     class_<H>("H", "H's docstring")
         .def(...) 
         ;
-:::

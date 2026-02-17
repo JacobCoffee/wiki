@@ -1,13 +1,18 @@
 # PyQt/Previewing a form
 
-::::: {#content dir="ltr" lang="en"}
-# Previewing a form {#Previewing_a_form}
+```{admonition} Legacy Wiki Page
+:class: note
 
-On the `#pyqt`{.backtick} channel on [Freenode](http://freenode.net){.http}, `a_l_e`{.backtick} asked for a way to preview a main window form created in Qt Designer.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f884d1d6407195cb3416781af60d20d16b781e47 dir="ltr" lang="en"}
+# Previewing a form 
+
+On the `#pyqt`{.backtick} channel on [Freenode](http://freenode.net), `a_l_e`{.backtick} asked for a way to preview a main window form created in Qt Designer.
+
+:::: 
+::: 
+``` 
    1 import sys
    2 
    3 from PyQt4.QtGui import QApplication
@@ -28,4 +33,3 @@ On the `#pyqt`{.backtick} channel on [Freenode](http://freenode.net){.http}, `a_
 ```
 :::
 ::::
-:::::

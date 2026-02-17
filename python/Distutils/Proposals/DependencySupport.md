@@ -1,9 +1,14 @@
 # Distutils/Proposals/DependencySupport
 
-::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Distutils-based Dependency Support
 
-::: {#vision .section}
+::: 
 ### Vision
 
 We want to create a means whereby a package author can create a distutils-based package distribution that can automatically download and install the other distutils-based packages that the author\'s package requires. This mechanism must *not* require that a depended-on package explicitly support it. In other words, a newly created package should be able to depend on any existing distutils-based source distribution. (Being able to use binary distributions to satisfy dependencies is also desirable, but support of all possible binary formats should not be a sprint goal.) The means created should work with Python 2.2, must not require a modified distutils, and must be distributable by the packager so that the end user sees only the standard `setup.py`-based installation process.
@@ -11,7 +16,7 @@ We want to create a means whereby a package author can create a distutils-based 
 Whatever mechanism used to denote and process dependencies should be isolated as a library for reuse by other tool efforts, such as user-friendly package management tools. However, the package management tools themselves aren\'t the sprint goal, because these can be written independently. The \"simplest thing that could possibly work\" here is to give package authors a tool they can use to make their dependencies easy to install.
 :::
 
-::: {#intended-uses .section}
+::: 
 ### Intended Uses
 
 - break up monolithic systems (PEAK, Zope, Twisted) into smaller package sets with dependencies
@@ -19,7 +24,7 @@ Whatever mechanism used to denote and process dependencies should be isolated as
 - support painless install for end users (single command to download and install \"everything needed\") even at the cost of a little pain for the packager(s).
 :::
 
-::: {#non-goals .section}
+::: 
 ### Non-Goals
 
 - This is not an effort to develop an ultimate metadata format, repository, or best way to sign code
@@ -28,7 +33,7 @@ Whatever mechanism used to denote and process dependencies should be isolated as
 - \"uninstall\" is out of scope
 :::
 
-:::::: {#implementation-notes .section}
+:::::: 
 ### Implementation Notes
 
 What would be the \"simplest thing that could possibly work\"? We could have a function to download and install a source distribution from a given URL, and `setup.py` could simply call that function once for each dependency.
@@ -61,7 +66,7 @@ So, can we just pass our `sys.argv` to the child process? Tentatively, yes. Ther
 
 Both of these issues could be fixed by regenerating a custom command line from the actual finalized command options for the parent distribution. But it\'s not clear whether that\'s worth it. During the sprint, we may just want to use the parent `sys.argv`, and isolate it in a `get_setup_argv()` method for future enhancement.
 
-::: {#what-options-should-be-passed-to-a-dependency-s-setup-py .section}
+::: 
 #### What options should be passed to a dependency\'s `setup.py`?
 
 After more review of how distutils options and commands work, it seems that it would be best to pass only a specifically determined subset of options to dependency setup scripts. These would include:
@@ -90,7 +95,7 @@ We can ensure that the ones that specify directories are absolute, and we can ge
 We should probably track these options for subcommands like `build_lib` and `install_lib`, although I\'m not sure we want to support such fine-grained option settings passing through to dependencies. We do, however, want to abort if any unsupported options are supplied to any of the build/install commands or their subcommands, telling the user to run just the dependency command with appropriate options, or to run a `show_deps` command and manually install the dependencies. (That is, we should abort if there are any dependencies we\'ll need to install to complete a current command.)
 :::
 
-::: {#dependency-and-distribution-objects .section}
+::: 
 #### Dependency and Distribution Objects
 
 Dependency objects should be able to:
@@ -120,18 +125,18 @@ For convenience\'s sake, it should be possible to make a single call to create a
 Finally, by subclassing `distutils.core.Distribution` to add a `requires` attribute, we\'ll be able to supply a `requires` keyword to `setup()` in the parent distribution.
 :::
 
-::: {#compatibility-with-other-distutils-extensions .section}
+::: 
 #### Compatibility with other Distutils Extensions
 
 One potentially tricky issue is combining the dependency support with other distutils extensions. For example, PEAK and PyProtocols add extra commands like `test` to install the software and run unit tests, `happy` to run HappyDoc and build an HTML API reference, a modified `install_data` command that installs data in package directories, and so on. Zope 3 uses custom extensions to do a similar `install_data` fakeout, among other tasks.
 
 It may be that what we end up with, or want to end up with, is a `setuptools` mini-package for bundling with distributions that want these features. We could then bundle in some of the more useful commands such as `test` and perhaps an `install_package_data`. And, the package could hack `distutils.command.__path__` to also check the `setuptools` package. Thus, any new commands supplied by `setuptools` would be available without explicitly adding them. Existing commands would have to be explicitly overridden in the `cmdclass` argument to setup, or initialized via `self.cmdclass.setdefault()` in our custom `Distribution` class\'s `__init__`.
 
-(Update: I\'ve begun a draft version of the setuptools package at [http://cvs.eby-sarna.com/PEAK/setuptools/](http://cvs.eby-sarna.com/PEAK/setuptools/){.http .reference .external} \-- it does the command path extension, and implements installation of package data in a way similar to that used by Zope X3 and ZConfig, but with full distutils integration so that the \"installed files\" list will be accurate. It also adds a `test` command for running unit tests. By the time of the sprint, I will probably also add a draft version of a `get_dependencies` command with some stub classes for dependencies that print \"This is where I would download\" or \"This is where I would install\". \-- PJE)
+(Update: I\'ve begun a draft version of the setuptools package at [http://cvs.eby-sarna.com/PEAK/setuptools/](http://cvs.eby-sarna.com/PEAK/setuptools/) \-- it does the command path extension, and implements installation of package data in a way similar to that used by Zope X3 and ZConfig, but with full distutils integration so that the \"installed files\" list will be accurate. It also adds a `test` command for running unit tests. By the time of the sprint, I will probably also add a draft version of a `get_dependencies` command with some stub classes for dependencies that print \"This is where I would download\" or \"This is where I would install\". \-- PJE)
 :::
 ::::::
 
-::: {#sprinting-strategies-notes .section}
+::: 
 ### Sprinting Strategies/Notes
 
 - How can we create tests? What will we test? Unit testing of Dependency, Distribution, et al will probably be easy, but integration testing of the distutils-connected parts may be rather \"interesting\", to say the least.
@@ -141,7 +146,7 @@ It may be that what we end up with, or want to end up with, is a `setuptools` mi
   - Something with binary install for win32
 :::
 
-::: {#committed-participants .section}
+::: 
 ### Committed Participants
 
 - Anthony Baxter
@@ -152,9 +157,8 @@ It may be that what we end up with, or want to end up with, is a `setuptools` mi
 PJE was unable to secure funds and time off to make it in person, but will continue to help with pre-sprint research, design, and coding. Cory Dodt has also expressed a desire to participate, but also will be unable to attend.
 :::
 
-::: {#schedule .section}
+::: 
 ### Schedule
 
 TBD; Fred suggests Monday/Tuesday (but is somewhat flexible, while trying to juggle too many sprints in just 4 days)
 :::
-:::::::::::::

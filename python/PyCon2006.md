@@ -1,15 +1,20 @@
 # PyCon2006
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [PyCon](PyCon) 2006 was held near Dallas, Texas.
 
-The main conference web site is [http://us.pycon.org/TX2006/](http://us.pycon.org/TX2006/){.http}.
+The main conference web site is [http://us.pycon.org/TX2006/](http://us.pycon.org/TX2006/).
 
-The venue will be the Dallas-Addison Marriott Quorum ([reserve a room](http://www.stayatmarriott.com/Pycon2006/){.http} / [Hotel\'s Website](http://marriott.com/property/propertypage/DALQC){.http} / [Map to Hotel](http://maps.yahoo.com/maps_result?addr=14901+Dallas+Parkway&csz=Dallas%2C+Texas+75254&country=us){.http})
+The venue will be the Dallas-Addison Marriott Quorum ([reserve a room](http://www.stayatmarriott.com/Pycon2006/) / [Hotel\'s Website](http://marriott.com/property/propertypage/DALQC) / [Map to Hotel](http://maps.yahoo.com/maps_result?addr=14901+Dallas+Parkway&csz=Dallas%2C+Texas+75254&country=us))
 
-The Marriott Quorum hotel is located on the north side of Dallas, in the suburban [Town of Addison](http://www.addisontexas.net/){.http}.
+The Marriott Quorum hotel is located on the north side of Dallas, in the suburban [Town of Addison](http://www.addisontexas.net/).
 
-# Dates and times {#Dates_and_times}
+# Dates and times 
 
 The conference schedule is:
 
@@ -22,9 +27,9 @@ The conference schedule is:
          Wed, Mar  1: Sprints 3
          Thu, Mar  2: Sprints 4 / teardown
 
-- [Schedule of talks](http://www.python.org/pycon/2006/schedule){.http}
+- [Schedule of talks](http://www.python.org/pycon/2006/schedule)
 
-# Activities {#Activities}
+# Activities 
 
 - [/Talks](./PyCon2006(2f)Talks.html) \-- Scheduled formal presentations.
 
@@ -36,21 +41,21 @@ The conference schedule is:
 
 - [/BoF](./PyCon2006(2f)BoF.html) \-- Birds-of-a-feather sessions
 
-- [Lightning talks](http://us.pycon.org/TX2006/LightningTalks){.http}
+- [Lightning talks](http://us.pycon.org/TX2006/LightningTalks)
 
-- [Open Space](http://us.pycon.org/TX2006/OpenSpace){.http} \-- Plan your own sessions
+- [Open Space](http://us.pycon.org/TX2006/OpenSpace) \-- Plan your own sessions
 
-# Local Information {#Local_Information}
+# Local Information 
 
 - [/NearbyRestaurants](./PyCon2006(2f)NearbyRestaurants.html)
 
-- [PointsOfInterest2006](./PointsOfInterest2006.html){.nonexistent}
+- [PointsOfInterest2006](./PointsOfInterest2006.html)
 
-- [Wikitravel page for Dallas](http://wikitravel.org/en/Dallas){.http}
+- [Wikitravel page for Dallas](http://wikitravel.org/en/Dallas)
 
-- [Wikitravel page for Addison](http://wikitravel.org/en/Addison){.http}
+- [Wikitravel page for Addison](http://wikitravel.org/en/Addison)
 
-# Suggestions, Ideas {#Suggestions.2C_Ideas}
+# Suggestions, Ideas 
 
 What would you like to see at [PyCon](PyCon) 2006? Please edit these wiki pages, adding your suggestions and ideas.
 
@@ -70,19 +75,19 @@ There is a page of suggestions for speakers at [PyCon2006/SpeakerNotes](./PyCon2
 
 Want to help? Take a look at [PyCon2006/VolunteerTasks](./PyCon2006(2f)VolunteerTasks.html) for ways you can help.
 
-# For Organizers {#For_Organizers}
+# For Organizers 
 
 Planning-related pages belong to the [CategoryPyConPlanning](CategoryPyConPlanning) category.
 
 - [/KeynoteIdeas](./PyCon2006(2f)KeynoteIdeas.html)
 
-- [/ScheduleDraft](./PyCon2006(2f)ScheduleDraft.html){.nonexistent}
+- [/ScheduleDraft](./PyCon2006(2f)ScheduleDraft.html)
 
 - [/Staff](./PyCon2006(2f)Staff.html)
 
 - [/ForTutorialInstructors](./PyCon2006(2f)ForTutorialInstructors.html)
 
-- [PrintShopsNearby2006](./PrintShopsNearby2006.html){.nonexistent}
+- [PrintShopsNearby2006](./PrintShopsNearby2006.html)
 
 - [/Reviewing](./PyCon2006(2f)Reviewing.html)
 
@@ -94,9 +99,8 @@ Planning-related pages belong to the [CategoryPyConPlanning](CategoryPyConPlanni
 
 - [/CfpTargets](./PyCon2006(2f)CfpTargets.html)
 
-- [/Attendance](./PyCon2006(2f)Attendance.html){.nonexistent}
+- [/Attendance](./PyCon2006(2f)Attendance.html)
 
 ------------------------------------------------------------------------
 
 [CategoryPyCon2006](CategoryPyCon2006) [CategoryPyConPlanning](CategoryPyConPlanning)
-:::

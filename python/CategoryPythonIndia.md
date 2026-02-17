@@ -1,7 +1,12 @@
 # CategoryPythonIndia
 
-:::: {#content dir="ltr" lang="en"}
-# Pages Related to Python India {#Pages_Related_to_Python_India}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Pages Related to Python India 
 
 ::: searchresults
 1.  [AssameseLanguage](./AssameseLanguage.html?highlight=%28CategoryPythonIndia%29)
@@ -29,4 +34,3 @@
 ------------------------------------------------------------------------
 
 [CategoryCategory](CategoryCategory) [CategoryLanguage](CategoryLanguage)
-::::

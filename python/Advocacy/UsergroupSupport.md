@@ -1,51 +1,55 @@
 # Advocacy/UsergroupSupport
 
-:::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Support Center for Usergroups
 
-> - [Usergroup Support Committee](http://wiki.python.org/moin/Advocacy/UsergroupSupport/Committee){.http .reference .external}
+> - [Usergroup Support Committee](http://wiki.python.org/moin/Advocacy/UsergroupSupport/Committee)
 
-::: {#flyers-and-brochures-for-promoting-your-usergroup .section}
+::: 
 ### Flyers and Brochures for Promoting Your Usergroup
 
 > - 
 >
 >   Sample Tearaway Flyer from Omaha Python Usergroup
 >
->   :   - U.S. Letter Size ([.doc](http://wiki.python.org/moin/OmahaPythonUserGroup?action=AttachFile&do=get&target=OmahaPythonUserGroupFlyerWithTearAways.pdf){.http .reference .external}, [.pdf](http://wiki.python.org/moin/OmahaPythonUserGroup?action=AttachFile&do=get&target=OmahaPythonUserGroupFlyerWithTearAways.pdf){.http .reference .external})
+>   :   - U.S. Letter Size ([.doc](http://wiki.python.org/moin/OmahaPythonUserGroup?action=AttachFile&do=get&target=OmahaPythonUserGroupFlyerWithTearAways.pdf), [.pdf](http://wiki.python.org/moin/OmahaPythonUserGroup?action=AttachFile&do=get&target=OmahaPythonUserGroupFlyerWithTearAways.pdf))
 
 > - 
 >
 >   Sample 2-Sided Flyer for Australian Open Source Conference
 >
->   :   - A4 Size ([.odf](http://wiki.python.org/moin/Advocacy?action=AttachFile&do=get&target=PythonAdvocacyGlossy-1-A4.odg){.http .reference .external}, [.pdf](http://wiki.python.org/moin/Advocacy?action=AttachFile&do=get&target=PythonAdvocacyGlossy-1-A4.pdf){.http .reference .external}, [.ps](http://wiki.python.org/moin/Advocacy?action=AttachFile&do=get&target=PythonAdvocacyGlossy-1-A4.ps){.http .reference .external})
+>   :   - A4 Size ([.odf](http://wiki.python.org/moin/Advocacy?action=AttachFile&do=get&target=PythonAdvocacyGlossy-1-A4.odg), [.pdf](http://wiki.python.org/moin/Advocacy?action=AttachFile&do=get&target=PythonAdvocacyGlossy-1-A4.pdf), [.ps](http://wiki.python.org/moin/Advocacy?action=AttachFile&do=get&target=PythonAdvocacyGlossy-1-A4.ps))
 
 > - 
 >
 >   General Advocate Handout Card
 >
->   :   - U.S. Business Card Size ([.odf](http://wiki.python.org/moin/Advocacy?action=AttachFile&do=get&target=BusinessCards-PythonAdvocacy-1-LTR.odg){.http .reference .external}, [.pdf](http://wiki.python.org/moin/Advocacy?action=AttachFile&do=get&target=BusinessCards-PythonAdvocacy-1-LTR.pdf){.http .reference .external}, [.ps](http://wiki.python.org/moin/Advocacy?action=AttachFile&do=get&target=BusinessCards-PythonAdvocacy-1-LTR.ps){.http .reference .external})
+>   :   - U.S. Business Card Size ([.odf](http://wiki.python.org/moin/Advocacy?action=AttachFile&do=get&target=BusinessCards-PythonAdvocacy-1-LTR.odg), [.pdf](http://wiki.python.org/moin/Advocacy?action=AttachFile&do=get&target=BusinessCards-PythonAdvocacy-1-LTR.pdf), [.ps](http://wiki.python.org/moin/Advocacy?action=AttachFile&do=get&target=BusinessCards-PythonAdvocacy-1-LTR.ps))
 :::
 
-::: {#welcoming-kit-for-new-usergroups .section}
+::: 
 ### Welcoming Kit for New Usergroups
 
-> - Whitepaper - [What is Python?](http://wiki.python.org/moin/AdvocacyWritingTasks/WhatIsPython){.http .reference .external}
-> - Whitepaper: [A Guide to Planning Your Usergroup](http://wiki.python.org/moin/AdvocacyWritingTasks/StartingAUserGroup){.http .reference .external}
-> - Library of [initial meeting topics](http://wiki.python.org/moin/Advocacy/MeetingTopics){.http .reference .external}, along with outlines/slides
-> - Library of [quality video presentations](http://wiki.python.org/moin/Advocacy/VideoLectures){.http .reference .external} to play when there is no speaker
-> - 1-year of prepaid access to [python.meetup.com](http://python.meetup.com/){.http .reference .external} (???)
+> - Whitepaper - [What is Python?](http://wiki.python.org/moin/AdvocacyWritingTasks/WhatIsPython)
+> - Whitepaper: [A Guide to Planning Your Usergroup](http://wiki.python.org/moin/AdvocacyWritingTasks/StartingAUserGroup)
+> - Library of [initial meeting topics](http://wiki.python.org/moin/Advocacy/MeetingTopics), along with outlines/slides
+> - Library of [quality video presentations](http://wiki.python.org/moin/Advocacy/VideoLectures) to play when there is no speaker
+> - 1-year of prepaid access to [python.meetup.com](http://python.meetup.com/) (???)
 :::
 
-::: {#see-also .section}
+::: 
 ### See also
 
-> - [PythonSpeakers](http://wiki.python.org/moin/PythonSpeakers){.http .reference .external}
-> - [Group-Organizers Mailing List](http://mail.python.org/mailman/listinfo/group-organizers){.http .reference .external}
-> - [Running a Conference](http://wiki.python.org/moin/AdvocacyWritingTasks/RunningAConference){.http .reference .external}
-> - Facundo Batista\'s notes at the end of PyCon Argentina [(en Español)](http://www.taniquetil.com.ar/plog/post/1/425){.http .reference .external} [(in English)](http://www.taniquetil.com.ar/facundo/pyconar09_report.txt){.http .reference .external}
-> - The [PyCon-Tech](https://pycon.coderanger.net/){.https .reference .external} software is available for your own conference use
-> - Consider a [BarCamp](http://wiki.python.org/moin/PythonBarCamp){.http .reference .external} or \"unconference\", like the [Python Unconference in Texas](http://pycamp.python.org/Texas/HomePage){.http .reference .external}
-> - The Perl foundation has worthwhile and reasonably universal [advice on conference planning](http://tpf.googlecode.com/svn/trunk/yapc/YAPC.pm){.http .reference .external}.
+> - [PythonSpeakers](http://wiki.python.org/moin/PythonSpeakers)
+> - [Group-Organizers Mailing List](http://mail.python.org/mailman/listinfo/group-organizers)
+> - [Running a Conference](http://wiki.python.org/moin/AdvocacyWritingTasks/RunningAConference)
+> - Facundo Batista\'s notes at the end of PyCon Argentina [(en Español)](http://www.taniquetil.com.ar/plog/post/1/425) [(in English)](http://www.taniquetil.com.ar/facundo/pyconar09_report.txt)
+> - The [PyCon-Tech](https://pycon.coderanger.net/) software is available for your own conference use
+> - Consider a [BarCamp](http://wiki.python.org/moin/PythonBarCamp) or \"unconference\", like the [Python Unconference in Texas](http://pycamp.python.org/Texas/HomePage)
+> - The Perl foundation has worthwhile and reasonably universal [advice on conference planning](http://tpf.googlecode.com/svn/trunk/yapc/YAPC.pm).
 :::
-::::::

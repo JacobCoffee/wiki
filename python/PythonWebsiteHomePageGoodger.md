@@ -1,9 +1,14 @@
 # PythonWebsiteHomePageGoodger
 
-::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # David Goodger\'s Python.org Home Page Candidate Plan
 
-::: {#home-page .section}
+::: 
 ### Home Page
 
 I think the home page should contain as little **static** text as possible, and should be as small as possible. The \"News and Announcements\" section should be visible without scrolling.
@@ -32,7 +37,7 @@ Right sidebar:
 - \"Written in Python\"
 :::
 
-::: {#navigation-menu .section}
+::: 
 ### Navigation Menu
 
 - \"FOUNDATION\" (was \"PSF\")
@@ -44,22 +49,21 @@ Right sidebar:
 - Add \"Applications\" section (see below)
 :::
 
-::: {#about-section .section}
+::: 
 ### ABOUT section
 
 Change order:
 
 - Getting Started
-- Benefits (new page; see [http://www.squidoo.com/pythonology/](http://www.squidoo.com/pythonology/){.http .reference .external})
+- Benefits (new page; see [http://www.squidoo.com/pythonology/](http://www.squidoo.com/pythonology/))
 - Success Stories
 - Quotes
 - Website
 - Help
 :::
 
-::: {#applications-section .section}
+::: 
 ### APPLICATIONS section
 
 One item & page per major application area (i.e. \"Using Python For\...\" items from the home page)
 :::
-:::::::

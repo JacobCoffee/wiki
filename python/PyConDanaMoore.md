@@ -1,5 +1,9 @@
 # PyConDanaMoore
 
-::: {#content dir="ltr" lang="en"}
-See presentation at [http://www.infoether.com/\~rich/pycon2003.pdf](http://www.infoether.com/~rich/pycon2003.pdf){.http}
-:::
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+See presentation at [http://www.infoether.com/\~rich/pycon2003.pdf](http://www.infoether.com/~rich/pycon2003.pdf)

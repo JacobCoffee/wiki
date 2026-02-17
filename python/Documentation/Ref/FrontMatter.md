@@ -1,6 +1,11 @@
 # Documentation/Ref/FrontMatter
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 - Python Reference Manual
 
 Previous: Python Reference Manual Up: Python Reference Manual Next: Contents
@@ -9,7 +14,7 @@ Previous: Python Reference Manual Up: Python Reference Manual Next: Contents
 
 Copyright © 2001-2004 Python Software Foundation. All rights reserved.
 
-Copyright © 2000 [BeOpen](./BeOpen.html){.nonexistent}.com. All rights reserved.
+Copyright © 2000 [BeOpen](./BeOpen.html).com. All rights reserved.
 
 Copyright © 1995-2000 Corporation for National Research Initiatives. All rights reserved.
 
@@ -30,4 +35,3 @@ Previous: Python Reference Manual Up: Python Reference Manual Next: Contents
 ------------------------------------------------------------------------
 
 Release 2.5a0, documentation updated on August 30, 2005. See About this document\... for information on suggesting changes.
-:::

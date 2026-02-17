@@ -1,9 +1,14 @@
 # PyConPromotion
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Promotional tasks:
 
-- Send CFP and registration notices to local Linux UG mailing lists ( [NoVALUG](http://novalug.tux.org){.http} [DC-LUG](http://dclug.tux.org/){.http}), Python user groups.
+- Send CFP and registration notices to local Linux UG mailing lists ( [NoVALUG](http://novalug.tux.org) [DC-LUG](http://dclug.tux.org/)), Python user groups.
 
 - Write a one-page flyer. Draft version: [PyConDC2005/Flyer](./PyConDC2005(2f)Flyer.html)
 
@@ -11,11 +16,11 @@ Promotional tasks:
 
 - Send notice of registration opening to local Linux UG mailing lists, comp.lang.python.announce.
 
-- Event listings: [Computer User](http://www.computeruser.com){.http} (edit at computeruser.com), Government Computer News (jjackson@), CMP (astephens@), CNET (miker@), IEEE Computer (jprow@).
+- Event listings: [Computer User](http://www.computeruser.com) (edit at computeruser.com), Government Computer News (jjackson@), CMP (astephens@), CNET (miker@), IEEE Computer (jprow@).
 
 - Suggestions?
 
-Text ads for [http://www.lwn.net](http://www.lwn.net){.http} and Google. Ads should point to [http://us.pycon.org](http://us.pycon.org){.http}
+Text ads for [http://www.lwn.net](http://www.lwn.net) and Google. Ads should point to [http://us.pycon.org](http://us.pycon.org)
 
 - [PyCon](PyCon) 2006: Register now for this conference featuring tutorials, sprints, and over 50 talks. (February 24-26, 2006, Dallas Texas)
 
@@ -35,9 +40,8 @@ Text ads for [http://www.lwn.net](http://www.lwn.net){.http} and Google. Ads sho
 
 Please write more text ads.
 
-## Conferences {#Conferences}
+## Conferences 
 
 ------------------------------------------------------------------------
 
 [CategoryPyCon2005](CategoryPyCon2005)
-:::

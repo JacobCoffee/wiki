@@ -1,6 +1,11 @@
 # ChoiceOfFreebies
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 I suggest paying for people who can\'t afford to come, instead of giving out freebies. \--itamar
 
 - *Thanks for making this suggestion, which has already been talked of as one possibility should the conference be well-enough attended to make it practical. Well, you were asking how you could help. I suppose, should funds be available for this purpose, we\'d need someone impartial to make the decisions about who gets paid for. Also remember that ultimately the decision about whether this happens will have to be the PSA\'s, since it\'s their money we are talking about. \-- steve*
@@ -14,4 +19,3 @@ One year everybody got the \_Essential Python Reference\_ (New Riders). That rea
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon)
-:::

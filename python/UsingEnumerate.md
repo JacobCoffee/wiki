@@ -1,11 +1,16 @@
 # UsingEnumerate
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **`enumerate`** is easy to use:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-17a52fe6d6ab26dc8dadeba71d70d36fb7149206 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 for index, character in enumerate("hello"):
    2   print "#%d: %s" % (index, character)
 ```
@@ -21,4 +26,3 @@
     #4: o
 
 You can use it on just about any iterable sequence.
-:::::

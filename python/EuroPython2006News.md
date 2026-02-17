@@ -1,11 +1,16 @@
 # EuroPython2006News
 
-::: {#content dir="ltr" lang="en"}
-# EuroPython 2006 News {#EuroPython_2006_News}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# EuroPython 2006 News 
 
 This page was updated frequently during the [EuroPython2006](EuroPython2006) conference, and interesting post-conference information will also appear here.
 
-[AndreasPfeiffer](./AndreasPfeiffer.html){.nonexistent} \-- for the local organisers at CERN
+[AndreasPfeiffer](./AndreasPfeiffer.html) \-- for the local organisers at CERN
 
 [PaulBoddie](PaulBoddie) \-- updating the page with interesting finds
 
@@ -17,7 +22,7 @@ This page was updated frequently during the [EuroPython2006](EuroPython2006) con
 
 Gregor Lindl posted a link to some more pictures on the [EuroPython](EuroPython) mailing list:
 
-- [http://ada.rg16.asn-wien.ac.at/\~python/europython06/index.html](http://ada.rg16.asn-wien.ac.at/~python/europython06/index.html){.http}
+- [http://ada.rg16.asn-wien.ac.at/\~python/europython06/index.html](http://ada.rg16.asn-wien.ac.at/~python/europython06/index.html)
 
 ------------------------------------------------------------------------
 
@@ -25,7 +30,7 @@ Gregor Lindl posted a link to some more pictures on the [EuroPython](EuroPython)
 
 **Europython pictures and blog**
 
-A flickr group for pictures of the Europython2006 is set up at: [http://www.flickr.com/groups/europython2006](http://www.flickr.com/groups/europython2006){.http} There exist also flickr tags
+A flickr group for pictures of the Europython2006 is set up at: [http://www.flickr.com/groups/europython2006](http://www.flickr.com/groups/europython2006) There exist also flickr tags
 
 - Europython
 - ep2006
@@ -34,13 +39,13 @@ Blogs:
 
 i found those blogs conaining information about Europython:
 
-- [http://vanrees.org/weblog/topics/europython](http://vanrees.org/weblog/topics/europython){.http}
+- [http://vanrees.org/weblog/topics/europython](http://vanrees.org/weblog/topics/europython)
 
-- [http://www.oluyede.org/blog/2006/07/04/europython-day-1/](http://www.oluyede.org/blog/2006/07/04/europython-day-1/){.http}
+- [http://www.oluyede.org/blog/2006/07/04/europython-day-1/](http://www.oluyede.org/blog/2006/07/04/europython-day-1/)
 
-- [http://vanrees.org/weblog/archive/2006/07](http://vanrees.org/weblog/archive/2006/07){.http}
+- [http://vanrees.org/weblog/archive/2006/07](http://vanrees.org/weblog/archive/2006/07)
 
-- [http://www.python-forum.de/topic-6445.html](http://www.python-forum.de/topic-6445.html){.http} (in german)
+- [http://www.python-forum.de/topic-6445.html](http://www.python-forum.de/topic-6445.html) (in german)
 
 ------------------------------------------------------------------------
 
@@ -50,7 +55,7 @@ i found those blogs conaining information about Europython:
 
 Michael Pfeiffer was so friendly to sent the email poll for my pygamebook project to all Europython 2006 participants. If you for some reasons did not got the email please contact me direct at:
 
-- [Horst.jens@gmx.at](mailto:Horst.jens@gmx.at){.mailto}
+- [Horst.jens@gmx.at](mailto:Horst.jens@gmx.at)
 
 ------------------------------------------------------------------------
 
@@ -88,11 +93,11 @@ Last update: AP, 2006-Jun-30 08:05
 
 Sprint sessions
 
-- The pre-conference sprints will take place in Building 40 (see \"[http://building.web.cern.ch/map/building?bno=40](http://building.web.cern.ch/map/building?bno=40){.http}\") in the (small) conference rooms on the ground floor (in each of the four \"corners\": from the \"cafeteria area\" go up the stairs (just a few steps) then the rooms are to the right/left). For keys, please contact Vincenzo Innocente +41.76.487.4047 (or 16.4047 from any CERN phone).
+- The pre-conference sprints will take place in Building 40 (see \"[http://building.web.cern.ch/map/building?bno=40](http://building.web.cern.ch/map/building?bno=40)\") in the (small) conference rooms on the ground floor (in each of the four \"corners\": from the \"cafeteria area\" go up the stairs (just a few steps) then the rooms are to the right/left). For keys, please contact Vincenzo Innocente +41.76.487.4047 (or 16.4047 from any CERN phone).
 
 On arrival
 
-- If you arrive during office hours (Mon-Fri 08:00-18:00) please go to the main reception building (see \"[http://building.web.cern.ch/map/building?bno=33](http://building.web.cern.ch/map/building?bno=33){.http}\"), you will get your information kit with the conference badge there. The badge is needed to enter the CERN site ! If you arrive outside office hours (evenings and weekends), please go to the guards at the main entrance (B), you can pick up your kit from them.
+- If you arrive during office hours (Mon-Fri 08:00-18:00) please go to the main reception building (see \"[http://building.web.cern.ch/map/building?bno=33](http://building.web.cern.ch/map/building?bno=33)\"), you will get your information kit with the conference badge there. The badge is needed to enter the CERN site ! If you arrive outside office hours (evenings and weekends), please go to the guards at the main entrance (B), you can pick up your kit from them.
 
 ------------------------------------------------------------------------
 
@@ -100,7 +105,7 @@ Last update: AP, 2006-Jun-29 15:34
 
 Map of CERN (PDF)
 
-- A downloadable map of the CERN Meyrin site as PDF is available from the local info page at [http://cern.ch/EuroPython2006](http://cern.ch/EuroPython2006){.http} (or directly as: [http://cern.ch/EuroPython2006/CERN-Meyrin-Map.pdf](http://cern.ch/EuroPython2006/CERN-Meyrin-Map.pdf){.http}). The conference venues are on the rightmost part.
+- A downloadable map of the CERN Meyrin site as PDF is available from the local info page at [http://cern.ch/EuroPython2006](http://cern.ch/EuroPython2006) (or directly as: [http://cern.ch/EuroPython2006/CERN-Meyrin-Map.pdf](http://cern.ch/EuroPython2006/CERN-Meyrin-Map.pdf)). The conference venues are on the rightmost part.
 
 ------------------------------------------------------------------------
 
@@ -117,4 +122,3 @@ Last update: AP, 2006-Jun-28 11:45
 - The news page has been set up.
 
 ------------------------------------------------------------------------
-:::

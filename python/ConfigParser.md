@@ -1,6 +1,11 @@
 # ConfigParser
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 (Also see [ConfigParserShootout](ConfigParserShootout) for discussion on alternatives and possible directions for future development.)
 
 If you want to know how to use ConfigParser, see [ConfigParserExamples](ConfigParserExamples).
@@ -41,11 +46,10 @@ Funny, I thought I was going to talk about improvements to the docs here. Maybe 
 
 It seems to me defaults are just place holders, what I want is to check for file.ini and if it is not found in the current directory write it with defaults. There is no \'defaults\' section, if I want defaults I just delete the file.ini. \-- [GaryMoffatt](GaryMoffatt)
 
-Is there any rationale in `ConfigParser`{.backtick} for `sections()`{.backtick} not returning the list of sections in the order presented in the file? \-- [StephenHahn](./StephenHahn.html){.nonexistent}
+Is there any rationale in `ConfigParser`{.backtick} for `sections()`{.backtick} not returning the list of sections in the order presented in the file? \-- [StephenHahn](./StephenHahn.html)
 
 - Very simple: the order isn\'t stored; the sections are stored as a dictionary. It\'s also possible that the file contains multiple sections by the same name, which are collapsed into a single entry in the internal dictionary. \--[FredDrake](FredDrake)
 
-  - Thanks. I had thought that .INI files had to have unique sections, but perhaps not. Being order-preserving allows sections to have precedence based on order, rather than an explicit attribute (which is what the config file I\'ve inherited has done, although it was parsed using another language\'s INI module). \-- [StephenHahn](./StephenHahn.html){.nonexistent}
+  - Thanks. I had thought that .INI files had to have unique sections, but perhaps not. Being order-preserving allows sections to have precedence based on order, rather than an explicit attribute (which is what the config file I\'ve inherited has done, although it was parsed using another language\'s INI module). \-- [StephenHahn](./StephenHahn.html)
 
     - Hmm. Other parsers may be less forgiving. Too bad there\'s no real specification for the INI format (as best as I\'ve been able to tell). \--[FredDrake](FredDrake)
-:::

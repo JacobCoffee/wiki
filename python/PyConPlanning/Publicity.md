@@ -1,6 +1,11 @@
 # PyConPlanning/Publicity
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Three months or so before the Conference, submit a blurb to these magazines:
 
 - Linux Journal
@@ -11,7 +16,7 @@ Three months or so before the Conference, submit a blurb to these magazines:
 
 - Software Development magazine
 
-- [SysAdmin](./SysAdmin.html){.nonexistent}
+- [SysAdmin](./SysAdmin.html)
 
 - eWeek
 
@@ -59,4 +64,3 @@ Include as many major details as you can at that point, and prominently include 
 ------------------------------------------------------------------------
 
 [CategoryPyConPlanning](CategoryPyConPlanning)
-:::

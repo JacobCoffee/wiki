@@ -1,7 +1,12 @@
 # MacPython/OmniGraffle/ProTerminology
 
-:::: {#content dir="ltr" lang="en"}
-*([OmniGraffle](./OmniGraffle.html){.nonexistent} Professional.app terminology, generated from /Applications/Graphisme/OmniGraffle Professional.app)*
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+*([OmniGraffle](./OmniGraffle.html) Professional.app terminology, generated from /Applications/Graphisme/OmniGraffle Professional.app)*
 
 ::: {}
   -------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -11,11 +16,11 @@
   -------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-## Standard Suite {#Standard_Suite}
+## Standard Suite 
 
 Common classes and commands for most applications.
 
-### Commands {#Commands}
+### Commands 
 
 - **reference.get()** \-- Get the data for an object.\
 
@@ -23,7 +28,7 @@ Common classes and commands for most applications.
 
   **reference.save(\...)** \-- Save an object.\
 
-  - \[**as**=*[UnicodeText](./UnicodeText.html){.nonexistent}*\] \-- The file type in which to save the data.\
+  - \[**as**=*[UnicodeText](./UnicodeText.html)*\] \-- The file type in which to save the data.\
     \[**in\_**=*Alias*\] \-- The file in which to save the object.\
     Result: *None*
 
@@ -39,7 +44,7 @@ Common classes and commands for most applications.
 
   **reference.duplicate(\...)** \-- Copy object(s) and put the copies at a new location.\
 
-  - **to**=*[InsertionLoc](./InsertionLoc.html){.nonexistent}* \-- The location for the new object(s).\
+  - **to**=*[InsertionLoc](./InsertionLoc.html)* \-- The location for the new object(s).\
     \[**with_properties**=*AERecord*\] \-- Properties to be set in the new duplicated object(s).\
     Result: *None*
 
@@ -56,8 +61,8 @@ Common classes and commands for most applications.
   - \[**with_properties**=*AERecord*\] \-- The initial values for properties of the object.\
     **new**=*Type* \-- The class of the new object.\
     \[**with_data**=*Anything*\] \-- The initial data for the object.\
-    \[**at**=*[InsertionLoc](./InsertionLoc.html){.nonexistent}*\] \-- The location at which to insert the object.\
-    Result: *[ObjectSpecifier](./ObjectSpecifier.html){.nonexistent}* \-- the reply for the command
+    \[**at**=*[InsertionLoc](./InsertionLoc.html)*\] \-- The location at which to insert the object.\
+    Result: *[ObjectSpecifier](./ObjectSpecifier.html)* \-- the reply for the command
 
   **application.open(\...)** \-- Open an object.\
 
@@ -77,7 +82,7 @@ Common classes and commands for most applications.
 
   **reference.move(\...)** \-- Move object(s) to a new location.\
 
-  - **to**=*[InsertionLoc](./InsertionLoc.html){.nonexistent}* \-- The new location for the object(s).\
+  - **to**=*[InsertionLoc](./InsertionLoc.html)* \-- The new location for the object(s).\
     Result: *None*
 
   **reference.quit(\...)** \-- Quit an application.\
@@ -85,17 +90,17 @@ Common classes and commands for most applications.
   - \[**saving**=*k.yes \| k.no \| k.ask*\] \-- Specifies whether changes should be saved before quitting.\
     Result: *None*
 
-### Classes {#Classes}
+### Classes 
 
-- **document** \-- An [/OmniGraffle](./MacPython(2f)OmniGraffle(2f)ProTerminology(2f)OmniGraffle.html){.nonexistent} document
+- **document** \-- An [/OmniGraffle](./MacPython(2f)OmniGraffle(2f)ProTerminology(2f)OmniGraffle.html) document
 
   - Parent:
     - *[item](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_item)*
 
     Properties:
     - **modified** (r/o) *Boolean* \-- Has the document been modified since the last save?\
-      **path** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The document\'s path.\
-      **name** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The document\'s name.\
+      **path** *[UnicodeText](./UnicodeText.html)* \-- The document\'s path.\
+      **name** *[UnicodeText](./UnicodeText.html)* \-- The document\'s name.\
       **links_visible** *Boolean* \-- Whether link indicators are visible\
       **alignment_guides_enabled** *Boolean* \-- Whether smart alignment guides are enabled\
       **distance_guides_enabled** *Boolean* \-- Whether smart distance guides are enabled\
@@ -115,7 +120,7 @@ Common classes and commands for most applications.
     - **class\_** (r/o) *Type* \-- The class of the object.\
       **properties** *AERecord* \-- All of the object\'s properties.\
 
-  **window** \-- An [/OmniGraffle](./MacPython(2f)OmniGraffle(2f)ProTerminology(2f)OmniGraffle.html){.nonexistent} window
+  **window** \-- An [/OmniGraffle](./MacPython(2f)OmniGraffle(2f)ProTerminology(2f)OmniGraffle.html) window
 
   - Parent:
     - *[item](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_item)*
@@ -123,7 +128,7 @@ Common classes and commands for most applications.
     Properties:
     - **zoomed** *Boolean* \-- Whether the window is currently zoomed.\
       **miniaturized** *Boolean* \-- Whether the window is currently miniaturized.\
-      **name** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The full title of the window.\
+      **name** *[UnicodeText](./UnicodeText.html)* \-- The full title of the window.\
       **floating** (r/o) *Boolean* \-- Whether the window floats.\
       **modal** (r/o) *Boolean* \-- Whether the window is the application\'s current modal window.\
       **miniaturizable** (r/o) *Boolean* \-- Whether the window can be miniaturized.\
@@ -136,21 +141,21 @@ Common classes and commands for most applications.
       **titled** (r/o) *Boolean* \-- Whether the window has a title bar.\
       **index** *SInt32* \-- The index of the window in the back-to-front window ordering.\
       **document** (r/o) *[k.document](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_document)* \-- The document whose contents are being displayed in the window.\
-      **zoom** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Current zoom setting for this window\
+      **zoom** *[ShortFloat](./ShortFloat.html)* \-- Current zoom setting for this window\
       **page** *[k.page](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_page)* \-- Current page this window is viewing\
       **selection** *AEList* \-- Selected graphics\
 
-  **application** \-- [/OmniGraffle](./MacPython(2f)OmniGraffle(2f)ProTerminology(2f)OmniGraffle.html){.nonexistent}
+  **application** \-- [/OmniGraffle](./MacPython(2f)OmniGraffle(2f)ProTerminology(2f)OmniGraffle.html)
 
   - Parent:
     - *[item](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_item)*
 
     Properties:
-    - **version** (r/o) *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The version of the application.\
+    - **version** (r/o) *[UnicodeText](./UnicodeText.html)* \-- The version of the application.\
       **frontmost** (r/o) *Boolean* \-- Is this the frontmost (active) application?\
-      **name** (r/o) *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the application.\
+      **name** (r/o) *[UnicodeText](./UnicodeText.html)* \-- The name of the application.\
       **self** (r/o) *[k.graphic](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_graphic)* \-- Graphic clicked to start this script\
-      **professional** (r/o) *Boolean* \-- Whether this application is [/OmniGraffle](./MacPython(2f)OmniGraffle(2f)ProTerminology(2f)OmniGraffle.html){.nonexistent} or [/OmniGraffle](./MacPython(2f)OmniGraffle(2f)ProTerminology(2f)OmniGraffle.html){.nonexistent} Professional\
+      **professional** (r/o) *Boolean* \-- Whether this application is [/OmniGraffle](./MacPython(2f)OmniGraffle(2f)ProTerminology(2f)OmniGraffle.html) or [/OmniGraffle](./MacPython(2f)OmniGraffle(2f)ProTerminology(2f)OmniGraffle.html) Professional\
       **demo** (r/o) *Boolean* \-- Is this the demo version of the application\
 
     Elements:
@@ -162,11 +167,11 @@ Common classes and commands for most applications.
   - Parent:
     - *[item](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_item)*
 
-## Text Suite {#Text_Suite}
+## Text Suite 
 
 A set of basic classes for text processing.
 
-### Classes {#Classes-1}
+### Classes 
 
 - **text_attachment** \-- Represents an inline text attachment. This class is used mainly for make commands.
 
@@ -174,7 +179,7 @@ A set of basic classes for text processing.
     - *[text](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_text)*
 
     Properties:
-    - **file_name** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The path to the file for the attachment\
+    - **file_name** *[UnicodeText](./UnicodeText.html)* \-- The path to the file for the attachment\
 
   **text** \-- Rich (styled) text
 
@@ -187,11 +192,11 @@ A set of basic classes for text processing.
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
       **underlined** *Boolean* \-- Is the first character underlined?\
-      **baseline_offset** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Number of pixels shifted above or below the normal baseline.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **baseline_offset** *[ShortFloat](./ShortFloat.html)* \-- Number of pixels shifted above or below the normal baseline.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **superscript** *SInt32* \-- The superscript level of the text.\
       **alignment** *k.justified \| k.right \| k.left \| k.natural \| k.center* \-- Alignment of the text.\
-      **text** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The actual text content.\
+      **text** *[UnicodeText](./UnicodeText.html)* \-- The actual text content.\
       **color** *[k.color](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -209,11 +214,11 @@ A set of basic classes for text processing.
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
       **underlined** *Boolean* \-- Is the first character underlined?\
-      **baseline_offset** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Number of pixels shifted above or below the normal baseline.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **baseline_offset** *[ShortFloat](./ShortFloat.html)* \-- Number of pixels shifted above or below the normal baseline.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **superscript** *SInt32* \-- The superscript level of the text.\
       **alignment** *k.justified \| k.right \| k.left \| k.natural \| k.center* \-- Alignment of the text.\
-      **text** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The actual text content.\
+      **text** *[UnicodeText](./UnicodeText.html)* \-- The actual text content.\
       **color** *[k.color](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -231,11 +236,11 @@ A set of basic classes for text processing.
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
       **underlined** *Boolean* \-- Is the first character underlined?\
-      **baseline_offset** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Number of pixels shifted above or below the normal baseline.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **baseline_offset** *[ShortFloat](./ShortFloat.html)* \-- Number of pixels shifted above or below the normal baseline.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **superscript** *SInt32* \-- The superscript level of the text.\
       **alignment** *k.justified \| k.right \| k.left \| k.natural \| k.center* \-- Alignment of the text.\
-      **text** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The actual text content.\
+      **text** *[UnicodeText](./UnicodeText.html)* \-- The actual text content.\
       **color** *[k.color](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -253,11 +258,11 @@ A set of basic classes for text processing.
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
       **underlined** *Boolean* \-- Is the first character underlined?\
-      **baseline_offset** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Number of pixels shifted above or below the normal baseline.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **baseline_offset** *[ShortFloat](./ShortFloat.html)* \-- Number of pixels shifted above or below the normal baseline.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **superscript** *SInt32* \-- The superscript level of the text.\
       **alignment** *k.justified \| k.right \| k.left \| k.natural \| k.center* \-- Alignment of the text.\
-      **text** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The actual text content.\
+      **text** *[UnicodeText](./UnicodeText.html)* \-- The actual text content.\
       **color** *[k.color](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -275,11 +280,11 @@ A set of basic classes for text processing.
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
       **underlined** *Boolean* \-- Is the first character underlined?\
-      **baseline_offset** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Number of pixels shifted above or below the normal baseline.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **baseline_offset** *[ShortFloat](./ShortFloat.html)* \-- Number of pixels shifted above or below the normal baseline.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **superscript** *SInt32* \-- The superscript level of the text.\
       **alignment** *k.justified \| k.right \| k.left \| k.natural \| k.center* \-- Alignment of the text.\
-      **text** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The actual text content.\
+      **text** *[UnicodeText](./UnicodeText.html)* \-- The actual text content.\
       **color** *[k.color](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -289,11 +294,11 @@ A set of basic classes for text processing.
       **[words](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_word)** \-- *index \| relative \| range \| test*\
       **[paragraphs](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_paragraph)** \-- *index \| relative \| range \| test*\
 
-## Extended Text Suite {#Extended_Text_Suite}
+## Extended Text Suite 
 
 Extended functionality for text.
 
-### Commands {#Commands-1}
+### Commands 
 
 - **reference.underline()** \-- Underline some text\
 
@@ -313,9 +318,9 @@ Extended functionality for text.
 
   **reference.replace(\...)**\
 
-  - \[**regexp**=*[UnicodeText](./UnicodeText.html){.nonexistent}*\] \-- Regular expression to find\
-    \[**string**=*[UnicodeText](./UnicodeText.html){.nonexistent}*\] \-- String to find\
-    **replacement**=*[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Replacement string\
+  - \[**regexp**=*[UnicodeText](./UnicodeText.html)*\] \-- Regular expression to find\
+    \[**string**=*[UnicodeText](./UnicodeText.html)*\] \-- String to find\
+    **replacement**=*[UnicodeText](./UnicodeText.html)* \-- Replacement string\
     Result: *None*
 
   **reference.italicize()** \-- Italicize some text\
@@ -326,11 +331,11 @@ Extended functionality for text.
 
   - Result: *None*
 
-## /OmniFoundation Scripting {#A.2FOmniFoundation_Scripting}
+## /OmniFoundation Scripting 
 
-[OmniFoundation](./OmniFoundation.html){.nonexistent} scripting support.
+[OmniFoundation](./OmniFoundation.html) scripting support.
 
-### Commands {#Commands-2}
+### Commands 
 
 - **reference.remove(\...)** \-- Remove the given object from the container.\
 
@@ -342,11 +347,11 @@ Extended functionality for text.
   - **to**=*k.item* \-- The container to which to add the object.\
     Result: *None*
 
-## /OmniGraffle {#A.2FOmniGraffle}
+## /OmniGraffle 
 
 Omni Graffle Script Suite
 
-### Commands {#Commands-3}
+### Commands 
 
 - **reference.slide(\...)** \-- Slide graphics by a vector amount\
 
@@ -376,7 +381,7 @@ Omni Graffle Script Suite
     **to**=*Anything* \-- Graphic or graphics to connect to.\
     Result: *k.line* \-- the reply for the command
 
-### Classes {#Classes-2}
+### Classes 
 
 - **polygon** \-- A polygon graphic
 
@@ -398,7 +403,7 @@ Omni Graffle Script Suite
     - **locked** *Boolean* \-- are the layer\'s graphics locked?\
       **prints** *Boolean* \-- do the layer\'s graphics print?\
       **visible** *Boolean* \-- are the layer\'s graphics visible?\
-      **name** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- name of the layer\
+      **name** *[UnicodeText](./UnicodeText.html)* \-- name of the layer\
 
     Elements:
     - **[polygons](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_polygon)** \-- *index \| relative \| range \| test \| id*\
@@ -417,12 +422,12 @@ Omni Graffle Script Suite
     - **page_size** (r/o) *[k.point](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_point)* \-- Size of each page\
       **row_alignment** *k.bottom \| k.middle\_ \| k.top* \-- Row alignment\
       **grid** *[k.grid](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_grid)* \-- Settings for the grid\
-      **column_spacing** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Spacing between graphics in a column\
+      **column_spacing** *[ShortFloat](./ShortFloat.html)* \-- Spacing between graphics in a column\
       **script_canvas_color** *[k.color](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_color)* \-- Canvas background color\
       **column_alignment** *k.right \| k.left \| k.center* \-- Column alignment\
       **horizontal_pages** *SInt32* \-- Horizontal pages\
-      **name** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Name of this page\
-      **row_spacing** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Spacing between graphics in a row\
+      **name** *[UnicodeText](./UnicodeText.html)* \-- Name of this page\
+      **row_spacing** *[ShortFloat](./ShortFloat.html)* \-- Spacing between graphics in a row\
       **vertical_pages** *SInt32* \-- Vertical pages\
       **layout_info** *[k.layout_info](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_layout_info)* \-- Settings for automatic layout\
       **canvas_size** *[k.point](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_point)* \-- Size of the canvas (page size multiplied by number of pages)\
@@ -442,7 +447,7 @@ Omni Graffle Script Suite
     - *[solid](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_solid)*
 
     Properties:
-    - **name** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- name of the shape (\"Rectangle\", \"Circle\", et cetera)\
+    - **name** *[UnicodeText](./UnicodeText.html)* \-- name of the shape (\"Rectangle\", \"Circle\", et cetera)\
 
   **label** \-- A line label
 
@@ -450,13 +455,13 @@ Omni Graffle Script Suite
     - *[item](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_item)*
 
     Properties:
-    - **offset** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Distance away from the line\
+    - **offset** *[ShortFloat](./ShortFloat.html)* \-- Distance away from the line\
       **fill_color** *[k.color](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_color)* \-- Fill color\
       **filled** *Boolean* \-- Is this label filled?\
       **orientation** *k.vertical \| k.parallel \| k.perpendicular \| k.horizontal* \-- Orientation of the text\
       **text** *[k.text](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_text)* \-- Label text\
       **id** (r/o) *SInt32* \-- Unique identifier\
-      **position** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Position along the line (0 is tail, 1 is head)\
+      **position** *[ShortFloat](./ShortFloat.html)* \-- Position along the line (0 is tail, 1 is head)\
 
   **point** \-- A point
 
@@ -464,8 +469,8 @@ Omni Graffle Script Suite
     - *[item](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_item)*
 
     Properties:
-    - **x** (r/o) *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- x position\
-      **y** (r/o) *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- y position\
+    - **x** (r/o) *[ShortFloat](./ShortFloat.html)* \-- x position\
+      **y** (r/o) *[ShortFloat](./ShortFloat.html)* \-- y position\
 
   **record** \-- A record with multiple text fields
 
@@ -483,11 +488,11 @@ Omni Graffle Script Suite
     Properties:
     - **type** *k.vertical_hierarchy \| k.force_directed \| k.horizontal_hierarchy* \-- Type of layout to perform\
       **adjusts_pages** *Boolean* \-- Adjust number of pages automatically with hierarchical layout?\
-      **shape_force** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Repulsive force of shapes in force-directed layout\
-      **edge_force** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Repulsive force of canvas edge in force-directed layout\
+      **shape_force** *[ShortFloat](./ShortFloat.html)* \-- Repulsive force of shapes in force-directed layout\
+      **edge_force** *[ShortFloat](./ShortFloat.html)* \-- Repulsive force of canvas edge in force-directed layout\
       **random_start** *Boolean* \-- Start force-directed layout with shapes in random locations?\
       **animates** *Boolean* \-- Animate force-directed layout?\
-      **line_force** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Attractive force of lines in force-directed layout\
+      **line_force** *[ShortFloat](./ShortFloat.html)* \-- Attractive force of lines in force-directed layout\
 
   **line** \-- A line
 
@@ -499,13 +504,13 @@ Omni Graffle Script Suite
       **tail_magnet** *SInt32* \-- Which magnet of the source graphic the line attaches to\
       **line_type** *k.curved \| k.orthogonal \| k.straight* \-- Type of the line\
       **point_list** *AEList* \-- A list containing all the points of the line.\
-      **head_scale** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Scale of line ending on the head of the line (1.0 being the normal size)\
-      **weight** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Weighting to give this line during automatic layout.\
+      **head_scale** *[ShortFloat](./ShortFloat.html)* \-- Scale of line ending on the head of the line (1.0 being the normal size)\
+      **weight** *[ShortFloat](./ShortFloat.html)* \-- Weighting to give this line during automatic layout.\
       **head_magnet** *SInt32* \-- Which magnet of the destination graphic the line attaches to\
       **destination** *[k.graphic](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_graphic)* \-- Graphic that the head of the line is connected to.\
-      **head_type** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Type of line ending on the head of the line\
-      **tail_scale** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Scale of line ending on the tail of the line (1.0 being the normal size)\
-      **tail_type** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Type of line ending on the tail of the line\
+      **head_type** *[UnicodeText](./UnicodeText.html)* \-- Type of line ending on the head of the line\
+      **tail_scale** *[ShortFloat](./ShortFloat.html)* \-- Scale of line ending on the tail of the line (1.0 being the normal size)\
+      **tail_type** *[UnicodeText](./UnicodeText.html)* \-- Type of line ending on the tail of the line\
 
     Elements:
     - **[labels](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_label)** \-- *index \| relative \| range \| test \| id*\
@@ -524,15 +529,15 @@ Omni Graffle Script Suite
       **gradient_color** *[k.color](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_color)* \-- For linear and radial fills, this is the ending color.\
       **fill_color** *[k.color](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_color)* \-- The fill color. For linear and radial gradient fills this is the starting color\
       **autosizing** *k.vertically_only \| k.clip \| k.full \| k.overflow* \-- Autosizing behavior of the solid around the text\
-      **image_scale** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- For manual image fills, the scale of the image\
+      **image_scale** *[ShortFloat](./ShortFloat.html)* \-- For manual image fills, the scale of the image\
       **fill** *k.linear_fill \| k.no_fill \| k.solid_fill \| k.radial_fill* \-- The type of fill for this solid\
-      **gradient_angle** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Angle of a linear gradient fill.\
+      **gradient_angle** *[ShortFloat](./ShortFloat.html)* \-- Angle of a linear gradient fill.\
       **image_sizing** *k.stretched \| k.manual \| k.tiled* \-- How to size and display the image fill.\
       **gradient_center** *[k.point](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_point)* \-- Starting point of a radial gradient fill. (In a square from {-1,-1} to {1,1} so {0,0} is the center of the solid.)\
       **text** *[k.text](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_text)* \-- The text inside the solid\
-      **rotation** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Rotation of the graphic in degrees\
+      **rotation** *[ShortFloat](./ShortFloat.html)* \-- Rotation of the graphic in degrees\
       **image_offset** *[k.point](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_point)* \-- For manual image fills, the offset of the image in the solid\
-      **image** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Set to a file name to load an image fill.\
+      **image** *[UnicodeText](./UnicodeText.html)* \-- Set to a file name to load an image fill.\
       **magnets** *AEList* \-- List of magnet points. (In a square from {-1,-1} to {1,1}.\
 
   **graphic** \-- A graphic
@@ -546,12 +551,12 @@ Omni Graffle Script Suite
     Properties:
     - **draws_shadow** *Boolean* \-- Does this graphic draw its shadow?\
       **id** (r/o) *SInt32* \-- Unique identifier\
-      **url** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Web link for this graphic\
+      **url** *[UnicodeText](./UnicodeText.html)* \-- Web link for this graphic\
       **origin** *[k.point](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_point)* \-- Origin of the graphic (position of the upper-left corner of the bounding rectangle)\
       **shadow_color** *[k.color](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_color)* \-- Color of the shadow\
       **stroke_join** *k.miter \| k.bevel \| k.round* \-- Type of join between segments of the stroke\
       **size** *[k.point](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_point)* \-- Size of the graphic (width and height of the bounding rectangle)\
-      **thickness** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Thickness of the stroke\
+      **thickness** *[ShortFloat](./ShortFloat.html)* \-- Thickness of the stroke\
       **page** (r/o) *[k.page](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_page)* \-- Page that this graphic is on\
       **stroke_color** *[k.color](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_color)* \-- Color of the stroke\
       **allows_connections** *Boolean* \-- Does this graphic allow connections to it?\
@@ -562,7 +567,7 @@ Omni Graffle Script Suite
       **aligns_edges_to_grid** *Boolean* \-- When snapped to the grid does this graphic align its edges to the grid? (The alternative is to align its center to the grid.)\
       **layer** *[k.layer](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_layer)* \-- Which layer this graphic is in\
       **jump** *[k.page](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_page)* \-- Destination page of jump action\
-      **script** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Source of attached [AppleScript](./AppleScript.html){.nonexistent}\
+      **script** *[UnicodeText](./UnicodeText.html)* \-- Source of attached [AppleScript](./AppleScript.html)\
       **stroke_cap** *k.square \| k.butt \| k.round* \-- Type of cap at ends of the stroke\
 
     Elements:
@@ -587,7 +592,7 @@ Omni Graffle Script Suite
     - **major** *Boolean* \-- Does the grid have \'major\' lines?\
       **visible** *Boolean* \-- Is the grid visible?\
       **draws_in_front** *Boolean* \-- Does the grid draw in front of all shapes?\
-      **spacing** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Number of pixels between minor grid lines\
+      **spacing** *[ShortFloat](./ShortFloat.html)* \-- Number of pixels between minor grid lines\
       **snaps** *Boolean* \-- Do points snap to the grid?\
       **script_major_grid_color** *[k.color](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_color)* \-- Color of major lines\
       **major_spacing** *SInt32* \-- The number of minor grid lines for each major line\
@@ -601,11 +606,11 @@ Omni Graffle Script Suite
     Properties:
     - **size** *SInt32* \-- The size in points of the first character.\
       **underlined** *Boolean* \-- Is the first character underlined?\
-      **baseline_offset** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Number of pixels shifted above or below the normal baseline.\
-      **font** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The name of the font of the first character.\
+      **baseline_offset** *[ShortFloat](./ShortFloat.html)* \-- Number of pixels shifted above or below the normal baseline.\
+      **font** *[UnicodeText](./UnicodeText.html)* \-- The name of the font of the first character.\
       **superscript** *SInt32* \-- The superscript level of the text.\
       **alignment** *k.justified \| k.right \| k.left \| k.natural \| k.center* \-- Alignment of the text.\
-      **text** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- The actual text content.\
+      **text** *[UnicodeText](./UnicodeText.html)* \-- The actual text content.\
       **color** *[k.color](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_color)* \-- The color of the first character.\
 
     Elements:
@@ -624,13 +629,13 @@ Omni Graffle Script Suite
       **tail_magnet** *SInt32* \-- Which magnet of the source graphic the line attaches to\
       **line_type** *k.curved \| k.orthogonal \| k.straight* \-- Type of the line\
       **point_list** *AEList* \-- A list containing all the points of the line.\
-      **head_scale** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Scale of line ending on the head of the line (1.0 being the normal size)\
-      **weight** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Weighting to give this line during automatic layout.\
+      **head_scale** *[ShortFloat](./ShortFloat.html)* \-- Scale of line ending on the head of the line (1.0 being the normal size)\
+      **weight** *[ShortFloat](./ShortFloat.html)* \-- Weighting to give this line during automatic layout.\
       **head_magnet** *SInt32* \-- Which magnet of the destination graphic the line attaches to\
       **destination** *[k.graphic](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_graphic)* \-- Graphic that the head of the line is connected to.\
-      **head_type** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Type of line ending on the head of the line\
-      **tail_scale** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Scale of line ending on the tail of the line (1.0 being the normal size)\
-      **tail_type** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Type of line ending on the tail of the line\
+      **head_type** *[UnicodeText](./UnicodeText.html)* \-- Type of line ending on the head of the line\
+      **tail_scale** *[ShortFloat](./ShortFloat.html)* \-- Scale of line ending on the tail of the line (1.0 being the normal size)\
+      **tail_type** *[UnicodeText](./UnicodeText.html)* \-- Type of line ending on the tail of the line\
 
     Elements:
     - **[labels](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_label)** \-- *index \| relative \| range \| test \| id*\
@@ -646,15 +651,14 @@ Omni Graffle Script Suite
       **tail_magnet** *SInt32* \-- Which magnet of the source graphic the line attaches to\
       **line_type** *k.curved \| k.orthogonal \| k.straight* \-- Type of the line\
       **point_list** *AEList* \-- A list containing all the points of the line.\
-      **head_scale** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Scale of line ending on the head of the line (1.0 being the normal size)\
-      **weight** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Weighting to give this line during automatic layout.\
+      **head_scale** *[ShortFloat](./ShortFloat.html)* \-- Scale of line ending on the head of the line (1.0 being the normal size)\
+      **weight** *[ShortFloat](./ShortFloat.html)* \-- Weighting to give this line during automatic layout.\
       **head_magnet** *SInt32* \-- Which magnet of the destination graphic the line attaches to\
       **destination** *[k.graphic](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_graphic)* \-- Graphic that the head of the line is connected to.\
-      **head_type** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Type of line ending on the head of the line\
-      **tail_scale** *[ShortFloat](./ShortFloat.html){.nonexistent}* \-- Scale of line ending on the tail of the line (1.0 being the normal size)\
-      **tail_type** *[UnicodeText](./UnicodeText.html){.nonexistent}* \-- Type of line ending on the tail of the line\
+      **head_type** *[UnicodeText](./UnicodeText.html)* \-- Type of line ending on the head of the line\
+      **tail_scale** *[ShortFloat](./ShortFloat.html)* \-- Scale of line ending on the tail of the line (1.0 being the normal size)\
+      **tail_type** *[UnicodeText](./UnicodeText.html)* \-- Type of line ending on the tail of the line\
 
     Elements:
     - **[labels](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_label)** \-- *index \| relative \| range \| test \| id*\
       **[points](./MacPython(2f)OmniGraffle(2f)ProTerminology.html#class_point)** \-- *index \| relative \| range \| test*\
-::::

@@ -1,7 +1,12 @@
 # PackagingWG/2020-07-29-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
-**pip donor-funded work: continuing meeting notepad**[BR](./BR.html){.nonexistent}[BR](./BR.html){.nonexistent}Team Meeting: Wed 29 July
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+**pip donor-funded work: continuing meeting notepad**[BR](./BR.html)[BR](./BR.html)Team Meeting: Wed 29 July
 
 Attendees
 
@@ -35,4 +40,3 @@ Agenda
   - Ernest: tomorrow & all of next week, unavailable
 
   - Georgia will actually be around the week of the 9th. \[potential unavailability part of Sept\]
-:::

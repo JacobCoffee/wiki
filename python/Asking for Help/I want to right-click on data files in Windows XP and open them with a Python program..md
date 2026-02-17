@@ -1,7 +1,12 @@
 # Asking for Help/I want to right-click on data files in Windows XP and open them with a Python program.
 
-:::: {#content dir="ltr" lang="en"}
-# Asking for Help: I want to right-click on data files in Windows XP and open them with a Python program. {#Asking_for_Help:_I_want_to_right-click_on_data_files_in_Windows_XP_and_open_them_with_a_Python_program.}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: I want to right-click on data files in Windows XP and open them with a Python program. 
 
 When I try to do this, Windows tells me that the data file is not a valid Win32 application (of course it isn\'t!). Why is it that I can do this with other programs, but not with Python programs?
 
@@ -20,4 +25,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp)
-::::

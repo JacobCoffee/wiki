@@ -1,17 +1,22 @@
 # PyQt/Adding a background image to an MDI area
 
-::::: {#content dir="ltr" lang="en"}
-# Adding a background image to an MDI area {#Adding_a_background_image_to_an_MDI_area}
+```{admonition} Legacy Wiki Page
+:class: note
 
-On [TheMailingList](./PyQt(2f)TheMailingList.html), Sarah Mount asked [whether it was possible to display a non-tiled image](http://www.riverbankcomputing.com/pipermail/pyqt/2011-April/029653.html){.http} in the background of an MDI area widget.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Adding a background image to an MDI area 
+
+On [TheMailingList](./PyQt(2f)TheMailingList.html), Sarah Mount asked [whether it was possible to display a non-tiled image](http://www.riverbankcomputing.com/pipermail/pyqt/2011-April/029653.html) in the background of an MDI area widget.
 
 The following code uses the same technique that the `qtconfig`{.backtick} tool uses to place a message in the background of its preview widget. In this example, setting the `centered`{.backtick} attribute causes the image to be displayed in the centre of the background area; if unset, the image is scaled to fill the background area.
 
-[mdiarea_pixmap.py](attachments/PyQt(2f)Adding(20)a(20)background(20)image(20)to(20)an(20)MDI(20)area/mdiarea_pixmap.py){.attachment}
+[mdiarea_pixmap.py](attachments/PyQt(2f)Adding(20)a(20)background(20)image(20)to(20)an(20)MDI(20)area/mdiarea_pixmap.py)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-50d85d29939b36c56da0d77c917bbc100a1f5517 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import Qt
    3 from PyQt4.QtGui import *
@@ -60,4 +65,3 @@ The following code uses the same technique that the `qtconfig`{.backtick} tool u
 ```
 :::
 ::::
-:::::

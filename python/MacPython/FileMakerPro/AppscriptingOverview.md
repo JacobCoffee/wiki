@@ -1,11 +1,16 @@
 # MacPython/FileMakerPro/AppscriptingOverview
 
-::::: {#content dir="ltr" lang="en"}
-![{i}](/wiki/europython/img/icon-info.png "{i}"){height="16" width="16"} *to use this script, you\'ll need the Library.fp7 and Library.tab sample files (I will post them asap) and to edit the `DBPATH` and `IMPORTFILE` variables accordingly.*
+```{admonition} Legacy Wiki Page
+:class: note
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-bede13fae1ac8d5e914750ad75a305f61c4d1e6e dir="ltr" lang="en"}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+![{i}](/wiki/europython/img/icon-info.png "{i}") *to use this script, you\'ll need the Library.fp7 and Library.tab sample files (I will post them asap) and to edit the `DBPATH` and `IMPORTFILE` variables accordingly.*
+
+:::: 
+::: 
+``` 
    1 #!/usr/bin/pythonw
    2 
    3 from pprint import pprint
@@ -109,7 +114,7 @@
 
 **Footnotes:**
 
-1.  use `app(id='com.filemaker.pro7')` instead of `app('FileMaker Pro')` to be sure only [/FileMakerPro](./MacPython(2f)FileMakerPro(2f)AppscriptingOverview(2f)FileMakerPro.html){.nonexistent} 7 is launched
+1.  use `app(id='com.filemaker.pro7')` instead of `app('FileMaker Pro')` to be sure only [/FileMakerPro](./MacPython(2f)FileMakerPro(2f)AppscriptingOverview(2f)FileMakerPro.html) 7 is launched
 
 2.  Carbon.File.FSSpec is not the best way to handle files. I have to investigate that point\...
 
@@ -117,9 +122,8 @@
 
 4.  specifying the table class as `class_=k.table` doesn\'t work, use `class_='cTBL'` instead
 
-5.  according to [FileMakerPro](./FileMakerPro.html){.nonexistent}\'s Apple Event Reference, the fastest way to insert data is to:
+5.  according to [FileMakerPro](./FileMakerPro.html)\'s Apple Event Reference, the fastest way to insert data is to:
 
     - use `fm.create(new=k.record, with_data=data, at=table1)`, with data as a list of values in the same order as `table1.fields.name.get()`
 
     - insert data at the table level, outside the currently found set.
-:::::

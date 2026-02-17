@@ -1,7 +1,12 @@
 # BurkanBereketoglu
 
-:::: {#content dir="ltr" lang="en"}
-# Get To Know Me {#Get_To_Know_Me}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Get To Know Me 
 
 Hi, My name is Burkan Bereketoglu.
 
@@ -9,7 +14,7 @@ I am joining here from Ankara,TURKEY.
 
 We are here starting a Python User Group for our research laboratory on Accelerator-based Free Electron Laser(TARLA-FEL). I work as an Accelerator Physicist and expecting to spread Python usage in Accelerator Physics field also proliferate statistics computing in Python (many use R).
 
-# Interests {#Interests}
+# Interests 
 
 ::: {}
   -------------------------------------------------------------------------------------------------------------------
@@ -19,4 +24,3 @@ We are here starting a Python User Group for our research laboratory on Accelera
   4\. Package Building and Instrumentation System Design
   -------------------------------------------------------------------------------------------------------------------
 :::
-::::

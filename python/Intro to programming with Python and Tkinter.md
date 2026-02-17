@@ -1,7 +1,12 @@
 # Intro to programming with Python and Tkinter
 
-::: {#content dir="ltr" lang="en"}
-# Introduction {#Introduction}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Introduction 
 
 hello \....
 
@@ -11,7 +16,7 @@ This effort is also a part of a much larger effort I am starting, The opensource
 
 If you have played 3d world computer games, you would know what type of 3d world i\'m talking about. Its kinda like that except its a school. You would run around and click on teachers instead of monster. And a video would pop out, and \"hopefully\" teach you something useful.
 
-The website for this academy is [http://iamar.net](http://iamar.net){.http}. If you are interested to see what this school looks like, you can check out the demo videos. [http://iamar.net/subpages/video.html](http://iamar.net/subpages/video.html){.http}. In general, you can find all the course we teach here: [http://iamar.net/subpages/vidLectures.html](http://iamar.net/subpages/vidLectures.html){.http}
+The website for this academy is [http://iamar.net](http://iamar.net). If you are interested to see what this school looks like, you can check out the demo videos. [http://iamar.net/subpages/video.html](http://iamar.net/subpages/video.html). In general, you can find all the course we teach here: [http://iamar.net/subpages/vidLectures.html](http://iamar.net/subpages/vidLectures.html)
 
 *The Education Philosophy*
 
@@ -23,11 +28,11 @@ Our education system pays very little attention to the psychology of the audienc
 
 A lot of people have been asking for the first 2 lectures, well, I never recorded them. The first lecture was suppose to explain how python is and its general information, and the second lecture is for the installation of python. I never had the chance to record them, and most people learning seems to already know how to install them.
 
-Due to the construction of the school, I have been rather late in replying, I have also changed my email address to [iamar.chieh@gmail.com](mailto:iamar.chieh@gmail.com){.mailto}
+Due to the construction of the school, I have been rather late in replying, I have also changed my email address to [iamar.chieh@gmail.com](mailto:iamar.chieh@gmail.com)
 
 Chieh Wu
 
-## Intro to programming with Python in Tkinter {#Intro_to_programming_with_Python_in_Tkinter}
+## Intro to programming with Python in Tkinter 
 
 Have you ever wanted to know how your application is programmed on the computer. This lecture will show you how easy it is to program.
 
@@ -35,17 +40,17 @@ Aimed at beginner programmers or people that has no programming experience. For 
 
 The python course series is designed to be short, fun, and concise. They are 10 minutes each with fun examples and easy instruction. If you want to learn programming this is the way to go.
 
-### Lecture 1: Why is python so cool??? {#Lecture_1:_Why_is_python_so_cool.3F.3F.3F}
+### Lecture 1: Why is python so cool??? 
 
 In this lecture I will convince you that python will eventually take over the world :). Actually we will discuss how the class will be conducted and how much fun we are going to have. This will be the last lecture I write.
 
-### Lecture 2: How to download python {#Lecture_2:_How_to_download_python}
+### Lecture 2: How to download python 
 
 I will show you where you download python. If you found this page, chances are that you already know how. I will also talk about different resources to help you program python.
 
-### Lecture 3: Your first python program (10min) {#Lecture_3:_Your_first_python_program_.2810min.29}
+### Lecture 3: Your first python program (10min) 
 
-[http://iamar.net/subpages/pythonLect3.html](https://web.archive.org/web/20121126014531/http://iamar.net/subpages/pythonLect3.html){.https}
+[http://iamar.net/subpages/pythonLect3.html](https://web.archive.org/web/20121126014531/http://iamar.net/subpages/pythonLect3.html)
 
 Like all programming books, we kick off with a quick and simple non-hello world application.
 
@@ -89,9 +94,9 @@ Like all programming books, we kick off with a quick and simple non-hello world 
     listb2.pack()
     root.mainloop()                 # Invoke the main event handling loop
 
-### Lecture 4: Button are meant to be pushed(10min) {#Lecture_4:_Button_are_meant_to_be_pushed.2810min.29}
+### Lecture 4: Button are meant to be pushed(10min) 
 
-[http://iamar.net/subpages/pythonLect4.html](https://web.archive.org/web/20130724053700/http://iamar.net/subpages/pythonLect4.html){.https}
+[http://iamar.net/subpages/pythonLect4.html](https://web.archive.org/web/20130724053700/http://iamar.net/subpages/pythonLect4.html)
 
 When you press a button, your program will say \"hi\"
 
@@ -197,11 +202,11 @@ When you press a button, your program will say \"hi\"
     listbox.pack()                  #this tells the listbox to come out
     root.mainloop()                 #This command will tell the window come out
 
-### Lecture 5: Stealing is good in programming(10min) {#Lecture_5:_Stealing_is_good_in_programming.2810min.29}
+### Lecture 5: Stealing is good in programming(10min) 
 
-[http://iamar.net/subpages/pythonLect5.html](http://iamar.net/subpages/pythonLect5.html){.http}
+[http://iamar.net/subpages/pythonLect5.html](http://iamar.net/subpages/pythonLect5.html)
 
-We will program something using other people\'s code ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+We will program something using other people\'s code ![:)](/wiki/europython/img/smile.png ":)")
 
 **Your will learn:**How to program large programs, how to borrow other people\'s code(modules), basic concepts to functions
 
@@ -236,123 +241,123 @@ We will program something using other people\'s code ![:)](/wiki/europython/img/
 
     print answer
 
-### Lecture 6: How to create anything in Tkinter(10min) {#Lecture_6:_How_to_create_anything_in_Tkinter.2810min.29}
+### Lecture 6: How to create anything in Tkinter(10min) 
 
-[http://iamar.net/subpages/pythonLect6.html](http://iamar.net/subpages/pythonLect6.html){.http}
+[http://iamar.net/subpages/pythonLect6.html](http://iamar.net/subpages/pythonLect6.html)
 
-The needed text is at [http://ourmedia.org/node/6635](http://ourmedia.org/node/6635){.http}
+The needed text is at [http://ourmedia.org/node/6635](http://ourmedia.org/node/6635)
 
 We will learn how to create everything in the Tkinter library, windows, buttons, listbox, entrybox, menus, etc.
 
 **You will learn:***How to create any Tkinter widget, how to make stand alone modules.*
 
-**Example Code** [lecture6_chieh.py](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture6_chieh.py){.attachment} [lecture6_stacy.py](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture6_stacy.py){.attachment}
+**Example Code** [lecture6_chieh.py](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture6_chieh.py) [lecture6_stacy.py](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture6_stacy.py)
 
-### Lecture 7: Now let\'s make them do something(10min) {#Lecture_7:_Now_let.27s_make_them_do_something.2810min.29}
+### Lecture 7: Now let\'s make them do something(10min) 
 
-[http://iamar.net/subpages/pythonLect7.html](http://iamar.net/subpages/pythonLect7.html){.http}
+[http://iamar.net/subpages/pythonLect7.html](http://iamar.net/subpages/pythonLect7.html)
 
 Now that we have learned how to create widgets, we need to tell them to do something. In this lecture we will mainly focus on Entry boxes. We will create an entry box, a button, and a listbox. When we press the button the program will take the name in the entry and put them into the list.
 
 **You will learn:** *insert text into a listbox, get text from Entry box, changing the size of the window, controlling where the window pop up, delete what\'s inside the entry box, controlling the padding between widgets*
 
-**Example Code** [lecture7_homework.py](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture7_homework.py){.attachment} [lecture7_text.py](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture7_text.py){.attachment}
+**Example Code** [lecture7_homework.py](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture7_homework.py) [lecture7_text.py](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture7_text.py)
 
-### Lecture 8: Let\'s make some decisions(7min) {#Lecture_8:_Let.27s_make_some_decisions.287min.29}
+### Lecture 8: Let\'s make some decisions(7min) 
 
-[http://iamar.net/subpages/pythonLect8.html](http://iamar.net/subpages/pythonLect8.html){.http}
+[http://iamar.net/subpages/pythonLect8.html](http://iamar.net/subpages/pythonLect8.html)
 
-[https://archive.org/details/ChiehWuIntrotoprogramminginPythonandTkinterlecture8](https://archive.org/details/ChiehWuIntrotoprogramminginPythonandTkinterlecture8){.https}
+[https://archive.org/details/ChiehWuIntrotoprogramminginPythonandTkinterlecture8](https://archive.org/details/ChiehWuIntrotoprogramminginPythonandTkinterlecture8)
 
-Learn how to use the if statements. Having a program that makes decisions for us will make our life much easier and our programs more powerful. In this program you will decide which girl we should go out with on a friday night and which car we should buy. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+Learn how to use the if statements. Having a program that makes decisions for us will make our life much easier and our programs more powerful. In this program you will decide which girl we should go out with on a friday night and which car we should buy. ![:)](/wiki/europython/img/smile.png ":)")
 
 **You will learn:** How to use if statements, examples are provided
 
-**Example Code** [lecture8_ifexample.py](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture8_ifexample.py){.attachment}
+**Example Code** [lecture8_ifexample.py](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture8_ifexample.py)
 
-### Lecture 9: Let\'s create a password system(11min) {#Lecture_9:_Let.27s_create_a_password_system.2811min.29}
+### Lecture 9: Let\'s create a password system(11min) 
 
-[http://iamar.net/subpages/pythonLect9.html](http://iamar.net/subpages/pythonLect9.html){.http}
+[http://iamar.net/subpages/pythonLect9.html](http://iamar.net/subpages/pythonLect9.html)
 
 Learn how we can use the if statement to create a password system.
 
 **You will learn:** how to focus on a widget, delete and insert text in an entry box, more examples of if else statement
 
-**Example Code** [lecture9_password.py](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture9_password.py){.attachment}
+**Example Code** [lecture9_password.py](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture9_password.py)
 
-### Lecture 10: Photo display Part A(15min) {#Lecture_10:_Photo_display_Part_A.2815min.29}
+### Lecture 10: Photo display Part A(15min) 
 
-[http://iamar.net/subpages/pythonLect10.html](http://iamar.net/subpages/pythonLect10.html){.http}
+[http://iamar.net/subpages/pythonLect10.html](http://iamar.net/subpages/pythonLect10.html)
 
 Learn how to create a photo display. The concentration of this lecture is about variables. Talk about the basic types of variables such as integer, float, string, and Booleans. Talk about local and global variables.
 
 **You will learn:** The 4 basic different types of variables.(integer, float, string, boolean), learn the concept of global and local variables. How do you find out what type a variable is, when do you use single or double quotes for strings
 
-**Example Code** [lecture10_pictures.py](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture10_pictures.py){.attachment}
+**Example Code** [lecture10_pictures.py](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture10_pictures.py)
 
-### Lecture 11: Photo display Part B(9min) {#Lecture_11:_Photo_display_Part_B.289min.29}
+### Lecture 11: Photo display Part B(9min) 
 
-[http://iamar.net/subpages/pythonLect11.html](http://iamar.net/subpages/pythonLect11.html){.http}
+[http://iamar.net/subpages/pythonLect11.html](http://iamar.net/subpages/pythonLect11.html)
 
 Actually creating the image viewer. We are going to create what I promised last lecture.
 
 **You will learn:** How to use canvas widget to include a gif image, how to delete an image. A real example of the need for global variables.
 
-### Lecture 12: Photo display Part C(9min) {#Lecture_12:_Photo_display_Part_C.289min.29}
+### Lecture 12: Photo display Part C(9min) 
 
-[http://iamar.net/subpages/pythonLect12.html](http://iamar.net/subpages/pythonLect12.html){.http}
+[http://iamar.net/subpages/pythonLect12.html](http://iamar.net/subpages/pythonLect12.html)
 
 Improving the image viewer we had from the last class. This lecture will start talking about the os library. The 4 types of OS that most people have.
 
 **You will learn:** The 4 types of OS most people use (windows, unix, apple, linux) , How do you find out your OS, How do you list all the files in a specific directory.
 
-### Lecture 13: Photo display Part d (9min) {#Lecture_13:_Photo_display_Part_d_.289min.29}
+### Lecture 13: Photo display Part d (9min) 
 
-[http://iamar.net/subpages/pythonLect13.html](http://iamar.net/subpages/pythonLect13.html){.http}
+[http://iamar.net/subpages/pythonLect13.html](http://iamar.net/subpages/pythonLect13.html)
 
 We start learning about the string library. With these many libraries, you will also learn how to find all the tools inside the library using the IDLE interpreter. In this lecture, I am showing you how to fish.
 
-### Lecture 14: Photo display Part e (9min) {#Lecture_14:_Photo_display_Part_e_.289min.29}
+### Lecture 14: Photo display Part e (9min) 
 
-[http://iamar.net/subpages/pythonLect14.html](http://iamar.net/subpages/pythonLect14.html){.http}
+[http://iamar.net/subpages/pythonLect14.html](http://iamar.net/subpages/pythonLect14.html)
 
 You will learn: We learn about for loops and the concept of range function in this lecture
 
-### Lecture 15: Photo display Part f (9min) {#Lecture_15:_Photo_display_Part_f_.289min.29}
+### Lecture 15: Photo display Part f (9min) 
 
-\[\[[http://iamar.net/subpages/pythonLect15.html](http://iamar.net/subpages/pythonLect15.html){.http}\]
+\[\[[http://iamar.net/subpages/pythonLect15.html](http://iamar.net/subpages/pythonLect15.html)\]
 
 We finish up the project by learning about how to position the widgets inside the window and well as how we can create callback functions
 
 You will learn: pack functions, position functions, grid functions, and callback functions
 
-### Lecture 16: Photo display Part g (9min) {#Lecture_16:_Photo_display_Part_g_.289min.29}
+### Lecture 16: Photo display Part g (9min) 
 
-[http://iamar.net/subpages/pythonLect16.html](http://iamar.net/subpages/pythonLect16.html){.http}
+[http://iamar.net/subpages/pythonLect16.html](http://iamar.net/subpages/pythonLect16.html)
 
-We are now finally getting into more advanced topics such as reading text files. You can find the source code for this lecture at [http://ourmedia.org/node/29741](http://ourmedia.org/node/29741){.http}
+We are now finally getting into more advanced topics such as reading text files. You can find the source code for this lecture at [http://ourmedia.org/node/29741](http://ourmedia.org/node/29741)
 
-### Lecture 17: File reading and writing(9min) {#Lecture_17:_File_reading_and_writing.289min.29}
+### Lecture 17: File reading and writing(9min) 
 
 Here we are going to have a little practice with reading and writing files
 
-Source code for this lecture at [http://www.ourmedia.org/node/32502](http://www.ourmedia.org/node/32502){.http}
+Source code for this lecture at [http://www.ourmedia.org/node/32502](http://www.ourmedia.org/node/32502)
 
-### 3D Python Computer graphics {#A3D_Python_Computer_graphics}
+### 3D Python Computer graphics 
 
-[http://vpython.erikthompson.com/](http://vpython.erikthompson.com/){.http}
+[http://vpython.erikthompson.com/](http://vpython.erikthompson.com/)
 
-### Chieh\'s Blog and suggestion {#Chieh.27s_Blog_and_suggestion}
+### Chieh\'s Blog and suggestion 
 
 *That\'s incredible! I don\'t have any video equipment at home, but I should have some within 2 years.* \-- [LionKimbro](LionKimbro) 2005-04-15 20:16:00
 
-Instead of making wiki pages named [lecture3 example 1](./lecture3(20)example(20)1.html){.nonexistent} and what not, which is begging for a name clash, how about instead posting the files as attachments?
+Instead of making wiki pages named [lecture3 example 1](./lecture3(20)example(20)1.html) and what not, which is begging for a name clash, how about instead posting the files as attachments?
 
 You can type `attachment:foo.txt`, and that becomes a text file attachment.
 
-An example: [lecture3example1.txt](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture3example1.txt){.attachment}
+An example: [lecture3example1.txt](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture3example1.txt)
 
-![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} \-- [LionKimbro](LionKimbro) 2005-04-27 19:29:44
+![:)](/wiki/europython/img/smile.png ":)") \-- [LionKimbro](LionKimbro) 2005-04-27 19:29:44
 
 really good!
 
@@ -361,7 +366,7 @@ really good!
 Thanks for putting this information on the web. I wish that there were more poeple doing this type of thing.\
 \
 
-![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} Robert C
+![:)](/wiki/europython/img/smile.png ":)") Robert C
 
 Thank you very, very much. Your tutorial is OUTSTANDING! Thank you for the keeping things very simple. Keith Sweat
 
@@ -385,13 +390,13 @@ watch video
 
 Question: Chieh would you have a website or email address that people can contact you on? I have a talented friend on dreamweaver8 who **really** enjoys learning python and watching your videos. If you are interested he may be able to put togehter a website for you on a domain, and upload all your videos to the website.
 
-- Reply: Thank you so much for the offer ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} I think that is a great idea. The currently effort I am working on (the next series of lectures) will try to merge with it when it is done. One thing to note is that uploading videos are heavy on bandwidth, I hope your friend has enough bandwidth for it.
+- Reply: Thank you so much for the offer ![:)](/wiki/europython/img/smile.png ":)") I think that is a great idea. The currently effort I am working on (the next series of lectures) will try to merge with it when it is done. One thing to note is that uploading videos are heavy on bandwidth, I hope your friend has enough bandwidth for it.
 
-![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} Martin
+![:)](/wiki/europython/img/smile.png ":)") Martin
 
 This tutorials are amazing!! Thank you so much for sharing you knowledge and making this tutorials so easy, even for a newbie at programming like myself. It shows all the hard work put in each of the lectures, it shows so much that i\'m getting addicted :). I\'m watching one lecture after the other(on lecture 8 right now) and I\'ve been able to make all the exercises and homework. I\'ve seen lots of video tutorials and this are by far the best. Thanks again, Martin.
 
-Hmm. I can only watch the Flash format, and there it is too small to really follow anything\... \-- [ImperfectlyInformed](./ImperfectlyInformed.html){.nonexistent}.
+Hmm. I can only watch the Flash format, and there it is too small to really follow anything\... \-- [ImperfectlyInformed](./ImperfectlyInformed.html).
 
 - REPLY: it goes to full screen for me, i use linux and windows, i\'m not sure about other operating systems. You can also check out iamar.net , it has the same video posted on other sites which might work better for you.
 
@@ -409,9 +414,8 @@ Hi Chieh,
 
 Can you fix \"lecture10_pictures.py?\" It is messed up. Thxks.
 
-\-\-- Hi Chieh, The website [http://iamar.net/](http://iamar.net/){.http} only shows
+\-\-- Hi Chieh, The website [http://iamar.net/](http://iamar.net/) only shows
 
 - The website you were trying to reach is temporarily unavailable. Please check back soon. If you are the owner of this website, please contact Technical Support as soon as possible.
 
 Anyone have a copy any of the videos and code?
-:::

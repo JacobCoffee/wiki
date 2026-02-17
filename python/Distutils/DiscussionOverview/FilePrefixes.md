@@ -1,13 +1,18 @@
 # Distutils/DiscussionOverview/FilePrefixes
 
-::::: {#content dir="ltr" lang="en"}
-# Rationale {#Rationale}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Rationale 
 
 It is not possible to retrieve the installation paths of data, or other, files for all installation schemes supported by distutils right now. I propose the inclusion of a PREFIX file within the .egg-info directory that holds information on all prefixes set at installation time and a suitable API within pkgutil.
 
-# Proposal {#Proposal}
+# Proposal 
 
-## PREFIX {#PREFIX}
+## PREFIX 
 
 The RECORD file is a CSV file, composed of records, one line per prefix. The csv module is used to read the file, with these options:
 
@@ -31,7 +36,7 @@ Each record is composed of two elements:
 
     A `/`{.backtick} seperated path will be used regardless of the target system. The path definition can be either absolute or prefixed with one of the identifiers defined below. An absolute path is only used if the installation location is not relative to sys.prefix (\$base) or sys.exec_prefix (\$platbase).
 
-### Identifiers {#Identifiers}
+### Identifiers 
 
 The list of standard identifiers comprises:
 
@@ -47,7 +52,7 @@ The list of standard identifiers comprises:
 
 - `$data`{.backtick} - Data files
 
-### Example {#Example}
+### Example 
 
 Standard scheme installation on posix:
 
@@ -76,7 +81,7 @@ Custom installation scheme:
     scripts,/usr/local/bin
     data,/usr/local/share/
 
-### Default values {#Default_values}
+### Default values 
 
 Tables summarising the default values on different operating systems:
 
@@ -118,7 +123,7 @@ Tables summarising the default values on different operating systems:
 
 #### riscos
 
-## API {#API}
+## API 
 
 The Distribution class will get a new attribute `prefixes`{.backtick} which holds a dictionary mapping prefix identifiers to their absolute paths.
 
@@ -131,4 +136,3 @@ Usage example:
     '/usr/share'
     >>> ni_wish = open(os.path.join(foo_dist.prefixes.get('$data'), 'foo', 'shrubbery.jpg'))
     >>> unladen = open(os.path.join(foo_dist.prefixes['$data'], 'foo', 'european.swallow'))
-:::::

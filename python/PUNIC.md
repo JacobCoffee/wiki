@@ -1,11 +1,16 @@
 # PUNIC
 
-::: {#content dir="ltr" lang="en"}
-# What is the PUNIC network? {#What_is_the_PUNIC_network.3F}
+```{admonition} Legacy Wiki Page
+:class: note
 
-The PUNIC network is a group of professional Python companies and developers in the Netherlands. The network stems from the Python Usergroup Netherlands ([PUN](http://wiki.python.org/moin/PUN){.http}) and [Django Meeting NL](http://wiki.python.org/moin/DjangoMeetingNL){.http} groups.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## The goals of the PUNIC network {#The_goals_of_the_PUNIC_network}
+# What is the PUNIC network? 
+
+The PUNIC network is a group of professional Python companies and developers in the Netherlands. The network stems from the Python Usergroup Netherlands ([PUN](http://wiki.python.org/moin/PUN)) and [Django Meeting NL](http://wiki.python.org/moin/DjangoMeetingNL) groups.
+
+## The goals of the PUNIC network 
 
 - To provide a backup network by developers for developers looking to develop Python applications for business situations.
 - To provide solid ground for business who depend on Python for their day-to-day operations.
@@ -14,11 +19,11 @@ The network consists of employees using Python within a larger company, develope
 
 Python developers within the network document their projects and the details around those projects. If a Python developer becomes unable to continue his/her work the PUNIC network is notified. The network document of the developer allows the PUNIC network to quickly determine which projects can be taken over by which developer or company, notify the necessary contacts and proceed to continue where the developer left off.
 
-## Why start such a network? {#Why_start_such_a_network.3F}
+## Why start such a network? 
 
 The PUNIC network was started to support the efforts of the small Python community in the Netherlands. Although Python has increased in popularity over the last decade it is still not easy to find an adequate replacement for a Python developer. Formal and informal arrangements were made but increasingly PUN members wanted to address this issue as a group.
 
-## PUNIC project levels {#PUNIC_project_levels}
+## PUNIC project levels 
 
 The following levels have been defined within the network:
 
@@ -30,7 +35,7 @@ A higher level requires a larger amount of documentation and more frequent updat
 
 For now we\'ll only go for level 0 projects+documentation: it\'s harder than you might think.
 
-## Incidents {#Incidents}
+## Incidents 
 
 At the occurrence of an incident all developers of the level involved and each level below it are sent the network document. If a developer is interested in taking over the project (short- or long-term) the developer lets the network know (first-come first-serve). The developer then contacts the project client.
 
@@ -38,7 +43,7 @@ If the project client declines the developer the project is once again sent to t
 
 Note that the PUNIC network isn\'t an insurance: it is a formal blanket approach from the participating Python developers to those they develop for. It is possible that a project can\'t be taken over in spite of multiple attempts. In this case the project client will have to look outside the PUNIC network.
 
-## Documentation {#Documentation}
+## Documentation 
 
 Mandatory up-to-date documentation:
 
@@ -54,12 +59,12 @@ More documentation is better, but a single page from last Tuesday trumps a proje
 
 **Document your warts!**
 
-## Tentative (voorlopige) members {#Tentative_.28voorlopige.29_members}
+## Tentative (voorlopige) members 
 
 - Aperte (Alex de Landgraaf)
 - You?
 
-## Where do we go from here? {#Where_do_we_go_from_here.3F}
+## Where do we go from here? 
 
 - Interested in joining? The more the merrier!
 
@@ -79,7 +84,7 @@ More documentation is better, but a single page from last Tuesday trumps a proje
 
 - Python world domination, even if shit happens!
 
-## Notes from PUNIC talk 13-04-2011 {#Notes_from_PUNIC_talk_13-04-2011}
+## Notes from PUNIC talk 13-04-2011 
 
 - Existing European initiative, has once participant in NL
   - It\'s more complex to do this EU-wide, let\'s keep it local and gain critical mass in NL. It would be good to contact the European network and take over their approach.
@@ -93,5 +98,4 @@ More documentation is better, but a single page from last Tuesday trumps a proje
   - Note that small projects might be much quicker to take over. If so document your opinion. 5 days is a middle-of-the-road guideline between simple and complex projects. It\'s also always good to have some leeway: taking over someone elses project might sound simple but it\'s always more time-consuming than that you think.
   - Clients shouldn\'t expect a free ride: finding a new Python company willing to take over the project without any clear succession path will take much more time. The PUNIC network is to help speed up the transition, not alleviate the inherent risks of software development.
 - DON\'T PANIC?
-  - People weren\'t impressed with my [H2G2](./H2G2.html){.nonexistent} references. I\'ll remove them from the leaflet.
-:::
+  - People weren\'t impressed with my [H2G2](./H2G2.html) references. I\'ll remove them from the leaflet.

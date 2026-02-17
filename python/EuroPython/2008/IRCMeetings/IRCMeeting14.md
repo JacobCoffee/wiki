@@ -1,19 +1,24 @@
 # EuroPython/2008/IRCMeetings/IRCMeeting14
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #14 {#IRC_Meeting_.2314}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Time/Location {#Time.2FLocation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# IRC Meeting #14 
+
+## Time/Location 
 
 The meeting will take place in the #europython channel on freenode at 18:00 CEST on Thursday 5th June.
 
 Please look at the minutes from the last meeting for more background information: [../IRCMeeting13](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting13.html)
 
-## Present {#Present}
+## Present 
 
 Aiste, Christian, David, Jacob, John, Laura, Paul, Samuele
 
-## Agenda/Minutes {#Agenda.2FMinutes}
+## Agenda/Minutes 
 
 - Registration/Budget - status as early registration end approaches
   - **131 delegates**
@@ -42,7 +47,7 @@ Aiste, Christian, David, Jacob, John, Laura, Paul, Samuele
 
   - **Jacob will send Paul some banner images.**
 
-- T-shirts (as noted on [this page](http://www.europython.org/community/T-Shirts){.http})
+- T-shirts (as noted on [this page](http://www.europython.org/community/T-Shirts))
 
   - **Paul will contact Zack for a T-shirt image and pass it on to Aiste.**
 
@@ -53,7 +58,6 @@ Aiste, Christian, David, Jacob, John, Laura, Paul, Samuele
 - food - any updates
   - **Will be discussed in the next meeting. I guess this will mostly be about costs.**
 
-## Actions {#Actions}
+## Actions 
 
 - See the bold sections above\...
-:::

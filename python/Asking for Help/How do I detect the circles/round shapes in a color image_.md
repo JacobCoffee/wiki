@@ -1,15 +1,20 @@
 # Asking for Help/How do I detect the circles/round shapes in a color image?
 
-:::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Hello everybody!
 
 I just installed the python-opencv package on Ubuntu 10.10 and I was wondering how I can use it to detect the circles/round figures in an RGB image. I am not an expert in images and I do not know what terms like HSV and 8-bit image mean(I know these two now, of course).
 
 I tried this code, which I adapted from a website, and it doesn\'t work:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-cae01dfb3f2e48accc5962100985f3808383345d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import cv
    2         
    3 def main():
@@ -54,11 +59,11 @@ Thanks for your time and interest and sorry for my grammar.
 
 Calin
 
-# Asking for Help: \... {#Asking_for_Help:_...}
+# Asking for Help: \... 
 
 \...
 
-A good place to start is the documentation for OpenCV for python. In particular, the cookbook page( [http://opencv.willowgarage.com/documentation/python/cookbook.html](http://opencv.willowgarage.com/documentation/python/cookbook.html){.http}) will be of help. The documentation for the the module was produced by sphinx and leaves much to be desired.
+A good place to start is the documentation for OpenCV for python. In particular, the cookbook page( [http://opencv.willowgarage.com/documentation/python/cookbook.html](http://opencv.willowgarage.com/documentation/python/cookbook.html)) will be of help. The documentation for the the module was produced by sphinx and leaves much to be desired.
 
 For you\'re problem, I\'d start by replacing the line
 
@@ -68,11 +73,11 @@ with
 
             size = cv.GetSize(im)
 
-That will cause the cv.[CreateImage](./CreateImage.html){.nonexistent}() calls to create image objects sized with the same dimensions as your input image, whatever it may be. If you really want to have a 640x480 sized image as a result, you could use the cv.Resize() call.
+That will cause the cv.[CreateImage](./CreateImage.html)() calls to create image objects sized with the same dimensions as your input image, whatever it may be. If you really want to have a 640x480 sized image as a result, you could use the cv.Resize() call.
 
-The cv.[CvtColor](./CvtColor.html){.nonexistent}() call changes the color model that\'s used for storing the data from RGB to HSV. This is required in order to properly detect changes in hue, brightness, and saturation levels. Since you\'re looking for circles, you likely need to detect changes in hue(color), or at least look for specific hues.
+The cv.[CvtColor](./CvtColor.html)() call changes the color model that\'s used for storing the data from RGB to HSV. This is required in order to properly detect changes in hue, brightness, and saturation levels. Since you\'re looking for circles, you likely need to detect changes in hue(color), or at least look for specific hues.
 
-The cv.[HoughCircles](./HoughCircles.html){.nonexistent}() call is what actually finds the circles. Its a rather lengthy computation which results finally in a list of circles. There are some parameters in the call that might need to be adjusted in order for it to do a good job of detection. But alas I did not find documentation for this function on the site I mentioned above.
+The cv.[HoughCircles](./HoughCircles.html)() call is what actually finds the circles. Its a rather lengthy computation which results finally in a list of circles. There are some parameters in the call that might need to be adjusted in order for it to do a good job of detection. But alas I did not find documentation for this function on the site I mentioned above.
 
 ::: note
 When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](./Asking(20)for(20)Help.html) page.
@@ -81,4 +86,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-::::::

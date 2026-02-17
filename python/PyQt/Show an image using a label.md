@@ -1,13 +1,18 @@
 # PyQt/Show an image using a label
 
-::::: {#content dir="ltr" lang="en"}
-# Show an image using a label {#Show_an_image_using_a_label}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Show an image using a label 
 
 On the `#pyqt`{.backtick} IRC channel on Freenode, `elhobab`{.backtick} asked how to show an image.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c302a4cf176053ec8ceff300efd842c7dfc2afd6 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtGui import *
    3 
@@ -22,4 +27,3 @@ On the `#pyqt`{.backtick} IRC channel on Freenode, `elhobab`{.backtick} asked ho
 ```
 :::
 ::::
-:::::

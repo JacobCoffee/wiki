@@ -1,7 +1,12 @@
 # Distribute/Functionality
 
-:::: {#content dir="ltr" lang="en"}
-# Functionality {#Functionality}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Functionality 
 
 setuptools does many things. Breaking that down into different areas will allow people to contribute to a smaller chunk that they feel familiar with and excited about.
 
@@ -15,35 +20,35 @@ setuptools does many things. Breaking that down into different areas will allow 
 
 This is the metadata about the package that\'s stored in the egg
 
-### Ideas {#Ideas}
+### Ideas 
 
 - Enhance metadata with an API/ABI version (ABI would mean, changes to file formats and such)
 - Storage of metadata and data with the same API is not great as there\'s different storage requirements for each.
 - API for extracting the metadata?
 - Script interface to do the same
 
-## egg format {#egg_format}
+## egg format 
 
 This is the format of metadata + code + data that is zipped up into an egg.
 
-## pkg_resources: Library Dependency Manager {#pkg_resources:_Library_Dependency_Manager}
+## pkg_resources: Library Dependency Manager 
 
 This is the functionality that loads libraries of certain versions and runs them,
 
-### Ideas {#Ideas-1}
+### Ideas 
 
 - Be able to both control version choices programmatically and have a default version
 - Properly handle overlapping dependencies
 
-## pkg_resources: Resource Manager {#pkg_resources:_Resource_Manager}
+## pkg_resources: Resource Manager 
 
 Allow code to import data from an unknown and variable location on the disk.
 
-[http://peak.telecommunity.com/DevCenter/PkgResources#resourcemanager-api](http://peak.telecommunity.com/DevCenter/PkgResources#resourcemanager-api){.http}
+[http://peak.telecommunity.com/DevCenter/PkgResources#resourcemanager-api](http://peak.telecommunity.com/DevCenter/PkgResources#resourcemanager-api)
 
-### Ideas {#Ideas-2}
+### Ideas 
 
-- Ability to retrieve data from outside of the Module ([EggTranslations](./EggTranslations.html){.nonexistent})
+- Ability to retrieve data from outside of the Module ([EggTranslations](./EggTranslations.html))
 
 - General data store
 
@@ -57,8 +62,7 @@ Tool that downloads and installs all the dependencies of a package
 
 Tool that makes building and installing from source easier
 
-### Ideas {#Ideas-3}
+### Ideas 
 
 - Able to install to FHS locations or build eggs as desired
 - bdist\_\* and install should all be terminal targets. bdist\_\*, for instance, should not depend on install having been run first.
-::::

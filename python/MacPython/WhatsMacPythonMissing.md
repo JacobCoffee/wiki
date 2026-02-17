@@ -1,31 +1,35 @@
 # MacPython/WhatsMacPythonMissing
 
-::: {#content dir="ltr" lang="en"}
-## Modules We\'d Like From Other Platforms {#Modules_We.27d_Like_From_Other_Platforms}
+```{admonition} Legacy Wiki Page
+:class: note
 
-- [/SciPy](./MacPython(2f)WhatsMacPythonMissing(2f)SciPy.html){.nonexistent} and Chaco - [http://www.scipy.org/](http://www.scipy.org/){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- VTK - [http://public.kitware.com/VTK/](http://public.kitware.com/VTK/){.http}
+## Modules We\'d Like From Other Platforms 
 
-- [/MayaVi](./MacPython(2f)WhatsMacPythonMissing(2f)MayaVi.html){.nonexistent} - [http://mayavi.sourceforge.net/](http://mayavi.sourceforge.net/){.http}
+- [/SciPy](./MacPython(2f)WhatsMacPythonMissing(2f)SciPy.html) and Chaco - [http://www.scipy.org/](http://www.scipy.org/)
 
-- [/PyQt](./MacPython(2f)WhatsMacPythonMissing(2f)PyQt.html){.nonexistent} - [http://www.riverbankcomputing.co.uk/pyqt/](http://www.riverbankcomputing.co.uk/pyqt/){.http}
+- VTK - [http://public.kitware.com/VTK/](http://public.kitware.com/VTK/)
 
-- Orange - [http://www.ailab.si/orange](http://www.ailab.si/orange){.http}
+- [/MayaVi](./MacPython(2f)WhatsMacPythonMissing(2f)MayaVi.html) - [http://mayavi.sourceforge.net/](http://mayavi.sourceforge.net/)
 
-- PyX - [http://pyx.sourceforge.net/](http://pyx.sourceforge.net/){.http}
+- [/PyQt](./MacPython(2f)WhatsMacPythonMissing(2f)PyQt.html) - [http://www.riverbankcomputing.co.uk/pyqt/](http://www.riverbankcomputing.co.uk/pyqt/)
 
-- Boost.Python and Pyste - [http://www.boost.org/libs/python/doc/index.html](http://www.boost.org/libs/python/doc/index.html){.http}
+- Orange - [http://www.ailab.si/orange](http://www.ailab.si/orange)
 
-- Biggles - [http://biggles.sourceforge.net/](http://biggles.sourceforge.net/){.http}
+- PyX - [http://pyx.sourceforge.net/](http://pyx.sourceforge.net/)
 
-- Gnuplot - [http://gnuplot-py.sourceforge.net/](http://gnuplot-py.sourceforge.net/){.http}
+- Boost.Python and Pyste - [http://www.boost.org/libs/python/doc/index.html](http://www.boost.org/libs/python/doc/index.html)
 
-- pyogg and pyvorbis - [http://www.andrewchatham.com/pyogg/](http://www.andrewchatham.com/pyogg/){.http}
+- Biggles - [http://biggles.sourceforge.net/](http://biggles.sourceforge.net/)
 
-- Soya 3D - [http://oomadness.tuxfamily.org/en/soya/](http://oomadness.tuxfamily.org/en/soya/){.http}
+- Gnuplot - [http://gnuplot-py.sourceforge.net/](http://gnuplot-py.sourceforge.net/)
 
-- psyco - [http://psyco.sourceforge.net/](http://psyco.sourceforge.net/){.http}
+- pyogg and pyvorbis - [http://www.andrewchatham.com/pyogg/](http://www.andrewchatham.com/pyogg/)
 
-- vpython - [http://www.vpython.org/](http://www.vpython.org/){.http}
-:::
+- Soya 3D - [http://oomadness.tuxfamily.org/en/soya/](http://oomadness.tuxfamily.org/en/soya/)
+
+- psyco - [http://psyco.sourceforge.net/](http://psyco.sourceforge.net/)
+
+- vpython - [http://www.vpython.org/](http://www.vpython.org/)

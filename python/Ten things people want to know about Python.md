@@ -1,16 +1,14 @@
 # Ten things people want to know about Python
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [Top 10 Python FAQ](#Top_10_Python_FAQ)
-2.  [i18N](#i18N)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
 11 August 2008: [Guido van Rossum](./Guido(20)van(20)Rossum.html) mentions (on a the PSF private mailing list) via IRC #python/presence/42088545 this formulation:
 
-# Top 10 Python FAQ {#Top_10_Python_FAQ}
+# Top 10 Python FAQ 
 
 1.  [Why is Python a dynamic language and also a strongly typed language](./Why(20)is(20)Python(20)a(20)dynamic(20)language(20)and(20)also(20)a(20)strongly(20)typed(20)language.html)?
 
@@ -32,9 +30,8 @@ Contents
 
 10. [How to make exe on Windows](./How(20)to(20)make(20)exe(20)on(20)Windows.html) (run without Python preinstalled)?
 
-# i18N {#i18N}
+# i18N 
 
-- Chinese \~ [http://wiki.woodpecker.org.cn/moin/PyTop10FAQ?action=show](http://wiki.woodpecker.org.cn/moin/PyTop10FAQ?action=show){.http}
+- Chinese \~ [http://wiki.woodpecker.org.cn/moin/PyTop10FAQ?action=show](http://wiki.woodpecker.org.cn/moin/PyTop10FAQ?action=show)
 
-Notice that earlier times produced other [faq](./faq.html){.nonexistent}s, and it\'s likely Python will survive long enough to merit still other ones in the future.
-::::
+Notice that earlier times produced other [faq](./faq.html)s, and it\'s likely Python will survive long enough to merit still other ones in the future.

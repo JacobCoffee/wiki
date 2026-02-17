@@ -1,6 +1,11 @@
 # MacPython/aeve
 
-::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 #pragma section-numbers off
 
 # aeve
@@ -13,11 +18,11 @@ aeve is currently at its fourth public release, 0.0.3.
 
 # examples
 
-## iChat + Jaguar Mail {#iChat_.2B-_Jaguar_Mail}
+## iChat + Jaguar Mail 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4941e5c93d33f9a7001bbf9c61c6deb3a3efd496 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """
    2 I get an inordinate amount of spam to one of my accounts,
    3 and they get put into spam-definite on my imap server.
@@ -38,11 +43,11 @@ aeve is currently at its fourth public release, 0.0.3.
 :::
 ::::
 
-## iCal {#iCal}
+## iCal 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-456263281599a6d61787e9063815356eee00bf46 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """
    2 This is an example of how to do the make command from aeve to create a new calendar.
    3 It's unfortunately hard at the moment.
@@ -64,9 +69,9 @@ aeve is currently at its fourth public release, 0.0.3.
 
 # homepage
 
-[http://undefined.org/python/#aeve](http://undefined.org/python/#aeve){.http}
+[http://undefined.org/python/#aeve](http://undefined.org/python/#aeve)
 
-# known issues {#known_issues}
+# known issues 
 
 Not compatible with:
 
@@ -77,11 +82,10 @@ Hard to do:
 
 - the make command (with_properties, specifically)
 
-# see also {#see_also}
+# see also 
 
 - [../AppleScript](./MacPython(2f)AppleScript.html)
 
 - [../AppleScriptNotes](./MacPython(2f)AppleScriptNotes.html)
 
 - [../AeveNewbieDiscussion](./MacPython(2f)AeveNewbieDiscussion.html)
-:::::::

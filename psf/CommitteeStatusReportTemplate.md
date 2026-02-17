@@ -1,7 +1,12 @@
 # CommitteeStatusReportTemplate
 
-::: {#content dir="ltr" lang="en"}
-Please use the below format for all reports. This format is used when including reports in the board meeting minutes. It should comply with reStructuredText rules and should present like [this](http://rst.ninjs.org/?n=65b3f59356d786e09990bfb4b3ce30e4&theme=basic){.http}. Please do not include the italicized help text.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Please use the below format for all reports. This format is used when including reports in the board meeting minutes. It should comply with reStructuredText rules and should present like [this](http://rst.ninjs.org/?n=65b3f59356d786e09990bfb4b3ce30e4&theme=basic). Please do not include the italicized help text.
 
 - Insert committee/work group name and date
       -----------------------------------------
@@ -54,4 +59,3 @@ Please use the below format for all reports. This format is used when including 
       *List any problems that are preventing progress on assignments.*
 
        - 
-:::

@@ -1,7 +1,12 @@
 # Asking for Help/Why do I get permission denied errors when using macostools.copy?
 
-:::: {#content dir="ltr" lang="en"}
-# Asking for Help: Why do I get permission denied errors when using macostools.copy? {#Asking_for_Help:_Why_do_I_get_permission_denied_errors_when_using_macostools.copy.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: Why do I get permission denied errors when using macostools.copy? 
 
 Whenever I copy an executable with macostools.copy, I am denied permission to execute it. However, when I check the file permissions in Finder, they are unchanged. Why does this happen?
 
@@ -12,4 +17,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp)
-::::

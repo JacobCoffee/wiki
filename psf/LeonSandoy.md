@@ -1,21 +1,25 @@
 # LeonSandoy
 
-::: {#content dir="ltr" lang="en"}
-# LeonSandoy {#LeonSandoy-1}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# LeonSandoy 
 
 Email: `<lemon AT SPAMFREE pythondiscord DOT com>`
 
-- Owner of [Python Discord](https://pythondiscord.com/){.https}.
+- Owner of [Python Discord](https://pythondiscord.com/).
 
-GitHub: [\@lemonsaurus](https://github.com/lemonsaurus){.https}
+GitHub: [\@lemonsaurus](https://github.com/lemonsaurus)
 
-LinkedIn: [\@lemonsaurus](https://www.linkedin.com/in/lemonsaurus/){.https}
+LinkedIn: [\@lemonsaurus](https://www.linkedin.com/in/lemonsaurus/)
 
-Personal website: [lemonsaur.us](https://lemonsaur.us){.https}
+Personal website: [lemonsaur.us](https://lemonsaur.us)
 
 \...
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

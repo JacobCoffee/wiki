@@ -1,9 +1,14 @@
 # CategoryPyCon
 
-:::: {#content dir="ltr" lang="en"}
-# Pages Related to PyCon {#Pages_Related_to_PyCon}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Generated Page List {#Generated_Page_List}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Pages Related to PyCon 
+
+## Generated Page List 
 
 This list is uses a simple Wiki search to find pages related to [PyCon](PyCon).
 
@@ -203,4 +208,3 @@ This list is uses a simple Wiki search to find pages related to [PyCon](PyCon).
 ------------------------------------------------------------------------
 
 [CategoryCategory](CategoryCategory)
-::::

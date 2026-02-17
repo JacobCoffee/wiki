@@ -1,9 +1,14 @@
 # lwickjr
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [lwickjr](lwickjr) 2011-09-15 18:23:10: I\`ve just reviewed the site.py bug mentioned below, and it still exists in Python 3.1.2. Will someone please fix it?
 
-[lwickjr](lwickjr) 2011-09-15 18:20:53: Trivial edit to get the comment into the log. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+[lwickjr](lwickjr) 2011-09-15 18:20:53: Trivial edit to get the comment into the log. ![:)](/wiki/europython/img/smile.png ":)")
 
 Quote: \"Editor: [PaulBoddie](PaulBoddie) Comment: Suspicious edit resembling spam. Apologies if casino stuff is now actually lwickjr\'s focus.\" Nope; you\`re right. Thanks!
 
@@ -11,7 +16,7 @@ Quote: \"Editor: [PaulBoddie](PaulBoddie) Comment: Suspicious edit resembling sp
 
 Trying a \*third\* time\... Ok, that worked; re-entering the actual information\...
 
-Hmm, I note that the [DateTime](./DateTime.html){.nonexistent} tags below failed to stamp the time when I last edited this page YEARS ago. Odd. I guess I didn\'t know how to use them then. ::shrug::
+Hmm, I note that the [DateTime](./DateTime.html) tags below failed to stamp the time when I last edited this page YEARS ago. Odd. I guess I didn\'t know how to use them then. ::shrug::
 
 Having recently installed Python 2.7.0, I was browsing through the installation, specifically the `site`{.backtick} module \[there wasn\'t a `usercustomize`{.backtick} module last time I checked, and the new mechinism was interesting; I had been keeping my personal code in the `site-packages`{.backtick} directory on my personal Windoze machine\] when I noticed an error in the definition of the `addpackage`{.backtick} function.
 
@@ -19,17 +24,17 @@ To whit, if `addpackage`{.backtick} is ever called with `None`{.backtick} as the
 
 As this bug was discovered through visual inspection and I am not registered at any of the usual Python development sites, would someone please verify this bug and bring it to the attention of the appropriate individuals and/or groups? Thanks!
 
-Whew! Third time\`s the charm, I hope! Also, each time brought forth a somewhat-improved version of the above text \[\'least I think so ![;)](/wiki/europython/img/smile4.png ";)"){height="16" width="16"} \].
+Whew! Third time\`s the charm, I hope! Also, each time brought forth a somewhat-improved version of the above text \[\'least I think so ![;)](/wiki/europython/img/smile4.png ";)") \].
 
 ------------------------------------------------------------------------
 
 Attention, please: I am interested in the possibility of de-linting some of the documentation. How do I go about signing up?
 
-[FredDrake](FredDrake) sez: See the [Documentation Development](http://www.python.org/dev/doc/){.http} page.
+[FredDrake](FredDrake) sez: See the [Documentation Development](http://www.python.org/dev/doc/) page.
 
-[lwickjr](lwickjr) 2026-02-14 16:15:21: Done, which I noted on your page some time ago. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} \[I find myself wondering if anyone found the delinted pages.\]
+[lwickjr](lwickjr) 2026-02-14 16:15:21: Done, which I noted on your page some time ago. ![:)](/wiki/europython/img/smile.png ":)") \[I find myself wondering if anyone found the delinted pages.\]
 
-[lwickjr](lwickjr) 2026-02-14 16:15:21: [LionKimbro](LionKimbro): \"Parnassus\". ![;)](/wiki/europython/img/smile4.png ";)"){height="16" width="16"}
+[lwickjr](lwickjr) 2026-02-14 16:15:21: [LionKimbro](LionKimbro): \"Parnassus\". ![;)](/wiki/europython/img/smile4.png ";)")
 
 ------------------------------------------------------------------------
 
@@ -37,13 +42,13 @@ Welcome to my page.
 
 ------------------------------------------------------------------------
 
-After reading [RealNamesPlease](http://c2.com/cgi/wiki?RealNamesPlease "Wiki"){.interwiki}, [RealNamesPleaseDiscussion](http://c2.com/cgi/wiki?RealNamesPleaseDiscussion "Wiki"){.interwiki}, and [OneNamePlease](http://c2.com/cgi/wiki?OneNamePlease "Wiki"){.interwiki},
+After reading [RealNamesPlease](http://c2.com/cgi/wiki?RealNamesPlease "Wiki"), [RealNamesPleaseDiscussion](http://c2.com/cgi/wiki?RealNamesPleaseDiscussion "Wiki"), and [OneNamePlease](http://c2.com/cgi/wiki?OneNamePlease "Wiki"),
 
 I respectfully decline to change my login ID.
 
 This is the ID I use exclusively online, it is derived from my \"RL\" name, and it is the ID under which I receive my e-mail.
 
-In accordance with [OneNamePlease](http://c2.com/cgi/wiki?OneNamePlease "Wiki"){.interwiki} and [RealNamesPleaseDiscussion](http://c2.com/cgi/wiki?RealNamesPleaseDiscussion "Wiki"){.interwiki}, I conclude that while \"lwickjr\" is not \"exactly\" in accordance with [RealNamesPlease](http://c2.com/cgi/wiki?RealNamesPlease "Wiki"){.interwiki}, it IS \"close enough\".
+In accordance with [OneNamePlease](http://c2.com/cgi/wiki?OneNamePlease "Wiki") and [RealNamesPleaseDiscussion](http://c2.com/cgi/wiki?RealNamesPleaseDiscussion "Wiki"), I conclude that while \"lwickjr\" is not \"exactly\" in accordance with [RealNamesPlease](http://c2.com/cgi/wiki?RealNamesPlease "Wiki"), it IS \"close enough\".
 
 Please, no flames; no offense intended.
 
@@ -61,15 +66,15 @@ This is not always the case.
 
 Further, I have found the documentation on distributing Python modules to be strong on the mechanics of how to PACKAGE modules \[somewhat over-kill, I think, for simple drop-in single-file modules\], and nearly nonexistent on how to PUBLISH them.
 
-Could someone [please]{.u} write a page on [PublishingPythonModules](PublishingPythonModules) that is understandable by someone with significant \*computer\* experience but minimal \*Internet\* experience?
+Could someone [please] write a page on [PublishingPythonModules](PublishingPythonModules) that is understandable by someone with significant \*computer\* experience but minimal \*Internet\* experience?
 
-## Links {#Links}
+## Links 
 
-[PublishingPythonModules](PublishingPythonModules) [SkipMontanaro](SkipMontanaro) [Some of my more publishable modules](./lwickjr(2f)Modules.html) [Vaults of Parnassus](http://py.vaults.ca/apyllo.py){.http}
+[PublishingPythonModules](PublishingPythonModules) [SkipMontanaro](SkipMontanaro) [Some of my more publishable modules](./lwickjr(2f)Modules.html) [Vaults of Parnassus](http://py.vaults.ca/apyllo.py)
 
 ------------------------------------------------------------------------
 
-Hi lwick, before I answer some of your questions, I\'d like you to consider [RealNamesPlease](http://c2.com/cgi/wiki?RealNamesPlease "Wiki"){.interwiki}. It is one of our [WikiGuidelines](WikiGuidelines), and it has worked well for us so far.
+Hi lwick, before I answer some of your questions, I\'d like you to consider [RealNamesPlease](http://c2.com/cgi/wiki?RealNamesPlease "Wiki"). It is one of our [WikiGuidelines](WikiGuidelines), and it has worked well for us so far.
 
 I\'m not completely sure what you mean by publishing Python modules. If you need a space to upload your Python modules, you might want to consider [StarshipPython](StarshipPython). It used to be free for PSA members, but the PSA has ceased to exist, so I guess a small donation to the [PythonSoftwareFoundation](PythonSoftwareFoundation) will do now. Would that solve your problem?
 
@@ -82,7 +87,7 @@ With a real name I meant the one in your passport, not capitalizing your nick in
 [lwickjr](lwickjr): Don\'t have a passport. As for my \"nick\", the L is my first initial, the Wick is my family name, and the Jr is because I\'ve got the same name as my father. Isn\'t this \"real\" enough?
 
 - /\-\-- later the same day \-\--
-  - Having read [RealNamesPlease](http://c2.com/cgi/wiki?RealNamesPlease "Wiki"){.interwiki}, [RealNamesPleaseDiscussion](http://c2.com/cgi/wiki?RealNamesPleaseDiscussion "Wiki"){.interwiki}, and [OneNamePlease](http://c2.com/cgi/wiki?OneNamePlease "Wiki"){.interwiki}, I choose to continue using [lwickjr](lwickjr) as my login name. It is a persistent on-line identity. It is directly related to my given name. It is the \*only\* ID I use online. I doubt that anyone here would like to call me \"the Hungry Hacker\", with which I sign all my e-mail. Having stated my position, I simply shall ignore the issue and contribute as best I can. After all, isn\'t that why we\'re here? No offense taken; none intended.
+  - Having read [RealNamesPlease](http://c2.com/cgi/wiki?RealNamesPlease "Wiki"), [RealNamesPleaseDiscussion](http://c2.com/cgi/wiki?RealNamesPleaseDiscussion "Wiki"), and [OneNamePlease](http://c2.com/cgi/wiki?OneNamePlease "Wiki"), I choose to continue using [lwickjr](lwickjr) as my login name. It is a persistent on-line identity. It is directly related to my given name. It is the \*only\* ID I use online. I doubt that anyone here would like to call me \"the Hungry Hacker\", with which I sign all my e-mail. Having stated my position, I simply shall ignore the issue and contribute as best I can. After all, isn\'t that why we\'re here? No offense taken; none intended.
 
   \\\-\--
 
@@ -90,9 +95,9 @@ With a real name I meant the one in your passport, not capitalizing your nick in
 
 BTW, what do you think of the modules I describe [here](./lwickjr(2f)Modules.html)?
 
-As for publishing modules, it seems to me that we in the Python community are not yet [as organized as the Ruby community.](http://rubyforge.org/softwaremap/trove_list.php){.http}
+As for publishing modules, it seems to me that we in the Python community are not yet [as organized as the Ruby community.](http://rubyforge.org/softwaremap/trove_list.php)
 
-For the most part, people set up their own website, maybe something on [SourceForge](SourceForge), get a listing on [PyPi](./PyPi.html){.nonexistent} or the vaults (of what-I-cant-spell,) and mention it on the python-announce usenet forum.
+For the most part, people set up their own website, maybe something on [SourceForge](SourceForge), get a listing on [PyPi](./PyPi.html) or the vaults (of what-I-cant-spell,) and mention it on the python-announce usenet forum.
 
 It would be a good subject for a new wiki page. I think there\'s already one that\'s started somewhere, that it would be worthwhile to revisit.
 
@@ -108,11 +113,10 @@ Sombody else (Who?): You\`re right, it \*is\* worth revisiting, in case someone 
 
 [lwickjr](lwickjr): Please note: \"[How to publish Python modules](PublishingPythonModules)\" has been superceeded by [PublishingPythonModules](PublishingPythonModules).
 
-I\'m uploading some of my more publishable modules as attachments to [this page](./lwickjr(2f)Modules.html). \"Alias\" is in [lwickjr/Modules:Alias.py](attachments/lwickjr(2f)Modules/Alias.py "lwickjr/Modules:Alias.py"){.attachment}, \"Edit\" is in [lwickjr/Modules:Edit.py](attachments/lwickjr(2f)Modules/Edit.py "lwickjr/Modules:Edit.py"){.attachment}, and \"UT\" is in [lwickjr/Modules:UT.py]( "Upload new attachment "UT.py""){.attachment .nonexistent} - I \*hope\* they\'re not to big.
+I\'m uploading some of my more publishable modules as attachments to [this page](./lwickjr(2f)Modules.html). \"Alias\" is in [lwickjr/Modules:Alias.py](attachments/lwickjr(2f)Modules/Alias.py "lwickjr/Modules:Alias.py"), \"Edit\" is in [lwickjr/Modules:Edit.py](attachments/lwickjr(2f)Modules/Edit.py "lwickjr/Modules:Edit.py"), and \"UT\" is in [lwickjr/Modules:UT.py]( "Upload new attachment "UT.py"") - I \*hope\* they\'re not to big.
 
 Does Edit interest you? Don\'t forget: it \*does\* require that the default subprocess be turned off, as it REQUIRES interaction between the user dataspace and the I.D.L.E. dataspace, and I don\`t \[currently\] know how to use the IPC \[Inter-Process Communication\] that I.D.L.E. uses for the purpose. Alias has the same requirement, and for the same reason.
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

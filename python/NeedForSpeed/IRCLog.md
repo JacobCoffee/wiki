@@ -1,6 +1,11 @@
 # NeedForSpeed/IRCLog
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
     2006-05-22 05:10:40>  *** nfsbot has joined #nfs
     2006-05-22 05:10:40>  *** nfsbot has joined #nfs
     2006-05-22 05:11:08>  <jafo> Hello nfsbot.
@@ -1093,4 +1098,3 @@
     2006-05-29 21:26:57>  *** goffa has joined #nfs
     2006-05-29 21:27:20>  *** goffa has left #nfs
     2006-05-30 01:43:37>  <jafo> Well, nfsbot and I are going to vacate the channel.  Thanks for a great time everyone.
-:::

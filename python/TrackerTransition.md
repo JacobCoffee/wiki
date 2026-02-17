@@ -1,24 +1,29 @@
 # TrackerTransition
 
-::: {#content dir="ltr" lang="en"}
-# What {#What}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# What 
 
 To finally get us off of SF and on to Roundup!
 
-# When {#When}
+# When 
 
 XXX a reasonable amount of time after Python 2.5.1 is released.
 
-# Who {#Who}
+# Who 
 
 - Brett Cannon (PST)
 - Erik Forsberg (CEST)
 
-# Where {#Where}
+# Where 
 
 XXX IRC or Google Talk/Jabber chat room.
 
-# How {#How}
+# How 
 
 1.  Put warning into current demo installation that it is not live (**done**)
 
@@ -36,7 +41,7 @@ XXX IRC or Google Talk/Jabber chat room.
 
     - `<b style="color:red">This tracker is CLOSED</b>. Please use the <a href="http://bugs.python.org/">new tracker</a> instead.`{.backtick}
 
-      [Bugs](http://tinyurl.com/yw53zr){.http} [Patches](http://tinyurl.com/ynw6uq){.http} [Feature Requests](http://tinyurl.com/28lphd){.http}
+      [Bugs](http://tinyurl.com/yw53zr) [Patches](http://tinyurl.com/ynw6uq) [Feature Requests](http://tinyurl.com/28lphd)
 
     (**done**).
 
@@ -57,4 +62,3 @@ XXX IRC or Google Talk/Jabber chat room.
 ------------------------------------------------------------------------
 
 [CategoryTrackerArchive](CategoryTrackerArchive)
-:::

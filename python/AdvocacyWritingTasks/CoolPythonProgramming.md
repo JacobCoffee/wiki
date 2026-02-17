@@ -1,7 +1,11 @@
 # AdvocacyWritingTasks/CoolPythonProgramming
 
-::: {#content dir="ltr" lang="en"}
-# Outline for: \"Cool Programming Features of Python\" {#Outline_for:_.22Cool_Programming_Features_of_Python.22}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Outline for: \"Cool Programming Features of Python\" 
 
 - ???
-:::

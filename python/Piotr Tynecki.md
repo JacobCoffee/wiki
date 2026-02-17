@@ -1,19 +1,23 @@
 # Piotr Tynecki
 
-::: {#content dir="ltr" lang="en"}
-## Polish Python Coders Group {#Polish_Python_Coders_Group}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Polish Python Coders Group 
 
 Country: **Poland**
 
-WWW: [http://pl.python.org/](http://pl.python.org/){.http}
+WWW: [http://pl.python.org/](http://pl.python.org/)
 
-Forum: [http://pl.python.org/forum/](http://pl.python.org/forum/){.http}
+Forum: [http://pl.python.org/forum/](http://pl.python.org/forum/)
 
-IRC: [#python.pl](irc://irc.eu.freenode.net/python.pl){.irc} on [FreeNode](./FreeNode.html){.nonexistent}
+IRC: [#python.pl](irc://irc.eu.freenode.net/python.pl) on [FreeNode](./FreeNode.html)
 
-E-mail: [ppcg@pl.python.org](mailto:ppcg@pl.python.org){.mailto}
+E-mail: [ppcg@pl.python.org](mailto:ppcg@pl.python.org)
 
 ------------------------------------------------------------------------
 
 Polish Python Coders Group
-:::

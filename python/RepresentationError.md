@@ -1,7 +1,12 @@
 # RepresentationError
 
-::: {#content dir="ltr" lang="en"}
-(Note: this information is now part of the Python tutorial for Python 2.2a0, as appendix B. A preview is here: [http://python.sourceforge.net/devel-docs/tut/node14.html](http://python.sourceforge.net/devel-docs/tut/node14.html){.http} )
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+(Note: this information is now part of the Python tutorial for Python 2.2a0, as appendix B. A preview is here: [http://python.sourceforge.net/devel-docs/tut/node14.html](http://python.sourceforge.net/devel-docs/tut/node14.html) )
 
 \"Representation error\" refers to that some (most, actually) decimal fractions cannot be represented exactly as binary (base 2) fractions. This is the chief reason why Python (or Perl, C, C++, Java, Fortran, \...) often won\'t display the exact decimal number you expect:
 
@@ -65,4 +70,3 @@ If we multiply that fraction by 10L\*\*30, we can see the (truncated) value of i
     >>>
 
 meaning that the exact number stored in the computer is approximately equal to the decimal value 0.100000000000000005551115123125. Rounding that to 17 significant digits gives the 0.10000000000000001 that Python displays (well, will display on any 754-conforming platform that does best-possible input and output conversions in its C library \-- yours may not!).
-:::

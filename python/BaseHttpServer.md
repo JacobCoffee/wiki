@@ -1,36 +1,28 @@
 # BaseHttpServer
 
-:::::::: {#content dir="ltr" lang="en"}
-# BaseHTTPServer {#BaseHTTPServer}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# BaseHTTPServer 
 
 You can use this to make a simple HTTP web server.
 
-::: table-of-contents
-Contents
+## Official Documentation 
 
-1.  [BaseHTTPServer](#BaseHTTPServer)
-    1.  [Official Documentation](#Official_Documentation)
-    2.  [Example Code](#Example_Code)
-        1.  [Responding with an HTML Page](#Responding_with_an_HTML_Page)
-        2.  [Responding with URL Redirection](#Responding_with_URL_Redirection)
-    3.  [Parameterizing](#Parameterizing)
-    4.  [See Also](#See_Also)
-2.  [Discussion](#Discussion)
-:::
+- [BaseHTTPServer module documentation](http://docs.python.org/lib/module-BaseHTTPServer.html) - what we use directly
 
-## Official Documentation {#Official_Documentation}
+- [SocketServer module documentation](http://docs.python.org/lib/module-SocketServer.html) - behind the BaseHttpServer
 
-- [BaseHTTPServer module documentation](http://docs.python.org/lib/module-BaseHTTPServer.html){.http} - what we use directly
+## Example Code 
 
-- [SocketServer module documentation](http://docs.python.org/lib/module-SocketServer.html){.http} - behind the BaseHttpServer
+### Responding with an HTML Page 
 
-## Example Code {#Example_Code}
-
-### Responding with an HTML Page {#Responding_with_an_HTML_Page}
-
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-86c92a7a96bb671a2cb7471059da597b6df2666f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import time
    2 import BaseHTTPServer
    3 
@@ -70,13 +62,13 @@ Contents
 :::
 ::::
 
-### Responding with URL Redirection {#Responding_with_URL_Redirection}
+### Responding with URL Redirection 
 
 This code demonstrates simple URL redirection:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f4dc6d0e984b4b4294842bfb32c83f0090eb4021 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """
    2 URL redirection example.
    3 """
@@ -114,7 +106,7 @@ This code demonstrates simple URL redirection:
 :::
 ::::
 
-## Parameterizing {#Parameterizing}
+## Parameterizing 
 
 When you want to make your server respect some parameters, it\'s easiest to do so via the *server,* rather than the *handler.*
 
@@ -122,17 +114,17 @@ That is, make a subclass of the server, that accepts some additional parameters.
 
 Then, in the handler, use `s.server` to get to the server, and access the parameters through it.
 
-## See Also {#See_Also}
+## See Also 
 
 - [DocXmlRpcServer](DocXmlRpcServer) \-- self-documenting XML-RPC servers
 
 - [CgiScripts](CgiScripts) \-- using invoked CGI scripts, rather than running micro-web servers
 
-# Discussion {#Discussion}
+# Discussion 
 
 I\'d ultimately like to see a BaseHttpServer here that can both handle XML-RPC requests (with *that* request handler,) and normal web requests (with a custom handler.)
 
-Yes- I know and love [TwistedPython](./TwistedPython.html){.nonexistent}. But I want to make something that works in a single install. \-- [LionKimbro](LionKimbro) 2004-05-31 01:13:16
+Yes- I know and love [TwistedPython](./TwistedPython.html). But I want to make something that works in a single install. \-- [LionKimbro](LionKimbro) 2004-05-31 01:13:16
 
 I\'d also like to add code here showing how to service a POST request.
 
@@ -142,5 +134,4 @@ There exist tools like [CherryPy](CherryPy) which will create a single-file Pyth
 
 I like the BaseHttpServer because it is in the default Python distributions. I encourage all work towards putting a standard web framework into the default Python distribution. I\'m not picky, just as long as something is chosen. \-- [LionKimbro](LionKimbro) 2005-01-25 04:53:53
 
-What\'s the matter with server_close()? I can call the method, but it is undocumented (see [http://docs.python.org/lib/node634.html](http://docs.python.org/lib/node634.html){.http}). Could someone knowledgable either remove the calls, or add a comment why they\'re necessary? Thanks. \-- Anonymous Coward, 23 Oct 2007
-::::::::
+What\'s the matter with server_close()? I can call the method, but it is undocumented (see [http://docs.python.org/lib/node634.html](http://docs.python.org/lib/node634.html)). Could someone knowledgable either remove the calls, or add a comment why they\'re necessary? Thanks. \-- Anonymous Coward, 23 Oct 2007

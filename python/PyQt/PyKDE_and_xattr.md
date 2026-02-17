@@ -1,6 +1,11 @@
 # PyQt/PyKDE_and_xattr
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Disclaimer: This tutorial is unfinished.
 
 This tutorial will help you write a simple, but quite useful script. The resulting script can be used either on the command line, or as a servicemenu extension to konqueror.
@@ -9,15 +14,15 @@ We will start with some import statements. The first line signifies that this fi
 
     import os, sys
 
-In order to make use of this script you must have user_xattr support on your filesystem. General info about extended attributes available here. [http://acl.bestbits.at/](http://acl.bestbits.at/){.http} A good article explaining how to enable user_xattr support on your filesystem, as well as some examples on how to use them is here. [http://enterprise.linux.com/article.pl?sid=05/06/13/1352241](http://enterprise.linux.com/article.pl?sid=05/06/13/1352241){.http}
+In order to make use of this script you must have user_xattr support on your filesystem. General info about extended attributes available here. [http://acl.bestbits.at/](http://acl.bestbits.at/) A good article explaining how to enable user_xattr support on your filesystem, as well as some examples on how to use them is here. [http://enterprise.linux.com/article.pl?sid=05/06/13/1352241](http://enterprise.linux.com/article.pl?sid=05/06/13/1352241)
 
-The xattr extension is needed for this example can be found here [http://cheeseshop.python.org/pypi/xattr](http://cheeseshop.python.org/pypi/xattr){.http} or here [http://undefined.org/python/#xattr](http://undefined.org/python/#xattr){.http}.
+The xattr extension is needed for this example can be found here [http://cheeseshop.python.org/pypi/xattr](http://cheeseshop.python.org/pypi/xattr) or here [http://undefined.org/python/#xattr](http://undefined.org/python/#xattr).
 
 If you are using debian, you can apt-get install python-xattr .
 
     from xattr import xattr
 
-The KTextBrowser class has limited HTML support which is real handy, because you can make some pretty displays. In order to ease the creation of HTML source for the textbrowser, I recommend using forgetHTML, which can be found here. [http://forgethtml.sourceforge.net/](http://forgethtml.sourceforge.net/){.http}
+The KTextBrowser class has limited HTML support which is real handy, because you can make some pretty displays. In order to ease the creation of HTML source for the textbrowser, I recommend using forgetHTML, which can be found here. [http://forgethtml.sourceforge.net/](http://forgethtml.sourceforge.net/)
 
 If you are using debian, you can apt-get install python-forgethtml .
 
@@ -126,7 +131,7 @@ Next, we make a document class to hold the table we just defined.
             self.maintable = XattrTable(class_='XattrTable')
             self.body.set(self.maintable)
 
-Continuing with the [BaseDocument](./BaseDocument.html){.nonexistent} class, we define a method for setting the filename. We use xattr to read the extended attributes for that file, and display them in a table.
+Continuing with the [BaseDocument](./BaseDocument.html) class, we define a method for setting the filename. We use xattr to read the extended attributes for that file, and display them in a table.
 
         def set_filename(self, filename):
             fullpath = os.path.join(self.dirname, filename)
@@ -227,7 +232,7 @@ I decided to go ahead and define the KMainWindow class here. In the attached scr
                 else:
                     self.filelist.append(os.path.basename(afile))
 
-Here in the [init]{.u} method, we setup the main attributes for the class. The dirname attribute is not strictly necessary, nor is the requirement for all files in the filelist to be in the same directory. This has basically been done to keep the interface from being confusing and the tutorial shorter. It would probably make a good second tutorial to expand this script to use files in different directories, or even a small filesystem browser. Since we want to keep things simple and bug free (hopefully), we will endure this small limitation. Note that if files from different directories are passed as arguments, and error is raised and the script is exited. There is no real python error raised, but a KMessageBox.error, followed by a non-zero sys.exit.
+Here in the [init] method, we setup the main attributes for the class. The dirname attribute is not strictly necessary, nor is the requirement for all files in the filelist to be in the same directory. This has basically been done to keep the interface from being confusing and the tutorial shorter. It would probably make a good second tutorial to expand this script to use files in different directories, or even a small filesystem browser. Since we want to keep things simple and bug free (hopefully), we will endure this small limitation. Note that if files from different directories are passed as arguments, and error is raised and the script is exited. There is no real python error raised, but a KMessageBox.error, followed by a non-zero sys.exit.
 
 Also note that we call the initActions and initMenus methods here. These methods don\'t have to have these particular names, but the method to initialize the actions must be called before the method to initialize the menus. I will detail why, when we get to those methods.
 
@@ -248,7 +253,7 @@ Also note that we call the initActions and initMenus methods here. These methods
             # place text browser in splitter
             self.textView = XattrBrowser(self.splitView)
 
-Continuing in the [init]{.u} method, we add a QSplitter (called splitView) to the window. We plan to have the filelist displayed on the left side of the splitter and the textbrowser on the right side. The order the listview and textbrowser classes are initialized in determine where they go. They are placed in a left to right fashion, top to bottom for a horizontal splitter. After we initialize the listview, we connect its \"selectionChanged\" signal to the selectionChanged method to handle that event. The method doesn\'t have to be named \"selectionChanged\", but the actual signal does. Notice that the listview is only created if there is more than one file in the filelist.
+Continuing in the [init] method, we add a QSplitter (called splitView) to the window. We plan to have the filelist displayed on the left side of the splitter and the textbrowser on the right side. The order the listview and textbrowser classes are initialized in determine where they go. They are placed in a left to right fashion, top to bottom for a horizontal splitter. After we initialize the listview, we connect its \"selectionChanged\" signal to the selectionChanged method to handle that event. The method doesn\'t have to be named \"selectionChanged\", but the actual signal does. Notice that the listview is only created if there is more than one file in the filelist.
 
 Now that we have defined all of the widgets, it\'s time to set the main widget. In the KMainWindow class, this method is called \"setCentralWidget\". We set this to be the QSplitter defined above. After that, we do a quick hack to handle the possibility of only having one file to manipulate. There is no real need for a listview with only one item, so we skipped creating it above. Since we already know which file is \"selected\" because there is only one, we go ahead and set the textbrowser to that file.
 
@@ -258,7 +263,7 @@ Now that we have defined all of the widgets, it\'s time to set the main widget. 
             if len(self.filelist) == 1:
                 self.textView.setFileName(self.filelist[0])
 
-Now we are ready for the initActions and initMenus methods that were called above. Strictly speaking, I could have just put these in the [init]{.u} method. It would have probably made a better tutorial, but in practice it is better to have these types of initializations outside of [init]{.u}, as it makes the code easier to read and maintain.
+Now we are ready for the initActions and initMenus methods that were called above. Strictly speaking, I could have just put these in the [init] method. It would have probably made a better tutorial, but in practice it is better to have these types of initializations outside of [init], as it makes the code easier to read and maintain.
 
 The self.actionCollection call returns a KActionCollection object. This is a set of all of the actions for the main window. At this time it is empty, so we will start filling it with actions. An action (or KAction object) is a structure that holds a name, icon, tooltip, keyboard shortcut, and short help text for a gui function. For instance, if you want a menu item that opens a file, you make a KAction object that contains the menu text \"Open a file\", an icon (probably called \"fileopen\"), a shorcut (probably Ctrl-O). Now that you made this action, you can put it in the menu. You can also put it in a toolbar, or a right-click popup menu. Doing this for many actions saves time in writing separate code for the menus and toolbar. It is also helpful that KDE comes with several common actions predefined. These are all held in the KStdAction enumerator. The above example for \"Open a file\" would be called KStdAction.open . So instead of calling KAction(text, icon, shortcut, parent, slot, actionCollection), you only have to call KStdAction.open(parent, slot, actionCollection), the text and icon are already predefined. In this script, we are only using the \"quit\" action.
 
@@ -449,4 +454,3 @@ Now that we filled the actionCollection with our actions (only one in this examp
     # cut and paste between the lines, remove the comments
     # and put the contents in a file name pykde-edit-xattrs.desktop
     # the desktop file should be placed in ~/.kde/share/apps/konqueror/servicemenus
-:::

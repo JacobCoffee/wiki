@@ -1,7 +1,12 @@
 # PyCon2006/VenueDiscussion
 
-::: {#content dir="ltr" lang="en"}
-# Requirements: Discussion {#Requirements:_Discussion}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Requirements: Discussion 
 
 - Low-cost, so that [PyCon](PyCon) will continue to make money. If the venue cost is going to rise dramatically, then it would be better to limit attendance to [PyCon](PyCon).
 
@@ -25,9 +30,9 @@
 
       elkner
 
-- *Orlando, Florida, US has bazillions of hotels and conference-able locations. In the non-tourist season, I suspect such can be had for relatively little cost. As I live nearby, I and a few Pythonistas I know may be able to help arrange something. \--[ChadMiller](./ChadMiller.html){.nonexistent}*
+- *Orlando, Florida, US has bazillions of hotels and conference-able locations. In the non-tourist season, I suspect such can be had for relatively little cost. As I live nearby, I and a few Pythonistas I know may be able to help arrange something. \--[ChadMiller](./ChadMiller.html)*
 
-# Other Related Events and Questions {#Other_Related_Events_and_Questions}
+# Other Related Events and Questions 
 
 - OSCON will likely stay on the West coast though this might be the last year for Portland.
 
@@ -38,4 +43,3 @@
 ------------------------------------------------------------------------
 
 [CategoryPyConPlanning](CategoryPyConPlanning)
-:::

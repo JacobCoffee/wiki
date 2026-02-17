@@ -1,7 +1,12 @@
 # ProjectsForLearning
 
-::: {#content dir="ltr" lang="en"}
-# Suggested Projects for Learning Python {#Suggested_Projects_for_Learning_Python}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Suggested Projects for Learning Python 
 
 Programming for many is a means not an end. Here are collected possible projects for those new to programming, with some indicator of difficulty, and for which it is known that the building blocks exist in the [LearningRepertoire](LearningRepertoire). These should be concrete problems, not abstract ones.
 
@@ -21,7 +26,7 @@ Programming for many is a means not an end. Here are collected possible projects
 
 ------------------------------------------------------------------------
 
-\"When I get an email from person X, I want the [TuxDroid](./TuxDroid.html){.nonexistent} to signal this, every 15-minutes, until I read the message.\"
+\"When I get an email from person X, I want the [TuxDroid](./TuxDroid.html) to signal this, every 15-minutes, until I read the message.\"
 
 ------------------------------------------------------------------------
 
@@ -33,11 +38,11 @@ Programming for many is a means not an end. Here are collected possible projects
 
 ------------------------------------------------------------------------
 
-\"I want to set up a collection of [voting algorithms](http://en.wikipedia.org/wiki/Voting_system){.http} and run voting distributions through them to see how they compare. And I\'d like to graph the results.\"
+\"I want to set up a collection of [voting algorithms](http://en.wikipedia.org/wiki/Voting_system) and run voting distributions through them to see how they compare. And I\'d like to graph the results.\"
 
 ------------------------------------------------------------------------
 
-You can find more ideas at [http://www.uselesspython.com/](http://www.uselesspython.com/){.http}
+You can find more ideas at [http://www.uselesspython.com/](http://www.uselesspython.com/)
 
 ------------------------------------------------------------------------
 
@@ -58,4 +63,3 @@ You can find more ideas at [http://www.uselesspython.com/](http://www.uselesspyt
 ------------------------------------------------------------------------
 
 \"I want to be reminded to water my plants/return books to the library/give my cats shots.\"
-:::

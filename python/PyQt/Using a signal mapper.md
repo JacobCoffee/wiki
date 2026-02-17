@@ -1,15 +1,20 @@
 # PyQt/Using a signal mapper
 
-::::: {#content dir="ltr" lang="en"}
-# Using a signal mapper {#Using_a_signal_mapper}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Using a signal mapper 
 
 On the `#pyqt`{.backtick} channel on Freenode, `lauri`{.backtick} asked about connecting identically-named signals with different parameters from QSignalMapper to slots.
 
 The following example uses old-style signals and slots connections to explicitly specify the signals to be connected to slots in a Python subclass of QWidget.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-50c869e812586911e925a9a86aaa45653b91fe0f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import *
    3 from PyQt4.QtGui import *
@@ -55,4 +60,3 @@ The following example uses old-style signals and slots connections to explicitly
 ```
 :::
 ::::
-:::::

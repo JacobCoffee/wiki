@@ -1,44 +1,34 @@
 # WikiGuidelines
 
-:::: {#content dir="ltr" lang="en"}
-# Wiki Editing Guidelines {#Wiki_Editing_Guidelines}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Wiki Editing Guidelines 
 
 We have these guidelines to keep things relatively organised and easy to find. Generally, when there\'s no content on a topic, it\'s better to put *something* in and let others correct it, but make sure to check what other people have written first.
 
-::: table-of-contents
-Contents
-
-1.  [Wiki Editing Guidelines](#Wiki_Editing_Guidelines)
-    1.  [Creating an Account](#Creating_an_Account)
-    2.  [Creating Pages](#Creating_Pages)
-    3.  [Editing Protected Pages](#Editing_Protected_Pages)
-    4.  [Creating a Home Page](#Creating_a_Home_Page)
-    5.  [Writing Pages](#Writing_Pages)
-        1.  [Linking](#Linking)
-            1.  [Broken Links](#Broken_Links)
-        2.  [Attachments](#Attachments)
-    6.  [Etiquette](#Etiquette)
-:::
-
-## Creating an Account {#Creating_an_Account}
+## Creating an Account 
 
 Before you edit the Wiki you will need to create an account. We ask you to do this so that your contributions can be acknowledged and so that your valuable changes are more easily distinguishable from the spam and vandalism that so often arise when people are not required to provide some kind of identity.
 
 Remember that you can always log in via OpenID. When you do so for the first time, you will be asked to enter a username in order to create an account and to associate your OpenID with that account. (If you already have an account, you will be able to enter a username to associate it with that existing account.)
 
-## Creating Pages {#Creating_Pages}
+## Creating Pages 
 
-- Before adding a new page, [check](http://wiki.python.org/moin/FindPage){.http} if there isn\'t already a page for that topic.
+- Before adding a new page, [check](http://wiki.python.org/moin/FindPage) if there isn\'t already a page for that topic.
 
 - By all means choose a [WikiName](WikiName) as a page name. Most pages on this Wiki use this style.
 
 - *Do not* change the names of things to \"force\" a [WikiName](WikiName). For example, JEdit is not a [WikiName](WikiName), but this does not mean that you should somehow make it one by changing letters and making, say, JedIt. Instead just create a page and then use the [link syntax](HelpOnLinking) (for example, `[[JEdit]]`{.backtick}) to refer to the page.
 
-## Editing Protected Pages {#Editing_Protected_Pages}
+## Editing Protected Pages 
 
 - If you see something that needs to be changed, but you don\'t have permission, send a mail to `<pydotorg-www AT python DOT org>`. Unfortunately, any Wiki editable by the general public has to lock down some pages from time to time.
 
-## Creating a Home Page {#Creating_a_Home_Page}
+## Creating a Home Page 
 
 - If you want to create your own \"homepage\" on the Wiki, please only do so if you\'re providing or promoting Python-related content or if you have signed your name on another page (and want others to be able to contact you).
 
@@ -46,7 +36,7 @@ Remember that you can always log in via OpenID. When you do so for the first tim
 
 - Try to mention **something** about your relationship to Python on your homepage. Something like, \"I maintain the WhoSeeWhatsIt Python wrapper\" or, \"I offer Python consulting services\" would be more than sufficient. If you are just a Python fanboy (or fangirl), something like, \"Isn\'t Python the greatest language since C?\" would also be fine. If all the moderators see is an email address your page is likely to be summarily deleted. We don\'t have time to spend searching for your name and/or email elsewhere on the Wiki or in the broader Python community.
 
-## Writing Pages {#Writing_Pages}
+## Writing Pages 
 
 - Please structure long pages to sections (learn to use `== headings ==`{.backtick}). Also consider using the `<<TableOfContents>>`{.backtick} macro.
 
@@ -60,9 +50,9 @@ Remember that you can always log in via OpenID. When you do so for the first tim
 
 - Take advantage of this Wiki\'s ability to format and colour Python source code - it is easier to read than a simple, plain monochrome section. An example:
 
-  :::: {.highlight .python}
-  ::: {.codearea dir="ltr" lang="en"}
-  ``` {#CA-804a356ada7030ea07bc319748161ee156e0b98b dir="ltr" lang="en"}
+  :::: 
+  ::: 
+  ``` 
      1 from hello import world
      2 
      3 def say_hello():
@@ -80,31 +70,31 @@ Remember that you can always log in via OpenID. When you do so for the first tim
 
   Use `numbers=disable`{.backtick} after the language declaration (such as `#!python`{.backtick}) to remove line numbering.
 
-### Linking {#Linking}
+### Linking 
 
 - Although a [WikiName](WikiName) will link to another page, don\'t be afraid of using the [link syntax](HelpOnLinking) to link to, say, the [FrontPage](FrontPage) by writing `[[FrontPage|front page]]`{.backtick} instead, thus producing a link to the [front page](FrontPage) like this.
 
-- Use the `Issue:7942`{.backtick} syntax to refer to issues in the Python bug tracker. For example, here is an issue: [7942](http://bugs.python.org/issue7942 "Issue"){.interwiki}.
+- Use the `Issue:7942`{.backtick} syntax to refer to issues in the Python bug tracker. For example, here is an issue: [7942](http://bugs.python.org/issue7942 "Issue").
 
-- Use the `PEP:0001`{.backtick} syntax to refer to PEPs. For example, here is a PEP: [0001](http://www.python.org/dev/peps/pep-0001 "PEP"){.interwiki}.
+- Use the `PEP:0001`{.backtick} syntax to refer to PEPs. For example, here is a PEP: [0001](http://www.python.org/dev/peps/pep-0001 "PEP").
 
 - If a link is broken on a page, try to determine whether it is temporarily broken or whether the resource really has gone away forever. For permanently broken links, follow the instructions below.
 
 - *Do not use link shortening services for links!* You are not limited to 160 characters (or whatever) here, and there is no benefit to using a shortened URL that has to be redirected by some third-party service to take the user to the real URL. Using shortened links exposes users to potentially dubious redirection sites and also obscures the nature of the eventual URL which may also be a dubious site itself. Moreover, obscuring the real URL makes decisions about updating links and archiving content much harder.
 
-#### Broken Links {#Broken_Links}
+#### Broken Links 
 
-- If the link pointed to a specific resource for which a substitute does not really exist, try putting the URL into the [Web Archive](http://web.archive.org/){.http}, finding the latest usable version, and then replacing the link in the page with that version or a link to the choice of versions that the Web Archive provides. You might want to add something like \"(archived link)\" to show that the resource is no longer \"live\".
+- If the link pointed to a specific resource for which a substitute does not really exist, try putting the URL into the [Web Archive](http://web.archive.org/), finding the latest usable version, and then replacing the link in the page with that version or a link to the choice of versions that the Web Archive provides. You might want to add something like \"(archived link)\" to show that the resource is no longer \"live\".
 
 - If the link pointed to a resource that has moved - perhaps it was maintained by one company but is now maintained by another - you might update it to point to the new home of that resource.
 
-- If the link referred to a description of a topic, consider using Wikipedia or another stable, well-known resource as a replacement. For example, a replacement for a link to a definition of Python could be `[[WikiPedia:Python (programming language)]]`{.backtick} producing [Python (programming language)](http://www.wikipedia.com/wiki/Python%20%28programming%20language%29 "WikiPedia"){.interwiki} and would probably serve the intended purpose.
+- If the link referred to a description of a topic, consider using Wikipedia or another stable, well-known resource as a replacement. For example, a replacement for a link to a definition of Python could be `[[WikiPedia:Python (programming language)]]`{.backtick} producing [Python (programming language)](http://www.wikipedia.com/wiki/Python%20%28programming%20language%29 "WikiPedia") and would probably serve the intended purpose.
 
-### Attachments {#Attachments}
+### Attachments 
 
 - Do not upload attachments without referencing them in the page they are attached to (or in some other obviously connected page). Unclaimed attachments will be deleted!
 
-## Etiquette {#Etiquette}
+## Etiquette 
 
 When editing existing pages, the following guidelines are proposed:
 
@@ -121,4 +111,3 @@ When editing existing pages, the following guidelines are proposed:
 ------------------------------------------------------------------------
 
 [CategoryPythonWebsite](CategoryPythonWebsite)
-::::

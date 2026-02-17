@@ -1,7 +1,12 @@
 # MacPython/FileMakerProSixTerminology
 
-:::: {#content dir="ltr" lang="en"}
-*([FileMaker](./FileMaker.html){.nonexistent} Pro.app terminology, generated from /Applications/Development/FileMaker Pro 6/FileMaker Pro.app)*
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+*([FileMaker](./FileMaker.html) Pro.app terminology, generated from /Applications/Development/FileMaker Pro 6/FileMaker Pro.app)*
 
 ::: {}
   -------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -11,22 +16,22 @@
   -------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-## URL Suite {#URL_Suite}
+## URL Suite 
 
 Standard Suite for Uniform Resource Locators
 
-### Commands {#Commands}
+### Commands 
 
-- **application.getURL(\...)** \-- Open a [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} Pro database using a URL specification\
+- **application.getURL(\...)** \-- Open a [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) Pro database using a URL specification\
 
-  - *Text* \-- The URL specification for the [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} Pro database in the form \"FMP5://\[host\]/filename\"\
+  - *Text* \-- The URL specification for the [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) Pro database in the form \"FMP5://\[host\]/filename\"\
     Result: *None*
 
-## Subset of the Core, Table, and Database suites {#Subset_of_the_Core.2C_Table.2C_and_Database_suites}
+## Subset of the Core, Table, and Database suites 
 
 Subset of Events supported by other Applications
 
-### Commands {#Commands-1}
+### Commands 
 
 - **application.begin_transaction()** \-- Begin a transaction\
 
@@ -35,8 +40,8 @@ Subset of Events supported by other Applications
   **application.class_info(\...)** \-- Get information about an object class\
 
   - \[*Type*\] \-- The object class about which information is requested\
-    \[**in\_**=*[IntlWritingCode](./IntlWritingCode.html){.nonexistent}*\] \-- The human language and script system in which to return information\
-    Result: *[ClassInfo](./ClassInfo.html){.nonexistent}* \-- A record containing the object&#8217;s properties and elements
+    \[**in\_**=*[IntlWritingCode](./IntlWritingCode.html)*\] \-- The human language and script system in which to return information\
+    Result: *[ClassInfo](./ClassInfo.html)* \-- A record containing the object&#8217;s properties and elements
 
   **reference.close()** \-- Close an object\
 
@@ -54,10 +59,10 @@ Subset of Events supported by other Applications
   **application.create(\...)** \-- Create a new element\
 
   - **new**=*Type* \-- The class of the new element\
-    \[**at**=*[InsertionLoc](./InsertionLoc.html){.nonexistent}*\] \-- The location at which to insert the element\
+    \[**at**=*[InsertionLoc](./InsertionLoc.html)*\] \-- The location at which to insert the element\
     \[**with_data**=*Anything*\] \-- The initial data for the element\
     \[**with_properties**=*AERecord*\] \-- The initial data for the properties of the element\
-    Result: *[ObjectSpecifier](./ObjectSpecifier.html){.nonexistent}* \-- To the new object(s)
+    Result: *[ObjectSpecifier](./ObjectSpecifier.html)* \-- To the new object(s)
 
   **application.cut()** \-- Cut an object to the clipboard\
 
@@ -80,13 +85,13 @@ Subset of Events supported by other Applications
 
   **application.do_script(\...)** \-- Execute a script\
 
-  - *Text* \-- The name or specifier of the [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} script to be executed\
+  - *Text* \-- The name or specifier of the [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) script to be executed\
     Result: *Anything* \-- The result of the Script
 
   **reference.duplicate(\...)** \-- Duplicate an object\
 
-  - \[**to**=*[InsertionLoc](./InsertionLoc.html){.nonexistent}*\] \-- The new location for the object\
-    Result: *[ObjectSpecifier](./ObjectSpecifier.html){.nonexistent}* \-- To the duplicated object(s)
+  - \[**to**=*[InsertionLoc](./InsertionLoc.html)*\] \-- The new location for the object\
+    Result: *[ObjectSpecifier](./ObjectSpecifier.html)* \-- To the duplicated object(s)
 
   **application.end_transaction()** \-- End a transaction\
 
@@ -95,8 +100,8 @@ Subset of Events supported by other Applications
   **application.event_info(\...)** \-- Get information about the Apple events in a suite\
 
   - *Type* \-- The event class of the Apple events for which to return information\
-    \[**in\_**=*[IntlWritingCode](./IntlWritingCode.html){.nonexistent}*\] \-- The human language and script system in which to return information\
-    Result: *list of [EventInfo](./EventInfo.html){.nonexistent}* \-- A record containing the events and their parameters
+    \[**in\_**=*[IntlWritingCode](./IntlWritingCode.html)*\] \-- The human language and script system in which to return information\
+    Result: *list of [EventInfo](./EventInfo.html)* \-- A record containing the events and their parameters
 
   **reference.exists()** \-- Tell if an object exists\
 
@@ -143,7 +148,7 @@ Subset of Events supported by other Applications
 
   **reference.sort(\...)** \-- Sort the records in a layout\
 
-  - \[**by**=*[ObjectSpecifier](./ObjectSpecifier.html){.nonexistent}*\] \-- The fields to sort by\
+  - \[**by**=*[ObjectSpecifier](./ObjectSpecifier.html)*\] \-- The fields to sort by\
     \[**in_order**=*k.ascending \| k.descending \| k.custom*\] \-- The sort type\
     Result: *None*
 
@@ -151,7 +156,7 @@ Subset of Events supported by other Applications
 
   - Result: *None*
 
-### Classes {#Classes}
+### Classes 
 
 - **application** \-- The application
 
@@ -160,7 +165,7 @@ Subset of Events supported by other Applications
       **class\_** (r/o) *Type* \-- The class\
       **default_type** (r/o) *Type* \-- The default descriptor type\
       **frontmost** (r/o) *Boolean* \-- Is this the frontmost application?\
-      **name** (r/o) *[IntlText](./IntlText.html){.nonexistent}* \-- The name of the application\
+      **name** (r/o) *[IntlText](./IntlText.html)* \-- The name of the application\
       **version** (r/o) *Version* \-- The version of the application\
 
     Elements:
@@ -168,13 +173,13 @@ Subset of Events supported by other Applications
       **[windows](./MacPython(2f)FileMakerProSixTerminology.html#class_window)** \-- *index \| name*\
       **[menus](./MacPython(2f)FileMakerProSixTerminology.html#class_menu)** \-- *name \| index*\
 
-  **window** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} Pro document window
+  **window** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) Pro document window
 
   - Properties:
     - **best_type** (r/o) *Type* \-- The best descriptor type\
       **class\_** (r/o) *Type* \-- The class\
       **default_type** (r/o) *Type* \-- The default descriptor type\
-      **name** (r/o) *[IntlText](./IntlText.html){.nonexistent}* \-- The name of the window\
+      **name** (r/o) *[IntlText](./IntlText.html)* \-- The name of the window\
       **bounds** *QDRectangle* \-- The bounding rectangle of the window\
       **visible** *Boolean* \-- Is the window visible?\
       **index** (r/o) *SInt32* \-- The number of the window\
@@ -191,13 +196,13 @@ Subset of Events supported by other Applications
       **[FileMaker_scripts](./MacPython(2f)FileMakerProSixTerminology.html#class_FileMaker_script)** \-- *name \| index \| relative \| range \| test \| id*\
       **[databases](./MacPython(2f)FileMakerProSixTerminology.html#class_database)** \-- *name \| index*\
 
-  **document** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} Pro document
+  **document** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) Pro document
 
   - Properties:
     - **best_type** (r/o) *Type* \-- The best descriptor type\
       **class\_** (r/o) *Type* \-- The class\
       **default_type** (r/o) *Type* \-- The default descriptor type\
-      **name** (r/o) *[IntlText](./IntlText.html){.nonexistent}* \-- The name of the document\
+      **name** (r/o) *[IntlText](./IntlText.html)* \-- The name of the document\
       **modified** (r/o) *Boolean* \-- True if the document has been modified\
 
     Elements:
@@ -205,16 +210,16 @@ Subset of Events supported by other Applications
       **[databases](./MacPython(2f)FileMakerProSixTerminology.html#class_database)** \-- *name \| index*\
       **[FileMaker_scripts](./MacPython(2f)FileMakerProSixTerminology.html#class_FileMaker_script)** \-- *name \| index \| relative \| range \| test \| id*\
 
-  **database** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} Pro database
+  **database** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) Pro database
 
   - Properties:
     - **best_type** (r/o) *Type* \-- The best descriptor type\
       **class\_** (r/o) *Type* \-- The class\
       **default_type** (r/o) *Type* \-- The default descriptor type\
-      **name** (r/o) *[IntlText](./IntlText.html){.nonexistent}* \-- The name of the database\
+      **name** (r/o) *[IntlText](./IntlText.html)* \-- The name of the database\
       **lock** (r/o) *k.unlocked \| k.shared_lock \| k.exclusive_lock* \-- The current session\'s lock on the database\
-      **current_layout** *[ObjectSpecifier](./ObjectSpecifier.html){.nonexistent}* \-- The current layout\
-      **current_record** *[ObjectSpecifier](./ObjectSpecifier.html){.nonexistent}* \-- The current record\
+      **current_layout** *[ObjectSpecifier](./ObjectSpecifier.html)* \-- The current layout\
+      **current_record** *[ObjectSpecifier](./ObjectSpecifier.html)* \-- The current record\
       **access** (r/o) *k.no_access \| k.read \| k.write \| k.update \| k.create \| k.delete \| k.read_write \| k.read_update \| k.read_create \| k.read_delete \| k.write_update \| k.write_create \| k.write_delete \| k.update_create \| k.update_delete \| k.write_delete \| k.read_write_update \| k.read_write_create \| k.read_write_delete \| k.write_update_create \| k.write_update_delete \| k.update_create_delete \| k.read_create_delete \| k.read_update_delete \| k.write_create_delete \| k.read_update_create \| k.no_delete \| k.no_create \| k.no_update \| k.no_read \| k.no_write \| k.full* \-- The access privileges\
       **multiuser** *Boolean* \-- If true, users have access to the database over the network\
 
@@ -222,27 +227,27 @@ Subset of Events supported by other Applications
     - **[layouts](./MacPython(2f)FileMakerProSixTerminology.html#class_layout)** \-- *name \| index \| relative \| range \| test \| id*\
       **[FileMaker_scripts](./MacPython(2f)FileMakerProSixTerminology.html#class_FileMaker_script)** \-- *name \| index \| relative \| range \| test \| id*\
 
-  **[FileMaker](./FileMaker.html){.nonexistent}\_script** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} script
+  **[FileMaker](./FileMaker.html)\_script** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) script
 
   - Properties:
     - **best_type** (r/o) *Type* \-- The best descriptor type\
       **class\_** (r/o) *Type* \-- The class\
       **default_type** (r/o) *Type* \-- The default descriptor type\
-      **name** (r/o) *[IntlText](./IntlText.html){.nonexistent}* \-- The name of the [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} Script\
-      **ID** (r/o) *[LongFloat](./LongFloat.html){.nonexistent}* \-- The unique ID of the [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} Script\
+      **name** (r/o) *[IntlText](./IntlText.html)* \-- The name of the [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) Script\
+      **ID** (r/o) *[LongFloat](./LongFloat.html)* \-- The unique ID of the [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) Script\
 
-  **layout** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} Pro layout
+  **layout** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) Pro layout
 
   - Properties:
     - **best_type** (r/o) *Type* \-- The best descriptor type\
       **class\_** (r/o) *Type* \-- The class\
       **default_type** (r/o) *Type* \-- The default descriptor type\
-      **name** (r/o) *[IntlText](./IntlText.html){.nonexistent}* \-- The name of the layout\
-      **ID** (r/o) *[LongFloat](./LongFloat.html){.nonexistent}* \-- The unique ID of the layout\
+      **name** (r/o) *[IntlText](./IntlText.html)* \-- The name of the layout\
+      **ID** (r/o) *[LongFloat](./LongFloat.html)* \-- The unique ID of the layout\
       **access** (r/o) *k.no_access \| k.read \| k.write \| k.update \| k.create \| k.delete \| k.read_write \| k.read_update \| k.read_create \| k.read_delete \| k.write_update \| k.write_create \| k.write_delete \| k.update_create \| k.update_delete \| k.write_delete \| k.read_write_update \| k.read_write_create \| k.read_write_delete \| k.write_update_create \| k.write_update_delete \| k.update_create_delete \| k.read_create_delete \| k.read_update_delete \| k.write_create_delete \| k.read_update_create \| k.no_delete \| k.no_create \| k.no_update \| k.no_read \| k.no_write \| k.full* \-- The access privileges of the layout\
       **protection** (r/o) *k.read_only \| k.formulas_protected \| k.read_write* \-- Indicates whether the formulas of the cells in the layout can be changed\
       **lock** (r/o) *k.unlocked \| k.shared_lock \| k.exclusive_lock* \-- The lock on the layout\
-      **kind** (r/o) *k.table \| k.view* \-- The kind of layout (View = [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} Pro layout, table = all fields i.e. layout 0)\
+      **kind** (r/o) *k.table \| k.view* \-- The kind of layout (View = [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) Pro layout, table = all fields i.e. layout 0)\
       **visible** (r/o) *Boolean* \-- Is the layout visible in the layouts menu?\
 
     Elements:
@@ -251,7 +256,7 @@ Subset of Events supported by other Applications
       **[cells](./MacPython(2f)FileMakerProSixTerminology.html#class_cell)** \-- *name \| index \| relative \| range \| test \| id*\
       **[requests](./MacPython(2f)FileMakerProSixTerminology.html#class_request)** \-- *name \| index \| relative \| range \| test \| id*\
 
-  **field** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} Pro field
+  **field** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) Pro field
 
   - Properties:
     - **best_type** (r/o) *Type* \-- The best descriptor type\
@@ -260,7 +265,7 @@ Subset of Events supported by other Applications
       **choices** (r/o) *AEList* \-- The value list for the field\
       **access** (r/o) *k.no_access \| k.read \| k.write \| k.update \| k.create \| k.delete \| k.read_write \| k.read_update \| k.read_create \| k.read_delete \| k.write_update \| k.write_create \| k.write_delete \| k.update_create \| k.update_delete \| k.write_delete \| k.read_write_update \| k.read_write_create \| k.read_write_delete \| k.write_update_create \| k.write_update_delete \| k.update_create_delete \| k.read_create_delete \| k.read_update_delete \| k.write_create_delete \| k.read_update_create \| k.no_delete \| k.no_create \| k.no_update \| k.no_read \| k.no_write \| k.full* \-- The access privileges for the field\
       **formula** (r/o) *Text* \-- The field\'s calculation formula\
-      **ID** (r/o) *[LongFloat](./LongFloat.html){.nonexistent}* \-- The unique ID of the field\
+      **ID** (r/o) *[LongFloat](./LongFloat.html)* \-- The unique ID of the field\
       **lock** (r/o) *k.unlocked \| k.shared_lock \| k.exclusive_lock* \-- The lock status of the field\
       **name** (r/o) *Text* \-- The name of the field\
       **nulls_OK** (r/o) *Boolean* \-- Is this field allowed to be empty?\
@@ -273,14 +278,14 @@ Subset of Events supported by other Applications
     Elements:
     - **[cells](./MacPython(2f)FileMakerProSixTerminology.html#class_cell)** \-- *name \| index \| relative \| range \| test \| id*\
 
-  **record** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} Pro record
+  **record** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) Pro record
 
   - Properties:
     - **best_type** (r/o) *Type* \-- The best descriptor type\
       **class\_** (r/o) *Type* \-- The class\
       **default_type** (r/o) *Type* \-- The default descriptor type\
-      **name** (r/o) *[IntlText](./IntlText.html){.nonexistent}* \-- The name of the record\
-      **ID** (r/o) *[LongFloat](./LongFloat.html){.nonexistent}* \-- The unique ID of the record\
+      **name** (r/o) *[IntlText](./IntlText.html)* \-- The name of the record\
+      **ID** (r/o) *[LongFloat](./LongFloat.html)* \-- The unique ID of the record\
       **lock** (r/o) *k.unlocked \| k.shared_lock \| k.exclusive_lock* \-- The lock for the record\
       **protection** (r/o) *k.read_only \| k.formulas_protected \| k.read_write* \-- Indicates whether the formulas of the cells in the record can be changed\
       **access** (r/o) *k.no_access \| k.read \| k.write \| k.update \| k.create \| k.delete \| k.read_write \| k.read_update \| k.read_create \| k.read_delete \| k.write_update \| k.write_create \| k.write_delete \| k.update_create \| k.update_delete \| k.write_delete \| k.read_write_update \| k.read_write_create \| k.read_write_delete \| k.write_update_create \| k.write_update_delete \| k.update_create_delete \| k.read_create_delete \| k.read_update_delete \| k.write_create_delete \| k.read_update_create \| k.no_delete \| k.no_create \| k.no_update \| k.no_read \| k.no_write \| k.full* \-- Indicates the access privileges for the record\
@@ -304,34 +309,34 @@ Subset of Events supported by other Applications
       **repeat_size** (r/o) *SInt32* \-- Number of repetitions of the cell\
       **globalValue** (r/o) *Boolean* \-- Is this cell a global cell?\
 
-## /FileMaker Suite {#A.2FFileMaker_Suite}
+## /FileMaker Suite 
 
-[FileMaker](./FileMaker.html){.nonexistent} Pro-specific events and objects
+[FileMaker](./FileMaker.html) Pro-specific events and objects
 
-### Commands {#Commands-2}
+### Commands 
 
 - **reference.go_to()** \-- Go to an object\
 
   - Result: *None*
 
-  **reference.find()** \-- Perform a [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} Pro Find given current requests\
+  **reference.find()** \-- Perform a [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) Pro Find given current requests\
 
   - Result: *None*
 
-  **application.get_remote_URL()** \-- Opens a hosted [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} Pro database\
+  **application.get_remote_URL()** \-- Opens a hosted [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) Pro database\
 
   - Result: *Text* \-- The URL specification for the opened database in the form \"FMP5://\[host\]/filename\"
 
-### Classes {#Classes-1}
+### Classes 
 
-- **request** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html){.nonexistent} Pro find request
+- **request** \-- A [/FileMaker](./MacPython(2f)FileMakerProSixTerminology(2f)FileMaker.html) Pro find request
 
   - Properties:
     - **best_type** (r/o) *Type* \-- The best descriptor type\
       **class\_** (r/o) *Type* \-- The class\
       **default_type** (r/o) *Type* \-- The default descriptor type\
-      **name** (r/o) *[IntlText](./IntlText.html){.nonexistent}* \-- The name of the find request\
-      **ID** (r/o) *[LongFloat](./LongFloat.html){.nonexistent}* \-- The unique ID of the find request\
+      **name** (r/o) *[IntlText](./IntlText.html)* \-- The name of the find request\
+      **ID** (r/o) *[LongFloat](./LongFloat.html)* \-- The unique ID of the find request\
       **omitted** *Boolean* \-- True if the request is to be omitted\
 
     Elements:
@@ -343,10 +348,10 @@ Subset of Events supported by other Applications
     - **best_type** (r/o) *Type* \-- The best descriptor type\
       **class\_** (r/o) *Type* \-- The class\
       **default_type** (r/o) *Type* \-- The default descriptor type\
-      **name** *[IntlText](./IntlText.html){.nonexistent}* \-- The name of the menu item\
+      **name** *[IntlText](./IntlText.html)* \-- The name of the menu item\
       **ID** *SInt32* \-- The unique ID of the menu item\
       **enabled** *Boolean* \-- Is the menu item enabled?\
-      **item_number** (r/o) *[ShortInteger](./ShortInteger.html){.nonexistent}* \-- The menu item number\
+      **item_number** (r/o) *[ShortInteger](./ShortInteger.html)* \-- The menu item number\
       **checked** *Boolean* \-- Is the menu item checked?\
       **notify_address** *TargetID* \-- The target ID\
 
@@ -356,11 +361,10 @@ Subset of Events supported by other Applications
     - **best_type** (r/o) *Type* \-- The best descriptor type\
       **class\_** (r/o) *Type* \-- The class\
       **default_type** (r/o) *Type* \-- The default descriptor type\
-      **name** *[IntlText](./IntlText.html){.nonexistent}* \-- The name of the menu\
-      **ID** (r/o) *[ShortInteger](./ShortInteger.html){.nonexistent}* \-- The resource ID of the menu\
+      **name** *[IntlText](./IntlText.html)* \-- The name of the menu\
+      **ID** (r/o) *[ShortInteger](./ShortInteger.html)* \-- The resource ID of the menu\
       **enabled** *Boolean* \-- Is the menu enabled?\
 
     Elements:
     - **[menu_items](./MacPython(2f)FileMakerProSixTerminology.html#class_menu_item)** \-- *index \| name*\
       **[menus](./MacPython(2f)FileMakerProSixTerminology.html#class_menu)** \-- *index \| name*\
-::::

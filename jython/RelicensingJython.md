@@ -1,9 +1,14 @@
 # RelicensingJython
 
-::: {#content dir="ltr" lang="en"}
-From 2.2 forward, Jython is using the PSF license. To use it, all new contributors need to send in the [PSF contribution form](http://www.python.org/psf/contrib/contrib-form/){.http}. The form allows the PSF to relicense the code the contributor has written under its own license, and if the need arises, to change the license in the future; the contributor still retains the copyright for the work. See the [contribution agreement](http://www.python.org/psf/contrib/){.http} page for more detail.
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Contributors {#Contributors}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+From 2.2 forward, Jython is using the PSF license. To use it, all new contributors need to send in the [PSF contribution form](http://www.python.org/psf/contrib/contrib-form/). The form allows the PSF to relicense the code the contributor has written under its own license, and if the need arises, to change the license in the future; the contributor still retains the copyright for the work. See the [contribution agreement](http://www.python.org/psf/contrib/) page for more detail.
+
+## Contributors 
 
 The notation \'(covered)\' next to a name means that the PSF has a contributor agreement on file for the person. \'(emailed)\' means a request has been emailed to them to send in an agreement.
 
@@ -30,4 +35,3 @@ Patches from:
 - Mehendran (emailed December 30 2007)
 - Rajesh Battala (emailed December 30 2007)
 - Travis B. Hartwell (agreed to send in Jan 6 2008)
-:::

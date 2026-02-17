@@ -1,13 +1,18 @@
 # ComputedAttributesUsingPropertyObjects
 
-::: {#content dir="ltr" lang="en"}
-# Computed Attributes, Using Property Objects {#Computed_Attributes.2C_Using_Property_Objects}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Computed Attributes, Using Property Objects 
 
 John Posner
 
 This document describes computed attributes and introduces the easiest way to implement computed attributes in Python: using **property** objects.
 
-## Kinds of Attributes {#Kinds_of_Attributes}
+## Kinds of Attributes 
 
 In Python, an object\'s contents are accessed as **attributes**, using dot-notation. Some attributes provide access to stored data: integers, strings, lists, user- or system-defined objects, etc:
 
@@ -32,9 +37,9 @@ Python also provides a mechanism for blurring the distinction between these stan
 
 The easiest way to implement a computed attribute is with an object of type **property**, introduced in Python 2.2. Depending on the way you access a property object, it dispatches a function to perform either a \"get the value\" operation or a \"set the value\" operation (or even \"delete the attribute\"). You specify the dispatch functions when you create the property object; it\'s up to you to ensure that the work they do makes sense. The following diagram illustrates how a property works.
 
-[py-props.png](attachments/ComputedAttributesUsingPropertyObjects/py-props.png){.attachment}
+[py-props.png](attachments/ComputedAttributesUsingPropertyObjects/py-props.png)
 
-## Creating a Computed Attribute {#Creating_a_Computed_Attribute}
+## Creating a Computed Attribute 
 
 Here\'s a scenario that calls for a computed attribute that implements \"get the value\" and \"set the value\" operations \... To model your company\'s widgets, which come in a variety of colors, you use a class named `Widget`{.backtick}, with instance attribute `color`{.backtick}:
 
@@ -101,13 +106,12 @@ Some coding details:
 
 - When an assignment statement causes the property object to dispatch `set_color`{.backtick}, two arguments are passed to this function: the Widget instance, and the statement\'s right-hand-side value.
 
-## References {#References}
+## References 
 
 We haven\'t finished the story on property objects \-- for example, we haven\'t discussed how to implement a computed attribute that handles the statement `del wgt.color`{.backtick}. But if you\'ve gotten this far, it probably makes sense to switch to the official **property** documentation:
 
-- [http://docs.python.org/library/functions.html#property](http://docs.python.org/library/functions.html#property){.http}
+- [http://docs.python.org/library/functions.html#property](http://docs.python.org/library/functions.html#property)
 
 Or see a revision of the official documentation, at [AlternativeDescriptionOfProperty](AlternativeDescriptionOfProperty).
 
 (Don\'t get fooled \-- as I was! \-- by the classification of **property** in the documentation as a built-in function. **property** is a built-in data type, like **int**. In Python, data types are directly callable, and so look like functions.)
-:::

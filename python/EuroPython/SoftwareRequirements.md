@@ -1,27 +1,32 @@
 # EuroPython/SoftwareRequirements
 
-:::: {#content dir="ltr" lang="en"}
-# EuroPython Conference Software Requirements {#EuroPython_Conference_Software_Requirements}
+```{admonition} Legacy Wiki Page
+:class: note
 
-This page is derived from [PyConPlanning/SoftwareRequirements](./PyConPlanning(2f)SoftwareRequirements.html) but focuses on things that have proven more relevant to [EuroPython](EuroPython). The requirements here do not directly address general conference Web site issues, such as [http://www.europython.org/](http://www.europython.org/){.http} which focuses on the publishing of general information about the conference.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# EuroPython Conference Software Requirements 
+
+This page is derived from [PyConPlanning/SoftwareRequirements](./PyConPlanning(2f)SoftwareRequirements.html) but focuses on things that have proven more relevant to [EuroPython](EuroPython). The requirements here do not directly address general conference Web site issues, such as [http://www.europython.org/](http://www.europython.org/) which focuses on the publishing of general information about the conference.
 
 ------------------------------------------------------------------------
 
-## Existing Software {#Existing_Software}
+## Existing Software 
 
 There are a few solutions people are using for conference management, including the following:
 
-- [Indico](http://cdsware.cern.ch/indico/){.http} - used for [EuroPython](EuroPython) 2006 and 2007
+- [Indico](http://cdsware.cern.ch/indico/) - used for [EuroPython](EuroPython) 2006 and 2007
 
-- [Zookeepr](http://www.zookeepr.org/){.http} - developed for linux.conf.au
+- [Zookeepr](http://www.zookeepr.org/) - developed for linux.conf.au
 
-- [PyCon-Tech](https://pycon.coderanger.net/){.https} The [PyCon](PyCon) submissions and schedule system - developed for [PyCon](PyCon) and being developed further for [PyCon](PyCon) UK
+- [PyCon-Tech](https://pycon.coderanger.net/) The [PyCon](PyCon) submissions and schedule system - developed for [PyCon](PyCon) and being developed further for [PyCon](PyCon) UK
 
-- [EuroPython Software](https://github.com/pythonitalia){.https} - This was specifically written for [EuroPython](EuroPython) by the Python Italia user group as Django application and is open-source (only the design files are not open-source). It was used for [EuroPython](EuroPython) 2011-2013 and is the official conference software for [EuroPython](EuroPython) conferences.
+- [EuroPython Software](https://github.com/pythonitalia) - This was specifically written for [EuroPython](EuroPython) by the Python Italia user group as Django application and is open-source (only the design files are not open-source). It was used for [EuroPython](EuroPython) 2011-2013 and is the official conference software for [EuroPython](EuroPython) conferences.
 
 ------------------------------------------------------------------------
 
-## Essentials {#Essentials}
+## Essentials 
 
 These are things which have been central to the organisation of [EuroPython](EuroPython) and which have already been managed using conference software:
 
@@ -30,14 +35,14 @@ These are things which have been central to the organisation of [EuroPython](Eur
 - Paper/talk submissions
 - Scheduling
 
-## Extras {#Extras}
+## Extras 
 
 These are things which could have been managed using conference software or which could have been made easier using such software:
 
 - Feedback
 - Sponsor management
 
-## Luxuries {#Luxuries}
+## Luxuries 
 
 These are things which people seem to find interesting but which haven\'t been the focus of the [EuroPython](EuroPython) organisers:
 
@@ -45,7 +50,7 @@ These are things which people seem to find interesting but which haven\'t been t
 
 ------------------------------------------------------------------------
 
-## Account Management {#Account_Management}
+## Account Management 
 
 It is not generally a good idea to allow unauthenticated users to register for a conference - this tends to attract speculative registrations from people who seem not to be serious about attending. However, a few use-cases need to be supported for people logging in to\...
 
@@ -57,7 +62,7 @@ It is not generally a good idea to allow unauthenticated users to register for a
 
 One limitation of the Indico instance hosted at CERN was the insistence that registrants must have their own account. Creative workarounds include using distinct e-mail aliases belonging to one person.
 
-## Registration {#Registration}
+## Registration 
 
 This combines some of the [PyCon](PyCon) requirements for \"users\" with more general requirements:
 
@@ -95,7 +100,7 @@ This combines some of the [PyCon](PyCon) requirements for \"users\" with more ge
 - Optional donations and/or extra items
 - Support editing and cancellation of registrations by both users (for their own registrations) and by administrators
 
-## Paper/Talk Submissions {#Paper.2FTalk_Submissions}
+## Paper/Talk Submissions 
 
 See \"Account Management\" for some relevant criteria.
 
@@ -117,7 +122,7 @@ See \"Account Management\" for some relevant criteria.
 
 - Export conference materials for proceedings
 
-## Scheduling {#Scheduling}
+## Scheduling 
 
 - Produce online schedules with talk information, track/theme membership for each room
 - Produce printable schedules for the entire conference, and for individual rooms for a given day
@@ -125,7 +130,7 @@ See \"Account Management\" for some relevant criteria.
 - It can be nice to be able to edit the schedule interactively
 - Room management: desirable to be able to switch or rename rooms globally
 
-## Sponsors {#Sponsors}
+## Sponsors 
 
 - Sponsors can fill in a form with contact information that gets stored in a list and also e-mailed to the sponsorship coordinator
 - Support the following information:
@@ -137,7 +142,7 @@ See \"Account Management\" for some relevant criteria.
   - Banner received (Y/N)
   - Comments on where the banner should be displayed
 
-## Feedback {#Feedback}
+## Feedback 
 
 - Forms for the entire conference, and for specific talks and tutorials (but not sprints since they\'re separate things)
 - Report: feedback summary for the conference, summaries for individual talks
@@ -145,9 +150,9 @@ See \"Account Management\" for some relevant criteria.
 
 ------------------------------------------------------------------------
 
-## Experiences with Indico {#Experiences_with_Indico}
+## Experiences with Indico 
 
-[Indico](http://cdsware.cern.ch/indico/){.http} has been used to manage [EuroPython](EuroPython) 2007. Here\'s how it fares in the above criteria:
+[Indico](http://cdsware.cern.ch/indico/) has been used to manage [EuroPython](EuroPython) 2007. Here\'s how it fares in the above criteria:
 
 ::: {}
 +:---------------------------------------------:+:------------------------------------------------------:+
@@ -223,4 +228,3 @@ See \"Account Management\" for some relevant criteria.
 
 1.  An \"invitation code\" feature would let people register without manual validation of non-paying registrants afterwards. Generally, some kind of validation mechanism would be required, anyway.
 2.  Add chargeable items to the form for extra events and items.
-::::

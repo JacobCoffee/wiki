@@ -1,29 +1,26 @@
 # PointsAndRectangles
 
-:::::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [Points & Rectangles](#Points_.26_Rectangles)
-    1.  [Historical Note](#Historical_Note)
-    2.  [See Also](#See_Also)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-# Points & Rectangles {#Points_.26_Rectangles}
+# Points & Rectangles 
 
 A pair of classes to provide points and rectangles.
 
 Surprisingly, I haven\'t been able to find a single Python module providing such primitive support.
 
-[WxPython](WxPython) supports wxPoint and wxRect, but it lacks many basic functions (such as, say, adding two points together to produce a third point..!) (See: [wxPyWiki:wx.Rect](http://wiki.wxpython.org/index.cgi/wx_2eRect){.http})
+[WxPython](WxPython) supports wxPoint and wxRect, but it lacks many basic functions (such as, say, adding two points together to produce a third point..!) (See: [wxPyWiki:wx.Rect](http://wiki.wxpython.org/index.cgi/wx_2eRect))
 
 This code is lacking a zillion essential features (but interpoint distance can now be calculated). I only put in the ones I needed immediately. Please add, refactor, optimize, rename stuff to be more standard, etc., as you see fit..!
 
 *If there\'s an actual, accessible, easy-to-include Python module, not tied to a graphics library, that does this stuff already, please write about it here! No sense in reinventing the wheel. I\'ve looked, but haven\'t found one. Hence this.*
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-6d56e43021b8630991f07ce1ef506e33649756ce dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """Point and Rectangle classes.
    2 
    3 This code is in the public domain.
@@ -233,13 +230,12 @@ This code is lacking a zillion essential features (but interpoint distance can n
 :::
 ::::
 
-## Historical Note {#Historical_Note}
+## Historical Note 
 
-It seems that [Python version 1.0.2](http://www.informatik.hu-berlin.de/Themen/manuals/python/python-texinfo/top.html){.http} had [standard module](http://www.informatik.hu-berlin.de/Themen/manuals/python/python-texinfo/module_index.html){.http} [rect!](http://www.informatik.hu-berlin.de/Themen/manuals/python/python-texinfo/rect.html){.http}
+It seems that [Python version 1.0.2](http://www.informatik.hu-berlin.de/Themen/manuals/python/python-texinfo/top.html) had [standard module](http://www.informatik.hu-berlin.de/Themen/manuals/python/python-texinfo/module_index.html) [rect!](http://www.informatik.hu-berlin.de/Themen/manuals/python/python-texinfo/rect.html)
 
-## See Also {#See_Also}
+## See Also 
 
-- [Wikipedia:Cartesian coordinate system](http://en.wikipedia.org/wiki/Cartesian_coordinate_system){.http}
+- [Wikipedia:Cartesian coordinate system](http://en.wikipedia.org/wiki/Cartesian_coordinate_system)
 
-- [Wikipedia:Vector](http://en.wikipedia.org/wiki/Vector_%28spatial%29){.http}
-::::::
+- [Wikipedia:Vector](http://en.wikipedia.org/wiki/Vector_%28spatial%29)

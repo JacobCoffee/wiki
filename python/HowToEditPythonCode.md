@@ -1,36 +1,18 @@
 # HowToEditPythonCode
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [History](#History)
-2.  [Programming philosophy](#Programming_philosophy)
-3.  [Name and neologisms](#Name_and_neologisms)
-4.  [Usage](#Usage)
-5.  [Syntax and semantics](#Syntax_and_semantics)
-    1.  [Indentation](#Indentation)
-    2.  [Statements and control flow](#Statements_and_control_flow)
-    3.  [Expressions](#Expressions)
-    4.  [Methods](#Methods)
-    5.  [Typing](#Typing)
-    6.  [Mathematics](#Mathematics)
-6.  [Implementations](#Implementations)
-    1.  [CPython](#CPython)
-    2.  [Alternative implementations](#Alternative_implementations)
-    3.  [Interpretational semantics](#Interpretational_semantics)
-7.  [Development](#Development)
-8.  [Standard library](#Standard_library)
-9.  [Influence on other languages](#Influence_on_other_languages)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-# History {#History}
+# History 
 
 Python was conceived in the late 1980s and its implementation was started in December 1989 by Guido van Rossum at CWI in Amsterdam. Python is a successor to the ABC programming language (itself inspired by SETL) capable of exception handling and interfacing with the Amoeba operating system. Van Rossum is Python\'s principal author, and was for many years known by the humorous title *Benevolent Dictator for Life* (BDFL). Python evolution is now guided by an elected Steering Committee.
 
 ------------------------------------------------------------------------
 
-# Programming philosophy {#Programming_philosophy}
+# Programming philosophy 
 
 Python is a multi-paradigm programming language. Rather than forcing programmers to adopt a particular style of programming, it permits several styles: object-oriented programming and structured programming are fully supported, and there are a number of language features which support functional programming and aspect-oriented programming (including metaprogramming and \"by magic\" methods). Many other paradigms are supported using extensions, such as pyDBC and Contracts for Python which allow Design by Contract.
 
@@ -38,27 +20,27 @@ Rather than requiring all desired functionality to be built into the language\'s
 
 ------------------------------------------------------------------------
 
-# Name and neologisms {#Name_and_neologisms}
+# Name and neologisms 
 
 An important goal of the Python developers is making Python fun to use. This is reflected in the origin of the name (based on the television series Monty Python\'s Flying Circus), in the common practice of using Monty Python references in example code, and in an occasionally playful approach to tutorials and reference materials.\[24\]\[25\] For example, the metasyntactic variables often used in Python literature are spam and eggs, instead of the traditional foo and bar.
 
 ------------------------------------------------------------------------
 
-# Usage {#Usage}
+# Usage 
 
 Python is often used as a scripting language for web applications, e.g. via mod_wsgi for the Apache web server. With Web Server Gateway Interface, a standard API has been developed to facilitate these applications. Web application frameworks like Django, Pylons, [TurboGears](TurboGears), web2py, Flask, and Zope support developers in the design and maintenance of complex applications. Libraries like [NumPy](NumPy), [SciPy](SciPy), and Matplotlib allow Python to be used effectively in scientific computing.
 
 ------------------------------------------------------------------------
 
-# Syntax and semantics {#Syntax_and_semantics}
+# Syntax and semantics 
 
 Python was intended to be a highly readable language. It is designed to have an uncluttered visual layout, frequently using English keywords where other languages use punctuation. Python requires less boilerplate than traditional manifestly typed structured languages such as C or Pascal, and has a smaller number of syntactic exceptions and special cases than either of these. For a detailed description of the differences between 2.x and 3.x versions, see History of Python.
 
-## Indentation {#Indentation}
+## Indentation 
 
 Python uses whitespace indentation, rather than curly braces or keywords, to delimit blocks (a feature also known as the *off-side rule*). An increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block.
 
-## Statements and control flow {#Statements_and_control_flow}
+## Statements and control flow 
 
 Python\'s statements include (among others):
 
@@ -82,7 +64,7 @@ Python\'s statements include (among others):
 
 - The ***yield*** statement, which returns a value from a generator function. (From Python 2.5, ***yield*** is also an operator. This form is used to implement coroutines \-- see below.)
 
-## Expressions {#Expressions}
+## Expressions 
 
 - In Python 3, the result of the division operator `/`{.backtick} with integer operands is always a floating-point value; the operator `//`{.backtick} may be used to perform integer division (the result truncated to an integer).
 
@@ -107,31 +89,31 @@ Python\'s statements include (among others):
 
   - Triple-quoted strings, which begin and end with a series of three single or double quotation marks, may span multiple lines and function like here-documents in shells, Perl and Ruby.
 
-## Methods {#Methods}
+## Methods 
 
 Methods on objects are functions attached to the object\'s class; the syntax instance.method(argument) is, for normal methods and functions, syntactic sugar for Class.method(instance, argument). Python methods have an explicit self parameter to access instance data, in contrast to the implicit self in some other object-oriented programming languages (for example, Java, C++ or Ruby).
 
-## Typing {#Typing}
+## Typing 
 
 Python uses duck typing and has typed objects but untyped variable names. Type constraints are not checked at compile time; rather, operations on an object may fail, signifying that the given object is not of a suitable type. Despite being dynamically typed, Python is strongly typed, forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting to make sense of them.
 
-## Mathematics {#Mathematics}
+## Mathematics 
 
 Python defines the modulus operator so that the result of a % b is in the half-open interval \[0,b), where b is a positive integer. When b is negative, the result lies in the interval (b,0\]. However, this consequently affects how integer division is defined. To maintain the validity of the equation b \* (a // b) + a % b == a, integer division is defined to round towards minus infinity. Therefore 7 // 3 is 2, but (−7) // 3 is −3. This is different from many programming languages, where the result of integer division rounds towards zero, and Python\'s modulus operator is consequently defined in a way that can return negative numbers.
 
 ------------------------------------------------------------------------
 
-# Implementations {#Implementations}
+# Implementations 
 
-## CPython {#CPython}
+## CPython 
 
 The mainstream Python implementation, known as CPython, is written in C meeting the C89 standard. CPython compiles Python programs into intermediate bytecode,\[65\] which are then executed by the virtual machine. It is distributed with a large standard library written in a mixture of C and Python. CPython ships in versions for many platforms, including Microsoft Windows and most modern Unix-like systems. CPython was intended from almost its very conception to be cross-platform; its use and development on esoteric platforms such as Amoeba, alongside more conventional ones like Unix and Mac OS, has greatly helped in this regard. Unofficial builds are also available for [Android](Android) and iOS.
 
-## Alternative implementations {#Alternative_implementations}
+## Alternative implementations 
 
-Jython compiles the Python program into Java byte code, which can then be executed by every Java Virtual Machine implementation. This also enables the use of Java class library functions from the Python program. [IronPython](IronPython) follows a similar approach in order to run Python programs on the .NET Common Language Runtime. [PyPy](PyPy) is a fast self-hosting implementation of Python, written in Python, that can output several types of bytecode, object code and intermediate languages. There also exist compilers to high-level object languages, with either unrestricted Python, a restricted subset of Python, or a language similar to Python as the source language. [PyPy](PyPy) is of this type, compiling RPython to several languages; other examples include Pyjamas compiling to [JavaScript](./JavaScript.html){.nonexistent}; Shed Skin compiling to C++; and Cython and Pyrex compiling to C.
+Jython compiles the Python program into Java byte code, which can then be executed by every Java Virtual Machine implementation. This also enables the use of Java class library functions from the Python program. [IronPython](IronPython) follows a similar approach in order to run Python programs on the .NET Common Language Runtime. [PyPy](PyPy) is a fast self-hosting implementation of Python, written in Python, that can output several types of bytecode, object code and intermediate languages. There also exist compilers to high-level object languages, with either unrestricted Python, a restricted subset of Python, or a language similar to Python as the source language. [PyPy](PyPy) is of this type, compiling RPython to several languages; other examples include Pyjamas compiling to [JavaScript](./JavaScript.html); Shed Skin compiling to C++; and Cython and Pyrex compiling to C.
 
-## Interpretational semantics {#Interpretational_semantics}
+## Interpretational semantics 
 
 Most Python implementations (including CPython) can function as a command-line interpreter, for which the user enters statements sequentially and receives the results immediately. In short, Python acts as a shell. While the semantics of the other modes of execution (bytecode compilation, or compilation to native code) preserve the sequential semantics, they offer a speed boost at the cost of interactivity, so they are usually only used outside of a command-line interaction (e.g., when importing a module).
 
@@ -139,9 +121,9 @@ Other shells add capabilities beyond those in the basic interpreter, including I
 
 ------------------------------------------------------------------------
 
-# Development {#Development}
+# Development 
 
-Python\'s development is conducted largely through the Python Enhancement Proposal (PEP) process, described in [PEP 1](https://www.python.org/dev/peps/pep-0001/){.https}. PEPs are standardized design documents providing general information related to Python, including proposals, descriptions, design rationales, and explanations for language features. Outstanding PEPs are reviewed and commented upon on the python-dev mailing list, which is the primary forum for discussion about the language\'s development and approved by the Steering Council (see [PEP 13](https://www.python.org/dev/peps/pep-013){.https} for the governance model); specific issues are discussed in the bug tracker maintained at [bugs.python.org](https://bugs.python.org){.https}. Development of the reference implementation takes place on the [GitHub cpython](https://github.com/python/cpython){.https} repository.
+Python\'s development is conducted largely through the Python Enhancement Proposal (PEP) process, described in [PEP 1](https://www.python.org/dev/peps/pep-0001/). PEPs are standardized design documents providing general information related to Python, including proposals, descriptions, design rationales, and explanations for language features. Outstanding PEPs are reviewed and commented upon on the python-dev mailing list, which is the primary forum for discussion about the language\'s development and approved by the Steering Council (see [PEP 13](https://www.python.org/dev/peps/pep-013) for the governance model); specific issues are discussed in the bug tracker maintained at [bugs.python.org](https://bugs.python.org). Development of the reference implementation takes place on the [GitHub cpython](https://github.com/python/cpython) repository.
 
 CPython\'s public releases come in three types, distinguished by which part of the version number is incremented:
 
@@ -151,7 +133,7 @@ CPython\'s public releases come in three types, distinguished by which part of t
 
 A number of alpha, beta, and release-candidates are also released as previews and for testing before the final release is made. Although there is a rough schedule for each release, this is often pushed back if the code is not ready. The development team monitor the state of the code by running the large unit test suite during development, and using the [BuildBot](BuildBot) continuous integration system.
 
-# Standard library {#Standard_library}
+# Standard library 
 
 Python has a large standard library, commonly cited as one of Python\'s greatest strengths,\[81\] providing pre-written tools suited to many tasks. This is deliberate and has been described as a \"batteries included\" Python philosophy. The modules of the standard library can be augmented with custom modules written in either C or Python. Boost C++ Libraries includes a library, Boost.Python, to enable interoperability between C++ and Python. Because of the wide variety of tools provided by the standard library, combined with the ability to use a lower-level language such as C and C++, which is already capable of interfacing between other libraries, Python can be a powerful glue language between languages and tools.
 
@@ -163,7 +145,7 @@ For software testing, the standard library provides the unittest and doctest mod
 
 ------------------------------------------------------------------------
 
-# Influence on other languages {#Influence_on_other_languages}
+# Influence on other languages 
 
 Python\'s design and philosophy have influenced several programming languages, including:
 
@@ -176,4 +158,3 @@ Python\'s design and philosophy have influenced several programming languages, i
 - OCaml has an optional syntax, called twt (The Whitespace Thing), inspired by Python and Haskell.
 
 ------------------------------------------------------------------------
-::::

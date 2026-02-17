@@ -1,13 +1,18 @@
 # KeyError
 
-::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Python raises a **KeyError** whenever a dict() object is requested (using the format `a = adict[key]`) and the key is not in the dictionary.
 
 If you don\'t want to have an exception but would rather a default value used instead, you can use the `get()`{.backtick} method:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3b2ea572283ea6df816ecbe7e790696061d5209e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 default = 'Scruffy'
    2 a = adict.get('dogname', default)
 ```
@@ -16,9 +21,9 @@ If you don\'t want to have an exception but would rather a default value used in
 
 Even more handy is somewhat controversially-named `setdefault(key, val)`{.backtick} which sets the value of the key only if it is not already in the dict, and returns that value in any case:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c7ed34b9c54af238bae14a78e1ea60de8f8c75e3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 default = 'Scruffy'
    2 dog_owned_by = {'Peter': 'Furry', 'Sally': 'Fluffy'}
    3 
@@ -31,4 +36,3 @@ Even more handy is somewhat controversially-named `setdefault(key, val)`{.backt
 ```
 :::
 ::::
-:::::::

@@ -1,27 +1,32 @@
 # EuroPython2007LightningTalks
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 On Tuesday we heard the following Lightning Talks (apologies for any mangled names):
 
 1.  Harald Armin Massa -- Intro
 
-2.  Ville Säävuori -- [Hacking EuroPython.org with Django](http://www.unessa.net/en/hoyci/2007/07/lightning-talk-hacking-europythonorg/){.http}
+2.  Ville Säävuori -- [Hacking EuroPython.org with Django](http://www.unessa.net/en/hoyci/2007/07/lightning-talk-hacking-europythonorg/)
 
 3.  Philip von Weiterhausen -- Death to Zope Instances
 
 4.  Lennart Regebro -- A Python Component Architecture
 
-5.  Brian Kirsch -- [Chandler](http://chandler.osafoundation.org/){.http} Overview
+5.  Brian Kirsch -- [Chandler](http://chandler.osafoundation.org/) Overview
 
-6.  Andrew Dalke -- [LOLPython](http://www.dalkescientific.com/writings/diary/archive/2007/06/01/lolpython.html){.http}
+6.  Andrew Dalke -- [LOLPython](http://www.dalkescientific.com/writings/diary/archive/2007/06/01/lolpython.html)
 
-7.  Jukka Laurila -- [Mobile Web Server](http://opensource.nokia.com/projects/mobile-web-server/){.http}
+7.  Jukka Laurila -- [Mobile Web Server](http://opensource.nokia.com/projects/mobile-web-server/)
 
 8.  Paul Carduner -- z3c.formjs
 
-9.  John Pinner -- Plugging [PyCon UK](http://www.pyconuk.org/){.http}
+9.  John Pinner -- Plugging [PyCon UK](http://www.pyconuk.org/)
 
-10. Jono [DiCarlo](./DiCarlo.html){.nonexistent} -- The Enso Interface
+10. Jono [DiCarlo](./DiCarlo.html) -- The Enso Interface
 
 11. Fotis Georgatos -- EGEE grid & Python
 
@@ -31,7 +36,7 @@ On Tuesday we heard the following Lightning Talks (apologies for any mangled nam
 
 1.  Johnny Stovall -- Data Driven
 
-2.  Alecu -- [PyAr](./PyAr.html){.nonexistent}
+2.  Alecu -- [PyAr](./PyAr.html)
 
 3.  Martijn Faassen -- Martian
 
@@ -76,4 +81,3 @@ On Tuesday we heard the following Lightning Talks (apologies for any mangled nam
 23. Geoffrey French -- gSculpt
 
 Thanks to all the speakers!
-:::

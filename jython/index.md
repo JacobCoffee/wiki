@@ -39,7 +39,6 @@ BlockedUsersGroup
 BofTopics
 BrianZimmer
 BufferProtocol
-CamelCase
 CategoryAaaBogusBogusBogus
 CategoryHomepage
 CategoryJep
@@ -172,7 +171,6 @@ PhilipMontgomery
 PoiExample
 Portable_Generators_Diesel_Generators_Portable_Diesel_Generators_And_Their_Specifications
 ProjectGroupsTemplate
-ProjectTemplate
 PyFileBenchmarks
 PyServlet
 PylonsOnJython

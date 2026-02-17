@@ -1,7 +1,12 @@
 # PythonWikiTasks
 
-::: {#content dir="ltr" lang="en"}
-## Things that need doing, unless they\'re done {#Things_that_need_doing.2C_unless_they.27re_done}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Things that need doing, unless they\'re done 
 
 - We need a mission statement on the front page. What it\'s for, who can/should participate.
 
@@ -21,13 +26,13 @@
 
   - If I could, I\'d make the top bar half as tall as it is.
 
-  - I\'d try to find a way to either (A) eliminate the sidebar, or (B) make it editable. That way, regulars could maintain it. (ex: see [the CommunityWiki SideBar,](http://www.communitywiki.org/en/FrontPage){.http} which [is editable](http://www.communitywiki.org/cw?action=edit;id=SideBar){.http})
+  - I\'d try to find a way to either (A) eliminate the sidebar, or (B) make it editable. That way, regulars could maintain it. (ex: see [the CommunityWiki SideBar,](http://www.communitywiki.org/en/FrontPage) which [is editable](http://www.communitywiki.org/cw?action=edit;id=SideBar))
 
-## News / Changes {#News_.2F_Changes}
+## News / Changes 
 
 - [PythonWikiChanges](PythonWikiChanges)
 
-## Discussion {#Discussion}
+## Discussion 
 
 Some ideas about the aims of this wiki:
 
@@ -50,9 +55,9 @@ What kind of conversation are we talking about?
 
 \"How does this work\" has been great. If you need me to back this up for you, I can back it up with many anecdotes; Most of the pages I write here have seen some related action. People tell me that they read and use (and correct) my pages, and it\'d be sad to see that come to an end.
 
-The only thing that annoys me are pages with questions for names. Instead, the page name should be the name of the piece, and then the question should appear on the page. That is, [How can \"normal\" users report bugs in Python or the documentation?](./How(20)can(2022)normal(2220)users(20)report(20)bugs(20)in(20)Python(20)or(20)the(20)documentation(3f).html){.nonexistent} should be a page called [PythonDocumentation](PythonDocumentation), and then the question attached to *that* page.
+The only thing that annoys me are pages with questions for names. Instead, the page name should be the name of the piece, and then the question should appear on the page. That is, [How can \"normal\" users report bugs in Python or the documentation?](./How(20)can(2022)normal(2220)users(20)report(20)bugs(20)in(20)Python(20)or(20)the(20)documentation(3f).html) should be a page called [PythonDocumentation](PythonDocumentation), and then the question attached to *that* page.
 
-\-- [LionKimbro](LionKimbro) 2005-09-15 22:31:31 [\[lwickjr](./(5b)lwickjr.html){.nonexistent}: Sorry about that, Lion. :I \]
+\-- [LionKimbro](LionKimbro) 2005-09-15 22:31:31 [\[lwickjr](./(5b)lwickjr.html): Sorry about that, Lion. :I \]
 
 ------------------------------------------------------------------------
 
@@ -61,4 +66,3 @@ I think this Wiki would best serve as continuing from where standard Python docu
 ------------------------------------------------------------------------
 
 [CategoryPythonWebsite](CategoryPythonWebsite)
-:::

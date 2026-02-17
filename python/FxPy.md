@@ -1,13 +1,18 @@
 # FxPy
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 ::: caution
 **Warning**
 
 FXPy is unmaintained and it doesn\'t work on Python 3.
 :::
 
-[FXPy](http://fxpy.sourceforge.net){.http} is a Python extension module that provides an interface to the [FOX](http://www.fox-toolkit.org){.http} GUI toolkit.
+[FXPy](http://fxpy.sourceforge.net) is a Python extension module that provides an interface to the [FOX](http://www.fox-toolkit.org) GUI toolkit.
 
 FOX is a C++ based toolkit for developing graphical user interfaces easily and effectively. It offers a wide, and growing, collection of controls, and provides state of the art facilities such as drag and drop, selection, as well as OpenGL widgets for 3D graphical manipulation. FOX also implements icons, images, and user-convenience features such as status line help and tooltips.
 
@@ -21,11 +26,10 @@ Another nice feature of FOX which significantly reduces the number of lines of c
 
 Finally, FOX makes it easy to maintain the state of the GUI in an application by having the GUI elements automatically updating themselves by interrogating the application\'s state. This feature eliminates the large amount of effort that may go into sensitizing, graying out, checking/unchecking etc. depending on the application state.
 
-## FOX and FXPy Documentation {#FOX_and_FXPy_Documentation}
+## FOX and FXPy Documentation 
 
-- [FOX Documentation Index](http://www.fox-toolkit.org/doc.html){.http}
+- [FOX Documentation Index](http://www.fox-toolkit.org/doc.html)
 
-- [Developing Graphical User Interfaces with FXPy](http://fxpy.sourceforge.net/doc/book.html){.http}
+- [Developing Graphical User Interfaces with FXPy](http://fxpy.sourceforge.net/doc/book.html)
 
-- [FXPy source archived on github for \"historical purposes\"](https://github.com/lylejohnson/FXPy){.https}
-::::
+- [FXPy source archived on github for \"historical purposes\"](https://github.com/lylejohnson/FXPy)

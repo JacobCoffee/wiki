@@ -1,37 +1,42 @@
 # PythonSoftwareFoundation/BoardCandidates2007
 
-::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Candidates for the PSF Board of Directors
 
 The following people have been nominated as Directors of the Python Software Foundation for the term beginning 23 February 2007. Their self-written summaries follow.
 
-::: {#nominees .contents .topic}
+::: 
 Nominees
 
-- [David Turvene](#david-turvene){#id1 .reference .internal}
-- [Andy Todd](#andy-todd){#id2 .reference .internal}
-- [James Tauber](#james-tauber){#id3 .reference .internal}
-- [Mark Summerfield](#mark-summerfield){#id4 .reference .internal}
-- [Tim Peters](#tim-peters){#id5 .reference .internal}
-- [Martin von Löwis](#martin-von-lowis){#id6 .reference .internal}
-- [Andrew Kuchling](#andrew-kuchling){#id7 .reference .internal}
-- [Steve Holden](#steve-holden){#id8 .reference .internal}
-- [David Goodger](#david-goodger){#id9 .reference .internal}
-- [Stephan Deibel](#stephan-deibel){#id10 .reference .internal}
-- [Brett Cannon](#brett-cannon){#id11 .reference .internal}
-- [David Ascher](#david-ascher){#id12 .reference .internal}
+- [David Turvene](#david-turvene)
+- [Andy Todd](#andy-todd)
+- [James Tauber](#james-tauber)
+- [Mark Summerfield](#mark-summerfield)
+- [Tim Peters](#tim-peters)
+- [Martin von Löwis](#martin-von-lowis)
+- [Andrew Kuchling](#andrew-kuchling)
+- [Steve Holden](#steve-holden)
+- [David Goodger](#david-goodger)
+- [Stephan Deibel](#stephan-deibel)
+- [Brett Cannon](#brett-cannon)
+- [David Ascher](#david-ascher)
 :::
 
 ::: topic
 Links
 
-- [Call for Nominations of PSF Directors](http://pyfound.blogspot.com/2006/12/call-for-nominations-of-psf-directors.html){.http .reference .external}
-- [Agenda of the 2007 PSF Members\' Meeting, February 23, 2007](http://www.python.org/psf/records/members/2007-02-23/){.http .reference .external}
-- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html){.reference .external}
+- [Call for Nominations of PSF Directors](http://pyfound.blogspot.com/2006/12/call-for-nominations-of-psf-directors.html)
+- [Agenda of the 2007 PSF Members\' Meeting, February 23, 2007](http://www.python.org/psf/records/members/2007-02-23/)
+- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html)
 :::
 
-::: {#david-turvene .section}
-### [David Turvene](#id1){.toc-backref}
+::: 
+### [David Turvene](#id1)
 
 The obvious questions are:
 
@@ -43,32 +48,32 @@ The obvious questions are:
 
 - \"Why is he here?\"
 
-  The short answer is [David Goodger](#david-goodger){.reference .internal} extended an invitation to assist.
+  The short answer is [David Goodger](#david-goodger) extended an invitation to assist.
 
   But of course it isn\'t quite that simple. I feel Python is a great technology; very well thought-out with tremendous potential. I am interested in contributing to the growth of it. Furthermore I have a good amount of free time through 2007 and I feel contributing to Python is the best use of it.
 
-  This begs a number of questions that do not seem to be appropriate for this space but I can be reached at [mailto:dturvene@comcast.net](mailto:dturvene@comcast.net){.mailto .reference .external}.
+  This begs a number of questions that do not seem to be appropriate for this space but I can be reached at [mailto:dturvene@comcast.net](mailto:dturvene@comcast.net).
 
-- \"What can he do for the [PSF](http://www.python.org/psf/){.http .reference .external}?\"
+- \"What can he do for the [PSF](http://www.python.org/psf/)?\"
 
   As a software manager for many years, I came to learn that most of the work to support a company, even one that is tax-exempt and for the betterment of the universe, is *not* fun, challenging or even interesting. But it is critical.
 
-  I reviewed the [Director Duties](http://wiki.python.org/moin/PythonSoftwareFoundation/DutiesAndResponsibilitiesOfDirectors){.http .reference .external} and am comfortable in whatever role assigned to me. I see my main tasks in this role as:
+  I reviewed the [Director Duties](http://wiki.python.org/moin/PythonSoftwareFoundation/DutiesAndResponsibilitiesOfDirectors) and am comfortable in whatever role assigned to me. I see my main tasks in this role as:
 
   - Help out where needed and participate as an audience member in discussions. I will try my best to perform whatever tasks are assigned to me.
   - Spread the influence of Python via advocacy and making it more visible to the software community at-large.
 :::
 
-::: {#andy-todd .section}
-### [Andy Todd](#id2){.toc-backref}
+::: 
+### [Andy Todd](#id2)
 
-I have been programming in Python for six years. I currently serve as the administrator of the Python database special interest group (db-sig). I write a blog at [http://halfcooked.com/blog](http://halfcooked.com/blog){.http .reference .external} where Python is one of the main topics of discussion. I have presented papers at the UK Python Conference in 2003 and the Open Source Developers Conference in 2005 and 2006.
+I have been programming in Python for six years. I currently serve as the administrator of the Python database special interest group (db-sig). I write a blog at [http://halfcooked.com/blog](http://halfcooked.com/blog) where Python is one of the main topics of discussion. I have presented papers at the UK Python Conference in 2003 and the Open Source Developers Conference in 2005 and 2006.
 
-I would like to serve on the board of the Python Software Foundation to give a little back to the open source community that has given me so much. I\'m happy to contribute wherever I can and am comfortable that I can fulfil the duties and responsibilities of a director of the PSF. As an example of my contribution to other open source projects I developed the documentation format and web site for the PythonCard project at [http://pythoncard.sourceforge.net/](http://pythoncard.sourceforge.net/){.http .reference .external} as well as contributing code patches and a couple of complete sample applications.
+I would like to serve on the board of the Python Software Foundation to give a little back to the open source community that has given me so much. I\'m happy to contribute wherever I can and am comfortable that I can fulfil the duties and responsibilities of a director of the PSF. As an example of my contribution to other open source projects I developed the documentation format and web site for the PythonCard project at [http://pythoncard.sourceforge.net/](http://pythoncard.sourceforge.net/) as well as contributing code patches and a couple of complete sample applications.
 :::
 
-::: {#james-tauber .section}
-### [James Tauber](#id3){.toc-backref}
+::: 
+### [James Tauber](#id3)
 
 - open source developer since 1993
 - Python developer since 1998
@@ -80,8 +85,8 @@ I would like to serve on the board of the Python Software Foundation to give a l
 - am Australian and would like to work to help make PSF donations tax-deductible for Australians
 :::
 
-::: {#mark-summerfield .section}
-### [Mark Summerfield](#id4){.toc-backref}
+::: 
+### [Mark Summerfield](#id4)
 
 I am an independent trainer, consultant, and technical editor and writer, specializing in C++, Qt, and Python. I write the tools to support my everyday work in Python (and PyQt), and consider Python to be the most productive and enjoyable language I have ever used.
 
@@ -89,17 +94,17 @@ My contributions to the open-source world have mostly been behind-the-scenes, fo
 
 I think that I would be useful to the PSF and am open-minded about how I contribute.
 
-[My home page](http://www.qtrac.eu/marksummerfield.html){.http .reference .external}
+[My home page](http://www.qtrac.eu/marksummerfield.html)
 :::
 
-::: {#tim-peters .section}
-### [Tim Peters](#id5){.toc-backref}
+::: 
+### [Tim Peters](#id5)
 
 A vote for me is a vote for the status quo :-) \-- I\'ve been doing Python since 1991, and have served on the PSF Board since its start. I\'d like to continue, if only to provide historical perspective and to represent developers\' views. No grand visions here, just a wish to continue steady (albeit snail-like) spare-time progress.
 :::
 
-::: {#martin-von-lowis .section}
-### [Martin von Löwis](#id6){.toc-backref}
+::: 
+### [Martin von Löwis](#id6)
 
 I have been contributing to Python for a decade now; for the last few years, I also contributed to organizing activities in the Python community:
 
@@ -111,8 +116,8 @@ I have been contributing to Python for a decade now; for the last few years, I a
 If I get re-elected to the board, I would like to concentrate on the licensing issues, in particular trying to collect contributions form from past contributors.
 :::
 
-::: {#andrew-kuchling .section}
-### [Andrew Kuchling](#id7){.toc-backref}
+::: 
+### [Andrew Kuchling](#id7)
 
 I have been participating in the Python community since 1994, when I picked up the language for a class project and ended up giving a short talk at the Third Python Workshop the following year. For the past two years, I\'ve been co-chairing the PyCon organizing committee.
 
@@ -126,8 +131,8 @@ This year\'s PyCon will be my last; the conference will be taken over by a new c
 - Possibly organizing a relatively small hackathon focusing on core Python development.
 :::
 
-::: {#steve-holden .section}
-### [Steve Holden](#id8){.toc-backref}
+::: 
+### [Steve Holden](#id8)
 
 I\'ve had an interest in object-oriented programming since 1973, and have been a Python user since version 1.5. Python seemed such a natural way to express OO designs that I adopted it enthusiastically, and eventually wrote \"Python Web Programming\".
 
@@ -136,8 +141,8 @@ I have been a sporadic but voluminous contributor to discussions on the comp.lan
 As the Board grows it would be nice to take an ambassadorial role and help to expand the Foundation\'s relationships with its sponsor members and other open source projects. In the meantime I will continue to help the Board build a solid basis for support of the Python language and its users.
 :::
 
-::: {#david-goodger .section}
-### [David Goodger](#id9){.toc-backref}
+::: 
+### [David Goodger](#id9)
 
 I first learned Python in 1998 and immediately became an enthusiastic Pythonista. The Python community has become very important to me. That\'s why I became a PEP editor and started helping out with the web site. I was elected as a member of the PSF in 2003, began helping out with PyCon in 2004, then got involved with the Board of Directors, first as Assistant Secretary in 2005 and as a Director and Secretary in 2006.
 
@@ -145,7 +150,7 @@ I believe in the principles of the Free Software movement in general, and Python
 
 Contributions to the PSF & the Python community:
 
-- Creator of [Docutils](http://docutils.sf.net){.http .reference .external} and [reStructuredText](http://docutils.sf.net/rst.html){.http .reference .external}
+- Creator of [Docutils](http://docutils.sf.net) and [reStructuredText](http://docutils.sf.net/rst.html)
 
 - PEP editor since 2002
 
@@ -165,28 +170,28 @@ As a Director, these are some of the things I would like to accomplish and see a
 - Creation of effective advocacy materials
 - Reduction of my PSF to-do list
 
-[My home page](http://python.net/~goodger){.http .reference .external}
+[My home page](http://python.net/~goodger)
 :::
 
-::: {#stephan-deibel .section}
-### [Stephan Deibel](#id10){.toc-backref}
+::: 
+### [Stephan Deibel](#id10)
 
 A little about me:
 
 - 
 
   Co-founder of Wingware, maker of Wing IDE for Python
-  :   [http://wingware.com/](http://wingware.com/){.http .reference .external}
+  :   [http://wingware.com/](http://wingware.com/)
 
 - 
 
   Created Pythonology, one of the early Python Advocacy sites
-  :   [http://pythonology.org/](http://pythonology.org/){.http .reference .external}
+  :   [http://pythonology.org/](http://pythonology.org/)
 
 - 
 
   Editor of the Python Success Stories collection
-  :   [http://pythonology.org/success](http://pythonology.org/success){.http .reference .external} [http://python.org/about/success](http://python.org/about/success){.http .reference .external}
+  :   [http://pythonology.org/success](http://pythonology.org/success) [http://python.org/about/success](http://python.org/about/success)
 
 - Member of the PSF
 
@@ -199,24 +204,24 @@ Some of my past contributions to the PSF:
 - 
 
   Worked with legal counsel on the trademark policy
-  :   [http://www.python.org/psf/trademarks/](http://www.python.org/psf/trademarks/){.http .reference .external}
+  :   [http://www.python.org/psf/trademarks/](http://www.python.org/psf/trademarks/)
 
 - 
 
   Drafted parts of the license FAQ
-  :   [http://wiki.python.org/moin/PythonSoftwareFoundationLicenseFaq](http://wiki.python.org/moin/PythonSoftwareFoundationLicenseFaq){.http .reference .external}
+  :   [http://wiki.python.org/moin/PythonSoftwareFoundationLicenseFaq](http://wiki.python.org/moin/PythonSoftwareFoundationLicenseFaq)
 
 - 
 
   Supported funding of the website redesign, and participated in the work as a volunteer
-  :   [http://python.org/](http://python.org/){.http .reference .external}
+  :   [http://python.org/](http://python.org/)
 
 - Supported paying nominal salaries for the critical work done by the Treasurer (Kurt Kaiser) and Secretary (David Goodger)
 
 - 
 
   Championed funding Jeff Rush in the current six-month trial period for the Python Advocacy Coordinator position position, which I now oversee together with Neal Norwitz
-  :   [http://wiki.python.org/moin/PythonAdvocacyCoordinator](http://wiki.python.org/moin/PythonAdvocacyCoordinator){.http .reference .external}
+  :   [http://wiki.python.org/moin/PythonAdvocacyCoordinator](http://wiki.python.org/moin/PythonAdvocacyCoordinator)
 
 - Respond to email questions re: trademarks and licensing
 
@@ -236,16 +241,16 @@ My company, Wingware, was previously a sponsor of the PSF, under its legal name 
 I live in Cambridge NY, a rural town in upstate NY where \"pie ala mode\" was invented and life is good.
 :::
 
-::: {#brett-cannon .section}
-### [Brett Cannon](#id11){.toc-backref}
+::: 
+### [Brett Cannon](#id11)
 
 I was elected to the PSF membership during the first PyCon in 2003. Shortly after that I become a committer on Python itself. Over the years I have made various contributions to the Python community, the largest of which was writing the python-dev Summaries for over two and a half years.
 
 At PyCon 2006 I joined the PSF board. I was also elected chairman of the Infrastructure committee which is nearly completion on moving Python\'s issue tracking from SourceForge over to our own Roundup installation.
 :::
 
-::: {#david-ascher .section}
-### [David Ascher](#id12){.toc-backref}
+::: 
+### [David Ascher](#id12)
 
 My, people write a lot about themselves here. All right, for those who don\'t know me, I\'m a father of two, with an interest in baking the perfect lemon tart and on a quest for the best French baguette in Vancouver. More relevant perhaps:
 
@@ -257,4 +262,3 @@ My, people write a lot about themselves here. All right, for those who don\'t kn
 
 My current feelings regarding the PSF and Python is that both are quite healthy, and in no need of fundamental restructuring. The language is changing but useful, attracting new converts and buzz while keeping most of its adherents on board. The foundation shows no fundamental problems, with a good financial basis, constant (if slow) progress on intellectual property issues, and a growing base of members, both individuals and sponsors. I\'m glad to see new blood in the community, membership and foundation board, and I feel the board is pretty a pretty healthy organization.
 :::
-:::::::::::::::::

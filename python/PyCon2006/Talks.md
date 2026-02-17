@@ -1,7 +1,12 @@
 # PyCon2006/Talks
 
-::: {#content dir="ltr" lang="en"}
-For more information about [PyCon](PyCon) 2006, see the main conference site at [http://us.pycon.org/](http://us.pycon.org/){.http}.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+For more information about [PyCon](PyCon) 2006, see the main conference site at [http://us.pycon.org/](http://us.pycon.org/).
 
 ------------------------------------------------------------------------
 
@@ -9,7 +14,7 @@ For more information about [PyCon](PyCon) 2006, see the main conference site at 
 
 [PaulMcGuire](PaulMcGuire)
 
-pyparsing is a pure-Python module, containing a class library for easily creating recursive-descent parsers. pyparsing\'s syntax provides tools for both simple tokenization and data structuring and interpretation. I will give an overview of the basic features of pyparsing, and a \*very quick\* overview of the advanced features. I will close with 3 or 4 application examples, time-permitting. (For more detail on the type of information I have to present on pyparsing, you can visit my [SourceForge](SourceForge) project web page at [http://pyparsing.sourceforge.net.)(I](http://pyparsing.sourceforge.net.)(I){.http} have posted the presentation materials at my personal web page: [http://www.geocities.com/ptmcg/python/index.html](http://www.geocities.com/ptmcg/python/index.html){.http}.)
+pyparsing is a pure-Python module, containing a class library for easily creating recursive-descent parsers. pyparsing\'s syntax provides tools for both simple tokenization and data structuring and interpretation. I will give an overview of the basic features of pyparsing, and a \*very quick\* overview of the advanced features. I will close with 3 or 4 application examples, time-permitting. (For more detail on the type of information I have to present on pyparsing, you can visit my [SourceForge](SourceForge) project web page at [http://pyparsing.sourceforge.net.)(I](http://pyparsing.sourceforge.net.)(I) have posted the presentation materials at my personal web page: [http://www.geocities.com/ptmcg/python/index.html](http://www.geocities.com/ptmcg/python/index.html).)
 
 ------------------------------------------------------------------------
 
@@ -19,19 +24,19 @@ Grig Gheorghiu
 
 Agile Documentation means having unit tests serve a double role: testing your code and documenting it at the same time. I borrowed the term \"Agile Documentation\" from an article called \"Double Duty\" written by Brian Button.
 
-In the talk, I will show how doctest and epydoc make it very easy to automatically generate documentation in the form of Test Lists and Test Maps. To see how it all integrates together, check out [http://agile.unisonis.com/epydoc/blogmgmt/](http://agile.unisonis.com/epydoc/blogmgmt/){.http}
+In the talk, I will show how doctest and epydoc make it very easy to automatically generate documentation in the form of Test Lists and Test Maps. To see how it all integrates together, check out [http://agile.unisonis.com/epydoc/blogmgmt/](http://agile.unisonis.com/epydoc/blogmgmt/)
 
 I will also show how the Django project generates API reference Web pages automatically from doctest-based unit tests.
 
-I will finish my talk by mentioning the Wiki functionality of [FitNesse](./FitNesse.html){.nonexistent} as a mechanism for using acceptance tests as documentation.
+I will finish my talk by mentioning the Wiki functionality of [FitNesse](./FitNesse.html) as a mechanism for using acceptance tests as documentation.
 
 The talk is based on the following blog entries I posted:
 
-[http://agiletesting.blogspot.com/2005/02/agile-documentation-with-doctest-and.html](http://agiletesting.blogspot.com/2005/02/agile-documentation-with-doctest-and.html){.http}
+[http://agiletesting.blogspot.com/2005/02/agile-documentation-with-doctest-and.html](http://agiletesting.blogspot.com/2005/02/agile-documentation-with-doctest-and.html)
 
-[http://agiletesting.blogspot.com/2005/08/agile-documentation-in-django-project.html](http://agiletesting.blogspot.com/2005/08/agile-documentation-in-django-project.html){.http}
+[http://agiletesting.blogspot.com/2005/08/agile-documentation-in-django-project.html](http://agiletesting.blogspot.com/2005/08/agile-documentation-in-django-project.html)
 
-[http://agiletesting.blogspot.com/2004/11/writing-fitnesse-tests-in-python.html](http://agiletesting.blogspot.com/2004/11/writing-fitnesse-tests-in-python.html){.http}
+[http://agiletesting.blogspot.com/2004/11/writing-fitnesse-tests-in-python.html](http://agiletesting.blogspot.com/2004/11/writing-fitnesse-tests-in-python.html)
 
 ------------------------------------------------------------------------
 
@@ -39,7 +44,7 @@ The talk is based on the following blog entries I posted:
 
 [PaulMcGuire](PaulMcGuire)
 
-A pure-Python command interpreter engine for creating text adventure games. Used as an example of creating a custom \"little language\", in this case, the domain being a simple text-based adventure game. Provides a complete example of using pyparsing to structure input commands, with an internal Command structure to implement command behavior. (I have posted the presentation materials at my personal web page: [http://www.geocities.com/ptmcg/python/index.html](http://www.geocities.com/ptmcg/python/index.html){.http}.)
+A pure-Python command interpreter engine for creating text adventure games. Used as an example of creating a custom \"little language\", in this case, the domain being a simple text-based adventure game. Provides a complete example of using pyparsing to structure input commands, with an internal Command structure to implement command behavior. (I have posted the presentation materials at my personal web page: [http://www.geocities.com/ptmcg/python/index.html](http://www.geocities.com/ptmcg/python/index.html).)
 
 ------------------------------------------------------------------------
 
@@ -55,11 +60,11 @@ In this tutorial presentation, I will show how to use the Glade visual designer 
 
 #6. **Vertebral Fracture Analysis**
 
-Wesley J. Chun / [CyberWeb Consulting](http://cyberwebconsulting.com){.http}
+Wesley J. Chun / [CyberWeb Consulting](http://cyberwebconsulting.com)
 
 Vertebral Fracture Analysis
 
-Several years ago, at [PyCon](PyCon) 2003, I presented a general paper on how [Synarc](http://synarc.com){.http}, a medical imaging company in San Francisco, developed medical applications using Python. This time, I would like to focus on one specific project which was my primary responsibility as a Senior Software Engineer there.
+Several years ago, at [PyCon](PyCon) 2003, I presented a general paper on how [Synarc](http://synarc.com), a medical imaging company in San Francisco, developed medical applications using Python. This time, I would like to focus on one specific project which was my primary responsibility as a Senior Software Engineer there.
 
 The VFract application is used as part of a set of radiology services offered by Synarc. In addition to data entry and image digitization, Synarc provides reading services using software such as VFract to obtain critical patient data necessary for pharmaceutical companies participating in clinical trials to determine the effectiveness of developing medicines. The use of such software helps automate and expedite patient assessment during the course of these clinical trials, overall accelerating the time it takes to get new medicines and treatments to market. The use of VFract has consistently resulted in a large portion of the company\'s annual revenue.
 
@@ -91,19 +96,19 @@ Each discussion will include an example implementation done with Python and [Tur
 
 Though [TurboGears](TurboGears) will be used as the demonstration framework, previous experience with [TurboGears](TurboGears) will not be required to understand the talk or the examples.
 
-The [paper and a screencast version of the talk](http://www.turbogears.org/preview/docs/tutorials/eajaxtg/){.http} are online.
+The [paper and a screencast version of the talk](http://www.turbogears.org/preview/docs/tutorials/eajaxtg/) are online.
 
 ------------------------------------------------------------------------
 
 #12. **Stackless Python in EVE Online**
 
-Kristján Valur Jónsson / [CCP games inc.](http://www.ccpgames.com){.http}
+Kristján Valur Jónsson / [CCP games inc.](http://www.ccpgames.com)
 
-The massively multiplayer online role-playing game [Eve Online](http://www.eve-online.com){.http}, developed by CCP games in Reykjavík, Iceland, makes heavy use of [Stackless Python](http://www.stackless.com){.http} to implement game features. This presentation shows how Stackless Python has been used throughout the code to create a seamless environment of cooperative multitasking in the game engine and how Python code and C code interacts in a complex real-world environment.
+The massively multiplayer online role-playing game [Eve Online](http://www.eve-online.com), developed by CCP games in Reykjavík, Iceland, makes heavy use of [Stackless Python](http://www.stackless.com) to implement game features. This presentation shows how Stackless Python has been used throughout the code to create a seamless environment of cooperative multitasking in the game engine and how Python code and C code interacts in a complex real-world environment.
 
 ------------------------------------------------------------------------
 
-#13. **Cuaima [MetaInstaller](http://cuaima.latinux.org){.http}. New tool for managing System Installations.**
+#13. **Cuaima [MetaInstaller](http://cuaima.latinux.org). New tool for managing System Installations.**
 
 Ricardo Strusberg / Latinux
 
@@ -113,15 +118,15 @@ Carlos Zager / Latinux
 
 The intended use of this timeslot is to introduce \"Cuaima\" a new Web-Oriented (LGPL) software program we are writing to simplify the installation of custom GNU/Linux Distributions.
 
-Cuaima is a [MetaInstaller](http://cuaima.latinux.org){.http} for GNU/Linux and \*BSD Operating Systems that runs on top of a (Python) `WebServer` to provide local, remote and massive installations of these \*NIX flavoured Systems. The installer is capable of installing any kind of Distribution and configuring it properly with preconfigured files or custom parameters such as the Distribution to be installed, user parameters, root\'s password, network configuration, etc. Cuaima takes the whole process of installation to another level.
+Cuaima is a [MetaInstaller](http://cuaima.latinux.org) for GNU/Linux and \*BSD Operating Systems that runs on top of a (Python) `WebServer` to provide local, remote and massive installations of these \*NIX flavoured Systems. The installer is capable of installing any kind of Distribution and configuring it properly with preconfigured files or custom parameters such as the Distribution to be installed, user parameters, root\'s password, network configuration, etc. Cuaima takes the whole process of installation to another level.
 
 Cuaima is written almost entirely in Python. The rest of the code is Javascript for client-side tasks such as field validator\'s and an implementation of XMLRPC to provide real-time installation-progress information.
 
 Cuaima is part of a larger sets of tools that is in the planning stage now to provide End-Users and Enterprises the ability to create Custom GNU/Linux Distributions for determined and particular uses.
 
-It is proposed that the Cuaima [MetaInstaller](http://cuaima.latinux.org){.http} be the Official Installer for the Official Venezuelan Republic GNU/Linux Distribution.
+It is proposed that the Cuaima [MetaInstaller](http://cuaima.latinux.org) be the Official Installer for the Official Venezuelan Republic GNU/Linux Distribution.
 
-Official `HomeSite`: [http://cuaima.latinux.org](http://cuaima.latinux.org){.http}
+Official `HomeSite`: [http://cuaima.latinux.org](http://cuaima.latinux.org)
 
 ------------------------------------------------------------------------
 
@@ -131,7 +136,7 @@ Jack Orenstein / Geophile, Inc.
 
 Osh implements a language that supports the composition of commands through the piping of objects. This language is designed for use from the command-line of an ordinary shell. The objects piped from one command to the next can be Python primitives (numbers, lists, maps, etc.); other types such as dates/times, or database rows; or can represent various OS resources such as files and processes. Conversions between objects and strings simplify integration with the Unix environment. The commands included with osh manipulate objects, access databases, and execute commands remotely, including parallel execution on nodes in a cluster. Data manipulation commands allow the user to invoke functions, including lambda expressions, written on the command line.
 
-Osh is licensed under the GPL. More information and a tarball can be obtained at [http://geophile.com/osh](http://geophile.com/osh){.http}.
+Osh is licensed under the GPL. More information and a tarball can be obtained at [http://geophile.com/osh](http://geophile.com/osh).
 
 ------------------------------------------------------------------------
 
@@ -152,7 +157,7 @@ The presentation outline is:
 
 #17. **Large-scale, cross-platform synchronization using embedded python**
 
-Alexis Lê-Quôc / [Wireless Generation](http://www.wirelessgeneration.com){.http}
+Alexis Lê-Quôc / [Wireless Generation](http://www.wirelessgeneration.com)
 
 Wireless Generation uses python to allow the synchronization of student assessments, from 70k teachers assessing over 1.5 million students. Because python is a high-level language it is fit to solve problems both as an embedded cross-platform client and as a server-side component. This talk will present a few opportunities where python shone on the client-side:
 
@@ -161,7 +166,7 @@ Wireless Generation uses python to allow the synchronization of student assessme
 - focus on higher-level logic with higher-level code
 - savings in development time
 
-Slides available [here](http://alq666.blogspot.com/2006/03/slides-from-my-pycon-2006-talk.html){.http}
+Slides available [here](http://alq666.blogspot.com/2006/03/slides-from-my-pycon-2006-talk.html)
 
 ------------------------------------------------------------------------
 
@@ -177,7 +182,7 @@ The presentation will cover the use of Python/wxPython/Perl/MySQL to create a se
 
 Jonathan Ellis / Berkeley Data Systems
 
-This talk will build on the review of 6 IDEs done by the Utah Python UG and summarized here: [http://spyced.blogspot.com/2005/09/review-of-6-python-ides.html](http://spyced.blogspot.com/2005/09/review-of-6-python-ides.html){.http}. In the interest of time, this talk would focus on the most promising four IDEs: Komodo, [PyDev](PyDev), and Wing, which are in the review-of-6, and [SPE](http://pythonide.stani.be){.http}, which is not.
+This talk will build on the review of 6 IDEs done by the Utah Python UG and summarized here: [http://spyced.blogspot.com/2005/09/review-of-6-python-ides.html](http://spyced.blogspot.com/2005/09/review-of-6-python-ides.html). In the interest of time, this talk would focus on the most promising four IDEs: Komodo, [PyDev](PyDev), and Wing, which are in the review-of-6, and [SPE](http://pythonide.stani.be), which is not.
 
 ------------------------------------------------------------------------
 
@@ -209,7 +214,7 @@ Also, wouldn\'t it be immensely useful if the \"types\" of information found in 
 
 Are you someone who uses plain text files instead of fancy specialized programs to maintain your personal data?
 
-If you find any of the above interesting, this talk is for you. I am proposing a system, Nabu, built in Python using [ReStructuredText](http://docutils.sf.net/rst.html){.http}, [Docutils](http://docutils.sf.net){.http} and text files, that can be used to collect \"typed\" data from those files and fill a remote database with the extracted data. This data can then be used to feed a wiki, a blog, a web site, or any other kind of presentation layer you desire.
+If you find any of the above interesting, this talk is for you. I am proposing a system, Nabu, built in Python using [ReStructuredText](http://docutils.sf.net/rst.html), [Docutils](http://docutils.sf.net) and text files, that can be used to collect \"typed\" data from those files and fill a remote database with the extracted data. This data can then be used to feed a wiki, a blog, a web site, or any other kind of presentation layer you desire.
 
 Related talks: [\"Docutils Developers Tutorial: Architecture, Extending, and Embedding\"](./PyCon2006(2f)Talks.html#A62) is for those interested in the implementation details of Docutils. [\"Easy Slide Shows With reStructuredText & S5\"](./PyCon2006(2f)Talks.html#A64) describes another application of Docutils.
 
@@ -243,9 +248,9 @@ William Stein / Dept. of Math., Univ of California, San Diego
 
 John Pinner / Clockwork Software Systems
 
-At [PyCon](PyCon) 2005, I presented [PayThyme](./PayThyme.html){.nonexistent}, Clockwork\'s industrial-strength UK statutory payroll. There was some surprise that we had licensed such a commercial application under the GPL. Since then [PayThyme](./PayThyme.html){.nonexistent} has been used by over 1000 companies and at London\'s [LinuxWorld](./LinuxWorld.html){.nonexistent} expo was the outright winner of Best Open Source Application.
+At [PyCon](PyCon) 2005, I presented [PayThyme](./PayThyme.html), Clockwork\'s industrial-strength UK statutory payroll. There was some surprise that we had licensed such a commercial application under the GPL. Since then [PayThyme](./PayThyme.html) has been used by over 1000 companies and at London\'s [LinuxWorld](./LinuxWorld.html) expo was the outright winner of Best Open Source Application.
 
-[PayThyme](./PayThyme.html){.nonexistent}\'s development platform is Thyme, our own Python development framework based on Python, C and [PyQt](PyQt). It allows us to develop business applications very quickly indeed.
+[PayThyme](./PayThyme.html)\'s development platform is Thyme, our own Python development framework based on Python, C and [PyQt](PyQt). It allows us to develop business applications very quickly indeed.
 
 This presentation describes Thyme, the rationale behind its design, demonstrates it in use, and shows how we are updating and extending it.
 
@@ -309,7 +314,7 @@ David Stanek & Mike Pirnat / AG Interactive
 
 A commonly observed myth about the Python programming language is that \"it doesn\'t scale,\" particularly in the context of web applications. Thankfully, this is far from the truth; Python in fact provides the possibility to scale to significant enterprise levels. As evidence in Python\'s favor, we will discuss the scaling challenges and successes of AG Interactive.
 
-AG Interactive develops and operates a family of large, high-traffic websites using Python. Our websites are focused primarily on the electronic greeting card and social self-expression industries, where it\'s essential to be available when our customers need to connect with one another. The most widely-recognizable brands in our network are [AmericanGreetings.com](http://www.americangreetings.com){.http}, [BlueMountain.com](http://www.bluemountain.com){.http}, and [Egreetings.com](http://www.egreetings.com){.http}; in addition, we provide the online greetings capabilities for such industry leaders as AOL, MSN, and Yahoo, as well as supporting numerous other partner integrations. Our websites deliver a monthly average of approximately 30 million page views, but we also encounter profound seasonal and holiday traffic spikes that can demand over 90 million page views within a 48-hour period. A typical day in our off-season is roughly equivalent to a sustained Slashdotting. Additionally, the needs of our business are constantly growing; to fulfill them, we implement and deploy hundreds of projects each year. Python allows us to accomplish this without exploding our staffing needs.
+AG Interactive develops and operates a family of large, high-traffic websites using Python. Our websites are focused primarily on the electronic greeting card and social self-expression industries, where it\'s essential to be available when our customers need to connect with one another. The most widely-recognizable brands in our network are [AmericanGreetings.com](http://www.americangreetings.com), [BlueMountain.com](http://www.bluemountain.com), and [Egreetings.com](http://www.egreetings.com); in addition, we provide the online greetings capabilities for such industry leaders as AOL, MSN, and Yahoo, as well as supporting numerous other partner integrations. Our websites deliver a monthly average of approximately 30 million page views, but we also encounter profound seasonal and holiday traffic spikes that can demand over 90 million page views within a 48-hour period. A typical day in our off-season is roughly equivalent to a sustained Slashdotting. Additionally, the needs of our business are constantly growing; to fulfill them, we implement and deploy hundreds of projects each year. Python allows us to accomplish this without exploding our staffing needs.
 
 We will discuss the infrastructure that we\'ve put in place to respond to these challenges, how we have architected to scale to many sites as well as high volumes of traffic, and how Python allows it all to happen. We hope by our example to provide an inspiration for others to achieve success with Python in high-capacity, scalable solutions.
 
@@ -378,13 +383,13 @@ Some of the tools covered:
 
 #40. **SAM: Transforming a commandline tool to Web 3000 (c)**
 
-Matt Harrison / [SpikeSource](./SpikeSource.html){.nonexistent}
+Matt Harrison / [SpikeSource](./SpikeSource.html)
 
-This presentation discusses Spike Asset Manager (SAM [http://developer.spikesource.com/wiki/index.php/Projects:sam](http://developer.spikesource.com/wiki/index.php/Projects:sam){.http} ), the reasons python was chosen as implementation language as well the benefits python has provided.
+This presentation discusses Spike Asset Manager (SAM [http://developer.spikesource.com/wiki/index.php/Projects:sam](http://developer.spikesource.com/wiki/index.php/Projects:sam) ), the reasons python was chosen as implementation language as well the benefits python has provided.
 
 SAM is a tool that detects open source components on a system (windows, linux, mac). By the time [PyCon](PyCon) rolls around SAM will have transformed from a relatively simple cross platform command line application to a network aware server capable of detecting other instances. IT users will be able to control all instances from either the command line or a gui (fancy AJAX provided in a web broswer because some systems may be headless).
 
-This talk will discuss the evolution of SAM, the design decisions made and a few of the open source projects it uses (PDIS Xpath, [ElementTree](ElementTree), Path, Cheetah, json-py, [MochiKit](./MochiKit.html){.nonexistent}, [WebStack](WebStack), pyzeroconf, py2exe and more). The intended audience is python users who are interested in AJAX, Web2.0 or converting a commandline app into a web enabled app.
+This talk will discuss the evolution of SAM, the design decisions made and a few of the open source projects it uses (PDIS Xpath, [ElementTree](ElementTree), Path, Cheetah, json-py, [MochiKit](./MochiKit.html), [WebStack](WebStack), pyzeroconf, py2exe and more). The intended audience is python users who are interested in AJAX, Web2.0 or converting a commandline app into a web enabled app.
 
 ------------------------------------------------------------------------
 
@@ -444,7 +449,7 @@ Lastly we will also share our experience of various challenges and possibilities
 
 Links to background information on the talk:
 
-- [http://codespeak.net/pypy/dist/pypy/doc/dev_method.html](http://codespeak.net/pypy/dist/pypy/doc/dev_method.html){.http} [http://codespeak.net/pypy/dist/pypy](http://codespeak.net/pypy/dist/pypy){.http}
+- [http://codespeak.net/pypy/dist/pypy/doc/dev_method.html](http://codespeak.net/pypy/dist/pypy/doc/dev_method.html) [http://codespeak.net/pypy/dist/pypy](http://codespeak.net/pypy/dist/pypy)
 
 ------------------------------------------------------------------------
 
@@ -462,7 +467,7 @@ The release due in December is actually the second rewrite of ccPublisher, and d
 
 Using events, adapters and subscribers from the Zope 3 project, the new iteration allows developers to customize areas of interest without delving into the inner workings of the entire system. For example, a developer who wishes to implement a new upload target does not need to know what metadata fields are collected; they only need to know how to handle \"Publish\" events, and know that an object impementing a particular interface is passed as the parameter. This wide-spread decoupling had the added benefit of making it easy to enable \"extensions\" to the application (i.e., post to my blog when I upload new media), as well as full-scale customizations.
 
-The talk will dicuss how we went about designing an application that would be easily modifiable and extensible by other developers, and in the process improved the maitainability and clarity of our own code. It will also focus on using infrastructure pieces developed as part of the Zope 3 project for an application in a completely different domain (desktop v. web-based). Finally, we will provide brief coverage of challenges that have arisen during deployment. These include bundling ZCML configuration with our Python code in a [Py2Exe](Py2Exe) or [Py2App](./Py2App.html){.nonexistent} bundle and boostrapping an application which is able to load 3rd party extensions from other developers.
+The talk will dicuss how we went about designing an application that would be easily modifiable and extensible by other developers, and in the process improved the maitainability and clarity of our own code. It will also focus on using infrastructure pieces developed as part of the Zope 3 project for an application in a completely different domain (desktop v. web-based). Finally, we will provide brief coverage of challenges that have arisen during deployment. These include bundling ZCML configuration with our Python code in a [Py2Exe](Py2Exe) or [Py2App](./Py2App.html) bundle and boostrapping an application which is able to load 3rd party extensions from other developers.
 
 ------------------------------------------------------------------------
 
@@ -498,7 +503,7 @@ vobject has no dependence on any Chandler libraries, and its license diverges fr
 
 vobject features parsing and serialization of iCalendar objects, including converting python standard timezone classes to and from iCalendar VTIMEZONE. It also integrates with the dateutil package to provide expansion of recurrence rules.
 
-vobject\'s homepage is [http://vobject.skyhouseconsulting.com](http://vobject.skyhouseconsulting.com){.http}
+vobject\'s homepage is [http://vobject.skyhouseconsulting.com](http://vobject.skyhouseconsulting.com)
 
 ------------------------------------------------------------------------
 
@@ -547,7 +552,7 @@ Aaron Edsinger
 
 In this talk, I will discuss the use of Python at the humanoid robotics lab at MIT CSAIL, and give a brief overview and demonstration of pysense, a collection of Python code that we will be releasing as open source prior to (or in conjunction with) [PyCon](PyCon) 2006.
 
-At the humanoid robotics lab at MIT, Python now runs on most of our platforms. Two systems in particular fundamentally rely on Python, Domo a humanoid robot ( [http://people.csail.mit.edu/edsinger/domo.htm](http://people.csail.mit.edu/edsinger/domo.htm){.http} ) and Duo ( [http://people.csail.mit.edu/cckemp/](http://people.csail.mit.edu/cckemp/){.http} ) a wearable system. In spite of the real-time constraints of robot perception and control, we have found that Python can play an important role in most aspects of our research through pure Python and SWIG wrapped C++ modules.
+At the humanoid robotics lab at MIT, Python now runs on most of our platforms. Two systems in particular fundamentally rely on Python, Domo a humanoid robot ( [http://people.csail.mit.edu/edsinger/domo.htm](http://people.csail.mit.edu/edsinger/domo.htm) ) and Duo ( [http://people.csail.mit.edu/cckemp/](http://people.csail.mit.edu/cckemp/) ) a wearable system. In spite of the real-time constraints of robot perception and control, we have found that Python can play an important role in most aspects of our research through pure Python and SWIG wrapped C++ modules.
 
 Both platforms use a common Python code base named pysense for visualization, perception, and annotation. We are currently preparing to officially release this software as open source (svn access is now granted by request). Pysense consists of an efficient OpenGL based display for 3D information and video; image iterators for capturing from a variety of cameras in Linux; real-time computer vision algorithms including methods for motion processing, segmentation, and object detection; and tools for browsing and annotating video databases for machine learning.
 
@@ -566,7 +571,7 @@ Requirements:
 - Familiarity with object-oriented programming in Python
 - Familiarity with HTML
 
-I have uploaded the talk slides here: [http://slinkp.com/\~paul/pycon_2006/z2/notes.html](http://slinkp.com/~paul/pycon_2006/z2/notes.html){.http}
+I have uploaded the talk slides here: [http://slinkp.com/\~paul/pycon_2006/z2/notes.html](http://slinkp.com/~paul/pycon_2006/z2/notes.html)
 
 ------------------------------------------------------------------------
 
@@ -596,7 +601,7 @@ We\'ll talk about our experiences with Python as a language for truly mission-cr
 
 - David Goodger / CDP Capital Felix Wiemann
 
-A very quick overview of the [Docutils](http://docutils.sf.net){.http} architecture, followed by examples of using Docutils in applications, extending Docutils with new plug-ins, languages, and Writers, and extending [reStructuredText](http://docutils.sf.net/rst.html){.http} with directives and interpreted text roles. Finally, we will create and test a new directive, live!
+A very quick overview of the [Docutils](http://docutils.sf.net) architecture, followed by examples of using Docutils in applications, extending Docutils with new plug-ins, languages, and Writers, and extending [reStructuredText](http://docutils.sf.net/rst.html) with directives and interpreted text roles. Finally, we will create and test a new directive, live!
 
 Related talks: [\"Easy Slide Shows With reStructuredText & S5\"](./PyCon2006(2f)Talks.html#A64) and [\"What is Nabu?\"](./PyCon2006(2f)Talks.html#A24) both describe applications of Docutils.
 
@@ -616,7 +621,7 @@ Django is a high-level web development framework for rapid development of databa
 
 David Goodger / CDP Capital
 
-A quick how-to/tutorial: writing slide shows using [reStructuredText](http://docutils.sf.net/rst.html){.http} and [S5](http://meyerweb.com/eric/tools/s5/){.http}, Eric Meyer\'s \"Simple Standards-based Slide Show System\". The generated presentation is HTML, and can be viewed using any OS and any modern web browser that supports CSS, [JavaScript](./JavaScript.html){.nonexistent}, and XHTML. We will cover installing Docutils, writing the presentation text, generating the slides, tweaking the stylesheets, and setting up the browser for projecting the slides.
+A quick how-to/tutorial: writing slide shows using [reStructuredText](http://docutils.sf.net/rst.html) and [S5](http://meyerweb.com/eric/tools/s5/), Eric Meyer\'s \"Simple Standards-based Slide Show System\". The generated presentation is HTML, and can be viewed using any OS and any modern web browser that supports CSS, [JavaScript](./JavaScript.html), and XHTML. We will cover installing Docutils, writing the presentation text, generating the slides, tweaking the stylesheets, and setting up the browser for projecting the slides.
 
 Related talks: [\"Docutils Developers Tutorial: Architecture, Extending, and Embedding\"](./PyCon2006(2f)Talks.html#A62) is for those interested in the implementation details of Docutils. [\"What is Nabu?\"](./PyCon2006(2f)Talks.html#A24) describes another application of Docutils.
 
@@ -717,7 +722,7 @@ Martin Pool is the lead developer of bazaar-ng, and an employee of Canonical, th
 
 More information:
 
-- [http://bazaar-ng.org/](http://bazaar-ng.org/){.http}
+- [http://bazaar-ng.org/](http://bazaar-ng.org/)
 
 ------------------------------------------------------------------------
 
@@ -740,4 +745,3 @@ In this talk I will go back to the origins of Python. I\'ll discuss the ABC lang
 ------------------------------------------------------------------------
 
 [CategoryPyCon2006](CategoryPyCon2006)
-:::

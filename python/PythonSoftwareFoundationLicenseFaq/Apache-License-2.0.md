@@ -1,9 +1,14 @@
 # PythonSoftwareFoundationLicenseFaq/Apache-License-2.0
 
-::: {#content dir="ltr" lang="en"}
-# Apache License, Version 2.0 {#Apache_License.2C_Version_2.0}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Apache License Version 2.0, January 2004 [http://www.apache.org/licenses/](http://www.apache.org/licenses/){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Apache License, Version 2.0 
+
+Apache License Version 2.0, January 2004 [http://www.apache.org/licenses/](http://www.apache.org/licenses/)
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -87,4 +92,3 @@ END OF TERMS AND CONDITIONS
          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
          See the License for the specific language governing permissions and
          limitations under the License.
-:::

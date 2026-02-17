@@ -1,6 +1,11 @@
 # PackagingWG/2020-11-24-pip-team-meeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Wed 24 Nov
 
 Participants
@@ -13,7 +18,7 @@ Participants
 Agenda
 
 - 20.3 release
-  - [https://github.com/pypa/pip/milestone/38](https://github.com/pypa/pip/milestone/38){.https}
+  - [https://github.com/pypa/pip/milestone/38](https://github.com/pypa/pip/milestone/38)
 
     - #9011 is the blocker.
 
@@ -32,9 +37,9 @@ Agenda
   - pip resolver survey response updates
     - TODO: Bernard to refresh from last week
 - prepping for UX training
-  - [https://wiki.python.org/psf/PackagingWG/2020-09-30-pip-teamwidemeeting](https://wiki.python.org/psf/PackagingWG/2020-09-30-pip-teamwidemeeting){.https}
+  - [https://wiki.python.org/psf/PackagingWG/2020-09-30-pip-teamwidemeeting](https://wiki.python.org/psf/PackagingWG/2020-09-30-pip-teamwidemeeting)
 
-  - [https://wiki.python.org/psf/PackagingWG/2020-09-29-pip](https://wiki.python.org/psf/PackagingWG/2020-09-29-pip){.https}
+  - [https://wiki.python.org/psf/PackagingWG/2020-09-29-pip](https://wiki.python.org/psf/PackagingWG/2020-09-29-pip)
 
   - from Bernard-Sumana conversation
     - 10-15 participants who are key contributors - that would be a happymaking number for Sumana
@@ -84,4 +89,3 @@ Agenda
 - CZI convening \[December\]
   - would be great if Nicole could attend just the docs working group
 - Analytics - may talk about it today
-:::

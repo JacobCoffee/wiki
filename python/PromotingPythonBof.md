@@ -1,7 +1,12 @@
 # PromotingPythonBof
 
-::: {#content dir="ltr" lang="en"}
-See also [http://wiki.python.org/moin/evangelism_support_materials](http://wiki.python.org/moin/evangelism_support_materials){.http}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+See also [http://wiki.python.org/moin/evangelism_support_materials](http://wiki.python.org/moin/evangelism_support_materials)
 
 Promoting, pushing, proslytizing Python. Some possible topics -
 
@@ -12,13 +17,13 @@ Promoting, pushing, proslytizing Python. Some possible topics -
 
 If you are interested in continuing discussion or helping to develop promotional materials (articles, glossy brochures, pod casts, etc) for Python, please sign up on the mailing list:
 
-[http://wingware.com/mailman/listinfo/marketing-python](http://wingware.com/mailman/listinfo/marketing-python){.http}
+[http://wingware.com/mailman/listinfo/marketing-python](http://wingware.com/mailman/listinfo/marketing-python)
 
 [StartingYourUsersGroup](StartingYourUsersGroup)
 
 [WellKnownPythonPrograms](WellKnownPythonPrograms)
 
-## Notes from the session {#Notes_from_the_session}
+## Notes from the session 
 
 PSF has a strong desire to promote the language.
 
@@ -39,7 +44,7 @@ Need a template/example of a \"standard\" evangelical talk
 
 - \- [WesleyChun](WesleyChun) has created a talk, will make his slides available
 
-  \- PSF once funded Software Carpentry slides - [http://www.third-bit.com/swc/](http://www.third-bit.com/swc/){.http}
+  \- PSF once funded Software Carpentry slides - [http://www.third-bit.com/swc/](http://www.third-bit.com/swc/)
 
 Make screencasts
 
@@ -58,7 +63,7 @@ PSF fund productivity studies?
 
 - \- One old \"empirical\" study on scripting languages in general exists - Could utilize university researchers always hungry for projects - But how to get it to industry\'s attention?
 
-\"Success stories\" - several are at [http://pythonology.org](http://pythonology.org){.http}
+\"Success stories\" - several are at [http://pythonology.org](http://pythonology.org)
 
 Details on solving specific types of problems with Python (try this approach, these modules, case studies specific to that problem)
 
@@ -73,4 +78,3 @@ Please follow these ideas up on the mailing list!
 ------------------------------------------------------------------------
 
 [CategoryAdvocacy](CategoryAdvocacy)
-:::

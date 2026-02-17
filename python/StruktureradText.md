@@ -1,7 +1,12 @@
 # StruktureradText
 
-::: {#content dir="ltr" lang="en"}
-StruktureradText är text som använder indrag och enkla symboler för att beskriva dokumentets strukture. För att läsa om nästa generations strukturerad text, se [ReStructuredText](http://moinmo.in/ReStructuredText "MoinMoin"){.interwiki} och [here](http://dev.zope.org/Members/jim/StructuredTextWiki/StructuredTextNG){.http}.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+StruktureradText är text som använder indrag och enkla symboler för att beskriva dokumentets strukture. För att läsa om nästa generations strukturerad text, se [ReStructuredText](http://moinmo.in/ReStructuredText "MoinMoin") och [here](http://dev.zope.org/Members/jim/StructuredTextWiki/StructuredTextNG).
 
 En strukturerad sträng består av en sekvens av paragrafer åtsklijda av en eller flera blankrader. Varje stycke har en nivå som är definierad av det minsta indraget i stycket. En stycke är inuti ett annat stycke om det omkringliggande stycker har en lägre indragsnivå.
 
@@ -29,17 +34,17 @@ Speciell symbolik används för att beskriva speciella konstruktioner:
 
 - Text som står mellan dubbla citationstecken följt av ett kolon, eller en `URL`{.backtick}eller som avslutas med interpunktionstecken följt av mellanslag, behandlas som en hyperlänk. Till exempel:
 
-  - \"Zope\":[http://www.zope.org/](http://www.zope.org/){.http} är \...
+  - \"Zope\":[http://www.zope.org/](http://www.zope.org/) är \...
 
-  Tolkas som \'\<a href=\"[http://www.zope.org/\"\>Zope\</a\>](http://www.zope.org/%22%3EZope%3C/a%3E){.http} är \....\'
+  Tolkas som \'\<a href=\"[http://www.zope.org/\"\>Zope\</a\>](http://www.zope.org/%22%3EZope%3C/a%3E) är \....\'
 
   **Observera:** Detta fungerar för relativa såväl som för absoluta `URL`{.backtick}:er.
 
 - Text som står mellan dubbla citationstecken följt av ett comma, en eller flera blanktecken, en absolut URL och avslutas med interpunktionstecken och ett mellanslag, eller bara mellanslag, ses som en hyperlänk. Exempel:
 
-  - \"maila mig\", [mailto:amos@digicool.com](mailto:amos@digicool.com){.mailto}.
+  - \"maila mig\", [mailto:amos@digicool.com](mailto:amos@digicool.com).
 
-  Ses som \'\<a href=\"[mailto:amos@digicool.com\"\>maila](mailto:amos@digicool.com%22%3Emaila){.mailto} mig\</a\>.\'
+  Ses som \'\<a href=\"[mailto:amos@digicool.com\"\>maila](mailto:amos@digicool.com%22%3Emaila) mig\</a\>.\'
 
 - Text som står mellan hakparentser och som består av endast bokstäver, siffror, understryckningstecken och bindestreck ses som en hyperlänk i dokumentet. Exempel:
 
@@ -73,4 +78,3 @@ Speciell symbolik används för att beskriva speciella konstruktioner:
     | Ägg        | 3          |
     +------------+------------+
     :::
-:::

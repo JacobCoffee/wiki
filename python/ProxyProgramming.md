@@ -1,11 +1,16 @@
 # ProxyProgramming
 
-::::: {#content dir="ltr" lang="en"}
-# Proxy {#Proxy}
+```{admonition} Legacy Wiki Page
+:class: note
 
-See also [http://www.python.org/workshops/1997-10/proceedings/savikko.html](http://www.python.org/workshops/1997-10/proceedings/savikko.html){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-### special method names {#special_method_names}
+# Proxy 
+
+See also [http://www.python.org/workshops/1997-10/proceedings/savikko.html](http://www.python.org/workshops/1997-10/proceedings/savikko.html)
+
+### special method names 
 
 ------------------------------------------------------------------------
 
@@ -19,9 +24,9 @@ See also [http://www.python.org/workshops/1997-10/proceedings/savikko.html](http
 
 - ??
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3ef1b1ceda5d76f6631eb2dc7e7b0adfbe025a90 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Code is Public Domain.
    2 class Proxy(object):
    3     def __init__(self, subject):
@@ -69,4 +74,3 @@ See also [http://www.python.org/workshops/1997-10/proceedings/savikko.html](http
 ```
 :::
 ::::
-:::::

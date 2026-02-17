@@ -1,7 +1,12 @@
 # SummerOfCode/Proposals
 
-::: {#content dir="ltr" lang="en"}
-## Tips on writing your proposal {#Tips_on_writing_your_proposal}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Tips on writing your proposal 
 
 **Be detailed.** Don\'t say \"I want to improve Python\'s support of XYZ\", because that\'s vague, making it difficult to assess the project\'s feasibility or the time required. What changes would you make to improve XYZ support?
 
@@ -22,4 +27,3 @@ Remember that mentors need a way to see that you\'re making progress (or that yo
 **Suggest a mentor.** If you know a developer who would be a good mentor for your project, contact him/her and ask if they\'re interested. In 2005, some interesting projects went unfunded because there was no one in the pool of mentors who felt capable of handling them.
 
 **Describe the Benefits to Python.** If a neat application has no particular tie to python except that it was written in python \-- that is OK. We still like it, and we could probably find a willing mentor. But when we have to prioritize *which* good projects to fund, these applications will suffer.
-:::

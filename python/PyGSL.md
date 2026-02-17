@@ -1,12 +1,17 @@
 # PyGSL
 
-::::: {#content dir="ltr" lang="en"}
-![(!)](/wiki/europython/img/idea.png "(!)"){height="16" width="16"} Print this page in PRINT mode (action=print) to get handouts.
+```{admonition} Legacy Wiki Page
+:class: note
 
-PyGSL reference manual: [http://pygsl.sourceforge.net/reference/pygsl/index.html](http://pygsl.sourceforge.net/reference/pygsl/index.html){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-::: {#HelpOnSlideShows.2F000_Introduction.content dir="ltr" lang="en"}
-# Introduction {#HelpOnSlideShows.2F000_Introduction.Introduction}
+![(!)](/wiki/europython/img/idea.png "(!)") Print this page in PRINT mode (action=print) to get handouts.
+
+PyGSL reference manual: [http://pygsl.sourceforge.net/reference/pygsl/index.html](http://pygsl.sourceforge.net/reference/pygsl/index.html)
+
+::: 
+# Introduction 
 
 You can use all wiki markup for making your slides - just keep the following in mind:
 
@@ -23,14 +28,14 @@ You can use all wiki markup for making your slides - just keep the following in 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-::: {#HelpOnSlideShows.2F100_Creating_the_slides.content dir="ltr" lang="en"}
-# Creating the slides {#HelpOnSlideShows.2F100_Creating_the_slides.Creating_the_slides}
+::: 
+# Creating the slides 
 
 Put a headline on top of your page (as you see above) because in DiaShow mode, the wiki page title won\'t be visible (as the whole wiki frame stuff won\'t be visible, only the page contents).
 
 If you do not want to enumerate your headlines, use `#pragma section-numbers off`{.backtick} at top of your page.
 
-![(!)](/wiki/europython/img/idea.png "(!)"){height="16" width="16"} Don\'t forget to fill in some valuable content.
+![(!)](/wiki/europython/img/idea.png "(!)") Don\'t forget to fill in some valuable content.
 
 For your convenience, there is a [SlideTemplate](SlideTemplate) - use it.
 
@@ -44,4 +49,3 @@ Put `<<Navigation(slides)>>`{.backtick} (upper) or `<<Navigation(siblings)>>`{.b
   [/000 Introduction](./HelpOnSlideShows(2f)000(20)Introduction.html)   /100 Creating the slides   [/900 Last but not least: Running your presentation](./HelpOnSlideShows(2f)900(20)Last(20)but(20)not(20)least(3a20)Running(20)your(20)presentation.html)  
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
-:::::

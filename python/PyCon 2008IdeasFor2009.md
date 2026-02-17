@@ -1,49 +1,54 @@
 # PyCon 2008IdeasFor2009
 
-::::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Suggestions for 2009
 
 This page should be used as a place to capture the ideas that we don\'t want to forget to incorporate in 2009 given our fresh perspectives on 2008\... so\.... list away! (also, feel free to add topics/sections, the list below was just a quick start)
 
-::: {#contents .contents .local .topic}
-- [Financial Aid](#financial-aid){#id1 .reference .internal}
-- [Food, etc.](#food-etc){#id2 .reference .internal}
-- [General](#general){#id3 .reference .internal}
-- [Lightning Talks](#lightning-talks){#id4 .reference .internal}
-- [Networking](#networking){#id5 .reference .internal}
-- [Open Space](#open-space){#id6 .reference .internal}
-- [Registration Desk](#registration-desk){#id7 .reference .internal}
-- [Sponsorship](#sponsorship){#id8 .reference .internal}
-- [Talk Selection Process](#talk-selection-process){#id9 .reference .internal}
-- [Talk Logistics](#talk-logistics){#id10 .reference .internal}
-- [Tutorials](#tutorials){#id11 .reference .internal}
-- [Scheduling](#scheduling){#id12 .reference .internal}
-- [Website](#website){#id13 .reference .internal}
-- [Volunteer Coordination](#volunteer-coordination){#id14 .reference .internal}
-- [Job Board](#job-board){#id15 .reference .internal}
-- [Swag](#swag){#id16 .reference .internal}
-- [Traveling](#traveling){#id17 .reference .internal}
-- [PyCon Office](#pycon-office){#id18 .reference .internal}
-- [On-Site Feedback](#on-site-feedback){#id19 .reference .internal}
+::: 
+- [Financial Aid](#financial-aid)
+- [Food, etc.](#food-etc)
+- [General](#general)
+- [Lightning Talks](#lightning-talks)
+- [Networking](#networking)
+- [Open Space](#open-space)
+- [Registration Desk](#registration-desk)
+- [Sponsorship](#sponsorship)
+- [Talk Selection Process](#talk-selection-process)
+- [Talk Logistics](#talk-logistics)
+- [Tutorials](#tutorials)
+- [Scheduling](#scheduling)
+- [Website](#website)
+- [Volunteer Coordination](#volunteer-coordination)
+- [Job Board](#job-board)
+- [Swag](#swag)
+- [Traveling](#traveling)
+- [PyCon Office](#pycon-office)
+- [On-Site Feedback](#on-site-feedback)
 :::
 
 ------------------------------------------------------------------------
 
-::: {#financial-aid .section}
-### [Financial Aid](#id1){.toc-backref}
+::: 
+### [Financial Aid](#id1)
 
 - Make reimbursement process easier by creating a pdf for recipients to fill out instead of making them create their own.
 :::
 
-::: {#food-etc .section}
-### [Food, etc.](#id2){.toc-backref}
+::: 
+### [Food, etc.](#id2)
 
 - Have water be available in the hallways, not just the rooms
 - Convince the food vendors / hotel to leave the food trays around for longer than the few minutes when scheduled meal breaks are. Numerous times I missed the provided food due to an extended conversation following a talk or having been in the vendor area.
 :::
 
-::: {#general .section}
-### [General](#id3){.toc-backref}
+::: 
+### [General](#id3)
 
 - Better/more signage.
 - Large corkboard or whiteboard in registration area
@@ -52,8 +57,8 @@ This page should be used as a place to capture the ideas that we don\'t want to 
 - Push-to-talk handsets to facilitate communication. Cell phones are unreliable.
 :::
 
-::: {#lightning-talks .section}
-### [Lightning Talks](#id4){.toc-backref}
+::: 
+### [Lightning Talks](#id4)
 
 - Be more specific that talks should be more than a sales or recruiting pitch. Tell us about what you\'re doing!
 - Point people to example lightning talk videos, once we get them posted.
@@ -61,8 +66,8 @@ This page should be used as a place to capture the ideas that we don\'t want to 
 - Use \"Huge Applause\" sign video layover to help speakers know they\'re 5 minutes is up.
 :::
 
-::: {#networking .section}
-### [Networking](#id5){.toc-backref}
+::: 
+### [Networking](#id5)
 
 - wired network for speakers\' podiums, vendors & sponsors who request it, tutorials (esp. tutorial instructors)
 - wired network for tutorials \-- too many people need to install at the beginning of a tutorial and it was too easy for the wireless to go down thus holding up progress on tutorials.
@@ -71,8 +76,8 @@ This page should be used as a place to capture the ideas that we don\'t want to 
 - Will we need to supply networking for any other hotels now that the convention is spanning multiple hotels?
 :::
 
-::: {#open-space .section}
-### [Open Space](#id6){.toc-backref}
+::: 
+### [Open Space](#id6)
 
 - introduction to open space for attendees
   - The idea for an introduction 3x5 card at registration is great. \"Hipster\'s Guide to Ridiculously Easy Group Forming\"
@@ -87,16 +92,16 @@ This page should be used as a place to capture the ideas that we don\'t want to 
 - Communicate recording options so we can capture great sessions such as \"Teach Me Twisted\"
 :::
 
-::: {#registration-desk .section}
-### [Registration Desk](#id7){.toc-backref}
+::: 
+### [Registration Desk](#id7)
 
 - Have a simple badge printing program so that Mary can print badges w/o having to create a registration.
 - make on-site registration faster \-- get a terminal? do it in PayFlow\'s (or should I call it PayFlaw?) management interface? outsource the whole registration process to a third party?
 - make using the reg. software faster \-- shortcuts for common tasks, alt tag on the badge image, other tweaks.
 :::
 
-::: {#sponsorship .section}
-### [Sponsorship](#id8){.toc-backref}
+::: 
+### [Sponsorship](#id8)
 
 - Dedicate space for recruiting
   - Use open space room(s)?
@@ -104,15 +109,15 @@ This page should be used as a place to capture the ideas that we don\'t want to 
 - Make sure all sponsor bag materials are onsite the day before the tutorials so bags don\'t need to be handed out w/ partial content
 :::
 
-::: {#talk-selection-process .section}
-### [Talk Selection Process](#id9){.toc-backref}
+::: 
+### [Talk Selection Process](#id9)
 
 - Keep speaker names on proposals during reviews
 - Organize scheduled talks into themed tracks
 :::
 
-::: {#talk-logistics .section}
-### [Talk Logistics](#id10){.toc-backref}
+::: 
+### [Talk Logistics](#id10)
 
 - Better wrangling of speakers at speaking time, including:
   - Present before session
@@ -132,8 +137,8 @@ This page should be used as a place to capture the ideas that we don\'t want to 
 - A PyCon logo (w/year) to cover up the hotel logo placard on the podiums so that we don\'t have the hotel name in all the videos AND we have a reminder of the year \-- perhaps this idea could mutate into having a sign with the speaker\'s name and talk title for visibility on the video.
 :::
 
-::: {#tutorials .section}
-### [Tutorials](#id11){.toc-backref}
+::: 
+### [Tutorials](#id11)
 
 - The evening session worked well. What about 2 days of tutorials?
 - Allow for instructors to communicate with students (pre-conference)
@@ -171,23 +176,23 @@ This page should be used as a place to capture the ideas that we don\'t want to 
 - Is there a way to allow instructors to submit handout notes later? Brian said that the print shop had the jobs done before he could walk across the (very large) shop to get them. Could the notes be submitted a day or two before tutorial day?
 :::
 
-::: {#scheduling .section}
-### [Scheduling](#id12){.toc-backref}
+::: 
+### [Scheduling](#id12)
 
 - Start with PSF Community Awards to allow the recipients, if present, to receive congratulations all weekend.
 - Bigger raffle. No pick-up, just announce winners, pick up prizes at vendor booths. This may help us get more minor sponsors and more sponsor air-time. Unclaimed prizes can be re-raffled at later event.
 :::
 
-::: {#website .section}
-### [Website](#id13){.toc-backref}
+::: 
+### [Website](#id13)
 
-- A prominent contact email address for most things \-- i.e. [pycon-help@python.org](mailto:pycon-help@python.org){.mailto .reference .external} just to field and route questions to the right person\...
+- A prominent contact email address for most things \-- i.e. [pycon-help@python.org](mailto:pycon-help@python.org) just to field and route questions to the right person\...
 - More pictures of PyCon\'s diverse human population
 - Post conference dates, locations, and Tenative Schedule as early as possible to help cost planning (flights, justification, schedule priorities, etc.)
 :::
 
-::: {#volunteer-coordination .section}
-### [Volunteer Coordination](#id14){.toc-backref}
+::: 
+### [Volunteer Coordination](#id14)
 
 - Schedule major planning huddles for volunteers to pick up information (on paper) and updates to learn\...
   - Who are the Go-To people and places for specific issues (Safety, A/V, Scheduling, \...)
@@ -198,42 +203,41 @@ This page should be used as a place to capture the ideas that we don\'t want to 
 - Volunteer name-tag banners to encourage folks to ask questions. \"Need a map?\"
 :::
 
-::: {#job-board .section}
-### [Job Board](#id15){.toc-backref}
+::: 
+### [Job Board](#id15)
 
 - Physical cork board?
 - Or publicize the online job board.
 - Supply introduction in registration materials similar to Open Spaces.
 :::
 
-::: {#swag .section}
-### [Swag](#id16){.toc-backref}
+::: 
+### [Swag](#id16)
 
-- See [the swag ideas page](./PyCon_2008IdeasFor2009(2f)Swag.html){.nonexistent .reference .external}.
+- See [the swag ideas page](./PyCon_2008IdeasFor2009(2f)Swag.html).
 :::
 
-::: {#traveling .section}
-### [Traveling](#id17){.toc-backref}
+::: 
+### [Traveling](#id17)
 
 - provide CTA and metra schedules at the hotel
 :::
 
-::: {#pycon-office .section}
-### [PyCon Office](#id18){.toc-backref}
+::: 
+### [PyCon Office](#id18)
 
 - Printer available.
 - Supplies.
 - Where the PyCon Chair hides.
 :::
 
-::: {#on-site-feedback .section}
-### [On-Site Feedback](#id19){.toc-backref}
+::: 
+### [On-Site Feedback](#id19)
 
 - Issues with the venue, staff, food: talk to the PyCon Chair, or to a volunteer who will pass it on. (Write it down on an index card!)
 - Suggestions box?
 
 ------------------------------------------------------------------------
 
-[CategoryPyCon2009](CategoryPyCon2009){.reference .external}, [CategoryPyCon2008](CategoryPyCon2008){.reference .external}, [CategoryPyConPlanning](CategoryPyConPlanning){.reference .external}, [CategoryPyCon](CategoryPyCon){.reference .external}
+[CategoryPyCon2009](CategoryPyCon2009), [CategoryPyCon2008](CategoryPyCon2008), [CategoryPyConPlanning](CategoryPyConPlanning), [CategoryPyCon](CategoryPyCon)
 :::
-:::::::::::::::::::::::

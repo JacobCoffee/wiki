@@ -1,11 +1,16 @@
 # XhosaLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Xhosa
 
 ISO 639-1 Code: xh
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -27,11 +32,11 @@ Where these pages really need help:
 
 **isiXhosa**
 
-[awkward attempt at doing this myself with help of [http://sabelo.tripod.com/dictionary.htm](http://sabelo.tripod.com/dictionary.htm){.http}]{.comment style="display:none"}
+[awkward attempt at doing this myself with help of [http://sabelo.tripod.com/dictionary.htm](http://sabelo.tripod.com/dictionary.htm)]
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-0c9aabc890e5d5ca5f08ee5577270ead3a9de246 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Python 3.0/3.1
    2 igama = 'Mnuzana Mandela'
    3 
@@ -45,4 +50,3 @@ Where these pages really need help:
 ::::
 
 [CategoryLanguage](CategoryLanguage)
-:::::

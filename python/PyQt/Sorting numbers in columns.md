@@ -1,15 +1,20 @@
 # PyQt/Sorting numbers in columns
 
-::::: {#content dir="ltr" lang="en"}
-# Sorting numbers in columns {#Sorting_numbers_in_columns}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Sorting numbers in columns 
 
 On the [PyQt mailing list](./PyQt(2f)TheMailingList.html), Bernard Van Der Stichele asked if it was possible to sort a column of numbers in a QTableWidget by their real numeric values instead of treating them as strings.
 
 The following example shows how to do this for a QTableView with a model. I don\'t think it\'s possible to apply this to a QTableWidget because its model is private.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-426a274fcebf8c312c33a2daa8de7f38b3c33307 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import random, sys
    2 from PyQt4.QtCore import Qt, QVariant
    3 from PyQt4.QtGui import *
@@ -45,4 +50,3 @@ The following example shows how to do this for a QTableView with a model. I don\
 ```
 :::
 ::::
-:::::

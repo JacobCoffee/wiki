@@ -1,41 +1,36 @@
 # Distutils/Proposals/SplitAndCompoundDistributions
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [Abstract](#Abstract)
-2.  [Rationale](#Rationale)
-3.  [Requirements/Ideas](#Requirements.2FIdeas)
-4.  [References](#References)
-5.  [Copyright and License Terms](#Copyright_and_License_Terms)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Abstract {#Abstract}
+## Abstract 
 
 Make the source-to-distribution mapping more flexible to allow people to build multiple distributions from one project, and to bundle multiple distributions into one distribution.
 
-## Rationale {#Rationale}
+## Rationale 
 
 When extracting reusable parts from a codebase, one must move the files and write a dedicated setup script (or setup config file, when PEP 390 is implemented). OS packagers sometimes also distribute Python packages from one distribution as separate OS packages (e.g. Debian has python-setuptools and python-pkg-resources). I think that Distutils2 could handle these use cases.
 
 Conversely, some people would like to provide their users with source and built meta-distribution bundling their project alongside with their build dependencies (including testing package) and runtime dependencies ([MoinMoin](MoinMoin) does that), without the need for virtualenv or network access. A new kind of distribution would meet this use case.
 
-## Requirements/Ideas {#Requirements.2FIdeas}
+## Requirements/Ideas 
 
 Building multiple distributions out of one directory will require either an extension to the setup.cfg file or a new file. We could take good ideas from other build systems. For example, Debian's debhelper toolchain builds everything and then moves files to build binay packages using manifests.
 
 Meta-distributions may or may not require an extension to the setup.cfg file. I need to think about this more.
 
-## References {#References}
+## References 
 
 1.  Add link to another Distutils page where building multiple packages was suggested
 
-2.  [Debian Developers Reference](http://www.debian.org/doc/developers-reference/best-pkging-practices.html#multiple-binary){.http} (scarce)
+2.  [Debian Developers Reference](http://www.debian.org/doc/developers-reference/best-pkging-practices.html#multiple-binary) (scarce)
 
-3.  [HOWTO Split a Package](http://wiki.debian.org/PkgSplit){.http} on the Debian wiki: Example of manifests
+3.  [HOWTO Split a Package](http://wiki.debian.org/PkgSplit) on the Debian wiki: Example of manifests
 
-4.  [Python bug #8371](http://bugs.python.org/issue8371){.http}, where I propose a command that would serve to download dependencies for normal and compound distributions.
+4.  [Python bug #8371](http://bugs.python.org/issue8371), where I propose a command that would serve to download dependencies for normal and compound distributions.
 
 5.  IRC discussion on #distutils on 2010-04-11 (edited):
 
@@ -58,7 +53,6 @@ Meta-distributions may or may not require an extension to the setup.cfg file. I 
     <merwok> I mean one command that downloads dependencies if necessary, and another one that builds a “fat” sdist?
     <ronny> that should work, i want both, slim and fat sdists
 
-## Copyright and License Terms {#Copyright_and_License_Terms}
+## Copyright and License Terms 
 
 I, [ÉricAraujo](./(c389)ricAraujo.html), make this document available to anyone for all purposes and intents, including edition and distribution, in the limits allowed by their jurisdictions. (There is no such thing as "placing in the public domain".)
-::::

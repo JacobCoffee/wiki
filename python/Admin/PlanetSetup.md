@@ -1,13 +1,18 @@
 # Admin/PlanetSetup
 
-::: {#content dir="ltr" lang="en"}
-# planet.python.org setup {#planet.python.org_setup}
+```{admonition} Legacy Wiki Page
+:class: note
 
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} *Please note: The administration pages have all been migrated to the new [PSF Systems Wiki](https://psf.projecthut.com/trac/psfsystems/wiki){.https}. Please no longer add information to these pages. If you need access to the new wiki, please contact [psf@python.org](mailto:psf@python.org){.mailto} for details.*
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Setup {#Setup}
+# planet.python.org setup 
 
-*Note: These instructions are probably outdated ! The current installation is run via a Github repository at [https://github.com/python/planet](https://github.com/python/planet){.https}*
+![/!\\](/wiki/europython/img/alert.png "/!\") *Please note: The administration pages have all been migrated to the new [PSF Systems Wiki](https://psf.projecthut.com/trac/psfsystems/wiki). Please no longer add information to these pages. If you need access to the new wiki, please contact [psf@python.org](mailto:psf@python.org) for details.*
+
+## Setup 
+
+*Note: These instructions are probably outdated ! The current installation is run via a Github repository at [https://github.com/python/planet](https://github.com/python/planet)*
 
 planet.python.org is currently hosted on dinsdale.python.org. It\'s running a 2005 version of the software
 
@@ -16,7 +21,7 @@ The set-up is in the /data/planet/ directory. Templates and the configuration fi
 - config.ini : for planet.python.org
 - jython.ini : for planet.jython.org
 
-The Subversion URL for the repository is [file:///data/repos/www/trunk/planet/config](file:///data/repos/www/trunk/planet/config){.file} on dinsdale, or `svn+ssh://pydotorg@svn.python.org/trunk/planet/` for remote access.
+The Subversion URL for the repository is [file:///data/repos/www/trunk/planet/config](file:///data/repos/www/trunk/planet/config) on dinsdale, or `svn+ssh://pydotorg@svn.python.org/trunk/planet/` for remote access.
 
 For example: `svn co svn+ssh://pydotorg@svn.python.org/trunk/planet/`
 
@@ -29,7 +34,7 @@ The sites are updated with the following cron jobs (again, under my user ID):
 
 (run.sh is a little wrapper script; it can be useful to execute \"run.sh -o \<config-file\>\" when experimenting with template changes.)
 
-## Adding/removing feeds {#Adding.2Fremoving_feeds}
+## Adding/removing feeds 
 
 The mechanical task of adding and removing feeds is pretty easy: edit the appropriate config. changes.
 
@@ -43,7 +48,7 @@ However, I don\'t get upset over non-Python related posts as long as the weblog 
 
 In the past I have dropped feeds of people who began writing exclusively about non-Python topics, sometimes after sending them an e-mail asking if this is a temporary or permanent change (sometimes it\'s obvious). Generally I\'ll drop feeds that haven\'t been updated at all in 9 months, but I haven\'t done a systematic liveness check in at least a year.
 
-## Tasks {#Tasks}
+## Tasks 
 
 - Possible task: move entire set-up to ximinez.python.org, which runs more of the dynamic content for \*.python.org.
 
@@ -52,4 +57,3 @@ In the past I have dropped feeds of people who began writing exclusively about n
 ------------------------------------------------------------------------
 
 [CategoryPythonWebsite](CategoryPythonWebsite)
-:::

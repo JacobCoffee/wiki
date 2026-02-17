@@ -1,15 +1,20 @@
 # PyQt/Compass widget
 
-::::: {#content dir="ltr" lang="en"}
-# Compass widget {#Compass_widget}
+```{admonition} Legacy Wiki Page
+:class: note
 
-On the `#pyqt`{.backtick} channel on [Freenode](http://freenode.net){.http}, `epifanio`{.backtick} was creating a compass widget. Although he eventually decided to use Graphics View for this, the following code could be used as the starting point for a simple custom widget with a custom signal and a property for controlling the angle.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-![compasswidget.png](attachments/PyQt(2f)Compass(20)widget/compasswidget.png "compasswidget.png"){.attachment}
+# Compass widget 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ce614ca2c2f519cbf43b517c006c857c12a8c673 dir="ltr" lang="en"}
+On the `#pyqt`{.backtick} channel on [Freenode](http://freenode.net), `epifanio`{.backtick} was creating a compass widget. Although he eventually decided to use Graphics View for this, the following code could be used as the starting point for a simple custom widget with a custom signal and a property for controlling the angle.
+
+![compasswidget.png](attachments/PyQt(2f)Compass(20)widget/compasswidget.png "compasswidget.png")
+
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import *
    3 from PyQt4.QtGui import *
@@ -133,4 +138,3 @@ On the `#pyqt`{.backtick} channel on [Freenode](http://freenode.net){.http}, `ep
 ```
 :::
 ::::
-:::::

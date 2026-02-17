@@ -1,13 +1,18 @@
 # MacPython/Growl/AppleScriptSupport
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Translated examples from Growl\'s [AppleScript](./MacPython(2f)AppleScript.html) Support page:
 
 - **Basics**
 
-  - :::: {.highlight .python}
-    ::: {.codearea dir="ltr" lang="en"}
-    ``` {#CA-19e25330c49e4182cb241ab266aef53c1ea52e0c dir="ltr" lang="en"}
+  - :::: 
+    ::: 
+    ``` 
        1 #!/usr/bin/pythonw
        2 from appscript import *
        3 
@@ -53,9 +58,9 @@ Translated examples from Growl\'s [AppleScript](./MacPython(2f)AppleScript.html)
 - **Notifications using Images**
 
   - Application Icons
-    - :::: {.highlight .python}
-      ::: {.codearea dir="ltr" lang="en"}
-      ``` {#CA-3d628b2ebb587323fe6b3c533eaa1bcfe52ad15f dir="ltr" lang="en"}
+    - :::: 
+      ::: 
+      ``` 
          1 growl.notify( 
          2     with_name="Some Notification",
          3     title="This is a Notification with an App Icon",
@@ -66,9 +71,9 @@ Translated examples from Growl\'s [AppleScript](./MacPython(2f)AppleScript.html)
       :::
       ::::
   - File Icons
-    - :::: {.highlight .python}
-      ::: {.codearea dir="ltr" lang="en"}
-      ``` {#CA-f71eec36cb8aceca996c34c02c8a7bb5b06f6c29 dir="ltr" lang="en"}
+    - :::: 
+      ::: 
+      ``` 
          1 growl.notify(
          2     with_name="Some Notification",
          3     title="This is a Notification with an File Icon",
@@ -79,9 +84,9 @@ Translated examples from Growl\'s [AppleScript](./MacPython(2f)AppleScript.html)
       :::
       ::::
   - Image Files
-    - :::: {.highlight .python}
-      ::: {.codearea dir="ltr" lang="en"}
-      ``` {#CA-1a37060ab6fff4ded09a874c4a13b57c16205db3 dir="ltr" lang="en"}
+    - :::: 
+      ::: 
+      ``` 
          1 growl.notify(
          2     with_name "Some Notification",
          3     title="This is a Notification with an Image File",
@@ -93,4 +98,3 @@ Translated examples from Growl\'s [AppleScript](./MacPython(2f)AppleScript.html)
       ::::
   - Image Data
     - *(not done yet\...)*
-:::

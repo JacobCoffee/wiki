@@ -1,13 +1,18 @@
 # PyCon2008/SprintSignups/PyPy
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Sign Up for a Sprint!
 
 Are you interested in sprinting in this project? Great!
 
 Please add your name below, include your email address.
 
-If you\'re not sure which project to join, you can register in the [generic sprint sign-up page](http://wiki.python.org/moin/PyCon2008/SprintSignups){.http .reference .external}.
+If you\'re not sure which project to join, you can register in the [generic sprint sign-up page](http://wiki.python.org/moin/PyCon2008/SprintSignups).
 
 See you at PyCon!
 
@@ -15,7 +20,7 @@ See you at PyCon!
 
 PyPy is a python compiler written in Python. It\'s also a very flexible compiler toolchain which can compile so called RPython (restricted Python, a subset of Python without dynamic features) into a variety of platforms including C/POSIX, JVM and CLI. PyPy also features a set of experimental features, like different GCs or different threading models, which makes it a good platform to experiment with the python language.
 
-Project URL: [http://codespeak.net/pypy](http://codespeak.net/pypy){.http .reference .external}
+Project URL: [http://codespeak.net/pypy](http://codespeak.net/pypy)
 
 Sprint Leader: Maciej Fijalkowski
 
@@ -34,5 +39,4 @@ Software requirements: the details depends on what people would like to work on,
 
 - John Doe (deletethisline at nomail.net)
 
-list will be available at [http://codespeak.net/pypy/extradoc/sprintinfo/pycon2008/people.txt](http://codespeak.net/pypy/extradoc/sprintinfo/pycon2008/people.txt){.http .reference .external}
-:::
+list will be available at [http://codespeak.net/pypy/extradoc/sprintinfo/pycon2008/people.txt](http://codespeak.net/pypy/extradoc/sprintinfo/pycon2008/people.txt)

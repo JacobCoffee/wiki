@@ -1,17 +1,22 @@
 # StateProgramming
 
-::::::: {#content dir="ltr" lang="en"}
-# State Programming {#State_Programming}
+```{admonition} Legacy Wiki Page
+:class: note
 
-### Why, When {#Why.2C_When}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# State Programming 
+
+### Why, When 
 
 Very often, the response of a function will depend on the state of this object. With this pattern, It\'s easy to do such a thing ! You just have to write several sub-classes, each per state, inherit the State class and call the setState when the object need to change state.
 
-### Code {#Code}
+### Code 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-0cdcdbaa0687565c1122afdda3b01485ce1e1572 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Code is Public Domain.
    2 class State:
    3     
@@ -26,11 +31,11 @@ Very often, the response of a function will depend on the state of this object. 
 :::
 ::::
 
-### Example {#Example}
+### Example 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f45887b82ecb541834899d432dc129a4f220cb46 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Code is Public Domain.
    2 class test(State):
    3     def __init__(self,a):
@@ -97,4 +102,3 @@ Output is
     t2 State One
     t1 State Two you
     t2 State One you
-:::::::

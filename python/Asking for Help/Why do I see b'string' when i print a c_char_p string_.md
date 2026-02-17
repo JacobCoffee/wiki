@@ -1,15 +1,20 @@
 # Asking for Help/Why do I see b'string' when i print a c_char_p string?
 
-:::::: {#content dir="ltr" lang="en"}
-# Asking for Help: \... {#Asking_for_Help:_...}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: \... 
 
 \...
 
 I was trying to use ctypes to get Windows clipboard contents and the value that gets returned is a ctypes.c_char_p string. When I print it the string looks like b\'contents_of_clipboard\'. I am not sure why this happens or how to get rid of it. anyone know. The code that I pilfered from the net to do this is below
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-bf43b9c3f931ba6fa71bb20fabd44f94fce0b960 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import ctypes, sys
    2 
    3 def winGetClipboard():
@@ -31,4 +36,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp)
-::::::

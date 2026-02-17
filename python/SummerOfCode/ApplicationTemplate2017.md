@@ -1,7 +1,12 @@
 # SummerOfCode/ApplicationTemplate2017
 
-:::: {#content dir="ltr" lang="en"}
-# Python Software Foundation 2017 Google Summer of Code Application. {#Python_Software_Foundation_2017_Google_Summer_of_Code_Application.}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Python Software Foundation 2017 Google Summer of Code Application. 
 
 Fields at the top of this form are required. Please contact your mentors if you have any questions, and to make sure that your application is complete after it is submitted. Ideally, a GSoC application is a **collaborative** process, so please adjust based on any feedback you are given.
 
@@ -13,12 +18,12 @@ Your project title should explain in a few words what you plan to do and **inclu
 Python gets 100+ submissions some years, and it can be very hard for mentors to find your projects if they all have generic titles like \"my gsoc application.\" A good title can help you get early feedback that will make you more likely to get accepted, and a bad title could result in your application getting marked as spam and ignored!
 :::
 
-# sub org info {#sub_org_info}
+# sub org info 
 
 - Which python sub-org are you applying to work with? (e.g. Dipy, MyHDL)
   - You MUST specify this. If we have to guess, your application could be rejected in favour of students who followed instructions.
 
-# student info {#student_info}
+# student info 
 
 - Name:
 - Alternate names: (e.g. github username, irc nick, any other preferred names)
@@ -28,12 +33,12 @@ Python gets 100+ submissions some years, and it can be very hard for mentors to 
 - GSoC Blog RSS Feed URL:
   - You will be **required** to blog about your GSoC experience approximately every 2 weeks through the summer. The RSS feed is used to aggregate student blogs; we recommend using a tag like \"python\" or \"gsoc\" if you use this blog for anything other than GSoC.
 
-# code sample {#code_sample}
+# code sample 
 
 - Link to a patch/code sample, preferably one you have submitted to your sub-org (\*)
   - Note: **Python requires all students to submit a patch.** This does not need to be accepted and merged into your project, but it does need to be online and available for potential mentors to inspect. Contact your mentors if you have questions about what constitutes an appropriate sample. **Applications without a valid code sample will be rejected.**
 
-# project info {#project_info}
+# project info 
 
 - Proposal Title:
   - The name of your proposal. This should explain in a few words what you plan to do and **include the name of your sub-org**. e.g. \"QTile: Refactor window focusing\" or \"Kivy: Matplotlib Integration.\" (Including the name of your sub-org makes it much easier for mentors to find your proposal!)
@@ -43,7 +48,7 @@ Python gets 100+ submissions some years, and it can be very hard for mentors to 
   - Please include timeline with milestones, preferably weekly ones. You may wish to read the GSoC student guide which includes several examples of good proposals with timelines, or our own information at SummerOfCode/Application
   - Note that any pre-work such as setup and reading documentation should take place during the community bonding period, not after coding has started.
 
-# other commitments {#other_commitments}
+# other commitments 
 
 - Do you have any other commitments during the main GSoC time period?
   - **We don\'t penalize students for needing adjustments to schedule if they\'re up-front about them and have a plan to mitigate any issues. However, we \*have\* failed students for lying about their availability and subsequently falling behind in their work. Be honest!**
@@ -57,7 +62,7 @@ Python gets 100+ submissions some years, and it can be very hard for mentors to 
     - e.g family wedding, conference, volunteer projects, planned vacation days
 - Have you applied with any other organizations? If so, do you have a preferred project/org? (This will help us in the event that more than one organization decides they wish to accept your proposal.)
 
-# extra information {#extra_information}
+# extra information 
 
 This additional information isn\'t needed by the PSF, but can help your sub-orgs learn more about you. All fields in this extra information section are optional.
 
@@ -73,4 +78,3 @@ This additional information isn\'t needed by the PSF, but can help your sub-orgs
   - Instant messaging:
   - Twitter:
 - Don\'t forget to add any sub-org specific information here.
-::::

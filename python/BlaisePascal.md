@@ -1,7 +1,12 @@
 # BlaisePascal
 
-::: {#content dir="ltr" lang="en"}
-## Blaise Pascal {#Blaise_Pascal}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Blaise Pascal 
 
 Email: `<blaisepascal AT SPAMFREE gmail DOT com>`
 
@@ -12,4 +17,3 @@ I\'ll fill this in more later when I think of it.
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

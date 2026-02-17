@@ -1,7 +1,12 @@
 # AdvocacyWritingTasks
 
-::: {#content dir="ltr" lang="en"}
-# Writing Materials Wanted: {#Writing_Materials_Wanted:}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Writing Materials Wanted: 
 
 Hi! We need volunteers who can write and can create some of the following materials. Some of it already exists on the net; where so, let\'s collect links and I\'ll contact the authors to see about reusing/reformatting it, with credit.
 
@@ -13,9 +18,9 @@ To get page-level formatting features and fit into the business community, white
 
 We\'d like to start each whitepaper with a standard office template, but that has not yet been developed yet. If you have one you\'re proud of, please step forward.
 
-For web content, use of [reStructuredText](http://docutils.sourceforge/docs/user/rst/quickref.html){.http} is preferred, to simplify reuse of the content in different formats. And there is an [online parser](http://www.hosting4u.cz/jbar/rest/rest.html){.http} so you don\'t even have to download or run anything \-- just edit plain text using your favorite editor.
+For web content, use of [reStructuredText](http://docutils.sourceforge/docs/user/rst/quickref.html) is preferred, to simplify reuse of the content in different formats. And there is an [online parser](http://www.hosting4u.cz/jbar/rest/rest.html) so you don\'t even have to download or run anything \-- just edit plain text using your favorite editor.
 
-We would like all content to be licensed under the [GNU Free Documentation License (GFDL)](http://www.gnu.org/copyleft/fdl.html){.http} or [another free license](http://www.gnu.org/philosophy/license-list.html#TOC2FreeDocumentationLicenses){.http}.
+We would like all content to be licensed under the [GNU Free Documentation License (GFDL)](http://www.gnu.org/copyleft/fdl.html) or [another free license](http://www.gnu.org/philosophy/license-list.html#TOC2FreeDocumentationLicenses).
 
 In general, the style of writing should be informal, like you would find in an issue of Linux Journal or Dr. Dobbs magazine. Refer to yourself as \"we\", as you are representing the Python community and other authors may follow you to revise your document. Refer to the reader as \"you\".
 
@@ -25,7 +30,7 @@ For those who would prefer writing magazine articles, we also have an [ArticleId
 
 *Want to know what is being done with these materials? Check out [the advocacy kits](Advocacy#AdvocacyKits) into which they are being assembled!*
 
-## Documents To Be Written {#Documents_To_Be_Written}
+## Documents To Be Written 
 
 [(permalink)](AdvocacyWritingTasks#WhatIsPython)\
 **Title:** *[What is Python?](./AdvocacyWritingTasks(2f)WhatIsPython.html)*\
@@ -36,7 +41,7 @@ For handing out at mixed-topic conferences and user group meetings, where contac
 
 Include names/logos of your more mainstream companies that are using Python, but probably omit the more obscure ones.
 
-[RichardJones](RichardJones): I hobbled together a [single-page flyer](http://www.mechanicalcat.net/files/Python-Flyer.pdf){.http} (original [Python-Flyer.odt](http://www.mechanicalcat.net/files/Python-Flyer.odt){.http})
+[RichardJones](RichardJones): I hobbled together a [single-page flyer](http://www.mechanicalcat.net/files/Python-Flyer.pdf) (original [Python-Flyer.odt](http://www.mechanicalcat.net/files/Python-Flyer.odt))
 
 ------------------------------------------------------------------------
 
@@ -50,7 +55,7 @@ For handing out at Java events - it should bring to their attention the existenc
 ------------------------------------------------------------------------
 
 [(permalink)](AdvocacyWritingTasks#PythonForCppProgrammers)\
-**Title:** *[Python for C/C++ Programmers](./AdvocacyWritingTasks(2f)PythonForCPP.html){.nonexistent}*\
+**Title:** *[Python for C/C++ Programmers](./AdvocacyWritingTasks(2f)PythonForCPP.html)*\
 
 - *Using Python as a companion language for C/C++*\
 
@@ -84,7 +89,7 @@ For putting up on the web - it should discuss the resources available to user gr
 
 Some Source Material:
 
-- [http://wiki.python.org/moin/StartingYourUsersGroup](http://wiki.python.org/moin/StartingYourUsersGroup){.http}
+- [http://wiki.python.org/moin/StartingYourUsersGroup](http://wiki.python.org/moin/StartingYourUsersGroup)
 
 ------------------------------------------------------------------------
 
@@ -131,7 +136,7 @@ And last it make them aware that besides relational databases Python is also a p
 ------------------------------------------------------------------------
 
 [(permalink)](AdvocacyWritingTasks#ScientificPython)\
-**Title:** *[Scientific Computing with Python](./AdvocacyWritingTasks(2f)ScientificPython.html){.nonexistent}*\
+**Title:** *[Scientific Computing with Python](./AdvocacyWritingTasks(2f)ScientificPython.html)*\
 **Media:** a 2-sided flyer + whitepaper\
 **Assigned-To:** (no one; teaming is possible) (date assigned)
 
@@ -180,7 +185,7 @@ The whitepaper should survey the various visualization and graphing frameworks a
 
 For someone who currently is using Matlab, basically address their concerns point-by-point showing how the [NumPy](NumPy) option can accomplish much of what Matlab does. Be honest and also show what it cannot yet do. The idea is to show how using Python can save the college student or researcher a lot of money and still get 80% of the benefit.
 
-*Interesting reddit thread: [http://programming.reddit.com/info/sz4k/comments/](http://programming.reddit.com/info/sz4k/comments/){.http}*
+*Interesting reddit thread: [http://programming.reddit.com/info/sz4k/comments/](http://programming.reddit.com/info/sz4k/comments/)*
 
 ------------------------------------------------------------------------
 
@@ -244,12 +249,12 @@ For use at educational events, posting on campus bulletin boards and to perhaps 
 
 For use at schools to entice students to give Python a try because of their love for games. Using the [PyGame](PyGame) framework, show how quickly a game can be put together. Explain how Python supports the various kinds of games, first-person shooters, board games, etc. Mention the EVE online game and how it is based on Python. And, without getting into overwhelming details, provide some coverage of how Stackless Python lets you script the thousands of actors that occur in a game.
 
-I wrote a paper a year ago about this subject that might be useful: [http://richard.cgpublisher.com/product/pub.84/prod.37](http://richard.cgpublisher.com/product/pub.84/prod.37){.http} (there was a follow-up paper this year [http://richard.cgpublisher.com/product/pub.84/prod.37](http://richard.cgpublisher.com/product/pub.84/prod.37){.http} which introduced OpenGL). Personally I think talking about Stackless is unnecessary and confuses the issue. \-- [RichardJones](RichardJones)
+I wrote a paper a year ago about this subject that might be useful: [http://richard.cgpublisher.com/product/pub.84/prod.37](http://richard.cgpublisher.com/product/pub.84/prod.37) (there was a follow-up paper this year [http://richard.cgpublisher.com/product/pub.84/prod.37](http://richard.cgpublisher.com/product/pub.84/prod.37) which introduced OpenGL). Personally I think talking about Stackless is unnecessary and confuses the issue. \-- [RichardJones](RichardJones)
 
 ------------------------------------------------------------------------
 
 [(permalink)](AdvocacyWritingTasks#PythonSpeedIssues)\
-**Title:** *[The Speedy Python](./AdvocacyWritingTasks(2f)TheSpeedyPython.html){.nonexistent}*\
+**Title:** *[The Speedy Python](./AdvocacyWritingTasks(2f)TheSpeedyPython.html)*\
 
 - *Python: The Speed Myth Exposed*\
   *This Python is no Tortoise*\
@@ -272,10 +277,10 @@ And perhaps some discussion of how Python can be embedded into their existing ap
 
 For publication before [PyCon](PyCon) 2008. To encourage sprint participation and general [PyCon](PyCon) awareness. Will be an interview with experienced sprint coaches and first-time sprinters.
 
-## Completed Drafts {#Completed_Drafts}
+## Completed Drafts 
 
 [(permalink)](AdvocacyWritingTasks#ComparingPythonToJava)\
-**Title:** *[About Python, for the Java Programmer](http://advocacy.python.org/docs/python-vs-java.3600.en.1){.http}*\
+**Title:** *[About Python, for the Java Programmer](http://advocacy.python.org/docs/python-vs-java.3600.en.1)*\
 **Media:** a reStructured Text document, for the website\
 **Assigned-To:** Demian `<demian0311 AT gmail DOT com>` (2006-11-13) COMPLETED 2006-12-08 (click title above to see)
 
@@ -305,9 +310,8 @@ One of the interesting traits of Python is that you can combine it with code in 
 
 ------------------------------------------------------------------------
 
-For active discussion on advocating the use of Python, please join the [Advocacy mailing list](http://mail.python.org/mailman/listinfo/advocacy){.http} and visit the [Advocacy - Get Involved!](http://advocacy.python.org/getinvolved){.http} site.
+For active discussion on advocating the use of Python, please join the [Advocacy mailing list](http://mail.python.org/mailman/listinfo/advocacy) and visit the [Advocacy - Get Involved!](http://advocacy.python.org/getinvolved) site.
 
 ------------------------------------------------------------------------
 
 [CategoryAdvocacy](CategoryAdvocacy)
-:::

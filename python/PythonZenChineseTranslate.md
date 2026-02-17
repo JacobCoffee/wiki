@@ -1,27 +1,22 @@
 # PythonZenChineseTranslate
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [蟒之禅](#A.2Bh9JOS3mF-)
-    1.  [通译集注](#A.2BkBqL0ZbGbOg-)
-    2.  [ZoomQuiet禅译](#ZoomQuiet.2BeYWL0Q-)
-    3.  [曹星明:Python之禅](#A.2BZvlmH2YO:Python.2BTkt5hQ-)
-        1.  [参考](#A.2BU8KAAw-)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-# 蟒之禅 {#A.2Bh9JOS3mF-}
+# 蟒之禅 
 
-## 通译集注 {#A.2BkBqL0ZbGbOg-}
+## 通译集注 
 
 啄木鸟社区收集整理:
 
-- **[蟒禅](http://bit.ly/2h4f5T){.http}**
+- **[蟒禅](http://bit.ly/2h4f5T)**
 
 - `http://wiki.woodpecker.org dot cn/moin/PythonZen`{.backtick}
 
-## ZoomQuiet禅译 {#ZoomQuiet.2BeYWL0Q-}
+## ZoomQuiet禅译 
 
     美丽好过丑陋,
     浅显好过隐晦,
@@ -46,7 +41,7 @@ Contents
 
 \-- by Tim Peters
 
-## 曹星明:Python之禅 {#A.2BZvlmH2YO:Python.2BTkt5hQ-}
+## 曹星明:Python之禅 
 
     优美胜于丑陋，显明胜于隐含。
     简单胜于复杂，复杂胜于繁复。
@@ -71,11 +66,11 @@ Contents
 
     [1]python发明人Guido van Rossum是荷兰人。
 
-### 参考 {#A.2BU8KAAw-}
+### 参考 
 
 我参考的另一翻译http://python.cn/pipermail/python-chinese/2006-January/020833.html
 
-- 已经迁移到:[The Zen of Python, Python之道](http://www.zeuux.org/pipermail/zeuux-python/2006-January/020833.html){.http}
+- 已经迁移到:[The Zen of Python, Python之道](http://www.zeuux.org/pipermail/zeuux-python/2006-January/020833.html)
 
 <!-- -->
 
@@ -137,4 +132,3 @@ Contents
 ------------------------------------------------------------------------
 
 [CategoryLanguage](CategoryLanguage)
-::::

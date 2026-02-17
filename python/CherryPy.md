@@ -1,13 +1,18 @@
 # CherryPy
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 A pythonic, object-oriented web development framework.
 
-### Masthead {#Masthead}
+### Masthead 
 
 URL
 
-:   [http://www.cherrypy.org/](http://www.cherrypy.org/){.http}
+:   [http://www.cherrypy.org/](http://www.cherrypy.org/)
 
 version
 
@@ -22,15 +27,15 @@ platforms
 Python versions
 :   2.5 or higher, 3.1 or higher
 
-### URL {#URL}
+### URL 
 
-[http://www.cherrypy.org/](http://www.cherrypy.org/){.http}
+[http://www.cherrypy.org/](http://www.cherrypy.org/)
 
-### Licence {#Licence}
+### Licence 
 
 BSD
 
-### InTheirOwnWords {#InTheirOwnWords}
+### InTheirOwnWords 
 
 CherryPy is a pythonic, object-oriented web development framework.
 
@@ -40,33 +45,33 @@ CherryPy is now more than eight years old and it is has proven very fast and sta
 
 CherryPy does its best to stay out of the way between the programmer and the problem. CherryPy applications are usually very simple. It works out of the box; default behavior is sensible enough to allow use without extensive setup or customization. The embedded web server allows one to deploy web applications anywhere Python is installed. In short, CherryPy is as pythonic as it gets.
 
-Oh, and most importantly: CherryPy is fun to work with ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"}
+Oh, and most importantly: CherryPy is fun to work with ![:-)](/wiki/europython/img/smile.png ":-)")
 
-### Comments {#Comments}
+### Comments 
 
-- [Fast](http://cherrypy.readthedocs.org/en/latest/appendix/cherrypyspeed.html){.http}, [elegant](http://cherrypy.readthedocs.org/en/latest/tutorial/index.html){.http}, [clean](http://cherrypy.readthedocs.org/en/latest/tutorial/exposing.html){.http}.
+- [Fast](http://cherrypy.readthedocs.org/en/latest/appendix/cherrypyspeed.html), [elegant](http://cherrypy.readthedocs.org/en/latest/tutorial/index.html), [clean](http://cherrypy.readthedocs.org/en/latest/tutorial/exposing.html).
 
-- Supports with built-in code/[tools](http://www.cherrypy.org/wiki/BuiltinTools){.http}:
+- Supports with built-in code/[tools](http://www.cherrypy.org/wiki/BuiltinTools):
 
-  - [Sessions](http://cherrypy.readthedocs.org/en/latest/refman/lib/sessions.html){.http}.
+  - [Sessions](http://cherrypy.readthedocs.org/en/latest/refman/lib/sessions.html).
 
   - Authorization.
 
-  - [Static content](http://cherrypy.readthedocs.org/en/latest/progguide/files/static.html){.http}.
+  - [Static content](http://cherrypy.readthedocs.org/en/latest/progguide/files/static.html).
 
-  - [Caching](http://cherrypy.readthedocs.org/en/latest/refman/lib/caching.html){.http}.
+  - [Caching](http://cherrypy.readthedocs.org/en/latest/refman/lib/caching.html).
 
   - Redirecting unhandled errors.
 
-  - [Output compression](http://www.cherrypy.org/wiki/GzipFilter){.http}.
+  - [Output compression](http://www.cherrypy.org/wiki/GzipFilter).
 
   - Unicode (and UTF-8): specifiable per-path, so different portions of your site can use different encoding/decoding schemes.
 
-  - [JSON](http://tools.cherrypy.org/wiki/JSON){.http}.
+  - [JSON](http://tools.cherrypy.org/wiki/JSON).
 
-  - [Profiling](http://cherrypy.readthedocs.org/en/latest/refman/lib/profiler.html){.http}.
+  - [Profiling](http://cherrypy.readthedocs.org/en/latest/refman/lib/profiler.html).
 
-  - [Coverage](http://cherrypy.readthedocs.org/en/latest/refman/lib/covercp.html){.http}.
+  - [Coverage](http://cherrypy.readthedocs.org/en/latest/refman/lib/covercp.html).
 
   - Testing.
 
@@ -83,4 +88,3 @@ Oh, and most importantly: CherryPy is fun to work with ![:-)](/wiki/europython/i
 - CherryPy integrates beautifully with any ORM or template engine via custom tools.
 
 - [TurboGears](TurboGears) builds on CherryPy 2.
-:::

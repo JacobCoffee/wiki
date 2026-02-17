@@ -1,13 +1,18 @@
 # HpPythonBusinessLibraries
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 A framework for [WebProgramming](WebProgramming).
 
-### Masthead {#Masthead}
+### Masthead 
 
 URL
 
-:   [http://pysol.sourceforge.net/](http://pysol.sourceforge.net/){.http}
+:   [http://pysol.sourceforge.net/](http://pysol.sourceforge.net/)
 
 version
 
@@ -24,27 +29,26 @@ Python versions
 
 :   
 
-### Deployment Platforms {#Deployment_Platforms}
+### Deployment Platforms 
 
 Apache
 
-### Suitability {#Suitability}
+### Suitability 
 
-### Development Interfaces {#Development_Interfaces}
+### Development Interfaces 
 
-### Environment Access {#Environment_Access}
+### Environment Access 
 
-### Session, Identification and Authentication {#Session.2C_Identification_and_Authentication}
+### Session, Identification and Authentication 
 
-### Persistence Support {#Persistence_Support}
+### Persistence Support 
 
-### Presentation Support {#Presentation_Support}
+### Presentation Support 
 
-### InTheirOwnWords {#InTheirOwnWords}
+### InTheirOwnWords 
 
 This is a set of high level libraries that HP found very useful in developing web applications. Source files are written in Python, Java, Perl, and C.
 
-### Comments {#Comments}
+### Comments 
 
-### Hosting {#Hosting}
-:::
+### Hosting 

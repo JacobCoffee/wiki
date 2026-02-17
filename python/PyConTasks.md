@@ -1,13 +1,18 @@
 # PyConTasks
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 To do list for [PyCon](PyCon) 2005
 
 (Please add items that are not on this list!)
 
 - Sign contract with GWU *\[done - SH\]*
 
-- Get event insurance. *\[[NealNorwitz](./NealNorwitz.html){.nonexistent} says this is covered by our regular policy\]*
+- Get event insurance. *\[[NealNorwitz](./NealNorwitz.html) says this is covered by our regular policy\]*
 
 - Contact sponsors
 
@@ -17,7 +22,7 @@ To do list for [PyCon](PyCon) 2005
 
 - Send call for volunteers to c.l.py.announce
 
-- Write page giving presentation advice ([PyCon2005/SpeakerNotes](./PyCon2005(2f)SpeakerNotes.html){.nonexistent})
+- Write page giving presentation advice ([PyCon2005/SpeakerNotes](./PyCon2005(2f)SpeakerNotes.html))
 
 - Select keynote speakers
 
@@ -56,7 +61,7 @@ To do list for [PyCon](PyCon) 2005
 
 - Pick session leaders.
 
-- Issue call for [BoFs](./BoFs.html){.nonexistent}, and pick BoF topics.
+- Issue call for [BoFs](./BoFs.html), and pick BoF topics.
 
 During the conference:
 
@@ -72,4 +77,3 @@ After the conference:
 ------------------------------------------------------------------------
 
 [CategoryPyCon2005](CategoryPyCon2005)
-:::

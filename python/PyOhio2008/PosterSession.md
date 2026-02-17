@@ -1,7 +1,12 @@
 # PyOhio2008/PosterSession
 
-::: {#content dir="ltr" lang="en"}
-# Poster Session {#Poster_Session}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Poster Session 
 
 A poster session is a concept borrowed from academic conferences.
 
@@ -9,17 +14,16 @@ Any [PyOhio](PyOhio) attendees are invited to make and bring a poster describing
 
 Anyone can present a poster, and posters can be combined with Lightning Talks and/or Open Spaces on the same topic. Sign up here with your name and your poster topic, so that we can get an idea of what to expect.
 
-## Planned posters {#Planned_posters}
+## Planned posters 
 
-## Graffiti posters {#Graffiti_posters}
+## Graffiti posters 
 
-![module.jpg](attachments/PyOhio2008(2f)PosterSession/module.jpg "module.jpg"){.attachment}
+![module.jpg](attachments/PyOhio2008(2f)PosterSession/module.jpg "module.jpg")
 
-![application.jpg](attachments/PyOhio2008(2f)PosterSession/application.jpg "application.jpg"){.attachment}
+![application.jpg](attachments/PyOhio2008(2f)PosterSession/application.jpg "application.jpg")
 
-![scriptable.jpg](attachments/PyOhio2008(2f)PosterSession/scriptable.jpg "scriptable.jpg"){.attachment}
+![scriptable.jpg](attachments/PyOhio2008(2f)PosterSession/scriptable.jpg "scriptable.jpg")
 
-![project.jpg](attachments/PyOhio2008(2f)PosterSession/project.jpg "project.jpg"){.attachment}
+![project.jpg](attachments/PyOhio2008(2f)PosterSession/project.jpg "project.jpg")
 
-![different.jpg](attachments/PyOhio2008(2f)PosterSession/different.jpg "different.jpg"){.attachment}
-:::
+![different.jpg](attachments/PyOhio2008(2f)PosterSession/different.jpg "different.jpg")

@@ -1,9 +1,14 @@
 # MetaDesignSolutions
 
-::: {#content dir="ltr" lang="en"}
-### MetaDesign Solutions {#MetaDesign_Solutions}
+```{admonition} Legacy Wiki Page
+:class: note
 
-**[MetaDesign](./MetaDesign.html){.nonexistent} Solutions** is Software Development Company based in Gurgaon, India. We are STPI (Software Technology Parks Of India) Registered and Official Solution Partners to Adobe. Services We Offer:- Web Development Mac Development PHP Development [InDesign](./InDesign.html){.nonexistent} Development [SalesForce](./SalesForce.html){.nonexistent} Development iPad Development iPhone Development Android Development Cross Mobile Development Windows Mobile Development Plug-ins development [Plugin for Adobe InDesign](http://metadesignsolutions.com/products/products.php){.http} Development Ruby on Rails Development.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### MetaDesign Solutions 
+
+**[MetaDesign](./MetaDesign.html) Solutions** is Software Development Company based in Gurgaon, India. We are STPI (Software Technology Parks Of India) Registered and Official Solution Partners to Adobe. Services We Offer:- Web Development Mac Development PHP Development [InDesign](./InDesign.html) Development [SalesForce](./SalesForce.html) Development iPad Development iPhone Development Android Development Cross Mobile Development Windows Mobile Development Plug-ins development [Plugin for Adobe InDesign](http://metadesignsolutions.com/products/products.php) Development Ruby on Rails Development.
 
 **Services We Offer:-**
 
@@ -11,13 +16,13 @@
 
 - Web Development
 
-- [InDesign](./InDesign.html){.nonexistent} Development
+- [InDesign](./InDesign.html) Development
 
 - PHP Development
 
 - X-Platform Development
 
-- [SalesForce](./SalesForce.html){.nonexistent} Development
+- [SalesForce](./SalesForce.html) Development
 
 - Photoshop Touch SDK
 
@@ -33,7 +38,7 @@
 
 - Cross Mobile Development
 
-- Xtensions for [QuarkXpress](./QuarkXpress.html){.nonexistent} Development
+- Xtensions for [QuarkXpress](./QuarkXpress.html) Development
 
 - Plug-Ins for Microsoft Development
 
@@ -67,39 +72,39 @@
 
 **Our Products:-**
 
-- [ProofPlus](./ProofPlus.html){.nonexistent} - Indesign Plugin
+- [ProofPlus](./ProofPlus.html) - Indesign Plugin
 
-- Plug-ins for [InDesign](./InDesign.html){.nonexistent}
+- Plug-ins for [InDesign](./InDesign.html)
 
-- [IndicPlus](./IndicPlus.html){.nonexistent} for Illustrator CS4 & Above
+- [IndicPlus](./IndicPlus.html) for Illustrator CS4 & Above
 
-- [IndicPlus](./IndicPlus.html){.nonexistent} for [InDesign](./InDesign.html){.nonexistent} (CS4 & CS5)
+- [IndicPlus](./IndicPlus.html) for [InDesign](./InDesign.html) (CS4 & CS5)
 
-- [IndicPlus](./IndicPlus.html){.nonexistent} for [InDesign](./InDesign.html){.nonexistent} (CS2 & CS3)
+- [IndicPlus](./IndicPlus.html) for [InDesign](./InDesign.html) (CS2 & CS3)
 
-- [BrowsePlus](./BrowsePlus.html){.nonexistent} [InDesign](./InDesign.html){.nonexistent} & [InCopy](./InCopy.html){.nonexistent} Plugin
+- [BrowsePlus](./BrowsePlus.html) [InDesign](./InDesign.html) & [InCopy](./InCopy.html) Plugin
 
-- [SpellPlus](./SpellPlus.html){.nonexistent} [InDesign](./InDesign.html){.nonexistent} & [InCopy](./InCopy.html){.nonexistent} Plugin
+- [SpellPlus](./SpellPlus.html) [InDesign](./InDesign.html) & [InCopy](./InCopy.html) Plugin
 
 - SpotLightQXP - Search within QuarkXPress Documents
 
-- SpotlightAS - [ActionScript](./ActionScript.html){.nonexistent} and MXML Files
+- SpotlightAS - [ActionScript](./ActionScript.html) and MXML Files
 
-- SpotlightPSD - [PhotoShop](./PhotoShop.html){.nonexistent} Images
+- SpotlightPSD - [PhotoShop](./PhotoShop.html) Images
 
-- Windows Search Addons for [QuarkXpress](./QuarkXpress.html){.nonexistent} Documents
+- Windows Search Addons for [QuarkXpress](./QuarkXpress.html) Documents
 
-- Windows Preview Handler for [InDesign](./InDesign.html){.nonexistent} & [InCopy](./InCopy.html){.nonexistent}
+- Windows Preview Handler for [InDesign](./InDesign.html) & [InCopy](./InCopy.html)
 
-- Windows Preview Handler for [QuarkXpress](./QuarkXpress.html){.nonexistent} Documents
+- Windows Preview Handler for [QuarkXpress](./QuarkXpress.html) Documents
 
-- ADOVIEW - [QuickLook](./QuickLook.html){.nonexistent} Plug-in for [InDesign](./InDesign.html){.nonexistent}, [InCopy](./InCopy.html){.nonexistent}
+- ADOVIEW - [QuickLook](./QuickLook.html) Plug-in for [InDesign](./InDesign.html), [InCopy](./InCopy.html)
 
-- [InDesign](./InDesign.html){.nonexistent} Viewer - Mac, Windows and Mobile Devices
+- [InDesign](./InDesign.html) Viewer - Mac, Windows and Mobile Devices
 
-- ADOView [InDesign](./InDesign.html){.nonexistent} Viewer for Android
+- ADOView [InDesign](./InDesign.html) Viewer for Android
 
-- ADOView [InDesign](./InDesign.html){.nonexistent} Viewer for [BlackBerry](./BlackBerry.html){.nonexistent} [PlayBook](./PlayBook.html){.nonexistent}
+- ADOView [InDesign](./InDesign.html) Viewer for [BlackBerry](./BlackBerry.html) [PlayBook](./PlayBook.html)
 
 - QuarkXPress Document Viewer - For Mac & Windows
 
@@ -116,13 +121,12 @@
 
 **Adobe System Inc.** Solution Partner Awarded: 2006
 
-**Visit Our Website:-** [http://metadesignsolutions.com/home.php](http://metadesignsolutions.com/home.php){.http}
+**Visit Our Website:-** [http://metadesignsolutions.com/home.php](http://metadesignsolutions.com/home.php)
 
 **Contact for Any Assistance:-**
 
-- Email: [contact@metadesignsolutions.com](mailto:contact@metadesignsolutions.com){.mailto}
+- Email: [contact@metadesignsolutions.com](mailto:contact@metadesignsolutions.com)
 
-- Email: [sales@metadesignsolutions.com](mailto:sales@metadesignsolutions.com){.mailto}
+- Email: [sales@metadesignsolutions.com](mailto:sales@metadesignsolutions.com)
 
 - Tel: +91-124-4278595
-:::

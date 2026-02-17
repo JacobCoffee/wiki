@@ -62,7 +62,6 @@ Why when I read a text file python reads it as __built-in method read of _io.Tex
 can't instal
 does a python blink
 exiting idle
-globals
 how do I work through an array and change a particular element_
 parallel calculations
 readline under MS

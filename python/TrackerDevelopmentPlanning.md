@@ -1,32 +1,22 @@
 # TrackerDevelopmentPlanning
 
-:::::::::::::: {#content dir="ltr" lang="en"}
-This page outlines a plan to improve the Bug Tracker at [http://bugs.python.org](http://bugs.python.org){.http .reference .external}.
+```{admonition} Legacy Wiki Page
+:class: note
 
-See also the [TrackerDevelopment](TrackerDevelopment){.reference .external} page and the [DesiredTrackerFeatures](DesiredTrackerFeatures){.reference .external} pages.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-::: {#contents .contents .table-of-contents .topic}
-Contents
+This page outlines a plan to improve the Bug Tracker at [http://bugs.python.org](http://bugs.python.org).
 
-- [Git/GitHub integration](#git-github-integration){#id1 .reference .internal}
-  - [Converting patches to Pull Requests](#converting-patches-to-pull-requests){#id2 .reference .internal}
-  - [Pull Request List](#pull-request-list){#id3 .reference .internal}
-  - [Other Roundup/GitHub integrations](#other-roundup-github-integrations){#id4 .reference .internal}
-  - [Auto-generated Links](#auto-generated-links){#id5 .reference .internal}
-- [Workflow](#workflow){#id6 .reference .internal}
-- [Other features](#other-features){#id7 .reference .internal}
-  - [Patch-related improvements](#patch-related-improvements){#id8 .reference .internal}
-- [User Interface](#user-interface){#id9 .reference .internal}
-  - [Dashboard(s)](#dashboard-s){#id10 .reference .internal}
-:::
+See also the [TrackerDevelopment](TrackerDevelopment) page and the [DesiredTrackerFeatures](DesiredTrackerFeatures) pages.
 
-::::::: {#git-github-integration .section}
-### [Git/GitHub integration](#id1){.toc-backref}
+::::::: 
+### [Git/GitHub integration](#id1)
 
 While migrating to Git/GitHub, the following things need to be done:
 
-::: {#converting-patches-to-pull-requests .section}
-#### [Converting patches to Pull Requests](#id2){.toc-backref}
+::: 
+#### [Converting patches to Pull Requests](#id2)
 
 A new detector that converts patches to pull requests should be written. The tracker will probably require:
 
@@ -50,8 +40,8 @@ Issues:
 - are there better approaches?
 :::
 
-::: {#pull-request-list .section}
-#### [Pull Request List](#id3){.toc-backref}
+::: 
+#### [Pull Request List](#id3)
 
 A new list for PRs should be added after the attachments list:
 
@@ -79,8 +69,8 @@ The list might also be updated when:
   - cons: if the PR of a related issue is mentioned it will be included too;
 :::
 
-::: {#other-roundup-github-integrations .section}
-#### [Other Roundup/GitHub integrations](#id4){.toc-backref}
+::: 
+#### [Other Roundup/GitHub integrations](#id4)
 
 - a \"GitHub account name\" field for users;
 - auto-nosy to the issue for users that submit a PR;
@@ -88,19 +78,19 @@ The list might also be updated when:
 - an API to check the CLA from GitHub;
 :::
 
-::: {#auto-generated-links .section}
-#### [Auto-generated Links](#id5){.toc-backref}
+::: 
+#### [Auto-generated Links](#id5)
 
-The [extension that generates links](https://hg.python.org/tracker/python-dev/file/tip/extensions/local_replace.py){.https .reference .external}, also needs to be updated:
+The [extension that generates links](https://hg.python.org/tracker/python-dev/file/tip/extensions/local_replace.py), also needs to be updated:
 
-- update cs ids links to point to [https://hg.python.org/lookup/](https://hg.python.org/lookup/){.https .reference .external} (see [this message](https://mail.python.org/pipermail/python-committers/2016-January/003691.html){.https .reference .external}).
+- update cs ids links to point to [https://hg.python.org/lookup/](https://hg.python.org/lookup/) (see [this message](https://mail.python.org/pipermail/python-committers/2016-January/003691.html)).
 - update path links to point to GitHub;
 - add links to pull requests on GitHub when \"PR num\" or \"pull request num\" are used in messages;
 :::
 :::::::
 
-::: {#workflow .section}
-### [Workflow](#id6){.toc-backref}
+::: 
+### [Workflow](#id6)
 
 Certain things in the UI may trigger depending on how the user is classified. The current roundup \'Developer\' role is modified into the following sub-roles:
 
@@ -139,7 +129,7 @@ Change Types to:
 
 Change \'assigned to\' so that it can be any valid user, and it is automatically reset to \'no one\' after N days or an issue state change.
 
-New \'state\' field will eventually replace both \'stage\' and \'status\' (see [http://imgur.com/a/UgJBJ](http://imgur.com/a/UgJBJ){.http .reference .external} for a diagram).
+New \'state\' field will eventually replace both \'stage\' and \'status\' (see [http://imgur.com/a/UgJBJ](http://imgur.com/a/UgJBJ) for a diagram).
 
 > - new
 > - information needed
@@ -157,11 +147,11 @@ Priority:
 > - low
 :::
 
-:::: {#other-features .section}
-### [Other features](#id7){.toc-backref}
+:::: 
+### [Other features](#id7)
 
-::: {#patch-related-improvements .section}
-#### [Patch-related improvements](#id8){.toc-backref}
+::: 
+#### [Patch-related improvements](#id8)
 
 When a file is submitted the tracker should be able to:
 
@@ -175,17 +165,17 @@ Somewhat controversial: a set of checkboxes for the items from the above that ar
 :::
 ::::
 
-:::: {#user-interface .section}
-### [User Interface](#id9){.toc-backref}
+:::: 
+### [User Interface](#id9)
 
 - Have only title/message/state in the default user view, with a sticky (either per-user or per-browser (via cookies)) setting to also show the other fields. (No \'state\' in the \'new issue\' view).
 - Show the role of users (normal user, developer/triager, committer) with an icon or tooltip
-- **DONE** Show a \"clip\" icon in the issue list page for issues with a patch (see [http://psf.upfronthosting.co.za/roundup/meta/issue550](http://psf.upfronthosting.co.za/roundup/meta/issue550){.http .reference .external})
+- **DONE** Show a \"clip\" icon in the issue list page for issues with a patch (see [http://psf.upfronthosting.co.za/roundup/meta/issue550](http://psf.upfronthosting.co.za/roundup/meta/issue550))
 
-::: {#dashboard-s .section}
-#### [Dashboard(s)](#id10){.toc-backref}
+::: 
+#### [Dashboard(s)](#id10)
 
-Add a dashboard page similar to [https://dashboard.djangoproject.com/](https://dashboard.djangoproject.com/){.https .reference .external} (global + per user?).
+Add a dashboard page similar to [https://dashboard.djangoproject.com/](https://dashboard.djangoproject.com/) (global + per user?).
 
 Experiment with a dashboard that actually lists the top messages in each state, arranged in the order of interest to the user based on their role (user, triager, committer).
 
@@ -195,7 +185,6 @@ Experiment with a dashboard that actually lists the top messages in each state, 
 
 ------------------------------------------------------------------------
 
-[CategoryTracker](CategoryTracker){.reference .external}
+[CategoryTracker](CategoryTracker)
 :::
 ::::
-::::::::::::::

@@ -1,6 +1,11 @@
 # VerwaisteSeiten
 
-::: {#content dir="ltr" lang="de"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Hier ist eine Liste von Seiten, auf die keine andere Seite verweist:
 
 1.  [Admin](Admin)
@@ -110,4 +115,3 @@ Hier ist eine Liste von Seiten, auf die keine andere Seite verweist:
 105. [howto/new_members](./howto(2f)new_members.html)
 106. [reference](reference)
 107. [reference/managing_nonprofit](./reference(2f)managing_nonprofit.html)
-:::

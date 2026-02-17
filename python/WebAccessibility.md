@@ -1,21 +1,25 @@
 # WebAccessibility
 
-::: {#content dir="ltr" lang="en"}
-# Web Accessibility {#Web_Accessibility}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## General Links {#General_Links}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- [Good introduction from Wikipedia](http://en.wikipedia.org/wiki/Web_accessibility){.http}
+# Web Accessibility 
 
-- [Web access initiative - Home page](http://www.w3.org/WAI/){.http}
+## General Links 
 
-- [US Section 508](http://www.section508.gov/){.http}
+- [Good introduction from Wikipedia](http://en.wikipedia.org/wiki/Web_accessibility)
 
-## Specifications {#Specifications}
+- [Web access initiative - Home page](http://www.w3.org/WAI/)
 
-- [WCAG 1.0 Spec](http://www.w3.org/TR/WCAG10/){.http}
+- [US Section 508](http://www.section508.gov/)
 
-- [WCAG 2.0 Spec](http://www.w3.org/TR/WCAG20/){.http}
+## Specifications 
 
-- [508 Spec](http://www.section508.gov/index.cfm?FuseAction=Content&ID=12){.http}
-:::
+- [WCAG 1.0 Spec](http://www.w3.org/TR/WCAG10/)
+
+- [WCAG 2.0 Spec](http://www.w3.org/TR/WCAG20/)
+
+- [508 Spec](http://www.section508.gov/index.cfm?FuseAction=Content&ID=12)

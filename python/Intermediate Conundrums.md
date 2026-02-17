@@ -1,13 +1,18 @@
 # Intermediate Conundrums
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Here are some short examples that have provided unexpected results for intermediate-level Python programmers.
 
 Add new examples by copying and editing the following sample. *Edit your code so it is short and does nothing more than illustrate your problem.* Often programming problems are solved by making the effort to create simple examples that reproduce them. This page is meant for problems that appear in a few lines of code after the extraneous fluff has been removed. Things that may appear normal to experienced Python programmers but appear weird: at least when one first encounters them.
 
 If you can answer your own question, do so. Otherwise leave the answer part for somebody else to edit.
 
-### Sample (copy and edit me) {#Sample_.28copy_and_edit_me.29}
+### Sample (copy and edit me) 
 
 **Bold**
 
@@ -25,7 +30,7 @@ Edit this question.
 
 Edit this answer.
 
-### Metaclass Instantiation {#Metaclass_Instantiation}
+### Metaclass Instantiation 
 
 **Bold**
 
@@ -94,4 +99,3 @@ def convert32(number):
 - return int(-(number \^ 0xffffffff)-1)
 
 ioctl(fd, convert32(0xc0107307))
-:::

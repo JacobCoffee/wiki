@@ -1,6 +1,11 @@
 # DistutilsTesting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 One problem with developing the Distutils is that there\'s no functional test suite, so figuring out if a change broke something is a scatter-shot process. (There are no unit tests either, but we\'re talking about functional tests here.) You might try building a few packages such as mxBase or PyXML, but you have no idea if everything was exercised. I\'d really like to have a testing mechanism before beginning to make significant changes; without one we might have lots of inadvertent breakage.
 
 Testing the Distutils is difficult for two reasons:
@@ -27,4 +32,3 @@ Here\'s a vague straw-man proposal:
           True 
 
 - There should be some sort of cumulative code coverage so that we can tell if the test cases exercise every possible branch of code.
-:::

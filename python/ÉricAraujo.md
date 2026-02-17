@@ -1,9 +1,14 @@
 # ÉricAraujo
 
-::: {#content dir="ltr" lang="en"}
-## Éric Araujo {#A.2BAMk-ric_Araujo}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Email: [merwok@netwok.org](mailto:merwok@netwok.org){.mailto}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Éric Araujo 
+
+Email: [merwok@netwok.org](mailto:merwok@netwok.org)
 
 Nickname: merwok
 
@@ -15,9 +20,8 @@ I have reviewed a great number of distutils bug and intend to close all of them.
 
 There are a lot of other projects I'm interested in without enough time to contribute. I have some changesets in Gajim, my IM client, I follow Mercurial from afar, and I report bugs to Debian, my favorite operating system. I have a number of pet projects, some merely a name and a one-line description, which I hope to write one day!
 
-In real life, I am looking for a job. I support [diversity](http://www.python.org/community/diversity/){.http}. I like cycling and climbing.
+In real life, I am looking for a job. I support [diversity](http://www.python.org/community/diversity/). I like cycling and climbing.
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

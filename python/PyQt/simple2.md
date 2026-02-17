@@ -1,19 +1,24 @@
 # PyQt/simple2
 
-::::: {#content dir="ltr" lang="en"}
-## \"Simple\" Stage 2 {#A.22Simple.22_Stage_2}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## \"Simple\" Stage 2 
 
 The fully functional, but not very useful Main Window now looks as follows:
 
-- ![simple_1.png](attachments/PyQt(2f)simple2/simple_1.png "simple_1.png"){.attachment}
+- ![simple_1.png](attachments/PyQt(2f)simple2/simple_1.png "simple_1.png")
 
 As you can see, we can type text in the editor window and edit it, but we can not save it or open an existing file. Enabling the Editor to save and/or open a file is the subject of our talk now. As a first step, we shall provide a method for starting a new file.
 
 To start let us discuss the PyQt\'s signals and slots. Our code has been slightly extended as shown in the following table.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2def74e02befa89ea9b5fc627fa8380038081686 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #!/usr/bin/env python
    2 # .../simple_1/simple.py
    3 #'''A really simple editor program in PyQt4 - simple.py'''
@@ -60,7 +65,7 @@ The effect of the above statement is that the click (called here \"trigger\") of
 
 Thus, we simply **\"connect\"** the event (trigger, click etc) and the resulting \"action\" (fileNew). In this tutorial we shall use the new style syntax for the SIGNAL SLOT connection. So in the listing the older style connection is left, but commented out.
 
-#### Afterthoughts and Summary {#Afterthoughts_and_Summary}
+#### Afterthoughts and Summary 
 
 The program listing is only some 20 lines long. Hopefully, you typed it and tried out. The editor is barely functional - we can type the text in the window and the File \> New option will clear it, so one button reacts to keypress and does something useful! If you tried to copy via clipboard the listing, the result was probably less than very satisfying. We are lucky to be on a moinmoin wiki, as not all wikis render Python code so well as moinmoin.
 
@@ -73,4 +78,3 @@ in a file named **simple0.0.01.tar.gz,** which you can download, expand and use.
 Have I mentioned that all that I know about PyQt I have learned from an excellent text \"Rapid GUI Programming with Python and Qt\" by Mark Summerfield? Well, I mention it now - it is a great text book. This tutorial is meant to be a \"gentle\" introduction to the PyQt world and it would be a disservice to the reader not to point out the direction to a more thorough treatment of the subject.
 
 [Return Home](./PyQt(2f)simple.html)
-:::::

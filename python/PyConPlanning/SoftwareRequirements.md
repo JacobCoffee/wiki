@@ -1,9 +1,14 @@
 # PyConPlanning/SoftwareRequirements
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Collects requirements for the conference software.
 
-## Features {#Features}
+## Features 
 
 - Registration for the conference
 - Scheduling
@@ -11,14 +16,14 @@ Collects requirements for the conference software.
 - Paper submissions
 - Conference feedback
 
-## Users {#Users}
+## Users 
 
 - At a minimum, we must have a user\'s e-mail address so that we can contact them.
 - Users can have multiple flags set: speaker, volunteer, session chair. (More such flags may be added.)
 - Users can optionally supply their geographic location for mapping, paper mailings, and for inclusion on the badges.
 - Attendee e-mail addresses can be exported in order to add them to a conference mailing list.
 
-## Paper submission {#Paper_submission}
+## Paper submission 
 
 - Users can submit proposals.
 - Some users have \'reviewer\' status and can look at other people\'s proposals.
@@ -31,7 +36,7 @@ Collects requirements for the conference software.
 - One-time operation: Authors can be e-mailed the review comments written about their reports.
 - One-time operation: Authors are e-mailed the accept/decline decision about their proposal.
 
-## Registration {#Registration}
+## Registration 
 
 - Must able to produce a list of attendees, showing attendee name, T-shirt size, food preferences if any, include in delegate listing Y/N, permission to e-mail about [PyCon](PyCon) Y/N, paid/unpaid Y/N, certain special flags (e.g. speaker/session/chair) so we can hand them the right swag bag and info.
 
@@ -62,9 +67,9 @@ Collects requirements for the conference software.
 
 - Export presentation materials into a directory tree that can be turned into the conference proceedings.
 
-## Mapping {#Mapping}
+## Mapping 
 
-- Use frapper?: [http://www.frappr.com/django/](http://www.frappr.com/django/){.http}
+- Use frapper?: [http://www.frappr.com/django/](http://www.frappr.com/django/)
 
 - google maps integrated
 
@@ -89,17 +94,17 @@ Collects requirements for the conference software.
 
 - support search and filter of pins by interest tag and pin type
 
-## Scheduling {#Scheduling}
+## Scheduling 
 
 - Produce printable schedules for the entire conference, and for individual rooms for a given day.
 - Track session chairs for each session.
 
-## Sponsors {#Sponsors}
+## Sponsors 
 
 - Sponsors can fill in a form with contact information that gets stored in a list and also e-mailed to the sponsorship coordinator.
 - (Admin) The coordinator can enter sponsors who\'ve committed: contact info, sponsorship level (platinum/gold/silver), invoice number, paid Y/N, web graphic, banner provided Y/N, banner received Y/N, comments on where the banner should be displayed.
 
-## Feedback {#Feedback}
+## Feedback 
 
 - Forms for the entire conference, and for specific talks and tutorials. (Sprints aren\'t of interest.)
 - Report: feedback summary for the conference, summaries for individual talks.
@@ -108,4 +113,3 @@ Collects requirements for the conference software.
 ------------------------------------------------------------------------
 
 [CategoryPyConPlanning](CategoryPyConPlanning)
-:::

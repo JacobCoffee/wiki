@@ -1,9 +1,14 @@
 # SebastiaanZeeff
 
-::: {#content dir="ltr" lang="en"}
-# SebastiaanZeeff {#SebastiaanZeeff-1}
+```{admonition} Legacy Wiki Page
+:class: note
 
-- Owner of [Python Discord](https://pythondiscord.com){.https}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# SebastiaanZeeff 
+
+- Owner of [Python Discord](https://pythondiscord.com)
 
 <!-- -->
 
@@ -11,13 +16,12 @@
 
 <!-- -->
 
-- GitHub: [\@SebastiaanZ](https://github.com/SebastiaanZ){.https}
+- GitHub: [\@SebastiaanZ](https://github.com/SebastiaanZ)
 
 <!-- -->
 
-- Website: [https://sebastiaanzeeff.nl](https://sebastiaanzeeff.nl){.https}
+- Website: [https://sebastiaanzeeff.nl](https://sebastiaanzeeff.nl)
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

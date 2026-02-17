@@ -1,9 +1,14 @@
 # WikiTipOfTheDay
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 :::: blue
 
-::: {#WikiTipOfTheDay-1.RandomQuote dir="ltr" lang="en"}
+::: 
 In your user preferences you can use regular expressions for subscribing pages; with "`.*`{.backtick}" you subscribe to all pages.
 :::
 ::::
@@ -28,7 +33,7 @@ In your user preferences you can use regular expressions for subscribing pages; 
 
 - In your user preferences you can use your own CSS to change the default layout.
 
-- Just type in URLs ([http://www.example.net](http://www.example.net){.http})---the wiki will convert them automatically to a link.
+- Just type in URLs ([http://www.example.net](http://www.example.net))---the wiki will convert them automatically to a link.
 
 - In your user preferences you can edit the list of your quick links.
 
@@ -50,7 +55,7 @@ In your user preferences you can use regular expressions for subscribing pages; 
 
 - When writing your email address, use `<<MailTo(Firstname DOT Lastname AT example DOT net)>>`{.backtick} to avoid spam.
 
-- Wikis are cool---especially if you have read the help pages (see [HelpContents](HelpContents)). ![;-)](/wiki/modernized/img/smile4.png ";-)"){height="16" width="16"}
+- Wikis are cool---especially if you have read the help pages (see [HelpContents](HelpContents)). ![;-)](/wiki/modernized/img/smile4.png ";-)")
 
 - With `{{attachment:myfile.png}}`{.backtick} you can create a link to an attachment (and use the link to upload the attachment).
 
@@ -78,5 +83,4 @@ In your user preferences you can use regular expressions for subscribing pages; 
 
 - You may use non-ASCII characters (e.g. äæéłöŧüñ) on wiki pages and for the page names, too.
 
-- You may want to call [Set bookmark](./WikiTipOfTheDay.html?action=bookmark){.action} on [RecentChanges](RecentChanges) and come back later to read new changes. (For using that feature you have to be logged in!)
-:::::
+- You may want to call [Set bookmark](./WikiTipOfTheDay.html?action=bookmark) on [RecentChanges](RecentChanges) and come back later to read new changes. (For using that feature you have to be logged in!)

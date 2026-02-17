@@ -1,21 +1,26 @@
 # PyCon2006/Sprints/VobjectSprint
 
-::: {#content dir="ltr" lang="en"}
-# Vobject Sprint {#Vobject_Sprint}
+```{admonition} Legacy Wiki Page
+:class: note
 
-- vobject homepage - [http://vobject.skyhouseconsulting.com](http://vobject.skyhouseconsulting.com){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Projects to work on {#Projects_to_work_on}
+# Vobject Sprint 
 
-### hCalendar serialization {#hCalendar_serialization}
+- vobject homepage - [http://vobject.skyhouseconsulting.com](http://vobject.skyhouseconsulting.com)
 
-See [http://microformats.org/wiki/hcalendar](http://microformats.org/wiki/hcalendar){.http}
+## Projects to work on 
 
-### hCard serialization {#hCard_serialization}
+### hCalendar serialization 
 
-See [http://microformats.org/wiki/hcard](http://microformats.org/wiki/hcard){.http}
+See [http://microformats.org/wiki/hcalendar](http://microformats.org/wiki/hcalendar)
 
-### Improved vCard support {#Improved_vCard_support}
+### hCard serialization 
+
+See [http://microformats.org/wiki/hcard](http://microformats.org/wiki/hcard)
+
+### Improved vCard support 
 
 Currently the vCard behavior is very rudimentary, and it has no documentation or unit tests.
 
@@ -23,11 +28,10 @@ Currently the vCard behavior is very rudimentary, and it has no documentation or
 - Improve Name and Address classes
 - Your favorite project here
 
-### Improving documentation {#Improving_documentation}
+### Improving documentation 
 
 There\'s lots and lots of room for improvement! Documentation can also be a doctest
 
-### Improving test coverage {#Improving_test_coverage}
+### Improving test coverage 
 
 Currently, there are lots of doctests, they can be run by running python tests.py. It would be great to write more.
-:::

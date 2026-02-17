@@ -1,7 +1,12 @@
 # EduSig/DataResources
 
-:::: {#content dir="ltr" lang="en"}
-# Relevant, Reusable Data for Education Exercises {#Relevant.2C_Reusable_Data_for_Education_Exercises}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Relevant, Reusable Data for Education Exercises 
 
 On this page is cataloged common data that may be useful to educators in constructing meaningful exercises. Often educators short on time use abstract data that lacks meaning to the student, or that requires the student to track down and extract his own data.
 
@@ -17,7 +22,7 @@ Contributions are welcome but content listed here must be distributable under an
 
 **Origin**
 
-- [http://xml.coverpages.org/country3166.html](http://xml.coverpages.org/country3166.html){.http}
+- [http://xml.coverpages.org/country3166.html](http://xml.coverpages.org/country3166.html)
 
 **Fetch Script**
 
@@ -31,7 +36,7 @@ Contributions are welcome but content listed here must be distributable under an
 
 **Origin**
 
-- [http://www.4dsolutions.net/ocn/python/cities.xml](http://www.4dsolutions.net/ocn/python/cities.xml){.http}
+- [http://www.4dsolutions.net/ocn/python/cities.xml](http://www.4dsolutions.net/ocn/python/cities.xml)
 
 **Fetch Script**
 
@@ -45,7 +50,7 @@ Contributions are welcome but content listed here must be distributable under an
 
 **Origin**
 
-- [http://en.wikipedia.org/wiki/List_of_elements_by_atomic_number](http://en.wikipedia.org/wiki/List_of_elements_by_atomic_number){.http}
+- [http://en.wikipedia.org/wiki/List_of_elements_by_atomic_number](http://en.wikipedia.org/wiki/List_of_elements_by_atomic_number)
 
 **Fetch Script**
 
@@ -59,13 +64,13 @@ Contributions are welcome but content listed here must be distributable under an
 
 **Origin**
 
-- [http://www.gtoal.com/wordgames/oxford_wordlists/Moby/mhyph/mhyph.txt](http://www.gtoal.com/wordgames/oxford_wordlists/Moby/mhyph/mhyph.txt){.http}
+- [http://www.gtoal.com/wordgames/oxford_wordlists/Moby/mhyph/mhyph.txt](http://www.gtoal.com/wordgames/oxford_wordlists/Moby/mhyph/mhyph.txt)
 
 **Fetch Script**
 
-- [http://bazaar.launchpad.net/\~martin.marcher/+junk/py-rds](http://bazaar.launchpad.net/~martin.marcher/+junk/py-rds){.http} (bzr enabled)
+- [http://bazaar.launchpad.net/\~martin.marcher/+junk/py-rds](http://bazaar.launchpad.net/~martin.marcher/+junk/py-rds) (bzr enabled)
 
-- [http://code.launchpad.net/\~martin.marcher/+junk/py-rds](http://code.launchpad.net/~martin.marcher/+junk/py-rds){.http}
+- [http://code.launchpad.net/\~martin.marcher/+junk/py-rds](http://code.launchpad.net/~martin.marcher/+junk/py-rds)
 
 ------------------------------------------------------------------------
 
@@ -90,7 +95,7 @@ Contributions are welcome but content listed here must be distributable under an
 
 **Question**
 
-## SQLite3 Data {#SQLite3_Data}
+## SQLite3 Data 
 
 Would it be OK to provide sqlite3 Databases?
 
@@ -99,4 +104,3 @@ I do have a source of hyphenations under public domain (about 180.000 entries), 
 ------------------------------------------------------------------------
 
 [CategoryPythonInEducation](CategoryPythonInEducation)
-::::

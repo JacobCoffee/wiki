@@ -1,13 +1,18 @@
 # BodoLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Describe BodoLanguage here and include links to Python information in the Bodo Language.
 
 ISO 639-2 Code: sit
 
 ISO 639-3 Code: brx
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -27,9 +32,9 @@ Where these pages really need help:
 
 **बड़ो**
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f0888b76474cc7dc8d1602abbd52fbf83a624653 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # python 3.0 or 3.1
    2 
    3 बड़ो = 'बड़ो'
@@ -41,4 +46,3 @@ Where these pages really need help:
 ------------------------------------------------------------------------
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode) [CategoryPythonIndia](CategoryPythonIndia)
-:::::

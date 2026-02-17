@@ -1,5 +1,9 @@
 # MontaVista
 
-::: {#content dir="ltr" lang="en"}
-Embedded Linux: [http://www.mvista.com](http://www.mvista.com){.http}
-:::
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Embedded Linux: [http://www.mvista.com](http://www.mvista.com)

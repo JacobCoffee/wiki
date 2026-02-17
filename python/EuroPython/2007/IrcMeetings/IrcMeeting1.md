@@ -1,11 +1,16 @@
 # EuroPython/2007/IrcMeetings/IrcMeeting1
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #1 {#IRC_Meeting_.231}
+```{admonition} Legacy Wiki Page
+:class: note
 
-[Meeting minutes](http://codespeak.net/svn/user/mwh/ep2007/meeting-notes-2007-03-08.html){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Time/Location {#Time.2FLocation}
+# IRC Meeting #1 
+
+[Meeting minutes](http://codespeak.net/svn/user/mwh/ep2007/meeting-notes-2007-03-08.html)
+
+## Time/Location 
 
 We plan to have a meeting on Wednesday 7th of March 2007 at 1700 GMT+1XX in the #europython channel on freenode.
 
@@ -42,4 +47,3 @@ Suggested Agenda (please change ahead of the meeting if you like): (taken from 2
 - decide what will happen with the Web site - ie. either have people commit to a switch **and fast**, or just call \"bikeshed\" on the debate and stick with what we\'ve got (if the current hosting is \"stable\")
 
   - clarify the Indico situation - it looks like a new installation is necessary, so find out where it\'s going to live
-:::

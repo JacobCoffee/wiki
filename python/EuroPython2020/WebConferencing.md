@@ -1,13 +1,18 @@
 # EuroPython2020/WebConferencing
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Here are some of the findings in the webconferencing openspace session and #av-clubroom discord discussion at EuroPython 2020.
 
-# Hardware {#Hardware}
+# Hardware 
 
-## Webcams {#Webcams}
+## Webcams 
 
-## Aukey PC-LM1E Webcam SKU ITAN1014662 {#Aukey_PC-LM1E_Webcam_SKU_ITAN1014662}
+## Aukey PC-LM1E Webcam SKU ITAN1014662 
 
 Function:
 
@@ -23,20 +28,20 @@ Cons:
 - 65 degress wide angle (so little of \"you\" in lots of \"room around you\")
 - default settings seem to be too white, can be adjusted via sw
 
-## Logitech Brio {#Logitech_Brio}
+## Logitech Brio 
 
 Pros:
 
 - camera and microphone are really nice
 - plug and play, works on Linux (Ubuntu 20.04)
 
-## Headsets (Headphones with Microphone) {#Headsets_.28Headphones_with_Microphone.29}
+## Headsets (Headphones with Microphone) 
 
 - wired USB headset,works great on Linux and does some amount of noise cancelation
 
-- [https://www.microsoft.com/accessories/en-us/business/lifechat-lx-4000-for-business/7yf-00001](https://www.microsoft.com/accessories/en-us/business/lifechat-lx-4000-for-business/7yf-00001){.https}
+- [https://www.microsoft.com/accessories/en-us/business/lifechat-lx-4000-for-business/7yf-00001](https://www.microsoft.com/accessories/en-us/business/lifechat-lx-4000-for-business/7yf-00001)
 
-### MPOW HC5 Bluetooth Headset X0016X73LR {#MPOW_HC5_Bluetooth_Headset_X0016X73LR}
+### MPOW HC5 Bluetooth Headset X0016X73LR 
 
 Function:
 
@@ -54,15 +59,15 @@ Cons:
 
 - **does not work as headset (speakers+mic) via 1Mii B10 at computer** (not able to switch to \"call\" mode)
 
-## Microphones {#Microphones}
+## Microphones 
 
-### Blue Yeti Mic {#Blue_Yeti_Mic}
+### Blue Yeti Mic 
 
 works very well, but no built in noise cancellation so it picks up everything unless you use it in Cardiod mode with the gain all the way down.
 
-## Bluetooth Adapters {#Bluetooth_Adapters}
+## Bluetooth Adapters 
 
-### 1Mii USB Bluetooth Audio Transmitter B10 EAN X0014UJEH3 {#A1Mii_USB_Bluetooth_Audio_Transmitter_B10_EAN_X0014UJEH3}
+### 1Mii USB Bluetooth Audio Transmitter B10 EAN X0014UJEH3 
 
 Function:
 
@@ -87,24 +92,24 @@ Cons:
 - no \"debugging\" possible if something BT does not work
 - just a soundcard, no BT exposed to computer
 
-### plugable Bluetooth USB Adaptor USB-BT4LE X0004WCG5T {#plugable_Bluetooth_USB_Adaptor_USB-BT4LE_X0004WCG5T}
+### plugable Bluetooth USB Adaptor USB-BT4LE X0004WCG5T 
 
 - BT 4.0 LE + classic BT
 - just works with Linux (Ubuntu 20.04)
 
-## Other / Unsorted {#Other_.2F_Unsorted}
+## Other / Unsorted 
 
-### Blackmagic Design ATEM Mini {#Blackmagic_Design_ATEM_Mini}
+### Blackmagic Design ATEM Mini 
 
 \"ATEM Mini switchers make it easy to create professional multi camera production.\"
 
-### Rode Wireless Go Mic {#Rode_Wireless_Go_Mic}
+### Rode Wireless Go Mic 
 
-### Panasonic GX85 camera {#Panasonic_GX85_camera}
+### Panasonic GX85 camera 
 
-# Software {#Software}
+# Software 
 
-## Linux Webcam Software {#Linux_Webcam_Software}
+## Linux Webcam Software 
 
 ### guvcview
 
@@ -112,7 +117,7 @@ Cons:
 - good video quality
 - just works on Ubuntu 20.04
 
-### OBS Studio {#OBS_Studio}
+### OBS Studio 
 
 Free and open-source cross-platform streaming and recording program.
 
@@ -128,12 +133,11 @@ Con:
 - to emulate a virtual webcam (which then can be used by your video conf software)
   - you need an extra plugin and a kernel module and you might need to compile some stuff.
 
-# Online Services {#Online_Services}
+# Online Services 
 
 - zoom.us
 - meet.jit.si
 - bigbluebutton
 - cryptpad
 
-# Other stuff {#Other_stuff}
-:::
+# Other stuff 

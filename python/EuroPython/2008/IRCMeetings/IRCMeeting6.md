@@ -1,13 +1,18 @@
 # EuroPython/2008/IRCMeetings/IRCMeeting6
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #6 {#IRC_Meeting_.236}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Time/Location {#Time.2FLocation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# IRC Meeting #6 
+
+## Time/Location 
 
 The meeting will take place in the #europython channel on freenode on Thursday 13th March at 19:00 CET.
 
-## Agenda/Minutes {#Agenda.2FMinutes}
+## Agenda/Minutes 
 
 - Talks/Themes
   - Further theme discussion (need to group the themes and identify some good, distinct ones) - **David suggests creating a list of ten or so core themes and asking people to suggest more as required**
@@ -26,27 +31,27 @@ The meeting will take place in the #europython channel on freenode on Thursday 1
 
   - Progress of the budget and fees - **Laura indicates that the 200 Euro per room figure would work again**
 
-  - Payment systems - investigations and discoveries - **Laura is working with [WorldPay](./WorldPay.html){.nonexistent} to set up a payment mechanism**
+  - Payment systems - investigations and discoveries - **Laura is working with [WorldPay](./WorldPay.html) to set up a payment mechanism**
 - Feedback/Surveys
   - Progress on the processing of last year\'s surveys
 - Sponsorship
   - Offers/packages/candidates - **we need more information about costs from the venue for having booths, streamers, etc.**
 
-  - **Potentially offer sponsors the opportunity to have their own [SponsorSpaces](./SponsorSpaces.html){.nonexistent} in extra rooms at the venue, these only cost about 200 Euro per day and should be available.**
+  - **Potentially offer sponsors the opportunity to have their own [SponsorSpaces](./SponsorSpaces.html) in extra rooms at the venue, these only cost about 200 Euro per day and should be available.**
 
-  - [http://mail.python.org/mailman/private/europython-improve/2008-March/000072.html](http://mail.python.org/mailman/private/europython-improve/2008-March/000072.html){.http}
+  - [http://mail.python.org/mailman/private/europython-improve/2008-March/000072.html](http://mail.python.org/mailman/private/europython-improve/2008-March/000072.html)
 - Publicity/Web site (status of previously discussed fixes/enhancements)
 - General discussion (if necessary)
   - Sprints
   - Keynotes
 
-## Post-Meeting Discussion {#Post-Meeting_Discussion}
+## Post-Meeting Discussion 
 
 Christian, David and Laura talked about video streaming, lighting and audio issues with last year\'s event and the problems of having too little time to edit video footage after an event.
 
 Christian suggested arriving a day early to look into setting things up, David suggested some kind of sponsorship was required for the additional travel/accommodation expenses. Christian suggested getting sponsorship for better audio equipment.
 
-## Actions {#Actions}
+## Actions 
 
 - **Christian:** Try and find a copyright assignment form for presenters so that we can video them!
 
@@ -54,11 +59,10 @@ Christian suggested arriving a day early to look into setting things up, David s
 
 - **Jacob:**
 
-- **Laura:** Keep dealing with [WorldPay](./WorldPay.html){.nonexistent} to set up a payment mechanism.
+- **Laura:** Keep dealing with [WorldPay](./WorldPay.html) to set up a payment mechanism.
 
 - **Paul:** Send out messages about themes and \"theme captains\" to europython\[-improve\] and python-list.
 
 - **Marius:** Find out about the hotel\'s video conferencing capabilities and report back.
 
 - **Zeth:**
-:::

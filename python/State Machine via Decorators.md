@@ -1,28 +1,20 @@
 # State Machine via Decorators
 
-:::: {#content dir="ltr" lang="en"}
-## State Machine Decorator Module {#State_Machine_Decorator_Module}
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: table-of-contents
-Contents
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-1.  [State Machine Decorator Module](#State_Machine_Decorator_Module)
-    1.  [Overview](#Overview)
-    2.  [License](#License)
-    3.  [Python Code](#Python_Code)
-2.  [Examples of Use](#Examples_of_Use)
-    1.  [Simple Example](#Simple_Example)
-    2.  [Miss Grant\'s Controller](#Miss_Grant.27s_Controller)
-    3.  [Alternative Miss Grant\'s Controller Example](#Alternative_Miss_Grant.27s_Controller_Example)
-:::
+## State Machine Decorator Module 
 
-### Overview {#Overview}
+### Overview 
 
 This module provides a set of decorators that are useful for implementing state machines of the type described by UML 2.0 state charts. The overhead of these decorators may be too high for them to be useful in parsing applications.
 
 The code for the state machine decorator module is given below. Examples are given following the code.
 
-### License {#License}
+### License 
 
     Copyright (C) 2010, 2011 Rodney Drenth
     All rights reserved.
@@ -51,7 +43,7 @@ The code for the state machine decorator module is given below. Examples are giv
     OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
     SUCH DAMAGE.
 
-### Python Code {#Python_Code}
+### Python Code 
 
     import types
     import itertools
@@ -330,9 +322,9 @@ The code for the state machine decorator module is given below. Examples are giv
 
        return wrapper
 
-## Examples of Use {#Examples_of_Use}
+## Examples of Use 
 
-### Simple Example {#Simple_Example}
+### Simple Example 
 
 The example has three states, which rotate to the next state whenever the writeName method is called. In StateA, the text is printed out in lower case. In states StateB and StateC the text is printed out in upper case.
 
@@ -372,7 +364,7 @@ The example has three states, which rotate to the next state whenever the writeN
           ctxt.writeName(day)
        x = raw_input("done>")
 
-#### Output {#Output}
+#### Output 
 
     monday
     TUESDAY
@@ -382,7 +374,7 @@ The example has three states, which rotate to the next state whenever the writeN
     SATURDAY
     sunday
 
-### Miss Grant\'s Controller {#Miss_Grant.27s_Controller}
+### Miss Grant\'s Controller 
 
 The specification for this controller comes from Martin Fowler. This example uses wxPython as well as the state machine module.
 
@@ -503,7 +495,7 @@ The specification for this controller comes from Martin Fowler. This example use
        frame.Show(True)
        app.MainLoop()
 
-#### Explanation {#Explanation}
+#### Explanation 
 
 There are actually two states in the context. One is for the state of the door, opened or closed. The other is for the main controller. The DoorOpen and DoorClosed states simply translate the onToggleDoor event to invoke either onCloseDoor or onOpenDoor.
 
@@ -515,7 +507,7 @@ The \@transitionevent decorator is a combination of the above two. A state depen
 
 Since states are subclasses of the context, or subclasses of other states, rules governing method or attribute resolution apply. For instance DoorClosed is a subclass of DoorOpened, so when \'onEnter\' of the DoorClosed state is called, it uses the one for DoorOpened. Since DoorClosed has defined a different value for doorLabel, the correct label is set on the door button.
 
-### Alternative Miss Grant\'s Controller Example {#Alternative_Miss_Grant.27s_Controller_Example}
+### Alternative Miss Grant\'s Controller Example 
 
     import wx
     import DecoratorStateMachine as dsm
@@ -642,7 +634,6 @@ Since states are subclasses of the context, or subclasses of other states, rules
        frame.Show(True)
        app.MainLoop()
 
-#### Explanation {#Explanation-1}
+#### Explanation 
 
 There are also two state tables in this example. The difference being that the DoorClosed state acts as the context for the second set of states. The onEnter method of the DoorClosed state re-initializes the second state to Active. In the DoorClosed state, the onLightOn, onOpenDrawer, and onClosePanel can cause transitions on the second state varible. These methods are events on the first state variable(dstate), and when in the DoorOpen state, the events do not get invoked for the xtable related state.
-::::

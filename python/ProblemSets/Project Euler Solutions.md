@@ -1,28 +1,24 @@
 # ProblemSets/Project Euler Solutions
 
-:::: {#content dir="ltr" lang="en"}
-Python Solutions to [Project Euler](http://projecteuler.net/index.php?section=problems){.http}.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Python Solutions to [Project Euler](http://projecteuler.net/index.php?section=problems).
 
 **Index**
 
-::: table-of-contents
-Contents
-
-1.  [Solutions to the first 40 problems in functional Python](#Solutions_to_the_first_40_problems_in_functional_Python)
-2.  [Problem 1: Add all the natural numbers below 1000 that are multiples of 3 or 5.](#Problem_1:_Add_all_the_natural_numbers_below_1000_that_are_multiples_of_3_or_5.)
-3.  [Problem 2: Find the sum of all the even-valued terms in the Fibonacci sequence which do not exceed one million.](#Problem_2:_Find_the_sum_of_all_the_even-valued_terms_in_the_Fibonacci_sequence_which_do_not_exceed_one_million.)
-4.  [Problem 3: Find the largest prime factor of 317584931803.](#Problem_3:_Find_the_largest_prime_factor_of_317584931803.)
-:::
-
-# Solutions to the first 40 problems in functional Python {#Solutions_to_the_first_40_problems_in_functional_Python}
+# Solutions to the first 40 problems in functional Python 
 
 Just found this site which is apparently devoted to solutions for the Euler problem set, in python, with a functional flavor.
 
-[http://pyeuler.wikidot.com/](http://pyeuler.wikidot.com/){.http}
+[http://pyeuler.wikidot.com/](http://pyeuler.wikidot.com/)
 
-# Problem 1: Add all the natural numbers below 1000 that are multiples of 3 or 5. {#Problem_1:_Add_all_the_natural_numbers_below_1000_that_are_multiples_of_3_or_5.}
+# Problem 1: Add all the natural numbers below 1000 that are multiples of 3 or 5. 
 
-[http://projecteuler.net/index.php?section=problems&id=1](http://projecteuler.net/index.php?section=problems&id=1){.http}
+[http://projecteuler.net/index.php?section=problems&id=1](http://projecteuler.net/index.php?section=problems&id=1)
 
         def multiples_of_3_or_5():
             for number in xrange(1000):
@@ -35,9 +31,9 @@ In one line:
 
         print sum( number for number in xrange(1000) if not (number % 3 and number % 5) )
 
-# Problem 2: Find the sum of all the even-valued terms in the Fibonacci sequence which do not exceed one million. {#Problem_2:_Find_the_sum_of_all_the_even-valued_terms_in_the_Fibonacci_sequence_which_do_not_exceed_one_million.}
+# Problem 2: Find the sum of all the even-valued terms in the Fibonacci sequence which do not exceed one million. 
 
-[http://projecteuler.net/index.php?section=problems&id=2](http://projecteuler.net/index.php?section=problems&id=2){.http}
+[http://projecteuler.net/index.php?section=problems&id=2](http://projecteuler.net/index.php?section=problems&id=2)
 
         def fib():
             x,y = 0,1
@@ -70,9 +66,9 @@ Alternately:
 
         print sum(x for x in itertools.takewhile(lambda x: x <= 1000000, fib()) if x % 2 == 0)
 
-# Problem 3: Find the largest prime factor of 317584931803. {#Problem_3:_Find_the_largest_prime_factor_of_317584931803.}
+# Problem 3: Find the largest prime factor of 317584931803. 
 
-[http://projecteuler.net/index.php?section=problems&id=3](http://projecteuler.net/index.php?section=problems&id=3){.http}
+[http://projecteuler.net/index.php?section=problems&id=3](http://projecteuler.net/index.php?section=problems&id=3)
 
         plist = [2]
 
@@ -94,4 +90,3 @@ Alternately:
                     break
 
         print max(factors(317584931803))
-::::

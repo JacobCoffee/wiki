@@ -1,13 +1,18 @@
 # CodingStandards
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 When contributing code or patches to Jython, please try to follow these guidelines.
 
-## Python Code {#Python_Code}
+## Python Code 
 
-In general, follow [PEP 8](http://www.python.org/dev/peps/pep-0008/){.http}. When importing Java code, always use fully qualified class names, not package names ie from java.lang import String instead of from java import lang.
+In general, follow [PEP 8](http://www.python.org/dev/peps/pep-0008/). When importing Java code, always use fully qualified class names, not package names ie from java.lang import String instead of from java import lang.
 
-## Java Code {#Java_Code}
+## Java Code 
 
 - Javadoc on any publicly exposed method or field.
 
@@ -29,7 +34,7 @@ In general, follow [PEP 8](http://www.python.org/dev/peps/pep-0008/){.http}. Whe
 
 - Descriptive names for fields and methods.
 
-- [No \@author tags in code.](http://producingoss.com/en/managing-volunteers.html#territoriality){.http}
+- [No \@author tags in code.](http://producingoss.com/en/managing-volunteers.html#territoriality)
 
 - Any field on an object that isn\'t modified after construction should be final.
 
@@ -48,11 +53,11 @@ In general, follow [PEP 8](http://www.python.org/dev/peps/pep-0008/){.http}. Whe
        // XXX: Quux is flakey
        //Baz baz = new Baz()
 
-Beyond these rules, follow the [Sun Java standards](http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html){.http}.
+Beyond these rules, follow the [Sun Java standards](http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html).
 
-[Eclipse_Formatting.xml](attachments/CodingStandards/Eclipse_Formatting.xml){.attachment} can be imported into Eclipse to get it to follow the standards.
+[Eclipse_Formatting.xml](attachments/CodingStandards/Eclipse_Formatting.xml) can be imported into Eclipse to get it to follow the standards.
 
-### Example (adapted from Sun document) {#Example_.28adapted_from_Sun_document.29}
+### Example (adapted from Sun document) 
 
     package org.jython.blah;
     import org.jython.blah.BlahBlah;
@@ -94,4 +99,3 @@ Beyond these rules, follow the [Sun Java standards](http://www.oracle.com/techne
             // ...implementation goes here...
         }
     }
-:::

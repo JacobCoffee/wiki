@@ -1,7 +1,12 @@
 # Asking for Help/thread started using 'bg' ends without any notification
 
-:::: {#content dir="ltr" lang="en"}
-# Asking for Help: thread started by \'bg\' ends without any notification {#Asking_for_Help:_thread_started_by_.27bg.27_ends_without_any_notification}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: thread started by \'bg\' ends without any notification 
 
 \...
 
@@ -89,4 +94,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp)
-::::

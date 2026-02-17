@@ -1,11 +1,16 @@
 # PyQt/DevelopmentWithEric3
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Add your tips on eric3 here!
 
 ------------------------------------------------------------------------
 
-This is a little tutorial that is a bit outdated (the sample source has to be changed in some points, but I don\'t remember them, sorry): [http://www.pycs.net/lateral/stories/16.html](http://www.pycs.net/lateral/stories/16.html){.http}
+This is a little tutorial that is a bit outdated (the sample source has to be changed in some points, but I don\'t remember them, sorry): [http://www.pycs.net/lateral/stories/16.html](http://www.pycs.net/lateral/stories/16.html)
 
 ------------------------------------------------------------------------
 
@@ -25,21 +30,21 @@ Then, a very important thing to do is to set up QTDIR correctly in Settings-\>Pr
 
 Restart eric and everything (hopefully) will work as explained below\...
 
-## Create_Project {#Create_Project}
+## Create_Project 
 
 First, select **Project-\>New** to create a new project. Name it \'Hello\', ensure that the **UI Type is QT**, and press **OK**.
 
-## Create_Dialog {#Create_Dialog}
+## Create_Dialog 
 
 Run Qt Designer (**Extras-\>Tools-\>Designer**) and create a new form using **File-\>New\...** and selecting **Dialog** from the wizard.
 
-Set the name of the dialog form **hello_form** and change the caption to \'hello\' (or whatever). Add a **[PushButton](./PushButton.html){.nonexistent}** to the form and the change the text to \'Close\' (or, again, whatever).
+Set the name of the dialog form **hello_form** and change the caption to \'hello\' (or whatever). Add a **[PushButton](./PushButton.html)** to the form and the change the text to \'Close\' (or, again, whatever).
 
-Hit **F3** or the **Connect Signals/Slots** button. Create a connection from the **[PushButton](./PushButton.html){.nonexistent} pressed** signal to the **hello_form \'close()\' slot**.
+Hit **F3** or the **Connect Signals/Slots** button. Create a connection from the **[PushButton](./PushButton.html) pressed** signal to the **hello_form \'close()\' slot**.
 
 Save the form as **hello_form.ui** and exit Qt designer.
 
-## Add Dialog To Project {#Add_Dialog_To_Project}
+## Add Dialog To Project 
 
 The project Browser is the tabbed or notebook widget in on the upper left of the Eric3 IDE. It has a tab with a snake, a (drawing) compass, a fish, a piece of paper saying IDL, and a blank piece of paper; these represent the project Sources, Forms, Translations, Interfaces, and Others.
 
@@ -47,7 +52,7 @@ Go to the Forms tab in the Project Browser. **Right-click on the tab** to get th
 
 The \'hello_form.ui\' file will appear in the Forms tab. **Right-click on it and select \'Compile Form\'** . This will create \'hello_form.py\' and add it to the Sources tab in the Project Browser.
 
-## Generate Subclass For Form {#Generate_Subclass_For_Form}
+## Generate Subclass For Form 
 
 **Right-click on \'hello_form.ui\'** in the Forms tab of the Project Browser and **choose \'Generate Subclass\'** . When prompted for a name, enter \'hello_form_impl\'.
 
@@ -55,13 +60,13 @@ This will open an untitled python script window with the subclass implementation
 
 Go to the Sources tab of the Project Browser and right-click on the background. **Choose \'Add source file\...\' and select \'hello_form_impl.py\'** in the file dialog, then press OK.
 
-## Create A Main Script {#Create_A_Main_Script}
+## Create A Main Script 
 
 Open a new python script. Enter the following code:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-348d77e164a2281246c3357a58147be28356707c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #!/usr/bin/env python
    2 
    3 import sys
@@ -87,7 +92,6 @@ Go to Project-\>Properties
 
 Set the \'Main script\' property to \'hello_main.py\' and press OK; this will add \'hello_main.py\' to the Sources tab of the Project Browser.
 
-## Wrapping It Up {#Wrapping_It_Up}
+## Wrapping It Up 
 
 Use **Debug-\>Run Project** to run the scripts and show the dialog.
-:::::

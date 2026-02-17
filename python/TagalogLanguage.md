@@ -1,7 +1,12 @@
 # TagalogLanguage
 
-::::: {#content dir="ltr" lang="en"}
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -27,13 +32,13 @@ ISO 639-1 Code: tl
 
 **Wikang Tagalog**
 
-Phrases from [Omniglot](http://omniglot.com/language/phrases/tagalog.php){.http}
+Phrases from [Omniglot](http://omniglot.com/language/phrases/tagalog.php)
 
-Names from [Filipino Baby Names](http://filipinobabynames.net/){.http}
+Names from [Filipino Baby Names](http://filipinobabynames.net/)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-98d0e20e7573e21a70d24ae5fbd91cb70927daae dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # -*- coding: utf-8 -*-
    2 # python 3.0/3.1
    3 
@@ -48,7 +53,6 @@ Names from [Filipino Baby Names](http://filipinobabynames.net/){.http}
 :::
 ::::
 
-[Wikipedia](http://tl.wikipedia.org/wiki/Python_(programming_language)){.http} Wikipedia stub
+[Wikipedia](http://tl.wikipedia.org/wiki/Python_(programming_language)) Wikipedia stub
 
 [CategoryLanguage](CategoryLanguage)
-:::::

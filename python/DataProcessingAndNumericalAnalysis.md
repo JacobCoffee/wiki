@@ -1,6 +1,11 @@
 # DataProcessingAndNumericalAnalysis
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Session Title: Data Analysis and Numeric Processing
 
 Organizer: Patrick Ball
@@ -53,17 +58,16 @@ Suggestion from Numarray folks
 
 Suggestion by Jeff/Abhay
 
-- Use Metakit [http://www.equi4.com/metakit/](http://www.equi4.com/metakit/){.http}
+- Use Metakit [http://www.equi4.com/metakit/](http://www.equi4.com/metakit/)
 
 Use R (like S-Plus)
 
-- [http://www.r-project.org/](http://www.r-project.org/){.http}
+- [http://www.r-project.org/](http://www.r-project.org/)
 
-- [http://cran.r-project.org/](http://cran.r-project.org/){.http}
+- [http://cran.r-project.org/](http://cran.r-project.org/)
 
-- [http://rpy.sourceforge.net/](http://rpy.sourceforge.net/){.http}
+- [http://rpy.sourceforge.net/](http://rpy.sourceforge.net/)
 
-- [http://www.omegahat.org/RSPython/index.html](http://www.omegahat.org/RSPython/index.html){.http}
+- [http://www.omegahat.org/RSPython/index.html](http://www.omegahat.org/RSPython/index.html)
 
 R + Python has problems. Patrick tells of difficulties passing data between Python and R, even simple stuff like small matrices \-- R gives back data errors (roughly: \"I don\'t understand what this is\").
-:::

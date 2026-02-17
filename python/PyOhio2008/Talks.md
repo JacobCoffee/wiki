@@ -1,6 +1,11 @@
 # PyOhio2008/Talks
 
-::::::::::::::::::::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 = PyOhio 2008 Scheduled Talks =
 
 +-------+----------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
@@ -16,13 +21,13 @@
 |       |                                                                                                                |                                                                                                                                               |
 |       | Lightning Talks                                                                                                |                                                                                                                                               |
 +-------+----------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| 12:30 | [PostgreSQL and Python](attachments/PyOhio2008(2f)Talks/postgres_python.ppt){.attachment .reference .external} |                                                                                                                                               |
+| 12:30 | [PostgreSQL and Python](attachments/PyOhio2008(2f)Talks/postgres_python.ppt) |                                                                                                                                               |
 +-------+----------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| 1:30  | Iteration in Python                                                                                            | [Cross Platform Desktop Apps w/ Python & GWT](attachments/PyOhio2008(2f)Talks/CrossPlatformDesktopApps.pdf){.attachment .reference .external} |
+| 1:30  | Iteration in Python                                                                                            | [Cross Platform Desktop Apps w/ Python & GWT](attachments/PyOhio2008(2f)Talks/CrossPlatformDesktopApps.pdf) |
 +-------+----------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
 | 2:30  | Paver: easily manage Python code                                                                               |                                                                                                                                               |
 +-------+----------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| 3:30  | [Decorators are fun](http://scratch.tplus1.com/decoratortalk){.http .reference .external}                      | BEA WebLogic Scripting with Python                                                                                                            |
+| 3:30  | [Decorators are fun](http://scratch.tplus1.com/decoratortalk)                      | BEA WebLogic Scripting with Python                                                                                                            |
 +-------+----------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
 | 4:30  | Google App Engine                                                                                              |                                                                                                                                               |
 +-------+----------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
@@ -33,36 +38,36 @@
 | 6:00  | Library closes                                                                                                                                                                                                                                                 |
 +-------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-:::::: {#talk-materials .section}
+:::::: 
 ### Talk Materials
 
-::: {#cross-platform-desktop-apps-w-python-gwt .section}
+::: 
 #### Cross Platform Desktop Apps w/ Python & GWT
 
-[YADAF Slides](attachments/PyOhio2008(2f)Talks/CrossPlatformDesktopApps.pdf){.attachment .reference .external}
+[YADAF Slides](attachments/PyOhio2008(2f)Talks/CrossPlatformDesktopApps.pdf)
 
-[YADAF Code](http://code.google.com/p/yadaf/){.http .reference .external}
+[YADAF Code](http://code.google.com/p/yadaf/)
 :::
 
-::: {#decorators-are-fun .section}
-#### [Decorators are fun](http://scratch.tplus1.com/decoratortalk){.http .reference .external}
+::: 
+#### [Decorators are fun](http://scratch.tplus1.com/decoratortalk)
 :::
 
-::: {#postgresql-and-python .section}
-#### [PostgreSQL and Python](attachments/PyOhio2008(2f)Talks/postgres_python.ppt){.attachment .reference .external}
+::: 
+#### [PostgreSQL and Python](attachments/PyOhio2008(2f)Talks/postgres_python.ppt)
 :::
 ::::::
 
-:::::: {#talking-to-the-web-with-python-auditorium-9-30 .section}
+:::::: 
 ### Talking to The Web with Python (Auditorium, 9:30)
 
-::: {#presenter .section}
+::: 
 #### Presenter
 
 Gary Bernhardt
 :::
 
-::: {#summary .section}
+::: 
 #### Summary
 
 Web frameworks like Django and TurboGears have drawn attention to Python\'s presence on the server side of the web, but there are also powerful client-side tools available. This talk will be an overview of two such tools:
@@ -74,109 +79,109 @@ Web frameworks like Django and TurboGears have drawn attention to Python\'s pres
 These libraries make it easy to deal with the inconsistent and often invalid data that are so common on the web. They have a wide range of applications, from data mining to mashups to thick client applications. For this talk, fine details of the APIs will be avoided; instead, practical use cases will be highlighted, especially those where the libraries can be combined for greater effect.
 :::
 
-::: {#experience-level .section}
+::: 
 #### Experience level
 
 Intermediate level. A basic familiarity with HTTP, HTML, and RSS/Atom concepts will be assumed.
 :::
 ::::::
 
-:::::: {#turbogears-2-the-next-gen-next-gen-framework-auditorium-10-30 .section}
+:::::: 
 ### TurboGears 2, the next-gen next-gen framework (Auditorium, 10:30)
 
-::: {#id1 .section}
+::: 
 #### Presenter
 
 Mark Ramm
 :::
 
-::: {#id2 .section}
+::: 
 #### Summary
 
 TurboGears 2 is the next generation of the TurboGears framework. This talk explain how TurboGears, Rails, Django, and other \"next-generation\" fell short, and why a new generation of full-stack web-framework was needed. Obviously, TurboGears, Rails, and Django meet lots of people\'s needs, and have made web application development better. But there\'s still more to be done, and TurboGears 2 is an attempt move \"next-generation, full-stack, rapid application development\" forward, so that it can solve a whole new set of problems.
 :::
 
-::: {#id3 .section}
+::: 
 #### Experience level
 
 Assumes some knowledge of Python, and web development but does not assume any prior familiarity with TurboGears, Django, or Rails.
 :::
 ::::::
 
-:::::: {#postgresql-and-python-auditorium-12-30 .section}
+:::::: 
 ### PostgreSQL and Python (Auditorium, 12:30)
 
-::: {#id4 .section}
+::: 
 #### Presenter
 
 Brent Friedman
 :::
 
-::: {#id5 .section}
+::: 
 #### Summary
 
 1.Brief overview of database connectivity, to gauge audience familiarity level 2.Brief history of postgresql 3.Overview of pg/python 4.Overview of psycopg2 (multi-threading, connection pool, etc.) 5.Live demo with pg/python 6.Common gotchas (errors, troubleshooting, etc.) 7.Questions
 :::
 
-::: {#id6 .section}
+::: 
 #### Experience level
 
 Beginner
 :::
 ::::::
 
-:::::: {#iteration-in-python-iterators-generators-itertools-and-special-methods-auditorium-1-30 .section}
+:::::: 
 ### Iteration in Python: Iterators, Generators, Itertools, and Special Methods (Auditorium, 1:30)
 
-::: {#id7 .section}
+::: 
 #### Presenter
 
 Brandon Mintern
 :::
 
-::: {#id8 .section}
+::: 
 #### Summary
 
 A key paradigm in Python is iteration over collections of data. Python has several powerful facilities that make using and defining that iteration quite straightforward. In my talk, I will compare and contrast iterators and generators, discuss how to define iteration in a custom class, and show how the generator-based itertools module can make complex iteration patterns simple and efficient.
 :::
 
-::: {#id9 .section}
+::: 
 #### Experience level
 
 The talk should benefit all but the most advanced Python programmers. The target audience will have some Python experience, but no specific former knowledge will be necessary.
 :::
 ::::::
 
-:::::: {#cross-platform-desktop-applications-with-python-and-gwt-loft-1-30 .section}
+:::::: 
 ### Cross Platform Desktop Applications with Python and GWT (Loft, 1:30)
 
-[YADAF Slides](attachments/PyOhio2008(2f)Talks/CrossPlatformDesktopApps.pdf){.attachment .reference .external}
+[YADAF Slides](attachments/PyOhio2008(2f)Talks/CrossPlatformDesktopApps.pdf)
 
-[YADAF Code](http://code.google.com/p/yadaf/){.http .reference .external}
+[YADAF Code](http://code.google.com/p/yadaf/)
 
-::: {#id10 .section}
+::: 
 #### Presenter
 
 Nicholas Bastin
 :::
 
-::: {#id11 .section}
+::: 
 #### Summary
 
 This session will introduce an application server which will allow developers to write Python backend code for a GWT (or any JSON client) interface without having to handle anything related to file serving or JSON translation on the server side, which is all taken care of automatically. Application developers merely load an application instance into the server and their application APIs are exposed as a JSON web service to be used with GWT or similar web-based UIs, thus making AJAX available as a desktop application framework without any need for developers to understand the ins and outs of application servers. This session will introduce this framework and also take discussion on future direction such as supporting other RPC mechanisms (SOAP, etc.) and deployment of stripped down browsers.
 :::
 
-::: {#id12 .section}
+::: 
 #### Experience level
 
 Intermediate to Advanced
 :::
 ::::::
 
-:::::: {#paver-easily-manage-python-code-auditorim-2-30 .section}
+:::::: 
 ### Paver; easily manage Python code (Auditorim, 2:30)
 
-::: {#id13 .section}
+::: 
 #### Presenter
 
 Author: Kevin Dangoor
@@ -184,7 +189,7 @@ Author: Kevin Dangoor
 Presenter: Mark Ramm
 :::
 
-::: {#id14 .section}
+::: 
 #### Summary
 
 An introduction to Paver.
@@ -192,26 +197,26 @@ An introduction to Paver.
 Paver is a build, distribution, installation and deployment scripting package specifically geared to Python projects. It uses distutils and setuptools for packaging up code, Sphinx for documentation, virtualenv and zc.buildout for installation and wraps it all in an easy-to-use scripting setup. Using a simple model based on \"tasks\" (similar to Ruby\'s Rake), Paver helps you to have fewer random shell scripts, fewer configuration files, less duplication of project metadata and lets you stick to Python as much as possible.
 :::
 
-::: {#id15 .section}
+::: 
 #### Experience level
 
 Assumes some knowledge of Python, but does not assume knowledge of Python project management.
 :::
 ::::::
 
-:::::: {#decorators-are-fun-auditorium-3-30 .section}
-### [Decorators are fun](http://scratch.tplus1.com/decoratortalk){.http .reference .external} (Auditorium, 3:30)
+:::::: 
+### [Decorators are fun](http://scratch.tplus1.com/decoratortalk) (Auditorium, 3:30)
 
-::: {#id16 .section}
+::: 
 #### Presenter
 
 Matthew Wilson
 :::
 
-::: {#id17 .section}
+::: 
 #### Summary
 
-\[[http://scratch.tplus1.com/decoratortalk/](http://scratch.tplus1.com/decoratortalk/){.http .reference .external} View the slides for the presentation here\].
+\[[http://scratch.tplus1.com/decoratortalk/](http://scratch.tplus1.com/decoratortalk/) View the slides for the presentation here\].
 
 This talk will start with a friendly walkthrough of decorators for people that have never seen them, then go into some straightforward examples, then finish with a few complex ideas. Details:
 
@@ -225,45 +230,45 @@ This talk will start with a friendly walkthrough of decorators for people that h
 > - Use Phillip Eby\'s PEAK-Rules to write generic functions.
 :::
 
-::: {#id18 .section}
+::: 
 #### Experience level
 
 Hopefully, there will be something for everyone. Novices might enjoy the material at the beginning mostly, while experts would likely be more interested in the generic functions discussion.
 :::
 ::::::
 
-:::::: {#bea-weblogic-scripting-with-python-loft-3-30 .section}
+:::::: 
 ### BEA WebLogic Scripting with Python (Loft, 3:30)
 
-::: {#id19 .section}
+::: 
 #### Presenter
 
 Matthew K. Williams
 :::
 
-::: {#id20 .section}
+::: 
 #### Summary
 
 The WebLogic Scripting Tool (WLST) is one of the least documented and least understood aspects of WebLogic 9/10. However, it is very powerful and useful for daily tasks, whether they be administrative or monitoring the servers. WLST uses Jython, a version of Python which runs within the Java Virtual Machine. This session provides an overview of WLST, as well as a tutorial consisting of a number of real-life applications of WLST and python scripting with BEA\'s WebLogic platform.
 :::
 
-::: {#id21 .section}
+::: 
 #### Experience level
 
 The attendee is expected to have some level of exposure to Python
 :::
 ::::::
 
-:::::: {#beginning-web-development-with-python-and-google-app-engine-auditorium-4-30 .section}
+:::::: 
 ### Beginning web development with Python and Google App Engine (Auditorium, 4:30)
 
-::: {#id22 .section}
+::: 
 #### Presenter
 
 Pradeep Gowda
 :::
 
-::: {#id23 .section}
+::: 
 #### Summary
 
 Google has thrown open its cloud computing infrastructure to the developer community via \"Google App Engine\"(GAE). The Google Appengine allows the programmers to develop Python applications which can then be hosted on google infrastructure. This has huge implications for making web application development accessible to large cross section of python developers. In this talk, we will attempt to understand what GAE provides and how best to make use of it.
@@ -287,10 +292,9 @@ Google has thrown open its cloud computing infrastructure to the developer commu
 > - Using \"web Frameworks\" (Django, web.py)
 :::
 
-::: {#id24 .section}
+::: 
 #### Experience level
 
 Beginner
 :::
 ::::::
-:::::::::::::::::::::::::::::::::::::::::::

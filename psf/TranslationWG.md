@@ -1,13 +1,18 @@
 # TranslationWG
 
-::: {#content dir="ltr" lang="en"}
-# Translation Working Group {#Translation_Working_Group}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Translation Working Group 
 
 *Note:* When creating new wiki pages related to this group, please use wiki subpages, e.g. TranslationWG/Charter.
 
 The purpose of this group is to encourage and enable the translation of PSF documents, e.g., the membership model and sign-up pages, etc, to various languages besides English. This group will also work to prioritize translation work and provide the needed organization and infrastructure.
 
-## Agenda {#Agenda}
+## Agenda 
 
 This group is forming, so the following will need to be considered:
 
@@ -16,26 +21,25 @@ This group is forming, so the following will need to be considered:
 - Getting charter approved by PSF board
 - Determining next steps and areas for work
 
-## Resources {#Resources}
+## Resources 
 
-- Charter - [https://wiki.python.org/psf/TranslationWG/Charter](https://wiki.python.org/psf/TranslationWG/Charter){.https}
+- Charter - [https://wiki.python.org/psf/TranslationWG/Charter](https://wiki.python.org/psf/TranslationWG/Charter)
 
-## Mailing List {#Mailing_List}
+## Mailing List 
 
-- [translation@python.org](mailto:translation@python.org){.mailto} ([https://mail.python.org/mm3/mailman3/lists/translation.python.org/](https://mail.python.org/mm3/mailman3/lists/translation.python.org/){.https})
+- [translation@python.org](mailto:translation@python.org) ([https://mail.python.org/mm3/mailman3/lists/translation.python.org/](https://mail.python.org/mm3/mailman3/lists/translation.python.org/))
 
-## Administration {#Administration}
+## Administration 
 
 - Co-chairs: Lorena Mesa, Marlene Mhangami, Naomi Ceder
 - Vice Chairs: TBD
 
-## Members {#Members}
+## Members 
 
 - Naomi Ceder (North America)
 - Lorena Mesa (North America)
 - Marlene Mhangami (Africa)
 
-## Meetings {#Meetings}
+## Meetings 
 
 - Currently all business of the working group is conducted via email.
-:::

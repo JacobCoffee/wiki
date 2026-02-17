@@ -1,19 +1,24 @@
 # PyQt/MiniSipExample
 
-::::::: {#content dir="ltr" lang="en"}
-# SIP: Generate Bindings for a class derived from Qt {#SIP:_Generate_Bindings_for_a_class_derived_from_Qt}
+```{admonition} Legacy Wiki Page
+:class: note
 
-This example shows how to use [SIP](http://www.riverbankcomputing.co.uk/sip/index.php){.http} for generating bindings to Qt c++ modules. The Example shown in the sip-documentation is not complete and perhaps we can prevent you to waste hours of time to get things run.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Before You Begin {#Before_You_Begin}
+# SIP: Generate Bindings for a class derived from Qt 
 
-1.  Install [Qt4](http://www.trolltech.com){.http}
+This example shows how to use [SIP](http://www.riverbankcomputing.co.uk/sip/index.php) for generating bindings to Qt c++ modules. The Example shown in the sip-documentation is not complete and perhaps we can prevent you to waste hours of time to get things run.
 
-2.  Build and install [SIP](http://www.riverbankcomputing.com/software/sip/intro){.http}
+## Before You Begin 
 
-3.  Build and install [PyQt](http://www.riverbankcomputing.com/software/pyqt/intro){.http}
+1.  Install [Qt4](http://www.trolltech.com)
 
-## Qt Fragment {#Qt_Fragment}
+2.  Build and install [SIP](http://www.riverbankcomputing.com/software/sip/intro)
+
+3.  Build and install [PyQt](http://www.riverbankcomputing.com/software/pyqt/intro)
+
+## Qt Fragment 
 
 We define a silly class derived from QString.\
 
@@ -53,7 +58,7 @@ Now We call qmake for qt4 to generate the makefile, then make to build the examp
 `$ qmake`{.backtick}\
 `$ sudo make`{.backtick}
 
-## Telling SIP what to do {#Telling_SIP_what_to_do}
+## Telling SIP what to do 
 
 We need two files.\
 
@@ -75,9 +80,9 @@ hello.sip:
 
 configure.py:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4822de7970bbce95cc7e90d54ac57cb9145b7985 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import os
    2 import sipconfig
    3 from PyQt4 import pyqtconfig
@@ -133,13 +138,13 @@ We build the Python-Modul and install it
 `$ make`{.backtick}\
 `$ sudo make install`{.backtick}
 
-## Simple Python Example {#Simple_Python_Example}
+## Simple Python Example 
 
 Now you can use the class inside the python interpreter:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-17856273ee78602d0ee777faad338c6c1bea59f0 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import hello
    2 
    3 a=hello.Hello()
@@ -147,4 +152,3 @@ Now you can use the class inside the python interpreter:
 ```
 :::
 ::::
-:::::::

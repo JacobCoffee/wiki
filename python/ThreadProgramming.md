@@ -1,7 +1,12 @@
 # ThreadProgramming
 
-::::::: {#content dir="ltr" lang="en"}
-# Stopping Threads Fermare un Processo {#Stopping_Threads__Fermare_un_Processo}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Stopping Threads Fermare un Processo 
 
 I\'d like to start this page off with a question. How do you kill one thread from within another? Here\'s some code that shows the problem:
 
@@ -9,9 +14,9 @@ I\'d like to start this page off with a question. How do you kill one thread fro
 
 Ecco il codice che mostra come risolvere il problema:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-640651f94c93134df81a581894f970780514bdd5 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import threading
    2 import time
    3 
@@ -45,7 +50,7 @@ The problem here is that `EventChannel.waitEvent()` is a blocking operation. So 
 
 Il costrutto o funzione `EventChannel.waitEvent()` è un blocco operativo. Così se un evento mai arriva, il nostro lavoro non fermerà mai il processo. Attenzione!!! Le (`EventChannel` and `EventHandler` sono classi da me inventate per questo esempio.
 
-## Suggestions Suggerimento {#Suggestions_Suggerimento}
+## Suggestions Suggerimento 
 
 - Make the `shutdown()` method put some harmless event on the event channel:
 
@@ -60,9 +65,9 @@ Il costrutto o funzione `EventChannel.waitEvent()` è un blocco operativo. Così
 - Or use a Queue to pass data. Handle errors in the handler (e.g. print them to the console), keep the thread alive.
 - Oppure usiamo una coda per passare i dati. Manovrare gli errori con il manipolatore( es. stampa da console),mantiene vivo il processo.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-823467d703f1e7150507ad0dc73d56cc0bcde2b8 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import Queue, threading, traceback
    2 
    3 class StopMarker:
@@ -130,9 +135,8 @@ Ho un modulo C che pone delle interrogazioni ad un Databases. Queste queries pon
 
 \" Ciò può essere attuato con il codice python. L\'autore del D.B.
 
-# Resources {#Resources}
+# Resources 
 
-- \[[http://starship.python.net/crew/aahz/OSCON2001/index.html](http://starship.python.net/crew/aahz/OSCON2001/index.html){.http} Aahz OSCON 2001 presentation
+- \[[http://starship.python.net/crew/aahz/OSCON2001/index.html](http://starship.python.net/crew/aahz/OSCON2001/index.html) Aahz OSCON 2001 presentation
 
 - Italian version of this page: Processo Programma
-:::::::

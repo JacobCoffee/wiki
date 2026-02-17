@@ -1,44 +1,48 @@
 # PyConIndia2010/VenueRequirements
 
-::: {#content dir="ltr" lang="en"}
-## Rooms {#Rooms}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Rooms 
 
 - 1 hall with 250 seating capacity
 - 2 hall with 100 seating capacity
 
 (Total 3 rooms)
 
-## Food {#Food}
+## Food 
 
 Food should be available at a nominal rate.
 
-## Accommodation {#Accommodation}
+## Accommodation 
 
 There should hotels in nearby area
 
-# Venue options {#Venue_options}
+# Venue options 
 
-## RV college of engineering {#RV_college_of_engineering}
+## RV college of engineering 
 
-### Pros {#Pros}
+### Pros 
 
 - Contacts with Renuka Prasad/Baiju
 - Enthusiasm from member of the staff
 
-### Cons {#Cons}
+### Cons 
 
 - Far outside the city. Accessibility issues.
   - (This is a national conference, so most of the people will arrange stay near to venue \-- Baiju)
 
-## MSRIT {#MSRIT}
+## MSRIT 
 
-### Pros {#Pros-1}
+### Pros 
 
 - Active student free software group.
 - Better facilities?
 
-### Cons {#Cons-1}
+### Cons 
 
 - No contact yet with any staff members.
 - No past experience with them (as opposed to Baiju for RV).
-:::

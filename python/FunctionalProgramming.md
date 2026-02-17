@@ -1,9 +1,14 @@
 # FunctionalProgramming
 
-::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page demonstrates functional programming in Python.
 
-## Challenge: Italicizing Text {#Challenge:_Italicizing_Text}
+## Challenge: Italicizing Text 
 
 The challenge is to italicize some text that is specially marked in a [WikiLikeSyntax](WikiLikeSyntax).
 
@@ -17,7 +22,7 @@ into:
 
 Or even: `"This ''has'' several ''italic'' parts."` into `"This <i>has</i> several <i>italic</i> parts."`
 
-## The Approach {#The_Approach}
+## The Approach 
 
 Our strategy is as follows:
 
@@ -25,11 +30,11 @@ Our strategy is as follows:
 2.  Italicize every other part.
 3.  Join the parts back together again.
 
-## The Functional Solution {#The_Functional_Solution}
+## The Functional Solution 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-bddb2ef01b485bd8275a526951447bb04e2ec979 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 italicize = lambda s: "".join(evens_and_odds(ident, italicize_one, s.split("''")))
 ```
 :::
@@ -41,9 +46,9 @@ The advantages of functional programming are clear!
 
 Well, yes and no; We have to provide the supporting functions, as well:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-71c22e3673e03fe6664a0a175149d7705612b93f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 ident = lambda s: s
    2 italicize_one = lambda s: "<i>%s</i>" % s
    3 evens_and_odds = lambda evenf, oddf, L: [f(x) for (x, f) in zip(L, [evenf, oddf]*((len(L)+1)/2))]
@@ -55,13 +60,13 @@ Only four lines, total solution!
 
 Let\'s look at how we might, more traditionally, perform this operation.
 
-## The Traditional Way {#The_Traditional_Way}
+## The Traditional Way 
 
 Here\'s a solution I had written, before I took an interest in functional programming:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ed129f817c602c2e63004affad25b32ae0cec745 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def join_by_pairs(lst, start, end):
    2     """
    3     if   lst = [1,2,3,4,5,6,7,8],
@@ -105,9 +110,9 @@ Granted, it\'s *slightly* different, and it also handles bolding.
 
 We can add \"bolding\" to our code, as well:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3d2ca00b58493c81c135a91354f9d5f726670ea7 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 bold_one = lambda s: "<b>%s</b>" % s
    2 boldize = lambda s: "".join(evens_and_odds(ident, bold_one, s.split("'''")))
    3 italicize_and_boldize = compose(boldize, italicize)
@@ -117,9 +122,9 @@ We can add \"bolding\" to our code, as well:
 
 Oh, right, \"compose.\"
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-48289548cfaa6b7f4503943199d27290cb56d17a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 compose = lambda f, g: lambda x: g(f(x))
 ```
 :::
@@ -127,7 +132,7 @@ Oh, right, \"compose.\"
 
 So, we\'ve added 4 lines. So we have a total of 8 lines.
 
-## 47%, or 35%? {#A47.25.2C_or_35.25.3F}
+## 47%, or 35%? 
 
 8 against 17, still, is pretty good; 47%.
 
@@ -137,7 +142,7 @@ Perhaps we\'re not scoring this the right way, though; Perhaps we should be talk
 
 Regardless, there are clear advantages to programming this functionally, rather than in the more traditional way, even just comparing size alone.
 
-## Where to Go from Here? {#Where_to_Go_from_Here.3F}
+## Where to Go from Here? 
 
 If you found this intriguing, may I make a recommendation?
 
@@ -147,21 +152,21 @@ And then answer all the questions- in particular, question #3. If you can comple
 
 You\'re also going to learn about \"currying.\" You might find yourself wanting a general \"curry anywhere\" function. Or the ability to reposition arguments to functions, and the like.
 
-Have a look at [Python \"partial\" function proposals.](http://docs.python.org/dev/whatsnew/pep-309.html){.http} Somewhere on the Internet, there\'s a complete \"partial\" implementation; I just forget where it is. I have it copied onto my other computer, I can\'t seem to locate it at the moment, though. It\'s an extremely useful function, though.
+Have a look at [Python \"partial\" function proposals.](http://docs.python.org/dev/whatsnew/pep-309.html) Somewhere on the Internet, there\'s a complete \"partial\" implementation; I just forget where it is. I have it copied onto my other computer, I can\'t seem to locate it at the moment, though. It\'s an extremely useful function, though.
 
-## Where You Can Go {#Where_You_Can_Go}
+## Where You Can Go 
 
-I\'ve written code that, in 5 short lines, performs a complete hierarchical parse of [OutlineMode](http://www.emacswiki.org/cgi-bin/wiki.pl?OutlineMode "EmacsWiki"){.interwiki} data. And then adapted it slightly, to perform a complete hierarchical parse of still different code. It\'s based on a function that \"unflattens\" \-- you pass tests (generally regexes) that when applied to items in a list, figures out whether to \"go deep\" or to stay where it is.
+I\'ve written code that, in 5 short lines, performs a complete hierarchical parse of [OutlineMode](http://www.emacswiki.org/cgi-bin/wiki.pl?OutlineMode "EmacsWiki") data. And then adapted it slightly, to perform a complete hierarchical parse of still different code. It\'s based on a function that \"unflattens\" \-- you pass tests (generally regexes) that when applied to items in a list, figures out whether to \"go deep\" or to stay where it is.
 
 If anybody requests it, I\'ll happily upload it here, along with my mess of functional support algorithms. I\'ve had bad experience getting response on this wiki; I often wonder if anybody\'s reading what goes on here. Perhaps everybody would just rather that this wiki were replaced with usenet forums, I don\'t know. (I actually prefer the ability to rework text, and to hyperlink between nodes.)
 
 Regardless: You can do *amazing* things with functional programming. It seems to have something to do with abstracting out the \"for\" and \"while\" loops, and the ability to plug parts into other parts very easily.
 
-## Function + Object Oriented Programming = Frankenstein {#Function_.2B-_Object_Oriented_Programming_.3D_Frankenstein}
+## Function + Object Oriented Programming = Frankenstein 
 
 I keep asking myself: \"What\'s going on here, with Functional Programming, and Object Oriented Programming?\"
 
-[DesignPatterns](./DesignPatterns.html){.nonexistent} and [ObjectOrientedProgramming](./ObjectOrientedProgramming.html){.nonexistent} go a long way towards the \"plugging parts into other parts\" piece of the puzzle, but do they do it as tersely? The answer is clearly no. It takes two lines, minimum, just to get your \"class\" line out there, and your \"[init]{.u}\" line out there.
+[DesignPatterns](./DesignPatterns.html) and [ObjectOrientedProgramming](./ObjectOrientedProgramming.html) go a long way towards the \"plugging parts into other parts\" piece of the puzzle, but do they do it as tersely? The answer is clearly no. It takes two lines, minimum, just to get your \"class\" line out there, and your \"[init]\" line out there.
 
 \"Higher Order Classes\" that combine other classes? Yikes; No-where near as elegant as the functions we see that combine and return other functions. This is not to suggest that there couldn\'t be a notation for classes that is as elegant; Only to say, I haven\'t seen it yet.
 
@@ -171,7 +176,7 @@ I perceive a tension between OO programming and Functional Programming. Function
 
 I find myself asking myself: \"Should this data be contained in an object, a fortress, a contained entity, with pre-conditions and post-conditions and methods and so on,\" or \"Should this data be held openly in lists, an interactive malleable nested table of data, mutable, copied, re-envisioned, transformed, by batallions of functional manipulators?\"
 
-There\'s no clear and easy answer, but the two [metaphysical systems](http://communitywiki.org/MetaPhysics){.http} seem at odds with one another.
+There\'s no clear and easy answer, but the two [metaphysical systems](http://communitywiki.org/MetaPhysics) seem at odds with one another.
 
 I don\'t know the \"answer;\" But when my thoughts look for one, I find myself asking:
 
@@ -182,4 +187,3 @@ I don\'t know the \"answer;\" But when my thoughts look for one, I find myself a
 - Is it crucial for OO programming, for Generic Programming (templates in C++, for instance) to take stronger hold in our minds? (That would make it easier to reuse objects, for instance, with different types.)
 
 - Is the fundamental tension around issues of *security* and *integrity?* (Functional cares not for security; OO obsesses over it.)
-:::::::::::::

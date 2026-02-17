@@ -1,7 +1,12 @@
 # PyConTracks
 
-::: {#content dir="ltr" lang="en"}
-Note: the draft [PyConSchedule](./PyConSchedule.html){.nonexistent} is probably more informative at this point. See also [PyConSpeakers](./PyConSpeakers.html){.nonexistent}.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Note: the draft [PyConSchedule](./PyConSchedule.html) is probably more informative at this point. See also [PyConSpeakers](./PyConSpeakers.html).
 
 WORK IN PROGRESS, NOT OFFICIAL
 
@@ -22,7 +27,7 @@ WORK IN PROGRESS, NOT OFFICIAL
 - Science
   - Chaco Processing Extremely Large Amounts Of Data numarray
 
-    [PySparse](./PySparse.html){.nonexistent}
+    [PySparse](./PySparse.html)
 - Software \"Engineering\"
   - MONDO
 
@@ -40,9 +45,8 @@ WORK IN PROGRESS, NOT OFFICIAL
 - Rejected
   - Backtalk Python Job Board Pytri Web framework shootout (maybe a panel of some sort) I18N Beyond 2 Names, Pynfo, GUI auto-gen - maybe one as a lightning talk Pgen
 
-    [SpellQuest](./SpellQuest.html){.nonexistent} (but could be poster, or lightning) Frac3D pyEQSpec (Spyce) Server-side Scripting Configuring Python Programs Automated Code Generatiin with Python PSO Python for a Java Development Team AI Frames (but sugeest lightning talk)
+    [SpellQuest](./SpellQuest.html) (but could be poster, or lightning) Frac3D pyEQSpec (Spyce) Server-side Scripting Configuring Python Programs Automated Code Generatiin with Python PSO Python for a Java Development Team AI Frames (but sugeest lightning talk)
 
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon)
-:::

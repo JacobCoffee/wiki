@@ -1,7 +1,12 @@
 # Distutils/Proposals/SetupClass
 
-::: {#content dir="ltr" lang="en"}
-## Setup as a Class not a procedure {#Setup_as_a_Class_not_a_procedure}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Setup as a Class not a procedure 
 
 ---David Lyon
 
@@ -41,4 +46,3 @@ To do this, we\'ll need to:
   - setup initialisation.
 - Examples are modifying attributes, registering
   - libraries, generating documentation\...
-:::

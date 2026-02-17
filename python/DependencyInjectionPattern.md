@@ -1,9 +1,14 @@
 # DependencyInjectionPattern
 
-::: {#content dir="ltr" lang="en"}
-# Dependency Injection Pattern {#Dependency_Injection_Pattern}
+```{admonition} Legacy Wiki Page
+:class: note
 
-The Dependency Injection Pattern, is described in [Martin Fowler\'s article](http://www.martinfowler.com/articles/injection.html){.http}. It is closely related to the [DependencyInversionPrinciple](./DependencyInversionPrinciple.html){.nonexistent} and the so called Inversion of Control (IoC) containers.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Dependency Injection Pattern 
+
+The Dependency Injection Pattern, is described in [Martin Fowler\'s article](http://www.martinfowler.com/articles/injection.html). It is closely related to the [DependencyInversionPrinciple](./DependencyInversionPrinciple.html) and the so called Inversion of Control (IoC) containers.
 
 IoC is aimed at loosening the coupling of application components. The key concepts are:
 
@@ -11,11 +16,10 @@ IoC is aimed at loosening the coupling of application components. The key concep
 - Components specify external dependencies using some kind of a key.
 - Some \"superior instance\" (the IoC container, for example) resolves the dependencies once for each component and hereby \"wires\" the components together.
 
-It is quite a challenge to implement an IoC container for statically typed languages. In python, however, the core concepts can be implemented quite easily. [DependencyInjectionThePythonWay](http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/413268){.http} describes how.
+It is quite a challenge to implement an IoC container for statically typed languages. In python, however, the core concepts can be implemented quite easily. [DependencyInjectionThePythonWay](http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/413268) describes how.
 
-## See Also {#See_Also}
+## See Also 
 
-[PEAK:InversionOfControl](http://peak.telecommunity.com/DevCenter/InversionOfControl){.http} \-- Inversion of Control is a more general concept (small components relinquishing control, or networking control, rather than maintaining it internally,) but the name was overloaded historically to mean what is named by DependencyInjectionPattern. [PEAK](./PEAK.html){.nonexistent} makes use of dependency injection, and the larger meaning of \"Inversion of Control.\" The target page describes dependency injection.
+[PEAK:InversionOfControl](http://peak.telecommunity.com/DevCenter/InversionOfControl) \-- Inversion of Control is a more general concept (small components relinquishing control, or networking control, rather than maintaining it internally,) but the name was overloaded historically to mean what is named by DependencyInjectionPattern. [PEAK](./PEAK.html) makes use of dependency injection, and the larger meaning of \"Inversion of Control.\" The target page describes dependency injection.
 
-## Discussion {#Discussion}
-:::
+## Discussion 

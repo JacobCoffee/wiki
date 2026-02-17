@@ -1,9 +1,14 @@
 # Distutils/SprintParis
 
-::: {#content dir="ltr" lang="en"}
-# Distutils Sprint 27/30 january 2010 {#Distutils_Sprint_27.2F30__january_2010}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Participants {#Participants}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Distutils Sprint 27/30 january 2010 
+
+## Participants 
 
 - Add your name:
 - Tarek (28/30)
@@ -20,13 +25,13 @@
 - Godefroid Chapelle (28/29)
 - Christophe Combelles (28 morning)
 
-You can participate online by joining the #distutils channel on the [freenode irc networks](http://freenode.net/){.http}
+You can participate online by joining the #distutils channel on the [freenode irc networks](http://freenode.net/)
 
 There is room for about 15 people.
 
-Hackers from montreal-python will be joining us on saturday (cf [http://montrealpython.org/2011/01/packaging-sprint-11/](http://montrealpython.org/2011/01/packaging-sprint-11/){.http})
+Hackers from montreal-python will be joining us on saturday (cf [http://montrealpython.org/2011/01/packaging-sprint-11/](http://montrealpython.org/2011/01/packaging-sprint-11/))
 
-## sprint goals {#sprint_goals}
+## sprint goals 
 
 - the install/remove scripts
 - polishing Distutils2 for the next alpha release (fixing bugs)
@@ -38,9 +43,9 @@ Tarek will do a rehearsal of his Pycon 2011 talk, as an introduction to packagin
 
 The sprint is open to anyone, but there will be no introduction to Python, TDD or sprinting and we expect participants to know those.
 
-## Hosting {#Hosting}
+## Hosting 
 
-The sprint is hosted by [Logilab](http://logilab.org){.http}:
+The sprint is hosted by [Logilab](http://logilab.org):
 
 Logilab
 
@@ -50,14 +55,14 @@ Logilab
 
 métro Glacière (ligne 6)
 
-[Map](http://maps.google.com/maps?f=q&source=s_q&hl=fr&geocode=&q=104+boulevard+Louis-Auguste+Blanqui,+paris&sll=48.900725,2.488275&sspn=0.021723,0.038881&ie=UTF8&hq=104+boulevard+Louis-Auguste+Blanqui,&hnear=Paris,+Ile-de-France,+France&ll=48.83156,2.344165&spn=0.021753,0.038881&t=h&z=15&iwloc=A){.http}
+[Map](http://maps.google.com/maps?f=q&source=s_q&hl=fr&geocode=&q=104+boulevard+Louis-Auguste+Blanqui,+paris&sll=48.900725,2.488275&sspn=0.021723,0.038881&ie=UTF8&hq=104+boulevard+Louis-Auguste+Blanqui,&hnear=Paris,+Ile-de-France,+France&ll=48.83156,2.344165&spn=0.021753,0.038881&t=h&z=15&iwloc=A)
 
 The office will be open:
 
 - from 09h to 19h Thursday and Friday
 - from 10h to 19h Saturday and Sunday
 
-For additional information please [contact us](http://www.logilab.org/Card/ContactUs){.http}
+For additional information please [contact us](http://www.logilab.org/Card/ContactUs)
 
 ## hotel
 
@@ -71,5 +76,4 @@ Tim Hotel place d\'italie butte aux cailles
 
 +33 1 45 80 67 67 -- +33 1 45 89 36 93 (fax)
 
-[http://timhotel.com](http://timhotel.com){.http}
-:::
+[http://timhotel.com](http://timhotel.com)

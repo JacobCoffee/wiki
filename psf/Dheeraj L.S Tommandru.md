@@ -1,15 +1,20 @@
 # Dheeraj L.S Tommandru
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **Dheeraj L.S Tommandru**
 
 ------------------------------------------------------------------------
 
-Email: [dheerajtls@dheerajtls.in](mailto:dheerajtls@dheerajtls.in){.mailto}
+Email: [dheerajtls@dheerajtls.in](mailto:dheerajtls@dheerajtls.in)
 
 ------------------------------------------------------------------------
 
-Website : [http://www.dheerajtls.in](http://www.dheerajtls.in){.http}
+Website : [http://www.dheerajtls.in](http://www.dheerajtls.in)
 
 ------------------------------------------------------------------------
 
@@ -24,4 +29,3 @@ Website : [http://www.dheerajtls.in](http://www.dheerajtls.in){.http}
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

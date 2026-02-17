@@ -1,11 +1,16 @@
 # QuixoteBof
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The Quixote BoF session will be a rare chance for users and developers of Quixote to chat.
 
 Possible discussions:
 
-\* Plans for Quixote 1.0 (that is, [the roadmap](http://www.quixote.ca/qx/RoadMap){.http})
+\* Plans for Quixote 1.0 (that is, [the roadmap](http://www.quixote.ca/qx/RoadMap))
 
 Additional suggestions?
 
@@ -45,5 +50,4 @@ Advocacy ideas:
 
 - get the Quixote-powered button finalized (add \"by\")
 
-- look at devIS\'s \"ezro\" ([http://ezro.devis.com/](http://ezro.devis.com/){.http})
-:::
+- look at devIS\'s \"ezro\" ([http://ezro.devis.com/](http://ezro.devis.com/))

@@ -1,7 +1,12 @@
 # Pep382Sprint
 
-::: {#content dir="ltr" lang="en"}
-# PEP 382 Sprint {#PEP_382_Sprint}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# PEP 382 Sprint 
 
 - Silver Spring, Maryland USA 21-Jun-2011 2000UTC
 
@@ -14,9 +19,9 @@ Attendees:
 - Barry Warsaw
 - Steve Waterbury
 
-Bitbucket clone: [https://bitbucket.org/embray/pep-382-sprint](https://bitbucket.org/embray/pep-382-sprint){.https}
+Bitbucket clone: [https://bitbucket.org/embray/pep-382-sprint](https://bitbucket.org/embray/pep-382-sprint)
 
-# Tasks {#Tasks}
+# Tasks 
 
 - review Martin\'s branch `hg clone http://hg.python.org/features/pep-382`
 
@@ -25,7 +30,7 @@ Bitbucket clone: [https://bitbucket.org/embray/pep-382-sprint](https://bitbucket
   - other initialization issues (`*foo = NULL`)
 
 - do we have sufficient test coverage?
-  - top-level non-trivial [init]{.u}.py
+  - top-level non-trivial [init].py
 
   - various reload scenarios
 
@@ -39,7 +44,7 @@ Bitbucket clone: [https://bitbucket.org/embray/pep-382-sprint](https://bitbucket
 
   - test that `load_module_with_path()` (pep 302 loader) gets called correctly
 
-  - test [AttributeError](./AttributeError.html){.nonexistent} when that\'s missing
+  - test [AttributeError](./AttributeError.html) when that\'s missing
 
 - is `importlib` is covered?
 
@@ -62,9 +67,9 @@ Bitbucket clone: [https://bitbucket.org/embray/pep-382-sprint](https://bitbucket
 
   - mispellings
 
-  - should LBYL on [AttributeError](./AttributeError.html){.nonexistent} in `find_path`
+  - should LBYL on [AttributeError](./AttributeError.html) in `find_path`
 
-# PEP Questions {#PEP_Questions}
+# PEP Questions 
 
 - Clarify what happens when a directory contains both an `__init__.py` and a `.pth` file
 
@@ -74,15 +79,15 @@ Bitbucket clone: [https://bitbucket.org/embray/pep-382-sprint](https://bitbucket
 
 - Impact of PEP on setuptools/packaging/distutils\*
 
-- Use case for extending existing .pth file syntax (minus `import` support)? I.e why are non-\* lines in the .pth files added to [path]{.u}? And should these really be called `.pth` files? At least clarify the PEP!
+- Use case for extending existing .pth file syntax (minus `import` support)? I.e why are non-\* lines in the .pth files added to [path]? And should these really be called `.pth` files? At least clarify the PEP!
 
-# Action Items {#Action_Items}
+# Action Items 
 
 \"It\'s all so freaking big we can never make any progress on it\" - ES
 
 Finish off PEP 302:
 
-- Jason [created a bitbucket clone](https://bitbucket.org/jaraco/cpython-pep302){.https} for import.c refactoring
+- Jason [created a bitbucket clone](https://bitbucket.org/jaraco/cpython-pep302) for import.c refactoring
 
 - Eric to experiment zipping the stdlib and delete the Lib dir by sys.path hacking, does Python still work?
 
@@ -102,4 +107,3 @@ In parallel:
 - Clarify open PEP 382 questions
 - Rewrite zipimport in Python?
 - create a sub-mailing list on python.org
-:::

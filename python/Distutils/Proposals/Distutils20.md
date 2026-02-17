@@ -1,9 +1,14 @@
 # Distutils/Proposals/Distutils20
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 There are various fixes and improvements that should form part of a 2.0 version of Distutils.
 
-Note: many of these features are being implemented in [setuptools](http://peak.telecommunity.com/DevCenter/setuptools){.http}, which is where most distutils-related development is happening at this time (Sept 2005). I\'ve noted features that setuptools supports below \-- [IanBicking](IanBicking)
+Note: many of these features are being implemented in [setuptools](http://peak.telecommunity.com/DevCenter/setuptools), which is where most distutils-related development is happening at this time (Sept 2005). I\'ve noted features that setuptools supports below \-- [IanBicking](IanBicking)
 
 The ultimate goal:
 
@@ -19,15 +24,15 @@ Quick things from [PyCon](PyCon):
 
 Other ideas:
 
-- Some methods may trigger [PendingDeprecationWarning](./PendingDeprecationWarning.html){.nonexistent}s
+- Some methods may trigger [PendingDeprecationWarning](./PendingDeprecationWarning.html)s
 
 - Move various utility methods out of command implementations and onto the Distribution class.
 
-- Implement the package database described by PEP [0262](http://www.python.org/dev/peps/pep-0262 "PEP"){.interwiki}.
+- Implement the package database described by PEP [0262](http://www.python.org/dev/peps/pep-0262 "PEP").
 
 - Consider always regenerating the MANIFEST from MANIFEST.in. *(setuptools can generate MANIFEST files more automatically, and triest to keep MANIFEST in proper shape)*
 
-- Finish bdist_dpkg.py ([easy-deb](http://easy-deb.sourceforge.net/){.http} is doing deb generation)
+- Finish bdist_dpkg.py ([easy-deb](http://easy-deb.sourceforge.net/) is doing deb generation)
 
 - Use optparse instead of fancy_getopt.py, and deprecate fancy_getopt.py.
 
@@ -37,7 +42,7 @@ Other ideas:
 
 - Improve test coverage. (See the [DistutilsTesting](DistutilsTesting) page for ideas.)
 
-- Finish the documentation! ([AnthonyBaxter](AnthonyBaxter) has worked on a reference guide; his text has been added to [Distributing Python Modules](http://docs.python.org/dist/dist.html){.http} as the [API Reference](http://docs.python.org/dist/api-reference.html){.http} chapter, but a lot more work is needed.)
+- Finish the documentation! ([AnthonyBaxter](AnthonyBaxter) has worked on a reference guide; his text has been added to [Distributing Python Modules](http://docs.python.org/dist/dist.html) as the [API Reference](http://docs.python.org/dist/api-reference.html) chapter, but a lot more work is needed.)
 
 - Package installation from PyPI (probably driven by the pythonmac-sig) *([EasyInstall](EasyInstall), included with setuptools, handles this)*
 
@@ -48,16 +53,16 @@ Other ideas:
   - Allow \'Extension\' to be composed of components, each with their own build rules
   - Provide a means for scripts / modules to access installation parameters such as datafile directories
 
-- Define more default commands to build documentation, run (unit) tests, etc. *(setuptools adds a test command, and can be extended easily with more commands; [buildutils](http://buildutils.lesscode.org/){.http} adds some more development-related commands)*
+- Define more default commands to build documentation, run (unit) tests, etc. *(setuptools adds a test command, and can be extended easily with more commands; [buildutils](http://buildutils.lesscode.org/) adds some more development-related commands)*
 
 - Look at setuptools by Phillip J. Eby and buildutils (on PyPI) for further improvements.
-  - \-- [StefanSeefeld](./StefanSeefeld.html){.nonexistent}
+  - \-- [StefanSeefeld](./StefanSeefeld.html)
 
-Wouldn\'t it be a good idea to look into [scons](http://scons.sf.net){.http} and try to let both converge as far as practical ? \-- [StefanSeefeld](./StefanSeefeld.html){.nonexistent}
+Wouldn\'t it be a good idea to look into [scons](http://scons.sf.net) and try to let both converge as far as practical ? \-- [StefanSeefeld](./StefanSeefeld.html)
 
 Maybe some traditional package concepts:
 
-- Uninstallation. Also getting rid of obsolete files when upgrading. *([PythonEggs](./PythonEggs.html){.nonexistent} \-- part of setuptools \-- can be uninstalled more easily than a traditional package; however, tools still don\'t exist to properly automate this)*
+- Uninstallation. Also getting rid of obsolete files when upgrading. *([PythonEggs](./PythonEggs.html) \-- part of setuptools \-- can be uninstalled more easily than a traditional package; however, tools still don\'t exist to properly automate this)*
 
 - Dependencies. A simple implementation might simply check to see if another library is installed and warn the user if not (and maybe install from PyPI if that feature exists). Declaring (or worse, resolving) version dependencies or alternatives seems like overkill for now. *(setuptools handles dependencies)*
 
@@ -87,7 +92,7 @@ Maybe some traditional package concepts:
 
   - \-- Phil Rittenhouse
 
-  Benji York at [Zope Corporation](http://www.zope.com/){.http} has done some work on this; hopefully he\'ll be able to finish and release it at some point.
+  Benji York at [Zope Corporation](http://www.zope.com/) has done some work on this; hopefully he\'ll be able to finish and release it at some point.
 
 - bdist_wininst currently runs the \'install\' command to a temporary directory, then zips up this directory, and then creates a program which will unpack the archive on the target system. It should become much smarter. Maybe only running \'build_ext\' on the source system, and running the full \'install\' on the target system.
 
@@ -98,13 +103,13 @@ Maybe some traditional package concepts:
 
 - Multi-module installs (more than one importable thing that goes into site-packages) should be deprecated. If they want this behavior they should install a package and use a pth file. (Counterpoint 1: There is strong demand for installing both packages **and** modules with a single setup.py. \--PJE) (Counterpoint 2: This would prevent creating distributions that provide dependencies in addition to some top-level application. \--[FredDrake](FredDrake))
 
-- Add the following fields to PEP [0241](http://www.python.org/dev/peps/pep-0241 "PEP"){.interwiki} (PKG-INFO): Package-Name (the actual python-importable name of what was just installed), Depends (a list of other packages, by Package-Name, that this package depends on), Recommends (a list of other packages, by Package-Name, that enhance the functionality of this package when present). These headers make the REQUIRES and PROVIDES (how was PROVIDES useful anyways?) files from PEP [0262](http://www.python.org/dev/peps/pep-0262 "PEP"){.interwiki} obsolete.
+- Add the following fields to PEP [0241](http://www.python.org/dev/peps/pep-0241 "PEP") (PKG-INFO): Package-Name (the actual python-importable name of what was just installed), Depends (a list of other packages, by Package-Name, that this package depends on), Recommends (a list of other packages, by Package-Name, that enhance the functionality of this package when present). These headers make the REQUIRES and PROVIDES (how was PROVIDES useful anyways?) files from PEP [0262](http://www.python.org/dev/peps/pep-0262 "PEP") obsolete.
 
   - \[Comment by Hartmut Goebel:
 
   - Package-Name is s good idea, since this name may differ from the project/archive name.
 
-  - For RPMs, PROVIDES/REQUIRES may describe any type of resource, even abstract ones like \'mta\'. Thus I suggest extending PEP [0262](http://www.python.org/dev/peps/pep-0262 "PEP"){.interwiki} here instead of obsoleting these fields.
+  - For RPMs, PROVIDES/REQUIRES may describe any type of resource, even abstract ones like \'mta\'. Thus I suggest extending PEP [0262](http://www.python.org/dev/peps/pep-0262 "PEP") here instead of obsoleting these fields.
 
   - Depends is very similar to REQUIRES, so what should be the benefit of this change? I agree, these should go into PKG-INFO. \]
 
@@ -138,17 +143,16 @@ Maybe some traditional package concepts:
 - Uninstallation is solved as soon as we have an installation database, which is part of what we\'re trying to do here.
   - \-- [BobIppolito](BobIppolito)
 
-- Extend bdist_rpm for \'hardcoding\' the python interpreter into the RPM and generate different Package names depending on the interpreter. See [Changes for bdist_rpm](./Changes(20)for(20)bdist_rpm.html){.nonexistent} for reasoning and codesnippets.
+- Extend bdist_rpm for \'hardcoding\' the python interpreter into the RPM and generate different Package names depending on the interpreter. See [Changes for bdist_rpm](./Changes(20)for(20)bdist_rpm.html) for reasoning and codesnippets.
 
   - \-\-- Hartmut Goebel
 
-- Zope Corporation is looking at having some better packaging tools, including support for dependencies and automated package composition. The initial implementation of [zpkg](http://www.zope.org/Members/fdrake/zpkgtools/){.http} is available and has been used for recent Zope 3 and ZODB releases. There is also a [discussion document](http://dev.zope.org/Zope3/Zope3PackagingProposal){.http} in the [Zope 3 wiki](http://dev.zope.org/Zope3/){.http} which describes some of the goals of the **zpkg** application.
+- Zope Corporation is looking at having some better packaging tools, including support for dependencies and automated package composition. The initial implementation of [zpkg](http://www.zope.org/Members/fdrake/zpkgtools/) is available and has been used for recent Zope 3 and ZODB releases. There is also a [discussion document](http://dev.zope.org/Zope3/Zope3PackagingProposal) in the [Zope 3 wiki](http://dev.zope.org/Zope3/) which describes some of the goals of the **zpkg** application.
 
   - \-\-- [FredDrake](FredDrake)
 
-  NB: Since this time, Zope Corporation has abandoned zpkg in favor of [zc.buildout](http://buildout.zope.org/){.http} and setuptools.
+  NB: Since this time, Zope Corporation has abandoned zpkg in favor of [zc.buildout](http://buildout.zope.org/) and setuptools.
 
-- Include bdist_nsi [http://bdist-nsi.sourceforge.net/](http://bdist-nsi.sourceforge.net/){.http} to have a complementary tool for creating smart win32 installers (silent install, MUI, internationalization, uninstall) on both linux and windows using the [Nullsoft Scriptable Install System](http://nsis.sourceforge.net/){.http} (NSIS).
+- Include bdist_nsi [http://bdist-nsi.sourceforge.net/](http://bdist-nsi.sourceforge.net/) to have a complementary tool for creating smart win32 installers (silent install, MUI, internationalization, uninstall) on both linux and windows using the [Nullsoft Scriptable Install System](http://nsis.sourceforge.net/) (NSIS).
 
   - \-\-- jcg
-:::

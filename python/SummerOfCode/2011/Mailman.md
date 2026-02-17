@@ -1,7 +1,11 @@
 # SummerOfCode/2011/Mailman
 
-::: {#content dir="ltr" lang="en"}
-# Mailman Ideas for GSoC 2011 {#Mailman_Ideas_for_GSoC_2011}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Please see the [GNU Mailman GSoC 2011 wiki page](http://wiki.list.org/x/CYC2){.http}.
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Mailman Ideas for GSoC 2011 
+
+Please see the [GNU Mailman GSoC 2011 wiki page](http://wiki.list.org/x/CYC2).

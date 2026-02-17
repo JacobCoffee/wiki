@@ -1,6 +1,11 @@
 # UnicodeEncoding
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Python supports several [Unicode](Unicode) encodings.
 
 Two of the most common encodings are:
@@ -24,9 +29,9 @@ How many bytes is `"foo"`? **3.** How many bytes is `u"foo"`? You do not know, y
 
 But if you\'re writing to a file, then you need to turn that pure platonic Unicode character into something material and chunked into bytes. Now you encode it into bytes.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-515939697139f0b70c1d680d27c327af769f04ee dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 pure_platonic_string = u"blah blah blah"  # This is a Unicode string
    2 byte_string = pure_platonic_string.encode("utf-8")  # Now we make it utf-8
    3 f.write(byte_string)  # We write it to a file
@@ -34,11 +39,10 @@ But if you\'re writing to a file, then you need to turn that pure platonic Unico
 :::
 ::::
 
-## See Also {#See_Also}
+## See Also 
 
 [CategoryUnicode](CategoryUnicode)
 
-- [Wikipedia:UTF-8](http://en.wikipedia.org/wiki/UTF-8){.http} \-- for general information
+- [Wikipedia:UTF-8](http://en.wikipedia.org/wiki/UTF-8) \-- for general information
 
-- [Wikipedia:UTF-16](http://en.wikipedia.org/wiki/UTF-16){.http} \-- for general information
-:::::
+- [Wikipedia:UTF-16](http://en.wikipedia.org/wiki/UTF-16) \-- for general information

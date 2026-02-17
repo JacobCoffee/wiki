@@ -1,6 +1,11 @@
 # CodingProjectIdeas
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page is aimed to be the starting point of collection for ideas for projects which could benefit the Python community, either projects that help the Python core, develop the standard library, third party packages, or more.
 
 Ideally, each project should be expanded into a more full-featured description, so that people can judge the value, the effort involved, the size of the project (takes a week, takes a month, etc.), who knows enough about the project to help out, etc.
@@ -33,14 +38,14 @@ Ideally, each project should be expanded into a more full-featured description, 
 - fix some old, old bugs in sourceforge
   - This is not a high profile, totally new idea, but maybe even helps the community more than founding another web framework
 
-- A better way to create (singlefile) executables by bringing the advantages of py2exe and [McMillans](./McMillans.html){.nonexistent} compiler together.
+- A better way to create (singlefile) executables by bringing the advantages of py2exe and [McMillans](./McMillans.html) compiler together.
 
   - Note that the next version of py2exe will allow this - it\'s 95% finished in CVS already \-- theller.
 
-    Don\'t forget [cx_Freeze](http://starship.python.net/crew/atuining/cx_Freeze/){.http} which has a lot of nice properties too. For Windows, Linux and Irix also look at [PyInstaller](http://pyinstaller.hpcf.upr.edu){.http}.
+    Don\'t forget [cx_Freeze](http://starship.python.net/crew/atuining/cx_Freeze/) which has a lot of nice properties too. For Windows, Linux and Irix also look at [PyInstaller](http://pyinstaller.hpcf.upr.edu).
 
 - Enhance the Python catalog of modules
-  - [http://www.python.org/pypi](http://www.python.org/pypi){.http} \-- contact [Catalog-SIG](http://www.python.org/sigs/catalog-sig/){.http} for more.
+  - [http://www.python.org/pypi](http://www.python.org/pypi) \-- contact [Catalog-SIG](http://www.python.org/sigs/catalog-sig/) for more.
 
   <!-- -->
 
@@ -52,7 +57,6 @@ Ideally, each project should be expanded into a more full-featured description, 
 
   - fix and implement PEP 345
 
-  - Auto-generate portions of a C extension module based off of a Python definition (e.g., create the function definitions, parsing of arguments, [PyTypeObject](./PyTypeObject.html){.nonexistent} fields, init function for module, etc.). Would use AST off of existing Python code. Would need some way to update a generating C extension module when Python file changes without destroying extension module (as presumably body of functions have been filled in).
+  - Auto-generate portions of a C extension module based off of a Python definition (e.g., create the function definitions, parsing of arguments, [PyTypeObject](./PyTypeObject.html) fields, init function for module, etc.). Would use AST off of existing Python code. Would need some way to update a generating C extension module when Python file changes without destroying extension module (as presumably body of functions have been filled in).
 
 - [Helper tools for core Python development](CoreDevHelperTools)
-:::

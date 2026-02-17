@@ -1,7 +1,12 @@
 # CategoryPythonWebsite
 
-:::: {#content dir="ltr" lang="en"}
-[WikiCategories](http://c2.com/cgi/wiki?WikiCategories "Wiki"){.interwiki} category tag marking a Python Website maintenance page.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[WikiCategories](http://c2.com/cgi/wiki?WikiCategories "Wiki") category tag marking a Python Website maintenance page.
 
 ::: searchresults
 1.  [Admin](./Admin.html?highlight=%28CategoryPythonWebsite%29)
@@ -44,4 +49,3 @@
 ------------------------------------------------------------------------
 
 [CategoryCategory](CategoryCategory)
-::::

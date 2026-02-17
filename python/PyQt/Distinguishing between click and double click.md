@@ -1,13 +1,18 @@
 # PyQt/Distinguishing between click and double click
 
-::::: {#content dir="ltr" lang="en"}
-# Distinguishing between click and double click {#Distinguishing_between_click_and_double_click}
+```{admonition} Legacy Wiki Page
+:class: note
 
-In a [PyQt QCalendarWidget events question](http://mail.python.org/pipermail/python-list/2012-July/626779.html){.http} thread on the python-list mailing list, *tinnews* asked for a way to distinguish between single and double clicks on a calendar widget. This problem is more generally handled for a widget using timers in the following code:
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f41e7a0d66021dd2a6928b53af3131c38d6ebe7d dir="ltr" lang="en"}
+# Distinguishing between click and double click 
+
+In a [PyQt QCalendarWidget events question](http://mail.python.org/pipermail/python-list/2012-July/626779.html) thread on the python-list mailing list, *tinnews* asked for a way to distinguish between single and double clicks on a calendar widget. This problem is more generally handled for a widget using timers in the following code:
+
+:::: 
+::: 
+``` 
    1 import sys
    2 
    3 from PyQt4.QtCore import *
@@ -71,4 +76,3 @@ However, if a second mouse press occurs, the mouseDoubleClickEvent() handler wil
 To handle this, we set an attribute in the mousePressEvent() handler to indicate that a click has occurred. In the mouseReleaseEvent() handler we start a timer that will time out after the system-determined delay for a second mouse press has elapsed. If no second press occurs within that time, the performSingleClickAction() method will be called and we can check that only a single click occurred.
 
 However, if a second press occurs within that time, the mouseDoubleClickEvent() handler will be called first, and we can set an attribute to indicate that a double click is in progress. The performSingleClickAction() method will be called anyway, so there is a check in that method to ensure that we only perform the single click action if the last mouse press was for a single click. Note that we only start a timer in the mouseReleaseEvent() handler after the first click since we handle the double click case directly in the handler method itself.
-:::::

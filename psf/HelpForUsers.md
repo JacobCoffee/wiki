@@ -1,7 +1,12 @@
 # HelpForUsers
 
-::: {#content dir="ltr" lang="en"}
-# Help for Users {#Help_for_Users}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Help for Users 
 
 This help page is a listing of pages that are useful for new users.
 
@@ -28,4 +33,3 @@ This help page is a listing of pages that are useful for new users.
 - [HelpOnActions](HelpOnActions) - tools that work on pages or the whole site
 
 - [HelpOnSubscribing](HelpOnSubscribing) - how to subscribe or unsubscribe to wiki webpages
-:::

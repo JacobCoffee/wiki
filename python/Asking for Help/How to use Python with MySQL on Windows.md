@@ -1,7 +1,12 @@
 # Asking for Help/How to use Python with MySQL on Windows
 
-:::: {#content dir="ltr" lang="en"}
-# Asking for Help: How to use Python with MySQL on Windows {#Asking_for_Help:_How_to_use_Python_with_MySQL_on_Windows}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: How to use Python with MySQL on Windows 
 
 This is all for MS Windows.
 
@@ -24,4 +29,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp)
-::::

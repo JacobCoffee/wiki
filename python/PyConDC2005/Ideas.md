@@ -1,11 +1,16 @@
 # PyConDC2005/Ideas
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Things we could do.
 
 - Refereed papers
 
-- [BoFs](./BoFs.html){.nonexistent}
+- [BoFs](./BoFs.html)
 
 - Open space
 
@@ -31,11 +36,10 @@ Program ideas:
 
 - Public dissection of a module (done at the OSCON Perl track, apparently)
 
-Ideas from OSCON: [http://wiki.oreillynet.com/oscon/index.cgi?2005Suggestions](http://wiki.oreillynet.com/oscon/index.cgi?2005Suggestions){.http}
+Ideas from OSCON: [http://wiki.oreillynet.com/oscon/index.cgi?2005Suggestions](http://wiki.oreillynet.com/oscon/index.cgi?2005Suggestions)
 
-Idea source: [http://www.smof.com/conrunner/C9progitems.htm](http://www.smof.com/conrunner/C9progitems.htm){.http}
+Idea source: [http://www.smof.com/conrunner/C9progitems.htm](http://www.smof.com/conrunner/C9progitems.htm)
 
 ------------------------------------------------------------------------
 
 [CategoryPyCon2005](CategoryPyCon2005)
-:::

@@ -1,6 +1,11 @@
 # MaciejOlko/admonitions
 
-:::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 ::: caution
 **Don\'t overuse admonitions**
 
@@ -28,6 +33,5 @@ You can use normal *markup* and [links](HelpOnAdmonitions) in the admonition.
 ::: tip
 **Tip**
 
-For syntax examples, please read the [raw source markup](./MaciejOlko(2f)admonitions.html?action=raw){.action} of this page.
+For syntax examples, please read the [raw source markup](./MaciejOlko(2f)admonitions.html?action=raw) of this page.
 :::
-::::::::

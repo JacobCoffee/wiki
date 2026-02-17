@@ -1,7 +1,12 @@
 # boost.python/FunctionOverloading
 
-::: {#content dir="ltr" lang="en"}
-From [http://www.boost.org/doc/libs/1_37_0/libs/python/doc/v2/overloads.html](http://www.boost.org/doc/libs/1_37_0/libs/python/doc/v2/overloads.html){.http}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+From [http://www.boost.org/doc/libs/1_37_0/libs/python/doc/v2/overloads.html](http://www.boost.org/doc/libs/1_37_0/libs/python/doc/v2/overloads.html)
 
 Few methods and functions have parameters by default.
 
@@ -77,4 +82,3 @@ Sample :
             .staticmethod("returnsum")
             ;
     }
-:::

@@ -1,15 +1,19 @@
 # RoshanMathews
 
-::: {#content dir="ltr" lang="en"}
-## Roshan Mathews {#Roshan_Mathews}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Roshan Mathews 
 
 Email: `<rmathews AT SPAMFREE gmail DOT com>`
 
-- Python, C++ programmer at [Tachyon Technologies](http://tachyon.in){.http}, Chennai
+- Python, C++ programmer at [Tachyon Technologies](http://tachyon.in), Chennai
 
 \...
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

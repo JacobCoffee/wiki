@@ -1,7 +1,12 @@
 # PyQt/Modular_PyQt_deployment_with_PyInstaller
 
-::: {#content dir="ltr" lang="en"}
-# How to distribute only the qt4 dlls and pyqt libraries that your application really needs {#How_to_distribute_only_the_qt4_dlls_and_pyqt_libraries_that_your_application_really_needs}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# How to distribute only the qt4 dlls and pyqt libraries that your application really needs 
 
 If you want to finetune the size of a [PyQt](PyQt) application, the best way is to recompile Qt/PyQt to use a consolidated module. Basically:
 
@@ -15,4 +20,3 @@ If you want to finetune the size of a [PyQt](PyQt) application, the best way is 
 3.  Give that to [PyInstaller](PyInstaller) trunk with latest UPX (with LZMA support) and its\'s done.
 
 Then, you might want to see the output of ArchiveViewer.py run over the final executable, so that you will see the list of all modules that have been brought in. If there\'s something that [PyInstaller](PyInstaller) thought you might need but you actually don\'t use, you can hand-edit the `excludes=[]` list in the .spec file to avoid bringing them in.
-:::

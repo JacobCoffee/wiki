@@ -1,6 +1,11 @@
 # RichardKatz
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Hi.
 
 I\'m interested in how Python can be used in various ways - as a tool in various software development environments (ones that do not necessarily involve Python). Included in this are
@@ -9,9 +14,8 @@ I\'m interested in how Python can be used in various ways - as a tool in various
 
 You can contact me at:
 
-\- [richkatz@acm.org](mailto:richkatz@acm.org){.mailto}
+\- [richkatz@acm.org](mailto:richkatz@acm.org)
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

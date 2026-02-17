@@ -1,9 +1,14 @@
 # PythonBarCamp/DC
 
-::: {#content dir="ltr" lang="en"}
-# DC-Area Python BarCamp {#DC-Area_Python_BarCamp}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Goals {#Goals}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# DC-Area Python BarCamp 
+
+## Goals 
 
 - 2-day event, held on a weekend in October or November 2008.
 
@@ -21,14 +26,14 @@
 
 - If the venue doesn\'t have restaurants nearby, we\'ll need to provide food.
 
-## Space requirements {#Space_requirements}
+## Space requirements 
 
 - At least two rooms on Saturday (talks in one room, sprints in the other).
 - Tables that can seat at least 6 people (so, assuming 50-60 people, that\'s 8-10 tables)
 
 We\'ll bring in easels w/ whiteboards or paper pads, or those static-clinging sheets for the wall.
 
-## Talk ideas {#Talk_ideas}
+## Talk ideas 
 
 Talks on the first day should be a mix of offered and invited, going from more introductory talks early on to more advanced and specialized talks later. Possible ideas:
 
@@ -37,11 +42,11 @@ Talks on the first day should be a mix of offered and invited, going from more i
 - An OLPC talk
 - Other ideas?
 
-## Possible venues {#Possible_venues}
+## Possible venues 
 
 DC:
 
-- [Josephine Butler Parks Center](http://www.washingtonparks.net/parkscenter.html){.http}, near U Street.
+- [Josephine Butler Parks Center](http://www.washingtonparks.net/parkscenter.html), near U Street.
 
 - U. of Maryland College Park
 
@@ -59,9 +64,9 @@ DC:
 
 Arlington:
 
-- [Marymount](http://www.marymount.edu/academic/business/it/){.http}
+- [Marymount](http://www.marymount.edu/academic/business/it/)
 
-- [VA Tech](http://www.ncr.vt.edu/programs/CS.html){.http} at West Falls Church
+- [VA Tech](http://www.ncr.vt.edu/programs/CS.html) at West Falls Church
 
 - Arlington schools (but the usual location is probably not good \-- too far from Metro)
 
@@ -69,25 +74,25 @@ Baltimore:
 
 - JHU CS dept.
 
-## Current tasks {#Current_tasks}
+## Current tasks 
 
 E-mail possible CS department contacts
 
 - JHU: Michael Droettboom
 
-- GWU: [Rahul Simha](http://seas.gwu.edu/~simha/){.http} (supervised a project called \$ython).
+- GWU: [Rahul Simha](http://seas.gwu.edu/~simha/) (supervised a project called \$ython).
 
 - U. of MD: Bijan Parsia?
 
-- Howard: [faculty listing](http://www.scs.howard.edu/faculty_staff.aspx){.http}
+- Howard: [faculty listing](http://www.scs.howard.edu/faculty_staff.aspx)
 
-- U. of DC: [faculty listing](http://www.udc.edu/academics/soe/faculty.htm){.http}
+- U. of DC: [faculty listing](http://www.udc.edu/academics/soe/faculty.htm)
 
 Research hotel prices in the fall: Baltimore vs. DC; is one city much cheaper?
 
 What to do about wireless, which is critical? Bring it in? Rely on the venue\'s wireless? What if it fails, which would cripple us?
 
-## Budget notes {#Budget_notes}
+## Budget notes 
 
 Assuming 50 attendees, and assuming we get food (which is looking unlikely):
 
@@ -103,4 +108,3 @@ Assuming 50 attendees, and assuming we get food (which is looking unlikely):
 Charging \$10 admission to 50 people only brings in \$500; we\'d need to charge at least \$80 to break even. Maybe we should just forget about charging admission and look for sponsorship instead.
 
 *The Chicago BarCamp cut costs by borrowing projectors and other equipment from techies and businesses who wanted a mention; it cut out the food cost by borrowing microwaves and finding a venue near restaurants. Do it on the cheap!*
-:::

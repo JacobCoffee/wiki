@@ -1,15 +1,20 @@
 # Admin
 
-::: {#content dir="ltr" lang="en"}
-# CiviCRM {#CiviCRM}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Access URL: [http://www.psfmember.org/civicrm/](http://www.psfmember.org/civicrm/){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-We are currently on CiviCRM 3.3.6. Documentation: [http://wiki.civicrm.org/confluence/display/CRMDOC33/CiviCRM+Documentation](http://wiki.civicrm.org/confluence/display/CRMDOC33/CiviCRM+Documentation){.http}
+# CiviCRM 
 
-Drupal admin page: [http://psfmember.org/admin](http://psfmember.org/admin){.http}
+Access URL: [http://www.psfmember.org/civicrm/](http://www.psfmember.org/civicrm/)
 
-## Associate Membership {#Associate_Membership}
+We are currently on CiviCRM 3.3.6. Documentation: [http://wiki.civicrm.org/confluence/display/CRMDOC33/CiviCRM+Documentation](http://wiki.civicrm.org/confluence/display/CRMDOC33/CiviCRM+Documentation)
+
+Drupal admin page: [http://psfmember.org/admin](http://psfmember.org/admin)
+
+## Associate Membership 
 
 Tasks:
 
@@ -30,4 +35,3 @@ Tasks:
 - limiting the list further in some way, e.g. e-mailing all the AMs in DC/MD/VA about a nifty event in Washington DC.
 
 \* changing the fields on the AM signup page.
-:::

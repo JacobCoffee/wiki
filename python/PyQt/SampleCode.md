@@ -1,42 +1,30 @@
 # PyQt/SampleCode
 
-:::: {#content dir="ltr" lang="en"}
-This page contains links to some useful code snippets. Longer, more detailed code examples can be found via the [Overviews_and_Guides](./Overviews_and_Guides.html){.nonexistent} page.
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: table-of-contents
-Contents
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-1.  [PyQt 5](#PyQt_5)
-2.  [PyQt 4](#PyQt_4)
-    1.  [Infrastructure](#Infrastructure)
-    2.  [Painting](#Painting)
-    3.  [Widgets](#Widgets)
-    4.  [Item Views](#Item_Views)
-    5.  [WebKit](#WebKit)
-    6.  [Multimedia](#Multimedia)
-    7.  [Drag and Drop](#Drag_and_Drop)
-    8.  [Databases](#Databases)
-    9.  [Qt Designer and uic](#Qt_Designer_and_uic)
-3.  [PyQt 3](#PyQt_3)
-:::
+This page contains links to some useful code snippets. Longer, more detailed code examples can be found via the [Overviews_and_Guides](./Overviews_and_Guides.html) page.
 
 **Put any code snippet for PyKDE and PyQt that you find useful here. If the code is longer than one screen at normal point size, it might be better if you provide a rationale and a link, or just put it on a separate page.**
 
-## PyQt 5 {#PyQt_5}
+## PyQt 5 
 
 - [QML callback function](./PyQt(2f)QML(20)callback(20)function.html): How to pass and execute callback functions with QML.
 
 - [Threading, Signals and Slots](./PyQt5(2f)Threading(2c)_Signals_and_Slots.html): How to perform work in one thread and use the result in another.
 
-## PyQt 4 {#PyQt_4}
+## PyQt 4 
 
 - [Decoding Japanese Text](./PyQt(2f)Decoding_Japanese_Text.html): The response to a posting on comp.lang.python, asking about decoding text for display in a GUI.
 
-- [Screenshots](http://home.tampabay.rr.com/dataheli/){.http} of various database and 3D graphics widgets, with code to follow soon. **\[dead link!\]**
+- [Screenshots](http://home.tampabay.rr.com/dataheli/) of various database and 3D graphics widgets, with code to follow soon. **\[dead link!\]**
 
 - [Using GStreamer with PyQt](./PyQt(2f)Using(20)GStreamer(20)with(20)PyQt.html): How to use the GStreamer bindings for Python with PyQt (see [Multimedia Resources](./PyQt(2f)Multimedia_Resources.html) for more multimedia links).
 
-### Infrastructure {#Infrastructure}
+### Infrastructure 
 
 - [Threading, Signals and Slots](./PyQt(2f)Threading(2c)_Signals_and_Slots.html): How to perform work in one thread and use the result in another. (Qt 4)
 
@@ -62,7 +50,7 @@ Contents
 
 - [Writing a client for a zeromq service](./PyQt(2f)Writing(20)a(20)client(20)for(20)a(20)zeromq(20)service.html): How to access a zeromq service while keeping the GUI responsive.
 
-### Painting {#Painting}
+### Painting 
 
 - [Drawing highlighted rows in a calendar widget](./PyQt(2f)Drawing(20)highlighted(20)rows(20)in(20)a(20)calendar(20)widget.html): How to highlight the current week in a QCalendarWidget subclass.
 
@@ -88,7 +76,7 @@ Contents
 
 - [Extend Two QPixmap](./PyQt(2f)Extend(20)Two(20)QPixmap.html): How to paint merge two QPixmaps into one QPixmap.
 
-### Widgets {#Widgets}
+### Widgets 
 
 - [Widgets in a layout](./PyQt(2f)Widgets(20)in(20)a(20)layout.html): How to create widgets and put them in a layout.
 
@@ -120,7 +108,7 @@ Contents
 
 - [Distinguishing between click and double click](./PyQt(2f)Distinguishing(20)between(20)click(20)and(20)double(20)click.html): How to handle a double click without acting on the first click.
 
-### Item Views {#Item_Views}
+### Item Views 
 
 - [Using a different view with QComboBox](./PyQt(2f)Using(20)a(20)different(20)view(20)with(20)QComboBox.html): How to replace the standard view used for a combo box\'s pop-up menu.
 
@@ -142,7 +130,7 @@ Contents
 
 - [Showing a subset of a model in a view](./PyQt(2f)Showing(20)a(20)subset(20)of(20)a(20)model(20)in(20)a(20)view.html): How to show a model in one view while showing a subset of the same model in another view.
 
-### WebKit {#WebKit}
+### WebKit 
 
 - [Using a Custom Protocol with QtWebKit](./PyQt(2f)Using(20)a(20)Custom(20)Protocol(20)with(20)QtWebKit.html): How to add support for a custom protocol to an embedded Web browser.
 
@@ -152,45 +140,44 @@ Contents
 
 - [Augmented Web Browser](./PyQt(2f)Augmented(20)Web(20)Browser.html): A Web browser with a side panel that shows a table of contents for the document being displayed.
 
-### Multimedia {#Multimedia}
+### Multimedia 
 
 - [Playing a sound with QtMultimedia](./PyQt(2f)Playing(20)a(20)sound(20)with(20)QtMultimedia.html): How to use QAudioOutput to play a sound.
 
-### Drag and Drop {#Drag_and_Drop}
+### Drag and Drop 
 
 - [Exporting a file to other applications](./PyQt(2f)Exporting(20)a(20)file(20)to(20)other(20)applications.html): How to drag data as a file for other applications to load.
 
-### Databases {#Databases}
+### Databases 
 
 - [Removing a database](./PyQt(2f)Removing(20)a(20)database.html): How to remove a database and optionally reload it again without getting warnings from Qt.
 
-### Qt Designer and uic {#Qt_Designer_and_uic}
+### Qt Designer and uic 
 
 - [Previewing a form](./PyQt(2f)Previewing(20)a(20)form.html): How to load and display a form created in Qt Designer.
 
-## PyQt 3 {#PyQt_3}
+## PyQt 3 
 
 *Note: [PyQt](PyQt) 3 examples were not transferred from the old PyQt Wiki.*
 
-- [CustomListViewItems](./CustomListViewItems.html){.nonexistent}: How to customize the painting of list view items. (Qt 3)
+- [CustomListViewItems](./CustomListViewItems.html): How to customize the painting of list view items. (Qt 3)
 
-- [ListBoxAndListViewIterators](./ListBoxAndListViewIterators.html){.nonexistent}: How to loop over all items in list boxes and list views. (Qt 3)
+- [ListBoxAndListViewIterators](./ListBoxAndListViewIterators.html): How to loop over all items in list boxes and list views. (Qt 3)
 
-- [DragAndDropWithPyQt](./DragAndDropWithPyQt.html){.nonexistent}: How to make use of drag and drop without subclassing. (Qt 3)
+- [DragAndDropWithPyQt](./DragAndDropWithPyQt.html): How to make use of drag and drop without subclassing. (Qt 3)
 
-- [CreatingMdiApplications](./CreatingMdiApplications.html){.nonexistent}: Some links and pointers for MDI development. (Qt 3)
+- [CreatingMdiApplications](./CreatingMdiApplications.html): Some links and pointers for MDI development. (Qt 3)
 
-- [Wrapper_For_QWidgetFactory](./Wrapper_For_QWidgetFactory.html){.nonexistent}: How to set up the slot connections automatically in [PyQt](PyQt). (Qt 3)
+- [Wrapper_For_QWidgetFactory](./Wrapper_For_QWidgetFactory.html): How to set up the slot connections automatically in [PyQt](PyQt). (Qt 3)
 
-- [LoadingUIFilesAtRuntime](./LoadingUIFilesAtRuntime.html){.nonexistent}: How to load classes (as opposed to instances) directly from UI files, at runtime. (Qt 3)
+- [LoadingUIFilesAtRuntime](./LoadingUIFilesAtRuntime.html): How to load classes (as opposed to instances) directly from UI files, at runtime. (Qt 3)
 
-- [SimpleQScintillaExample](./SimpleQScintillaExample.html){.nonexistent}: a simple demonstration of QScintilla use with [PyQt](PyQt). (Qt 3)
+- [SimpleQScintillaExample](./SimpleQScintillaExample.html): a simple demonstration of QScintilla use with [PyQt](PyQt). (Qt 3)
 
-- [SignalDecorator](./SignalDecorator.html){.nonexistent}: a decorator that provides the signal signature for a method. (Qt 3)
+- [SignalDecorator](./SignalDecorator.html): a decorator that provides the signal signature for a method. (Qt 3)
 
-- [ScrollableGroupBox](./ScrollableGroupBox.html){.nonexistent}: A simple way to get a scrollable groupbox. (Qt 3)
+- [ScrollableGroupBox](./ScrollableGroupBox.html): A simple way to get a scrollable groupbox. (Qt 3)
 
-- [Capturing_Output_from_a_Process](./Capturing_Output_from_a_Process.html){.nonexistent}: How to capture output from a process and show it in a text editor/browser. (Qt 3)
+- [Capturing_Output_from_a_Process](./Capturing_Output_from_a_Process.html): How to capture output from a process and show it in a text editor/browser. (Qt 3)
 
-- [Printing_a_Worksheet](./Printing_a_Worksheet.html){.nonexistent}: How to print the contents of a worksheet onto a single page of A4 paper. (Qt 3)
-::::
+- [Printing_a_Worksheet](./Printing_a_Worksheet.html): How to print the contents of a worksheet onto a single page of A4 paper. (Qt 3)

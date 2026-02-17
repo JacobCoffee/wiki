@@ -1,7 +1,11 @@
 # MacQuigg
 
-::: {#content dir="ltr" lang="en"}
-Dr. David MacQuigg - [homepage](http://purl.net/macquigg){.http}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Dr. David MacQuigg - [homepage](http://purl.net/macquigg)
 
 [CategoryHomepage](CategoryHomepage)
-:::

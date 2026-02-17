@@ -1,11 +1,16 @@
 # HowFossConfWorks
 
-::: {#content dir="ltr" lang="en"}
-## This is a brief description of how the FossConf software works. {#This_is_a_brief_description_of_how_the_FossConf_software_works.}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## This is a brief description of how the FossConf software works. 
 
 Please add your comments and questions at appropriate places.
 
-### Philosophy {#Philosophy}
+### Philosophy 
 
 The software aims at helping to conduct a conference in the most transparent possible way, at the same time has enough controls to prevent anarchy and chaos. The workflow is as follows:
 
@@ -29,7 +34,7 @@ The software aims at helping to conduct a conference in the most transparent pos
 
 - Talks can be tagged - and will be allotted a colour depending on the tag
 
-- The admins can set up a series of volunteer tasks. Once this is done, delegates can add themselves as volunteers and ses: elect the tasks they offer to do. This list also goes up - the reason is obvious ![;-)](/wiki/europython/img/smile4.png ";-)"){height="16" width="16"} A volunteer may edit his details.
+- The admins can set up a series of volunteer tasks. Once this is done, delegates can add themselves as volunteers and ses: elect the tasks they offer to do. This list also goes up - the reason is obvious ![;-)](/wiki/europython/img/smile4.png ";-)") A volunteer may edit his details.
 
 - There is a facility for admins to add static pages. Each static page will have a menu name associated with it and the name is automatically added to the menu list. For example this page has been cut and pasted into the navigation static page.
 
@@ -40,4 +45,3 @@ other features: todo
 ------------------------------------------------------------------------
 
 [CategoryPyConIndia2009](CategoryPyConIndia2009)
-:::

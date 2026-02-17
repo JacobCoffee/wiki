@@ -1,11 +1,16 @@
 # How to have a mutable buffer with python 2.3?
 
-::::: {#content dir="ltr" lang="en"}
-Use the [MutableString](./MutableString.html){.nonexistent} class in the [UserString](./UserString.html){.nonexistent} module:
+```{admonition} Legacy Wiki Page
+:class: note
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1135fb4b1a5de4c4f93c35b6177adfe6acb4aec8 dir="ltr" lang="en"}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Use the [MutableString](./MutableString.html) class in the [UserString](./UserString.html) module:
+
+:::: 
+::: 
+``` 
    1 >>> from UserString import MutableString
    2 >>> s = MutableString('python')
    3 >>> s[2:4] = 'l'
@@ -14,4 +19,3 @@ Use the [MutableString](./MutableString.html){.nonexistent} class in the [UserSt
 ```
 :::
 ::::
-:::::

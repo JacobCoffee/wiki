@@ -1,6 +1,11 @@
 # DocutilsTestPage
 
-:::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # main title
 
 - item 1
@@ -8,15 +13,14 @@
 - item 3
 - item 4
 
-::::: {#title .section}
+::::: 
 ### title
 
-::: {#subtitle .section}
+::: 
 #### subtitle
 :::
 
-::: {#another-subtitle .section}
+::: 
 #### another subtitle
 :::
 :::::
-::::::

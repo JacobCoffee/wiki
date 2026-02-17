@@ -1,7 +1,12 @@
 # Asking for Help/How come when I double click on a .py a black thing flashes and then disappears? And what/where exactly is the 'Python Interpreter'?
 
-::: {#content dir="ltr" lang="en"}
-# Asking for Help: How come when I double click on a .py a black thing flashes and then disappears? And what/where exactly is the \'Python Interpreter\'? {#Asking_for_Help:_How_come_when_I_double_click_on_a_.py_a_black_thing_flashes_and_then_disappears.3F_And_what.2Fwhere_exactly_is_the_.27Python_Interpreter.27.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: How come when I double click on a .py a black thing flashes and then disappears? And what/where exactly is the \'Python Interpreter\'? 
 
 It seems like you\'re using Windows from the question. The \"black thing\" is called a \"console\", \"command line prompt\" or \"terminal\" depending on which person you ask, and it\'s the \"advanced\" way of accessing the programs and files on your computer. Usually you don\'t see it unless you go into the \"Start\" menu and find it, but Python programs ending in `.py`{.backtick} cause it to open while they are running because the program might write out some text, and the console is the standard way of showing such text - this dates back to the time of MS-DOS, but other systems also use the same kind of thing.
 
@@ -14,4 +19,3 @@ As for the Python interpreter, it is the software which understands Python code 
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::

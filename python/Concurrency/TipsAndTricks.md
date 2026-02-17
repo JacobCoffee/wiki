@@ -1,15 +1,20 @@
 # Concurrency/TipsAndTricks
 
-::::::: {#content dir="ltr" lang="en"}
-# Concurrency Tips & Tricks {#Concurrency_Tips_.26_Tricks}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Use with statement to manage locks {#Use_with_statement_to_manage_locks}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Concurrency Tips & Tricks 
+
+## Use with statement to manage locks 
 
 Starting in Python 2.5, the `with`{.backtick} statement is a far easier way to manage locks:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-efb4ef2d8dfffad4fdfc4b35b7e015cb75fa2108 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 some_lock = threading.Lock()
    2 
    3 with some_lock:
@@ -20,9 +25,9 @@ Starting in Python 2.5, the `with`{.backtick} statement is a far easier way to m
 
 This is equivalent to:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-09f0ef092b3b2c6926e00ef4eb278b3e1297d680 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 some_lock = threading.Lock()
    2 
    3 some_lock.acquire():
@@ -34,7 +39,6 @@ This is equivalent to:
 :::
 ::::
 
-## Adjust checkinterval {#Adjust_checkinterval}
+## Adjust checkinterval 
 
-Increasing the [check interval](http://docs.python.org/library/sys.html#sys.setcheckinterval){.http} may improve performance for CPU-bound multithreaded programs, at the cost of I/O responsiveness.
-:::::::
+Increasing the [check interval](http://docs.python.org/library/sys.html#sys.setcheckinterval) may improve performance for CPU-bound multithreaded programs, at the cost of I/O responsiveness.

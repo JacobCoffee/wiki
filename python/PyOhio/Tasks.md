@@ -1,7 +1,12 @@
 # PyOhio/Tasks
 
-::: {#content dir="ltr" lang="en"}
-- **done** Fill [Staff](./Staff.html){.nonexistent .reference .external} positions
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+- **done** Fill [Staff](./Staff.html) positions
 - **done** Release CFP
 - **done** Confirm venue
 - Sponsorship
@@ -91,4 +96,3 @@
 > - place easels
 > - arrange reg table
 > - place flipcharts
-:::

@@ -1,31 +1,36 @@
 # PyQt/simple0
 
-::::: {#content dir="ltr" lang="en"}
-## Simple Stage 0 {#Simple_Stage_0}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Simple Stage 0 
 
 **Prerequisites:** In order to reproduce this tutorial, please install sip4 and PyQt4 from
 
-- [http://riverbankcomputing.com](http://riverbankcomputing.com){.http}
+- [http://riverbankcomputing.com](http://riverbankcomputing.com)
 
 Windows users can get away by installing one of the binary packages from
 
-- [http://www.riverbankcomputing.com/software/pyqt/download](http://www.riverbankcomputing.com/software/pyqt/download){.http}
+- [http://www.riverbankcomputing.com/software/pyqt/download](http://www.riverbankcomputing.com/software/pyqt/download)
 
 after installing the corresponding Python 2.\* package from
 
-- [http://python.org](http://python.org){.http}
+- [http://python.org](http://python.org)
 
 Mac users might want to follow
 
-- [http://works13.com/blog/mac/installing-eric4-on-mac-os-x-leopard.htm](http://works13.com/blog/mac/installing-eric4-on-mac-os-x-leopard.htm){.http}
+- [http://works13.com/blog/mac/installing-eric4-on-mac-os-x-leopard.htm](http://works13.com/blog/mac/installing-eric4-on-mac-os-x-leopard.htm)
 
-to get a working [PyQt](PyQt) development environment. (Note: the Qt link is broken at the time of writing, try to use: [http://qt.nokia.com/downloads/qt-for-open-source-cpp-development-on-mac-os-x](http://qt.nokia.com/downloads/qt-for-open-source-cpp-development-on-mac-os-x){.http})
+to get a working [PyQt](PyQt) development environment. (Note: the Qt link is broken at the time of writing, try to use: [http://qt.nokia.com/downloads/qt-for-open-source-cpp-development-on-mac-os-x](http://qt.nokia.com/downloads/qt-for-open-source-cpp-development-on-mac-os-x))
 
 Linux users should install the packages provided by the distribution, which are usually called python-sip, python-qt4, python-qscintilla. Watch out for related -devel packages also. They\'re needed as well, if the packager has split them off. (Many thanks to **Hans-Peter Jansen** for this section of the tutorial and many other valuable suggestions.)
 
 **We start this project** in the Qt Designer in which we shall design the main form. Qt Designer is a graphical tool that is well explained with superior gui. The image of the application can be easily created and here is a result of a little more than 5 minutes work with it:
 
-- ![in_designer_window.png](attachments/PyQt(2f)simple0/in_designer_window.png "in_designer_window.png"){.attachment}
+- ![in_designer_window.png](attachments/PyQt(2f)simple0/in_designer_window.png "in_designer_window.png")
 
 Start with the Main Window form. Main Window includes a Title Bar at the top of the form and a Status Bar at the bottom. It also includes a menu bar. We start with one main menu, \"File\". Whilst in the Qt Designer, click on it and enter the items \"New\", \"Open\", \"Save\", \"Save As\". In the titles of menu items, one letter should be underlined to indicate an accelerator key. So, for instance, for \"New\" we type \"&New\" and for \"Save As\", we type \"Save &As\". with the result that N in New is underlined. Similarly, in Save As \"A\" is underlined.
 
@@ -39,9 +44,9 @@ The information from the Designer is saved in a file with an extension \"ui\", s
 
 The program at this stage is very minimal. Here is the listing:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-066f4099cc9b33773fa5e1e6bc7b6f38fc94540c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #!/usr/bin/env python
    2 # .../simple_0/simple.py
    3 '''A really simple editor program in PyQt4 - simple.py'''
@@ -72,4 +77,3 @@ The \"program\" at this stage does not do anything, though it uses the **ui_simp
 This kind of program stub occurs in many applications. We have chosen to use Python\'s special feature of **multiple inheritance**, so that the methods of Ui_MainWindow becomes readily accessible without referring explicitly to Ui_MainWindow. The convenience of this will become more apparent after we add to this stub some means to better control the program.
 
 [Return Home](./PyQt(2f)simple.html)
-:::::

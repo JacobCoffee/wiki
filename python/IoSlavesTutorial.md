@@ -1,29 +1,34 @@
 # IoSlavesTutorial
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
-# An IOSlave Tutorial {#An_IOSlave_Tutorial}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Note {#Note}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# An IOSlave Tutorial 
+
+## Note 
 
 This document is a *work in progress*. Please feel free to add constructive comments, make additions and edit accordingly.
 
-## Introduction {#Introduction}
+## Introduction 
 
 The ADFS IOSlave presents the contents of ADFS floppy disk images to the user by inspecting the ADFS filesystem stored within each image and using the KIOSlave API to return this information to client applications. Although the underlying Python module was written with a command line interface in mind, it provides an interface which can be used by an IOSlave without too much of an overhead.
 
 This document outlines the source code and structure of the ADFS IOSlave and aims to be a useful guide to those wishing to write IOSlaves, either in Python or C++.
 
-## Annotated code {#Annotated_code}
+## Annotated code 
 
 It is convenient to examine the source code as it is written in the *kio_adfs.py* file. However, we can at least group some of the methods in order to provide an overview of the IOSlave and separate out the details of the initialisation.
 
-### Initialisation {#Initialisation}
+### Initialisation 
 
 Various classes and namespaces are required in order to communicate with the KIOSlave framework. These are drawn from the `qt`{.backtick}, `kio`{.backtick} and `kdecore`{.backtick} modules:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-da7a345f37a213d48612af0f7b65df11a48bd35f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 from qt import QByteArray
 from kio import KIO
 from kdecore import KURL
@@ -33,9 +38,9 @@ from kdecore import KURL
 
 The `os`{.backtick} and `time`{.backtick} modules provide functions which are relevant to the operation of the IOSlave; the `sys`{.backtick} and `traceback`{.backtick} modules are useful for debugging the IOSlave:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-81ccac8b23f6e44294073f075bd59bcd6ff16f72 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 import os, sys, traceback, time
 ```
 :::
@@ -43,9 +48,9 @@ import os, sys, traceback, time
 
 The `ADFSlib`{.backtick} module is imported. This provides the functionality required to read disk images:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3d6f43d9355a48c16413addfec36b73b896aafd6 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 import ADFSlib
 ```
 :::
@@ -53,15 +58,15 @@ import ADFSlib
 
 We omit the debugging code to keep this tutorial fairly brief. This can be examined in the distributed source code.
 
-### The slave class {#The_slave_class}
+### The slave class 
 
 We define a class which will be used to create instances of this IOSlave. The class must be derived from the `KIO.SlaveBase`{.backtick} class so that it can communicate with clients via the DCOP mechanism. Various operations are supported if the appropriate method (represented as virtual functions in C++) are reimplemented in our subclass.
 
 Note that the name of the class is also declared in the *details.py* file so that the library which launches the Python interpreter knows which class to instantiate.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-9fad8c69cb376bb42a96c68a08af2ac56c853693 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 class SlaveClass(KIO.SlaveBase):
 
     """SlaveClass(KIO.SlaveBase)
@@ -74,9 +79,9 @@ class SlaveClass(KIO.SlaveBase):
 
 An initialisation method, or constructor, is written which calls the base class and initialises some useful attributes, or instance variables. Note that the name of the IOSlave is passed to the base class\'s `__init__`{.backtick} method:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-e124b24f97c6fef6620b0e9b378c1701423af8e8 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
     def __init__(self, pool, app):
     
         # We must call the initialisation method of the base class.
@@ -94,9 +99,9 @@ An initialisation method, or constructor, is written which calls the base class 
 
 We create a method to parse any URLs passed to the IOSlave and return a path into a disk image. This initially extracts the path from the `KURL`{.backtick} object passed as an argument and converts it to a unicode string:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-e909be955b2976b98fd30f701d1fe71ae491dd8d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
     def parse_url(self, url):
     
         file_path = unicode(url.path())
@@ -106,9 +111,9 @@ We create a method to parse any URLs passed to the IOSlave and return a path int
 
 The presence of a colon character is determined. If one is present then it will simply be discarded along with any preceding text; the remaining text is assumed to be a path to a local file.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-18d68f38186106d3642b28956d7f934c0bdc99f0 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         at = file_path.find(u":")
         
         if at != -1:
@@ -122,9 +127,9 @@ Since we are implementing a read-only IOSlave, we can implement a simple caching
 
 If the disk image has been cached then return the path within the image:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-b66ba12aa52ba11f4580df36c0cceab988565883 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         if self.disc_image and file_path.find(self.disc_image) == 0:
         
             # Return the path within the image.
@@ -135,9 +140,9 @@ If the disk image has been cached then return the path within the image:
 
 An uncached URL must be examined element by element, as far as possible, comparing the path with the local filesystem. Since a valid path will contain at least one slash character then we can immediately discard any paths which do not contain one, returning `None`{.backtick} to the caller:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-67aba85fe49dab9b072852cbfc30501eadf2ea9e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         elements = file_path.split(u"/")
         
         if len(elements) < 2:
@@ -149,9 +154,9 @@ An uncached URL must be examined element by element, as far as possible, compari
 
 Starting from the root directory, we apply each new path element to the constructed path, testing for the presence of the objects it refers to. If no object can be found at the path given then `None`{.backtick} is returned to the caller to indicate that the URL was invalid. If a file is found then it is assumed that an ADFS disk image has been located; a check could be performed to verify this. Finally, if all the path elements are added to the root directory, and the object referred to is itself a directory, then the URL is treated as invalid; it should have referred to a file.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-05a83d10b1f457347025d616e0bfcb71e09e51dc dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         path_elements, elements = elements[:1], elements[1:]
         
         while elements != []:
@@ -177,9 +182,9 @@ Starting from the root directory, we apply each new path element to the construc
 
 At this point, it is assumed that a suitable image has been found at the constructed path. The characters following this path correspond to the path within the image file. We record the path to the image and construct the path within the image:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-28e7791acb1a55367c71b46010195e4903f16622 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         self.disc_image = path
         
         image_path = u"/".join(elements)
@@ -189,9 +194,9 @@ At this point, it is assumed that a suitable image has been found at the constru
 
 If not already open, it is necessary to open the image file, returning `None`{.backtick} if the file cannot be found. (Its presence was detected earlier but it is better to catch any exceptions.)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f84dd2a7b180b26f5ac7acf12f1e29a2f96cb4a2 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         try:
         
             adf = open(self.disc_image, "rb")
@@ -205,9 +210,9 @@ If not already open, it is necessary to open the image file, returning `None`{.b
 
 We attempt to open the disk image using a class from the support module. This will read and catalogue the files within the image, storing them in an internal structure. However, if a problem is found with the image, then an exception will be raised. We tidy up and return `None`{.backtick} to signal failure in such a case, but otherwise return the path within the image:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8ca5172296ba74d169c98a39ba559a1085e8ca3d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         try:
         
             self.adfsdisc = ADFSlib.ADFSdisc(adf)
@@ -222,13 +227,13 @@ We attempt to open the disk image using a class from the support module. This wi
 :::
 ::::
 
-### The get file operation {#The_get_file_operation}
+### The get file operation 
 
 Various fundamental operations are required if the IOSlave is going to perform a useful function. The first of these is provided by the `get`{.backtick} method which reads files in the disk image and sends their contents to the client. The first thing this method does is check the URL supplied using the previously defined `parse_url`{.backtick} method, reporting an error if the URL is unusable:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-7644b3afa28b6fd9ed784ad18f9c5558dee5fde6 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
     def get(self, url):
     
         path = self.parse_url(url)
@@ -243,9 +248,9 @@ Various fundamental operations are required if the IOSlave is going to perform a
 
 Having established that the disk image referred to is valid, we now have a path which is supposed to refer to a file within the image. It is now necessary to attempt to find this file. This is achieved by the use of the as yet undeclared `find_file_within_image`{.backtick} method which will return `None`{.backtick} if a suitable file cannot be found:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-7a6f9229730770eb54552f3772feb0ddb0fb4243 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         adfs_object = self.find_file_within_image(path)
         
         if not adfs_object:
@@ -262,9 +267,9 @@ The details of the object returned by the above method is in the form of a tuple
 
 If the second element in the tuple is a list then the object found is a directory:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-b32e6a257d2a7e42d5633c7618b8841e1198aa58 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         if type(adfs_object[1]) == type([]):
         
             self.error(KIO.ERR_IS_DIRECTORY, path)
@@ -275,9 +280,9 @@ If the second element in the tuple is a list then the object found is a director
 
 For files, the second element of the tuple contains a string. In this method, we are only interested in the file data. Using the base class\'s `data`{.backtick} method, which we can access through the current instance, we send a `QByteArray`{.backtick} to the client:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-fc95eca05a7152a42b6c8561e635a6dcd7f71b98 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         self.data(QByteArray(adfs_object[1]))
 ```
 :::
@@ -285,9 +290,9 @@ For files, the second element of the tuple contains a string. In this method, we
 
 The end of the data string is indicated by an empty `QByteArray`{.backtick} before we indicate completion of the operation by calling the base class\'s `finished`{.backtick} method:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-65c71fcb70ab3d4800243f94be5d6248af74b32d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         self.data(QByteArray())
         
         self.finished()
@@ -295,15 +300,15 @@ The end of the data string is indicated by an empty `QByteArray`{.backtick} befo
 :::
 ::::
 
-### The stat operation {#The_stat_operation}
+### The stat operation 
 
 The `stat`{.backtick} method returns information about files and directories within the disk image. It is very important that this method works properly as, otherwise, the IOSlave will not work as expected and may appear to be behaving in an unpredictable manner. For example, clients such as Konqueror often use the `stat`{.backtick} method to find out information about objects before calling `get`{.backtick}, so failure to read a file may actually be the result of a misbehaving `stat`{.backtick} operation.
 
 As for the `get`{.backtick} method, the `stat`{.backtick} method initially verifies that the URL supplied is referring to a valid disk image, and that there is a path within the image to use. Unlike the `get`{.backtick} method, it will redirect the client to the path contained within the URL if the `parse_url`{.backtick} fails to handle it. This allows the user to use URL autocompletion on ordinary filesystems while searching for images to read.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a90d4b1efdcc284eb0bdc6da584b9aee7bfb5c88 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
     def stat(self, url):
     
         path = self.parse_url(url)
@@ -322,9 +327,9 @@ As for the `get`{.backtick} method, the `stat`{.backtick} method initially verif
 
 As before, nonexistent objects within the image cause errors to be reported:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-7a6f9229730770eb54552f3772feb0ddb0fb4243-1 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         adfs_object = self.find_file_within_image(path)
         
         if not adfs_object:
@@ -337,9 +342,9 @@ As before, nonexistent objects within the image cause errors to be reported:
 
 In the tuple containing the object\'s details the second item may be in the form of a list. This would indicate that a directory has been found which we must deal with appropriately. However, for ordinary files we simply generate a suitable description of the file to return to the client:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-fe69695bf32f072404da3501ddc390ba60e876c9 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         if type(adfs_object[1]) != type([]):
         
             entry = self.build_entry(adfs_object)
@@ -349,9 +354,9 @@ In the tuple containing the object\'s details the second item may be in the form
 
 If the object was not a file then we must ensure that the path given contains a reference to a directory. If, on the other hand, the path is either empty or does not end in a manner expected for a directory then it is useful to redirect the client to an appropriate URL:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-30645d9211b487aa837926900a4f05d263fc270d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         elif path != u"" and path[-1] != u"/":
         
             # Directory referenced, but URL does not end in a slash.
@@ -366,9 +371,9 @@ If the object was not a file then we must ensure that the path given contains a 
 
 If the URL referred to a directory then a description can be returned to the client in a suitable form:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-fd4c94d37bd2803773340c7beed9783a78505a46 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         else:
         
             entry = self.build_entry(adfs_object)
@@ -378,9 +383,9 @@ If the URL referred to a directory then a description can be returned to the cli
 
 After a description of the object found has been constructed, it only remains for us to return the description (or entry in the filesystem) to the client by submitting it to the KIOSlave framework. This is performed by the following operation to the `statEntry`{.backtick} method, and is followed by a `finished`{.backtick} call to indicate that there are no more entries to process:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2f7b97fd4afaac5de6c63e5859d6a7c1c05b9c6e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         if entry != []:
         
             self.statEntry(entry)
@@ -394,19 +399,19 @@ After a description of the object found has been constructed, it only remains fo
 :::
 ::::
 
-### The mimetype operation {#The_mimetype_operation}
+### The mimetype operation 
 
 In many virtual filesystems, the `mimetype`{.backtick} operation would require a certain amount of work to determine MIME types of files, or sufficient planning to ensure that data is returned in a format in line with a predetermined MIME type. Since its use is optional, we do not define a method to determine the MIME types of any files within our virtual filesystem. The client will have to inspect the contents of such files in order to determine their MIME types.
 
-### The listDir operation {#The_listDir_operation}
+### The listDir operation 
 
 The contents of a directory on our virtual filesystem are returned by the `listDir`{.backtick} method. This works like the `stat`{.backtick} method, but returns information on multiple objects within a directory.
 
 As for the previous methods the validity of the URL is checked. If no suitable directory found within the disk image, the path component of the original URL is extracted and the client redirected to this location. Note that the `url`{.backtick} argument is a `kdecore.KURL`{.backtick} object.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f18f5600a15ed70c475e824b6632fca6c3d5be82 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
     def listDir(self, url):
     
         path = self.parse_url(url)
@@ -424,9 +429,9 @@ As for the previous methods the validity of the URL is checked. If no suitable d
 
 Having established that the path refers to a valid disk image, we try to find the specified object within the image, returning an error if nothing suitable is found:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-7a6f9229730770eb54552f3772feb0ddb0fb4243-2 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         adfs_object = self.find_file_within_image(path)
         
         if not adfs_object:
@@ -439,9 +444,9 @@ Having established that the path refers to a valid disk image, we try to find th
 
 If the path does not end in a slash then redirect the client to a URL which does. This ensures that either a directory will be retrieved or an error will be returned to the client:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1835f7f8751b25233c904e5b37076766ec42edf9 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         elif path != u"" and path[-1] != u"/":
         
             url.setPath(unicode(url.path()) + u"/")
@@ -454,9 +459,9 @@ If the path does not end in a slash then redirect the client to a URL which does
 
 If a file is referenced then an error is returned to the client because we can only list the contents of a directory:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-26fae0d248aff5937c068a516ab2f7a965efd741 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         elif type(adfs_object[1]) != type([]):
         
             self.error(KIO.ERR_IS_FILE, path)
@@ -467,9 +472,9 @@ If a file is referenced then an error is returned to the client because we can o
 
 A list of files is kept in the second item of the object returned from the support module. For each of these files, we must construct an entry which is understandable to the KIOSlave infrastructure in a manner similar to that used in the method for the `stat`{.backtick} operation.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-20898b4ea94df1bb28d70bf9090f2bc9c31304bc dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         # Obtain a list of files.
         files = adfs_object[1]
         
@@ -506,13 +511,13 @@ A list of files is kept in the second item of the object returned from the suppo
 :::
 ::::
 
-### The dispatch loop {#The_dispatch_loop}
+### The dispatch loop 
 
 Although not entirely necessary, we implement a `dispatchLoop`{.backtick} method which simply calls the corresponding method of the base class:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4e97310e9988876932c889dfbec938a833a183dd dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
     def dispatchLoop(self):
     
         KIO.SlaveBase.dispatchLoop(self)
@@ -520,17 +525,17 @@ Although not entirely necessary, we implement a `dispatchLoop`{.backtick} method
 :::
 ::::
 
-## Utility methods {#Utility_methods}
+## Utility methods 
 
 We define some methods which, although necessary for this IOSlave to work, are not standard virtual methods to be reimplemented. However, they do contain code which might be usefully reused in other IOSlaves.
 
-### Building file system entries {#Building_file_system_entries}
+### Building file system entries 
 
 We create a method to assist in building filesystem entries to return to the client via the KIOSlave infrastructure. For this example, some basic details of each file or directory in the disk image is derived from information contained within and stored within standard `KIO.UDSAtom`{.backtick} instances.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-40dc36eda7d014f0892a5f3baecc8761388f49de dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
     def build_entry(self, obj):
     
         entry = []
@@ -540,9 +545,9 @@ We create a method to assist in building filesystem entries to return to the cli
 
 We check the type of object passed to the method in order to determine the nature of the information returned. For files we do not provide a predetermined MIME type, leaving the client to determine this from data retrieved from the disk image.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-e235fd1fcd451a9f5f62d50153c5a848cdb2d8a0 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         if type(obj[1]) != type([]):
         
             # [name, data, load, exec, length]
@@ -554,9 +559,9 @@ We check the type of object passed to the method in order to determine the natur
 
 Files stored in old disk images require accompanying *.inf* files to describe their original attributes. The following code provides details of these files which are not actually present in the disk image, but are generated automatically by this IOSlave:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ca405cf7a96a5e55fe52f6b19628ddadfa5ad74f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         "Continued..."
 
             if self.adfsdisc.disc_type.find("adE") == -1 and \
@@ -582,9 +587,9 @@ Files stored in old disk images require accompanying *.inf* files to describe th
 
 Having determined the MIME type we now declare all the relevant attributes of the object and return these to the caller:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-70be4a1eacb134167cbabd4cd12984cc784036d3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         atom = KIO.UDSAtom()
         atom.m_uds = KIO.UDS_NAME
         atom.m_str = name
@@ -640,13 +645,13 @@ Having determined the MIME type we now declare all the relevant attributes of th
 :::
 ::::
 
-### Encoding filenames {#Encoding_filenames}
+### Encoding filenames 
 
 The following two internal methods deal with the translation of paths and filenames within the disk image to and from canonical URL style paths. These are only of interest to those familiar with ADFS style paths.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-34f54c3d9ae0b798ada4e9dc6bc5acfdac04e5ab dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
     def encode_name_from_object(self, obj):
     
         name = obj[0]
@@ -671,7 +676,7 @@ The following two internal methods deal with the translation of paths and filena
 :::
 ::::
 
-### Locating objects within a disk image {#Locating_objects_within_a_disk_image}
+### Locating objects within a disk image 
 
 A key element in the construction of an IOSlave is the method used to map between the URLs given by client applications and the conventions of the virtual filesystems represented by the IOSlave. In this instance, the disk image contains a working snapshot of an ADFS filesystem which must be navigated in order to extract objects referenced by the client.
 
@@ -679,9 +684,9 @@ Since the `ADFSlib`{.backtick} support module provides objects to contain the di
 
 In this method, the `path`{.backtick} argument contains the path component of the URL supplied by the client in the standard form used in URLs.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-5aad18d678c1fd443cc36af136bcd23d5c8ac63b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
     def find_file_within_image(self, path, objs = None):
 ```
 :::
@@ -689,9 +694,9 @@ In this method, the `path`{.backtick} argument contains the path component of th
 
 A convention we have adopted is the use of a default value of `None`{.backtick} for the final argument of this method. Omission of this argument indicates that we are starting a search from the root directory of the disk image. As we descend into the directory structure, recursive calls to this method will supply suitable values for this argument but, for now, a reasonable value needs to be substituted for `None`{.backtick}; this is a structure containing the entire filesystem:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-6d66f15a69b86cfd1ac83f3d007f765bd28a420c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         if objs is None:
         
             objs = self.adfsdisc.files
@@ -701,9 +706,9 @@ A convention we have adopted is the use of a default value of `None`{.backtick} 
 
 If an empty path was supplied then it is assumed that an object corresponding to the root directory was being referred to. In such a case a slash character is given as the name of the object, and the list of objects supplied is given as the contents of the root directory:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8b7799c8549f32e5dfce2758951240fa3b957a58 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         if path == u"":
         
             # Special case for root directory.
@@ -714,9 +719,9 @@ If an empty path was supplied then it is assumed that an object corresponding to
 
 For non-trivial paths, we split the path string into elements corresponding to the names of files and directories expected as we descend into the filesystem\'s hierarchy of objects, then we remove any empty elements:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-df4e39827242aa3a8218d26c1195261be3098440 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         elements = path.split(u"/")
         
         elements = filter(lambda x: x != u"", elements)
@@ -726,9 +731,9 @@ For non-trivial paths, we split the path string into elements corresponding to t
 
 For each object found in the current directory, we examine each object and compare its name to the next path element expected.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-04744b2464144c0b0251dd6a0978600c23035b91 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         for this_obj in objs:
         
             if type(this_obj[1]) != type([]):
@@ -740,9 +745,9 @@ For each object found in the current directory, we examine each object and compa
 
 If a file is found in the filesystem, we translate its name so that we can compare it with the next path element expected:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4554465d8bce670342bfc812e4b487245467e1ab dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
                 obj_name = self.encode_name_from_object(this_obj)
                 
                 if obj_name == elements[0]:
@@ -754,9 +759,9 @@ If a file is found in the filesystem, we translate its name so that we can compa
 
 For files, we perform the simple test that the current path element is the final one in the list, and return the corresponding object if this is the case. If this is not the case then the URL is likely to be invalid:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2efcbae5bb3c68d6d866d3d4755557a6a1ee9044 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
                     if len(elements) == 1:
                     
                         # This is the last path element; we have found the
@@ -774,9 +779,9 @@ For files, we perform the simple test that the current path element is the final
 
 If a direct match between names is not possible then, for old-style disk images, it is possible that the path is referring to a *.inf* file; we check for this possibility, applying the same check on the remaining path elements as before:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2ed2d8548c28d78742758bbfdf4b4e4f7d5fcddd dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
                 elif self.adfsdisc.disc_type.find("adE") == -1 and \
                      elements[0] == obj_name + u".inf":
 ```
@@ -785,9 +790,9 @@ If a direct match between names is not possible then, for old-style disk images,
 
 If successfully matched, a *.inf* file is created and returned, otherwise a `None`{.backtick} value is returned to indicate failure:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-005f62aa16ef91c51f996856fe52ab50108c2671 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
             "Continued..."
 
                     if len(elements) == 1:
@@ -818,9 +823,9 @@ If successfully matched, a *.inf* file is created and returned, otherwise a `Non
 
 As for files, the names of directories found in the filesystem are translated for comparison with the next path element expected:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4554465d8bce670342bfc812e4b487245467e1ab-1 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
                 obj_name = self.encode_name_from_object(this_obj)
                 
                 if obj_name == elements[0]:
@@ -832,9 +837,9 @@ As for files, the names of directories found in the filesystem are translated fo
 
 Unlike files, directories can occur at any point in the descent into the filesystem. Therefore, we either return the object corresponding to the last path element or descend into the directory found:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d256e6c4231709c87ed7542d99387a4bc8f4b84b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
                     if len(elements) == 1:
                     
                         # This is the last path element; we have found the
@@ -854,9 +859,9 @@ Unlike files, directories can occur at any point in the descent into the filesys
 
 At this point, no matching objects were found, therefore we return `None`{.backtick} to indicate failure:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d7923b87558cb2ab47629cc897f62c2279d998c3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
         return None
 ```
 :::
@@ -865,4 +870,3 @@ At this point, no matching objects were found, therefore we return `None`{.backt
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

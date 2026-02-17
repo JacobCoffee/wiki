@@ -1,11 +1,16 @@
 # IgboLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Igbo
 
 ISO 639-1 Code: ig
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -27,11 +32,11 @@ Where these pages really need help:
 
 **Asụsụ Igbo**
 
-[code snippet courtesy of Uche Ogbuji]{.comment style="display:none"}
+[code snippet courtesy of Uche Ogbuji]
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d37ca29f2d6fbc8dcfe9ef5f8a2a65367a36f45c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # python 3.0/3.1
    2 
    3 def kele(aha):
@@ -44,4 +49,3 @@ Where these pages really need help:
 ::::
 
 [CategoryLanguage](CategoryLanguage)
-:::::

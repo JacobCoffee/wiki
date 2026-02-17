@@ -1,13 +1,18 @@
 # Aquarium
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 A framework for [WebProgramming](WebProgramming).
 
-### Masthead {#Masthead}
+### Masthead 
 
 URL
 
-:   [http://aquarium.sourceforge.net](http://aquarium.sourceforge.net){.http}
+:   [http://aquarium.sourceforge.net](http://aquarium.sourceforge.net)
 
 version
 
@@ -22,33 +27,33 @@ platforms
 Python versions
 :   2.3 or higher
 
-### Deployment Platforms {#Deployment_Platforms}
+### Deployment Platforms 
 
 CGI, [ModPython](ModPython), FastCGI and custom python-based web servers are supported via Web Server Adaptor classes, as is its own Web server, Glass. WSGI support is currently in CVS.
 
-### Suitability {#Suitability}
+### Suitability 
 
-### Development Interfaces {#Development_Interfaces}
+### Development Interfaces 
 
-### Environment Access {#Environment_Access}
+### Environment Access 
 
-### Session, Identification and Authentication {#Session.2C_Identification_and_Authentication}
+### Session, Identification and Authentication 
 
 Classes for session management are provided, sessions can be stored in memory, in the database, or a custom session container can be written easily.
 
-### Persistence Support {#Persistence_Support}
+### Persistence Support 
 
-Provides a [DatabaseAssistant](http://aquarium.sourceforge.net/api/public/aquarium.database.DatabaseAssistant.DatabaseAssistant-class.html){.http} class that abstracts and assists in database connectivity using DBAPI modules
+Provides a [DatabaseAssistant](http://aquarium.sourceforge.net/api/public/aquarium.database.DatabaseAssistant.DatabaseAssistant-class.html) class that abstracts and assists in database connectivity using DBAPI modules
 
-### Presentation Support {#Presentation_Support}
+### Presentation Support 
 
-Uses and tightly integrates [Cheetah](http://www.cheetahtemplate.org){.http} templating engine. The Aquarium project leader is also now a co-developer of Cheetah, so the integration of Cheetah can only improve from an already high level.
+Uses and tightly integrates [Cheetah](http://www.cheetahtemplate.org) templating engine. The Aquarium project leader is also now a co-developer of Cheetah, so the integration of Cheetah can only improve from an already high level.
 
-### InTheirOwnWords {#InTheirOwnWords}
+### InTheirOwnWords 
 
 Aquarium is a Web application framework, written in Python. It provides an approach to producing a Web application without duplication of effort by reducing the amount of code you need to write. It offers convenient libraries and extensible APIs for items such as session management and Web server integration (including CGI, mod_python, FastCGI, or its own Web server, Glass). It provides tight integration with Cheetah, including autocompilation of Cheetah templates. Last of all, it offers a convenient approach to Web development. As a developer, you just \"plug in\" modules; Aquarium ties them all together.
 
-Aquarium\'s features were inspired by a broad range of Web technologies (such as PHP\'s [FreeTrade](http://share.whichever.com/index.php?SCREEN=freetrade){.http}, Java\'s Struts, Perl\'s Mason, and Python\'s Zope). It is Open Source software, available under a BSD-style license. Aquarium is compact\--just a few thousand lines of code\--and extremely well documented. It\'s a useful tool for creating any highly-dynamic, custom Web application written in Python.
+Aquarium\'s features were inspired by a broad range of Web technologies (such as PHP\'s [FreeTrade](http://share.whichever.com/index.php?SCREEN=freetrade), Java\'s Struts, Perl\'s Mason, and Python\'s Zope). It is Open Source software, available under a BSD-style license. Aquarium is compact\--just a few thousand lines of code\--and extremely well documented. It\'s a useful tool for creating any highly-dynamic, custom Web application written in Python.
 
 Aquarium is based around these ideas:
 
@@ -58,5 +63,4 @@ Aquarium is based around these ideas:
 
 Aquarium is now used world wide. I.e. there are people in at least the following countries using it: US, England, the Netherlands, the Ukraine, and Australia.
 
-### Hosting {#Hosting}
-:::
+### Hosting 

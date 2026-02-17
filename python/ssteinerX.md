@@ -1,7 +1,12 @@
 # ssteinerX
 
-::: {#content dir="ltr" lang="en"}
-## Steve Steiner (ssteinerX) {#Steve_Steiner_.28ssteinerX.29}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Steve Steiner (ssteinerX) 
 
 I use ssteinerX because ssteiner was taken in several places at which I tried to register. Just thought I\'d clear that up.
 
@@ -22,4 +27,3 @@ Email: `<ssteinerX AT SPAMFREE gmail DOT com>`
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

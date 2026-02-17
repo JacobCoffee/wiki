@@ -1,11 +1,16 @@
 # PackagingWG/2018-02-12-Warehouse
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Warehouse weekly meeting notes
 
 Monday, Feb. 12, 2018
 
-## Present: {#Present:}
+## Present: 
 
 - Sumana
 - Laura
@@ -14,7 +19,7 @@ Monday, Feb. 12, 2018
 - Ernest
 - Nicole
 
-## Current work/announcements: {#Current_work.2Fannouncements:}
+## Current work/announcements: 
 
 Ernest:
 
@@ -34,7 +39,7 @@ Nicole:
   - Ernest: Eagerly Volunteers :-D
   - Laura: I can help test UI
 
-- Not blocked, needs Dustin to set up branch for reset password - \\o/ - already in progress ![:D](/wiki/europython/img/biggrin.png ":D"){height="16" width="16"}
+- Not blocked, needs Dustin to set up branch for reset password - \\o/ - already in progress ![:D](/wiki/europython/img/biggrin.png ":D")
 
 Dustin:
 
@@ -51,7 +56,7 @@ Sumana:
 
 Laura:
 
-- twine docs PRs merged [https://github.com/pypa/twine/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Algh2+](https://github.com/pypa/twine/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Algh2+){.https}
+- twine docs PRs merged [https://github.com/pypa/twine/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Algh2+](https://github.com/pypa/twine/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Algh2+)
 
 - Reviewed PR to add additional emails to account
 
@@ -62,7 +67,7 @@ Laura:
 
 - Brainstorming document for promotional activities: (shared with group)
 
-- Need to test [manage email changes PR](https://github.com/pypa/warehouse/pull/2898){.https} per Dustin
+- Need to test [manage email changes PR](https://github.com/pypa/warehouse/pull/2898) per Dustin
 
 Mark:
 
@@ -72,27 +77,27 @@ Mark:
 - \[finance detail\]
 - Mark out February 19th
 
-## Bug/PR triage: {#Bug.2FPR_triage:}
+## Bug/PR triage: 
 
-\* [https://github.com/pypa/warehouse/issues/2850](https://github.com/pypa/warehouse/issues/2850){.https} Support searching for an exact phrase #2850
+\* [https://github.com/pypa/warehouse/issues/2850](https://github.com/pypa/warehouse/issues/2850) Support searching for an exact phrase #2850
 
 - Sumana Suggestion: milestone 3, publicizing beta. Search is already better on Warehouse - good contribution for someone familiar with Elasticsearch - nice to have
 - Sumana\'s now updated this.
 
-\* [https://github.com/pypa/warehouse/issues/345](https://github.com/pypa/warehouse/issues/345){.https} Ability to mark a version of a package as deprecated or unsupported #345
+\* [https://github.com/pypa/warehouse/issues/345](https://github.com/pypa/warehouse/issues/345) Ability to mark a version of a package as deprecated or unsupported #345
 
 - Sumana Suggestion: Post-launch
 - Sumana\'s now updated this.
 
-\* [https://github.com/pypa/warehouse/issues/2206](https://github.com/pypa/warehouse/issues/2206){.https} Sort user page project list by last release date #2206
+\* [https://github.com/pypa/warehouse/issues/2206](https://github.com/pypa/warehouse/issues/2206) Sort user page project list by last release date #2206
 
 - Was a PR, closed due to test issues - SH will reach out to see if contributor can work on it again
 
-- [https://github.com/pypa/warehouse/pull/2213#issuecomment-352225097](https://github.com/pypa/warehouse/pull/2213#issuecomment-352225097){.https} \-- had problems with running tests
+- [https://github.com/pypa/warehouse/pull/2213#issuecomment-352225097](https://github.com/pypa/warehouse/pull/2213#issuecomment-352225097) \-- had problems with running tests
 
 - Sumana\'s replied and marked the issue in the beta publicizing milestone
 
-\* JSON API documentation [https://github.com/pypa/warehouse/issues/2913](https://github.com/pypa/warehouse/issues/2913){.https}
+\* JSON API documentation [https://github.com/pypa/warehouse/issues/2913](https://github.com/pypa/warehouse/issues/2913)
 
 - Sumana Suggestion: milestone 4, launch
 - PR exists - needs more prose, change pypi.python.org to pypi.org
@@ -100,13 +105,13 @@ Mark:
 - Break into minimum (user mvp) vs. fuller docs
 - Sumana\'s updated the issue
 
-\* Request for Trio trove classifier [https://github.com/pypa/warehouse/issues/2881](https://github.com/pypa/warehouse/issues/2881){.https}
+\* Request for Trio trove classifier [https://github.com/pypa/warehouse/issues/2881](https://github.com/pypa/warehouse/issues/2881)
 
 - Sumana Suggestion: maintainer MVP
 - Can only be done by administrator of pypi \-- we\'ll add admin UI to Warehouse before final launch
-  - Ernest has done the trove update task, Sumana has moved [https://github.com/pypa/warehouse/issues/2649](https://github.com/pypa/warehouse/issues/2649){.https} to milestone 4
+  - Ernest has done the trove update task, Sumana has moved [https://github.com/pypa/warehouse/issues/2649](https://github.com/pypa/warehouse/issues/2649) to milestone 4
 
-\* [https://github.com/pypa/warehouse/issues/2401](https://github.com/pypa/warehouse/issues/2401){.https} Indicate in UI/API if a name has been prohibited #2401
+\* [https://github.com/pypa/warehouse/issues/2401](https://github.com/pypa/warehouse/issues/2401) Indicate in UI/API if a name has been prohibited #2401
 
 - Sumana Suggestion: milestone 4, launch
 - may allow malicious users to determine what the blacklist is
@@ -116,19 +121,19 @@ Mark:
 - PEP 541 to take care of a bunch of this\....
 - SH will share thoughts with Packaging WG before commenting
 
-\* [https://github.com/pypa/warehouse/issues/994](https://github.com/pypa/warehouse/issues/994){.https} Add support for API keys #994
+\* [https://github.com/pypa/warehouse/issues/994](https://github.com/pypa/warehouse/issues/994) Add support for API keys #994
 
 - lukesneeringer wants to scope this out and asks whether anyone objects, volunteers to do this work + two-factor auth
 - Yes - Luke can work on this \-- mark as post-launch milestone
 - Sumana has updated the issue
 
-\* [https://github.com/pypa/warehouse/issues/360](https://github.com/pypa/warehouse/issues/360){.https} Add some sort of webhooks support #360
+\* [https://github.com/pypa/warehouse/issues/360](https://github.com/pypa/warehouse/issues/360) Add some sort of webhooks support #360
 
 - Sumana Suggestion: post-launch
 - New feature, not in legacy
 - Sumana has updated the issue
 
-\* [https://github.com/pypa/warehouse/issues/1855](https://github.com/pypa/warehouse/issues/1855){.https} Expose what extras are available for install #1855
+\* [https://github.com/pypa/warehouse/issues/1855](https://github.com/pypa/warehouse/issues/1855) Expose what extras are available for install #1855
 
 - Sumana Suggestion: cool but not urgent
 - Nice to have - nice additional feature
@@ -138,17 +143,17 @@ Mark:
 
 - Nicole asks about this. maintainer MVP - will be closed with change password PR.
 
-## Things to ask Donald to do: {#Things_to_ask_Donald_to_do:}
+## Things to ask Donald to do: 
 
 Sumana to find out his current PyPA work
 
-## Maintainer MVP milestone work remaining: {#Maintainer_MVP_milestone_work_remaining:}
+## Maintainer MVP milestone work remaining: 
 
-[https://github.com/pypa/warehouse/milestone/8](https://github.com/pypa/warehouse/milestone/8){.https}
+[https://github.com/pypa/warehouse/milestone/8](https://github.com/pypa/warehouse/milestone/8)
 
 Still on schedule for maintainer MVP milestone at end of Feb, and in fact, may well be substantially earlier
 
-[https://github.com/pypa/warehouse/projects/1](https://github.com/pypa/warehouse/projects/1){.https} is a helpful overview, teammates say
+[https://github.com/pypa/warehouse/projects/1](https://github.com/pypa/warehouse/projects/1) is a helpful overview, teammates say
 
 Dustin and Nicole report they believe their Maintainer MVP issues will be resolved by Monday Feb 19th, unless her UI testing reveals showstoppers
 
@@ -156,7 +161,6 @@ Infrastructure readiness: Barring unforeseen issues, we can promote maintainer M
 
 Cautious optimism about publicizing Maintainer MVP middle of next week
 
-## To do: {#To_do:}
+## To do: 
 
-- Sumana to email packaging wg about [https://github.com/pypa/warehouse/issues/2401](https://github.com/pypa/warehouse/issues/2401){.https} Indicate in UI/API if a name has been prohibited #2401
-:::
+- Sumana to email packaging wg about [https://github.com/pypa/warehouse/issues/2401](https://github.com/pypa/warehouse/issues/2401) Indicate in UI/API if a name has been prohibited #2401

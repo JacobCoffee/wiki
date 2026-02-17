@@ -1,7 +1,12 @@
 # CategoryPyConPlanning
 
-:::: {#content dir="ltr" lang="en"}
-# Pages Related to the Planning & Organization of PyCon {#Pages_Related_to_the_Planning_.26_Organization_of_PyCon}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Pages Related to the Planning & Organization of PyCon 
 
 ::: searchresults
 1.  [Attendee Notes](./Attendee(20)Notes.html?highlight=%28CategoryPyConPlanning%29)
@@ -49,4 +54,3 @@
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon)
-::::

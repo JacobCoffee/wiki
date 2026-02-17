@@ -1,19 +1,14 @@
 # ZoomQuiet
 
-::::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [Zoom.Quiet](#Zoom.Quiet)
-    1.  [pages](#pages)
-    2.  [abt.](#abt.)
-    3.  [contact](#contact)
-2.  [](#A)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-# Zoom.Quiet {#Zoom.Quiet}
+# Zoom.Quiet 
 
-![zoomquiet-50ren-080403.png](attachments/ZoomQuiet/zoomquiet-50ren-080403.png "zoomquiet-50ren-080403.png"){.attachment}
+![zoomquiet-50ren-080403.png](attachments/ZoomQuiet/zoomquiet-50ren-080403.png "zoomquiet-50ren-080403.png")
 
 ## pages
 
@@ -23,28 +18,27 @@ Contents
 
 ## abt.
 
-- ![CPUGloglo.png](attachments/ZoomQuiet/CPUGloglo.png "CPUGloglo.png"){.attachment} [CPyUG](http://wiki.woodpecker.org.cn/moin/CPUG){.http} creater
+- ![CPUGloglo.png](attachments/ZoomQuiet/CPUGloglo.png "CPUGloglo.png") [CPyUG](http://wiki.woodpecker.org.cn/moin/CPUG) creater
 
-- ![:BPUGlogo90.gif](attachments/ZoomQuiet/_BPUGlogo90.gif ":BPUGlogo90.gif"){.attachment} [BPyUG](http://wiki.woodpecker.org.cn/moin/BPUG){.http} admin
+- ![:BPUGlogo90.gif](attachments/ZoomQuiet/_BPUGlogo90.gif ":BPUGlogo90.gif") [BPyUG](http://wiki.woodpecker.org.cn/moin/BPUG) admin
 
-- ![SPUG.gif](attachments/ZoomQuiet/SPUG.gif "SPUG.gif"){.attachment} [SPyUG](http://wiki.woodpecker.org.cn/moin/SPUG){.http} Logo Designer
+- ![SPUG.gif](attachments/ZoomQuiet/SPUG.gif "SPUG.gif") [SPyUG](http://wiki.woodpecker.org.cn/moin/SPUG) Logo Designer
 
-- ![wp-www_banner.png](attachments/ZoomQuiet/wp-www_banner.png "wp-www_banner.png"){.attachment} [woodpecker.org.cn](http://www.woodpecker.org.cn/){.http} administrater
+- ![wp-www_banner.png](attachments/ZoomQuiet/wp-www_banner.png "wp-www_banner.png") [woodpecker.org.cn](http://www.woodpecker.org.cn/) administrater
 
 ## contact
 
 ::: {}
   ---- ----------------- ------------------------------------------------------------------------------------------------------------
-  \~   site              [http://zoomquiet.org](http://zoomquiet.org){.http}
-  0    **Gmail/GTalk**   ![Zoom.Quiet4gmail.png](attachments/ZoomQuiet/Zoom.Quiet4gmail.png "Zoom.Quiet4gmail.png"){.attachment}
-  1    Blogging          **[blog.zoomquiet.org](http://blog.zoomquiet.org/pyblosxom/){.http}** ^PyBlosxom^
-  2    **MSN**           ![ZoomQuiet4hotmail.png](attachments/ZoomQuiet/ZoomQuiet4hotmail.png "ZoomQuiet4hotmail.png"){.attachment}
+  \~   site              [http://zoomquiet.org](http://zoomquiet.org)
+  0    **Gmail/GTalk**   ![Zoom.Quiet4gmail.png](attachments/ZoomQuiet/Zoom.Quiet4gmail.png "Zoom.Quiet4gmail.png")
+  1    Blogging          **[blog.zoomquiet.org](http://blog.zoomquiet.org/pyblosxom/)** ^PyBlosxom^
+  2    **MSN**           ![ZoomQuiet4hotmail.png](attachments/ZoomQuiet/ZoomQuiet4hotmail.png "ZoomQuiet4hotmail.png")
   ---- ----------------- ------------------------------------------------------------------------------------------------------------
 :::
 
-#  {#A}
+#  
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::::

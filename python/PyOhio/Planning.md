@@ -1,13 +1,18 @@
 # PyOhio/Planning
 
-:::::::::: {#content dir="ltr" lang="en"}
-[Ideas for next year](./PyOhio(2f)Ideas.html){.reference .external}
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: {#current-tasks .section}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[Ideas for next year](./PyOhio(2f)Ideas.html)
+
+::: 
 ### Current tasks
 
-- [Food](./PyOhio(2f)Food.html){.reference .external}
-- [Program Guide](./PyOhio(2f)ProgramGuide.html){.reference .external}
+- [Food](./PyOhio(2f)Food.html)
+- [Program Guide](./PyOhio(2f)ProgramGuide.html)
 - Contact swag providers
 - A/V - availability; a volunteer
 - housing: Blackwell; offsite; volunteer
@@ -15,30 +20,30 @@
 - projectors
 - microphones?
 
-> - [Organizers](./PyOhio(2f)Organizers.html){.nonexistent .reference .external}
+> - [Organizers](./PyOhio(2f)Organizers.html)
 >
 > > 
 >
-> - [Venue](./PyOhio(2f)Venue.html){.reference .external}
+> - [Venue](./PyOhio(2f)Venue.html)
 >
 > > 
 >
-> - [Staff](./PyOhio(2f)Staff.html){.reference .external} (Volunteers)
+> - [Staff](./PyOhio(2f)Staff.html) (Volunteers)
 >
 > > 
 >
-> - [Supplies](./PyOhio(2f)Supplies.html){.reference .external}
+> - [Supplies](./PyOhio(2f)Supplies.html)
 >
 > > 
 >
-> - [Publicity](./PyOhio(2f)Publicity.html){.reference .external}
+> - [Publicity](./PyOhio(2f)Publicity.html)
 >
 > > 
 
-See notes from the [PyOhio planning huddle](./PyOhio(2f)PyOhioHuddle.html){.reference .external} at PyCon 2009
+See notes from the [PyOhio planning huddle](./PyOhio(2f)PyOhioHuddle.html) at PyCon 2009
 :::
 
-::: {#brochure .section}
+::: 
 ### Brochure
 
 Attendees should get a handout describing:
@@ -50,7 +55,7 @@ Attendees should get a handout describing:
 > - library map
 :::
 
-::: {#sponsors .section}
+::: 
 ### Sponsors
 
 Shouldn\'t be necessary, since we\'re trying to go without a budget. However, if any sponsors do appear, there are some things they could do for us:
@@ -63,19 +68,19 @@ Shouldn\'t be necessary, since we\'re trying to go without a budget. However, if
 
 So far, the following sponsors have (contacted us out of the blue and) volunteered to provide goodies:
 
-[Apress](http://apress.com/){.http .reference .external} will send books and swag
+[Apress](http://apress.com/) will send books and swag
 
-[Python Magazine](http://pythonmagazine.com/){.http .reference .external} will send magazines and run an online ad
+[Python Magazine](http://pythonmagazine.com/) will send magazines and run an online ad
 
-[WearPython](http://www.wearpython.com/){.http .reference .external} will send swag
+[WearPython](http://www.wearpython.com/) will send swag
 
 Thanks very much!
 :::
 
-::: {#publicizing .section}
+::: 
 ### Publicizing
 
-Everybody should help publicize PyOhio! Materials to do so are [here](http://wiki.python.org/moin/PyOhio/publicize){.http .reference .external}.
+Everybody should help publicize PyOhio! Materials to do so are [here](http://wiki.python.org/moin/PyOhio/publicize).
 
 > 
 
@@ -99,20 +104,20 @@ Announcements should go to:
 > - Event calendars: Mostly done
 > - This Week in Django podcast: done
 > - WCBE, WOSU event calendar
-> - [http://www.columbusalive.com](http://www.columbusalive.com){.http .reference .external}
+> - [http://www.columbusalive.com](http://www.columbusalive.com)
 :::
 
-::: {#announcement-text .section}
+::: 
 ### Announcement Text
 
 PyOhio, the first annual Python programming miniconference for Ohio and surrounding areas, will take place Saturday, July 26, in Columbus, OH.
 
 The conference is free of charge. It will include scheduled talks, Lightning Talks, and unconference-style Open Spaces.
 
-To get more information or to volunteer, see [http://pyohio.org](http://pyohio.org){.http .reference .external}.
+To get more information or to volunteer, see [http://pyohio.org](http://pyohio.org).
 :::
 
-::: {#evening-s .section}
+::: 
 ### Evening(s)
 
 > - offsite after-party
@@ -120,7 +125,7 @@ To get more information or to volunteer, see [http://pyohio.org](http://pyohio.o
 > - board game social
 :::
 
-::: {#remaining-tasks .section}
+::: 
 ### Remaining tasks
 
 > - Food ordering
@@ -129,6 +134,5 @@ To get more information or to volunteer, see [http://pyohio.org](http://pyohio.o
 > - Small posters for directions within library
 > - Get: plastic tack (for poster session)
 
-More planning resources at \[User Group Support [http://wiki.python.org/moin/Advocacy/UsergroupSupport](http://wiki.python.org/moin/Advocacy/UsergroupSupport){.http .reference .external}\]
+More planning resources at \[User Group Support [http://wiki.python.org/moin/Advocacy/UsergroupSupport](http://wiki.python.org/moin/Advocacy/UsergroupSupport)\]
 :::
-::::::::::

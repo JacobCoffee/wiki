@@ -1,21 +1,26 @@
 # TrustedEditorsGroup
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 - [FrankWierzbicki](FrankWierzbicki)
 
 - [AlanKennedy](AlanKennedy)
 
 - [AdamBurke](AdamBurke)
 
-- [JeffAllen](./JeffAllen.html){.nonexistent}
+- [JeffAllen](./JeffAllen.html)
 
-- [SkipMontanaro](./SkipMontanaro.html){.nonexistent}
+- [SkipMontanaro](./SkipMontanaro.html)
 
 - [AndrewKuchling](AndrewKuchling)
 
 - [MarcAndreLemburg](MarcAndreLemburg)
 
-- [SvenDehmlow](./SvenDehmlow.html){.nonexistent}
+- [SvenDehmlow](./SvenDehmlow.html)
 
 - [AnselmoPeretto](AnselmoPeretto)
 
@@ -25,7 +30,7 @@
 
 - [GregMoore](GregMoore)
 
-- [MarkusDemleitner](./MarkusDemleitner.html){.nonexistent}
+- [MarkusDemleitner](./MarkusDemleitner.html)
 
 - [DaveKuhlman](DaveKuhlman)
 
@@ -35,7 +40,6 @@
 
 - [JimHugunin](JimHugunin)
 
-- [IndraTalip](./IndraTalip.html){.nonexistent}
+- [IndraTalip](./IndraTalip.html)
 
-If you want to be added to the trusted members group, please write to [jython-users@lists.sourceforge.net](mailto:jython-users@lists.sourceforge.net){.mailto}
-:::
+If you want to be added to the trusted members group, please write to [jython-users@lists.sourceforge.net](mailto:jython-users@lists.sourceforge.net)

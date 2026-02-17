@@ -1,6 +1,11 @@
 # Why is Python slower than the xxx language
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 SEE:**[Ten things people want to know about Python](./Ten(20)things(20)people(20)want(20)to(20)know(20)about(20)Python.html)**for more details.
 
 Answer
@@ -12,4 +17,3 @@ First, the language implementations have speed, Python as a language is a set of
 - With Python there are several implementations - CPython (with or without Psyco, a specializing compiler for CPython), [IronPython](IronPython), Jython, [PyPy](PyPy) - plus several partial implementations that implement a subset of Python (Tinypy) or can even compile a subset of Python to C++ (Shedskin). If you say Python is slow, which specific implementation are you talking about?
 
   Having said that, as a dynamic language Python will typically perform slower for specific benchmarks than standard implementations of some other languages (although it is faster than plenty of others). As a dynamic language a lot of information about the program can only be determined at runtime. This means that a lot of common compiler tricks, that rely on knowing the type of objects at compile time, can\'t work. Despite this there are a lot of things that can be done to improve the performance of dynamic languages (beyond the performance of statically typed languages many believe), several of which have been done before in virtual machines like Strongtalk and are being explored for Python in the [PyPy](PyPy) JIT tracing compiler. Finally, using an execution profiler, such as the Python profile or cprofile module, provides the critical information for speeding up execution. Most programs spend the majority of execution time in calls to operating system libraries and execution trade-offs are less intuitive. For example, many small requests for data across a network are much slower than a single, larger request. In practice, Python code execution is fast enough.
-:::

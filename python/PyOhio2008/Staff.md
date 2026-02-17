@@ -1,6 +1,11 @@
 # PyOhio2008/Staff
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 PyOhio will be volunteer-run. Please sign yourself up for an open position, or define your own position! The more people help out, the better PyOhio will be.
 
   ---------------------------------------------------------------------------------
@@ -42,4 +47,3 @@ Several other positions have not been filled. Step up!
 
   (your suggestion here)                               
   -----------------------------------------------------------------------
-:::

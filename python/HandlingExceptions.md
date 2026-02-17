@@ -1,13 +1,18 @@
 # HandlingExceptions
 
-::::::::::::::::::::::: {#content dir="ltr" lang="en"}
-# Handling Exceptions {#Handling_Exceptions}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Handling Exceptions 
 
 The simplest way to handle exceptions is with a \"try-except\" block:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-1596d58e70594684e4effd17128db7685b65dbbc dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 (x,y) = (5,0)
    2 try:
    3   z = x/y
@@ -19,9 +24,9 @@ The simplest way to handle exceptions is with a \"try-except\" block:
 
 If you wanted to examine the exception from code, you could have:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-85844866e9160f20d2682196f943700902d404dc dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 (x,y) = (5,0)
    2 try:
    3   z = x/y
@@ -32,9 +37,9 @@ If you wanted to examine the exception from code, you could have:
 :::
 ::::
 
-## General Error Catching {#General_Error_Catching}
+## General Error Catching 
 
-Sometimes, you want to catch *all* errors that could possibly be generated, but usually *you don\'t*. In most cases, you want to be as specific as possible. In the first example above, if you were using a catch-all exception clause and a user presses Ctrl-C, generating a [KeyboardInterrupt](https://docs.python.org/library/exceptions.html#KeyboardInterrupt){.https}, you don\'t want the program to print \"divide by zero\".
+Sometimes, you want to catch *all* errors that could possibly be generated, but usually *you don\'t*. In most cases, you want to be as specific as possible. In the first example above, if you were using a catch-all exception clause and a user presses Ctrl-C, generating a [KeyboardInterrupt](https://docs.python.org/library/exceptions.html#KeyboardInterrupt), you don\'t want the program to print \"divide by zero\".
 
 However, there are some situations where it\'s best to catch *all* errors.
 
@@ -42,9 +47,9 @@ For example, suppose you are writing an extension module to a web service. You w
 
 In situations like these, you may want to code something like this:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d995048164cd5e5b13b65f9268810ab0a49d5efa dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 
    3 try:
@@ -56,13 +61,13 @@ In situations like these, you may want to code something like this:
 :::
 ::::
 
-[MoinMoin](https://moinmo.in){.https} software is a good example of where general error catching is good. If you write MoinMoin extension macros, and trigger an error, MoinMoin will give you a detailed report of your error and the chain of events leading up to it. Python software needs to be able to catch *all* errors, and deliver them to the recipient of the web page.
+[MoinMoin](https://moinmo.in) software is a good example of where general error catching is good. If you write MoinMoin extension macros, and trigger an error, MoinMoin will give you a detailed report of your error and the chain of events leading up to it. Python software needs to be able to catch *all* errors, and deliver them to the recipient of the web page.
 
 Another case is when you want to do something when code fails:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f1a514ab6a37ab13bea4a7cbc4957a5644193b30 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 try:
    2     do_some_stuff()
    3 except:
@@ -76,9 +81,9 @@ Another case is when you want to do something when code fails:
 
 By using `raise` with no arguments, you will re-raise the last exception. A common place to use this would be to roll back a transaction, or undo operations. If it\'s a matter of cleanup that should be run regardless of success or failure, then you would do:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2622bbfe706de86d844cc9bfecb20519a6e403d5 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 try:
    2     do_some_stuff()
    3 finally:
@@ -87,34 +92,34 @@ By using `raise` with no arguments, you will re-raise the last exception. A comm
 :::
 ::::
 
-## Finding Specific Exception Names {#Finding_Specific_Exception_Names}
+## Finding Specific Exception Names 
 
 Standard exceptions that can be raised are detailed at:
 
-- [https://docs.python.org/library/exceptions.html](https://docs.python.org/library/exceptions.html){.https}
+- [https://docs.python.org/library/exceptions.html](https://docs.python.org/library/exceptions.html)
 
 Look to class documentation to find out what exceptions a given class can raise.
 
-# See Also: {#See_Also:}
+# See Also: 
 
-On this wiki: [WritingExceptionClasses](WritingExceptionClasses), [TracebackModule](./TracebackModule.html){.nonexistent}.
+On this wiki: [WritingExceptionClasses](WritingExceptionClasses), [TracebackModule](./TracebackModule.html).
 
-For general (non-Python specific) ideas about exceptions, consult [ExceptionPatterns](http://c2.com/cgi/wiki?ExceptionPatterns "Wiki"){.interwiki}.
+For general (non-Python specific) ideas about exceptions, consult [ExceptionPatterns](http://c2.com/cgi/wiki?ExceptionPatterns "Wiki").
 
-# To Write About\... {#To_Write_About...}
+# To Write About\... 
 
 - Give example of IOError, and interpreting the IOError code.
 - Give example of multiple excepts. Handling multiple excepts in one line.
 
-# Questions {#Questions}
+# Questions 
 
-## General Error Handling {#General_Error_Handling}
+## General Error Handling 
 
 In the \"general error handling\" section above, it says to catch all exceptions, you use the following code:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d995048164cd5e5b13b65f9268810ab0a49d5efa-1 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 
    3 try:
@@ -128,9 +133,9 @@ In the \"general error handling\" section above, it says to catch all exceptions
 
 However, it originally was:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d07540d2d1695c4e1235ad5c9f5322dbabc8b6ec dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 try:
    2     untrusted.execute()
    3 except Exception as e:
@@ -145,15 +150,15 @@ Someone pointed out that \"except\" catches more than just `except Exception a
 
 For now (version \<= 2.4) exception doesn\'t have to be inherited from Exception. Thus plain \'except:\' catches all exceptions, not only system. String exceptions are one example of an exception that doesn\'t inherit from Exception. \-- [MikeRovner](MikeRovner)
 
-I believe that as of 2.7, exceptions still don\'t have to be inherited from Exception or even [BaseException](./BaseException.html){.nonexistent}. However, as of Python 3, exceptions *must* subclass `BaseException`. \-- [ElephantJim](./ElephantJim.html){.nonexistent}
+I believe that as of 2.7, exceptions still don\'t have to be inherited from Exception or even [BaseException](./BaseException.html). However, as of Python 3, exceptions *must* subclass `BaseException`. \-- [ElephantJim](./ElephantJim.html)
 
-## Getting Useful Information from an Exception {#Getting_Useful_Information_from_an_Exception}
+## Getting Useful Information from an Exception 
 
 So, I\'ve got something like:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-523f9cfe908e7cb7df97b7d55e5c80c44ac7227a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 (a, b, c) = d
 ```
 :::
@@ -161,9 +166,9 @@ So, I\'ve got something like:
 
 \...and Python spits back:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-388c723c458c696cbe56ac42bf387ed9e3274b4b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 ValueError: unpack list of wrong size
 ```
 :::
@@ -175,9 +180,9 @@ You know- you can put a `print d` in there, and that works. But is there a bett
 
 You can do something like:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ae8d90e69216cc02d4fa0bf4cf5e6a0dfe57dc1d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 try:
    2     a, b, c = d
    3 except Exception as e:
@@ -191,9 +196,9 @@ The `.args` attribute of exceptions is a tuple of all the arguments that were pa
 
 Note that not all exceptions subclass Exception (though almost all do), so this might not catch some exceptions; also, exceptions aren\'t required to have an `.args` attribute (though it will if the exception subclasses Exception and doesn\'t override `__init__` without calling its superclass), so the code as written might fail But in practice it almost never does (and if it does, you should fix the non-conformant exception!)
 
-## Isn\'t it better to prevent then to remediate? {#Isn.27t_it_better_to_prevent_then_to_remediate.3F}
+## Isn\'t it better to prevent then to remediate? 
 
-\> [https://www.joelonsoftware.com/items/2003/10/13.html](https://www.joelonsoftware.com/items/2003/10/13.html){.https}
+\> [https://www.joelonsoftware.com/items/2003/10/13.html](https://www.joelonsoftware.com/items/2003/10/13.html)
 
 Joel Spolsky might be a great C++ programmer, and his advice on user interface design is invaluable, but Python is not C++ or Java, and his arguments about exceptions do not hold in Python.
 
@@ -201,7 +206,7 @@ Joel argues:
 
 \"They are invisible in the source code. Looking at a block of code, including functions which may or may not throw exceptions, there is no way to see which exceptions might be thrown and from where. This means that even careful code inspection doesn\'t reveal potential bugs.\"
 
-(Note that this is also the argument behind Java\'s checked exceptions \-- now it is explicit that an exception can be thrown \-- except that [RuntimeException](./RuntimeException.html){.nonexistent} can still be thrown anywhere. -jJ)
+(Note that this is also the argument behind Java\'s checked exceptions \-- now it is explicit that an exception can be thrown \-- except that [RuntimeException](./RuntimeException.html) can still be thrown anywhere. -jJ)
 
 I don\'t quite get this argument. In a random piece of source code, there is no way to tell whether or not it will fail just by inspection. If you look at:
 
@@ -306,9 +311,8 @@ In the case of Python, calling a function that may raise an exception is no more
 
 In effect, exceptions allow the Python programmer to concentrate on his actual program, rather than be responsible for building error-handling infrastructure into every function. Python supplies that infrastructure for you, in the form of exceptions.
 
-(I\'m sorry, but if you had actually done much programming in C++, you\'d know that there\'s not much difference between the two languages when it comes to exceptions, at least unless you program C++ in the old-fashioned C-like way with new\'s and delete\'s sprinkled everywhere. You\'re basically dismissing Joel\'s argument. This whole section is a bit weak, maybe it would be better to just state \"don\'t overuse exceptions as that can lead to hard-to-verify spaghetti code\" and be done with it ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} \--olau)
+(I\'m sorry, but if you had actually done much programming in C++, you\'d know that there\'s not much difference between the two languages when it comes to exceptions, at least unless you program C++ in the old-fashioned C-like way with new\'s and delete\'s sprinkled everywhere. You\'re basically dismissing Joel\'s argument. This whole section is a bit weak, maybe it would be better to just state \"don\'t overuse exceptions as that can lead to hard-to-verify spaghetti code\" and be done with it ![:)](/wiki/europython/img/smile.png ":)") \--olau)
 
 ------------------------------------------------------------------------
 
 See also: Italian translation at [ManutenereLeEccezioni](ManutenereLeEccezioni).
-:::::::::::::::::::::::

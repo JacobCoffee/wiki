@@ -1,59 +1,42 @@
 # NewMembershipModel
 
-:::: {#content dir="ltr" lang="en"}
-# The New PSF Membership Model (v.1.1.1) {#The_New_PSF_Membership_Model_.28v.1.1.1.29}
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: table-of-contents
-Contents
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-1.  [The New PSF Membership Model (v.1.1.1)](#The_New_PSF_Membership_Model_.28v.1.1.1.29)
-    1.  [Organization](#Organization)
-        1.  [Basic Membership](#Basic_Membership)
-        2.  [Special Categories of Membership](#Special_Categories_of_Membership)
-            1.  [Organization of Special Categories](#Organization_of_Special_Categories)
-            2.  [Supporting Members (Funding)](#Supporting_Members_.28Funding.29)
-            3.  [Sponsor Members (Funding)](#Sponsor_Members_.28Funding.29)
-            4.  [Managing Members (Coordinating)](#Managing_Members_.28Coordinating.29)
-            5.  [Contributing Members (Creating)](#Contributing_Members_.28Creating.29)
-            6.  [Fellows](#Fellows)
-    2.  [Mechanics](#Mechanics)
-        1.  [Implementation schedule](#Implementation_schedule)
-        2.  [Voting privileges](#Voting_privileges)
-        3.  [Fellowship Nomination and Voting Procedure](#Fellowship_Nomination_and_Voting_Procedure)
-        4.  [Nominations to the Board](#Nominations_to_the_Board)
-        5.  [Working Groups](#Working_Groups)
-        6.  [Transition](#Transition)
-:::
+# The New PSF Membership Model (v.1.1.1) 
 
 Related information:
 
 - [Membership Model Visualization](MembershipModelVisualization)
 
-- [March 2013 ballot with the original text that the membership voted on](http://psf2013.election.name/evote/default/results/40){.http}
+- [March 2013 ballot with the original text that the membership voted on](http://psf2013.election.name/evote/default/results/40)
 
 - [PSF Bylaws WG](BylawsWG) - work group to convert the model description into bylaws changes
 
 Version history:
 
-- [1.1.1](https://wiki.python.org/psf/NewMembershipModel?action=recall&rev=7){.https} - version of this page that was approved by the PSF in the March 2013 members vote.
+- [1.1.1](https://wiki.python.org/psf/NewMembershipModel?action=recall&rev=7) - version of this page that was approved by the PSF in the March 2013 members vote.
 
-## Organization {#Organization}
+## Organization 
 
 The new membership model includes a open, self-initiated membership class that anyone can join. Within that broad membership, there would be four (possibly overlapping) special categories of Members that include additional privileges: Supporting Members, Sponsor Members, Managing Members, and Fellows. Members would be able to move in and out of the special categories as described below.
 
-### Basic Membership {#Basic_Membership}
+### Basic Membership 
 
 Under the new membership model, anyone who wants to become a Member of the Python Software Foundation will have the opportunity to join, simply by signing up on the new pydotorg website and agreeing to the CoC. The process would be similar to the process currently used for the Openstack Foundation. By signing up, anyone will have the opportunity to declare their part in the broader Python community and their support of the PSF.
 
 By making the regular membership a declaration of affiliation, we make the PSF the natural home of anyone that wants to declare their support for Python and be associated with the Python community. If someone wants to just be a Member, there are no other requirements and no other duties.
 
-### Special Categories of Membership {#Special_Categories_of_Membership}
+### Special Categories of Membership 
 
 We have seen that there are a number of people that want to do more for the community than just be affiliated with it. We want to give people a number of ways in which - should they want to - they can grow and contribute within the PSF. The special membership categories described below are designed to allow people to voluntarily take on responsibility\--and to be recognized for their additional support for and work within the community.
 
 The different categories of membership also include mechanisms for organizing the workvof the PSF so that we keep complexity down at the organization level.
 
-#### Organization of Special Categories {#Organization_of_Special_Categories}
+#### Organization of Special Categories 
 
 Speaking very broadly, there are three ways that we envision that people would support the Python community: Creating, Coordinating, and Funding. There are membership categories associated with each of these ways of supporting the community. These categories of membership are not exclusive; a person could be a member of all of them, none of them, or any subset. Also, as a person\'s contributions and time commitments change, a person could move in and out of these special categories.
 
@@ -61,19 +44,19 @@ There are two special membership categories for Funding: Supporting Members and 
 
 Certain individuals that have demonstrated exemplary commitment to the PSF and Python community may become Fellows of the Python Software Foundation following the Fellowship procedure described below.
 
-#### Supporting Members (Funding) {#Supporting_Members_.28Funding.29}
+#### Supporting Members (Funding) 
 
 A Supporting Member is an individual who supports the PSF by helping fund its operations. This is an expansion and slight reworking of the current Associate Membership. Those who wished to contribute to the PSF financially would have the opportunity to be Supporting Members. The Supporting Membership would be fashioned along the NPR model in the United States: Once or twice a year, the PSF would have a membership drive encouraging Members to move up to being Supporting Members (at a suggested cost of \$100/year). Those that became Supporting Members would receive an exclusive gift each year while they were supporting members, including at minimum 1) a custom Tee-shirt each year, and 2) some other Python-themed toy, gadget, or item. We would also work with our business members to see if there would be special discounts that could be made available to the Supporting Membership (discounts on books, etc). Supporting Members could opt out of receiving the T-shirts and gifts if they so chose.
 
 Only natural persons would be eligible to be Supporting Members. Supporting Membership would be active for a full year, starting on the date of the contribution. A person could also become a lifetime Supporting Member by paying a fee (suggested at \$2000). Supporting Members would be eligible for voting privileges as described below.
 
-#### Sponsor Members (Funding) {#Sponsor_Members_.28Funding.29}
+#### Sponsor Members (Funding) 
 
 A Sponsor Member is an organizational member of the PSF. A Sponsor Member could join at one of a number of different levels, with the price at different levels set by the Board (initially suggested at \$3K, \$6K, \$12K, and \$25K). Each level would provide a number of benefits - such as 1) a number of designated Sponsor Delegate members in the PSF, 2) preferential placement of jobs on the Python jobs board, and 3) discounts to PSF-sponsored and PSF-run events. Other benefits could be proposed by special working groups and ratified by vote.
 
 Only organizations would be eligible to be Sponsor Members. Sponsor Membership would be active for a full year. The designated Sponsor Delegates would be eligible for voting rights as described below.
 
-#### Managing Members (Coordinating) {#Managing_Members_.28Coordinating.29}
+#### Managing Members (Coordinating) 
 
 A Managing Member is an individual who supports the PSF by spending time coordinating, teaching, and serving others. This could be time spent helping run conferences, running a user group, managing infrastructure, or performing some other work on behalf of the PSF. To become a Managing Member, a Member of the PSF would need to declare their intention to be a Managing Member and sign up for one or more working groups within the PSF. A working group would focus on some specific aspect of the PSF\'s infrastructure or community. Managing Members would be expected to put in 5-10 hours a month working in their working group to maintain their Managing Member status.
 
@@ -85,7 +68,7 @@ Managing Members would receive some sort of recognition each year and would be e
 
 More information about the working groups is located below.
 
-#### Contributing Members (Creating) {#Contributing_Members_.28Creating.29}
+#### Contributing Members (Creating) 
 
 Contributing Members are those who support the Python community with contributions of code, tests, documentation, design, or other results of creative effort. There are many people out there that contribute code, or docs, or tests. In order to become a Contributing Member, a person would need to announce what open source project(s) they were working on and commit to spend 5-10 hours a month working on them.
 
@@ -95,7 +78,7 @@ The requirement that Contributing Members be working on open source projects com
 
 Contributing Members are eligible to vote and are eligible to become Fellows.
 
-#### Fellows {#Fellows}
+#### Fellows 
 
 A Fellow is the highest level of PSF membership and confers privileges for life. It should be granted on those who have consistently served the PSF and Python Community over a substantial period of time and have made notable contributions.
 
@@ -117,19 +100,19 @@ Although the Fellowship is designed to be a rare award, it is expected that core
 
 Fellows would be eligible for voting privileges. Fellows would be selected following the nomination and voting procedure described below, with existing Fellows participating in the vote. If there is a concern about regional or community representation in the Fellowship, the eligibility of voting for Fellows may be selectively extended to longtime Managing Members as recommended by a specially chartered working group.
 
-## Mechanics {#Mechanics}
+## Mechanics 
 
 There are a number of structures and practices that would need to be put in place to realize the new membership model.
 
-### Implementation schedule {#Implementation_schedule}
+### Implementation schedule 
 
 The current ballot (March 2013) would include the following statement for approval/disapproval by the membership:
 
-\"\"\" The new Board of Directors is directed to implement the necessary bylaw changes to change the membership model as described in the new membership model, version 1.1.1, as documented on the private PSF Wiki at [http://wiki.python.org/psf/NewMembershipModel](http://wiki.python.org/psf/NewMembershipModel){.http}. \"\"\"
+\"\"\" The new Board of Directors is directed to implement the necessary bylaw changes to change the membership model as described in the new membership model, version 1.1.1, as documented on the private PSF Wiki at [http://wiki.python.org/psf/NewMembershipModel](http://wiki.python.org/psf/NewMembershipModel). \"\"\"
 
 The target for completion of all necessary changes would be three months, so that the new open membership would be available and open for new members starting at Europython (July 1-7, 2013).
 
-### Voting privileges {#Voting_privileges}
+### Voting privileges 
 
 The most important new practice under the new membership model would have to do with voting privileges - who could vote and what they would vote for.
 
@@ -159,7 +142,7 @@ The one exception is that the eligibility for voting as a Sponsor Delegate is se
 
 Sponsor Delegates that fail to declare their intention to vote or who fail to vote would not have voting privileges until the next eligibility period, just like individual members.
 
-### Fellowship Nomination and Voting Procedure {#Fellowship_Nomination_and_Voting_Procedure}
+### Fellowship Nomination and Voting Procedure 
 
 The PSF Fellowship would work according to a set procedure to make the process as free from politicking and bias as possible.
 
@@ -169,13 +152,13 @@ The web form would ask for the name of the nominated person, would include a bri
 
 The vote would be by secret ballot. To pass, the vote would require a supermajority (at least 2/3, adjustable to 3/4 by the Board) of those participating in the vote to agree with the applicable criterion.
 
-### Nominations to the Board {#Nominations_to_the_Board}
+### Nominations to the Board 
 
 A Board Member could be self-nominated or nominated by another person. The only requirement for nomination would be that the person was at least a Member of the foundation. Any person serving as a Board Member would automatically meet the qualifications to be a Managing Member of the PSF.
 
-### Working Groups {#Working_Groups}
+### Working Groups 
 
-In order to be a Managing Member, a person would need to participate in one or more working groups as described above. Initially, the working groups would correspond to existing functions and committees already identified by the PSF - the Board, the Infrastructure Committee, [PyCon](./PyCon.html){.nonexistent}-Organizers, etc. Additional new working groups could be proposed by any Member. The scope of each working group would be defined by a charter, which would include 1) the purpose of the group; 2) the length of time the group would be active; 3) the end goal or product of the group; 4) the methods of communication that the group would use; and 5) any sort of internal governance statement.
+In order to be a Managing Member, a person would need to participate in one or more working groups as described above. Initially, the working groups would correspond to existing functions and committees already identified by the PSF - the Board, the Infrastructure Committee, [PyCon](./PyCon.html)-Organizers, etc. Additional new working groups could be proposed by any Member. The scope of each working group would be defined by a charter, which would include 1) the purpose of the group; 2) the length of time the group would be active; 3) the end goal or product of the group; 4) the methods of communication that the group would use; and 5) any sort of internal governance statement.
 
 The procedure for creating a working group would be as follows:
 
@@ -185,9 +168,9 @@ The procedure for creating a working group would be as follows:
 
 Each year, the working groups would be evaluated by the voting-eligible Members (with possible assistance from the Board). The working groups would either be recertified or would be dissolved for lack of interest, Members, etc.
 
-PSF Members that were contributing to other user groups ([AfPy](./AfPy.html){.nonexistent}, [BayPiggies](./BayPiggies.html){.nonexistent}) could have their efforts with their existing local groups certified as a working group. One special working group would be the technical advisory committee, which would provide guidance for the PSF on any technical matters.
+PSF Members that were contributing to other user groups ([AfPy](./AfPy.html), [BayPiggies](./BayPiggies.html)) could have their efforts with their existing local groups certified as a working group. One special working group would be the technical advisory committee, which would provide guidance for the PSF on any technical matters.
 
-### Transition {#Transition}
+### Transition 
 
 Every current Nominated Member of the PSF would have the opportunity to be recognized as a Fellow without following the balloting procedure. Individual Members would have the opportunity to decline if they didn\'t feel it was appropriate based on the criteria for Fellow described above. Current Associate Members would automatically become Supporting Members under the new membership model.
 
@@ -254,4 +237,3 @@ Note: The original text has been moved to [MembershipModelVisualization](Members
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-::::

@@ -1,11 +1,16 @@
 # PythonDotNetProposal
 
-:::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Let\'s use this page to construct a concrete proposal to submit to the PSF Board. The Board is meeting on Monday, April 10, 2006, at 17:00 UTC.
 
 IRC discussions: irc.freenode.net #starship
 
-Proposal champion: [David Goodger](mailto:goodger@python.org){.mailto .reference .external}.
+Proposal champion: [David Goodger](mailto:goodger@python.org).
 
 As David Ascher wrote,
 
@@ -15,7 +20,7 @@ And Martin von Löwis wrote,
 
 > Somebody needs to take charge. The PSF board can provide funding that is necessary (assuming it can agree to the requested budget); it can also select between a number of presented alternatives if nobody else feels like deciding. However, the PSF *cannot* /run/ the starship.
 
-::: {#uses-of-starship-python-net .section}
+::: 
 ### Uses of Starship.python.net
 
 - Starship is or has been used to distrubute several important Python packages, including Mark Hammond\'s Win32 extensions, and as a staging area where preview builds of wxPython are made available for testing.
@@ -26,13 +31,13 @@ And Martin von Löwis wrote,
 - Various community mailing lists.
 :::
 
-::: {#the-present .section}
+::: 
 ### The Present
 
 Starship.python.net is a machine hosted by Stefan Drees in a datacenter in Germany. It\'s costing him 149 EUR per month. Over the last three months the used bandwidth was between 50 GB/month and 70 GB/month. So expecting 2,5 GB/day is not to far from reality. (caveat: future usage depends on future users)
 :::
 
-::: {#future-scenarios .section}
+::: 
 ### Future Scenarios
 
 1.  Keep the current server in the current datacenter.
@@ -73,7 +78,7 @@ Starship.python.net is a machine hosted by Stefan Drees in a datacenter in Germa
 
 4.  Host elsewhere.
 
-    - [http://python-hosting.com](http://python-hosting.com){.http .reference .external}
+    - [http://python-hosting.com](http://python-hosting.com)
       +------------+-----------------------------------------------------------------------------------------------------------------+
       | Questions: | - Are they willing to host the starship?                                                                        |
       |            | - At what cost?                                                                                                 |
@@ -86,7 +91,7 @@ Starship.python.net is a machine hosted by Stefan Drees in a datacenter in Germa
     - Alternatives?
 :::
 
-::: {#future-membership .section}
+::: 
 ### Future Membership
 
 - Free or fee?
@@ -94,15 +99,14 @@ Starship.python.net is a machine hosted by Stefan Drees in a datacenter in Germa
 - Open to others? Under what criteria?
 :::
 
-::: {#python-net-administrators .section}
+::: 
 ### Python.net Administrators
 
-- [Stefan Drees](mailto:stefan@drees.name){.mailto .reference .external}
+- [Stefan Drees](mailto:stefan@drees.name)
 - Greg Ward greg-starship at gerg dot ca
-- [Jim Tittsler](mailto:jwt@python.net){.mailto .reference .external}
+- [Jim Tittsler](mailto:jwt@python.net)
 - Tom Bryan tbryan at python dot net
-- [Michael Hudson](MichaelHudson){.reference .external}
+- [Michael Hudson](MichaelHudson)
 
 Are all willing to administer the future ship like they have administered the current.
 :::
-::::::::

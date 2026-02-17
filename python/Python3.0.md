@@ -1,26 +1,31 @@
 # Python3.0
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page lists features that *Guido van Rossum himself* has mentioned as goals for Python 3.0. Parts of this page have been consolidated into PEP 3000 [\[5](./Python3(2e)0.html#e)\]
 
-## Status {#Status}
+## Status 
 
 Python 3.0 is currently (2008-07-12) in beta testing, and has much accumulated documentation. More official sources of information include:
 
-- The development version of the Python 3.0 documentation: [http://docs.python.org/dev/3.0/](http://docs.python.org/dev/3.0/){.http}
+- The development version of the Python 3.0 documentation: [http://docs.python.org/dev/3.0/](http://docs.python.org/dev/3.0/)
 
 - PEPs covering changes for Python 3.0:
-  - PEP 3000, \"Python 3000\": [http://www.python.org/dev/peps/pep-3000/](http://www.python.org/dev/peps/pep-3000/){.http}
+  - PEP 3000, \"Python 3000\": [http://www.python.org/dev/peps/pep-3000/](http://www.python.org/dev/peps/pep-3000/)
 
-  - PEP 3100, \"Miscellaneous Python 3.0 Plans\": [http://www.python.org/dev/peps/pep-3100/](http://www.python.org/dev/peps/pep-3100/){.http}
+  - PEP 3100, \"Miscellaneous Python 3.0 Plans\": [http://www.python.org/dev/peps/pep-3100/](http://www.python.org/dev/peps/pep-3100/)
 
-  - PEP 3099, \"Things that will Not Change in Python 3000\": [http://www.python.org/dev/peps/pep-3099/](http://www.python.org/dev/peps/pep-3099/){.http}
+  - PEP 3099, \"Things that will Not Change in Python 3000\": [http://www.python.org/dev/peps/pep-3099/](http://www.python.org/dev/peps/pep-3099/)
 
-  - PEP 3108, \"Standard Library Reorganization\": [http://www.python.org/dev/peps/pep-3108/](http://www.python.org/dev/peps/pep-3108/){.http}
+  - PEP 3108, \"Standard Library Reorganization\": [http://www.python.org/dev/peps/pep-3108/](http://www.python.org/dev/peps/pep-3108/)
 
 Unfortunately there does not appear to be a well-maintained single point of entry for someone to find all relevant changes that will occur in Python 3.0.
 
-## Core Language Changes {#Core_Language_Changes}
+## Core Language Changes 
 
 - Remove distinction between `int`{.backtick} and `long`{.backtick} types. [\[4](./Python3(2e)0.html#d)\]
 
@@ -74,9 +79,9 @@ Unfortunately there does not appear to be a well-maintained single point of entr
 
 - Add a mechanism so that multiple exceptions can be caught using `except E1, E2, E3:`{.backtick}. For instance:
 
-  :::: {.highlight .python}
-  ::: {.codearea dir="ltr" lang="en"}
-  ``` {#CA-ea74e36ece2a77d3304f15628afaa12fe7933e6e dir="ltr" lang="en"}
+  :::: 
+  ::: 
+  ``` 
      1 except E1, E2, E3 as err:  # Store error variable
      2    ...
   ```
@@ -87,9 +92,9 @@ Unfortunately there does not appear to be a well-maintained single point of entr
 
   - *JimD\'s suggested syntax:*
 
-    :::: {.highlight .python}
-    ::: {.codearea dir="ltr" lang="en"}
-    ``` {#CA-be030f1d9034a0ee71e60b62d93bd88652c6a935 dir="ltr" lang="en"}
+    :::: 
+    ::: 
+    ``` 
        1 except (E1, E2, E3), e:
        2    ...
        3 
@@ -104,9 +109,9 @@ Unfortunately there does not appear to be a well-maintained single point of entr
 - Perhaps have optional declarations for static typing.
   - GvR suggested the syntax [\[17](./Python3(2e)0.html#q)\]: (but NOT for static typing - for declaring type information that would be checked at runtime, not compile time)
 
-    :::: {.highlight .python}
-    ::: {.codearea dir="ltr" lang="en"}
-    ``` {#CA-50357e7e7b0146e577d1f391ab0153594af65834 dir="ltr" lang="en"}
+    :::: 
+    ::: 
+    ``` 
        1 def bar(low: int, high: int) -> float:
        2     ...
     ```
@@ -115,9 +120,9 @@ Unfortunately there does not appear to be a well-maintained single point of entr
 
   - Since some types only implement parts of an interface have \'strict\' and \'lax\' interfaces. Strict requires a complete implementation of the interface, lax requiring only a partial implementation with the rest being taken from interface defaults or ignored. This would require a new keyword/reserved word (strict) with lax mode being the default. This is to help duck typing. Ex:
 
-    :::: {.highlight .python}
-    ::: {.codearea dir="ltr" lang="en"}
-    ``` {#CA-a8662c28172e70431a5dcc915f9eb2e3e723ccad dir="ltr" lang="en"}
+    :::: 
+    ::: 
+    ``` 
        1 def baz(x as list, y as strict file):
        2     # x must only (be adapted to) implement part of the list interface
        3     # y must (be adapted to) implement the whole file interface
@@ -127,9 +132,9 @@ Unfortunately there does not appear to be a well-maintained single point of entr
 
   - Another proposal: Use -\> and =\> as type conversion operators (lax and strict, respectively).
 
-    :::: {.highlight .python}
-    ::: {.codearea dir="ltr" lang="en"}
-    ``` {#CA-23021a80e4c79fe30647757b0d171d2f448dd352 dir="ltr" lang="en"}
+    :::: 
+    ::: 
+    ``` 
        1 def qux(x -> list, y => file):
        2     # x must only (be adapted to) implement part of the list interface
        3     # y must (be adapted to) implement the whole file interface
@@ -137,7 +142,7 @@ Unfortunately there does not appear to be a well-maintained single point of entr
     :::
     ::::
 
-## Built-In Changes {#Built-In_Changes}
+## Built-In Changes 
 
 - Have `range()`{.backtick}, `zip()`{.backtick}, `dict.keys()`{.backtick}, `dict.items()`{.backtick}, and `dict.values()`{.backtick} return iterators.
 
@@ -191,7 +196,7 @@ Unfortunately there does not appear to be a well-maintained single point of entr
 
   - Instead: use `basestring.index()`{.backtick} and `basestring.rindex()`{.backtick} in a `try/except`{.backtick} block.
 
-## Standard Library Changes {#Standard_Library_Changes}
+## Standard Library Changes 
 
 - Remove `types`{.backtick} module.
 
@@ -208,7 +213,7 @@ Unfortunately there does not appear to be a well-maintained single point of entr
 - Reorganize standard library to have more package structure.
   - Reason: there are too many modules to keep a flat hierarchy.
 
-## Open Issues {#Open_Issues}
+## Open Issues 
 
 - `L += x`{.backtick} and `L.extend(x)`{.backtick} are equivalent. *No, they are not. The former creates a new list without modifying the original list (which other people might have references to). The latter modifies the original list.*
 
@@ -240,9 +245,9 @@ Unfortunately there does not appear to be a well-maintained single point of entr
 
 - Should a `with`{.backtick} (or `using`{.backtick}) statement be added? [\[10](./Python3(2e)0.html#j)\] [\[19](./Python3(2e)0.html#s)\]
 
-  :::: {.highlight .python}
-  ::: {.codearea dir="ltr" lang="en"}
-  ``` {#CA-e0351d3195237d0e07c0756137310c194e3c4ef5 dir="ltr" lang="en"}
+  :::: 
+  ::: 
+  ``` 
      1 with self:
      2     .foo = [1, 2, 3]
      3     .bar(4, .foo)
@@ -250,59 +255,58 @@ Unfortunately there does not appear to be a well-maintained single point of entr
   :::
   ::::
 
-## References {#References}
+## References 
 
-- \[1\] Python Regrets: [http://www.python.org/doc/essays/ppt/regrets/PythonRegrets.pdf](http://www.python.org/doc/essays/ppt/regrets/PythonRegrets.pdf){.http}
+- \[1\] Python Regrets: [http://www.python.org/doc/essays/ppt/regrets/PythonRegrets.pdf](http://www.python.org/doc/essays/ppt/regrets/PythonRegrets.pdf)
 
-- \[2\] PEP 296 \-- Adding a bytes Object Type: [http://python.org/peps/pep-0296.html](http://python.org/peps/pep-0296.html){.http}
+- \[2\] PEP 296 \-- Adding a bytes Object Type: [http://python.org/peps/pep-0296.html](http://python.org/peps/pep-0296.html)
 
   - PEP 296 is withdrawn by the author in favor of PEP 358.
 
-- \[3\] PEP 4 \-- Deprecation of Standard Modules: [http://python.org/peps/pep-0004.html](http://python.org/peps/pep-0004.html){.http}
+- \[3\] PEP 4 \-- Deprecation of Standard Modules: [http://python.org/peps/pep-0004.html](http://python.org/peps/pep-0004.html)
 
-- \[4\] [PyCon](PyCon) 2003 State of the Union Address: [http://www.python.org/doc/essays/ppt/pycon2003/pycon2003.ppt](http://www.python.org/doc/essays/ppt/pycon2003/pycon2003.ppt){.http}
+- \[4\] [PyCon](PyCon) 2003 State of the Union Address: [http://www.python.org/doc/essays/ppt/pycon2003/pycon2003.ppt](http://www.python.org/doc/essays/ppt/pycon2003/pycon2003.ppt)
 
-- \[5\] PEP 3000 \-- Python 3.0 Plans: [http://python.org/peps/pep-3000.html](http://python.org/peps/pep-3000.html){.http}
+- \[5\] PEP 3000 \-- Python 3.0 Plans: [http://python.org/peps/pep-3000.html](http://python.org/peps/pep-3000.html)
 
-- \[6\] Python-Dev \-- Constancy of None: [http://mail.python.org/pipermail/python-dev/2004-July/046294.html](http://mail.python.org/pipermail/python-dev/2004-July/046294.html){.http}
+- \[6\] Python-Dev \-- Constancy of None: [http://mail.python.org/pipermail/python-dev/2004-July/046294.html](http://mail.python.org/pipermail/python-dev/2004-July/046294.html)
 
-- \[7\] Python-Dev \-- \"as\" to be a keyword?: [http://mail.python.org/pipermail/python-dev/2004-July/046316.html](http://mail.python.org/pipermail/python-dev/2004-July/046316.html){.http}
+- \[7\] Python-Dev \-- \"as\" to be a keyword?: [http://mail.python.org/pipermail/python-dev/2004-July/046316.html](http://mail.python.org/pipermail/python-dev/2004-July/046316.html)
 
 - \[8\] Python-Dev \-- lists vs. tuples:
 
-  - [http://mail.python.org/pipermail/python-dev/2003-March/034073.html](http://mail.python.org/pipermail/python-dev/2003-March/034073.html){.http}
+  - [http://mail.python.org/pipermail/python-dev/2003-March/034073.html](http://mail.python.org/pipermail/python-dev/2003-March/034073.html)
 
-  - [http://mail.python.org/pipermail/python-dev/2003-March/034074.html](http://mail.python.org/pipermail/python-dev/2003-March/034074.html){.http}
+  - [http://mail.python.org/pipermail/python-dev/2003-March/034074.html](http://mail.python.org/pipermail/python-dev/2003-March/034074.html)
 
-- \[9\] Python-Dev \-- Exceptional inheritance patterns: [http://mail.python.org/pipermail/python-dev/2004-August/047114.html](http://mail.python.org/pipermail/python-dev/2004-August/047114.html){.http}
+- \[9\] Python-Dev \-- Exceptional inheritance patterns: [http://mail.python.org/pipermail/python-dev/2004-August/047114.html](http://mail.python.org/pipermail/python-dev/2004-August/047114.html)
 
-- \[10\] Python-Dev \-- With statement: [http://mail.python.org/pipermail/python-dev/2004-March/043545.html](http://mail.python.org/pipermail/python-dev/2004-March/043545.html){.http}
+- \[10\] Python-Dev \-- With statement: [http://mail.python.org/pipermail/python-dev/2004-March/043545.html](http://mail.python.org/pipermail/python-dev/2004-March/043545.html)
 
-- \[11\] PEP 8 \-- Style Guide for Python Code: [http://python.org/peps/pep-0008.html](http://python.org/peps/pep-0008.html){.http}
+- \[11\] PEP 8 \-- Style Guide for Python Code: [http://python.org/peps/pep-0008.html](http://python.org/peps/pep-0008.html)
 
 - \[12\] [PythonThreeDotOh](PythonThreeDotOh)
 
-- \[13\] PEP 332 \-- Byte vectors and String/Unicode Unification: [http://python.org/peps/pep-0332.html](http://python.org/peps/pep-0332.html){.http}
+- \[13\] PEP 332 \-- Byte vectors and String/Unicode Unification: [http://python.org/peps/pep-0332.html](http://python.org/peps/pep-0332.html)
 
-- \[14\] PEP 292 \-- Simpler String Substitutions: [http://python.org/peps/pep-0292.html](http://python.org/peps/pep-0292.html){.http}
+- \[14\] PEP 292 \-- Simpler String Substitutions: [http://python.org/peps/pep-0292.html](http://python.org/peps/pep-0292.html)
 
-- \[16\] PEP 246 \-- Object Adaption: [http://www.python.org/peps/pep-0246.html](http://www.python.org/peps/pep-0246.html){.http}
+- \[16\] PEP 246 \-- Object Adaption: [http://www.python.org/peps/pep-0246.html](http://www.python.org/peps/pep-0246.html)
 
-- \[17\] Python-Dev \-- Decorators: vertical bar syntax: [http://mail.python.org/pipermail/python-dev/2004-August/047424.html](http://mail.python.org/pipermail/python-dev/2004-August/047424.html){.http}
+- \[17\] Python-Dev \-- Decorators: vertical bar syntax: [http://mail.python.org/pipermail/python-dev/2004-August/047424.html](http://mail.python.org/pipermail/python-dev/2004-August/047424.html)
 
-- \[18\] Python-Dev \-- anonymous blocks: [http://mail.python.org/pipermail/python-dev/2005-April/053060.html](http://mail.python.org/pipermail/python-dev/2005-April/053060.html){.http}
+- \[18\] Python-Dev \-- anonymous blocks: [http://mail.python.org/pipermail/python-dev/2005-April/053060.html](http://mail.python.org/pipermail/python-dev/2005-April/053060.html)
 
-- \[19\] PEP 340 \-- loose ends: [http://mail.python.org/pipermail/python-dev/2005-May/053252.html](http://mail.python.org/pipermail/python-dev/2005-May/053252.html){.http}
+- \[19\] PEP 340 \-- loose ends: [http://mail.python.org/pipermail/python-dev/2005-May/053252.html](http://mail.python.org/pipermail/python-dev/2005-May/053252.html)
 
-- \[20\] Python-Dev \-- PEP 8: exception style: [http://mail.python.org/pipermail/python-dev/2005-August/055190.html](http://mail.python.org/pipermail/python-dev/2005-August/055190.html){.http}
+- \[20\] Python-Dev \-- PEP 8: exception style: [http://mail.python.org/pipermail/python-dev/2005-August/055190.html](http://mail.python.org/pipermail/python-dev/2005-August/055190.html)
 
-- \[21\] Python-Dev \-- Replacement for print in Python 3.0: [http://mail.python.org/pipermail/python-dev/2005-September/056154.html](http://mail.python.org/pipermail/python-dev/2005-September/056154.html){.http}
+- \[21\] Python-Dev \-- Replacement for print in Python 3.0: [http://mail.python.org/pipermail/python-dev/2005-September/056154.html](http://mail.python.org/pipermail/python-dev/2005-September/056154.html)
 
-- \[22\] Python-Dev \-- anonymous blocks: [http://mail.python.org/pipermail/python-dev/2005-April/053060.html](http://mail.python.org/pipermail/python-dev/2005-April/053060.html){.http}
+- \[22\] Python-Dev \-- anonymous blocks: [http://mail.python.org/pipermail/python-dev/2005-April/053060.html](http://mail.python.org/pipermail/python-dev/2005-April/053060.html)
 
-- \[23\] Python-Dev \-- Remove str.find in 3.0?: [http://mail.python.org/pipermail/python-dev/2005-August/055705.html](http://mail.python.org/pipermail/python-dev/2005-August/055705.html){.http}
+- \[23\] Python-Dev \-- Remove str.find in 3.0?: [http://mail.python.org/pipermail/python-dev/2005-August/055705.html](http://mail.python.org/pipermail/python-dev/2005-August/055705.html)
 
-- \[24\] Python-Dev \-- Comparing heterogeneous types: [http://mail.python.org/pipermail/python-dev/2004-June/045111.html](http://mail.python.org/pipermail/python-dev/2004-June/045111.html){.http}
+- \[24\] Python-Dev \-- Comparing heterogeneous types: [http://mail.python.org/pipermail/python-dev/2004-June/045111.html](http://mail.python.org/pipermail/python-dev/2004-June/045111.html)
 
-- \[25\] Python-Dev \-- Fixing \_[PyEval](./PyEval.html){.nonexistent}\_[SliceIndex](./SliceIndex.html){.nonexistent} so that integer-like objects can be used: [http://mail.python.org/pipermail/python-dev/2005-February/051674.html](http://mail.python.org/pipermail/python-dev/2005-February/051674.html){.http}
-:::
+- \[25\] Python-Dev \-- Fixing \_[PyEval](./PyEval.html)\_[SliceIndex](./SliceIndex.html) so that integer-like objects can be used: [http://mail.python.org/pipermail/python-dev/2005-February/051674.html](http://mail.python.org/pipermail/python-dev/2005-February/051674.html)

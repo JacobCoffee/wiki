@@ -1,6 +1,11 @@
 # NeedForSpeed/FollowUp
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 These things still need attention:
 
 - The hotbuf branch will be completed after the sprint. I want to implement common parsing patterns (line delimited, netstrings) in C ([MartinBlais](MartinBlais)).
@@ -25,9 +30,9 @@ These things still need attention:
 
 - Many tests are showing refcount leaks as of Saturday; Tim suspects the new exception code. **DONE**
 
-## Lessons Learned {#Lessons_Learned}
+## Lessons Learned 
 
-### Visual Studio / Code Coverage Tools {#Visual_Studio_.2F_Code_Coverage_Tools}
+### Visual Studio / Code Coverage Tools 
 
 If anyone uses Windows and is planning to use C code coverage tools to possibly look at improving the test suite, or perhaps for profiling, they might want to obtain them well in advance of a sprint.
 
@@ -35,21 +40,20 @@ I was unable to locate any free tools which worked with Visual Studio, and any c
 
 Here are the code coverage capable tools which I tried to obtain and use, and short notes about them:
 
-- [Visual Studio Team System](http://msdn.microsoft.com/vstudio/teamsystem/default.aspx){.http}
+- [Visual Studio Team System](http://msdn.microsoft.com/vstudio/teamsystem/default.aspx)
 
   - This cannot be downloaded, but a 180 day trial can be obtained on request mailed out on DVD. CCP had a license for it already, but strangely only had beta 2 versions which had expired and was not able to locate a final version in time despite being entitled to one.
 
-- [DevPartner Studio](http://www.compuware.com/products/devpartner/studio.htm){.http}
+- [DevPartner Studio](http://www.compuware.com/products/devpartner/studio.htm)
 
   - This requires an application for a trial version and an indefinite delay before the marketing department get back to you, by phone I believe! It is possible to locate binaries on file sharing services, which can be installed in a trial mode, but they were unusable in our experience. An older version, 7.00, required VS .NET at the latest, and I was unable to get it to work at a command line level with later versions. The more recent version 8.00, worked with VS 2005, but when a build was made with profiling instrumentation, their compiler crashed repeatedly. Version 8.00 also does not support x64 based versions of Windows.
 
-- [Rational Purify](http://www-306.ibm.com/software/awdtools/purifyplus){.http}
+- [Rational Purify](http://www-306.ibm.com/software/awdtools/purifyplus)
 
   - This appears to be the one commercial tool which offers a downloadable trial version and does not require indefinite marketing department hoops to be jumped. However, I was completely unable to create an account on IBM\'s web site, due to vague complaints about unsuitable user names and passwords. I suspect that this is a problem which others can get around, because of better guesses at suitable entries for these fields.
 
 Here is another possibility, which I did not know about at the sprint:
 
-- [Bullseye Coverage](http://www.bullseye.com){.http}
+- [Bullseye Coverage](http://www.bullseye.com)
 
   - Does not have a downloadable trial, but I believe one can be obtained after the marketing department receive your submitted application.
-:::

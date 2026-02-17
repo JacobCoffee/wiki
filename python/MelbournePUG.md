@@ -1,19 +1,24 @@
 # MelbournePUG
 
-::: {#content dir="ltr" lang="en"}
-# The Melbourne Python Users Group {#The_Melbourne_Python_Users_Group}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# The Melbourne Python Users Group 
 
 The Melbourne Python Users Group normally meets on every first Monday of the month (except January).
 
 The Melbourne Python Users Group meetings are organised by the community itself. The ongoing organiser is Ed Schofield. Other organisers past have included Juan Nunez-Iglesias, Javier Candeira, Graeme Cross, Tennessee Leeuwenburg, and Richard Jones.
 
-If you would like to give a talk at an upcoming event, please email [ed@pythoncharmers.com](mailto:ed@pythoncharmers.com){.mailto} or the mailing list!
+If you would like to give a talk at an upcoming event, please email [ed@pythoncharmers.com](mailto:ed@pythoncharmers.com) or the mailing list!
 
-## Next Meeting {#Next_Meeting}
+## Next Meeting 
 
 **Monday 2020-03-02, 5:45pm for 6:00pm**. Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:}
+### Talks: 
 
 **1. Duy Trinh: Visualization of weather and cancer data sets**
 
@@ -33,13 +38,13 @@ Linear regression is the simplest and most foundational machine learning techniq
 
 **Afterwards:** pizza
 
-**Sponsorship:** many thanks to [Outcome Life](https://outcome.life){.https} for providing the venue, Biarri [https://biarri.com](https://biarri.com){.https} for sponsoring pizzas and [Python Charmers](https://pythoncharmers.com){.https} for organisation and meetup sponsorship.
+**Sponsorship:** many thanks to [Outcome Life](https://outcome.life) for providing the venue, Biarri [https://biarri.com](https://biarri.com) for sponsoring pizzas and [Python Charmers](https://pythoncharmers.com) for organisation and meetup sponsorship.
 
 We hope to see you there! :-D
 
-## Mailing List {#Mailing_List}
+## Mailing List 
 
-We also communicate about the meetings and about anything Python via our [mailing list](http://mail.python.org/mailman/listinfo/melbourne-pug){.http}.
+We also communicate about the meetings and about anything Python via our [mailing list](http://mail.python.org/mailman/listinfo/melbourne-pug).
 
 Newcomers are always welcome to attend or write to the mailing list, we\'re a friendly bunch!
 
@@ -48,11 +53,11 @@ We have a policy about job offers on the mailing list:
 - As long as it\'s a Python-related job offer by the hiring company and not by an intermediary recruiter, you can just send it to the mailing list.
 - If it\'s not Python-related, or the poster of the job ad is a recruiter who won\'t mention the company that will be doing the hiring, please just use Seek or Monster, and don\'t write to the mailing list.
 
-## Code of conduct {#Code_of_conduct}
+## Code of conduct 
 
-Though we are not affiliated with Linux Australia or Pycon AU, we\'ve chosen to follow their [Code of Conduct](https://github.com/linuxaustralia/constitution_and_policies/blob/master/code_of_conduct.md){.https} for our meetings. Not because we\'ve ever had any problem in the past, but so that we know what to do if any problem should arise in the future.
+Though we are not affiliated with Linux Australia or Pycon AU, we\'ve chosen to follow their [Code of Conduct](https://github.com/linuxaustralia/constitution_and_policies/blob/master/code_of_conduct.md) for our meetings. Not because we\'ve ever had any problem in the past, but so that we know what to do if any problem should arise in the future.
 
-## Meeting topics {#Meeting_topics}
+## Meeting topics 
 
 If you\'re not sure on a topic, or don\'t want to give a presentation, perhaps you could give us an idea of topics or areas that you would like to hear about - that way we can encourage people who have that particular area of expertise, but who might be wavering. Some topics that have been suggested are:
 
@@ -78,11 +83,11 @@ If you\'re not sure on a topic, or don\'t want to give a presentation, perhaps y
 
 - \... if you are interested in a particular topic, add it here!
 
-## Previous Meetings & Topics {#Previous_Meetings_.26_Topics}
+## Previous Meetings & Topics 
 
 **Monday 2020-02-03, 5:45pm for 6:00pm**. Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:-1}
+### Talks: 
 
 **1. David Andersson: Recent developments in OpenAlchemy**
 
@@ -96,7 +101,7 @@ We'll put this to the test in creating a new API in the best traditions of the d
 
 **Monday 2019-12-02, 5:45pm for 6:00pm**. Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:-2}
+### Talks: 
 
 **1. Luke Clarke: Automating WordPress audit with Python**
 
@@ -108,7 +113,7 @@ Ed will give a brief introduction to Bayesian machine learning and a first look 
 
 **Monday 2019-11-04, 5:45pm for 6:00pm**. Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:-3}
+### Talks: 
 
 **1. David Andersson: Reduce API Code Duplication with OpenAPI and SQLAlchemy**
 
@@ -120,7 +125,7 @@ Python 3.8 was released on 2019-10-14. We will be discussing what the major chan
 
 **Monday 2019-10-07, 5:45pm for 6:00pm**. Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:-4}
+### Talks: 
 
 **1. Juan Nunez-Iglesias: napari: a fast, n-dimensional image viewer in Python** (\~25 minutes)
 
@@ -136,7 +141,7 @@ We'll also be taking a look at the community's approach to finding the way forwa
 
 **Monday 2019-09-02, 5:45pm for 6:00pm**. Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:-5}
+### Talks: 
 
 **1. Michael Milewski: Next-level test driven development with TCR** (\~15-20 minutes)
 
@@ -148,7 +153,7 @@ Genevieve Buckley is a scientific programmer who loves working in Python. She ju
 
 **Monday 2019-08-05, 5:45pm for 6:00pm**. Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:-6}
+### Talks: 
 
 **1. Bradley van Ree: Integrating Excel and Python**
 
@@ -162,7 +167,7 @@ A first look at what the Julia language offers, from a long-time Python user.
 
 **Monday 2019-06-03, 5:45pm for 6:00pm**. Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:-7}
+### Talks: 
 
 **1. Slava Razbash: How to foretell with Python and AutoML**
 
@@ -176,7 +181,7 @@ In this presentation, Dilan is going to show you how to use the Gspresd Python p
 
 **Monday 2019-05-06, 5:45pm for 6:00pm**. Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:-8}
+### Talks: 
 
 **1. Ben Dechrai: \"Let\'s connect our front door to the internet! What could possibly go wrong?\"**
 
@@ -192,7 +197,7 @@ In this talk, Ned will describe a toolchain containing the packages pyenv, pip-t
 
 **Monday 2019-04-01, 5:45pm for 6:00pm**. Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:-9}
+### Talks: 
 
 **1. Zaar Hai: Packaging Python apps for Docker (part 2)**
 
@@ -208,7 +213,7 @@ Python and its ecosystem of packages have been improving steadily for decade and
 
 **Monday 2019-03-04, 5:45pm for 6:00pm**. Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:-10}
+### Talks: 
 
 **1. Michael Milewski: VI everywhere \-- what\'s your superpower**
 
@@ -218,11 +223,11 @@ Abstract: \"Once you learn VI bindings, they will be stuck with you for life \--
 
 **No show**
 
-**3. Henry Walshaw: Scripting [PowerPoint](./PowerPoint.html){.nonexistent}**
+**3. Henry Walshaw: Scripting [PowerPoint](./PowerPoint.html)**
 
 **Monday 2019-02-11, 5:45pm for 6:00pm**. **New venue!** Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:-11}
+### Talks: 
 
 **1. Zaar Hai: Packaging Python apps for Docker (part 1)**
 
@@ -236,7 +241,7 @@ Zaar will describe lessons he\'s learned with building Docker images for Python,
 
 **Monday 2018-12-17, 5:45pm for 6:00pm**. **New venue!** Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:-12}
+### Talks: 
 
 **1. Henry Walshaw: Python in QGIS**
 
@@ -248,7 +253,7 @@ Python Charmers has recently formed a partnership with Girls in Tech to deliver 
 
 **Thursday 2018-11-15, 5:45pm for 6:00pm**. **New venue!** Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:-13}
+### Talks: 
 
 **1. Janis Lesinskis: CPython internals** (\~30 minutes)
 
@@ -260,11 +265,11 @@ Nathan will talk about AI/ML and walk through a cool platform called cloud ML en
 
 **Monday 2018-10-01, 5:45pm for 6:00pm**. **New venue!** Level 2, 17 Hardware Lane, Melbourne CBD
 
-### Talks: {#Talks:-14}
+### Talks: 
 
 **1. Ned Letcher: Creating interactive dashboards with Plotly Dash** (\~30 minutes)
 
-Dash is a framework for building modern data-driven web-apps in Python. In this talk, Ned will describe how Dash builds on Flask, React, and Plotly.js to provide a platform for Python developers to build analytical web applications, without requiring any [JavaScript](./JavaScript.html){.nonexistent}. I\'ll also walk through some example Dash apps, showing how it can be used for rapidly building production-grade custom dashboards as well as prototyping proof-of-concept interfaces.
+Dash is a framework for building modern data-driven web-apps in Python. In this talk, Ned will describe how Dash builds on Flask, React, and Plotly.js to provide a platform for Python developers to build analytical web applications, without requiring any [JavaScript](./JavaScript.html). I\'ll also walk through some example Dash apps, showing how it can be used for rapidly building production-grade custom dashboards as well as prototyping proof-of-concept interfaces.
 
 **2. Sam Bourne: Leveraging type annotations** (\~25 minutes)
 
@@ -278,11 +283,11 @@ Sam will talk about the use of type annotations at VFX company Luma Pictures for
 
 **Afterwards:** pizza
 
-**Sponsorship:** many thanks to [Outcome Life](https://outcome.life){.https} for providing the venue, Biarri [https://biarri.com](https://biarri.com){.https} for sponsoring pizzas and [Python Charmers](https://pythoncharmers.com){.https} for ongoing organisation and meetup sponsorship.
+**Sponsorship:** many thanks to [Outcome Life](https://outcome.life) for providing the venue, Biarri [https://biarri.com](https://biarri.com) for sponsoring pizzas and [Python Charmers](https://pythoncharmers.com) for ongoing organisation and meetup sponsorship.
 
 **Monday 2018-09-03, 5:45pm for 6:00pm**, at Outcome-Hub Co-Working Space, Suite 1, 121 Cardigan Street Carlton
 
-### Talks: {#Talks:-15}
+### Talks: 
 
 **1. Peter Degorski: Weather, Energy, and Python** (\~30 minutes)
 
@@ -294,7 +299,7 @@ Following on from Peter\'s talk, Ed will give an overview of the why and how of 
 
 **Monday 2018-08-06, 5:45pm for 6:00pm**, at Outcome-Hub Co-Working Space, Suite 1, 121 Cardigan Street Carlton
 
-### Talks: {#Talks:-16}
+### Talks: 
 
 **1. Damien George, Nick Moore, Matt Trentini: A Taste of MicroPython** (\~30 minutes)
 
@@ -310,7 +315,7 @@ Pipenv is now the recommended tool for application dependency management. Rory w
 
 **Monday 2018-07-02, 5:45pm for 6:00pm**, at Outcome-Hub Co-Working Space, Suite 1, 121 Cardigan Street Carlton
 
-### Talks: {#Talks:-17}
+### Talks: 
 
 **1. Rory Hart: Just enough OpenID Connect** (\~25 minutes) - rescheduled from June
 
@@ -328,11 +333,11 @@ and the design decisions behind Pandas 2.
 
 **Monday 2018-06-04, 5:45pm for 6:00pm**, at Outcome-Hub Co-Working Space, Suite 1, 121 Cardigan Street Carlton
 
-### Talks: {#Talks:-18}
+### Talks: 
 
-**1. Ruslan Dautov: [JupyterHub](./JupyterHub.html){.nonexistent} and Apache Spark in the data center** (\~20 minutes)
+**1. Ruslan Dautov: [JupyterHub](./JupyterHub.html) and Apache Spark in the data center** (\~20 minutes)
 
-Ruslan, a Research Assistant and PhD student at the Big Data Institute at Shengzhen University, will describe his research in [GraphFrames](./GraphFrames.html){.nonexistent} and his experiences with [JupyterHub](./JupyterHub.html){.nonexistent} and Apache Spark for supporting teams with shared computing infrastructure.
+Ruslan, a Research Assistant and PhD student at the Big Data Institute at Shengzhen University, will describe his research in [GraphFrames](./GraphFrames.html) and his experiences with [JupyterHub](./JupyterHub.html) and Apache Spark for supporting teams with shared computing infrastructure.
 
 **2. Michael Teasdale: Real-world case studies with Python-based web businesses** (\~20 minutes)
 
@@ -342,7 +347,7 @@ Michael has founded or worked for around a dozen e-commerce and logistics compan
 
 **Monday 2018-05-07, 5:45pm for 6:00pm**, at Outcome-Hub Co-Working Space, Suite 1, 121 Cardigan Street Carlton
 
-### Talks: {#Talks:-19}
+### Talks: 
 
 **1. Graeme Cross: From \"Glue it\" to \"Ship it\"** (\~25 minutes)
 
@@ -362,7 +367,7 @@ Ed will give a brief run-down of new developments in the Python ecosystem in r
 
 **Monday 2018-03-05, 5:45pm for 6:00pm**, at Outcome-Hub Co-Working Space, Suite 1, 121 Cardigan Street Carlton
 
-### Talks: {#Talks:-20}
+### Talks: 
 
 **1. Fred Rotbart: Hierarchical Temporal Memory in Python: part 2** (30-45 minutes)
 
@@ -386,7 +391,7 @@ AlphaZero is a major recent advance in self-play-based reinforcement learning fr
 
 **Monday 2018-02-05, 5:45pm for 6:00pm**, at Outcome-Hub Co-Working Space, Suite 1, 121 Cardigan Street Carlton
 
-### Talks: {#Talks:-21}
+### Talks: 
 
 **1. Fred Rotbart: Hierarchical Temporal Memory in Python** (25-30 minutes)
 
@@ -404,9 +409,9 @@ AlphaZero is a major recent advance in self-play-based reinforcement learning fr
 
 We hope to see you there! :-D
 
-### Talks: {#Talks:-22}
+### Talks: 
 
-**1. Javier Candeira: Batavia: A Python VM implementation in [JavaScript](./JavaScript.html){.nonexistent}** (25-30 minutes)
+**1. Javier Candeira: Batavia: A Python VM implementation in [JavaScript](./JavaScript.html)** (25-30 minutes)
 
 **2. Ed Schofield: What\'s New in Python** (15-20 minutes)
 
@@ -414,7 +419,7 @@ We hope to see you there! :-D
 
 **Monday 2017-11-06, 5:45pm for 6:00pm**, at Outcome-Hub Co-Working Space, Suite 1, 121 Cardigan Street Carlton
 
-### Talks: {#Talks:-23}
+### Talks: 
 
 **1. Robert Lechte: \"Your database migrations are bad.\"** (25-30 minutes)
 
@@ -438,7 +443,7 @@ Talks: 1. Renaldi Gondosubroto: \"Moving Ahead with Internet of Things Developme
 
 Abstract:
 
-\"In this talk, I will discuss how the Internet of Things is applied in Python at the moment and how it has progressed so far. This will be complemented by examples through some of my own experiences in projects involving the concept. One example of the practice that I will show is its use is through libraries created via TCP / IP connections to generate data collected from devices placed in other locations - and in this practice - measure environmental parameters in the environment through the Raspberry Pi. From here I will also discuss how other third party IoT services such as Amazon Web Services or [ThingSpeak](./ThingSpeak.html){.nonexistent} can also connect and manage smart devices from there, utilizing the MQTT protocol. Next I will talk more about how this is very useful from the point of view of consumers, and how the methodology of its use can be developed with code architecture in Python. After that, I will discuss the future of this IoT concept for Python, how I see this concept will grow on this platform, and future developments that can still be done at this time.\"
+\"In this talk, I will discuss how the Internet of Things is applied in Python at the moment and how it has progressed so far. This will be complemented by examples through some of my own experiences in projects involving the concept. One example of the practice that I will show is its use is through libraries created via TCP / IP connections to generate data collected from devices placed in other locations - and in this practice - measure environmental parameters in the environment through the Raspberry Pi. From here I will also discuss how other third party IoT services such as Amazon Web Services or [ThingSpeak](./ThingSpeak.html) can also connect and manage smart devices from there, utilizing the MQTT protocol. Next I will talk more about how this is very useful from the point of view of consumers, and how the methodology of its use can be developed with code architecture in Python. After that, I will discuss the future of this IoT concept for Python, how I see this concept will grow on this platform, and future developments that can still be done at this time.\"
 
 2\. Andrew Peel: All about locking: the why, what, and how.
 
@@ -485,7 +490,7 @@ Talks:
 
 Talks:
 
-- Nick Moore: [MicroPython](./MicroPython.html){.nonexistent}
+- Nick Moore: [MicroPython](./MicroPython.html)
 
 **Monday, 2017-05-01: cancelled**
 
@@ -583,11 +588,11 @@ Talks:
 
 - Ed Schofield: Survey of Python data tools: toolz, [NumPy](NumPy), Pandas, xarray, Blaze, Dask, and Spark
 
-- We are looking for more talks! If you would like to volunteer a talk, please email [mailto:ed@pythoncharmers.com](mailto:ed@pythoncharmers.com){.mailto} or the mailing list!
+- We are looking for more talks! If you would like to volunteer a talk, please email [mailto:ed@pythoncharmers.com](mailto:ed@pythoncharmers.com) or the mailing list!
 
 Monday, 7 December 2015, 6:00pm **at *Inspire 9: Level 1, 41 Stewart Street, Richmond.***
 
-- Javier Candeira - [Three book reviews](https://twitter.com/darwindavem/status/673815082480984064){.https}
+- Javier Candeira - [Three book reviews](https://twitter.com/darwindavem/status/673815082480984064)
 
 - Jeremy Kirkwood - Image Labeling with Lasagna.
 
@@ -602,9 +607,9 @@ Monday, 5 October 2015, 6:00pm **at *Inspire 9: Level 1, 41 Stewart Street, Rich
 
 Monday, 7 September 2015, 6:00pm **at *Inspire 9: Level 1, 41 Stewart Street, Richmond.***
 
-- Andrew Walker - Better ways to make slides from ipython notebooks with Nbconvert, jinja2, reveal.js, mistune and some frustration. [slides](https://bitbucket.org/walkera/notebook-to-reveal/raw/master/notebook-to-reveal.pdf){.https} [code](https://bitbucket.org/walkera/notebook-to-reveal/overview){.https}
+- Andrew Walker - Better ways to make slides from ipython notebooks with Nbconvert, jinja2, reveal.js, mistune and some frustration. [slides](https://bitbucket.org/walkera/notebook-to-reveal/raw/master/notebook-to-reveal.pdf) [code](https://bitbucket.org/walkera/notebook-to-reveal/overview)
 
-- Tyson Clugg - Selenium Page Adapter: [https://github.com/tysonclugg/selenium-page-adapter](https://github.com/tysonclugg/selenium-page-adapter){.https}
+- Tyson Clugg - Selenium Page Adapter: [https://github.com/tysonclugg/selenium-page-adapter](https://github.com/tysonclugg/selenium-page-adapter)
 
 - Ed Schofield - Towards solving the Python 2/3 split with the `past`{.backtick} package: when backward compatibility is more important than forward compatibility, and how Python 3.x can run Python 2.x code automatically
 
@@ -612,7 +617,7 @@ August meeting - Cancelled for Pycon AU: Monday, 3 August 2015: no meeting
 
 We will send email to the list if we organise an August meeting later in the month. For the time being, no meeting in August.
 
-Monday, 27 July 2015, 6:00pm **at *[TeamSquare](./TeamSquare.html){.nonexistent}, 1/520 Bourke St, Melbourne VIC 3000***
+Monday, 27 July 2015, 6:00pm **at *[TeamSquare](./TeamSquare.html), 1/520 Bourke St, Melbourne VIC 3000***
 
 This is a Pycon rehearsal session, please add the times for your presentations so we can organise an overflow session on the 28th if needed!
 
@@ -621,11 +626,11 @@ This is a Pycon rehearsal session, please add the times for your presentations s
 - Ed Schofield - Interactive visualization for the curious - 30 minutes (if there\'s time)
 - Andrew Stuart - 30 minutes.
 
-All talks are [PyCon](PyCon) rehearsals, so the speakers would welcome your feedback and criticism! ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"}
+All talks are [PyCon](PyCon) rehearsals, so the speakers would welcome your feedback and criticism! ![:-)](/wiki/europython/img/smile.png ":-)")
 
 Monday, 6 July 2015, 6:00pm **at *Inspire 9: Level 1, 41 Stewart Street, Richmond.***
 
-- Geoff Crompton - Testing ain\'t hard, even for [SysAdmins](./SysAdmins.html){.nonexistent}
+- Geoff Crompton - Testing ain\'t hard, even for [SysAdmins](./SysAdmins.html)
 
 - Tennessee Leeuwenburg - Applied Data Analysis
 
@@ -669,7 +674,7 @@ Monday, 1 December 2014, 6:00pm **at *99 Designs: Level 2, 41 Stewart Street, Ri
 
 - Ed Schofield \-- What\'s New in Python, December Edition
 
-- Ken Hu \-- [TextBlob](./TextBlob.html){.nonexistent}, a NLTK wrapper that\'s a joy to use.
+- Ken Hu \-- [TextBlob](./TextBlob.html), a NLTK wrapper that\'s a joy to use.
 
 - Scott Brewer \-- My Great War with Python (as seen in the WWI exhibition in Museum Victoria)
 
@@ -677,11 +682,11 @@ Monday, 10 November 2014, 6:00pm **at *Inspire 9: Level 1, 41 Stewart Street, Ri
 
 25 minute talks
 
-- Javier Candeira and Alan Pierce (unbeknownst to him) \-- We had a communal session of Python Puzzlement over Alan Pierce\'s Python Puzzlers [https://speakerdeck.com/alangpierce/python-puzzlers](https://speakerdeck.com/alangpierce/python-puzzlers){.https}
+- Javier Candeira and Alan Pierce (unbeknownst to him) \-- We had a communal session of Python Puzzlement over Alan Pierce\'s Python Puzzlers [https://speakerdeck.com/alangpierce/python-puzzlers](https://speakerdeck.com/alangpierce/python-puzzlers)
 
 45 minute talks
 
-- Teennessee Leeuwenburg \-- Wordgraph as an assistive technology and as an open source project that has a low barrier to participation that people might like to consider either using or contributing to. ([https://github.com/tleeuwenburg/wordgraph](https://github.com/tleeuwenburg/wordgraph){.https} and [https://wordgraph.readthedocs.org/en/latest/](https://wordgraph.readthedocs.org/en/latest/){.https})
+- Teennessee Leeuwenburg \-- Wordgraph as an assistive technology and as an open source project that has a low barrier to participation that people might like to consider either using or contributing to. ([https://github.com/tleeuwenburg/wordgraph](https://github.com/tleeuwenburg/wordgraph) and [https://wordgraph.readthedocs.org/en/latest/](https://wordgraph.readthedocs.org/en/latest/))
 
 Monday, 6 October 2014, 6:00pm **at *Inspire 9: Level 1, 41 Stewart Street, Richmond.***
 
@@ -717,7 +722,7 @@ Special Session
 
 - Javier Candeira \-- Doing what they told us not to do at two consecutive editions of Pycon Australia
 
-Monday July 21, 6:00pm **at *99Designs: Level 2, 41 Stewart Street, Richmond* (one floor above Inspire 9) [details here](http://www.meetup.com/Melbourne-Python-Meetup-Group/events/194086162/){.http}**
+Monday July 21, 6:00pm **at *99Designs: Level 2, 41 Stewart Street, Richmond* (one floor above Inspire 9) [details here](http://www.meetup.com/Melbourne-Python-Meetup-Group/events/194086162/)**
 
 - MPUG Community - Pre-conference evening of Python talks.
 
@@ -758,7 +763,7 @@ Monday, 7 April 2014, 6:00 pm
 
 - Adrian Higgins \-- Integrating specific Hardware with Python using existing C libraries on Windows.
 
-- Ben Finney \-- A Pythonista Meets [JavaScript](./JavaScript.html){.nonexistent}™: first steps
+- Ben Finney \-- A Pythonista Meets [JavaScript](./JavaScript.html)™: first steps
 
 Monday 3rd March 2014, 6PM, Inspire 9: Level 1, 41 Stewart Street, Richmond.
 
@@ -859,7 +864,7 @@ Monday 6th May 2013
 
 - Ansible: easy systems configuration and deployment with Python, yaml and ssh \-- Javier Candeira
 
-- [Python Packaging for Production](https://docs.google.com/presentation/d/1-g0UYgV72jwtyeFLHYqz0Sh56VSiCiGHn5Bu3TW2hUM/edit?usp=sharing){.https}: Deploying python programs on Debian - Michael Cooper
+- [Python Packaging for Production](https://docs.google.com/presentation/d/1-g0UYgV72jwtyeFLHYqz0Sh56VSiCiGHn5Bu3TW2hUM/edit?usp=sharing): Deploying python programs on Debian - Michael Cooper
 
 Monday 1st April 2013
 
@@ -896,7 +901,6 @@ Monday 1st October 2012
 
 15 minute talks
 
-[Message Queueing from an MQ noob\'s perspective](http://web.archive.org/web/20121115092658/http://www.slideshare.net/r1chardj0n3s/message-queueing-by-an-mq-noob){.http} - Richard Jones
+[Message Queueing from an MQ noob\'s perspective](http://web.archive.org/web/20121115092658/http://www.slideshare.net/r1chardj0n3s/message-queueing-by-an-mq-noob) - Richard Jones
 
 Monday 6th
-:::

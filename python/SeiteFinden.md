@@ -1,6 +1,11 @@
 # SeiteFinden
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Sie können mit dieser Seite alle Einträge in diesem [WikiWikiWeb](WikiWikiWeb) durchsuchen. Die Suche beachtet keine Groß/Kleinschreibung.
 
 Gute Einstiegsstellen für die Erkundung eines Wikis sind:
@@ -38,4 +43,3 @@ oder direkt auf eine Seite springen oder eine neue Seite erzeugen, indem Sie Ihr
   ::: {}
   :::
   ::::
-:::

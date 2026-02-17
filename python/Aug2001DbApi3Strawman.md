@@ -1,18 +1,12 @@
 # Aug2001DbApi3Strawman
 
-:::: {#content dir="ltr" lang="en"}
-*The original posting of this document can be found at [http://mail.python.org/pipermail/db-sig/2001-August/001877.html](http://mail.python.org/pipermail/db-sig/2001-August/001877.html){.http}*
+```{admonition} Legacy Wiki Page
+:class: note
 
-::: table-of-contents
-Contents
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-1.  [Abstract](#Abstract)
-2.  [Copyright](#Copyright)
-3.  [Specification](#Specification)
-4.  [Rationale](#Rationale)
-5.  [Language Comparison](#Language_Comparison)
-6.  [References](#References)
-:::
+*The original posting of this document can be found at [http://mail.python.org/pipermail/db-sig/2001-August/001877.html](http://mail.python.org/pipermail/db-sig/2001-August/001877.html)*
 
     PEP: TBA
     Title: DB API 3.0
@@ -25,15 +19,15 @@ Contents
     Created: 18-May-2001
     Post-History: Never
 
-# Abstract {#Abstract}
+# Abstract 
 
 - Python has had a solid Database API for SQL databases since 1996 \[1\]. This revision introduces iterator support and attempts to fix known issues with the interface. This version provides a module to be integrated into the core Python distribution, which provides the interface to 3rd party RDBMS drivers. This module can use DB API 1.0 and 2.0 compliant modules as the drivers, although it it expected that these drivers will be updated to support this API more fully.
 
-# Copyright {#Copyright}
+# Copyright 
 
 - This document has been placed in the public domain, except for those sections attributed to other sources.
 
-# Specification {#Specification}
+# Specification 
 
 - Use of this wrapper requires a DB API v2.0 compliant driver to be installed in sys.path. The wrapper may support DB API v1.0 drivers (to be determined). == Module Interface (sql.py) ==
 
@@ -88,7 +82,7 @@ Contents
     set_transaction_level(level)
     - Set the transaction isolation level to the given level,
 
-      or a more restrictive isolation level. A [NotSupported](./NotSupported.html){.nonexistent} exception is raised if the given or more restrictive isolation level cannot be set. Returns the transaction isolation level actually set.
+      or a more restrictive isolation level. A [NotSupported](./NotSupported.html) exception is raised if the given or more restrictive isolation level cannot be set. Returns the transaction isolation level actually set.
 
     autocommit(flag)
     - Do we want an autocommit method? It would need to default to false for backwards compatibility, and remembering to turn autocommit on is as easy as explicitly calling commit().
@@ -96,7 +90,7 @@ Contents
     savepoint()
     - Sets a savepoint in the current transaction, or throws a
 
-      [NotSupportedError](./NotSupportedError.html){.nonexistent} exception. Returns an object which may be passed to the rollback method to rollback the transaction to this point.
+      [NotSupportedError](./NotSupportedError.html) exception. Returns an object which may be passed to the rollback method to rollback the transaction to this point.
 
   == Cursor Object ==
 
@@ -119,9 +113,9 @@ Contents
 
     - Return the Row object for the next row from the currently executing SQL statement. As per DB API 2.0 spec, except
 
-      a [StopIteration](./StopIteration.html){.nonexistent} exception is raised when the result set is exhausted.
+      a [StopIteration](./StopIteration.html) exception is raised when the result set is exhausted.
 
-    [iter]{.u}()
+    [iter]()
 
     - Returns self.
 
@@ -145,7 +139,7 @@ Contents
 
   - When a Cursor is iterated over, it returns Row objects.
 
-    dtuple.py ([http://www.lyra.org/greg/python/](http://www.lyra.org/greg/python/){.http}) provides such an implementation already. \[index_or_key\]
+    dtuple.py ([http://www.lyra.org/greg/python/](http://www.lyra.org/greg/python/)) provides such an implementation already. \[index_or_key\]
 
     - Retrieve a field from the Row. If index_or_key is an integer, the column of the field is referenced by number (with the first column index 0). If index_or_key is a string, the column is referenced by its lowercased name (lowercased to avoid problems with the differing methods vendors use to capitalize their column names).
 
@@ -153,11 +147,11 @@ Contents
 
   - As per DB API 2.0 spec.
 
-    Do we need Date, Time and [DateTime](./DateTime.html){.nonexistent} classes, or just [DateTime](./DateTime.html){.nonexistent}? Need to author the \'Date PEP\'. It would be nice if there was a more intelligent standard Date class in the Python core that we could leverage. If we don\'t, people will start using the
+    Do we need Date, Time and [DateTime](./DateTime.html) classes, or just [DateTime](./DateTime.html)? Need to author the \'Date PEP\'. It would be nice if there was a more intelligent standard Date class in the Python core that we could leverage. If we don\'t, people will start using the
 
-    sql module for the more intelligent [DateTime](./DateTime.html){.nonexistent} object it would need to provide even if they arn\'t using databases.
+    sql module for the more intelligent [DateTime](./DateTime.html) object it would need to provide even if they arn\'t using databases.
 
-  == [ConnectionPool](./ConnectionPool.html){.nonexistent} Object ==
+  == [ConnectionPool](./ConnectionPool.html) Object ==
 
   - A connection pool, to be documented.
 
@@ -182,16 +176,15 @@ Contents
 
   - A common test suite will be part of the implementation, to allow driver authors and driver evaluators to test and excercise the systems. Two possbilities to start with are the test suites in psycopg by Federico Di Gregorio and mxODBC by eGenix.com Software. Example DDL for various systems will need to be provided.
 
-# Rationale {#Rationale}
+# Rationale 
 
 - The module is called sql.py, to avoid any ambiguity with non-realational or non-SQL compliant database interfaces. This also nicely limits the scope of the project. Other suggestions are \'sqlutil\' and \'rdbms\', since \'sql\' may refer to the language itself. Previous versions of the DB API have been intentially kept lean to make it simpler to develop and maintain drivers, as a richer feature set could be implemented by a higher level wrapper and maintained in a single place rather than in every API compliant driver. As this revision provides a single place to maintain code, these features can now be provided without placing a burden to the driver authors. Existing DB API 1.0 and 2.0 drivers can be used to power the backend of this module. This means that there will be a full compliment of drivers available from day 1 of this modules release without placing a burden on driver developers and maintainers. The core of the API is identical to the Python Database API v2.0 (PEP-249). This API is already familiar to Python programers and is a proven solid foundation. Python previously defined a common relational database API that was implemented by all drivers, and application programmers accessed the drivers directly. This caused the following issues:
   - It was difficult to write code that connected to multiple database vendor\'s databases. Each seperate driver used defined its own heirarchy of exceptions that needed to be handled, their own datetime class and their own set of datatype constants. Platform independant code could not be written simply, due to the differing paramater styles used by bind variables. This also caused problems with publishing example code and tutorials. The API remained minimal, as any new features would need to be implemented by all driver maintainers. The DB-SIG felt most feature suggestions would be better implemented by higher level wrappers, such as that defined by this PEP.
 
-# Language Comparison {#Language_Comparison}
+# Language Comparison 
 
 - The design proposed in this PEP is the same as that used by Java, where a relational database API is shipped as part of the core language, but requires the installation of 3rd party drivers to be used. Perl has a similar arrangement of API and driver separation. Perl does not ship with PerlDBI or drivers as part of the core language, but it is well documented and trivial to add using the CPAN tools. PHP has a seperate API for each database vendor, although work is underway (completed?) to define a common abstraction layer similar to Java, Perl and Python. All of the drivers ship as part of the core language.
 
-# References {#References}
+# References 
 
-- \[1\] PEPs: [0248](http://www.python.org/dev/peps/pep-0248 "PEP"){.interwiki} and [0249](http://www.python.org/dev/peps/pep-0249 "PEP"){.interwiki}
-::::
+- \[1\] PEPs: [0248](http://www.python.org/dev/peps/pep-0248 "PEP") and [0249](http://www.python.org/dev/peps/pep-0249 "PEP")

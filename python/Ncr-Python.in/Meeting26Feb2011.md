@@ -1,7 +1,12 @@
 # Ncr-Python.in/Meeting26Feb2011
 
-::: {#content dir="ltr" lang="en"}
-## Details {#Details}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Details 
 
 - Venue : Sarai-CSDS 29 Rajpur Road Civil Lines Delhi - 110054 India
   - Ph no: 91-11-23928391, 23942199
@@ -10,7 +15,7 @@
 
 - There was no agenda as such this meeting being the first one.
 
-### Minutes {#Minutes}
+### Minutes 
 
 \*Meeting started at around 2.15 Pm , we started the discuss why we were here and how we can improve on the attendance, everyone agreed on having a central location as meeting place , IITD is one of such potential venue proposed for future meetings.
 
@@ -25,21 +30,21 @@ the points which were discussed in order to make Python the language of choice w
 
   - 1\) Arulalan.T \-- IITDelhi - CDAT, [NumPy](NumPy)
 
-  - 2\) Rajat Khandelwal (Panda3d, Modelling engine Blender3d, ) [rajatgupta59@gmail.com](mailto:rajatgupta59@gmail.com){.mailto}
+  - 2\) Rajat Khandelwal (Panda3d, Modelling engine Blender3d, ) [rajatgupta59@gmail.com](mailto:rajatgupta59@gmail.com)
 
-  - 3\) Nandeep Mali \<[n9986.mali@gmail.com](mailto:n9986.mali@gmail.com){.mailto}\> - [GameDeveloper](./GameDeveloper.html){.nonexistent}
+  - 3\) Nandeep Mali \<[n9986.mali@gmail.com](mailto:n9986.mali@gmail.com)\> - [GameDeveloper](./GameDeveloper.html)
 
-  - 4\) Amit Singh Sethi - \<[amit.pureenergy@gmail.com](mailto:amit.pureenergy@gmail.com){.mailto}\> -Scipy,Numpy
+  - 4\) Amit Singh Sethi - \<[amit.pureenergy@gmail.com](mailto:amit.pureenergy@gmail.com)\> -Scipy,Numpy
 
-  - 5\) Tavish Naruka \<[tavishnaruka@gmail.com](mailto:tavishnaruka@gmail.com){.mailto} -realtime audio processing
+  - 5\) Tavish Naruka \<[tavishnaruka@gmail.com](mailto:tavishnaruka@gmail.com) -realtime audio processing
 
-  - 6\) Vijay shanker \<[deontics@gmail.com](mailto:deontics@gmail.com){.mailto}\> - web developer
+  - 6\) Vijay shanker \<[deontics@gmail.com](mailto:deontics@gmail.com)\> - web developer
 
-  - 7\) Rakesh Kumar \<[kumar3180@gmail.com](mailto:kumar3180@gmail.com){.mailto} - Ghaziabad (Django )
+  - 7\) Rakesh Kumar \<[kumar3180@gmail.com](mailto:kumar3180@gmail.com) - Ghaziabad (Django )
 
-  - 8\) Rohan Malhotra \<[yourbuddyrohan@gmail.com](mailto:yourbuddyrohan@gmail.com){.mailto} ( webpy )
+  - 8\) Rohan Malhotra \<[yourbuddyrohan@gmail.com](mailto:yourbuddyrohan@gmail.com) ( webpy )
 
-  - 9\) Tarun Arora \<[silent.arora@gmail.com](mailto:silent.arora@gmail.com){.mailto}
+  - 9\) Tarun Arora \<[silent.arora@gmail.com](mailto:silent.arora@gmail.com)
 
   - 10\) Vivek Khurana
 
@@ -57,11 +62,11 @@ the points which were discussed in order to make Python the language of choice w
 
 ==Coding==
 
-- [http://people.csail.mit.edu/albert/bluez-intro/c212.html](http://people.csail.mit.edu/albert/bluez-intro/c212.html){.http}
+- [http://people.csail.mit.edu/albert/bluez-intro/c212.html](http://people.csail.mit.edu/albert/bluez-intro/c212.html)
 
-- [https://github.com/karulis/pybluez/wiki](https://github.com/karulis/pybluez/wiki){.https}
+- [https://github.com/karulis/pybluez/wiki](https://github.com/karulis/pybluez/wiki)
 
-- [http://lightblue.sourceforge.net/](http://lightblue.sourceforge.net/){.http} Code:
+- [http://lightblue.sourceforge.net/](http://lightblue.sourceforge.net/) Code:
 
 <!-- -->
 
@@ -79,7 +84,6 @@ the points which were discussed in order to make Python the language of choice w
 
   - ==Attendees==
 
-\* Satyakam Goswami \* [GauravLuthra](./GauravLuthra.html){.nonexistent} \* Anuvrat Parashar \* Vivek Chugh \* Narendra Sisodiya \* Arulalan \* Priya Kuber \* Nandeep Mali \* Prof Kannan Moudgalya
+\* Satyakam Goswami \* [GauravLuthra](./GauravLuthra.html) \* Anuvrat Parashar \* Vivek Chugh \* Narendra Sisodiya \* Arulalan \* Priya Kuber \* Nandeep Mali \* Prof Kannan Moudgalya
 
 Pictures:http://www.satyaakam.net/meetings/NCR_python26feb2011/
-:::

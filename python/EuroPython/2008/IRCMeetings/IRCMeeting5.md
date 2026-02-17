@@ -1,22 +1,27 @@
 # EuroPython/2008/IRCMeetings/IRCMeeting5
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #5 {#IRC_Meeting_.235}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Time/Location {#Time.2FLocation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-The meeting will take place in the #europython channel on freenode. Please indicate your preferred time [on the voting page](http://www.doodle.ch/f8ypb36amep7pd47){.http}!
+# IRC Meeting #5 
 
-## Agenda {#Agenda}
+## Time/Location 
+
+The meeting will take place in the #europython channel on freenode. Please indicate your preferred time [on the voting page](http://www.doodle.ch/f8ypb36amep7pd47)!
+
+## Agenda 
 
 - Publicity/Web site
   - Fixes (contact information)
   - Enhancements
     - EuroPython blog with article headings appearing on the EP front page
 
-    - [Logo voting](http://moinmo.in/MacroMarket/VotingStars){.http}
+    - [Logo voting](http://moinmo.in/MacroMarket/VotingStars)
 
-    - [Login hint](http://moinmo.in/MacroMarket/LoginHint){.http}
+    - [Login hint](http://moinmo.in/MacroMarket/LoginHint)
 
     - Menu bar changes (replace \"Places to Stay\" with \"Participants\" or \"Participate\")
   - Support for the eu.pycon.org alias
@@ -37,4 +42,3 @@ The meeting will take place in the #europython channel on freenode. Please indic
 - General discussion (if necessary)
   - Sprints
   - Keynotes
-:::

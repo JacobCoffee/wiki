@@ -1,7 +1,11 @@
 # PyLucene
 
-::: {#content dir="ltr" lang="en"}
-[http://pylucene.osafoundation.org/](http://pylucene.osafoundation.org/){.http}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[http://pylucene.osafoundation.org/](http://pylucene.osafoundation.org/)
 
 Text search engine library.
-:::

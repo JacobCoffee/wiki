@@ -1,11 +1,16 @@
 # PyConIndiaBidRequirements
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Indian python(istas) across various Indian cities interested in hosting [PyCon](PyCon)-India in their city (college or university) can use the following template when they submit advance bids for their cities. Hopefully it will avoid all the list wars and confusion over the host city that we have been having for 2011.
 
-Please create a new wikipage, example: [PyConIndiaBidCityName](./PyConIndiaBidCityName.html){.nonexistent}, copy the questions and answer it, then post the link on the INpycon list for further discussion.
+Please create a new wikipage, example: [PyConIndiaBidCityName](./PyConIndiaBidCityName.html), copy the questions and answer it, then post the link on the INpycon list for further discussion.
 
-## Bid Requirements {#Bid_Requirements}
+## Bid Requirements 
 
 - Tell us, briefly, what\'s good and what\'s great about the city/region/state that would make it a good place to host [PyCon](PyCon)-India. Tell us the pros and cons about the local area:
 
@@ -39,4 +44,3 @@ Please create a new wikipage, example: [PyConIndiaBidCityName](./PyConIndiaBidCi
 ------------------------------------------------------------------------
 
 [CategoryPyConIndia](CategoryPyConIndia)
-:::

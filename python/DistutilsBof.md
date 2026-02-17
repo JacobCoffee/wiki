@@ -1,13 +1,18 @@
 # DistutilsBof
 
-::: {#content dir="ltr" lang="en"}
-# Followup {#Followup}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Followup 
 
 There will be a follow-up Open Space meeting on Friday at 11:30 am.
 
 Someone should volunteer to act as a scribe for the meeting.
 
-# Distutils BoF Topics {#Distutils_BoF_Topics}
+# Distutils BoF Topics 
 
 There have been many proposals for changes and improvements to `distutils`{.backtick}, but any actual activity on improving `distutils`{.backtick} appears to have come to a complete halt. All activity has moved to third-party tools which layer on top of `distutils`{.backtick}.
 
@@ -33,11 +38,11 @@ Anthony Baxter, [FredDrake](FredDrake), [BobIppolito](BobIppolito), and Kapil ad
 
 (But what\'s the use case for packages specifying what they provide? If I rely on Twisted, why not just say I rely on Twisted? What\'s the point of having another entity? Also, how does the installation database help with existing distributions, and packages that someone installed \*before\* the database exists? That approach will have backwards-compatibility problems in deployment for an extended period, while an explicitly backwards-compatible approach could work \*now\*. \-- PJE)
 
-# Attendees {#Attendees}
+# Attendees 
 
 The following people showed up for the first hour of the BOF; once we\'d overrun our time in room 308, a much smaller subset of this group relocated to the amphitheatre to continue discussions.
 
-- [FredDrake](mailto:fdrake@acm.org){.mailto}
+- [FredDrake](mailto:fdrake@acm.org)
 
 - Andrew Kuchling
 
@@ -89,11 +94,10 @@ The following people showed up for the first hour of the BOF; once we\'d overrun
 
 This was a much larger group than expected from the initial response in this wiki; I\'ll apologize for not organizing more of an agenda.
 
-# General Review {#General_Review}
+# General Review 
 
 Discussion quickly led to Fred realizing that people characterize distutils in two very different ways. Many people talked about distutils as a build framework, and others see it as a packaging system/tool. Both aspects are important to have available, but they are not equally important to everyone. Someone with time on their hands should consider more clearly separating the two aspects so that either can be used separately; this is perhaps of more concern to people who want to use distutils as a build system.
 
-One proposal was to either use [SCons](http://www.scons.org/){.http} as a foundation for the build component, or to factor out a common base set of functionality.
+One proposal was to either use [SCons](http://www.scons.org/) as a foundation for the build component, or to factor out a common base set of functionality.
 
 ***(There\'s more to say here; please add it if you can, since I\'ll probably forget it before I get around to writing about it here.)***
-:::

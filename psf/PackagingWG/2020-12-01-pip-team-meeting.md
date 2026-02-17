@@ -1,6 +1,11 @@
 # PackagingWG/2020-12-01-pip-team-meeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Tuesday 1 December
 
 Participants
@@ -14,7 +19,7 @@ Agenda
 
 - Yay, pip 20.3 release!
   - Yay and thank you Pradyun
-    - Spacebar CPU ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"} [https://xkcd.com/1172/](https://xkcd.com/1172/){.https}
+    - Spacebar CPU ![:-)](/wiki/europython/img/smile.png ":-)") [https://xkcd.com/1172/](https://xkcd.com/1172/)
 
     - \[and thank you to Sumana\]
   - some serious issues have come in but not showstopper horrible ones
@@ -31,7 +36,7 @@ Agenda
 
   - Pradyun: no blockers; has day job commitments. triaging issues as they come in. noticing 3 issues in particular. working on a point release. putting things in 20.3.1 milestone. (PyCharm stuff first.)
 
-  - Sumana: partway through [https://github.com/pypa/pip/issues/8936#issuecomment-721440282](https://github.com/pypa/pip/issues/8936#issuecomment-721440282){.https} checklist
+  - Sumana: partway through [https://github.com/pypa/pip/issues/8936#issuecomment-721440282](https://github.com/pypa/pip/issues/8936#issuecomment-721440282) checklist
 
     - todo: Paperwork, CZI presentation
 
@@ -48,4 +53,3 @@ Agenda
     - give email to Pradyun or Sumana so we can forward to pypa-committers list
 
 - Probably defer to Wednesday: 20.3.1 planning & triaging issues
-:::

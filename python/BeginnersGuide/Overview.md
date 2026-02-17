@@ -1,6 +1,11 @@
 # BeginnersGuide/Overview
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Python is a clear and powerful object-oriented programming language, comparable to Perl, Ruby, Scheme, or Java.
 
 Some of Python\'s notable features:
@@ -17,9 +22,9 @@ Some of Python\'s notable features:
 
 - Can also be embedded into an application to provide a programmable interface.
 
-- Runs anywhere, including [Mac OS X](https://www.python.org/downloads/mac-osx/){.https}, [Windows](https://www.python.org/downloads/windows/){.https}, [Linux](https://docs.python.org/3/using/unix.html){.https}, and [Unix](https://docs.python.org/3/using/unix.html){.https}, with unofficial builds also available for [Android](Android) and iOS.
+- Runs anywhere, including [Mac OS X](https://www.python.org/downloads/mac-osx/), [Windows](https://www.python.org/downloads/windows/), [Linux](https://docs.python.org/3/using/unix.html), and [Unix](https://docs.python.org/3/using/unix.html), with unofficial builds also available for [Android](Android) and iOS.
 
-- Is free software in two senses. It doesn\'t cost anything to download or use Python, or to include it in your application. Python can also be freely modified and re-distributed because while the language is copyrighted it\'s available under [an open-source license](http://www.python.org/psf/license/){.http}.
+- Is free software in two senses. It doesn\'t cost anything to download or use Python, or to include it in your application. Python can also be freely modified and re-distributed because while the language is copyrighted it\'s available under [an open-source license](http://www.python.org/psf/license/).
 
 Some programming-language features of Python are:
 
@@ -33,9 +38,8 @@ Some programming-language features of Python are:
 
 See the [SimplePrograms](SimplePrograms) collection of short programs, gradually increasing in length, which shows off Python\'s syntax and readability.
 
-Writing Pythonic code is not hard\-\--but you have to get used to the (PEP) code style rules. You can test, check, and improve your code style at online resources such as [Pythonium](https://pythonium.net/linter){.https}.
+Writing Pythonic code is not hard\-\--but you have to get used to the (PEP) code style rules. You can test, check, and improve your code style at online resources such as [Pythonium](https://pythonium.net/linter).
 
 Translations:
 
 - 中文介绍 [ChineseOverview](TODO)
-:::

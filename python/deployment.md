@@ -1,6 +1,11 @@
 # deployment
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 One of the most-frequently asked questions of all time is this: \"I have a Python application I\'ve developed; how do I deliver it to my customer/friend/\...?\"
 
 Here are typical answers:
@@ -13,11 +18,11 @@ Here are typical answers:
 
 - [Freeze](Freeze)
 
-- [cx Freeze](./cx(20)Freeze.html){.nonexistent}
+- [cx Freeze](./cx(20)Freeze.html)
 
 - [py2app](./MacPython(2f)py2app.html) is for Macintosh
 
-- [py2exe](./py2exe.html){.nonexistent}
+- [py2exe](./py2exe.html)
 
 - [PyInstaller](PyInstaller) (supports Windows, Linux and soon Mac)
 
@@ -25,7 +30,6 @@ Here are typical answers:
 
 - [Pyarmor](Pyarmor) (obfuscate python scripts, bind obfuscated scripts to fixed machine or expire obfuscated scripts)
 
-[FredrikLundh](FredrikLundh) [discussed](http://effbot.org/zone/python-compile.htm){.http} some of these in 2003.
+[FredrikLundh](FredrikLundh) [discussed](http://effbot.org/zone/python-compile.htm) some of these in 2003.
 
 As of 2007, py2exe perhaps is second in use only to source distribution.
-:::

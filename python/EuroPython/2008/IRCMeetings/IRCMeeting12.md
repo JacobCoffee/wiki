@@ -1,19 +1,24 @@
 # EuroPython/2008/IRCMeetings/IRCMeeting12
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #12 {#IRC_Meeting_.2312}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Time/Location {#Time.2FLocation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# IRC Meeting #12 
+
+## Time/Location 
 
 The meeting will take place in the #europython channel on freenode at 18:00 CEST on Thursday 8th May.
 
 Please look at the minutes from the last meeting for more background information: [../IRCMeeting11](./EuroPython(2f)2008(2f)IRCMeetings(2f)IRCMeeting11.html)
 
-## Present {#Present}
+## Present 
 
 \...
 
-## Agenda/Minutes {#Agenda.2FMinutes}
+## Agenda/Minutes 
 
 - Registration/Budget - final adjustments
 
@@ -30,11 +35,10 @@ Please look at the minutes from the last meeting for more background information
 
 - Feedback/Surveys - progress on the processing of last year\'s surveys
 
-- T-shirts (as noted on [this page](http://www.europython.org/community/T_Shirts){.http})
+- T-shirts (as noted on [this page](http://www.europython.org/community/T_Shirts))
 
 - Streaming and dedicated lines - **We have to see what the traffic shaping is like. We need volunteers, too, so maybe it\'s time to use the europython-volunteer-announce list.**
 
-## Actions {#Actions}
+## Actions 
 
 - See the bold sections above\...
-:::

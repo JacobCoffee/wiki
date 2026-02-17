@@ -1,23 +1,28 @@
 # SummerOfCode/2016/python-core
 
-::: {#content dir="ltr" lang="en"}
-# About Core Python {#About_Core_Python}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# About Core Python 
 
 Core Python encompasses projects that affect the core infrastructure, libraries and CPython.
 
-# Getting Started {#Getting_Started}
+# Getting Started 
 
-The website to help you get started in Core Python development is [http://pythonmentors.com/](http://pythonmentors.com/){.http}.
+The website to help you get started in Core Python development is [http://pythonmentors.com/](http://pythonmentors.com/).
 
-# Contact info {#Contact_info}
+# Contact info 
 
-To chat with the Core Python mentors, please use the [core-mentorship@python.org](mailto:core-mentorship@python.org){.mailto} mailing list. [Sign up](https://mail.python.org/mailman/listinfo/core-mentorship){.https}
+To chat with the Core Python mentors, please use the [core-mentorship@python.org](mailto:core-mentorship@python.org) mailing list. [Sign up](https://mail.python.org/mailman/listinfo/core-mentorship)
 
-# Ideas {#Ideas}
+# Ideas 
 
 Core Python is still getting its ideas page together, please ask on the mailing list if you need more information!
 
-## 1. FAT Python {#A1._FAT_Python}
+## 1. FAT Python 
 
 - **Project description**: FAT Python is a new static optimizer for CPython 3.6. It specializes functions using guards. Specialization is a new feature (PEP 510) which allows to implement new kinds of optimizations like loop unrolling and function inlining. The goal of the GSoC is to implement new optimizations in fatoptimizer to prove that the design allows to really make CPython faster. Then maybe also help on the low-level parts like fat (guards implemened in C) and help to finish the work on PEPs 509 (dict version), PEP 510 (specialization) and PEP 511 (API for AST optimizers).
 
@@ -25,25 +30,25 @@ Core Python is still getting its ideas page together, please ask on the mailing 
 
 - **Difficulty level**: Hard
 
-- **Related Readings/Links**: [http://fatoptimizer.readthedocs.org/en/latest/gsoc.html](http://fatoptimizer.readthedocs.org/en/latest/gsoc.html){.http}
+- **Related Readings/Links**: [http://fatoptimizer.readthedocs.org/en/latest/gsoc.html](http://fatoptimizer.readthedocs.org/en/latest/gsoc.html)
 
 - **Potential mentors**: Victor Stinner
 
-## 2. Roundup {#A2._Roundup}
+## 2. Roundup 
 
-- **Project description**: Work on Roundup, [http://bugs.python.org/](http://bugs.python.org/){.http} to improve github integration, etc.
+- **Project description**: Work on Roundup, [http://bugs.python.org/](http://bugs.python.org/) to improve github integration, etc.
 
 - **Skills**: python, git
 
 - **Difficulty level**: Intermediate
 
-- **Related Readings/Links**: [https://mail.python.org/mailman/private/core-mentorship/2016-February/003422.html](https://mail.python.org/mailman/private/core-mentorship/2016-February/003422.html){.https}
+- **Related Readings/Links**: [https://mail.python.org/mailman/private/core-mentorship/2016-February/003422.html](https://mail.python.org/mailman/private/core-mentorship/2016-February/003422.html)
 
 - **Potential mentors**: Terry, David, Stephen
 
-## 3. A gui (tkinter) front end for pip {#A3._A_gui_.28tkinter.29_front_end_for_pip}
+## 3. A gui (tkinter) front end for pip 
 
-- **Project description**: Many users are not familiar with the command line and thus find difficulties using and accessing PIP. This project would involve creating interactive menus to help guide new users through the process of installing packages using PIP. [https://bugs.python.org/issue23551](https://bugs.python.org/issue23551){.https} contains preliminary design ideas.
+- **Project description**: Many users are not familiar with the command line and thus find difficulties using and accessing PIP. This project would involve creating interactive menus to help guide new users through the process of installing packages using PIP. [https://bugs.python.org/issue23551](https://bugs.python.org/issue23551) contains preliminary design ideas.
 
 Such a visual tool would be extremely useful, and I would make it accessible from IDLE. Once a basic version were written, the additional feature set for the project could be adjusted to fit the time remaining.
 
@@ -51,7 +56,6 @@ Such a visual tool would be extremely useful, and I would make it accessible fro
 
 - **Difficulty level**: Intermediate
 
-- **Related Readings/Links**: [https://bugs.python.org/issue23551](https://bugs.python.org/issue23551){.https}
+- **Related Readings/Links**: [https://bugs.python.org/issue23551](https://bugs.python.org/issue23551)
 
 - **Potential mentors**: Terry, ??
-:::

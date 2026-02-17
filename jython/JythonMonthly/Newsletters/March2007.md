@@ -1,16 +1,21 @@
 # JythonMonthly/Newsletters/March2007
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 ::: {}
   ----------------------------- ---------------------------------------------------------------------------------------------------
-  ***Jython Monthly***           ![](http://www.jython.org/css/jython.png "http://www.jython.org/css/jython.png"){.external_image}
+  ***Jython Monthly***           ![](http://www.jython.org/css/jython.png "http://www.jython.org/css/jython.png")
   **March 2007 \-- Issue #9**   
   ----------------------------- ---------------------------------------------------------------------------------------------------
 :::
 
 Welcome to the March 2007 issue of Jython Monthly. The content of this newsletter will focus on using and developing the Jython languge. I want to encourage the readers of Jython Monthly to send any articles, tips, tricks, or any other Jython related material to me if you think it should be distributed with this newsletter.
 
-There was a lot of activity in the Python community this past month. The Pycon 2007 event took place and it appears to have been a complete success. Unfortunately, I was unable to attend the event myself, but I have been told by many that it was an excellent event. Please visit the [PyCon website](http://us.pycon.org/apps07/schedule/){.http} for a complete listing of the topics discussed.
+There was a lot of activity in the Python community this past month. The Pycon 2007 event took place and it appears to have been a complete success. Unfortunately, I was unable to attend the event myself, but I have been told by many that it was an excellent event. Please visit the [PyCon website](http://us.pycon.org/apps07/schedule/) for a complete listing of the topics discussed.
 
 The Jython community has been busier than ever. If you are a member of the Jython mailing lists then you know what I mean, it is hard to stay current with all of the e-mail postings from the community. Please contribute to future newsletters by writing articles or tutorials based on your experiences with Jython!
 
@@ -20,19 +25,19 @@ Questions, comments, or suggestions?
 
 Please send email to:
 
-[jython-monthly@mchsi.com](mailto:jython-monthly@mchsi.com){.mailto} or [jython-users@lists.sourceforge.net](mailto:jython-users@lists.sourceforge.net){.mailto} for discussion.
+[jython-monthly@mchsi.com](mailto:jython-monthly@mchsi.com) or [jython-users@lists.sourceforge.net](mailto:jython-users@lists.sourceforge.net) for discussion.
 
-# News {#News}
+# News 
 
-[JSR223 Engine updated](http://news.java-virtual-machine.net/news/13-february-2007-a-sundararajan-updated-jython-jsr-223-engine-with-jython-22b1.html){.http}
+[JSR223 Engine updated](http://news.java-virtual-machine.net/news/13-february-2007-a-sundararajan-updated-jython-jsr-223-engine-with-jython-22b1.html)
 
-# Articles {#Articles}
+# Articles 
 
-[Jython Beta with All Features of Python Version 2.2 Released](http://www.pythonthreads.com/index2.php?option=com_content&do_pdf=1&id=305){.http}
+[Jython Beta with All Features of Python Version 2.2 Released](http://www.pythonthreads.com/index2.php?option=com_content&do_pdf=1&id=305)
 
-[Write Eclipse JUnit Tests in Jython](http://www.devx.com/Java/Article/26602/0/page/1){.http}
+[Write Eclipse JUnit Tests in Jython](http://www.devx.com/Java/Article/26602/0/page/1)
 
-# Off The Lists {#Off_The_Lists}
+# Off The Lists 
 
 ***Question Submitted By Richard M.:***
 
@@ -48,33 +53,33 @@ Yes, when a button is pressed, Jython can Java methods. The usual Python GUI too
 
 Have you seen these?
 
-[http://www.jython.org/docs/usejava.html](http://www.jython.org/docs/usejava.html){.http}
+[http://www.jython.org/docs/usejava.html](http://www.jython.org/docs/usejava.html)
 
-[http://www.jython.org/Project/userguide.html#accessing-java-from-jython](http://www.jython.org/Project/userguide.html#accessing-java-from-jython){.http}
+[http://www.jython.org/Project/userguide.html#accessing-java-from-jython](http://www.jython.org/Project/userguide.html#accessing-java-from-jython)
 
-# Interested in Developing Jython? {#Interested_in_Developing_Jython.3F}
+# Interested in Developing Jython? 
 
-If you are interested in developing Jython, please take a look at the [current bug listing](http://sourceforge.net/tracker/?func=browse&group_id=12867&atid=112867){.http} and submit patches for items which you can repair.
+If you are interested in developing Jython, please take a look at the [current bug listing](http://sourceforge.net/tracker/?func=browse&group_id=12867&atid=112867) and submit patches for items which you can repair.
 
-# Jython Blogs {#Jython_Blogs}
+# Jython Blogs 
 
-[Jython and JNDI](http://www.briggs.net.nz/log/2007/02/28/jython-and-jndi/){.http}
+[Jython and JNDI](http://www.briggs.net.nz/log/2007/02/28/jython-and-jndi/)
 
-[Blogging Regarding Jython and Unicode Data](http://eternusuk.blogspot.com/2007_02_01_archive.html){.http}
+[Blogging Regarding Jython and Unicode Data](http://eternusuk.blogspot.com/2007_02_01_archive.html)
 
-# IDE {#IDE}
+# IDE 
 
-[JAIDA and Jython](http://java.freehep.org/jaida/jython-jaida.html){.http}
+[JAIDA and Jython](http://java.freehep.org/jaida/jython-jaida.html)
 
-[JyDT for Eclipse](http://www.redrobinsoftware.net/jydt/){.http}
+[JyDT for Eclipse](http://www.redrobinsoftware.net/jydt/)
 
 **Pydev and Pydev Extensions 1.3.0 have been released**
 
-Details on Pydev Extensions: [http://www.fabioz.com/pydev](http://www.fabioz.com/pydev){.http}
+Details on Pydev Extensions: [http://www.fabioz.com/pydev](http://www.fabioz.com/pydev)
 
-Details on Pydev: [http://pydev.sf.net](http://pydev.sf.net){.http}
+Details on Pydev: [http://pydev.sf.net](http://pydev.sf.net)
 
-Details on its development: [http://pydev.blogspot.com](http://pydev.blogspot.com){.http}
+Details on its development: [http://pydev.blogspot.com](http://pydev.blogspot.com)
 
 *Release Highlights in Pydev Extensions:*
 
@@ -98,35 +103,34 @@ Details on its development: [http://pydev.blogspot.com](http://pydev.blogspot.co
 
 \* Fix: Package Explorer: some intercepts removed elements incorrectly, and ended up messing the navigator and search (which has \'null\' elements because of that)
 
-# Discussions {#Discussions}
+# Discussions 
 
-[Websphere Extended Repository Service & Jython Scripting](http://www-128.ibm.com/developerworks/forums/dw_thread.jsp?message=13919392&cat=9&thread=151729&treeDisplayType=threadmode1&forum=778#13919392){.http}
+[Websphere Extended Repository Service & Jython Scripting](http://www-128.ibm.com/developerworks/forums/dw_thread.jsp?message=13919392&cat=9&thread=151729&treeDisplayType=threadmode1&forum=778#13919392)
 
-[Help Porting Jython to UIQ3](http://developer.sonyericsson.com/thread.jspa?threadID=37982&tstart=0){.http}
+[Help Porting Jython to UIQ3](http://developer.sonyericsson.com/thread.jspa?threadID=37982&tstart=0)
 
 *Upcoming Discussions*
 
-[Orlando JUG: Introducing Jython](http://www.orlandojug.org/){.http}
+[Orlando JUG: Introducing Jython](http://www.orlandojug.org/)
 
-# Interesting Facts {#Interesting_Facts}
+# Interesting Facts 
 
-Jython - Average Job Salary & Stats in UK [http://www.itjobswatch.co.uk/jobs/uk/jython.do](http://www.itjobswatch.co.uk/jobs/uk/jython.do){.http}
+Jython - Average Job Salary & Stats in UK [http://www.itjobswatch.co.uk/jobs/uk/jython.do](http://www.itjobswatch.co.uk/jobs/uk/jython.do)
 
-# Useful Links {#Useful_Links}
+# Useful Links 
 
-[Jacl v2.5 Released](http://www-1.ibm.com/support/docview.wss?rs=180&uid=swg24012144){.http}
+[Jacl v2.5 Released](http://www-1.ibm.com/support/docview.wss?rs=180&uid=swg24012144)
 
-The IBM® Jacl to Jython Conversion Assistant ([Jacl2Jython](./Jacl2Jython.html){.nonexistent}) is a program that assists in converting [WebSphere](WebSphere)® administrative (wsadmin) scripts written in Jacl into Jython syntax.
+The IBM® Jacl to Jython Conversion Assistant ([Jacl2Jython](./Jacl2Jython.html)) is a program that assists in converting [WebSphere](WebSphere)® administrative (wsadmin) scripts written in Jacl into Jython syntax.
 
 ::: {}
   ----------------------------------------------------------------
   **Links**
-  [Jython Home](http://www.jython.org){.http}
-  [Python Home](http://www.python.org){.http}
-  [Jython WikiPedia](http://en.wikipedia.org/wiki/Jython){.http}
-  [Freshmeat.net](http://freshmeat.net/projects/jython/){.http}
-  [Python Daily News](http://www.pythonware.com/daily/){.http}
-  [Planet Jython](http://planet.jython.org/){.http}
+  [Jython Home](http://www.jython.org)
+  [Python Home](http://www.python.org)
+  [Jython WikiPedia](http://en.wikipedia.org/wiki/Jython)
+  [Freshmeat.net](http://freshmeat.net/projects/jython/)
+  [Python Daily News](http://www.pythonware.com/daily/)
+  [Planet Jython](http://planet.jython.org/)
   ----------------------------------------------------------------
 :::
-:::::

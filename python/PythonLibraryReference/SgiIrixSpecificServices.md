@@ -1,6 +1,11 @@
 # PythonLibraryReference/SgiIrixSpecificServices
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [Python Library Reference](PythonLibraryReference)
 
 ::: {}
@@ -9,7 +14,7 @@
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-# SGI Irix Specific Services {#SGI_Irix_Specific_Services}
+# SGI Irix Specific Services 
 
 20.1 al \-- Audio functions on the SGI
 
@@ -41,9 +46,8 @@
 
 20.12 jpeg \-- Read and write JPEG files
 
-## Comments {#Comments}
+## Comments 
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-::::

@@ -1,13 +1,18 @@
 # OromoLanguage
 
-::::: {#content dir="ltr" lang="en"}
-**Oromo** ( Oromo: *Afaan Oromoo*) is an Afroasiatic language belonging to the *Cushitic branch*. It is native to the Ethiopian state of Oromia and spoken predominantly by the Oromo people and neighbouring ethnic groups in the Horn of Africa ;[https://www.ethnologue.com/browse/families](./HornofAfrica.html){.nonexistent}.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+**Oromo** ( Oromo: *Afaan Oromoo*) is an Afroasiatic language belonging to the *Cushitic branch*. It is native to the Ethiopian state of Oromia and spoken predominantly by the Oromo people and neighbouring ethnic groups in the Horn of Africa ;[https://www.ethnologue.com/browse/families](./HornofAfrica.html).
 
 **Afaan Oromoo**
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-046e1bb7da86654fd3b1ddaca4ed0473f1f812b6 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Python 3.0/3.1
    2 
    3 # English
@@ -82,4 +87,3 @@
 ------------------------------------------------------------------------
 
 [CategoryLanguage](CategoryLanguage)
-:::::

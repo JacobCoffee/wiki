@@ -1,16 +1,21 @@
 # PyCon2010ClevelandBid
 
-:::: {#content dir="ltr" lang="en"}
-[ClePy](http://www.clepy.org){.http} is working on a bid for [PyCon](PyCon) 2010 and 2011. The official proposal will be at [PyCon2010ClevelandProposal](PyCon2010ClevelandProposal).
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[ClePy](http://www.clepy.org) is working on a bid for [PyCon](PyCon) 2010 and 2011. The official proposal will be at [PyCon2010ClevelandProposal](PyCon2010ClevelandProposal).
 
 **I want in**\
 *Put your name here if you plan on helping out\...*
 
-[David Stanek](http://www.traceback.org){.http}
+[David Stanek](http://www.traceback.org)
 
-[Catherine Devlin](http://wiki.python.org/moin/CatherineDevlin){.http}
+[Catherine Devlin](http://wiki.python.org/moin/CatherineDevlin)
 
-# Staffing {#Staffing}
+# Staffing 
 
 If you are interested in helping out put your name down for each one you would feel comfortable contributing to. Have no fear this is not a formal signup. You will not have to do anything. This is just to gauge interest and see who may be interested in helping. Putting your name next to more than one position is encouraged!
 
@@ -89,4 +94,3 @@ If you are interested in helping out put your name down for each one you would f
 | Registration Desk Staffers        |                                               |
 +-----------------------------------+-----------------------------------------------+
 :::
-::::

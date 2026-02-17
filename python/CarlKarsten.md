@@ -1,13 +1,17 @@
 # CarlKarsten
 
-::: {#content dir="ltr" lang="en"}
-## Carl Karsten {#Carl_Karsten}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Email: \<\<Carl Karsten([carl@NextDayVideo.com](mailto:carl@NextDayVideo.com){.mailto})\>\>
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Carl Karsten 
+
+Email: \<\<Carl Karsten([carl@NextDayVideo.com](mailto:carl@NextDayVideo.com))\>\>
 
 \...
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

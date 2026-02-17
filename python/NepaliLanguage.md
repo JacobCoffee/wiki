@@ -1,11 +1,16 @@
 # NepaliLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python related information in Nepali
 
 ISO 639-1 Code: ne
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -27,11 +32,11 @@ Where these pages really need help:
 
 **नेपाली**
 
-Code snippet phrases taken from [Wikipedia](http://en.wikipedia.org/wiki/Nepali_language){.http}
+Code snippet phrases taken from [Wikipedia](http://en.wikipedia.org/wiki/Nepali_language)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-0e4f515b1790ca85a3ed6c94e51aec5c8e5a736b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # -*- coding: utf-8 -*-
    2 # python 3.0 or 3.1
    3 
@@ -54,4 +59,3 @@ Code snippet phrases taken from [Wikipedia](http://en.wikipedia.org/wiki/Nepali_
 ::::
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode)
-:::::

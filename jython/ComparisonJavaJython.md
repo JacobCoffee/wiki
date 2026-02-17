@@ -1,6 +1,11 @@
 # ComparisonJavaJython
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Describe ComparisonJavaJython here.
 
 ::: {}
@@ -11,4 +16,3 @@ Describe ComparisonJavaJython here.
   array assignment   double re = reFun.evaluate(new double\[\] {data\[i\]\[j\]\[0\], data\[i\]\[j\]\[1\]});   re = self.reFun.evaluate(\[data\[i\]\[j\]\[0\], data\[i\]\[j\]\[1\]\])
   ------------------ ---------------------------------------------------------------------------------------- ------------------------------------------------------------------------
 :::
-::::

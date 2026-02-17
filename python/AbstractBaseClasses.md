@@ -1,9 +1,14 @@
 # AbstractBaseClasses
 
-::: {#content dir="ltr" lang="en"}
-# Possible Python 3K Class Tree? {#Possible_Python_3K_Class_Tree.3F}
+```{admonition} Legacy Wiki Page
+:class: note
 
-\[**News Update:** some ideas from this wiki page are being incorporated into [PEP 3119](http://python.org/dev/peps/pep-3119/){.http}.\]
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Possible Python 3K Class Tree? 
+
+\[**News Update:** some ideas from this wiki page are being incorporated into [PEP 3119](http://python.org/dev/peps/pep-3119/).\]
 
 This page contain an incomplete thinking-out-loud description of a re-factoring of the base and built-in Python types into a set of Abstract Base Classes (ABCs) and concrete types. This would probably be a good time to enumerate the exceptions various basic operations can raise, as well.
 
@@ -261,4 +266,3 @@ Some questions:
      # I'd suggest UNIX implementation just use "file", while Windows implementations
      # use registry and file extensions.
      # something like:  mimetype () => String, String
-:::

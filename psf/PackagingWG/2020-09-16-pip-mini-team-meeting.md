@@ -1,6 +1,11 @@
 # PackagingWG/2020-09-16-pip-mini-team-meeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Wednesday September 16
 
 Participants
@@ -26,7 +31,7 @@ Agenda
   - Bernard: everything cooking nicely! \[checking whether UX studies has had more signups\]
     - Since PSF blogpost went out we got 9 more (290 in total now) sign-ups
 
-  - Georgia: catching up from trying to take off last week. ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"} working on tweet drafts. adding to a Notion page \[INTERNAL LINK, not public please\] am working on wording, templates. Working to finish that today. Next: provide to Ernest. Ernest can please edit! ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"}
+  - Georgia: catching up from trying to take off last week. ![:-)](/wiki/europython/img/smile.png ":-)") working on tweet drafts. adding to a Notion page \[INTERNAL LINK, not public please\] am working on wording, templates. Working to finish that today. Next: provide to Ernest. Ernest can please edit! ![:-)](/wiki/europython/img/smile.png ":-)")
 
   - Ernest: nothing. But: halfway through Sept. Please invoice for Aug. And it would be really nice if Sept invoices came by Oct 1st, to close out quarter.
 
@@ -41,7 +46,7 @@ Agenda
 - UX presentation by Bernard on emerging research themes
   - this is in-progress so let\'s not publicly link it to avoid people making assumptions
 
-  - this was based on the \"who uses pip?\" research survey \-- \"pip Research: Learning about our users\" ([https://saneuxdesign.survey.fm/pip-learning-about-our-users](https://saneuxdesign.survey.fm/pip-learning-about-our-users){.https} )
+  - this was based on the \"who uses pip?\" research survey \-- \"pip Research: Learning about our users\" ([https://saneuxdesign.survey.fm/pip-learning-about-our-users](https://saneuxdesign.survey.fm/pip-learning-about-our-users) )
 
     - note for the future: Sumana would love for us to have a unique name or ID number for each survey so we can refer to a survey (internally) unambiguously in the future
 
@@ -60,7 +65,7 @@ Agenda
   - SOME POSSIBLE RESEARCH QUESTIONS about people\'s mental models (it may be useful to partition this by \"how many years have you been using Python?\" since issues in the issue tracker are usually from people with very little skill or a lot of skill in using pip and that probbbbbbbbably correlates with years of experience in Python)
     - what are reasons why pip might fail/error out?
 
-    - what is the difference between installing a wheel and a source distribution? (reason to ask this: we want to get more people to want and publish wheels [https://github.com/pypa/packaging-problems/issues/25](https://github.com/pypa/packaging-problems/issues/25){.https} and so we want more people to understand that downloading and installing wheels would be faster. Do people already know this? let\'s check)
+    - what is the difference between installing a wheel and a source distribution? (reason to ask this: we want to get more people to want and publish wheels [https://github.com/pypa/packaging-problems/issues/25](https://github.com/pypa/packaging-problems/issues/25) and so we want more people to understand that downloading and installing wheels would be faster. Do people already know this? let\'s check)
 
     - what command-line args/flags can you use? what do they do?
 
@@ -70,4 +75,3 @@ Agenda
 
 - plans for 20.3
   - deferred to Zulip/GitHub conversation
-:::

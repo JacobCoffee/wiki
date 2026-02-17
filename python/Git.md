@@ -1,64 +1,69 @@
 # Git
 
-::::::::::::::::::::::::::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
-::: {#abstract .section}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+::: 
 ### Abstract
 
 This page (it was PEP 103) collects information about git. There is, of course, a lot of documentation for git, so the PEP concentrates on more complex (and more related to Python development) issues, scenarios and examples.
 :::
 
-:::::: {#documentation .section}
+:::::: 
 ### Documentation
 
 Git is accompanied with a lot of documentation, both online and offline.
 
-::: {#documentation-for-starters .section}
+::: 
 #### Documentation for starters
 
-Git Tutorial: [part 1](https://www.kernel.org/pub/software/scm/git/docs/gittutorial.html){.https .reference .external}, [part 2](https://www.kernel.org/pub/software/scm/git/docs/gittutorial-2.html){.https .reference .external}.
+Git Tutorial: [part 1](https://www.kernel.org/pub/software/scm/git/docs/gittutorial.html), [part 2](https://www.kernel.org/pub/software/scm/git/docs/gittutorial-2.html).
 
-[Git User\'s manual](https://www.kernel.org/pub/software/scm/git/docs/user-manual.html){.https .reference .external}. [Everyday GIT With 20 Commands Or So](https://www.kernel.org/pub/software/scm/git/docs/giteveryday.html){.https .reference .external}. [Git workflows](https://www.kernel.org/pub/software/scm/git/docs/gitworkflows.html){.https .reference .external}.
+[Git User\'s manual](https://www.kernel.org/pub/software/scm/git/docs/user-manual.html). [Everyday GIT With 20 Commands Or So](https://www.kernel.org/pub/software/scm/git/docs/giteveryday.html). [Git workflows](https://www.kernel.org/pub/software/scm/git/docs/gitworkflows.html).
 :::
 
-::: {#advanced-documentation .section}
+::: 
 #### Advanced documentation
 
-[Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/index.html){.http .reference .external}, with a number of translations.
+[Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/index.html), with a number of translations.
 
-[Pro Git](https://git-scm.com/book){.https .reference .external}. The Book about git. Buy it at Amazon or download in PDF, mobi, or ePub form. It has translations to many different languages. Download Russian translation from [GArik](https://github.com/GArik/progit/wiki){.https .reference .external}.
+[Pro Git](https://git-scm.com/book). The Book about git. Buy it at Amazon or download in PDF, mobi, or ePub form. It has translations to many different languages. Download Russian translation from [GArik](https://github.com/GArik/progit/wiki).
 
-[Git Wiki](https://git.wiki.kernel.org/index.php/Main_Page){.https .reference .external}.
+[Git Wiki](https://git.wiki.kernel.org/index.php/Main_Page).
 
-[Git Buch](http://gitbu.ch/index.html){.http .reference .external} (German).
+[Git Buch](http://gitbu.ch/index.html) (German).
 :::
 
-::: {#builtin-help .section}
+::: 
 #### Builtin help
 
 Run `git help $TOPIC`. For example, run `git help git` or `git help help`. Run `git help -a` to list help topics for all available commands; `git help -g` to list help guides, i.e. help topics that aren\'t commands.
 :::
 ::::::
 
-::::: {#quick-start .section}
+::::: 
 ### Quick start
 
-::: {#download-and-installation .section}
+::: 
 #### Download and installation
 
-Unix users: [download and install using your package manager](https://git-scm.com/download/linux){.https .reference .external}.
+Unix users: [download and install using your package manager](https://git-scm.com/download/linux).
 
-Microsoft Windows: download [git-for-windows](https://github.com/git-for-windows/git/releases){.https .reference .external}.
+Microsoft Windows: download [git-for-windows](https://github.com/git-for-windows/git/releases).
 
-MacOS X: use git installed with [XCode](https://developer.apple.com/xcode/){.https .reference .external} or download from [MacPorts](https://www.macports.org/ports.php?by=name&substr=git){.https .reference .external} or [git-osx-installer](http://sourceforge.net/projects/git-osx-installer/files/){.http .reference .external} or install git with [Homebrew](http://brew.sh/){.http .reference .external}: `brew install git`.
+MacOS X: use git installed with [XCode](https://developer.apple.com/xcode/) or download from [MacPorts](https://www.macports.org/ports.php?by=name&substr=git) or [git-osx-installer](http://sourceforge.net/projects/git-osx-installer/files/) or install git with [Homebrew](http://brew.sh/): `brew install git`.
 
-[git-cola](https://git-cola.github.io/index.html){.https .reference .external} ([repository](https://github.com/git-cola/git-cola){.https .reference .external}) is a Git GUI written in Python and GPL licensed. Linux, Windows, MacOS X.
+[git-cola](https://git-cola.github.io/index.html) ([repository](https://github.com/git-cola/git-cola)) is a Git GUI written in Python and GPL licensed. Linux, Windows, MacOS X.
 
-[GitAhead](https://gitahead.com/){.https .reference .external} is a completely free and open source graphical Git client for Linux, Windows and macOS.
+[GitAhead](https://gitahead.com/) is a completely free and open source graphical Git client for Linux, Windows and macOS.
 
-[TortoiseGit](https://tortoisegit.org/){.https .reference .external} is a Windows Shell Interface to Git based on TortoiseSVN; open source.
+[TortoiseGit](https://tortoisegit.org/) is a Windows Shell Interface to Git based on TortoiseSVN; open source.
 :::
 
-::: {#initial-configuration .section}
+::: 
 #### Initial configuration
 
 This simple code is often appears in documentation, but it is important so let repeat it here. Git stores author and committer names/emails in every commit, so configure your real name and preferred email:
@@ -68,7 +73,7 @@ This simple code is often appears in documentation, but it is important so let r
 :::
 :::::
 
-::: {#examples-in-this-pep .section}
+::: 
 ### Examples in this PEP
 
 Examples of git commands in this PEP use the following approach. It is supposed that you, the user, works with a local repository named `python` that has an upstream remote repo named `origin`. Your local repo has two branches `v1` and `master`. For most examples the currently checked out branch is `master`. That is, it\'s assumed you have done something like that:
@@ -90,13 +95,13 @@ The same result can be achieved with commands:
 The last command creates a new local branch master, sets remotes/origin/master as its upstream remote-tracking branch and checks it out into the working directory.
 :::
 
-::: {#branches-and-branches .section}
+::: 
 ### Branches and branches
 
 Git terminology can be a bit misleading. Take, for example, the term \"branch\". In git it has two meanings. A branch is a directed line of commits (possibly with merges). And a branch is a label or a pointer assigned to a line of commits. It is important to distinguish when you talk about commits and when about their labels. Lines of commits are by itself unnamed and are usually only lengthening and merging. Labels, on the other hand, can be created, moved, renamed and deleted freely.
 :::
 
-:::::::: {#remote-repositories-and-remote-branches .section}
+:::::::: 
 ### Remote repositories and remote branches
 
 Remote-tracking branches are branches (pointers to commits) in your local repository. They are there for git (and for you) to remember what branches and commits have been pulled from and pushed to what remote repos (you can pull from and push to many remotes). Remote-tracking branches live under `remotes/$REMOTE` namespaces, e.g. `remotes/origin/master`.
@@ -119,7 +124,7 @@ git clones remote repository `https://git.python.org/python.git` to directory `p
 
 Some commands, like `git status --branch` and `git branch --verbose`, report the difference between local and remote branches. Please remember they only do comparison with remote-tracking branches in your local repository, and the state of those remote-tracking branches can be outdated. To update remote-tracking branches you either fetch and merge (or rebase) commits from the remote repository or update remote-tracking branches without updating local branches.
 
-::::::: {#updating-local-and-remote-tracking-branches .section}
+::::::: 
 #### Updating local and remote-tracking branches
 
 To update remote-tracking branches without updating local branches run `git remote update [$REMOTE...]`. For example:
@@ -127,7 +132,7 @@ To update remote-tracking branches without updating local branches run `git remo
     $ git remote update
     $ git remote update origin
 
-::: {#fetch-and-pull .section}
+::: 
 ##### Fetch and pull
 
 There is a major difference between
@@ -177,7 +182,7 @@ or even
 Default remote repository for fetching/pulling is `origin`. Default set of references to fetch is calculated using matching algorithm: git fetches all branches having the same name on both ends.
 :::
 
-::: {#push .section}
+::: 
 ##### Push
 
 Pushing is a bit simpler. There is only one command `push`. When you run
@@ -188,7 +193,7 @@ git pushes local v1 to remote v1 and local master to remote master. The same as:
 
     $ git push origin v1:v1 master:master
 
-Git pushes commits to the remote repo and updates remote-tracking branches. Git refuses to push commits that aren\'t fast-forwardable. You can force-push anyway, but please remember - you can force-push to your own repositories but don\'t force-push to public or shared repos. If you find git refuses to push commits that aren\'t fast-forwardable, better fetch and merge commits from the remote repo (or rebase your commits on top of the fetched commits), then push. Only force-push if you know what you do and why you do it. See the section [Commit editing and caveats](#commit-editing-and-caveats){.reference .internal} below.
+Git pushes commits to the remote repo and updates remote-tracking branches. Git refuses to push commits that aren\'t fast-forwardable. You can force-push anyway, but please remember - you can force-push to your own repositories but don\'t force-push to public or shared repos. If you find git refuses to push commits that aren\'t fast-forwardable, better fetch and merge commits from the remote repo (or rebase your commits on top of the fetched commits), then push. Only force-push if you know what you do and why you do it. See the section [Commit editing and caveats](#commit-editing-and-caveats) below.
 
 It is possible to configure git to make it push a few branches or all branches at once, so you can simply run
 
@@ -212,10 +217,10 @@ Git doesn\'t allow to push a branch if it\'s the current branch in the remote no
 
 When you want to deploy code on a remote host and can only use push (because your workstation is behind a firewall and you cannot pull from it) you do that in two steps using two repositories: you push from the workstation to a bare repo on the remote host, ssh to the remote host and pull from the bare repo to a non-bare deployment repo.
 
-That changed in git 2.3, but see [the blog post](https://github.com/blog/1957-git-2-3-has-been-released#push-to-deploy){.https .reference .external} for caveats; in 2.4 the push-to-deploy feature was [further improved](https://github.com/blog/1994-git-2-4-atomic-pushes-push-to-deploy-and-more#push-to-deploy-improvements){.https .reference .external}.
+That changed in git 2.3, but see [the blog post](https://github.com/blog/1957-git-2-3-has-been-released#push-to-deploy) for caveats; in 2.4 the push-to-deploy feature was [further improved](https://github.com/blog/1994-git-2-4-atomic-pushes-push-to-deploy-and-more#push-to-deploy-improvements).
 :::
 
-::: {#tags .section}
+::: 
 ##### Tags
 
 Git automatically fetches tags that point to commits being fetched during fetch/pull. To fetch all tags (and commits they point to) run `git fetch --tags origin`. To fetch some specific tags fetch them explicitly:
@@ -239,7 +244,7 @@ Or push all tags at once:
 Don\'t move tags with `git tag -f` or remove tags with `git tag -d` after they have been published.
 :::
 
-::: {#private-information .section}
+::: 
 ##### Private information
 
 When cloning/fetching/pulling/pushing git copies only database objects (commits, trees, files and tags) and symbolic references (branches and lightweight tags). Everything else is private to the repository and never cloned, updated or pushed. It\'s your config, your hooks, your private exclude file.
@@ -249,7 +254,7 @@ If you want to distribute hooks, copy them to the working tree, add, commit, pus
 :::::::
 ::::::::
 
-::: {#commit-editing-and-caveats .section}
+::: 
 ### Commit editing and caveats
 
 A warning not to edit published (pushed) commits also appears in documentation but it\'s repeated here anyway as it\'s very important.
@@ -274,17 +279,17 @@ To compare the status of local branches with a remote repo:
 
     $ git remote show origin
 
-Read [how to recover from upstream rebase](https://git-scm.com/docs/git-rebase#_recovering_from_upstream_rebase){.https .reference .external}. It is in `git help rebase`.
+Read [how to recover from upstream rebase](https://git-scm.com/docs/git-rebase#_recovering_from_upstream_rebase). It is in `git help rebase`.
 
 On the other hand, don\'t be too afraid about commit editing. You can safely edit, reorder, remove, combine and split commits that haven\'t been pushed yet. You can even push commits to your own (backup) repo, edit them later and force-push edited commits to replace what have already been pushed. Not a problem until commits are in a public or shared repository.
 :::
 
-::::::::: {#undo .section}
+::::::::: 
 ### Undo
 
 Whatever you do, don\'t panic. Almost anything in git can be undone.
 
-::: {#git-checkout-restore-file-s-content .section}
+::: 
 #### git checkout: restore file\'s content
 
 `git checkout`, for example, can be used to restore the content of file(s) to that one of a commit. Like this:
@@ -296,21 +301,21 @@ The commands restores the contents of README file to the last but one commit in 
 (Do not use `git checkout` to view a content of a file in a commit, use `git cat-file -p`; e.g. `git cat-file -p HEAD~:path/to/README`).
 :::
 
-:::: {#git-reset-remove-non-pushed-commits .section}
+:::: 
 #### git reset: remove (non-pushed) commits
 
 `git reset` moves the head of the current branch. The head can be moved to point to any commit but it\'s often used to remove a commit or a few (preferably, non-pushed ones) from the top of the branch - that is, to move the branch backward in order to undo a few (non-pushed) commits.
 
-`git reset` has three modes of operation - soft, hard and mixed. Default is mixed. ProGit [explains](https://git-scm.com/book/en/Git-Tools-Reset-Demystified){.https .reference .external} the difference very clearly. Bare repositories don\'t have indices or working trees so in a bare repo only soft reset is possible.
+`git reset` has three modes of operation - soft, hard and mixed. Default is mixed. ProGit [explains](https://git-scm.com/book/en/Git-Tools-Reset-Demystified) the difference very clearly. Bare repositories don\'t have indices or working trees so in a bare repo only soft reset is possible.
 
-::: {#unstaging .section}
+::: 
 ##### Unstaging
 
-Mixed mode reset with a path or paths can be used to unstage changes - that is, to remove from index changes added with `git add` for committing. See [The Book](https://git-scm.com/book/en/Git-Basics-Undoing-Things){.https .reference .external} for details about unstaging and other undo tricks.
+Mixed mode reset with a path or paths can be used to unstage changes - that is, to remove from index changes added with `git add` for committing. See [The Book](https://git-scm.com/book/en/Git-Basics-Undoing-Things) for details about unstaging and other undo tricks.
 :::
 ::::
 
-::: {#git-reflog-reference-log .section}
+::: 
 #### git reflog: reference log
 
 Removing commits with `git reset` or moving the head of a branch sounds dangerous and it is. But there is a way to undo: another reset back to the original commit. Git doesn\'t remove commits immediately; unreferenced commits (in git terminology they are called \"dangling commits\") stay in the database for some time (default is two weeks) so you can reset back to it or create a new branch pointing to the original commit.
@@ -332,15 +337,15 @@ In a more complex situation you\'d want to move some commits along with resettin
     $ git branch -D save-master  # remove temporary branch
 :::
 
-::: {#git-revert-revert-a-commit .section}
+::: 
 #### git revert: revert a commit
 
 `git revert` reverts a commit or commits, that is, it creates a new commit or commits that revert(s) the effects of the given commits. It\'s the only way to undo published commits (`git commit --amend`, `git rebase` and `git reset` change the branch in non-fast-forwardable ways so they should only be used for non-pushed commits.)
 
-There is a problem with reverting a merge commit. `git revert` can undo the code created by the merge commit but it cannot undo the fact of merge. See the discussion [How to revert a faulty merge](https://www.kernel.org/pub/software/scm/git/docs/howto/revert-a-faulty-merge.html){.https .reference .external}.
+There is a problem with reverting a merge commit. `git revert` can undo the code created by the merge commit but it cannot undo the fact of merge. See the discussion [How to revert a faulty merge](https://www.kernel.org/pub/software/scm/git/docs/howto/revert-a-faulty-merge.html).
 :::
 
-::: {#one-thing-that-cannot-be-undone .section}
+::: 
 #### One thing that cannot be undone
 
 Whatever you undo, there is one thing that cannot be undone - overwritten uncommitted changes. Uncommitted changes don\'t belong to git so git cannot help preserving them.
@@ -353,7 +358,7 @@ With that in mind you can understand the stance \"commit early, commit often\". 
 :::
 :::::::::
 
-::: {#merge-or-rebase .section}
+::: 
 ### Merge or rebase?
 
 Internet is full of heated discussions on the topic: \"merge or rebase?\" Most of them are meaningless. When a DVCS is being used in a big team with a big and complex project with many branches there is simply no way to avoid merges. So the question\'s diminished to \"whether to use rebase, and if yes - when to use rebase?\" Considering that it is very much recommended not to rebase published commits the question\'s diminished even further: \"whether to use rebase on non-pushed commits?\"
@@ -394,7 +399,7 @@ The topic branch is deleted to avoid cluttering branch namespace with small topi
 But even that small amount of rebasing could be too big in case of long-lived merged branches. Imagine you\'re doing work in both `v1` and `master` branches, regularly merging `v1` into `master`. After some time you will have a lot of merge and non-merge commits in `master`. Then you want to push your finished work to a shared repository and find someone has pushed a few commits to `v1`. Now you have a choice of two equally bad alternatives: either you fetch and rebase `v1` and then have to recreate all you work in `master` (reset `master` to the origin, merge `v1` and cherry-pick all non-merge commits from the old master); or merge the new `v1` and loose the beauty of linear history.
 :::
 
-::: {#null-merges .section}
+::: 
 ### Null-merges
 
 Git has a builtin merge strategy for what Python core developers call \"null-merge\":
@@ -402,25 +407,25 @@ Git has a builtin merge strategy for what Python core developers call \"null-mer
     $ git merge -s ours v1  # null-merge v1 into master
 :::
 
-::: {#branching-models .section}
+::: 
 ### Branching models
 
 Git doesn\'t assume any particular development model regarding branching and merging. Some projects prefer to graduate patches from the oldest branch to the newest, some prefer to cherry-pick commits backwards, some use squashing (combining a number of commits into one). Anything is possible.
 
-There are a few examples to start with. [git help workflows](https://www.kernel.org/pub/software/scm/git/docs/gitworkflows.html){.https .reference .external} describes how the very git authors develop git.
+There are a few examples to start with. [git help workflows](https://www.kernel.org/pub/software/scm/git/docs/gitworkflows.html) describes how the very git authors develop git.
 
-ProGit book has a few chapters devoted to branch management in different projects: [Git Branching - Branching Workflows](https://git-scm.com/book/en/Git-Branching-Branching-Workflows){.https .reference .external} and [Distributed Git - Contributing to a Project](https://git-scm.com/book/en/Distributed-Git-Contributing-to-a-Project){.https .reference .external}.
+ProGit book has a few chapters devoted to branch management in different projects: [Git Branching - Branching Workflows](https://git-scm.com/book/en/Git-Branching-Branching-Workflows) and [Distributed Git - Contributing to a Project](https://git-scm.com/book/en/Distributed-Git-Contributing-to-a-Project).
 
-There is also a well-known article [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/){.http .reference .external} by Vincent Driessen. It recommends a set of very detailed rules on creating and managing mainline, topic and bugfix branches. To support the model the author implemented [git flow](https://github.com/nvie/gitflow){.https .reference .external} extension.
+There is also a well-known article [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/) by Vincent Driessen. It recommends a set of very detailed rules on creating and managing mainline, topic and bugfix branches. To support the model the author implemented [git flow](https://github.com/nvie/gitflow) extension.
 :::
 
-::::: {#advanced-configuration .section}
+::::: 
 ### Advanced configuration
 
-::: {#line-endings .section}
+::: 
 #### Line endings
 
-Git has builtin mechanisms to handle line endings between platforms with different end-of-line styles. To allow git to do CRLF conversion assign `text` attribute to files using [.gitattributes](https://www.kernel.org/pub/software/scm/git/docs/gitattributes.html){.https .reference .external}. For files that have to have specific line endings assign `eol` attribute. For binary files the attribute is, naturally, `binary`.
+Git has builtin mechanisms to handle line endings between platforms with different end-of-line styles. To allow git to do CRLF conversion assign `text` attribute to files using [.gitattributes](https://www.kernel.org/pub/software/scm/git/docs/gitattributes.html). For files that have to have specific line endings assign `eol` attribute. For binary files the attribute is, naturally, `binary`.
 
 For example:
 
@@ -435,21 +440,21 @@ To check what attributes git uses for files use `git check-attr` command. For ex
     $ git check-attr -a -- \*.py
 :::
 
-::: {#useful-assets .section}
+::: 
 #### Useful assets
 
-[GitAlias](http://gitalias.com/){.http .reference .external} ([repository](https://github.com/GitAlias/gitalias){.https .reference .external}) is a big collection of aliases. A careful selection of aliases for frequently used commands could save you a lot of keystrokes!
+[GitAlias](http://gitalias.com/) ([repository](https://github.com/GitAlias/gitalias)) is a big collection of aliases. A careful selection of aliases for frequently used commands could save you a lot of keystrokes!
 
-[GitIgnore](https://www.gitignore.io/){.https .reference .external} and [https://github.com/github/gitignore](https://github.com/github/gitignore){.https .reference .external} are collections of `.gitignore` files for all kinds of IDEs and programming languages. Python included!
+[GitIgnore](https://www.gitignore.io/) and [https://github.com/github/gitignore](https://github.com/github/gitignore) are collections of `.gitignore` files for all kinds of IDEs and programming languages. Python included!
 
-[pre-commit](http://pre-commit.com/){.http .reference .external} ([repositories](https://github.com/pre-commit){.https .reference .external}) is a framework for managing and maintaining multi-language pre-commit hooks. The framework is written in Python and has a lot of plugins for many programming languages.
+[pre-commit](http://pre-commit.com/) ([repositories](https://github.com/pre-commit)) is a framework for managing and maintaining multi-language pre-commit hooks. The framework is written in Python and has a lot of plugins for many programming languages.
 :::
 :::::
 
-:::::::::: {#advanced-topics .section}
+:::::::::: 
 ### Advanced topics
 
-::: {#staging-area .section}
+::: 
 #### Staging area
 
 Staging area aka index aka cache is a distinguishing feature of git. Staging area is where git collects patches before committing them. Separation between collecting patches and commit phases provides a very useful feature of git: you can review collected patches before commit and even edit them - remove some hunks, add new hunks and review again.
@@ -460,13 +465,13 @@ To add hunks of patches to the index use `git add --patch` (or just `-p`). To re
 
 To see the diff between the index and the last commit (i.e., collected patches) use `git diff --cached`. To see the diff between the working tree and the index (i.e., uncollected patches) use just `git diff`. To see the diff between the working tree and the last commit (i.e., both collected and uncollected patches) run `git diff HEAD`.
 
-See [WhatIsTheIndex](https://git.wiki.kernel.org/index.php/WhatIsTheIndex){.https .reference .external} and [IndexCommandQuickref](https://git.wiki.kernel.org/index.php/IndexCommandQuickref){.https .reference .external} in Git Wiki.
+See [WhatIsTheIndex](https://git.wiki.kernel.org/index.php/WhatIsTheIndex) and [IndexCommandQuickref](https://git.wiki.kernel.org/index.php/IndexCommandQuickref) in Git Wiki.
 :::
 
-::::: {#aliases .section}
+::::: 
 #### Aliases
 
-::: {#recursive-aliases .section}
+::: 
 ##### Recursive aliases
 
 Git doesn\'t allow recursive aliases. The expansion of an alias is interpreted by git as a builtin command. I.e., in the following example alias `com` doesn\'t work because there is no builtin command `git ci`:
@@ -482,7 +487,7 @@ You can trick git by using shell. The following example works albeit a bit slow:
     com = !git ci
 :::
 
-::: {#literal-expansion .section}
+::: 
 ##### Literal expansion
 
 Git interprets aliases literally. I.e., when expanding an alias git just does simple textual substitution. That could be a surprise if an alias is passed parameters on the command line. For example, the following alias works without parameters \-- it pushes configured branch(es) to all configured remotes:
@@ -499,7 +504,7 @@ Then the command `git push-to-all-remotes master` is expanded by git as `!git re
 :::
 :::::
 
-::: {#root .section}
+::: 
 #### Root
 
 Git switches to the root (top-level directory of the project where `.git` subdirectory exists) before running any command. Git remembers though the directory that was current before the switch. Some programs take into account the current directory. E.g., `git status` shows file paths of changed and unknown files relative to the current directory; `git grep` searches below the current directory; `git apply` applies only those hunks from the patch that touch files below the current directory.
@@ -513,7 +518,7 @@ But most commands run from the root and ignore the current directory. Imagine, f
 Please note the path in `git fetch ../project-v1 v1:v1` is `../project-v1` and not `../../project-v1` despite the fact that we run the commands from a subdirectory, not from the root.
 :::
 
-::: {#rerere .section}
+::: 
 #### ReReRe
 
 Rerere is a mechanism that helps to resolve repeated merge conflicts. The most frequent source of recurring merge conflicts are topic branches that are merged into mainline and then the merge commits are removed; that\'s often performed to test the topic branches and train rerere; merge commits are removed to have clean linear history and finish the topic branch with only one last merge commit.
@@ -527,31 +532,31 @@ Rerere can be used manually with `git rerere` command but most often it\'s used 
 
 You don\'t need to turn rerere on globally - you don\'t want rerere in bare repositories or single-branch repositories; you only need rerere in repos where you often perform merges and resolve merge conflicts.
 
-See [Rerere](https://git-scm.com/book/en/Git-Tools-Rerere){.https .reference .external} in The Book.
+See [Rerere](https://git-scm.com/book/en/Git-Tools-Rerere) in The Book.
 :::
 
-::: {#database-maintenance .section}
+::: 
 #### Database maintenance
 
 Git object database and other files/directories under `.git` require periodic maintenance and cleanup. For example, commit editing left unreferenced objects (dangling objects, in git terminology) and these objects should be pruned to avoid collecting cruft in the DB. The command `git gc` is used for maintenance. Git automatically runs `git gc --auto` as a part of some commands to do quick maintenance. Users are recommended to run `git gc --aggressive` from time to time; `git help gc` recommends to run it every few hundred changesets; for more intensive projects it should be something like once a week and less frequently (biweekly or monthly) for lesser active projects.
 
 `git gc --aggressive` not only removes dangling objects, it also repacks object database into indexed and better optimized pack(s); it also packs symbolic references (branches and tags). Another way to do it is to run `git repack`.
 
-There is a well-known [message](https://gcc.gnu.org/ml/gcc/2007-12/msg00165.html){.https .reference .external} from Linus Torvalds regarding \"stupidity\" of `git gc --aggressive`. The message can safely be ignored now. It is old and outdated, `git gc --aggressive` became much better since that time.
+There is a well-known [message](https://gcc.gnu.org/ml/gcc/2007-12/msg00165.html) from Linus Torvalds regarding \"stupidity\" of `git gc --aggressive`. The message can safely be ignored now. It is old and outdated, `git gc --aggressive` became much better since that time.
 
-For those who still prefer `git repack` over `git gc --aggressive` the recommended parameters are `git repack -a -d -f --depth=20 --window=250`. See [this detailed experiment](http://vcscompare.blogspot.ru/2008/06/git-repack-parameters.html){.http .reference .external} for explanation of the effects of these parameters.
+For those who still prefer `git repack` over `git gc --aggressive` the recommended parameters are `git repack -a -d -f --depth=20 --window=250`. See [this detailed experiment](http://vcscompare.blogspot.ru/2008/06/git-repack-parameters.html) for explanation of the effects of these parameters.
 
 From time to time run `git fsck [--strict]` to verify integrity of the database. `git fsck` may produce a list of dangling objects; that\'s not an error, just a reminder to perform regular maintenance.
 :::
 ::::::::::
 
-::::::: {#tips-and-tricks .section}
+::::::: 
 ### Tips and tricks
 
-::: {#command-line-options-and-arguments .section}
+::: 
 #### Command-line options and arguments
 
-[git help cli](https://www.kernel.org/pub/software/scm/git/docs/gitcli.html){.https .reference .external} recommends not to combine short options/flags. Most of the times combining works: `git commit -av` works perfectly, but there are situations when it doesn\'t. E.g., `git log -p -5` cannot be combined as `git log -p5`.
+[git help cli](https://www.kernel.org/pub/software/scm/git/docs/gitcli.html) recommends not to combine short options/flags. Most of the times combining works: `git commit -av` works perfectly, but there are situations when it doesn\'t. E.g., `git log -p -5` cannot be combined as `git log -p5`.
 
 Some options have arguments, some even have default arguments. In that case the argument for such option must be spelled in a sticky way: `-Oarg`, never `-O arg` because for an option that has a default argument the latter means \"use default value for option `-O` and pass `arg` further to the option parser\". For example, `git grep` has an option `-O` that passes a list of names of the found files to a program; default program for `-O` is a pager (usually `less`), but you can use your editor:
 
@@ -560,25 +565,25 @@ Some options have arguments, some even have default arguments. In that case the 
 BTW, if git is instructed to use `less` as the pager (i.e., if pager is not configured in git at all it uses `less` by default, or if it gets `less` from GIT_PAGER or PAGER environment variables, or if it was configured with `git config [--global] core.pager less`, or `less` is used in the command `git grep -Oless`) `git grep` passes `+/$pattern` option to `less` which is quite convenient. Unfortunately, `git grep` doesn\'t pass the pattern if the pager is not exactly `less`, even if it\'s `less` with parameters (something like `git config [--global] core.pager less -FRSXgimq`); fortunately, `git grep -Oless` always passes the pattern.
 :::
 
-::: {#bash-zsh-completion .section}
+::: 
 #### bash/zsh completion
 
 It\'s a bit hard to type `git rebase --interactive --preserve-merges HEAD~5` manually even for those who are happy to use command-line, and this is where shell completion is of great help. Bash/zsh come with programmable completion, often automatically installed and enabled, so if you have bash/zsh and git installed, chances are you are already done - just go and use it at the command-line.
 
-If you don\'t have necessary bits installed, install and enable bash_completion package. If you want to upgrade your git completion to the latest and greatest download necessary file from [git contrib](https://git.kernel.org/cgit/git/git.git/tree/contrib/completion){.https .reference .external}.
+If you don\'t have necessary bits installed, install and enable bash_completion package. If you want to upgrade your git completion to the latest and greatest download necessary file from [git contrib](https://git.kernel.org/cgit/git/git.git/tree/contrib/completion).
 
 Git-for-windows comes with git-bash for which bash completion is installed and enabled.
 :::
 
-::: {#bash-zsh-prompt .section}
+::: 
 #### bash/zsh prompt
 
-For command-line lovers shell prompt can carry a lot of useful information. To include git information in the prompt use [git-prompt.sh](https://git.kernel.org/cgit/git/git.git/tree/contrib/completion/git-prompt.sh){.https .reference .external}. Read the detailed instructions in the file.
+For command-line lovers shell prompt can carry a lot of useful information. To include git information in the prompt use [git-prompt.sh](https://git.kernel.org/cgit/git/git.git/tree/contrib/completion/git-prompt.sh). Read the detailed instructions in the file.
 
 Search the Net for \"git prompt\" to find other prompt variants.
 :::
 
-::: {#ssh-connection-sharing .section}
+::: 
 #### SSH connection sharing
 
 SSH connection sharing is a feature of OpenSSH and perhaps derivatives like PuTTY. SSH connection sharing is a way to decrease ssh client startup time by establishing one connection and reusing it for all subsequent clients connecting to the same server. SSH connection sharing can be used to speedup a lot of short ssh sessions like scp, sftp, rsync and of course git over ssh. If you regularly fetch/pull/push from/to remote repositories accessible over ssh then using ssh connection sharing is recommended.
@@ -590,32 +595,32 @@ To turn on ssh connection sharing add something like this to your \~/.ssh/config
     ControlPath ~/.ssh/mux-%r@%h:%p
     ControlPersist 600
 
-See [OpenSSH wikibook](https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Multiplexing){.https .reference .external} and [search](https://www.google.com/search?q=ssh+connection+sharing){.https .reference .external} for more information.
+See [OpenSSH wikibook](https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Multiplexing) and [search](https://www.google.com/search?q=ssh+connection+sharing) for more information.
 
 SSH connection sharing can be used at GitHub, GitLab and SourceForge repositories, but please be advised that BitBucket doesn\'t allow it and forcibly closes master connection after a short inactivity period so you will see errors like this from ssh: \"Connection to bitbucket.org closed by remote host.\"
 :::
 :::::::
 
-::: {#git-on-server .section}
+::: 
 ### git on server
 
 The simplest way to publish a repository or a group of repositories is `git daemon`. The daemon provides anonymous access, by default it is read-only. The repositories are accessible by git protocol (git:// URLs). Write access can be enabled but the protocol lacks any authentication means, so it should be enabled only within a trusted LAN. See `git help daemon` for details.
 
-Git over ssh provides authentication and repo-level authorisation as repositories can be made user- or group-writeable (see parameter `core.sharedRepository` in `git help config`). If that\'s too permissive or too restrictive for some project\'s needs there is a wrapper [gitolite](http://gitolite.com/gitolite/index.html){.http .reference .external} that can be configured to allow access with great granularity; gitolite is written in Perl and has a lot of documentation.
+Git over ssh provides authentication and repo-level authorisation as repositories can be made user- or group-writeable (see parameter `core.sharedRepository` in `git help config`). If that\'s too permissive or too restrictive for some project\'s needs there is a wrapper [gitolite](http://gitolite.com/gitolite/index.html) that can be configured to allow access with great granularity; gitolite is written in Perl and has a lot of documentation.
 
-Web interface to browse repositories can be created using [gitweb](https://git.kernel.org/cgit/git/git.git/tree/gitweb){.https .reference .external} or [cgit](http://git.zx2c4.com/cgit/about/){.http .reference .external}. Both are CGI scripts (written in Perl and C). In addition to web interface both provide read-only dumb http access for git (http(s):// URLs). [Klaus](https://pypi.org/project/klaus/){.https .reference .external} is a small and simple WSGI web server that implements both web interface and git smart HTTP transport; supports Python 2 and Python 3, performs syntax highlighting.
+Web interface to browse repositories can be created using [gitweb](https://git.kernel.org/cgit/git/git.git/tree/gitweb) or [cgit](http://git.zx2c4.com/cgit/about/). Both are CGI scripts (written in Perl and C). In addition to web interface both provide read-only dumb http access for git (http(s):// URLs). [Klaus](https://pypi.org/project/klaus/) is a small and simple WSGI web server that implements both web interface and git smart HTTP transport; supports Python 2 and Python 3, performs syntax highlighting.
 
-There are also more advanced web-based development environments that include ability to manage users, groups and projects; private, group-accessible and public repositories; they often include issue trackers, wiki pages, pull requests and other tools for development and communication. Among these environments are [Kallithea](https://kallithea-scm.org/){.https .reference .external} and [pagure](https://pagure.io/){.https .reference .external}, both are written in Python; pagure was written by Fedora developers and is being used to develop some Fedora projects. [GitPrep](http://gitprep.yukikimoto.com/){.http .reference .external} is yet another GitHub clone, written in Perl. [Gogs](https://gogs.io/){.https .reference .external} is written in Go. [GitBucket](https://gitbucket.github.io/gitbucket-news/about/){.https .reference .external} is written in Scala. [RocketGit](https://rocketgit.com/){.https .reference .external} is AGPL-licensed development environment written in PHP (there are plans to rewrite critical parts in C).
+There are also more advanced web-based development environments that include ability to manage users, groups and projects; private, group-accessible and public repositories; they often include issue trackers, wiki pages, pull requests and other tools for development and communication. Among these environments are [Kallithea](https://kallithea-scm.org/) and [pagure](https://pagure.io/), both are written in Python; pagure was written by Fedora developers and is being used to develop some Fedora projects. [GitPrep](http://gitprep.yukikimoto.com/) is yet another GitHub clone, written in Perl. [Gogs](https://gogs.io/) is written in Go. [GitBucket](https://gitbucket.github.io/gitbucket-news/about/) is written in Scala. [RocketGit](https://rocketgit.com/) is AGPL-licensed development environment written in PHP (there are plans to rewrite critical parts in C).
 
-And last but not least, [GitLab](https://about.gitlab.com/){.https .reference .external}. It\'s perhaps the most advanced web-based development environment for git. Written in Ruby, community edition is free and open source (MIT license).
+And last but not least, [GitLab](https://about.gitlab.com/). It\'s perhaps the most advanced web-based development environment for git. Written in Ruby, community edition is free and open source (MIT license).
 :::
 
-::: {#from-mercurial-to-git .section}
+::: 
 ### From Mercurial to git
 
-There are many tools to convert Mercurial repositories to git. The most famous are, probably, [hg-git](https://hg-git.github.io/){.https .reference .external} and [fast-export](http://repo.or.cz/w/fast-export.git){.http .reference .external} (many years ago it was known under the name `hg2git`).
+There are many tools to convert Mercurial repositories to git. The most famous are, probably, [hg-git](https://hg-git.github.io/) and [fast-export](http://repo.or.cz/w/fast-export.git) (many years ago it was known under the name `hg2git`).
 
-But a better tool, perhaps the best, is [git-remote-hg](https://github.com/felipec/git-remote-hg){.https .reference .external}. It provides transparent bidirectional (pull and push) access to Mercurial repositories from git. Its author wrote a [comparison of alternatives](https://github.com/felipec/git/wiki/Comparison-of-git-remote-hg-alternatives){.https .reference .external} that seems to be mostly objective.
+But a better tool, perhaps the best, is [git-remote-hg](https://github.com/felipec/git-remote-hg). It provides transparent bidirectional (pull and push) access to Mercurial repositories from git. Its author wrote a [comparison of alternatives](https://github.com/felipec/git/wiki/Comparison-of-git-remote-hg-alternatives) that seems to be mostly objective.
 
 To use git-remote-hg, install or clone it, add to your PATH (or copy script `git-remote-hg` to a directory that\'s already in PATH) and prepend `hg::` to Mercurial URLs. For example:
 
@@ -625,14 +630,13 @@ To use git-remote-hg, install or clone it, add to your PATH (or copy script `git
 
 To work with the repository just use regular git commands including `git fetch/pull/push`.
 
-To start converting your Mercurial habits to git see the page [Mercurial for Git users](https://www.mercurial-scm.org/wiki/GitConcepts){.https .reference .external} at Mercurial wiki. At the second half of the page there is a table that lists corresponding Mercurial and git commands. Should work perfectly in both directions.
+To start converting your Mercurial habits to git see the page [Mercurial for Git users](https://www.mercurial-scm.org/wiki/GitConcepts) at Mercurial wiki. At the second half of the page there is a table that lists corresponding Mercurial and git commands. Should work perfectly in both directions.
 
-Python Developer\'s Guide also has a chapter [Mercurial for git developers](https://docs.python.org/devguide/gitdevs.html){.https .reference .external} that documents a few differences between git and hg.
+Python Developer\'s Guide also has a chapter [Mercurial for git developers](https://docs.python.org/devguide/gitdevs.html) that documents a few differences between git and hg.
 :::
 
-::: {#git-and-github .section}
+::: 
 ### Git and GitHub
 
-[gitsome](https://github.com/donnemartin/gitsome){.https .reference .external} - Git/GitHub command line interface (CLI). Written in Python, work on MacOS, Unix, Windows. Git/GitHub CLI with autocomplete, includes many GitHub integrated commands that work with all shells, builtin xonsh with Python REPL to run Python commands alongside shell commands, command history, customizable highlighting, thoroughly documented.
+[gitsome](https://github.com/donnemartin/gitsome) - Git/GitHub command line interface (CLI). Written in Python, work on MacOS, Unix, Windows. Git/GitHub CLI with autocomplete, includes many GitHub integrated commands that work with all shells, builtin xonsh with Python REPL to run Python commands alongside shell commands, command history, customizable highlighting, thoroughly documented.
 :::
-:::::::::::::::::::::::::::::::::::::::::::::::::

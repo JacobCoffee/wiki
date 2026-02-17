@@ -1,11 +1,15 @@
 # Torbjorn Nielsen
 
-::: {#content dir="ltr" lang="en"}
-## Torbjorn Nielsen {#Torbjorn_Nielsen}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Email: \<\<[torbjorn.nielsen@ntnu.no](mailto:torbjorn.nielsen@ntnu.no){.mailto} \...
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Torbjorn Nielsen 
+
+Email: \<\<[torbjorn.nielsen@ntnu.no](mailto:torbjorn.nielsen@ntnu.no) \...
 
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

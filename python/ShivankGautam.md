@@ -1,7 +1,12 @@
 # ShivankGautam
 
-::: {#content dir="ltr" lang="en"}
-## Shivank Gautam(shivank98) {#Shivank_Gautam.28shivank98.29}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Shivank Gautam(shivank98) 
 
 Hey, I am Shivank, I am a Python enthusiast from Jaipur, India. I initiated [PyJaipur](PyJaipur) Community and keeping it active by organizing monthly meetups.
 
@@ -9,19 +14,19 @@ I have been also mentoring the Neural Network and Deep Learning course on Course
 
 **you can connect with me on following platforms.**
 
-- [LinkedIn](https://www.linkedin.com/in/shivank-gautam-36224912b/){.https}
+- [LinkedIn](https://www.linkedin.com/in/shivank-gautam-36224912b/)
 
-- [Github](https://github.com/shivank98){.https}
+- [Github](https://github.com/shivank98)
 
-- [TeleGram](https://t.me/shivank98){.https}
+- [TeleGram](https://t.me/shivank98)
 
-- [Twitter](https://twitter.com/pysg_98){.https}
+- [Twitter](https://twitter.com/pysg_98)
 
-- [Website](https://shivank98.github.io){.https}
+- [Website](https://shivank98.github.io)
 
-### My Blogs {#My_Blogs}
+### My Blogs 
 
-- [PyJaipur_First_Meetup](https://medium.com/@shivankgautam/pyjaipur-first-meetup-721e3c3275e2){.https}
+- [PyJaipur_First_Meetup](https://medium.com/@shivankgautam/pyjaipur-first-meetup-721e3c3275e2)
 
 <!-- -->
 
@@ -32,4 +37,3 @@ I have been also mentoring the Neural Network and Deep Learning course on Course
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage) [CategoryHomepage](CategoryHomepage) [CategoryHomepage](CategoryHomepage) [CategoryHomepage](CategoryHomepage) [CategoryHomepage](CategoryHomepage)
-:::

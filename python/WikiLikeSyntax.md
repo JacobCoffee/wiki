@@ -1,38 +1,20 @@
 # WikiLikeSyntax
 
-:::::::::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Here\'s a way to make wiki-like syntaxes in Python.
 
-::: table-of-contents
-Contents
-
-1.  [Lines as Tokens](#Lines_as_Tokens)
-    1.  [Data Flow](#Data_Flow)
-    2.  [Spec out Types of Lines](#Spec_out_Types_of_Lines)
-    3.  [Tokenize a Line](#Tokenize_a_Line)
-    4.  [Tokenize All Lines](#Tokenize_All_Lines)
-2.  [Isolating Paragraphs](#Isolating_Paragraphs)
-    1.  [Lines and Paragraphs](#Lines_and_Paragraphs)
-    2.  [Turn Text into Paragraphs](#Turn_Text_into_Paragraphs)
-    3.  [Throw Out the Blanks](#Throw_Out_the_Blanks)
-3.  [Render HTML](#Render_HTML)
-    1.  [Celebrate](#Celebrate)
-4.  [Extensions and Alternatives](#Extensions_and_Alternatives)
-    1.  [Escape for HTML](#Escape_for_HTML)
-    2.  [Italics, Bold, Links](#Italics.2C_Bold.2C_Links)
-    3.  [Link Patterns](#Link_Patterns)
-    4.  [Regions](#Regions)
-5.  [See Also](#See_Also)
-6.  [Discussion](#Discussion)
-:::
-
-# Lines as Tokens {#Lines_as_Tokens}
+# Lines as Tokens 
 
 Usually, you tokenize input word-by-word.
 
 For a wiki-like syntax, it can be easier to go *line by line.*
 
-## Data Flow {#Data_Flow}
+## Data Flow 
 
 We start with:
 
@@ -44,9 +26,9 @@ We start with:
 
 \...turn it into\...
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c79d21d7cdc95c735ff169f4ecce21c0b98d01b0 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 [("HEADER", ("=", " Hello, world! ")),
    2  ("TEXT", ("This is an example.",)),
    3  ("BLANK", ()),
@@ -59,9 +41,9 @@ We start with:
 
 \...and from there into\...
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ec60984897ae427eef5580293f0d78dec91cd044 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 [("HEADER", ("=", " Hello, world! ")),
    2  ("PARAGRAPH", ["This is an example."]),
    3  ("BLANK", ()),
@@ -78,7 +60,7 @@ We start with:
     <p>This is an example.</p>
     <p>We want to demonstrate how you take text with multple lines, and turn it into one paragraph.</p>
 
-## Spec out Types of Lines {#Spec_out_Types_of_Lines}
+## Spec out Types of Lines 
 
 Our first task is to spec out the types of lines that exist.
 
@@ -103,9 +85,9 @@ Examples:
 
 Here are our [RegularExpression](RegularExpression)s:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d747867ebede7537054526f8de3bda5b41c7bcb6 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 header = re.compile(r"^(=+)(.+?)\1$")
    2 blank = re.compile(r"^(\s*)$")
    3 text = re.compile(r"^(.+)$")  # if nothing else matched, use this
@@ -117,15 +99,15 @@ Here are our [RegularExpression](RegularExpression)s:
 
 This is good to start with. You can add more types now, if you want, though!
 
-## Tokenize a Line {#Tokenize_a_Line}
+## Tokenize a Line 
 
 Now, we\'ll teach Python how to tokenize a line.
 
 It goes like so:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c2f4764277466468f5d53e347aac81a095d96cf7 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def tokenize_line(line):
    2     """Tokenize a line, returning the token type and recognized groups."""
    3     mo = header.match(line)
@@ -148,11 +130,11 @@ Okay! We can tokenize a line.
 
 Next up, read all the lines in a string.
 
-## Tokenize All Lines {#Tokenize_All_Lines}
+## Tokenize All Lines 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-aac928f3f6d9288f3230dc1ab430acadf2a7bda3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 tokens = [tokenize_line(line) for line in text.split_lines()]
 ```
 :::
@@ -164,9 +146,9 @@ Well, that about wraps that one up.
 
 Of course, you\'re going to have to get some text on your own. Not my concern.
 
-# Isolating Paragraphs {#Isolating_Paragraphs}
+# Isolating Paragraphs 
 
-## Lines and Paragraphs {#Lines_and_Paragraphs}
+## Lines and Paragraphs 
 
 We\'ve done all the tokenizing. Now comes the trickier part.
 
@@ -184,13 +166,13 @@ But we can\'t just be naive, and just work on blank lines; Because, there are he
 
 What we\'re going to do is: Whever text lines follow one another in series- roll that whole thing up into one big paragraph.
 
-## Turn Text into Paragraphs {#Turn_Text_into_Paragraphs}
+## Turn Text into Paragraphs 
 
 There are probably better ways to do this. Please adjust this text here, if you know one. But, this is how I did it.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-fbbb435000af8d31b3041e4daf8e00d72a24b749 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def text_to_paragraph(tokens):
    2 
    3     """Group TEXTs into PARAGRAPHs."""
@@ -222,25 +204,25 @@ There!
 
 Now you have all your texts together!
 
-## Throw Out the Blanks {#Throw_Out_the_Blanks}
+## Throw Out the Blanks 
 
 Now that we\'ve grouped our text, we can huck our blank lines! They\'ve served their purpose.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-81c37713d61ef7c797b45cdf2c669031d3db9f9f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 tokens = [x for x in tokens if x[0] != "BLANK"]
 ```
 :::
 ::::
 
-# Render HTML {#Render_HTML}
+# Render HTML 
 
-Now we can output some nice HTML. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+Now we can output some nice HTML. ![:)](/wiki/europython/img/smile.png ":)")
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-f20a381308529b6eba836db655375d551f65b3c7 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def tokens_to_html(tokens):
    2     result = []
    3     for (token_type, token_groups) in tokens:
@@ -258,7 +240,7 @@ Now we can output some nice HTML. ![:)](/wiki/europython/img/smile.png ":)"){hei
 :::
 ::::
 
-## Celebrate {#Celebrate}
+## Celebrate 
 
 Ta-da! That\'s basically it!
 
@@ -266,15 +248,15 @@ Ta-da! That\'s basically it!
 
 So, there\'s some things you might want to do.
 
-# Extensions and Alternatives {#Extensions_and_Alternatives}
+# Extensions and Alternatives 
 
-## Escape for HTML {#Escape_for_HTML}
+## Escape for HTML 
 
 You might want to escape \< and \> and \" to \< and \> and \" before you output your paragraph text.
 
 There\'s a page on this wiki about how to do it; The mis-named [EscapingHtml](EscapingHtml), or something like that.
 
-## Italics, Bold, Links {#Italics.2C_Bold.2C_Links}
+## Italics, Bold, Links 
 
 Regexes, my friend, regexes.
 
@@ -282,9 +264,9 @@ But, it\'s a little more complicated, because you have to put \<i\> and \</i\> i
 
 The following function may help you, but there ought be a better way.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2b4c98e409a1633de38e51d349c646cf8fc670fe dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def join_by_pairs(lst, start, end):
    2     """
    3     if   lst = [1,2,3,4,5,6,7,8],
@@ -313,9 +295,9 @@ The following function may help you, but there ought be a better way.
 
 Use it with this:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-47b5c374841f548d25fbb048f91dbb733c4cefa6 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def bold_and_italics(text):
    2     """Perform '''bold''' and ''italics'' replacements.
    3 
@@ -330,13 +312,13 @@ Use it with this:
 :::
 ::::
 
-## Link Patterns {#Link_Patterns}
+## Link Patterns 
 
 Link patterns are easier than bold or italic.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ddc7e6f649f30df8648026c4ca4ae3ffdba42bc3 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 def hyperlink(text):
    2 
    3     """Turn links into <a href>'s."""
@@ -359,9 +341,9 @@ Link patterns are easier than bold or italic.
 
 Here\'s one:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-38620709f8a105d7c0e51fea61cec6895436327e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 link_regex = r"[[(.+?)](.*?)]"  # As we think it
    2 link_regex = link_regex.replace("[", "\\[")  # [ isn't a character class
    3 link_regex = link_regex.replace("]", "\\]")  # ] isn't a character class
@@ -374,7 +356,7 @@ That let\'s you write stuff like:
 
     [[http://freshmeat.net/] Fresh Meat:] Don't worry- it's work safe.
 
-## Regions {#Regions}
+## Regions 
 
 By \"regions,\" I mean things like:
 
@@ -393,17 +375,17 @@ Hint: Make your tokens of the form: (token_type, token_groups, start_pos, end_po
 
 Another alternative is to, in your token, keep track of the original line. Then perform a grouping action, like we did when we grouped text lines into paragraphs. Only here, you\'ll ignore whatever type it thought the token was originally, when you come across the region.
 
-# See Also {#See_Also}
+# See Also 
 
-- [TextFilter](http://c2.com/cgi/wiki?TextFilter "Wiki"){.interwiki} \-- inventory of text filters like this
+- [TextFilter](http://c2.com/cgi/wiki?TextFilter "Wiki") \-- inventory of text filters like this
 
-# Discussion {#Discussion}
+# Discussion 
 
-This is how I figured out how to do these things. If you know of better ways, please- by all means, list them here, point to them, or- probably best, just edit this text in-place. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+This is how I figured out how to do these things. If you know of better ways, please- by all means, list them here, point to them, or- probably best, just edit this text in-place. ![:)](/wiki/europython/img/smile.png ":)")
 
 \-- [LionKimbro](LionKimbro) 2005-05-06 20:03:23
 
-A whole book is dedicated to it: [TextProcessingInPython](TextProcessingInPython). But thank you for this page which is very useful. I think that kind of thing should be also directly plugged into the official documentation a bit like the PHP doc. That might help a lot. A full [HowToCreateaWiki](./HowToCreateaWiki.html){.nonexistent} with extensive code would be good too. It would help to have a modular architecture of it.
+A whole book is dedicated to it: [TextProcessingInPython](TextProcessingInPython). But thank you for this page which is very useful. I think that kind of thing should be also directly plugged into the official documentation a bit like the PHP doc. That might help a lot. A full [HowToCreateaWiki](./HowToCreateaWiki.html) with extensive code would be good too. It would help to have a modular architecture of it.
 
 \-- [KarlDubost](KarlDubost)
 
@@ -440,15 +422,15 @@ The class definition may seem more complicated, but adding a new type of line on
         ('LIST_ITEM', r"^ \*\s*(.*)$"),
         ('TABLE_ROW', r"^\|\|(.*)\|\|$"),
 
-Now you just need to add some code to text_to_paragraph to handle the new types of lines; or even better, we could fix things so that runs of one or more XXX_YYY tokens get turned into a single XXX token containing multiple YYY tokens. I\'ll leave that last bit as an exercise for the reader. ![;-)](/wiki/europython/img/smile4.png ";-)"){height="16" width="16"}
+Now you just need to add some code to text_to_paragraph to handle the new types of lines; or even better, we could fix things so that runs of one or more XXX_YYY tokens get turned into a single XXX token containing multiple YYY tokens. I\'ll leave that last bit as an exercise for the reader. ![;-)](/wiki/europython/img/smile4.png ";-)")
 
-\-- [SamDenton3](./SamDenton3.html){.nonexistent}
+\-- [SamDenton3](./SamDenton3.html)
 
 It\'s been almost 3 years now. I have found a better technique for doing wiki-like syntax. I don\'t recall seeing this technique in [TextProcessingInPython](TextProcessingInPython). (I suspect the [RegularExpression](RegularExpression) `(?P<...>)` form didn\'t exist yet.)
 
 The technique involves automatically turning `(?P<...>)` capture results into functions, and then recursing back into regexes.
 
-[Sheep:WikiCreole_parser_in_python](http://oink.sheep.art.pl/WikiCreole_parser_in_python){.http} demonstrates it, and is how I discovered it.
+[Sheep:WikiCreole_parser_in_python](http://oink.sheep.art.pl/WikiCreole_parser_in_python) demonstrates it, and is how I discovered it.
 
 From a high level, the technique is:
 
@@ -464,9 +446,9 @@ The methods are called, and they use the match object to construct the node. Thi
 
 Note also, that you can use re.finditer instead of re.sub if you want to have a little more control on the flow (for example, if you want to use yield to return partial parse as you go). Here is a nicer `_replace` function:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-19f92308fef0e05087f736236b96d21654ab5b8d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     def _replace(self, match):
    2         """Process a single match by calling an apropriate _repl method."""
    3 
@@ -484,9 +466,9 @@ Note also, that you can use re.finditer instead of re.sub if you want to have a 
 
 I use unicode strings, so I had to convert the group names to strings first to use them as argument names. It expects the `_repl` methods to accept keyword arguments named the same as the groups contained in respective patterns. For example:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2d3bd92498a55299886d5eef7a5e6d6470426999 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1   pattern = ur"(?P<link>\[\[(?<link_target>[^\]|]+)(|(?P<link_text>[^\]]+))?\]\])"
    2   def link_repl(self, link, link_target, link_text=None):
    3      if link_text is None:
@@ -498,7 +480,7 @@ I use unicode strings, so I had to convert the group names to strings first to u
 
 Note how the `link_text` group is optional, so the corresponding argument needs a default value. \-- [RadomirDopieralski](RadomirDopieralski)
 
-See also: [Sheep:2007-10-25_Wiki_parser_in_python](http://sheep.art.pl/2007-10-25_Wiki_parser_in_python){.http}
+See also: [Sheep:2007-10-25_Wiki_parser_in_python](http://sheep.art.pl/2007-10-25_Wiki_parser_in_python)
 
 Key techniques:
 
@@ -523,4 +505,3 @@ ideas:
 - link not only to functions, but also to other regexes
 
 \-- [LionKimbro](LionKimbro)
-::::::::::::::::::::::::::::::::

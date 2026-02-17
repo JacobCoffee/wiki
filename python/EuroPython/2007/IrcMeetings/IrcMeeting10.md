@@ -1,13 +1,18 @@
 # EuroPython/2007/IrcMeetings/IrcMeeting10
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #10 {#IRC_Meeting_.2310}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Time/Location {#Time.2FLocation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# IRC Meeting #10 
+
+## Time/Location 
 
 The meeting will take place on Monday 14th May (2007-05-14) 18:00 CEST (17:00 BST, 16:00 UTC/GMT) in the #europython channel on freenode.net. *That\'s 5pm UK time, 6pm in most of Western Europe.* The suggested duration of the meeting is at most *one hour*.
 
-## Minutes {#Minutes}
+## Minutes 
 
 - Registration
   - It was decided that registration would open as soon as the infrastructure is ready, hopefully Tuesday 15th May, after final testing of the process.
@@ -34,7 +39,7 @@ The meeting will take place on Monday 14th May (2007-05-14) 18:00 CEST (17:00 BS
   - That the letter of invitation is as involved as the organisers are prepared to be on this matter. This is consistent with other conferences - GUADEC being just one example.
 - The questionnaire results from last year\'s conference will be made available by Aiste.
 
-## Agenda {#Agenda}
+## Agenda 
 
 - Registration
   - Special accommodation details and forms have been made available, but now need to be published.
@@ -52,7 +57,6 @@ The meeting will take place on Monday 14th May (2007-05-14) 18:00 CEST (17:00 BS
 
   - The text and timing of the keynote announcement, [EuroPython/2007/CallForSponsors](./EuroPython(2f)2007(2f)CallForSponsors.html) and registration announcement will be finalised.
 
-## Notes {#Notes}
+## Notes 
 
-See [the calendar](http://www.europython.org/sections/calendar){.http} to get an idea of where we should be at this point in time.
-:::
+See [the calendar](http://www.europython.org/sections/calendar) to get an idea of where we should be at this point in time.

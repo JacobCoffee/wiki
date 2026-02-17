@@ -1,15 +1,20 @@
 # JtreeExample
 
-::::: {#content dir="ltr" lang="en"}
-# Swing JTtee Example {#Swing_JTtee_Example}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Swing JTtee Example 
 
 back to [SwingExamples](SwingExamples)
 
 ------------------------------------------------------------------------
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-93fb68e4ee1db3f5c8fee4acb5e03c03cb78f579 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """
    2 Swing JTree example in Jyhton.
    3 
@@ -94,4 +99,3 @@ back to [SwingExamples](SwingExamples)
 ::::
 
 back to [SwingExamples](SwingExamples)
-:::::

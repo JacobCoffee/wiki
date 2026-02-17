@@ -1,11 +1,16 @@
 # PythonFederalEnterpriseArchitecture
 
-::: {#content dir="ltr" lang="en"}
-### Audience and Status of Position Paper {#Audience_and_Status_of_Position_Paper}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### Audience and Status of Position Paper 
 
 This position paper, and the comments submitted by the community, will be presented to the Federal Enterprise Architecture Program Office. The paper is still a work in progress. It evolved out of a long email message so some of needs to be reworded. Also, footnotes need to be changed to hyperlinks.
 
-### Python and the Federal Enterprise Architecture {#Python_and_the_Federal_Enterprise_Architecture}
+### Python and the Federal Enterprise Architecture 
 
 The goal of the position paper is to get Python to be considered as a peer to the .NET and J2EE technologies for defining enterprise components. The paper supports the PSF position that Python should be used to define the FEA core components. Python is often referred to as non-proprietary middleware \[1\], or executable pseudo code. It has the advantage of not being associated with a major corporation in the industry, so picking Python will not be picking a winner from the current short list of politically charged candidates. Python also has the advantage of being compatible with both .NET and J2EE \[2\]. It is compatible in the sense that the Jython implementation of Python runs on top of Java, so any Java object can also be used as a Jython object. There is also a Python implementation in .NET.
 
@@ -35,28 +40,27 @@ The fundamental difference between an architecture based on the .NET and J2EE pl
 
 I have not discussed many of the opportunities to improve on the current Python design. These are the subject for the definition of Python 3.0. If the FEA were to adopt Python as a core technology, then the evolution of Python would become an important topic of discussion. A glimpse of what might be instore for Python 3.0 has been outlined in a Wiki page \[6\] at python.org.
 
-### Ideas Needing to be Expanded {#Ideas_Needing_to_be_Expanded}
+### Ideas Needing to be Expanded 
 
 An explaination of a LDAP based distributed authentication capability that would tie in with [TwistedMatrix](TwistedMatrix) would be a good addition to the paper. An explanation for why fat clients need to be used instead of Java in a web browser clients would also be a good addition. The contents of the paper should eventually be integrated into the \"E-Gov Enterprise Architecture Guidance\" paper that is available from FEAMO. They get some things correct, but there are some real fumbles in the document. The appendix with the list of \"standards\" should be thrown out and they should start over.
 
-\[1\] [http://www.tundraware.com/Technology/Python-Is-Middleware/Python-Is-Middleware.html](http://www.tundraware.com/Technology/Python-Is-Middleware/Python-Is-Middleware.html){.http}
+\[1\] [http://www.tundraware.com/Technology/Python-Is-Middleware/Python-Is-Middleware.html](http://www.tundraware.com/Technology/Python-Is-Middleware/Python-Is-Middleware.html)
 
 - \"Cheap Energy was literally the fuel of the first Industrial Revolution.
   - Cheap Software is the fuel of this Economic Revolution.\"
 
-\[2\] [http://www.zoteca.com/information/wp/pythonEAI.htm](http://www.zoteca.com/information/wp/pythonEAI.htm){.http}
+\[2\] [http://www.zoteca.com/information/wp/pythonEAI.htm](http://www.zoteca.com/information/wp/pythonEAI.htm)
 
-\[3\] [http://www.linuxjournal.com/article.php?sid=3882](http://www.linuxjournal.com/article.php?sid=3882){.http}
+\[3\] [http://www.linuxjournal.com/article.php?sid=3882](http://www.linuxjournal.com/article.php?sid=3882)
 
-\[4\] [http://www.twistedmatrix.com/services/success](http://www.twistedmatrix.com/services/success){.http}
+\[4\] [http://www.twistedmatrix.com/services/success](http://www.twistedmatrix.com/services/success)
 
-\[5\] [Message on Google groups](http://groups.google.com/groups?hl=en&lr=&ie=UTF-8&frame=right&rnum=41&thl=980713582,980649948,980645230,980554902,980498258,980423686,980411800,980365774,980304453,980230385,980230381,980224668&seekm=MRLN246641E232%40merlin.envox.local.hr#link48){.http}
+\[5\] [Message on Google groups](http://groups.google.com/groups?hl=en&lr=&ie=UTF-8&frame=right&rnum=41&thl=980713582,980649948,980645230,980554902,980498258,980423686,980411800,980365774,980304453,980230385,980230381,980224668&seekm=MRLN246641E232%40merlin.envox.local.hr#link48)
 
-\[6\] [http://www.python.org/cgi-bin/moinmoin/PythonThreeDotOh](http://www.python.org/cgi-bin/moinmoin/PythonThreeDotOh){.http}
+\[6\] [http://www.python.org/cgi-bin/moinmoin/PythonThreeDotOh](http://www.python.org/cgi-bin/moinmoin/PythonThreeDotOh)
 
 Perhaps \"Snow Crash\" on the required reading list for anyone working on the FEA:-)
 
 ------------------------------------------------------------------------
 
 [CategoryPythonInBusiness](CategoryPythonInBusiness)
-:::

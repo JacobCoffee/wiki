@@ -1,15 +1,20 @@
 # TestOob
 
-::: {#content dir="ltr" lang="en"}
-# Testoob - Python Testing Out Of (The) Box {#Testoob_-_Python_Testing_Out_Of_.28The.29_Box}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## About {#About}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-[Testoob](http://testoob.sourceforge.net){.http} is an advanced unit testing framework for Python. It integrates effortlessly with existing [PyUnit](PyUnit) (module \'unittest\') test suites.
+# Testoob - Python Testing Out Of (The) Box 
 
-[Version 1.1](http://sourceforge.net/project/showfiles.php?group_id=138557){.http} was released on 24 June, 2006.
+## About 
 
-## Features {#Features}
+[Testoob](http://testoob.sourceforge.net) is an advanced unit testing framework for Python. It integrates effortlessly with existing [PyUnit](PyUnit) (module \'unittest\') test suites.
+
+[Version 1.1](http://sourceforge.net/project/showfiles.php?group_id=138557) was released on 24 June, 2006.
+
+## Features 
 
 Some of Testoob\'s features are:
 
@@ -31,17 +36,16 @@ Some of Testoob\'s features are:
 
 - and more!
 
-## More Information {#More_Information}
+## More Information 
 
-- [Testoob homepage](http://testoob.sourceforge.net){.http}
+- [Testoob homepage](http://testoob.sourceforge.net)
 
-- [Wikipedia entry](http://www.wikipedia.com/wiki/Testoob "WikiPedia"){.interwiki}
+- [Wikipedia entry](http://www.wikipedia.com/wiki/Testoob "WikiPedia")
 
-- [Cheeseshop location](http://www.python.org/pypi/testoob){.http}
+- [Cheeseshop location](http://www.python.org/pypi/testoob)
 
-- [Introduction to Unit Testing](http://diveintopython.org/unit_testing/index.html){.http} from [DiveIntoPython](DiveIntoPython)
+- [Introduction to Unit Testing](http://diveintopython.org/unit_testing/index.html) from [DiveIntoPython](DiveIntoPython)
 
 - [PyUnit](PyUnit)
 
 - [UnitTests](UnitTests)
-:::

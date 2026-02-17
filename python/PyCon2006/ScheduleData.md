@@ -1,13 +1,18 @@
 # PyCon2006/ScheduleData
 
-::: {#content dir="ltr" lang="en"}
-A tool for parsing the wiki source for the [PyCon2006/FinalSchedule](./PyCon2006(2f)FinalSchedule.html){.nonexistent} page is available in the Python SVN repository\'s sandbox from the `sandbox/pycon`{.backtick} directory. The script is called `parse-sched.py`{.backtick}.
+```{admonition} Legacy Wiki Page
+:class: note
 
-- [Subversion view](http://svn.python.org/view/sandbox/trunk/pycon/){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- [Download link for parse-sched.py](http://svn.python.org/view/*checkout*/sandbox/trunk/pycon/parse-sched.py){.http}
+A tool for parsing the wiki source for the [PyCon2006/FinalSchedule](./PyCon2006(2f)FinalSchedule.html) page is available in the Python SVN repository\'s sandbox from the `sandbox/pycon`{.backtick} directory. The script is called `parse-sched.py`{.backtick}.
 
-Run the `get.sh`{.backtick} to fetch the current wiki source for the [PyCon2006/FinalSchedule](./PyCon2006(2f)FinalSchedule.html){.nonexistent}; the script will save it as `FinalSchedule`{.backtick} in the current directory.
+- [Subversion view](http://svn.python.org/view/sandbox/trunk/pycon/)
+
+- [Download link for parse-sched.py](http://svn.python.org/view/*checkout*/sandbox/trunk/pycon/parse-sched.py)
+
+Run the `get.sh`{.backtick} to fetch the current wiki source for the [PyCon2006/FinalSchedule](./PyCon2006(2f)FinalSchedule.html); the script will save it as `FinalSchedule`{.backtick} in the current directory.
 
 `parse-sched.py`{.backtick} takes this file on standard input, and can generate several different output formats, chosen by the `--format=<whatever>`{.backtick} switch. The available formats are:
 
@@ -31,4 +36,3 @@ Example invocation:
 ------------------------------------------------------------------------
 
 [CategoryPyCon2006](CategoryPyCon2006)
-:::

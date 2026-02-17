@@ -1,50 +1,55 @@
 # PythonSoftwareFoundation/BoardCandidates2013
 
-::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Candidates for the 2013 PSF Board of Directors
 
 The following people have been nominated as Directors of the Python Software Foundation for the term beginning in March 2013. Their self-written summaries follow.
 
 There are currently 11 seats on the Board of Directors (last changed in the 2012 PSF Members vote).
 
-::: {#nominees .contents .topic}
+::: 
 Nominees
 
-- [Marc-Andre Lemburg](#marc-andre-lemburg){#id2 .reference .internal}
-- [Jesse Noller](#jesse-noller){#id3 .reference .internal}
-- [David Mertz](#david-mertz){#id4 .reference .internal}
-- [Jessica McKellar](#jessica-mckellar){#id5 .reference .internal}
-- [Lynn Root](#lynn-root){#id6 .reference .internal}
-- [Naomi Ceder](#naomi-ceder){#id7 .reference .internal}
-- [Brett Cannon](#brett-cannon){#id8 .reference .internal}
-- [Tarek Ziadé](#tarek-ziade){#id9 .reference .internal}
-- [Brian Curtin](#brian-curtin){#id10 .reference .internal}
-- [Noah Kantrowitz](#noah-kantrowitz){#id11 .reference .internal}
-- [Tim Peters](#tim-peters){#id12 .reference .internal}
-- [Paul Everitt](#paul-everitt){#id13 .reference .internal}
-- [Alex Gaynor](#alex-gaynor){#id14 .reference .internal}
-- [Frank Wiles](#frank-wiles){#id15 .reference .internal}
-- [Van Lindberg](#van-lindberg){#id16 .reference .internal}
-- [Doug Napoleone](#doug-napoleone){#id17 .reference .internal}
+- [Marc-Andre Lemburg](#marc-andre-lemburg)
+- [Jesse Noller](#jesse-noller)
+- [David Mertz](#david-mertz)
+- [Jessica McKellar](#jessica-mckellar)
+- [Lynn Root](#lynn-root)
+- [Naomi Ceder](#naomi-ceder)
+- [Brett Cannon](#brett-cannon)
+- [Tarek Ziadé](#tarek-ziade)
+- [Brian Curtin](#brian-curtin)
+- [Noah Kantrowitz](#noah-kantrowitz)
+- [Tim Peters](#tim-peters)
+- [Paul Everitt](#paul-everitt)
+- [Alex Gaynor](#alex-gaynor)
+- [Frank Wiles](#frank-wiles)
+- [Van Lindberg](#van-lindberg)
+- [Doug Napoleone](#doug-napoleone)
 :::
 
 ::: topic
 Links
 
-- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html){.reference .external}
-- [2012 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2012.html){.reference .external}
-- [2011 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2011.html){.reference .external}
-- [2010 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html){.reference .external}
-- [2009 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2009.html){.reference .external}
-- [2008 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2008.html){.reference .external}
+- [Duties and Responsibilities of Directors](./PythonSoftwareFoundation(2f)DutiesAndResponsibilitiesOfDirectors.html)
+- [2012 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2012.html)
+- [2011 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2011.html)
+- [2010 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2010.html)
+- [2009 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2009.html)
+- [2008 Board Candidates](./PythonSoftwareFoundation(2f)BoardCandidates2008.html)
 :::
 
 ------------------------------------------------------------------------
 
 \...Candidate entries go here\...
 
-::: {#marc-andre-lemburg .section}
-### [Marc-Andre Lemburg](#id2){.toc-backref}
+::: 
+### [Marc-Andre Lemburg](#id2)
 
 *2012 Board Member.*
 
@@ -52,12 +57,12 @@ I\'ve been board member in the years 2002-2004 and then again since 2010.
 
 PSF things I\'ve been working on last year:
 
-- the Python brochure project (see [http://brochure.getpython.info/](http://brochure.getpython.info/){.http .reference .external})
-- the PSF conference kits to market the PSF at Python conferences (see e.g. [https://twitter.com/reingart/status/270590720790904832](https://twitter.com/reingart/status/270590720790904832){.https .reference .external})
+- the Python brochure project (see [http://brochure.getpython.info/](http://brochure.getpython.info/))
+- the PSF conference kits to market the PSF at Python conferences (see e.g. [https://twitter.com/reingart/status/270590720790904832](https://twitter.com/reingart/status/270590720790904832))
 - created giveaway marketing material for use a Python conferences and user groups (flyers, stickers)
-- initiated the Python Events Calendars and built a team around them (see [http://python.org/](http://python.org/){.http .reference .external}, [http://pycon.org/](http://pycon.org/){.http .reference .external}, [http://wiki.python.org/moin/PythonEventsCalendar](http://wiki.python.org/moin/PythonEventsCalendar){.http .reference .external})
+- initiated the Python Events Calendars and built a team around them (see [http://python.org/](http://python.org/), [http://pycon.org/](http://pycon.org/), [http://wiki.python.org/moin/PythonEventsCalendar](http://wiki.python.org/moin/PythonEventsCalendar))
 - promoted the PSF and the HAM membership at conferences in Europe (EuroPython, PyCon UK, PyCon DE, FOSDEM, FrOSCON)
-- lead the team to recover the Python, Jython and PSF wikis (see [http://wiki.python.org/moin/WikiAttack2013](http://wiki.python.org/moin/WikiAttack2013){.http .reference .external})
+- lead the team to recover the Python, Jython and PSF wikis (see [http://wiki.python.org/moin/WikiAttack2013](http://wiki.python.org/moin/WikiAttack2013))
 - collected dispersed PSF infrastructure setup information and put it up on a new PSF Systems wiki
 
 in addition to the usual PSF board and trademark committee work.
@@ -74,8 +79,8 @@ I\'d like to continue with this work as director and look forward to another yea
 
 ------------------------------------------------------------------------
 
-::: {#jesse-noller .section}
-### [Jesse Noller](#id3){.toc-backref}
+::: 
+### [Jesse Noller](#id3)
 
 *Current 2012/13 Board Member.*
 
@@ -84,16 +89,16 @@ I have served on the board since 2010.
 Foundation work I have started/lead:
 
 - Chaired PyCon US 2012/2013, served as PyCon Program Committee Chair the two years prior as well as leading sponsorship.
-- Leading the Python.org redesign team/project: [http://jessenoller.com/blog/2012/11/28/the-great-python-org-redesign](http://jessenoller.com/blog/2012/11/28/the-great-python-org-redesign){.http .reference .external}
-- Lead/Pushed for the Conference code of conduct motion: [http://jessenoller.com/blog/2012/12/7/the-code-of-conduct](http://jessenoller.com/blog/2012/12/7/the-code-of-conduct){.http .reference .external}
-- Helped start the outreach an education committee: [http://mail.python.org/mailman/listinfo/outreach-and-education](http://mail.python.org/mailman/listinfo/outreach-and-education){.http .reference .external}
-- Helped start/found the sprints committee: [http://pythonsprints.com/](http://pythonsprints.com/){.http .reference .external}
+- Leading the Python.org redesign team/project: [http://jessenoller.com/blog/2012/11/28/the-great-python-org-redesign](http://jessenoller.com/blog/2012/11/28/the-great-python-org-redesign)
+- Lead/Pushed for the Conference code of conduct motion: [http://jessenoller.com/blog/2012/12/7/the-code-of-conduct](http://jessenoller.com/blog/2012/12/7/the-code-of-conduct)
+- Helped start the outreach an education committee: [http://mail.python.org/mailman/listinfo/outreach-and-education](http://mail.python.org/mailman/listinfo/outreach-and-education)
+- Helped start/found the sprints committee: [http://pythonsprints.com/](http://pythonsprints.com/)
 - Helped source and push for the new OSU hosted PSF infrastructure/cluster
-- Helped found the [http://pythonmentors.com/](http://pythonmentors.com/){.http .reference .external} project
+- Helped found the [http://pythonmentors.com/](http://pythonmentors.com/) project
 - Assisting in various infrastructure things (such as sourcing the new part time sysadmins, SSL certs)
 - Assisted in working with various individuals, conferences and groups write and submit grants to the PSF board for funding.
-- (trying) to work on a PSF FAQ: [http://psf-docs.readthedocs.org/en/latest/\_docs/faq.html](http://psf-docs.readthedocs.org/en/latest/_docs/faq.html){.http .reference .external}
-- (working on) a conference/community event book for the community: [https://from-python-import-conference.readthedocs.org/en/latest/](https://from-python-import-conference.readthedocs.org/en/latest/){.https .reference .external}
+- (trying) to work on a PSF FAQ: [http://psf-docs.readthedocs.org/en/latest/\_docs/faq.html](http://psf-docs.readthedocs.org/en/latest/_docs/faq.html)
+- (working on) a conference/community event book for the community: [https://from-python-import-conference.readthedocs.org/en/latest/](https://from-python-import-conference.readthedocs.org/en/latest/)
 - Assisted in various outreach efforts, communicating with the community on various topics, telling people and projects how the foundation can help them. General Public relations and community discussion work.
 - (I\'m probably forgetting things) in addition to the normal board work.
 
@@ -115,8 +120,8 @@ I would be honored to continue to serve on the board and working to make a more 
 
 ------------------------------------------------------------------------
 
-::: {#david-mertz .section}
-### [David Mertz](#id4){.toc-backref}
+::: 
+### [David Mertz](#id4)
 
 *Current 2012/13 Board Member.*
 
@@ -136,8 +141,8 @@ I have served on the PSF board for four years, would like to continue to do so, 
 
 ------------------------------------------------------------------------
 
-::: {#jessica-mckellar .section}
-### [Jessica McKellar](#id5){.toc-backref}
+::: 
+### [Jessica McKellar](#id5)
 
 *Current board member*
 
@@ -145,16 +150,16 @@ It has been an honor and pleasure to serve on the PSF Board this past year. I lo
 
 I bring several perspectives to the Board, as:
 
-- a user group organizer, for the [Boston Python user group](http://bostonpython.com){.http .reference .external} \-- the largest Python user group in the world.
-- someone who regularly interacts with beginners, new community members, and first-time open source contributors, through various initiatives including the [OpenHatch project](http://openhatch.org){.http .reference .external}, [Google Summer of Code](http://pyfound.blogspot.com/2013/03/get-ready-for-google-summer-of-code.html){.http .reference .external}, and as a [Twisted](https://twistedmatrix.com/trac/){.https .reference .external} core developer.
-- someone who regularly does programming outreach to underrepresented groups, through my work on the [Outreach and Education Committee](http://mail.python.org/mailman/listinfo/outreach-and-education){.http .reference .external}, [Software Carpentry](http://software-carpentry.org/){.http .reference .external}, and as head organizer for the [Boston Python Workshop](http://bostonpythonworkshop.com/){.http .reference .external}.
+- a user group organizer, for the [Boston Python user group](http://bostonpython.com) \-- the largest Python user group in the world.
+- someone who regularly interacts with beginners, new community members, and first-time open source contributors, through various initiatives including the [OpenHatch project](http://openhatch.org), [Google Summer of Code](http://pyfound.blogspot.com/2013/03/get-ready-for-google-summer-of-code.html), and as a [Twisted](https://twistedmatrix.com/trac/) core developer.
+- someone who regularly does programming outreach to underrepresented groups, through my work on the [Outreach and Education Committee](http://mail.python.org/mailman/listinfo/outreach-and-education), [Software Carpentry](http://software-carpentry.org/), and as head organizer for the [Boston Python Workshop](http://bostonpythonworkshop.com/).
 
 This past year, as part of my Foundation work I:
 
-- served on the PSF [Outreach and Education Committee](http://mail.python.org/mailman/listinfo/outreach-and-education){.http .reference .external}, and in particular worked to promote the committee and help groups write and submit grant requests.
-- was a [financial aid](https://us.pycon.org/2013/assistance/){.https .reference .external} chair for PyCon US.
+- served on the PSF [Outreach and Education Committee](http://mail.python.org/mailman/listinfo/outreach-and-education), and in particular worked to promote the committee and help groups write and submit grant requests.
+- was a [financial aid](https://us.pycon.org/2013/assistance/) chair for PyCon US.
 - regularly spoke and wrote about the PSF and encouraged community participation (e.g. PyCon Canada 2012 keynote, PyCon US 2013 keynote, PSF blog posts).
-- am helping with Python\'s participation as an [umbrella organization](http://pyfound.blogspot.com/2013/03/get-ready-for-google-summer-of-code.html){.http .reference .external} in Google Summer of Code.
+- am helping with Python\'s participation as an [umbrella organization](http://pyfound.blogspot.com/2013/03/get-ready-for-google-summer-of-code.html) in Google Summer of Code.
 - regularly reached out to individuals and initiatives about partnering with the PSF or applying for grants / getting community support to run Python events.
 
 Next year, I\'d like to:
@@ -167,8 +172,8 @@ Next year, I\'d like to:
 
 ------------------------------------------------------------------------
 
-::: {#lynn-root .section}
-### [Lynn Root](#id6){.toc-backref}
+::: 
+### [Lynn Root](#id6)
 
 *New board member*
 
@@ -180,27 +185,27 @@ What I have accomplished in the past year:
 
 - Member of the PyCon 2013 program committee.
 - Lurker of the PSF Outreach & Education committee.
-- Helped the PSF O&E committee start a new [http://psf-outreach.org/](http://psf-outreach.org/){.http .reference .external} blog.
-- [http://www.meetup.com/pyladies-sf](http://www.meetup.com/pyladies-sf){.http .reference .external} -- Started in April 2012, now almost 700 members.
+- Helped the PSF O&E committee start a new [http://psf-outreach.org/](http://psf-outreach.org/) blog.
+- [http://www.meetup.com/pyladies-sf](http://www.meetup.com/pyladies-sf) -- Started in April 2012, now almost 700 members.
 - Initiated the start of PyLadies in Atlanta, NYC, Portland, Seattle, Austin, Toronto, Brno, CZ.
 - Led the first Python workshops for women in Brno, CZ and Zagreb, Croatia.
-- Led the adoption of the [http://www.pyladies.com/CodeOfConduct](http://www.pyladies.com/CodeOfConduct){.http .reference .external} Code of Conduct for PyLadies as a whole.
-- Helped/led [http://rupy.eu](http://rupy.eu){.http .reference .external} RuPy, PyLadies @ [http://djangocon.us](http://djangocon.us){.http .reference .external} DjangoCon US, and the [https://www.djangoproject.com/foundation/](https://www.djangoproject.com/foundation/){.https .reference .external} DSF scholarship programs.
+- Led the adoption of the [http://www.pyladies.com/CodeOfConduct](http://www.pyladies.com/CodeOfConduct) Code of Conduct for PyLadies as a whole.
+- Helped/led [http://rupy.eu](http://rupy.eu) RuPy, PyLadies @ [http://djangocon.us](http://djangocon.us) DjangoCon US, and the [https://www.djangoproject.com/foundation/](https://www.djangoproject.com/foundation/) DSF scholarship programs.
 - Held workshops for PyLadies & PyLaddies to craft PyCon talk submissions, and practice PyCon conference talks
-- Maintainer of [http://www.pyladies.com](http://www.pyladies.com){.http .reference .external} PyLadies website, and led the site\'s redesign.
+- Maintainer of [http://www.pyladies.com](http://www.pyladies.com) PyLadies website, and led the site\'s redesign.
 
 What I wish to continue:
 
 - Diversity outreach with speaking, holding events, and starting conversations.
 - Help future PyCons in North America with program selection, and any other capacity that I can.
-- Spread the word & love for Python & open source by holding intro workshops, sprints for OSS projects, writing [http://github.com/econchick/new-coder](http://github.com/econchick/new-coder){.http .reference .external} tutorials, etc.
+- Spread the word & love for Python & open source by holding intro workshops, sprints for OSS projects, writing [http://github.com/econchick/new-coder](http://github.com/econchick/new-coder) tutorials, etc.
 - Continue creating comfortable environments for Pythonistas and budding new coders to learn, develop, hack, speak, etc.
 :::
 
 ------------------------------------------------------------------------
 
-::: {#naomi-ceder .section}
-### [Naomi Ceder](#id7){.toc-backref}
+::: 
+### [Naomi Ceder](#id7)
 
 *New Board Member.*
 
@@ -228,8 +233,8 @@ My goal as a board member would be to do all that I can to help the PSF achieve 
 
 ------------------------------------------------------------------------
 
-::: {#brett-cannon .section}
-### [Brett Cannon](#id8){.toc-backref}
+::: 
+### [Brett Cannon](#id8)
 
 *New Board Member (sort of).*
 
@@ -247,8 +252,8 @@ Point 2 is in reaction to sometimes abhorrent exchanges that have occurred on ps
 
 ------------------------------------------------------------------------
 
-::: {#tarek-ziade .section}
-### [Tarek Ziadé](#id9){.toc-backref}
+::: 
+### [Tarek Ziadé](#id9)
 
 *New Board Member*
 
@@ -256,14 +261,14 @@ I am a Python developer at Mozilla, I have created the French Python user Group 
 
 I want to be a board member to do the following:
 
-1.  create a website like [https://reps.mozilla.org/people](https://reps.mozilla.org/people){.https .reference .external} for the Python community - a place that lists community members & their actions
+1.  create a website like [https://reps.mozilla.org/people](https://reps.mozilla.org/people) for the Python community - a place that lists community members & their actions
 2.  help in the ongoing effort of have a network of local PSF representatives
 :::
 
 ------------------------------------------------------------------------
 
-::: {#brian-curtin .section}
-### [Brian Curtin](#id10){.toc-backref}
+::: 
+### [Brian Curtin](#id10)
 
 *Current Board Member*
 
@@ -288,8 +293,8 @@ I was honored to have been elected in 2012, and would be honored to serve again 
 
 ------------------------------------------------------------------------
 
-::: {#noah-kantrowitz .section}
-### [Noah Kantrowitz](#id11){.toc-backref}
+::: 
+### [Noah Kantrowitz](#id11)
 
 *New board member*
 
@@ -308,8 +313,8 @@ Over the next year I would like to:
 \-\--
 :::
 
-::: {#tim-peters .section}
-### [Tim Peters](#id12){.toc-backref}
+::: 
+### [Tim Peters](#id12)
 
 *2012 Board Member*
 
@@ -318,8 +323,8 @@ I\'ve been on the PSF Board from its inception, the sole surviving member of the
 
 ------------------------------------------------------------------------
 
-::: {#paul-everitt .section}
-### [Paul Everitt](#id13){.toc-backref}
+::: 
+### [Paul Everitt](#id13)
 
 *Newish Board Member*
 
@@ -337,8 +342,8 @@ I want to serve on the PSF board for personal reasons: I miss all my old friends
 
 ------------------------------------------------------------------------
 
-::: {#alex-gaynor .section}
-### [Alex Gaynor](#id14){.toc-backref}
+::: 
+### [Alex Gaynor](#id14)
 
 *New board member*
 
@@ -360,12 +365,12 @@ My goals as a board member would be:
 
 ------------------------------------------------------------------------
 
-::: {#frank-wiles .section}
-### [Frank Wiles](#id15){.toc-backref}
+::: 
+### [Frank Wiles](#id15)
 
 *New Board Member.*
 
-I\'m the Founder and President of Revolution Systems ([http://www.revsys.com](http://www.revsys.com){.http .reference .external}) a Django consultancy based in Lawrence, Kansas. While I\'ve been a member of the OSS community for nearly two decades I\'m relatively new to Python/Django world.
+I\'m the Founder and President of Revolution Systems ([http://www.revsys.com](http://www.revsys.com)) a Django consultancy based in Lawrence, Kansas. While I\'ve been a member of the OSS community for nearly two decades I\'m relatively new to Python/Django world.
 
 Because my role is mostly on the business end of things I don\'t often have as much time as I would like to donate back to the community in terms of code and volunteering. I\'m putting myself forward (after some light nudging from other community members) in hopes of fixing this and giving back more to the community that makes my business and life possible. There are many here that have listed themselves as an advocate for a particular group, but strangely I see business and commercial interests not being represented so I will take up that torch.
 
@@ -375,14 +380,14 @@ Other Python related community contributions:
 
 - Written Python related articles for Linux Pro Magazine
 - Successfully argued for the Open Sourcing of Django
-- A few small Django apps [http://github.com/frankwiles](http://github.com/frankwiles){.http .reference .external} and [http://github.com/revsys](http://github.com/revsys){.http .reference .external}
+- A few small Django apps [http://github.com/frankwiles](http://github.com/frankwiles) and [http://github.com/revsys](http://github.com/revsys)
 - Multi-year PyCon and DjangoCon sponsor
 :::
 
 ------------------------------------------------------------------------
 
-::: {#van-lindberg .section}
-### [Van Lindberg](#id16){.toc-backref}
+::: 
+### [Van Lindberg](#id16)
 
 *Current Board Member.*
 
@@ -409,8 +414,8 @@ I would be honored to continue to serve on the board.
 
 ------------------------------------------------------------------------
 
-::: {#doug-napoleone .section}
-### [Doug Napoleone](#id17){.toc-backref}
+::: 
+### [Doug Napoleone](#id17)
 
 *Current Board Member.*
 
@@ -436,4 +441,3 @@ Please use the following format:
 
     ----
 :::
-:::::::::::::::::::::

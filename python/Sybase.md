@@ -1,24 +1,10 @@
 # Sybase
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [SAP Sybase ASE (Adaptive Server Enterprise)](#SAP_Sybase_ASE_.28Adaptive_Server_Enterprise.29)
-2.  [SAP Sybase ODBC drivers for Python](#SAP_Sybase_ODBC_drivers_for_Python)
-    1.  [DB API 2.0 Drivers](#DB_API_2.0_Drivers)
-        1.  [python-sybase](#python-sybase)
-        2.  [mxODBC](#mxODBC)
-        3.  [mxODBC Connect](#mxODBC_Connect)
-3.  [SAP Sybase SQL Anywhere](#SAP_Sybase_SQL_Anywhere)
-    1.  [DB API 2.0 Drivers](#DB_API_2.0_Drivers-1)
-        1.  [mxODBC](#mxODBC-1)
-        2.  [sqlanydb](#sqlanydb)
-    2.  [Supported Python Applications](#Supported_Python_Applications)
-        1.  [Django](#Django)
-    3.  [Pros](#Pros)
-    4.  [Cons](#Cons)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
 Sybase was acquired by SAP in 2010. The products below are now available as SAP products.
 
@@ -26,11 +12,11 @@ Note that there are *Sybase ASE* and *Sybase SQL Anywhere* systems. Those two ar
 
 ------------------------------------------------------------------------
 
-# SAP Sybase ASE (Adaptive Server Enterprise) {#SAP_Sybase_ASE_.28Adaptive_Server_Enterprise.29}
+# SAP Sybase ASE (Adaptive Server Enterprise) 
 
 URL
 
-:   [http://www.sap.com/pc/tech/database/software/adaptive-server-enterprise/index.html](http://www.sap.com/pc/tech/database/software/adaptive-server-enterprise/index.html){.http}
+:   [http://www.sap.com/pc/tech/database/software/adaptive-server-enterprise/index.html](http://www.sap.com/pc/tech/database/software/adaptive-server-enterprise/index.html)
 
 licence
 :   Commercial
@@ -38,11 +24,11 @@ licence
 platforms
 :   Unix, Linux, Windows
 
-# SAP Sybase ODBC drivers for Python {#SAP_Sybase_ODBC_drivers_for_Python}
+# SAP Sybase ODBC drivers for Python 
 
 URL
 
-:   [https://www.devart.com/odbc/ase/download.html](https://www.devart.com/odbc/ase/download.html){.https}
+:   [https://www.devart.com/odbc/ase/download.html](https://www.devart.com/odbc/ase/download.html)
 
 licence
 :   Commercial
@@ -53,15 +39,15 @@ platforms
 Python versions
 :   from 2.4 till the latest
 
-[Sybase ODBC driver](https://www.devart.com/odbc/ase/){.https} for Python is a connectivity solution which connects Python with SAP Adaptive Server Enterprise databases.
+[Sybase ODBC driver](https://www.devart.com/odbc/ase/) for Python is a connectivity solution which connects Python with SAP Adaptive Server Enterprise databases.
 
-## DB API 2.0 Drivers {#DB_API_2.0_Drivers}
+## DB API 2.0 Drivers 
 
 ### python-sybase
 
 URL
 
-:   [http://python-sybase.sourceforge.net/](http://python-sybase.sourceforge.net/){.http}
+:   [http://python-sybase.sourceforge.net/](http://python-sybase.sourceforge.net/)
 
 Licence
 
@@ -75,13 +61,13 @@ Python versions
 
 :   
 
-The older versions of this driver are available at [http://www.object-craft.com.au/projects/sybase/](http://www.object-craft.com.au/projects/sybase/){.http}.
+The older versions of this driver are available at [http://www.object-craft.com.au/projects/sybase/](http://www.object-craft.com.au/projects/sybase/).
 
-### mxODBC {#mxODBC}
+### mxODBC 
 
 URL
 
-:   [http://www.egenix.com/products/python/mxODBC/](http://www.egenix.com/products/python/mxODBC/){.http}
+:   [http://www.egenix.com/products/python/mxODBC/](http://www.egenix.com/products/python/mxODBC/)
 
 Licence
 :   eGenix Commercial License
@@ -94,11 +80,11 @@ Python versions
 
 mxODBC is compatible with the Sybase ASE ODBC drivers on Windows and Unix.
 
-### mxODBC Connect {#mxODBC_Connect}
+### mxODBC Connect 
 
 URL
 
-:   [http://www.egenix.com/products/python/mxODBCConnect/](http://www.egenix.com/products/python/mxODBCConnect/){.http}
+:   [http://www.egenix.com/products/python/mxODBCConnect/](http://www.egenix.com/products/python/mxODBCConnect/)
 
 License
 :   eGenix Commercial License 1.3.0
@@ -111,17 +97,17 @@ Python versions
 
 mxODBC Connect is a commercial client-server product that allows connecting Python to ODBC compatible databases running on remote servers without requiring an ODBC driver on the client side. The product uses mxODBC on the server side and provides a highly portable Python library for the client side. As such it supports all database backend that mxODBC supports, but allows connecting to these from many different Python-supported platforms.
 
-mxODBC Connect supports asynchronous query execution via the popular [gevent package](http://www.gevent.org/){.http}, provides secure certificate based authentication, SSL encrypted database connections, comes with full support for stored procedures, multiple result sets, Unicode, a common interface on all platforms and implements [many other useful features](http://www.egenix.com/products/python/mxODBCConnect/#Features){.http}.
+mxODBC Connect supports asynchronous query execution via the popular [gevent package](http://www.gevent.org/), provides secure certificate based authentication, SSL encrypted database connections, comes with full support for stored procedures, multiple result sets, Unicode, a common interface on all platforms and implements [many other useful features](http://www.egenix.com/products/python/mxODBCConnect/#Features).
 
 mxODBC Connect Server is compatible with the Sybase ASE ODBC drivers.
 
 ------------------------------------------------------------------------
 
-# SAP Sybase SQL Anywhere {#SAP_Sybase_SQL_Anywhere}
+# SAP Sybase SQL Anywhere 
 
 URL
 
-:   [http://www.sap.com/pc/tech/database/software/sybase-sql-anywhere/index.html](http://www.sap.com/pc/tech/database/software/sybase-sql-anywhere/index.html){.http}
+:   [http://www.sap.com/pc/tech/database/software/sybase-sql-anywhere/index.html](http://www.sap.com/pc/tech/database/software/sybase-sql-anywhere/index.html)
 
 licence
 :   Commercial
@@ -129,13 +115,13 @@ licence
 platforms
 :   Unix, Linux, Windows, MacOS X
 
-## DB API 2.0 Drivers {#DB_API_2.0_Drivers-1}
+## DB API 2.0 Drivers 
 
-### mxODBC {#mxODBC-1}
+### mxODBC 
 
 URL
 
-:   [http://www.egenix.com/products/python/mxODBC/](http://www.egenix.com/products/python/mxODBC/){.http}
+:   [http://www.egenix.com/products/python/mxODBC/](http://www.egenix.com/products/python/mxODBC/)
 
 Licence
 :   eGenix Commercial License
@@ -152,7 +138,7 @@ mxODBC is compatible with the Sybase ASE ODBC drivers on Windows and Unix.
 
 URL
 
-:   [https://github.com/sqlanywhere/sqlanydb](https://github.com/sqlanywhere/sqlanydb){.https}
+:   [https://github.com/sqlanywhere/sqlanydb](https://github.com/sqlanywhere/sqlanydb)
 
 Licence
 :   Apache License 2.0
@@ -165,13 +151,13 @@ Python versions
 
 This a Google Code project providing a python interface to the SQL Anywhere Database.
 
-## Supported Python Applications {#Supported_Python_Applications}
+## Supported Python Applications 
 
-### Django {#Django}
+### Django 
 
 URL
 
-:   [https://github.com/sqlanywhere/sqlany-django](https://github.com/sqlanywhere/sqlany-django){.https}
+:   [https://github.com/sqlanywhere/sqlany-django](https://github.com/sqlanywhere/sqlany-django)
 
 Licence
 :   New BSD
@@ -184,7 +170,6 @@ Python versions
 
 This is a Google Code project allowing SQL Anywhere to be used as a backend database for the Django web framework.
 
-## Pros {#Pros}
+## Pros 
 
-## Cons {#Cons}
-::::
+## Cons 

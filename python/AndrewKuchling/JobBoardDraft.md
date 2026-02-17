@@ -1,9 +1,14 @@
 # AndrewKuchling/JobBoardDraft
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Title: Automating the python.org job board
 
-The python.org website includes a job board at [http://www.python.org/community/jobs/](http://www.python.org/community/jobs/){.http} that is currently updated manually by volunteers in response to emails from companies.
+The python.org website includes a job board at [http://www.python.org/community/jobs/](http://www.python.org/community/jobs/) that is currently updated manually by volunteers in response to emails from companies.
 
 The tasks done manually include:
 
@@ -35,4 +40,3 @@ A script should automatically close job offers once they are six months old.
 Students will have to set up Roundup on their own machine, and develop the new schema and hooks using that installation; we will then work to get the work deployed on the PSF\'s live Roundup server.
 
 This system will probably be maintained and used for a long time. You aren\'t signing up to maintain the code long-term (though it\'s great if you\'re willing to do so), but the code will need to be nicely modular and clear; the reviewer will be fairly strict about this.
-:::

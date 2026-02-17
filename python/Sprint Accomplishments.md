@@ -1,9 +1,14 @@
 # Sprint Accomplishments
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This is a list of all the accomplishments from the [PyCon](PyCon) 2008 Sprints.
 
-# 03/17/2008 {#A03.2F17.2F2008}
+# 03/17/2008 
 
 - Bitten continuous build tool now supports figleaf for code coverage
 
@@ -11,7 +16,7 @@ This is a list of all the accomplishments from the [PyCon](PyCon) 2008 Sprints.
 
 - Python: fixed about 8 issues. Backported new buffer protocol and rest of PEP 3127 to 2.6. Converted more tests to unittest or doctest.
 
-- Ported [Watermelons](http://www.imitationpickles.org/melons/){.http} to the OLPC while creating a [tutorial](http://wiki.laptop.org/go/Porting_pygame_games_to_the_XO){.http} to port pygame games to the OLPC.
+- Ported [Watermelons](http://www.imitationpickles.org/melons/) to the OLPC while creating a [tutorial](http://wiki.laptop.org/go/Porting_pygame_games_to_the_XO) to port pygame games to the OLPC.
 
 - Introduced Liam to using the issue tracker and triaging bugs.
 
@@ -19,7 +24,7 @@ This is a list of all the accomplishments from the [PyCon](PyCon) 2008 Sprints.
 
 - Preliminary support for Pylons in DBMechanic
 
-# 03/18/2008 {#A03.2F18.2F2008}
+# 03/18/2008 
 
 - Zope Interfaces now running on Jython
 
@@ -33,25 +38,25 @@ This is a list of all the accomplishments from the [PyCon](PyCon) 2008 Sprints.
 
 - Implemented simple encap/stow style package manager in 54 lines
 
-- Ported [Elephants](http://www.imitationpickles.org/elephant/){.http} to the OLPC.
+- Ported [Elephants](http://www.imitationpickles.org/elephant/) to the OLPC.
 
 - Released Graphviz plugin for Trac 0.11 and updated the release for Trac 0.10
 
 - Made it so that shutil.move() will do os.rename() instead of a copy when moving a file to a directory. Huge speed improvement for moving files on the same file-system.
 
-- OLPC sprint: XO-Core localization at 100% in [Khmer](https://dev.laptop.org/translate/km/){.https} for Cambodia.
+- OLPC sprint: XO-Core localization at 100% in [Khmer](https://dev.laptop.org/translate/km/) for Cambodia.
 
 - Got a new C function-based extension type API working, after several months simmering in development.
 
 - Made [TurboGears](TurboGears) testutil.DBTest work with SQLAlchemy (lmacken)
 
-# 03/19/2008 {#A03.2F19.2F2008}
+# 03/19/2008 
 
-- [TracForge](./TracForge.html){.nonexistent} now support basic web-based project creation.
+- [TracForge](./TracForge.html) now support basic web-based project creation.
 
 - 152 broken tests corrected for SQLAlchemy\'s Oracle module
 
-- flex-pypy proof of concept: A Flash game written in RPython\... [Pummel the chimp!](http://www.taniquetil.com.ar/py/chimp/chimp.html){.http}
+- flex-pypy proof of concept: A Flash game written in RPython\... [Pummel the chimp!](http://www.taniquetil.com.ar/py/chimp/chimp.html)
 
 - Triaged another 40 issues, closed around six of them.
 
@@ -59,11 +64,11 @@ This is a list of all the accomplishments from the [PyCon](PyCon) 2008 Sprints.
 
 - Got a bzr mirror of the Python SVN repository up so developers can start experimenting with it.
 
-- Created a [WebTest](./WebTest.html){.nonexistent}-based WSGI unit-testing framework for TG (lmacken)
+- Created a [WebTest](./WebTest.html)-based WSGI unit-testing framework for TG (lmacken)
 
 - Fixed a bug that would cause smtplib SSL readlines to hang on EOF.
 
-# 03/20/2008 {#A03.2F20.2F2008}
+# 03/20/2008 
 
 - Display code coverage in Trac browser for Bitten builds
 
@@ -73,15 +78,15 @@ This is a list of all the accomplishments from the [PyCon](PyCon) 2008 Sprints.
 
 - Got the unassigned/unprioritized issue list down under a page long. Closed 4 or 5 issues.
 
-- Python: [Experimental Bazaar branches](http://www.python.org/dev/bazaar/){.http} set up.
+- Python: [Experimental Bazaar branches](http://www.python.org/dev/bazaar/) set up.
 
-# finished 03/22/2008 {#finished_03.2F22.2F2008}
+# finished 03/22/2008 
 
 - Patch submitted for pydoc to display \'inherited\' documentation.
 
-# Jython {#Jython}
+# Jython 
 
-From [Frank Wierzbicki](http://fwierzbicki.blogspot.com/2008/03/pycon-2008-and-jython.html){.http}:
+From [Frank Wierzbicki](http://fwierzbicki.blogspot.com/2008/03/pycon-2008-and-jython.html):
 
 - Start of Twisted on Jython
 
@@ -91,13 +96,13 @@ From [Frank Wierzbicki](http://fwierzbicki.blogspot.com/2008/03/pycon-2008-and-j
 
 - Collaboration with SQLAlchemy to get JDBC support
 
-- Work on writing decimal.py as a wrapper around Java\'s [BigDecimal](./BigDecimal.html){.nonexistent}
+- Work on writing decimal.py as a wrapper around Java\'s [BigDecimal](./BigDecimal.html)
 
 - Work on porting mmap to jython
 
 - Work on 2.5 new style class exceptions
 
-# SchoolTool Sprint {#SchoolTool_Sprint}
+# SchoolTool Sprint 
 
 - Removed breadcrumbs.
 
@@ -125,7 +130,7 @@ From [Frank Wierzbicki](http://fwierzbicki.blogspot.com/2008/03/pycon-2008-and-j
 
 - Improved [SchoolTool](SchoolTool) resource booking view (Andrew).
 
-# Orbited Sprint {#Orbited_Sprint}
+# Orbited Sprint 
 
 - Pylons demo fixed and updated to orbited 0.3.2, thanks to Wes Devauld
 - New modpython tutorial, thanks to Roy Han
@@ -142,4 +147,3 @@ From [Frank Wierzbicki](http://fwierzbicki.blogspot.com/2008/03/pycon-2008-and-j
 ------------------------------------------------------------------------
 
 [CategoryPyCon2008](CategoryPyCon2008)
-:::

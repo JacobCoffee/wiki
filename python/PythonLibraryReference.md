@@ -1,6 +1,11 @@
 # PythonLibraryReference
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [PythonLibraryRefTemplate](PythonLibraryRefTemplate)\$
 
 Python Library Reference
@@ -9,9 +14,9 @@ Guido van Rossum
 
 Fred L. Drake, Jr., editor
 
-[PythonLabs](./PythonLabs.html){.nonexistent}
+[PythonLabs](./PythonLabs.html)
 
-Email: [docs@python.org](mailto:docs@python.org){.mailto}
+Email: [docs@python.org](mailto:docs@python.org)
 
 Release 2.3.3
 
@@ -27,17 +32,17 @@ December 19, 2003
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-[Front Matter](./PythonLibraryReference(2f)FrontMatter.html){.nonexistent}
+[Front Matter](./PythonLibraryReference(2f)FrontMatter.html)
 
-# Table Of Contents {#Table_Of_Contents}
+# Table Of Contents 
 
-1\. [Introduction](./PythonLibraryReference(2f)Introduction.html){.nonexistent}
+1\. [Introduction](./PythonLibraryReference(2f)Introduction.html)
 
-2\. [Built In Objects](./PythonLibraryReference(2f)BuiltInObjects.html){.nonexistent}
+2\. [Built In Objects](./PythonLibraryReference(2f)BuiltInObjects.html)
 
-3\. [Python Runtime Services](./PythonLibraryReference(2f)PythonRuntimeServices.html){.nonexistent}
+3\. [Python Runtime Services](./PythonLibraryReference(2f)PythonRuntimeServices.html)
 
-4\. [String Services](./PythonLibraryReference(2f)StringServices.html){.nonexistent}
+4\. [String Services](./PythonLibraryReference(2f)StringServices.html)
 
 5\. [Miscellaneous Services](./PythonLibraryReference(2f)MiscellaneousServices.html)
 
@@ -81,17 +86,17 @@ B. [Reporting Bugs](./PythonLibraryReference(2f)ReportingBugs.html)
 
 C. [History And License](./PythonLibraryReference(2f)HistoryAndLicense.html)
 
-[Module Index](./PythonLibraryReference(2f)ModuleIndex.html){.nonexistent}
+[Module Index](./PythonLibraryReference(2f)ModuleIndex.html)
 
-[Python Library Reference Index](./PythonLibraryReference(2f)PythonLibraryReferenceIndex.html){.nonexistent}
+[Python Library Reference Index](./PythonLibraryReference(2f)PythonLibraryReferenceIndex.html)
 
-[About This Document](./PythonLibraryReference(2f)AboutThisDocument.html){.nonexistent} \...
+[About This Document](./PythonLibraryReference(2f)AboutThisDocument.html) \...
 
-## Comments {#Comments}
+## Comments 
 
-Another set of annotatable documentation is at [http://pydoc.amk.ca/frame.html](http://pydoc.amk.ca/frame.html){.http} .
+Another set of annotatable documentation is at [http://pydoc.amk.ca/frame.html](http://pydoc.amk.ca/frame.html) .
 
-That site wraps a frameset around the Python 2.3.4 documentation and adds some [JavaScript](./JavaScript.html){.nonexistent} that updates another frame to display a Wiki page for the documentation page you\'re viewing.
+That site wraps a frameset around the Python 2.3.4 documentation and adds some [JavaScript](./JavaScript.html) that updates another frame to display a Wiki page for the documentation page you\'re viewing.
 
 Please go and add any commentary, links, or other material you wish. If it becomes clear that people will actually use these annotated docs, they\'ll probably get moved onto python.org.
 
@@ -110,4 +115,3 @@ Thanks Andrew!
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-::::

@@ -1,9 +1,14 @@
 # PyConIndia2009/SessionChairs
 
-::: {#content dir="ltr" lang="en"}
-# Session Chairs for Python India 2009 {#Session_Chairs_for_Python_India_2009}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Hall L4 {#Hall_L4}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Session Chairs for Python India 2009 
+
+## Hall L4 
 
 **Day1**
 
@@ -17,7 +22,7 @@
     S5: 09:45 - 10:30: Senthil Kumaran
     S6: 10:45 - 13:00:
 
-## Hall L5 {#Hall_L5}
+## Hall L5 
 
 **Day1**
 
@@ -31,7 +36,7 @@
     S5: 09:45 - 10:30:
     S6: 10:45 - 13:00:
 
-## Hall L1 {#Hall_L1}
+## Hall L1 
 
 **Day1**
 
@@ -48,4 +53,3 @@
 ------------------------------------------------------------------------
 
 [CategoryPyConIndia2009](CategoryPyConIndia2009)
-:::

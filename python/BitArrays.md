@@ -1,15 +1,20 @@
 # BitArrays
 
-::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Bit arrays, bitstrings, bit vectors, bit fields.
 
 Whatever they are called, these useful objects are often the most compact way to store data. If you can depict your data as boolean values, and can correlate each value with a unique integer, a bit array is a natural choice.
 
 Sets of positive integers are straightforward. The set containing 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31 (the prime numbers less than 32) can be represented in 4 bytes by:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a99343f417513441c3259dcac35df713d11b526b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # bit 31                          bit 0
    2 #      |                              |
    3 #      10100000100010100010100010101100  =  0xA08A28AC
@@ -19,9 +24,9 @@ Sets of positive integers are straightforward. The set containing 2, 3, 5, 7, 11
 
 The entire set of signed bytes can be represented in 256 bits, where **bit n** corresponds to the number **n - 128**. The set of all integers can be mapped to the positive integers:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a2a6951d0da5396e60ab43a9092894eefad3921b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 for n in range(17):
    2     if (n & 1):                   # if n is odd, n
    3         i = -((n + 1) >> 1)       # represents a negative number
@@ -36,9 +41,9 @@ The entire set of signed bytes can be represented in 256 bits, where **bit n** c
 
 Increasingly sophisticated modules are available for generating and using bit arrays (see bit\* in the Python package index) but it isn\'t hard to set up and use a simple bit array. The following demonstration calculates the number of 32-bit integers needed for all the data bits requested and builds an array initialized to all 0\'s or all 1\'s. The program reports the number of \"excess\" bits if the number requested was not an exact multiple of 32.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-ee158453f29c306bfc31234248a1b1cc4031789f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # A bit array demo - written for Python 3.0
    2 import array
    3 def makeBitArray(bitSize, fill = 0):
@@ -101,9 +106,9 @@ Increasingly sophisticated modules are available for generating and using bit ar
 
 For a more concrete example, the following code uses the Sieve of Eratosthenes (for an explanation, see Wikipedia) to find all of the primes less than 65536 (2 to the 16th power) and leaves them in a bit array. This is not the place to go into all the details of how the Sieve works, so it is left in an informal form. To run the Sieve, change the main body of the program (everything after the function definitions) to:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a1ff1359da0ffcb3a8bfcc6f80cc3657c97d9a20 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # Python 3.0
    2 bits = 65536                             # upper limit on primes
    3 ini = 1
@@ -142,4 +147,3 @@ See also:
 [BitManipulation](BitManipulation)
 
 [BitwiseOperators](BitwiseOperators)
-:::::::::::

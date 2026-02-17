@@ -1,6 +1,11 @@
 # PackagingWG/2020-10-28-pip-teamwide-meeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Wednesday, 28 October 2020
 
 Participants:
@@ -12,16 +17,16 @@ Participants:
 
 Agenda:
 
-- [https://github.com/pypa/pip/pull/9017](https://github.com/pypa/pip/pull/9017){.https} \-- Log an informational message when backtracking takes multiple rounds on a specific package #9017
+- [https://github.com/pypa/pip/pull/9017](https://github.com/pypa/pip/pull/9017) \-- Log an informational message when backtracking takes multiple rounds on a specific package #9017
 
   - P just merged it. \\o/
 
-- [https://github.com/pypa/pip/pull/9040](https://github.com/pypa/pip/pull/9040){.https} \-- Include backtracking in user guide
+- [https://github.com/pypa/pip/pull/9040](https://github.com/pypa/pip/pull/9040) \-- Include backtracking in user guide
 
   - Feedback?
   - \[Pradyun and Sumana review it live during call\]
 
-- [https://github.com/pypa/pip/issues/7744](https://github.com/pypa/pip/issues/7744){.https} \-- Handle conflicts from installed packages when updating other packages
+- [https://github.com/pypa/pip/issues/7744](https://github.com/pypa/pip/issues/7744) \-- Handle conflicts from installed packages when updating other packages
 
   - Prioritization: OK to defer to \_after\_ 20.3.beta1 or should we do it \*now\*?
     - SH: I think can defer to after the beta.
@@ -33,7 +38,7 @@ Agenda:
 
     - GA & BT are fine with deferring to Pradyun!
 
-  - [https://github.com/pypa/pip/issues/8495](https://github.com/pypa/pip/issues/8495){.https} \-- Error message update: inconsistent/conflicting dependencies
+  - [https://github.com/pypa/pip/issues/8495](https://github.com/pypa/pip/issues/8495) \-- Error message update: inconsistent/conflicting dependencies
 
     - #8495 \-- before beta or ok if it is after? implementation: Show dependency tree in `ResolutionImpossible`{.backtick} error message #9036
 
@@ -51,9 +56,8 @@ Agenda:
 
 Pradyun planning the rest of his evening:
 
-- [https://github.com/pypa/pip/pull/9056](https://github.com/pypa/pip/pull/9056){.https} \-- Documentation update: migration guide (review)
+- [https://github.com/pypa/pip/pull/9056](https://github.com/pypa/pip/pull/9056) \-- Documentation update: migration guide (review)
 
-- [https://github.com/pypa/pip/pull/9044](https://github.com/pypa/pip/pull/9044){.https} \-- Documentation update: resolver default (review)
+- [https://github.com/pypa/pip/pull/9044](https://github.com/pypa/pip/pull/9044) \-- Documentation update: resolver default (review)
 
-- [https://github.com/pypa/pip/pull/9019](https://github.com/pypa/pip/pull/9019){.https} \-- Flip the switch on new resolver (implement)
-:::
+- [https://github.com/pypa/pip/pull/9019](https://github.com/pypa/pip/pull/9019) \-- Flip the switch on new resolver (implement)

@@ -1,7 +1,12 @@
 # BuildAnIntranet
 
-::: {#content dir="ltr" lang="en"}
-# Build an Intranet {#Build_an_Intranet}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Build an Intranet 
 
 For an intranet solution for a company or organisation of almost any size, the processes might look something like this:
 
@@ -24,11 +29,10 @@ For an intranet solution for a company or organisation of almost any size, the p
 
     - You may be extracting data from different sources and then need to present it as Web pages. Here, the [DataRepresentation](DataRepresentation) and [Templating](Templating) may provide good solutions. And there\'s probably lots of existing documents lying around anyway which can be served up as they are.
 
-5.  Integrate into business processes - not only merits a \"top level\" mention, but an entire Web site devoted to it. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+5.  Integrate into business processes - not only merits a \"top level\" mention, but an entire Web site devoted to it. ![:)](/wiki/europython/img/smile.png ":)")
 
 6.  Test! It\'s nice if your [WebProgramming](WebProgramming) framework allows development and testing outside a Web browser, XML-RPC, SOAP, etc. Like from the command prompt, for example.
 
 ------------------------------------------------------------------------
 
 [CategoryPythonInBusiness](CategoryPythonInBusiness)
-:::

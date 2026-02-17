@@ -1,19 +1,24 @@
 # PythonCd
 
-:::: {#content dir="ltr" lang="en"}
-# Welcome to your Python CD! {#Welcome_to_your_Python_CD.21}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Welcome to your Python CD! 
 
 ::: {}
 +-------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-| This is a bootable CD based on [Debian GNU/Linux](http://debian.org/){.http} and [KNOPPIX](http://knoppix.de/){.http}.\ | ![](http://www.kloss-familie.de/guy/images/Python_cd_trans_sm.png "http://www.kloss-familie.de/guy/images/Python_cd_trans_sm.png"){.external_image} |
+| This is a bootable CD based on [Debian GNU/Linux](http://debian.org/) and [KNOPPIX](http://knoppix.de/).\ | ![](http://www.kloss-familie.de/guy/images/Python_cd_trans_sm.png "http://www.kloss-familie.de/guy/images/Python_cd_trans_sm.png") |
 | \                                                                                                                       |                                                                                                                                                     |
 | The special thing about it is that it has lots of Python stuff!                                                         |                                                                                                                                                     |
 +-------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
 :::
 
-# Contents of the Python CD {#Contents_of_the_Python_CD}
+# Contents of the Python CD 
 
-- [PythonCdDocs](PythonCdDocs) - lots of documentation (read them ![;)](/wiki/europython/img/smile4.png ";)"){height="16" width="16"} )
+- [PythonCdDocs](PythonCdDocs) - lots of documentation (read them ![;)](/wiki/europython/img/smile4.png ";)") )
 
 - [PythonCdCore](PythonCdCore) - core Python packages and files
 
@@ -23,17 +28,16 @@
 
 - [PythonCdToDo](PythonCdToDo) - what we plan for the future
 
-- [PythonCdContributors](PythonCdContributors) - hall of fame ![;)](/wiki/europython/img/smile4.png ";)"){height="16" width="16"}
+- [PythonCdContributors](PythonCdContributors) - hall of fame ![;)](/wiki/europython/img/smile4.png ";)")
 
-# Online ressources {#Online_ressources}
+# Online ressources 
 
 - [PythonCdDownload](PythonCdDownload) - how to get the PythonCd from the internet
 
-- join #pythoncd@irc.freenode.net for discussion, development and support of PythonCd. The channel is brand new, so just hang out there and simply start writing. ![;)](/wiki/europython/img/smile4.png ";)"){height="16" width="16"}
+- join #pythoncd@irc.freenode.net for discussion, development and support of PythonCd. The channel is brand new, so just hang out there and simply start writing. ![;)](/wiki/europython/img/smile4.png ";)")
 
-- [http://wiki.python.org/moin/PythonCd](http://wiki.python.org/moin/PythonCd){.http} for latest version of the wiki pages and other Python information
+- [http://wiki.python.org/moin/PythonCd](http://wiki.python.org/moin/PythonCd) for latest version of the wiki pages and other Python information
 
-- [http://python.org/](http://python.org/){.http} for general Python information
+- [http://python.org/](http://python.org/) for general Python information
 
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} Developers and Contributors, please use the wiki and IRC as the main kind of collaboration.
-::::
+![/!\\](/wiki/europython/img/alert.png "/!\") Developers and Contributors, please use the wiki and IRC as the main kind of collaboration.

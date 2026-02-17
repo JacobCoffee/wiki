@@ -1,13 +1,18 @@
 # JythonDeveloperGuide/NetbeansGuide
 
-::: {#content dir="ltr" lang="en"}
-## Building Jython with Netbeans {#Building_Jython_with_Netbeans}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Building Jython with Netbeans 
 
 - *Submitted by Josh Juneau on 6/10/2006*
 
-This is a step-by-step guide to show how you may set up a Jython build using Netbeans. I used [NetBeans](./NetBeans.html){.nonexistent} 5.5 (beta) for this tutorial.
+This is a step-by-step guide to show how you may set up a Jython build using Netbeans. I used [NetBeans](./NetBeans.html) 5.5 (beta) for this tutorial.
 
-Since this is a guide which is specific to [NetBeans](./NetBeans.html){.nonexistent}, I will only briefly touch upon the procedures for obtaining the code and all of the required JAR files.
+Since this is a guide which is specific to [NetBeans](./NetBeans.html), I will only briefly touch upon the procedures for obtaining the code and all of the required JAR files.
 
 - **OBTAIN NECESSARY CODE AND JAR LIBRARIES**
 
@@ -23,7 +28,7 @@ Since this is a guide which is specific to [NetBeans](./NetBeans.html){.nonexist
 
       <!-- -->
 
-      - **Find a listing of applications: [http://java-readline.sourceforge.net/](http://java-readline.sourceforge.net/){.http}**
+      - **Find a listing of applications: [http://java-readline.sourceforge.net/](http://java-readline.sourceforge.net/)**
 
       Informix JDBC- ifxjdbc.jar
       - *You will need to sign up for an IBM account (free) to obtain*
@@ -77,4 +82,3 @@ Since this is a guide which is specific to [NetBeans](./NetBeans.html){.nonexist
     java -jar "C:\j2ee_dev\Jython\dist\Jython.jar"
     jar:
     BUILD SUCCESSFUL (total time: 2 minutes 23 seconds)
-:::

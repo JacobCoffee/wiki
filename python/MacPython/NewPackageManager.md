@@ -1,13 +1,18 @@
 # MacPython/NewPackageManager
 
-::: {#content dir="ltr" lang="en"}
-# Notes about what we need to do {#Notes_about_what_we_need_to_do}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Also see: [http://www.python.org/cgi-bin/moinmoin/DistUtils20](http://www.python.org/cgi-bin/moinmoin/DistUtils20){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Extending PEP-241 ( http://www.python.org/peps/pep-0241.html ) {#Extending_PEP-241_.28_http:.2F.2Fwww.python.org.2Fpeps.2Fpep-0241.html_.29}
+# Notes about what we need to do 
 
-As per Sarwat\'s suggestion for canonical version numbers, we do have somewhat of a solution that I was unaware of: the [StrictVersion](http://epydoc.sourceforge.net/stdlib/public/distutils.version.StrictVersion-class.html){.http} and [LooseVersion](http://epydoc.sourceforge.net/stdlib/public/distutils.version.LooseVersion-class.html){.http} classes in [distutils.version](http://epydoc.sourceforge.net/stdlib/public/distutils.version-module.html){.http}. [LooseVersion](http://epydoc.sourceforge.net/stdlib/public/distutils.version.LooseVersion-class.html){.http} will pretty much allow us to compare arbitrary 1.0a2 vs 1.0b2 version numbers reliably. If they don\'t compare reliably or can not be parsed by [LooseVersion](http://epydoc.sourceforge.net/stdlib/public/distutils.version.LooseVersion-class.html){.http}, the package author is not following spec and should be smacked around ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+Also see: [http://www.python.org/cgi-bin/moinmoin/DistUtils20](http://www.python.org/cgi-bin/moinmoin/DistUtils20)
+
+## Extending PEP-241 ( http://www.python.org/peps/pep-0241.html ) 
+
+As per Sarwat\'s suggestion for canonical version numbers, we do have somewhat of a solution that I was unaware of: the [StrictVersion](http://epydoc.sourceforge.net/stdlib/public/distutils.version.StrictVersion-class.html) and [LooseVersion](http://epydoc.sourceforge.net/stdlib/public/distutils.version.LooseVersion-class.html) classes in [distutils.version](http://epydoc.sourceforge.net/stdlib/public/distutils.version-module.html). [LooseVersion](http://epydoc.sourceforge.net/stdlib/public/distutils.version.LooseVersion-class.html) will pretty much allow us to compare arbitrary 1.0a2 vs 1.0b2 version numbers reliably. If they don\'t compare reliably or can not be parsed by [LooseVersion](http://epydoc.sourceforge.net/stdlib/public/distutils.version.LooseVersion-class.html), the package author is not following spec and should be smacked around ![:)](/wiki/europython/img/smile.png ":)")
 
 We need more metadata, here\'s what we need:
 
@@ -17,27 +22,27 @@ We need more metadata, here\'s what we need:
 
 - **Depends**: (optional) A list of other packages, by Package-Name (which must by definition follow python module naming guidelines), that this package depends on.
 
-- **Recommends**: (optional) A list of other packages, by Package-Name, that enhance the functionality of this package (i.e. Twisted recommends [PyCrypto](./PyCrypto.html){.nonexistent} because it enables Conch (the SSH2 client/server))
+- **Recommends**: (optional) A list of other packages, by Package-Name, that enhance the functionality of this package (i.e. Twisted recommends [PyCrypto](./PyCrypto.html) because it enables Conch (the SSH2 client/server))
 
 I believe this will be sufficient. However it may be nice to be able to specify C or C++ libraries that a package wraps or depends on (but does not include). Ideas?
 
 One thing, related to Package-Name, is that we should completely deprecate the practice where you can install a whole bunch of python modules flat in site-packages. If you have more than one file that belongs in site-packages, it should go in a separate folder and be referenced by a pth file. There should be a 1:1 relationship between the number of modules+packages in your site-packages, and the number of modules+packages that you installed.
 
-## Discussion of PEP-243 ( http://www.python.org/peps/pep-0243.html ) {#Discussion_of_PEP-243_.28_http:.2F.2Fwww.python.org.2Fpeps.2Fpep-0243.html_.29}
+## Discussion of PEP-243 ( http://www.python.org/peps/pep-0243.html ) 
 
-PEP-243 proposes a central module repository system for source modules. We should say that the [PackMan](./PackMan.html){.nonexistent} system will supplant this because (a) it could take advantage of a central module repository if available and (b) it\'s easier these days to host open source projects anyways (a la sourceforge). Speaking of sourceforge, we should have special integration for sourceforge downloads in [PackMan](./PackMan.html){.nonexistent} (let the user choose a preferred mirror, display to the use who is sponsoring their download). It\'s possible that the scapegoat may choose to come to an arrangement with the package maintainers such that package maintainers will host the scapegoat-built binary packages on their site to make it more economical for scapegoats.
+PEP-243 proposes a central module repository system for source modules. We should say that the [PackMan](./PackMan.html) system will supplant this because (a) it could take advantage of a central module repository if available and (b) it\'s easier these days to host open source projects anyways (a la sourceforge). Speaking of sourceforge, we should have special integration for sourceforge downloads in [PackMan](./PackMan.html) (let the user choose a preferred mirror, display to the use who is sponsoring their download). It\'s possible that the scapegoat may choose to come to an arrangement with the package maintainers such that package maintainers will host the scapegoat-built binary packages on their site to make it more economical for scapegoats.
 
-## Embrace and Extend PEP-262 ( http://www.python.org/peps/pep-0262.html ) {#Embrace_and_Extend_PEP-262_.28_http:.2F.2Fwww.python.org.2Fpeps.2Fpep-0262.html_.29}
+## Embrace and Extend PEP-262 ( http://www.python.org/peps/pep-0262.html ) 
 
-PEP-262 is the holy grail for [PackMan](./PackMan.html){.nonexistent}, it allows us to develop a sane way to do package management, especially uninstallation.
+PEP-262 is the holy grail for [PackMan](./PackMan.html), it allows us to develop a sane way to do package management, especially uninstallation.
 
 For our platform, PEP-262 has one inherent deficiency: INSTALLDB (the location for receipts) is a fixed location and not a search path. I propose that we leverage sys.path in our quest to locate the installation receipt database, that way we can find /System/Library/\... /Library/\... /Network/Library/\... \~/Library/\... or whatever is appropriate for that particular installation of Python. The installation database could have a file name that would be unacceptable as a python package name, such as INSTALL-DB, this way it could not possibly be confused with an actual package.
 
 I think that we can deprecate the REQUIRES and PROVIDES files by adding Depends, Package-Name, and Recommends to PKG-INFO. I don\'t think that the \"PROVIDES\" file makes a whole lot of sense, unless the strings used in provides means it corresponds to a definitive module interface. There is not currently any sort of registry or PEP for this kind of thing, so it\'s probably not at all useful. Since we have upgraded PEP-241, we should also upgrade the Package class in PEP-262 to include the new metadata.
 
-# Notes for NewPackageManager {#Notes_for_NewPackageManager}
+# Notes for NewPackageManager 
 
-- Read \"[Package Manager idea, adding URL scheme](http://mail.python.org/pipermail/pythonmac-sig/2003-October/thread.html#8891){.http}\" thread on pythonmac-sig very carefully
+- Read \"[Package Manager idea, adding URL scheme](http://mail.python.org/pipermail/pythonmac-sig/2003-October/thread.html#8891)\" thread on pythonmac-sig very carefully
 
 - Needs to have a receipt database for each installation location (PEP-262 extension)
 
@@ -45,11 +50,11 @@ I think that we can deprecate the REQUIRES and PROVIDES files by adding Depends,
 
 - Must work without mandatory crypto support see commentary started by [MichaelHudson](MichaelHudson)
 
-- Should use hashes to be as secure as possible without crypto, where hashes of the [PackMan](./PackMan.html){.nonexistent} database should be available at 3rd party sites (i.e. \"I Jack Jansen, trust that Bob\'s repository has a SHA-1 hash of \.....\") see \"check integrity\" comments by [JackJansen](JackJansen)
+- Should use hashes to be as secure as possible without crypto, where hashes of the [PackMan](./PackMan.html) database should be available at 3rd party sites (i.e. \"I Jack Jansen, trust that Bob\'s repository has a SHA-1 hash of \.....\") see \"check integrity\" comments by [JackJansen](JackJansen)
 
 - Should leverage SSL certificates (when assigned by a trusted CA) whenever possible
 
-- Should be able to cryptographically sign a package list (i.e. PGP / [ElGamal](./ElGamal.html){.nonexistent} / etc.)
+- Should be able to cryptographically sign a package list (i.e. PGP / [ElGamal](./ElGamal.html) / etc.)
 
 - Focus is on binary package installs, but source package installs should also be supported
 
@@ -67,7 +72,7 @@ I think that we can deprecate the REQUIRES and PROVIDES files by adding Depends,
 
 - Don\'t use .plist as the file suffix, that makes it impossible to bind an application to package manager databases
 
-# Notes for NewPackageManager GUI {#Notes_for_NewPackageManager_GUI}
+# Notes for NewPackageManager GUI 
 
 - Needs to be a lot smarter, less clutter, more organization (think trees, don\'t differentiate between binary/source installs, filter out packages the user has acceptable versions of, etc.)
 
@@ -97,7 +102,7 @@ I think that we can deprecate the REQUIRES and PROVIDES files by adding Depends,
 
 - Search field
 
-# Bug and Feature Requests {#Bug_and_Feature_Requests}
+# Bug and Feature Requests 
 
 The current PM has faulty scrolling\-\--if a pimp site has a package list that is longer than the viewing area, one cannot scroll to see the extra content (well, you *can* scroll, but the window pops right back to the top). Packages are accessible via the arrow keys, but the faulty scrolling is clearly a bug. Make sure the new manager gets tested on a site with a *long* list of packages.
 
@@ -108,4 +113,3 @@ First, I\'d love to see package size information in the PM window. This way I ca
 Second, I\'d love to see useful progress info on the download and installation. If I check **Verbose**, the current PM tries to produce this, but unfortuately the resulting text window update is too slow and I\'ll typically not see *any* of the progress lines until the download is complete, at which point the window happily shows me every status line from the start to 100%.
 
 Finally, I\'d love for there to be a way to save a package locally in a way allowing it to be moved to another machine and installed via PM there. (This would also be useful for backup purposes, so one could restore a particular Python setup.) Ideally I\'d like to grab the packages on my fast-connection machine, and install them on the slow-connection machine.
-:::

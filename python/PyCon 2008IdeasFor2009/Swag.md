@@ -1,7 +1,12 @@
 # PyCon 2008IdeasFor2009/Swag
 
-::: {#content dir="ltr" lang="en"}
-## Tote bags {#Tote_bags}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Tote bags 
 
 **What we did in 2008**
 
@@ -13,22 +18,22 @@
 - Find bags made from post-consumer recyclables
 - Have the tote\'s zipper fully close the bag (2008\'s had a small hole at one end of the zipper)
 
-## T-Shirts {#T-Shirts}
+## T-Shirts 
 
 **What we did in 2008** .
 
-Elegant Stitches provided the conference T-Shirt with the [xkcd cartoon](http://xkcd.com/353/){.http} on the back. They arrived prefolded (a nice touch). Graphics for the conference shirt were a big unknown until that comic came along. Canonical provided Bazaar-branded shirts solely in men\'s size Large. Google provided \"Google/pycon 2008\"-branded shirts in a variety of men\'s and women\'s sizes. Many people wanted shirt sizes that were different than what they requested at registration. From Thursday until midday Friday, we told them to come back later and check if we had extra in their desired size. Many did, and overall, I think most people ended up with the shirt size they wanted.
+Elegant Stitches provided the conference T-Shirt with the [xkcd cartoon](http://xkcd.com/353/) on the back. They arrived prefolded (a nice touch). Graphics for the conference shirt were a big unknown until that comic came along. Canonical provided Bazaar-branded shirts solely in men\'s size Large. Google provided \"Google/pycon 2008\"-branded shirts in a variety of men\'s and women\'s sizes. Many people wanted shirt sizes that were different than what they requested at registration. From Thursday until midday Friday, we told them to come back later and check if we had extra in their desired size. Many did, and overall, I think most people ended up with the shirt size they wanted.
 
 **Ideas for 2009**
 
 - If community artwork is hard to come by, don\'t be afraid to hire someone to do graphic design.
-  - Consider other online cartoonists. They\'d have to use line drawings like xkcd or [Medium Large](http://mediumlarge.wordpress.com/2008/08/22/friday-august-22-2008/){.http}, not solid colours like [Diesel Sweeties](http://www.dieselsweeties.com/){.http}.
+  - Consider other online cartoonists. They\'d have to use line drawings like xkcd or [Medium Large](http://mediumlarge.wordpress.com/2008/08/22/friday-august-22-2008/), not solid colours like [Diesel Sweeties](http://www.dieselsweeties.com/).
 
 - Let sponsors know that we can give them shirt size estimates before they order
 
 - Only give people the shirt size they registered for ***or*** hold a shirt-size-swap BoF ***or*** over-order all sizes by a bit more.
 
-## Stickers {#Stickers}
+## Stickers 
 
 **What we did in 2008**
 
@@ -42,7 +47,7 @@ I hear that the durability of the stickers wasn\'t so great. The printing wears 
 - More durable: heavy-duty
 - Something other than, or in addition to, stickers as a conference goodie?
 
-## Bag Stuffing {#Bag_Stuffing}
+## Bag Stuffing 
 
 **What we did in 2008**
 
@@ -65,4 +70,3 @@ I hear that the durability of the stickers wasn\'t so great. The printing wears 
 - Signage for the different steps involved in registration would be helpful if the venue doesn\'t present a logical traffic flow on its own
 
 - Pre-assembled badge holders ***or*** put lanyards and badgeholders in the bag
-:::

@@ -1,6 +1,11 @@
 # PyConIndiaVolunteers
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page list the various top level jobs that need to be done to make [PyCon](PyCon) India a reality. When more things to do come up, we\'ll put them under one of these headings. I have put some details in square brackets for each item.
 
 - Sponsorships (Kunal/Kausikram) \[Contacting sponsors, following up and being available to answer their questions. Sub items will mostly be companies\]
@@ -37,4 +42,3 @@ This page list the various top level jobs that need to be done to make [PyCon](P
 ------------------------------------------------------------------------
 
 [CategoryPyConIndia2009](CategoryPyConIndia2009)
-:::

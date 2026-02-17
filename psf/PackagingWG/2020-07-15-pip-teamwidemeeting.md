@@ -1,6 +1,11 @@
 # PackagingWG/2020-07-15-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Team Meeting - Wednesday 15th July
 
 Attendees:
@@ -27,21 +32,21 @@ Agenda:
 
   - Nicole
     - Nicole requires the following to be reviewed:
-      - Documentation research plan before posting to GitHub: [https://hackmd.io/q1TjDssCTyWDdi_tv_a8BQ?both](https://hackmd.io/q1TjDssCTyWDdi_tv_a8BQ?both){.https}
+      - Documentation research plan before posting to GitHub: [https://hackmd.io/q1TjDssCTyWDdi_tv_a8BQ?both](https://hackmd.io/q1TjDssCTyWDdi_tv_a8BQ?both)
 
-        - Georgia has reviewed - thank you ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+        - Georgia has reviewed - thank you ![:)](/wiki/europython/img/smile.png ":)")
 
         - Need others to also look at it
 
-      - Survey for gathering user feedback on pip search: [https://forms.gle/qY7PA3U4QHmo9Ao66](https://forms.gle/qY7PA3U4QHmo9Ao66){.https} (see [https://github.com/pypa/pip/issues/5216#issuecomment-658690246](https://github.com/pypa/pip/issues/5216#issuecomment-658690246){.https})
+      - Survey for gathering user feedback on pip search: [https://forms.gle/qY7PA3U4QHmo9Ao66](https://forms.gle/qY7PA3U4QHmo9Ao66) (see [https://github.com/pypa/pip/issues/5216#issuecomment-658690246](https://github.com/pypa/pip/issues/5216#issuecomment-658690246))
 
-        - Paul has reviewed ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+        - Paul has reviewed ![:)](/wiki/europython/img/smile.png ":)")
 
         - Need others to also look at it
 
         - also #8456 (later in meeting)
 
-  - Sumana: [https://pyfound.blogspot.com/2020/07/pip-team-midyear-report.html](https://pyfound.blogspot.com/2020/07/pip-team-midyear-report.html){.https} - need to work next on docs for release; no blockers
+  - Sumana: [https://pyfound.blogspot.com/2020/07/pip-team-midyear-report.html](https://pyfound.blogspot.com/2020/07/pip-team-midyear-report.html) - need to work next on docs for release; no blockers
 
 - July release timing (20.2)
   - We usually do releases early in the month, or try to. McSinyx asking about a beta - do we want to do this?
@@ -50,7 +55,7 @@ Agenda:
 
   - Target date: Monday the 20th or Tues the 21st? Maybe. Pradyun is working through backlog. The warnings & installation stuff is a bigger change than expected. Also communicating around error messages/reasonable. \[possibility of vacation\]
 
-- date for [https://github.com/pypa/pip/issues/8546](https://github.com/pypa/pip/issues/8546){.https}              Updating the message when the user hits a conflict w/ installed packages            #8546    
+- date for [https://github.com/pypa/pip/issues/8546](https://github.com/pypa/pip/issues/8546)              Updating the message when the user hits a conflict w/ installed packages            #8546    
 
   - 20.3 would be in Oct, goal is to be the default by then.
   - \[discussion about \$MONTH in the message\]
@@ -77,13 +82,13 @@ Agenda:
   - concern Paul raised: don\'t show a link to that survey forever! Put the message on a timer \-- show a link for a certain number of weeks, have it disappear from pip after that point
     - Pradyun: looking at calendar and conditionally print it
     - Bernard: I AM EXCITED ABOUT THIS: can we formalize this in some way, so we can use this functionality for future work? a great way of recruiting and communicating with participants directly
-      - TODO: Pradyun to file issue corresponding to this. Tag Bernard. DONE: [https://github.com/pypa/pip/issues/8586](https://github.com/pypa/pip/issues/8586){.https}
+      - TODO: Pradyun to file issue corresponding to this. Tag Bernard. DONE: [https://github.com/pypa/pip/issues/8586](https://github.com/pypa/pip/issues/8586)
 
       - Sumana: after formalization, could tie into deprecation policy (a calendar-conditional verbose message on deprecated functionality)
 
 - Question: What is the situation with \"Print Better Error Messages\" and \"Improve User Experience\" milestones on GitHub? Are these used?
 
-  - e.g. [https://github.com/pypa/pip/milestone/25](https://github.com/pypa/pip/milestone/25){.https} [https://github.com/pypa/pip/milestone/10](https://github.com/pypa/pip/milestone/10){.https}
+  - e.g. [https://github.com/pypa/pip/milestone/25](https://github.com/pypa/pip/milestone/25) [https://github.com/pypa/pip/milestone/10](https://github.com/pypa/pip/milestone/10)
 
   - Nicole was looking into research epic for improving functionality 
 
@@ -94,4 +99,3 @@ Agenda:
   - Sumana: may need to slice-and-dice categories better, milestone is probably the wrong abstraction
 
   - Nicole: will go to backlog of tickets and see what can fit into the research epics, and crosslink them
-:::

@@ -1,11 +1,16 @@
 # boost.python/BuildingExtensions
 
-::: {#content dir="ltr" lang="en"}
-# Building Extensions with boost.python {#Building_Extensions_with_boost.python}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Using bjam {#Using_bjam}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-bjam is a standard tool for building boost library itself. Thus it is preferable way to build Python extensions based on [boost.python](./boost(2e)python.html) with bjam. Basic example listed in [tutorial](http://www.boost.org/libs/python/doc/tutorial/doc/html/python/hello.html){.http}.
+# Building Extensions with boost.python 
+
+## Using bjam 
+
+bjam is a standard tool for building boost library itself. Thus it is preferable way to build Python extensions based on [boost.python](./boost(2e)python.html) with bjam. Basic example listed in [tutorial](http://www.boost.org/libs/python/doc/tutorial/doc/html/python/hello.html).
 
 However if you want to add external libraries in your extension (that is why you use boost.python, isn\'t it?), you must add them to the **Jamfile**:
 
@@ -65,13 +70,13 @@ Keeping your projects under boost hierarchy is often inconvenient. You may build
 
 - to silence warning create empty **Jamrules** file.
 
-## Using make {#Using_make}
+## Using make 
 
 - Make sure to link with *boost_python* or *boost_python_debug* library.
 
-## Using SCons {#Using_SCons}
+## Using SCons 
 
-You might want to try [scons](http://www.scons.org){.http}.
+You might want to try [scons](http://www.scons.org).
 
 It\'s really easy to build python extensions with scons. Here is an example that would build uvector.so:
 
@@ -82,11 +87,11 @@ It\'s really easy to build python extensions with scons. Here is an example that
                        RPATH=['./',BOOSTLIBPATH])
     env.SharedLibrary (target='uvector', source='uvector.cc', SHLIBPREFIX='', LIBS=[BOOST_PYTHON_LIB])
 
-## Using Windows IDE {#Using_Windows_IDE}
+## Using Windows IDE 
 
 - Make sure you keep `"Use Managed Extension" == No` if you are using Visual Studio.NET.
 
-## Using CMake {#Using_CMake}
+## Using CMake 
 
 Save the file as CMakeLists.txt, `cd` into the directory, and run `cmake .` followed by `make`:
 
@@ -104,7 +109,7 @@ Save the file as CMakeLists.txt, `cd` into the directory, and run `cmake .` fol
 
 On Linux, this will make a libMyLibrary.so library in the same directory.
 
-# Tips and tricks {#Tips_and_tricks}
+# Tips and tricks 
 
 To keep up with bjam rules you might want to have a *dry* run without actually building anything: {{{bjam -na }}}
 
@@ -144,7 +149,7 @@ If you are getting **error C1055: compiler limit : out of keys** on MS VisualC, 
 
 If you are getting error **error C1076: compiler limit - internal heap limit reached** try add /ZmNNN (with NNN=300..800)
 
-[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[]{.u}[ You can use a setup.py file if u are careful ]{.u}
+[][][][][][][][][][][][][][][][][][][][][][][][][][][ You can use a setup.py file if u are careful ]
 
     #setup.py
     from distutils.core import setup
@@ -174,5 +179,4 @@ If you are getting error **error C1076: compiler limit - internal heap limit rea
 
 For the above I compile and install boost using bjam then you set the appropriate paths to your boost header and libs It works on linux and windows with mingw
 
-That way u have nice cross platform build ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
-:::
+That way u have nice cross platform build ![:)](/wiki/europython/img/smile.png ":)")

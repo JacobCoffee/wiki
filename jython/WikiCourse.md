@@ -1,19 +1,24 @@
 # WikiCourse
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
   --------------------------------------------------------------------------------------------------------------------------------------------
   [Slideshow](./WikiCourse.html?action=print&media=projection)   [Start](./WikiCourse(2f)01(20)What(20)is(20)a(20)MoinMoin(20)wiki(3f).html)
   --------------------------------------------------------------------------------------------------------------------------------------------
 
-# MoinMoin Wiki - an introduction {#MoinMoin_Wiki_-_an_introduction}
+# MoinMoin Wiki - an introduction 
 
 This lecture is for making the first steps easier for wiki beginners.
 
-It is being developed by the [MoinMoin](MoinMoin) community and is available under the [GNU GPL v2+](http://moinmo.in/GPL "MoinMoin"){.interwiki} license.
+It is being developed by the [MoinMoin](MoinMoin) community and is available under the [GNU GPL v2+](http://moinmo.in/GPL "MoinMoin") license.
 
-![(!)](/wiki/modernized/img/idea.png "(!)"){height="16" width="16"} Please incorporate changes, updates and corrections on the [MoinMaster Wiki](http://master.moinmo.in/ "MoinMaster"){.interwiki}.
+![(!)](/wiki/modernized/img/idea.png "(!)") Please incorporate changes, updates and corrections on the [MoinMaster Wiki](http://master.moinmo.in/ "MoinMaster").
 
-## Content {#Content}
+## Content 
 
 - [/01 What is a MoinMoin wiki?](./WikiCourse(2f)01(20)What(20)is(20)a(20)MoinMoin(20)wiki(3f).html)
 
@@ -70,4 +75,3 @@ It is being developed by the [MoinMoin](MoinMoin) community and is available und
 - [/52 Structure in the wiki](./WikiCourse(2f)52(20)Structure(20)in(20)the(20)wiki.html)
 
 - [../WikiCourseHandOut](WikiCourseHandOut)
-:::

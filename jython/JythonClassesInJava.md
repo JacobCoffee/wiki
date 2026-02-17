@@ -1,9 +1,14 @@
 # JythonClassesInJava
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 **NOTE: This documents the pre [NewStyleClasses](NewStyleClasses) world \-- so this style should \*not\* be used for new development against Jython 2.2 or later.**
 
-## Magic fields for Jython objects {#Magic_fields_for_Jython_objects}
+## Magic fields for Jython objects 
 
 - `__class__`{.backtick}
 
@@ -11,13 +16,13 @@
 
 - `__members__`{.backtick} This is a list of attributes for a class. This list can be modified by an instance.
 
-## Hiding functionality from Jython {#Hiding_functionality_from_Jython}
+## Hiding functionality from Jython 
 
 - Implement ClassDictInit and set the value of the attribute you wish to hide to null.
 
 - Add the exception PyIgnoreMethodTag to the throws clause of a method for it to be masked by Jython.
 
-## Example Code {#Example_Code}
+## Example Code 
 
     public class JythonClass extends PyObject implements ClassDictInit {
 
@@ -64,4 +69,3 @@
         dict.__setitem__("hideFromJython", null);
         dict.__setitem__("otherHiddenMethod", null);
       }
-:::

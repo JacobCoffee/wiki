@@ -1,15 +1,20 @@
 # PyQt/Selecting a region of a widget
 
-::::: {#content dir="ltr" lang="en"}
-# Selecting a region of a widget {#Selecting_a_region_of_a_widget}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Selecting a region of a widget 
 
 On [TheMailingList](./PyQt(2f)TheMailingList.html), Brickle Macho asked for some advice on writing a widget that allows part of the image it is displaying to be selected.
 
 The following code shows how the QRubberBand class is used to perform a selection. The key parts of the code involve the mousePressEvent(), mouseMoveEvent() and mouseReleaseEvent() handlers. These initialise and show, update, and hide the rubber band respectively. Obtaining the geometry of the rubber band and reading the corresponding part of the image are left as exercises for the reader.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-05fc7b6d0c30d6389660eb94134aa990de5df46e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import random, sys
    2 from PyQt4.QtCore import QPoint, QRect, QSize, Qt
    3 from PyQt4.QtGui import *
@@ -80,4 +85,3 @@ The following code shows how the QRubberBand class is used to perform a selectio
 ```
 :::
 ::::
-:::::

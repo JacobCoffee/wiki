@@ -1,6 +1,11 @@
 # Asking for Help/SVN Hook problem
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 I have a python script which is called from the svn repository hooks folders through a batch file post_commit.bat In the batch file in have D:\\Test\\SVNHook.py %1 %2
 
 The problem arised is stated below
@@ -16,4 +21,3 @@ The output for the above command is an xml with the log details while running wi
 have any content. But i can retrieve the repository and revision id on BOTH cases.
 
 Please guide me through this problem.
-:::

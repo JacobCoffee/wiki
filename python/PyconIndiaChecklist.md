@@ -1,7 +1,12 @@
 # PyconIndiaChecklist
 
-::: {#content dir="ltr" lang="en"}
-## checklist for holding pycon India 2011 {#checklist_for_holding_pycon_India_2011}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## checklist for holding pycon India 2011 
 
 These are some points to be taken into consideration. Please add to this.
 
@@ -19,4 +24,3 @@ These are some points to be taken into consideration. Please add to this.
 12. availability of guesthouse/guestrooms for out station speakers
 13. transport arrangements
 14. available rooms/auditoriums in fairly close proximity to each other
-:::

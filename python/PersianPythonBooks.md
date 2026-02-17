@@ -1,15 +1,20 @@
 # PersianPythonBooks
 
-::: {#content dir="ltr" lang="en"}
-# منابع آنلاین آموزش پایتون {#A.2BBkUGRgYnBigGOQ_.2BBiIGRgZEBicGzAZG_.2BBiIGRQZIBjIGNA_.2BBn4GJwbMBioGSAZG-}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## پایتون به پارسی (Python in Persian) {#A.2BBn4GJwbMBioGSAZG_.2BBigGRw_.2BBn4GJwYxBjMGzA_.28Python_in_Persian.29}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# منابع آنلاین آموزش پایتون 
+
+## پایتون به پارسی (Python in Persian) 
 
 \"Python in Persian\" is an open-source online book that offers a comprehensive tutorial on the Python programming language in the Persian. This repository is designed to be a valuable resource for Persian-speaking individuals who want to learn and enhance their Python programming skills. (2015 - Present)
 
 **آموزش آنلاین، آزاد و متن‌باز زبان برنامه‌نویسی پایتون**
 
-- ([Saeid Darvishghazvini](https://saeiddrv.com){.https}) نویسنده: سعید درویش
+- ([Saeid Darvishghazvini](https://saeiddrv.com)) نویسنده: سعید درویش
 
 - شروع: فروردین ۱۳۹۴
 
@@ -17,35 +22,35 @@
 
 - بروز شده با پایتون نسخه ۳.۱۱
 
-- [PythonPersian.com :مطالعه برای عموم آزاد است - نشانی](https://pythonpersian.com){.https}
+- [PythonPersian.com :مطالعه برای عموم آزاد است - نشانی](https://pythonpersian.com)
 
-- [GitHub Repository](https://github.com/saeiddrv/PythonPersianTutorial){.https}
+- [GitHub Repository](https://github.com/saeiddrv/PythonPersianTutorial)
 
-- حمایت مالی: [صفحه حمایت مالی کتاب](https://pythonpersian.com/support.html){.https}
+- حمایت مالی: [صفحه حمایت مالی کتاب](https://pythonpersian.com/support.html)
 
-## تفکر پایتونی {#A.2BBioGQQapBjE_.2BBn4GJwbMBioGSAZGBsw-}
+## تفکر پایتونی 
 
 **آموزش آنلاین، آزاد و متن‌باز زبان برنامه‌نویسی پایتون**
 
 - نویسنده:آلن ب. داونی
 
-- مترجم: [لیست مترجمان](https://docs.google.com/document/d/1c-4DH2raYdZP7r9leFdEHaGiYll5A5G3f53IBjkN0_o/edit){.https}
+- مترجم: [لیست مترجمان](https://docs.google.com/document/d/1c-4DH2raYdZP7r9leFdEHaGiYll5A5G3f53IBjkN0_o/edit)
 
 - سال چاپ : ۱۴۰۱
 
 - تعداد صفحات : ۳۱۰ صفحه
 
-- [تفکر پایتونی به فارسی](./(20).html){.nonexistent}
+- [تفکر پایتونی به فارسی](./(20).html)
 
-- [https://behroozam.github.io/persianthinkpython/ :مطالعه برای عموم آزاد است - نشانی](https://behroozam.github.io/persianthinkpython/%20:مطالعه%20برای%20عموم%20آزاد%20است%20-%20نشانی){.https}
+- [https://behroozam.github.io/persianthinkpython/ :مطالعه برای عموم آزاد است - نشانی](https://behroozam.github.io/persianthinkpython/%20:مطالعه%20برای%20عموم%20آزاد%20است%20-%20نشانی)
 
-- [GitHub Repository](https://github.com/ThinkPythonPersian/thinkbook/tree/master){.https}
+- [GitHub Repository](https://github.com/ThinkPythonPersian/thinkbook/tree/master)
 
 ------------------------------------------------------------------------
 
-# منابع چاپی و فیزیکی آموزش پایتون {#A.2BBkUGRgYnBigGOQ_.2BBoYGJwZ.2BBsw_.2BBkg_.2BBkEGzAYyBswGqQbM_.2BBiIGRQZIBjIGNA_.2BBn4GJwbMBioGSAZG-}
+# منابع چاپی و فیزیکی آموزش پایتون 
 
-## آموزش برنامه نویسی در آرک جی‌آی‌اس با پایتون {#A.2BBiIGRQZIBjIGNA_.2BBigGMQZGBicGRQZH_.2BBkYGSAbMBjMGzA_.2BBi8GMQ_.2BBiIGMQap_.2BBiwGzCAMBiIGzCAMBicGMw_.2BBigGJw_.2BBn4GJwbMBioGSAZG-}
+## آموزش برنامه نویسی در آرک جی‌آی‌اس با پایتون 
 
 - نویسنده: اریک پیمپلر
 
@@ -57,9 +62,9 @@
 
 - تعداد صفحات : ۲۳۰ صفحه
 
-- ‫لینک کتاب (خرید) :[آموزش برنامه نویسی در Arc GIS با پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D8%AF%D8%B1-Arc-GIS-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/19085){.https}
+- ‫لینک کتاب (خرید) :[آموزش برنامه نویسی در Arc GIS با پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D8%AF%D8%B1-Arc-GIS-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/19085)
 
-## آموزش پروژه محور پایتون، بازی سازی، بصری سازی، برنامه های تحت وب {#A.2BBiIGRQZIBjIGNA_.2BBn4GMQZIBpgGRw_.2BBkUGLQZIBjE_.2BBn4GJwbMBioGSAZGBgw_.2BBigGJwYyBsw_.2BBjMGJwYyBswGDA_.2BBigGNQYxBsw_.2BBjMGJwYyBswGDA_.2BBigGMQZGBicGRQZH_.2BBkcGJwbM_.2BBioGLQYq_.2BBkgGKA-}
+## آموزش پروژه محور پایتون، بازی سازی، بصری سازی، برنامه های تحت وب 
 
 - نویسنده: حمید کریمخانی زند و طاهره نیری فرد
 
@@ -69,9 +74,9 @@
 
 - تعداد صفحات : ۳۲۳ صفحه
 
-- ‫لینک کتاب (خرید) :[آموزش پروژه محور پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D9%85%D8%AD%D9%88%D8%B1-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/66046){.https}
+- ‫لینک کتاب (خرید) :[آموزش پروژه محور پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D9%85%D8%AD%D9%88%D8%B1-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/66046)
 
-## آموزش جامع برنامه‌ نویسی پایتون {#A.2BBiIGRQZIBjIGNA_.2BBiwGJwZFBjk_.2BBigGMQZGBicGRQZHIAw_.2BBkYGSAbMBjMGzA_.2BBn4GJwbMBioGSAZG-}
+## آموزش جامع برنامه‌ نویسی پایتون 
 
 - نویسنده: مسعود نظری، اشکان طالبی
 
@@ -81,9 +86,9 @@
 
 - تعداد صفحات : ۲۶۰ صفحه
 
-- ‫لینک کتاب (خرید) :[آموزش جامع برنامه‌ نویسی Python](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%85%D8%B9-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-Python/book/70631){.https}
+- ‫لینک کتاب (خرید) :[آموزش جامع برنامه‌ نویسی Python](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%85%D8%B9-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-Python/book/70631)
 
-## آموزش جامع پایتون همراه با تمرین‌های کاربردی {#A.2BBiIGRQZIBjIGNA_.2BBiwGJwZFBjk_.2BBn4GJwbMBioGSAZG_.2BBkcGRQYxBicGRw_.2BBigGJw_.2BBioGRQYxBswGRiAMBkcGJwbM_.2BBqkGJwYxBigGMQYvBsw-}
+## آموزش جامع پایتون همراه با تمرین‌های کاربردی 
 
 - نویسنده: علی هندی ورکانه
 
@@ -91,9 +96,9 @@
 
 - تعداد صفحات : ۵۰۱ صفحه
 
-- ‫لینک کتاب (خرید) :[آموزش جامع پایتون همراه با تمرین‌های کاربردی](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%85%D8%B9-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D9%87%D9%85%D8%B1%D8%A7%D9%87-%D8%A8%D8%A7-%D8%AA%D9%85%D8%B1%DB%8C%D9%86-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C/book/61256){.https}
+- ‫لینک کتاب (خرید) :[آموزش جامع پایتون همراه با تمرین‌های کاربردی](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%85%D8%B9-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D9%87%D9%85%D8%B1%D8%A7%D9%87-%D8%A8%D8%A7-%D8%AA%D9%85%D8%B1%DB%8C%D9%86-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C/book/61256)
 
-## آموزش صفر تا صد زبان برنامه نویسی پایتون: به همراه مثال‌های متعدد و توضیح خط به خط کدها {#A.2BBiIGRQZIBjIGNA_.2BBjUGQQYx_.2BBioGJw_.2BBjUGLw_.2BBjIGKAYnBkY_.2BBigGMQZGBicGRQZH_.2BBkYGSAbMBjMGzA_.2BBn4GJwbMBioGSAZG:_.2BBigGRw_.2BBkcGRQYxBicGRw_.2BBkUGKwYnBkQgDAZHBicGzA_.2BBkUGKgY5Bi8GLw_.2BBkg_.2BBioGSAY2BswGLQ_.2BBi4GNw_.2BBigGRw_.2BBi4GNw_.2BBqkGLwZHBic-}
+## آموزش صفر تا صد زبان برنامه نویسی پایتون: به همراه مثال‌های متعدد و توضیح خط به خط کدها 
 
 - نویسنده: مسعود نظری، اشکان طالبی
 
@@ -103,9 +108,9 @@
 
 - تعداد صفحات : ۲۷۳ صفحه
 
-- ‫لینک کتاب (خرید) :[آموزش صفر تا صد زبان برنامه نویسی پایتون: به همراه مثال‌های متعدد و توضیح خط به خط کدها](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%85%D8%B9-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-Python/book/70631){.https}
+- ‫لینک کتاب (خرید) :[آموزش صفر تا صد زبان برنامه نویسی پایتون: به همراه مثال‌های متعدد و توضیح خط به خط کدها](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%85%D8%B9-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-Python/book/70631)
 
-## آموزش کاربردی برنامه نویسی به زبان پایتون {#A.2BBiIGRQZIBjIGNA_.2BBqkGJwYxBigGMQYvBsw_.2BBigGMQZGBicGRQZH_.2BBkYGSAbMBjMGzA_.2BBigGRw_.2BBjIGKAYnBkY_.2BBn4GJwbMBioGSAZG-}
+## آموزش کاربردی برنامه نویسی به زبان پایتون 
 
 - نویسنده: علیرضا عظیم زاده میلانی
 
@@ -115,9 +120,9 @@
 
 - تعداد صفحات : ۲۳۰ صفحه
 
-- ‫لینک کتاب (خرید) :[آموزش کاربردی برنامه نویسی به زبان Python](http://www.pendarepars.com/book/كتاب-فارسي-پايتون-python-برنامه-نويسي/){.http}
+- ‫لینک کتاب (خرید) :[آموزش کاربردی برنامه نویسی به زبان Python](http://www.pendarepars.com/book/كتاب-فارسي-پايتون-python-برنامه-نويسي/)
 
-## آموزش کاربردی جنگو {#A.2BBiIGRQZIBjIGNA_.2BBqkGJwYxBigGMQYvBsw_.2BBiwGRgavBkg-}
+## آموزش کاربردی جنگو 
 
 - نویسنده: علیرضا عظیم زاده میلانی
 
@@ -131,11 +136,11 @@
 
 - تعداد صفحات : ۵۴۴ صفحه
 
-- ‫لینک کتاب (خرید) :[آموزش کاربردی جنگو](http://www.pendarepars.com/book/کتاب-آموزش-کاربردي-جنگو-django-قويترين-فريمورک-توسعه-وب-اپليکيشن-پايتون/){.http}
+- ‫لینک کتاب (خرید) :[آموزش کاربردی جنگو](http://www.pendarepars.com/book/کتاب-آموزش-کاربردي-جنگو-django-قويترين-فريمورک-توسعه-وب-اپليکيشن-پايتون/)
 
-- ‫فصل یکم کتاب :[https://www.pendarepars.com/book/pdf/4258](https://www.pendarepars.com/book/pdf/4258){.https}
+- ‫فصل یکم کتاب :[https://www.pendarepars.com/book/pdf/4258](https://www.pendarepars.com/book/pdf/4258)
 
-## آموزش گام‌به‌گام برنامه‌نویسی پایتون {#A.2BBiIGRQZIBjIGNA_.2BBq8GJwZFIAwGKAZHIAwGrwYnBkU_.2BBigGMQZGBicGRQZHIAwGRgZIBswGMwbM_.2BBn4GJwbMBioGSAZG-}
+## آموزش گام‌به‌گام برنامه‌نویسی پایتون 
 
 - نویسنده: جواد وحیدی، رمضان عباس نژادورزی
 
@@ -145,9 +150,9 @@
 
 - تعداد صفحات : ۳۸۳ صفحه
 
-- ‫لینک کتاب (خرید) :[آموزش گام‌به‌گام برنامه‌نویسی پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%AF%D8%A7%D9%85-%D8%A8%D9%87-%DA%AF%D8%A7%D9%85-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/29984){.https}
+- ‫لینک کتاب (خرید) :[آموزش گام‌به‌گام برنامه‌نویسی پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%AF%D8%A7%D9%85-%D8%A8%D9%87-%DA%AF%D8%A7%D9%85-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/29984)
 
-## آموزش گام‌ به‌ گام برنامه نویسی پیشرفته با پایتون {#A.2BBiIGRQZIBjIGNA_.2BBq8GJwZFIAw_.2BBigGRyAM_.2BBq8GJwZF_.2BBigGMQZGBicGRQZH_.2BBkYGSAbMBjMGzA_.2BBn4GzAY0BjEGQQYqBkc_.2BBigGJw_.2BBn4GJwbMBioGSAZG-}
+## آموزش گام‌ به‌ گام برنامه نویسی پیشرفته با پایتون 
 
 - نویسنده: رمضان عباس نژادورزی
 
@@ -157,9 +162,9 @@
 
 - تعداد صفحات : ۴۷۸ صفحه
 
-- ‫لینک کتاب (خرید) :[آموزش گام‌ به‌ گام برنامه نویسی پیشرفته با پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%AF%D8%A7%D9%85-%D8%A8%D9%87-%DA%AF%D8%A7%D9%85-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/41074){.https}
+- ‫لینک کتاب (خرید) :[آموزش گام‌ به‌ گام برنامه نویسی پیشرفته با پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%AF%D8%A7%D9%85-%D8%A8%D9%87-%DA%AF%D8%A7%D9%85-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/41074)
 
-## آموزش گام‌به‌گام جنگو (مرجع کامل): طراحی وب سایت با پایتون {#A.2BBiIGRQZIBjIGNA_.2BBq8GJwZFIAwGKAZHIAwGrwYnBkU_.2BBiwGRgavBkg_.28.2BBkUGMQYsBjk_.2BBqkGJwZFBkQ.29:_.2BBjcGMQYnBi0GzA_.2BBkgGKA_.2BBjMGJwbMBio_.2BBigGJw_.2BBn4GJwbMBioGSAZG-}
+## آموزش گام‌به‌گام جنگو (مرجع کامل): طراحی وب سایت با پایتون 
 
 - ننویسنده: نایجل جورج
 
@@ -171,9 +176,9 @@
 
 - تعداد صفحات : ۳۶۵ صفحه
 
-- ‫لینک کتاب (خرید) :[آموزش گام به گام جنگو (مرجع کامل): طراحی وب سایت با پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%AF%D8%A7%D9%85-%D8%A8%D9%87-%DA%AF%D8%A7%D9%85-%D8%AC%D9%86%DA%AF%D9%88-%D9%85%D8%B1%D8%AC%D8%B9-%DA%A9%D8%A7%D9%85%D9%84/book/74516){.https}
+- ‫لینک کتاب (خرید) :[آموزش گام به گام جنگو (مرجع کامل): طراحی وب سایت با پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%AF%D8%A7%D9%85-%D8%A8%D9%87-%DA%AF%D8%A7%D9%85-%D8%AC%D9%86%DA%AF%D9%88-%D9%85%D8%B1%D8%AC%D8%B9-%DA%A9%D8%A7%D9%85%D9%84/book/74516)
 
-## برنامه نویسی پایتون برای کودکان و نوجوانان به زبان ساده {#A.2BBigGMQZGBicGRQZH_.2BBkYGSAbMBjMGzA_.2BBn4GJwbMBioGSAZG_.2BBigGMQYnBsw_.2BBqkGSAYvBqkGJwZG_.2BBkg_.2BBkYGSAYsBkgGJwZGBicGRg_.2BBigGRw_.2BBjIGKAYnBkY_.2BBjMGJwYvBkc-}
+## برنامه نویسی پایتون برای کودکان و نوجوانان به زبان ساده 
 
 - نویسنده: علیرضا اسمعیلی، یوسف عباس نژادورزی
 
@@ -183,9 +188,9 @@
 
 - تعداد صفحات : ۱۶۰ صفحه
 
-- ‫لینک کتاب (خرید) :[برنامه نویسی پایتون برای کودکان و نوجوانان به زبان ساده)](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%A9%D9%88%D8%AF%DA%A9%D8%A7%D9%86-%D9%88-%D9%86%D9%88%D8%AC%D9%88%D8%A7%D9%86%D8%A7%D9%86-%D8%A8%D9%87-%D8%B2%D8%A8%D8%A7%D9%86-%D8%B3%D8%A7%D8%AF%D9%87/book/49031){.https}
+- ‫لینک کتاب (خرید) :[برنامه نویسی پایتون برای کودکان و نوجوانان به زبان ساده)](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%A9%D9%88%D8%AF%DA%A9%D8%A7%D9%86-%D9%88-%D9%86%D9%88%D8%AC%D9%88%D8%A7%D9%86%D8%A7%D9%86-%D8%A8%D9%87-%D8%B2%D8%A8%D8%A7%D9%86-%D8%B3%D8%A7%D8%AF%D9%87/book/49031)
 
-## برنامه‌ نویسی به زبان پایتون از پایه تا پیشرفته {#A.2BBigGMQZGBicGRQZHIAw_.2BBkYGSAbMBjMGzA_.2BBigGRw_.2BBjIGKAYnBkY_.2BBn4GJwbMBioGSAZG_.2BBicGMg_.2BBn4GJwbMBkc_.2BBioGJw_.2BBn4GzAY0BjEGQQYqBkc-}
+## برنامه‌ نویسی به زبان پایتون از پایه تا پیشرفته 
 
 - نویسنده: حمیدرضا طالبی
 
@@ -195,9 +200,9 @@
 
 - تعداد صفحات : ۱۳۹ صفحه
 
-- ‫لینک کتاب (خرید) :[برنامه‌ نویسی به زبان Python از پایه تا پیشرفته](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D8%A8%D9%87-%D8%B2%D8%A8%D8%A7%D9%86-Python-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D9%87-%D8%AA%D8%A7-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87/book/70544){.https}
+- ‫لینک کتاب (خرید) :[برنامه‌ نویسی به زبان Python از پایه تا پیشرفته](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D8%A8%D9%87-%D8%B2%D8%A8%D8%A7%D9%86-Python-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D9%87-%D8%AA%D8%A7-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87/book/70544)
 
-## پایتون به زبان ساده {#A.2BBn4GJwbMBioGSAZG_.2BBigGRw_.2BBjIGKAYnBkY_.2BBjMGJwYvBkc-}
+## پایتون به زبان ساده 
 
 - نویسنده: یونس ابراهیمی
 
@@ -207,9 +212,9 @@
 
 - تعداد صفحات : ۲۹۳ صفحه
 
-- ‫لینک کتاب (خرید) :[برنامه‌ نویسی به زبان ساده](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D9%87-%D8%B2%D8%A8%D8%A7%D9%86-%D8%B3%D8%A7%D8%AF%D9%87/book/36572){.https}
+- ‫لینک کتاب (خرید) :[برنامه‌ نویسی به زبان ساده](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D9%87-%D8%B2%D8%A8%D8%A7%D9%86-%D8%B3%D8%A7%D8%AF%D9%87/book/36572)
 
-## برنامه نویسی شی گرا با پایتون به زبان ساده {#A.2BBigGMQZGBicGRQZH_.2BBkYGSAbMBjMGzA_.2BBjQGzA_.2BBq8GMQYn_.2BBigGJw_.2BBn4GJwbMBioGSAZG_.2BBigGRw_.2BBjIGKAYnBkY_.2BBjMGJwYvBkc-}
+## برنامه نویسی شی گرا با پایتون به زبان ساده 
 
 - نویسنده: جواد وحیدی، رمضان عباس نژادورزی، مجید رهی
 
@@ -219,9 +224,9 @@
 
 - تعداد صفحات : ۲۴۷ صفحه
 
-- ‫لینک کتاب (خرید) :[برنامه نویسی شی گرا با پایتون به زبان ساده](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D8%B4%DB%8C-%DA%AF%D8%B1%D8%A7-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D9%87-%D8%B2%D8%A8%D8%A7%D9%86-%D8%B3%D8%A7%D8%AF%D9%87/book/76318){.https}
+- ‫لینک کتاب (خرید) :[برنامه نویسی شی گرا با پایتون به زبان ساده](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D8%B4%DB%8C-%DA%AF%D8%B1%D8%A7-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D9%87-%D8%B2%D8%A8%D8%A7%D9%86-%D8%B3%D8%A7%D8%AF%D9%87/book/76318)
 
-## بینایی رایانه توسط اوپن‌سی‌وی با پایتون {#A.2BBigGzAZGBicGzAbM_.2BBjEGJwbMBicGRgZH_.2BBioGSAYzBjc_.2BBicGSAZ.2BBkYgDAYzBswgDAZIBsw_.2BBigGJw_.2BBn4GJwbMBioGSAZG-}
+## بینایی رایانه توسط اوپن‌سی‌وی با پایتون 
 
 - نویسنده: جوزف هاوس
 
@@ -233,9 +238,9 @@
 
 - تعداد صفحات : ۱۴۳ صفحه
 
-- ‫لینک کتاب (خرید) :[بینایی رایانه توسط OpenCv با پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A8%DB%8C%D9%86%D8%A7%DB%8C%DB%8C-%D8%B1%D8%A7%DB%8C%D8%A7%D9%86%D9%87-%D8%AA%D9%88%D8%B3%D8%B7-OpenCv-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/69361){.https}
+- ‫لینک کتاب (خرید) :[بینایی رایانه توسط OpenCv با پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A8%DB%8C%D9%86%D8%A7%DB%8C%DB%8C-%D8%B1%D8%A7%DB%8C%D8%A7%D9%86%D9%87-%D8%AA%D9%88%D8%B3%D8%B7-OpenCv-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/69361)
 
-## پردازش سیگنال دیجیتال با برنامه‌ نویسی پایتون {#A.2BBn4GMQYvBicGMgY0_.2BBjMGzAavBkYGJwZE_.2BBi8GzAYsBswGKgYnBkQ_.2BBigGJw_.2BBigGMQZGBicGRQZHIAw_.2BBkYGSAbMBjMGzA_.2BBn4GJwbMBioGSAZG-}
+## پردازش سیگنال دیجیتال با برنامه‌ نویسی پایتون 
 
 - نویسنده: موریس شاربیت
 
@@ -247,9 +252,9 @@
 
 - تعداد صفحات : ۲۸۷ صفحه
 
-- ‫لینک کتاب (خرید) :[پردازش سیگنال دیجیتال با برنامه‌ نویسی پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4-%D8%B3%DB%8C%DA%AF%D9%86%D8%A7%D9%84-%D8%AF%DB%8C%D8%AC%DB%8C%D8%AA%D8%A7%D9%84-%D8%A8%D8%A7-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/69363){.https}
+- ‫لینک کتاب (خرید) :[پردازش سیگنال دیجیتال با برنامه‌ نویسی پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4-%D8%B3%DB%8C%DA%AF%D9%86%D8%A7%D9%84-%D8%AF%DB%8C%D8%AC%DB%8C%D8%AA%D8%A7%D9%84-%D8%A8%D8%A7-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/69363)
 
-## ترفندها و تکنیک‌های برنامه نویسی پایتون {#A.2BBioGMQZBBkYGLwZHBic_.2BBkg_.2BBioGqQZGBswGqSAMBkcGJwbM_.2BBigGMQZGBicGRQZH_.2BBkYGSAbMBjMGzA_.2BBn4GJwbMBioGSAZG-}
+## ترفندها و تکنیک‌های برنامه نویسی پایتون 
 
 - نویسنده: رمضان عباس نژادورزی
 
@@ -259,9 +264,9 @@
 
 - تعداد صفحات : ۳۱۰ صفحه
 
-- ‫لینک کتاب (خرید) :[ترفندها و تکنیک‌های برنامه نویسی پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%AA%D8%B1%D9%81%D9%86%D8%AF%D9%87%D8%A7-%D9%88-%D8%AA%DA%A9%D9%86%DB%8C%DA%A9-%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/74632){.https}
+- ‫لینک کتاب (خرید) :[ترفندها و تکنیک‌های برنامه نویسی پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%AA%D8%B1%D9%81%D9%86%D8%AF%D9%87%D8%A7-%D9%88-%D8%AA%DA%A9%D9%86%DB%8C%DA%A9-%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/74632)
 
-## حل مسائل پایتون (حل ۱۰۰۰ برنامه - مرجع کامل) {#A.2BBi0GRA_.2BBkUGMwYnBiYGRA_.2BBn4GJwbMBioGSAZG_.28.2BBi0GRA_.2BBvEG8AbwBvA_.2BBigGMQZGBicGRQZH_-_.2BBkUGMQYsBjk_.2BBqkGJwZFBkQ.29}
+## حل مسائل پایتون (حل ۱۰۰۰ برنامه - مرجع کامل) 
 
 - نویسنده: رمضان عباس نژادورزی، محمد نادعلی زاده چاری، یوسف عباس نژادورزی
 
@@ -271,9 +276,9 @@
 
 - تعداد صفحات : ۶۰۸ صفحه
 
-- ‫لینک کتاب (خرید) :[حل مسائل پایتون (حل 1000 برنامه - مرجع کامل)](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%AD%D9%84-%D9%85%D8%B3%D8%A7%D8%A6%D9%84-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%AD%D9%84-1000-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%B1%D8%AC%D8%B9-%DA%A9%D8%A7%D9%85%D9%84/book/32670){.https}
+- ‫لینک کتاب (خرید) :[حل مسائل پایتون (حل 1000 برنامه - مرجع کامل)](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%AD%D9%84-%D9%85%D8%B3%D8%A7%D8%A6%D9%84-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%AD%D9%84-1000-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%B1%D8%AC%D8%B9-%DA%A9%D8%A7%D9%85%D9%84/book/32670)
 
-## دوره مقدماتی آموزش پایتون {#A.2BBi8GSAYxBkc_.2BBkUGQgYvBkUGJwYqBsw_.2BBiIGRQZIBjIGNA_.2BBn4GJwbMBioGSAZG-}
+## دوره مقدماتی آموزش پایتون 
 
 - نویسنده: جان مولر
 
@@ -285,9 +290,9 @@
 
 - تعداد صفحات : ۳۱۸ صفحه
 
-- ‫لینک کتاب (خرید) :[دوره مقدماتی آموزش پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%AF%D9%88%D8%B1%D9%87-%D9%85%D9%82%D8%AF%D9%85%D8%A7%D8%AA%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/40899){.https}
+- ‫لینک کتاب (خرید) :[دوره مقدماتی آموزش پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%AF%D9%88%D8%B1%D9%87-%D9%85%D9%82%D8%AF%D9%85%D8%A7%D8%AA%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/40899)
 
-## راهنمای کاربردی پایتون برای علم داده ‏ها {#A.2BBjEGJwZHBkYGRQYnBsw_.2BBqkGJwYxBigGMQYvBsw_.2BBn4GJwbMBioGSAZG_.2BBigGMQYnBsw_.2BBjkGRAZF_.2BBi8GJwYvBkc_.2BIA8GRwYn-}
+## راهنمای کاربردی پایتون برای علم داده ‏ها 
 
 - نویسنده: علیرضا افضل آقایی نائینی، کورش پرند
 
@@ -297,9 +302,9 @@
 
 - تعداد صفحات : ۳۸۰ صفحه
 
-- ‫لینک کتاب (خرید) :[راهنمای کاربردی پایتون برای علم داده ‏ها](https://arvannashr.ir/product/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B9%D9%84%D9%85-%D8%AF%D8%A7%D8%AF%D9%87/){.https}
+- ‫لینک کتاب (خرید) :[راهنمای کاربردی پایتون برای علم داده ‏ها](https://arvannashr.ir/product/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B9%D9%84%D9%85-%D8%AF%D8%A7%D8%AF%D9%87/)
 
-## ساختمان داده‌ها با پایتون {#A.2BBjMGJwYuBioGRQYnBkY_.2BBi8GJwYvBkcgDAZHBic_.2BBigGJw_.2BBn4GJwbMBioGSAZG-}
+## ساختمان داده‌ها با پایتون 
 
 - نویسنده: رمضان عباس نژادورزی، جواد وحیدی
 
@@ -309,9 +314,9 @@
 
 - تعداد صفحات : ۵۳۱ صفحه
 
-- ‫لینک کتاب (خرید) :[ساختمان داده‌ها با پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%B3%D8%A7%D8%AE%D8%AA%D9%85%D8%A7%D9%86-%D8%AF%D8%A7%D8%AF%D9%87-%D9%87%D8%A7-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/37721){.https}
+- ‫لینک کتاب (خرید) :[ساختمان داده‌ها با پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%B3%D8%A7%D8%AE%D8%AA%D9%85%D8%A7%D9%86-%D8%AF%D8%A7%D8%AF%D9%87-%D9%87%D8%A7-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/37721)
 
-## سوالات چهار گزینه‌ای پایتون (۱۲۰۰ تست و پاسخ تشریحی آن‌ها) {#A.2BBjMGSAYnBkQGJwYq_.2BBoYGRwYnBjE_.2BBq8GMgbMBkYGRyAMBicGzA_.2BBn4GJwbMBioGSAZG_.28.2BBvEG8gbwBvA_.2BBioGMwYq_.2BBkg_.2BBn4GJwYzBi4_.2BBioGNAYxBswGLQbM_.2BBiIGRiAMBkcGJw.29}
+## سوالات چهار گزینه‌ای پایتون (۱۲۰۰ تست و پاسخ تشریحی آن‌ها) 
 
 - نویسنده: یوسف عباس نژادورزی، علی رضا علی زاده حاجی
 
@@ -321,9 +326,9 @@
 
 - تعداد صفحات : ۲۱۹ صفحه
 
-- ‫لینک کتاب (خرید) :[سوالات چهار گزینه‌ای پایتون (1200 تست و پاسخ تشریحی آن‌ها)](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%B3%D8%A7%D8%AE%D8%AA%D9%85%D8%A7%D9%86-%D8%AF%D8%A7%D8%AF%D9%87-%D9%87%D8%A7-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/37721){.https}
+- ‫لینک کتاب (خرید) :[سوالات چهار گزینه‌ای پایتون (1200 تست و پاسخ تشریحی آن‌ها)](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%B3%D8%A7%D8%AE%D8%AA%D9%85%D8%A7%D9%86-%D8%AF%D8%A7%D8%AF%D9%87-%D9%87%D8%A7-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/37721)
 
-## طراحی رابط کاربری با PyQt در پایتون {#A.2BBjcGMQYnBi0GzA_.2BBjEGJwYoBjc_.2BBqkGJwYxBigGMQbM_.2BBigGJw_PyQt_.2BBi8GMQ_.2BBn4GJwbMBioGSAZG-}
+## طراحی رابط کاربری با PyQt در پایتون 
 
 - نویسنده: رمضان عباس نژادورزی، نوراله کریم تبار احمدچالی
 
@@ -333,9 +338,9 @@
 
 - تعداد صفحات : ۲۳۵ صفحه
 
-- ‫لینک کتاب (خرید) :[طراحی رابط کاربری با PyQt در پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D8%B1%D8%A7%D8%A8%D8%B7-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DB%8C-%D8%A8%D8%A7-PyQt-%D8%AF%D8%B1-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/39900){.https}
+- ‫لینک کتاب (خرید) :[طراحی رابط کاربری با PyQt در پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D8%B1%D8%A7%D8%A8%D8%B7-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DB%8C-%D8%A8%D8%A7-PyQt-%D8%AF%D8%B1-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/39900)
 
-## کارگاه آموزشی پایتون {#A.2BBqkGJwYxBq8GJwZH_.2BBiIGRQZIBjIGNAbM_.2BBn4GJwbMBioGSAZG-}
+## کارگاه آموزشی پایتون 
 
 - نویسنده: حمیدرضا قنبری، علیرضا غفوری تتماج
 
@@ -345,9 +350,9 @@
 
 - تعداد صفحات : ۱۴۷ صفحه
 
-- ‫لینک کتاب (خرید) :[کارگاه آموزشی پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/68975){.https}
+- ‫لینک کتاب (خرید) :[کارگاه آموزشی پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/68975)
 
-## کراس برای شبکه‌های عصبی {#A.2BBqkGMQYnBjM_.2BBigGMQYnBsw_.2BBjQGKAapBkcgDAZHBicGzA_.2BBjkGNQYoBsw-}
+## کراس برای شبکه‌های عصبی 
 
 - نویسنده: جیمز مک کافری
 
@@ -359,9 +364,9 @@
 
 - تعداد صفحات : ۱۵۵ صفحه
 
-- ‫لینک کتاب (خرید) :[کراس (Keras) برای شبکه‌های عصبی](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%DA%A9%D8%B1%D8%A7%D8%B3-Keras-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B4%D8%A8%DA%A9%D9%87-%D9%87%D8%A7%DB%8C-%D8%B9%D8%B5%D8%A8%DB%8C/book/70360){.https}
+- ‫لینک کتاب (خرید) :[کراس (Keras) برای شبکه‌های عصبی](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%DA%A9%D8%B1%D8%A7%D8%B3-Keras-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B4%D8%A8%DA%A9%D9%87-%D9%87%D8%A7%DB%8C-%D8%B9%D8%B5%D8%A8%DB%8C/book/70360)
 
-## مرجع کامل برنامه ‌نویسی پایتون {#A.2BBkUGMQYsBjk_.2BBqkGJwZFBkQ_.2BBigGMQZGBicGRQZH_.2BIAwGRgZIBswGMwbM_.2BBn4GJwbMBioGSAZG-}
+## مرجع کامل برنامه ‌نویسی پایتون 
 
 - نویسنده: رمضان عباس نژادورزی، نوراله کریم تبار احمدچالی
 
@@ -371,9 +376,9 @@
 
 - تعداد صفحات : ۷۵۲ صفحه
 
-- ‫لینک کتاب (خرید) :[مرجع کامل برنامه ‌نویسی پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D9%85%D8%B1%D8%AC%D8%B9-%DA%A9%D8%A7%D9%85%D9%84-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/46481){.https}
+- ‫لینک کتاب (خرید) :[مرجع کامل برنامه ‌نویسی پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D9%85%D8%B1%D8%AC%D8%B9-%DA%A9%D8%A7%D9%85%D9%84-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/46481)
 
-## هر آنچه از پایتون باید بدانید {#A.2BBkcGMQ_.2BBiIGRgaGBkc_.2BBicGMg_.2BBn4GJwbMBioGSAZG_.2BBigGJwbMBi8_.2BBigGLwYnBkYGzAYv-}
+## هر آنچه از پایتون باید بدانید 
 
 - نویسنده: حسین سیدی
 
@@ -383,9 +388,9 @@
 
 - تعداد صفحات : ۲۹۳ صفحه
 
-- ‫لینک کتاب (خرید) :[‌هر آنچه از پایتون باید بدانید](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D9%87%D8%B1-%D8%A2%D9%86%DA%86%D9%87-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D8%A7%DB%8C%D8%AF-%D8%A8%D8%AF%D8%A7%D9%86%DB%8C%D8%AF/book/69047){.https}
+- ‫لینک کتاب (خرید) :[‌هر آنچه از پایتون باید بدانید](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%D9%87%D8%B1-%D8%A2%D9%86%DA%86%D9%87-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D8%A7%DB%8C%D8%AF-%D8%A8%D8%AF%D8%A7%D9%86%DB%8C%D8%AF/book/69047)
 
-## یادگیری عمیق با پایتون {#A.2BBswGJwYvBq8GzAYxBsw_.2BBjkGRQbMBkI_.2BBigGJw_.2BBn4GJwbMBioGSAZG-}
+## یادگیری عمیق با پایتون 
 
 - نویسنده: فرانسوا شوله
 
@@ -397,5 +402,4 @@
 
 - تعداد صفحات : ۵۸۱ صفحه
 
-- ‫لینک کتاب (خرید) :[‌یادگیری عمیق با پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/76319){.https}
-:::
+- ‫لینک کتاب (خرید) :[‌یادگیری عمیق با پایتون](https://www.ketabrah.ir/%DA%A9%D8%AA%D8%A7%D8%A8-%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/book/76319)

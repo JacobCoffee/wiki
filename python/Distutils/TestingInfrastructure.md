@@ -1,21 +1,26 @@
 # Distutils/TestingInfrastructure
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 =David Lyon=
 
-## Question {#Question}
+## Question 
 
 What\'s the existing Testing Infrastructure for distutils?
 
-The following comments may be beyond the scope of Distutils [TestingInfrastructure](./TestingInfrastructure.html){.nonexistent}.
+The following comments may be beyond the scope of Distutils [TestingInfrastructure](./TestingInfrastructure.html).
 
 I may need to withdraw them shortly.
 
-## Introduction {#Introduction}
+## Introduction 
 
 One of the big challenges for Python going forward is providing a testing infrastructure for Python Packages.
 
-There are now over 6,000 packages listed on [PyPi](./PyPi.html){.nonexistent} - and this number can only get bigger.
+There are now over 6,000 packages listed on [PyPi](./PyPi.html) - and this number can only get bigger.
 
 Then, there are the three major operating systems:
 
@@ -41,7 +46,7 @@ In simple terms, we need to build all the packages that exist for Python on a da
 
 This job is too big to be done manually. We need to use either a Super-Computer or a Server Farm. Fortunately, Server Farms are close at hand.
 
-## Server Farm Virtual Environments {#Server_Farm_Virtual_Environments}
+## Server Farm Virtual Environments 
 
 Google and Amazon web services are two organisations amongst others that offer commercial virtual server farms that could be employed to do the above build process of all the python packages.
 
@@ -51,13 +56,13 @@ With this basic structure, a daily building/testing infrastructure working acros
 
 At present AWS offer virtual environments for both Windows and Linux. These can be seen on these links:
 
-- [http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=209](http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=209){.http}
+- [http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=209](http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=209)
 
-- [http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=208](http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=208){.http}
+- [http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=208](http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=208)
 
 A service to do building on Mac Virtual Machines needs to be located.
 
-## Test Scripts {#Test_Scripts}
+## Test Scripts 
 
 A test script will be developed that will cycle through all the packages on pypi, download the package and build it on all available platforms.
 
@@ -67,7 +72,7 @@ In the past, it has been difficult for developers to test on all platforms.
 
 These facilities are bound to improve overal code quality across the python universe.
 
-## Scope of Testing {#Scope_of_Testing}
+## Scope of Testing 
 
 It\'s important to define what and can be and what cannot be tested.
 
@@ -77,4 +82,3 @@ The scope of the framework will be:
   - using the setup.py script
 - to run the built in tests within the package
 - to check that the package can be de-installed on the relevant platforms
-:::

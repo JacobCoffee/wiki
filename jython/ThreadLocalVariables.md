@@ -1,7 +1,12 @@
 # ThreadLocalVariables
 
-::: {#content dir="ltr" lang="en"}
-# Thread Local Variables {#Thread_Local_Variables}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Thread Local Variables 
 
 **NOTE**
 
@@ -9,11 +14,11 @@
 
 2.  This page has been left in place for historical purposes relating to Jython 2.2.
 
-Thread-local variables are a concept that was intoduced into cpython at version 2.4. I will not describe them here. Instead I refer you to the [cpython documentation for the threading module](http://www.python.org/doc/lib/module-threading.html){.http}.
+Thread-local variables are a concept that was intoduced into cpython at version 2.4. I will not describe them here. Instead I refer you to the [cpython documentation for the threading module](http://www.python.org/doc/lib/module-threading.html).
 
 Thread-locals have not yet been introduced to jython, since it is currently at version 2.2. However, until they are \"officially\" implemented, there is a simple workaround to get thread-local variables in jython 2.2.
 
-## Cpython implementation {#Cpython_implementation}
+## Cpython implementation 
 
 Cpython comes with two different implementations of thread-local variables
 
@@ -22,7 +27,7 @@ Cpython comes with two different implementations of thread-local variables
 
 As you may have guessed, the solution for jython is to use the pure-python fallback implementation. This implementation lives in the cpython **Lib/\_threading_local.py** module.
 
-## How to use the cpython implementation on jython {#How_to_use_the_cpython_implementation_on_jython}
+## How to use the cpython implementation on jython 
 
 To use the cpython implementation on jython, simply copy the **Lib/\_threading_local.py** module to your jython **Lib** directory.
 
@@ -43,7 +48,7 @@ Make the following change to the definition of the **localbase** class, and it w
             object.__setattr__(self, '_local__args', (args, kw))
             object.__setattr__(self, '_local__lock', RLock())
 
-## Importing the definition of threading.local {#Importing_the_definition_of_threading.local}
+## Importing the definition of threading.local 
 
 Normally on cpython, you would import thread-local support like this
 
@@ -65,11 +70,10 @@ Or maybe like this
 
 And that should be all you need to do.
 
-## Performance considerations {#Performance_considerations}
+## Performance considerations 
 
-Since java **does** have support for thread-local variables (see [java.lang.ThreadLocal](http://java.sun.com/j2se/1.4.2/docs/api/java/lang/ThreadLocal.html){.http}), it is likely that thread-local variables will be natively implemented on jython fairly soon.
+Since java **does** have support for thread-local variables (see [java.lang.ThreadLocal](http://java.sun.com/j2se/1.4.2/docs/api/java/lang/ThreadLocal.html)), it is likely that thread-local variables will be natively implemented on jython fairly soon.
 
 However, until that is the case, the above solution will be fully functional, if slightly slower. When a native implementation becomes available, no code-changes will be necessary, unless perhaps to tidy up the imports.
 
 [AlanKennedy](AlanKennedy)
-:::

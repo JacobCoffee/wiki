@@ -1,50 +1,55 @@
 # howto/Board Minutes
 
-:::::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # How To Prepare the Board Meeting Minutes
 
-::: {#contents .contents .topic}
+::: 
 Contents
 
-- [1   Preparation](#preparation){#id3 .reference .internal}
-- [2   Update Last Month\'s Minutes](#update-last-month-s-minutes){#id4 .reference .internal}
-- [3   Update the List of Meeting Minutes](#update-the-list-of-meeting-minutes){#id5 .reference .internal}
-- [4   Update This Month\'s Minutes](#update-this-month-s-minutes){#id6 .reference .internal}
-  - [4.1   Title](#title){#id7 .reference .internal}
-  - [4.2   Intro Paragraph](#intro-paragraph){#id8 .reference .internal}
-  - [4.3   Attendance](#attendance){#id9 .reference .internal}
-  - [4.4   Minutes of Past Meetings](#minutes-of-past-meetings){#id10 .reference .internal}
-  - [4.5   Votes Taken Between Meetings](#votes-taken-between-meetings){#id11 .reference .internal}
-  - [4.6   Status of Past Action Items](#status-of-past-action-items){#id12 .reference .internal}
-    - [4.6.1   Carried Forward](#carried-forward){#id13 .reference .internal}
-    - [4.6.2   New on \<D Month YYYY\>](#new-on-d-month-yyyy){#id14 .reference .internal}
-    - [4.6.3   New Between Meetings](#new-between-meetings){#id15 .reference .internal}
-    - [4.6.4   Update the Action Items](#update-the-action-items){#id16 .reference .internal}
-  - [4.7   Add Sections for New Business](#add-sections-for-new-business){#id17 .reference .internal}
-- [5   Update Action Items Wiki Page](#update-action-items-wiki-page){#id18 .reference .internal}
-  - [5.1   Add status updates to existing action items](#add-status-updates-to-existing-action-items){#id19 .reference .internal}
-  - [5.2   Add new action items](#add-new-action-items){#id20 .reference .internal}
-- [6   Inform the Secretary and the Board](#inform-the-secretary-and-the-board){#id21 .reference .internal}
-- [7   Links](#links){#id22 .reference .internal}
+- [1   Preparation](#preparation)
+- [2   Update Last Month\'s Minutes](#update-last-month-s-minutes)
+- [3   Update the List of Meeting Minutes](#update-the-list-of-meeting-minutes)
+- [4   Update This Month\'s Minutes](#update-this-month-s-minutes)
+  - [4.1   Title](#title)
+  - [4.2   Intro Paragraph](#intro-paragraph)
+  - [4.3   Attendance](#attendance)
+  - [4.4   Minutes of Past Meetings](#minutes-of-past-meetings)
+  - [4.5   Votes Taken Between Meetings](#votes-taken-between-meetings)
+  - [4.6   Status of Past Action Items](#status-of-past-action-items)
+    - [4.6.1   Carried Forward](#carried-forward)
+    - [4.6.2   New on \<D Month YYYY\>](#new-on-d-month-yyyy)
+    - [4.6.3   New Between Meetings](#new-between-meetings)
+    - [4.6.4   Update the Action Items](#update-the-action-items)
+  - [4.7   Add Sections for New Business](#add-sections-for-new-business)
+- [5   Update Action Items Wiki Page](#update-action-items-wiki-page)
+  - [5.1   Add status updates to existing action items](#add-status-updates-to-existing-action-items)
+  - [5.2   Add new action items](#add-new-action-items)
+- [6   Inform the Secretary and the Board](#inform-the-secretary-and-the-board)
+- [7   Links](#links)
 :::
 
-::: {#preparation .section}
-### [1   Preparation](#id3){.toc-backref}
+::: 
+### [1   Preparation](#id3)
 
 You will need:
 
 1.  A copy of last month\'s minutes.
 
-    In the [website repository](#website-repository){.reference .internal}: build/data/psf/records/board/minutes/YYYY-MM-DD/content.ht.
+    In the [website repository](#website-repository): build/data/psf/records/board/minutes/YYYY-MM-DD/content.ht.
 
     E.g. copy build/data/psf/records/board/minutes/2008-11-10/content.ht to build/data/psf/records/board/minutes/2008-12-08/content.ht
 
-2.  The [Board agenda wiki page](http://wiki.python.org/psf/BoardAgenda){.http .reference .external} **for this month\'s meeting** [\[1\]](#wiki-history){#id1 .footnote-reference}.
+2.  The [Board agenda wiki page](http://wiki.python.org/psf/BoardAgenda) **for this month\'s meeting** [\[1\]](#wiki-history).
 
-3.  The [action items wiki page](http://wiki.python.org/psf/Action_Items){.http .reference .external} **as of this month\'s meeting** [\[1\]](#wiki-history){#id2 .footnote-reference}.
+3.  The [action items wiki page](http://wiki.python.org/psf/Action_Items) **as of this month\'s meeting** [\[1\]](#wiki-history).
 
 +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-| \[1\] | *([1](#id1){.fn-backref}, [2](#id2){.fn-backref})*                                                                                                    |
+| \[1\] | *([1](#id1), [2](#id2))*                                                                                                    |
 |       |                                                                                                                                                       |
 |       | The wiki page may have changed since the meeting. You should use the version of the wiki page *as it was\** as of the beginning of the Board meeting. |
 |       |                                                                                                                                                       |
@@ -54,8 +59,8 @@ You will need:
 +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 :::
 
-::: {#update-last-month-s-minutes .section}
-### [2   Update Last Month\'s Minutes](#id4){.toc-backref}
+::: 
+### [2   Update Last Month\'s Minutes](#id4)
 
 If the minutes of last month\'s meeting were approved, update last month\'s minutes:
 
@@ -63,10 +68,10 @@ If the minutes of last month\'s meeting were approved, update last month\'s minu
 2.  Remove \"\| Draft\" from the title block.
 :::
 
-::: {#update-the-list-of-meeting-minutes .section}
-### [3   Update the List of Meeting Minutes](#id5){.toc-backref}
+::: 
+### [3   Update the List of Meeting Minutes](#id5)
 
-The list of meeting minutes (table of contents) is at build/data/psf/records/board/minutes/content.ht in the [website repository](#website-repository){.reference .internal}.
+The list of meeting minutes (table of contents) is at build/data/psf/records/board/minutes/content.ht in the [website repository](#website-repository).
 
 1.  Add a header for the new year in January.
 
@@ -75,33 +80,33 @@ The list of meeting minutes (table of contents) is at build/data/psf/records/boa
         * `November 10, 2008 <2008-11-10>`_
 :::
 
-:::::::::::::: {#update-this-month-s-minutes .section}
-### [4   Update This Month\'s Minutes](#id6){.toc-backref}
+:::::::::::::: 
+### [4   Update This Month\'s Minutes](#id6)
 
-::: {#title .section}
-#### [4.1   Title](#id7){.toc-backref}
+::: 
+#### [4.1   Title](#id7)
 
 1.  Update the date in the page title (first line). Be sure the title line says \"(Draft)\" at the end.
 2.  Update the date in in the title block (\"\|\" border on the left). Be sure the title block has \"\| Draft\" under the date.
 :::
 
-::: {#intro-paragraph .section}
-#### [4.2   Intro Paragraph](#id8){.toc-backref}
+::: 
+#### [4.2   Intro Paragraph](#id8)
 
-1.  Update the date & time (in the UTC/GMT time zone) in the intro paragraph under the title block. Use the [World Clock](http://www.timeanddate.com/worldclock/){.http .reference .external} to get the current time UTC time.
+1.  Update the date & time (in the UTC/GMT time zone) in the intro paragraph under the title block. Use the [World Clock](http://www.timeanddate.com/worldclock/) to get the current time UTC time.
 2.  Verify who presided and who prepared the minutes, and correct if necessary.
 :::
 
-::: {#attendance .section}
-#### [4.3   Attendance](#id9){.toc-backref}
+::: 
+#### [4.3   Attendance](#id9)
 
 1.  Update the list of attendees, both Directors and \"Also in attendance\". Directors names should be listed in alphabetical order by family name.
 
     If someone came late, after a vote, note the time they arrived (e.g. \"(arrived at 17:20)\"). Also note if anyone left early. Always use the UTC timezone.
 :::
 
-::: {#minutes-of-past-meetings .section}
-#### [4.4   Minutes of Past Meetings](#id10){.toc-backref}
+::: 
+#### [4.4   Minutes of Past Meetings](#id10)
 
 Update the \"Minutes of Past Meetings\" section.
 
@@ -110,8 +115,8 @@ Update the \"Minutes of Past Meetings\" section.
 3.  Remove any unnecessary approvals.
 :::
 
-::: {#votes-taken-between-meetings .section}
-#### [4.5   Votes Taken Between Meetings](#id11){.toc-backref}
+::: 
+#### [4.5   Votes Taken Between Meetings](#id11)
 
 Update the \"Votes Taken Between Meetings\" section.
 
@@ -137,13 +142,13 @@ Update the \"Votes Taken Between Meetings\" section.
     If anyone abstained from voting, note that too: \"(X abstentions)\".
 :::
 
-::::::: {#status-of-past-action-items .section}
-#### [4.6   Status of Past Action Items](#id12){.toc-backref}
+::::::: 
+#### [4.6   Status of Past Action Items](#id12)
 
 Update the \"Status of Past Action Items\" section.
 
-::: {#carried-forward .section}
-##### [4.6.1   Carried Forward](#id13){.toc-backref}
+::: 
+##### [4.6.1   Carried Forward](#id13)
 
 Update the \"Carried Forward\" subsection:
 
@@ -162,8 +167,8 @@ Update the \"Carried Forward\" subsection:
 6.  Renumber the list from 1 (some items have been removed, others added), adjusting indentation as necessary.
 :::
 
-::: {#new-on-d-month-yyyy .section}
-##### [4.6.2   New on \<D Month YYYY\>](#id14){.toc-backref}
+::: 
+##### [4.6.2   New on \<D Month YYYY\>](#id14)
 
 1.  Update the date of the last month\'s meeting in the title and the first paragraph.
 
@@ -181,7 +186,7 @@ Update the \"Carried Forward\" subsection:
 
             [0] Section 5, Example Title: :action:`J. Doe ...`
 
-        - Look up section numbers on the web: see [list of PSF Board meeting minutes](#list-of-psf-board-meeting-minutes){.reference .internal}. The table of contents of the web page of last month\'s minutes shows the section numbers.
+        - Look up section numbers on the web: see [list of PSF Board meeting minutes](#list-of-psf-board-meeting-minutes). The table of contents of the web page of last month\'s minutes shows the section numbers.
         - If there was more than one action item in a section (they should be numbered), join the section number and the item number with a \".\" (e.g. \"5.1\", \"5.2\", etc.).
         - Note the format of action items: item number in square brackets (\"\[\]\"), one space after the brackets, \":action:\", no space following, and the action item text in backquotes (\"\`\").
 
@@ -194,16 +199,16 @@ Update the \"Carried Forward\" subsection:
 4.  Delete the unused portions of the copied text of last month\'s minutes as you go.
 :::
 
-::: {#new-between-meetings .section}
-##### [4.6.3   New Between Meetings](#id15){.toc-backref}
+::: 
+##### [4.6.3   New Between Meetings](#id15)
 
-Look at the [action items wiki page](http://wiki.python.org/psf/Action_Items){.http .reference .external}. Any action items added since the last Board meeting should be recorded in the minutes.
+Look at the [action items wiki page](http://wiki.python.org/psf/Action_Items). Any action items added since the last Board meeting should be recorded in the minutes.
 :::
 
-::: {#update-the-action-items .section}
-##### [4.6.4   Update the Action Items](#id16){.toc-backref}
+::: 
+##### [4.6.4   Update the Action Items](#id16)
 
-Referring to the [action items wiki page](http://wiki.python.org/psf/Action_Items){.http .reference .external}, update the action items:
+Referring to the [action items wiki page](http://wiki.python.org/psf/Action_Items), update the action items:
 
 1.  For all action items done or dropped, add brief details (link, date, etc., if applicable). Remove the action item markup:
 
@@ -227,12 +232,12 @@ Referring to the [action items wiki page](http://wiki.python.org/psf/Action_Item
 
 **Note:** All action items in the \"Status of Past Action Items\" section **must** have status lines.
 
-While summarizing new business from the meeting transcript (IRC log), record any updates to existing action items as above, and on the [action items wiki page](http://wiki.python.org/psf/Action_Items){.http .reference .external}. If there is more than a brief status update note, create a new section (as in [Add Sections for New Business](#add-sections-for-new-business){.reference .internal} below).
+While summarizing new business from the meeting transcript (IRC log), record any updates to existing action items as above, and on the [action items wiki page](http://wiki.python.org/psf/Action_Items). If there is more than a brief status update note, create a new section (as in [Add Sections for New Business](#add-sections-for-new-business) below).
 :::
 :::::::
 
-::: {#add-sections-for-new-business .section}
-#### [4.7   Add Sections for New Business](#id17){.toc-backref}
+::: 
+#### [4.7   Add Sections for New Business](#id17)
 
 Referring to the meeting agenda and transcript (IRC log), add a section for each topic discussed.
 
@@ -293,23 +298,23 @@ Referring to the meeting agenda and transcript (IRC log), add a section for each
 :::
 ::::::::::::::
 
-::::: {#update-action-items-wiki-page .section}
-### [5   Update Action Items Wiki Page](#id18){.toc-backref}
+::::: 
+### [5   Update Action Items Wiki Page](#id18)
 
-Edit the [Action Items wiki page](http://wiki.python.org/psf/Action_Items){.http .reference .external}.
+Edit the [Action Items wiki page](http://wiki.python.org/psf/Action_Items).
 
 Scan the minutes of this month\'s Board meeting for new action items and updates to existing action items.
 
-::: {#add-status-updates-to-existing-action-items .section}
-#### [5.1   Add status updates to existing action items](#id19){.toc-backref}
+::: 
+#### [5.1   Add status updates to existing action items](#id19)
 
 1.  Add brief status text to the \"Description\" column.
 2.  Update the \"Status\" column if applicable.
 3.  Update the \"On\" date.
 :::
 
-::: {#add-new-action-items .section}
-#### [5.2   Add new action items](#id20){.toc-backref}
+::: 
+#### [5.2   Add new action items](#id20)
 
 Add new action items to the \"Outstanding Items\" section of the wiki page.
 
@@ -337,24 +342,23 @@ Add new action items to the \"Outstanding Items\" section of the wiki page.
 :::
 :::::
 
-::: {#inform-the-secretary-and-the-board .section}
-### [6   Inform the Secretary and the Board](#id21){.toc-backref}
+::: 
+### [6   Inform the Secretary and the Board](#id21)
 
 1.  Send a copy of the completed minutes to the PSF Secretary for approval (markup fixes, content, etc.).
-2.  Send a copy of the minutes (as edited and approved by the Secretary) to the Board mailing list ([psf@python.org](mailto:psf@python.org){.mailto .reference .external}).
+2.  Send a copy of the minutes (as edited and approved by the Secretary) to the Board mailing list ([psf@python.org](mailto:psf@python.org)).
 :::
 
-::: {#links .section}
-### [7   Links](#id22){.toc-backref}
+::: 
+### [7   Links](#id22)
 
-- [List of PSF Board meeting minutes]{#list-of-psf-board-meeting-minutes .target} (with links): [http://www.python.org/psf/records/board/minutes/](http://www.python.org/psf/records/board/minutes/){.http .reference .external}
+- [List of PSF Board meeting minutes] (with links): [http://www.python.org/psf/records/board/minutes/](http://www.python.org/psf/records/board/minutes/)
 
-- [website repository]{#website-repository .target}: [https://svn.python.org/www/trunk/beta.python.org/](https://svn.python.org/www/trunk/beta.python.org/){.https .reference .external}
+- [website repository]: [https://svn.python.org/www/trunk/beta.python.org/](https://svn.python.org/www/trunk/beta.python.org/)
 
-  Board meeting minutes: [https://svn.python.org/www/trunk/beta.python.org/build/data/psf/records/board/minutes/](https://svn.python.org/www/trunk/beta.python.org/build/data/psf/records/board/minutes/){.https .reference .external}
+  Board meeting minutes: [https://svn.python.org/www/trunk/beta.python.org/build/data/psf/records/board/minutes/](https://svn.python.org/www/trunk/beta.python.org/build/data/psf/records/board/minutes/)
 
-  Members\' meeting minutes: [https://svn.python.org/www/trunk/beta.python.org/build/data/psf/records/members/](https://svn.python.org/www/trunk/beta.python.org/build/data/psf/records/members/){.https .reference .external}
+  Members\' meeting minutes: [https://svn.python.org/www/trunk/beta.python.org/build/data/psf/records/members/](https://svn.python.org/www/trunk/beta.python.org/build/data/psf/records/members/)
 
-  See [Python.org Maintenance and Administration](http://python.org/dev/pydotorg/){.http .reference .external} and [Python.org Website Maintenance](http://python.org/dev/pydotorg/website/){.http .reference .external}.
+  See [Python.org Maintenance and Administration](http://python.org/dev/pydotorg/) and [Python.org Website Maintenance](http://python.org/dev/pydotorg/website/).
 :::
-::::::::::::::::::::::::

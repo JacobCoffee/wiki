@@ -1,6 +1,11 @@
 # MacPython/ApplicationInterfaces
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [MacPython](MacPython) can drive many Mac apps (mostly with the [../AppscriptModule](./MacPython(2f)AppscriptModule.html)). Here are links to the collected (but sometimes incomplete) wisdom contained in the wiki about such stuff:
 
 - Apple
@@ -31,4 +36,3 @@
   - [../OmniGraffle](./MacPython(2f)OmniGraffle.html)
 
   - [../SoundtrackPro](./MacPython(2f)SoundtrackPro.html)
-:::

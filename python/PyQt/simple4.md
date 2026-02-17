@@ -1,7 +1,12 @@
 # PyQt/simple4
 
-::::: {#content dir="ltr" lang="en"}
-## \"Simple\" Stage 4 {#A.22Simple.22_Stage_4}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## \"Simple\" Stage 4 
 
 The program has now progressed and the GUI begins to look like GUIs usually look. Visually, the most noticeable change is the presence of several icons on the tool bar - basically, these icons have the same functionality as the menu items and are provided for the most frequently used operations. So we will need to talk some more about the **actions** and about generation and storage of **resources**. Once you download the program listing and start using it, other changes will be noticed: at the end of the mouse pointer, a **tool tip hint** pops up showing the purpose of the icon that the pointer is hovering over. Also, an informative note, often the same as the tool tip hint, is shown on the **status bar**.
 
@@ -9,13 +14,13 @@ In connection with the above, we will need to discuss how **icon images** are pr
 
 One item that I missed in earlier versions is showing of the **title of document** opened in the edit window. The title is functional and it shows when the document has been altered. Not only that, there is a program bug that PyQt (or Qt) reports. I found the chasing after this bug as frustrating as it was instructive. It was not easy to find, yet I think that a programmer with experience in PyQt would spot it in no time at all! See if you can spot it easily.
 
-![Simple0.0.06.png](attachments/PyQt(2f)simple4/Simple0.0.06.png "Simple0.0.06.png"){.attachment}
+![Simple0.0.06.png](attachments/PyQt(2f)simple4/Simple0.0.06.png "Simple0.0.06.png")
 
-Below is the code listing for this stage of development. It is very often difficult to copy the code from a wiki. This is particularly so with Python programs, because Python relies on **indentation** for specification of code blocks (and it is such a **nice feature,** once you get used to it!). To make it simpler to test this stage of program, we provide a tar ball of program for downloading: see [http://akabaila.pcug.org.au/data_sample](http://akabaila.pcug.org.au/data_sample){.http} and select the tar ball named **simple0.0.06.tar.gz.**
+Below is the code listing for this stage of development. It is very often difficult to copy the code from a wiki. This is particularly so with Python programs, because Python relies on **indentation** for specification of code blocks (and it is such a **nice feature,** once you get used to it!). To make it simpler to test this stage of program, we provide a tar ball of program for downloading: see [http://akabaila.pcug.org.au/data_sample](http://akabaila.pcug.org.au/data_sample) and select the tar ball named **simple0.0.06.tar.gz.**
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-72342c4fdfc38b7ee0e0b7bfebd28c4d6539db3a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 #!/usr/bin/env python
    2 # .../simple.py - developing of a simple text editor.
    3 '''A really simple editor program in PyQt4 - simple.py
@@ -169,4 +174,3 @@ Below is the code listing for this stage of development. It is very often diffic
 The listing is more extensive - the number of lines has about doubled from the previous section. On the other hand, the simple editor now looks like a \"real\" program and is able to do what we expect of a simple, tutorial type, plain text editor!
 
 [Return Home](./PyQt(2f)simple.html)
-:::::

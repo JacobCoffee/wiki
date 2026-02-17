@@ -1,13 +1,18 @@
 # ConventionHowto
 
-:::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Rough checklist for running [PyCon](PyCon)-style conventions.
 
 This table intends to list every single step required to plan and carry out a conference. *Do not remove items* from this list, because this isn\'t the to-do list for any particular year; the list of remaining tasks for a specific conference such as [PyCon](PyCon) 2006 would be on other pages. Do feel free to *add* any tasks that you think of.
 
 The dates are given in terms of time before the conference. Larger conferences need lots of preparation time, and a smaller event can probably compress the timeline significantly.
 
-# 1. Timeline {#Timeline}
+# 1. Timeline 
 
 ::: {}
   --------------- --------------------------------------------------------------------
@@ -33,7 +38,7 @@ The dates are given in terms of time before the conference. Larger conferences n
   --------------- --------------------------------------------------------------------
 :::
 
-### 1.0.1. Refereed papers {#Refereed_papers}
+### 1.0.1. Refereed papers 
 
 ::: {}
   ----------- ---------------------------------------------
@@ -50,16 +55,16 @@ The dates are given in terms of time before the conference. Larger conferences n
   ----------- ---------------------------------------------
 :::
 
-### 1.0.2. BoFs {#BoFs}
+### 1.0.2. BoFs 
 
 ::: {}
   ----------- --------------------------------------------------
-  -2 months   Issue call for [BoFs](./BoFs.html){.nonexistent}
+  -2 months   Issue call for [BoFs](./BoFs.html)
   -2 weeks    Pick BoF topics
   ----------- --------------------------------------------------
 :::
 
-### 1.0.3. Swag {#Swag}
+### 1.0.3. Swag 
 
 ::: {}
   ----------------------------- ----------------------------------------------------------------------------------------
@@ -88,7 +93,7 @@ The dates are given in terms of time before the conference. Larger conferences n
   ----------------------------- ----------------------------------------------------------------------------------------
 :::
 
-### 1.0.4. Demos {#Demos}
+### 1.0.4. Demos 
 
 ::: {}
   ----- -----------------------------------
@@ -96,7 +101,7 @@ The dates are given in terms of time before the conference. Larger conferences n
   ----- -----------------------------------
 :::
 
-## 1.1. PSF Meeting {#PSF_Meeting}
+## 1.1. PSF Meeting 
 
 ::: {}
   ----------- -----------------------------------------
@@ -106,18 +111,18 @@ The dates are given in terms of time before the conference. Larger conferences n
   ----------- -----------------------------------------
 :::
 
-## 1.2. Next year\'s con {#Next_year.27s_con}
+## 1.2. Next year\'s con 
 
 ::: {}
   ----------- -------------------------------------------------------------------------------------------------------------------------
-  -4 months   Write requirements for con sites (like [http://www.yapc.org/venue-reqs.txt](http://www.yapc.org/venue-reqs.txt){.http})
+  -4 months   Write requirements for con sites (like [http://www.yapc.org/venue-reqs.txt](http://www.yapc.org/venue-reqs.txt))
   -4 months   Post call for site proposals
   -1 month    Check over site proposals
   At con      Run a panel / voting session to choose a proposal
   ----------- -------------------------------------------------------------------------------------------------------------------------
 :::
 
-## 1.3. Days before conference {#Days_before_conference}
+## 1.3. Days before conference 
 
 1.  Formatting finalized program.
 2.  Contracting for printing of individual programs for the delegates\' totes, and the presentation boards to go outside each of the session rooms.
@@ -130,33 +135,32 @@ The dates are given in terms of time before the conference. Larger conferences n
 9.  \[added after IRC communications\]: encourage sprint leaders to prepare feedback and prepare to present it at the feedback session.
 10. Preparation and printing of public notices (e.g. signage for registration desk, sponsors\' logo sheet).
 
-## 1.4. During the conference {#During_the_conference}
+## 1.4. During the conference 
 
 - Supervise sprints.
 - Run the registration desk.
 
-## 1.5. After the conference {#After_the_conference}
+## 1.5. After the conference 
 
 - Prepare web-based proceedings.
 - Prepare recorded audio.
 - Evaluate participant feedback and prepare report.
 - Determine profit/loss.
 
-# 2. Related links {#Related_links}
+# 2. Related links 
 
-## 2.1. Programming conferences {#Programming_conferences}
+## 2.1. Programming conferences 
 
-- [GUADEC Planning HowTo](http://live.gnome.org/GuadecPlanningHowTo){.http}
+- [GUADEC Planning HowTo](http://live.gnome.org/GuadecPlanningHowTo)
 
-## 2.2. SF fandom {#SF_fandom}
+## 2.2. SF fandom 
 
-- [Running cons the CAPTION way](http://caption.org/1998/prog-howto.html){.http}
+- [Running cons the CAPTION way](http://caption.org/1998/prog-howto.html)
 
-- [Conrunner](http://www.smof.com/conrunner/index2.htm){.http} \-- a 1995/6 \'zine
+- [Conrunner](http://www.smof.com/conrunner/index2.htm) \-- a 1995/6 \'zine
 
-- [Secret Masters of Fandom](http://www.smof.com/smofiles.htm){.http}
+- [Secret Masters of Fandom](http://www.smof.com/smofiles.htm)
 
 ------------------------------------------------------------------------
 
 [CategoryPyConPlanning](CategoryPyConPlanning)
-::::::::::

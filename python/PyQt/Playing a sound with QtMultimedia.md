@@ -1,15 +1,20 @@
 # PyQt/Playing a sound with QtMultimedia
 
-::::: {#content dir="ltr" lang="en"}
-# Playing a sound with QtMultimedia {#Playing_a_sound_with_QtMultimedia}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Playing a sound with QtMultimedia 
 
 This example shows how to use the QAudioOutput class, introduced in Qt 4.6, to play a simple sine wave.
 
 **Warning:** By default, the volume is set to zero because it is not possible to determine how loud the sound will be when played. Experiment carefully when playing sounds, especially if you are wearing headphones, to avoid causing damage to your hearing.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-80d19354c8576e8e7d129c2de8b18aee79e37997 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from math import pi, sin
    2 import struct, sys
    3 
@@ -112,4 +117,3 @@ This example shows how to use the QAudioOutput class, introduced in Qt 4.6, to p
 ```
 :::
 ::::
-:::::

@@ -1,5 +1,9 @@
 # EventStats/HitCounts
 
-::: {#content dir="ltr" lang="en"}
-![hitcounts chart](./EventStats(2f)HitCounts.html?action=chart&type=hitcounts){height="300" width="600"}
-:::
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+![hitcounts chart](./EventStats(2f)HitCounts.html?action=chart&type=hitcounts)

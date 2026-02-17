@@ -1,6 +1,11 @@
 # PloneSeleniumSprint
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 PloneSeleniumSprint
 
 When: Thursday and Friday after [EuroPython](EuroPython) (June 30th-July 1st 2005)
@@ -37,5 +42,4 @@ Interested in Functional Testing and Selenium?
 
 Maik Röder has given a talk about Selenium during the Python conference:
 
-\"Selenium Web Application Testing\":[http://www.python-in-business.org/ep2005/talk.chtml?talk=2891&track=694](http://www.python-in-business.org/ep2005/talk.chtml?talk=2891&track=694){.http}
-:::
+\"Selenium Web Application Testing\":[http://www.python-in-business.org/ep2005/talk.chtml?talk=2891&track=694](http://www.python-in-business.org/ep2005/talk.chtml?talk=2891&track=694)

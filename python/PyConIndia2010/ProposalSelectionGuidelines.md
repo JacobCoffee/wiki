@@ -1,7 +1,12 @@
 # PyConIndia2010/ProposalSelectionGuidelines
 
-::: {#content dir="ltr" lang="en"}
-## Evaluation process {#Evaluation_process}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Evaluation process 
 
 - Each proposal is evaluated on the following 5 points on a scale of 0 to 10 with 0 the lowest and 10 the highest (except when otherwise mentioned).
 - The criteria are
@@ -16,7 +21,7 @@ There is no formula for arriving at the overall rating from the other ratings - 
 
 The final evaluations will be done on a scale of 25, so we will simply scale the scores in 10 to 25.
 
-### Talk Rejection {#Talk_Rejection}
+### Talk Rejection 
 
 Talks which are not complete in their submission will be rejected. A sumbission can be incomplete in the following respects.
 
@@ -24,7 +29,7 @@ Talks which are not complete in their submission will be rejected. A sumbission 
 2.  Missing outline or summary.
 3.  Missing author bio.
 
-### Talk re-submission {#Talk_re-submission}
+### Talk re-submission 
 
 For those talks which are not rejected, but are still incomplete in their submissions, we will ask the author to do a re-submission after editing the required fields. A talk can be slotted for re-submission if,
 
@@ -46,9 +51,8 @@ AND
 
 If a talk is slotted for re-submission and not re-submitted within the deadline (which will be announced), it is automatically rejected.
 
-### Talk Selection {#Talk_Selection}
+### Talk Selection 
 
 There will be four people who will be judging a talk, each making a rating out of 25. The total rating of the talk will be the sum of all ratings of each reviewer so as to get the final rating out of 100.
 
 We will be selecting up to 60 talks initially. All talks will be ordered in decreasing order of overall rating out of 100 and the first 60 talks will be selected. Novelty factor and other factors (# of talks submitted for the same topic, \# of talks submitted by the same author etc) will be used to select among talks having the same score.
-:::

@@ -1,7 +1,12 @@
 # CategoryPythonInBusiness
 
-:::: {#content dir="ltr" lang="en"}
-[WikiCategories](http://c2.com/cgi/wiki?WikiCategories "Wiki"){.interwiki} category tag marking a page about using Python in business.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[WikiCategories](http://c2.com/cgi/wiki?WikiCategories "Wiki") category tag marking a page about using Python in business.
 
 ::: searchresults
 1.  [Asking for Help/How do you protect Python source code?](./Asking(20)for(20)Help(2f)How(20)do(20)you(20)protect(20)Python(20)source(20)code(3f).html?highlight=%28CategoryPythonInBusiness%29)
@@ -27,4 +32,3 @@
 ------------------------------------------------------------------------
 
 [CategoryCategory](CategoryCategory) [CategoryApplications](CategoryApplications)
-::::

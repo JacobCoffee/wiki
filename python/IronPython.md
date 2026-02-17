@@ -1,11 +1,16 @@
 # IronPython
 
-::: {#content dir="ltr" lang="en"}
-## IronPython {#IronPython-1}
+```{admonition} Legacy Wiki Page
+:class: note
 
-[IronPython](https://ironpython.net){.https} is an open source implementation of Python for the .NET CLR and Mono, originally created by [Jim Hugunin](http://hugunin.net/index.html){.http}.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-You can get news and download the latest version fromt the projects website: [https://ironpython.net/](https://ironpython.net/){.https}
+## IronPython 
+
+[IronPython](https://ironpython.net) is an open source implementation of Python for the .NET CLR and Mono, originally created by [Jim Hugunin](http://hugunin.net/index.html).
+
+You can get news and download the latest version fromt the projects website: [https://ironpython.net/](https://ironpython.net/)
 
 IronPython uses the Dynamic Language Runtime, a framework for writing dynamic languages for .NET which originated in IronPython 1. It also runs on Silverlight, a .NET browser plugin that runs on Windows and the Mac (and a Mono port called Moonlight runs on Linux). This means that IronPython can be used for client-side scripting *in the browser*.
 
@@ -27,29 +32,28 @@ Reasons that CPython programmers might be interested in IronPython include:
 
 - Silverlight!
 
-A book on IronPython for Python and .NET developers: [IronPython in Action](https://www.manning.com/books/ironpython-in-action){.https}.
+A book on IronPython for Python and .NET developers: [IronPython in Action](https://www.manning.com/books/ironpython-in-action).
 
-A useful resource for IronPython code examples, is the [IronPython Cookbook (archive)](http://web.archive.org/web/20190823082138/http://www.ironpython.info:80/index.php?title=Main_Page){.http}.
+A useful resource for IronPython code examples, is the [IronPython Cookbook (archive)](http://web.archive.org/web/20190823082138/http://www.ironpython.info:80/index.php?title=Main_Page).
 
-A book that introduces core concepts of IronPython programming using a .NET--centric approach is [Pro IronPython](https://link.springer.com/book/10.1007/978-1-4302-1963-7){.https}.
+A book that introduces core concepts of IronPython programming using a .NET--centric approach is [Pro IronPython](https://link.springer.com/book/10.1007/978-1-4302-1963-7).
 
-[IronPython Winforms tutorial (archive)](https://web.archive.org/web/20191130090900/http://www.zetcode.com/tutorials/ironpythontutorial/){.https} at [ZetCode](http://www.zetcode.com/){.http}.
+[IronPython Winforms tutorial (archive)](https://web.archive.org/web/20191130090900/http://www.zetcode.com/tutorials/ironpythontutorial/) at [ZetCode](http://www.zetcode.com/).
 
-Mozilla announced a project to port the DLR (well, the underlying Core CLR that it uses in fact) to run on their Tamarin JIT. This means that IronPython could also run in future versions of Firefox. (See [IronMonkey](http://wiki.mozilla.org/Tamarin:IronMonkey){.http}). Unfortunately this project has not made any progress since its announcement.
+Mozilla announced a project to port the DLR (well, the underlying Core CLR that it uses in fact) to run on their Tamarin JIT. This means that IronPython could also run in future versions of Firefox. (See [IronMonkey](http://wiki.mozilla.org/Tamarin:IronMonkey)). Unfortunately this project has not made any progress since its announcement.
 
-## Other Python-Like Languages for .NET/Mono {#Other_Python-Like_Languages_for_.NET.2FMono}
+## Other Python-Like Languages for .NET/Mono 
 
 Some other Python-like languages for .NET and Mono include:
 
-- [BooLanguage](BooLanguage) - Syntax is very similar to Python\'s, yet the language is statically compiled. It implements many features that have been suggested for [Python3.0](./Python3(2e)0.html). See [Gotchas for Python Users (archive)](https://web.archive.org/web/20150504021553/http://boo.codehaus.org/Gotchas+for+Python+Users){.https} for specific comparisons between boo and CPython.
+- [BooLanguage](BooLanguage) - Syntax is very similar to Python\'s, yet the language is statically compiled. It implements many features that have been suggested for [Python3.0](./Python3(2e)0.html). See [Gotchas for Python Users (archive)](https://web.archive.org/web/20150504021553/http://boo.codehaus.org/Gotchas+for+Python+Users) for specific comparisons between boo and CPython.
 
-- [Cobra Language](http://cobra-language.com/){.http}
+- [Cobra Language](http://cobra-language.com/)
 
-## Accessing .NET from CPython {#Accessing_.NET_from_CPython}
+## Accessing .NET from CPython 
 
-[Python for .NET (archive)](https://web.archive.org/web/20050225022729/http://www.zope.org/Members/Brian/PythonNet/index_html){.https} is the reverse of IronPython, it lets you access .NET assemblies from CPython.
+[Python for .NET (archive)](https://web.archive.org/web/20050225022729/http://www.zope.org/Members/Brian/PythonNet/index_html) is the reverse of IronPython, it lets you access .NET assemblies from CPython.
 
 ------------------------------------------------------------------------
 
 See also: [PythonAndParrot](PythonAndParrot), [LoGix](LoGix), IronPython IDE
-:::

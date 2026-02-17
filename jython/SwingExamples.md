@@ -1,29 +1,14 @@
 # SwingExamples
 
-:::::::::::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
-# Swing Examples in Jython {#Swing_Examples_in_Jython}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Swing Examples in Jython 
 
 [DocumentationAndEducation](DocumentationAndEducation)
-
-::: table-of-contents
-Contents
-
-1.  [Swing Examples in Jython](#Swing_Examples_in_Jython)
-    1.  [Simple Swing examples](#Simple_Swing_examples)
-        1.  [Hello, World!](#Hello.2C_World.21)
-        2.  [JButton and Button events](#JButton_and_Button_events)
-        3.  [JTextField](#JTextField)
-        4.  [JRadioButton](#JRadioButton)
-        5.  [JCheckBox](#JCheckBox)
-        6.  [JList](#JList)
-        7.  [JComboBox](#JComboBox)
-        8.  [JTree](#JTree)
-        9.  [JTable](#JTable)
-        10. [JTabbedPane](#JTabbedPane)
-        11. [JSplitPane](#JSplitPane)
-        12. [JDesktopPane and JInternalFrame Demo](#JDesktopPane_and_JInternalFrame_Demo)
-        13. [Decorator to add a function to SwingUtilities.invokeLater donated by Alex Grönholm](#Decorator_to_add_a_function_to_SwingUtilities.invokeLater_donated_by_Alex_Gr.2BAPY-nholm)
-:::
 
 ------------------------------------------------------------------------
 
@@ -33,30 +18,30 @@ Many of these have been tested and will work using jdk/jre \<1.5. If you are usi
 
 Below there are several examples that cover various swing components. Some time in the past I found a Jython script on the Georgia Tech web site that showed off a number of components, being that the web is constantly changing I have provided a copy of the [SwingSampler](SwingSampler) with the permission of the professor who believes he is the author.
 
-In March 2007, Anton Vredegoor asked the Jython mailing list for help converting [Java Simple Editor](http://leepoint.net/notes-java/examples/components/editor/nutpad.html){.http} and Jeff Emanuel provided complete conversion to Jython. Here is the [JythonNutpad](JythonNutpad) that was posted.
+In March 2007, Anton Vredegoor asked the Jython mailing list for help converting [Java Simple Editor](http://leepoint.net/notes-java/examples/components/editor/nutpad.html) and Jeff Emanuel provided complete conversion to Jython. Here is the [JythonNutpad](JythonNutpad) that was posted.
 
 The Jython Mailing list is a great source of help. If you have questions or problems the mailing list is a good place to look for help but there is no substitute for RTFM or Google searches before hand.
 
-## Simple Swing examples {#Simple_Swing_examples}
+## Simple Swing examples 
 
 These are fairly simple examples but show components.
 
-### Hello, World! {#Hello.2C_World.21}
+### Hello, World! 
 
 These are some ways of creating a simple frame with the title \'Hello, World!\' on it.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-bf32a8197e6edfee5c11368f9e32beef94567045 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from javax.swing import JFrame
    2 JFrame('Hello, World!', defaultCloseOperation=JFrame.EXIT_ON_CLOSE, size=(300, 300), locationRelativeTo=None).setVisible(True)
 ```
 :::
 ::::
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-7075a18724430555a059efd01f831984d3ba2484 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from javax.swing import JFrame
    2 f = JFrame('Hello, World!', defaultCloseOperation=JFrame.EXIT_ON_CLOSE, size=(300, 300), locationRelativeTo=None)
    3 f.setVisible(True)
@@ -66,9 +51,9 @@ These are some ways of creating a simple frame with the title \'Hello, World!\' 
 
 The above examples can also be done \"Java-style\", i.e. a bit more verbose as shown below:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3151c399fc633dd2308dc1280f1970df6a4ec3fa dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from javax.swing import JFrame
    2 f = JFrame('Hello, World!')
    3 f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
@@ -81,9 +66,9 @@ The above examples can also be done \"Java-style\", i.e. a bit more verbose as s
 
 And yet another way of doing it is shown below:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-312bd4362d60daad4954b57cd426dfecc7a8810a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from javax.swing import JFrame
    2 f = JFrame('Hello, World!')
    3 f.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
@@ -94,13 +79,13 @@ And yet another way of doing it is shown below:
 :::
 ::::
 
-### JButton and Button events {#JButton_and_Button_events}
+### JButton and Button events 
 
 Just a simple example.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-0f35b33ab24e8b9df4d3d9b97e94f794e30d7b20 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """
    2 A simple example that shows button event handling
    3 
@@ -132,11 +117,11 @@ Just a simple example.
 :::
 ::::
 
-### JTextField {#JTextField}
+### JTextField 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-83a728313e9e132dff0b244030da3cc8de63761e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """
    2 Swing JTextField example in Jython.
    3 
@@ -182,11 +167,11 @@ Just a simple example.
 :::
 ::::
 
-### JRadioButton {#JRadioButton}
+### JRadioButton 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-fda87b69ad6552116119ab7ad0bb69a590ba81b9 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """
    2 Swing JRadioButton example in Jython.
    3 
@@ -250,11 +235,11 @@ Just a simple example.
 :::
 ::::
 
-### JCheckBox {#JCheckBox}
+### JCheckBox 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-cb25ee9d43660fb3ad1d7f19db7c44edcf980c0a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """
    2 Swing JCheckBox example in Jython.
    3 
@@ -317,13 +302,13 @@ Just a simple example.
 :::
 ::::
 
-### JList {#JList}
+### JList 
 
-- Also see [http://www.jython.org/applets/list.html](http://www.jython.org/applets/list.html){.http}
+- Also see [http://www.jython.org/applets/list.html](http://www.jython.org/applets/list.html)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2ed5e34750ff015ca152e6a6c2230c494522a62c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """
    2 Swing JList example in Jython.
    3 
@@ -389,15 +374,15 @@ Just a simple example.
 :::
 ::::
 
-### JComboBox {#JComboBox}
+### JComboBox 
 
 *under construction*
 
-Here are a couple of combo box examples. one requires a button click and the other is more dynamic [ComboboxExample](./ComboboxExample.html){.nonexistent}.
+Here are a couple of combo box examples. one requires a button click and the other is more dynamic [ComboboxExample](./ComboboxExample.html).
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-e172fae1f30ad39c13e23f3307ddb431a92ac8ce dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """
    2 Swing JComboBox example in Jython.
    3 
@@ -446,17 +431,17 @@ Here are a couple of combo box examples. one requires a button click and the oth
 :::
 ::::
 
-### JTree {#JTree}
+### JTree 
 
 This example is a bit long so here is the [JtreeExample](JtreeExample)
 
-### JTable {#JTable}
+### JTable 
 
 I think this is the most amazing example. This creates a small table that has editable cells, cursor movement and resizeable. The is at least 75% shorter then a comparable java version. Time is money, and here is proof the jython can save you money and make you more productive.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-57377048abaec90581f8ea901677fdef385acb2f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """
    2 
    3 Swing JTable example in Jython.
@@ -508,13 +493,13 @@ I think this is the most amazing example. This creates a small table that has ed
 :::
 ::::
 
-### JTabbedPane {#JTabbedPane}
+### JTabbedPane 
 
 This create a simple JTabbedPane example. Here is another [TabbedExample](TabbedExample).
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-8577419397df93a4617416d02568a928d23f5c0a dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """
    2 
    3 Swing JTabbedPane example in Jython.
@@ -557,13 +542,13 @@ This create a simple JTabbedPane example. Here is another [TabbedExample](Tabbed
 :::
 ::::
 
-### JSplitPane {#JSplitPane}
+### JSplitPane 
 
-This just creates a simple split pane. nothing fancy. ![:)](/wiki/modernized/img/smile.png ":)"){height="16" width="16"}
+This just creates a simple split pane. nothing fancy. ![:)](/wiki/modernized/img/smile.png ":)")
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-7de0d6f55739e7e8a3ab3ede8da726fbe99840ff dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 """
    2 Swing JSplitPane example in Jython.
    3 
@@ -605,11 +590,11 @@ This just creates a simple split pane. nothing fancy. ![:)](/wiki/modernized/img
 :::
 ::::
 
-### JDesktopPane and JInternalFrame Demo {#JDesktopPane_and_JInternalFrame_Demo}
+### JDesktopPane and JInternalFrame Demo 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3ed7dd97fcae5a2f6c952ef88e46d70835aaa13b dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from javax.swing import JFrame, JDesktopPane, JInternalFrame, JMenuBar, JMenu, JMenuItem, JScrollPane
    2 
    3 class DesktopPaneAndInternalFrameDemo(JFrame):
@@ -680,11 +665,11 @@ This just creates a simple split pane. nothing fancy. ![:)](/wiki/modernized/img
 :::
 ::::
 
-### Decorator to add a function to SwingUtilities.invokeLater donated by Alex Grönholm {#Decorator_to_add_a_function_to_SwingUtilities.invokeLater_donated_by_Alex_Gr.2BAPY-nholm}
+### Decorator to add a function to SwingUtilities.invokeLater donated by Alex Grönholm 
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-34ac0999ce1667a05b6f63551d22690788288ba2 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from java.lang import Runnable
    2 from javax.swing import SwingUtilities
    3  
@@ -705,4 +690,3 @@ This just creates a simple split pane. nothing fancy. ![:)](/wiki/modernized/img
 ```
 :::
 ::::
-::::::::::::::::::::::::::::::::::

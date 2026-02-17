@@ -1,9 +1,14 @@
 # Karrigell
 
-::: {#content dir="ltr" lang="en"}
-### Masthead {#Masthead}
+```{admonition} Legacy Wiki Page
+:class: note
 
-URL:: [http://www.karrigell.com](http://www.karrigell.com){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### Masthead 
+
+URL:: [http://www.karrigell.com](http://www.karrigell.com)
 
 version::3.1 (*2010-04-25*)
 
@@ -13,15 +18,15 @@ platforms::any platform that supports Python 2.3
 
 Python versions::2.3 and above
 
-### Deployment Platforms {#Deployment_Platforms}
+### Deployment Platforms 
 
-No requirement besides Python : Karrigell is provided with a web server and a Python database engine ([PyDbLite](./PyDbLite.html){.nonexistent}). It can also run behind Apache (CGI mode or mod_python) an any web server that supports proxy mode
+No requirement besides Python : Karrigell is provided with a web server and a Python database engine ([PyDbLite](./PyDbLite.html)). It can also run behind Apache (CGI mode or mod_python) an any web server that supports proxy mode
 
-### Suitability {#Suitability}
+### Suitability 
 
 Web programming with all the usual tasks (session management, cookies, user management, etc)
 
-### Development Interfaces {#Development_Interfaces}
+### Development Interfaces 
 
 Servlet-style : the scripts, either pure Python or mixing HTML and Python, are executed in a namespace which provides all useful information, including HTTP headers, authentication data, etc. For instance, form fields are available as the REQUEST dictionary, or with a variable available in the namespace
 
@@ -29,11 +34,11 @@ The namespace also provides custom exceptions to stop its execution, such as HTT
 
 A function Include(script_or_file, \*\*args) allows the inclusion of an html file or of a file inside a script. If script B is included inside script A, it is executed in script A\'s namespace ; additional \*\*args can be added to this namespace
 
-### Environment Access {#Environment_Access}
+### Environment Access 
 
 Standard Python mechanisms : environment data is available in the namespace where scripts are executed
 
-### Session, Identification and Authentication {#Session.2C_Identification_and_Authentication}
+### Session, Identification and Authentication 
 
 Provided through functions available in scripts
 
@@ -41,11 +46,11 @@ Session() returns a session object, to which attributes can be set (arbitrary Py
 
 A user management framework allows the site administrator to manage a user database with roles(admin, editor, visitor). In scripts, function Login(role) checks if the user is logged in with the specified role, or redirects to an authentication script ; Role() returns user\'s role
 
-### Persistence Support {#Persistence_Support}
+### Persistence Support 
 
-Karrigell is provided with the pure-Python [PyDbLite](./PyDbLite.html){.nonexistent} database engine. It can be linked to all databases for which there is a Python API (SQLite, MySQL, PostGres, etc)
+Karrigell is provided with the pure-Python [PyDbLite](./PyDbLite.html) database engine. It can be linked to all databases for which there is a Python API (SQLite, MySQL, PostGres, etc)
 
-### Presentation Support {#Presentation_Support}
+### Presentation Support 
 
 - Python scripts, where the \"print\" statement is used to send output to the client
 
@@ -57,7 +62,7 @@ Karrigell is provided with the pure-Python [PyDbLite](./PyDbLite.html){.nonexist
 
 - plain CGI scripts, running much faster than usual because the interpreter is not loaded for each request
 
-### InTheirOwnWords {#InTheirOwnWords}
+### InTheirOwnWords 
 
 Karrigell aims at simplicity for web developers :
 
@@ -73,11 +78,10 @@ The inspirations were EasyPHP, a package which provides Apache, PHP, mySql and P
 
 Performance and stability have been very much improved since the first versions. Karrigell can now be safely used in production environments
 
-### Comments {#Comments}
+### Comments 
 
-### Hosting {#Hosting}
+### Hosting 
 
-[WebFaction](http://www.webfaction.com){.http} supports Karrigell
+[WebFaction](http://www.webfaction.com) supports Karrigell
 
 All web hosts using Apache and allowing CGI scripts can support it
-:::

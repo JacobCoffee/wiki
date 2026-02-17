@@ -1,9 +1,14 @@
 # PhilipJenvey
 
-::: {#content dir="ltr" lang="en"}
-My old and no longer in use mercurial jython repos is [here](http://hg.underboss.org){.http} ![](http://www.hellanzb.com/hellanzb-content/anim-daemon.gif "http://www.hellanzb.com/hellanzb-content/anim-daemon.gif"){.external_image}
+```{admonition} Legacy Wiki Page
+:class: note
 
-[BytecodeLoader](./BytecodeLoader.html){.nonexistent} benchmarks (in milliseconds) on OS X:
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+My old and no longer in use mercurial jython repos is [here](http://hg.underboss.org) ![](http://www.hellanzb.com/hellanzb-content/anim-daemon.gif "http://www.hellanzb.com/hellanzb-content/anim-daemon.gif")
+
+[BytecodeLoader](./BytecodeLoader.html) benchmarks (in milliseconds) on OS X:
 
     1.6 64 bit server
     makeClass: 941 getConstructor: 1874 newInstance: 355 getMain: 0
@@ -41,4 +46,3 @@ My old and no longer in use mercurial jython repos is [here](http://hg.underboss
     loadClassFromBytes: 479 forName: 2272 getMain: 0
     loadClassFromBytes: 485 forName: 2253 getMain: 2
     loadClassFromBytes: 498 forName: 2309 getMain: 1
-:::

@@ -1,6 +1,11 @@
 # CleanupUrllib
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Describe CleanupUrllib here.
 
 This proposal aims to clean up the urllib module and proposes a unified module to handle the url specific functions. The approach to implement these changes to be fix the existing identified bugs, implement the changes requested and develop a unified solution modeling the existing available url handling modules.
@@ -19,7 +24,7 @@ The urlparse.urlparse() function splits an url into its relative pieces.However,
 
 It would be nice to have cgi.parse_qs() and urllib.urlencode() in a unified place, within in the urlparse module if appropriate. This will help reduce the amount of hunting-and-pecking that beginners do when they\'re trying to deal with URLs.
 
-Reference: [http://mail.python.org/pipermail/tutor/2002-August/016823.html](http://mail.python.org/pipermail/tutor/2002-August/016823.html){.http}
+Reference: [http://mail.python.org/pipermail/tutor/2002-August/016823.html](http://mail.python.org/pipermail/tutor/2002-August/016823.html)
 
 3\) \[ 735515 \] urllib,urllib2 to cache redirections.
 
@@ -33,7 +38,7 @@ While writing the new modules, only the functionality provided by these patches 
 
 Adding of the \<local\> macro in urllib.proxy_bypass is broken. According to the Microsoft documentation for this macro, what should be checked is simply that the host name specified does not contain a period. Since urllib gets its proxy information directly from the Windows registry it would make sense to use the same definitions that Microsoft does. Attached is a patch that does this.
 
-Here is a link to the documentation that specifies this: [http://msdn2.microsoft.com/en-gb/library/aa384098.aspx](http://msdn2.microsoft.com/en-gb/library/aa384098.aspx){.http}
+Here is a link to the documentation that specifies this: [http://msdn2.microsoft.com/en-gb/library/aa384098.aspx](http://msdn2.microsoft.com/en-gb/library/aa384098.aspx)
 
 2\) \[ 1664522 \] Fix for urllib.ftpwrapper.retrfile()
 
@@ -43,7 +48,7 @@ The current behavior tries to emulate what one typically sees with http servers 
 
 \- Try to RETRIVE the file. - If that fails, assume it is a directory and LIST it.
 
-3\) \[ 1667860 \] urllib2 raises an [UnboundLocalError](./UnboundLocalError.html){.nonexistent} if \"auth-int\" is the qop urllib2 raises an [UnboundLocalError](./UnboundLocalError.html){.nonexistent} if \"auth-int\" is the qop If a proxy server is connected to that specifies the \"auth-int\" quality of protection (qop) code\--or any qop code aside from \"auth\", actually\--urllib2 raises an [UnboundLocalError](./UnboundLocalError.html){.nonexistent} exception.
+3\) \[ 1667860 \] urllib2 raises an [UnboundLocalError](./UnboundLocalError.html) if \"auth-int\" is the qop urllib2 raises an [UnboundLocalError](./UnboundLocalError.html) if \"auth-int\" is the qop If a proxy server is connected to that specifies the \"auth-int\" quality of protection (qop) code\--or any qop code aside from \"auth\", actually\--urllib2 raises an [UnboundLocalError](./UnboundLocalError.html) exception.
 
 4\) \[ 1673007 \] urllib2 requests history + HEAD support Add history off all sent and received headers/requests to addinfourl object. Save redirections history too.
 
@@ -73,12 +78,12 @@ The following cases, can be adopted from the mechanize module.
 
   1.  HTTPRedirectHandler.HTTPRequestUpgradeProcessor and
 
-  [ResponseUpgradeProcessord](./ResponseUpgradeProcessord.html){.nonexistent} classes.
+  [ResponseUpgradeProcessord](./ResponseUpgradeProcessord.html) classes.
 
   1.  Request and response objects from code based on urllib work with
       - mechanize,urlgrabber and other majorly used modules.
 
-\* Understand the realworld scenarios of URL Encoding with respect to unicode and discuss about implement changes required. Comment by Mike Brown at python-dev. [http://mail.python.org/pipermail/python-dev/2007-March/072330.html](http://mail.python.org/pipermail/python-dev/2007-March/072330.html){.http}
+\* Understand the realworld scenarios of URL Encoding with respect to unicode and discuss about implement changes required. Comment by Mike Brown at python-dev. [http://mail.python.org/pipermail/python-dev/2007-March/072330.html](http://mail.python.org/pipermail/python-dev/2007-March/072330.html)
 
 \* Writing Unit Tests for all the changes.
 
@@ -112,17 +117,16 @@ I have contributed to a number of Free Software Projects in terms of bug-reports
 
 I wish participate in large free software projects to understand the mechanics and interact with developers gain knowledge. I think Google Summer of Code can give me a chance to work with Python Software Developers with this proposal of mine on cleanup task of urllib.
 
-Free Software Projects which I have worked so far: 1) Rapple. [http://rapple.sf.net](http://rapple.sf.net){.http}. Contributed code to html parsing facility as a developer. Involved in unit testing, bug fixes.
+Free Software Projects which I have worked so far: 1) Rapple. [http://rapple.sf.net](http://rapple.sf.net). Contributed code to html parsing facility as a developer. Involved in unit testing, bug fixes.
 
-2\) Nanoblogger. [http://nanoblogger.sourceforge.net/](http://nanoblogger.sourceforge.net/){.http} Testing and Changes during the initial stages of the project.
+2\) Nanoblogger. [http://nanoblogger.sourceforge.net/](http://nanoblogger.sourceforge.net/) Testing and Changes during the initial stages of the project.
 
-3\) Libsmbios [http://linux.dell.com/libsmbios/](http://linux.dell.com/libsmbios/){.http} Unit-testing code to test features
+3\) Libsmbios [http://linux.dell.com/libsmbios/](http://linux.dell.com/libsmbios/) Unit-testing code to test features
 
-Apart from that, smaller projects which I have done, include: 4) ngwallpaper. [http://code.google.com/p/ngwallpaper/](http://code.google.com/p/ngwallpaper/){.http} In progress and fun time project:
+Apart from that, smaller projects which I have done, include: 4) ngwallpaper. [http://code.google.com/p/ngwallpaper/](http://code.google.com/p/ngwallpaper/) In progress and fun time project:
 
-5\) PyLJvim [http://www.vim.org/scripts/script.php?script_id=1724](http://www.vim.org/scripts/script.php?script_id=1724){.http} Python [LiveJournal](./LiveJournal.html){.nonexistent} Plugin for VIM Editor.
+5\) PyLJvim [http://www.vim.org/scripts/script.php?script_id=1724](http://www.vim.org/scripts/script.php?script_id=1724) Python [LiveJournal](./LiveJournal.html) Plugin for VIM Editor.
 
-6\) Code snippets at uthcode. [http://uthcode.sarovar.org](http://uthcode.sarovar.org){.http} Snippets of C Programming Code, solving K&R Problems.
+6\) Code snippets at uthcode. [http://uthcode.sarovar.org](http://uthcode.sarovar.org) Snippets of C Programming Code, solving K&R Problems.
 
-Home Page: [http://puggy.symonds.net/\~senthil](http://puggy.symonds.net/~senthil){.http} Blog: [http://phoe6.livejournal.com](http://phoe6.livejournal.com){.http}
-:::
+Home Page: [http://puggy.symonds.net/\~senthil](http://puggy.symonds.net/~senthil) Blog: [http://phoe6.livejournal.com](http://phoe6.livejournal.com)

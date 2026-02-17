@@ -1,13 +1,18 @@
 # PythonCdPackages
 
-::: {#content dir="ltr" lang="en"}
-# Python CD Packages {#Python_CD_Packages}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Python CD Packages 
 
 Here is an overview of popular packages installed on the [PythonCd](PythonCd).
 
 [PythonCdRawPackageList](PythonCdRawPackageList) has a complete raw list of installed debian packages.
 
-## IDEs (Integrated Development Environments) {#IDEs_.28Integrated_Development_Environments.29}
+## IDEs (Integrated Development Environments) 
 
 - [eric](eric)3 - a very nice and powerful GUI IDE
 
@@ -17,15 +22,15 @@ Here is an overview of popular packages installed on the [PythonCd](PythonCd).
 
 - [IPython](IPython) - an extended interactive Python command interpreter
 
-## GUI Builders {#GUI_Builders}
+## GUI Builders 
 
 - [BoaConstructor](BoaConstructor)
 
-- [PythonCard](./PythonCard.html){.nonexistent}
+- [PythonCard](./PythonCard.html)
 
 - ? [WxGlade](WxGlade)
 
-## GUI Toolkit bindings {#GUI_Toolkit_bindings}
+## GUI Toolkit bindings 
 
 - [PyGtk](PyGtk)
 
@@ -33,7 +38,7 @@ Here is an overview of popular packages installed on the [PythonCd](PythonCd).
 
 - [WxPython](WxPython)
 
-## Graphics libs {#Graphics_libs}
+## Graphics libs 
 
 - [PIL](PIL)
 
@@ -41,7 +46,7 @@ Here is an overview of popular packages installed on the [PythonCd](PythonCd).
 
 - PyOpenGL
 
-## Web/HTML/XML stuff {#Web.2FHTML.2FXML_stuff}
+## Web/HTML/XML stuff 
 
 - [MoinMoin](MoinMoin) wiki - you are using it right now
 
@@ -51,15 +56,15 @@ Here is an overview of popular packages installed on the [PythonCd](PythonCd).
 
 - PyXML, libxml2 and other XML packages
 
-## Scientific {#Scientific}
+## Scientific 
 
 - python-numeric and python-numarray - math extensions
 
 - python-pyx - module for generating [PostScript](PostScript) graphics, plotting
 
-## Database {#Database}
+## Database 
 
-- [Gadfly](http://gadfly.sourceforge.net/){.http}
+- [Gadfly](http://gadfly.sourceforge.net/)
 
 - python-mysqldb - interface for [MySQL](MySQL)
 
@@ -67,11 +72,10 @@ Here is an overview of popular packages installed on the [PythonCd](PythonCd).
 
 - python-pygresql - [PostgreSQL](PostgreSQL) module
 
-## Misc {#Misc}
+## Misc 
 
 - [PyChecker](PyChecker) - checks your source code for common errors
 
 ------------------------------------------------------------------------
 
-![/!\\](/wiki/europython/img/alert.png "/!\"){height="16" width="16"} Check against [PythonCdRawPackageList](PythonCdRawPackageList) before putting on this page! If unsure, put a ? in front of the entry here.
-:::
+![/!\\](/wiki/europython/img/alert.png "/!\") Check against [PythonCdRawPackageList](PythonCdRawPackageList) before putting on this page! If unsure, put a ? in front of the entry here.

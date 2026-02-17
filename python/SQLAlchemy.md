@@ -1,9 +1,13 @@
 # SQLAlchemy
 
-::: {#content dir="ltr" lang="en"}
-[http://www.sqlalchemy.org/](http://www.sqlalchemy.org/){.http}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+[http://www.sqlalchemy.org/](http://www.sqlalchemy.org/)
 
 SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.
 
 It provides a full suite of well known enterprise-level persistence patterns, designed for efficient and high-performing database access, adapted into a simple and Pythonic domain language.
-:::

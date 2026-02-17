@@ -1,6 +1,11 @@
 # InitialTestingPlan
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Initial Testing Plan for Plone
 
 To come up with an initial testing plan, different approaches have been explored.
@@ -32,31 +37,31 @@ Portal Catalog
 
 - The portal catalog contains indexes and metadata which would merit some special attention. Questions to address: What happens when the catalog is empty? What happens when you delete content in the ZMI find it through the catalog?
 
-[MailHost](./MailHost.html){.nonexistent}
+[MailHost](./MailHost.html)
 
-- The [MailHost](./MailHost.html){.nonexistent} is not a standard tool in the Plone sense, so it behaves just a bit differently. In addition, the [MailHost](./MailHost.html){.nonexistent} is also a place where we are relying on a external service, so we have to take some extra care. One use case would be that there is a temporary problem with sending mail,
+- The [MailHost](./MailHost.html) is not a standard tool in the Plone sense, so it behaves just a bit differently. In addition, the [MailHost](./MailHost.html) is also a place where we are relying on a external service, so we have to take some extra care. One use case would be that there is a temporary problem with sending mail,
 
-  and the administrator has to have a way to switch off the [MailHost](./MailHost.html){.nonexistent}. He could remove it altogether, and once the problems are resolved, the [MailHost](./MailHost.html){.nonexistent} is added back in again. This opens a feature request allowing to being able to desactivate a [MailHost](./MailHost.html){.nonexistent} instead of having to delete it. Some questions we should address here:
+  and the administrator has to have a way to switch off the [MailHost](./MailHost.html). He could remove it altogether, and once the problems are resolved, the [MailHost](./MailHost.html) is added back in again. This opens a feature request allowing to being able to desactivate a [MailHost](./MailHost.html) instead of having to delete it. Some questions we should address here:
 
-  \- What happens when we remove the [MailHost](./MailHost.html){.nonexistent} altogether?
+  \- What happens when we remove the [MailHost](./MailHost.html) altogether?
 
   - \- Should related buttons and interfaces still be active?
     - \- Can users still access the interface for sending mail? - Is prefs_mailhost_form still showing the configuration?
 
     \- Create functional tests showing what breaks in Plone after removing the
-    - [MailHost](./MailHost.html){.nonexistent}, and then put it back in to see that the tests pass
+    - [MailHost](./MailHost.html), and then put it back in to see that the tests pass
 
   \- What happens when the Mailhost is not correctly configured?
 
-  \- What happens when the [MailHost](./MailHost.html){.nonexistent} can not send Mail? - Is there something that could have broken while moving from [MailHost](./MailHost.html){.nonexistent}
+  \- What happens when the [MailHost](./MailHost.html) can not send Mail? - Is there something that could have broken while moving from [MailHost](./MailHost.html)
 
-  - to [SecureMailHost](./SecureMailHost.html){.nonexistent}?
+  - to [SecureMailHost](./SecureMailHost.html)?
 
 Permissions
 
 - Showing what effect the permission settings have is a great use of acceptance tests. It is nowhere documented what permissions are actually doing, and by coding this \"knowledge\" into functional tests, the practical meaning of permissions becomes evident. We should start with the permissions proper to Plone, and work our way down to permissions in CMF and Zope that are still relevant for Plone. As an example, we take the \"Manage portal\" permission of Plone. The following are all uses of this permission in Plone under the name \"Manage portal\". It does not take into account uses of the permission under the name
 
-  CMFCorePermissions.[ManagePortal](./ManagePortal.html){.nonexistent}
+  CMFCorePermissions.[ManagePortal](./ManagePortal.html)
 
   -\> Allows to see members that are not \"listed\" in the
 
@@ -66,49 +71,49 @@ Permissions
 
   -\> Mostly important in the workflow. See there for further information. -\> Plays a role in the apis and on templates.
 
-  [AccessContentsInformation](./AccessContentsInformation.html){.nonexistent} = Permissions.access_contents_information -\> Mostly important in the workflow. See there for further information.
+  [AccessContentsInformation](./AccessContentsInformation.html) = Permissions.access_contents_information -\> Mostly important in the workflow. See there for further information.
 
-  [DeleteObjects](./DeleteObjects.html){.nonexistent} = Permissions.delete_objects
+  [DeleteObjects](./DeleteObjects.html) = Permissions.delete_objects
 
   -\> Make sure deleting a content is only possible when you have the permission to delete the content itself, but also the permission to delete in the folder in general.
 
-  [ViewManagementScreens](./ViewManagementScreens.html){.nonexistent} = Permissions.view_management_screens [ManageProperties](./ManageProperties.html){.nonexistent} = Permissions.manage_properties FTPAccess = Permissions.ftp_access \# CMF Base Permissions
+  [ViewManagementScreens](./ViewManagementScreens.html) = Permissions.view_management_screens [ManageProperties](./ManageProperties.html) = Permissions.manage_properties FTPAccess = Permissions.ftp_access \# CMF Base Permissions
 
-  [ListFolderContents](./ListFolderContents.html){.nonexistent} = \'List folder contents\' setDefaultRoles( [ListFolderContents](./ListFolderContents.html){.nonexistent}, ( \'Manager\', \'Owner\' ) ) -\> Mostly important in the workflow. See there for further information.
+  [ListFolderContents](./ListFolderContents.html) = \'List folder contents\' setDefaultRoles( [ListFolderContents](./ListFolderContents.html), ( \'Manager\', \'Owner\' ) ) -\> Mostly important in the workflow. See there for further information.
 
-  [ListUndoableChanges](./ListUndoableChanges.html){.nonexistent} = \'List undoable changes\' setDefaultRoles( [ListUndoableChanges](./ListUndoableChanges.html){.nonexistent}, (\'Manager\',) ) \# + Member
+  [ListUndoableChanges](./ListUndoableChanges.html) = \'List undoable changes\' setDefaultRoles( [ListUndoableChanges](./ListUndoableChanges.html), (\'Manager\',) ) \# + Member
 
-  [AccessInactivePortalContent](./AccessInactivePortalContent.html){.nonexistent} = \'Access inactive portal content\' setDefaultRoles([AccessInactivePortalContent](./AccessInactivePortalContent.html){.nonexistent}, (\'Manager\',))
+  [AccessInactivePortalContent](./AccessInactivePortalContent.html) = \'Access inactive portal content\' setDefaultRoles([AccessInactivePortalContent](./AccessInactivePortalContent.html), (\'Manager\',))
 
-  [ModifyCookieCrumblers](./ModifyCookieCrumblers.html){.nonexistent} = \'Modify Cookie Crumblers\' setDefaultRoles([ModifyCookieCrumblers](./ModifyCookieCrumblers.html){.nonexistent}, (\'Manager\',))
+  [ModifyCookieCrumblers](./ModifyCookieCrumblers.html) = \'Modify Cookie Crumblers\' setDefaultRoles([ModifyCookieCrumblers](./ModifyCookieCrumblers.html), (\'Manager\',))
 
-  [ReplyToItem](./ReplyToItem.html){.nonexistent} = \'Reply to item\' setDefaultRoles([ReplyToItem](./ReplyToItem.html){.nonexistent}, (\'Manager\',)) \# + Member
+  [ReplyToItem](./ReplyToItem.html) = \'Reply to item\' setDefaultRoles([ReplyToItem](./ReplyToItem.html), (\'Manager\',)) \# + Member
 
-  [ManagePortal](./ManagePortal.html){.nonexistent} = \'Manage portal\' setDefaultRoles([ManagePortal](./ManagePortal.html){.nonexistent}, (\'Manager\',))
+  [ManagePortal](./ManagePortal.html) = \'Manage portal\' setDefaultRoles([ManagePortal](./ManagePortal.html), (\'Manager\',))
 
-  [ModifyPortalContent](./ModifyPortalContent.html){.nonexistent} = \'Modify portal content\' setDefaultRoles([ModifyPortalContent](./ModifyPortalContent.html){.nonexistent}, (\'Manager\',))
+  [ModifyPortalContent](./ModifyPortalContent.html) = \'Modify portal content\' setDefaultRoles([ModifyPortalContent](./ModifyPortalContent.html), (\'Manager\',))
 
-  [ManageProperties](./ManageProperties.html){.nonexistent} = \'Manage properties\' setDefaultRoles([ManageProperties](./ManageProperties.html){.nonexistent}, (\'Owner\',\'Manager\',))
+  [ManageProperties](./ManageProperties.html) = \'Manage properties\' setDefaultRoles([ManageProperties](./ManageProperties.html), (\'Owner\',\'Manager\',))
 
-  [ListPortalMembers](./ListPortalMembers.html){.nonexistent} = \'List portal members\' setDefaultRoles( [ListPortalMembers](./ListPortalMembers.html){.nonexistent}, (\'Manager\',) ) \# + Member
+  [ListPortalMembers](./ListPortalMembers.html) = \'List portal members\' setDefaultRoles( [ListPortalMembers](./ListPortalMembers.html), (\'Manager\',) ) \# + Member
 
-  [AddPortalFolders](./AddPortalFolders.html){.nonexistent} = \'Add portal folders\' setDefaultRoles([AddPortalFolders](./AddPortalFolders.html){.nonexistent}, (\'Owner\',\'Manager\')) \# + Member
+  [AddPortalFolders](./AddPortalFolders.html) = \'Add portal folders\' setDefaultRoles([AddPortalFolders](./AddPortalFolders.html), (\'Owner\',\'Manager\')) \# + Member
 
-  [AddPortalContent](./AddPortalContent.html){.nonexistent} = \'Add portal content\' setDefaultRoles([AddPortalContent](./AddPortalContent.html){.nonexistent}, (\'Owner\',\'Manager\',)) \# + Member
+  [AddPortalContent](./AddPortalContent.html) = \'Add portal content\' setDefaultRoles([AddPortalContent](./AddPortalContent.html), (\'Owner\',\'Manager\',)) \# + Member
 
-  [AddPortalMember](./AddPortalMember.html){.nonexistent} = \'Add portal member\' setDefaultRoles([AddPortalMember](./AddPortalMember.html){.nonexistent}, (\'Anonymous\', \'Manager\',))
+  [AddPortalMember](./AddPortalMember.html) = \'Add portal member\' setDefaultRoles([AddPortalMember](./AddPortalMember.html), (\'Anonymous\', \'Manager\',))
 
-  [SetOwnPassword](./SetOwnPassword.html){.nonexistent} = \'Set own password\' setDefaultRoles([SetOwnPassword](./SetOwnPassword.html){.nonexistent}, (\'Manager\',)) \# + Member
+  [SetOwnPassword](./SetOwnPassword.html) = \'Set own password\' setDefaultRoles([SetOwnPassword](./SetOwnPassword.html), (\'Manager\',)) \# + Member
 
-  [SetOwnProperties](./SetOwnProperties.html){.nonexistent} = \'Set own properties\' setDefaultRoles([SetOwnProperties](./SetOwnProperties.html){.nonexistent}, (\'Manager\',)) \# + Member
+  [SetOwnProperties](./SetOwnProperties.html) = \'Set own properties\' setDefaultRoles([SetOwnProperties](./SetOwnProperties.html), (\'Manager\',)) \# + Member
 
-  [MailForgottenPassword](./MailForgottenPassword.html){.nonexistent} = \'Mail forgotten password\' setDefaultRoles([MailForgottenPassword](./MailForgottenPassword.html){.nonexistent}, (\'Anonymous\', \'Manager\',)) \# Workflow Permissions
+  [MailForgottenPassword](./MailForgottenPassword.html) = \'Mail forgotten password\' setDefaultRoles([MailForgottenPassword](./MailForgottenPassword.html), (\'Anonymous\', \'Manager\',)) \# Workflow Permissions
 
-  [RequestReview](./RequestReview.html){.nonexistent} = \'Request review\' setDefaultRoles([RequestReview](./RequestReview.html){.nonexistent}, (\'Owner\', \'Manager\',))
+  [RequestReview](./RequestReview.html) = \'Request review\' setDefaultRoles([RequestReview](./RequestReview.html), (\'Owner\', \'Manager\',))
 
-  [ReviewPortalContent](./ReviewPortalContent.html){.nonexistent} = \'Review portal content\' setDefaultRoles([ReviewPortalContent](./ReviewPortalContent.html){.nonexistent}, (\'Manager\',)) \# + Reviewer
+  [ReviewPortalContent](./ReviewPortalContent.html) = \'Review portal content\' setDefaultRoles([ReviewPortalContent](./ReviewPortalContent.html), (\'Manager\',)) \# + Reviewer
 
-  [AccessFuturePortalContent](./AccessFuturePortalContent.html){.nonexistent} = \'Access future portal content\' setDefaultRoles([AccessFuturePortalContent](./AccessFuturePortalContent.html){.nonexistent}, (\'Manager\',)) \# + Reviewer
+  [AccessFuturePortalContent](./AccessFuturePortalContent.html) = \'Access future portal content\' setDefaultRoles([AccessFuturePortalContent](./AccessFuturePortalContent.html), (\'Manager\',)) \# + Reviewer
 
 Plone Site Permission encapsulation
 
@@ -118,7 +123,7 @@ Workflow
 
 - We need basic tests for workflows. This work has already started in the
 
-  [PloneSelenium](./PloneSelenium.html){.nonexistent} product. The idea is to add folders in the different workflow states and to verify whether users with certains roles should have access. The access to a folder can mean different things. The view changes in depending on the \"View\", \"Access Contents\", \"Modify portal contents\" and \"List folder contents\" permissions and possibly some others as well. This is all very important to have documented by some functional tests. The next part is the plone_workflow, where we have to create a content and make sure that actions and views on the content are respecting permissions. Workflow transitions in plone_workflow
+  [PloneSelenium](./PloneSelenium.html) product. The idea is to add folders in the different workflow states and to verify whether users with certains roles should have access. The access to a folder can mean different things. The view changes in depending on the \"View\", \"Access Contents\", \"Modify portal contents\" and \"List folder contents\" permissions and possibly some others as well. This is all very important to have documented by some functional tests. The next part is the plone_workflow, where we have to create a content and make sure that actions and views on the content are respecting permissions. Workflow transitions in plone_workflow
 
   - pending Waiting for reviewer
     - hide (Member makes content private) publish (Reviewer publishes content)
@@ -150,25 +155,25 @@ Workflow
 
   - View private folder View published folder View visible folder
 
-[RegistrationTool](./RegistrationTool.html){.nonexistent}
+[RegistrationTool](./RegistrationTool.html)
 
 - Anonymous joins
 
   -\> Look at CMFMember ftests
 
-[MembershipTool](./MembershipTool.html){.nonexistent}
+[MembershipTool](./MembershipTool.html)
 
 - Member logs in Member forgot his password Member logs out Member wants Plone to remember his name Member does not want Plone to remember his name
 
-[MemberDataTool](./MemberDataTool.html){.nonexistent}
+[MemberDataTool](./MemberDataTool.html)
 
 - Member edits Preferences Anonymous searches Members
 
-[SkinsTool](./SkinsTool.html){.nonexistent}
+[SkinsTool](./SkinsTool.html)
 
 - Anonymous access Change default skin Change REQUEST variable name Allow arbitrary skins to be selected Disallow arbitrary skins to be selected Activate Skin Cookie persistence Desactivate Skin Cookie persistence
 
-[CatalogTool](./CatalogTool.html){.nonexistent}
+[CatalogTool](./CatalogTool.html)
 
 - Anonymous searches
 
@@ -176,7 +181,6 @@ Configlets
 
 - Admin accesses configlet
 
-[QuickInstallerTool](./QuickInstallerTool.html){.nonexistent}
+[QuickInstallerTool](./QuickInstallerTool.html)
 
 - Admin installs a product Admin uninstalls a product
-:::

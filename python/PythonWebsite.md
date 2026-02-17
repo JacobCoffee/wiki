@@ -1,9 +1,14 @@
 # PythonWebsite
 
-::: {#content dir="ltr" lang="en"}
-Tracker and source code for [https://www.python.org/](https://www.python.org/){.https} website is located at [https://github.com/python/pythondotorg](https://github.com/python/pythondotorg){.https}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Information about old site hosted at [https://legacy.python.org/](https://legacy.python.org/){.https} is reachable from [LegacyPythonWebsite](LegacyPythonWebsite) page.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Tracker and source code for [https://www.python.org/](https://www.python.org/) website is located at [https://github.com/python/pythondotorg](https://github.com/python/pythondotorg)
+
+Information about old site hosted at [https://legacy.python.org/](https://legacy.python.org/) is reachable from [LegacyPythonWebsite](LegacyPythonWebsite) page.
 
 Other related pages from this Wiki:
 
@@ -14,4 +19,3 @@ Other related pages from this Wiki:
 - [PythonWebsite/Learning/Top](./PythonWebsite(2f)Learning(2f)Top.html)
 
 - [PythonWebsite/MiscSuggestions](./PythonWebsite(2f)MiscSuggestions.html)
-:::

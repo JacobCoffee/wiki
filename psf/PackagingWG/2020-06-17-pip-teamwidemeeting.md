@@ -1,6 +1,11 @@
 # PackagingWG/2020-06-17-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Teamwide meeting
 
 Wednesday, 17 June 2020
@@ -92,7 +97,7 @@ Agenda:
       - Is shaking things up or trying to establish some of these procedures worthy? Lead via UX research results.
 
       - Nicole: yeah, we want to formally establish \"there is no procedure right now, it is all ad hoc\" and then go from there. We had not seen any procedures at all.
-        - Paul: I\'ll confirm that\'s true ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"}
+        - Paul: I\'ll confirm that\'s true ![:-)](/wiki/europython/img/smile.png ":-)")
 
         - Pradyun: I\'ve just been nodding in agreement to the entire discussion.
 
@@ -100,7 +105,7 @@ Agenda:
 
       - Clarification: No Formal process, not documented anywhere. Who needs to be involved to make any given decision.
 
-      - [https://github.com/pypa/pypa.io/pull/54](https://github.com/pypa/pypa.io/pull/54){.https} \-- documentation of how Python Packaging Authority Membership is determined.
+      - [https://github.com/pypa/pypa.io/pull/54](https://github.com/pypa/pypa.io/pull/54) \-- documentation of how Python Packaging Authority Membership is determined.
 
         - Jo Freeman, Tyranny of Structurelessness
           - \[Sumana summarizes\]
@@ -124,7 +129,7 @@ Agenda:
 
           - Nicole: maybe name it something other than a contrib guide
 
-          - Pradyun: I think \"contributing\" fits \-- [https://pip.pypa.io/en/stable/development/contributing/](https://pip.pypa.io/en/stable/development/contributing/){.https} \-- it\'s what the page is currently called. We might want to rewrite/add to that. (maybe, just an idea)
+          - Pradyun: I think \"contributing\" fits \-- [https://pip.pypa.io/en/stable/development/contributing/](https://pip.pypa.io/en/stable/development/contributing/) \-- it\'s what the page is currently called. We might want to rewrite/add to that. (maybe, just an idea)
 
     - Foundational User + Context Research 
       - Understanding more about who pip\'s users are (Personas, Contexts they use pip in, Mental Model --- basic info that can evergreen inform pip development). 
@@ -182,7 +187,7 @@ Agenda:
 
           - Paul doesn\'t know of any tool that does this\.....
 
-          - example: [https://gist.github.com/nlhkabu/a73a9a96fe292319919646ac62dbd56a](https://gist.github.com/nlhkabu/a73a9a96fe292319919646ac62dbd56a){.https} - is something like this possible?
+          - example: [https://gist.github.com/nlhkabu/a73a9a96fe292319919646ac62dbd56a](https://gist.github.com/nlhkabu/a73a9a96fe292319919646ac62dbd56a) - is something like this possible?
 
             - Paul: Possible, but I\'m not sure if resolvelib offers this level of information.
 
@@ -194,5 +199,4 @@ Pradyun: One thing I think, that might be missing: pip check / pip list / pip fr
 
 - Bernard: will add this to potential backlog
 
-- sounds fine to me. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
-:::
+- sounds fine to me. ![:)](/wiki/europython/img/smile.png ":)")

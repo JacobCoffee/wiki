@@ -1,19 +1,24 @@
 # WikiKurs
 
-::: {#content dir="ltr" lang="de"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
   ------------------------------------------------------------------------------------------------------------------------------------------
   [Slideshow](./WikiKurs.html?action=print&media=projection)   [Start](./WikiKurs(2f)01(20)Was(20)ist(20)ein(20)MoinMoin(2d)Wiki(3f).html)
   ------------------------------------------------------------------------------------------------------------------------------------------
 
-# MoinMoin-Wiki - eine Einführung {#MoinMoin-Wiki_-_eine_Einf.2BAPw-hrung}
+# MoinMoin-Wiki - eine Einführung 
 
 Dieser Wiki-Vortrag richtet sich an Wiki-Einsteiger und soll Ihnen die ersten Schritte erleichtern.
 
 Er wird von der [MoinMoin](MoinMoin)-Community entwickelt und zur freien Verfügung unter GPL-Lizenz veröffentlicht.
 
-![(!)](/wiki/modernized/img/idea.png "(!)"){height="16" width="16"} Änderungen / Updates / Korrekturen bitte direkt auf dem [MoinMaster Wiki](http://master.moinmo.in/ "MoinMaster"){.interwiki} einpflegen.
+![(!)](/wiki/modernized/img/idea.png "(!)") Änderungen / Updates / Korrekturen bitte direkt auf dem [MoinMaster Wiki](http://master.moinmo.in/ "MoinMaster") einpflegen.
 
-## Inhalt {#Inhalt}
+## Inhalt 
 
 - [/01 Was ist ein MoinMoin-Wiki?](./WikiKurs(2f)01(20)Was(20)ist(20)ein(20)MoinMoin(2d)Wiki(3f).html)
 
@@ -72,4 +77,3 @@ Er wird von der [MoinMoin](MoinMoin)-Community entwickelt und zur freien Verfüg
 <!-- -->
 
 - [../WikiKursHandOut](WikiKursHandOut)
-:::

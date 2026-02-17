@@ -6,8 +6,6 @@
 AttributeLookupMethods
 EclipseNotes
 EclipseSubclipse
-HowToMakeARelease
-HowToReleaseJython
 ImplementingStrAndRepr
 IntellijNotes
 IntellijTricks
@@ -16,6 +14,4 @@ PleaseAdoptMe
 PortingPythonModulesToJython
 RegressionTestNotes
 UsingPyNewStringFromPythonCode
-VersionTransitionTestExclusions
-WebsiteBuilderSetup
 ```

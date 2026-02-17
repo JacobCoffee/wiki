@@ -1,7 +1,12 @@
 # Asking for Help/How to use Reg. Exp. to capture data from random text
 
-:::: {#content dir="ltr" lang="en"}
-# Asking for Help: How to use reg. exp. to capture defined values from random text {#Asking_for_Help:_How_to_use_reg._exp._to_capture_defined_values_from_random_text}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: How to use reg. exp. to capture defined values from random text 
 
 \...
 
@@ -19,7 +24,7 @@ To clarify, I know the NAME of the value, I know the marker, I want to grab the 
 
 Thanks much for your help.
 
-- \- Dave Ferreira ([davefer_work@hotmail.com](mailto:davefer_work@hotmail.com){.mailto})
+- \- Dave Ferreira ([davefer_work@hotmail.com](mailto:davefer_work@hotmail.com))
 
 ::: note
 When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](./Asking(20)for(20)Help.html) page.
@@ -28,4 +33,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp)
-::::

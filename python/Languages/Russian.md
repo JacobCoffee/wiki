@@ -1,79 +1,83 @@
 # Languages/Russian
 
-::: {#content dir="ltr" lang="ru"}
-# Russian {#Russian}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Active {#Active}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-### Sites {#Sites}
+# Russian 
 
-- [Russian Python & Zope User Group (ZoPyRus)](http://zope.net.ru/){.http}
+## Active 
 
-- [Python programming](http://www.python.su/){.http}
+### Sites 
 
-- [OpenNet links for Python](http://www.opennet.ru/links/sml/83.shtml){.http}
+- [Russian Python & Zope User Group (ZoPyRus)](http://zope.net.ru/)
 
-- [Python tutorial at OpenNet](http://www.opennet.ru/docs/RUS/python/){.http}
+- [Python programming](http://www.python.su/)
 
-- [Python learning course](http://www.intuit.ru/department/pl/python/){.http}
+- [OpenNet links for Python](http://www.opennet.ru/links/sml/83.shtml)
 
-### Wikis {#Wikis}
+- [Python tutorial at OpenNet](http://www.opennet.ru/docs/RUS/python/)
 
-- [Python Wiki Russian version](http://ru.pywiki.com){.http}
+- [Python learning course](http://www.intuit.ru/department/pl/python/)
 
-- [Python section at OmskLUG wiki](http://omsk.lug.ru/wacko/Python){.http}
+### Wikis 
 
-- [Python-related articles at KirovLUG wiki](http://google.ru/search?q=python&btnG=Google&domains=kirov.lug.ru&sitesearch=&sitesearch=kirov.lug.ru){.http}
+- [Python Wiki Russian version](http://ru.pywiki.com)
 
-- [Russian Python page at Wikipedia](http://ru.wikipedia.org/wiki/Python){.http}
+- [Python section at OmskLUG wiki](http://omsk.lug.ru/wacko/Python)
 
-### Forums {#Forums}
+- [Python-related articles at KirovLUG wiki](http://google.ru/search?q=python&btnG=Google&domains=kirov.lug.ru&sitesearch=&sitesearch=kirov.lug.ru)
 
-- [Python.su Forum](http://python.su/forum/){.http}
+- [Russian Python page at Wikipedia](http://ru.wikipedia.org/wiki/Python)
 
-- [Russian Python & Zope User Group (ZoPyRus)](http://zope.net.ru/){.http}
+### Forums 
 
-- [Python manifold at Anabar](http://www.anabar.ru/forumz/anafo.py?forumid=4){.http}
+- [Python.su Forum](http://python.su/forum/)
 
-- [Python subforum at Vingrad](http://forum.vingrad.ru/index.php?showforum=116){.http}
+- [Russian Python & Zope User Group (ZoPyRus)](http://zope.net.ru/)
 
-- [Promsoft\'s Python forum](http://www.python.promsoft.ru/index.php){.http}
+- [Python manifold at Anabar](http://www.anabar.ru/forumz/anafo.py?forumid=4)
 
-- [Ru-Board big Python-related topic](http://forum.ru-board.com/topic.cgi?forum=31&topic=1537){.http}
+- [Python subforum at Vingrad](http://forum.vingrad.ru/index.php?showforum=116)
 
-### Blogs {#Blogs}
+- [Promsoft\'s Python forum](http://www.python.promsoft.ru/index.php)
 
-- [\"SoftwareManiacs \" by Ivan Sagalaev](http://softwaremaniacs.org/blog/category/python/){.http}
+- [Ru-Board big Python-related topic](http://forum.ru-board.com/topic.cgi?forum=31&topic=1537)
 
-- [\"\~o\~\" by Slav0nic](http://slav0nic.org.ua/tag/python){.http}
+### Blogs 
 
-- [\"Pythy\" by Yury Yurevich](http://pyobject.ru/blog/tag/python/){.http}
+- [\"SoftwareManiacs \" by Ivan Sagalaev](http://softwaremaniacs.org/blog/category/python/)
 
-- [The rag bag of Maksim Derkachev](http://ragbag.ru){.http}
+- [\"\~o\~\" by Slav0nic](http://slav0nic.org.ua/tag/python)
 
-- [Python-related blog by PythonINI](http://pythonini.livejournal.com/){.http}
+- [\"Pythy\" by Yury Yurevich](http://pyobject.ru/blog/tag/python/)
 
-- [Python-russian LiveJournal community](http://community.livejournal.com/ru_python/){.http}
+- [The rag bag of Maksim Derkachev](http://ragbag.ru)
 
-## Obsolete {#Obsolete}
+- [Python-related blog by PythonINI](http://pythonini.livejournal.com/)
 
-- [Python programming language](http://www.python.ru){.http}
+- [Python-russian LiveJournal community](http://community.livejournal.com/ru_python/)
 
-- [Python section at i2r.ru](http://www.i2r.ru/static/536/){.http}
+## Obsolete 
 
-- [Python-related articles at iso.ru](http://www.iso.ru/journal/articles/themes/4){.http}
+- [Python programming language](http://www.python.ru)
 
-- [Python book at it-arts](http://pythonbook.it-arts.ru/){.http}
+- [Python section at i2r.ru](http://www.i2r.ru/static/536/)
 
-- [General Python information in the Russian language](http://chatXXX.ru/~pythonrus){.http} provided by Zaur Shibzoukhov.
+- [Python-related articles at iso.ru](http://www.iso.ru/journal/articles/themes/4)
 
-- [A Russian translation of the Python Tutorial](http://sultan.daXXX.ru){.http} by Sultanbek Tezadov. Here is an [an alternate location](http://www.fortunecity.com/skyscraper/motorola/668){.http} for the translation.
+- [Python book at it-arts](http://pythonbook.it-arts.ru/)
 
-- Sultanbek Tezadov has also made [translations of the Python essays to Russian](http://www.fortunecity.com/skyscraper/motorola/668/rus/python/essind.html){.http} available.
+- [General Python information in the Russian language](http://chatXXX.ru/~pythonrus) provided by Zaur Shibzoukhov.
 
-- [Python Learning Complex](http://Desk.nl/~vadim/python/){.http} is Vadim Zaitsev\'s thesis paper.
+- [A Russian translation of the Python Tutorial](http://sultan.daXXX.ru) by Sultanbek Tezadov. Here is an [an alternate location](http://www.fortunecity.com/skyscraper/motorola/668) for the translation.
+
+- Sultanbek Tezadov has also made [translations of the Python essays to Russian](http://www.fortunecity.com/skyscraper/motorola/668/rus/python/essind.html) available.
+
+- [Python Learning Complex](http://Desk.nl/~vadim/python/) is Vadim Zaitsev\'s thesis paper.
 
 ------------------------------------------------------------------------
 
 [CategoryLanguage](CategoryLanguage)
-:::

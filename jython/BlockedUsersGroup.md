@@ -1,15 +1,20 @@
 # BlockedUsersGroup
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 - upvcwindows
 
 - becausepoor162654
 
 - results162654
 
-- [YouHang33](./YouHang33.html){.nonexistent}
+- [YouHang33](./YouHang33.html)
 
-- [MarkZhou](./MarkZhou.html){.nonexistent}
+- [MarkZhou](./MarkZhou.html)
 
 - use123
 
@@ -21,35 +26,35 @@
 
 - Alton0710
 
-- [SophieLan](./SophieLan.html){.nonexistent}
+- [SophieLan](./SophieLan.html)
 
-- [RonnieBiv](./RonnieBiv.html){.nonexistent}
+- [RonnieBiv](./RonnieBiv.html)
 
-- [RaphaelJu](./RaphaelJu.html){.nonexistent}
+- [RaphaelJu](./RaphaelJu.html)
 
 - VaughnUTJ
 
-- [AgustinBr](./AgustinBr.html){.nonexistent}
+- [AgustinBr](./AgustinBr.html)
 
-- [BlytheBor](./BlytheBor.html){.nonexistent}
+- [BlytheBor](./BlytheBor.html)
 
-- [JanessaAl](./JanessaAl.html){.nonexistent}
+- [JanessaAl](./JanessaAl.html)
 
-- [TriciaSti](./TriciaSti.html){.nonexistent}
+- [TriciaSti](./TriciaSti.html)
 
-- [AshleeMuh](./AshleeMuh.html){.nonexistent}
+- [AshleeMuh](./AshleeMuh.html)
 
 - Lawerence
 
-- [RaphaelJu](./RaphaelJu.html){.nonexistent}
+- [RaphaelJu](./RaphaelJu.html)
 
 - LuciaYSK
 
-- [AshelyDil](./AshelyDil.html){.nonexistent}
+- [AshelyDil](./AshelyDil.html)
 
 - SAZMathia
 
-- [ElenaGrah](./ElenaGrah.html){.nonexistent}
+- [ElenaGrah](./ElenaGrah.html)
 
 - AdrienneZ
 
@@ -59,25 +64,25 @@
 
 - CarolineB
 
-- [MireyaShe](./MireyaShe.html){.nonexistent}
+- [MireyaShe](./MireyaShe.html)
 
-- [FionaFlah](./FionaFlah.html){.nonexistent}
+- [FionaFlah](./FionaFlah.html)
 
 - ShawnZUI
 
-- [ShellyAdl](./ShellyAdl.html){.nonexistent}
+- [ShellyAdl](./ShellyAdl.html)
 
-- [RonnieTac](./RonnieTac.html){.nonexistent}
+- [RonnieTac](./RonnieTac.html)
 
-- [SteveHenl](./SteveHenl.html){.nonexistent}
+- [SteveHenl](./SteveHenl.html)
 
 - Lanora204
 
-- [BessieArn](./BessieArn.html){.nonexistent}
+- [BessieArn](./BessieArn.html)
 
-- [LoganHoll](./LoganHoll.html){.nonexistent}
+- [LoganHoll](./LoganHoll.html)
 
-- [WilliamBu](./WilliamBu.html){.nonexistent}
+- [WilliamBu](./WilliamBu.html)
 
 - NYJMarkus
 
@@ -87,21 +92,21 @@
 
 - Francine5
 
-- [OdessaGor](./OdessaGor.html){.nonexistent}
+- [OdessaGor](./OdessaGor.html)
 
-- [JoanneFbb](./JoanneFbb.html){.nonexistent}
+- [JoanneFbb](./JoanneFbb.html)
 
-- [CharlaSla](./CharlaSla.html){.nonexistent}
+- [CharlaSla](./CharlaSla.html)
 
-- [WandaAppe](./WandaAppe.html){.nonexistent}
+- [WandaAppe](./WandaAppe.html)
 
-- [JodySeymo](./JodySeymo.html){.nonexistent}
+- [JodySeymo](./JodySeymo.html)
 
-- [RoxanneMa](./RoxanneMa.html){.nonexistent}
+- [RoxanneMa](./RoxanneMa.html)
 
-- [DulcieHat](./DulcieHat.html){.nonexistent}
+- [DulcieHat](./DulcieHat.html)
 
-- [AlbertoCo](./AlbertoCo.html){.nonexistent}
+- [AlbertoCo](./AlbertoCo.html)
 
 - PhillippP
 
@@ -109,21 +114,21 @@
 
 - Teresa05K
 
-- [DianeSava](./DianeSava.html){.nonexistent}
+- [DianeSava](./DianeSava.html)
 
 - GKQLouise
 
 - Xavier69X
 
-- [MiguelFog](./MiguelFog.html){.nonexistent}
+- [MiguelFog](./MiguelFog.html)
 
-- [HugoGuay](./HugoGuay.html){.nonexistent}
+- [HugoGuay](./HugoGuay.html)
 
-- [RobinJoyn](./RobinJoyn.html){.nonexistent}
+- [RobinJoyn](./RobinJoyn.html)
 
-- [NormaBord](./NormaBord.html){.nonexistent}
+- [NormaBord](./NormaBord.html)
 
-- [VincentAm](./VincentAm.html){.nonexistent}
+- [VincentAm](./VincentAm.html)
 
 - YIDBlythe
 
@@ -131,15 +136,15 @@
 
 - IPZJavier
 
-- [SamSchrei](./SamSchrei.html){.nonexistent}
+- [SamSchrei](./SamSchrei.html)
 
 - Kermit41O
 
-- [UtaCallah](./UtaCallah.html){.nonexistent}
+- [UtaCallah](./UtaCallah.html)
 
-- [LeonieFor](./LeonieFor.html){.nonexistent}
+- [LeonieFor](./LeonieFor.html)
 
-- [AmieCruz](./AmieCruz.html){.nonexistent}
+- [AmieCruz](./AmieCruz.html)
 
 - TKane
 
@@ -150,4 +155,3 @@
 - RBanuelos
 
 - RShields
-:::

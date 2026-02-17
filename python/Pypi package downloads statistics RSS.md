@@ -1,17 +1,22 @@
 # Pypi package downloads statistics RSS
 
-::: {#content dir="ltr" lang="en"}
-Download statistics for package registered on Pypi can be obtained, in RSS format, by subscribing your favorite RSS reader (e.g. [GoogleReader](./GoogleReader.html){.nonexistent}) with the following:
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Download statistics for package registered on Pypi can be obtained, in RSS format, by subscribing your favorite RSS reader (e.g. [GoogleReader](./GoogleReader.html)) with the following:
 
      http://www.jldupont.com/services/pypirss/rss/$package_name
 
 **Example**
 
-\[[http://www.jldupont.com/services/pypirss/rss/pypp](http://www.jldupont.com/services/pypirss/rss/pypp){.http}\]
+\[[http://www.jldupont.com/services/pypirss/rss/pypp](http://www.jldupont.com/services/pypirss/rss/pypp)\]
 
 ------------------------------------------------------------------------
 
-Q: I tried [http://www.jldupont.com/services/pypirss/rss/lockfile](http://www.jldupont.com/services/pypirss/rss/lockfile){.http} but got an error. Does something need to be set up for each package?
+Q: I tried [http://www.jldupont.com/services/pypirss/rss/lockfile](http://www.jldupont.com/services/pypirss/rss/lockfile) but got an error. Does something need to be set up for each package?
 
 A: There is no downloads available for this package, hence no statistics on downloads.
 
@@ -19,13 +24,13 @@ A: There is no downloads available for this package, hence no statistics on down
 
 Q: You mean no downloads since you implemented this feature, or no downloads at all?
 
-A: Sorry for the confusion: the XMLRPC interface to Pypi returns that an error code to the effect that no \'package_data\' is available. If I look at the page on Pypi \[[http://pypi.python.org/pypi/lockfile](http://pypi.python.org/pypi/lockfile){.http}\], I don\'t see one either i.e. a download URL is made available BUT there are no \"uploaded files\" to Pypi.
+A: Sorry for the confusion: the XMLRPC interface to Pypi returns that an error code to the effect that no \'package_data\' is available. If I look at the page on Pypi \[[http://pypi.python.org/pypi/lockfile](http://pypi.python.org/pypi/lockfile)\], I don\'t see one either i.e. a download URL is made available BUT there are no \"uploaded files\" to Pypi.
 
 Q. Interesting. People tell me they use lockfile, and it actually has a score listed when you search PyPI for \"lockfile\". Collecting download stats must be a relatively recent phenomenon.
 
 ------------------------------------------------------------------------
 
-\[[http://wiki.python.org/moin/PyPiXmlRpc](http://wiki.python.org/moin/PyPiXmlRpc){.http} Pypi XMLRPC\]. I must say that the XMLRPC interface could be augmented to make it easier to derive per-package-version statistics.
+\[[http://wiki.python.org/moin/PyPiXmlRpc](http://wiki.python.org/moin/PyPiXmlRpc) Pypi XMLRPC\]. I must say that the XMLRPC interface could be augmented to make it easier to derive per-package-version statistics.
 
 Thanks. Got it now:
 
@@ -47,4 +52,3 @@ Thanks. Got it now:
 Kind of a weird download distribution, but it explains things (I think). Delete all this stuff when you tire of seeing it\... \-- Skip
 
 I forget to mention that the service only fetches the stat for the latest package release on record. \-- jld.
-:::

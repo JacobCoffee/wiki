@@ -1,15 +1,20 @@
 # Distutils/Metadata
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page describes the work done in order to change the Distutils Metadata.
 
 PEP References :
 
-- [PEP 241](http://www.python.org/dev/peps/pep-0241/){.http} Metadata 1.0 for Python Software Packages
+- [PEP 241](http://www.python.org/dev/peps/pep-0241/) Metadata 1.0 for Python Software Packages
 
-- [PEP 314](http://www.python.org/dev/peps/pep-0376/){.http} Metadata 1.1 for Python Software Packages
+- [PEP 314](http://www.python.org/dev/peps/pep-0376/) Metadata 1.1 for Python Software Packages
 
-- [PEP 345](http://www.python.org/dev/peps/pep-0345/){.http} Draft Metadata 1.2 for Python Software Packages
+- [PEP 345](http://www.python.org/dev/peps/pep-0345/) Draft Metadata 1.2 for Python Software Packages
 
 We are working on a new version for PEP 345. Jim started a branch (jim-update-345)
 
@@ -21,9 +26,9 @@ what has been said:
 - list all the arguments that are passed to vairous commands through setup.py that should land into the new metadata description
 - see if we want to have a new \"python version\" metadata (it\'s a trove classifier right now)
 
-## David Lyon\'s comments {#David_Lyon.27s_comments}
+## David Lyon\'s comments 
 
-Package [MetaData](./MetaData.html){.nonexistent} needs to include:
+Package [MetaData](./MetaData.html) needs to include:
 
 - the documentation file ie index.html / readme.txt etc\...
 
@@ -51,7 +56,7 @@ By making this information available in the metadata, it provides for a cross pl
 
 A Package Manager program could conceivably make this information readily available to the user. Alternatively, in the most conservative case, IDLE, [PythonWin](PythonWin), Eclipse would be able to utilise this information and render it to the python user.
 
-## Jim Fulton\'s comments {#Jim_Fulton.27s_comments}
+## Jim Fulton\'s comments 
 
 Having looked at this and spoken to folks over the last few days I have a numbner of observations:
 
@@ -66,7 +71,7 @@ Having looked at this and spoken to folks over the last few days I have a numbne
   - extra down-stream meta data
   - entry points
 
-## Tres Seaver\'s comments {#Tres_Seaver.27s_comments}
+## Tres Seaver\'s comments 
 
 After working with Matthias Klose, I honestly cannot see any reason not to just appropriate the \'Requires:\', \'Obsoletes:\', and \'Provides:\' fields already implemented in PEP 314. There are no other \*real\* semantics for those fields besides the ones we want.
 
@@ -75,7 +80,7 @@ Note that we need to keep the \'PKG-INFO\' fieldnames / semantics distinct from 
 My proposal:
 
 - Get the list of existing packages on PyPI which spell \'Requires:\', \'Provides:\', and \'Obsoletes:\', and look at the values which are present. See Martin v. Loewis\'s stats here:
-  - [http://mail.python.org/pipermail/python-dev/2009-March/087885.html](http://mail.python.org/pipermail/python-dev/2009-March/087885.html){.http}
+  - [http://mail.python.org/pipermail/python-dev/2009-March/087885.html](http://mail.python.org/pipermail/python-dev/2009-March/087885.html)
 
 - Update the not-yet-released PEP 345, documenting the desired semantics for the \'Requires:\', \'Provides:\', and \'Obsoletes:\' fields. In particular, note that the names in these fields are preferentially distutils projects, rather than package / module names. Document the semantics of the version strings according to the consensus proposal
 
@@ -86,4 +91,3 @@ My proposal:
 - Update setuptools such that its \'install_requires\' arguments get passed through to the \'distutils.core.Distribution\' constructor as \'requires\'.
 
 - Update setuptools to do \"soft\" requirements on names found in PKG-INFO\'s \'Requires:\': if no distribution matches the project name, then fall back to assuming that it refers to a package / module.
-:::

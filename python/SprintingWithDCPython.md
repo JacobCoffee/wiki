@@ -1,6 +1,11 @@
 # SprintingWithDCPython
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Sprinting with the DCPython Meetup Group
 
 With the first DCPython Meetup \"Beginners\" sprint coming up, there are a lot of people interested in joining in and sprinting for the first time. Some folks are new to sprinting, some are new to open development practices, and some are new to Python.
@@ -11,7 +16,7 @@ There are a few things that are worth doing ahead of time:
 
     Work is always needed on the Python language core and standard library, but you\'re not restricted to that. Many people are interested in the libraries they use on a daily basis, with perhaps the most common ground to be found in the web frameworks.
 
-    Tell your fellow sprinters what you want to work on using the [planning page](DCPythonNov2010Sprint){.reference .external} for the sprint you\'ll be attending.
+    Tell your fellow sprinters what you want to work on using the [planning page](DCPythonNov2010Sprint) for the sprint you\'ll be attending.
 
 2.  Know what tools you need.
 
@@ -53,6 +58,5 @@ There are a few things that are worth doing ahead of time:
 
 See also:
 
-- [An Introduction to Sprinting](SprintIntroduction){.reference .external} (includes good links)
-- [Python Sprints](http://pythonsprints.com/){.http .reference .external} (PSF blog)
-:::
+- [An Introduction to Sprinting](SprintIntroduction) (includes good links)
+- [Python Sprints](http://pythonsprints.com/) (PSF blog)

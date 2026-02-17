@@ -1,15 +1,20 @@
 # PortingDjangoTo3k
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 I started porting Django to Python 3 at [PyCon2008](PyCon2008). The current patch allows me to get through the tutorial, but there are certainly large parts of the code base that I haven\'t touched, so more issues are likely to show up.
 
-The current version of the patch is available on [http://bitbucket.org/loewis/django-3k/](http://bitbucket.org/loewis/django-3k/){.http}
+The current version of the patch is available on [http://bitbucket.org/loewis/django-3k/](http://bitbucket.org/loewis/django-3k/)
 
-Note: an update of the port, which features a single codebase for 2.x and 3.x, and which passes the regression tests on Python 2.5, 2.6, 2.7 and 3.2, is available at [https://bitbucket.org/vinay.sajip/django/](https://bitbucket.org/vinay.sajip/django/){.https} (default branch).
+Note: an update of the port, which features a single codebase for 2.x and 3.x, and which passes the regression tests on Python 2.5, 2.6, 2.7 and 3.2, is available at [https://bitbucket.org/vinay.sajip/django/](https://bitbucket.org/vinay.sajip/django/) (default branch).
 
 For general tips on porting to Python 3, see [PortingPythonToPy3k](PortingPythonToPy3k) (ideally, much of the non-Django-specific information from the porting Django page should be included on the general porting page).
 
-# Porting Strategy {#Porting_Strategy}
+# Porting Strategy 
 
 This port attempts to maintain compatibility with older Python versions from a single code base; the goal is to support all versions that Django supports, plus 3.1.
 
@@ -19,11 +24,11 @@ This approach mostly works, and has the following flaws:
 
 - conversion is rather slow (takes 6min on my machine)
 
-# Changes {#Changes}
+# Changes 
 
 The changes can be roughly grouped into the following categories
 
-## Naming Changes {#Naming_Changes}
+## Naming Changes 
 
 A number of modules that django uses have been removed, or renamed:
 
@@ -39,7 +44,7 @@ In addition, a few functions and attributes got renamed:
 
 - to test whether something is a function, don\'t look at `func_code`{.backtick} anymore; use `__code__`{.backtick} instead.
 
-## Bytes vs. Strings {#Bytes_vs._Strings}
+## Bytes vs. Strings 
 
 Python 3 separates byte strings and character strings clearly, and defines that string literals are character strings, unless prefixed as bytes. Character strings are always represented as sequence of Unicode characters.
 
@@ -72,27 +77,27 @@ To fix these problems, I made the following changes:
 
 - urllib.quote currently doesn\'t work on bytes; I think it should. To work around, I convert the argument into a Unicode string.
 
-## New-style classes {#New-style_classes}
+## New-style classes 
 
-- Django uses types.[ClassType](./ClassType.html){.nonexistent} to create new classes at run-time. Change that to use type in 3.x, through a test for sys.version_info.
+- Django uses types.[ClassType](./ClassType.html) to create new classes at run-time. Change that to use type in 3.x, through a test for sys.version_info.
 
-- Django defines a [metaclass]{.u} [ModelBase](./ModelBase.html){.nonexistent}, and uses it in Model. As the syntax for metaclass declarations has changed, I needed to change the code; this should be done by 2to3, though (#2366)
+- Django defines a [metaclass] [ModelBase](./ModelBase.html), and uses it in Model. As the syntax for metaclass declarations has changed, I needed to change the code; this should be done by 2to3, though (#2366)
 
 - Django relies on clearing the dictionary of the class called Meta in a Model. This a) doesn\'t work anymore, as the dictionary proxy is immutable,
 
   and b) leaves over a number of attributes in the class that are new in 3.x (`__weakref__`{.backtick} and `__dict__`{.backtick}). I copy the dict, then clear it. I don\'t understand why it is important to clear the dict, other than checking that all attributes have been processed completely, so I hope this change is correct.
 
-- [cmp]{.u} cannot be used anymore for comparison; classes need to implement [lt]{.u}, etc.
+- [cmp] cannot be used anymore for comparison; classes need to implement [lt], etc.
 
-## Other changes {#Other_changes}
+## Other changes 
 
 - the hex codec does not exist anymore, use binhex.unhexlify
 
 - list.sort doesn\'t support the sort function anymore. In the specific case, rewriting it to use a key= function was straight-forward.
 
-- In [AdminLogNode](./AdminLogNode.html){.nonexistent}, limit shows up as a string, not as an int, and slice() will complain. I\'m not sure why that works in 2.x.
+- In [AdminLogNode](./AdminLogNode.html), limit shows up as a string, not as an int, and slice() will complain. I\'m not sure why that works in 2.x.
 
-# Open Issues {#Open_Issues}
+# Open Issues 
 
 - I have worked with sqlite3 and psycopg2 only; all the other databases have not been tested.
 
@@ -102,7 +107,6 @@ To fix these problems, I made the following changes:
 
 - \... (many more things; this just barely works)
 
-#### Tags {#Tags}
+#### Tags 
 
 Python 3k. Python 3.0. Python 3000. Py3K. Django.
-:::

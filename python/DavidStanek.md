@@ -1,12 +1,17 @@
 # DavidStanek
 
-:::: {#content dir="ltr" lang="en"}
-## David Stanek {#David_Stanek}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## David Stanek 
 
 ::: {}
   ------- -------------------------------------------------------------
-  Email   [dstanek@dstanek.com](mailto:dstanek@dstanek.com){.mailto}
-  Blog    [http://www.traceback.org](http://www.traceback.org){.http}
+  Email   [dstanek@dstanek.com](mailto:dstanek@dstanek.com)
+  Blog    [http://www.traceback.org](http://www.traceback.org)
   ------- -------------------------------------------------------------
 :::
 
@@ -14,7 +19,7 @@
 
 - I have been using Python since early 2001
 
-- I am employeed at [AmericanGreetings.com](http://www.ag.com){.http}
+- I am employeed at [AmericanGreetings.com](http://www.ag.com)
 
 - I was inspired at [PyCon](PyCon) to become more active in the community
 
@@ -25,4 +30,3 @@ Feel free to comment below\...
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-::::

@@ -1,7 +1,12 @@
 # DimitriosKiousis
 
-::: {#content dir="ltr" lang="en"}
-## Dimitrios Kiousis {#Dimitrios_Kiousis}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Dimitrios Kiousis 
 
 Email: `<DimitriosKiousis AT SPAMFREE python DOT com>`
 
@@ -10,4 +15,3 @@ Email: `<DimitriosKiousis AT SPAMFREE python DOT com>`
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

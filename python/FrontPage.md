@@ -1,11 +1,16 @@
 # FrontPage
 
-::::::: {#content dir="ltr" lang="en"}
-# The Python Wiki {#The_Python_Wiki}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# The Python Wiki 
 
 Welcome to the Python Wiki, a user-editable compendium of knowledge based around the Python programming language. Some pages are protected against casual editing - see [WikiEditingGuidelines](WikiEditingGuidelines) for more information about editing content.
 
-[Python](https://web.archive.orghttps://www.python.org/){.http} is a great object-oriented, interpreted, and interactive programming language. It is often [compared](LanguageComparisons) (favorably of course ![:-)](https://wiki.python.org/python/europython/img/smile.png ":-)"){height="16" width="16"} ) to Lisp, Tcl, Perl, Ruby, C#, Visual Basic, Visual Fox Pro, Scheme or Java\... and it\'s much more fun.
+[Python](https://web.archive.orghttps://www.python.org/) is a great object-oriented, interpreted, and interactive programming language. It is often [compared](LanguageComparisons) (favorably of course ![:-)](https://wiki.python.org/python/europython/img/smile.png ":-)") ) to Lisp, Tcl, Perl, Ruby, C#, Visual Basic, Visual Fox Pro, Scheme or Java\... and it\'s much more fun.
 
 Python combines remarkable power with very clear syntax. It has modules, classes, exceptions, very high level dynamic data types, and dynamic typing. There are interfaces to many system calls and libraries, as well as to [various windowing systems](/python/GUI%20Programming%20in%20Python.html). New built-in modules are easily written in C or C++ (or other languages, depending on the chosen [implementation](PythonImplementations)). Python is also usable as an extension language for [applications written in other languages](AppsWithPythonScripting) that need easy-to-use scripting or automation interfaces.
 
@@ -15,7 +20,7 @@ Python combines remarkable power with very clear syntax. It has modules, classes
   ------------------------------------------------- ------------------------------------------------------- --------------------------------------------- ------------------------------------------------ ----------------------------------------------------------
 :::
 
-## Getting Started {#Getting_Started}
+## Getting Started 
 
 ::: {}
 +---------------------------------------------------------------------+-----------------------------------------------------------------+
@@ -41,7 +46,7 @@ Python combines remarkable power with very clear syntax. It has modules, classes
 +---------------------------------------------------------------------------------------------------------------------------------------+
 :::
 
-## Events, Courses, Conferences, Community {#Events.2C_Courses.2C_Conferences.2C_Community}
+## Events, Courses, Conferences, Community 
 
 - [Python Discussion Forums](PythonDiscussions) - if you want to meet people online, ask questions or discuss new ideas
 
@@ -61,7 +66,7 @@ Python combines remarkable power with very clear syntax. It has modules, classes
 
 - [Find a job where you can use Python](PythonJobs) - Python job boards around the world
 
-## Python Software {#Python_Software}
+## Python Software 
 
 ::: {}
   ------------------------------------------------------------------------------------------------------ -------------------------------------------------------------------
@@ -75,7 +80,7 @@ Python combines remarkable power with very clear syntax. It has modules, classes
   ------------------------------------------------------------------------------------------------------ -------------------------------------------------------------------
 :::
 
-## Python Core Development Tools {#Python_Core_Development_Tools}
+## Python Core Development Tools 
 
 ::: {}
   --------------------------------------------------- ------------------------------------------------------------------
@@ -86,4 +91,3 @@ Python combines remarkable power with very clear syntax. It has modules, classes
   The infrastructure behind Python package hosting    A list of all development process-related resources on this Wiki
   --------------------------------------------------- ------------------------------------------------------------------
 :::
-:::::::

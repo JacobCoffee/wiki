@@ -1,9 +1,14 @@
 # boost.python/object
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The library provides a class called **object**, which encapsulates a valid Python object and provides a similar interface to Python\'s.
 
-##### object operators {#object_operators}
+##### object operators 
 
 The first challenge was to provide support for object manipulations using a Python-like syntax, mostly in the form of operator overloads:
 
@@ -24,13 +29,12 @@ The first challenge was to provide support for object manipulations using a Pyth
   --------------- --------------------------
 :::
 
-##### object conversions {#object_conversions}
+##### object conversions 
 
 *object* has a templated constructor which can be used to convert any C++ object to Python using the same underlying mechanisms used for the arguments to call\<\>.
 
 If an *object* instance is created without any arguments to the constructor then this instance holds the value `None`.
 
-##### object from PyObject \* {#object_from_PyObject_.2A}
+##### object from PyObject \* 
 
-You cannot directly construct an object from a [PyObject](./PyObject.html){.nonexistent} \*, see [/handle](./boost(2e)python(2f)object(2f)handle.html){.nonexistent}
-::::
+You cannot directly construct an object from a [PyObject](./PyObject.html) \*, see [/handle](./boost(2e)python(2f)object(2f)handle.html)

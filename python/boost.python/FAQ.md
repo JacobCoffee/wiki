@@ -1,23 +1,16 @@
 # boost.python/FAQ
 
-:::: {#content dir="ltr" lang="en"}
-::: table-of-contents
-Contents
+```{admonition} Legacy Wiki Page
+:class: note
 
-1.  [The constructor AND the destructor of a C++ class that I am trying to wrap are private (this class is designed following the singleton DP). Is it possible to wrap such a class?](#The_constructor_AND_the_destructor_of_a_C.2B-.2B-_class_that_I_am_trying_to_wrap_are_private_.28this_class_is_designed_following_the_singleton_DP.29._Is_it_possible_to_wrap_such_a_class.3F)
-2.  [The constructors of some classes I am trying to wrap are private because instances must be created by using a factory. Is it possible to wrap such classes?](#The_constructors_of_some_classes_I_am_trying_to_wrap_are_private_because_instances_must_be_created_by_using_a_factory._Is_it_possible_to_wrap_such_classes.3F)
-3.  [What is the relation between this \'\'\'no_init\'\'\' and \'\'\'boost::noncopyable?\'\'\'](#What_is_the_relation_between_this_.27.27.27no_init.27.27.27_and_.27.27.27boost::noncopyable.3F.27.27.27)
-4.  [Is it is possible to convert pointers to existing classes to PyObjects\* and then be able to pass an existing instance of an object directly to and from python?](#Is_it_is_possible_to_convert_pointers_to_existing_classes_to_PyObjects.2A_and_then_be_able_to_pass_an_existing_instance_of_an_object_directly_to_and_from_python.3F)
-5.  [How can I check returning Python value for None?](#How_can_I_check_returning_Python_value_for_None.3F)
-6.  [Why operators.hpp imports certain functions (such as \'str\') into the global namespace, instead of the namespace boost::python. That looks like an error\...](#Why_operators.hpp_imports_certain_functions_.28such_as_.27str.27.29_into_the_global_namespace.2C_instead_of_the_namespace_boost::python._That_looks_like_an_error...)
-7.  [My program crashes. What I can do?](#My_program_crashes._What_I_can_do.3F)
-:::
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-Composed from the comp.python.c++ newsgroup hosted on news.gmane.org. See[official boost.python FAQ](http://www.boost.org/libs/python/doc/v2/faq.html){.http}.
+Composed from the comp.python.c++ newsgroup hosted on news.gmane.org. See[official boost.python FAQ](http://www.boost.org/libs/python/doc/v2/faq.html).
 
-### The constructor AND the destructor of a C++ class that I am trying to wrap are private (this class is designed following the singleton DP). Is it possible to wrap such a class? {#The_constructor_AND_the_destructor_of_a_C.2B-.2B-_class_that_I_am_trying_to_wrap_are_private_.28this_class_is_designed_following_the_singleton_DP.29._Is_it_possible_to_wrap_such_a_class.3F}
+### The constructor AND the destructor of a C++ class that I am trying to wrap are private (this class is designed following the singleton DP). Is it possible to wrap such a class? 
 
-### The constructors of some classes I am trying to wrap are private because instances must be created by using a factory. Is it possible to wrap such classes? {#The_constructors_of_some_classes_I_am_trying_to_wrap_are_private_because_instances_must_be_created_by_using_a_factory._Is_it_possible_to_wrap_such_classes.3F}
+### The constructors of some classes I am trying to wrap are private because instances must be created by using a factory. Is it possible to wrap such classes? 
 
 Sure. Of course you can only create the instances using the factory\...
 
@@ -40,7 +33,7 @@ If you look at libs/python/test/test_pointer_adoption.cpp you\'ll see the factor
             ;
     }
 
-### What is the relation between this \'\'\'no_init\'\'\' and \'\'\'boost::noncopyable?\'\'\' {#What_is_the_relation_between_this_.27.27.27no_init.27.27.27_and_.27.27.27boost::noncopyable.3F.27.27.27}
+### What is the relation between this \'\'\'no_init\'\'\' and \'\'\'boost::noncopyable?\'\'\' 
 
 The only relationship is that they both deal with constructors.
 
@@ -50,7 +43,7 @@ The only relationship is that they both deal with constructors.
 
 When wrapping an abstract class, it\'s necessary to specify both.
 
-### Is it is possible to convert pointers to existing classes to PyObjects\* and then be able to pass an existing instance of an object directly to and from python? {#Is_it_is_possible_to_convert_pointers_to_existing_classes_to_PyObjects.2A_and_then_be_able_to_pass_an_existing_instance_of_an_object_directly_to_and_from_python.3F}
+### Is it is possible to convert pointers to existing classes to PyObjects\* and then be able to pass an existing instance of an object directly to and from python? 
 
 It is.
 
@@ -75,7 +68,7 @@ Now you can pass wheel_obj back to python, and all reference counts are nicely m
 
 If you really want to pass pointers around, it\'s certainly possible to tell the library to build a Python object around the pointer, but then you need to make sure the lifetime of the C++ object being referenced by the pointer extends past the lifetime of all Python references to the object or your program will crash.
 
-### How can I check returning Python value for None? {#How_can_I_check_returning_Python_value_for_None.3F}
+### How can I check returning Python value for None? 
 
         object result = call_method<object>( <whatever> );
         if (result.ptr() == object().ptr())
@@ -102,13 +95,13 @@ If you really want to pass pointers around, it\'s certainly possible to tell the
 
 Python C/Api Reference Manual says:
 
-[PyObject](./PyObject.html){.nonexistent}\* Py_None \... Since None is a singleton, testing for object identity (using \"==\" in C) is sufficient. \...
+[PyObject](./PyObject.html)\* Py_None \... Since None is a singleton, testing for object identity (using \"==\" in C) is sufficient. \...
 
-### Why operators.hpp imports certain functions (such as \'str\') into the global namespace, instead of the namespace boost::python. That looks like an error\... {#Why_operators.hpp_imports_certain_functions_.28such_as_.27str.27.29_into_the_global_namespace.2C_instead_of_the_namespace_boost::python._That_looks_like_an_error...}
+### Why operators.hpp imports certain functions (such as \'str\') into the global namespace, instead of the namespace boost::python. That looks like an error\... 
 
-It\'s only on broken compilers which don\'t support [KoenigLookup](./KoenigLookup.html){.nonexistent}, and it\'s intentional. The negative impact should be limited due to the fact that these functions only operate on objects of type boost::python::self_ns::self_t. Do you anticipate a real problem with this?
+It\'s only on broken compilers which don\'t support [KoenigLookup](./KoenigLookup.html), and it\'s intentional. The negative impact should be limited due to the fact that these functions only operate on objects of type boost::python::self_ns::self_t. Do you anticipate a real problem with this?
 
-### My program crashes. What I can do? {#My_program_crashes._What_I_can_do.3F}
+### My program crashes. What I can do? 
 
 Incidentally, if you are on Windows and want to see what\'s really happening with the crash, #include \"\$BOOST_ROOT/libs/python/test/module_tail.cpp\" at the end of your source file.
 
@@ -117,4 +110,3 @@ This will cause (JIT) debugging to be invoked at the point of the crash, instead
 ------------------------------------------------------------------------
 
 [CategoryFaq](CategoryFaq)
-::::

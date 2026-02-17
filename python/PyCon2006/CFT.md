@@ -1,6 +1,11 @@
 # PyCon2006/CFT
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [PyCon](PyCon) 2006 Call for Tutorials
 
 ------------------------------------------------------------------------
@@ -13,7 +18,7 @@ Extra consideration will be given to presenters with prior experience teaching c
 
 [PyCon](PyCon) attendees will register for tutorials. We reserve the right to cancel tutorials with low attendance; presenters will not be paid for cancelled tutorials.
 
-Example tutorial topics can be found at: [http://us.pycon.org/TX2006/Tutorials](http://us.pycon.org/TX2006/Tutorials){.http}
+Example tutorial topics can be found at: [http://us.pycon.org/TX2006/Tutorials](http://us.pycon.org/TX2006/Tutorials)
 
 Important Dates =============
 
@@ -30,5 +35,4 @@ Proposals should be 250 to 1000 words long (i.e., one to four pages in manuscrip
 - Presentation outline
 - Intended audience (non-programmers, beginning programmers, advanced users, CPython developers, etc.)
 
-ASCII format is preferred (plain or reST), with HTML as a secondary alternative. If you have any queries about submission, or if you would like to discuss the possibility of submitting in a different format or style, please send mail to the conference organizers at [pycon@python.org](mailto:pycon@python.org){.mailto}.
-:::
+ASCII format is preferred (plain or reST), with HTML as a secondary alternative. If you have any queries about submission, or if you would like to discuss the possibility of submitting in a different format or style, please send mail to the conference organizers at [pycon@python.org](mailto:pycon@python.org).

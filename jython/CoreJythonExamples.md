@@ -1,44 +1,39 @@
 # CoreJythonExamples
 
-:::::::::: {#content dir="ltr" lang="en"}
-# Core Jython / Python Examples {#Core_Jython_.2F_Python_Examples}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Core Jython / Python Examples 
 
 [DocumentationAndEducation](DocumentationAndEducation)
-
-::: table-of-contents
-Contents
-
-1.  [Core Jython / Python Examples](#Core_Jython_.2F_Python_Examples)
-    1.  [Print](#Print)
-    2.  [JArray](#JArray)
-    3.  [Multidimensional 2-D String Array](#Multidimensional_2-D_String_Array)
-    4.  [Finding methods in a python script](#Finding_methods_in_a_python_script)
-:::
 
 ------------------------------------------------------------------------
 
 Examples related to core Jython / Python will be here. Intended for those new to Python / Jython
 
-## Print {#Print}
+## Print 
 
 Print Hello world
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-627db8352860c2bbba2c37592059c77a642e995d dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 print 'Hello World' 
    2 print "Hello World"
 ```
 :::
 ::::
 
-## JArray {#JArray}
+## JArray 
 
 I was curious on how to work with jarray and move the arrays between classes after being filled with values and operated. I think this example explains some of the basics. Of course, there are more pythonic ways to do this. Cheers! Alfonso Reyes
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d70e135c6c36d483f44e25c9277cef7cf98c04da dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from java.lang import Math
    2 from jarray import array, zeros
    3 import java.util.Random;
@@ -78,13 +73,13 @@ I was curious on how to work with jarray and move the arrays between classes aft
 :::
 ::::
 
-## Multidimensional 2-D String Array {#Multidimensional_2-D_String_Array}
+## Multidimensional 2-D String Array 
 
 In case you need 2-D string arrays this example may help you to start. Cheers! Alfonso Reyes, Houston-Texas
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4483b81ad9fc62a759324f162d466dae47cf1da1 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from java.lang.reflect import Array
    2 import java
    3 
@@ -116,7 +111,7 @@ In case you need 2-D string arrays this example may help you to start. Cheers! A
 :::
 ::::
 
-## Finding methods in a python script {#Finding_methods_in_a_python_script}
+## Finding methods in a python script 
 
 Posted on the Jython list March 18, 2008:
 
@@ -141,4 +136,3 @@ Usage example:
 
     >>> allmethods(str).keys()
     ['__unicode__', 'rjust', 'center', 'endswith', 'decode', 'translate', 'lower', 'encode', 'isunicode', '__setattr__', '__rmul__', '__add__', '__str__', 'istitle', 'lstrip', 'join', '__reduce_ex__', 'startswith', 'isalnum', 'rstrip', '__getattribute__', '__getslice__', '__eq__', '__init__', '__mod__', 'isupper', '__len__', 'rindex', 'isalpha', 'replace', '__ne__', 'strip', 'isspace', 'swapcase', 'split', 'isnumeric', 'capitalize', 'rfind', '__getitem__', '__contains__', 'title', '__ge__', 'index', '__repr__', 'ljust', 'islower', '__le__', 'isdecimal', 'expandtabs', '__delattr__', 'find', 'splitlines', 'count', 'upper', '__gt__', '__reduce__', 'isdigit', '__lt__', 'zfill', '__cmp__', '__mul__', '__hash__']
-::::::::::

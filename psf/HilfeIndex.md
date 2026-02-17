@@ -1,6 +1,11 @@
 # HilfeIndex
 
-:::: {#content dir="ltr" lang="de"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Es folgt ein automatisch erstellter Index aller Hilfeseiten:
 
 ::: searchresults
@@ -46,4 +51,3 @@ Es folgt ein automatisch erstellter Index aller Hilfeseiten:
 40. [**HilfeZurSynchronisation**](HilfeZurSynchronisation)
 41. [**HilfeZuÜberschriften**](./HilfeZu(c39c)berschriften.html)
 :::
-::::

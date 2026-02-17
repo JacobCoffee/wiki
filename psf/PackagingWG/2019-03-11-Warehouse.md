@@ -1,11 +1,16 @@
 # PackagingWG/2019-03-11-Warehouse
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Warehouse kickoff meeting, 11 March 2019
 
 6pm-6:20pm UK, 2pm-2:20pm ET, 11am-11:20am ET
 
-[https://www.timeanddate.com/worldclock/meetingdetails.html?year=2019&month=3&day=11&hour=18&min=0&sec=0&p1=304&p2=179&p3=137](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2019&month=3&day=11&hour=18&min=0&sec=0&p1=304&p2=179&p3=137){.https}
+[https://www.timeanddate.com/worldclock/meetingdetails.html?year=2019&month=3&day=11&hour=18&min=0&sec=0&p1=304&p2=179&p3=137](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2019&month=3&day=11&hour=18&min=0&sec=0&p1=304&p2=179&p3=137)
 
 Attending:
 
@@ -34,24 +39,24 @@ Planned next steps:
 
 - Task 1: Multi-Factor Auth (MFA), Task 2: API Keys, Task 3: Audit Trail - which first?
 - Will get dev env setup
-  - Will: start with MFA - review [https://github.com/pypa/warehouse/pull/4373](https://github.com/pypa/warehouse/pull/4373){.https}
+  - Will: start with MFA - review [https://github.com/pypa/warehouse/pull/4373](https://github.com/pypa/warehouse/pull/4373)
 
   - #pypa-dev on Freenode IRC
 
-  - also [https://github.com/pypa/warehouse/pull/4618](https://github.com/pypa/warehouse/pull/4618){.https}
+  - also [https://github.com/pypa/warehouse/pull/4618](https://github.com/pypa/warehouse/pull/4618)
 
   - (set up necessary discussions among Trail of Bits, Nicole, Dustin, and Donald)
 - Nicole - look at that PR, talk with Will about needed views/templates
 
-Tabled Activities: none ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"}
+Tabled Activities: none ![:-)](/wiki/europython/img/smile.png ":-)")
 
-Issues/Blockages: None! Trail of Bits & Nicole - contracts are ok ![:-)](/wiki/europython/img/smile.png ":-)"){height="16" width="16"}
+Issues/Blockages: None! Trail of Bits & Nicole - contracts are ok ![:-)](/wiki/europython/img/smile.png ":-)")
 
 Question: OTF reporting?
 
 - Sumana to work that out with Ernest and Tara.
 
-  Probably like the MOSS reporting from [https://wiki.python.org/psf/PackagingWG](https://wiki.python.org/psf/PackagingWG){.https} - consistent public reports, forwarded to funder
+  Probably like the MOSS reporting from [https://wiki.python.org/psf/PackagingWG](https://wiki.python.org/psf/PackagingWG) - consistent public reports, forwarded to funder
 
 Unavailability between now & mid-June?
 
@@ -68,4 +73,3 @@ Unavailability between now & mid-June?
   - Will - maybe
 
   - Absent: Ernest (con chair)
-:::

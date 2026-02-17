@@ -1,9 +1,14 @@
 # PEP3107FunctionAnnotationsRehash
 
-::: {#content dir="ltr" lang="en"}
-# Missing exceptions in PEP 3107 {#Missing_exceptions_in_PEP_3107}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Thread: [http://groups.google.com/group/comp.lang.python/browse_thread/thread/ba7e0dd75d2b57d1](http://groups.google.com/group/comp.lang.python/browse_thread/thread/ba7e0dd75d2b57d1){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Missing exceptions in PEP 3107 
+
+Thread: [http://groups.google.com/group/comp.lang.python/browse_thread/thread/ba7e0dd75d2b57d1](http://groups.google.com/group/comp.lang.python/browse_thread/thread/ba7e0dd75d2b57d1)
 
     Having the list of possible exceptions as annotation alone would be 
     already helpful. Of course it could be also discussed whether Python 
@@ -34,4 +39,3 @@ Thread: [http://groups.google.com/group/comp.lang.python/browse_thread/thread/ba
     other hand is completely up for grabs.
 
     _Duncan Booth_
-:::

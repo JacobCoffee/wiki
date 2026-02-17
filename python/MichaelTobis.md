@@ -1,7 +1,12 @@
 # MichaelTobis
 
-::: {#content dir="ltr" lang="en"}
-My homepage is at [http://geosci.uchicago.edu/\~tobis](http://geosci.uchicago.edu/~tobis){.http}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+My homepage is at [http://geosci.uchicago.edu/\~tobis](http://geosci.uchicago.edu/~tobis)
 
 My main intellectual interests are
 
@@ -17,4 +22,3 @@ I am pleased to have discovered Python, which plays a role all four pursuits.
 I have met an amazing array of amazing people since becoming involved in the Python community. I consider both the language and the community a beacon of hope in gloomy times.
 
 [CategoryHomepage](CategoryHomepage)
-:::

@@ -1,7 +1,12 @@
 # PyConDuties2003
 
-::: {#content dir="ltr" lang="en"}
-## Assigned duties for PyCon 2003 {#Assigned_duties_for_PyCon_2003}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Assigned duties for PyCon 2003 
 
 (Keep this for historical purposes.)
 
@@ -32,4 +37,3 @@
 13. Gopher handlers: Itamar
 
 14. Registration desk: Bob Payne and Tripp Lilley
-:::

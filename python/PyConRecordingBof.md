@@ -1,11 +1,16 @@
 # PyConRecordingBof
 
-::: {#content dir="ltr" lang="en"}
-# PyCon Recording BoF & Discussion Page {#PyCon_Recording_BoF_.26_Discussion_Page}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Mailing list for A/V editing volunteers: [http://mail.python.org/mailman/listinfo/pycon-av](http://mail.python.org/mailman/listinfo/pycon-av){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## The Plan {#The_Plan}
+# PyCon Recording BoF & Discussion Page 
+
+Mailing list for A/V editing volunteers: [http://mail.python.org/mailman/listinfo/pycon-av](http://mail.python.org/mailman/listinfo/pycon-av)
+
+## The Plan 
 
 Current status: thanks to Herculean effort by Joe Baker (? I\'m unsure of his last name ?), Carl Karsten, and Cosmin Stejeream, all of the videotaped material is being transferred to digital files. Sleeping on a cot in the A/V room overnight was involved.
 
@@ -20,13 +25,13 @@ Here\'s a proposed plan:
 
 I chose video.google.com because they don\'t have an upload limit. Someone suggested viddler.com, which has two good features: tagging portions of a video, and letting users post comments at a given point in time. They have a 1Gb upload limit, which we might run into for the hour-long keynotes, but we could certainly post videos to both sites and see which one gets more usage.
 
-### Questions? {#Questions.3F}
+### Questions? 
 
 Add any questions/suggestions to this section.
 
-Or, post them to the pycon-av mailing list: subscribe at \<[http://mail.python.org/mailman/listinfo/pycon-av\>](http://mail.python.org/mailman/listinfo/pycon-av%3E){.http}.
+Or, post them to the pycon-av mailing list: subscribe at \<[http://mail.python.org/mailman/listinfo/pycon-av\>](http://mail.python.org/mailman/listinfo/pycon-av%3E).
 
-## Friday Agenda {#Friday_Agenda}
+## Friday Agenda 
 
 - What needs to be done (editing, cleanup, podcast, uploading videos)
 
@@ -36,7 +41,7 @@ Or, post them to the pycon-av mailing list: subscribe at \<[http://mail.python.o
 
 - Overly-ambitious thought: captioning/transcripts?
 
-## Attending {#Attending}
+## Attending 
 
 Please add your name if you\'re interested.
 
@@ -46,13 +51,12 @@ Please add your name if you\'re interested.
 
 - [KevinCole](KevinCole) (kevin dot cole plus pc2008 at gallaudet dot edu)
 
-- [ChrisChurch](./ChrisChurch.html){.nonexistent} (flyingfred0 at gmail dot com)
+- [ChrisChurch](./ChrisChurch.html) (flyingfred0 at gmail dot com)
 
 - [SheilaMiguez](SheilaMiguez) (shekay at gmail com, shekay google talk, skay on irc.freenode.net)
 
-- [JeffHinrichs](./JeffHinrichs.html){.nonexistent} (jeffh at dundeemt dot com)
+- [JeffHinrichs](./JeffHinrichs.html) (jeffh at dundeemt dot com)
 
 ------------------------------------------------------------------------
 
 [CategoryPyCon2008](CategoryPyCon2008) [CategoryPyConPlanning](CategoryPyConPlanning)
-:::

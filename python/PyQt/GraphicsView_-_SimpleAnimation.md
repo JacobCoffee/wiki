@@ -1,13 +1,18 @@
 # PyQt/GraphicsView_-_SimpleAnimation
 
-::::: {#content dir="ltr" lang="en"}
-# Graphics View - Simple Animation {#Graphics_View_-_Simple_Animation}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Graphics View - Simple Animation 
 
 The example below presents how to use QGraphicsView along with QGraphicsItem, QGraphicsItemAnimation and QTimeLine to construct a very simple animation. If you have any questions please do not hesitate to ask me directly.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-466ec007899df70724f5971b830af48c7dadadd0 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # simple code by Krystian Samp - krychu (samp[dot]krystian[monkey]gmail.com), November 2006
    2 
    3 import sys
@@ -47,5 +52,4 @@ The example below presents how to use QGraphicsView along with QGraphicsItem, QG
 :::
 ::::
 
-![ani.gif](attachments/PyQt(2f)GraphicsView_(2d)_SimpleAnimation/ani.gif "ani.gif"){.attachment align="left"} (WinXP, Py2.6, [PyQt4](PyQt4).4.4)
-:::::
+![ani.gif](attachments/PyQt(2f)GraphicsView_(2d)_SimpleAnimation/ani.gif "ani.gif") (WinXP, Py2.6, [PyQt4](PyQt4).4.4)

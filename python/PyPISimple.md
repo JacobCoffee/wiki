@@ -1,9 +1,14 @@
 # PyPISimple
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [PyPI](CheeseShopDev) APIs: **Simple**, [JSON](PyPIJSON), [XMLRPC](PyPIXmlRpc).
 
-For up to date documentation, see [https://warehouse.readthedocs.io/api-reference/legacy/](https://warehouse.readthedocs.io/api-reference/legacy/){.https}
+For up to date documentation, see [https://warehouse.readthedocs.io/api-reference/legacy/](https://warehouse.readthedocs.io/api-reference/legacy/)
 
 You can get a list of all the distributions available on PyPI from the URL
 
@@ -33,4 +38,3 @@ The following code can be used to extract the URLs from the simple API pages:
         return [a.attrib['href'] for a in tree.iter('a')]
 
 **TODO**: Add further details about links, `rel=`{.backtick}, `#md5=`{.backtick}, `#egg=`{.backtick}, links scraped from long_description and how/when to follow download links externally.
-:::

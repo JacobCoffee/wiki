@@ -1,27 +1,32 @@
 # PythonVsHaskell
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 See also \[[LanguageComparisons](LanguageComparisons)\].
 
-## Haskell {#Haskell}
+## Haskell 
 
-Haskell is a modern functional language (like lisp). It\'s not commonly used but the language is used for some \"real\" projects (not just an experimental language) and is becoming more common in industry. For example, the [darcs](http://www.darcs.net/){.http} version control system is written in Haskell. More information can be found at [http://www.haskell.org/](http://www.haskell.org/){.http}. (Please forgive or correct any errors here due to my not being very familiar with Haskell.)
+Haskell is a modern functional language (like lisp). It\'s not commonly used but the language is used for some \"real\" projects (not just an experimental language) and is becoming more common in industry. For example, the [darcs](http://www.darcs.net/) version control system is written in Haskell. More information can be found at [http://www.haskell.org/](http://www.haskell.org/). (Please forgive or correct any errors here due to my not being very familiar with Haskell.)
 
 ------------------------------------------------------------------------
 
 Haskell and Python are a somewhat odd pair to compare, because they are so different in many ways. But what most users of both languages would agree they DO share is a certain elegance of design.
 
-### Functional vs Procedural: {#Functional_vs_Procedural:}
+### Functional vs Procedural: 
 
 Haskell is a lazy (evaluate by need), so-called pure functional (no assignments or side-effects) language. It supports parametric polymorphism (ala C++ templates, but more powerful), and ad-hoc polymorphism ( operator overloading) through type classes (ala Java Interfaces). Python offers the programmer a profusion of styles, including procedural, functional, and object-oriented. Lazy programming can be accomplished using generators and itertools. Python has some support for a functional style of programming, but the profusion of side effects and the lack of built-in tail recursion optimization support, makes it an awkward style to use in Python. Haskell supports procedural programming through monads (from category theory) which are also Haskell\'s interface to the world of side effects (e.g. graphics, file systems, sockets, etc.). However, imperative programming is neither Haskell\'s intention nor strength (though this is debateable \-- many Haskell coders have been known to state that Haskell is their favourite imperative language).
 
-### Compiled vs Interpreted: {#Compiled_vs_Interpreted:}
+### Compiled vs Interpreted: 
 
-Python\'s primary implementation is an interpreter. Haskell has a handful of implementations, including some interpreters (Hugs) and some native-code compilers (GHC, nhc98). Haskell is a high-level language like python, so equal-to-C-or-asm performance should not be expected. The Haskell type system, however, does provide more compile-time information than python\'s does, meaning the optimizing native-code compilers have a speed advantage over python in many cases[http://shootout.alioth.debian.org/gp4/benchmark.php?test=all&lang=python&lang2=ghc](http://shootout.alioth.debian.org/gp4/benchmark.php?test=all&lang=python&lang2=ghc){.http}.
+Python\'s primary implementation is an interpreter. Haskell has a handful of implementations, including some interpreters (Hugs) and some native-code compilers (GHC, nhc98). Haskell is a high-level language like python, so equal-to-C-or-asm performance should not be expected. The Haskell type system, however, does provide more compile-time information than python\'s does, meaning the optimizing native-code compilers have a speed advantage over python in many cases[http://shootout.alioth.debian.org/gp4/benchmark.php?test=all&lang=python&lang2=ghc](http://shootout.alioth.debian.org/gp4/benchmark.php?test=all&lang=python&lang2=ghc).
 
 The pythonic philosophy of dropping into C for critical sections applies equally well to haskell. Through the foreign function interface, haskell functions can call and be called from C code. As an alternative, compiler-specific extensions (specifically, ghc\'s) and strictness annotations can be used to get closer to the metal.
 
-### Static vs Dynamic Typing: {#Static_vs_Dynamic_Typing:}
+### Static vs Dynamic Typing: 
 
 Both Haskell and Python have strong (not weak) typing, meaning instances of a type cannot be cast into another type. Explicit conversions must be performed. The difference is that Haskell has static typing, while Python has dynamic typing. This means that in Haskell, the type of every expression and every variable is known at compile time (and strictly enforced), while in Python expressions and variables don\'t even HAVE a type \-- the objects they refer to have types, but that isn\'t known until runtime, and objects can pretend to be different types by providing the correct functions, e.g. \_ \_ len \_ \_, etc. Since typing is such a fundamental part of Haskell (it\'s part of what makes the language easy to reason about), this difference with Python is a fundamental one. However, for those python users who shudder to think of typing \"int i\" before every variable use, take heart: Haskell\'s compilers and interpreters are smart enough to infer the types of your expressions almost all the time, so you don\'t have to type them. Type inference is \"static typing done right.\" For example, to assign a value of 5 to the identifier \'a\', it\'s the exact same code in Python and Haskell:
 
@@ -31,35 +36,35 @@ The fact that it\'s an integer is inferred by the Haskell compiler.
 
 There is also one similarity I feel compelled to point out:
 
-### List Comprehension Syntax: {#List_Comprehension_Syntax:}
+### List Comprehension Syntax: 
 
 Python\'s list comprehension syntax is taken (with trivial keyword/symbol modifications) directly from Haskell. The idea was just too good to pass up.
 
-### Significant Whitespace: {#Significant_Whitespace:}
+### Significant Whitespace: 
 
 Both use indentation as syntax. In Python, tabs/spaces *are* the syntax, whereas in Haskell, tabs/spaces are simply well-defined sugar for converting to the braces/semi-colon block syntax. Some would say that Haskell\'s way is an improvement on the idea of significant whitespace by allowing the optional use of explicit braces/semi-colons for blocks, saving certain amounts of headache, e.g. when copy-pasting from web-pages.
 
-### Learning Curve: {#Learning_Curve:}
+### Learning Curve: 
 
 Haskell has a much steeper learning curve for programmers who are not used to functional programming. In many cases, lazy evaluation seems counterintuitive to an imperative-trained mind and you must unlearn techniques to prevent your program from eating up memory.
 
-For me (Nioate), learning [OCaml](http://caml.inria.fr/ocaml/){.http} first smoothed the way into Haskell because ML has a very similar (though less flexible) type system. After understanding the type system, the jump to haskell is much less daunting: beyond new syntax, it only involves learning to utilize lazy evaluation, type classes, and monads. (Don\'t let monads scare you; learn about the list and Maybe monads first. Jeff Newbern\'s [All About Monads](http://horna.org.ua/books/All_About_Monads.pdf){.http} is the best.)
+For me (Nioate), learning [OCaml](http://caml.inria.fr/ocaml/) first smoothed the way into Haskell because ML has a very similar (though less flexible) type system. After understanding the type system, the jump to haskell is much less daunting: beyond new syntax, it only involves learning to utilize lazy evaluation, type classes, and monads. (Don\'t let monads scare you; learn about the list and Maybe monads first. Jeff Newbern\'s [All About Monads](http://horna.org.ua/books/All_About_Monads.pdf) is the best.)
 
 Contributors: [MichaelChermside](MichaelChermside)
 
 See also \[[LanguageComparisons](LanguageComparisons)\].
 
-## Berp: a Python 3 Compiler implemented in Haskell {#Berp:_a_Python_3_Compiler_implemented_in_Haskell}
+## Berp: a Python 3 Compiler implemented in Haskell 
 
-Berp ([http://wiki.github.com/bjpop/berp/](http://wiki.github.com/bjpop/berp/){.http}) is an implementation of Python 3. At its heart is a translator, which takes Python code as input and generates Haskell code as output. The Haskell code is fed into a Haskell compiler (GHC) for compilation to machine code or interpretation as byte code.
+Berp ([http://wiki.github.com/bjpop/berp/](http://wiki.github.com/bjpop/berp/)) is an implementation of Python 3. At its heart is a translator, which takes Python code as input and generates Haskell code as output. The Haskell code is fed into a Haskell compiler (GHC) for compilation to machine code or interpretation as byte code.
 
-## Using both Python & Haskell with ctypes (-; {#Using_both_Python_.26_Haskell_with_ctypes_.28-.3B}
+## Using both Python & Haskell with ctypes (-; 
 
 You can have your cake and eat it too. This is a technique using ctypes to interface with a haskell library compiled with ghc:
 
-### On Linux {#On_Linux}
+### On Linux 
 
-Most of this technique is thanks to Tomáš Janoušek\'s incredibly useful blog entry at [http://blog.haskell.cz/pivnik/building-a-shared-library-in-haskell/](http://blog.haskell.cz/pivnik/building-a-shared-library-in-haskell/){.http}. I will merely include the content of the files to show how it can be done. Please visit his site for more details:
+Most of this technique is thanks to Tomáš Janoušek\'s incredibly useful blog entry at [http://blog.haskell.cz/pivnik/building-a-shared-library-in-haskell/](http://blog.haskell.cz/pivnik/building-a-shared-library-in-haskell/). I will merely include the content of the files to show how it can be done. Please visit his site for more details:
 
 First create a test haskell library (Test.hs):
 
@@ -172,9 +177,9 @@ you should get:
 
 Enjoy!
 
-Contributers: [AliaKhouri](./AliaKhouri.html){.nonexistent}
+Contributers: [AliaKhouri](./AliaKhouri.html)
 
-### On Windows {#On_Windows}
+### On Windows 
 
 Note: this technique may be dated.
 
@@ -282,4 +287,3 @@ and then having installed ctypes, run the following python script (test_mylib.py
     print factorial(10)
     print hello('hello')
     print mystring()
-:::

@@ -1,13 +1,18 @@
 # PyConPostMortem
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 This page is for use by [PyCon](PyCon) organizers to to record learning experiences from this year\'s conference, and to remember things that we could do better next time.
 
 A postmortem IRC session was held at 1PM EST, Friday April 2nd. **irc.freenode.net**, channel **#pycon**. Here is the [PyConPostMortemIrcTranscript](PyConPostMortemIrcTranscript).
 
-Please record \"concrete successes\" in [PyCon2004Successes](./PyCon2004Successes.html){.nonexistent}. Start another page for \"concrete failures\" if needed? \-- specifically not just negative feedback, but things that absolutely didn\'t work out.
+Please record \"concrete successes\" in [PyCon2004Successes](./PyCon2004Successes.html). Start another page for \"concrete failures\" if needed? \-- specifically not just negative feedback, but things that absolutely didn\'t work out.
 
-# Statistics {#Statistics}
+# Statistics 
 
 Pre-registered numbers: 340 attendees.
 
@@ -17,13 +22,13 @@ Pre-registered numbers: 340 attendees.
 
 Total Paid Registrants: 364 -(Trevor and Neal verified stat)
 
-# Ideas for next time {#Ideas_for_next_time}
+# Ideas for next time 
 
 - When registering users, get permission to send them status e-mail (or to put them on a mailing list), and offer them a check box giving permission to add their name to a public list of delegates (to avoid privacy issues).
 
 - When accepting proposals, request that users put their
 
-  presentations under one of the [Creative Commons](http://creativecommons.org){.http} licenses, as [the MySQL conference has done.](http://zak.greant.com/archives/000622.html){.http}
+  presentations under one of the [Creative Commons](http://creativecommons.org) licenses, as [the MySQL conference has done.](http://zak.greant.com/archives/000622.html)
 
 - Put Lightning Talk sessions (one or two of them) in the program.
 
@@ -31,7 +36,7 @@ Total Paid Registrants: 364 -(Trevor and Neal verified stat)
 
 - Session chairs should strictly adhere to the schedule
 
-- Do feedback forms on the web (Shane [McChesney](./McChesney.html){.nonexistent}\'s company [Nooro.com](http://nooro.com/index.html){.http})
+- Do feedback forms on the web (Shane [McChesney](./McChesney.html)\'s company [Nooro.com](http://nooro.com/index.html))
 
 - Schedule first day of Open Space before conference \-- first day had hardly any Open Space going
 
@@ -42,7 +47,7 @@ Total Paid Registrants: 364 -(Trevor and Neal verified stat)
 - Make conference four days and sprint three days; last day of conference gears up for sprint
   - *There hasn\'t been a huge amount of feedback, but I\'m inclined to consider this change for the next year, if only to give us a proper basis for comparison and satisfy those who have agitated for it in the past \-- sh*
 
-- non-[PayPal](./PayPal.html){.nonexistent} online solution (iMeme is planning on implementing a [WorldPay](./WorldPay.html){.nonexistent} gateway for PyCON 2005)
+- non-[PayPal](./PayPal.html) online solution (iMeme is planning on implementing a [WorldPay](./WorldPay.html) gateway for PyCON 2005)
 
 - Do we need to use pycon.org?
 
@@ -55,7 +60,7 @@ Total Paid Registrants: 364 -(Trevor and Neal verified stat)
 
 - Use Wiki on pycon.org
 
-- Use a calendar/issue tracker ex: [http://www.pycon.org/dc2004/zwiki/FrontPage/issuetracker](http://www.pycon.org/dc2004/zwiki/FrontPage/issuetracker){.http}.
+- Use a calendar/issue tracker ex: [http://www.pycon.org/dc2004/zwiki/FrontPage/issuetracker](http://www.pycon.org/dc2004/zwiki/FrontPage/issuetracker).
 
 - Early Bird should be publicized earlier, and promoted to previous attendees. Talks is not required\...that is the incentive for the discounted rate.
 
@@ -79,7 +84,7 @@ Total Paid Registrants: 364 -(Trevor and Neal verified stat)
 
 - ALL talk slides need to be posted ahead of time and that link needs to be documented at the beginning of each talk
 
-# Tasks for next time {#Tasks_for_next_time}
+# Tasks for next time 
 
 - Steve will chair one more conference; we need to arrange the succession for
 
@@ -87,11 +92,11 @@ Total Paid Registrants: 364 -(Trevor and Neal verified stat)
 
 - Finish off and polish the conference software so that next year it doesn\'t have to be developed as capabilities are needed; having to do this resulting in our missing several promised deadlines and pushing things too close to the conference date.
 
-  (AMK will do this. Please record ideas on [this Wiki page](http://www.amk.ca/ng-arch/ConferenceSWIdeas){.http}, and join [the conf mailing list](http://www.amk.ca/mailman/listinfo/conf){.http} for discussion.)
+  (AMK will do this. Please record ideas on [this Wiki page](http://www.amk.ca/ng-arch/ConferenceSWIdeas), and join [the conf mailing list](http://www.amk.ca/mailman/listinfo/conf) for discussion.)
 
 - Design daily feedback forms for web input and fast analysis to allow day-by-day scheduling responses, repeats of talks many people missed, etc.
 
-# Responsibilities for Future Years {#Responsibilities_for_Future_Years}
+# Responsibilities for Future Years 
 
 This is just a draft of things that have been identified so far, and is not cast in stone. Feel free to add other suggestions.
 
@@ -103,7 +108,7 @@ This is just a draft of things that have been identified so far, and is not cast
 
 - Lightning Talks coordinator
 
-- someone to promote Birds of a Feather sessions ([BoFs](./BoFs.html){.nonexistent})
+- someone to promote Birds of a Feather sessions ([BoFs](./BoFs.html))
 
 - session/track chairs under one manager
 
@@ -130,4 +135,3 @@ This is just a draft of things that have been identified so far, and is not cast
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon)
-:::

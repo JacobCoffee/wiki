@@ -1,9 +1,14 @@
 # JythonDeveloperGuide/AttributeLookupMethods
 
-:::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Attribute Lookup Methods on `PyObject`.
 
-::: {#why-this-document .section}
+::: 
 ### Why this document?
 
 With the time, we have made some changes to the way the lookup methods behave on Java, to accommodate them to be as much compatible with CPython when they are exposed to Python code. As the time of this writing, `PyObject` has the following five methods related to attribute lookup.
@@ -17,7 +22,7 @@ With the time, we have made some changes to the way the lookup methods behave on
 This is without counting different signatures of the same method name. Such slight variants are not relevant to the discussion. Methods with the same name have the same semantics \-- the different variants just adapt the argument to a common type and then call the \"canonical\" implementation.
 :::
 
-::: {#quick-questions-and-answers .section}
+::: 
 ### Quick Questions and Answers
 
 If you don\'t want to read the whole history here are some generic answers, which are right on most cases:
@@ -61,10 +66,10 @@ First, make sure that you really want to override attribute lookup. Then, overri
     }
 :::
 
-::: {#what-s-the-difference .section}
+::: 
 ### What\'s the difference?
 
-First, we must differentiate between the methods which are part of the `PyObject` Java API, and those which are implementations exposed to Python. As you may expect, the ones starting with `object_` have to do with [exposed methods](PythonTypesInJava){.reference .external}. `object__getattribute__` corresponds to the exposed `object.__getattribute`. However, `object__findattr__` is not exposed, but is an implementation detail of PyObject itself, related to the Java API methods which we will explain now in detail.
+First, we must differentiate between the methods which are part of the `PyObject` Java API, and those which are implementations exposed to Python. As you may expect, the ones starting with `object_` have to do with [exposed methods](PythonTypesInJava). `object__getattribute__` corresponds to the exposed `object.__getattribute`. However, `object__findattr__` is not exposed, but is an implementation detail of PyObject itself, related to the Java API methods which we will explain now in detail.
 
 `__findattr__` and `__getattr__` are the primary ways to get an attribute from Java code. The difference is how they signal failed lookups. `__getattr__` throws `AttributeError` while `__findattr__` returns `null`. That\'s all. In practice `__findattr__` is a bit of a performance optimization, as throwing exceptions is an expensive operation. Thus, prefer it when you can.
 
@@ -72,6 +77,5 @@ First, we must differentiate between the methods which are part of the `PyObject
 
 Thus, `__findattr__` and `__getattr__` are final methods which adapts the `__findattr_ex__` result to their stricter contract.
 
-Now \-- unless you have a really really good reason and know what you are doing \-- , you want to reuse the exact logic implemented on `__findattr_ex__` to implement the exposed `__getattribute__` Python method. Look at the [Quick Questions and Answers](#quick-questions-and-answers){.reference .internal} section above for a solution to this problem while still using non-overridable logic from the exposed method. After looking at it, it will be clear why the `object___findattr__` method exists.
+Now \-- unless you have a really really good reason and know what you are doing \-- , you want to reuse the exact logic implemented on `__findattr_ex__` to implement the exposed `__getattribute__` Python method. Look at the [Quick Questions and Answers](#quick-questions-and-answers) section above for a solution to this problem while still using non-overridable logic from the exposed method. After looking at it, it will be clear why the `object___findattr__` method exists.
 :::
-::::::

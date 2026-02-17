@@ -1,13 +1,18 @@
 # Asking for Help/Why when I read a text file python reads it as "<built-in method read of _io.TextIOWrapper object at 0x02954558>" and how do I stop this?
 
-::::::::: {#content dir="ltr" lang="en"}
-# Asking for Help: Why when I read a text file python reads it as \"\<built-in method read of \_io.TextIOWrapper object at 0x02954558\>\" and how do I stop this? {#Asking_for_Help:_Why_when_I_read_a_text_file_python_reads_it_as_.22.3Cbuilt-in_method_read_of__io.TextIOWrapper_object_at_0x02954558.3E.22_and_how_do_I_stop_this.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: Why when I read a text file python reads it as \"\<built-in method read of \_io.TextIOWrapper object at 0x02954558\>\" and how do I stop this? 
 
 I am writing a program that uses text files to store user information like their name and password. I am using this information to check login info against the info they have provided. This never worked so I decided to do a simple open files program to find the problem.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c9d541371613b3df063d3f103c5b55a0ab48cd17 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 f = open('test.txt', 'r')
    2 a = f.read
    3 f.close
@@ -22,9 +27,9 @@ and when I ran it on Idle it printed: \<built-in method read of \_io.TextIOWrapp
 
 You have to actually call the `read`{.backtick} method as follows:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-84d2bf3f776355161f9b309383c5422349a860cc dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 a = f.read()
 ```
 :::
@@ -34,9 +39,9 @@ The brackets are important because they tell Python to actually *call* the metho
 
 So the point to remember is this: referring to the method (like with `f.read`{.backtick}) just lets you obtain the method, but if you want to call the method, you have to add brackets. The following also works:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3c41985d0d053b87ce6d3b37a1267713b810ffd2 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 method = f.read
 a = method()
 ```
@@ -48,4 +53,3 @@ Here, we split up the part where you get the method from the part where you call
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::::::::

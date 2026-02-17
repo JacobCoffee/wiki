@@ -1,99 +1,104 @@
 # PUN/nens_sept_2012
 
-::: {#content dir="ltr" lang="en"}
-The next PUN will be held on FRIDAY 21 september 2012 (yes, FRIDAY instead of wednesday) at [Nelen & Schuurmans](http://www.nelen-schuurmans.nl/){.http} in the center of Utrecht starting at 19:30. Please try to be on time, since we will start at exactly 19:30. If you plan on joining, put yourself on visitor list down below to give everybody an idea of how many people are coming and who. **Note: you\'re free to come in any case, registering is just to get a rough idea on the amount of people**.
+```{admonition} Legacy Wiki Page
+:class: note
 
-Route description (pdf): [http://www.nelen-schuurmans.nl/downloads/124/Routebeschrijving.pdf](http://www.nelen-schuurmans.nl/downloads/124/Routebeschrijving.pdf){.http}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-If you come by train, just walk through the \"Hoog Catharijne\" shopping mall on the centre side of Utrecht centraal station. In the \"Zakkendragerssteeg\" you\'ll find a red fence in the wall: go through there and the office is directly in front of you. See [google maps](http://maps.google.nl/maps?q=Zakkendragershof+34-44,+utrecht&oe=utf-8&hq=&hnear=Zakkendragershof+34,+Binnenstad,+Utrecht&gl=nl&ll=52.091584,5.114404&spn=0.005531,0.016469&t=h&z=17){.http} . The \"Zakkendragerssteeg\" is between the KFC kentucy fried chicken on the one side and the King Arthur pub/restaurant on the other.
+The next PUN will be held on FRIDAY 21 september 2012 (yes, FRIDAY instead of wednesday) at [Nelen & Schuurmans](http://www.nelen-schuurmans.nl/) in the center of Utrecht starting at 19:30. Please try to be on time, since we will start at exactly 19:30. If you plan on joining, put yourself on visitor list down below to give everybody an idea of how many people are coming and who. **Note: you\'re free to come in any case, registering is just to get a rough idea on the amount of people**.
 
-See also [http://lanyrd.com/2012/dutch-python-meeting/](http://lanyrd.com/2012/dutch-python-meeting/){.http} .
+Route description (pdf): [http://www.nelen-schuurmans.nl/downloads/124/Routebeschrijving.pdf](http://www.nelen-schuurmans.nl/downloads/124/Routebeschrijving.pdf)
 
-### Presentations {#Presentations}
+If you come by train, just walk through the \"Hoog Catharijne\" shopping mall on the centre side of Utrecht centraal station. In the \"Zakkendragerssteeg\" you\'ll find a red fence in the wall: go through there and the office is directly in front of you. See [google maps](http://maps.google.nl/maps?q=Zakkendragershof+34-44,+utrecht&oe=utf-8&hq=&hnear=Zakkendragershof+34,+Binnenstad,+Utrecht&gl=nl&ll=52.091584,5.114404&spn=0.005531,0.016469&t=h&z=17) . The \"Zakkendragerssteeg\" is between the KFC kentucy fried chicken on the one side and the King Arthur pub/restaurant on the other.
+
+See also [http://lanyrd.com/2012/dutch-python-meeting/](http://lanyrd.com/2012/dutch-python-meeting/) .
+
+### Presentations 
 
 - `30 min -`{.backtick} How 2Style4You uses Pyramid (and more Python), Wichert Akkerman
 
 - ` 5 min -`{.backtick} Disco - Guido Kollerie
 
-- ` 5 min -`{.backtick} [(Really) naive data mining](https://speakerdeck.com/u/joelcox/p/really-naive-data-mining){.https}, Joël Cox
+- ` 5 min -`{.backtick} [(Really) naive data mining](https://speakerdeck.com/u/joelcox/p/really-naive-data-mining), Joël Cox
 
 - ` 5 min -`{.backtick} \"Requests\" library for easy json api access + testing dikes, [ReinoutVanRees](ReinoutVanRees)
 
 - break
 
-- `30 min -`{.backtick}[MongoEngine+Relational+Privileges (on Pyramid!)](http://github.com/ProgressiveCompany){.http}([prezi slides](http://prezi.com/_hx6kdevlxab/mongoengine-relational-privileges-goodness/){.http}), Marcel van den Elst
+- `30 min -`{.backtick}[MongoEngine+Relational+Privileges (on Pyramid!)](http://github.com/ProgressiveCompany)([prezi slides](http://prezi.com/_hx6kdevlxab/mongoengine-relational-privileges-goodness/)), Marcel van den Elst
 
 - ` 5 min -`{.backtick} Python for those little throwaway scripts (that you end up not throwing away), Tikitu de Jager
 
 - ` 5 min -`{.backtick} Some stuff I did at Hacker School, and why you should apply, Pepijn de Vos
 
-- ` 5 min -`{.backtick} [Shell pearls (not to be confused with Perl shells)](http://www.slideshare.net/sshanx/shell-pearls-not-perl-shells-pun-21092012){.http} ([cheatsheet](http://www.catonmat.net/download/bash-history-cheat-sheet.pdf){.http}), [Remco Wendt](https://twitter.com/sshanx){.https} - [Maykin Media](http://www.maykinmedia.nl/){.http}
+- ` 5 min -`{.backtick} [Shell pearls (not to be confused with Perl shells)](http://www.slideshare.net/sshanx/shell-pearls-not-perl-shells-pun-21092012) ([cheatsheet](http://www.catonmat.net/download/bash-history-cheat-sheet.pdf)), [Remco Wendt](https://twitter.com/sshanx) - [Maykin Media](http://www.maykinmedia.nl/)
 
-## Confirmed {#Confirmed}
+## Confirmed 
 
 (Everyone is free to come, the list here is just to give us an idea of how many edible and drinkable stuff to arrange)
 
-- [Reinout van Rees](http://reinout.vanrees.org/){.http}, [Nelen & Schuurmans](http://www.nelen-schuurmans.nl/){.http}
+- [Reinout van Rees](http://reinout.vanrees.org/), [Nelen & Schuurmans](http://www.nelen-schuurmans.nl/)
 
-- Marcel van den Elst, [Progressive Planning](http://www.progressiveplanning.com/){.http}
+- Marcel van den Elst, [Progressive Planning](http://www.progressiveplanning.com/)
 
-- Sylvain Viollon [Infrae](http://infrae.com/){.http}
+- Sylvain Viollon [Infrae](http://infrae.com/)
 
-- Mallory van Achterberg [Infrae](http://infrae.com/){.http}
+- Mallory van Achterberg [Infrae](http://infrae.com/)
 
-- [Jasper Spaans](http://jasper.es/){.http}, [Fox-IT](https://www.fox-it.com/){.https}
+- [Jasper Spaans](http://jasper.es/), [Fox-IT](https://www.fox-it.com/)
 
-- Ronald Evers, [Fox-IT](https://www.fox-it.com/){.https}
+- Ronald Evers, [Fox-IT](https://www.fox-it.com/)
 
-- Rutger Prins, [Fox-IT](https://www.fox-it.com/){.https}
+- Rutger Prins, [Fox-IT](https://www.fox-it.com/)
 
 - Jeroen Dekkers
 
-- [Guido Kollerie](http://blog.kollerie.com/){.http}
+- [Guido Kollerie](http://blog.kollerie.com/)
 
-- Alexandr Seleznev, [Nelen & Schuurmans](http://www.nelen-schuurmans.nl/){.http}
+- Alexandr Seleznev, [Nelen & Schuurmans](http://www.nelen-schuurmans.nl/)
 
-- Frans Visser, [AcademicTransfer](http://www.academictransfer.com/){.http}
+- Frans Visser, [AcademicTransfer](http://www.academictransfer.com/)
 
-- Wim Boucquaert, [Infrae](http://infrae.com/){.http}
+- Wim Boucquaert, [Infrae](http://infrae.com/)
 
-- [Joël Cox](http://joelcox.nl/){.http}
+- [Joël Cox](http://joelcox.nl/)
 
 - Alex de Landgraaf
 
-- [Erik Romijn](http://solidlinks.nl/){.http}
+- [Erik Romijn](http://solidlinks.nl/)
 
-- Kit Blake [Infrae](http://infrae.com/){.http}
+- Kit Blake [Infrae](http://infrae.com/)
 
-- [Maurits van Rees](http://maurits.vanrees.org/){.http}, [Zest Software](http://zestsoftware.nl/){.http}
+- [Maurits van Rees](http://maurits.vanrees.org/), [Zest Software](http://zestsoftware.nl/)
 
-- [Tikitu de Jager](http://www.logophile.org/){.http}, [Buzzcapture](http://www.buzzcapture.com/){.http}
+- [Tikitu de Jager](http://www.logophile.org/), [Buzzcapture](http://www.buzzcapture.com/)
 
-- [Pepijn de Vos](http://pepijndevos.nl/){.http}
+- [Pepijn de Vos](http://pepijndevos.nl/)
 
-- [Zaheer Soebhan](http://nl.linkedin.com/in/zaheersoebhan){.http}
+- [Zaheer Soebhan](http://nl.linkedin.com/in/zaheersoebhan)
 
-- Dennis Bunskoek [Leukeleu](http://www.leukeleu.nl/){.http}, [Ride The Pony](http://www.ridethepony.nl/){.http}
+- Dennis Bunskoek [Leukeleu](http://www.leukeleu.nl/), [Ride The Pony](http://www.ridethepony.nl/)
 
-- Marko Tibold [Leukeleu](http://www.leukeleu.nl/){.http}
+- Marko Tibold [Leukeleu](http://www.leukeleu.nl/)
 
-- Ramon de Jezus [Leukeleu](http://www.leukeleu.nl/){.http}
+- Ramon de Jezus [Leukeleu](http://www.leukeleu.nl/)
 
-- Marco Braak [Ride The Pony](http://www.ridethepony.nl/){.http}
+- Marco Braak [Ride The Pony](http://www.ridethepony.nl/)
 
-- [Remco Wendt](https://twitter.com/sshanx){.https} - [Maykin Media](http://www.maykinmedia.nl/){.http}
+- [Remco Wendt](https://twitter.com/sshanx) - [Maykin Media](http://www.maykinmedia.nl/)
 
 - Richard Dijkstra
 
-- [Wichert Akkerman](http://www.wiggy.net/){.http}, [Simplon](http://www.simplon.biz/){.http} & 2Style4You
+- [Wichert Akkerman](http://www.wiggy.net/), [Simplon](http://www.simplon.biz/) & 2Style4You
 
-## Maybe {#Maybe}
+## Maybe 
 
-- [Julien Lengrand-Lambert](http://www.lengrand.fr/){.http} (I\'ll probably be late, my plane lands a 18.30 :s)
+- [Julien Lengrand-Lambert](http://www.lengrand.fr/) (I\'ll probably be late, my plane lands a 18.30 :s)
 
-- [Winfried Tilanus](http://www.tilanus.com/){.http}
+- [Winfried Tilanus](http://www.tilanus.com/)
 
-- [Fritz van Deventer](http://technokrat.nl/){.http}
+- [Fritz van Deventer](http://technokrat.nl/)
 
 - Arjen Vrielink
 
@@ -101,19 +106,18 @@ See also [http://lanyrd.com/2012/dutch-python-meeting/](http://lanyrd.com/2012/d
 
 - Philipp Groetsch
 
-- [Wouter de Vries](http://people.djangoproject.com/wadevries/){.http}
+- [Wouter de Vries](http://people.djangoproject.com/wadevries/)
 
 - Vitali Kiruta
 
-## Unfortunately not :( {#Unfortunately_not_:.28}
+## Unfortunately not :( 
 
-- [Niels Bom](http://www.nielsbom.com/){.http}, [Minddistrict](http://www.minddistrict.nl/){.http}
+- [Niels Bom](http://www.nielsbom.com/), [Minddistrict](http://www.minddistrict.nl/)
 
-- [K.Karamazen](http://nl.linkedin.com/pub/kresimir-karamazen/11/8ab/a55){.http}
+- [K.Karamazen](http://nl.linkedin.com/pub/kresimir-karamazen/11/8ab/a55)
 
-- Jan Murre [Virtual Sciences](http://www.virtualsciences.nl/){.http} (Helaas, gaat toch niet lukken.)
+- Jan Murre [Virtual Sciences](http://www.virtualsciences.nl/) (Helaas, gaat toch niet lukken.)
 
-## Talk Summaries {#Talk_Summaries}
+## Talk Summaries 
 
-[Maurits van Rees](http://maurits.vanrees.org/weblog/archive/2012/09/pun){.http}
-:::
+[Maurits van Rees](http://maurits.vanrees.org/weblog/archive/2012/09/pun)

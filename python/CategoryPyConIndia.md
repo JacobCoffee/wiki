@@ -1,16 +1,21 @@
 # CategoryPyConIndia
 
-:::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 CategoryPyConIndia is the holder page for Indian Pycon events.
 
 **List of pages in this category:**
 
-# 2011 {#A2011}
+# 2011 
 
 ::: searchresults
 :::
 
-# 2010 {#A2010}
+# 2010 
 
 ::: searchresults
 1.  [PyConIndia2010/BudgetEstimates](./PyConIndia2010(2f)BudgetEstimates.html?highlight=%28%5CbCategoryPyConIndia%5Cb%29)
@@ -21,7 +26,7 @@ CategoryPyConIndia is the holder page for Indian Pycon events.
 6.  [PyConIndiaSpeakerNotes](./PyConIndiaSpeakerNotes.html?highlight=%28%5CbCategoryPyConIndia%5Cb%29)
 :::
 
-# 2009 {#A2009}
+# 2009 
 
 ::: searchresults
 1.  [HowFossConfWorks](./HowFossConfWorks.html?highlight=%28%5CbCategoryPyConIndia2009%5Cb%29)
@@ -43,4 +48,3 @@ CategoryPyConIndia is the holder page for Indian Pycon events.
 ------------------------------------------------------------------------
 
 [CategoryPyCon](CategoryPyCon) CategoryPyConIndia
-::::::

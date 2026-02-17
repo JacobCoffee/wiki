@@ -1,7 +1,12 @@
 # PyQt/Sending Python values with signals and slots
 
-::::: {#content dir="ltr" lang="en"}
-# Sending Python values with signals and slots {#Sending_Python_values_with_signals_and_slots}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Sending Python values with signals and slots 
 
 On the `#pyqt`{.backtick} channel on Freenode, `Khertan`{.backtick} asked about sending Python values via Qt\'s signals and slots mechanism.
 
@@ -9,9 +14,9 @@ The following example uses the `PyQt_PyObject`{.backtick} value declaration with
 
 **Note:** The comments about new style connections in the code are incorrect.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-a9d72e59837135a995f4ccf6d0fd2c85f988baeb dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import *
    3 from PyQt4.QtGui import *
@@ -54,4 +59,3 @@ The following example uses the `PyQt_PyObject`{.backtick} value declaration with
 ```
 :::
 ::::
-:::::

@@ -40,7 +40,6 @@ BruceMartin
 BrunoRocha
 BylawsWG
 CallForLogos
-CamelCase
 Casper.dcl
 CategoryHomepage
 CategoryTemplate
@@ -119,10 +118,8 @@ MissingHomePage
 MissingPage
 MoinMoin
 NaomiCeder
-NewMember
 NewMembershipModel
 PSF Conference Kit
-PSF Logo
 PSF Logos
 PSF Press Kit
 PSF Python Brochure
@@ -135,7 +132,6 @@ PeterChu
 Pip2020DonorFundedRoadmap
 ProjectFundingWG
 ProjectGroupsTemplate
-ProjectTemplate
 ProposalsForDiscussion
 PydotorgWG
 Python Logos

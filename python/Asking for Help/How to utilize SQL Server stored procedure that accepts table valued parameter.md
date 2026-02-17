@@ -1,7 +1,12 @@
 # Asking for Help/How to utilize SQL Server stored procedure that accepts table valued parameter
 
-:::: {#content dir="ltr" lang="en"}
-# Asking for Help: \... {#Asking_for_Help:_...}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: \... 
 
 How do I pass a table to a SQL Server stored procedure that will accept a table valued parameter? \...
 
@@ -12,4 +17,3 @@ When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAski
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp)
-::::

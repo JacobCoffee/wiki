@@ -1,16 +1,20 @@
 # BrunoFagundez
 
-::: {#content dir="ltr" lang="en"}
-## Bruno Fagundez {#Bruno_Fagundez}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Bruno Fagundez 
 
 - Python developer since 2012
 - Web applications developer
 
-## Contact {#Contact}
+## Contact 
 
-- Email: [bfagundez@gmail.com](mailto:bfagundez@gmail.com){.mailto}
+- Email: [bfagundez@gmail.com](mailto:bfagundez@gmail.com)
 
 - Based in Montevideo, Uruguay
 
 [CategoryHomepage](CategoryHomepage)
-:::

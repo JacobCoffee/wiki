@@ -1,15 +1,20 @@
 # UML
 
-::: {#content dir="ltr" lang="en"}
-# Unified Modeling Language {#Unified_Modeling_Language}
+```{admonition} Legacy Wiki Page
+:class: note
 
-(Give general background on [UML](http://www.uml.org/){.http}.)
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- [pyut](http://sourceforge.net/projects/pyut/){.http} is a \"Python UML Tool\".
+# Unified Modeling Language 
 
-- [Pyreverse](http://www.pylint.org/){.http} has now been integrated into pylint
+(Give general background on [UML](http://www.uml.org/).)
 
-- [PyNSource](http://www.andypatterns.com/index.php/products/pynsource/){.http}
+- [pyut](http://sourceforge.net/projects/pyut/) is a \"Python UML Tool\".
+
+- [Pyreverse](http://www.pylint.org/) has now been integrated into pylint
+
+- [PyNSource](http://www.andypatterns.com/index.php/products/pynsource/)
 
 - pyIdea
 
@@ -17,9 +22,8 @@
 
 - sparxsystems?
 
-## Disambiguation {#Disambiguation}
+## Disambiguation 
 
 UML also stands for\...
 
-- [User-mode Linux](http://www.uml.org/){.http}
-:::
+- [User-mode Linux](http://www.uml.org/)

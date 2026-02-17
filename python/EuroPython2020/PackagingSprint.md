@@ -1,9 +1,14 @@
 # EuroPython2020/PackagingSprint
 
-:::: {#content dir="ltr" lang="en"}
-# Python packaging sprint at EuroPython 2020 {#Python_packaging_sprint_at_EuroPython_2020}
+```{admonition} Legacy Wiki Page
+:class: note
 
-We welcome package maintainers, backend and frontend web developers, infrastructure administrators, technical writers, and testers to join us at sprints to help us make the new PyPI, and [the entire packaging/distribution toolchain](https://packaging.python.org/key_projects/#pypa-projects){.https}, as usable and robust as possible.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Python packaging sprint at EuroPython 2020 
+
+We welcome package maintainers, backend and frontend web developers, infrastructure administrators, technical writers, and testers to join us at sprints to help us make the new PyPI, and [the entire packaging/distribution toolchain](https://packaging.python.org/key_projects/#pypa-projects), as usable and robust as possible.
 
 We\'re working on Warehouse, pip, bandersnatch, wheel, and more. We\'re using Pyramid, Pylons, StimulusJS, CSS, static typechecking with mypy, ElasticSearch, Sphinx, and regular Python, and we also need help with Travis CI and continuous integration, and Anaconda and Windows support.
 
@@ -11,29 +16,17 @@ Or, if you just want to learn to **use** the tools to package your scripts up an
 
 Newcomers are welcome \-- we\'ll help you learn and contribute!
 
-::: table-of-contents
-Contents
+## Register 
 
-1.  [Python packaging sprint at EuroPython 2020](#Python_packaging_sprint_at_EuroPython_2020)
-    1.  [Register](#Register)
-    2.  [Dates](#Dates)
-    3.  [Participants](#Participants)
-    4.  [Working on](#Working_on)
-    5.  [Discussion](#Discussion)
-    6.  [Tutorials/resources](#Tutorials.2Fresources)
-:::
-
-## Register {#Register}
-
-You\'ll need to [register and get a free ticket](https://ep2020.europython.eu/events/sprints/){.https} ahead of time.
+You\'ll need to [register and get a free ticket](https://ep2020.europython.eu/events/sprints/) ahead of time.
 
 You should probably register by July 20th or so - no registration deadline has yet been announced.
 
-## Dates {#Dates}
+## Dates 
 
 This sprint will happen during the [EuroPython](EuroPython) weekend: Saturday & Sunday July 25 & 26, online.
 
-## Participants {#Participants}
+## Participants 
 
 **Attending**:
 
@@ -44,7 +37,7 @@ This sprint will happen during the [EuroPython](EuroPython) weekend: Saturday & 
 - Felipe Rodrigues
 - \[add your name here!\]
 
-## Working on {#Working_on}
+## Working on 
 
 - bandersnatch: getting the next release out
 
@@ -56,21 +49,20 @@ This sprint will happen during the [EuroPython](EuroPython) weekend: Saturday & 
 
 - helping newcomers learn to make packages
 
-- test [the new pip dependency resolver](https://github.com/pypa/pip/issues/988){.https}
+- test [the new pip dependency resolver](https://github.com/pypa/pip/issues/988)
 
-## Discussion {#Discussion}
+## Discussion 
 
-[https://discuss.python.org/t/europython-online-sprint-july-25-26/4300](https://discuss.python.org/t/europython-online-sprint-july-25-26/4300){.https}
+[https://discuss.python.org/t/europython-online-sprint-july-25-26/4300](https://discuss.python.org/t/europython-online-sprint-july-25-26/4300)
 
-## Tutorials/resources {#Tutorials.2Fresources}
+## Tutorials/resources 
 
-1.  If you don\'t know git: [https://swcarpentry.github.io/git-novice/](https://swcarpentry.github.io/git-novice/){.https}
+1.  If you don\'t know git: [https://swcarpentry.github.io/git-novice/](https://swcarpentry.github.io/git-novice/)
 
-2.  If you have never packaged a Python project before: [https://packaging.python.org/tutorials/packaging-projects/](https://packaging.python.org/tutorials/packaging-projects/){.https}
+2.  If you have never packaged a Python project before: [https://packaging.python.org/tutorials/packaging-projects/](https://packaging.python.org/tutorials/packaging-projects/)
 
-3.  If you want to understand the internals of PyPI & pip: [https://warehouse.readthedocs.io/application/](https://warehouse.readthedocs.io/application/){.https} & [https://pip.pypa.io/en/latest/development/architecture/](https://pip.pypa.io/en/latest/development/architecture/){.https}
+3.  If you want to understand the internals of PyPI & pip: [https://warehouse.readthedocs.io/application/](https://warehouse.readthedocs.io/application/) & [https://pip.pypa.io/en/latest/development/architecture/](https://pip.pypa.io/en/latest/development/architecture/)
 
-4.  Presentations you can read: [https://www.pypa.io/en/latest/presentations/](https://www.pypa.io/en/latest/presentations/){.https}
+4.  Presentations you can read: [https://www.pypa.io/en/latest/presentations/](https://www.pypa.io/en/latest/presentations/)
 
-5.  In case you want to use a template to start a new package: [https://nsls-ii.github.io/scientific-python-cookiecutter/preliminaries.html](https://nsls-ii.github.io/scientific-python-cookiecutter/preliminaries.html){.https}
-::::
+5.  In case you want to use a template to start a new package: [https://nsls-ii.github.io/scientific-python-cookiecutter/preliminaries.html](https://nsls-ii.github.io/scientific-python-cookiecutter/preliminaries.html)

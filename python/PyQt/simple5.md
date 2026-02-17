@@ -1,17 +1,22 @@
 # PyQt/simple5
 
-::::: {#content dir="ltr" lang="en"}
-## \"Simple\" Stage 5 {#A.22Simple.22_Stage_5}
+```{admonition} Legacy Wiki Page
+:class: note
 
-### updateStatus {#updateStatus}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## \"Simple\" Stage 5 
+
+### updateStatus 
 
 In Stage 4 the listing was long enough to fill one wiki page, so we did not spend much time discussing it. Now we can discuss several items in the list.
 
 The **updateStatus** method from **Simple \"Finished\"** is shown in the inset below:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-c5a80877edebb36749824c6f86abcede9046d900 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     def updateStatus(self, message):
    2         '''Keep status current.'''
    3         if self.fileName is not None:
@@ -23,7 +28,7 @@ The **updateStatus** method from **Simple \"Finished\"** is shown in the inset b
 :::
 ::::
 
-It is called whenever it seems desirable to update the status, including the displayed name of the file being edited. There is a strange addition of a string **\"\[\*\]\"**, which is shown only if the text in the editor has changed, except that it must not happen whilst the file name is still **\"None\"**. When the program is instantiated, the **[init]{.u}** procedure sets sensibly the **fileName** to **None**.
+It is called whenever it seems desirable to update the status, including the displayed name of the file being edited. There is a strange addition of a string **\"\[\*\]\"**, which is shown only if the text in the editor has changed, except that it must not happen whilst the file name is still **\"None\"**. When the program is instantiated, the **[init]** procedure sets sensibly the **fileName** to **None**.
 
 Actually we never see the string **\"\[\*\]\"** - PyQt is smart enough to show **\"fileName\*\"** when the text is altered. If you examine the code, you will see that there is a signal
 
@@ -31,7 +36,7 @@ Actually we never see the string **\"\[\*\]\"** - PyQt is smart enough to show *
 
 that is activated when the text has changed and it calls the method to set flag \"dirty\" to True, which in turn causes the **updateStatus** to be called. All the programming steps to achieve these fairly smart status indication changes can be figured out, but where do we get the basic information - what and how: **title display changes, text in editor window changes etc.?**
 
-### Qt Assistant {#Qt_Assistant}
+### Qt Assistant 
 
 Just like the **Qt Designer** is an indispensable tool, so is **Qt Assistant**. Let me quote what a few better informed people on the PyQt mailing list
 
@@ -80,7 +85,7 @@ The answers from two **gurus** were:
 
 What I sought and got was not **\"a fish for one meal\"**, but a line, hook and instructions to **\"feed me continually\"**. It\'s now up to me to make good use of it. I feel morally obliged to **share** it with you!
 
-### Selecting and Compiling Resources {#Selecting_and_Compiling_Resources}
+### Selecting and Compiling Resources 
 
 Concentrating our mind to code development, leads to unintended consequence of ignoring some other important aspects of programming, which, once learned, easily drift from our attention. Resources is one such aspect. Where do all the icon images come from?
 
@@ -117,4 +122,3 @@ What this last command achieves has a humorous shading: a human readable **simpl
 You will no doubt recall that **qrc_simple** and **ui_simple** are *imported* to the program and thus made available to augment the \"Simple\" **text editor.**
 
 [Return Home](./PyQt(2f)simple.html)
-:::::

@@ -1,19 +1,24 @@
 # SAP DB
 
-::: {#content dir="ltr" lang="en"}
-# SAP DB (MaxDB) {#SAP_DB_.28MaxDB.29}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# SAP DB (MaxDB) 
 
 URL for 7.6 and later
 
-:   [http://www.sdn.sap.com/irj/sdn/maxdb](http://www.sdn.sap.com/irj/sdn/maxdb){.http}
+:   [http://www.sdn.sap.com/irj/sdn/maxdb](http://www.sdn.sap.com/irj/sdn/maxdb)
 
 URL for 7.5
 
-:   (was [http://www.mysql.org/products/maxdb/](http://www.mysql.org/products/maxdb/){.http}, but is no longer available)
+:   (was [http://www.mysql.org/products/maxdb/](http://www.mysql.org/products/maxdb/), but is no longer available)
 
 URL for 7.3 and 7.4
 
-:   [http://www.sapdb.org/](http://www.sapdb.org/){.http}
+:   [http://www.sapdb.org/](http://www.sapdb.org/)
 
 licence
 :   7.3 and 7.4 (GPL + LGPL), 7.5 (GPL), 7.6 and later (Commercial and free community edition)
@@ -23,13 +28,13 @@ platforms
 
 ------------------------------------------------------------------------
 
-## DB API 2.0 Drivers {#DB_API_2.0_Drivers}
+## DB API 2.0 Drivers 
 
 ### sdb.dbapi
 
 URL
 
-:   [http://maxdb.sap.com/doc/7_7/46/71b2a516ae0284e10000000a1553f6/frameset.htm](http://maxdb.sap.com/doc/7_7/46/71b2a516ae0284e10000000a1553f6/frameset.htm){.http}
+:   [http://maxdb.sap.com/doc/7_7/46/71b2a516ae0284e10000000a1553f6/frameset.htm](http://maxdb.sap.com/doc/7_7/46/71b2a516ae0284e10000000a1553f6/frameset.htm)
 
 licence
 :   (?) SAP now releases MaxDB for free, but no longer as open-source software
@@ -45,7 +50,7 @@ Python versions
 
 URL
 
-:   [http://www.sapdb.org/sap_db_program.htm](http://www.sapdb.org/sap_db_program.htm){.http}
+:   [http://www.sapdb.org/sap_db_program.htm](http://www.sapdb.org/sap_db_program.htm)
 
 licence
 :   LGPL
@@ -58,11 +63,11 @@ Python versions
 
 This is for the older SAP DB releases 7.3 and 7.4.
 
-### mxODBC {#mxODBC}
+### mxODBC 
 
 URL
 
-:   [http://www.egenix.com/products/python/mxODBC/](http://www.egenix.com/products/python/mxODBC/){.http}
+:   [http://www.egenix.com/products/python/mxODBC/](http://www.egenix.com/products/python/mxODBC/)
 
 Licence
 :   eGenix.com Commercial License
@@ -77,13 +82,13 @@ SAP DB\'s native CLI is ODBC compatible and mxODBC can link directly against the
 
 Supports all SAP DB versions.
 
-## Other Drivers {#Other_Drivers}
+## Other Drivers 
 
 ### sdb.sql
 
 URL
 
-:   [http://maxdb.sap.com/doc/7_7/46/71b2a516ae0284e10000000a1553f6/frameset.htm](http://maxdb.sap.com/doc/7_7/46/71b2a516ae0284e10000000a1553f6/frameset.htm){.http}
+:   [http://maxdb.sap.com/doc/7_7/46/71b2a516ae0284e10000000a1553f6/frameset.htm](http://maxdb.sap.com/doc/7_7/46/71b2a516ae0284e10000000a1553f6/frameset.htm)
 
 licence
 :   (?) SAP now releases MaxDB for free, but no longer as open-source software
@@ -99,7 +104,7 @@ Python versions
 
 URL
 
-:   [http://www.sapdb.org/sap_db_program.htm](http://www.sapdb.org/sap_db_program.htm){.http}
+:   [http://www.sapdb.org/sap_db_program.htm](http://www.sapdb.org/sap_db_program.htm)
 
 licence
 :   LGPL
@@ -112,7 +117,7 @@ Python versions
 
 This is for the older SAP DB releases 7.3 and 7.4.
 
-#### Programming Model {#Programming_Model}
+#### Programming Model 
 
     cursor = session.sql ("select * from messages")
     for msgno, lang, text in cursor:
@@ -131,7 +136,6 @@ This is for the older SAP DB releases 7.3 and 7.4.
 
 ------------------------------------------------------------------------
 
-## Supported Python Applications {#Supported_Python_Applications}
+## Supported Python Applications 
 
 - a sapdb driver exists for [PyDO](PyDO) (Python Data Objects)
-:::

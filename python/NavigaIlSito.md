@@ -1,23 +1,28 @@
 # NavigaIlSito
 
-::: {#content dir="ltr" lang="en"}
-NavigaIlSito è il punto di ingresso all\'esplorazione di questo wiki. [MoinMoin](MoinMoin) supporta i seguenti sistemi di ricerca (vedi anche [IndexingScheme](http://www.usemod.com/cgi-bin/mb.pl?IndexingScheme "MeatBall"){.interwiki}):
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+NavigaIlSito è il punto di ingresso all\'esplorazione di questo wiki. [MoinMoin](MoinMoin) supporta i seguenti sistemi di ricerca (vedi anche [IndexingScheme](http://www.usemod.com/cgi-bin/mb.pl?IndexingScheme "MeatBall")):
 
 - [ModificheRecenti](ModificheRecenti)
 
-- [IndiceDeiTitoli](./IndiceDeiTitoli.html){.nonexistent}
+- [IndiceDeiTitoli](./IndiceDeiTitoli.html)
 
-- [IndicePerParola](./IndicePerParola.html){.nonexistent}
+- [IndicePerParola](./IndicePerParola.html)
 
 - [CercaPagina](CercaPagina)
 
-- [PagineAssenti](./PagineAssenti.html){.nonexistent}
+- [PagineAssenti](./PagineAssenti.html)
 
-- [PagineOrfane](./PagineOrfane.html){.nonexistent}
+- [PagineOrfane](./PagineOrfane.html)
 
-- [PagineCasuali](./PagineCasuali.html){.nonexistent}
+- [PagineCasuali](./PagineCasuali.html)
 
-- [PaginePerDimensione](./PaginePerDimensione.html){.nonexistent}
+- [PaginePerDimensione](./PaginePerDimensione.html)
 
 In fondo ad ogni pagina ci sono delle \"Azioni\" che ti consentono di trovare altre pagine in qualche modo correlate alla pagina corrente:
 
@@ -26,4 +31,3 @@ In fondo ad ogni pagina ci sono delle \"Azioni\" che ti consentono di trovare al
 - LocalSiteMap
 
 Inoltre, ci sono le macro `[[PageList]]`, `[[FullSearch('text')]]` e `[[TableOfContents]]` , che ti permettono di generare automaticamente degli indici di una serie di pagine del wiki.
-:::

@@ -1,7 +1,12 @@
 # Asking for Help/Do you need a int main() like you do in c++
 
-::::::::::::: {#content dir="ltr" lang="en"}
-## Do you need a int main() like you do in c++ here? {#Do_you_need_a_int_main.28.29_like_you_do_in_c.2B-.2B-_here.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Do you need a int main() like you do in c++ here? 
 
 **I am a Newbie to python and need to know if there is a int main that is the body of the program.**
 
@@ -9,9 +14,9 @@ There\'s no requirement to have a `main`{.backtick} function in Python, but ther
 
 Consider a Python file called `program.py`{.backtick}. If we run this file, the content of the file is executed. So you may have some functions and classes and perhaps some normal statements as follows:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-89c2eebb6c68ddb31e4ddc0dd41c28f416093305 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 class C:
     def method(self, arg):
         ...
@@ -29,9 +34,9 @@ Here, the class `C`{.backtick} gets created, as does `method`{.backtick} inside 
 
 Now, if this file were to import other modules, the content of those modules would be executed in the same way. So if we add the following to `program.py`{.backtick}\...
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-fc4c289419408cc61b705f54cf65141970c33f17 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 import mymodule
 ```
 :::
@@ -39,9 +44,9 @@ import mymodule
 
 \...then that module, perhaps defined in `mymodule.py`{.backtick}, would be loaded and run in the same way. Let\'s say that the module is written as follows:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3d49ed13e3a5758ee9264e1db44a01aef3ace406 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 def modfunc(a, b):
     ...
 
@@ -54,9 +59,9 @@ Even if you import `mymodule`{.backtick}, with the code as it is, the `modfunc`{
 
 So what people do in Python is this:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-2443f9b12b09d966bc9a7f677c1ac24d2803720f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 def modfunc(a, b):
     ...
 
@@ -72,9 +77,9 @@ However, we might want to be able to run `mymodule.py`{.backtick} directly. If w
 
 So in summary, by testing the `__name__`{.backtick} in a Python file, you can find out whether the file is the one being run directly because it will have the value `__main__`{.backtick}. Otherwise, it will have another value. Some people tend to write code like the following to emulate a `main`{.backtick} function:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4beb62fed377de6164cb4e13b3ca56670887be27 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
 def main():
     ...
 
@@ -89,4 +94,3 @@ But there\'s really no requirement to have such a function: it\'s just a convent
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::::::::::::

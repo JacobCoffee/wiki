@@ -1,19 +1,24 @@
 # EuroPython/2008/IRCMeetings/IRCMeeting8
 
-::: {#content dir="ltr" lang="en"}
-# IRC Meeting #8 {#IRC_Meeting_.238}
+```{admonition} Legacy Wiki Page
+:class: note
 
-## Time/Location {#Time.2FLocation}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# IRC Meeting #8 
+
+## Time/Location 
 
 The meeting will take place in the #europython channel on freenode at 19:00 CET on Friday 28th March.
 
 Please look at the minutes from the last meeting for more background information: /IRCMeeting7
 
-## Present {#Present}
+## Present 
 
 Laura, David, Paul, Giovanni, Dinu, Stephan, Marius, John, Harald
 
-## Agenda/Minutes {#Agenda.2FMinutes}
+## Agenda/Minutes 
 
 - Talks/Themes
   - Dinu had posted to the europython-improve mailing list about badges.
@@ -36,7 +41,7 @@ Laura, David, Paul, Giovanni, Dinu, Stephan, Marius, John, Harald
 
   - **Paul will mail the python.org postmaster and request a europython-talks list for submissions. Alex Moreati will populate the management system from the list.**
 
-  - **Once the list is available, the [call for participation](http://www.europython.org/community/Planning/CallForParticipationDraft){.http} can go out.**
+  - **Once the list is available, the [call for participation](http://www.europython.org/community/Planning/CallForParticipationDraft) can go out.**
 
   - Workflow discussion (how the talks will be handled)
 
@@ -44,7 +49,7 @@ Laura, David, Paul, Giovanni, Dinu, Stephan, Marius, John, Harald
 
   - Paul will report back on any feedback about themes and theme captains.
 
-  - Useful link: [http://www.europython.org/community/Talk_Suggestions](http://www.europython.org/community/Talk_Suggestions){.http}
+  - Useful link: [http://www.europython.org/community/Talk_Suggestions](http://www.europython.org/community/Talk_Suggestions)
 
   - Christian will report back about copyright assignment forms for filmed contributors.
 
@@ -62,7 +67,7 @@ Laura, David, Paul, Giovanni, Dinu, Stephan, Marius, John, Harald
 
   - Progress of the budget and fees - *Laura/Jacob may have obtained more information about this from Aiste.*
 
-  - Payment systems - investigations and discoveries - Laura will report about the current status with [WorldPay](./WorldPay.html){.nonexistent}
+  - Payment systems - investigations and discoveries - Laura will report about the current status with [WorldPay](./WorldPay.html)
 - Feedback/Surveys
   - Progress on the processing of last year\'s surveys
 - Sponsorship
@@ -82,7 +87,6 @@ Laura, David, Paul, Giovanni, Dinu, Stephan, Marius, John, Harald
   - Sprints
   - Keynotes
 
-## Actions {#Actions}
+## Actions 
 
 - See the bold sections above\...
-:::

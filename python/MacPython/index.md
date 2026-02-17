@@ -6,7 +6,6 @@
 AEDesc
 AeteSearchOrder
 AeveNewbieDiscussion
-AppScripting
 AppleEventManager
 AppleEvents
 AppleScript
@@ -29,7 +28,6 @@ FileMakerProSixTerminology
 Firefox
 FontTools
 FourCharacterCode
-FrontPage
 Growl
 InDesign
 IrcChannel
@@ -44,7 +42,6 @@ MacSoftwareUsingPython
 MediaPro
 Microsoft Powerpoint
 Microsoft Word
-MoinMoin 2fInstallDocs
 NewPackageManager
 OSA
 OmniGraffle

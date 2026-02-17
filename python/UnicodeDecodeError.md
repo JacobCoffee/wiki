@@ -1,6 +1,11 @@
 # UnicodeDecodeError
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The `UnicodeDecodeError` normally happens when decoding an `str` string from a certain coding. Since codings map only a limited number of `str` strings to `unicode` characters, an illegal sequence of `str` characters will cause the coding-specific `decode()` to fail.
 
     Decoding from str to unicode.
@@ -35,9 +40,8 @@ Alternatively, a [TypeError](TypeError) exception could always be thrown on rece
       File "<stdin>", line 1, in <module>
     UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 0: ordinal not in range(128)
 
-Python 3000 will prohibit encoding of bytes, according to PEP [3137](http://www.python.org/dev/peps/pep-3137 "PEP"){.interwiki}: *\"encoding always takes a Unicode string and returns a bytes sequence, and decoding always takes a bytes sequence and returns a Unicode string\"*.
+Python 3000 will prohibit encoding of bytes, according to PEP [3137](http://www.python.org/dev/peps/pep-3137 "PEP"): *\"encoding always takes a Unicode string and returns a bytes sequence, and decoding always takes a bytes sequence and returns a Unicode string\"*.
 
 ------------------------------------------------------------------------
 
 [CategoryUnicode](CategoryUnicode)
-:::

@@ -1,13 +1,18 @@
 # PyCon2008/SprintSignups/MobilePython
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Sign Up for a Sprint!
 
 Are you interested in sprinting in this project? Great!
 
 Please add your name below, include your email address.
 
-If you\'re not sure which project to join, you can register in the [generic sprint sign-up page](http://wiki.python.org/moin/PyCon2008/SprintSignups){.http .reference .external}.
+If you\'re not sure which project to join, you can register in the [generic sprint sign-up page](http://wiki.python.org/moin/PyCon2008/SprintSignups).
 
 See you at PyCon!
 
@@ -21,8 +26,8 @@ No previous experience on mobile programming, nor a mobile phone, is required \-
 
 Project URLs:
 
-- [http://wiki.opensource.nokia.com/projects/PyS60](http://wiki.opensource.nokia.com/projects/PyS60){.http .reference .external}
-- [http://www.mobilepythonbook.org](http://www.mobilepythonbook.org){.http .reference .external}
+- [http://wiki.opensource.nokia.com/projects/PyS60](http://wiki.opensource.nokia.com/projects/PyS60)
+- [http://www.mobilepythonbook.org](http://www.mobilepythonbook.org)
 
 Sprint Leader: Ville Tuulos (ville.h.tuulos \-- nokia.com) and Jürgen Scheible (jscheib \-- taik.fi)
 
@@ -31,4 +36,3 @@ Schedule: Sunday and Monday (Ville and Jürgen have to leave PyCon on Tuesday al
 **Sprinters**
 
 - John Doe (deletethisline at nomail.net)
-:::

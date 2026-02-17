@@ -1,15 +1,20 @@
 # PyQt/Writing a client for a zeromq service
 
-::::: {#content dir="ltr" lang="en"}
-# Writing a client for a zeromq service {#Writing_a_client_for_a_zeromq_service}
+```{admonition} Legacy Wiki Page
+:class: note
 
-On the `#pyqt`{.backtick} channel on [Freenode](http://freenode.net){.http}, `Nils^`{.backtick} asked for a way to write a GUI client for a [zeromq](http://www.zeromq.org){.http} service, using the [Python bindings](http://www.zeromq.org/bindings:python){.http}.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Writing a client for a zeromq service 
+
+On the `#pyqt`{.backtick} channel on [Freenode](http://freenode.net), `Nils^`{.backtick} asked for a way to write a GUI client for a [zeromq](http://www.zeromq.org) service, using the [Python bindings](http://www.zeromq.org/bindings:python).
 
 We decided to try using a worker thread to monitor the socket that connects the client to the server, emitting a signal whenever new data is received.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-216a984109a441354c1b2761830ee353bfa564df dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 ##############################################################################
    2 ##                                                                          ## 
    3 ##  adapted from http://zguide.zeromq.org/py:wuserver                       ##
@@ -90,4 +95,3 @@ We decided to try using a worker thread to monitor the socket that connects the 
 ```
 :::
 ::::
-:::::

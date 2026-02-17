@@ -1,6 +1,11 @@
 # PythonLibraryReference/MultimediaServices
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [Python Library Reference](PythonLibraryReference)
 
 ::: {}
@@ -9,7 +14,7 @@
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
-# Multimedia Services {#Multimedia_Services}
+# Multimedia Services 
 
 14.1 audioop \-- Manipulate raw audio data
 
@@ -39,9 +44,8 @@
 
 14.11.1 Audio Device Objects 14.11.2 Mixer Device Objects
 
-## Comments {#Comments}
+## Comments 
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-::::

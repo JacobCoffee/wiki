@@ -1,7 +1,12 @@
 # CoreSprint
 
-::: {#content dir="ltr" lang="en"}
-## 1. PyConDC 2004 Core Sprint plan {#PyConDC_2004_Core_Sprint_plan}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## 1. PyConDC 2004 Core Sprint plan 
 
 Some ideas:
 
@@ -23,5 +28,4 @@ Some ideas:
 - Update, pare-down, and clean-up Demo and Tools/Scripts
 - Guido to practice throwing pies.
 
-Back to [SprintPlan2004](./SprintPlan2004.html){.nonexistent}
-:::
+Back to [SprintPlan2004](./SprintPlan2004.html)

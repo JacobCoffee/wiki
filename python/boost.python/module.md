@@ -1,6 +1,11 @@
 # boost.python/module
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 ## def
 
 Boost.Python now supports a free-function version of **def** which defines its function in the current scope:
@@ -45,5 +50,4 @@ Be warned, however, that although you can set the current scope from a class\_\<
 
 ***what is a scope?***
 
-The scope is a class that has an associated global Python object which controls the Python namespace in which new extension classes and wrapped functions will be defined as attributes. Details can be found at [boost.python/scope](./boost(2e)python(2f)scope.html){.nonexistent}.
-:::
+The scope is a class that has an associated global Python object which controls the Python namespace in which new extension classes and wrapped functions will be defined as attributes. Details can be found at [boost.python/scope](./boost(2e)python(2f)scope.html).

@@ -1,41 +1,46 @@
 # EmacsEditor
 
-::: {#content dir="ltr" lang="en"}
-# Emacs {#Emacs}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Emacs 
 
 Emacs (the major flavors being [GnuEmacs](GnuEmacs) and XEmacs) is a text editor which come with good support for writing Python code. Each has its strengths and weaknesses, but in general either provide very nice environments for the Python programmer.
 
-## Tools for Python coders {#Tools_for_Python_coders}
+## Tools for Python coders 
 
-Please [get involved](http://mail.python.org/mailman/listinfo/python-mode){.http} if you want to help.
+Please [get involved](http://mail.python.org/mailman/listinfo/python-mode) if you want to help.
 
 Some tools have been written for using Python from Emacs:
 
-- [python-mode.el](http://launchpad.net/python-mode){.http}
+- [python-mode.el](http://launchpad.net/python-mode)
 
   - Addresses a lot of languages specific features, navigates nested blocks, deals with different Python versions and flavors etc.
 
-    How to setup a complete IDE around python-mode.el was shown at [EuroPython 2013](http://www.youtube.com/watch?v=0cZ7szFuz18If){.http}. Other approaches relying on company-mode, Pymacs, ropemacs and pycomplete are known to work likewise
+    How to setup a complete IDE around python-mode.el was shown at [EuroPython 2013](http://www.youtube.com/watch?v=0cZ7szFuz18If). Other approaches relying on company-mode, Pymacs, ropemacs and pycomplete are known to work likewise
 
-- python.el of Emacs 22. For a version with fixes and enhancements (as of 2006-06) and one that works with Emacs 21, see [http://www.loveshack.ukfsn.org/emacs](http://www.loveshack.ukfsn.org/emacs){.http}.
+- python.el of Emacs 22. For a version with fixes and enhancements (as of 2006-06) and one that works with Emacs 21, see [http://www.loveshack.ukfsn.org/emacs](http://www.loveshack.ukfsn.org/emacs).
 
 - python.el of Emacs 24.2.
 
 - Emacs GUD PDB, support for sourcelevel debugging of Python code in Emacs. (Note: thanx to Ganesan R: Create the following script with the file name as \"pdb\" in your path so emacs can find pdb and default to filename arguments in the current dirctory: exec python /usr/lib/python2.3/pdb.py \"\$@\")
 
-- [Pymacs(download)](http://www.iro.umontreal.ca/~pinard/pymacs/Pymacs.tar.gz){.http}, an extension for allowing Emacs users to extend Emacs using Python, where they might have traditionally used Emacs LISP. \' There are also [PyMacs notes on the Emacs wiki.](http://www.emacswiki.org/cgi-bin/wiki.pl?cgi-bin/wiki.pl%3FPyMacs "EmacsWiki"){.interwiki}
+- [Pymacs(download)](http://www.iro.umontreal.ca/~pinard/pymacs/Pymacs.tar.gz), an extension for allowing Emacs users to extend Emacs using Python, where they might have traditionally used Emacs LISP. \' There are also [PyMacs notes on the Emacs wiki.](http://www.emacswiki.org/cgi-bin/wiki.pl?cgi-bin/wiki.pl%3FPyMacs "EmacsWiki")
 
-- [ropemacs](https://github.com/python-rope/rope){.https} is a plugin for performing python refactorings in emacs. It uses rope library and pymacs.
+- [ropemacs](https://github.com/python-rope/rope) is a plugin for performing python refactorings in emacs. It uses rope library and pymacs.
 
-- [Emacs Language Sensitive Editor (ELSE)](http://home.exetel.com.au/peterm){.http}, an template-based minor mode for Emacs, with templates for Python.
+- [Emacs Language Sensitive Editor (ELSE)](http://home.exetel.com.au/peterm), an template-based minor mode for Emacs, with templates for Python.
 
-- [OO-Browser](http://sourceforge.net/projects/oo-browser/){.http}, an Emacs class browser for object-oriented languages with support for Python.
+- [OO-Browser](http://sourceforge.net/projects/oo-browser/), an Emacs class browser for object-oriented languages with support for Python.
 
-- The [emacspeak audio desktop](http://www.cs.cornell.edu/home/raman/emacspeak){.http} is a speech interface that allows visually impaired users to interact independently and efficiently with the computer. It has editing support for interactive Python development. Features aural highlighting, structured browsing and debugging.
+- The [emacspeak audio desktop](http://www.cs.cornell.edu/home/raman/emacspeak) is a speech interface that allows visually impaired users to interact independently and efficiently with the computer. It has editing support for interactive Python development. Features aural highlighting, structured browsing and debugging.
 
-## Support for C Python core developers {#Support_for_C_Python_core_developers}
+## Support for C Python core developers 
 
-Both Emacs and XEmacs have support for developers hacking on the Python C code itself. If you\'re developing Python 2.x, just use the standard `python`{.backtick} style that comes with c-mode. If you\'re hacking on Python 3.x, you\'ll want to add the following code to your `.emacs`{.backtick} file (given by [Georg Brandl](http://mail.python.org/pipermail/python-dev/2008-May/079582.html){.http}):
+Both Emacs and XEmacs have support for developers hacking on the Python C code itself. If you\'re developing Python 2.x, just use the standard `python`{.backtick} style that comes with c-mode. If you\'re hacking on Python 3.x, you\'ll want to add the following code to your `.emacs`{.backtick} file (given by [Georg Brandl](http://mail.python.org/pipermail/python-dev/2008-May/079582.html)):
 
     (c-add-style
       "python-new"
@@ -67,19 +72,18 @@ Both Emacs and XEmacs have support for developers hacking on the Python C code i
 
 **Note:** *We should try to get the style into upstream c-mode.*
 
-## Other resources {#Other_resources}
+## Other resources 
 
-- [The Emacs Wiki](http://www.emacswiki.org/emacs/SiteMap){.http}, a good starting place. Look for relevant articles:
+- [The Emacs Wiki](http://www.emacswiki.org/emacs/SiteMap), a good starting place. Look for relevant articles:
 
-  - [PythonProgrammingInEmacs](http://emacswiki.org/emacs/PythonProgrammingInEmacs){.http}.
+  - [PythonProgrammingInEmacs](http://emacswiki.org/emacs/PythonProgrammingInEmacs).
 
-  - [ProgrammingWithPythonModeDotEl](http://emacswiki.org/emacs/ProgrammingWithPythonModeDotEl){.http}.
+  - [ProgrammingWithPythonModeDotEl](http://emacswiki.org/emacs/ProgrammingWithPythonModeDotEl).
 
-- [GnuEmacs web page](http://www.gnu.org/software/emacs/emacs.html){.http}.
+- [GnuEmacs web page](http://www.gnu.org/software/emacs/emacs.html).
 
-- [XEmacs web page](http://www.xemacs.org/){.http}.
+- [XEmacs web page](http://www.xemacs.org/).
 
 ------------------------------------------------------------------------
 
 [CategoryEditors](CategoryEditors)
-:::

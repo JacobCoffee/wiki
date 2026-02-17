@@ -1,7 +1,12 @@
 # Asking for Help/How can I add or substract two to the last digit of a float?
 
-::: {#content dir="ltr" lang="en"}
-# Asking for Help: How can I add or substract two to the last digit of a float? {#Asking_for_Help:_How_can_I_add_or_substract_two_to_the_last_digit_of_a_float.3F}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: How can I add or substract two to the last digit of a float? 
 
 How can I add or substract two to the last digit of a float? Like 4.9999 should be 5.0001 or 4.9997. The problem is
 
@@ -17,9 +22,8 @@ How can I add or substract two to the last digit of a float? Like 4.9999 should 
     >>> str(( 4.9999 * 10000 + 2 ) / 10000)
     '5.0001'
 
-Answer: [http://www.python.org/doc/current/library/decimal.html?highlight=round#decimal-faq](http://www.python.org/doc/current/library/decimal.html?highlight=round#decimal-faq){.http}
+Answer: [http://www.python.org/doc/current/library/decimal.html?highlight=round#decimal-faq](http://www.python.org/doc/current/library/decimal.html?highlight=round#decimal-faq)
 
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::

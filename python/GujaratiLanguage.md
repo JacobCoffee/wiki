@@ -1,11 +1,16 @@
 # GujaratiLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Describe Gujarati ગુજરાતી and include links to Python information in the Gujarati Language here.
 
 ISO 639-1 Code: gu
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -25,11 +30,11 @@ Where these pages really need help:
 
 **ગુજરાતી**
 
-Phrases for code snippet from [masteranylanguage.com](http://www.masteranylanguage.com/cgi/f/rView.pl?pc=MALGujarati&tc=CommonPhrases&vm=fc&la=&sw=1){.http}
+Phrases for code snippet from [masteranylanguage.com](http://www.masteranylanguage.com/cgi/f/rView.pl?pc=MALGujarati&tc=CommonPhrases&vm=fc&la=&sw=1)
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-834a9d0ea6b1ded265918854c29cf23dd60f905e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # -*- coding: utf-8 -*-
    2 # python 3.0 or 3.1
    3 
@@ -56,4 +61,3 @@ Phrases for code snippet from [masteranylanguage.com](http://www.masteranylangua
 ------------------------------------------------------------------------
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode) [CategoryPythonIndia](CategoryPythonIndia)
-:::::

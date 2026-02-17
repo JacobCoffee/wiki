@@ -1,13 +1,17 @@
 # MichaelDubner
 
-::: {#content dir="ltr" lang="en"}
-## MichaelDubner {#MichaelDubner-1}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## MichaelDubner 
 
 Current public projects (on Python):
 
-\* [PyWebMail](http://pywebmail.sourceforge.net/){.http} - library for accessing numerous webmail servers (Yahoo, GMail, [HotMail](./HotMail.html){.nonexistent}, [MailCom](./MailCom.html){.nonexistent}, Netscape and so on) and POP3 gateway. **Rather stable.**
+\* [PyWebMail](http://pywebmail.sourceforge.net/) - library for accessing numerous webmail servers (Yahoo, GMail, [HotMail](./HotMail.html), [MailCom](./MailCom.html), Netscape and so on) and POP3 gateway. **Rather stable.**
 
-\* [MivMaz](https://sourceforge.net/projects/mivmaz/){.https} - library with new GUI aproach. **Not ever started.**
+\* [MivMaz](https://sourceforge.net/projects/mivmaz/) - library with new GUI aproach. **Not ever started.**
 
 [CategoryHomepage](CategoryHomepage)
-:::

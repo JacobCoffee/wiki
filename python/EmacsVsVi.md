@@ -1,13 +1,18 @@
 # EmacsVsVi
 
-::: {#content dir="ltr" lang="en"}
-# Emacs vs. Vi {#Emacs_vs._Vi}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Emacs vs. Vi 
 
 Both of these editors support many fundamental virtues of text editors such as extensive syntax highlighting, collapsible functions, spell checking, macros, undo-redo, multiple document editing, and a large support community. They are both free, Open Source, mature and well developed pieces of software. But\...while both [Emacs](EmacsEditor) and [Vim](Vim) are considered powerful text editors, both capable of providing many of the same feature lists for general editing commands, the primary difference between these editors is the fundamental philosophy behind their design, and more to the point, the types of workflow that they were originally designed to handle. A search online for \"philosecurity ninja or pirate\" will produce a fun read on Vi creator Bill Joy and Emacs creator Richard Stallman. Because of the major design differences between these editors, emac/xemac extensions to emulate vi and vim are readily available online. For those more interested in personal versatility and combining the best attributes of both editors, there is information provided at the bottom of this wiki under the heading \"More Tips\".
 
 At first, Vi (and its popular variant [Vim](Vim)) were considered mere small text editors built for speed with their focus on editing text quickly, but as they\'ve matured have become considered to be on par with emacs/xemacs. Ultimately, these editors may have different pros and cons depending primarily on your style and workflow needs. For instance, \"Vi\" and [Vim](Vim) starts much faster than [Emacs](EmacsEditor) and their usual workflow assumes that you often will both enter through and exit from them alone. [Vim](Vim) has matured to using a tabbed interface which can be used to edit multiple files very quickly, while [Emacs](EmacsEditor) are based more on the assumption that you\'ll be working in one spot for a more extended period of time.
 
-Historically, among sysadmins, *vi*/*vim* has tended to be the preferred software, while *emacs*/*xemacs* has tended to be favored more by programmers. This is not very surprising when you compare the typical editing needs of sysadmins v/s programmers to the relative merits of the two different editors. For a VERY detailed explanation of why this has been the case and the pros and cons of each editor, visit [Emacs for Sysadmins](http://devopsanywhere.blogspot.com/2011/11/emacs-for-sysadmins.html){.http}
+Historically, among sysadmins, *vi*/*vim* has tended to be the preferred software, while *emacs*/*xemacs* has tended to be favored more by programmers. This is not very surprising when you compare the typical editing needs of sysadmins v/s programmers to the relative merits of the two different editors. For a VERY detailed explanation of why this has been the case and the pros and cons of each editor, visit [Emacs for Sysadmins](http://devopsanywhere.blogspot.com/2011/11/emacs-for-sysadmins.html)
 
 Commonly, systems administrators are working on many different machines, in varying states of installation, configuration and repair. They are making relatively quick edits to many different files. An editor with a quick load time, blazing keyboard efficiency (with the right expertise) and few library or other dependencies is essential. Preferably it will be the editor that virtually every version of UNIX includes by default. It is even, occasionally, handy that the editor be able to fall back on an old fashioned line editing mode when even the terminal emulation subsystem is non-functional.
 
@@ -19,7 +24,7 @@ Helpful Tips:
 
 - With emacs/xemacs one can access the vi keybindings use the command: **M-x viper** (That\'s \[Alt\]+\[x\]viper\[Enter\] or \[Esc\]\[x\]viper\[Enter\] \-\-- either should work, but the latter will work on terminals/keyboards that don\'t have an \[Alt\] key).
 
-- To emulate vim features such as visual selection and text objects, the extensible vi layer \"[Evil](http://emacswiki.org/emacs/Evil){.http}\" is available on emacswiki.org.
+- To emulate vim features such as visual selection and text objects, the extensible vi layer \"[Evil](http://emacswiki.org/emacs/Evil)\" is available on emacswiki.org.
 
 - In *vim* use the *ex*-mode command **:syntax on** to enable syntax highlighting (which is often configured to be off by default).
 
@@ -32,4 +37,3 @@ Ultimately the choice of a text editor is a highly personal one, so flame wars o
 ------------------------------------------------------------------------
 
 [CategoryEditors](CategoryEditors)
-:::

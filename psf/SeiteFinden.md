@@ -1,12 +1,16 @@
 # SeiteFinden
 
-::::: {#content dir="ltr" lang="de"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 :::: {}
 ::: {}
 Search for items
 :::
 ::::
-:::::
 
 containing all the following terms
 
@@ -57,4 +61,4 @@ Gute Einstiegsseiten für die Erkundung eines Wikis sind:
 
 - [WortIndex](WortIndex): eine Liste aller Teilworte von Seitentiteln (und daher eine Liste aller Konzepte in einem Wiki)
 
-- [WegWeiser](./WegWeiser.html){.nonexistent}: eine Liste aller unterstützten Indizierungsschemata
+- [WegWeiser](./WegWeiser.html): eine Liste aller unterstützten Indizierungsschemata

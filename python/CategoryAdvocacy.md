@@ -1,7 +1,12 @@
 # CategoryAdvocacy
 
-:::: {#content dir="ltr" lang="en"}
-## A Category to Bind Together Pages About Python Advocacy {#A_Category_to_Bind_Together_Pages_About_Python_Advocacy}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## A Category to Bind Together Pages About Python Advocacy 
 
 ::: searchresults
 1.  [Advocacy](./Advocacy.html?highlight=%28CategoryAdvocacy%29)
@@ -33,4 +38,3 @@
 :::
 
 lists all pages in the category CategoryAdvocacy
-::::

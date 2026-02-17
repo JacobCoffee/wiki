@@ -1,7 +1,12 @@
 # BetterPyPI
 
-::: {#content dir="ltr" lang="en"}
-# stability and high availability {#stability_and_high_availability}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# stability and high availability 
 
 we went in two directions to improve PyPI :
 
@@ -11,9 +16,9 @@ we went in two directions to improve PyPI :
 
 The mirroring protocol (PEP 381) is implemented on server-side, I\'ve worked with Martin on this, and we have mirrors now:
 
-Look at [http://pypi.python.org/mirrors](http://pypi.python.org/mirrors){.http}
+Look at [http://pypi.python.org/mirrors](http://pypi.python.org/mirrors)
 
-Also, there\'s a client that anyone can use to set up a mirror: [http://pypi.python.org/pypi/pep381client](http://pypi.python.org/pypi/pep381client){.http}
+Also, there\'s a client that anyone can use to set up a mirror: [http://pypi.python.org/pypi/pep381client](http://pypi.python.org/pypi/pep381client)
 
 The idea is that anyone in the community willing to maintain a mirror can do so. We add the mirror in the CND, and make it available for client tools to use. What\'s really missing right now is more integration on client-side.
 
@@ -21,7 +26,7 @@ The idea is that anyone in the community willing to maintain a mirror can do so.
 
 The effect of the mirrors is that PyPI being down should not impact the community. This will be true once all tool are transparently using the mirrors.
 
-## better infra {#better_infra}
+## better infra 
 
 The current plan is to have two primary load balancer VMs running Nginx acting as both balancer and SSL termination points. These will share a set of floating IPs using Heartbeat. Behind this will be the same Apache configuration currently in use (Apache serving static files and PyPI running as an FCGI script controlled by Apache) running on two VMs, both talking to the same master-slave Postgres 9 replication setup. Package files will initially be handled by a shared DRBD drive, however this may be obsoleted by the project to move file hosting to Cloudfront or another CDN.
 
@@ -29,7 +34,7 @@ A currently open question is how best to provide reliability and security for th
 
 This will only partially address the current reliability issues as many of the current problems are linked to Apache or mod_fcgid needing to be restarted. In that light I would like to see PyPI and the catalog-sig group investigate moving the codebase to work against mod_wsgi or gunicorn (no real preference between the two) to create a more reliable runtime environment.
 
-# private mirrors {#private_mirrors}
+# private mirrors 
 
 Having a private mirror makes a lot of sense, when companies need to make sure their build systems are not relying on external services like PyPI or a mirror. It\'s also a good way to dramatically reduce the load for the community servers.
 
@@ -39,7 +44,7 @@ We have everything needed these days to set up this kind of system, with zc.buil
 
 What we need is a good tutorial or a guide \[\*\]
 
-# private projects {#private_projects}
+# private projects 
 
 The part that we do not address in the community is private projects: since we don\'t have any permissions/group/roles system in PyPI, everything is public.
 
@@ -54,4 +59,3 @@ What we need is a good tutorial or a guide \[\*\]
 The material could then be published at python.org/pypi to help out.
 
 I know Richard has some material already, so maybe this could be a joint tutorial ?
-:::

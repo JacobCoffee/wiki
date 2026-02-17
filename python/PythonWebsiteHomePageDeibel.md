@@ -1,11 +1,16 @@
 # PythonWebsiteHomePageDeibel
 
-::: {#content dir="ltr" lang="en"}
-# Stephan Deibel\'s Python.org Home Page Candidate Plan {#Stephan_Deibel.27s_Python.org_Home_Page_Candidate_Plan}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Stephan Deibel\'s Python.org Home Page Candidate Plan 
 
 (basing this on [PythonWebsiteHomePageGoodger](PythonWebsiteHomePageGoodger))
 
-## Home Page {#Home_Page}
+## Home Page 
 
 The home page should contain the intro paragraph (minus What is Python header) and \*some\* material that overviews the language and what it\'s used for \-- but this should be 1-2 additional paragraphs only and not mention any specific packages as is done now.
 
@@ -26,7 +31,7 @@ Center:
 
 - 1-2 more paragraphs describing Python and what it is used for \-- don\'t mention specific packages
 
-- Prominent \"More detail\...\" link to /apps (new section proposed in [PythonWebsiteHomepageGoodger](./PythonWebsiteHomepageGoodger.html){.nonexistent}) (maybe also another to /about/benefits, tho I\'m less wild about that page)
+- Prominent \"More detail\...\" link to /apps (new section proposed in [PythonWebsiteHomepageGoodger](./PythonWebsiteHomepageGoodger.html)) (maybe also another to /about/benefits, tho I\'m less wild about that page)
 
 - Under \"Try Python Today!\" header: prominent Download, Get Started, Documentation buttons/icons
 
@@ -42,17 +47,17 @@ Right sidebar:
 
 - \"Written in Python\" \-- get rid of this entirely (How about moving it into a page under ABOUT? I think listing prominent Python projects \[& Python users?\] is useful for marketing. \--David Goodger)
 
-## Navigation Menu {#Navigation_Menu}
+## Navigation Menu 
 
 - I disagree that PSF should be higher up \-- I think it\'s fine after Community. Also no need to spell this out. The PSF is referenced from elsewhere when appropriate (license page, etc) and otherwise just isn\'t that interesting to most users of the site.
 - I also disagree w/ David that we should change \"Python-dev\" to \"Developers\" \-- this is going to cause more confusion I think
 - Add \"Applications\" section /apps (see below) \-- This should be right after About
 
-## ABOUT section {#ABOUT_section}
+## ABOUT section 
 
 Change order:
 
-- Benefits (new page; see [http://www.squidoo.com/pythonology/](http://www.squidoo.com/pythonology/){.http}) (I think this should be first) (I\'m not entirely wild about this page \-- I think abstract benefits are not the reason people are going to be interested in or pick up Python; they are things people appreciate only after the fact and otherwise view as hype. But I\'m willing to try having such a page)
+- Benefits (new page; see [http://www.squidoo.com/pythonology/](http://www.squidoo.com/pythonology/)) (I think this should be first) (I\'m not entirely wild about this page \-- I think abstract benefits are not the reason people are going to be interested in or pick up Python; they are things people appreciate only after the fact and otherwise view as hype. But I\'m willing to try having such a page)
 
 - Getting Started
 
@@ -64,11 +69,11 @@ Change order:
 
 - Help
 
-## APPLICATIONS section /apps {#APPLICATIONS_section_.2Fapps}
+## APPLICATIONS section /apps 
 
 One item & page per major application area (i.e. \"Using Python For\...\" items from the home page) Sort existing home page content under there and expand substantially. This is where wiki style editing might be nice although I think I would prefer to have these pages not actually entirely in the wiki. Rather, have the reflect what people are most commonly using (those items are first, not alphabetical) and refer to wiki for \"others\" that are not commonly used. We need to help new users sort through to find the most likely solutions quickly.
 
-## RELATED subnav {#RELATED_subnav}
+## RELATED subnav 
 
 The /apps sections should index success stories related to each and show them in a subnav box on the right.
 
@@ -80,7 +85,7 @@ This needs to start simple but we could eventually base on Evelyn\'s classificat
 
 (The new Google related box at the bottom of every page might do this for us but it doesn\'t seem to be working well \-- maybe it\'s broken pending reindexing or something)
 
-## QUESTIONS / misc {#QUESTIONS_.2F_misc}
+## QUESTIONS / misc 
 
 \* /apps and not /about/apps? If we don\'t do /about/benefits, I\'d almost thing /about/apps
 
@@ -101,4 +106,3 @@ This needs to start simple but we could eventually base on Evelyn\'s classificat
         PSF
 
 - (This is just one possible arrangement; not sure if this works well w/ the sub-menu expansion except maybe if color is used instead of divider/space)
-:::

@@ -1,22 +1,27 @@
 # PyCon2007/Feedback/TutorialIdeas
 
-:::::: {#content dir="ltr" lang="en"}
-::: {#contents .contents .topic}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+::: 
 Contents
 
-- [Feedback from PyCon 2007](#feedback-from-pycon-2007){#id1 .reference .internal}
-- [Other Ideas](#other-ideas){#id2 .reference .internal}
+- [Feedback from PyCon 2007](#feedback-from-pycon-2007)
+- [Other Ideas](#other-ideas)
 :::
 
-::: {#feedback-from-pycon-2007 .section}
-### [Feedback from PyCon 2007](#id1){.toc-backref}
+::: 
+### [Feedback from PyCon 2007](#id1)
 
 Answers to the question \"What tutorial topics would you like to see in the future?\" on the PyCon 2007 tutorial feedback forms (duplicates removed, edited):
 
 - Advanced Python: language features, techniques
 - Advanced XML
 - Audio and Python
-- cTypes ([http://starship.python.net/crew/theller/ctypes/](http://starship.python.net/crew/theller/ctypes/){.http .reference .external})
+- cTypes ([http://starship.python.net/crew/theller/ctypes/](http://starship.python.net/crew/theller/ctypes/))
 - CPython (Intro to Python core development for those who wish to start contributing; Python Internals: how to modify Python; walk through Python source code)
 - Django: more hands-on. How to do a non-trivial app, rather than internals.
 - Eggs (Creating setuptools installs)
@@ -27,7 +32,7 @@ Answers to the question \"What tutorial topics would you like to see in the futu
 - GUI
 - IronPython
 - Jython - the complete guide
-- Kamaelia ([http://kamaelia.sourceforge.net/Home](http://kamaelia.sourceforge.net/Home){.http .reference .external})
+- Kamaelia ([http://kamaelia.sourceforge.net/Home](http://kamaelia.sourceforge.net/Home))
 - LDAP integration
 - Language tips/tricks by a language lawyer
 - Mac and Python
@@ -44,7 +49,7 @@ Answers to the question \"What tutorial topics would you like to see in the futu
 - Python tutorial part III in B2B
 - Pythonic patterns
 - ReStructuredText + Docutils
-- SQLAlchemy ([http://www.sqlalchemy.org/](http://www.sqlalchemy.org/){.http .reference .external})
+- SQLAlchemy ([http://www.sqlalchemy.org/](http://www.sqlalchemy.org/))
 - SWIG & Python tutorial
 - Scientific visualization topics: specifically SciPy, matplotlib
 - Signal Processing
@@ -59,11 +64,11 @@ Answers to the question \"What tutorial topics would you like to see in the futu
 - wxPython
 - Zope, Zope 3/Five
 
-Also see the [general tutorial feedback info](http://pycon.blogspot.com/2007/04/pycon-2007-tutorial-feedback-results.html){.http .reference .external}.
+Also see the [general tutorial feedback info](http://pycon.blogspot.com/2007/04/pycon-2007-tutorial-feedback-results.html).
 :::
 
-::: {#other-ideas .section}
-### [Other Ideas](#id2){.toc-backref}
+::: 
+### [Other Ideas](#id2)
 
 These ideas are from other sources, not from the feedback forms:
 
@@ -73,4 +78,3 @@ These ideas are from other sources, not from the feedback forms:
 - Intermediate Python (Iterators, Decorators, other various topics).
 - YAML
 :::
-::::::

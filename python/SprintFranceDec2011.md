@@ -1,21 +1,26 @@
 # SprintFranceDec2011
 
-::: {#content dir="ltr" lang="en"}
-# Sprint CPython francophone en ligne le 17 et 18 décembre 2011 {#Sprint_CPython_francophone_en_ligne_le_17_et_18_d.2BAOk-cembre_2011}
+```{admonition} Legacy Wiki Page
+:class: note
 
-Rejoignez le salon **#python-dev-fr** du serveur [IRC Freenode](http://freenode.net/using_the_network.shtml){.http} et ouvrez la page [etherpad](http://piratepad.net/Y6hOmbk9MI){.http}.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Core developers {#Core_developers}
+# Sprint CPython francophone en ligne le 17 et 18 décembre 2011 
+
+Rejoignez le salon **#python-dev-fr** du serveur [IRC Freenode](http://freenode.net/using_the_network.shtml) et ouvrez la page [etherpad](http://piratepad.net/Y6hOmbk9MI).
+
+## Core developers 
 
 - Antoine Pitrou
 - Charles François Natali
 - Éric Araujo
 - Victor Stinner (organisateur)
 
-## Participants {#Participants}
+## Participants 
 
 - cedk
-  - en fait, j\'ai déjà soumis un patch [http://bugs.python.org/issue7502](http://bugs.python.org/issue7502){.http}
+  - en fait, j\'ai déjà soumis un patch [http://bugs.python.org/issue7502](http://bugs.python.org/issue7502)
 - lothiraldan:
   - Lieu: La Cantine à Paris
   - Modules connus: Logging, unittest
@@ -27,15 +32,14 @@ Rejoignez le salon **#python-dev-fr** du serveur [IRC Freenode](http://freenode.
 - Steap : connait C et Python
 - arnaudc : \"Avec mes connaissances passables en C et utilisant Python depuis un moment maintenant, ce Sprint est une bonne occasion de sauter le pas en contribuant pour la première fois. :)\"
 
-## Tâches {#T.2BAOI-ches}
+## Tâches 
 
-- [Tickets avec un seul message](http://bugs.python.org/issue?%40search_text=&ignore=file%3Acontent&title=&%40columns=title&id=&%40columns=id&stage=&creation=&creator=&activity=&%40columns=activity&%40sort=activity&actor=&nosy=&type=&components=&versions=&dependencies=&assignee=&keywords=&priority=&status=1&%40columns=status&resolution=&nosy_count=&message_count=1&%40group=&%40pagesize=50&%40startwith=0&%40sortdir=on&%40queryname=&%40old-queryname=&%40action=search){.http}, triés par activité
+- [Tickets avec un seul message](http://bugs.python.org/issue?%40search_text=&ignore=file%3Acontent&title=&%40columns=title&id=&%40columns=id&stage=&creation=&creator=&activity=&%40columns=activity&%40sort=activity&actor=&nosy=&type=&components=&versions=&dependencies=&assignee=&keywords=&priority=&status=1&%40columns=status&resolution=&nosy_count=&message_count=1&%40group=&%40pagesize=50&%40startwith=0&%40sortdir=on&%40queryname=&%40old-queryname=&%40action=search), triés par activité
 
-- [Tickets simples](http://bugs.python.org/issue?%40search_text=&ignore=file%3Acontent&title=&%40columns=title&id=&%40columns=id&stage=&creation=&creator=&activity=&%40columns=activity&%40sort=activity&actor=&nosy=&type=&components=&versions=&dependencies=&assignee=&keywords=6&priority=&status=1&%40columns=status&resolution=&nosy_count=&message_count=&%40group=&%40pagesize=50&%40startwith=0&%40sortdir=on&%40queryname=&%40old-queryname=&%40action=search){.http}, triés par activité
+- [Tickets simples](http://bugs.python.org/issue?%40search_text=&ignore=file%3Acontent&title=&%40columns=title&id=&%40columns=id&stage=&creation=&creator=&activity=&%40columns=activity&%40sort=activity&actor=&nosy=&type=&components=&versions=&dependencies=&assignee=&keywords=6&priority=&status=1&%40columns=status&resolution=&nosy_count=&message_count=&%40group=&%40pagesize=50&%40startwith=0&%40sortdir=on&%40queryname=&%40old-queryname=&%40action=search), triés par activité
 
-## Ressources {#Ressources}
+## Ressources 
 
-- [Python Developer's Guide](http://docs.python.org/devguide/){.http}
+- [Python Developer's Guide](http://docs.python.org/devguide/)
 
-- [Bug tracker Python](http://bugs.python.org/){.http}
-:::
+- [Bug tracker Python](http://bugs.python.org/)

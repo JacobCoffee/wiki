@@ -1,9 +1,14 @@
 # WebSolutionComparison
 
-::: {#content dir="ltr" lang="en"}
-## Real-world comparisons of Python web solutions {#Real-world_comparisons_of_Python_web_solutions}
+```{admonition} Legacy Wiki Page
+:class: note
 
-### Introduction {#Introduction}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Real-world comparisons of Python web solutions 
+
+### Introduction 
 
 I\'ve been a Python programmer for quite some time \-- since the 1.5.2 days. I learned early on how easy it is to create web sites in Python, and I\'ve done several.
 
@@ -17,9 +22,9 @@ One other background note is that I prefer PostgreSQL as a database back-end. Al
 
 Please note that these are strictly **my personal opinions**.
 
-### Python CGI with HTMLgen Templates {#Python_CGI_with_HTMLgen_Templates}
+### Python CGI with HTMLgen Templates 
 
-The first big Python site I did was written entirely in plain, ordinary CGI scripts, using HTMLgen to generate the HTML. This site, [http://www.verticalemail.com/](http://www.verticalemail.com/){.http}, is a database-driven, categorized e-mail redistribution site with 30 or 35 forms. It currently supports about 3,000 registered users, with a million rows in a back-end database.
+The first big Python site I did was written entirely in plain, ordinary CGI scripts, using HTMLgen to generate the HTML. This site, [http://www.verticalemail.com/](http://www.verticalemail.com/), is a database-driven, categorized e-mail redistribution site with 30 or 35 forms. It currently supports about 3,000 registered users, with a million rows in a back-end database.
 
 The site works extremely well. Conventional wisdom says that a purely CGI-based solution will not work for a production site, because of the penalty of invoking the interpreter each time. That isn\'t necessarily true. Knowing what I know now, I\'d love to go back and recreate this with a more deeply embedded solution, but the CGI-only solution is simple, easy to debug, and easy to extend, and it\'s been running here for three years. It\'s also easy to upgrade, since there is no additional software beyond Python itself.
 
@@ -28,7 +33,7 @@ I used HTMLgen because I like the way I could create HTML constructs in an objec
 - tbl = Table(
   - TR(
     - TD(
-      - Link(\"This is a link\", \"[http://site.com](http://site.com){.http}\")
+      - Link(\"This is a link\", \"[http://site.com](http://site.com)\")
 
       )
 
@@ -38,15 +43,15 @@ I used HTMLgen because I like the way I could create HTML constructs in an objec
 
 However, as neat as this looks, HTMLgen does not encourage the separation of processing and presentation. HTMLgen does include a basic templating scheme, but it is only a small step above the %(field)s substitution scheme built-in to Python.
 
-### Webware / WebKit {#Webware_.2F_WebKit}
+### Webware / WebKit 
 
 After my CGI experience, I decided I wanted to use a real web framework for my next site. I investigated the available choices at the time (about 4 years ago), and Webware looked like it was more mature and easier to understand than the others, so I gave it a shot.
 
 Without a doubt, Webware has a higher entry bar than straight CGI programming. There is a LOT of stuff in Webware (much of which goes unused for most sites), and it requires root access for at least part of the installation process, so you can fire up the persistent server process at boot time.
 
-One of the nice things about Webware, from a programming perspective, is that it uses class inheritance as a fundamental part of its operation. Your basic [SitePage](./SitePage.html){.nonexistent}, which contains the basic layout rules for your site, derives from the basic Page class in [WebKit](WebKit) (or one of its useful subclasses). If you have several different areas in your web site, you can derive subclasses for each area. You can derive a subclass to use as a base for the parts that need username/password protection. Finally, you derive leaf classes for each page. This encourages re-use and good programming practice.
+One of the nice things about Webware, from a programming perspective, is that it uses class inheritance as a fundamental part of its operation. Your basic [SitePage](./SitePage.html), which contains the basic layout rules for your site, derives from the basic Page class in [WebKit](WebKit) (or one of its useful subclasses). If you have several different areas in your web site, you can derive subclasses for each area. You can derive a subclass to use as a base for the parts that need username/password protection. Finally, you derive leaf classes for each page. This encourages re-use and good programming practice.
 
-### Webware with PSP Templates {#Webware_with_PSP_Templates}
+### Webware with PSP Templates 
 
 After playing with Webware for a while, I got jealous of the kind of inline symbol substitution that the .ASP programmers were doing over on Windows. Thus, I started playing with the PSP (Python Server Pages) capability included with Webware. (Note that there are at least 2 completely different technologies calling themselves PSP; I\'m talking specifically about the one built-in to Webware.)
 
@@ -54,7 +59,7 @@ The Webware PSP module allows you to write pages and modules in a manner very si
 
 Webware, by default, doesn\'t care about the extension on your files. So, if you have a file that starts out as a .psp but later needs to migrate to a .py, you don\'t have to change any of the references, and your users\' saved bookmarks will still work. You can even include plain .html files; the Webware server will deliver them without further processing, and you can change it to a .psp later, should your needs change.
 
-### WebWare with Cheetah Templates {#WebWare_with_Cheetah_Templates}
+### WebWare with Cheetah Templates 
 
 While I was writing my Webware/PSP site, I started doing some reading about other Python templating systems. I was intrigued by the shortcut approach to templating taken by Cheetah. An expression that would be written like this in PSP:
 
@@ -70,7 +75,7 @@ Interestingly, Cheetah is not at all tied to HTML. It is a general-purpose templ
 
 For the time being, this is still my favorite Python web solution.
 
-### CherryPy {#CherryPy}
+### CherryPy 
 
 With [CherryPy](CherryPy), all of the templeted HTML pages in your web site are compiled into a single Python file, *including* the web server. I find this concept fascinating, and over the years, I came back to the [CherryPy](CherryPy) web site several times. I finally did get the time to create a small web site, and I still think it is fascinating.
 
@@ -82,7 +87,7 @@ The [CherryPy](CherryPy) language strongly enforces the processing/presentation 
 
 \- Note that the current version 2 of Cherrypy does no longer perform compilation. Instead, you just import cherrypy and declare a method as \'exposed\' to turn it into a request handler. It\'s even more elegant and efficient now.
 
-### PHP {#PHP}
+### PHP 
 
 Before you jump in to correct me, I **know** that PHP is not Python. However, because PHP is so popular, I decided that no self-respecting web site developer should ignore it. So, I dug in.
 
@@ -92,21 +97,21 @@ PHP has full support for classes, attributes and methods, and supports object-or
 
 It is a fascinating situation, and I wish I had a government grant to study the cause and effect. Is it that the *ad hoc* nature of the language encourages sites that grow from nothing without structure? Is it that the language is simple enough that people without solid programming backgrounds are enable to create complete web sites without having the fundamentals of code structure? Is it that the earliest versions of PHP required sucky code, and everyone since then has just used those samples and extended them even more?
 
-### Conclusions {#Conclusions}
+### Conclusions 
 
 I\'m not sure there are any conclusions yet. I\'m the kind of guy that likes trying new things, so I will probably run thorugh a few more architectures before I\'m done, and I hope I remember to add my thoughts to this page. For now, I use Webware as the appserver, with Cheetah for the templating. I\'m a happy camper, and a Python believer.
 
-### Comments/Discussion {#Comments.2FDiscussion}
+### Comments/Discussion 
 
 I welcome your comments, disagreements, and your own experiences. That\'s the fun of a wiki.
 
-\-- [TimRoberts](./TimRoberts.html){.nonexistent} 2004-10-01
+\-- [TimRoberts](./TimRoberts.html) 2004-10-01
 
 I started web programming on Linux/UNIX systems with PHP, but quickly became disgusted with the messes I created. Maybe PHP can be used in a more object-oriented way, but it certainly doesn\'t lend itself to managable applications. The end result usually looks like one large monolithic hack.
 
 I totally concur with Daniel Robbins when he said \"if you haven\'t started using Python yet, you\'re only hurting yourself.\" Webware is a bit tough for a newbie, but it really does take advantage of Python\'s extensibility. The only real plague is not having a standard way to set it up in a shared hosting environment.
 
-\-- [EricRadman](./EricRadman.html){.nonexistent} 2004-10-01
+\-- [EricRadman](./EricRadman.html) 2004-10-01
 
 My evolution in web programming is similar: *Perl -\> PHP2 -\> PHP3 -\> Python CGI + HTMLgen -\> Webware -\> Webware + Cheetah* always with `PostgreSQL`{.backtick}. I totally agree with the statement concerning the maintainability of average PHP code (my own projects are definitely no exception). In my experience Python + Webware + Cheetah build a stable and performant platform for websites and applications.
 
@@ -124,21 +129,20 @@ The often criticized diversity of the python web programming projects is a \"par
 
 IMHO the necessity of choice could turn from confusion to pleasure when you can make your decision on a solid foundation when confronted with the wide range of great python web projects.
 
-\-- [AndiPoisel](./AndiPoisel.html){.nonexistent} 2004-10-06
+\-- [AndiPoisel](./AndiPoisel.html) 2004-10-06
 
 I\'ve spent a lot of time over the last few months researching how best to use my Python skills to develop a website. This is one of the few articles that actually dares to choose which application(s) are the best. Thank-you for taking the time to write this. (I\'m glad you like Cheetah because that is where my research leads me also).
 
-\-- [StephenDay](./StephenDay.html){.nonexistent} 2005-19-04
+\-- [StephenDay](./StephenDay.html) 2005-19-04
 
-Would be nice to add [PythonServletEngine](./PythonServletEngine.html){.nonexistent} [http://nick.borko.org/pse](http://nick.borko.org/pse){.http} (\"PHP in Python\"). It seems much easier than templating in PTL, Cheetah, PSP or HTMLgen.
+Would be nice to add [PythonServletEngine](./PythonServletEngine.html) [http://nick.borko.org/pse](http://nick.borko.org/pse) (\"PHP in Python\"). It seems much easier than templating in PTL, Cheetah, PSP or HTMLgen.
 
-\-- [MichalGajda](./MichalGajda.html){.nonexistent} 2005-20-04
+\-- [MichalGajda](./MichalGajda.html) 2005-20-04
 
 A number of frameworks can be run with mod_python (rather than as their own standalone server), and are listed on the [ModPython](ModPython) page.
 
 \-- [JohnGabriele](JohnGabriele) 2006-01-26
 
-How does this compare to [Django](Django), [TurboGears](TurboGears), other more recent Python web components, i.e. [Kid](./Kid.html){.nonexistent}, [Myghty](./Myghty.html){.nonexistent}, and even Ruby on Rails?
+How does this compare to [Django](Django), [TurboGears](TurboGears), other more recent Python web components, i.e. [Kid](./Kid.html), [Myghty](./Myghty.html), and even Ruby on Rails?
 
-\-- [MikeSchinkel](./MikeSchinkel.html){.nonexistent} 2007-02-20
-:::
+\-- [MikeSchinkel](./MikeSchinkel.html) 2007-02-20

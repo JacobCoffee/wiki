@@ -1,7 +1,12 @@
 # Asking for Help/visual error message
 
-::: {#content dir="ltr" lang="en"}
-# Asking for Help: No module named visual {#Asking_for_Help:_No_module_named_visual}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Asking for Help: No module named visual 
 
 I had trouble running my program. I am following instructions from the Youtube video. This is the error I get.
 
@@ -17,9 +22,8 @@ I had trouble running my program. I am following instructions from the Youtube v
     ImportError: No module named visual
     >>> 
 
-If you\'re referring to one of [these videos](http://www.youtube.com/vpythonvideos){.http} then you need to install [VPython](http://vpython.org/){.http} on your computer. It looks like you\'re using a Mac, so maybe [this download page](http://vpython.org/contents/download_mac.html){.http} will be helpful.
+If you\'re referring to one of [these videos](http://www.youtube.com/vpythonvideos) then you need to install [VPython](http://vpython.org/) on your computer. It looks like you\'re using a Mac, so maybe [this download page](http://vpython.org/contents/download_mac.html) will be helpful.
 
 ------------------------------------------------------------------------
 
 [CategoryAskingForHelp](CategoryAskingForHelp) [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered)
-:::

@@ -1,6 +1,11 @@
 # PyOhio2008/IrcLog
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 (1:57:21 PM) mw-home: hi catherine
 
 (1:57:34 PM) mw-home is now known as matt-wilson
@@ -17,7 +22,7 @@
 
 (2:02:15 PM) catherinedevlin: figures. no CMH people!
 
-(2:02:44 PM) martinh \[n=[heller@spiteos.wacked.org](mailto:heller@spiteos.wacked.org){.mailto}\] entered the room.
+(2:02:44 PM) martinh \[n=[heller@spiteos.wacked.org](mailto:heller@spiteos.wacked.org)\] entered the room.
 
 (2:02:50 PM) catherinedevlin: anyway, I\'d like to try for OSU next year, but I don\'t know how to get the attention of anybody with authority there.
 
@@ -29,7 +34,7 @@
 
 (2:04:02 PM) catherinedevlin: martin, I tried last year, but only with out-of-the-blue email, and got ignored (I think)
 
-(2:04:19 PM) siddfinch \[i=[mek@faeroes.freeshell.ORG](mailto:mek@faeroes.freeshell.ORG){.mailto}\] entered the room.
+(2:04:19 PM) siddfinch \[i=[mek@faeroes.freeshell.ORG](mailto:mek@faeroes.freeshell.ORG)\] entered the room.
 
 (2:04:33 PM) catherinedevlin: need to find or make a personal connection somehow\... ideas on that?
 
@@ -37,7 +42,7 @@
 
 (2:06:27 PM) catherinedevlin: do you know somebody over there, martin?
 
-(2:06:41 PM) matthewarnold \[n=[mattarno@adsl-75-46-162-109.dsl.sfldmi.sbcglobal.net](mailto:mattarno@adsl-75-46-162-109.dsl.sfldmi.sbcglobal.net){.mailto}\] entered the room.
+(2:06:41 PM) matthewarnold \[n=[mattarno@adsl-75-46-162-109.dsl.sfldmi.sbcglobal.net](mailto:mattarno@adsl-75-46-162-109.dsl.sfldmi.sbcglobal.net)\] entered the room.
 
 (2:06:49 PM) martinh: yea.
 
@@ -53,7 +58,7 @@
 
 (2:07:54 PM) matthewarnold: hello. Who else is here?
 
-(2:07:55 PM) siddfinch: Doesn\'t somebody from OSU usually have a booth at Ohio [LinuxFest](./LinuxFest.html){.nonexistent} ?
+(2:07:55 PM) siddfinch: Doesn\'t somebody from OSU usually have a booth at Ohio [LinuxFest](./LinuxFest.html) ?
 
 (2:08:07 PM) siddfinch: I\'ll see if I can get a connect from them.
 
@@ -71,7 +76,7 @@
 
 (2:09:44 PM) martinh: and still probably not going next year, if it\'s in the same time frame.
 
-(2:10:08 PM) martinh: but, in general, i\'m in [ClePy](./ClePy.html){.nonexistent} and also a leader of nooss.org
+(2:10:08 PM) martinh: but, in general, i\'m in [ClePy](./ClePy.html) and also a leader of nooss.org
 
 (2:10:28 PM) siddfinch: I\'m Mat, I help Martin with nooss.org
 
@@ -87,11 +92,11 @@
 
 (2:12:22 PM) matthewarnold: oh, yes. I assisted Tux with his interview with a couple of live webcasts.
 
-(2:13:02 PM) matthewarnold: I started a new software project for conference schedulers. It\'s in [TurboGears](TurboGears) and has two developers, not counting me (as I am more of the knowledge domain specialist and requirements designer). If [PyOhio](PyOhio) could use such an app, we would welcome more developers. [http://crem.miscellaneouswhatnot.net/trac/](http://crem.miscellaneouswhatnot.net/trac/){.http}
+(2:13:02 PM) matthewarnold: I started a new software project for conference schedulers. It\'s in [TurboGears](TurboGears) and has two developers, not counting me (as I am more of the knowledge domain specialist and requirements designer). If [PyOhio](PyOhio) could use such an app, we would welcome more developers. [http://crem.miscellaneouswhatnot.net/trac/](http://crem.miscellaneouswhatnot.net/trac/)
 
 (2:13:07 PM) siddfinch: I would highly recommend a OLF booth \... good way to get the word out and probably help in finding some sponsers .. if you go that way.
 
-(2:13:25 PM) catherinedevlin: topics I wanted to talk about: 1. Venue 2. Date 3. [LinuxFest](./LinuxFest.html){.nonexistent} 4. Sponsorship\... others?
+(2:13:25 PM) catherinedevlin: topics I wanted to talk about: 1. Venue 2. Date 3. [LinuxFest](./LinuxFest.html) 4. Sponsorship\... others?
 
 (2:14:08 PM) catherinedevlin: awesome, Matthew! Is that for behind-the-scenes scheduling, or presentation to registrants, or both?
 
@@ -113,7 +118,7 @@
 
 (2:18:00 PM) catherinedevlin: other thoughts on using a hotel?
 
-(2:18:35 PM) matthewarnold: well, it worked for Midwest [ConStruction](./ConStruction.html){.nonexistent}. They\'re pretty small, and used a small hotel.
+(2:18:35 PM) matthewarnold: well, it worked for Midwest [ConStruction](./ConStruction.html). They\'re pretty small, and used a small hotel.
 
 (2:18:54 PM) matthewarnold: but they also had no food whatsoever.
 
@@ -143,11 +148,11 @@
 
 (2:23:49 PM) catherinedevlin: and back on the schools idea - anybody else have any contacts (or know how to get them) at any other CMH schools?
 
-(2:24:02 PM) matthewarnold: I\'m trying to look up which hotel Midwest [ConStruction](./ConStruction.html){.nonexistent} used. It was in Columbus or just outside it.
+(2:24:02 PM) matthewarnold: I\'m trying to look up which hotel Midwest [ConStruction](./ConStruction.html) used. It was in Columbus or just outside it.
 
 (2:24:38 PM) catherinedevlin: hi dave!
 
-(2:25:56 PM) matthewarnold: oh cool. Not only did I find the hotel, but there are pictures of me. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} [http://www.midamericon.org/photoarchive/04construct1.htm](http://www.midamericon.org/photoarchive/04construct1.htm){.http}
+(2:25:56 PM) matthewarnold: oh cool. Not only did I find the hotel, but there are pictures of me. ![:)](/wiki/europython/img/smile.png ":)") [http://www.midamericon.org/photoarchive/04construct1.htm](http://www.midamericon.org/photoarchive/04construct1.htm)
 
 (2:26:31 PM) catherinedevlin: ok, they\'re on the list!
 
@@ -155,7 +160,7 @@
 
 (2:27:18 PM) matthewarnold: I can assure you I have no contacts with schools in Ohio.
 
-(2:27:29 PM) diordna \[n=[diordna@12.127.238.42](mailto:diordna@12.127.238.42){.mailto}\] entered the room.
+(2:27:29 PM) diordna \[n=[diordna@12.127.238.42](mailto:diordna@12.127.238.42)\] entered the room.
 
 (2:27:38 PM) dstanek: catherinedevlin: i haven\'t heard from M\$ but i hope to by end of next week
 
@@ -191,7 +196,7 @@
 
 (2:31:11 PM) matthewarnold: in terms of drive time.
 
-(2:31:30 PM) catherinedevlin: Should we stick with a summer weekend (Saturday-Sunday)? Move it to adjoining to Ohio [LinuxFest](./LinuxFest.html){.nonexistent} 2009?
+(2:31:30 PM) catherinedevlin: Should we stick with a summer weekend (Saturday-Sunday)? Move it to adjoining to Ohio [LinuxFest](./LinuxFest.html) 2009?
 
 (2:31:43 PM) diordna: I\'d put average drive time at 3 hours.
 
@@ -251,7 +256,7 @@
 
 (2:34:36 PM) diordna: Right, but a 30 minute time push is hardly a deal breaker.
 
-(2:34:40 PM) jleedev \[i=[left@goto.EECS.CWRU.Edu](mailto:left@goto.EECS.CWRU.Edu){.mailto}\] entered the room.
+(2:34:40 PM) jleedev \[i=[left@goto.EECS.CWRU.Edu](mailto:left@goto.EECS.CWRU.Edu)\] entered the room.
 
 (2:35:05 PM) matthewarnold: hi, jleedev
 
@@ -277,7 +282,7 @@
 
 (2:37:13 PM) matthewarnold: I\'d pick a summer weekend.
 
-(2:37:49 PM) catherinedevlin: jleedev: winter has [CodeMash](./CodeMash.html){.nonexistent} (January - Sandusky) and prep for [PyCon](PyCon) (March), so I prefer summer
+(2:37:49 PM) catherinedevlin: jleedev: winter has [CodeMash](./CodeMash.html) (January - Sandusky) and prep for [PyCon](PyCon) (March), so I prefer summer
 
 (2:39:44 PM) catherinedevlin: oh, cycling back around to something Dave mentioned: he\'s going to check the possibility of the Microsoft office hosting us. Think we need to worry about FOSS zealots shrivelling and dying at the thought?
 
@@ -291,7 +296,7 @@
 
 (2:44:19 PM) matthewarnold: you didn\'t miss anything, though.
 
-(2:46:50 PM) catherinedevlin1: ok, next topic - Ohio [LinuxFest](./LinuxFest.html){.nonexistent}. I\'m psyched to do a booth. Who could help staff it? (You\'re excused if you already have OLF duties.) What should we do at it?
+(2:46:50 PM) catherinedevlin1: ok, next topic - Ohio [LinuxFest](./LinuxFest.html). I\'m psyched to do a booth. Who could help staff it? (You\'re excused if you already have OLF duties.) What should we do at it?
 
 (2:47:17 PM) matthewarnold: sorry, I\'m excused for Penguicon booth duties.
 
@@ -299,7 +304,7 @@
 
 (2:47:58 PM) catherinedevlin1: hey, some people were taking photos, but I never heard anything about where they went to. Hmm.
 
-(2:48:48 PM) catherinedevlin1: I can definitely run a Python Sweetness slideshow from [DellZilla](./DellZilla.html){.nonexistent}, my laptop with an excessively hideously dangerously large screen
+(2:48:48 PM) catherinedevlin1: I can definitely run a Python Sweetness slideshow from [DellZilla](./DellZilla.html), my laptop with an excessively hideously dangerously large screen
 
 (2:49:02 PM) matthewarnold: good idea.
 
@@ -335,9 +340,9 @@
 
 (2:53:15 PM) mode (-ntc ) by irc.freenode.net
 
-(2:53:15 PM) mpirnat \[n=[mpirnat@global.ag.com](mailto:mpirnat@global.ag.com){.mailto}\] entered the room.
+(2:53:15 PM) mpirnat \[n=[mpirnat@global.ag.com](mailto:mpirnat@global.ag.com)\] entered the room.
 
-(2:53:15 PM) mode (+ntc ) by [ChanServ](./ChanServ.html){.nonexistent}
+(2:53:15 PM) mode (+ntc ) by [ChanServ](./ChanServ.html)
 
 (2:54:36 PM) catherinedevlin1: ok, and last thing I have on my list: sponsorship
 
@@ -349,7 +354,7 @@
 
 (2:56:15 PM) catherinedevlin1: hmm\... maybe that means \"no\"
 
-(2:57:10 PM) matthewarnold: ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+(2:57:10 PM) matthewarnold: ![:)](/wiki/europython/img/smile.png ":)")
 
 (2:57:44 PM) matthewarnold: I have some sponsorship guys working on Penguicon, but it was probably the hardest thing about the convention last year.
 
@@ -359,11 +364,11 @@
 
 (2:58:25 PM) matthewarnold: You\'re welcome!
 
-(2:58:41 PM) catherinedevlin1: yeah, the day will come when they BEG us to sponsor. ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} but not quite yet
+(2:58:41 PM) catherinedevlin1: yeah, the day will come when they BEG us to sponsor. ![:)](/wiki/europython/img/smile.png ":)") but not quite yet
 
 (2:59:39 PM) catherinedevlin1: (seriously, I\'ve watched national [PyCon](PyCon) go from \"Does anybody know anyone hiring Python people? Anyone? Anyone?\" to \"enough of the recruiters, already! Get them off!\" in four years. We\'re just a little slow here in the interior.)
 
-(2:59:41 PM) matthewarnold: talk to Michael Meffie, if he\'s still running [LinuxFest](./LinuxFest.html){.nonexistent}
+(2:59:41 PM) matthewarnold: talk to Michael Meffie, if he\'s still running [LinuxFest](./LinuxFest.html)
 
 (3:00:34 PM) catherinedevlin1: david did say that AGI might kick in a lot more if we ask them to. I just prefer the idea of a broader sponsorship base
 
@@ -371,7 +376,7 @@
 
 (3:01:52 PM) catherinedevlin left the room (quit: Read error: 110 (Connection timed out)).
 
-(3:17:21 PM) wamcvey \[n=[wam@64.101.203.251](mailto:wam@64.101.203.251){.mailto}\] entered the room.
+(3:17:21 PM) wamcvey \[n=[wam@64.101.203.251](mailto:wam@64.101.203.251)\] entered the room.
 
 (3:18:07 PM) wamcvey: Hmm\... looks like the \"meeting\" has concluded.
 
@@ -383,7 +388,7 @@
 
 (3:21:38 PM) diordna left the room (quit: ).
 
-(3:22:01 PM) catherinedevlin1: various thoughts on place, date, [LinuxFest](./LinuxFest.html){.nonexistent}
+(3:22:01 PM) catherinedevlin1: various thoughts on place, date, [LinuxFest](./LinuxFest.html)
 
 (3:22:13 PM) wamcvey: hmm, the log is where? (perhaps if there is an archive of the channel, we could set that to be the channel topic?)
 
@@ -398,4 +403,3 @@
 (3:24:17 PM) catherinedevlin1: oh, drat. I see.
 
 (3:24:19 PM) catherinedevlin1: Hmm.
-:::

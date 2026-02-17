@@ -1,15 +1,20 @@
 # HarvestMan
 
-::: {#content dir="ltr" lang="en"}
-### Description {#Description}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### Description 
 
 A www crawler(robot) program in python.
 
-### Information {#Information}
+### Information 
 
-[\"Freecode Project Page\"](http://freecode.com/projects/harvestman){.http}
+[\"Freecode Project Page\"](http://freecode.com/projects/harvestman)
 
-[\"HarvestMan Home Page\"](http://harvestman.freezope.org/){.http} link gone
+[\"HarvestMan Home Page\"](http://harvestman.freezope.org/) link gone
 
 version
 
@@ -31,11 +36,11 @@ Binaries
 
 None
 
-### How it spins its web {#How_it_spins_its_web}
+### How it spins its web 
 
 - HarvestMan uses a threading model using python threads to achieve a very fast, but highly customizable download of web-sites on the internet. It can be used to download files from intranet servers. It is the first multithreaded, opensource webcrawler written in python.
 
-### Features {#Features}
+### Features 
 
 - Fully Multithreaded
 
@@ -73,15 +78,14 @@ None
 
 - OO architecture
 
-### Who should use it {#Who_should_use_it}
+### Who should use it 
 
 - HarvestMan is written for the desktop user. It can be used as an internet spidering module also. An API for external users is being written.
 
-### Taxonomy {#Taxonomy}
+### Taxonomy 
 
 - Species: HarvestMan Genus: (Internet) Spiders
 
-### Developers {#Developers}
+### Developers 
 
 - Anand B Pillai,
-:::

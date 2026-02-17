@@ -1,14 +1,19 @@
 # StrongVsWeakTyping
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The following text is a summary by clips from posts in a thread on comp.lang.python, which was initiated by the following post:
 
-- From: Gabriel Zachmann \<[zach@cs.uni-bonn.de](mailto:zach@cs.uni-bonn.de){.mailto}\>\
+- From: Gabriel Zachmann \<[zach@cs.uni-bonn.de](mailto:zach@cs.uni-bonn.de)\>\
   Newsgroups: comp.lang.python\
   Subject: strong/weak typing and pointers\
   Date: 28 Oct 2004 16:17:15 GMT Is it correct to say that strong/weak typing does not make a difference if one does not use any pointers (or adress-taking operator)? More concretely, I am thinking particularly of Python vs C++. So, are there any examples (without pointers, references, or adress-taking), which would have a different result in Python and in C++?
 
-# Definitions {#Definitions}
+# Definitions 
 
 GZ:
 
@@ -21,7 +26,7 @@ In the following, I\'ve cut-and-pasted several clips from the many responses (th
 
 ------------------------------------------------------------------------
 
-From: Steven Bethard \<[steven.bethard@gmail.com](mailto:steven.bethard@gmail.com){.mailto}\>
+From: Steven Bethard \<[steven.bethard@gmail.com](mailto:steven.bethard@gmail.com)\>
 
 - I A language is \"weakly-typed\" if it allows code to take a block of memory that was originally defined as one type and reinterpret the bits of this block as another type. II A language is \"weakly-typed\" if it has a large number of implicit coercions. III A language is \"weakly-typed\" if it often treats objects of one type as other types.
 
@@ -33,9 +38,9 @@ Definition 2 seemed to be the definition most commonly used on the list, most li
 
 Definition 3 was an attempt to unify the first two definitions into a single definition by describing both coercion and bit-reinterpretation as treating \"objects of one type as other types\". This definition has the advantage of better coverage, but has all the disadvantages of Definition 2. It is also unclear as to how weak a \"weakly-typed\" language is if it both allows bit-reinterpretation and has a large number of implicit coercions. (For example, is a language that allows bit-reinterpretation and only a few implicit coercions more or less \"weakly-typed\" than a language that doesn\'t allow bit-reinterpretation, but has a large number of implicit coercions?)
 
-# Definition based on number of type coercions {#Definition_based_on_number_of_type_coercions}
+# Definition based on number of type coercions 
 
-From: Andrea Griffini \<[agriff@tin.it](mailto:agriff@tin.it){.mailto}\>
+From: Andrea Griffini \<[agriff@tin.it](mailto:agriff@tin.it)\>
 
 You didn\'t mention C++. Try this \...
 
@@ -45,7 +50,7 @@ You didn\'t mention C++. Try this \...
 
 ------------------------------------------------------------------------
 
-From: Grant Edwards \<[grante@visi.com](mailto:grante@visi.com){.mailto}\>
+From: Grant Edwards \<[grante@visi.com](mailto:grante@visi.com)\>
 
 - *a = \"1\" + 2\
   as \"1\" is a string and 2 an integer.*
@@ -62,19 +67,19 @@ Only people who don\'t know how C pointer arithmatic works will get unexpected r
 
 ------------------------------------------------------------------------
 
-From: [mwilson@the-wire.com](mailto:mwilson@the-wire.com){.mailto} (Mel Wilson)
+From: [mwilson@the-wire.com](mailto:mwilson@the-wire.com) (Mel Wilson)
 
 One effect of weak typing is to put more reliance on operators. In Perl, for instance the string operator `lt`{.backtick} does a string compare to find that \"10\" is less than 2 (lexically) and the numeric operator `<`{.backtick} finds that \"10\" is not less than 2 (numerically). Nothing to do with pointers at all.
 
-# Definition based on reinterpretation {#Definition_based_on_reinterpretation}
+# Definition based on reinterpretation 
 
-From: Jorgen Grahn \<[jgrahn-nntq@algonet.se](mailto:jgrahn-nntq@algonet.se){.mailto}\>
+From: Jorgen Grahn \<[jgrahn-nntq@algonet.se](mailto:jgrahn-nntq@algonet.se)\>
 
 Note though, that in the absense of casts, C and in particular C++ are pretty strongly typed for pointers.
 
 ------------------------------------------------------------------------
 
-From: Steven Bethard \<[steven.bethard@gmail.com](mailto:steven.bethard@gmail.com){.mailto}\>
+From: Steven Bethard \<[steven.bethard@gmail.com](mailto:steven.bethard@gmail.com)\>
 
 - *Strong/weak typing is about how much you care of types at all - in php, its perfectly legal to add strings to numbers - the string simply gets converted to a number beforehand, that conversion yielding 0 when there is nothing useful and numberlike can be extracted from the string. So typing is weak, as it doesn\'t constrain the possible operations on variables with certain values.*
 
@@ -105,7 +110,7 @@ The point here is that I consider C weakly typed because, with no error of any s
 
 ------------------------------------------------------------------------
 
-From: JCM \<[joshway_without_spam@myway.com](mailto:joshway_without_spam@myway.com){.mailto}\>
+From: JCM \<[joshway_without_spam@myway.com](mailto:joshway_without_spam@myway.com)\>
 
 You\'ll find a lack of consensus here on what\'s meant by \"strong/weak typing\". In Python there\'s no way to re-interpret the bits of a value as if they were a different type. For example, code like this is impossible in Python:
 
@@ -114,7 +119,7 @@ You\'ll find a lack of consensus here on what\'s meant by \"strong/weak typing\"
 
 ------------------------------------------------------------------------
 
-From: Duncan Booth \<[duncan.booth@invalid.invalid](mailto:duncan.booth@invalid.invalid){.mailto}\>
+From: Duncan Booth \<[duncan.booth@invalid.invalid](mailto:duncan.booth@invalid.invalid)\>
 
 Here\'s a trivial example that is almost identical in Python and C/C++ but gives totally different results. In a weakly typed language such as C or C++:
 
@@ -140,13 +145,13 @@ In a really strongly typed language I would expect an exception to be thrown.
 
 ------------------------------------------------------------------------
 
-From: Scott David Daniels \<[Scott.Daniels@Acm.Org](mailto:Scott.Daniels@Acm.Org){.mailto}\>
+From: Scott David Daniels \<[Scott.Daniels@Acm.Org](mailto:Scott.Daniels@Acm.Org)\>
 
 Strong types provide strong protection for data types as their abstraction; weak types allow you to operate on data \"behind the wall of abstraction\". A Smalltalk programmer would say that Python is more weakly typed than Smalltalk for user-defined types.
 
 ------------------------------------------------------------------------
 
-From: Steven Bethard \<[steven.bethard@gmail.com](mailto:steven.bethard@gmail.com){.mailto}\>
+From: Steven Bethard \<[steven.bethard@gmail.com](mailto:steven.bethard@gmail.com)\>
 
 - *If you do this:*
 
@@ -179,9 +184,9 @@ This doesn\'t mean that Python has suddenly become a weakly-typed language. It j
 
 Basically you would say that the more implicit coercions a language performs, the more weakly typed it is. This diverges from the common use of the terms strong and weak typing in the PL literature, which is why I was confused.
 
-# Justification for weak typing {#Justification_for_weak_typing}
+# Justification for weak typing 
 
-From: Mike Meyer \<[mwm@mired.org](mailto:mwm@mired.org){.mailto}\>
+From: Mike Meyer \<[mwm@mired.org](mailto:mwm@mired.org)\>
 
 Now, as to why one would \*want\* languages that let you treat things as other than what they were.
 
@@ -195,27 +200,27 @@ Finally, I don\'t see that there\'s that much difference between the two differe
 
 ------------------------------------------------------------------------
 
-From: [aleaxit@yahoo.com](mailto:aleaxit@yahoo.com){.mailto} (Alex Martelli)
+From: [aleaxit@yahoo.com](mailto:aleaxit@yahoo.com) (Alex Martelli)
 
 How would an operating system\'s filesystems store arbitrary sequences of bytes (which might be floats, int, whatever \-- only the application knows) into disk pages (blocks of, say , 4096 bytes each) otherwise? Or are you saying that operating systems\' kernels should all be implemented in dynamically-typed languages, or that the structureless filesystem concept that was the fortune of Unix (and is common today to other OSs, too), is not \"good\"?
 
 ------------------------------------------------------------------------
 
-From: [mike@hobbshouse.org](mailto:mike@hobbshouse.org){.mailto} (Michael Hobbs)
+From: [mike@hobbshouse.org](mailto:mike@hobbshouse.org) (Michael Hobbs)
 
 This example is a little weak, but may be sufficient. The in_addr structure used for sockets usually uses a union to provide different views to the underlying 32-bit address. You can access the address as 4 8-bit values, 2 16-bit values, or 1 32-bit value. Most code these days only use the 4 8-bit representation, but the interface is there.
 
 ------------------------------------------------------------------------
 
-From: [aleaxit@yahoo.com](mailto:aleaxit@yahoo.com){.mailto} (Alex Martelli)
+From: [aleaxit@yahoo.com](mailto:aleaxit@yahoo.com) (Alex Martelli)
 
 Given a float, extract the (so-called) \"mantissa\" (what a misnomer!) and exponent. Can you see the usefulness of \_that\_? Can you see that treating the bits that compose the float as an int and using masking and shifting is the obvious way to perform this task?
 
 Say I need to compute some unary float function, such as \'sin\', with high speed and precision. One reasonable approach: normalize the float input to a standard range (say 0 to pi/4, remembering what kind of sign inversions &c you need to perform at result time); get \"mantissa\" (pah!) and exponent and use the latter, partly to select the right lookup table and partly to shift the mantissa appropriately to make it an index into said result table, while keeping track of the bits that shifted out; read out the result base and the multiplier for interpolation, multiply the latter by the bits that shifted out and add the result to the result base; perform sign or other symmetry inversions as previously recorded.
 
-# Comparisons {#Comparisons}
+# Comparisons 
 
-From: Steven Bethard \<[steven.bethard@gmail.com](mailto:steven.bethard@gmail.com){.mailto}\>
+From: Steven Bethard \<[steven.bethard@gmail.com](mailto:steven.bethard@gmail.com)\>
 
 - *(1) Weakly-typed languages allow you to take a block of memory that was originally defined as one type and reinterpret the bits of this block as another type\[1\]. (This is the definition usually used in Programming Languages literature.)*
 
@@ -255,4 +260,3 @@ Basically, there\'s no hierarchy, just weakly-typed and strongly-typed. You migh
 - *From many implicit coercions to few implicit coercions:*
 
 C, Java, Python \< ML
-:::

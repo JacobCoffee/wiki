@@ -1,7 +1,12 @@
 # Andrea Nozze
 
-::: {#content dir="ltr" lang="en"}
-## Andrea Nozze {#Andrea_Nozze}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Andrea Nozze 
 
 Email: `<andrealarosamusica AT SPAMFREE gmail DOT com>`
 
@@ -13,7 +18,7 @@ Ho studiato presso l\'università La Sapienza di Roma, mi sono laureato in ingeg
 
 **La mia conoscenza di Python**
 
-Sono un utente [Python](http://www.python.it/){.http} dal 2003 e ho iniziato a utilizzarlo come un sostituto per cgi-script (scritti in C ++).
+Sono un utente [Python](http://www.python.it/) dal 2003 e ho iniziato a utilizzarlo come un sostituto per cgi-script (scritti in C ++).
 
 Sto inoltre conducendo un negozio come sviluppatore di Python italiano (a Bologna) e cerco di promuovere il linguaggio Python ovunque possa farlo. Seguo tuttora corsi di apprendimento Python per me stesso.
 
@@ -27,7 +32,7 @@ Ho due splendidi figli di nome Emily e Nicolas. Ho una sorella di nome Licia che
   3.  creazione di bomboniere
   4.  addobbi pregiati per eventi di classe
 
-Sono praticamente circondato di attività che girano intorno all\'universo del [matrimonio](https://www.nozzespeciali.it/){.https}, di cui io stesso gestisco un famoso portale.
+Sono praticamente circondato di attività che girano intorno all\'universo del [matrimonio](https://www.nozzespeciali.it/), di cui io stesso gestisco un famoso portale.
 
 Oltre a ciò, mi diletto a scrivere articoli redazionali per più testate giornalistiche italiane.
 
@@ -36,4 +41,3 @@ Oltre a ciò, mi diletto a scrivere articoli redazionali per più testate giorna
 La mia attività consiste nel creare recensioni utili alle coppie di sposi, in portali sulle nozze sia italiani che internazionali. Mi occupo di contattare le spose che hanno frequentato un dato portale per un certo lasso di tempo (un periodo variabile, minimo 1 mese) pubblicando nel relativo blog o nel forum, e ottengo risposte precise con sondaggi mirati.
 
 Seguo anche un importante pagina di Facebook anche essa legata al mondo del Wedding.
-:::

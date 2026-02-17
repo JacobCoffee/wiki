@@ -1,11 +1,15 @@
 # PythonDiscourseIdeas
 
-::: {#content dir="ltr" lang="en"}
-# Python Discourse Ideas {#Python_Discourse_Ideas}
+```{admonition} Legacy Wiki Page
+:class: note
 
-You can use this page and create subpages like e.g. [PythonDiscourseIdeas/MyGreatNewIdea](./PythonDiscourseIdeas(2f)MyGreatNewIdea.html) to host documents which you want to discuss in the [Python Discourse Ideas Category](https://discuss.python.org/c/ideas/6){.https}.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-## Table of contents {#Table_of_contents}
+# Python Discourse Ideas 
+
+You can use this page and create subpages like e.g. [PythonDiscourseIdeas/MyGreatNewIdea](./PythonDiscourseIdeas(2f)MyGreatNewIdea.html) to host documents which you want to discuss in the [Python Discourse Ideas Category](https://discuss.python.org/c/ideas/6).
+
+## Table of contents 
 
 - [PythonDiscourseIdeas/MyGreatNewIdea](./PythonDiscourseIdeas(2f)MyGreatNewIdea.html) - example page
-:::

@@ -1,11 +1,16 @@
 # DogriLanguage
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Describe Dogri डोगरी Language and include links to Python information in डोगरी Language here.
 
 ISO 639-2 Code: doi
 
-[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+[1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -25,13 +30,13 @@ Where these pages really need help:
 
 **डोगरी**
 
-Words for code snippet from [Wikipedia](http://en.wikipedia.org/wiki/Dogri_language){.http}
+Words for code snippet from [Wikipedia](http://en.wikipedia.org/wiki/Dogri_language)
 
 Right to left script for Dogri not rendering in idle - need to update.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-236a47f71ed73b3e10ad65cf119ea8090f97a6a1 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 # -*- coding: utf-8 -*-
    2 # python 3.0 or python 3.1
    3 
@@ -56,4 +61,3 @@ Right to left script for Dogri not rendering in idle - need to update.
 ------------------------------------------------------------------------
 
 [CategoryLanguage](CategoryLanguage) [CategoryUnicode](CategoryUnicode) [CategoryPythonIndia](CategoryPythonIndia)
-:::::

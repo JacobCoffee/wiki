@@ -1,7 +1,12 @@
 # CategoryPyCon2005
 
-:::: {#content dir="ltr" lang="en"}
-# Pages Related to PyCon 2005 {#Pages_Related_to_PyCon_2005}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Pages Related to PyCon 2005 
 
 ::: {}
 \
@@ -14,4 +19,3 @@ Case-sensitive searching
 ------------------------------------------------------------------------
 
 [CategoryCategory](CategoryCategory)
-::::

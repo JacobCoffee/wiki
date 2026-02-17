@@ -1,11 +1,16 @@
 # AustinPythonUserGroup
 
-:::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The Austin Python User Group (affectionately, APUG) was restarted in early 2006 on meetup.com. This wiki page was used from parts of 2006-2009, but **the meetup.com page below is now the primary source for meeting announcements**:
 
-[APUG meetup.com site](http://www.meetup.com/austinpython/){.http}
+[APUG meetup.com site](http://www.meetup.com/austinpython/)
 
-While there\'s still a [scipy-hosted mailing list](http://projects.scipy.org/mailman/listinfo/apug){.http}, the [meetup.com mailing list](http://www.meetup.com/austinpython/messages/archive/){.http} also receives some traffic.
+While there\'s still a [scipy-hosted mailing list](http://projects.scipy.org/mailman/listinfo/apug), the [meetup.com mailing list](http://www.meetup.com/austinpython/messages/archive/) also receives some traffic.
 
 Meetings are generally the second Wednesday of each month and held at the Texas Tribune offices at 7pm. The address is 823 Congress Avenue, Austin, TX, on the second floor. NB: The entrance to the building is on 9th street. If you arrive after 7pm, you will need to ask the security guard to let you up (just tell them you are here for the Python meetup at the Texas Tribune). Usually, presentations last 1 - 1.5 hours and then we either linger, drink, and socialize, or we move the party to Buffalo Billiards and hang out there.
 
@@ -15,21 +20,13 @@ Parking downtown can be tricky. There are a number of parking garages around. Pl
 
 **Table of Contents:**
 
-::: table-of-contents
-Contents
+### Next Meeting 
 
-1.  [Next Meeting](#Next_Meeting)
-2.  [Previous meetings](#Previous_meetings)
-3.  [Topic ideas for future events](#Topic_ideas_for_future_events)
-:::
+- See the [APUG meetup.com site](http://www.meetup.com/austinpython/)
 
-### Next Meeting {#Next_Meeting}
+### Previous meetings 
 
-- See the [APUG meetup.com site](http://www.meetup.com/austinpython/){.http}
-
-### Previous meetings {#Previous_meetings}
-
-- Previous meetings can been seen at the [APUG meetup.com site](http://www.meetup.com/austinpython/){.http}
+- Previous meetings can been seen at the [APUG meetup.com site](http://www.meetup.com/austinpython/)
 
 - December 7th, 2009 at 7pm (Wednesday): Jon Niles talked about nosetests and unit testing best practices.
 
@@ -41,15 +38,15 @@ Contents
 
 - July 8th, 2009 at 7pm (Wednesday): topic?
 
-- June 10th, 2009 at 7pm (Wednesday): Chris Meuller talked about the [CorePy](./CorePy.html){.nonexistent} release, a package for developing assembly-level applications for x86, Cell, and PowerPC processors.
+- June 10th, 2009 at 7pm (Wednesday): Chris Meuller talked about the [CorePy](./CorePy.html) release, a package for developing assembly-level applications for x86, Cell, and PowerPC processors.
 
 - May 13th, 2009: Warren Weckesser and Sam Stephens presented HSSILab, a Python-based tool for driving and automating electronic testing of microchips.
 
 - April 8th, 2009: Ilan Schnell talked about \"Debugging Reference Counts\".
 
-- March 11th, 2009: Mike Thornton talked about Continuous Integration with Python. Robert Kern presented Whoosh and [WhooshDoc](./WhooshDoc.html){.nonexistent}.
+- March 11th, 2009: Mike Thornton talked about Continuous Integration with Python. Robert Kern presented Whoosh and [WhooshDoc](./WhooshDoc.html).
 
-- February 11th, 2009: [Justin Arthur](http://www.linkedin.com/in/justintarthur){.http} on Stock/Futures/Options/Forex trading and Python
+- February 11th, 2009: [Justin Arthur](http://www.linkedin.com/in/justintarthur) on Stock/Futures/Options/Forex trading and Python
 
 - January 14th, 2009: Presentation about Django, Pinax & related discussion
 
@@ -57,20 +54,20 @@ Contents
 
 - November 12th, 2008: Discussion about AI, neural networks, etc.
 
-- September 10th, 2008: [Optaros](http://www.optaros.com/){.http} presents The High School Sports Network: *Inside of a high-load publishing application written in Python and Django*
+- September 10th, 2008: [Optaros](http://www.optaros.com/) presents The High School Sports Network: *Inside of a high-load publishing application written in Python and Django*
 
 - August 13th, 2008: How to Contribute to the Austin Django Sprint, and iPython Widgetry (presenter names?).
 
 - July 9th, 2008: Dave Peterson\'s presentation on setuptools and eggs
 
 - June 11th, 2008: IDE show-and-tell. A roundtable discussion about what environments and tools people are using to develop their Python projects. Some of the tools mentioned were:
-  - [Eclipse Classic](http://www.eclipse.org/downloads/){.http} with [PyDev](http://pydev.sourceforge.net/){.http} plugin.
+  - [Eclipse Classic](http://www.eclipse.org/downloads/) with [PyDev](http://pydev.sourceforge.net/) plugin.
 
-  - Vim with Python scripts. (I found [this](http://www.vim.org/scripts/script.php?script_id=30){.http} and [this](http://www.vim.org/scripts/script.php?script_id=790){.http}, but don\'t recall if either of these were specifically mentioned in the discussion.) See also [useful Vim settings for Python](http://www.vex.net/~x/python_and_vim.html){.http}.
+  - Vim with Python scripts. (I found [this](http://www.vim.org/scripts/script.php?script_id=30) and [this](http://www.vim.org/scripts/script.php?script_id=790), but don\'t recall if either of these were specifically mentioned in the discussion.) See also [useful Vim settings for Python](http://www.vex.net/~x/python_and_vim.html).
 
   - Emacs and ???.
 
-- May 14, 2008: Special guest speaker [Greg Wilson](http://pyre.third-bit.com/blog/greg-wilson){.http} talked about \"Beautiful Code\" and other topics. Great turnout!
+- May 14, 2008: Special guest speaker [Greg Wilson](http://pyre.third-bit.com/blog/greg-wilson) talked about \"Beautiful Code\" and other topics. Great turnout!
 
 - April 16, 2008: *Big* turnout this month. Discussed Google App Engine and other topics.
 
@@ -96,7 +93,7 @@ Contents
 
 - [October 12th, 2006](./apug(20)meeting(20)10(2d)12(2d)2006.html). No one volunteered to give a presentation so it was just a social. Here is a [page](./apug(20)meeting(20)10(2d)12(2d)2006.html) describing the meeting.
 
-### Topic ideas for future events {#Topic_ideas_for_future_events}
+### Topic ideas for future events 
 
 **Topic suggestions:**\
 
@@ -120,17 +117,16 @@ Contents
 
 **Topics you\'re willing to speak about (with speaker identified):**\
 
-- [CorePy](./CorePy.html){.nonexistent} - [ChrisMueller](./ChrisMueller.html){.nonexistent}
+- [CorePy](./CorePy.html) - [ChrisMueller](./ChrisMueller.html)
 
 - Pyparsing - [PaulMcGuire](PaulMcGuire) (cannot attend 12/12)
 
-- Python Game Development - [MichaelLubker](./MichaelLubker.html){.nonexistent}
+- Python Game Development - [MichaelLubker](./MichaelLubker.html)
 
-- Python and XML - [EricLarson](./EricLarson.html){.nonexistent}
+- Python and XML - [EricLarson](./EricLarson.html)
 
-- Zenoss, Python-powered Open Source Systems Management - [MattRay](./MattRay.html){.nonexistent}
+- Zenoss, Python-powered Open Source Systems Management - [MattRay](./MattRay.html)
 
 ------------------------------------------------------------------------
 
 [CategoryUsergroups](CategoryUsergroups)
-::::

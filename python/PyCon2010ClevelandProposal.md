@@ -1,13 +1,17 @@
 # PyCon2010ClevelandProposal
 
-::: {#content dir="ltr" lang="en"}
-[ClePy](http://www.clepy.org){.http} (Cleveland Area Python Interest Group) is creating a bid for hosting [PyCon](PyCon) 2010 and 2011.
+```{admonition} Legacy Wiki Page
+:class: note
 
-# Conference Bid Staff {#Conference_Bid_Staff}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-- [David Stanek](http://www.traceback.org){.http}
+[ClePy](http://www.clepy.org) (Cleveland Area Python Interest Group) is creating a bid for hosting [PyCon](PyCon) 2010 and 2011.
 
-# Proposal {#Proposal}
+# Conference Bid Staff 
+
+- [David Stanek](http://www.traceback.org)
+
+# Proposal 
 
 Getting this together as you are reading\...
-:::

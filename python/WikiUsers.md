@@ -1,7 +1,12 @@
 # WikiUsers
 
-::: {#content dir="ltr" lang="en"}
-If you contribute to the [PythonWiki](./PythonWiki.html){.nonexistent}, consider creating a page for yourself:
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+If you contribute to the [PythonWiki](./PythonWiki.html), consider creating a page for yourself:
 
 - [DougRansom](DougRansom)
 
@@ -19,7 +24,7 @@ If you contribute to the [PythonWiki](./PythonWiki.html){.nonexistent}, consider
 
 - [LionKimbro](LionKimbro)
 
-- [LeeEdwin](./LeeEdwin.html){.nonexistent}
+- [LeeEdwin](./LeeEdwin.html)
 
 - [JAM](JAM)
 
@@ -35,5 +40,4 @@ If you contribute to the [PythonWiki](./PythonWiki.html){.nonexistent}, consider
 
 - [CameronDewe](CameronDewe)
 
-[http://wiki.python.org/moin/FrontPage#preview](http://wiki.python.org/moin/FrontPage#preview){.http}
-:::
+[http://wiki.python.org/moin/FrontPage#preview](http://wiki.python.org/moin/FrontPage#preview)

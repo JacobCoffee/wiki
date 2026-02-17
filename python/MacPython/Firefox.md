@@ -1,7 +1,12 @@
 # MacPython/Firefox
 
-::: {#content dir="ltr" lang="en"}
-Firefox doesn\'t really play in the Applescripting world. See [this bug filed against it](https://bugzilla.mozilla.org/show_bug.cgi?id=125419){.https}, and vote for that bug if you\'d like to make it Applescriptable.
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Firefox doesn\'t really play in the Applescripting world. See [this bug filed against it](https://bugzilla.mozilla.org/show_bug.cgi?id=125419), and vote for that bug if you\'d like to make it Applescriptable.
 
 However, there are some workarounds for Firefox 2. Adium uses this:
 
@@ -23,5 +28,4 @@ Hengist says this might be written in appscript like this:
     appscriptref = ff.AS_newreference(aemref)
     print appscriptref.get()
 
-Unfortunately, [Firefox 3 broke this workaround](https://bugzilla.mozilla.org/show_bug.cgi?id=427448){.https}.
-:::
+Unfortunately, [Firefox 3 broke this workaround](https://bugzilla.mozilla.org/show_bug.cgi?id=427448).

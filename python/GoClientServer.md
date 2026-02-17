@@ -1,7 +1,12 @@
 # GoClientServer
 
-::: {#content dir="ltr" lang="en"}
-# Web based Client/Server {#Web_based_Client.2FServer}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Web based Client/Server 
 
 *Just a rough sketch*
 
@@ -15,7 +20,7 @@
 
 ------------------------------------------------------------------------
 
-# Client/Server Application Infrastructure {#Client.2FServer_Application_Infrastructure}
+# Client/Server Application Infrastructure 
 
 - [CorbaPython](CorbaPython)
 
@@ -24,4 +29,3 @@
 - [Pyro](Pyro) - Python Remote Objects
 
 - [Dopy](Dopy) - Distributed Object for Python
-:::

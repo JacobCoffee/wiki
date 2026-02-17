@@ -1,6 +1,11 @@
 # PackagingWG/2020-05-20-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Teamwide meeting, May 20th
 
 Participants
@@ -55,7 +60,7 @@ Agenda
       - Something needs to do the work of figuring out which contextual info to provide to the user\... could we gather metrics on failed conflict resolution in order for pip to better understand what package combos work well/don\'t? This would all assume that these metrics were gathered consensually, transparently, etc.
         - TODO: Sumana: Are we ok to go to the Python community to ask \"what if we had specific telemetry on package dependency conflicts?\"
 
-    - The language of the some of pip\'s command implies it will do one thing, and it does another. e.g. [https://github.com/pypa/pip/issues/8238](https://github.com/pypa/pip/issues/8238){.https}
+    - The language of the some of pip\'s command implies it will do one thing, and it does another. e.g. [https://github.com/pypa/pip/issues/8238](https://github.com/pypa/pip/issues/8238)
 
       - Started with Paul\'s Zulip conversation. Related to \--force-reinstall more specifically, not so much a wider issue. Can discuss in that issue.
         - Paul: only spills out a little.
@@ -78,7 +83,7 @@ Agenda
 
     - Georgia: Going off general UX guidance, we can see patterns off any number of responses, we can see patterns in fewer than 100, but could introduce bias because we on;y get certain types of response. \>50 good, 100 would be definitely able to see patterns
 
-      - call for help: [http://www.ei8fdb.org/thoughts/2020/05/test-pips-alpha-resolver-and-help-us-document-dependency-conflicts/](http://www.ei8fdb.org/thoughts/2020/05/test-pips-alpha-resolver-and-help-us-document-dependency-conflicts/){.http}
+      - call for help: [http://www.ei8fdb.org/thoughts/2020/05/test-pips-alpha-resolver-and-help-us-document-dependency-conflicts/](http://www.ei8fdb.org/thoughts/2020/05/test-pips-alpha-resolver-and-help-us-document-dependency-conflicts/)
 
     - next to prioritize: audit output/error message of the rest of the resolver \-- Nicole has started a spreadsheet, will need dev time to go through that
       - Nicole to sync with Paul or Tzu-Ping
@@ -91,7 +96,7 @@ Agenda
   - will be helpful to UX folks: have a clearer week-by-week timeline for things. deadlines. More clarity would be helpful. Release planning.
     - Sumana: agreed
 
-- release beta this month? [https://github.com/pypa/pip/issues/8206](https://github.com/pypa/pip/issues/8206){.https}
+- release beta this month? [https://github.com/pypa/pip/issues/8206](https://github.com/pypa/pip/issues/8206)
 
   - Sumana: let\'s not do this. Maybe June
     - Paul: good
@@ -103,7 +108,7 @@ Agenda
 
   - Tzu-Ping filed a PR while we were talking. LOL
 
-  - [https://github.com/pypa/pip/pull/8275](https://github.com/pypa/pip/pull/8275){.https}
+  - [https://github.com/pypa/pip/pull/8275](https://github.com/pypa/pip/pull/8275)
 
     - sure, let\'s ship this in the alpha. \"and tell us if things are taking too long\"
     - This also lets us unblock a lot of people who were trying to install 100+ packages in one go, e.g. with a big requirements.txt (pip would stop them from trying)
@@ -115,4 +120,3 @@ Pradyun:
 - Paul, if you hit errors in release automation, Pradyun will be around, ping him on Zulip
   - Paul asks about docs about where to announce stuff
     - TODO: Sumana to add those to docs
-:::

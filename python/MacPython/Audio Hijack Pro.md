@@ -1,11 +1,16 @@
 # MacPython/Audio Hijack Pro
 
-::::: {#content dir="ltr" lang="en"}
-Print a formatted, plain text list of all scheduled timers with the dates and times for which they are scheduled. A description can be found [here](http://www.leancrew.com/all-this/2007/07/python_appscript_for_audio_hij.html){.http}
+```{admonition} Legacy Wiki Page
+:class: note
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-073629f764e9019e2f300b0112cb7d8bbef39572 dir="ltr" lang="en"}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Print a formatted, plain text list of all scheduled timers with the dates and times for which they are scheduled. A description can be found [here](http://www.leancrew.com/all-this/2007/07/python_appscript_for_audio_hij.html)
+
+:::: 
+::: 
+``` 
    1 #!/usr/bin/env python
    2 
    3 from appscript import *
@@ -60,4 +65,3 @@ Print a formatted, plain text list of all scheduled timers with the dates and ti
 ```
 :::
 ::::
-:::::

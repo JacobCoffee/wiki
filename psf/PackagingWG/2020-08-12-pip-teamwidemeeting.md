@@ -1,6 +1,11 @@
 # PackagingWG/2020-08-12-pip-teamwidemeeting
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Wednesday 12 August
 
 Participants: - Bernard - Pradyun - Sumana - Ernest - Georgia
@@ -14,13 +19,13 @@ Agenda:
 
   - Georgia - fine
 
-  - Nicole - not blocked (as far as Georgia+Bernard know ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"} ). Pradyun would like to make more progress with her on backtracking issue\.... Pradyun will work with Bernard
+  - Nicole - not blocked (as far as Georgia+Bernard know ![:)](/wiki/europython/img/smile.png ":)") ). Pradyun would like to make more progress with her on backtracking issue\.... Pradyun will work with Bernard
 
   - Pradyun - made 20.2.2 bugfix. Next: triaging issues. Lots of support tickets\.... NEXT WEEK, talk with Sumana about using automated testing to find likely bugs/problems in upstreams
     - Have we recieved any responses to survey #989272 that we need to route over to Pradyun?
       - Not looked at in 2 weeks \-- we can give Pradyun direct access? Yes\... as long as personally identifying information isn\'t made publicly available.
 
-      - Pradyun: when transferring issues to [GitHub](./GitHub.html){.nonexistent}, anonymize
+      - Pradyun: when transferring issues to [GitHub](./GitHub.html), anonymize
 
       - TODO: Bernard to give Pradyun direct access
 
@@ -32,7 +37,7 @@ Agenda:
     - Thinking about: What else can we do?
       - \"earned media\" \-- people to notice what you\'re doing and talk about it.
 - \"who uses pip\" research update
-  - [https://github.com/pypa/pip/issues/8518](https://github.com/pypa/pip/issues/8518){.https}
+  - [https://github.com/pypa/pip/issues/8518](https://github.com/pypa/pip/issues/8518)
 
   - Bernard: I put together a intial survey speaking w/ Nicole, about how we were going to do this research. Initially, thought of multiple surveys \-- doing a single one instead (less logistical work).
 
@@ -52,7 +57,7 @@ Agenda:
       - 210 people more will be contacted (i.e. who are signed up for \"i want to take a survey\")
         - panel
 
-      - List of surveys, in progress: [https://www.notion.so/simplysecure/b46a0992ba8548cf988200cb2a02636b?v=beba10f184b647aa87c207e832f645b4](https://www.notion.so/simplysecure/b46a0992ba8548cf988200cb2a02636b?v=beba10f184b647aa87c207e832f645b4){.https}
+      - List of surveys, in progress: [https://www.notion.so/simplysecure/b46a0992ba8548cf988200cb2a02636b?v=beba10f184b647aa87c207e832f645b4](https://www.notion.so/simplysecure/b46a0992ba8548cf988200cb2a02636b?v=beba10f184b647aa87c207e832f645b4)
     - 3 personas
       - Python software user, or
       - Python package maintainer, or
@@ -76,7 +81,7 @@ Agenda:
 
       - Ernest: assuming \[bunch of things like content are done\], a week?
 
-      - Sumana: There\'s [PyCon](./PyCon.html){.nonexistent} sponsors and PyPI sponsors\... \[pradyun is slow note taker\]
+      - Sumana: There\'s [PyCon](./PyCon.html) sponsors and PyPI sponsors\... \[pradyun is slow note taker\]
 
         - Ernest: there\'s 2 or 3, overlap otherwise.
 
@@ -95,13 +100,13 @@ Agenda:
 
     - Google Trends - check it out to see who is talking about pip and where
 
-    - Bernard: has gone to [AdaFruit](./AdaFruit.html){.nonexistent}, [CoderDojo](./CoderDojo.html){.nonexistent}, Raspberry Pi Foundation, emailed their mentors/community and explained \[context and ask\]. We need people who are respected and well-known in these communities to say \"let\'s do this because it will benefit us\" What we need essentially: people in different communities who have \"respect and trust\" of those communities to advertise it.
+    - Bernard: has gone to [AdaFruit](./AdaFruit.html), [CoderDojo](./CoderDojo.html), Raspberry Pi Foundation, emailed their mentors/community and explained \[context and ask\]. We need people who are respected and well-known in these communities to say \"let\'s do this because it will benefit us\" What we need essentially: people in different communities who have \"respect and trust\" of those communities to advertise it.
 
       - Different places we can go to advertise: we have a good idea. But we need respected people to vouch for us
 
       - some ideas: developer.moz, Twitter/Google/Facebook/ Amazon, Jira/Atlassian developer relations, Jetbrains,
 
-      - disability association (and \"tech. usage subgroups\" - I\'m contacing disability organisations in UK, IE), \"respected/famous\" Python developers (Guido [WassHisName](./WassHisName.html){.nonexistent}?!)
+      - disability association (and \"tech. usage subgroups\" - I\'m contacing disability organisations in UK, IE), \"respected/famous\" Python developers (Guido [WassHisName](./WassHisName.html)?!)
 
       - would be nice if tech celebrities would tweet it
 
@@ -109,7 +114,6 @@ Agenda:
 - 20.2 cycle, bugfixes, etc. going through early October
   - Basically done, I think. Can do more (20.2.3 and so on) if we have things to change/add.
 
-  - Pradyun will be assiduous about placing relevant issues in the To Do Before Prod column in the [GitHub](./GitHub.html){.nonexistent} board on the resolver rollout
+  - Pradyun will be assiduous about placing relevant issues in the To Do Before Prod column in the [GitHub](./GitHub.html) board on the resolver rollout
 
   - TODO in a 1:1 call Pradyun-Sumana next week: look through that column and start to see the road to October
-:::

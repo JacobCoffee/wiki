@@ -1,7 +1,12 @@
 # ValSaven
 
-::: {#content dir="ltr" lang="en"}
-## Val Saven {#Val_Saven}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Val Saven 
 
 Email: `<val.saven AT SPAMFREE gmail DOT com>`
 
@@ -10,4 +15,3 @@ Email: `<val.saven AT SPAMFREE gmail DOT com>`
 ------------------------------------------------------------------------
 
 [CategoryHomepage](CategoryHomepage)
-:::

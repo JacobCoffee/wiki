@@ -1,72 +1,77 @@
 # PythonSoftwareFoundation/BoardCandidates2017
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 # Candidates for the 2017 PSF Board of Directors
 
 The following people have been nominated as Directors of the Python Software Foundation for the term beginning in June 2017. Their self-written summaries follow. The specific dates of relevance to the election are:
 
 > - Open call for Board Director Nominations: May 1, 2017
-> - Board Director Nomination & Voter Eligibility cut-off: May 25, 2017 AoE - nominations & voting eligibility closes at [2017-05-25 23:59:59 UTC-12](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Nomination+Deadline&iso=20170525T2359&p1=3926){.https .reference .external}
+> - Board Director Nomination & Voter Eligibility cut-off: May 25, 2017 AoE - nominations & voting eligibility closes at [2017-05-25 23:59:59 UTC-12](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Nomination+Deadline&iso=20170525T2359&p1=3926)
 > - Voting start date: June 1, 2017 AoE - ballots will be sent out
-> - Voting end date: June 10, 2017 AoE - election closes at [2017-06-10 23:59:59 UTC-12](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Election+Deadline&iso=20170610T2359&p1=3926){.https .reference .external}
+> - Voting end date: June 10, 2017 AoE - election closes at [2017-06-10 23:59:59 UTC-12](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Election+Deadline&iso=20170610T2359&p1=3926)
 
-The above closing times are given in the [\"Anywhere on Earth\" (AOE) timezone](http://en.wikipedia.org/wiki/Anywhere_on_Earth){.http .reference .external}.
+The above closing times are given in the [\"Anywhere on Earth\" (AOE) timezone](http://en.wikipedia.org/wiki/Anywhere_on_Earth).
 
 There are currently 11 seats on the Board of Directors (last changed in the 2012 PSF Members vote).
 
-::: {#nominees .contents .topic}
+::: 
 Nominees
 
-- [Lorena Mesa](#lorena-mesa){#id13 .reference .internal}
-- [Naomi Ceder](#naomi-ceder){#id14 .reference .internal}
-- [Eric Holscher](#eric-holscher){#id15 .reference .internal}
-- [Raphael Pierzina](#raphael-pierzina){#id16 .reference .internal}
-- [Philip James](#philip-james){#id17 .reference .internal}
-- [Van Lindberg](#van-lindberg){#id18 .reference .internal}
-- [Chukwudi Nwachukwu](#chukwudi-nwachukwu){#id19 .reference .internal}
-- [Marlene Mhangami](#marlene-mhangami){#id20 .reference .internal}
-- [Paola Katherine Pacheco](#paola-katherine-pacheco){#id21 .reference .internal}
-- [Kenneth Reitz](#kenneth-reitz){#id22 .reference .internal}
-- [Kushal Das](#kushal-das){#id23 .reference .internal}
-- [Younggun Kim](#younggun-kim){#id24 .reference .internal}
-- [Trey Hunner](#trey-hunner){#id25 .reference .internal}
-- [Jackie Kazil](#jackie-kazil){#id26 .reference .internal}
-- [Christopher Neugebauer](#christopher-neugebauer){#id27 .reference .internal}
-- [Thomas Wouters](#thomas-wouters){#id28 .reference .internal}
-- [Justin Myles Holmes](#justin-myles-holmes){#id29 .reference .internal}
-- [Paul Hildebrandt](#paul-hildebrandt){#id30 .reference .internal}
-- [Don Sheu](#don-sheu){#id31 .reference .internal}
-- [Leonardo Jimenez](#leonardo-jimenez){#id32 .reference .internal}
-- [Kerstin Kollmann](#kerstin-kollmann){#id33 .reference .internal}
-- [Irma Leticia Kramer](#irma-leticia-kramer){#id34 .reference .internal}
+- [Lorena Mesa](#lorena-mesa)
+- [Naomi Ceder](#naomi-ceder)
+- [Eric Holscher](#eric-holscher)
+- [Raphael Pierzina](#raphael-pierzina)
+- [Philip James](#philip-james)
+- [Van Lindberg](#van-lindberg)
+- [Chukwudi Nwachukwu](#chukwudi-nwachukwu)
+- [Marlene Mhangami](#marlene-mhangami)
+- [Paola Katherine Pacheco](#paola-katherine-pacheco)
+- [Kenneth Reitz](#kenneth-reitz)
+- [Kushal Das](#kushal-das)
+- [Younggun Kim](#younggun-kim)
+- [Trey Hunner](#trey-hunner)
+- [Jackie Kazil](#jackie-kazil)
+- [Christopher Neugebauer](#christopher-neugebauer)
+- [Thomas Wouters](#thomas-wouters)
+- [Justin Myles Holmes](#justin-myles-holmes)
+- [Paul Hildebrandt](#paul-hildebrandt)
+- [Don Sheu](#don-sheu)
+- [Leonardo Jimenez](#leonardo-jimenez)
+- [Kerstin Kollmann](#kerstin-kollmann)
+- [Irma Leticia Kramer](#irma-leticia-kramer)
 :::
 
 ::: topic
 Links
 
-- [Letter from PSF Director of Operations - Expectations of Board Directors](/moin/PythonSoftwareFoundation/ExpectationsOfBoardDirectors){.reference .external}
-- [Duties and Responsibilities of Directors](/moin/PythonSoftwareFoundation/DutiesAndResponsibilitiesOfDirectors){.reference .external}
-- [2016 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2016){.reference .external}
-- [2015 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2015){.reference .external}
-- [2014 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2014){.reference .external}
-- [2013 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2013){.reference .external}
-- [2012 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2012){.reference .external}
-- [2011 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2011){.reference .external}
-- [2010 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2010){.reference .external}
-- [2009 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2009){.reference .external}
-- [2008 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2008){.reference .external}
+- [Letter from PSF Director of Operations - Expectations of Board Directors](/moin/PythonSoftwareFoundation/ExpectationsOfBoardDirectors)
+- [Duties and Responsibilities of Directors](/moin/PythonSoftwareFoundation/DutiesAndResponsibilitiesOfDirectors)
+- [2016 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2016)
+- [2015 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2015)
+- [2014 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2014)
+- [2013 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2013)
+- [2012 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2012)
+- [2011 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2011)
+- [2010 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2010)
+- [2009 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2009)
+- [2008 Board Candidates](/moin/PythonSoftwareFoundation/BoardCandidates2008)
 :::
 
 **Registering as a PSF Board candidate**
 
 To register as a candidate for the Board elections, add your nomination to this page using the format listed at the end of the page. We\'d like as many groups within the PSF membership as possible to have the option of electing candidates that can directly represent their interests in Board discussions, so if there\'s someone you\'d particularly like to have represent you, you may want to consider getting in touch with them and (politely!) asking if they\'d be interested in nominating themselves.
 
-Read through the [Letter from PSF Director of Operations - Expectations of Board Directors](/moin/PythonSoftwareFoundation/ExpectationsOfBoardDirectors){.reference .external} & [Duties and Responsibilities of Directors](/moin/PythonSoftwareFoundation/DutiesAndResponsibilitiesOfDirectors){.reference .external}. Please note that the PSF bylaws require that Board candidates disclose significant organizational affiliations (for example, their employer).
+Read through the [Letter from PSF Director of Operations - Expectations of Board Directors](/moin/PythonSoftwareFoundation/ExpectationsOfBoardDirectors) & [Duties and Responsibilities of Directors](/moin/PythonSoftwareFoundation/DutiesAndResponsibilitiesOfDirectors). Please note that the PSF bylaws require that Board candidates disclose significant organizational affiliations (for example, their employer).
 
-::: {.admonition .note}
+::: 
 Note
 
-Please follow the instructions on the [FrontPage](/moin/FrontPage){.reference .external} to gain wiki edit access.
+Please follow the instructions on the [FrontPage](/moin/FrontPage) to gain wiki edit access.
 :::
 
 **Registering to vote on PSF ballots**
@@ -78,9 +83,9 @@ While PSF Membership is open to anyone that chooses to join, Basic Members are n
 - Supporting Members (these were previously called \"Associate Members\")
 - PSF Fellows
 
-To register as a Managing or Contributing member, refer to [this post](http://pyfound.blogspot.com.au/2015/02/enroll-as-psf-voting-member.html){.http .reference .external} on the PSF blog.
+To register as a Managing or Contributing member, refer to [this post](http://pyfound.blogspot.com.au/2015/02/enroll-as-psf-voting-member.html) on the PSF blog.
 
-To register as a Supporting Member, please use the [PSF Associate Membership site](https://psfmember.org/){.https .reference .external}.
+To register as a Supporting Member, please use the [PSF Associate Membership site](https://psfmember.org/).
 
 PSF Fellows must themselves be approved through a PSF ballot, and thus only existing Fellows will be entitled to vote on the upcoming ballot. This ballot will include bylaw updates for the newly established process for nominating Fellows.
 
@@ -106,12 +111,12 @@ Please use the following format:
 
 ------------------------------------------------------------------------
 
-::::::: {#lorena-mesa .section}
-### [Lorena Mesa](#id13){.toc-backref}
+::::::: 
+### [Lorena Mesa](#id13)
 
 *2016 Board Member*
 
-::: {#description .section}
+::: 
 #### **Description**
 
 It is with great pleasure that I outline my personal contributions to the Python community. Additionally I will provide an overview of the merits that I believe I could bring to the PSF as 2017 member of the Board of Directors.
@@ -127,7 +132,7 @@ As a Python organizer my career began when I founded the PyLadies Chicago chapte
 PyLadies Chicago has been a rich and rewarding experience as the continued recruitment for women in technical communities, such as Python, is one of my top priorities. As a Latina and a woman I believe it is instrumental we continue to advance this cause but more importantly to continue to advance it on a global scale.
 :::
 
-::: {#psf-community-contributions .section}
+::: 
 #### **2016/2017 PSF Community Contributions**
 
 - Attended 16 of 17 meetings (3 by proxy)
@@ -143,10 +148,10 @@ PyLadies Chicago has been a rich and rewarding experience as the continued recru
 One major way I\'ve attempted to support the PSF has been through active outreach explaining who the PSF is and what the PSF does. When possible I attempt to be present in person, if not, then remotely. For example when I represented the PSF at Python Jamaica many of the conversations with attendees I had led to the start of the PyCon Organizers Manual. I continue to dedicate myself to on-site support with Python Day Mexico in June 2017, where I will be speaking as well as offering an update on the PSF in Spanish. Other regional communities I have been working with remotely include Zimbabwe with ZimboPy and Cuba with their upcoming Latin America Scientific Python Conference in September 2017.
 :::
 
-::: {#python-community-contributions .section}
+::: 
 #### **Python Community Contributions**
 
-- Speak about Python in several capacities, see [my website](http://lorenamesa.com/){.http .reference .external} under Speaking and Press contributions. Examples include: [Language Track - Python GOTO Conference Chicago May 2017](https://gotochgo.com/2017/speakers/226/){.https .reference .external} and [Open SourceCraft Podcast](http://codepop.com/open-sourcecraft/episodes/lorena-mesa/){.http .reference .external} .
+- Speak about Python in several capacities, see [my website](http://lorenamesa.com/) under Speaking and Press contributions. Examples include: [Language Track - Python GOTO Conference Chicago May 2017](https://gotochgo.com/2017/speakers/226/) and [Open SourceCraft Podcast](http://codepop.com/open-sourcecraft/episodes/lorena-mesa/) .
 - Organize PyLadies speakers at ChiPy (Chicago Python User Group) April 2017 meeting.
 - PyLadies PyCon Booth Volunteer (2016, 2017)
 - PyLadies Auctioneer at PyCon (2017)
@@ -158,7 +163,7 @@ One major way I\'ve attempted to support the PSF has been through active outreac
 - Participated in PyCon USA Sprints 2017 for PyVideo
 :::
 
-::: {#goals-as-a-board-member .section}
+::: 
 #### **2017/2018 Goals as a Board Member**
 
 My goals for 2017/2018 as a board member can be largely defined through the lens of organizational building, continued and better informed outreach, and promoting diversity:
@@ -172,13 +177,13 @@ In summary, I would like to thank you for your time and consideration for my 201
 
 Affiliations:
 
-- [PyLadies Chicago](http://meetup.com/Chicago-PyLadies/){.http .reference .external} , Founder and Organizer
-- [Write/Speak/Code](https://2017.writespeakcode.com/index.html){.https .reference .external} , Conference Organizer
+- [PyLadies Chicago](http://meetup.com/Chicago-PyLadies/) , Founder and Organizer
+- [Write/Speak/Code](https://2017.writespeakcode.com/index.html) , Conference Organizer
 - Django Girls Chicago, Organizer
-- [Chi Tech Diversity](http://chitechdiversity.com){.http .reference .external} , Founding Member
+- [Chi Tech Diversity](http://chitechdiversity.com) , Founding Member
 - Systers, Google Summer of Code Mentor
-- [Sprout Social](http://sproutsocial.com){.http .reference .external} , Software Engineer in Data Science
-- [Tech Ladies](http://hiretechladies.com){.http .reference .external}, Chicago City Organizer
+- [Sprout Social](http://sproutsocial.com) , Software Engineer in Data Science
+- [Tech Ladies](http://hiretechladies.com), Chicago City Organizer
 - Girl Develop It Chicago, Teacher (Python classes)
 
 In solidarity,
@@ -189,8 +194,8 @@ Lorena Mesa
 
 ------------------------------------------------------------------------
 
-::: {#naomi-ceder .section}
-### [Naomi Ceder](#id14){.toc-backref}
+::: 
+### [Naomi Ceder](#id14)
 
 *2016, 2015 Board Member*
 
@@ -231,30 +236,30 @@ After two years as a member of the board, I would be honored to be able to conti
 
 ------------------------------------------------------------------------
 
-::::::: {#eric-holscher .section}
-### [Eric Holscher](#id15){.toc-backref}
+::::::: 
+### [Eric Holscher](#id15)
 
 **New Board Member**
 
-::: {#my-goals-for-the-psf .section}
+::: 
 #### My goals for the PSF
 
 Hi, I\'m Eric, and I\'m a co-founder of Read the Docs and Write the Docs. The Python community has grown over the past few years, and I believe the PSF should grow with it. My goal is to increase PSF\'s impact on the world and the Python community, mainly through my focus on these goals:
 
 - **Increase Sustainability**: The fact that we don\'t have full-time paid staff working on PyPI is a travesty. I believe there is a way to make this happen, but it will be a battle, and will require making some compromises along the way. **If people wear a pager, they should be paid.** There are some perverse incentives with paying people to develop software, but paying people for operations and support should be obvious.
 - **Increase Inclusion**: I\'m in awe of the work that the Pyladies, Django Girls, and others do every day. We should do as much as possible to support them, along with telling their stories, and inspiring others to create similar efforts for other under represented groups. I think that we\'ve done a reasonably good job bringing people into the community, but we still need to work on Inclusion to get them integrated once they\'re here. **What does the month after a Django Girls workshop look like for the attendees?**
-- **Improve Documentation**: This one is probably obvious given my background, **but I believe that documentation is a fundamental part of inclusion, which is a fundamental part of diversity**. It\'s also the primary way that a majority of our users interact with the Python language. We should improve our documentation theme so that it works on mobile, we should improve the structure of our docs to include more guides and tutorials, not just examples. We should also translate our documentation ([PEP 545](https://www.python.org/dev/peps/pep-0545/){.https .reference .external}), so that people all around the world can learn Python without having to learn English. There\'s a lot of work to do here, but I hope to provide vision in this space.
+- **Improve Documentation**: This one is probably obvious given my background, **but I believe that documentation is a fundamental part of inclusion, which is a fundamental part of diversity**. It\'s also the primary way that a majority of our users interact with the Python language. We should improve our documentation theme so that it works on mobile, we should improve the structure of our docs to include more guides and tutorials, not just examples. We should also translate our documentation ([PEP 545](https://www.python.org/dev/peps/pep-0545/)), so that people all around the world can learn Python without having to learn English. There\'s a lot of work to do here, but I hope to provide vision in this space.
 - **Improve Communication**: What on earth does the PSF do? How much money does it spend each year? What outcomes does it have? I think that I can help people understand what the PSF does, and how it operates, in a more transparent fashion. I think that this is the first step towards raising awareness for it in the community, and allowing it to become more sustainable and support more community projects.
 - **Increase Python 3 Adoption**: The time is now. Python 3 is ready \-- let\'s make it happen. The latest projects that I\'ve created are on Python 3, but much to my shame Read the Docs is still Python 2, and defaults projects to Python 2. I will personally move forward in this regard, and think the rest of the community should as well. It\'s time.
 :::
 
-::: {#experience .section}
+::: 
 #### Experience
 
-I\'ve been working on [Read the Docs](https://readthedocs.org/){.https .reference .external}, an open source project, and now almost sustainable open source business for the last 6 years. Along the way, we\'ve also built a global community around documentation with [Write the Docs](http://www.writethedocs.org/){.http .reference .external}. Both of these projects have had global impact on the software industry:
+I\'ve been working on [Read the Docs](https://readthedocs.org/), an open source project, and now almost sustainable open source business for the last 6 years. Along the way, we\'ve also built a global community around documentation with [Write the Docs](http://www.writethedocs.org/). Both of these projects have had global impact on the software industry:
 
-- [https://blog.readthedocs.com/read-the-docs-2016-stats/](https://blog.readthedocs.com/read-the-docs-2016-stats/){.https .reference .external}
-- [http://www.writethedocs.org/blog/write-the-docs-2016-year-in-review/](http://www.writethedocs.org/blog/write-the-docs-2016-year-in-review/){.http .reference .external}
+- [https://blog.readthedocs.com/read-the-docs-2016-stats/](https://blog.readthedocs.com/read-the-docs-2016-stats/)
+- [http://www.writethedocs.org/blog/write-the-docs-2016-year-in-review/](http://www.writethedocs.org/blog/write-the-docs-2016-year-in-review/)
 
 I believe I\'m uniquely suited to this job:
 
@@ -268,15 +273,15 @@ I\'ve also been fighting day in and day out to turn both of these organizations 
 - The PSF primarily makes money from conferences (PyCon) and tries to support the community with these funds. Write the Docs is fundamentally the same concept, and I have experience with the benefits and downsides of this \"business model\".
 :::
 
-::: {#my-commitment-to-the-python-community .section}
+::: 
 #### My Commitment to the Python Community
 
 I\'ve attended every Pycon US since Chicago in 2009, and love the Python community. My goal with serving on the board is to give back, and help move it forward on a number of issues.
 
-I\'ve spoken at a lot of conferences, mostly around Python. You can see more info about it [on my website](http://ericholscher.com/speaking/){.http .reference .external} \-- you may have even met me at one of these events :)
+I\'ve spoken at a lot of conferences, mostly around Python. You can see more info about it [on my website](http://ericholscher.com/speaking/) \-- you may have even met me at one of these events :)
 :::
 
-::: {#affiliations .section}
+::: 
 #### Affiliations
 
 - Co-founder of Read the Docs, also my primary source of income.
@@ -286,8 +291,8 @@ I\'ve spoken at a lot of conferences, mostly around Python. You can see more inf
 
 ------------------------------------------------------------------------
 
-::::::::: {#raphael-pierzina .section}
-### [Raphael Pierzina](#id16){.toc-backref}
+::::::::: 
+### [Raphael Pierzina](#id16)
 
 *New Board Member.*
 
@@ -297,22 +302,22 @@ Hi, I\'m Raphael!
 
 I write software for my job and for fun - mostly in Python and Go. I specialize in Python development, automated testing, and RESTful web APIs. I have been a part of the Python community for a couple of years now and use Python on a daily basis for work and in my open source projects. I made friends with many fellow Pythonistas online and at community conferences like EuroPython, WriteTheDocs and local user groups in Scotland. I am very inspired by the Python community.
 
-Who am I? I am a person who gives back. I [contribute time](https://github.com/hackebrot/){.https .reference .external} to the following open source projects:
+Who am I? I am a person who gives back. I [contribute time](https://github.com/hackebrot/) to the following open source projects:
 
-- Maintainer and core contributor of the [Cookiecutter](https://github.com/audreyr/cookiecutter){.https .reference .external} project
-- Advocate and core contributor for the [pytest](https://github.com/pytest-dev/pytest){.https .reference .external} testing framework
-- Creator and maintainer of the [cookiecutter-pytest-plugin](https://github.com/pytest-dev/cookiecutter-pytest-plugin){.https .reference .external} template
-- Writer at [pytest-tricks](https://github.com/hackebrot/pytest-tricks){.https .reference .external}, a blog dedicated to teaching pytest
+- Maintainer and core contributor of the [Cookiecutter](https://github.com/audreyr/cookiecutter) project
+- Advocate and core contributor for the [pytest](https://github.com/pytest-dev/pytest) testing framework
+- Creator and maintainer of the [cookiecutter-pytest-plugin](https://github.com/pytest-dev/cookiecutter-pytest-plugin) template
+- Writer at [pytest-tricks](https://github.com/hackebrot/pytest-tricks), a blog dedicated to teaching pytest
 
 I also attended and spoke at several conferences and local user groups: EuroPython 2015, EuroPython 2016, Python Glasgow, and Python Edinburgh. This year, I\'m going to speak at PyData Berlin and hopefully also EuroPython.
 
-I talked about pytest on the [Test & Code Podcast](http://testandcode.com/24){.http .reference .external} and on the [Weekly Python Chat](https://www.crowdcast.io/e/pytest){.https .reference .external}, volunteered my expertise in Python testing during [Adopt pytest month](https://docs.pytest.org/en/latest/adopt.html){.https .reference .external}, helped raise funds for the [pytest development sprint](http://blog.pytest.org/2016/pytest-development-sprint/){.http .reference .external}, and worked in my free time as technical reviewer for a book about Kivy--a Python framework for NUI development.
+I talked about pytest on the [Test & Code Podcast](http://testandcode.com/24) and on the [Weekly Python Chat](https://www.crowdcast.io/e/pytest), volunteered my expertise in Python testing during [Adopt pytest month](https://docs.pytest.org/en/latest/adopt.html), helped raise funds for the [pytest development sprint](http://blog.pytest.org/2016/pytest-development-sprint/), and worked in my free time as technical reviewer for a book about Kivy--a Python framework for NUI development.
 
-::: {#goals-as-a-psf-board-member .section}
+::: 
 #### Goals as a PSF Board Member
 :::
 
-::: {#increase-inclusion .section}
+::: 
 #### Increase inclusion
 
 I would be honored to represent the PSF as a Board Director and **promote diversity and openness** in the Python community. I want to work with the board on initiatives to help newcomers around the globe to begin their creative journey with code. Most importantly, I want to make sure everyone feels welcome in our community.
@@ -322,7 +327,7 @@ Often the barrier from writing a Python script to publishing a fully-fledged PyP
 I also want to **support the important work** of the brilliant minds behind Django Girls, PyLadies and other great projects that focus on **integrating people from underrepresented groups**.
 :::
 
-::: {#support-maintainers .section}
+::: 
 #### Support maintainers
 
 I believe that we as an industry and community need to do better at **supporting maintainers of open source projects**. These projects provide critical infrastructure and tools used by organizations and individuals globally.
@@ -332,17 +337,17 @@ Despite being volunteer run, they are expected to fulfill unfair demands by well
 I don\'t have a definite solution to the problem of sustainability in open source, but I want to work with the other board directors on initiatives to combat this issue. I believe it needs to be a **PSF effort to explore more possibilities around raising funding** for critical projects in the Python ecosystem.
 :::
 
-::: {#improve-documentation .section}
+::: 
 #### Improve Documentation
 
-The Python language documentation at [https://docs.python.org](https://docs.python.org){.https .reference .external} has a few problems. Although the majority of prominent speakers at Python conferences actively advocate for the adoption of Python 3, it is not very well reflected in the official docs.
+The Python language documentation at [https://docs.python.org](https://docs.python.org) has a few problems. Although the majority of prominent speakers at Python conferences actively advocate for the adoption of Python 3, it is not very well reflected in the official docs.
 
-The fact that beginners on the [Python subreddit](https://www.reddit.com/r/Python/){.https .reference .external} regularly ask if they should be learning Python 2 or Python 3 is alarming. It could be an indicator for that the official documentation is not very explicit about this.
+The fact that beginners on the [Python subreddit](https://www.reddit.com/r/Python/) regularly ask if they should be learning Python 2 or Python 3 is alarming. It could be an indicator for that the official documentation is not very explicit about this.
 
 As a director on the board, I would like to work with the other members to better **understand what is causing the confusion within our community**. By updating the documentation we can **better communicate to aspiring Pythonistas that Python 3 is now widely supported** and the recommended language version for newcomers to learn.
 :::
 
-::: {#represent-the-psf .section}
+::: 
 #### Represent the PSF
 
 The Python community continues to grow, but I feel there is a **lack of awareness about the PSF and its mission**. The PSF meeting with Naomi Ceder and Lorena Mesa at EuroPython last year was a great way to give updates directly from the PSF board. Also the stickers for PSF members were awesome!
@@ -350,7 +355,7 @@ The Python community continues to grow, but I feel there is a **lack of awarenes
 I would like to draw on this and represent the PSF in Europe. My hope is to **get people at conferences in Europe and local user groups in Berlin interested in the workings of the PSF**. It would be great to have more people register as PSF members and involve them in votes like this one.
 :::
 
-::: {#id1 .section}
+::: 
 #### Affiliations
 
 - Software Engineer at moovel Group
@@ -360,8 +365,8 @@ I would like to draw on this and represent the PSF in Europe. My hope is to **ge
 
 ------------------------------------------------------------------------
 
-::: {#philip-james .section}
-### [Philip James](#id17){.toc-backref}
+::: 
+### [Philip James](#id17)
 
 *New Board Member.*
 
@@ -383,9 +388,9 @@ I want to continue to grow the Python community, especially with a focus on grow
 
 I also care intensely about the strength of the Python ecosystem. We need to have the best tools available, and that means a focus on our packaging and package distribution. PyPI, pip, wheels; I'd like to see all of these become first-class tools, and for Python to become more of a model of involvement and tooling excellence. **When every PyCon features at least one talk about working around our packaging tools rather than with them, this should be a wake-up call to all of us.**
 
-Mostly, I want to be a board member to give back to the community that has given me so much, and do my part to help push us all forward. No matter the result of the election, I'd love to have a conversation with any and all of you, and I'm always available at [phildini@phildini.net](mailto:phildini@phildini.net){.mailto .reference .external}.
+Mostly, I want to be a board member to give back to the community that has given me so much, and do my part to help push us all forward. No matter the result of the election, I'd love to have a conversation with any and all of you, and I'm always available at [phildini@phildini.net](mailto:phildini@phildini.net).
 
-I\'ve written a bit more of my thoughts [here](https://www.wordfugue.com/working-ensure-future-python-community/){.https .reference .external}.
+I\'ve written a bit more of my thoughts [here](https://www.wordfugue.com/working-ensure-future-python-community/).
 
 **Things I Plan To Do on the Board:**
 
@@ -421,12 +426,12 @@ I\'ve written a bit more of my thoughts [here](https://www.wordfugue.com/working
 
 ------------------------------------------------------------------------
 
-:::::: {#van-lindberg .section}
-### [Van Lindberg](#id18){.toc-backref}
+:::::: 
+### [Van Lindberg](#id18)
 
 *2016 Board Member*
 
-::: {#summary .section}
+::: 
 #### **Summary**
 
 I have served the PSF in one way or another for a little over ten years now. My goals have always been to give back to the community that has helped me so much by using my professional abilities on behalf of the PSF. Most concretely, I have been a driver - or sometimes *the* driver - for most of the changes associated with professionalizing the PSF, expanding its scope and capabilities, and making it more effective.
@@ -436,7 +441,7 @@ My goal if elected would be to help finish the transformation to a standard exec
 Note: If elected, I expect that I will be appointed to an \"Officer Director\" position.
 :::
 
-::: {#qualifications .section}
+::: 
 #### **Qualifications**
 
 - I am one of the most consistently active directors - not just attending, but actively contributing to the board
@@ -445,7 +450,7 @@ Note: If elected, I expect that I will be appointed to an \"Officer Director\" p
 - I also bring to bear knowledge about corporate processes and law that help keep the PSF functioning correctly
 :::
 
-::: {#goals-for-2017 .section}
+::: 
 #### **Goals for 2017+**
 
 - Continue with the professionalization of the PSF; finish transition to a professionally managed organization
@@ -461,8 +466,8 @@ Affiliations:
 
 ------------------------------------------------------------------------
 
-:::: {#chukwudi-nwachukwu .section}
-### [Chukwudi Nwachukwu](#id19){.toc-backref}
+:::: 
+### [Chukwudi Nwachukwu](#id19)
 
 *New Board Member.*
 
@@ -491,7 +496,7 @@ With over a decade Python coding experience, I have been able to serve the local
 
 On the *humanitarian* aspect, I have been able to help 4 people secure fulltime employment. In the places where they work, Python is being pushed more and more.
 
-::: {#id2 .section}
+::: 
 #### **2017/2018 Goals as a Board Member**
 
 - Offer My Support: In any role or capacity that I might be assigned, I intend to work to make it a success. I intend to give an accounting at the end of the day.
@@ -503,8 +508,8 @@ On the *humanitarian* aspect, I have been able to help 4 people secure fulltime 
 
 ------------------------------------------------------------------------
 
-:::::: {#marlene-mhangami .section}
-### [Marlene Mhangami](#id20){.toc-backref}
+:::::: 
+### [Marlene Mhangami](#id20)
 
 *New Board Member (Nominated by Lorena Mesa, 2016-2017 PSF Board Member)*
 
@@ -514,7 +519,7 @@ On the *humanitarian* aspect, I have been able to help 4 people secure fulltime 
 
 Hi, my name is Marlene and I'm a member of the budding Python community in Zimbabwe. I'm also the co-founder of ZimboPy, an organization in Zimbabwe teaching young women Python programming. It would be an honor to serve on the PSF Board. Below is an outline of how I would like to contribute as a PSF Director if given the opportunity.
 
-::: {#id3 .section}
+::: 
 #### **2017/2018 Goals as a Board Member**
 
 - Encourage and Support Diversity by growing the number of PyCons in Africa- the global Python community is growing rapidly and I have been excited to see groups that are underrepresented playing an active role in making this happen. I'm particularly passionate about the progress that we are seeing in Africa. To date only four African countries, Zimbabwe, South Africa, Namibia and Nigeria have successfully held PyCons and with 50 other viable candidates I'm hoping to help make that number grow. Through my work with ZimboPy I've interacted with Pythonistas from Botswana. It would be fantastic to work with them towards launching the first PyCon Botswana! I also hope to reach out to the Python community in Nairobi, Kenya which meets up regularly and even has Python Expo's to show off the work they've created using Python. I'd like to support the Pythonistas in these groups by actively seeking out and sharing their stories.
@@ -523,7 +528,7 @@ Hi, my name is Marlene and I'm a member of the budding Python community in Zimba
 - Outreach and education programs: I would like to help support programs that make learning programming accessible particularly outside of the USA. Resources like tutorials and easy to follow summaries for teachers should be accessible and have an option for use in spaces that do not have stable internet connections. Keeping our members from diverse backgrounds in mind should be a priority when making educational documentation.
 :::
 
-::: {#background .section}
+::: 
 #### Background
 
 I am the co-Founder of ZimboPy an organic, on-the-ground effort by local Python developers in Harare. Our aim is to advance the cause of women in tech in Zimbabwe. We work in community centers, universities, high schools and tech hubs to make programming accessible to girls regardless of their socio-economic status or past experience with computers. ZimboPy also has a Mentorship Program that helps computer Science/ IT majors in Zimbabwe's best universities use their skills to help their community. Mentors this year joined us either virtually or in person for a week long period and where from USA, Italy, Australia and Bulgaria. Students were able to work with experienced developers to start work on an open source project called ZimFarm, connecting small scale farmers to vendors.
@@ -531,18 +536,18 @@ I am the co-Founder of ZimboPy an organic, on-the-ground effort by local Python 
 I recently gave a talk at PyCon Italy and also work closely with the PyCon Zimbabwe organizers, Django Girls Chinoyi and was selected to give a poster presentation at PyCon USA2017. I believe my experience working with underrepresented communities, connecting and organizing Python developers from various parts of the world, and my passion to see the Python community grow makes me a great candidate for the board.
 :::
 
-::: {#id4 .section}
+::: 
 #### Affiliations
 
-- Co-Founder and Programs Director at [ZimboPy](http://www.zimbopy.org/){.http .reference .external}
+- Co-Founder and Programs Director at [ZimboPy](http://www.zimbopy.org/)
 - Code Purple Workshop Organizer
 :::
 ::::::
 
 ------------------------------------------------------------------------
 
-::: {#paola-katherine-pacheco .section}
-### [Paola Katherine Pacheco](#id21){.toc-backref}
+::: 
+### [Paola Katherine Pacheco](#id21)
 
 **New Board Member**
 
@@ -583,8 +588,8 @@ Hi, I\'m Paola Katherine, I\'m Systems Analyst, today I work with Python because
 
 ------------------------------------------------------------------------
 
-:::::: {#kenneth-reitz .section}
-### [Kenneth Reitz](#id22){.toc-backref}
+:::::: 
+### [Kenneth Reitz](#id22)
 
 New Board Member.
 
@@ -594,14 +599,14 @@ I have spent a large amount of my time over the past five--six years giving talk
 
 Python is a core and integral part of my life, and it would be an honor to help steward the direction of the community by serving on the board. I have a plethora of free time, and I can\'t think of a better way to utilize it.
 
-::: {#values .section}
+::: 
 #### Values:
 
 - Sustainability --- open source is all about sustainability, and the PSF is in a great position to decisively empower projects and communities, while providing infrastructure for the entire Python community. The role that the PSF plays is a very multi-faceted one, and it has been eye-opening to travel to Python events all over the world and meet any subset of the massive number of people who have lives that are impacted by the PSF\'s decisions.
-- [https://kennethreitz.org/values](https://kennethreitz.org/values){.https .reference .external}
+- [https://kennethreitz.org/values](https://kennethreitz.org/values)
 :::
 
-::: {#id5 .section}
+::: 
 #### Background:
 
 - Heroku, Inc --- Python Language Owner
@@ -613,7 +618,7 @@ Python is a core and integral part of my life, and it would be an honor to help 
 - *Import This* Podcast
 :::
 
-::: {#id6 .section}
+::: 
 #### Affiliations
 
 - Heroku
@@ -624,8 +629,8 @@ Thank you for your consideration!
 
 ------------------------------------------------------------------------
 
-:::::: {#kushal-das .section}
-### [Kushal Das](#id23){.toc-backref}
+:::::: 
+### [Kushal Das](#id23)
 
 2016 Board Member
 
@@ -637,14 +642,14 @@ I chaired the PyCon Pune, it is a new regional PyCon started from 2017 with goal
 
 I am organizing an online summer training for 10 years where people from all over the world participate and learn about FOSS in general and then learn how to use Python to solve their daily life problems. This training goes on for almost 3 months over IRC. The goal of this training is to get more global developers, diversity is a key factor in that training.
 
-::: {#updates-for-goals-from-2016-17 .section}
+::: 
 #### (Updates) for goals from 2016-17:
 
 - To help PSF to grow the community base outside USA: Started a completely new regional PyCon (PyCon Pune), and also helped to organize the Python track in FOSSASIA (in Singapore). Regular mentor in PyLadies Pune group, and helped local PyLadies team during PyCon India. I attended all the meetings of PSF board this year except the one happened a week before PyCon US (which I misunderstood due to timezone).
 - Working to make sure the outreach and education efforts reach far away places: Helping with the grants working group and providing the regional input as required was part of my regular activity. I am also one of the org admin for GSoC for PSF.
 :::
 
-::: {#goals-for-2017-18 .section}
+::: 
 #### Goals for 2017-18:
 
 - Continuing working on building upstream community in the Python eco-space. I would prefer to help in the communication from the board and getting the rest the of the community more involved.
@@ -652,7 +657,7 @@ I am organizing an online summer training for 10 years where people from all ove
 - Helping out in the regular activities of the PSF.
 :::
 
-::: {#id7 .section}
+::: 
 #### Affiliations
 
 - Red Hat, PSF Fellow
@@ -661,8 +666,8 @@ I am organizing an online summer training for 10 years where people from all ove
 
 ------------------------------------------------------------------------
 
-::::: {#younggun-kim .section}
-### [Younggun Kim](#id24){.toc-backref}
+::::: 
+### [Younggun Kim](#id24)
 
 *2016 Board Member*
 
@@ -672,7 +677,7 @@ Every year, I\'m traveled across the world to join 5 or 6 regional PyCons becaus
 
 During my past term, as a representative of our community on the other side of this planet, I was happy and felt honored to be a bridge that connects our communities.
 
-::: {#id8 .section}
+::: 
 #### Background
 
 - *PyCon KR/APAC organizer* - I co-chaired PyCon KR/APAC since its inception in 2014 to 2016.
@@ -683,7 +688,7 @@ During my past term, as a representative of our community on the other side of t
 - Based in Seoul, Korea. However, I have various networks all around the world, especially Non-English speaking countries.
 :::
 
-::: {#goals-for-2017-2018 .section}
+::: 
 #### Goals for 2017-2018
 
 - *Introduce PyCon to as many countries as possible* - Help them to become successful, sustainable, and most importantly, enjoyable events for the community.
@@ -698,8 +703,8 @@ Affiliations: PyCon KR/APAC, Open Source Advocate at NIPA, Smart Study
 
 ------------------------------------------------------------------------
 
-:::::: {#trey-hunner .section}
-### [Trey Hunner](#id25){.toc-backref}
+:::::: 
+### [Trey Hunner](#id25)
 
 *2016 Board Member.*
 
@@ -707,7 +712,7 @@ I would be honored to continue to serve on the PSF board.
 
 I heard an enormous number of PSF-related concerns expressed while chatting with Python community members over the last year. I\'ve realized that there are many important goals that need a champion and I need to pick and choose my goals based on the likelihood I will make an impact in each area during my term on the board.
 
-::: {#my-priorities .section}
+::: 
 #### My priorities
 
 1.  **Charter the Code of Conduct working group**. We started this effort last year and I am hopeful that we will have a CoC working group and with CoC enforcement policies adopted by the end of 2017. I plan to push for policies similar to the well-documented Django Software Foundation\'s Code of Conduct policies.
@@ -717,7 +722,7 @@ I heard an enormous number of PSF-related concerns expressed while chatting with
 5.  **Improve the usability of PSF resources for volunteers, community members, and staff**. Various PSF resources are very difficult to discover. For example, it is non-trivial to discover how to become a PSF voting member or how to ask the PSF to reimburse meetup fees. I would like to see the PSF make these pages and others considerably easier for community members to discover without needing to ask for help from someone in-the-know.
 :::
 
-::: {#my-involvement .section}
+::: 
 #### My involvement
 
 I have been using Python since 2009 and I started my involvement in the greater Python community around 2013. I have acted as a consultant, teacher, mentor, community manager, and event organizer.
@@ -743,7 +748,7 @@ I have participated in multiple Python community workshops and conferences, both
 - PyCon 2017 - tutorial presenter and speaker
 :::
 
-::: {#id9 .section}
+::: 
 #### Affiliations
 
 - Trainer and owner of Truthful Technology LLC
@@ -753,8 +758,8 @@ I have participated in multiple Python community workshops and conferences, both
 
 ------------------------------------------------------------------------
 
-::: {#jackie-kazil .section}
-### [Jackie Kazil](#id26){.toc-backref}
+::: 
+### [Jackie Kazil](#id26)
 
 *2016 Board Member*
 
@@ -782,8 +787,8 @@ After spending a year on the board, I am proud to have done work in a variety of
 
 **Things that I have done prior (specifically in the programming community)**
 
-- Board member of Byte Back \-- [https://byteback.org/](https://byteback.org/){.https .reference .external}
-- Board member of Presidential Innovation Fellows Foundation \-- [https://www.presidentialinnovation.org/](https://www.presidentialinnovation.org/){.https .reference .external}
+- Board member of Byte Back \-- [https://byteback.org/](https://byteback.org/)
+- Board member of Presidential Innovation Fellows Foundation \-- [https://www.presidentialinnovation.org/](https://www.presidentialinnovation.org/)
 - Founded PyLadies DC, which has helped seed future growth worldwide.
 - Assisted in development on new PyLadies chapters.
 - PyLadies auction organizer PyCon 2015, 2016, 2017
@@ -805,12 +810,12 @@ After spending a year on the board, I am proud to have done work in a variety of
 
 ------------------------------------------------------------------------
 
-::::::: {#christopher-neugebauer .section}
-### [Christopher Neugebauer](#id27){.toc-backref}
+::::::: 
+### [Christopher Neugebauer](#id27)
 
 *New Board Member.*
 
-::: {#id10 .section}
+::: 
 #### Background
 
 I'm an Australian Python developer, speaker, and serial conference organiser. I've recently moved to the US.
@@ -824,7 +829,7 @@ Since 2015, I've served on the PSF's Grants Working Group. We've helped substant
 I've also spoken and volunteered at numerous Python conferences throughout the world, and over the last year have been working with the PSF's support to build *Registrasion*, an open source ticket sales package for conferences, which is currently used by PyCon Australia and linux.conf.au.
 :::
 
-::: {#what-i-want-to-get-done .section}
+::: 
 #### What I want to get done
 
 Through my work on the Grants Working Group, I've seen that the PSF has a great capacity for supporting the global Python community by helping passionate people run events in their local communities.
@@ -841,15 +846,15 @@ In my first year on the board, I want to:
 - Make it easy for PyCons to deploy technical infrastructure, including CFP and ticket sales
 :::
 
-::: {#where-to-find-me .section}
+::: 
 #### Where to find me
 
-- [Twitter](https://twitter.com/chrisjrn){.https .reference .external}
-- [Web](https://chrisjrn.com){.https .reference .external}
-- [Email](mailto:chrisjrn@chrisjrn.com){.mailto .reference .external}
+- [Twitter](https://twitter.com/chrisjrn)
+- [Web](https://chrisjrn.com)
+- [Email](mailto:chrisjrn@chrisjrn.com)
 :::
 
-::: {#id11 .section}
+::: 
 #### Affiliations
 
 - PSF Grants working group
@@ -860,8 +865,8 @@ In my first year on the board, I want to:
 
 ------------------------------------------------------------------------
 
-:::: {#thomas-wouters .section}
-### [Thomas Wouters](#id28){.toc-backref}
+:::: 
+### [Thomas Wouters](#id28)
 
 *New Board Member.*
 
@@ -875,7 +880,7 @@ As a founding PSF member I\'m gratified with the growth and direction of the PSF
 
 Contrary to popular belief I\'m actually Dutch, and based in Amsterdam, The Netherlands.
 
-::: {#id12 .section}
+::: 
 #### Affiliations
 
 - Google
@@ -885,14 +890,14 @@ Contrary to popular belief I\'m actually Dutch, and based in Amsterdam, The Neth
 :::
 ::::
 
-::: {#justin-myles-holmes .section}
-### [Justin Myles Holmes](#id29){.toc-backref}
+::: 
+### [Justin Myles Holmes](#id29)
 
 *New Board Member*
 
 **Description**:
 
-I live in a [school bus with my little family](https://thisisthebus.com){.https .reference .external}. We have lots of interesting tech on board, including an off-grid power system; almost all of it carved out of Python. Many of you toured it at PyCon 2017.
+I live in a [school bus with my little family](https://thisisthebus.com). We have lots of interesting tech on board, including an off-grid power system; almost all of it carved out of Python. Many of you toured it at PyCon 2017.
 
 For four years now, I have organized import antigravity, a PyCon Open Space for the practice(s) of Acro Yoga. Specifically, we help people find playful and healing poses tailored for the body dynamics created by too much screen-and-keyboard time.
 
@@ -910,13 +915,13 @@ At next PyCon, in addition to import antigravity, I intend to form some kind of 
 
 My only critique is that I hope that we can increasingly come to realize that Python in specific (and open source in general) have to mean peace and justice for our brothers and sisters around the world. In our attempt to foment and welcome diversity, our efforts ring hollow if we fail to prevent and disrupt violence and imperialism from stopping the underprivileged youth of the world from ever getting started. To that end, I specifically advocate that we refrain from taking sponsor dollars from weapons contractors or other enablers of empire. I don\'t think that\'s unreasonable.
 
-**Affiliations and Links** \* Our bus: [https://thisisthebus.com](https://thisisthebus.com){.https .reference .external} \* My github: [https://github.com/jMyles](https://github.com/jMyles){.https .reference .external} \* slashRoot: [https://github.com/slashRoot](https://github.com/slashRoot){.https .reference .external}
+**Affiliations and Links** \* Our bus: [https://thisisthebus.com](https://thisisthebus.com) \* My github: [https://github.com/jMyles](https://github.com/jMyles) \* slashRoot: [https://github.com/slashRoot](https://github.com/slashRoot)
 :::
 
 ------------------------------------------------------------------------
 
-::: {#paul-hildebrandt .section}
-### [Paul Hildebrandt](#id30){.toc-backref}
+::: 
+### [Paul Hildebrandt](#id30)
 
 *New Board Member*
 
@@ -926,7 +931,7 @@ I use Python as my primary programming language both at work and home. I\'ve bee
 
 My job at Disney is more than writing software it\'s also Product Management. I spend time talking with users, understanding their needs (hint: it\'s not always what they ask you to do) and building a backlog of issues based on Return on Invertment for the larger organisation. I would like bring my experience as a Product Manager to Python.
 
-I would like to bridge the gap between the Python community and the Animation/Visual EFX community. The VFX Reference Platform ([http://www.vfxplatform.com/](http://www.vfxplatform.com/){.http .reference .external}) is intending to move the VFX community to Python 3 in CY2019. I would like to help with that transition.
+I would like to bridge the gap between the Python community and the Animation/Visual EFX community. The VFX Reference Platform ([http://www.vfxplatform.com/](http://www.vfxplatform.com/)) is intending to move the VFX community to Python 3 in CY2019. I would like to help with that transition.
 
 I see an opportunity to approach commercial users of Python, understand their needs, and give them an avenue to pay for fulfillment. My first effort at getting sponsors with this blog post:http://pycon.blogspot.com/2012/12/why-become-pycon-sponsor-sponsors.html in 2012.
 
@@ -951,8 +956,8 @@ I see an opportunity to approach commercial users of Python, understand their ne
 
 ------------------------------------------------------------------------
 
-::: {#don-sheu .section}
-### [Don Sheu](#id31){.toc-backref}
+::: 
+### [Don Sheu](#id31)
 
 *New Board Member.* (Nominated by Yannick Gingras)
 
@@ -963,13 +968,13 @@ I see an opportunity to approach commercial users of Python, understand their ne
 - PyCascades regional PyCon rotating amongst Cascades region cities of Vancouver, Seattle, Portland
 - Sponsors wg for Python Software Foundation
 
-Beginning with PyCon Montreal 2014, I joined Yannick Gingras in organizing PyCon Startup Row. As part of this team producing Startup Row, I launched local events to select participants on Startup Row at PyCon. My efforts at producing local events started in February 2014, in [Seattle](http://pycon.blogspot.com/2014/01/seattle-tech-meetup-goes-python-for.html){.http .reference .external} where companies like Rover.com and OfferUp presented. Nearly 300 people attended the inaugural Startup Row road show event. From my tenure coordinating Startup Row, OfferUp and Nylas have sponsored PyCon for multiple seasons.
+Beginning with PyCon Montreal 2014, I joined Yannick Gingras in organizing PyCon Startup Row. As part of this team producing Startup Row, I launched local events to select participants on Startup Row at PyCon. My efforts at producing local events started in February 2014, in [Seattle](http://pycon.blogspot.com/2014/01/seattle-tech-meetup-goes-python-for.html) where companies like Rover.com and OfferUp presented. Nearly 300 people attended the inaugural Startup Row road show event. From my tenure coordinating Startup Row, OfferUp and Nylas have sponsored PyCon for multiple seasons.
 
-Since the initial event in Seattle, the Startup Row team has produced events across North America every year. In our PyCon Portland 2016 event in [San Francisco](http://pycon.blogspot.com/2016/03/startup-row-utilityapi-won-sf-python.html){.http .reference .external}, we fielded an all women panel of judges. Judges included Kat Manalac partner of Y Combinator, bethanye McKinney Blount formerly CTO of Reddit, Leah Culver Developer Advocate at Dropbox, Bebe Chueh CMO of Legalzoom, Jessica Scorpio founder of Getaround, and Christine Spang founder of Startup Row alumna Nylas. For 2017, Avvo hosted an event in Seattle that featured six women founders. The Startup Row companies that exhibited at PyCon in Portland featured two women founders Amy Hutchins and Laura Malcolm both of whom who pitched at the Seattle event.
+Since the initial event in Seattle, the Startup Row team has produced events across North America every year. In our PyCon Portland 2016 event in [San Francisco](http://pycon.blogspot.com/2016/03/startup-row-utilityapi-won-sf-python.html), we fielded an all women panel of judges. Judges included Kat Manalac partner of Y Combinator, bethanye McKinney Blount formerly CTO of Reddit, Leah Culver Developer Advocate at Dropbox, Bebe Chueh CMO of Legalzoom, Jessica Scorpio founder of Getaround, and Christine Spang founder of Startup Row alumna Nylas. For 2017, Avvo hosted an event in Seattle that featured six women founders. The Startup Row companies that exhibited at PyCon in Portland featured two women founders Amy Hutchins and Laura Malcolm both of whom who pitched at the Seattle event.
 
-With [Dusty Phillips](http://buchuki.com/index.php/portfolio/){.http .reference .external} author of *Python 3 Object Oriented Programming*, I founded [PuPPy](https://www.meetup.com/PSPPython/){.https .reference .external}, Seattle\'s Python user group. Our very first event was a mini-conference on discussing strategies for improving gender balance in tech professions. Lynn Root was our featured speaker. Panelists included Geek Girls Carrots founder Kamila Stepniowska, Kristin Toth Smith COO of Dolly and local selection committee members of National Center for Women and IT, Krista Davis and Steph Burg.
+With [Dusty Phillips](http://buchuki.com/index.php/portfolio/) author of *Python 3 Object Oriented Programming*, I founded [PuPPy](https://www.meetup.com/PSPPython/), Seattle\'s Python user group. Our very first event was a mini-conference on discussing strategies for improving gender balance in tech professions. Lynn Root was our featured speaker. Panelists included Geek Girls Carrots founder Kamila Stepniowska, Kristin Toth Smith COO of Dolly and local selection committee members of National Center for Women and IT, Krista Davis and Steph Burg.
 
-In the 34 months since founding, PuPPy has convened over 40 large turnout talk format meetings. PuPPy\'s large format meetings turnout over 100 and as many as 230. We have put on a total of 235 events over 34 months when we include weekly Programming Nights and other collaboration oriented events. Membership of PuPPy is now exceeds [3700](https://www.meetup.com/PSPPython/members/){.https .reference .external}.
+In the 34 months since founding, PuPPy has convened over 40 large turnout talk format meetings. PuPPy\'s large format meetings turnout over 100 and as many as 230. We have put on a total of 235 events over 34 months when we include weekly Programming Nights and other collaboration oriented events. Membership of PuPPy is now exceeds [3700](https://www.meetup.com/PSPPython/members/).
 
 For a string of three months, we fielded all stars of Python as speakers starting with Brett Cannon and Larry Hastings in December 2015, Brandon Rhodes in January of 2016, and Jessica McKellar in February 2016. The February event hosted by Dropbox included Redfin CTO Bridget Frey on a panel that discussed tactics for improving gender balance in engineering roles. Our women attendance for our February 2016 event was 52%. Globally, PuPPy normally turns out about 25% women turnout at our talk format events, correlating with our overall membership of 25% women.
 
@@ -991,7 +996,7 @@ My plan is broken into three parts: 1) valuation of the benefits we deliver spon
 
 1.  valuation of the benefits we deliver sponsors of the Foundation
 
-I learned from participating on the Sponsors working group, nobody has conducted a valuation of the PSF\'s assets like the Python.org website. For example, nobody\'s asked how many visitors perform what actions like viewing or downloads at [https://www.python.org](https://www.python.org){.https .reference .external}.
+I learned from participating on the Sponsors working group, nobody has conducted a valuation of the PSF\'s assets like the Python.org website. For example, nobody\'s asked how many visitors perform what actions like viewing or downloads at [https://www.python.org](https://www.python.org).
 
 - I propose to gather the statistics on use and investigate the quality of engagement on Python.org and any other online assets of the PSF
 - Taking the information gathered in the initial investigation, I plan to compare against other open source foundations and how they price sponsorships normed for the differences in traffic and engagement (IEEE for example has a complete sales staff enrolling sponsors of their org)
@@ -1020,13 +1025,13 @@ No project completes without a schedule for action. Setting a commitment during 
 
 If I can contribute meaningfully to our community\'s financial sustainability, I will only repay a small measure of the great pleasure I have from participating in the finest OSS community I know.
 
-Affiliation: [PuPPy](https://www.meetup.com/PSPPython/){.https .reference .external} cofounder, PyCon organizing [Startup Row](http://pycon.blogspot.com/2017/05/announcing-batch-of-startup-row.html){.http .reference .external}, 10two1 (self-employed)
+Affiliation: [PuPPy](https://www.meetup.com/PSPPython/) cofounder, PyCon organizing [Startup Row](http://pycon.blogspot.com/2017/05/announcing-batch-of-startup-row.html), 10two1 (self-employed)
 :::
 
 ------------------------------------------------------------------------
 
-::: {#leonardo-jimenez .section}
-### [Leonardo Jimenez](#id32){.toc-backref}
+::: 
+### [Leonardo Jimenez](#id32)
 
 *New Board Member*
 
@@ -1050,21 +1055,21 @@ I want to work on the following topics:
 
 **Affiliations:**
 
-- [Python Dominicana Usergroup](https://www.facebook.com/groups/pythondo/){.https .reference .external}, Organizer
-- [PyCaribbean](http://pycaribbean.com/){.http .reference .external}, Founder and Organizer
+- [Python Dominicana Usergroup](https://www.facebook.com/groups/pythondo/), Organizer
+- [PyCaribbean](http://pycaribbean.com/), Founder and Organizer
 - Metacommunity (Non profit for teaching technology on the DR), Founder and Director
-- [Django Girls Santo Domingo](https://djangogirls.org/santodomingo/){.https .reference .external}, Co-Organizer and Mentor
-- [Django Girls Bayamon](https://djangogirls.org/pycaribbean/){.https .reference .external}, Co-Organizer
-- [JS Dominicana Usergroup](https://www.facebook.com/groups/JavaScriptDominicana/){.https .reference .external}, Organizer
-- [UI/UX Dominicana](https://www.facebook.com/groups/uiuxdominicana/){.https .reference .external}, Organizer
+- [Django Girls Santo Domingo](https://djangogirls.org/santodomingo/), Co-Organizer and Mentor
+- [Django Girls Bayamon](https://djangogirls.org/pycaribbean/), Co-Organizer
+- [JS Dominicana Usergroup](https://www.facebook.com/groups/JavaScriptDominicana/), Organizer
+- [UI/UX Dominicana](https://www.facebook.com/groups/uiuxdominicana/), Organizer
 
 I love the Python community and I would not be where I am today without it. Thanks for the opportunity of applying
 :::
 
 ------------------------------------------------------------------------
 
-:::: {#kerstin-kollmann .section}
-### [Kerstin Kollmann](#id33){.toc-backref}
+:::: 
+### [Kerstin Kollmann](#id33)
 
 *New Board Member*
 
@@ -1078,7 +1083,7 @@ I\'m Kay -- some of you might have seen me present a poster at this year\'s PyCo
 
 I\'ve been involved in the larger tech community since 2009 and have been organising workshops and other events for underrepresented groups in tech in Vienna/Austria since 2012, including several first editions of international event series. I \"officially\" joined the Python community in 2014, when I attended my first EuroPython conference and the first Django Girls workshop ever, and joined the EuroPython Society. I also offer diversity and inclusion consulting for conferences/orgs/projects.
 
-::: {#selected-contributions-to-the-general-tech-community-python-community .section}
+::: 
 #### Selected contributions to the general tech community & Python community
 
 - board member of local hackerspace Metalab
@@ -1105,8 +1110,8 @@ Another thing I am invested in, which ties back to diversity and inclusion endev
 
 **Places you can find me online** (among others)
 
-- [LinkedIn](https://www.linkedin.com/in/kerstinkollmann/){.https .reference .external}
-- [GitHub](https://github.com/kerstin){.https .reference .external}
+- [LinkedIn](https://www.linkedin.com/in/kerstinkollmann/)
+- [GitHub](https://github.com/kerstin)
 
 **Affiliations**
 
@@ -1120,8 +1125,8 @@ Another thing I am invested in, which ties back to diversity and inclusion endev
 
 ------------------------------------------------------------------------
 
-::: {#irma-leticia-kramer .section}
-### [Irma Leticia Kramer](#id34){.toc-backref}
+::: 
+### [Irma Leticia Kramer](#id34)
 
 *New Board Member*
 
@@ -1161,4 +1166,3 @@ As a member of the PSF Board I'll focus on engaging communities which I have spe
 - Booz Allen Hamilton (Software Engineer)
 - PyLadies ATX
 :::
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

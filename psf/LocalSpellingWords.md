@@ -1,6 +1,11 @@
 # LocalSpellingWords
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 1st 2nd Abend Checkbox Diffs Guten Haltet Hermann Homepage Info Jürgen Morgen Perl Platt Plattdeutsch Rechtschreibprüfung Spellchecker Zeitstempel automagically backtick blockquote browser calendaring distutils doesn email english folgendes foo german html http hyperlinks info internet lowercase markup may moin moinmoin morphed navigational preformatted renumbered shouldn spam uppercase wiki wikis www überschneidet übersetzen Administratoren Hauptkopie Hilfeseiten Standardverhalten auch auf benutzt bitte dann das dem der diese diesen durch ein eine einem einer erklärt erzeugt finden für gehen haben hinzufügen ist keine lesen mehr müssen neu nur oder wenn werden
 
 alle arbeiten bei beim beschreiben nicht noch sich sie sind sollen und vorhandene wichtig wie
@@ -116,4 +121,3 @@ cfm ch cs Cs dairiki Debian debian dll dna Fresh freshmeat hg How htp Kernel Lib
 acceso algo alguien alguna algunas almacenar aún bueno Como como comunicación contacto contigo creado crear cualquiera datos dirección editarla el eres favoritos foto gusta haces home Home infromación inicio la leerla links lista my número otra para Parece personal protegidas publica publicar puede puedes págian página páginas restringir sea ser sobre sub talvez También te telefónico template ti Tu tu tus Una una usada usar uso velo
 
 Ask Category Me
-:::

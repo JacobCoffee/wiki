@@ -1,6 +1,11 @@
 # ClarkUpdike/RemoteJythonDebugging
 
-::::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 The following describes how to set up a remote debugging session with a running jython application (or any java application for that matter).
 
 Basically, you just:
@@ -8,7 +13,7 @@ Basically, you just:
 - Modify the java command line that starts jython
 - Set up your ide to attach to the debugging session
 
-## Java Command Line To Startup The App {#Java_Command_Line_To_Startup_The_App}
+## Java Command Line To Startup The App 
 
 Here\'s what mine looks like to run from the jar:
 
@@ -47,7 +52,7 @@ Note: Once you hit enter, the app may not respond like it normally does. For the
 
 See below for further references\...
 
-## IDE Settings {#IDE_Settings}
+## IDE Settings 
 
 For Eclipse:
 
@@ -68,21 +73,21 @@ For Eclipse:
 This will take you into the app at the first breakpoint.
 
 For NetBeans:\
-\[\^[http://debuggercore.netbeans.org/docs/VM-options.html](http://debuggercore.netbeans.org/docs/VM-options.html){.http} netbeans vm options for debugging\]
+\[\^[http://debuggercore.netbeans.org/docs/VM-options.html](http://debuggercore.netbeans.org/docs/VM-options.html) netbeans vm options for debugging\]
 
 I have used this technique also for debugging a development Tomcat server remotely (see article below). Keep in mind that in a multithreaded environment, **all** threads will get stopped at your breakpoint, so be warned if this is not a private workspace.
 
-## References {#References}
+## References 
 
-- \[\^[http://java.sun.com/j2se/1.4.2/docs/guide/jpda/conninv.html](http://java.sun.com/j2se/1.4.2/docs/guide/jpda/conninv.html){.http} jdpa 1.4.2 connection and invocation details\]
+- \[\^[http://java.sun.com/j2se/1.4.2/docs/guide/jpda/conninv.html](http://java.sun.com/j2se/1.4.2/docs/guide/jpda/conninv.html) jdpa 1.4.2 connection and invocation details\]
 
-- \[\^[http://java.sun.com/j2se/1.4.2/docs/guide/jpda/architecture.html](http://java.sun.com/j2se/1.4.2/docs/guide/jpda/architecture.html){.http} 1.4.2 jdpa architecture (high level)\]
+- \[\^[http://java.sun.com/j2se/1.4.2/docs/guide/jpda/architecture.html](http://java.sun.com/j2se/1.4.2/docs/guide/jpda/architecture.html) 1.4.2 jdpa architecture (high level)\]
 
-- \[\^[http://www.ftponline.com/javapro/2003_06/online/debugging_kjones_06_23_03](http://www.ftponline.com/javapro/2003_06/online/debugging_kjones_06_23_03){.http} javapro article on debugging servlets (login required)\] ![:\\](/wiki/modernized/img/ohwell.png ":\"){height="16" width="16"}
+- \[\^[http://www.ftponline.com/javapro/2003_06/online/debugging_kjones_06_23_03](http://www.ftponline.com/javapro/2003_06/online/debugging_kjones_06_23_03) javapro article on debugging servlets (login required)\] ![:\\](/wiki/modernized/img/ohwell.png ":\")
 
 ------------------------------------------------------------------------
 
-#### Eclipse External Command \"Snarfing\" Tip {#Eclipse_External_Command_.22Snarfing.22_Tip}
+#### Eclipse External Command \"Snarfing\" Tip 
 
 If you have an app that you run inside eclipse and you want to run it standalone (in a shell), you can get at the launch command that Eclipse uses:
 
@@ -102,4 +107,3 @@ If you have an app that you run inside eclipse and you want to run it standalone
 - You can then swipe/copy the `Command Line`{.backtick} info.
 
 - You can then paste this into your shell. You\'ll typically want to convert the `javaw.exe`{.backtick} to a `java.exe`{.backtick} to receive output to the shell.
-:::::

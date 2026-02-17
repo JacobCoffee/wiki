@@ -1,6 +1,11 @@
 # PythonLibraryReference/MiscellaneousServices/PydocModule
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 [Miscellaneous Services](./PythonLibraryReference(2f)MiscellaneousServices.html)
 
 ## pydoc
@@ -19,11 +24,10 @@ Specifying a `-w` flag before the argument will cause HTML documentation to be w
 
 Specifying a `-k` flag before the argument will search the synopsis lines of all available modules for the keyword given as the argument, again in a manner similar to the Unix `man` command. The synopsis line of a module is the first line of its documentation string.
 
-You can also use **pydoc** to start an HTTP server on the local machine that will serve documentation to visiting Web browsers. `pydoc -p 1234` will start a HTTP server on port 1234, allowing you to browse the documentation at [http://localhost:1234/](http://localhost:1234/){.http} in your preferred Web browser. `pydoc -g` will start the server and additionally bring up a small Tkinter-based graphical interface to help you search for documentation pages.
+You can also use **pydoc** to start an HTTP server on the local machine that will serve documentation to visiting Web browsers. `pydoc -p 1234` will start a HTTP server on port 1234, allowing you to browse the documentation at [http://localhost:1234/](http://localhost:1234/) in your preferred Web browser. `pydoc -g` will start the server and additionally bring up a small Tkinter-based graphical interface to help you search for documentation pages.
 
 When pydoc generates documentation, it uses the current environment and path to locate modules. Thus, invoking pydoc spam documents precisely the version of the module you would get if you started the Python interpreter and typed \"import spam\".
 
 ------------------------------------------------------------------------
 
 [CategoryDocumentation](CategoryDocumentation)
-:::

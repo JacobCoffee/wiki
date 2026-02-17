@@ -1,7 +1,12 @@
 # PackagingWG/2018-04-10-Warehouse
 
-::: {#content dir="ltr" lang="en"}
-# Warehouse core developers\' meeting {#Warehouse_core_developers.27_meeting}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Warehouse core developers\' meeting 
 
 Tuesday, 10 April 2018
 
@@ -19,7 +24,7 @@ Absent but thank you all so much for taking care of stuff \-- Sumana
 
 - Laura: working on sending weekly report email, I will circulate a draft after the meeting for comments
 
-- Nicole - no blockers, document to try to get writeup on what each sponsors are providing, PR review, PLEASE FILL THIS DOC: \[redacted\]. refactoring dropdowns to allow tab navigation - [https://github.com/pypa/warehouse/issues/3194](https://github.com/pypa/warehouse/issues/3194){.https} (moved back to a later milestone)
+- Nicole - no blockers, document to try to get writeup on what each sponsors are providing, PR review, PLEASE FILL THIS DOC: \[redacted\]. refactoring dropdowns to allow tab navigation - [https://github.com/pypa/warehouse/issues/3194](https://github.com/pypa/warehouse/issues/3194) (moved back to a later milestone)
 
 - Dustin: PRs to remove beta warning, purging ? 100 pypi-legacy issues responding to ? issues - not blocked -
 
@@ -36,9 +41,8 @@ Absent but thank you all so much for taking care of stuff \-- Sumana
 
 **Ask Donald for**
 
-Input on sponsor outreach email ![:)](/wiki/europython/img/smile.png ":)"){height="16" width="16"}
+Input on sponsor outreach email ![:)](/wiki/europython/img/smile.png ":)")
 
 **Issue triage if necessary**
 
 \[none in this meeting\]
-:::

@@ -1,23 +1,27 @@
 # BvB28Aug
 
-::: {#content dir="ltr" lang="en"}
-### Presentations {#Presentations}
+```{admonition} Legacy Wiki Page
+:class: note
 
-#### Jeroen Vloothuis: How Pareto uses buildout for deployment {#Jeroen_Vloothuis:_How_Pareto_uses_buildout_for_deployment}
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-Presentation sheets in PDF: [http://wiki.python.org/moin/BvB28Aug?action=AttachFile&do=get&target=pareto-project-aanpak.pdf](http://wiki.python.org/moin/BvB28Aug?action=AttachFile&do=get&target=pareto-project-aanpak.pdf){.http}
+### Presentations 
 
-#### Steve Alexander: How we develop Launchpad and Bazaar at Canonical {#Steve_Alexander:_How_we_develop_Launchpad_and_Bazaar_at_Canonical}
+#### Jeroen Vloothuis: How Pareto uses buildout for deployment 
 
-The slides are at [http://people.ubuntu.com/\~stevea/lean-talk.pdf](http://people.ubuntu.com/~stevea/lean-talk.pdf){.http} and the mentioned Ian Clatworthy\'s paper can be found at [http://ianclatworthy.wordpress.com/community-agile](http://ianclatworthy.wordpress.com/community-agile){.http}
+Presentation sheets in PDF: [http://wiki.python.org/moin/BvB28Aug?action=AttachFile&do=get&target=pareto-project-aanpak.pdf](http://wiki.python.org/moin/BvB28Aug?action=AttachFile&do=get&target=pareto-project-aanpak.pdf)
 
-### Lightning talks {#Lightning_talks}
+#### Steve Alexander: How we develop Launchpad and Bazaar at Canonical 
 
-#### Eric Castelijn: Autoqueue {#Eric_Castelijn:__Autoqueue}
+The slides are at [http://people.ubuntu.com/\~stevea/lean-talk.pdf](http://people.ubuntu.com/~stevea/lean-talk.pdf) and the mentioned Ian Clatworthy\'s paper can be found at [http://ianclatworthy.wordpress.com/community-agile](http://ianclatworthy.wordpress.com/community-agile)
 
-Presentation sheets in PDF: [http://wiki.python.org/moin/BvB28Aug?action=AttachFile&do=get&target=autoqueue.pdf](http://wiki.python.org/moin/BvB28Aug?action=AttachFile&do=get&target=autoqueue.pdf){.http}
+### Lightning talks 
 
-#### Remco Wendt: Mock testing {#Remco_Wendt:__Mock_testing}
+#### Eric Castelijn: Autoqueue 
 
-Presentation sheets in PDF: [http://wiki.python.org/moin/BvB28Aug?action=AttachFile&do=get&target=mock+testing+-+pun+28-08-2008.pdf](http://wiki.python.org/moin/BvB28Aug?action=AttachFile&do=get&target=mock+testing+-+pun+28-08-2008.pdf){.http}
-:::
+Presentation sheets in PDF: [http://wiki.python.org/moin/BvB28Aug?action=AttachFile&do=get&target=autoqueue.pdf](http://wiki.python.org/moin/BvB28Aug?action=AttachFile&do=get&target=autoqueue.pdf)
+
+#### Remco Wendt: Mock testing 
+
+Presentation sheets in PDF: [http://wiki.python.org/moin/BvB28Aug?action=AttachFile&do=get&target=mock+testing+-+pun+28-08-2008.pdf](http://wiki.python.org/moin/BvB28Aug?action=AttachFile&do=get&target=mock+testing+-+pun+28-08-2008.pdf)

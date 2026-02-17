@@ -1,7 +1,12 @@
 # CloudPyPI/Proposal
 
-::: {#content dir="ltr" lang="en"}
-# Cloud PyPI Proposal {#Cloud_PyPI_Proposal}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Cloud PyPI Proposal 
 
 This is the third revision of the proposal text which was accepted by the PSF board in their December 2010 meeting.
 
@@ -485,4 +490,3 @@ This is the third revision of the proposal text which was accepted by the PSF bo
     If the PEP 381 infrastructure gets rolled out, both the external
     mirrors and the cloud mirrors can work side-by-side, so there is no
     conflict.
-:::

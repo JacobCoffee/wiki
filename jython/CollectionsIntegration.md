@@ -1,7 +1,12 @@
 # CollectionsIntegration
 
-::::: {#content dir="ltr" lang="en"}
-### Background {#Background}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+### Background 
 
 This page considers the integration of java.util collections interfaces into core jython objects in going from Jython 2.1 to 2.2:
 
@@ -17,9 +22,9 @@ Going the other way fails. Take for example:
         File "<console>", line 1, in ?
       TypeError: java.util.ArrayList(): 1st arg can't be coerced to java.util.Collection or int
 
-In this example the ArrayList constructor is expecting a java.util.Collection instance but since the PyList does not implement this interface the TypeError is thrown. Since the Collection framework is fundamental to Java since 1.2 the [JythonDevelopmentTeam](./JythonDevelopmentTeam.html){.nonexistent} will address this issue. The implementation is currently being written by [ClarkUpdike](ClarkUpdike).
+In this example the ArrayList constructor is expecting a java.util.Collection instance but since the PyList does not implement this interface the TypeError is thrown. Since the Collection framework is fundamental to Java since 1.2 the [JythonDevelopmentTeam](./JythonDevelopmentTeam.html) will address this issue. The implementation is currently being written by [ClarkUpdike](ClarkUpdike).
 
-### Design {#Design}
+### Design 
 
 There are two different approaches:
 
@@ -43,7 +48,7 @@ Approach 2 offers the best integration options. Jython is primarily an implement
   ------------------ ------------- -------------------
 :::
 
-### Discussion {#Discussion}
+### Discussion 
 
 ------------------------------------------------------------------------
 
@@ -55,9 +60,9 @@ Reflecting further on PyArray, we may want to consider not having it implement `
 
   - for java methods that require java arrays as parameters
 
-  - ref: [http://www.jython.org/docs/jarray.html](http://www.jython.org/docs/jarray.html){.http}
+  - ref: [http://www.jython.org/docs/jarray.html](http://www.jython.org/docs/jarray.html)
 - python\'s array module is primarly for performance/efficiency
-  - ref: [http://docs.python.org/lib/module-array.html](http://docs.python.org/lib/module-array.html){.http}
+  - ref: [http://docs.python.org/lib/module-array.html](http://docs.python.org/lib/module-array.html)
 
 Performance might not have been a concern at all for jarray. But I know I have used jarray on occasion for that very reason. In any event, I\'ll presume the two reasons for their existence are, in descending priority:
 
@@ -66,7 +71,7 @@ Performance might not have been a concern at all for jarray. But I know I have u
 
 I\'ve been assuming that since PyArray is a sequence, it should also implement `List`{.backtick}. But the reasons not do this are:
 
-- The use case for treating arrays as `List`{.backtick}s seems weak. Java uses the `Array.asList(Object[] a)`{.backtick} method to get a `List`{.backtick} from an array, and that is all I think is really required from a collection interoperability standpoint. Python offers the `tolist()`{.backtick} method, and PyArray should offer the same thing. Remember, `list`{.backtick} *will* implement `List`{.backtick}, so your only 9 keystrokes away ![:)](/wiki/modernized/img/smile.png ":)"){height="16" width="16"}
+- The use case for treating arrays as `List`{.backtick}s seems weak. Java uses the `Array.asList(Object[] a)`{.backtick} method to get a `List`{.backtick} from an array, and that is all I think is really required from a collection interoperability standpoint. Python offers the `tolist()`{.backtick} method, and PyArray should offer the same thing. Remember, `list`{.backtick} *will* implement `List`{.backtick}, so your only 9 keystrokes away ![:)](/wiki/modernized/img/smile.png ":)")
 
 - Python arrays are list-like: append, extend, slice, etc. I think we can make PyArray do the same tricks.
 
@@ -123,7 +128,7 @@ My current thinking is that we should add a new branch to PySequence\--let\'s ca
 
 Not sure about PyList and PyTuple sharing an additional base class with a predefined element data field. Could do it that way, or could use delegation on a specialized element data class, or could leave it as-is (with copied code for certain methods\--although the amount of copied code will increase.
 
-One key decision is about the element data field in PyList and PyArray. Currently, it\'s PyObject\[\]. This is efficient because it eliminates casting, but keeping it makes `List`{.backtick} implementation difficult (take a look at the source for `java.util.AbstractList`{.backtick}), and all the `System.arraycopy`{.backtick} makes `append`{.backtick} slow. If we were to switch it to an [ArrayList](./ArrayList.html){.nonexistent}, it would buy us easier collection integration, but will cost performance (who knows how much). There\'s also a \"middle-of-the-road\" approach, which is to use a specialized class to wrap a PyObject array and provide `List`{.backtick} like behavior (I have some experience with doing this). This approach might also be used with PyArray.
+One key decision is about the element data field in PyList and PyArray. Currently, it\'s PyObject\[\]. This is efficient because it eliminates casting, but keeping it makes `List`{.backtick} implementation difficult (take a look at the source for `java.util.AbstractList`{.backtick}), and all the `System.arraycopy`{.backtick} makes `append`{.backtick} slow. If we were to switch it to an [ArrayList](./ArrayList.html), it would buy us easier collection integration, but will cost performance (who knows how much). There\'s also a \"middle-of-the-road\" approach, which is to use a specialized class to wrap a PyObject array and provide `List`{.backtick} like behavior (I have some experience with doing this). This approach might also be used with PyArray.
 
 PyArray requires some important decisions also. The collections methods are all `Object`{.backtick} based. So anything coming or going throught these interfaces will require wrapping/boxing. If PyArray were to use an `Array`{.backtick}`List`{.backtick} and fully box everything from both java and jython, their performance (their main reason for existing?) would take a major hit. My thinking is this is not a viable option. This means there could be some difficult code to write to implement `List`{.backtick}, unless we use the specialized class mentioned above (but typed to the particular primitive array types).
 
@@ -139,7 +144,7 @@ Other general improvements:
 
 - [ClarkUpdike](ClarkUpdike) Feb 12 2005
 
-  - [java.util.Collections](http://java.sun.com/j2se/1.3/docs/api/java/util/Collections.html){.http}: Is there a need to provide a jython version of this class (especially the synchronized and unmodifiable wrapper methods)? If it is not implemented and the java.util.Collections wrappers are used on new collection objects, the returned objects will only proxy for the java.util interface and will be broken in jython. There is also a PyImmutableSet in [BrianZimmer](BrianZimmer)\'s [SetsModule](SetsModule), but I don\'t think there is an immutable dictionary equivalent.
+  - [java.util.Collections](http://java.sun.com/j2se/1.3/docs/api/java/util/Collections.html): Is there a need to provide a jython version of this class (especially the synchronized and unmodifiable wrapper methods)? If it is not implemented and the java.util.Collections wrappers are used on new collection objects, the returned objects will only proxy for the java.util interface and will be broken in jython. There is also a PyImmutableSet in [BrianZimmer](BrianZimmer)\'s [SetsModule](SetsModule), but I don\'t think there is an immutable dictionary equivalent.
 
   [BrianZimmer](BrianZimmer) Feb 13 2005
 
@@ -177,4 +182,3 @@ Other general improvements:
     :::
 
     Synchronization should follow the same approach.
-:::::

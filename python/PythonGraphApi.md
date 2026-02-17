@@ -1,17 +1,22 @@
 # PythonGraphApi
 
-::: {#content dir="ltr" lang="en"}
-# A Python Graph API? {#A_Python_Graph_API.3F}
+```{admonition} Legacy Wiki Page
+:class: note
 
-This wiki page is a resource for some brainstorming around the possibility of a Python Graph API in the form of an informational PEP, similar to [PEP 249, the Python DB API](http://www.python.org/peps/pep-0249.html){.http}. The goal would be, in other words, to define how a graph (or various kinds of graphs) would be expected to behave (possibly from different perspectives) in order to increase interoperability among graph algorithms. [The numeric array interface](http://numeric.scipy.org/array_interface.shtml){.http}, recently developed by the Numeric Python community to increase interoperability between array-handling software, illustrates the general idea.
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
 
-A comp.lang.python thread discussing this (with some useful ideas) may be found [here](http://groups-beta.google.com/group/comp.lang.python/browse_thread/thread/cbca60cb36be39ed/313113af1aa077af){.http}.
+# A Python Graph API? 
 
-This is not about plotting; for a definition of the kind of graph we\'re talking about, see [here](http://mathworld.wolfram.com/Graph.html){.http}.
+This wiki page is a resource for some brainstorming around the possibility of a Python Graph API in the form of an informational PEP, similar to [PEP 249, the Python DB API](http://www.python.org/peps/pep-0249.html). The goal would be, in other words, to define how a graph (or various kinds of graphs) would be expected to behave (possibly from different perspectives) in order to increase interoperability among graph algorithms. [The numeric array interface](http://numeric.scipy.org/array_interface.shtml), recently developed by the Numeric Python community to increase interoperability between array-handling software, illustrates the general idea.
+
+A comp.lang.python thread discussing this (with some useful ideas) may be found [here](http://groups-beta.google.com/group/comp.lang.python/browse_thread/thread/cbca60cb36be39ed/313113af1aa077af).
+
+This is not about plotting; for a definition of the kind of graph we\'re talking about, see [here](http://mathworld.wolfram.com/Graph.html).
 
 If you have interest in this, please feel free to add your ideas here. If you\'d like to be named as a contributor in the case that some \"standard\" should emerge, please add your name to the list of contributors. (You might also want to create a user name and log in when doing changes, or possibly just state your name when you edit stuff, so one can see who did what.)
 
-## A simple use-case {#A_simple_use-case}
+## A simple use-case 
 
 Just to illustrate the point of this discussion, here is a simple example:
 
@@ -23,49 +28,49 @@ This ideal world scenario would only be possible, though, if some abstract graph
 
 Note that the goal is *not* to implement a specific graph representation or a set of graph algorithms. The goal is only to mediate between developers of the two.
 
-## Preliminary ideas {#Preliminary_ideas}
+## Preliminary ideas 
 
-### General thoughts {#General_thoughts}
+### General thoughts 
 
-Ideas so far include basing the API on the standard notion of using adjacency maps (such as dicts of neighbor lists), as described in [Guido\'s well-known essay](http://www.python.org/doc/essays/graphs.html){.http} and used in [these examples by David Eppstein](http://www.ics.uci.edu/~eppstein/PADS){.http}, and using object adaptation (through the adapt() function, as described in [PEP 246](http://www.python.org/peps/pep-0246.html){.http} and as used in [PyProtocols](http://peak.telecommunity.com/PyProtocols.html){.http}) to allow access to graphs through various perspectives (such as adjacency maps, incidence maps, adjacency arrays, edge lists\...). This would also allow graphs implementations with completely different interfaces to be adapted to a standard interface, and thus be used by generic graph algorithms.
+Ideas so far include basing the API on the standard notion of using adjacency maps (such as dicts of neighbor lists), as described in [Guido\'s well-known essay](http://www.python.org/doc/essays/graphs.html) and used in [these examples by David Eppstein](http://www.ics.uci.edu/~eppstein/PADS), and using object adaptation (through the adapt() function, as described in [PEP 246](http://www.python.org/peps/pep-0246.html) and as used in [PyProtocols](http://peak.telecommunity.com/PyProtocols.html)) to allow access to graphs through various perspectives (such as adjacency maps, incidence maps, adjacency arrays, edge lists\...). This would also allow graphs implementations with completely different interfaces to be adapted to a standard interface, and thus be used by generic graph algorithms.
 
-An example of an existing graph library for Python, written by István Albert, may be found [here](http://pygraphlib.sourceforge.net/){.http}. Note that this library is no longer maintained and its developers recommend using NetworkX instead (vide infra).
+An example of an existing graph library for Python, written by István Albert, may be found [here](http://pygraphlib.sourceforge.net/). Note that this library is no longer maintained and its developers recommend using NetworkX instead (vide infra).
 
-[Bulbflow](http://bulbflow.com){.http} is an open-source Python persistence framework for graph databases. It uses Gremlin as the query language, and you can use it to connect to any Blueprints-enabled database, including [TinkeGraph](./TinkeGraph.html){.nonexistent}, Neo4j, OrientDB, Dex, [InfiniteGraph](./InfiniteGraph.html){.nonexistent}, and OpenRDF.
+[Bulbflow](http://bulbflow.com) is an open-source Python persistence framework for graph databases. It uses Gremlin as the query language, and you can use it to connect to any Blueprints-enabled database, including [TinkeGraph](./TinkeGraph.html), Neo4j, OrientDB, Dex, [InfiniteGraph](./InfiniteGraph.html), and OpenRDF.
 
-[NetworkX](http://networkx.lanl.gov){.http} is another example of a graph library in Python.
+[NetworkX](http://networkx.lanl.gov) is another example of a graph library in Python.
 
-[python-graph](http://code.google.com/p/python-graph/){.http} a framework of generic graph classes and commonly used algorithms by Pedro Maitello. Under active development. The project aims to use pythonic conventions, and takes a modular approach to external dependancies.
+[python-graph](http://code.google.com/p/python-graph/) a framework of generic graph classes and commonly used algorithms by Pedro Maitello. Under active development. The project aims to use pythonic conventions, and takes a modular approach to external dependancies.
 
-[graph-tool](http://graph-tool.skewed.de){.http} is an efficient python module for graph manipulation. It contains a comprehensive list of algorithms and network models, and integrates with [GraphViz](http://www.graphviz.org){.http} for visualization. It is implemented in C++ with the [Boost Graph Library](http://www.boost.org/doc/libs/release/libs/graph){.http}, which makes it orders of magnitude faster than implementations based purely on python.
+[graph-tool](http://graph-tool.skewed.de) is an efficient python module for graph manipulation. It contains a comprehensive list of algorithms and network models, and integrates with [GraphViz](http://www.graphviz.org) for visualization. It is implemented in C++ with the [Boost Graph Library](http://www.boost.org/doc/libs/release/libs/graph), which makes it orders of magnitude faster than implementations based purely on python.
 
-[py_graph](http://compbio.washington.edu/~zach/py_graph){.http} is an example by Zach Frazier, partly inspired by Eppstein\'s example. No longer under development, the author recommends using NetworkX.
+[py_graph](http://compbio.washington.edu/~zach/py_graph) is an example by Zach Frazier, partly inspired by Eppstein\'s example. No longer under development, the author recommends using NetworkX.
 
-[kjbuckets](http://gadfly.sourceforge.net/kjbuckets.html){.http} is a C extension and very fast, but imcomplete.
+[kjbuckets](http://gadfly.sourceforge.net/kjbuckets.html) is a C extension and very fast, but imcomplete.
 
-[pypes](http://cvs.zope.org/Packages/pypes/){.http} appears never to have been released officially.
+[pypes](http://cvs.zope.org/Packages/pypes/) appears never to have been released officially.
 
-Bruno Preiss offers a very complete but somewhat unPythonic Graph type as part of an online [book on data structures in Python](http://www.brpreiss.com/books/opus7/html/page519.html){.http}. (Downloadable at the Opus7 package.)
+Bruno Preiss offers a very complete but somewhat unPythonic Graph type as part of an online [book on data structures in Python](http://www.brpreiss.com/books/opus7/html/page519.html). (Downloadable at the Opus7 package.)
 
-[Nathan Denny\'s graph library](http://www.ece.arizona.edu/~denny/python_nest/graph_lib.py){.http} appears to be a fairly simplistic implementation.
+[Nathan Denny\'s graph library](http://www.ece.arizona.edu/~denny/python_nest/graph_lib.py) appears to be a fairly simplistic implementation.
 
-[Graphine](http://gitorious.org/projects/graphine/pages/Home){.http} is a Python 3 graph implementation with support for bridge, directed, and undirected multigraphs.
+[Graphine](http://gitorious.org/projects/graphine/pages/Home) is a Python 3 graph implementation with support for bridge, directed, and undirected multigraphs.
 
-[Pygr](http://www.bioinformatics.ucla.edu/pygr/){.http} is billed as a \"Python graph database framework for bioinformatics\", and clearly aims to be more than just a graph library.
+[Pygr](http://www.bioinformatics.ucla.edu/pygr/) is billed as a \"Python graph database framework for bioinformatics\", and clearly aims to be more than just a graph library.
 
-[Gato](http://gato.sourceforge.net/){.http}, the Graph Animation Toolkit, is a visual tool intended to teach graph algorithms. It contains a fully functional graph library.
+[Gato](http://gato.sourceforge.net/), the Graph Animation Toolkit, is a visual tool intended to teach graph algorithms. It contains a fully functional graph library.
 
-[pynetwork](http://sourceforge.net/projects/pynetwork/){.http}
+[pynetwork](http://sourceforge.net/projects/pynetwork/)
 
-[BOOST](http://boost.org/libs/graph/doc/python.html){.http} - how about BOOST? it seems to be well developed and has already Python bindings
+[BOOST](http://boost.org/libs/graph/doc/python.html) - how about BOOST? it seems to be well developed and has already Python bindings
 
-[pygraph](http://alpha-leonis.lids.mit.edu/nlp/pygraph/){.http}, Beracah Yankama\'s pure python a/cyclic tk grapher for tk contains spring and hierarchical node placement algorithms, along with some basic classes for creating nodes & edges.
+[pygraph](http://alpha-leonis.lids.mit.edu/nlp/pygraph/), Beracah Yankama\'s pure python a/cyclic tk grapher for tk contains spring and hierarchical node placement algorithms, along with some basic classes for creating nodes & edges.
 
-[Graph::Easy](http://bloodgate.com/perl/graph/manual/overview.html){.http} for perl allows flowcharts to be defined in plain text and then outputted in multiple formats which is quite handy for web applications and creating diagrams via wiki-like mechanisms.
+[Graph::Easy](http://bloodgate.com/perl/graph/manual/overview.html) for perl allows flowcharts to be defined in plain text and then outputted in multiple formats which is quite handy for web applications and creating diagrams via wiki-like mechanisms.
 
-One possible underlying technology for graphs would be adjacency matrices using [numarray](http://www.stsci.edu/resources/software_hardware/numarray){.http}. This approach would need to use sparse matrices to be practical for large graphs. The following library uses the numpy array and sparse scipy matrix for adjacency matrices: [Another Python Graph Library](http://sourceforge.net/projects/apythongraphlib/){.http}.
+One possible underlying technology for graphs would be adjacency matrices using [numarray](http://www.stsci.edu/resources/software_hardware/numarray). This approach would need to use sparse matrices to be practical for large graphs. The following library uses the numpy array and sparse scipy matrix for adjacency matrices: [Another Python Graph Library](http://sourceforge.net/projects/apythongraphlib/).
 
-### Add your ideas here (Go wild, folks\...) {#Add_your_ideas_here_.28Go_wild.2C_folks....29}
+### Add your ideas here (Go wild, folks\...) 
 
 \- I think that the graph representation should be a redundant one, that allows the fast traversals, quick node, edge and neighbour lookups as well as fast iterations over all nodes or all edges. This will of course come at the expense of storage and/or graph initialization efficieny. For example in the python graph representation mentioned above (modeled after LEDA) the nodes and the edges are stored in a separate dictionaries. Each edge_id maps to a tuple of the head_id and the tail_id (the nodes) that form the edge. (Edge_ids are automatically created as they are added.) At the same time each node_id maps to a tuple of two lists corresponding to incoming and outgoing edges. *(Istvan)*
 
@@ -75,7 +80,7 @@ One possible underlying technology for graphs would be adjacency matrices using 
 
 \- This is not about giving people a graph library, but letting people who write graph representations and people who write graph algorithms interoperate more easily, by giving them a common interface. If people want to use a ready-made library, that\'s fine. The point is that people (like me) might want to represent graphs completely differently from the \"textbook\" version (in fact, compact graph representations is what my current research is about). It\'s the same with the DB API; by fixing a standard API, people can write programs that use databases without having to worry about which database or database library they use. I\'ve added a use-case above to clear this up a bit. *(Magnus)*
 
-\- To write **any** graph algorithm, you need a set of standard methods. As far as I know, there are only two ways of getting this - either agree on a fixed interface which implementations *must* follow (the DB API approach) or define an interface and require that implementations *can* be adapted to it (the adaptation approach). I don\'t like Andrew Dalke\'s suggestion of code-generating template systems, it seems to me that this would make writing algorithms far too hard, and where multiple graph representations are in use, result in code explosion (a well-known problem with C++ templates). My preference is for adaptation. It\'s ideal for this sort of thing, the only downside is that it isn\'t standard. But getting PEP 246 accepted would be easier with more use cases - avoiding its use is self-defeating. Better to lobby for its use, on the basis that we need it for this type of situation. *([PaulMoore](./PaulMoore.html){.nonexistent})*
+\- To write **any** graph algorithm, you need a set of standard methods. As far as I know, there are only two ways of getting this - either agree on a fixed interface which implementations *must* follow (the DB API approach) or define an interface and require that implementations *can* be adapted to it (the adaptation approach). I don\'t like Andrew Dalke\'s suggestion of code-generating template systems, it seems to me that this would make writing algorithms far too hard, and where multiple graph representations are in use, result in code explosion (a well-known problem with C++ templates). My preference is for adaptation. It\'s ideal for this sort of thing, the only downside is that it isn\'t standard. But getting PEP 246 accepted would be easier with more use cases - avoiding its use is self-defeating. Better to lobby for its use, on the basis that we need it for this type of situation. *([PaulMoore](./PaulMoore.html))*
 
 \- I share your view here. One possibility is to specify how a graph can be adapted to the (or one of) the standard interface(s) as part of the (hypothetical) Graph PEP, using adapter/factory functions. This can then be the same mechanism used by adapt(), but we don\'t have to require its use. (Or we could use it, of course\...)
 
@@ -83,7 +88,7 @@ One possible underlying technology for graphs would be adjacency matrices using 
 
 \- I also think that one important use case for a generalized graph api would be tree representations. Any standard graph representation should as a subset present a standard tree, with the classic algorithms being portable between them. (As a minimum, pre-, in-, and post-order traversal; preferably depth-first and breadth-first searches.) *(VanL)*
 
-\- Andrew Dalke [suggests](http://groups.google.com/groups?selm=yyq0d.3041%24xA1.1224%40newsread3.news.pas.earthlink.net&output=gplain){.http} using a template system that can transform code using a standard API into code using a custom API. This differs from a solution using object adaptation in that it works at the source level, and thus can have some performance advantages.
+\- Andrew Dalke [suggests](http://groups.google.com/groups?selm=yyq0d.3041%24xA1.1224%40newsread3.news.pas.earthlink.net&output=gplain) using a template system that can transform code using a standard API into code using a custom API. This differs from a solution using object adaptation in that it works at the source level, and thus can have some performance advantages.
 
 Perhaps we should try to keep the edge and node attributes/decorations separate from the GraphAPI. The API should specify that each node and edge store a pointer. The pointer would be set to an object that handles all decorations and manipulations of those decorations. The graph algorithms would work on the graph structure itself \-- not the decorations \-- and the user would need to interface those results to the decorations. *(dschult)*
 
@@ -97,7 +102,7 @@ The nodes/edges could be arbitrary python objects. Besides just allowing python\
 
 \- Also: +1 for standard API so that algorithms can be described in a standard way. Also: I see that the requirement about allowing \"Object\" has already been raised on usenet Also: I missed a type of graph, the multigraph, where more than one type of relation is defined. You can fake this with multiple separate graphs, and in many ways I prefer this (then you can attach descriptive data to each relation\...) but I can see that some algorithms might be more naturally expressed as operating on a multigraph. *(Nick)*
 
-\- I second the notion of hypergraphs. I have a graph implementation that uses a base hypergraph class which contains Node, Edge, [NodeContainer](./NodeContainer.html){.nonexistent}, and [EdgeContainer](./EdgeContainer.html){.nonexistent} classes, each of which can have its behavior modified via mixins. As examples, the modification from a hypergraph to a DAG is accomplished by subclassing Graph and mixing in a new edge container that raises an exception if an illegal edge insertion is attempted, the more implementation-centric question of storing nodes in a database backend is handled by exchanging the standard list-based [NodeContainer](./NodeContainer.html){.nonexistent} with one that overrides add_node to a DB insertion operation, and the question of edge and node attributes is handled by simple keyword arguments which are passed to the base node and edge constructors, optionally made mandatory by subclassing Node or Edge. Please contact me if interested. *(Geremy)*
+\- I second the notion of hypergraphs. I have a graph implementation that uses a base hypergraph class which contains Node, Edge, [NodeContainer](./NodeContainer.html), and [EdgeContainer](./EdgeContainer.html) classes, each of which can have its behavior modified via mixins. As examples, the modification from a hypergraph to a DAG is accomplished by subclassing Graph and mixing in a new edge container that raises an exception if an illegal edge insertion is attempted, the more implementation-centric question of storing nodes in a database backend is handled by exchanging the standard list-based [NodeContainer](./NodeContainer.html) with one that overrides add_node to a DB insertion operation, and the question of edge and node attributes is handled by simple keyword arguments which are passed to the base node and edge constructors, optionally made mandatory by subclassing Node or Edge. Please contact me if interested. *(Geremy)*
 
 \- (Multigraphs are mentioned. - *Magnus*)
 
@@ -105,7 +110,7 @@ The nodes/edges could be arbitrary python objects. Besides just allowing python\
 
 The graph api should be graph-class agnositc. That is, it should not care if the graph is a connected, disconnected, directed, undirected, etc. It should only care about vertex and edge properties, other than adjacency, where a callback can be provided to account for the property\'s selection. I\'ll provide a proposal in the section below. *(jconnor)*
 
-### Specifics {#Specifics}
+### Specifics 
 
 *Put potential specifics here, that is, what functionality an API must cover. For now, it is completely permissible to have mutually exclusive items here, as nothing is anywhere near fixed yet.*
 
@@ -166,9 +171,9 @@ Should there be separate functionality for directed and undirected graphs? Shoul
 
 \- How do we handle the proliferation of other graph classes (such as multigraphs, pseudographs, \...), all of which are only minor tweaks of the basic structure? How about more radical departures such as hypergraphs (which allow an arbitrary number of nodes per edge)? \"oops, didn\'t read this far. Well you know my answer: make every graph a hypergraph. *(Nick)*\"
 
-\- One possibility would be to base the API definition on the [Graph eXchange Language](http://www.gupro.de/GXL){.http} (GXL). It is derived from many separate graph representation languages and seems quite complete (it even supports hypergraphs and hierarchical graphs!), logical, and well-thought-out. The language itself consists of an XML and a UML notation, but it is based on a clearly defined [object model/ADT](http://www.gupro.de/GXL/GraphModel/graphModel.html){.http}, which we could adapt to a Python interface. I\'m not sure about how (or whether) they model graph modification (although I think there is some support for transformations of some kind) but that could probably be done as a simple, logical extension. We might not want to support *all* of the GXL model, of course. We might even want to define several layers of standard compliance, with Layer 0 being only the current de facto standard graph API, for example. *(Magnus)*
+\- One possibility would be to base the API definition on the [Graph eXchange Language](http://www.gupro.de/GXL) (GXL). It is derived from many separate graph representation languages and seems quite complete (it even supports hypergraphs and hierarchical graphs!), logical, and well-thought-out. The language itself consists of an XML and a UML notation, but it is based on a clearly defined [object model/ADT](http://www.gupro.de/GXL/GraphModel/graphModel.html), which we could adapt to a Python interface. I\'m not sure about how (or whether) they model graph modification (although I think there is some support for transformations of some kind) but that could probably be done as a simple, logical extension. We might not want to support *all* of the GXL model, of course. We might even want to define several layers of standard compliance, with Layer 0 being only the current de facto standard graph API, for example. *(Magnus)*
 
-\- I think [GraphML](http://graphml.graphdrawing.org/){.http} would be great to be supported for reading and writing graphs. *(Ralf)*
+\- I think [GraphML](http://graphml.graphdrawing.org/) would be great to be supported for reading and writing graphs. *(Ralf)*
 
 \- With the goal of designing an API for Python in mind, I would think one of the first decisions that needs to be made is whether to use multiple classes (ala Vertex, Edge, Graph) or just one (ala Graph); also, are those classes going to be \"Pythonic\" in that they provide various methods in terms of Python operators or not (let\'s call the \"not\" alternative \"Textbookish\")? It seems to me that without settling this first, discussing the details of the API further is moot. But maybe I am wrong? *(Peter)*
 
@@ -182,9 +187,9 @@ I tend to prefer/develop graph implementations that support representing the nod
 
 g=Graph()
 
-some_object=[SomeObject](./SomeObject.html){.nonexistent}(\*args1, \*\*kwds1 )
+some_object=[SomeObject](./SomeObject.html)(\*args1, \*\*kwds1 )
 
-some_object2=[SomeObject](./SomeObject.html){.nonexistent}(\*args2, \*\*kwds2)
+some_object2=[SomeObject](./SomeObject.html)(\*args2, \*\*kwds2)
 
 g.add_vertex( some_object1 )
 
@@ -192,7 +197,7 @@ g.add_vertex( some_object2 )
 
 new_edge=g.add_edge( some_object1, some_object2)
 
-So that I do not have to maintain a mapping from the objects (that I care about) to some integers that uniquely label the nodes (which I don\'t care about). *(/David [McNamara](./McNamara.html){.nonexistent})*
+So that I do not have to maintain a mapping from the objects (that I care about) to some integers that uniquely label the nodes (which I don\'t care about). *(/David [McNamara](./McNamara.html))*
 
 \- Proposal for Graph interface:
 
@@ -234,13 +239,13 @@ I would leave it to the graph implementors to provide a set of comparison callab
 
 I believe that the majority of graph algorithms can be implemented with this interface. *(jconnor)*
 
-# Vertices and Edges as Separate Objects {#Vertices_and_Edges_as_Separate_Objects}
+# Vertices and Edges as Separate Objects 
 
 1\. I think a **Vertex** and an **Edge** as objects are meaninful and useful. One should be able to create v1=Vertex(1) and v2=Vertex(2) and then e12=Edge(v1,v2). Then do G.add_edge(e12), which should be no different than doing G.add_vertex(v1); G.add_vertex(v2); G.add_edge(e12). In this respect this is a departure from the NetworkX idea of using integers as nodes and 2-tuples of integers as edges, having the user map back and forth between nodes and data.
 
 2\. Whatever the repsentation used, the graph could expose a set of nodes and edges like graph.nodes and graph.edges. A new graph could be built from an existing set of nodes and edges: newG=Graph(G.nodes,G.edges). .nodes and .edges could be provided on-the-fly by property descriptors, regardless if a matrix or adj. list is used for internal representation. If the graph is connected, the graph could be exactly represented by G.edges
 
-3\. A Vertex object would have an .id attribute that could uniquely identify it, and provide an [eq]{.u} and [hash]{.u} magic methods. This way it could be inserted into a set. It could also a have a label or reference to some data. Perhaps there could be a \"tag\" attribute which would be similar to what the Tk Canvas has. A tag could be anything like a color value, a \'visited\' flag.
+3\. A Vertex object would have an .id attribute that could uniquely identify it, and provide an [eq] and [hash] magic methods. This way it could be inserted into a set. It could also a have a label or reference to some data. Perhaps there could be a \"tag\" attribute which would be similar to what the Tk Canvas has. A tag could be anything like a color value, a \'visited\' flag.
 
 4\. A Vertex object should not reference its edges. Edges should reference its vertices, because that is what an \'edge\' is \-- a relation between 2 vertices. So Edges will contain references to its nodes. An Edge object could have a \'from_vertex\' and a \'to_vertex\' attributes, a data attribute which could be the weight for example, and also a \"tag\" attribute like the Vertex.
 
@@ -250,15 +255,15 @@ I believe that the majority of graph algorithms can be implemented with this int
 
 7\. In a graph implementation of mine, I also have the possibility to specify generic n-edges (edges involving 3 or more vertexes) and for reification (specifying additional information about an edge) *(Stefano Borini)*
 
-# Hypergraphs {#Hypergraphs}
+# Hypergraphs 
 
 \- As far as hypergraphs are concerned, a hypergraph is equivalent to a bi-partite graph, with two different set of nodes. One represents the regular nodes, the other a set of edges (\<- these are not edges of the Graph itself, but separate Edge(s) created earlier. So it is probably not necessary to include a separate mechanism for hypergraphs. *(Nick V.)*
 
-# GraphABC {#GraphABC}
+# GraphABC 
 
-Matteo Dell\'Amico wrote [GraphABC](http://www.linux.it/~della/GraphABC/){.http}, a proposal for a graph Abstract Base Class. Please comment!
+Matteo Dell\'Amico wrote [GraphABC](http://www.linux.it/~della/GraphABC/), a proposal for a graph Abstract Base Class. Please comment!
 
-# Graph decoration {#Graph_decoration}
+# Graph decoration 
 
 \- The graph in itself contains just topology, but it would be nice to add data containers associated to the graph, to describe vertexes, edges, n-edges and the graph itself. *(Stefano Borini)*
 
@@ -266,11 +271,11 @@ Matteo Dell\'Amico wrote [GraphABC](http://www.linux.it/~della/GraphABC/){.http}
 
 Although not directly related to the graph API, but a storage shelf for descripted graphs would be useful as well. *(Stefano Borini)*
 
-## The Principle of Least Surprise {#The_Principle_of_Least_Surprise}
+## The Principle of Least Surprise 
 
-The API for sets (see [PEP 218](http://www.python.org/dev/peps/pep-0218/){.http}) was initially designed by looking at the terminology used in two classic texts ([Aho, Hopcroft, and Ullman](http://www.amazon.com/Data-Structures-Algorithms-Alfred-Aho/dp/0201000237/){.http} and [Sedgwick](http://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080/){.http}). Since most programmers learn about graphs from books like that, how about picking a couple of current data structures textbooks and using their terms and (implicit) APIs as a starting point? It might also short circuit otherwise-interminable arguments\-\--we agree in advance that if most books do X, the API should do X. Alternatively, we could just do whatever Magnus does in [his new book](http://www.amazon.com/Python-Algorithms-Mastering-Basic-Language/dp/1430232374/){.http}.
+The API for sets (see [PEP 218](http://www.python.org/dev/peps/pep-0218/)) was initially designed by looking at the terminology used in two classic texts ([Aho, Hopcroft, and Ullman](http://www.amazon.com/Data-Structures-Algorithms-Alfred-Aho/dp/0201000237/) and [Sedgwick](http://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080/)). Since most programmers learn about graphs from books like that, how about picking a couple of current data structures textbooks and using their terms and (implicit) APIs as a starting point? It might also short circuit otherwise-interminable arguments\-\--we agree in advance that if most books do X, the API should do X. Alternatively, we could just do whatever Magnus does in [his new book](http://www.amazon.com/Python-Algorithms-Mastering-Basic-Language/dp/1430232374/).
 
-## Contributors {#Contributors}
+## Contributors 
 
 (*Add your name to this list if you contribute.*)
 
@@ -296,7 +301,7 @@ The API for sets (see [PEP 218](http://www.python.org/dev/peps/pep-0218/){.http}
 
 - Beracah Yankama
 
-- David [McNamara](./McNamara.html){.nonexistent}
+- David [McNamara](./McNamara.html)
 
 - Jason Connor
 
@@ -311,4 +316,3 @@ The API for sets (see [PEP 218](http://www.python.org/dev/peps/pep-0218/){.http}
 - Greg Wilson
 
 (See also the Usenet discussion above for more contributors.)
-:::

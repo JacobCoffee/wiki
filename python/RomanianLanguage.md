@@ -1,11 +1,16 @@
 # RomanianLanguage
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 Links to Python information in Romanian
 
 ISO 639-1 Code: ro
 
-**limba română** [1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]{.comment style="display:none"}
+**limba română** [1SEP09 Ideally, all the language pages should be like the Polish or Turkish pages - all native language, only the necessary English. ]
 
 There are some groundrules, some laid down by the site admins, some my suggestions:
 
@@ -23,31 +28,30 @@ Where these pages really need help:
 
 3\) some care for languages that have next to nothing, but do have people in the Python community - even a link to the Wikipedia page for Python, in that language, is a start (Some are pretty complete and of high quality - the Russian language Wikipedia page for Python, for instance, packs a lot in).
 
-- [Grup de Utilizatori Python din Romania](http://groups.google.com/group/python-romania){.http}
+- [Grup de Utilizatori Python din Romania](http://groups.google.com/group/python-romania)
 
-- [Tutorial Python 2.2](http://starship.python.net/crew/gherman/propaganda/tut-ro/tut-ro.pdf){.http} este traducerea in limba romana a Tutorialului Python
+- [Tutorial Python 2.2](http://starship.python.net/crew/gherman/propaganda/tut-ro/tut-ro.pdf) este traducerea in limba romana a Tutorialului Python
 
 scris de Guido van Rossum et al.; traducerea a fost realizata de Mihai Matei Gheorghe si Aurelian Coman.
 
-- [online Python 2.4 tutorial](http://www.scribd.com/doc/2112222/Python-Tutorial){.http} - van Rossum, Drake
+- [online Python 2.4 tutorial](http://www.scribd.com/doc/2112222/Python-Tutorial) - van Rossum, Drake
 
-- [Informatii despre PYTHON, BLENDER3D si LINUX](http://www.catalinfest.xhost.ro){.http}
+- [Informatii despre PYTHON, BLENDER3D si LINUX](http://www.catalinfest.xhost.ro)
 
-[4 part white paper - FZCUT Timisaura](http://www.ciprianpungila.com/python/facilitati.html){.http}
+[4 part white paper - FZCUT Timisaura](http://www.ciprianpungila.com/python/facilitati.html)
 
-[Blender Wiki](http://wiki.blender.org/index.php/Doc:RO/Manual/Introduction){.http}
+[Blender Wiki](http://wiki.blender.org/index.php/Doc:RO/Manual/Introduction)
 
-[Swaroop C H summary of Python links](http://www.swaroopch.com/notes/Python_ro:Ce_urmează){.http}
+[Swaroop C H summary of Python links](http://www.swaroopch.com/notes/Python_ro:Ce_urmează)
 
-### Blogs {#Blogs}
+### Blogs 
 
-- [ubuntu forum](http://forum.ubuntu.ro/viewtopic.php?id=6716&action=new){.http} - thread on pyGtk, py2exe, plone with some code
+- [ubuntu forum](http://forum.ubuntu.ro/viewtopic.php?id=6716&action=new) - thread on pyGtk, py2exe, plone with some code
 
-- [problemfararaspuns](http://problemefararaspuns.blogspot.com/2009/09/python-decorators.html){.http} - decorators
+- [problemfararaspuns](http://problemefararaspuns.blogspot.com/2009/09/python-decorators.html) - decorators
 
-- [rstcenter forum](http://rstcenter.com/forum/19009-python-y-archive-stealer-alstar.rst){.http} - security forum; code.
+- [rstcenter forum](http://rstcenter.com/forum/19009-python-y-archive-stealer-alstar.rst) - security forum; code.
 
-[http://ro.wikipedia.org/wiki/Python](http://ro.wikipedia.org/wiki/Python){.http} (Wikipedia)
+[http://ro.wikipedia.org/wiki/Python](http://ro.wikipedia.org/wiki/Python) (Wikipedia)
 
 [CategoryLanguage](CategoryLanguage)
-:::

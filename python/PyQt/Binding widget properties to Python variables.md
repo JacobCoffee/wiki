@@ -1,15 +1,20 @@
 # PyQt/Binding widget properties to Python variables
 
-::::::::::::: {#content dir="ltr" lang="en"}
-# Binding widget properties to Python variables {#Binding_widget_properties_to_Python_variables}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+# Binding widget properties to Python variables 
 
 On the Freenode `#pyqt`{.backtick} channel, \'xh\' asked if there was a way to bind widget properties to Python variables.
 
-The following code ([bindable.py](attachments/PyQt(2f)Binding(20)widget(20)properties(20)to(20)Python(20)variables/bindable.py){.attachment}) is a quick hack to demonstrate one way of doing this:
+The following code ([bindable.py](attachments/PyQt(2f)Binding(20)widget(20)properties(20)to(20)Python(20)variables/bindable.py)) is a quick hack to demonstrate one way of doing this:
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-d03f302d7b1fcea1a811bfe79951990a6ebb835f dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 import sys
    2 from PyQt4.QtCore import *
    3 from PyQt4.QtGui import *
@@ -31,9 +36,9 @@ The `bind()`{.backtick} function performs the work of creating a Python property
 
 We could bind the variable using a PyQt property instead (with the `QtCore.pyqtProperty`{.backtick} object). This would also expose the property to other Qt objects.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-4eed12844a6d29003a982d278e96e56188981ddb dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 class Window(QWidget):
    2 
    3     def __init__(self, parent = None):
@@ -51,9 +56,9 @@ We could bind the variable using a PyQt property instead (with the `QtCore.pyqtP
 
 These three widgets are the ones whose properties we want to bind variables to. We give them unique names so that the Python property methods can find them.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-5776099cb92d1cb58833624fef4ec8a2bb8f17f1 dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1         layout = QFormLayout(self)
    2         layout.addRow(self.tr("Name:"), nameEdit)
    3         layout.addRow(self.tr("Address:"), addressEdit)
@@ -62,9 +67,9 @@ These three widgets are the ones whose properties we want to bind variables to. 
 :::
 ::::
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-6804fcbbc3a51061787e41129a027651611f12ca dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1     name = bind("nameEdit", "text", str)
    2     address = bind("addressEdit", "plainText", str)
    3     contact = bind("contactCheckBox", "checked", bool)
@@ -74,9 +79,9 @@ These three widgets are the ones whose properties we want to bind variables to. 
 
 We create three Python properties at the class level and bind them to specific properties of the named widgets, indicating the type that each of them should have in Python.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-3ee31c28c19a068eb61d6bfb89ba36ba129e549e dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 if __name__ == "__main__":
    2 
    3     app = QApplication(sys.argv)
@@ -86,4 +91,3 @@ We create three Python properties at the class level and bind them to specific p
 ```
 :::
 ::::
-:::::::::::::

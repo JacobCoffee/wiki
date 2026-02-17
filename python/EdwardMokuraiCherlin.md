@@ -1,6 +1,11 @@
 # EdwardMokuraiCherlin
 
-::: {#content dir="ltr" lang="en"}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
 - Generalist and integrationist
 
 - Serial non-profit founder
@@ -15,9 +20,8 @@
 
 - Math and science, music, fantasy and science fiction, languages (human and computer), Buddhism, gardening
 
-- [FriendlyFavors](./FriendlyFavors.html){.nonexistent}, [LinkedIn](./LinkedIn.html){.nonexistent}, [StumbleUpon](./StumbleUpon.html){.nonexistent}
+- [FriendlyFavors](./FriendlyFavors.html), [LinkedIn](./LinkedIn.html), [StumbleUpon](./StumbleUpon.html)
 
 - Volunteer at [OneLaptopPerChild](OneLaptopPerChild). Check out their [SugarUi](SugarUi), written in Python.
 
 [CategoryHomepage](CategoryHomepage)
-:::

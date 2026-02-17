@@ -1,13 +1,18 @@
 # DiacriticalEditor
 
-::::: {#content dir="ltr" lang="en"}
-This is the same as [http://code.activestate.com/recipes/286155/](http://code.activestate.com/recipes/286155/){.http}
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+This is the same as [http://code.activestate.com/recipes/286155/](http://code.activestate.com/recipes/286155/)
 
 For newest version see that page.
 
 ------------------------------------------------------------------------
 
-This module provides two standard [TkInter](TkInter) widgets, Entry and [ScrolledText](./ScrolledText.html){.nonexistent}, modified for text editing with key bindings that allow entering accented letters, umlauts, etc.
+This module provides two standard [TkInter](TkInter) widgets, Entry and [ScrolledText](./ScrolledText.html), modified for text editing with key bindings that allow entering accented letters, umlauts, etc.
 
 Usage: To enter an accented character, press Ctrl-\<accent\>, then press the character key. Example: to enter a with acute, press Ctrl-\', A.
 
@@ -17,9 +22,9 @@ No bindings for Icelandic eth & thorn, Swedish a-ring, nor German scharfes-s are
 
 Additionally, some Tk key bindings are corrected on Windows platform to comply with the standard practice: Ctrl-A is now select-all.
 
-:::: {.highlight .python}
-::: {.codearea dir="ltr" lang="en"}
-``` {#CA-e622c944a3620cb47395d079b4c090ae269d1d2c dir="ltr" lang="en"}
+:::: 
+::: 
+``` 
    1 from Tkinter import *
    2 from ScrolledText import ScrolledText
    3 from unicodedata import lookup
@@ -108,4 +113,3 @@ Additionally, some Tk key bindings are corrected on Windows platform to comply w
 ```
 :::
 ::::
-:::::
