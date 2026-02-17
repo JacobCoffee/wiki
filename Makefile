@@ -1,5 +1,6 @@
 SHELL := /bin/bash
 UV ?= uv
+JOBS ?= $(shell python3 -c "import os; print(max(1, os.cpu_count() - 2))")
 
 .DEFAULT_GOAL := help
 .PHONY: help install sync convert docs docs-serve docs-clean clean lint
@@ -23,16 +24,16 @@ convert: ## Convert HTML to Markdown (requires sync first)
 ##@ Documentation
 
 docs: docs-clean ## Build Sphinx documentation
-	$(UV) run sphinx-build -b html . _build/html -j auto --keep-going
+	$(UV) run sphinx-build -b html . _build/html -j $(JOBS) --keep-going
 
 docs-serve: docs-clean ## Serve docs with live reload
-	$(UV) run sphinx-autobuild . _build/html -j auto --port 0 --re-ignore '_raw/.*' --re-ignore '.claude/.*'
+	$(UV) run sphinx-autobuild . _build/html -j $(JOBS) --port 0 --re-ignore '_raw/.*' --re-ignore '.claude/.*'
 
 docs-serve-fast: docs-clean ## Serve single wiki section (WIKI=python|psf|jython [SECTION=subdir])
 ifndef WIKI
 	$(error Usage: make docs-serve-fast WIKI=python [SECTION=Advocacy])
 endif
-	WIKI=$(WIKI) SECTION=$(SECTION) $(UV) run sphinx-autobuild . _build/html -j auto --port 0 --re-ignore '_raw/.*' --re-ignore '.claude/.*'
+	WIKI=$(WIKI) SECTION=$(SECTION) $(UV) run sphinx-autobuild . _build/html -j $(JOBS) --port 0 --re-ignore '_raw/.*' --re-ignore '.claude/.*'
 
 docs-clean: ## Clean built documentation
 	rm -rf _build
