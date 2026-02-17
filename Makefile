@@ -28,11 +28,11 @@ docs: docs-clean ## Build Sphinx documentation
 docs-serve: ## Serve docs with live reload
 	$(UV) run sphinx-autobuild . _build/html -j auto --port 0 --re-ignore '_raw/.*' --re-ignore '.claude/.*'
 
-docs-serve-fast: ## Serve single wiki section (WIKI=python|psf|jython)
+docs-serve-fast: ## Serve single wiki section (WIKI=python|psf|jython [SECTION=subdir])
 ifndef WIKI
-	$(error Usage: make docs-serve-fast WIKI=python)
+	$(error Usage: make docs-serve-fast WIKI=python [SECTION=Advocacy])
 endif
-	WIKI=$(WIKI) $(UV) run sphinx-autobuild . _build/html -j auto --port 0 --re-ignore '_raw/.*' --re-ignore '.claude/.*'
+	WIKI=$(WIKI) SECTION=$(SECTION) $(UV) run sphinx-autobuild . _build/html -j auto --port 0 --re-ignore '_raw/.*' --re-ignore '.claude/.*'
 
 docs-clean: ## Clean built documentation
 	rm -rf _build

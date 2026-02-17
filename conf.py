@@ -26,12 +26,32 @@ exclude_patterns = [
     "**/_attachments",
 ]
 
-# Allow building a single wiki section: WIKI=python|psf|jython
+# Allow building a single wiki section or subsection:
+#   WIKI=psf                       - build only the PSF wiki
+#   WIKI=psf SECTION=PackagingWG   - build only psf/PackagingWG
+#   WIKI=python SECTION=Advocacy   - build only python/Advocacy
 _wiki_only = os.environ.get("WIKI")
 if _wiki_only:
     _all_wikis = {"python", "psf", "jython"}
     for _w in _all_wikis - {_wiki_only}:
         exclude_patterns.append(f"{_w}/**")
+
+    _section = os.environ.get("SECTION")
+    if _section:
+        # Exclude all sibling subdirectories and top-level pages in the wiki,
+        # keeping only: the target section, the wiki's index.md, and root index.md
+        from pathlib import Path
+
+        _wiki_path = Path(_wiki_only)
+        if _wiki_path.is_dir():
+            # Exclude sibling subdirectories
+            for _d in _wiki_path.iterdir():
+                if _d.is_dir() and _d.name != _section and _d.name != "_attachments":
+                    exclude_patterns.append(f"{_wiki_only}/{_d.name}/**")
+            # Exclude top-level .md files except the wiki's own index
+            for _f in _wiki_path.glob("*.md"):
+                if _f.name != "index.md":
+                    exclude_patterns.append(f"{_wiki_only}/{_f.name}")
 
 source_suffix = {
     ".rst": "restructuredtext",
