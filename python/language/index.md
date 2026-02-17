@@ -1,0 +1,37 @@
+# Language Reference
+
+```{toctree}
+:maxdepth: 1
+
+Concurrency/index
+StructuredText/index
+AST
+ASTBasedOptimization
+AbstractBaseClasses
+AdapterRegistry
+AlternateLambdaSyntax
+AlternativeDescriptionOfProperty
+AlternativePathClass
+AlternativePathDiscussion
+AlternativePathModule
+AlternativePathModuleTests
+ByteplayDoc
+ComputedAttributesUsingPropertyObjects
+Concurrency
+ConfigParser
+ConfigParserExamples
+ConfigParserGoals
+ConfigParserShootout
+DataRepresentation
+Decorators
+Generators
+Iterator
+LanguageParsing
+ObserverPattern
+StructureAnnotation
+StructuredText
+SwitchStatement
+TimeComplexity (SetCode)
+TimeComplexity
+WithStatement
+```

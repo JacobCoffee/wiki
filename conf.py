@@ -2,8 +2,10 @@
 
 from __future__ import annotations
 
+import json
 import os
 from datetime import datetime
+from pathlib import Path
 
 project = "Python Wiki"
 copyright = f"{datetime.now().year}, Python Software Foundation"
@@ -13,11 +15,12 @@ extensions = [
     "myst_parser",
     "sphinx_copybutton",
     "sphinx_design",
+    "sphinxext.rediraffe",
 ]
 
 templates_path = ["_templates"]
 exclude_patterns = [
-    "_build", "_raw", "scripts", ".github", ".claude",
+    "_build", "_raw", "_exclude", "scripts", ".github", ".claude",
     "Thumbs.db", ".DS_Store", "venv", ".venv",
     "node_modules", "uv.lock", "pyproject.toml", "Makefile",
     "**/_attachments",
@@ -98,3 +101,11 @@ html_theme_options = {
         {"title": "Jython Wiki", "url": "jython/index"},
     ],
 }
+
+# -- Rediraffe (redirect) configuration -------------------------------------
+_redirects_file = Path(__file__).parent / "_redirects.json"
+if _redirects_file.exists():
+    rediraffe_redirects = json.loads(_redirects_file.read_text())
+else:
+    rediraffe_redirects = {}
+rediraffe_branch = "main"

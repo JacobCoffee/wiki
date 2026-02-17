@@ -1,0 +1,23 @@
+# Pythonsoftwarefoundation
+
+```{toctree}
+:maxdepth: 1
+
+Proposals/index
+BoardCandidates2007
+BoardCandidates2008
+BoardCandidates2009
+BoardCandidates2010
+BoardCandidates2011
+BoardCandidates2012
+BoardCandidates2013
+BoardCandidates2014
+BoardCandidates2015
+BoardCandidates2016
+BoardCandidates2017
+BoardCandidates2018
+DutiesAndResponsibilitiesOfDirectors
+ExpectationsOfBoardDirectors
+FellowNominations
+Proposals
+```

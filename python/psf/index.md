@@ -1,0 +1,30 @@
+# Python Software Foundation
+
+```{toctree}
+:maxdepth: 1
+
+PSF Python Job Board/index
+PythonSoftwareFoundation/index
+PythonSoftwareFoundationLicenseFaq/index
+PSF Python Job Board
+PythonCd
+PythonCdContributors
+PythonCdCore
+PythonCdDocs
+PythonCdDownload
+PythonCdFun
+PythonCdPackages
+PythonCdToDo
+PythonCdTools
+PythonCdWiki
+PythonSoftwareFoundation
+PythonSoftwareFoundationBoard
+PythonSoftwareFoundationCommittees
+PythonSoftwareFoundationLicenseFaq
+PythonSoftwareFoundationLicenseV2
+PythonSoftwareFoundationLicenseV2Easy
+PythonSoftwareFoundationLicenseV2Revised
+PythonSoftwareFoundationTrademarkPolicy
+PythonSoftwareFoundationTrademarkPolicyAlt2
+PythonSoftwareFoundationWorkflow
+```

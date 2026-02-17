@@ -1,0 +1,35 @@
+# Internals
+
+```{toctree}
+:maxdepth: 1
+
+CodeSpeedupExperiments/index
+CollectionsIntegration/index
+ShashankBharadwaj/index
+BiggerTasks
+BufferProtocol
+CodeSpeedupExperiments
+CollectionsIntegration
+ComparisonJavaJython
+DateTimeModule
+ExposeAnnotations
+GeneratedDerivedClasses
+ImplementNewType
+ImplementSequenceType
+IntegerConversion
+JepGuidelines
+JepIndex
+Jython3000
+JythonCompiler
+MethodDispatch
+NewProposal
+NewStyleClasses
+PackageScanning
+PerformanceEnhancements
+PyFileBenchmarks
+PythonTypesInJava
+ReplaceJythonc
+ShashankBharadwaj
+SysPackageManager
+ThreadLocalVariables
+```

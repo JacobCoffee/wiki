@@ -15,6 +15,7 @@ docs = [
     "sphinx-design>=0.6.0",
     "sphinx-autobuild>=2024.0.0",
     "linkify-it-py>=2.0",
+    "sphinxext-rediraffe>=0.2.7",
 ]
 convert = [
     "beautifulsoup4>=4.12",

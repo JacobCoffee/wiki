@@ -1,0 +1,35 @@
+# Infrastructure
+
+```{toctree}
+:maxdepth: 1
+
+AndrewKuchling/index
+PythonWebsite/index
+SiteImprovements/index
+BuildBot
+CallForTrackers
+PyBots
+PyBotsFaq
+PythonWebsite
+PythonWebsiteContentMigration
+PythonWebsiteCreatingNewTickets
+PythonWebsiteDetails
+PythonWebsiteHomePage
+PythonWebsiteHomePageDeibel
+PythonWebsiteHomePageGoodger
+PythonWebsiteHomePageParkin
+PythonWebsiteHomePageShalabh
+PythonWebsiteMiscSuggestions
+PythonWebsitePyramidDocs
+PythonWebsitePyramidEggs
+PythonWebsitePyramidUsersGuide
+PythonWebsiteVirtualSprints
+SiteImprovements
+TrackerAccessControl
+TrackerDevelopment
+TrackerDevelopmentPlanning
+TrackerDevelopmentVirtualEnv
+TrackerDocs
+TrackerTransition
+TrackerUseCases
+```

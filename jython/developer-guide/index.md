@@ -1,0 +1,28 @@
+# Developer Guide
+
+```{toctree}
+:maxdepth: 1
+
+JythonDeveloperGuide/index
+CodingStandards
+DeveloperFAQ
+HowToGetInvolved
+HowToReleaseJython
+Jython25BackwardsIncompatibilities
+JythonDeveloperGuide
+JythonReleaseNotes
+MigrateBugtests
+MovingJythonForward
+PatchGuidelines
+RelicensingJython
+ReportingBugs
+RoadMap
+SourceForge
+SvnToHgMigration
+TestFailures
+TestingJython
+UpgradeTo25CPythonLib
+VersionTransition
+WebsiteBuilderSetup
+WhosDoingWhat
+```
