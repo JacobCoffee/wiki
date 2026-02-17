@@ -21,7 +21,7 @@ exclude_patterns = [
     "_build", "_raw", "_exclude", "_redirects_html", "scripts", ".github", ".claude",
     "Thumbs.db", ".DS_Store", "venv", ".venv",
     "node_modules", "uv.lock", "pyproject.toml", "Makefile",
-    "**/_attachments",
+    "**/_attachments", "_extra", "oauth",
 ]
 
 # Allow building a single wiki section or subsection:
@@ -100,7 +100,7 @@ html_title = "Python Wiki"
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
 html_show_sourcelink = False
-html_extra_path = ["_redirects_html"]
+html_extra_path = ["_redirects_html", "_extra"]
 
 html_context = {
     "source_type": "github",

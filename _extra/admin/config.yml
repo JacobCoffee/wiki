@@ -1,0 +1,83 @@
+backend:
+  name: github
+  repo: psf/wiki
+  branch: main
+  use_graphql: true
+  open_authoring: true
+  base_url: https://wiki-auth.python.org
+
+publish_mode: editorial_workflow
+search: false
+
+media_folder: _static/images
+public_folder: /_static/images
+
+collections:
+  - name: python-wiki
+    label: Python Wiki
+    label_singular: Python Wiki Page
+    folder: python
+    create: true
+    format: yaml-frontmatter
+    extension: md
+    nested:
+      depth: 100
+      summary: "{{title}}"
+      subfolders: false
+    meta:
+      path:
+        widget: string
+        label: Path
+        index_file: index
+    editor:
+      preview: false
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Orphan, name: orphan, widget: hidden, default: true }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: psf-wiki
+    label: PSF Wiki
+    label_singular: PSF Wiki Page
+    folder: psf
+    create: true
+    format: yaml-frontmatter
+    extension: md
+    nested:
+      depth: 100
+      summary: "{{title}}"
+      subfolders: false
+    meta:
+      path:
+        widget: string
+        label: Path
+        index_file: index
+    editor:
+      preview: false
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Orphan, name: orphan, widget: hidden, default: true }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: jython-wiki
+    label: Jython Wiki
+    label_singular: Jython Wiki Page
+    folder: jython
+    create: true
+    format: yaml-frontmatter
+    extension: md
+    nested:
+      depth: 100
+      summary: "{{title}}"
+      subfolders: false
+    meta:
+      path:
+        widget: string
+        label: Path
+        index_file: index
+    editor:
+      preview: false
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Orphan, name: orphan, widget: hidden, default: true }
+      - { label: Body, name: body, widget: markdown }

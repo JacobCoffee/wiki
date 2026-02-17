@@ -1,0 +1,28 @@
+[project]
+name = "wiki-oauth"
+version = "0.1.0"
+description = "GitHub OAuth proxy for Decap CMS on the Python Wiki"
+requires-python = ">=3.13"
+license = "MIT"
+dependencies = [
+    "litestar>=2.15",
+    "httpx>=0.28",
+    "uvicorn[standard]>=0.34",
+]
+
+[dependency-groups]
+test = [
+    "litestar[testing]",
+    "pytest>=8.1",
+    "pytest-asyncio>=0.23",
+    "pytest-cov>=4.1",
+    "pytest-sugar>=1.1",
+]
+dev = [
+    { include-group = "test" },
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+addopts = ["-v", "--strict-markers", "--tb=short"]

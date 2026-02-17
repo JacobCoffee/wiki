@@ -3,7 +3,7 @@ UV ?= uv
 JOBS ?= $(shell python3 -c "import os; print(max(1, os.cpu_count() - 2))")
 
 .DEFAULT_GOAL := help
-.PHONY: help install sync convert docs docs-serve docs-clean clean lint
+.PHONY: help install sync convert docs docs-serve docs-clean clean lint oauth-serve oauth-test
 
 help: ## Display this help text
 	@awk 'BEGIN {FS = ":.*##"; printf "\nUsage:\n  make \033[36m<target>\033[0m\n"} /^[a-zA-Z0-9_-]+:.*?##/ { printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2 } /^##@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) } ' $(MAKEFILE_LIST)
@@ -46,6 +46,14 @@ lint: ## Run pre-commit hooks
 redirects: ## Regenerate redirect mapping and static HTML files
 	$(UV) run python scripts/gen_old_wiki_redirects.py
 	$(UV) run python scripts/gen_redirect_pages.py
+
+##@ OAuth Proxy
+
+oauth-serve: ## Run OAuth proxy locally (set GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET)
+	cd oauth && $(UV) run uvicorn app:app --reload --port 8000
+
+oauth-test: ## Run OAuth proxy tests
+	cd oauth && $(UV) run --group test pytest
 
 ##@ Utility
 

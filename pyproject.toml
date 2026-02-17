@@ -23,6 +23,9 @@ convert = [
 [tool.uv]
 default-groups = ["docs"]
 
+[tool.uv.workspace]
+members = ["oauth"]
+
 [tool.ruff]
 target-version = "py314"
 line-length = 120
