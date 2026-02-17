@@ -1,0 +1,47 @@
+name: Link Check
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"  # Weekly, Monday 6am UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  linkcheck:
+    name: Check for Dead Links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@f0ec1fc3b38f5e7cd731bb6ce540c5af426746bb # v6.1.0
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.14"
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run Sphinx linkcheck
+        run: uv run sphinx-build -b linkcheck . _build/linkcheck -j auto --keep-going 2>&1 | tee linkcheck.log || true
+
+      - name: Upload linkcheck results
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: linkcheck-results
+          path: |
+            _build/linkcheck/output.txt
+            _build/linkcheck/output.json
+            linkcheck.log
+          retention-days: 30
