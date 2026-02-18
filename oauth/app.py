@@ -34,11 +34,19 @@ CALLBACK_HTML = """<!doctype html>
 <html><body><script>
 (function() {
   const token = "%s";
-  window.opener.postMessage(
-    "authorization:github:success:" + JSON.stringify({token: token, provider: "github"}),
-    "*"
-  );
-  window.close();
+  const data = JSON.stringify({token: token, provider: "github"});
+
+  // Step 1: Tell the parent we're starting auth
+  window.opener.postMessage("authorizing:github", "*");
+
+  // Step 2: Wait for parent to acknowledge, then send the token
+  window.addEventListener("message", function(e) {
+    window.opener.postMessage(
+      "authorization:github:success:" + data,
+      e.origin
+    );
+    window.close();
+  }, false);
 })();
 </script></body></html>
 """
