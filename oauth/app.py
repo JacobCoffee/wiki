@@ -11,6 +11,7 @@ from litestar.openapi.config import OpenAPIConfig
 from litestar.openapi.plugins import ScalarRenderPlugin
 from litestar.openapi.spec import Contact, ExternalDocumentation, License, Server
 from litestar.response import Redirect
+from litestar.response.base import ASGIResponse
 
 # Load .env from oauth/ or repo root if present
 _env_file = Path(__file__).parent / ".env"
@@ -53,8 +54,8 @@ async def auth() -> Redirect:
     return Redirect(f"{AUTHORIZE_URL}?client_id={CLIENT_ID}&scope=repo,user")
 
 
-@get("/callback")
-async def callback(code: str) -> str:
+@get("/callback", media_type="text/html")
+async def callback(code: str) -> ASGIResponse:
     async with httpx.AsyncClient() as client:
         resp = await client.post(
             TOKEN_URL,
@@ -63,7 +64,7 @@ async def callback(code: str) -> str:
         )
         resp.raise_for_status()
         token = resp.json()["access_token"]
-    return CALLBACK_HTML % token
+    return ASGIResponse(body=(CALLBACK_HTML % token).encode(), media_type="text/html")
 
 
 app = Litestar(
