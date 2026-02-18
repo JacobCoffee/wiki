@@ -2,7 +2,7 @@ backend:
   name: github
   repo: JacobCoffee/wiki
   branch: main
-  open_authoring: true
+  use_graphql: true
   base_url: https://api.wiki.python.org
 
 publish_mode: editorial_workflow
