@@ -158,6 +158,58 @@ html_theme_options = {
 }
 
 
+# -- Attachments -------------------------------------------------------------
+# MoinMoin wiki pages reference attachments as relative ``attachments/X/file``
+# paths.  The actual files live in ``{wiki}/_attachments/X/`` which is excluded
+# from the Sphinx source tree.  This hook copies referenced attachments into
+# the build output so the links resolve correctly.
+
+import re as _re
+import shutil as _shutil
+from urllib.parse import unquote as _unquote
+
+_ATTACH_RE = _re.compile(r'attachments/((?:[^()\"\s]|\(\w+\))+)')
+
+
+def _copy_wiki_attachments(app, exception):
+    if exception:
+        return
+
+    srcdir = Path(app.srcdir)
+    outdir = Path(app.outdir)
+
+    for wiki in ("psf", "python", "jython"):
+        attach_src = srcdir / wiki / "_attachments"
+        if not attach_src.exists():
+            continue
+
+        for md_file in (srcdir / wiki).rglob("*.md"):
+            if "_attachments" in md_file.parts or "_exclude" in md_file.parts:
+                continue
+
+            content = md_file.read_text(errors="ignore")
+            refs = _ATTACH_RE.findall(content)
+            if not refs:
+                continue
+
+            html_dir = outdir / md_file.relative_to(srcdir).parent
+
+            for ref in refs:
+                # Try URL-decoded name first, then raw
+                for candidate in (_unquote(ref), ref):
+                    src_file = attach_src / candidate
+                    if src_file.exists() and src_file.is_file():
+                        dst = html_dir / "attachments" / ref
+                        dst.parent.mkdir(parents=True, exist_ok=True)
+                        if not dst.exists():
+                            _shutil.copy2(src_file, dst)
+                        break
+
+
+def setup(app):
+    app.connect("build-finished", _copy_wiki_attachments)
+
+
 # -- Redirects ---------------------------------------------------------------
 # Static redirect HTML files live in _redirects_html/ and are copied into the
 # build output via html_extra_path. To regenerate:
