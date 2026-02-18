@@ -13,6 +13,17 @@ sys.path.insert(0, str(Path(__file__).parent / "oauth"))
 os.environ.setdefault("GITHUB_CLIENT_ID", "docs-placeholder")
 os.environ.setdefault("GITHUB_CLIENT_SECRET", "docs-placeholder")
 
+# Litestar's @get() decorator replaces functions with handler objects.
+# Patch the module so autodoc can find the actual functions.
+import app as _app  # noqa: E402
+
+for _name in ("health", "auth", "callback"):
+    _handler = getattr(_app, _name)
+    if hasattr(_handler, "fn"):
+        _fn = _handler.fn
+        _fn.__module__ = "app"
+        setattr(_app, _name, _fn)
+
 project = "Python Wiki"
 copyright = f"{datetime.now().year}, Python Software Foundation"
 author = "Python Community"
@@ -20,9 +31,9 @@ author = "Python Community"
 extensions = [
     "myst_parser",
     "sphinx.ext.autodoc",
+    "sphinx.ext.viewcode",
     "sphinx_copybutton",
     "sphinx_design",
-    "sphinxcontrib.openapi",
 ]
 
 templates_path = ["_templates"]

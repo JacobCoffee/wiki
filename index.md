@@ -187,5 +187,5 @@ JVM Integration · Java Interop · Guides
 python/index
 psf/index
 jython/index
-contributing
+contributing/index
 ```
