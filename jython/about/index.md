@@ -4,7 +4,6 @@ Jython is a Java implementation of Python, originally created by Jim Hugunin. Th
 
 ## Project Overview
 
-- [FrontPage](FrontPage) -- The original Jython wiki landing page, with a high-level introduction to the project and its use cases
 - [WhyJython](WhyJython) -- The case for Jython: dynamic compilation, Java class extension, bean properties, and what sets it apart from other JVM languages
 
 ## News & Branding
@@ -29,7 +28,6 @@ Jython is a Java implementation of Python, originally created by Jim Hugunin. Th
 
 ClarkUpdike/index
 SummerOfCode/index
-FrontPage
 IrcChannel
 JythonLogo
 JythonNews

@@ -4,7 +4,6 @@ This section covers the foundation-level basics: what the PSF stands for, how it
 
 ## Mission & Values
 
-- [Front Page](FrontPage) -- Overview of the PSF wiki, including access levels for public and member-only content
 - [Statement of Values](StatementOfValues) -- Proposed PSF-specific values statement, developed as a complement to the Code of Conduct
 - [Code of Conduct](CodeOfConduct) -- Links to the current PSF Code of Conduct on policies.python.org
 
@@ -27,7 +26,6 @@ CodeOfConduct
 Contents
 Example PSF Workgroup Charter
 Example PSF Workgroup Page
-FrontPage
 StatementOfValues
 WikiInstructions
 reference
