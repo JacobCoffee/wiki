@@ -54,16 +54,39 @@ CALLBACK_HTML = """<!doctype html>
 
 @get("/_health/")
 async def health() -> dict[str, str]:
+    """Health check endpoint for load balancers and uptime monitors.
+
+    Returns ``{"status": "ok"}`` when the service is running.
+    """
     return {"status": "ok"}
 
 
 @get("/auth")
-async def auth() -> Redirect:
-    return Redirect(f"{AUTHORIZE_URL}?client_id={CLIENT_ID}&scope=repo,user")
+async def auth(scope: str = "public_repo", provider: str = "github", site_id: str = "") -> Redirect:
+    """Redirect the user to GitHub's OAuth authorization page.
+
+    Decap CMS hits this endpoint to start the OAuth flow. The user gets
+    sent to GitHub to approve access, then GitHub redirects back to
+    :func:`callback` with an authorization code.
+
+    :param scope: GitHub OAuth scope to request. Defaults to ``public_repo``.
+    :param provider: OAuth provider name (passed by Decap CMS, always ``github``).
+    :param site_id: Site identifier (passed by Decap CMS, unused).
+    """
+    return Redirect(f"{AUTHORIZE_URL}?client_id={CLIENT_ID}&scope={scope}")
 
 
 @get("/callback", media_type="text/html")
 async def callback(code: str) -> ASGIResponse:
+    """Exchange a GitHub authorization code for an access token.
+
+    GitHub redirects here after the user approves the OAuth request.
+    The proxy exchanges the temporary *code* for a long-lived access token,
+    then returns a small HTML page that ``postMessage``'s the token back to
+    the Decap CMS window.
+
+    :param code: The authorization code from GitHub's OAuth redirect.
+    """
     async with httpx.AsyncClient() as client:
         resp = await client.post(
             TOKEN_URL,

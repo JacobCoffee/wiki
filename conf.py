@@ -6,14 +6,23 @@ import os
 from datetime import datetime
 from pathlib import Path
 
+import sys
+
+sys.path.insert(0, str(Path(__file__).parent / "oauth"))
+# Autodoc imports oauth/app.py which reads these at module level
+os.environ.setdefault("GITHUB_CLIENT_ID", "docs-placeholder")
+os.environ.setdefault("GITHUB_CLIENT_SECRET", "docs-placeholder")
+
 project = "Python Wiki"
 copyright = f"{datetime.now().year}, Python Software Foundation"
 author = "Python Community"
 
 extensions = [
     "myst_parser",
+    "sphinx.ext.autodoc",
     "sphinx_copybutton",
     "sphinx_design",
+    "sphinxcontrib.openapi",
 ]
 
 templates_path = ["_templates"]
