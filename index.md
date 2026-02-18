@@ -26,67 +26,6 @@ The collaborative knowledge base for the entire Python ecosystem.
 </div>
 ```
 
-```{raw} html
-<div class="wiki-stats">
-  <div class="stat" style="--delay: 0">
-    <span class="stat-number" data-count="4085">4,085</span>
-    <span class="stat-label">Wiki Pages</span>
-  </div>
-  <div class="stat" style="--delay: 1">
-    <span class="stat-number">3</span>
-    <span class="stat-label">Wiki Sections</span>
-  </div>
-  <div class="stat" style="--delay: 2">
-    <span class="stat-number">20+</span>
-    <span class="stat-label">Years of History</span>
-  </div>
-</div>
-```
-
----
-
-## Explore the Archive
-
-::::{grid} 1 1 3 3
-:gutter: 3
-:padding: 0
-:class-container: section-cards
-
-:::{grid-item-card} Python Wiki
-:link: python/index
-:link-type: doc
-:class-card: section-card section-card--python
-
-**3,274 pages** of community-contributed content spanning the entire Python ecosystem.
-
-+++
-Tutorials · Libraries · Events · Community
-:::
-
-:::{grid-item-card} PSF Wiki
-:link: psf/index.html
-:link-type: url
-:class-card: section-card section-card--psf
-
-**378 pages** documenting the Python Software Foundation's governance and programs.
-
-+++
-Governance · Grants · Working Groups
-:::
-
-:::{grid-item-card} Jython Wiki
-:link: jython/index.html
-:link-type: url
-:class-card: section-card section-card--jython
-
-**433 pages** covering Jython — the Python implementation for the Java Virtual Machine.
-
-+++
-JVM Integration · Java Interop · Guides
-:::
-
-::::
-
 ---
 
 ## Popular Topics
@@ -158,6 +97,69 @@ NumPy, SciPy, and data science.
 :class-card: topic-card
 
 Game development with Python.
+:::
+
+::::
+
+---
+
+```{raw} html
+<div class="wiki-stats">
+  <div class="stat" style="--delay: 0">
+    <span class="stat-number" data-count="4085">4,085</span>
+    <span class="stat-label">Wiki Pages</span>
+  </div>
+  <div class="stat" style="--delay: 1">
+    <span class="stat-number">3</span>
+    <span class="stat-label">Wiki Sections</span>
+  </div>
+  <div class="stat" style="--delay: 2">
+    <span class="stat-number">20+</span>
+    <span class="stat-label">Years of History</span>
+  </div>
+</div>
+```
+
+---
+
+## Explore the Archive
+
+::::{grid} 1 1 3 3
+:gutter: 3
+:padding: 0
+:class-container: section-cards
+
+:::{grid-item-card} Python Wiki
+:link: python/index
+:link-type: doc
+:class-card: section-card section-card--python
+
+**3,274 pages** of community-contributed content spanning the entire Python ecosystem.
+
++++
+Tutorials · Libraries · Events · Community
+:::
+
+:::{grid-item-card} PSF Wiki
+:link: psf/index.html
+:link-type: url
+:class-card: section-card section-card--psf
+
+**378 pages** documenting the Python Software Foundation's governance and programs.
+
++++
+Governance · Grants · Working Groups
+:::
+
+:::{grid-item-card} Jython Wiki
+:link: jython/index.html
+:link-type: url
+:class-card: section-card section-card--jython
+
+**433 pages** covering Jython — the Python implementation for the Java Virtual Machine.
+
++++
+JVM Integration · Java Interop · Guides
 :::
 
 ::::

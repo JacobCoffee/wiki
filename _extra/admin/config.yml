@@ -4,7 +4,7 @@ backend:
   branch: main
   use_graphql: true
   open_authoring: true
-  base_url: https://wiki-auth.python.org
+  base_url: https://api.wiki.python.org
 
 publish_mode: editorial_workflow
 search: false
