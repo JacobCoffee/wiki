@@ -14,6 +14,5 @@ getting-started/index
 internals/index
 modules/index
 newsletter/index
-people/index
 user-guide/index
 ```

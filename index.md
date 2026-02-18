@@ -130,7 +130,8 @@ Game development with Python.
 :class-container: section-cards
 
 :::{grid-item-card} Python Wiki
-:link: python/index
+:link: people/index
+python/index
 :link-type: doc
 :class-card: section-card section-card--python
 
@@ -184,6 +185,7 @@ JVM Integration · Java Interop · Guides
 :maxdepth: 1
 :hidden:
 
+people/index
 python/index
 psf/index
 jython/index

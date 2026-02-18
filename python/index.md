@@ -23,7 +23,6 @@ language/index
 libraries/index
 multimedia/index
 networking/index
-people/index
 performance/index
 platforms/index
 psf/index

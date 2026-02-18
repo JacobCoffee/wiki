@@ -10,6 +10,5 @@ about/index
 governance/index
 marketing/index
 packaging/index
-people/index
 working-groups/index
 ```
