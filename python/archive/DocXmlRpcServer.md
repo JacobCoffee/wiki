@@ -57,7 +57,7 @@ The DocXmlRpcServer is a *very* simple [XmlRpc](../networking/XmlRpc) server tha
 
 The benefit of using DocXMLRPCServer is that it automatically creates documentation for your XML-RPC server, just open a browser and head to [http://localhost:8000](http://localhost:8000) after starting the server.
 
-Writing a client to call the wait function is left as an exercise for the reader. ![:)](/wiki/europython/img/smile.png ":)")
+Writing a client to call the wait function is left as an exercise for the reader. ![:)](/wiki/europython/img/smile.png%20":)")
 
 ### Resources 
 

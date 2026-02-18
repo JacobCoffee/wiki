@@ -24,4 +24,4 @@ At [#python.web]() we warn against using mod_python. Here\'s a handful of the re
 
 8.  Using nginx as a front-end is usually a more speedy and flexible solution.
 
-9.  When using mod_python.publisher you have to keep in mind that any object globaly accessible with string representation is exposed to the web except you add an underscore in front. If not thought on ahead this kills your code in notime (so make sure to read this first ![:))](/wiki/europython/img/smile3.png ":))")
+9.  When using mod_python.publisher you have to keep in mind that any object globaly accessible with string representation is exposed to the web except you add an underscore in front. If not thought on ahead this kills your code in notime (so make sure to read this first ![:))](/wiki/europython/img/smile3.png%20":))")

@@ -544,7 +544,7 @@ This create a simple JTabbedPane example. Here is another [TabbedExample](Tabbed
 
 #### JSplitPane 
 
-This just creates a simple split pane. nothing fancy. ![:)](/wiki/modernized/img/smile.png ":)")
+This just creates a simple split pane. nothing fancy. ![:)](/wiki/modernized/img/smile.png%20":)")
 
 :::: 
 ::: 

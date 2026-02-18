@@ -45,7 +45,7 @@ CherryPy is now more than eight years old and it is has proven very fast and sta
 
 CherryPy does its best to stay out of the way between the programmer and the problem. CherryPy applications are usually very simple. It works out of the box; default behavior is sensible enough to allow use without extensive setup or customization. The embedded web server allows one to deploy web applications anywhere Python is installed. In short, CherryPy is as pythonic as it gets.
 
-Oh, and most importantly: CherryPy is fun to work with ![:-)](/wiki/europython/img/smile.png ":-)")
+Oh, and most importantly: CherryPy is fun to work with ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 ### Comments 
 

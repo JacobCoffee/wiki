@@ -30,18 +30,18 @@ Als je een presentatie in het Nederlands wilt geven, ben je net zo welkom! De me
 
 ## Vorige bijeenkomsten en verslagen 
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") **Done**: Wednesday 18 April 2012, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). See [Agenda](DjangoMeetingNL/DM/ABC120418)
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") **Done**: Wednesday 18 April 2012, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). See [Agenda](DjangoMeetingNL/DM/ABC120418)
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") **Done**: Wednesday 18 January 2012, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). See [Agenda](DjangoMeetingNL/DM/ABC120118)
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") **Done**: Wednesday 18 January 2012, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). See [Agenda](DjangoMeetingNL/DM/ABC120118)
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") **Done**: 5 oktober 2011, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). See [Agenda](DjangoMeetingNL/DM/ABC111005) and [Reinout\'s summary](http://reinout.vanrees.org/weblog/2011/10/05/django-amsterdam.html).
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") **Done**: 5 oktober 2011, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). See [Agenda](DjangoMeetingNL/DM/ABC111005) and [Reinout\'s summary](http://reinout.vanrees.org/weblog/2011/10/05/django-amsterdam.html).
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") **Done**: 13 april 2011, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). See [Agenda](DjangoMeetingNL/DM/ABC110413).
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") **Done**: 13 april 2011, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). See [Agenda](DjangoMeetingNL/DM/ABC110413).
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") **Done**: 12 january 2011, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). See [Agenda](DjangoMeetingNL/DM/ABC120111).
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") **Done**: 12 january 2011, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). See [Agenda](DjangoMeetingNL/DM/ABC120111).
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") **Done**: 29 september 2010, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). See [Reinout\'s summaries](http://reinout.vanrees.org/weblog/2010/09/29/dutch-django-meeting-amsterdam.html). See [Agenda](DjangoMeetingNL/DM/ABC290910)
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") **Done**: 29 september 2010, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). See [Reinout\'s summaries](http://reinout.vanrees.org/weblog/2010/09/29/dutch-django-meeting-amsterdam.html). See [Agenda](DjangoMeetingNL/DM/ABC290910)
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") **Done**: 9 june 2010, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). [Reinout\'s summary](http://reinout.vanrees.org/weblog/2010/06/10/django-amsterdam.html). See: [Agenda](DjangoMeetingNL/DM/ABC090710)
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") **Done**: 9 june 2010, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). [Reinout\'s summary](http://reinout.vanrees.org/weblog/2010/06/10/django-amsterdam.html). See: [Agenda](DjangoMeetingNL/DM/ABC090710)
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") **Done**: 17 february 2010, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). See: [Agenda](DjangoMeetingNL/DM/ABC170210) ([Foto\'s](http://www.flickr.com/photos/---------------------/sets/72157623471855906/))
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") **Done**: 17 february 2010, Amsterdam, Django Meeting @ [ABC tree house](http://www.treehouse.abc.nl/index.php?page=location). See: [Agenda](DjangoMeetingNL/DM/ABC170210) ([Foto\'s](http://www.flickr.com/photos/---------------------/sets/72157623471855906/))

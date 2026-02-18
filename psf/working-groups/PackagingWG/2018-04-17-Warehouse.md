@@ -68,7 +68,7 @@ RESOLVED: Sumana to work on this today TODO
 
 - update last released timestamp to visually connect it more to the latest version box [https://github.com/pypa/warehouse/pull/3481](https://github.com/pypa/warehouse/pull/3481)
 
-Resolution: Nicole to look at all these, this week ![:)](/wiki/europython/img/smile.png ":)") TODO
+Resolution: Nicole to look at all these, this week ![:)](/wiki/europython/img/smile.png%20":)") TODO
 
 ### Bug triage 
 

@@ -69,7 +69,7 @@ For now, people can put their emails up here (be sure to obscure them from the s
 
 On the issue of [MailingList](./MailingList.html) and \~maybe\~ [WebSpace](./WebSpace.html). My web page is a celebration of lack of content and my mail server mostly idling except for being used as a IM server. In the interest of thumbing our collective noses at yahoo, what would we want the mailing list to be called? \-- [DavidBroadwell](DavidBroadwell)
 
-I would be willing to setup a \"community site\" using [drupal](http://www.drupal.org) or [plone](http://www.plone.org) on my server. I would lean towards drupal since it is so easy, but then it is based on PHP and this is a python group ![:-)](/wiki/europython/img/smile.png ":-)") Thoughts? \-- [ChristianWyglendowski](ChristianWyglendowski)
+I would be willing to setup a \"community site\" using [drupal](http://www.drupal.org) or [plone](http://www.plone.org) on my server. I would lean towards drupal since it is so easy, but then it is based on PHP and this is a python group ![:-)](/wiki/europython/img/smile.png%20":-)") Thoughts? \-- [ChristianWyglendowski](ChristianWyglendowski)
 
 ### Other Issues 
 

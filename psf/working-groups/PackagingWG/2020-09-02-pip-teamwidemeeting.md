@@ -33,7 +33,7 @@ Agenda:
 - Invoices
   - Please send Aug invoices
 
-- Nicole: We need an email address for users to send feedback about the docs to. Can \@ewdurbin set up a \"[docs_feedback@pypa.io](mailto:docs_feedback@pypa.io)\"? Once done, can we please share the email on [https://github.com/pypa/pip/issues/8783](https://github.com/pypa/pip/issues/8783)? Please thank you ![:)](/wiki/europython/img/smile.png ":)")
+- Nicole: We need an email address for users to send feedback about the docs to. Can \@ewdurbin set up a \"[docs_feedback@pypa.io](mailto:docs_feedback@pypa.io)\"? Once done, can we please share the email on [https://github.com/pypa/pip/issues/8783](https://github.com/pypa/pip/issues/8783)? Please thank you ![:)](/wiki/europython/img/smile.png%20":)")
 
   - Alt: [pip-ux+docs@pypa.io](mailto:pip-ux+docs@pypa.io)
 

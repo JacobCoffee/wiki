@@ -25,7 +25,7 @@ Python talks to databases through the DB-API, a standard interface defined in PE
 - [PostgreSQL](PostgreSQL) -- PostgreSQL interface information
 - [MySQL](MySQL) -- MySQL interface information
 - [Oracle](Oracle) -- Oracle database interface information
-- [SQL Server](SQL Server) -- Microsoft SQL Server connectivity
+- [SQL Server](SQL%20Server) -- Microsoft SQL Server connectivity
 - [ADO](ADO) -- Microsoft's ActiveX Data Objects, a high-level database interface on Windows
 
 ## ORMs and Tools

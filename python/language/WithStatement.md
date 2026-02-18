@@ -34,7 +34,7 @@ or
 
 \-- *Eric Nieuwland*
 
-- I\'d be very surprised if an object supporting `__enter__` and `__exit__` would say \"do not use this in a with-statement.\" ![:-)](/wiki/europython/img/smile.png ":-)") What makes sense, however, is to distinguish between objects that can be used at most once in a with-statement (like files) and objects that can be used over and over (like locks). [GvR](../archive/GvR)
+- I\'d be very surprised if an object supporting `__enter__` and `__exit__` would say \"do not use this in a with-statement.\" ![:-)](/wiki/europython/img/smile.png%20":-)") What makes sense, however, is to distinguish between objects that can be used at most once in a with-statement (like files) and objects that can be used over and over (like locks). [GvR](../archive/GvR)
 
 The solution to this problem recommended in PEP 346 is to throw an explicit exception in `__enter__` when a non-reusable template is reused. PEP 343 uses this approach for the [generator-based templates](http://3d2f.com/tags/generator/based/templates/download/), and I would expect an `__enter__` method on file objects to do the same thing. \-- *Alyssa Coghlan*
 
@@ -46,7 +46,7 @@ next_throw() is easier to grep with next(). *Niki Spahiev*
 
 I don\'t want to teach beginners why python uses \'raise\' sometimes and \'throw\' other times. I predict: they\'re going to be coming from other languages, they\'re going to accidentally use \'throw\' as the statement, and they\'re going to get mad at \"all of python\'s weird quirks, like how it has both raise and throw\". *Drew Perttula*
 
-- I\'m not so worried. Your tolerance for language quirks seems rather low. ![:-)](/wiki/europython/img/smile.png ":-)") [GvR](../archive/GvR)
+- I\'m not so worried. Your tolerance for language quirks seems rather low. ![:-)](/wiki/europython/img/smile.png%20":-)") [GvR](../archive/GvR)
 
   Raymond Hettinger added on python-dev (copied here by [GvR](../archive/GvR)):
 
@@ -63,7 +63,7 @@ A few immediate comments:
 1.  Is g.throw(\...) supposed to let you raise exceptions in other threads (by having g catch the exception you throw it, then raise its own exception for its caller)? The PEP should be clear about this. It would be great if the answer is yes and if that\'s the case, objects like queues and sockets should be turned into generators to permit cross-thread signalling using generator exceptions. But I had the impression that this would be difficult in CPython.
     - This is not the intention at all. The PEP specifically speaks of \"where the generator g is currently suspended\". By definition this implies that it is not running in another thread. You must have had threads on your mind too much
 
-      recently to even think of this. ![:-)](/wiki/europython/img/smile.png ":-)") [GvR](../archive/GvR)
+      recently to even think of this. ![:-)](/wiki/europython/img/smile.png%20":-)") [GvR](../archive/GvR)
 
       - I will read it again, but I don\'t remember seeing anything that made me think the generator couldn\'t be suspended in another thread. phr
         - Generators aren\'t tied to a thread, but they can only be executing in one thread at a time. When a generator yields in one thread, another thread can resume it with next() or throw() \-- but then the resumed generator executes in the thread that called next() or throw(). There\'s nothing new to this \-- it\'s been like this
@@ -93,7 +93,7 @@ I like the idea and the \"with .. as ..\" syntax, where readable keywords are us
 
 Patrick Ellis
 
-- Well, you have a choice not to use generators. ![:-)](/wiki/europython/img/smile.png ":-)") To many who participated in the discussion on python-dev, using generators to write templates is an essential part. The more state you carry over from `__enter__` to `__exit__` the more you will appreciate the generator. [GvR](../archive/GvR)
+- Well, you have a choice not to use generators. ![:-)](/wiki/europython/img/smile.png%20":-)") To many who participated in the discussion on python-dev, using generators to write templates is an essential part. The more state you carry over from `__enter__` to `__exit__` the more you will appreciate the generator. [GvR](../archive/GvR)
 
 ------------------------------------------------------------------------
 
@@ -144,7 +144,7 @@ Adding features is always a problem, but adding them gradually just makes it tha
 
   [GvR](../archive/GvR)
 
-  - So you don\'t think we should detect `with open(X)` as a special language construct?!? Sorry, just trying to think about how Perl would approach this\... ![;)](/wiki/europython/img/smile4.png ";)") I\'m certainly not set on any particular example, I haven\'t
+  - So you don\'t think we should detect `with open(X)` as a special language construct?!? Sorry, just trying to think about how Perl would approach this\... ![;)](/wiki/europython/img/smile4.png%20";)") I\'m certainly not set on any particular example, I haven\'t
 
 I would prefer that `__enter__` and `__exit__` be added to `Lock` and `RLock` objects, since it\'s really, REALLY obvious what `with lock:` does. Hey, and nice work on unifying the synchronize keyword, database transactions, etc into the (consistent and intuitive) PEP 343. I see why [IanBicking](../people/IanBicking) thinks PEP 342 and 343 are related: they both do black magic with generators, look weird at first, but end up making a lot of sense and looking Pythonic. I didn\'t think coroutines could be expressed so cleanly in Python, either. It\'s impressive, really. \-- [ConnellyBarnes](./ConnellyBarnes.html)
 

@@ -87,15 +87,15 @@ To get it to a usable state, we\'ll have to work some more on the code and the t
 
 Please run reviews of the existing app and post them on the review page:
 
-- [../Jobs App Reviews](Jobs App Reviews)
+- [../Jobs App Reviews](Jobs%20App%20Reviews)
 
 We collect user stories on this page:
 
-- [../Jobs App User Stories](Jobs App User Stories)
+- [../Jobs App User Stories](Jobs%20App%20User%20Stories)
 
 These will then be distilled into feature requests / implementation phases on this page:
 
-- [../Jobs App Feature Requests](Jobs App Feature Requests)
+- [../Jobs App Feature Requests](Jobs%20App%20Feature%20Requests)
 
 #### Job Model Reference 
 

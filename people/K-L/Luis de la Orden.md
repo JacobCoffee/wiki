@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## LuisdelaOrden 
 
-Luis de la Orden Mendoza ![B)](/wiki/europython/img/smile2.png "B)")
+Luis de la Orden Mendoza ![B)](/wiki/europython/img/smile2.png%20"B)")
 
 From Spain.
 

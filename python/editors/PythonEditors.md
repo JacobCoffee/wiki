@@ -10,7 +10,7 @@ If you have anything to contribute \-- e.g. configurations for editors, new edit
 
 There\'s an [EditorConfigurationHowto](../archive/EditorConfigurationHowto) available.
 
-![(!)](/wiki/europython/img/idea.png "(!)") Please keep wiki links as wiki links, use external links only if there is no existing page for the editor. Please add pages like [BoaConstructor](../people/BoaConstructor) also to page [IntegratedDevelopmentEnvironments](IntegratedDevelopmentEnvironments).
+![(!)](/wiki/europython/img/idea.png%20"(!)") Please keep wiki links as wiki links, use external links only if there is no existing page for the editor. Please add pages like [BoaConstructor](../people/BoaConstructor) also to page [IntegratedDevelopmentEnvironments](IntegratedDevelopmentEnvironments).
 
 ### Multiplatform Editors 
 
@@ -84,7 +84,7 @@ There\'s an [EditorConfigurationHowto](../archive/EditorConfigurationHowto) avai
 ::: {}
   -------------------------------------------------------- -------------- ---------------------------------------------------------------------------- ------------------------------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Name**                                                 **Platform**   **[FreeSoftware](../people/FreeSoftware)**?                                     **[ZeroPrice](../people/ZeroPrice)**?   **Notes**
-  [Beaver](http://beaver-editor.sourceforge.net/)   Unix + GTK     ![(./)](/wiki/europython/img/checkmark.png "(./)")   X                                    Supports debugging Python, Tcl, Ruby, Perl, Lua scripts. Code intelligence (Code completion, folding, auto-complete, code snippets, syntax highlighting matching tags, show keyword or variable information when mouse over\...). Keyword help and improved script document. Integrated commonly-used scripting libraries (Tk, wxPython, Pygame, Pmw, Numeric\...). Supports compiling python scripts to Windows EXE files.
+  [Beaver](http://beaver-editor.sourceforge.net/)   Unix + GTK     ![(./)](/wiki/europython/img/checkmark.png%20"(./)")   X                                    Supports debugging Python, Tcl, Ruby, Perl, Lua scripts. Code intelligence (Code completion, folding, auto-complete, code snippets, syntax highlighting matching tags, show keyword or variable information when mouse over\...). Keyword help and improved script document. Integrated commonly-used scripting libraries (Tk, wxPython, Pygame, Pmw, Numeric\...). Supports compiling python scripts to Windows EXE files.
   -------------------------------------------------------- -------------- ---------------------------------------------------------------------------- ------------------------------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 
@@ -196,7 +196,7 @@ There\'s an [EditorConfigurationHowto](../archive/EditorConfigurationHowto) avai
   [Python 3.7 for iOS](https://github.com/holzschu/python3_ios)                                    iOS            A patch of Python-3.7.1, designed to make it compile on iOS. Python becomes a framework, and your programs call python_main(argc, argv) to execute python scripts.
   [PyPad](http://users.on.net/~jon.dowdall/pypad/)                                                  iOS            IDE for iPad
   [Pythonista](https://apps.apple.com/us/app/pythonista-3/id1085978097)                            iOS            IDE for iOS with native graphic and sound support through high-level API; games and interactive demos included
-  [Python Box](https://itunes.apple.com/us/app/python-box/id1355983473?mt=8)                       iOS            IDE for iPhone and iPad with Python 3 support. Custom library is supported. See [Python Box](../archive/Python Box) page for details.
+  [Python Box](https://itunes.apple.com/us/app/python-box/id1355983473?mt=8)                       iOS            IDE for iPhone and iPad with Python 3 support. Custom library is supported. See [Python Box](../archive/Python%20Box) page for details.
   -------------------------------------------------------------------------------------------------------- -------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
 

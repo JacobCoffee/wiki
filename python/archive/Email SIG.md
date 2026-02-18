@@ -22,21 +22,21 @@ R. David Murray applied for a grant from the PSF to work on implementing the pro
 
 ### Resources 
 
-- [Relevant RFCs](Email SIG/RelevantRFCs)
+- [Relevant RFCs](Email%20SIG/RelevantRFCs)
 
-- [Glossary](Email SIG/Glossary)
+- [Glossary](Email%20SIG/Glossary)
 
 - [Open Issue Summary](http://www.bitdance.com/test/projects/email6/issues/)
 
 ### Initiatives and Proposals 
 
-- [Design Overview Proposal](Email SIG/DesignOverviewProposal)
+- [Design Overview Proposal](Email%20SIG/DesignOverviewProposal)
 
-- [Use Cases](../people/Email SIG/UseCases)
+- [Use Cases](../people/Email%20SIG/UseCases)
 
-- [stdlib clients](Email SIG/stdlibCLients)
+- [stdlib clients](Email%20SIG/stdlibCLients)
 
-- [More Detailed Design Thoughts](../people/Email SIG/DesignThoughts)
+- [More Detailed Design Thoughts](../people/Email%20SIG/DesignThoughts)
 
 - [PSF Grant Proposal](http://www.bitdance.com/test/projects/email6/psfproposal/)
 

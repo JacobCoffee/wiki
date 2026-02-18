@@ -26,7 +26,7 @@ The following pages were used to plan and report on the sprint:
 
 - [/Tourism](NeedForSpeed/Tourism): You\'re in Iceland \-- what do you do?
 
-- [/Travel Itineraries](NeedForSpeed/Travel Itineraries): At long last\.....
+- [/Travel Itineraries](NeedForSpeed/Travel%20Itineraries): At long last\.....
 
 - [/Successes](NeedForSpeed/Successes): Changes that appear to have achieved a measurable speedup
 

@@ -22,7 +22,7 @@ At the moment, I\'m too ecstatic about this one to have any criticism in mind. I
 
 more wireless bandwidth, more vendors,
 
-See if you can get Guido to dress up in the BDFL costume from Monty Python ![;-)](/wiki/europython/img/smile4.png ";-)")
+See if you can get Guido to dress up in the BDFL costume from Monty Python ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
 Make sure hotel guests are not relocated. Better snacks. More tutorial days/options. Free [WiFi](./WiFi.html) in hotel room
 
@@ -72,7 +72,7 @@ Consider organizing the talks into categories (or maybe even tracks in the sched
 
 Begin call for papers much sooner, specifically targeting more technical papers, in-depth talks that give code demonstrations.
 
-Overall, the organization of the event exceeded my expectations. 1. Eliminate the \'How Python is helping to change the XYZ industry\' talks. These are usually the most boring. On the rare occasions they might have something interesting to offer, they can\'t release project source. OTOH, these talks help narrow down my personal selection process. ![;-)](/wiki/europython/img/smile4.png ";-)") 2. Maybe have a separate internet channel for the speaker\'s computers. Or inform them not to expect a reliable connection.
+Overall, the organization of the event exceeded my expectations. 1. Eliminate the \'How Python is helping to change the XYZ industry\' talks. These are usually the most boring. On the rare occasions they might have something interesting to offer, they can\'t release project source. OTOH, these talks help narrow down my personal selection process. ![;-)](/wiki/europython/img/smile4.png%20";-)") 2. Maybe have a separate internet channel for the speaker\'s computers. Or inform them not to expect a reliable connection.
 
 We need more room!! A great problem to have. There were times when people were eating lunch on the floor. It would also be nice to have easier access to the schedule; perhaps either projected somewhere or on overhead monitors.
 
@@ -134,7 +134,7 @@ Better hotel.
 
 Personally I\'d prefer more focus on uses for Python other than web apps and database frontends. There were only a few talks having to do with scientific computing with python, which is what I use it for.
 
-I don\'t have much to give here. This was my first [PyCon](../../PyCon) and I absolutely loved every second of it. Everything worked out perfectly. If the conference was one day longer with talks that would have been very cool! Well, the Internet connection worked very well for me. I never had a dropped signal. The throughput wasn\'t great, but for the number of computers it was handling I didn\'t mind one bit. But improving the amount of bandwidth would be nice, but only if you are able too. ![:)](/wiki/europython/img/smile.png ":)")
+I don\'t have much to give here. This was my first [PyCon](../../PyCon) and I absolutely loved every second of it. Everything worked out perfectly. If the conference was one day longer with talks that would have been very cool! Well, the Internet connection worked very well for me. I never had a dropped signal. The throughput wasn\'t great, but for the number of computers it was handling I didn\'t mind one bit. But improving the amount of bandwidth would be nice, but only if you are able too. ![:)](/wiki/europython/img/smile.png%20":)")
 
 Please find a venue w. free wifi in the rooms. Perhaps find a way to record video directly from presenters\' machines, instead of having to videotape dimly lit projection screens?
 
@@ -156,7 +156,7 @@ The food was not very good this year. The most important thing would be to start
 - give a longer dinner break (1.5 hours?) because it was difficult to get back to the evening activities on time
 - have a schedule application like the main one for the bofs and other such activities
 
-The conf. net access was great. ![:)](/wiki/europython/img/smile.png ":)") It\'d be nice to find a hotel that had access in the rooms too. I\'d also to be closer to the airports.
+The conf. net access was great. ![:)](/wiki/europython/img/smile.png%20":)") It\'d be nice to find a hotel that had access in the rooms too. I\'d also to be closer to the airports.
 
 Better wireless support.
 
@@ -180,7 +180,7 @@ a\) avoid refuse(food) cluttering-up tables b) discourage people from entering s
 
 Session chairs for all sessions and videos of all talks would be good.
 
-The snacks ran out very quickly. If you ran to the restroom, you went hungry. Provide a restaurant guide like [http://www.schneier.com/restaurants-rsa2006.pdf](http://www.schneier.com/restaurants-rsa2006.pdf) \... ok, it doesn\'t have to be /that/ good, but a basic guide would be really nice. (Hmm\... sell ad space? Oooo\... you should get tummy.com to sponsor it! ![:)](/wiki/europython/img/smile.png ":)") ) Assuming solid wireless, a softcopy would be enough. The events schedule page looked really nice, but was hard to use in Konqueror; the detail boxes disappear when you try to access the links in them.
+The snacks ran out very quickly. If you ran to the restroom, you went hungry. Provide a restaurant guide like [http://www.schneier.com/restaurants-rsa2006.pdf](http://www.schneier.com/restaurants-rsa2006.pdf) \... ok, it doesn\'t have to be /that/ good, but a basic guide would be really nice. (Hmm\... sell ad space? Oooo\... you should get tummy.com to sponsor it! ![:)](/wiki/europython/img/smile.png%20":)") ) Assuming solid wireless, a softcopy would be enough. The events schedule page looked really nice, but was hard to use in Konqueror; the detail boxes disappear when you try to access the links in them.
 
 \- PROVIDE BREAKFAST!!!!!!!!!!!! - Choose a location that does not have snow and where temperatures are significantly above freezing. - Choose a venue that has adequate space. This year was too crowded.
 
@@ -330,7 +330,7 @@ Great Job!
 
 it was fun. thanks
 
-Lots of fun ![:)](/wiki/europython/img/smile.png ":)")
+Lots of fun ![:)](/wiki/europython/img/smile.png%20":)")
 
 Organizers were magnificent, you all deserve medals.
 

@@ -65,7 +65,7 @@ Ideally, I would like to see the \"emailing links to ballots\" approach go away,
 
 [https://mail.python.org/pipermail/elections-wg/2015-May/000060.html](https://mail.python.org/pipermail/elections-wg/2015-May/000060.html)
 
-I found the mailing list email finally ![:)](/wiki/europython/img/smile.png ":)")
+I found the mailing list email finally ![:)](/wiki/europython/img/smile.png%20":)")
 
 Working group: please see my charter request below.
 

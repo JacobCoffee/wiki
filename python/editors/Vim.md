@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## Vi Improved 
 
-VI Improved (Vim) is an improved version of the editor \"vi\", one of the standard text editors on UNIX systems. It has all the features you\'ll ever need from an editor, and probably three times that many more that you\'ll never use ![;-)](/wiki/europython/img/smile4.png ";-)") The newer versions also include a \'vimdiff\' mode that you can use to diff and merge file(s). Oh, I didn\'t mention it\'s also scriptable in Python, and there\'s a graphical version: GVIM. Get it from [http://www.vim.org/](http://www.vim.org/).
+VI Improved (Vim) is an improved version of the editor \"vi\", one of the standard text editors on UNIX systems. It has all the features you\'ll ever need from an editor, and probably three times that many more that you\'ll never use ![;-)](/wiki/europython/img/smile4.png%20";-)") The newer versions also include a \'vimdiff\' mode that you can use to diff and merge file(s). Oh, I didn\'t mention it\'s also scriptable in Python, and there\'s a graphical version: GVIM. Get it from [http://www.vim.org/](http://www.vim.org/).
 
 Vim is also available in your favourite OS. Since version 6.0 it has folding. Folding makes your life easy when you have some long files.
 

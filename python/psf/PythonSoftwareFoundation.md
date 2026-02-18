@@ -54,7 +54,7 @@ The Python job board was run by single volunteers for many years. Since the job 
 
 Project Leaders: [MarcAndreLemburg](../archive/MarcAndreLemburg) for the time being
 
-Wiki page: [PSF Python Job Board](PSF Python Job Board)
+Wiki page: [PSF Python Job Board](PSF%20Python%20Job%20Board)
 
 #### 2011: PyPI Cloud Mirroring Project 
 

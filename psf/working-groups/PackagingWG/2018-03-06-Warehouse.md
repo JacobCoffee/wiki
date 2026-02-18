@@ -38,7 +38,7 @@ Nicole
 
 - need to respond to issues where she has been pinged
 
-- unavailable some of last week of March, incl Monday March 26 - (25th-29th to be precise ![:)](/wiki/europython/img/smile.png ":)") )
+- unavailable some of last week of March, incl Monday March 26 - (25th-29th to be precise ![:)](/wiki/europython/img/smile.png%20":)") )
 
 Dustin
 
@@ -151,7 +151,7 @@ Frontend tests per [https://github.com/pypa/warehouse/issues/2154](https://githu
 
 - Nicole has access to [BrowserStack](./BrowserStack.html) - testing is easy - the problems that we find via it are the things that take time
 
-- Analytics from last month (Feb 2018): Chrome 67.76%, Firefox 16.92%, Safari 7.38%, Internet Explorer 2.79%. Site has been built using Chrome - I don\'t foresee too many problems ![:)](/wiki/europython/img/smile.png ":)")
+- Analytics from last month (Feb 2018): Chrome 67.76%, Firefox 16.92%, Safari 7.38%, Internet Explorer 2.79%. Site has been built using Chrome - I don\'t foresee too many problems ![:)](/wiki/europython/img/smile.png%20":)")
 
 - Testing the Stimulus controller(s) seems more feasible
 

@@ -4,7 +4,7 @@ The PSF has played a direct role in funding and coordinating improvements to Pyt
 
 ## Funding & Proposals
 
-- [Fundable Packaging Improvements](Fundable Packaging Improvements) -- Curated list of well-scoped packaging projects that could be funded, maintained on GitHub
+- [Fundable Packaging Improvements](Fundable%20Packaging%20Improvements) -- Curated list of well-scoped packaging projects that could be funded, maintained on GitHub
 - [Pip 2020 Donor-Funded Roadmap](Pip2020DonorFundedRoadmap) -- The CZI- and Mozilla-funded project to finish pip's dependency resolver and improve its UX
 
 ## PyPI / Warehouse

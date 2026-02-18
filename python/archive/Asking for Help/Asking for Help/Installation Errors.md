@@ -19,7 +19,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 - The only way to stop the rollback was to use the Task Manager to \'End Task\' on the install. This has allowed me to keep Python on my system. I haven\'t had any perceivable ill effects from having done this and as of yet the Python install seems to be fine and works properly. I have posted this for anyone else that has run into this same problem and has been unable to solve it. Also if there is another way to fix the problem properly rather than ripping the installers plug out of the wall so to speak then please let me know. Thanks and I hope this helps rather than hinders. Have a great day
 
 ::: note
-When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](../../archive/Asking for Help) page.
+When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](../../archive/Asking%20for%20Help) page.
 :::
 
 ------------------------------------------------------------------------

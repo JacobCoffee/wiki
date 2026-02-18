@@ -10,7 +10,7 @@ Here we develop some ideas for enhancements or changes to the beta.python.org si
 
 1\. Create a visual distinction (diff color/size/etc.) between the \"site title\" (The Official Python Programming Language Website) and the first heading (What is Python?). - ToddG
 
-2\. Any chance of moving the \"Using Python for\...\" box farther up the page? I think that will be a high-traffic link\[s\], and not just cause I mentioned it a year or two ago ![;-)](/wiki/europython/img/smile4.png ";-)") . - ToddG
+2\. Any chance of moving the \"Using Python for\...\" box farther up the page? I think that will be a high-traffic link\[s\], and not just cause I mentioned it a year or two ago ![;-)](/wiki/europython/img/smile4.png%20";-)") . - ToddG
 
 3\. No specific suggestion, just a pointer for some ideas: [http://www.webdesignfromscratch.com/current-style.cfm](http://www.webdesignfromscratch.com/current-style.cfm) - Shalabh
 

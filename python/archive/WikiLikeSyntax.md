@@ -218,7 +218,7 @@ Now that we\'ve grouped our text, we can huck our blank lines! They\'ve served t
 
 ## Render HTML 
 
-Now we can output some nice HTML. ![:)](/wiki/europython/img/smile.png ":)")
+Now we can output some nice HTML. ![:)](/wiki/europython/img/smile.png%20":)")
 
 :::: 
 ::: 
@@ -381,7 +381,7 @@ Another alternative is to, in your token, keep track of the original line. Then 
 
 ## Discussion 
 
-This is how I figured out how to do these things. If you know of better ways, please- by all means, list them here, point to them, or- probably best, just edit this text in-place. ![:)](/wiki/europython/img/smile.png ":)")
+This is how I figured out how to do these things. If you know of better ways, please- by all means, list them here, point to them, or- probably best, just edit this text in-place. ![:)](/wiki/europython/img/smile.png%20":)")
 
 \-- [LionKimbro](../people/LionKimbro) 2005-05-06 20:03:23
 
@@ -422,7 +422,7 @@ The class definition may seem more complicated, but adding a new type of line on
         ('LIST_ITEM', r"^ \*\s*(.*)$"),
         ('TABLE_ROW', r"^\|\|(.*)\|\|$"),
 
-Now you just need to add some code to text_to_paragraph to handle the new types of lines; or even better, we could fix things so that runs of one or more XXX_YYY tokens get turned into a single XXX token containing multiple YYY tokens. I\'ll leave that last bit as an exercise for the reader. ![;-)](/wiki/europython/img/smile4.png ";-)")
+Now you just need to add some code to text_to_paragraph to handle the new types of lines; or even better, we could fix things so that runs of one or more XXX_YYY tokens get turned into a single XXX token containing multiple YYY tokens. I\'ll leave that last bit as an exercise for the reader. ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
 \-- [SamDenton3](./SamDenton3.html)
 

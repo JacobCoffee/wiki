@@ -15,7 +15,7 @@ Everything here is about testing Python code -- the frameworks available, the ph
 
 ## Specialized Topics
 
-- [Testing Infrastructure](Testing Infrastructure) -- what testing infrastructure is and how it supports your workflow
+- [Testing Infrastructure](Testing%20Infrastructure) -- what testing infrastructure is and how it supports your workflow
 - [Testing CGI Scripts](TestingCgiScripts) -- approaches to testing CGI scripts outside of a web server
 
 ```{toctree}

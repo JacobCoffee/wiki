@@ -179,4 +179,4 @@ If you are getting error **error C1076: compiler limit - internal heap limit rea
 
 For the above I compile and install boost using bjam then you set the appropriate paths to your boost header and libs It works on linux and windows with mingw
 
-That way u have nice cross platform build ![:)](/wiki/europython/img/smile.png ":)")
+That way u have nice cross platform build ![:)](/wiki/europython/img/smile.png%20":)")

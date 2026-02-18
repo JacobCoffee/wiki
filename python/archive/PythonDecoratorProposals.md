@@ -447,7 +447,7 @@ Advantages/disadvantages of .decorators:
 
 - \+ No extra cut-and-paste issues, no extra indentation level.
 
-- \+ No smileys. (Does that get a ![:)](/wiki/europython/img/smile.png ":)") or a \]: ?)
+- \+ No smileys. (Does that get a ![:)](/wiki/europython/img/smile.png%20":)") or a \]: ?)
 
 - \+ Will not be silently ignored (doesn\'t use currently legal syntax)
 

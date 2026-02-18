@@ -9,8 +9,8 @@ This section covers the foundation-level basics: what the PSF stands for, how it
 
 ## Working Group Resources
 
-- [Example PSF Workgroup Charter](Example PSF Workgroup Charter) -- Template charter for new working groups, with required sections and formatting
-- [Example PSF Workgroup Page](Example PSF Workgroup Page) -- Step-by-step instructions for creating a new working group wiki page
+- [Example PSF Workgroup Charter](Example%20PSF%20Workgroup%20Charter) -- Template charter for new working groups, with required sections and formatting
+- [Example PSF Workgroup Page](Example%20PSF%20Workgroup%20Page) -- Step-by-step instructions for creating a new working group wiki page
 
 ## Wiki & Reference
 

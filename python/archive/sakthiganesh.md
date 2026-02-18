@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Email: `<skth.gnsh@gmail.com>`
 
-Hi! All \... I\'m happy to say that am learning python. Python is a beautiful language(so far) and am looking to build some small/simple projects. Can anyone join me or give any tips to get started..? ![;)](/wiki/europython/img/smile4.png ";)")
+Hi! All \... I\'m happy to say that am learning python. Python is a beautiful language(so far) and am looking to build some small/simple projects. Can anyone join me or give any tips to get started..? ![;)](/wiki/europython/img/smile4.png%20";)")
 
 ------------------------------------------------------------------------
 

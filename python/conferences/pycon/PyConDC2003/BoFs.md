@@ -28,7 +28,7 @@ At least one person has suggested a complete Jython track, but there has been li
 
 Python scripting with Excel. I understand that Python provides substantial benefits over VBA. (My focus is financial and investment analysis.)
 
-[Alan McIntyre](mailto:alan@norfolkgraphics.com) March 25: I have some interest in this; we have prototyped some engineering analysis tools in Excel/VBA, and it would be nice if our future prototyping could be done with Python instead of VBA (assuming I can convince the engineers to learn to use Python). ![:)](/wiki/europython/img/smile.png ":)")
+[Alan McIntyre](mailto:alan@norfolkgraphics.com) March 25: I have some interest in this; we have prototyped some engineering analysis tools in Excel/VBA, and it would be nice if our future prototyping could be done with Python instead of VBA (assuming I can convince the engineers to learn to use Python). ![:)](/wiki/europython/img/smile.png%20":)")
 
 ## Packaging software for End Users 
 

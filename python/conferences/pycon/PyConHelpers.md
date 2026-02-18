@@ -26,7 +26,7 @@ Well, before [PyCon](PyCon):
 
 - You could publicize the conference anywhere and everywhere relevant (See the [PyConPromotion](PyConPromotion) page)
 
-- You could move to DC ![:-)](/wiki/europython/img/smile.png ":-)")
+- You could move to DC ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 - You could think about all the administrivia that\'s need to run a friendly and professional conference and produce checklists, liaise with suppliers, suggest sources
 

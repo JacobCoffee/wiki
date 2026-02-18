@@ -38,7 +38,7 @@ There are many things we could work on, including:
 
 - Conflict resolution redesign. Possiblities: make it optional, make it pluggable, use a registry of class-\>resolution code instead of methods, get it off the ZEO server?
 
-Note that to be able to make code contributions, you must be a Zope contributor: [http://dev.zope.org/Subversion](http://dev.zope.org/Subversion) Note that you don\'t have to be a Zope user to be a Zope contributor. ![:)](/wiki/europython/img/smile.png ":)") You don\'t have to be a Zope contributor either to participate in working out (and writing up) proposals for things ZODB could/should be doing better.
+Note that to be able to make code contributions, you must be a Zope contributor: [http://dev.zope.org/Subversion](http://dev.zope.org/Subversion) Note that you don\'t have to be a Zope user to be a Zope contributor. ![:)](/wiki/europython/img/smile.png%20":)") You don\'t have to be a Zope contributor either to participate in working out (and writing up) proposals for things ZODB could/should be doing better.
 
 If you plan to participate, please put your name below, and, if you won\'t be there all 4 days, indicate which days you plan to be there.
 
@@ -70,7 +70,7 @@ Other minor things:
   \- Come up with a Wiki page somewhere that details how to check stuff into ZODB without
   - making Tim\'s life a nightmare. But Tim thinks this is
 
-    pretty hopeless ![;-)](/wiki/europython/img/smile4.png ";-)")
+    pretty hopeless ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
   \- Allow ZEO clients to query the active ZEO server for its system clock value
   - (useful for synchronization).

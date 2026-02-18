@@ -10,6 +10,6 @@ In 2006, [Jeffrey](http://taupro.com) accepted a full-time position from the [PS
 
 Jeff is also the organizer of the [Dallas Ft. Worth Pythoneers](http://www.dfwpython.org), the Linux-SIG leader, former president and webmaster for the [DFW Unix Users Group](http://www.dfwuug.org) and organizer of the [Xanadu Project User Group](http://www.sunless-sea.net).
 
-When not working for the [PSF](../PSF) he is self-employed as a consultant and an active developer and promoter of Zope 2, Zope 3, Twisted and the coming AI Singularity. ![;-)](/wiki/europython/img/smile4.png ";-)")
+When not working for the [PSF](../PSF) he is self-employed as a consultant and an active developer and promoter of Zope 2, Zope 3, Twisted and the coming AI Singularity. ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
 [CategoryHomepage](CategoryHomepage)

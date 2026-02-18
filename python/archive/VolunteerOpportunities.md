@@ -259,13 +259,13 @@ We\'ve spent the last 2 years working hard on this idea, and want to get it up a
 
 I don\'t know if you know it, but there is an very good conference planning software written in Ruby on Rails, called \"Pentabarf\" - [http://www.pentabarf.org/Main_Page](http://www.pentabarf.org/Main_Page) - and I really would like to see it if we have something like that in python, too.
 
-Its not a \"NIH\"-thing, but I am more into Python than into Ruby, as the most of you. And a second reason for starting such a project is especially the planning of python-focused confernces. There it would be a little be embarassing, if someone plans a conference in a RoR conference planning web application or - much worser ![:-)](/wiki/europython/img/smile.png ":-)") - in PHP.
+Its not a \"NIH\"-thing, but I am more into Python than into Ruby, as the most of you. And a second reason for starting such a project is especially the planning of python-focused confernces. There it would be a little be embarassing, if someone plans a conference in a RoR conference planning web application or - much worser ![:-)](/wiki/europython/img/smile.png%20":-)") - in PHP.
 
 And using a half-baked Plone or Zope application wouldnt do the job right, also not the using of a wiki like [MoinMoin](MoinMoin), it isnt the right tool for such a job.
 
 I didn\'t start the project yet, but if there are enough people for a good team I would start and host it.
 
-Ruby has a good web framework doing this, Ruby on Rails. But we got two! ![:)](/wiki/europython/img/smile.png ":)")
+Ruby has a good web framework doing this, Ruby on Rails. But we got two! ![:)](/wiki/europython/img/smile.png%20":)")
 
 - 
 

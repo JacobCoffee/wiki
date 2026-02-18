@@ -311,7 +311,7 @@ In the case of Python, calling a function that may raise an exception is no more
 
 In effect, exceptions allow the Python programmer to concentrate on his actual program, rather than be responsible for building error-handling infrastructure into every function. Python supplies that infrastructure for you, in the form of exceptions.
 
-(I\'m sorry, but if you had actually done much programming in C++, you\'d know that there\'s not much difference between the two languages when it comes to exceptions, at least unless you program C++ in the old-fashioned C-like way with new\'s and delete\'s sprinkled everywhere. You\'re basically dismissing Joel\'s argument. This whole section is a bit weak, maybe it would be better to just state \"don\'t overuse exceptions as that can lead to hard-to-verify spaghetti code\" and be done with it ![:)](/wiki/europython/img/smile.png ":)") \--olau)
+(I\'m sorry, but if you had actually done much programming in C++, you\'d know that there\'s not much difference between the two languages when it comes to exceptions, at least unless you program C++ in the old-fashioned C-like way with new\'s and delete\'s sprinkled everywhere. You\'re basically dismissing Joel\'s argument. This whole section is a bit weak, maybe it would be better to just state \"don\'t overuse exceptions as that can lead to hard-to-verify spaghetti code\" and be done with it ![:)](/wiki/europython/img/smile.png%20":)") \--olau)
 
 ------------------------------------------------------------------------
 

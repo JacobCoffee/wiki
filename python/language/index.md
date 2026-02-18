@@ -55,7 +55,7 @@ This section covers Python language features, design patterns, standard library 
 ## Performance Reference
 
 - [Time Complexity](TimeComplexity) -- Big-O time and space complexity for Python built-in types
-- [Time Complexity (Set Code)](TimeComplexity (SetCode)) -- analysis and implementation notes for set operation complexity
+- [Time Complexity (Set Code)](TimeComplexity%20(SetCode)) -- analysis and implementation notes for set operation complexity
 
 ```{toctree}
 :hidden:

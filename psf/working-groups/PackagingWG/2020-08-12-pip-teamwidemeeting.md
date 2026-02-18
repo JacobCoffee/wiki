@@ -19,7 +19,7 @@ Agenda:
 
   - Georgia - fine
 
-  - Nicole - not blocked (as far as Georgia+Bernard know ![:)](/wiki/europython/img/smile.png ":)") ). Pradyun would like to make more progress with her on backtracking issue\.... Pradyun will work with Bernard
+  - Nicole - not blocked (as far as Georgia+Bernard know ![:)](/wiki/europython/img/smile.png%20":)") ). Pradyun would like to make more progress with her on backtracking issue\.... Pradyun will work with Bernard
 
   - Pradyun - made 20.2.2 bugfix. Next: triaging issues. Lots of support tickets\.... NEXT WEEK, talk with Sumana about using automated testing to find likely bugs/problems in upstreams
     - Have we recieved any responses to survey #989272 that we need to route over to Pradyun?

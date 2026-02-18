@@ -36,7 +36,7 @@ The goal of this article is to clear concurrency-related questions, problems, or
 
 - [multiprocessing](http://docs.python.org/library/multiprocessing.html) (available in CPython 2.6+ and 3, also in recent [PyPy](../implementations/PyPy) 1.5 alpha builds)
 
-- [threading](http://docs.python.org/library/threading.html) - make your GIL-burdened life easy and your code fast: use multiprocessing. ![;)](/wiki/europython/img/smile4.png ";)")
+- [threading](http://docs.python.org/library/threading.html) - make your GIL-burdened life easy and your code fast: use multiprocessing. ![;)](/wiki/europython/img/smile4.png%20";)")
 
 - [concurrent.futures](http://docs.python.org/3/library/concurrent.futures.html) (available in CPython 3.2 and up)
 

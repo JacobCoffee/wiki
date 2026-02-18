@@ -66,7 +66,7 @@ Ernest
 
 Laura
 
-- working on [https://github.com/pypa/warehouse/pull/3047](https://github.com/pypa/warehouse/pull/3047) - may need to relocate to someplace with better wifi in order to finish - Nicole to review ![:)](/wiki/europython/img/smile.png ":)")
+- working on [https://github.com/pypa/warehouse/pull/3047](https://github.com/pypa/warehouse/pull/3047) - may need to relocate to someplace with better wifi in order to finish - Nicole to review ![:)](/wiki/europython/img/smile.png%20":)")
 
 Sumana
 
@@ -138,7 +138,7 @@ Search does not prioritize exact match when package name contains numbers #2877 
 
 - would be fine for post-launch promotion
 
-- we should do [https://github.com/pypa/warehouse/issues/3127](https://github.com/pypa/warehouse/issues/3127) first ![:)](/wiki/europython/img/smile.png ":)")
+- we should do [https://github.com/pypa/warehouse/issues/3127](https://github.com/pypa/warehouse/issues/3127) first ![:)](/wiki/europython/img/smile.png%20":)")
 
 - if someone has spare time, not a priority, may users don\'t log in
 

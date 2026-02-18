@@ -48,6 +48,6 @@ If you are planning attend the sprint, please leave your name below, or contact 
 
 - Mark Hertel
 
-- [Kragen Sitaker](../../../people/Kragen Sitaker) (maybe)
+- [Kragen Sitaker](../../../people/Kragen%20Sitaker) (maybe)
 
 - [BillZingler](./BillZingler.html)

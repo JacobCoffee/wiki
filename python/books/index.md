@@ -5,8 +5,8 @@ A collection of Python book lists, organized by topic and skill level. These pag
 ## General Catalogs
 
 - [PythonBooks](PythonBooks) — the main book directory, linking to categorized lists and specialized topics
-- [Any good Python book?](Any good Python book_) — community recommendations and discussion about picking a Python book
-- [PythonBooks for a list.](PythonBooks for a list.) — additional book listing page
+- [Any good Python book?](Any%20good%20Python%20book_) — community recommendations and discussion about picking a Python book
+- [PythonBooks for a list.](PythonBooks%20for%20a%20list.) — additional book listing page
 
 ## By Skill Level
 

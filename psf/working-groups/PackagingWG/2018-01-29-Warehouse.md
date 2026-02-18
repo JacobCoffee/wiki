@@ -38,7 +38,7 @@ What are you working on? Any blockers?
 
   - Has been SQL querying for active maintainers/projects (have maintainer contact info). Planning to start writing some announcer emails for active maintainers & big projects tomorrow! Will share in Slack channel with other teammates.
 
-  - Has been working on the last stretch of deployment tooling, got hamstrung on a stupid Docker Auth thing. Got great help from community here ![:)](/wiki/europython/img/smile.png ":)")
+  - Has been working on the last stretch of deployment tooling, got hamstrung on a stupid Docker Auth thing. Got great help from community here ![:)](/wiki/europython/img/smile.png%20":)")
 
   - No external blockers at the moment.
 - Dustin:

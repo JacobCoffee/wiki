@@ -14,7 +14,7 @@ IRC: I am often on #moin and #moin-dev on chat.freenode.net (and also on #python
 
 I am the [MoinMoin wiki project](http://moinmo.in/) administrator and joined the PSF in 2009.
 
-If you have any moin questions / wishes, just ask. ![:)](/wiki/europython/img/smile.png ":)")
+If you have any moin questions / wishes, just ask. ![:)](/wiki/europython/img/smile.png%20":)")
 
 ### Ideas for PSF wiki 
 
@@ -39,7 +39,7 @@ If you have any moin questions / wishes, just ask. ![:)](/wiki/europython/img/sm
 
   - does have \"Load\", but not \"Save\" - did people confuse \"Save\" with saving in the editor or why?
 
-- rst parser usage - hey, there seem to be some `ReST`{.backtick} users here! ![:)](/wiki/europython/img/smile.png ":)") I have been (unsuccessfully) trying for a while to get some maintainer for the rst parser in [MoinMoin](MoinMoin), it definitely needs some more love but noone of the current moin devs is using it in production.
+- rst parser usage - hey, there seem to be some `ReST`{.backtick} users here! ![:)](/wiki/europython/img/smile.png%20":)") I have been (unsuccessfully) trying for a while to get some maintainer for the rst parser in [MoinMoin](MoinMoin), it definitely needs some more love but noone of the current moin devs is using it in production.
 
 ### PSF membership application form 
 
@@ -49,7 +49,7 @@ When filling out that stuff, I found it a bit uncomfortable that I had to paste 
 
 - [PDF \"printout\" of the document](attachments/ThomasWaldmann/psf.pdf "PDF "printout" of the document")
 
-![(!)](/wiki/europython/img/idea.png "(!)") BTW, for the non-native english speaker it might be a bit unclear what you want to hear on the \"affiliation\" line. Is that my favourite python project? My company? My Python User Group? Something else? I looked up that word in a dictionary, but even after that, I couldn\'t make too much sense of it (I put \"[MoinMoin](MoinMoin) Wiki\" in there, hoping that this is what PSF wanted to hear).
+![(!)](/wiki/europython/img/idea.png%20"(!)") BTW, for the non-native english speaker it might be a bit unclear what you want to hear on the \"affiliation\" line. Is that my favourite python project? My company? My Python User Group? Something else? I looked up that word in a dictionary, but even after that, I couldn\'t make too much sense of it (I put \"[MoinMoin](MoinMoin) Wiki\" in there, hoping that this is what PSF wanted to hear).
 
 ------------------------------------------------------------------------
 

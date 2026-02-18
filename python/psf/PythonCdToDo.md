@@ -27,7 +27,7 @@ Current package list: [PythonCdRawPackageList](PythonCdRawPackageList)
 
   - logo for top left of local moinmoin wiki
 
-- that \"introducing python\" mpeg (250MB) is much too big to fit on the [PythonCd](PythonCd) (on a DVD, it would fit, of course ![;)](/wiki/europython/img/smile4.png ";)") - does anybody have a smaller version with acceptable quality? target should be 25..100MB.
+- that \"introducing python\" mpeg (250MB) is much too big to fit on the [PythonCd](PythonCd) (on a DVD, it would fit, of course ![;)](/wiki/europython/img/smile4.png%20";)") - does anybody have a smaller version with acceptable quality? target should be 25..100MB.
 
   - [KevinAltis](../people/KevinAltis) made a smaller version of the movie, but it is Quicktime, so that wouldn\'t work.
 
@@ -37,7 +37,7 @@ Current package list: [PythonCdRawPackageList](PythonCdRawPackageList)
 
 We need some server to distribute this, anybody sponsoring space and bandwidth? Possibilities:
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") Uni Erlangen - Currently this is the primary site, see [PythonCdDownload](PythonCdDownload).
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") Uni Erlangen - Currently this is the primary site, see [PythonCdDownload](PythonCdDownload).
 
 - starship.python.net (acceptable use?)
 

@@ -20,7 +20,7 @@ This is my NON-PRISTINE copy of SWIG-able python-magic, unless/until Mr. Hupp re
 
 This is what I did. It works on (32-bit) Windows XP Pro, SP3, on an old Athlon system with \<=512MB.
 
-As they say: Your Mileage May Vary\... ![:)](/wiki/europython/img/smile.png ":)")
+As they say: Your Mileage May Vary\... ![:)](/wiki/europython/img/smile.png%20":)")
 
 -Larry Hale (pythonlarry ta gmail)
 
@@ -87,7 +87,7 @@ and run
 
 - python ez_setup.py
 
-Otherwise, if an installer is avail for your ver of Py, use it! ![:)](/wiki/europython/img/smile.png ":)")
+Otherwise, if an installer is avail for your ver of Py, use it! ![:)](/wiki/europython/img/smile.png%20":)")
 
 ### python-magic
 
@@ -95,7 +95,7 @@ version \'0.1\' (c112ac064b7f) with/for SWIG
 
 [http://hupp.org/adam/hg/python-magic](http://hupp.org/adam/hg/python-magic)
 
-**NOTE:** Adam (Hupp) doesn\'t have the SWIG version posted any longer; my copy isn\'t \"pristine\"; anybody have one lying around to send me? ![:)](/wiki/europython/img/smile.png ":)")
+**NOTE:** Adam (Hupp) doesn\'t have the SWIG version posted any longer; my copy isn\'t \"pristine\"; anybody have one lying around to send me? ![:)](/wiki/europython/img/smile.png%20":)")
 
 ## Configuration & Changes 
 

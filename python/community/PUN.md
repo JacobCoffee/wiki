@@ -20,7 +20,7 @@ Old information for archive purposes only:
 
 #### Past meetups and summaries 
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") **Geweest** 24 september 2009, Amsterdam, hosted by [Go2People](http://www.go2people.nl), location: Beurs van Berlage, PUN meetup [Agenda](PUB/G2P240909)
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") **Geweest** 24 september 2009, Amsterdam, hosted by [Go2People](http://www.go2people.nl), location: Beurs van Berlage, PUN meetup [Agenda](PUB/G2P240909)
 
   - Verslag op [http://reinout.vanrees.org/weblog/2009/09/25/pun-amsterdam-2009.html](http://reinout.vanrees.org/weblog/2009/09/25/pun-amsterdam-2009.html) en [http://maurits.vanrees.org/weblog/archive/2009/09/pun-meeting](http://maurits.vanrees.org/weblog/archive/2009/09/pun-meeting)
 

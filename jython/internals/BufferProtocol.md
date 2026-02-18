@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## Buffer Protocol 
 
-This page proposes (now begins to document) a design for a Jython equivalent to the CPython buffer protocol. A good place to start is this [worked example (pdf)](attachments/BufferProtocol/buffer_api_model.pdf "worked example (pdf)") that motivated the current design.
+This page proposes (now begins to document) a design for a Jython equivalent to the CPython buffer protocol. A good place to start is this [worked example (pdf)](attachments/BufferProtocol/buffer_api_model.pdf%20"worked%20example%20(pdf)") that motivated the current design.
 
 ### What is the Buffer API? 
 

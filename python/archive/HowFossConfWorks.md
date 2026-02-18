@@ -34,7 +34,7 @@ The software aims at helping to conduct a conference in the most transparent pos
 
 - Talks can be tagged - and will be allotted a colour depending on the tag
 
-- The admins can set up a series of volunteer tasks. Once this is done, delegates can add themselves as volunteers and ses: elect the tasks they offer to do. This list also goes up - the reason is obvious ![;-)](/wiki/europython/img/smile4.png ";-)") A volunteer may edit his details.
+- The admins can set up a series of volunteer tasks. Once this is done, delegates can add themselves as volunteers and ses: elect the tasks they offer to do. This list also goes up - the reason is obvious ![;-)](/wiki/europython/img/smile4.png%20";-)") A volunteer may edit his details.
 
 - There is a facility for admins to add static pages. Each static page will have a menu name associated with it and the name is automatically added to the menu list. For example this page has been cut and pasted into the navigation static page.
 

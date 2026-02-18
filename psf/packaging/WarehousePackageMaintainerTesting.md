@@ -144,4 +144,4 @@ IRC: [#pypa-dev on Freenode](https://webchat.freenode.net/?channels=#pypa-dev) (
 
 Email: [distutils-sig mailing list](https://mail.python.org/mailman3/lists/distutils-sig.python.org/)
 
-Thank you for testing Warehouse! You\'re helping us secure this ecosystem, and future users of PyPI will appreciate it. ![:)](/wiki/europython/img/smile.png ":)")
+Thank you for testing Warehouse! You\'re helping us secure this ecosystem, and future users of PyPI will appreciate it. ![:)](/wiki/europython/img/smile.png%20":)")

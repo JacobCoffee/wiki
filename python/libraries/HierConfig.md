@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-Many programs are built these days by assembling components together, and Python programs are no exception. In general, the designer may choose to expose multiple configuration points, and will benefit if there is one standard way of doing so. From the perspective which views programs as hierarchical constructions of configurable components, it would seem to follow logically that configuration of the components should also be hierarchical in nature. The two-level (section, key) model as exemplified by the present [ConfigParser](../language/ConfigParser) does not offer sufficient power. If it did, why does Windows need a registry? ![;-)](/wiki/europython/img/smile4.png ";-)")
+Many programs are built these days by assembling components together, and Python programs are no exception. In general, the designer may choose to expose multiple configuration points, and will benefit if there is one standard way of doing so. From the perspective which views programs as hierarchical constructions of configurable components, it would seem to follow logically that configuration of the components should also be hierarchical in nature. The two-level (section, key) model as exemplified by the present [ConfigParser](../language/ConfigParser) does not offer sufficient power. If it did, why does Windows need a registry? ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
 I\'ve been thinking about how to improve the configuration of the logging package (which currently uses [ConfigParser](../language/ConfigParser)) and playing with some ideas which may have more general applicability. I\'m posting them here and seeking feedback.
 
@@ -285,7 +285,7 @@ For details of this see the [Validate Homepage](http://www.voidspace.org.uk/pyth
 
 A lot of the text format seems similar to JSON. I wonder if there would be any disadvantages to using JSON to marshal and unmarshal the configuration so that it would also be machine editable from Java as well without requiring a new custom Java library since there are already JSON libraries available for that.
 
-Just curious because this library seems very useful and powerful but making it readable and writable programmatically outside of Python would seem advantageous. I wrote something a couple of years ago to do similar things in Java using Commons Configuration under the covers, but I get really tired of XML sometimes ![:)](/wiki/europython/img/smile.png ":)")
+Just curious because this library seems very useful and powerful but making it readable and writable programmatically outside of Python would seem advantageous. I wrote something a couple of years ago to do similar things in Java using Commons Configuration under the covers, but I get really tired of XML sometimes ![:)](/wiki/europython/img/smile.png%20":)")
 
 Not being critical because I certainly applaud your effort and design thinking.
 

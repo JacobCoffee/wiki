@@ -113,7 +113,7 @@ Assertions are not a substitute for unit tests or system tests, but rather a com
 
 Assertions should \*not\* be used to test for failure cases that can occur because of bad user input or operating system/environment failures, such as a file not being found. Instead, you should raise an exception, or print an error message, or whatever is appropriate. One important reason why assertions should only be used for self-tests of the program is that assertions can be disabled at compile time.
 
-If Python is started with the -O option, then assertions will be stripped out and not evaluated. So if code uses assertions heavily, but is performance-critical, then there is a system for turning them off in release builds. (But don\'t do this unless it\'s really necessary. It\'s been scientifically proven that some bugs only show up when a customer uses the machine and we want assertions to help there too. ![:-)](/wiki/europython/img/smile.png ":-)") )
+If Python is started with the -O option, then assertions will be stripped out and not evaluated. So if code uses assertions heavily, but is performance-critical, then there is a system for turning them off in release builds. (But don\'t do this unless it\'s really necessary. It\'s been scientifically proven that some bugs only show up when a customer uses the machine and we want assertions to help there too. ![:-)](/wiki/europython/img/smile.png%20":-)") )
 
 ------------------------------------------------------------------------
 

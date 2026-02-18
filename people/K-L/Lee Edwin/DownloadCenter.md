@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## Welcome to the LeeEdwin/DownloadCenter 
 
-Here you can find some downloads of different programs that I have written. I will post new programs every now and then. Each program has its own page, because there are many versions of each program. Especially if it is an entire package of programs. I hope that you find these programs useful. Thank you for visiting this Wiki page and have a great day! ![:-)](/wiki/europython/img/smile.png ":-)")
+Here you can find some downloads of different programs that I have written. I will post new programs every now and then. Each program has its own page, because there are many versions of each program. Especially if it is an entire package of programs. I hope that you find these programs useful. Thank you for visiting this Wiki page and have a great day! ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 ### Math Tools Series 
 

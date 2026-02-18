@@ -14,7 +14,7 @@ Four of the guys from Pythonlabs are going to be at the sprint on plan on sprint
 
 - My pet bug is reliable signal handling when using event loops like PyGTK. I think an extra C-level hook in the core would make it possible to do this right. (At the moment, SIGINT/KeyboardInterrupt is blocked until python regains control). I\'d be interested in participating in an effort to fix this one. - [PyConBrianWarner](../conferences/pycon/PyConBrianWarner)
 
-- Free threading (which has been asked for almost as long as namespace speed-ups ![:-)](/wiki/europython/img/smile.png ":-)") - Thomas Wouters)
+- Free threading (which has been asked for almost as long as namespace speed-ups ![:-)](/wiki/europython/img/smile.png%20":-)") - Thomas Wouters)
 
 - Work on the AST branch (will make Jeremy happy =)
 

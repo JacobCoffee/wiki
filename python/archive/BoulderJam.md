@@ -16,4 +16,4 @@ List of topics jam discussed at August meeting of [FrontRangePythoneers](../comm
 
 - Survey of popular web frameworks
 
-- Anything but iterators(these seem to get covered at every open-topic meeting) ![;)](/wiki/europython/img/smile4.png ";)")
+- Anything but iterators(these seem to get covered at every open-topic meeting) ![;)](/wiki/europython/img/smile4.png%20";)")

@@ -8,8 +8,8 @@ Sprints are focused development sessions where contributors gather -- physically
 
 ## Sprint Records
 
-- [Sprint Accomplishments](Sprint Accomplishments) — log of what got done at various sprints
-- [Sprint Accomplishments2009](Sprint Accomplishments2009) — accomplishments from the 2009 sprint season
+- [Sprint Accomplishments](Sprint%20Accomplishments) — log of what got done at various sprints
+- [Sprint Accomplishments2009](Sprint%20Accomplishments2009) — accomplishments from the 2009 sprint season
 - [SprintFranceDec2011](SprintFranceDec2011) — a CPython sprint held in France, December 2011
 - [SprintingWithDCPython](SprintingWithDCPython) — sprint events organized with the DC Python user group
 

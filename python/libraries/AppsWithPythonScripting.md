@@ -30,9 +30,9 @@ Applications can be written almost completely in Python, but people are slow to 
 
 For many of the same reasons, Python is often used as the \"glue\" language for a project. In the Java world, people are using [Jython](../archive/Jython) as the glue and scripting language.
 
-![(!)](/wiki/europython/img/idea.png "(!)") **This page is not for listing those applications primarily built with Python. Try [Applications](../archive/Applications) for those types of apps, tools, and frameworks.**
+![(!)](/wiki/europython/img/idea.png%20"(!)") **This page is not for listing those applications primarily built with Python. Try [Applications](../archive/Applications) for those types of apps, tools, and frameworks.**
 
-![(!)](/wiki/europython/img/idea.png "(!)") **Please keep wiki links as wiki links, use external links only if there is no existing page for the program.**
+![(!)](/wiki/europython/img/idea.png%20"(!)") **Please keep wiki links as wiki links, use external links only if there is no existing page for the program.**
 
 ### Applications and Toolkits 
 

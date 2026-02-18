@@ -54,7 +54,7 @@ See [http://cafritz.gwu.edu/cafritz.php?id=1929&site=cafritz](http://cafritz.gwu
 
 ##### Massachusetts 
 
-- Cambridge - Driving down on Tuesday the 25th, back on Sunday the 30th. Would be happy to take on a passenger (or two or three with short legs - I have a Toyota Corolla ![:-)](/wiki/europython/img/smile.png ":-)") esp. in exchange for avoiding seven straight hours of my foot on the gas pedal. \-- Daniel Clark \<dclark at pobox dot com\>
+- Cambridge - Driving down on Tuesday the 25th, back on Sunday the 30th. Would be happy to take on a passenger (or two or three with short legs - I have a Toyota Corolla ![:-)](/wiki/europython/img/smile.png%20":-)") esp. in exchange for avoiding seven straight hours of my foot on the gas pedal. \-- Daniel Clark \<dclark at pobox dot com\>
 
 ##### New York 
 

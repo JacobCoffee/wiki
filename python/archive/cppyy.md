@@ -35,7 +35,7 @@ An example session follows:
   18 0
   19 1
   20 # create a C++ function on the fly and attach on the Python side
-  21 >>> cppyy.cppdef("auto add_int = [](MyClass* m, int a) { return m->m_data + a; };")
+  21 >>> cppyy.cppdef("auto add_int = [](MyClass*%20m,%20int%20a) { return m->m_data + a; };")
   22 >>> MyClass.add_int = lambda self, i: cppyy.gbl.add_int(self, i)
   23 >>> for m in v:
   24 ...    print(m.add_int(1))

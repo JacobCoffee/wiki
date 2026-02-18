@@ -62,7 +62,7 @@ If you are developing a particular kind of program or library, you might wish to
 
 - [GuiProgramming](../gui/GuiProgramming)
 
-- [One-Liners](../guides/Powerful Python One-Liners)
+- [One-Liners](../guides/Powerful%20Python%20One-Liners)
 
 - [ParallelProcessing](../people/ParallelProcessing)
 

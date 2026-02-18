@@ -14,7 +14,7 @@ SciTE currently supports about 50 computer languages.
 
 Get it from [http://www.scintilla.org/SciTE.html](http://www.scintilla.org/SciTE.html)
 
-I\'m also using it, not only for Python ![:)](/wiki/europython/img/smile.png ":)") It highlights JSP pages verry good too (best IMHO). Does anybody know a way to use SciTE for Python debugging?
+I\'m also using it, not only for Python ![:)](/wiki/europython/img/smile.png%20":)") It highlights JSP pages verry good too (best IMHO). Does anybody know a way to use SciTE for Python debugging?
 
 I use it too, and Yasc is useful to configure it. it can be downloaded at www.fw-web.de/download/yasc.rar and with source at www.fw-web.de/download/yasc+src.rar.
 

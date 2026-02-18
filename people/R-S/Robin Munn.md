@@ -14,7 +14,7 @@ Homepage: [http://www.rmunn.com/](http://www.rmunn.com/)
 
 Note that I am not [Robin Dunn](http://www.alldunn.com/robin/). I am Robin **M**unn. Different first letter of last name. Sorry if it\'s confusing.
 
-No, I have no intention of changing my name, why do you ask? ![:-)](/wiki/europython/img/smile.png ":-)") Ask Robin Dunn if he wants to change *his* name! ![:-)](/wiki/europython/img/smile.png ":-)")
+No, I have no intention of changing my name, why do you ask? ![:-)](/wiki/europython/img/smile.png%20":-)") Ask Robin Dunn if he wants to change *his* name! ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 ------------------------------------------------------------------------
 

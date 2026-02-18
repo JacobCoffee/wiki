@@ -26,7 +26,7 @@ Topic Suggestions for Zope 2 sprint at Pycon
   Improved Large Blob Support
   - Downloading and uploading large binary files to Zope sucks rocks. ZEO may exacerbate the issue, I\'m not sure. Chris, I know you\'ve worked on this before \... ZC has some code but they tell me it\'s not production-quality and nobody has time to work on it\... maybe we could tackle it for this sprint. This would be very useful to my
 
-    employer and would help justify my attending the sprint ![;-)](/wiki/europython/img/smile4.png ";-)") - [PaulWinkler](../people/PaulWinkler) Addendum: I now suspect that 99% of the problem in practice is due to the initial load time when using ZEO. Without ZEO, zope benchmarks much slower than apache on localhost - but across a network zope is very close to apache. Adding ZEO to the mix is about 10 times slower. After that, if the data (or most of it) is in the ZEO cache, speed is very close to plain-Zope speed. More testing needed.
+    employer and would help justify my attending the sprint ![;-)](/wiki/europython/img/smile4.png%20";-)") - [PaulWinkler](../people/PaulWinkler) Addendum: I now suspect that 99% of the problem in practice is due to the initial load time when using ZEO. Without ZEO, zope benchmarks much slower than apache on localhost - but across a network zope is very close to apache. Adding ZEO to the mix is about 10 times slower. After that, if the data (or most of it) is in the ZEO cache, speed is very close to plain-Zope speed. More testing needed.
 
   CMF Core / Default
   - There\'s probably plenty of useful work that could be done on CMF. Suggestions?

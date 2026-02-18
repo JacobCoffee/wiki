@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## News 
 
-Here you can find out what\'s going on as far as developments for my Wiki page. I will make sure that I keep it as up to date as possible. If I cannot be around to make sure that it is up to date, I\'ll be sure to tell you. Thank you for visiting this page and **HAVE A GREAT DAY!** ![:-)](/wiki/europython/img/smile.png ":-)")
+Here you can find out what\'s going on as far as developments for my Wiki page. I will make sure that I keep it as up to date as possible. If I cannot be around to make sure that it is up to date, I\'ll be sure to tell you. Thank you for visiting this page and **HAVE A GREAT DAY!** ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 ## Today\'s News 
 

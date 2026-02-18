@@ -31,4 +31,4 @@ Some example systems are
 
 - [ZopePageTemplates](../web/ZopePageTemplates)
 
-- Cocoon, I guess, which is Java, but has good design stuff to rip off ![;)](/wiki/europython/img/smile4.png ";)")
+- Cocoon, I guess, which is Java, but has good design stuff to rip off ![;)](/wiki/europython/img/smile4.png%20";)")

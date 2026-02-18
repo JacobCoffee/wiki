@@ -230,7 +230,7 @@ And here are the results from [FastRandomWriter](./FastRandomWriter.html):
          4990    0.028    0.000    0.028    0.000 randomwriter.py:60(_updateSeed)
             1    0.026    0.026    0.250    0.250 randomwriter.py:74(Run)
 
-I will write more later ![:-)](/wiki/europython/img/smile.png ":-)")
+I will write more later ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 ------------------------------------------------------------------------
 

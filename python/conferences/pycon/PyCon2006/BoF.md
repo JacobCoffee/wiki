@@ -30,7 +30,7 @@ The following birds-of-a-feather sessions are planned for [PyCon2006]():
 
 - [PythonForSecurity](../../../archive/PythonForSecurity)
 
-- [wxPython BoF](../../../archive/wxPython BoF)
+- [wxPython BoF](../../../archive/wxPython%20BoF)
 
 Schedule information will be added to this page before the conference begins.
 

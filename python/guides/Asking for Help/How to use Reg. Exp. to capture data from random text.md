@@ -27,7 +27,7 @@ Thanks much for your help.
 - \- Dave Ferreira ([davefer_work@hotmail.com](mailto:davefer_work@hotmail.com))
 
 ::: note
-When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](../../archive/Asking for Help) page.
+When *answering* questions, add the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category when saving the page. This will move the link to this page from the questions section to the answers section on the [Asking for Help](../../archive/Asking%20for%20Help) page.
 :::
 
 ------------------------------------------------------------------------

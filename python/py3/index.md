@@ -15,7 +15,7 @@ This section is largely a historical archive. Python 2 reached end-of-life on Ja
 - [Porting Python Code to Py3k](PortingPythonToPy3k) -- step-by-step instructions for converting pure Python code
 - [Porting Extension Modules to Py3k](PortingExtensionModulesToPy3k) -- porting C extension modules to Python 3
 - [Porting Django to 3k](PortingDjangoTo3k) -- notes from an early attempt to port Django at PyCon 2008
-- [One Codebase for Python 2 and 3](2and3 One codebase for dual version support) -- tips for maintaining a single codebase that runs on both versions
+- [One Codebase for Python 2 and 3](2and3%20One%20codebase%20for%20dual%20version%20support) -- tips for maintaining a single codebase that runs on both versions
 
 ## Conversion Tools
 

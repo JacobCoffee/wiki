@@ -22,7 +22,7 @@ Python the language and Python the program are not the same thing. Several indep
 
 ## Embedding & Extending
 
-- [Embedding and Extending](Embedding and Extending) — overview of embedding Python in other applications and writing C extensions
+- [Embedding and Extending](Embedding%20and%20Extending) — overview of embedding Python in other applications and writing C extensions
 - [EmbeddingPythonTutorial](EmbeddingPythonTutorial) — step-by-step tutorial for embedding the Python interpreter
 - [ExtensionTutorial](ExtensionTutorial) — tutorial for writing C extension modules
 - [boost.python](boost.python) — Boost.Python, a C++ library for seamless interop between C++ and Python

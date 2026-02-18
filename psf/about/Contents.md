@@ -78,8 +78,8 @@ Contents
 ::: 
 #### [PSF Working Groups](#id4)
 
-- [Example PSF Workgroup Page](Example PSF Workgroup Page) (includes info on how to begin a workgroup)
-- [Example PSF Workgroup Charter](Example PSF Workgroup Charter)
+- [Example PSF Workgroup Page](Example%20PSF%20Workgroup%20Page) (includes info on how to begin a workgroup)
+- [Example PSF Workgroup Charter](Example%20PSF%20Workgroup%20Charter)
 - [PSF Bylaws WG](../working-groups/BylawsWG)
 - [PSF Cuban Pythonistas WG](../working-groups/PythonCubaWG)
 - [PSF Education WG](../working-groups/PythonEduWG)
@@ -106,7 +106,7 @@ Contents
 - [Current PSF Staff and future staff goals](./Current(20)PSF(20)Staff(20)and(20)future(20)staff(20)goals.html) (May 2016)
 - [Conference Coordinator 2009](./Conference(20)Coordinator(20)2009.html) (out of date and not in use)
 - [Staffing Plan](./Staffing(20)Plan.html) (2008 proposal, out of date and not in use)
-- [Staff Conference Reports](../communications/Staff Conference Reports)
+- [Staff Conference Reports](../communications/Staff%20Conference%20Reports)
 :::
 
 ::: 
@@ -165,21 +165,21 @@ This section is from 2008 and is not something that evolved into a PSF project.
 ::: 
 #### [Community](#id12)
 
-- [Community Relations](../communications/Community Relations)
-- [Community Conference Reports](../communications/Community Conference Reports)
+- [Community Relations](../communications/Community%20Relations)
+- [Community Conference Reports](../communications/Community%20Conference%20Reports)
 :::
 
 ::: 
 #### [Marketing](#id13)
 
-- [PSF Press Kit](../marketing/PSF Press Kit) (logos, descriptions, pointers)
-- [PSF Logos](../marketing/PSF Logos) (official versions of the PSF logos)
-- [PSF Python Brochure](../marketing/PSF Python Brochure) (marketing brochure for Python)
-- [Python Logos](../marketing/Python Logos) (official versions of the Python logos)
+- [PSF Press Kit](../marketing/PSF%20Press%20Kit) (logos, descriptions, pointers)
+- [PSF Logos](../marketing/PSF%20Logos) (official versions of the PSF logos)
+- [PSF Python Brochure](../marketing/PSF%20Python%20Brochure) (marketing brochure for Python)
+- [Python Logos](../marketing/Python%20Logos) (official versions of the Python logos)
 - [SurveyQuestions](../governance/SurveyQuestions)
 - Running a Python booth at a local event: [http://rhodesmill.org/brandon/2009/python-at-atlanta-linux-fest/](http://rhodesmill.org/brandon/2009/python-at-atlanta-linux-fest/)
 - [Call for PSF Logos](../marketing/CallForLogos)
-- [PSF Conference Kit](../marketing/PSF Conference Kit) (conference kits we have available to send to conferences)
+- [PSF Conference Kit](../marketing/PSF%20Conference%20Kit) (conference kits we have available to send to conferences)
 - [Merchandise](../marketing/Merchandise) (merchandise ideas)
 :::
 
@@ -195,7 +195,7 @@ This section is from 2008 and is not something that evolved into a PSF project.
 #### [Howtos](#id15)
 
 - [Preparing the Board Meeting Minutes](./howto(2f)Board_Minutes.html)
-- [Info for new PSF members](../governance/Info for new PSF members)
+- [Info for new PSF members](../governance/Info%20for%20new%20PSF%20members)
 - [Streaming PSF Members meetings](./Streaming(20)PSF(20)Members(20)meetings.html)
 - [Using vote.python.org](../governance/howto/evote)
 :::

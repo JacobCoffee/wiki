@@ -41,7 +41,7 @@ August 2, 2019
 
   - let\'s address open question of 2FA for package upload - [https://github.com/pypa/warehouse/issues/5815](https://github.com/pypa/warehouse/issues/5815) but also asked throughout [https://github.com/pypa/warehouse/issues/994](https://github.com/pypa/warehouse/issues/994)
 
-  - Seems reasonable to close #996 and #994 as we aren\'t going to roll back 2FA/API Tokens now ![:)](/wiki/europython/img/smile.png ":)")
+  - Seems reasonable to close #996 and #994 as we aren\'t going to roll back 2FA/API Tokens now ![:)](/wiki/europython/img/smile.png%20":)")
 
   - Will: diminishing returns to multifactor with scoped tokens \.... if there\'s an upload flow that includes 2FA
 
@@ -65,7 +65,7 @@ August 2, 2019
 
 - showing token creation UI on confirmation page [https://github.com/pypa/warehouse/issues/6257](https://github.com/pypa/warehouse/issues/6257)
 
-  - Ernest: I still find this confusing, but defer to UXperts ![:)](/wiki/europython/img/smile.png ":)")
+  - Ernest: I still find this confusing, but defer to UXperts ![:)](/wiki/europython/img/smile.png%20":)")
 
   - TODO: Nicole will check via user tests
 

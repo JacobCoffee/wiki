@@ -32,13 +32,13 @@ This section covers text editors and integrated development environments that su
 
 ## Other IDEs
 
-- [Wing IDE](Wing IDE) — the Wing IDE for Python, a commercial IDE with strong debugging support
+- [Wing IDE](Wing%20IDE) — the Wing IDE for Python, a commercial IDE with strong debugging support
 - [IDEStudio](IDEStudio) — IDE Studio for Python development
 - [NetBeans](NetBeans) — Python support in the NetBeans IDE
 
 ## Help
 
-- [Asking for Help](Asking for Help/index) — how to ask for help effectively when you run into problems
+- [Asking for Help](Asking%20for%20Help/index) — how to ask for help effectively when you run into problems
 
 ```{toctree}
 :hidden:

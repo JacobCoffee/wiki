@@ -33,7 +33,7 @@ Thanks to André Roberge, whose post about [99 Prolog Problems](http://aroberge.
 ## Subpages for solutions and commentary: 
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [/99 Prolog Problems Solutions](ProblemSets/99 Prolog Problems Solutions)   [/Programming Challenges Solutions](ProblemSets/Programming Challenges Solutions)   [/Project Euler Solutions](ProblemSets/Project Euler Solutions)  
+  [/99 Prolog Problems Solutions](ProblemSets/99%20Prolog%20Problems%20Solutions)   [/Programming Challenges Solutions](ProblemSets/Programming%20Challenges%20Solutions)   [/Project Euler Solutions](ProblemSets/Project%20Euler%20Solutions)  
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------

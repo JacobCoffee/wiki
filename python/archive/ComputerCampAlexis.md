@@ -16,6 +16,6 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 - Rémy (@Natim), de Paris - Arrivée 20h30 jeudi soir - Départ 21h39 en gare de Angers St-Laud
 
-- jul paris (sous réserve ![;)](/wiki/europython/img/smile4.png ";)")
+- jul paris (sous réserve ![;)](/wiki/europython/img/smile4.png%20";)")
 
 - prevenez moi !

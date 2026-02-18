@@ -52,7 +52,7 @@ Heh! Well, I just never saw anything about Freeze online. I googled for \"compil
 
 So, [Freeze](../archive/Freeze) will now have a place on the net: right here.
 
-Score 1 for wiki. ![:)](/wiki/europython/img/smile.png ":)")
+Score 1 for wiki. ![:)](/wiki/europython/img/smile.png%20":)")
 
 \-- [LionKimbro](../people/LionKimbro) 2004-08-30 03:43:57
 

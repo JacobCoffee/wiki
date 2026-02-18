@@ -46,11 +46,11 @@ To be honest, I\'ve never thought about \'redistribution rights\'. I\'ve never d
 
 ###### Steve Holden 
 
-[FedEx](./FedEx.html) Kinko\'s willl, I hope, be handling my logistics. I just hope they cost less than the fees ![:-)](/wiki/europython/img/smile.png ":-)")
+[FedEx](./FedEx.html) Kinko\'s willl, I hope, be handling my logistics. I just hope they cost less than the fees ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 I plan to publish the course slides, with a few accompanying notes, as PDF under Creative Commons Attribution Share-Alike 2.5 license. I\'d like the PSF (and any local groups and schools promoting Python) to be able to benefit by this, so the license does permit commercial use.
 
-I\'m used to driving a two-screen presentation system, but can manage with one when I\'m slumming it ![:)](/wiki/europython/img/smile.png ":)") I will only have my laptop to generate images anyway, so two screens would likely be showing the same thing.
+I\'m used to driving a two-screen presentation system, but can manage with one when I\'m slumming it ![:)](/wiki/europython/img/smile.png%20":)") I will only have my laptop to generate images anyway, so two screens would likely be showing the same thing.
 
 Having a lavalier mic or similar is invaluable if someone loses their voice (it **can** happen) but like Ken I normally handle up to 30 students without a P.A.
 

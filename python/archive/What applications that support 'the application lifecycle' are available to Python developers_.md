@@ -18,6 +18,6 @@ While there\'s a specific advocacy opportunity that inspires formation of this p
 
 - build\--[zc.buildout](http://www.python.org/pypi/zc.buildout); (deployment solutions or [DistributionUtilities](../people/DistributionUtilities))
 
-- test\--[static source analysis](static source analysis); run-time testing tools including [pytest](http://docs.python.org/lib/module-unittest.html), [doctest](http://docs.python.org/lib/module-doctest.html), and [zope.testing](http://www.python.org/pypi/zope.testing); (testing taxonomy)
+- test\--[static source analysis](static%20source%20analysis); run-time testing tools including [pytest](http://docs.python.org/lib/module-unittest.html), [doctest](http://docs.python.org/lib/module-doctest.html), and [zope.testing](http://www.python.org/pypi/zope.testing); (testing taxonomy)
 
 - documentation\--[DocumentationTools](../documentation/DocumentationTools)

@@ -78,7 +78,7 @@ For sprinters that would like a free license for Wing IDE Professional, please s
 
 - Goal: Rest of content conversion for [http://beta.python.org](http://beta.python.org) and make it live on python.org on or before March 5th
 
-  Coach: Tim Parkin (not on site but knows everything) and Stephan Deibel (onsite but knows nothing ![:-)](/wiki/europython/img/smile.png ":-)")
+  Coach: Tim Parkin (not on site but knows everything) and Stephan Deibel (onsite but knows nothing ![:-)](/wiki/europython/img/smile.png%20":-)")
 
   Details: [/PydotorgSprint](Sprints/PydotorgSprint)
 

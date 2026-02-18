@@ -32,7 +32,7 @@ Contact for the sprint: [Victor Stinner](http://vstinner.readthedocs.io/victor_s
 
 ### Attendees 
 
-Feel free to add yourself in this wiki page if you plan to participate to the sprint, just to have an idea of many chairs we will need for the sprint ![:-)](/wiki/europython/img/smile.png ":-)")
+Feel free to add yourself in this wiki page if you plan to participate to the sprint, just to have an idea of many chairs we will need for the sprint ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 - Charalampos Stratakis
 - Victor Stinner

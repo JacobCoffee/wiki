@@ -64,7 +64,7 @@ Runar Petursson
 
 Sean Reifschneider
 
-- Sean Reifschneider, from Fort Collins, Colorado, is a founder and member of technical staff of tummy.com, ltd. He\'s been a Python user and advocate since 1997. The primary area he expects to be working on relate to performance improvements via re-implementation of code in C and other C Python or python library work. He expects to make use of unit tests to ensure quality of resulting code and quantify performance improvements. He looks forward to a successful sprint, in part, for selfish reasons. If the sprint outcome is positive, hopefully we all will be invited to and sponsored for attendance at future sprints. ![:-)](/wiki/europython/img/smile.png ":-)")
+- Sean Reifschneider, from Fort Collins, Colorado, is a founder and member of technical staff of tummy.com, ltd. He\'s been a Python user and advocate since 1997. The primary area he expects to be working on relate to performance improvements via re-implementation of code in C and other C Python or python library work. He expects to make use of unit tests to ensure quality of resulting code and quantify performance improvements. He looks forward to a successful sprint, in part, for selfish reasons. If the sprint outcome is positive, hopefully we all will be invited to and sponsored for attendance at future sprints. ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 Richard M Tew
 

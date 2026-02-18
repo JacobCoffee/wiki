@@ -18,7 +18,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## Contents of the Python CD 
 
-- [PythonCdDocs](PythonCdDocs) - lots of documentation (read them ![;)](/wiki/europython/img/smile4.png ";)") )
+- [PythonCdDocs](PythonCdDocs) - lots of documentation (read them ![;)](/wiki/europython/img/smile4.png%20";)") )
 
 - [PythonCdCore](PythonCdCore) - core Python packages and files
 
@@ -28,13 +28,13 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 - [PythonCdToDo](PythonCdToDo) - what we plan for the future
 
-- [PythonCdContributors](PythonCdContributors) - hall of fame ![;)](/wiki/europython/img/smile4.png ";)")
+- [PythonCdContributors](PythonCdContributors) - hall of fame ![;)](/wiki/europython/img/smile4.png%20";)")
 
 ## Online ressources 
 
 - [PythonCdDownload](PythonCdDownload) - how to get the PythonCd from the internet
 
-- join #pythoncd@irc.freenode.net for discussion, development and support of PythonCd. The channel is brand new, so just hang out there and simply start writing. ![;)](/wiki/europython/img/smile4.png ";)")
+- join #pythoncd@irc.freenode.net for discussion, development and support of PythonCd. The channel is brand new, so just hang out there and simply start writing. ![;)](/wiki/europython/img/smile4.png%20";)")
 
 - [http://wiki.python.org/moin/PythonCd](http://wiki.python.org/moin/PythonCd) for latest version of the wiki pages and other Python information
 

@@ -114,7 +114,7 @@ Usually within a few blocks.
 
   o *Any tech-related events?*
 
-Only a few hundred in recent years. ![:-)](/wiki/europython/img/smile.png ":-)")
+Only a few hundred in recent years. ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 A sampling of recent and currently scheduled tech conferences:
 

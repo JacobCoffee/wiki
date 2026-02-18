@@ -120,7 +120,7 @@ Jim Baker: One insight I got from the Django-Oracle sprint is the value of desig
 
 ### Testing 
 
-And if we are doing design up front, why not testing too ![;)](/wiki/europython/img/smile4.png ";)") . So here\'s one addition to having an effective test-driven process. It would be nice if Jython were in the Pybots. I mean, why should Jython be chasing CPython constantly, when it comes to pure Python code? Complex projects like Twisted and Django have their dependencies too, and that\'s why they\'re in Pybots. My intuitive feeling is that Jython should not be converging on CPython 2.3 but on 2.6.
+And if we are doing design up front, why not testing too ![;)](/wiki/europython/img/smile4.png%20";)") . So here\'s one addition to having an effective test-driven process. It would be nice if Jython were in the Pybots. I mean, why should Jython be chasing CPython constantly, when it comes to pure Python code? Complex projects like Twisted and Django have their dependencies too, and that\'s why they\'re in Pybots. My intuitive feeling is that Jython should not be converging on CPython 2.3 but on 2.6.
 
 ### Designate a champion 
 

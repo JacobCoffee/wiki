@@ -28,7 +28,7 @@ My more-interesting modules include \"[Alias](./lwickjr(2f)Modules(2f)Modules(2f
   - Provides an IDLE menu item to trigger the preceding mechanism.
   - Functions only under IDLE. Does not function correctly without disabling the default sub-process.
 
-It seems to me that Edit is something that makes it so that you can jump straight to where a variable is defined, in IDLE. (Not really sure.) If so, that\'s awesome! I\'ve often times wished IDLE were more powerful; This is the kind of thing I\'d like to see more of. ![:)](/wiki/europython/img/smile.png ":)")
+It seems to me that Edit is something that makes it so that you can jump straight to where a variable is defined, in IDLE. (Not really sure.) If so, that\'s awesome! I\'ve often times wished IDLE were more powerful; This is the kind of thing I\'d like to see more of. ![:)](/wiki/europython/img/smile.png%20":)")
 
 \-- [LionKimbro](../../people/LionKimbro) 2005-04-01 21:16:29
 

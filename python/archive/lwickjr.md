@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 [lwickjr](lwickjr) 2011-09-15 18:23:10: I\`ve just reviewed the site.py bug mentioned below, and it still exists in Python 3.1.2. Will someone please fix it?
 
-[lwickjr](lwickjr) 2011-09-15 18:20:53: Trivial edit to get the comment into the log. ![:)](/wiki/europython/img/smile.png ":)")
+[lwickjr](lwickjr) 2011-09-15 18:20:53: Trivial edit to get the comment into the log. ![:)](/wiki/europython/img/smile.png%20":)")
 
 Quote: \"Editor: [PaulBoddie](../people/PaulBoddie) Comment: Suspicious edit resembling spam. Apologies if casino stuff is now actually lwickjr\'s focus.\" Nope; you\`re right. Thanks!
 
@@ -24,7 +24,7 @@ To whit, if `addpackage`{.backtick} is ever called with `None`{.backtick} as the
 
 As this bug was discovered through visual inspection and I am not registered at any of the usual Python development sites, would someone please verify this bug and bring it to the attention of the appropriate individuals and/or groups? Thanks!
 
-Whew! Third time\`s the charm, I hope! Also, each time brought forth a somewhat-improved version of the above text \[\'least I think so ![;)](/wiki/europython/img/smile4.png ";)") \].
+Whew! Third time\`s the charm, I hope! Also, each time brought forth a somewhat-improved version of the above text \[\'least I think so ![;)](/wiki/europython/img/smile4.png%20";)") \].
 
 ------------------------------------------------------------------------
 
@@ -32,9 +32,9 @@ Attention, please: I am interested in the possibility of de-linting some of the 
 
 [FredDrake](../people/FredDrake) sez: See the [Documentation Development](http://www.python.org/dev/doc/) page.
 
-[lwickjr](lwickjr) 2026-02-14 16:15:21: Done, which I noted on your page some time ago. ![:)](/wiki/europython/img/smile.png ":)") \[I find myself wondering if anyone found the delinted pages.\]
+[lwickjr](lwickjr) 2026-02-14 16:15:21: Done, which I noted on your page some time ago. ![:)](/wiki/europython/img/smile.png%20":)") \[I find myself wondering if anyone found the delinted pages.\]
 
-[lwickjr](lwickjr) 2026-02-14 16:15:21: [LionKimbro](../people/LionKimbro): \"Parnassus\". ![;)](/wiki/europython/img/smile4.png ";)")
+[lwickjr](lwickjr) 2026-02-14 16:15:21: [LionKimbro](../people/LionKimbro): \"Parnassus\". ![;)](/wiki/europython/img/smile4.png%20";)")
 
 ------------------------------------------------------------------------
 

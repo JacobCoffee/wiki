@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ![](http://brakmic.de/kick_him.jpg "http://brakmic.de/kick_him.jpg")
 
-Python-Rookie ![;-)](/wiki/europython/img/smile4.png ";-)")
+Python-Rookie ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
 [Facebook](http://www.new.facebook.com/profile.php?id=1492970193&ref=profile)
 

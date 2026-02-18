@@ -10,9 +10,9 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Based on the user stories and reviews we\'re collecting on these pages:
 
-- [../Jobs App Reviews](Jobs App Reviews)
+- [../Jobs App Reviews](Jobs%20App%20Reviews)
 
-- [../Jobs App User Stories](Jobs App User Stories)
+- [../Jobs App User Stories](Jobs%20App%20User%20Stories)
 
 we are distilling a list of feature requests / ideas on this page and assign them to implementation phases:
 

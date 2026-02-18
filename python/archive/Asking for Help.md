@@ -50,11 +50,11 @@ Pages containing longer questions should appear in this list:
 
 3.  [Asking for Help/How to solve the problem when running python from command line?](./Asking(20)for(20)Help(2f)How(20)to(20)solve(20)problem(20)when(20)running(20)python(20)from(20)command(20)line(3f).html)
 
-4.  [Asking for Help/How to use Python with MySQL on Windows](../guides/Asking for Help/How to use Python with MySQL on Windows)
+4.  [Asking for Help/How to use Python with MySQL on Windows](../guides/Asking%20for%20Help/How%20to%20use%20Python%20with%20MySQL%20on%20Windows)
 
 5.  [Asking for Help/How to use Reg. Exp. to capture data from random text](./Asking(20)for(20)Help(2f)How(20)to(20)use(20)Reg(2e20)Exp(2e20)to(20)capture(20)data(20)from(20)random(20)text.html)
 
-6.  [Asking for Help/How to utilize SQL Server stored procedure that accepts table valued parameter](../guides/Asking for Help/How to utilize SQL Server stored procedure that accepts table valued parameter)
+6.  [Asking for Help/How to utilize SQL Server stored procedure that accepts table valued parameter](../guides/Asking%20for%20Help/How%20to%20utilize%20SQL%20Server%20stored%20procedure%20that%20accepts%20table%20valued%20parameter)
 
 7.  [Asking for Help/I am trying to run Python on IDLE in Windows. Why doesn\'t IDLE close old pythonw processes on restarting the shell or even quitting IDLE?](./Asking(20)for(20)Help(2f)I(20)am(20)trying(20)to(20)run(20)Python(20)on(20)IDLE(20)in(20)Windows(2e20)Why(20)doesn(27)t(20)IDLE(20)close(20)old(20)pythonw(20)processes(20)on(20)restarting(20)the(20)shell(20)or(20)even(20)quitting(20)IDLE(3f).html)
 
@@ -62,17 +62,17 @@ Pages containing longer questions should appear in this list:
 
 9.  [Asking for Help/I tried to port python 2.7 to iOS and got \"Fatal Python error: exceptions bootstrapping error.\". How can I fix it?](./Asking(20)for(20)Help(2f)I(20)tried(20)to(20)port(20)python(20)2(2e)7(20)to(20)iOS(20)and(20)got(2022)Fatal(20)Python(20)error(3a20)exceptions(20)bootstrapping(20)error(2e222e20)How(20)can(20)I(20)fix(20)it(3f).html)
 
-10. [Asking for Help/I want to right-click on data files in Windows XP and open them with a Python program.](Asking for Help/I want to right-click on data files in Windows XP and open them with a Python program.)
+10. [Asking for Help/I want to right-click on data files in Windows XP and open them with a Python program.](Asking%20for%20Help/I%20want%20to%20right-click%20on%20data%20files%20in%20Windows%20XP%20and%20open%20them%20with%20a%20Python%20program.)
 
-11. [Asking for Help/Installation Errors](../people/Asking for Help/Installation Errors)
+11. [Asking for Help/Installation Errors](../people/Asking%20for%20Help/Installation%20Errors)
 
 12. [Asking for Help/Is there a way to use i instead of j for complex numbers?](./Asking(20)for(20)Help(2f)Is(20)there(20)a(20)way(20)to(20)use(20)i(20)instead(20)of(20)j(20)for(20)complex(20)numbers(3f).html)
 
-13. [Asking for Help/Python ISO-8859-1 encoding problem](Asking for Help/Python ISO-8859-1 encoding problem)
+13. [Asking for Help/Python ISO-8859-1 encoding problem](Asking%20for%20Help/Python%20ISO-8859-1%20encoding%20problem)
 
-14. [Asking for Help/Python,Pydev and the terminal in linux.](Asking for Help/Python,Pydev and the terminal in linux.)
+14. [Asking for Help/Python,Pydev and the terminal in linux.](Asking%20for%20Help/Python,Pydev%20and%20the%20terminal%20in%20linux.)
 
-15. [Asking for Help/Using Python with native DB2 drivers](../people/Asking for Help/Using Python with native DB2 drivers)
+15. [Asking for Help/Using Python with native DB2 drivers](../people/Asking%20for%20Help/Using%20Python%20with%20native%20DB2%20drivers)
 
 16. [Asking for Help/What is wrong with this \"game of life\" program?](./Asking(20)for(20)Help(2f)What(20)is(20)wrong(20)with(20)this(2022)game(20)of(20)life(2220)program(3f).html)
 
@@ -82,17 +82,17 @@ Pages containing longer questions should appear in this list:
 
 19. [Asking for Help/Why do I see b\'string\' when i print a c_char_p string?](./Asking(20)for(20)Help(2f)Why(20)do(20)I(20)see(20)b(27)string(2720)when(20)i(20)print(20)a(20)c_char_p(20)string(3f).html)
 
-20. [Asking for Help/does a python blink](Asking for Help/does a python blink)
+20. [Asking for Help/does a python blink](Asking%20for%20Help/does%20a%20python%20blink)
 
-21. [Asking for Help/exiting idle](Asking for Help/exiting idle)
+21. [Asking for Help/exiting idle](Asking%20for%20Help/exiting%20idle)
 
-22. [Asking for Help/remove escape characters](Asking for Help/remove escape characters)
+22. [Asking for Help/remove escape characters](Asking%20for%20Help/remove%20escape%20characters)
 
 23. [Asking for Help/remove write protected file forcefully like \"rm -f\"](./Asking(20)for(20)Help(2f)remove(20)write(20)protected(20)file(20)forcefully(20)like(2022)rm(202d)f(22).html)
 
 24. [Asking for Help/thread started using \'bg\' ends without any notification](./Asking(20)for(20)Help(2f)thread(20)started(20)using(2027)bg(2720)ends(20)without(20)any(20)notification.html)
 
-25. [Asking for Help/with newton force calculator](Asking for Help/with newton force calculator)
+25. [Asking for Help/with newton force calculator](Asking%20for%20Help/with%20newton%20force%20calculator)
 
 These questions will be moved to the [answered longer questions section](./Asking(20)for(20)Help.html#Answered_Longer_Questions) below when they are answered (having been added to the [CategoryAskingForHelpAnswered](CategoryAskingForHelpAnswered) category).
 
@@ -122,7 +122,7 @@ These questions will be moved to the [answered longer questions section](./Askin
 - How do I publish Python modules?
   - See [PublishingPythonModules](PublishingPythonModules) - [Philip](Philip), 2005-09-19
 
-    [lwickjr](lwickjr): My question, \"my\" page. I created that page, empty, in hopes that someone would populate it. They have, and I\'ve read it. They hadn\`t yet when I created \*this\* page for posting how-to questions, at about the same time, so I included the question here in the seed page. See the attachments to [my page](lwickjr) for my final solution to the problem. ![;)](/wiki/europython/img/smile4.png ";)") By the way, \"How to publish Python modules\" has been renamed \"[PublishingPythonModules](PublishingPythonModules)\", to be more Wiki-style. \[Me, again.\] 2005-11-24.
+    [lwickjr](lwickjr): My question, \"my\" page. I created that page, empty, in hopes that someone would populate it. They have, and I\'ve read it. They hadn\`t yet when I created \*this\* page for posting how-to questions, at about the same time, so I included the question here in the seed page. See the attachments to [my page](lwickjr) for my final solution to the problem. ![;)](/wiki/europython/img/smile4.png%20";)") By the way, \"How to publish Python modules\" has been renamed \"[PublishingPythonModules](PublishingPythonModules)\", to be more Wiki-style. \[Me, again.\] 2005-11-24.
 
 - i got winxp. i make a simple program like print \"hello\". i save it as whatever.py. then i double-click it. nothing happens just the windows cmd appears for a blink. Additionally you can go to Start -\> Run, type \'cmd\', and hit enter. Now cd to your foo.py file, and execute it.
 

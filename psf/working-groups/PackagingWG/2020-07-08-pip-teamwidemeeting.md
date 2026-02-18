@@ -96,7 +96,7 @@ Agenda:
         - Ernest: we field stuff about network connections to Warehouse. pip can get confused re corporate proxies, etc. \.... discussions have happened re network telemetry in the pip client to help troubleshooting
           - Ernest: there are a thousand exceptions tht can happen - TLS, DNS, certificates, timestamp \.... ultiimately problem: people get a traceback and not a message \"we tried to connect to Warehouse but we had invalid certificate\" - that would be a huge UX improvement. Could find GitHub issues where the issue was a corp proxy. Converting the \"Traceback\" into an error message \-- very hard
 
-            - Is this a place for better error messaging in pip? \-- answered already. ![:)](/wiki/europython/img/smile.png ":)")
+            - Is this a place for better error messaging in pip? \-- answered already. ![:)](/wiki/europython/img/smile.png%20":)")
 
             - Possible research question: How do other package managers deal with network funkiness/proxies? (prior research might be network redirect/portal capture pages)
 

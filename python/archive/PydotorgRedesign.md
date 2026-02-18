@@ -138,7 +138,7 @@ How about simply upgrading the python.org wiki and making more use of it?
 
 Using a wiki makes it much easier to update content (as you see right here), add links and fix stuff. It puts the burden of maintaining the site on the shoulders of the community, not a few webmasters. The current [MoinMoin](MoinMoin) version (not the old version you are using now) is themeable and has access control lists for critical pages, like the FrontPage.
 
-At the [moinmoin homepage](http://moinmoin.wikiwikiweb.de/), we are doing *everything* in the wiki. It works ![;)](/wiki/europython/img/smile4.png ";)")
+At the [moinmoin homepage](http://moinmoin.wikiwikiweb.de/), we are doing *everything* in the wiki. It works ![;)](/wiki/europython/img/smile4.png%20";)")
 
 \-- [ThomasWaldmann](ThomasWaldmann) 2004-07-11 11:19:12
 

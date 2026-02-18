@@ -38,7 +38,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 - [/IRCMeeting14](IRCMeetings/IRCMeeting14): 2008-06-05
 
-- [/IRCMeeting15](IRCMeetings/IRCMeeting15): 2008-06-12 ![(!)](/wiki/europython/img/idea.png "(!)")
+- [/IRCMeeting15](IRCMeetings/IRCMeeting15): 2008-06-12 ![(!)](/wiki/europython/img/idea.png%20"(!)")
 
 Channel logs available [here](http://mg.pov.lt/europython-irclog/).
 

@@ -16,7 +16,7 @@ Better wireless; better promotion of open space activities.
 
 Give food options for food allergies like peanuts, wheat, and gluten. More fruit, especially at breakfast.
 
-The format for the talks need to be changed. As an audience member I could tell how hard it was for the speakers to present their ideas in the allotted time. Maybe 2 different kinds of speaking slots. One which is short and a speaker can summarize a topic. The second being longer, in which the speaker can cover a more complicated topic, or go into greater depth. Might not work, but I figured I\'d suggest something as which could spark an idea. Also, the sponsored Lighting Talks didn\'t work so well. The Lighting Talks on Sunday were the best. ![:)](/wiki/europython/img/smile.png ":)")
+The format for the talks need to be changed. As an audience member I could tell how hard it was for the speakers to present their ideas in the allotted time. Maybe 2 different kinds of speaking slots. One which is short and a speaker can summarize a topic. The second being longer, in which the speaker can cover a more complicated topic, or go into greater depth. Might not work, but I figured I\'d suggest something as which could spark an idea. Also, the sponsored Lighting Talks didn\'t work so well. The Lighting Talks on Sunday were the best. ![:)](/wiki/europython/img/smile.png%20":)")
 
 keep the \"obvious ads\" out of the \"real people\" lightning talks (having a labelled session for them is fine.)
 
@@ -58,7 +58,7 @@ It was fine. I needed more for beginners since I don\'t know Python very well ye
 
 better food options (serve fruit salad for breakfast, buffets instead of boxes) better local restaurant guide wireless access from rooms defend wireless from crazy Windows
 
-I came into programming in my late 20s and am self-taught, and started using Python in earnest about a year ago. I have a lot to catch up on before i can really understand some of the more esoteric stuff. I\'d like there to be some more mid-range topics. I don\'t want to scare off all the alpha-geeks though. ![:)](/wiki/europython/img/smile.png ":)")
+I came into programming in my late 20s and am self-taught, and started using Python in earnest about a year ago. I have a lot to catch up on before i can really understand some of the more esoteric stuff. I\'d like there to be some more mid-range topics. I don\'t want to scare off all the alpha-geeks though. ![:)](/wiki/europython/img/smile.png%20":)")
 
 Higher profile keynotes, like Adele and Roml. They really set a tone for the rest of the conference.
 
@@ -300,7 +300,7 @@ The BOF need to be done so that everyone is aware of sessions going on and their
 
 Higher quality speakers. Fewer tracks, or at least fewer conflicting talks. Maybe shorter talks and a different balance between talks and open space. Many talks were too long for the size of their ideas, but too short for getting into details. That\'s a function of the presenter though, really, I guess. A good presenter fills their time with the right level of detail. Tutorials suffered from some less than 1st-rate presentation too. It would be nice/good if more professional presenters (teachers?) could be paired with developers to give stronger tutorials. Also, people who had not prepared for the tutorials by installing the subject software in advance should have been sent out of the room to get their shit together while the rest of us got on with learning. Network problems made this worse, but still someone else\'s lack of preparation should not be my problem.
 
-Work out wireless kinks early. (don\'t these things support roaming? i.e. interference is really less of an issue than perceived? Not sure\....I heard many conflicting credible stories. Would be nice to nail this one next year ![:-)](/wiki/europython/img/smile.png ":-)") )
+Work out wireless kinks early. (don\'t these things support roaming? i.e. interference is really less of an issue than perceived? Not sure\....I heard many conflicting credible stories. Would be nice to nail this one next year ![:-)](/wiki/europython/img/smile.png%20":-)") )
 
 Bookend it with weekends instead of a weekend in the middle. Hire professional videographers that know how to capture both screencast and video at the same time and have them do the editing and encoding (suggestion: whoever does it for Google Talks). Follow the tummy.com instructions for how to run the network (from [PyCon](../../PyCon) 2007). They spent a lot of effort figuring that out and it was nonsense not to follow their instructions. No sandwiches for lunch. Beverages available continuously, not just a 15 minute \"break\" window.
 
@@ -414,7 +414,7 @@ Have talks given more than once, so you can see everything that you want.
 
 \* I was a bit frustrated that on occasions there were several talks I wanted to attend simultaneously, but there is probably very little the organizers can do about pleasing \*everyone\'s\* schedule.
 
-\* Advertise better for open space talks. Essentially, there were 2 sheets of paper placed somewhere with small notes attached to them. It would be nice if this information was 1) available online via the pycon site (and clearly labeled) 2) available in several spots throughout the conference (there are problems of keeping it in sync and such, but I am making a wishlist here ![:))](/wiki/europython/img/smile3.png ":))")
+\* Advertise better for open space talks. Essentially, there were 2 sheets of paper placed somewhere with small notes attached to them. It would be nice if this information was 1) available online via the pycon site (and clearly labeled) 2) available in several spots throughout the conference (there are problems of keeping it in sync and such, but I am making a wishlist here ![:))](/wiki/europython/img/smile3.png%20":))")
 
 \* More tutorials, perhaps? Would 2 days be too much? During a 25/40 minute \"regular\" presentation, the speaker can realistically accomplish only one thing \-- give a teaser for whatever (s)he is working on. I have the impression that tutorials are more in-depth, and provide more time to talk about the technology and give some room for errors.
 
@@ -454,7 +454,7 @@ Focus more on open space and lightning talks
 
 Wireless network!! Everyone from my company who attended had IBM Thinkpads with intel 3945ABG cards. Something about the network would cause the Windows driver to crash after 5 minutes of being connected to a network or less - a system restart was necessary to fix each time. Techs we spoke to dismissed the problem.. so wtf: pycon wont support intel wireless cards?? This really was the one negative I took away from the conference
 
-all in all it was wonderful. here are some things to improve next time: the food was mostly awful. too much sugar, too much chemical soup and junk food like chips\... too little healthy stuff like fruit and vegs. (the Thai wraps were a nice attempt at healthy but caused some \... \"problems\".) Maybe a more sophisticated pre-conference food-requesting system would help? i know it\'s hard to feed 1000 people with different tastes and ideas of what\'s healthy! but we are smart people and i bet we could figure it out. i\'d rather pay slightly more and have good food available that actually helps me stay alert instead of causing a sugar/carb crash after every break or meal. also, why did they keep taking the coffee away and then bringing it back? that seems silly and weird. +1 for constant coffee supply. i\'d also like to see a reduction in the wasteful packaging of the lunches (how about reusable trays?). those plastic boxes were not necessary at all and i suspect they didn\'t get recycled. perhaps next time somebody should be in charge of keeping a closer eye on the green-ness of the conference. next time let\'s get a place with higher ceilings where the projection screens can be high enough to see the whole screen if you\'re not sitting in the front row. also, better lighting on the speakers. I think the talk schedule should be more flexible too\... a lot of the time slots seemed too short to get into much depth and/or have enough time for questions. others probably should have been a lightning talk, or at least shorter than they were. again, i know it\'s tricky to work out, but it can & should be done. it would be helpful to have step by step instructions and/or some on-the-spot technical helpers for dealing with projector connections for the lightning talks. i would have liked to use Keynote.app\'s presenter view (where my notes are my screen, and the slides are on the projector), but there was no time to figure it out. it\'s really hard to look at paper notes, hold a mic, and advance your slides at the same time. so a working mic stand would have made the lightning talk less awkward. and the podium\'s lip blocked my IR receiver, so I couldn\'t use the remote for slides. location: i can see the point of rosemont being close to o\'hare, but the flip side is that few people got to actually see chicago because it\'s a 45 minute trip. can we manage to be closer to downtown? it would make the evenings more fun. nice job having power strips available everywhere. that was awesome. seriously, great job overall. it\'s easy to pick out the flaws, yet i also truly appreciate the giant effort! (i\'ve organized much smaller conferences, so i can imagine how much more work this was in comparison). thank you, and please get some sleep and take some time off, you super-extra-deserve it! ![:)](/wiki/europython/img/smile.png ":)") ![:)](/wiki/europython/img/smile.png ":)") ![:)](/wiki/europython/img/smile.png ":)")
+all in all it was wonderful. here are some things to improve next time: the food was mostly awful. too much sugar, too much chemical soup and junk food like chips\... too little healthy stuff like fruit and vegs. (the Thai wraps were a nice attempt at healthy but caused some \... \"problems\".) Maybe a more sophisticated pre-conference food-requesting system would help? i know it\'s hard to feed 1000 people with different tastes and ideas of what\'s healthy! but we are smart people and i bet we could figure it out. i\'d rather pay slightly more and have good food available that actually helps me stay alert instead of causing a sugar/carb crash after every break or meal. also, why did they keep taking the coffee away and then bringing it back? that seems silly and weird. +1 for constant coffee supply. i\'d also like to see a reduction in the wasteful packaging of the lunches (how about reusable trays?). those plastic boxes were not necessary at all and i suspect they didn\'t get recycled. perhaps next time somebody should be in charge of keeping a closer eye on the green-ness of the conference. next time let\'s get a place with higher ceilings where the projection screens can be high enough to see the whole screen if you\'re not sitting in the front row. also, better lighting on the speakers. I think the talk schedule should be more flexible too\... a lot of the time slots seemed too short to get into much depth and/or have enough time for questions. others probably should have been a lightning talk, or at least shorter than they were. again, i know it\'s tricky to work out, but it can & should be done. it would be helpful to have step by step instructions and/or some on-the-spot technical helpers for dealing with projector connections for the lightning talks. i would have liked to use Keynote.app\'s presenter view (where my notes are my screen, and the slides are on the projector), but there was no time to figure it out. it\'s really hard to look at paper notes, hold a mic, and advance your slides at the same time. so a working mic stand would have made the lightning talk less awkward. and the podium\'s lip blocked my IR receiver, so I couldn\'t use the remote for slides. location: i can see the point of rosemont being close to o\'hare, but the flip side is that few people got to actually see chicago because it\'s a 45 minute trip. can we manage to be closer to downtown? it would make the evenings more fun. nice job having power strips available everywhere. that was awesome. seriously, great job overall. it\'s easy to pick out the flaws, yet i also truly appreciate the giant effort! (i\'ve organized much smaller conferences, so i can imagine how much more work this was in comparison). thank you, and please get some sleep and take some time off, you super-extra-deserve it! ![:)](/wiki/europython/img/smile.png%20":)") ![:)](/wiki/europython/img/smile.png%20":)") ![:)](/wiki/europython/img/smile.png%20":)")
 
 I agree with some of the criticism out there that the lightning talks should have been from the community, not the sponsors. I would also like it to be more obvious how to find out about open space/BoF activities beyond the \"official\" events.
 
@@ -468,7 +468,7 @@ Figure out how to get the median speaker to improve their public speaking skills
 
 Better wireless network! Improved scheduling of Lightning Talks (eg. the organizer\'s email actually on the website would be a good start\...\...)
 
-Better wireless. The IP talk was really stupid, please filter the keynote speaker who aren\'t from major sponsors (and filter them too if you can get away with it!). I mean, there should be a competition to give keynotes, and part of the submission should be a 5-minute sample from any other talk the speaker has given or will give. Make sure the speaker A) doesn\'t patronize the audience ![B)](/wiki/europython/img/smile2.png "B)") doesn\'t give a super-abstract talk (Brian Fitzpatrick\'s keynote was borderline but still OK).
+Better wireless. The IP talk was really stupid, please filter the keynote speaker who aren\'t from major sponsors (and filter them too if you can get away with it!). I mean, there should be a competition to give keynotes, and part of the submission should be a 5-minute sample from any other talk the speaker has given or will give. Make sure the speaker A) doesn\'t patronize the audience ![B)](/wiki/europython/img/smile2.png%20"B)") doesn\'t give a super-abstract talk (Brian Fitzpatrick\'s keynote was borderline but still OK).
 
 Conference hotel closer to city center.
 
@@ -500,7 +500,7 @@ Less commercial / marketing talks More code / research using python talks Emphas
 
 Better wireless network access (though it was fine after Friday). Free network in rooms. More free food.
 
-Separate or remove the sponsored lightning talks, or at least make them give \"[PyConic](./PyConic.html)\" lightning talks - show us something interesting you do with Python! Also remind 30-minute talk speakers to move quickly into the meat of what they said they\'d talk about - we attend their talks because we\'re interested in what they said, and we probably already know the context and basics before we get there (and if not, that\'s what tutorials are for). And make sure these comment boxes are bigger or at least have scrollbars. ![:)](/wiki/europython/img/smile.png ":)")
+Separate or remove the sponsored lightning talks, or at least make them give \"[PyConic](./PyConic.html)\" lightning talks - show us something interesting you do with Python! Also remind 30-minute talk speakers to move quickly into the meat of what they said they\'d talk about - we attend their talks because we\'re interested in what they said, and we probably already know the context and basics before we get there (and if not, that\'s what tutorials are for). And make sure these comment boxes are bigger or at least have scrollbars. ![:)](/wiki/europython/img/smile.png%20":)")
 
 The quality of the talks to former years was very poor. Too much space for sponsors.
 
@@ -550,7 +550,7 @@ make talk materials more available online. deploy consistently working wifi.
 
 Less corporate, less structure, more open space, more camp-y
 
-I don\'t know. I\'m glad I\'m not an organizer and don\'t have to figure this out ![;)](/wiki/europython/img/smile4.png ";)")
+I don\'t know. I\'m glad I\'m not an organizer and don\'t have to figure this out ![;)](/wiki/europython/img/smile4.png%20";)")
 
 Less sponsor talks!!! More USER talks!!! Give preference to the USERS who would like to speak, not the sponsors, even if it makes the conference cost more!
 
@@ -610,7 +610,7 @@ Either reduce the number of tracks or bring back solid testing/web tracks. I lik
 
 Have better lightning-talks
 
-The network guys worked very hard (WE APPRECIATE YOU!), but we really needed a stable network for the tutorials. The meeting board was functional, but it was hard to search ![:-)](/wiki/europython/img/smile.png ":-)") - perhaps we could try a little more tech in this area. More publicity about stuffing / volunteering opportunities would be nice, especially for those of us not in the \"in crowd\" (and thus a little nervous about just showing up). Maybe I wasn\'t looking in the right place, though.
+The network guys worked very hard (WE APPRECIATE YOU!), but we really needed a stable network for the tutorials. The meeting board was functional, but it was hard to search ![:-)](/wiki/europython/img/smile.png%20":-)") - perhaps we could try a little more tech in this area. More publicity about stuffing / volunteering opportunities would be nice, especially for those of us not in the \"in crowd\" (and thus a little nervous about just showing up). Maybe I wasn\'t looking in the right place, though.
 
 better [WiFi](./WiFi.html) use microphones that clip onto shirts instead of handheld
 
@@ -672,7 +672,7 @@ Sadly, I think the venue isn\'t that great. It\'s convenient but I\'d like a pla
 
 Fewer \'sponsored\' lightning talks: I used to enjoy lightning talks much more.
 
-This was my first Pycon and I was really impressed by it (totally intend to come next year). But traveling alone from another country and being a newbie at [PyCon](../../PyCon) makes it tougher to meet other people. It would be awesome if there were special social sessions for newcomers, maybe a \"[PyCon](../../PyCon) newbie\" BoF ![:)](/wiki/europython/img/smile.png ":)") Keep the great work!
+This was my first Pycon and I was really impressed by it (totally intend to come next year). But traveling alone from another country and being a newbie at [PyCon](../../PyCon) makes it tougher to meet other people. It would be awesome if there were special social sessions for newcomers, maybe a \"[PyCon](../../PyCon) newbie\" BoF ![:)](/wiki/europython/img/smile.png%20":)") Keep the great work!
 
 I found the large amount of laptop usage by the audience distracting from the talks (typing noise and screens). You could restrict power points to rear of halls and ask that laptops aren\'t used near the front. Many of the laptop users I noticed weren\'t even taking notes, but checking email, browsing, etc.
 
@@ -806,13 +806,13 @@ Lightning talks by sponsors ruin the idea of community participation. Do not wan
 
 Awesome seeing that many people (been to Europython a bunch of times\...) The catered box-lunch was great because it encouraged you to sit down with strangers and chat about python!
 
-All in all, I kind of enjoy the not-so-well-organized conference aspect of Pycon. It keeps the community \"we\'re doing this together\" aspect at the forefront. Ultimately, Pycon\'s success may be its downfall. Relying on volunteers may not be possible if the conference keeps growing the way it has been. Keep up the good work! I know the displeasure with all the sponsorship preferred placement has already been loudly voiced, so I won\'t belabor it here. ![:)](/wiki/europython/img/smile.png ":)")
+All in all, I kind of enjoy the not-so-well-organized conference aspect of Pycon. It keeps the community \"we\'re doing this together\" aspect at the forefront. Ultimately, Pycon\'s success may be its downfall. Relying on volunteers may not be possible if the conference keeps growing the way it has been. Keep up the good work! I know the displeasure with all the sponsorship preferred placement has already been loudly voiced, so I won\'t belabor it here. ![:)](/wiki/europython/img/smile.png%20":)")
 
 I really dug the entire thing. I stayed downtown so getting back and forth took a lot of time and money. Next year I\'ll probably stay at the conference then go into town for a few days with my wife instead of staying downtown and commuting. I missed a few good talks on Sunday due to exhaustion with the whole commute thing.
 
 Most bad talks I saw did everything that the wiki page \"Help & Tips For Speakers\" tells you not to do. [http://us.pycon.org/2008/conference/helpforspeakers/](http://us.pycon.org/2008/conference/helpforspeakers/) Hmm. How do we remedy that? Make that page more prominent? Force users to read that when they submit a talk? Something should be done.
 
-Great conference overall ![:)](/wiki/europython/img/smile.png ":)")
+Great conference overall ![:)](/wiki/europython/img/smile.png%20":)")
 
 Nope. I liked it for the most part!
 
@@ -830,7 +830,7 @@ I appreciated all the effort that went into it. I believe it was accomplished by
 
 I had a great time! You guys did a great job! Thanks!
 
-Probably. ![;-)](/wiki/europython/img/smile4.png ";-)")
+Probably. ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
 This was my third Pycon. It is a \"hobby\" for me and well worth my time and money. I especially like the tutorial offerings, as these provide more in depth knowledge for me. Overall, it was a super conference. Hopefully, I can someday contribute to this event in some way.
 
@@ -898,7 +898,7 @@ Thanks for organizing.
 
 I think the conference itself was fine. My focus, though, is scientific and engineering. It probably is better if I go to [SciPy](SciPy) which is more focused on my interests.
 
-I am overall very satisfied. Maybe the talks could be a little longer next yearand not so many of them? ![:-)](/wiki/europython/img/smile.png ":-)")
+I am overall very satisfied. Maybe the talks could be a little longer next yearand not so many of them? ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 Loved the tutorials and conference, but the price of food at hotel was outrageous!
 
@@ -1008,7 +1008,7 @@ I didn\'t mind the sponsorship level at all, however some of the presentations m
 
 Lightning talks were spectacular. Thanks very much, it was awesome.
 
-Great work ![:)](/wiki/europython/img/smile.png ":)")
+Great work ![:)](/wiki/europython/img/smile.png%20":)")
 
 Great overall - especially the sprints this year
 
@@ -1136,7 +1136,7 @@ It was awesome!
 
 I was a little disappointed with the way the schedule was arranged. There were a number of time blocks for which I wasn\'t interested in any of the talks, but Sunday had a lot of high-quality talks scheduled opposite each other.
 
-They wanted to charge me \$3.25 for a plain bagel. Other than that, I loved it ![;)](/wiki/europython/img/smile4.png ";)")
+They wanted to charge me \$3.25 for a plain bagel. Other than that, I loved it ![;)](/wiki/europython/img/smile4.png%20";)")
 
 It was great. I had a blast! Thank you so much for allowing me to attend! You guys rock - really.
 
@@ -1196,7 +1196,7 @@ You all worked really hard, and it shows in the quality of the conference. Thank
 
 Don\'t listen to Bruce Eckel.
 
-Thank you for the opportunity! ![:)](/wiki/europython/img/smile.png ":)")
+Thank you for the opportunity! ![:)](/wiki/europython/img/smile.png%20":)")
 
 The A/V guys were INCREDIBLY great - many thanks! Having the videos digitized so quickly was just so much appreciated. [PyCon](../../PyCon) 2008 was by far the best ever - I\'ll be back if I have to ride my bicycle from Texas!
 
@@ -1228,7 +1228,7 @@ Regarding talks: I know it must be hard to separate wheat from chaff, and I real
 
 Thank you for putting on this great conference. lightning talks on Sunday were great.
 
-For a first time \"newbie\" to [PyCon](../../PyCon), I am very impressed with the community. I will definitely be back next year - employer willing\... ![;)](/wiki/europython/img/smile4.png ";)")
+For a first time \"newbie\" to [PyCon](../../PyCon), I am very impressed with the community. I will definitely be back next year - employer willing\... ![;)](/wiki/europython/img/smile4.png%20";)")
 
 I was not very impressed with the venue. Most of the conventions I\'ve been to previously use university grounds (out of semester), and the quality of experience using proper lecture theaters was much higher. Good projection capabilities, staggered seating giving better view of the presenter and slides, cheaper/more varied food options, and at least in this case, better location. On-campus accommodation is usually much cheaper as well. I have no idea if this is practical in the USA though.
 
@@ -1246,7 +1246,7 @@ I enjoyed talking to some of the exhibitors about IT in their business, and abou
 
 bruce eckel shall be shanghaied onto program committee.
 
-Seems like the breakout rooms and lightning talks were awfully low-tech given the people here. Couldn\'t someone serve a sign-up system and post real-time updates on a few displays? Would be a great demo project actually, maybe you could sell it to the hotel when you were done ![:)](/wiki/europython/img/smile.png ":)") They have those pretty HD displays all over and not a lot on them\... make the system development a tutorial project even?
+Seems like the breakout rooms and lightning talks were awfully low-tech given the people here. Couldn\'t someone serve a sign-up system and post real-time updates on a few displays? Would be a great demo project actually, maybe you could sell it to the hotel when you were done ![:)](/wiki/europython/img/smile.png%20":)") They have those pretty HD displays all over and not a lot on them\... make the system development a tutorial project even?
 
 fun
 
@@ -1258,7 +1258,7 @@ Well done, scheduling was very good.
 
 This was my first [PyCon](../../PyCon), and I\'ve been somewhat disappointed; the wifi was quite flaky, the talks were largely uninteresting (albeit there were some gems), and corporate sponsorship seems to have run amok. I hope I can get involved with [PyCon](../../PyCon) planning for next year (as I live in Chicago) to help improve things. ^\_^
 
-Great conference. Loved the abundant power and wireless. Hopefully I\'ll get more sleep next time ![;)](/wiki/europython/img/smile4.png ";)")
+Great conference. Loved the abundant power and wireless. Hopefully I\'ll get more sleep next time ![;)](/wiki/europython/img/smile4.png%20";)")
 
 The Python conference should be about sharing ideas from the community, a look at what others are doing and to finally meet the people you\'ve been conversing with online. It should not be a festival of people bragging about how cool their company is without any look at the underlying technology and then fishing for recruits. Have a recruitment area, even a meet-and-greet event, but don\'t revolve up a new vendor every 5 minutes. Review talks to ensure that they are about Python, the [IronPython](../../../../implementations/IronPython) talk was about 10 minutes of Python, a few minutes of Django and then a smattering of Silverlight.
 

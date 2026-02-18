@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## PSF Logo Suggestions
 
-**Note:** This page describes older suggestions for a PSF logo. The official versions are listed on the [PSF Logos](PSF Logos) page.
+**Note:** This page describes older suggestions for a PSF logo. The official versions are listed on the [PSF Logos](PSF%20Logos) page.
 
 ::: 
 Contents

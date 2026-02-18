@@ -34,13 +34,13 @@ Agenda:
     - Nicole requires the following to be reviewed:
       - Documentation research plan before posting to GitHub: [https://hackmd.io/q1TjDssCTyWDdi_tv_a8BQ?both](https://hackmd.io/q1TjDssCTyWDdi_tv_a8BQ?both)
 
-        - Georgia has reviewed - thank you ![:)](/wiki/europython/img/smile.png ":)")
+        - Georgia has reviewed - thank you ![:)](/wiki/europython/img/smile.png%20":)")
 
         - Need others to also look at it
 
       - Survey for gathering user feedback on pip search: [https://forms.gle/qY7PA3U4QHmo9Ao66](https://forms.gle/qY7PA3U4QHmo9Ao66) (see [https://github.com/pypa/pip/issues/5216#issuecomment-658690246](https://github.com/pypa/pip/issues/5216#issuecomment-658690246))
 
-        - Paul has reviewed ![:)](/wiki/europython/img/smile.png ":)")
+        - Paul has reviewed ![:)](/wiki/europython/img/smile.png%20":)")
 
         - Need others to also look at it
 

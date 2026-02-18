@@ -12,7 +12,7 @@ Does a project have to already be using buildbot to use this community buildbot?
 
 ### Answer 
 
-No, you don\'t need to drink any buildbot Kool Aid at all ![:-)](/wiki/europython/img/smile.png ":-)")
+No, you don\'t need to drink any buildbot Kool Aid at all ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 The idea is this: let\'s say you work on project Foo, or decide to help project Foo. You just need to figure out how to run project Foo\'s unit tests from the command line. Once you have a shell script or python script that does that, my [instructions](http://agiletesting.blogspot.com/2006/08/setting-up-pybots-buildslave.html) show you how to set up a buildslave that runs that script every time a checkin is made into Python trunk, using the newly built Python binary. This way, both project Foo\'s developers and the Python core developers will know if things suddenly start breaking in project Foo because of new/modified code in Python trunk.
 
@@ -46,7 +46,7 @@ I\'d like to be able to run the \'prepare\' script (the one that installs the pr
 
 The way this works is that the buildmaster will send the command \"run_tests.py prepare\" to your buildslave. You run_tests.py script will have to be able to interpret the \'prepare\' command line argument and launch the appropriate pre-requisite installation script.
 
-Thanks to Manuzhai for asking for this feature ![:-)](/wiki/europython/img/smile.png ":-)")
+Thanks to Manuzhai for asking for this feature ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 ### Question 
 
@@ -80,7 +80,7 @@ The other security implication is that there is a \"Force build\" button on the 
 
 ### Question 
 
-OK, but I am still a little worried about the possibility of using the build machine for purposes such as e.g. sending out spam mail. After all, the buildbot system is per definition a bot net ![:-)](/wiki/europython/img/smile.png ":-)")
+OK, but I am still a little worried about the possibility of using the build machine for purposes such as e.g. sending out spam mail. After all, the buildbot system is per definition a bot net ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 Is there some level of control as to what gets executed on the build slaves?
 
@@ -94,6 +94,6 @@ I don\'t have a project Foo right now. Do you know of a couple candidates?
 
 ### Answer 
 
-Maybe pick one of your favorite Python packages, and take it from there\.....Anything at all really would be very well received into the pybots project ![:-)](/wiki/europython/img/smile.png ":-)") I\'d really like to get some momentum going, so the more people support the project, the better chance it will actually get somewhere\....
+Maybe pick one of your favorite Python packages, and take it from there\.....Anything at all really would be very well received into the pybots project ![:-)](/wiki/europython/img/smile.png%20":-)") I\'d really like to get some momentum going, so the more people support the project, the better chance it will actually get somewhere\....
 
 One suggestion though: how about running the automated tests for your favorite Web framework? Django, or [TurboGears](../web/TurboGears) for example. In the case of TG, it would actually be very interesting to run the tests for the individual packages that make up TG\....And maybe it will encourage the Web framework developers to donate more buildbots for other platforms\...

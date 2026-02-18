@@ -12,7 +12,7 @@ How the PSF runs: membership, elections, board processes, and organizational str
 - [New Membership Model](NewMembershipModel) -- The 2013 membership model (v1.1.1) that introduced Basic, Supporting, Managing, Contributing, and Fellow tiers
 - [Membership Model Visualization](MembershipModelVisualization) -- Diagram of the membership tiers and their relationships
 - [Membership Model Talks](MembershipModelTalks) -- Slide decks from FOSDEM 2014 and other conferences explaining the new model
-- [Info for New PSF Members](Info for new PSF members) -- What to expect after accepting a PSF membership nomination
+- [Info for New PSF Members](Info%20for%20new%20PSF%20members) -- What to expect after accepting a PSF membership nomination
 
 ## Elections & Nominations
 

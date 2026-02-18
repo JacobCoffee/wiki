@@ -16,7 +16,7 @@ Please see these links to my website and blog for details about me:
 
 - [Things I\'ve done for Python and the community](http://www.malemburg.com/summary)
 
-- My company [eGenix.com](http://www.egenix.com/) - *We implement business ideas - efficiently in both time and costs.* (using Python, of course ![:-)](/wiki/europython/img/smile.png ":-)") )
+- My company [eGenix.com](http://www.egenix.com/) - *We implement business ideas - efficiently in both time and costs.* (using Python, of course ![:-)](/wiki/europython/img/smile.png%20":-)") )
 
 I\'m available as senior architect, project manager and consultant. I also do coaching of development teams and training. If you\'re interested, please have a look at these links:
 

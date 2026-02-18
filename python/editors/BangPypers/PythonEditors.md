@@ -24,4 +24,4 @@ Some of the Python Editors which featured discussion at [BangPypers](../../commu
 
 [http://www.netbeans.org/features/python/](http://www.netbeans.org/features/python/) [http://wiki.netbeans.org/NetBeansPythonTutorial](http://wiki.netbeans.org/NetBeansPythonTutorial)
 
-Thanks for the cooperation ![:-))](/wiki/europython/img/smile3.png ":-))")
+Thanks for the cooperation ![:-))](/wiki/europython/img/smile3.png%20":-))")

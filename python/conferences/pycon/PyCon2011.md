@@ -15,7 +15,7 @@ PyCon 2011 will take place in Atlanta, Georgia at the Hyatt Regency Atlanta hote
 ::: 
 #### PyCon 2011 Wiki Pages
 
-- [PyCon2011/Distro Sprint](PyCon2011/Distro Sprint)
+- [PyCon2011/Distro Sprint](PyCon2011/Distro%20Sprint)
 
 ------------------------------------------------------------------------
 

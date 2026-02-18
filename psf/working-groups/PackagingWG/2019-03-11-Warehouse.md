@@ -48,9 +48,9 @@ Planned next steps:
   - (set up necessary discussions among Trail of Bits, Nicole, Dustin, and Donald)
 - Nicole - look at that PR, talk with Will about needed views/templates
 
-Tabled Activities: none ![:-)](/wiki/europython/img/smile.png ":-)")
+Tabled Activities: none ![:-)](/wiki/europython/img/smile.png%20":-)")
 
-Issues/Blockages: None! Trail of Bits & Nicole - contracts are ok ![:-)](/wiki/europython/img/smile.png ":-)")
+Issues/Blockages: None! Trail of Bits & Nicole - contracts are ok ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 Question: OTF reporting?
 

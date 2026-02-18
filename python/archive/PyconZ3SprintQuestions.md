@@ -34,6 +34,6 @@ Experience: I hope I\'m not totally over my head here,
 
 - Jim says: nah
 
-I suspect I\'m the biggest noob of the bunch. I\'ve never done XP before. I\'ve been a pythonista since about \'99 and working with Zope 2 almost as long; currently I\'m a full-time Zope / python developer. But I haven\'t done squat with Z3 and i have limited time to play with it before Monday. I did read [http://www.xprogramming.com/xpmag/pairing.htm](http://www.xprogramming.com/xpmag/pairing.htm) and feel a bit better ![:)](/wiki/europython/img/smile.png ":)")
+I suspect I\'m the biggest noob of the bunch. I\'ve never done XP before. I\'ve been a pythonista since about \'99 and working with Zope 2 almost as long; currently I\'m a full-time Zope / python developer. But I haven\'t done squat with Z3 and i have limited time to play with it before Monday. I did read [http://www.xprogramming.com/xpmag/pairing.htm](http://www.xprogramming.com/xpmag/pairing.htm) and feel a bit better ![:)](/wiki/europython/img/smile.png%20":)")
 
-Pair programming & editor wars: i can work OK in vim or emacs, but what if my partner won\'t work without his Bloatware IDE [SuperDeluxe](./SuperDeluxe.html)? ![;-)](/wiki/europython/img/smile4.png ";-)")
+Pair programming & editor wars: i can work OK in vim or emacs, but what if my partner won\'t work without his Bloatware IDE [SuperDeluxe](./SuperDeluxe.html)? ![;-)](/wiki/europython/img/smile4.png%20";-)")

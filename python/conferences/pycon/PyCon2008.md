@@ -39,16 +39,16 @@ March 17-20 (Monday-Thursday) Sprints
 ::: 
 #### PyCon 2008 Wiki Pages
 
-- [Sprint Accomplishments](../../sprints/Sprint Accomplishments)
-- [Attendee Notes](../../people/Attendee Notes) (addenda to [http://us.pycon.org/2008/about/notes/](http://us.pycon.org/2008/about/notes/))
-- [Volunteer Signup](../../people/Volunteer Signup)
+- [Sprint Accomplishments](../../sprints/Sprint%20Accomplishments)
+- [Attendee Notes](../../people/Attendee%20Notes) (addenda to [http://us.pycon.org/2008/about/notes/](http://us.pycon.org/2008/about/notes/))
+- [Volunteer Signup](../../people/Volunteer%20Signup)
 - [Open Space](PyCon2008/OpenSpace) ([Open Space Talk Titles](PyCon2008/OpenSpaceTalkTitles))
 - [Sprint Signups](PyCon2008/SprintSignups)
 - [Birds of a Feather](PyCon2008/BirdsOfAFeather)
 - [Room Sharing](./PyCon2008(2f)Room_Sharing.html)
 - [Organizers\' Meetings](PyCon2008/OrganizersMeetings) agenda and info.
 - [Staff](PyCon2008/Staff)
-- [Talk Subjects](../../people/Talk Subjects) - Want to talk but not sure what to talk about?
+- [Talk Subjects](../../people/Talk%20Subjects) - Want to talk but not sure what to talk about?
 - [Bid requirements](http://wiki.python.org/moin/PyConPlanning/BidRequirements) (see its \"[Further Info](http://wiki.python.org/moin/PyConPlanning/BidRequirements#further-info)\" section).
 - Cities that bid:
   - Boston, organizer SJ Klein - sj at laptop .org

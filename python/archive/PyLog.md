@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-PyLog seems to cluttered ![:)](/wiki/europython/img/smile.png ":)")
+PyLog seems to cluttered ![:)](/wiki/europython/img/smile.png%20":)")
 
 ## PyLog as interface to SWI Prolog 
 

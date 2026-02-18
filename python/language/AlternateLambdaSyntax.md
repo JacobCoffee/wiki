@@ -348,7 +348,7 @@ Talin: \'given\' keyword (Same as the \'for no parens\' except uses a different 
 :::
 ::::
 
-If you don\'t like `anynomous` for the name, suggest something else! ![;)](/wiki/europython/img/smile4.png ";)")
+If you don\'t like `anynomous` for the name, suggest something else! ![;)](/wiki/europython/img/smile4.png%20";)")
 
 ### Real Closures 
 

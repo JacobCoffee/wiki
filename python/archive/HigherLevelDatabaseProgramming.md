@@ -48,7 +48,7 @@ There are several wrappers that provide improved or simplified interfaces to SQL
 
 - [gnue-common](http://gnuenterprise.org/tools/common/): gnue.common.datasources module - Database abstraction layer
 
-- [Roundup\'s hyperdb](http://roundup.sf.net/): set of constrained data types with relations (many-to-many included) over multiple backends including SQL, metakit and db (yes, relations in an anydbm-backed database ![:)](/wiki/europython/img/smile.png ":)")
+- [Roundup\'s hyperdb](http://roundup.sf.net/): set of constrained data types with relations (many-to-many included) over multiple backends including SQL, metakit and db (yes, relations in an anydbm-backed database ![:)](/wiki/europython/img/smile.png%20":)")
 
 - [ll.sql](http://www.livinglogic.de/Python/sql/): SQL generator
 

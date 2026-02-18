@@ -88,7 +88,7 @@ Guido said it was \"impossible\",
 
 - [http://mail.python.org/pipermail/edu-sig/2007-February/007794.html](http://mail.python.org/pipermail/edu-sig/2007-February/007794.html)
 
-so it would make a nice challenge for someone (perhaps even moving Jython ahead of Python in some ways. ![:-)](/wiki/modernized/img/smile.png ":-)") No guarantee of success, but a worth effort which would certainly require someone to learn the core of Jython and how it does exception handling. For inspiration, see:
+so it would make a nice challenge for someone (perhaps even moving Jython ahead of Python in some ways. ![:-)](/wiki/modernized/img/smile.png%20":-)") No guarantee of success, but a worth effort which would certainly require someone to learn the core of Jython and how it does exception handling. For inspiration, see:
 
 - \"What\'s that you say? Impossible, is it? We\'ll just see about that.\"
 

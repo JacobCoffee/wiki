@@ -596,7 +596,7 @@ Ewa\'s slides shown at the PSF booth: [http://prezi.com/8kgq9e9o_1fk/?utm_campai
 
 - DG organizers returned and discussed other workshops they are interested in putting on. They are interested in putting on workshops with raspberry pis
 
-- Armin's talk Python having stageful modules & how Flask helps with state management. Flask is commonly used by developers in Korea so Armin\'s talk and presence at the conference was very well received. He was asked for pictures and autographs several times during his time at the PSF booth ![:)](/wiki/europython/img/smile.png ":)")
+- Armin's talk Python having stageful modules & how Flask helps with state management. Flask is commonly used by developers in Korea so Armin\'s talk and presence at the conference was very well received. He was asked for pictures and autographs several times during his time at the PSF booth ![:)](/wiki/europython/img/smile.png%20":)")
 
 - Maciej's talk was great - funding open source. Open Source is saving companies billions. We need to make corps see this so we can use some of those saved funds to help support and maintain OS. His talk would be great for our Sponsorship WG to see unfortunately it was not recorded ![:(](/wiki/europython/img/sad.png ":(")
 

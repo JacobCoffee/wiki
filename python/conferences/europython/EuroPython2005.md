@@ -46,7 +46,7 @@ Here\'s a collection of blogs about the conference.
 
 - [Reinout van Rees](http://vanrees.org/weblog/1119870845)
 
-- [Michael Sparks](http://cerenity.org/Europython/2005.html) (Looks like the talks I attended have a low cross over with those Reinout described ![:-)](/wiki/europython/img/smile.png ":-)") )
+- [Michael Sparks](http://cerenity.org/Europython/2005.html) (Looks like the talks I attended have a low cross over with those Reinout described ![:-)](/wiki/europython/img/smile.png%20":-)") )
 
 - More\...
 

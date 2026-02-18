@@ -18,4 +18,4 @@ We\'re working\... and yes, we\'re hijacking it for pydotorg purposes a little b
 
 [http://psf.pollenation.net/](http://psf.pollenation.net/)
 
-It was good meeting you guys there, I had fun. ![:)](/wiki/europython/img/smile.png ":)") \-- [BjornStabell](../../../people/BjornStabell) ([my blog](http://stabell.org/))
+It was good meeting you guys there, I had fun. ![:)](/wiki/europython/img/smile.png%20":)") \-- [BjornStabell](../../../people/BjornStabell) ([my blog](http://stabell.org/))

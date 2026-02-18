@@ -96,7 +96,7 @@ These are decisions you *have to* make, and perhaps you already realized one ver
 
 You may now wonder - please do! - how pytest knows which methods to run. Well, there *has* to be some magic going on behind the scenes, because you don\'t see any `testsuite.run(method)`{.backtick} or `testsuite.add(class_instance)`{.backtick} etc. Well, you\'re right. There *is* some serious magic going on and here there be dragons, but the programmer API is very simple. It\'s all transparent.
 
-That is, every class starting with *Test* and every method starting with *test\_* is treated specially and considered to be part of unit test suite. Also, assert is *very* magic, but you don\'t need to know that\... just use it as you are, well, used to ![:-)](/wiki/europython/img/smile.png ":-)") Things are that way just to give you cleaner, more informative tracebacks, and more fulfilling and rewarding unit-testing experience.
+That is, every class starting with *Test* and every method starting with *test\_* is treated specially and considered to be part of unit test suite. Also, assert is *very* magic, but you don\'t need to know that\... just use it as you are, well, used to ![:-)](/wiki/europython/img/smile.png%20":-)") Things are that way just to give you cleaner, more informative tracebacks, and more fulfilling and rewarding unit-testing experience.
 
 There are so many oh-so-nice features in pytest, making it quite cute tool to work with. Here I will only list some of them:
 
@@ -105,7 +105,7 @@ There are so many oh-so-nice features in pytest, making it quite cute tool to wo
 - running tests will start immediately upon collecting them
 - you can start pytest in daemon mode, which will then constantly monitor your modules for changes and running tests automatically when needed
 
-So, if you consider giving [TestDrivenDevelopment](TestDrivenDevelopment) a try, please try pytest at least. It makes writing unit tests much more **fun** ![:-)](/wiki/europython/img/smile.png ":-)")
+So, if you consider giving [TestDrivenDevelopment](TestDrivenDevelopment) a try, please try pytest at least. It makes writing unit tests much more **fun** ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 More information:
 

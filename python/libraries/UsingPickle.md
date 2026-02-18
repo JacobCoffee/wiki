@@ -71,6 +71,6 @@ For this reason, you should be wary of using pickles for long-term storage where
 
 - 1 Edit the source code to create the object under the new name AND store a copy under the old name. 2 Unpickle and re-pickle EVERY pickle affected by the change. 3 Edit the source code to remove storing the new object under the old name.
 
-A more robust approach would be to perform step one above, and just leave it at that, in case you missed a pickle or two. If desired, you can then perform step 3 after you judge normal processing to have performed step 2 for you, say, a couple years later. ![;)](/wiki/europython/img/smile4.png ";)")
+A more robust approach would be to perform step one above, and just leave it at that, in case you missed a pickle or two. If desired, you can then perform step 3 after you judge normal processing to have performed step 2 for you, say, a couple years later. ![;)](/wiki/europython/img/smile4.png%20";)")
 
 Awkward, but it works. Anyone have any ideas for a better way to do this? \--[lwickjr](../archive/lwickjr)

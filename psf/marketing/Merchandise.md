@@ -36,8 +36,8 @@ Created by [MarcAndreLemburg](../people/MarcAndreLemburg) in 2013. Please contac
 
 ##### PSF Associate Membership bookmark 
 
-![PSF Associate Membership bookmark (front)](attachments/Merchandise/PSF-AM-Bookmark-front.png "PSF Associate Membership bookmark (front)")\
-![PSF Associate Membership bookmark (back)](attachments/Merchandise/PSF-AM-Bookmark-back.png "PSF Associate Membership bookmark (back)")\
+![PSF Associate Membership bookmark (front)](attachments/Merchandise/PSF-AM-Bookmark-front.png%20"PSF%20Associate%20Membership%20bookmark%20(front)")\
+![PSF Associate Membership bookmark (back)](attachments/Merchandise/PSF-AM-Bookmark-back.png%20"PSF%20Associate%20Membership%20bookmark%20(back)")\
 
 Dimensions: 5.2 x 14.8 cm (DIN A7 long, two-sided)
 

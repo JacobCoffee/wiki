@@ -90,7 +90,7 @@ Agenda
 
         - Georgia: Maybe we can align with other efforts that are going on in open source 
 
-        - If this leads to a proposal in the future, Simply Secure can help work on this ![:)](/wiki/europython/img/smile.png ":)")
+        - If this leads to a proposal in the future, Simply Secure can help work on this ![:)](/wiki/europython/img/smile.png%20":)")
     - If we wanted to explore the idea of creating a pip package for user research, how could that potentially happen?
       - Sumana: debian bug report CLI tool - reportbug
       - Bernard: debian popcon --- lightweight consent around collecting metrics

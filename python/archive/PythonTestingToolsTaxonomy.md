@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Join the [Testing In Python (TIP)](http://lists.idyll.org/listinfo/testing-in-python) mailing list for Python testing tools discussions!
 
-![(!)](/wiki/europython/img/idea.png "(!)") This wiki page is originated from [PyCheeseCake](http://pycheesecake.org/wiki/PythonTestingToolsTaxonomy) and it was originally created by [Grig Gheorghiu](http://agiletesting.blogspot.com/2011/08/new-location-for-python-testing-tools.html)
+![(!)](/wiki/europython/img/idea.png%20"(!)") This wiki page is originated from [PyCheeseCake](http://pycheesecake.org/wiki/PythonTestingToolsTaxonomy) and it was originally created by [Grig Gheorghiu](http://agiletesting.blogspot.com/2011/08/new-location-for-python-testing-tools.html)
 
 ## Unit Testing Tools 
 

@@ -38,4 +38,4 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 **How do I get SVN commit access?**
 
-- Those of you who\'ll contribute more than the occasional patch (which can be just mailed to a committer) can get SVN access to svn.python.org. For that, I\'ll need an SSH2 compatible public key, your full name and, of course, your word that you won\'t touch things outside the documentation tree ![:)](/wiki/europython/img/smile.png ":)")
+- Those of you who\'ll contribute more than the occasional patch (which can be just mailed to a committer) can get SVN access to svn.python.org. For that, I\'ll need an SSH2 compatible public key, your full name and, of course, your word that you won\'t touch things outside the documentation tree ![:)](/wiki/europython/img/smile.png%20":)")

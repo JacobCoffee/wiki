@@ -97,7 +97,7 @@ Agenda:
       - Is shaking things up or trying to establish some of these procedures worthy? Lead via UX research results.
 
       - Nicole: yeah, we want to formally establish \"there is no procedure right now, it is all ad hoc\" and then go from there. We had not seen any procedures at all.
-        - Paul: I\'ll confirm that\'s true ![:-)](/wiki/europython/img/smile.png ":-)")
+        - Paul: I\'ll confirm that\'s true ![:-)](/wiki/europython/img/smile.png%20":-)")
 
         - Pradyun: I\'ve just been nodding in agreement to the entire discussion.
 
@@ -199,4 +199,4 @@ Pradyun: One thing I think, that might be missing: pip check / pip list / pip fr
 
 - Bernard: will add this to potential backlog
 
-- sounds fine to me. ![:)](/wiki/europython/img/smile.png ":)")
+- sounds fine to me. ![:)](/wiki/europython/img/smile.png%20":)")

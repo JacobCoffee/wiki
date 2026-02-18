@@ -66,7 +66,7 @@ You can add additional topics below. Please discuss the specific goals and possi
 
     [TimPeters](../../people/TimPeters): what does \"ordered dictionary\" mean? For example, sorted by key value, or sorted by insertion time?
 
-    [PatrickObrien](./PatrickObrien.html): one definition of \"ordered dictionary\" is the order of insertion. The best Python implementation, including extensive unit tests, is available here: [source code](http://schevo.org/trac/browser/trunk/Schevo/schevo/lib/odict.py), [unit tests](http://schevo.org/trac/browser/Schevo/trunk/tests/test_odict.py?rev=2066) ([Anthon van der Neut](../../archive/Anthon van der Neut): unit tests seem to have been replaced by [doctests](http://schevo.org/trac/browser/trunk/Schevo/schevo/test/test_odict.py)).
+    [PatrickObrien](./PatrickObrien.html): one definition of \"ordered dictionary\" is the order of insertion. The best Python implementation, including extensive unit tests, is available here: [source code](http://schevo.org/trac/browser/trunk/Schevo/schevo/lib/odict.py), [unit tests](http://schevo.org/trac/browser/Schevo/trunk/tests/test_odict.py?rev=2066) ([Anthon van der Neut](../../archive/Anthon%20van%20der%20Neut): unit tests seem to have been replaced by [doctests](http://schevo.org/trac/browser/trunk/Schevo/schevo/test/test_odict.py)).
 
     [OrenTirosh](./OrenTirosh.html): You can find several independent implementations of an order-preserving dictionary, nearly all of them called \"odict\". This kind of \"convergent evolution\" is a good hint that people want it.
 

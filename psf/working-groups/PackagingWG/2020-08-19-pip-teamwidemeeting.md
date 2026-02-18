@@ -57,7 +57,7 @@ Agenda:
 
     - Nicole: Not ideal, but reasonable
 
-    - Bernard: Given the constraint of time, it\'s \[best/good\]. Pradyun, please only mock this up (don\'t implement it in code). Low fidelity is better ![:)](/wiki/europython/img/smile.png ":)")
+    - Bernard: Given the constraint of time, it\'s \[best/good\]. Pradyun, please only mock this up (don\'t implement it in code). Low fidelity is better ![:)](/wiki/europython/img/smile.png%20":)")
 
     - Sumana: \"sketches\", not prototypes.
       - If I can think abotu what a decoration might be, two distinct approaches (examples of decorations)

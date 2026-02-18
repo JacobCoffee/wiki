@@ -34,7 +34,7 @@ executing statements logically belongs in the connection object, not in the curs
 
 (Alas, then you could only loop over a single set of results at a time. I think the current cursor concept makes sense. -skip)
 
-Enough ranting for now, more will come some day. Maybe somebody can clean this up and add a few thoughts ![:)](/wiki/europython/img/smile.png ":)")
+Enough ranting for now, more will come some day. Maybe somebody can clean this up and add a few thoughts ![:)](/wiki/europython/img/smile.png%20":)")
 
 \-\--
 

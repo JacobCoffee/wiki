@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-==Satyaakam Goswami aka satyag was dingo before i lost my nick ![;-)](/wiki/europython/img/smile4.png ";-)")
+==Satyaakam Goswami aka satyag was dingo before i lost my nick ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
 - I am Free and Open Source Software consultant from India focussing on Business and IT infrastructure Apps
 

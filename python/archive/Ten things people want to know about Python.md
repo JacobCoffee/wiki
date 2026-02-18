@@ -6,13 +6,13 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-11 August 2008: [Guido van Rossum](Guido van Rossum) mentions (on a the PSF private mailing list) via IRC #python/presence/42088545 this formulation:
+11 August 2008: [Guido van Rossum](Guido%20van%20Rossum) mentions (on a the PSF private mailing list) via IRC #python/presence/42088545 this formulation:
 
 ## Top 10 Python FAQ 
 
-1.  [Why is Python a dynamic language and also a strongly typed language](Why is Python a dynamic language and also a strongly typed language)?
+1.  [Why is Python a dynamic language and also a strongly typed language](Why%20is%20Python%20a%20dynamic%20language%20and%20also%20a%20strongly%20typed%20language)?
 
-2.  [Which IDE is good for Python](Which IDE is good for Python)?
+2.  [Which IDE is good for Python](Which%20IDE%20is%20good%20for%20Python)?
 
 3.  [Any good Python book?](./Any(20)good(20)Python(20)book(3f).html)
 
@@ -22,13 +22,13 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 6.  [Which GUI is best for python?](./Which(20)GUI(20)is(20)best(20)for(20)python(3f).html)
 
-7.  [Why is Python slower than the xxx language](Why is Python slower than the xxx language)?
+7.  [Why is Python slower than the xxx language](Why%20is%20Python%20slower%20than%20the%20xxx%20language)?
 
 8.  [How to start learning Python? Any suggestions](./How(20)to(20)start(20)learning(20)Python(3f20)Any(20)suggestions.html)?
 
-9.  [Is there any tiny project or source for participation or reference](Is there any tiny project or source for participation or reference)?
+9.  [Is there any tiny project or source for participation or reference](Is%20there%20any%20tiny%20project%20or%20source%20for%20participation%20or%20reference)?
 
-10. [How to make exe on Windows](../guides/How to make exe on Windows) (run without Python preinstalled)?
+10. [How to make exe on Windows](../guides/How%20to%20make%20exe%20on%20Windows) (run without Python preinstalled)?
 
 ## i18N 
 

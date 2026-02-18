@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Working on various Python stuff\...
 
-- [MartinvonLoewis/Python 3 For Metro](../archive/MartinvonLoewis/Python 3 For Metro)
+- [MartinvonLoewis/Python 3 For Metro](../archive/MartinvonLoewis/Python%203%20For%20Metro)
 
 A few links to IPv6 only sites. Will search engines pick them up?
 

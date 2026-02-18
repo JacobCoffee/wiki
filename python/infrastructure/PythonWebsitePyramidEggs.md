@@ -24,7 +24,7 @@ and you should be done\...
 
 ## Further Eggs\'perimentation 
 
-If you want to try installing everything from eggs, you\'ll have a few problems - I hope these can get sorted as they could make installing and dependencies etc,. a painless process I\'m looking forward to when I can do \'easy_install pyramid\' and all dependencies follow ![:-)](/wiki/europython/img/smile.png ":-)") .. I think docutils should work but I\'ve not built a roman egg for it yet. Twisted 2 and Zope Interfaces definitely don\'t work so you\'ll have to build those from source. Pyramid also doesn\'t work as it requires a script (which eggs will support soon I believe).
+If you want to try installing everything from eggs, you\'ll have a few problems - I hope these can get sorted as they could make installing and dependencies etc,. a painless process I\'m looking forward to when I can do \'easy_install pyramid\' and all dependencies follow ![:-)](/wiki/europython/img/smile.png%20":-)") .. I think docutils should work but I\'ve not built a roman egg for it yet. Twisted 2 and Zope Interfaces definitely don\'t work so you\'ll have to build those from source. Pyramid also doesn\'t work as it requires a script (which eggs will support soon I believe).
 
 easy_install [http://pyramid.pollenation.net/download/docutils-0.3.10-py2.4.egg](http://pyramid.pollenation.net/download/docutils-0.3.10-py2.4.egg) (this needs the roman module which I haven\'t built an egg for or tested yet)
 

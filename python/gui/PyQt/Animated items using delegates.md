@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 A nasty hack involving a custom delegate, timer events and a signal to inform a view that it needs to repaint itself. It is just a proof of concept.
 
-Perhaps a better example might be [Animated items using delegates and movies](Animated items using delegates and movies).
+Perhaps a better example might be [Animated items using delegates and movies](Animated%20items%20using%20delegates%20and%20movies).
 
 Things that are wrong with this code:
 

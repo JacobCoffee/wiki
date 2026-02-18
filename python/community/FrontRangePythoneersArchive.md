@@ -212,7 +212,7 @@ Audio and other presentation materials can be found [here](http://us.pycon.org/a
 
 - Fernando Perez presented his joint talk with Brian Granger (not present), \"IPython: Getting the most out of working interactively in Python\": IPython (if you do not know it yet) is an enhanced interactive shell for Python. It provides a large number of features not found in the default shell that make interactive work in Python more seamless and convenient. [Slides](http://us.pycon.org/common/talkdata/PyCon2007/058/ipython_pycon_2007.pdf).
 
-- Jim Baker presented \"Iterators in Action\": Using iterators well can make your code lean and your programming fun. We will distill current best practice by investigating some (mostly) useful examples of iterators in action. With the help of itertools and various cookbook recipes, we\'ll look at such examples as computing Six Sigma stats, parsing/collating lots of log files, and performing fast prefix lookups of the data your users most want to see (assuming you have a good relevancy scorer, of course). We will even see why Raymond Hettinger must say no so often ![:)](/wiki/europython/img/smile.png ":)") [Slides](http://us.pycon.org/common/talkdata/PyCon2007/028/IteratorsInActionWithNotes.pdf).
+- Jim Baker presented \"Iterators in Action\": Using iterators well can make your code lean and your programming fun. We will distill current best practice by investigating some (mostly) useful examples of iterators in action. With the help of itertools and various cookbook recipes, we\'ll look at such examples as computing Six Sigma stats, parsing/collating lots of log files, and performing fast prefix lookups of the data your users most want to see (assuming you have a good relevancy scorer, of course). We will even see why Raymond Hettinger must say no so often ![:)](/wiki/europython/img/smile.png%20":)") [Slides](http://us.pycon.org/common/talkdata/PyCon2007/028/IteratorsInActionWithNotes.pdf).
 
 Other items we talked about:
 
@@ -234,7 +234,7 @@ Topics and people attending include the following:
 
 - [BoulderSprint](../people/BoulderSprint). We had a great [JythonSprint](../people/JythonSprint), focusing on design. Momentum is really building, Jython might actually get the love that Charles Oliver Nutter of !JRuby proposed. More interestingly, there\'s a chance for people in the dynamic language community to work together on JVM implementations.
 
-- Tom Churchill and Vinny Fiano will demo Churchill Navigation\'s earth-rendering engine (which looks like Google Earth, only apparently even better and faster ![;)](/wiki/europython/img/smile4.png ";)") ). Vinny (their main Python guy) will explain how they built the glue logic (and why they decided against SWIG) and perhaps some of the implications of using Python as a scripting language in a real-time (60 fps) environment, and the techniques we employed to keep the graphics pipeline from stalling when making an expensive call into their engine from Python.
+- Tom Churchill and Vinny Fiano will demo Churchill Navigation\'s earth-rendering engine (which looks like Google Earth, only apparently even better and faster ![;)](/wiki/europython/img/smile4.png%20";)") ). Vinny (their main Python guy) will explain how they built the glue logic (and why they decided against SWIG) and perhaps some of the implications of using Python as a scripting language in a real-time (60 fps) environment, and the techniques we employed to keep the graphics pipeline from stalling when making an expensive call into their engine from Python.
 
 - Brian Granger from [Tech-X](http://txcorp.com/) will help us think more deeply about concurrent Python programming, especially as seen in a new version of [IPython](http://ipython.scipy.org/moin/IPython1). [Slides](http://us.pycon.org/common/talkdata/PyCon2007/061/ipython1_pycon_2007.pdf).
 
@@ -254,6 +254,6 @@ This was a fun meeting! Even if Jill\'s has increasingly been high decibel. But 
 
 ## Meeting: October 18, 2006 
 
-- Discussed possible proposals for [PyCon2007](../conferences/pycon/PyCon2007). The basic consensus was that it was a great idea that for [PyCon](../conferences/pycon/PyCon) \"we\'re especially interested in presentations that will teach conference-goers something new and useful.\" In particular, we all would like to see talks with more useful takeaway code, not just talks saying, hey we are doing great things with Python. Trust us ![:)](/wiki/europython/img/smile.png ":)") .
+- Discussed possible proposals for [PyCon2007](../conferences/pycon/PyCon2007). The basic consensus was that it was a great idea that for [PyCon](../conferences/pycon/PyCon) \"we\'re especially interested in presentations that will teach conference-goers something new and useful.\" In particular, we all would like to see talks with more useful takeaway code, not just talks saying, hey we are doing great things with Python. Trust us ![:)](/wiki/europython/img/smile.png%20":)") .
 
 - Began planning of [BoulderSprint](../people/BoulderSprint), which apparently has been a burning desire for [JimBaker](../people/JimBaker) for a while.

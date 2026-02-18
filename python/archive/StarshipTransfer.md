@@ -52,7 +52,7 @@ If you\'re a Starship admin, feel free to update this page. Otherwise, please em
 - give the machine a proper hostname
 
   \
-  (will have to be in python2.net domain for now; once DNS service is transferred to a new provider, we can give it a python.net name \-- anything but starship.python.net, of course!) Proposed proper hostname: drydock.python2.net ![;)](/wiki/europython/img/smile4.png ";)")\
+  (will have to be in python2.net domain for now; once DNS service is transferred to a new provider, we can give it a python.net name \-- anything but starship.python.net, of course!) Proposed proper hostname: drydock.python2.net ![;)](/wiki/europython/img/smile4.png%20";)")\
   \[done: sdrees 2003/08/10\]
 
 - get email services working
@@ -91,7 +91,7 @@ If you\'re a Starship admin, feel free to update this page. Otherwise, please em
     \[enabled server side includes for .shtml files Jim 2003/08/28\]
 
   - install, configure, and test Zope (**not** critical path)\
-    (Zope 2.7 preferable; (really?) note that Debian testing has Zope 2.6.1 and a working plone on top ![;)](/wiki/europython/img/smile4.png ";)") )\
+    (Zope 2.7 preferable; (really?) note that Debian testing has Zope 2.6.1 and a working plone on top ![;)](/wiki/europython/img/smile4.png%20";)") )\
     \[installed 2.6.1 with plone \-- sdrees 2003/08\]
 
 - install, configure, and test ProFTPd (**critical path**)\
@@ -111,7 +111,7 @@ If you\'re a Starship admin, feel free to update this page. Otherwise, please em
 
 - compare /etc/{passwd,group,shadow} and friends on both ships, evaluate migration strategy of credential data (**critical path**)\
   user credential transfer will be greatly simplified by starship policy of using ssh keys for authentication. So the (shadowed) passwords will be a local secret \... greg wrote a little script already\
-  \[done: gward ![;)](/wiki/europython/img/smile4.png ";)") \]
+  \[done: gward ![;)](/wiki/europython/img/smile4.png%20";)") \]
 
 ### Tasks for python.net DNS 
 

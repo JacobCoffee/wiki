@@ -211,7 +211,7 @@ If you live in North America or Europe and would need assistance to attend this 
 
 **TO DO NOW**: If you live outside of the US or UK and would need an invitation letter to get a visa to travel to one of these sprints, please write to Kevin P. Fleming at Bloomberg, kpfleming AT bloomberg DOT net, and he\'ll start setting you up.
 
-**Purpose**: advance Python packaging/distro tools, teach new contributors (including many Bloomberg employees), and yeah, if you want to get to know Bloomberg for career reasons, that too. ![:)](/wiki/europython/img/smile.png ":)") See [the Tech At Bloomberg site](https://www.techatbloomberg.com/events/).
+**Purpose**: advance Python packaging/distro tools, teach new contributors (including many Bloomberg employees), and yeah, if you want to get to know Bloomberg for career reasons, that too. ![:)](/wiki/europython/img/smile.png%20":)") See [the Tech At Bloomberg site](https://www.techatbloomberg.com/events/).
 
 Thanks to Bloomberg folks Mario Corchero and Henry Kleynhans in London and Kevin P. Fleming in New York City for coordinating this, and thanks especially to Mario and to Paul Ganssle for suggesting it!
 

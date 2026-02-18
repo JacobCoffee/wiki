@@ -43,7 +43,7 @@ Add your sprint suggestion to the list below. If you intend to provide more than
 ::: {}
   --------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- ----------------- -------------------------------------------------------
   **Group/Topic**                                                             **Approx. number of people**                                                                         **Pre/Post EP**   **Room (see \"Sprint locations\" below)**
-  [MoinMoin](http://moinmo.in/EuroPython2006/Sprint "MoinMoin")   Less than [PyPy](../../implementations/PyPy) ![:-)](/wiki/europython/img/smile.png ":-)")   6-9 July          C
+  [MoinMoin](http://moinmo.in/EuroPython2006/Sprint "MoinMoin")   Less than [PyPy](../../implementations/PyPy) ![:-)](/wiki/europython/img/smile.png%20":-)")   6-9 July          C
   [EuroPython2006/PYxIDEsSprint](EuroPython2006/PYxIDEsSprint)      at least 1!                                                                                          6-9 July          C
   [EuroPython2006/Zope3Sprint](EuroPython2006/Zope3Sprint)          ?                                                                                                    Pre               D
   [EuroPython2006/PyPySprint](EuroPython2006/PyPySprint)            15-25                                                                                                6-9 July          B
@@ -51,7 +51,7 @@ Add your sprint suggestion to the list below. If you intend to provide more than
   --------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- ----------------- -------------------------------------------------------
 :::
 
-- Hmm, this table says that Zope will not sprint in the next days but nevertheless they have a room \... ![:-)](/wiki/europython/img/smile.png ":-)")
+- Hmm, this table says that Zope will not sprint in the next days but nevertheless they have a room \... ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 ### Sprint Locations 
 

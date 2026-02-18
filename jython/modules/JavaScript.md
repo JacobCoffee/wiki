@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-![(!)](/wiki/modernized/img/idea.png "(!)") Print this page in PRINT mode (action=print) to get handouts.
+![(!)](/wiki/modernized/img/idea.png%20"(!)") Print this page in PRINT mode (action=print) to get handouts.
 
 ::: 
 ## Introduction 
@@ -33,7 +33,7 @@ Put a headline on top of your page (as you see above) because in DiaShow mode, t
 
 If you do not want to enumerate your headlines, use `#pragma section-numbers off`{.backtick} at top of your page.
 
-![(!)](/wiki/modernized/img/idea.png "(!)") Don\'t forget to fill in some valuable content.
+![(!)](/wiki/modernized/img/idea.png%20"(!)") Don\'t forget to fill in some valuable content.
 
 For your convenience, there is a [SlideTemplate](SlideTemplate) - use it.
 

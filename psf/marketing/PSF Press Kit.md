@@ -22,7 +22,7 @@ Narrow:
 
 ![psf-logo-narrow-256x84-alpha.png](attachments/PSF(20)Press(20)Kit/psf-logo-narrow-256x84-alpha.png "psf-logo-narrow-256x84-alpha.png")
 
-For a complete set of official logos (including different file formats), please see the [PSF Logos](PSF Logos) page.
+For a complete set of official logos (including different file formats), please see the [PSF Logos](PSF%20Logos) page.
 
 ### Description 
 

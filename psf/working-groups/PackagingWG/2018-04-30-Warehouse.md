@@ -24,7 +24,7 @@ Monday, 30 April 2018
 
 - *Everyone: Submit invoices today*
 
-- EuroPython? Nicole, what do you need logistically to get the MOSS-allocated money for [EuroPython](./EuroPython.html) sprint work? Will talk to Mark after this call ![:)](/wiki/europython/img/smile.png ":)")
+- EuroPython? Nicole, what do you need logistically to get the MOSS-allocated money for [EuroPython](./EuroPython.html) sprint work? Will talk to Mark after this call ![:)](/wiki/europython/img/smile.png%20":)")
 
 ### Report from Sumana\'s Mozilla call 
 
@@ -37,7 +37,7 @@ Monday, 30 April 2018
 
 ### User Research 
 
-Over 1700 responses to Google \"buy a feature\" form - thank you to everyone for spreading the word - the data is really useful and will really help with redesigning the project detail page ![:)](/wiki/europython/img/smile.png ":)")
+Over 1700 responses to Google \"buy a feature\" form - thank you to everyone for spreading the word - the data is really useful and will really help with redesigning the project detail page ![:)](/wiki/europython/img/smile.png%20":)")
 
 ### MOSS budget spreadsheet 
 

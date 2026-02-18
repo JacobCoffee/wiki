@@ -41,7 +41,7 @@ Known unavailability:
 
 - William: Dec 16 - 20
 
-- Cristina: Generally around ![:)](/wiki/europython/img/smile.png ":)")
+- Cristina: Generally around ![:)](/wiki/europython/img/smile.png%20":)")
 
 ### Next Steps 
 

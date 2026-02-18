@@ -20,7 +20,7 @@ The [avifile](http://avifile.sourceforge.net/) project provides a Qt 3-based pla
 
 - [PyMedia](http://pymedia.org/) is a Python package that supports various audio and video formats.
 
-- In [a message](http://www.riverbankcomputing.com/pipermail/pyqt/2009-September/024240.html) to [the PyQt mailing list](TheMailingList), Baz Walter gives an example of using GStreamer bindings for Python with PyQt (see [Using GStreamer with PyQt](Using GStreamer with PyQt)).
+- In [a message](http://www.riverbankcomputing.com/pipermail/pyqt/2009-September/024240.html) to [the PyQt mailing list](TheMailingList), Baz Walter gives an example of using GStreamer bindings for Python with PyQt (see [Using GStreamer with PyQt](Using%20GStreamer%20with%20PyQt)).
 
 ### Out of Process Wrappers 
 

@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-![(!)](/wiki/europython/img/idea.png "(!)") **Please keep wiki links as wiki links, use external links only if there is no existing page for the IDE.**
+![(!)](/wiki/europython/img/idea.png%20"(!)") **Please keep wiki links as wiki links, use external links only if there is no existing page for the IDE.**
 
 ## Reviews 
 

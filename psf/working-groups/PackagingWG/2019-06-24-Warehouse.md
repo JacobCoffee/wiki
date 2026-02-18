@@ -135,7 +135,7 @@ D:
 
 can make it smaller with serialization
 
-other than tests, 90% of the work is done on that PR I think, now just the second 90% ![:-)](/wiki/europython/img/smile.png ":-)")
+other than tests, 90% of the work is done on that PR I think, now just the second 90% ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 if all that is deemed too much for scope of work on this, I\'m fine \.... but if we can make it macaroons, that reduces future churn & reimplementation
 

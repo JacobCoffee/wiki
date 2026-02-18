@@ -33,7 +33,7 @@ Agenda:
 
   - Georgia: no blockers. Simply Secure\'s ops person will send contract amendment to PSF.
 
-  - Ernest: ![:-)](/wiki/europython/img/smile.png ":-)")
+  - Ernest: ![:-)](/wiki/europython/img/smile.png%20":-)")
 
   - Sumana: yesterday, co worked w/ Pradyun. Finished first drafts for (1) docs for 20.3 new resolver (2) more details in new resolver migration guide. blocked on reviews. next up: more writing (release announcements + related things)
 

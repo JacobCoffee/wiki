@@ -75,7 +75,7 @@ I have to get the links mentioned in my paper working tonight. Off to do that\..
 
 03/11: First draft of the paper is done. It\'s about 20k in ReST format; I don\'t know if that\'s long enough; it\'s not a whole lot longer than my abstract. But I said pretty much everything I wanted to say in the abstract, except for the details of my implementation.
 
-I actually gave a talk at work today about our configuration framework (a different one, written in Java). It went pretty well, so I\'m hopeful for the [PyCon](PyCon) talk. Man, I couldn\'t shut up about the configuration framework, I just kept talking and talking! ![:)](/wiki/europython/img/smile.png ":)")
+I actually gave a talk at work today about our configuration framework (a different one, written in Java). It went pretty well, so I\'m hopeful for the [PyCon](PyCon) talk. Man, I couldn\'t shut up about the configuration framework, I just kept talking and talking! ![:)](/wiki/europython/img/smile.png%20":)")
 
 03/06: Wrote the user preferences app; it\'s a tiny portal application. Still needs some work.
 

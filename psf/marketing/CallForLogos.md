@@ -16,7 +16,7 @@ Dear members,
 
 the board is looking for volunteers to draw up logos that we would like to make available to supporters and members of the PSF.
 
-If anyone feels inspired, please step forward ![:-)](/wiki/europython/img/smile.png ":-)")
+If anyone feels inspired, please step forward ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 Here\'s the list of logos we\'d need from the lowest support level to the highest:
 

@@ -31,7 +31,7 @@ The marketing workgroup will strive to:
 
 #### Logos and images 
 
-- [PSF Logos](../marketing/PSF Logos) (official versions of the PSF logos; viewable without login)
+- [PSF Logos](../marketing/PSF%20Logos) (official versions of the PSF logos; viewable without login)
 
 #### PSF Sponsor Badges 
 
@@ -39,13 +39,13 @@ The marketing workgroup will strive to:
 
 #### Marketing Material 
 
-- [PSF Python Brochure](../marketing/PSF Python Brochure)
+- [PSF Python Brochure](../marketing/PSF%20Python%20Brochure)
 
 - [Ideas for creating Marketing Material](./Board(2f)marketing(2d)material.html)
 
 #### Marketing Support Material 
 
-- [PSF Conference Kit](../marketing/PSF Conference Kit)
+- [PSF Conference Kit](../marketing/PSF%20Conference%20Kit)
 
 #### Merchandise 
 

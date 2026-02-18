@@ -91,7 +91,7 @@ I\'m not completely sure whom to target. Judging from the fact that this is a Py
 
   - *Transparency, anti-aliasing, accelerated rendering and SVG support are all attractive features to a lot of people. Given that [PyQt](../../../gui/PyQt) makes these available to Python users on a wide variety of platforms, I think it\'s worth showing off these features.*
 
-  - *Fortunately, there are lots of nice examples and demos available, though many could be even nicer. ![:-)](/wiki/europython/img/smile.png ":-)") Some of these need to be ported to Python.*
+  - *Fortunately, there are lots of nice examples and demos available, though many could be even nicer. ![:-)](/wiki/europython/img/smile.png%20":-)") Some of these need to be ported to Python.*
 
 - *Rich text and printing support*
 

@@ -20,7 +20,7 @@ Participants:
 
 - Bernard
 
-- The Uber Conference AI-bot ![:)](/wiki/europython/img/smile.png ":)")
+- The Uber Conference AI-bot ![:)](/wiki/europython/img/smile.png%20":)")
 
 Agenda:
 
@@ -39,7 +39,7 @@ Agenda:
 
   - Would make the dependency resolution process faster, since it\'s doing a metadata lookup via a partial download (instead of the entire file).
 
-  - I realized we could do this when reading the survey responses. I don\'t recall if I brought this up before. ![:)](/wiki/europython/img/smile.png ":)")
+  - I realized we could do this when reading the survey responses. I don\'t recall if I brought this up before. ![:)](/wiki/europython/img/smile.png%20":)")
 
   - What options are we considering?
     - a\) roll it out in 20.3

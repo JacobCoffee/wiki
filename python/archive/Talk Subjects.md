@@ -12,7 +12,7 @@ Tutorials are scheduled for Wednesday & Thursday, Conference Talks for Friday-Su
 
 Here is what people are asking for:
 
-- [Core Python](Core Python) - Just the facts, ma\'am.
+- [Core Python](Core%20Python) - Just the facts, ma\'am.
 - Twisted - The most requested subject in 07. How do you explain twisted in one session?
 - Basic Python - a subset of the core language elements. Cover the import command, but don\'t cover any modules. Scope, lists vs tuple\... that stuff, but don\'t cover lambda and other things that would make someones head explode.
 - Python for Java programmers

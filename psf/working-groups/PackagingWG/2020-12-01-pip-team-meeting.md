@@ -19,7 +19,7 @@ Agenda
 
 - Yay, pip 20.3 release!
   - Yay and thank you Pradyun
-    - Spacebar CPU ![:-)](/wiki/europython/img/smile.png ":-)") [https://xkcd.com/1172/](https://xkcd.com/1172/)
+    - Spacebar CPU ![:-)](/wiki/europython/img/smile.png%20":-)") [https://xkcd.com/1172/](https://xkcd.com/1172/)
 
     - \[and thank you to Sumana\]
   - some serious issues have come in but not showstopper horrible ones

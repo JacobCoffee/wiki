@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ### Ananta Manandhar 
 
-Learning python ![;)](/wiki/europython/img/smile4.png ";)")
+Learning python ![;)](/wiki/europython/img/smile4.png%20";)")
 
 Need to add more
 

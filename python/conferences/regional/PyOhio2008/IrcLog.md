@@ -152,7 +152,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 (2:24:38 PM) catherinedevlin: hi dave!
 
-(2:25:56 PM) matthewarnold: oh cool. Not only did I find the hotel, but there are pictures of me. ![:)](/wiki/europython/img/smile.png ":)") [http://www.midamericon.org/photoarchive/04construct1.htm](http://www.midamericon.org/photoarchive/04construct1.htm)
+(2:25:56 PM) matthewarnold: oh cool. Not only did I find the hotel, but there are pictures of me. ![:)](/wiki/europython/img/smile.png%20":)") [http://www.midamericon.org/photoarchive/04construct1.htm](http://www.midamericon.org/photoarchive/04construct1.htm)
 
 (2:26:31 PM) catherinedevlin: ok, they\'re on the list!
 
@@ -354,7 +354,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 (2:56:15 PM) catherinedevlin1: hmm\... maybe that means \"no\"
 
-(2:57:10 PM) matthewarnold: ![:)](/wiki/europython/img/smile.png ":)")
+(2:57:10 PM) matthewarnold: ![:)](/wiki/europython/img/smile.png%20":)")
 
 (2:57:44 PM) matthewarnold: I have some sponsorship guys working on Penguicon, but it was probably the hardest thing about the convention last year.
 
@@ -364,7 +364,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 (2:58:25 PM) matthewarnold: You\'re welcome!
 
-(2:58:41 PM) catherinedevlin1: yeah, the day will come when they BEG us to sponsor. ![:)](/wiki/europython/img/smile.png ":)") but not quite yet
+(2:58:41 PM) catherinedevlin1: yeah, the day will come when they BEG us to sponsor. ![:)](/wiki/europython/img/smile.png%20":)") but not quite yet
 
 (2:59:39 PM) catherinedevlin1: (seriously, I\'ve watched national [PyCon](../../pycon/PyCon) go from \"Does anybody know anyone hiring Python people? Anyone? Anyone?\" to \"enough of the recruiters, already! Get them off!\" in four years. We\'re just a little slow here in the interior.)
 

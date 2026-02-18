@@ -24,9 +24,9 @@ Feel free to contact me (Tripp Lilley, [tripp+pycon-webware-sprint@perspex.com](
 
 Note that, by design, sprints are \"not intended for newbies\". That doesn\'t mean newbies aren\'t welcome, it just means that our focus is going to be on enhancing the code, not teaching the code.
 
-Now, with that said, I\'m rusty on the code ![:)](/wiki/europython/img/smile.png ":)") I expect that I\'ll personally spend at least some portion of my sprint time fleshing out and diagramming Webware\'s architecture, bringing up to date some of the earlier work by Chuck, Ian, and others.
+Now, with that said, I\'m rusty on the code ![:)](/wiki/europython/img/smile.png%20":)") I expect that I\'ll personally spend at least some portion of my sprint time fleshing out and diagramming Webware\'s architecture, bringing up to date some of the earlier work by Chuck, Ian, and others.
 
-I expect this exercise would be helpful to those who haven\'t yet peered deeply inside Webware\'s source, but would like to. So, uh, newbies *are*, in fact, welcome to this particular sprint ![:)](/wiki/europython/img/smile.png ":)")
+I expect this exercise would be helpful to those who haven\'t yet peered deeply inside Webware\'s source, but would like to. So, uh, newbies *are*, in fact, welcome to this particular sprint ![:)](/wiki/europython/img/smile.png%20":)")
 
 \-- [TrippLilley](./TrippLilley.html)
 

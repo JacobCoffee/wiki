@@ -99,7 +99,7 @@ We could make life for X11 lovers easier by creating a standard place to put X11
 
 We talked a lot about this, but unfortunately I (Jack) didn\'t take notes.
 
-Fortunately Ronald did take notes ![:-)](/wiki/europython/img/smile.png ":-)")
+Fortunately Ronald did take notes ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 We\'ve discussed some of the alternatives:
 

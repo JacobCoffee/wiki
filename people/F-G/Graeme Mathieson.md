@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## Graeme Mathieson 
 
-I get to hack with Python, Zope and Plone for a day job, which is pretty lucky, since I enjoyed doing it in my spare time anyway. ![:-)](/wiki/europython/img/smile.png ":-)") I work for [Logical Progression](http://www.logicalprogression.net/) - mostly on [mailManager](http://sf.net/projects/mailmanager/) these days.
+I get to hack with Python, Zope and Plone for a day job, which is pretty lucky, since I enjoyed doing it in my spare time anyway. ![:-)](/wiki/europython/img/smile.png%20":-)") I work for [Logical Progression](http://www.logicalprogression.net/) - mostly on [mailManager](http://sf.net/projects/mailmanager/) these days.
 
 Email: `<mathie AT SPAMFREE woss DOT name>`
 

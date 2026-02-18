@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Small discussion and evaluation of different parsers.
 
-![(!)](/wiki/europython/img/idea.png "(!)") Please keep wiki links as wiki links, use external links only if there is no existing page for the tool.
+![(!)](/wiki/europython/img/idea.png%20"(!)") Please keep wiki links as wiki links, use external links only if there is no existing page for the tool.
 
 ::: {}
   --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------- -------------- --------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

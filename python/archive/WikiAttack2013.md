@@ -44,7 +44,7 @@ Of course, without the moin user files available, getting a better picture of wh
 
 We were subsequently approached by the person who ran the rm -r \*, so we know now that the original attack was performed by different people, most probably the same that attacked the Debian wiki. It is also obvious that the people who installed the plugin, had different intentions than causing easy to detect damage on the system.
 
-Since the logs on the VM only go back 5 ![(!)](/wiki/europython/img/idea.png "(!)") days for server web logs and 7 ![(!)](/wiki/europython/img/idea.png "(!)") days for system logs, it was impossible to determine the amount of information leakage caused by the attack.
+Since the logs on the VM only go back 5 ![(!)](/wiki/europython/img/idea.png%20"(!)") days for server web logs and 7 ![(!)](/wiki/europython/img/idea.png%20"(!)") days for system logs, it was impossible to determine the amount of information leakage caused by the attack.
 
 It is likely that the passwords and user configuration details were inspected in the same way as was done for the Debian wiki.
 

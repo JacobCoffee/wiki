@@ -44,7 +44,7 @@ I haven\'t found a way to upload anything but a PKG-INFO file to PyPI. What kind
 
 \-- [ZoranIsailovski](./ZoranIsailovski.html) 2005-08-14 23:40:00
 
-![B)](/wiki/europython/img/smile2.png "B)") After several days of inaccessiblity, the PyCode site has just re-appeared. I have removed the comments near the reference above.
+![B)](/wiki/europython/img/smile2.png%20"B)") After several days of inaccessiblity, the PyCode site has just re-appeared. I have removed the comments near the reference above.
 
 \-- [ZoranIsailovski](./ZoranIsailovski.html) 2005-08-15 00:10:00
 

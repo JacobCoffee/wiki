@@ -16,7 +16,7 @@ If you have multiple talks scheduled too closely together (see [http://www.pytho
 
 **Introduction from the Chair**
 
-Please see *[PyConSteveHolden](../PyConSteveHolden)* for an example [CategoryPyConSpeakerPage](CategoryPyConSpeakerPage) page. The chairman\'s introductory remarks will now probably given at the end of the conference ![:-)](/wiki/europython/img/smile.png ":-)")
+Please see *[PyConSteveHolden](../PyConSteveHolden)* for an example [CategoryPyConSpeakerPage](CategoryPyConSpeakerPage) page. The chairman\'s introductory remarks will now probably given at the end of the conference ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 ## Aahz 
 

@@ -62,7 +62,7 @@ This is a talk Andy\'s going to be [giving at OSCON](http://www.oscon.com/oscon2
 
 Tuesday March 9th, 2010 at 7PM
 
-We\'ll be trying some quick lightning talks. Please come prepared to talk about some small thing (5 minutes). ![:)](/wiki/europython/img/smile.png ":)") Some volunteer topics:
+We\'ll be trying some quick lightning talks. Please come prepared to talk about some small thing (5 minutes). ![:)](/wiki/europython/img/smile.png%20":)") Some volunteer topics:
 
 - Trent Mick: the \"go\" tool as a fast substitute for \"cd\" ([https://github.com/trentm/go-tool](https://github.com/trentm/go-tool))
 

@@ -262,7 +262,7 @@ Total: 10
 
 [PythonTasks](./PythonTasks.html) is one of boris\'s project, it\'s still in beta and no doc is written for the moment. Characteristics:
 
-- Dependencies is either direct dependencies (task A depends on ![B)](/wiki/europython/img/smile2.png "B)") or output dependencies (task A need D input, B produces D, B must be executed before A). For the output dependencies mode, some code must be written as it will not be part (for the moment) of [PythonTasks](./PythonTasks.html).
+- Dependencies is either direct dependencies (task A depends on ![B)](/wiki/europython/img/smile2.png%20"B)") or output dependencies (task A need D input, B produces D, B must be executed before A). For the output dependencies mode, some code must be written as it will not be part (for the moment) of [PythonTasks](./PythonTasks.html).
 
 - Tasks can communicate between them, all of them receive the same Communication object which registered all the output of tasks.
 

@@ -6,4 +6,4 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-This page was renamed to [Info for new PSF members](../Info for new PSF members).
+This page was renamed to [Info for new PSF members](../Info%20for%20new%20PSF%20members).

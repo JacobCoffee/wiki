@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 This page is intended to be a repository of extensions for your \"setup.py\". Also, it is a place to exchange practical experience with writing such extensions, or asking questions regarding the internal workings of distutils (which are underdocumented, if you don\'t count the source itself). Also, you might find a solution for a certain problem you have with one of your packages.
 
-- ![(!)](/wiki/europython/img/idea.png "(!)") Please use subpages of this page to keep things together.
+- ![(!)](/wiki/europython/img/idea.png%20"(!)") Please use subpages of this page to keep things together.
 
 Know-How:
 

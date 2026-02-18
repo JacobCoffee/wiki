@@ -78,7 +78,7 @@ Maybe? I\'ve never tried making pallettes.
 
 *mwh:*
 
-I have, but failed miserably ![:-)](/wiki/europython/img/smile.png ":-)") Ronald managed to get it to work though, so perhaps I\'ll try some time.
+I have, but failed miserably ![:-)](/wiki/europython/img/smile.png%20":-)") Ronald managed to get it to work though, so perhaps I\'ll try some time.
 
 *[MichaelHudson](../../people/MichaelHudson) again:*
 

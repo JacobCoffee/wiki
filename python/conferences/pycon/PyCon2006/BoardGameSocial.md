@@ -91,7 +91,7 @@ The emphasis is on multiplayer games that can handle four or six people. I don\'
 
 *I\'ll concentrate on bringing some modern German-style board games that are fairly easy to learn, so that new arrivals can play something entertaining. \--amk*
 
-*Backgammon, anyone? I will bring a board or two. And of course, certainly there won\'t be any gambling ![:-)](/wiki/europython/img/smile.png ":-)") \-- [JonRosen](../../../people/JonRosen)*
+*Backgammon, anyone? I will bring a board or two. And of course, certainly there won\'t be any gambling ![:-)](/wiki/europython/img/smile.png%20":-)") \-- [JonRosen](../../../people/JonRosen)*
 
 *I\'ll bring some extra packs of Fluxx as well. Ever had a game of Fluxx with 25 people and a 15 second time limit per turn? its a blast!*
 
@@ -111,7 +111,7 @@ While i will be unable to attend, i\'d suggest [Ticket to Ride Europe](http://bo
 
 The largest Dallas-area game store, The Game Chest, is only about 2 miles away. Anyone want to go on a group shopping trip on Sunday evening or Monday? \--amk
 
-I think I\'ll pass on the Game Chest trip, unless they have a used copy of AH\'s Civilization in stock. ![:)](/wiki/europython/img/smile.png ":)")
+I think I\'ll pass on the Game Chest trip, unless they have a used copy of AH\'s Civilization in stock. ![:)](/wiki/europython/img/smile.png%20":)")
 
 I\'ve gone ahead and put us down for another session at 6:30 Friday in Bent Tree (after the BOF). \--Peter
 

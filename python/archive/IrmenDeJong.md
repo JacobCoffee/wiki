@@ -10,9 +10,9 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Hi there! This is my personal Wiki page apparently.
 
-If you want to tell me something, it\'s best to mail me at irmen (at) razorvine.net ![:)](/wiki/europython/img/smile.png ":)")
+If you want to tell me something, it\'s best to mail me at irmen (at) razorvine.net ![:)](/wiki/europython/img/smile.png%20":)")
 
-Surf on to [my homepage](http://www.razorvine.net). Or have a look at my main Python project, [Pyro](Pyro) ![B)](/wiki/europython/img/smile2.png "B)")
+Surf on to [my homepage](http://www.razorvine.net). Or have a look at my main Python project, [Pyro](Pyro) ![B)](/wiki/europython/img/smile2.png%20"B)")
 
 ------------------------------------------------------------------------
 

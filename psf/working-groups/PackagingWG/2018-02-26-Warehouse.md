@@ -61,7 +61,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ### Reschedule March 5th meeting 
 
-- Nicole \-- is later on Monday March 5th ok, or should we move to Tuesday the 6th? - Either works, but I\'d prefer tues if it works for everyone else ![:)](/wiki/europython/img/smile.png ":)")
+- Nicole \-- is later on Monday March 5th ok, or should we move to Tuesday the 6th? - Either works, but I\'d prefer tues if it works for everyone else ![:)](/wiki/europython/img/smile.png%20":)")
 
   - Laura to update \-- DONE
 
@@ -115,7 +115,7 @@ you\'ll get calendar invites
 
   - Ernest will unblock himself by using Google \-- needs metrics & monitoring \-- will work with Dustin
 
-  - Depending on DI\'s workload I might work with him to get him running with instrumenting stuff? No pressure, but he\'s in a good spot as far as knowledge of inside bits to help ![:)](/wiki/europython/img/smile.png ":)")
+  - Depending on DI\'s workload I might work with him to get him running with instrumenting stuff? No pressure, but he\'s in a good spot as far as knowledge of inside bits to help ![:)](/wiki/europython/img/smile.png%20":)")
 
     - YES PLEASE - di yayayaya! we\'ll schedule offline.
 

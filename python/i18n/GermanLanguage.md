@@ -110,7 +110,7 @@ About this Language Page: ISO 639-1 Code: de
 
 - [Routineaufgaben mit Python automatisieren](https://dpunkt.de/produkt/routineaufgaben-mit-python-automatisieren-2/) Die deutsche Übersetzung () des Buches \"Automate the Boring Stuff with Python\" von Al Schweigart in der 2. Auflage (jetzt für Python 3) ist eine Python-Einführung am Beispiel von alltäglichen Aufgaben eines Computernutzers. Al Schweigart stellt die [englische Originalausgabe](https://automatetheboringstuff.com/) kostenlos zum online-Lesen zur Verfügung. [dpunkt.verlag](https://dpunkt.de/).
 
-- [Python 3 Das umfassende Handbuch](http://openbook.rheinwerk-verlag.de/python/) von Johannes Ernesti und Peter Kaiser, als Openbook aus dem [Rheinwerk Verlag](https://www.rheinwerk-verlag.de/). Alternativ auch als Buch/eBook gegen Bezahlung ![;-)](/wiki/europython/img/smile4.png ";-)")
+- [Python 3 Das umfassende Handbuch](http://openbook.rheinwerk-verlag.de/python/) von Johannes Ernesti und Peter Kaiser, als Openbook aus dem [Rheinwerk Verlag](https://www.rheinwerk-verlag.de/). Alternativ auch als Buch/eBook gegen Bezahlung ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
 - [Python von Kopf bis Fuß](https://oreilly.de/produkt/python-von-kopf-bis-fuss/) von Paul Barry ist ein Buch für Einsteiger. [O\'Reilly Germany](http://www.oreilly.de/).
 

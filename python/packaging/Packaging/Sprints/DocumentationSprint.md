@@ -25,19 +25,19 @@ You can participate online by joining the #distutils channel on [freenode](http:
 
 ### 1.3. Sprint Goals 
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") remove all distutils2 occurrences and replace them with packaging.
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") remove all distutils2 occurrences and replace them with packaging.
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") fix some spelling and grammar errors
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") fix some spelling and grammar errors
 
 - ![\<!\>](/wiki/europython/img/attention.png "<!>") make docs conform to the python documentation style guide (%50)
 
 - ![\<!\>](/wiki/europython/img/attention.png "<!>") clean up Sphinx syntax and reStructuredText usage (%50)
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") fix Sphinx errors and warnings
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") fix Sphinx errors and warnings
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") start to re-work the doc that lives outside the packaging folder, that refers to installing/building stuff
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") start to re-work the doc that lives outside the packaging folder, that refers to installing/building stuff
 
-- ![(./)](/wiki/europython/img/checkmark.png "(./)") reorganize the doc into sections:
+- ![(./)](/wiki/europython/img/checkmark.png%20"(./)") reorganize the doc into sections:
 
   - end-users
   - developers

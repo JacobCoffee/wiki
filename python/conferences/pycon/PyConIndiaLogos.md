@@ -30,7 +30,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 *Encouraging Comment from PSF Chair*
 
-If half as much time goes into organizing as goes into developing and choosing a logo this is going to be one heck of a conference ![;-)](/wiki/europython/img/smile4.png ";-)") Bear in mind, though, that it isn\'t the logo that gets people to come back, but the conference content.
+If half as much time goes into organizing as goes into developing and choosing a logo this is going to be one heck of a conference ![;-)](/wiki/europython/img/smile4.png%20";-)") Bear in mind, though, that it isn\'t the logo that gets people to come back, but the conference content.
 
 It\'s great to see that the Indian community is moving forward with such gusto. Please let the PSF Board know if you need any assistance. One of my goals as chairman is to encourage Python development globally. I hope that one day soon I will be able to visit India and meet the many people who are investing their time in developing the Indian Python community. *[SteveHolden](../../people/SteveHolden)*
 
@@ -72,7 +72,7 @@ It\'s great to see that the Indian community is moving forward with such gusto. 
 
     - [DavidGoodger](../../people/DavidGoodger) ([PyCon](PyCon) US 2008 & 2009 chair): I like the lettering; it could go well with #1 above too. I recommend removing the black outline around the Python logo though.
 
-    - [svaksha](../../archive/svaksha) : loved the lettering, very indian-ish and yet simple ![:)](/wiki/europython/img/smile.png ":)")
+    - [svaksha](../../archive/svaksha) : loved the lettering, very indian-ish and yet simple ![:)](/wiki/europython/img/smile.png%20":)")
 
 5.  Logo Design#1 from Smriti
     - ![Smriti01.jpg](attachments/PyConIndiaLogos/Smriti01.jpg "Smriti01.jpg")
@@ -164,7 +164,7 @@ It\'s great to see that the Indian community is moving forward with such gusto. 
 
     ![BharathKeshav3_small.jpg](attachments/PyConIndiaLogos/BharathKeshav3_small.jpg "BharathKeshav3_small.jpg")
 
-Author\'s note : The lotus inside the logo which represents the national flower of India, symbolizes knowledge and enlightenment. The dark blue color background is the color of Asoka chakra of the Indian national flag. Other colors used are pretty self explanatory. Just thought of explaining, in case if they get overlooked and thought as just some fancy accessories. ![:)](/wiki/europython/img/smile.png ":)")
+Author\'s note : The lotus inside the logo which represents the national flower of India, symbolizes knowledge and enlightenment. The dark blue color background is the color of Asoka chakra of the Indian national flag. Other colors used are pretty self explanatory. Just thought of explaining, in case if they get overlooked and thought as just some fancy accessories. ![:)](/wiki/europython/img/smile.png%20":)")
 
 (Credits to Mr [RupeshPatange](http://www.rupeshpatange.com) for his contribution towards the design of this logo)
 

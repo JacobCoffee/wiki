@@ -136,7 +136,7 @@ Want to help with some writing? Check out our list of whitepaper/flyer [Advocacy
 
 Please send me `<advocate AT python DOT org>` any files that might be useful for giving out at user groups or business meetings.
 
-Existing material appears (also) at [evangelism support materials](../archive/evangelism support materials) and [PromotingPythonBof](../archive/PromotingPythonBof). Note [http://psf.pollenation.net/cgi-bin/trac.cgi/ticket/160](http://psf.pollenation.net/cgi-bin/trac.cgi/ticket/160).
+Existing material appears (also) at [evangelism support materials](../archive/evangelism%20support%20materials) and [PromotingPythonBof](../archive/PromotingPythonBof). Note [http://psf.pollenation.net/cgi-bin/trac.cgi/ticket/160](http://psf.pollenation.net/cgi-bin/trac.cgi/ticket/160).
 
 ## General Notes 
 

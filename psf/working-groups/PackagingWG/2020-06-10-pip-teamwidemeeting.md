@@ -110,7 +110,7 @@ Agenda:
 - Resolver flag
   - Pradyun: I will be making a detailed post on Zulip later today, asking for inputs.
 
-- TP posted some improvements to the resolver issue template and hopes Nicole could take a look [https://github.com/pypa/pip/pull/8329](https://github.com/pypa/pip/pull/8329) Nicole: Thank you TP, will look today ![:)](/wiki/europython/img/smile.png ":)")
+- TP posted some improvements to the resolver issue template and hopes Nicole could take a look [https://github.com/pypa/pip/pull/8329](https://github.com/pypa/pip/pull/8329) Nicole: Thank you TP, will look today ![:)](/wiki/europython/img/smile.png%20":)")
 
 - Error message testing findings and recommendations [https://editor.apps.ei8fdb.org/s/rylD-Qp3L](https://editor.apps.ei8fdb.org/s/rylD-Qp3L)
 
@@ -175,11 +175,11 @@ Agenda:
 
     - the \"**not** meant to act as a list of PyPA agreed best practices or recommendations\" - policy reasons for this? No - this was just Nicole trying to avoid bikeshedding.  Also not clear how something becomes \"official\" doc
 
-      - Pradyun: pip maintainers \"bless\" it. ![:)](/wiki/europython/img/smile.png ":)")
+      - Pradyun: pip maintainers \"bless\" it. ![:)](/wiki/europython/img/smile.png%20":)")
 
       - Paul: Personally, I\'m not too keen on \"blessing\" practices like this\...
 
-      - Pradyun: exactly why I suggested/agreed to having this. ![:)](/wiki/europython/img/smile.png ":)")
+      - Pradyun: exactly why I suggested/agreed to having this. ![:)](/wiki/europython/img/smile.png%20":)")
 
       - Paul: does not like giving people advice in this way, support issues, maintainability\.... if we start saying \"you could try this\" then when something goes wrong, user will come back to PyPA to ask for advice.
         - strongly in favor of a disclaimer. But I do understand why the users \*want\* this.
@@ -212,7 +212,7 @@ Agenda:
   - Pradyun: red is a well-established color for error messaging. nearly all development tools use red to denote failures. I guess we should move the bulk of the reading part away from red. :/
     - TP: One thing I just noticed in some tools is they only color the \"ERROR:\" header, not the messages themselves.
 
-    - In agreement \-- that\'s the same thought I had in the second sentence. ![:)](/wiki/europython/img/smile.png ":)")
+    - In agreement \-- that\'s the same thought I had in the second sentence. ![:)](/wiki/europython/img/smile.png%20":)")
 
     - Bernard: yes. \"Error\" labels red: fine. Helps red-green colorblind people. Rest of the error text should be in default color
 
@@ -230,11 +230,11 @@ Agenda:
 
   - Sumana: user research is great - a culmination of all the work we have been doing together \\o/
 
-  - Paul: thank you Bernard for doing this work - it\'s confirmed a lot of what we knew and have discussed ![:)](/wiki/europython/img/smile.png ":)")
+  - Paul: thank you Bernard for doing this work - it\'s confirmed a lot of what we knew and have discussed ![:)](/wiki/europython/img/smile.png%20":)")
 
   - Bernard: when all user interviews are published please read the notes, it will give everyone great insight into our users
 
-  - Pradyun: thank you Bernard!! ![:)](/wiki/europython/img/smile.png ":)")
+  - Pradyun: thank you Bernard!! ![:)](/wiki/europython/img/smile.png%20":)")
 
 - Ballooning meeting times:
   - Sumana: now I know UX findings discussions take about an hour.

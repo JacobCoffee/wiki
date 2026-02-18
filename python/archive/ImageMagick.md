@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-ImageMagick see [http://www.imagemagick.org/](http://www.imagemagick.org/) ![;)](/wiki/europython/img/smile4.png ";)")
+ImageMagick see [http://www.imagemagick.org/](http://www.imagemagick.org/) ![;)](/wiki/europython/img/smile4.png%20";)")
 
 Download: [http://www.imagemagick.org/download/python/](http://www.imagemagick.org/download/python/)
 

@@ -10,7 +10,7 @@ I hope nobody minds; This is an experimental description of the wiki\'s space us
 
 This is so that people can link into this space (and other spaces) conveniently and automatically with some tools.
 
-If it\'s any consolation, the tools happen to be written in Python. ![:)](/wiki/europython/img/smile.png ":)")
+If it\'s any consolation, the tools happen to be written in Python. ![:)](/wiki/europython/img/smile.png%20":)")
 
 ## Discussion 
 

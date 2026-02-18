@@ -626,7 +626,7 @@ This is a Pycon rehearsal session, please add the times for your presentations s
 - Ed Schofield - Interactive visualization for the curious - 30 minutes (if there\'s time)
 - Andrew Stuart - 30 minutes.
 
-All talks are [PyCon](../conferences/pycon/PyCon) rehearsals, so the speakers would welcome your feedback and criticism! ![:-)](/wiki/europython/img/smile.png ":-)")
+All talks are [PyCon](../conferences/pycon/PyCon) rehearsals, so the speakers would welcome your feedback and criticism! ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 Monday, 6 July 2015, 6:00pm **at *Inspire 9: Level 1, 41 Stewart Street, Richmond.***
 

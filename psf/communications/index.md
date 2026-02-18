@@ -6,14 +6,14 @@ The PSF communications team handles the blog, community outreach, conference pre
 
 - [Communication Chair Processes](CommunicationChairProcesses) -- How the communication chairs send meeting minutes, coordinate blog posts, and manage the PSF mailing lists
 - [PSF Blog](PSFBlog) -- Blog policy, topic scheduling, and the editorial workflow for pyfound.blogspot.com
-- [Community Relations](Community Relations) -- Community outreach strategy and member engagement efforts
+- [Community Relations](Community%20Relations) -- Community outreach strategy and member engagement efforts
 
 ## Reports & Archives
 
 - [Communications Reports](Communications/index) -- Monthly status reports from the communications team (2010-2012)
 - [Communications Overview](Communications) -- Index of all communications status reports by year
-- [Community Conference Reports](Community Conference Reports) -- Trip reports from PSF representatives attending international Python conferences
-- [Staff Conference Reports](Staff Conference Reports) -- Notes from staff continuing education events and retreats
+- [Community Conference Reports](Community%20Conference%20Reports) -- Trip reports from PSF representatives attending international Python conferences
+- [Staff Conference Reports](Staff%20Conference%20Reports) -- Notes from staff continuing education events and retreats
 
 ```{toctree}
 :hidden:

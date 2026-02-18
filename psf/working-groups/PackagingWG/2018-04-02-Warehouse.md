@@ -96,7 +96,7 @@ Group approved this plan. Updated the [Warehouse roadmap](../../packaging/Wareho
 
 - give user option to see more search results in pagination [https://github.com/pypa/warehouse/issues/3463](https://github.com/pypa/warehouse/issues/3463)
 
-  - could Nicole user test about this? Yes ![:)](/wiki/europython/img/smile.png ":)")
+  - could Nicole user test about this? Yes ![:)](/wiki/europython/img/smile.png%20":)")
 
     - do users search for maintainer names?
 

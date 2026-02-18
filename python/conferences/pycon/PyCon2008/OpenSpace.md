@@ -23,7 +23,7 @@ Add your ideas here. Schedule \'em if you\'re sure, leave \'em unscheduled other
 
 See the [Open Space instructions page](http://us.pycon.org/2008/conference/openspace/).
 
-Also see: [Birds of a Feather](../../../archive/Birds of a Feather)
+Also see: [Birds of a Feather](../../../archive/Birds%20of%20a%20Feather)
 
 Questions or comments, send a message to the openSpace coordinator - [pkropf+pycon@gmail.com](mailto:pkropf+pycon@gmail.com).
 :::

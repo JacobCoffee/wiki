@@ -206,7 +206,7 @@ When you press a button, your program will say \"hi\"
 
 [http://iamar.net/subpages/pythonLect5.html](http://iamar.net/subpages/pythonLect5.html)
 
-We will program something using other people\'s code ![:)](/wiki/europython/img/smile.png ":)")
+We will program something using other people\'s code ![:)](/wiki/europython/img/smile.png%20":)")
 
 **Your will learn:**How to program large programs, how to borrow other people\'s code(modules), basic concepts to functions
 
@@ -269,7 +269,7 @@ Now that we have learned how to create widgets, we need to tell them to do somet
 
 [https://archive.org/details/ChiehWuIntrotoprogramminginPythonandTkinterlecture8](https://archive.org/details/ChiehWuIntrotoprogramminginPythonandTkinterlecture8)
 
-Learn how to use the if statements. Having a program that makes decisions for us will make our life much easier and our programs more powerful. In this program you will decide which girl we should go out with on a friday night and which car we should buy. ![:)](/wiki/europython/img/smile.png ":)")
+Learn how to use the if statements. Having a program that makes decisions for us will make our life much easier and our programs more powerful. In this program you will decide which girl we should go out with on a friday night and which car we should buy. ![:)](/wiki/europython/img/smile.png%20":)")
 
 **You will learn:** How to use if statements, examples are provided
 
@@ -357,7 +357,7 @@ You can type `attachment:foo.txt`, and that becomes a text file attachment.
 
 An example: [lecture3example1.txt](attachments/Intro(20)to(20)programming(20)with(20)Python(20)and(20)Tkinter/lecture3example1.txt)
 
-![:)](/wiki/europython/img/smile.png ":)") \-- [LionKimbro](../people/LionKimbro) 2005-04-27 19:29:44
+![:)](/wiki/europython/img/smile.png%20":)") \-- [LionKimbro](../people/LionKimbro) 2005-04-27 19:29:44
 
 really good!
 
@@ -366,7 +366,7 @@ really good!
 Thanks for putting this information on the web. I wish that there were more poeple doing this type of thing.\
 \
 
-![:)](/wiki/europython/img/smile.png ":)") Robert C
+![:)](/wiki/europython/img/smile.png%20":)") Robert C
 
 Thank you very, very much. Your tutorial is OUTSTANDING! Thank you for the keeping things very simple. Keith Sweat
 
@@ -390,9 +390,9 @@ watch video
 
 Question: Chieh would you have a website or email address that people can contact you on? I have a talented friend on dreamweaver8 who **really** enjoys learning python and watching your videos. If you are interested he may be able to put togehter a website for you on a domain, and upload all your videos to the website.
 
-- Reply: Thank you so much for the offer ![:)](/wiki/europython/img/smile.png ":)") I think that is a great idea. The currently effort I am working on (the next series of lectures) will try to merge with it when it is done. One thing to note is that uploading videos are heavy on bandwidth, I hope your friend has enough bandwidth for it.
+- Reply: Thank you so much for the offer ![:)](/wiki/europython/img/smile.png%20":)") I think that is a great idea. The currently effort I am working on (the next series of lectures) will try to merge with it when it is done. One thing to note is that uploading videos are heavy on bandwidth, I hope your friend has enough bandwidth for it.
 
-![:)](/wiki/europython/img/smile.png ":)") Martin
+![:)](/wiki/europython/img/smile.png%20":)") Martin
 
 This tutorials are amazing!! Thank you so much for sharing you knowledge and making this tutorials so easy, even for a newbie at programming like myself. It shows all the hard work put in each of the lectures, it shows so much that i\'m getting addicted :). I\'m watching one lecture after the other(on lecture 8 right now) and I\'ve been able to make all the exercises and homework. I\'ve seen lots of video tutorials and this are by far the best. Thanks again, Martin.
 

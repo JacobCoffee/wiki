@@ -12,7 +12,7 @@ Subject: [PyCon](../conferences/pycon/PyCon) Sprint Date: Thu, 20 Mar 2003 06:46
 
 Hi,
 
-Sprint participants, meet the other sprint participants. ![:)](/wiki/europython/img/smile.png ":)")
+Sprint participants, meet the other sprint participants. ![:)](/wiki/europython/img/smile.png%20":)")
 
 This is a reminder that we\'ll be sprinting at [PyCon](../conferences/pycon/PyCon) this coming Monday and Tuesday. We\'ll start at 9am both days. I don\'t know how late we\'ll be able to stay in the rooms. We\'ll have to play that by ear. I hope we can make these somewhat long days.
 

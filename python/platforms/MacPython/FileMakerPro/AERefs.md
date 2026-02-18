@@ -8,4 +8,4 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Since the beginning of time, [MacPython/FileMakerPro]() has been shipping with an \'Apple Events Reference\' database, full of information about its OSA support and providing tons of [MacPython/AppleScript](../AppleScript) examples\...
 
-Good news: I\'m almost finished translating these examples to Appscript\... stay tuned ! ![:-)](/wiki/europython/img/smile.png ":-)")
+Good news: I\'m almost finished translating these examples to Appscript\... stay tuned ! ![:-)](/wiki/europython/img/smile.png%20":-)")

@@ -18,4 +18,4 @@ This page lists all team members having commit access to doctools and the Doc tr
 
 - Mark Summerfield \<mark qtrac.eu\> \-- GMT
 
-The timezone is listed so that you can send a patch to a committer who\'s likely to be awake when you are ![:)](/wiki/europython/img/smile.png ":)")
+The timezone is listed so that you can send a patch to a committer who\'s likely to be awake when you are ![:)](/wiki/europython/img/smile.png%20":)")

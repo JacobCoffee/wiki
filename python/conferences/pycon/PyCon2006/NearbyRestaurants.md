@@ -16,7 +16,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 From [JeffRush](../../../people/JeffRush)\'s email:
 
-The Addison hotel is in the center of an entertainment district. On the corner of the hotel is a comedy club and at least four nice sports bars, for discussing Python over a beer. ![;-)](/wiki/europython/img/smile4.png ";-)")
+The Addison hotel is in the center of an entertainment district. On the corner of the hotel is a comedy club and at least four nice sports bars, for discussing Python over a beer. ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
 The main avenue along there is covered in restaurants:
 
@@ -47,7 +47,7 @@ Here are a few of my favorites:
 
 - Nate\'s Seafood is world reknowned\...Pope John Paul II ate there once!
 
-- The Londoner is a great British-style pub. Lots of good beers on tap (not just mass-market American crud\...yes, I\'m a beer-snob ![:)](/wiki/europython/img/smile.png ":)") )
+- The Londoner is a great British-style pub. Lots of good beers on tap (not just mass-market American crud\...yes, I\'m a beer-snob ![:)](/wiki/europython/img/smile.png%20":)") )
 
 - The Clay Pit (Indian food) referenced above\...I\'ve never eaten there, but one of the owners is a former co-worker of my wife, and it comes highly recommended.
 

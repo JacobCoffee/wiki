@@ -42,4 +42,4 @@ The idea is simply to bring new programmers, and programmers new to Python, toge
 
 - [TurboGears](http://turbogears.org/)
 
-\- Do something that\'s actually useful \*to you\* ![:)](/wiki/europython/img/smile.png ":)")
+\- Do something that\'s actually useful \*to you\* ![:)](/wiki/europython/img/smile.png%20":)")

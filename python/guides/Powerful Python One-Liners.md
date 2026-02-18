@@ -38,7 +38,7 @@ So, use your one-liner superpower wisely!
 
 ### Overview: 10 one-liners that fit into a tweet 
 
-I visited this page oftentimes and I loved studying the one-liners presented above. Thanks for creating this awesome resource, JAM, and RJW! ![:)](/wiki/europython/img/smile.png ":)")
+I visited this page oftentimes and I loved studying the one-liners presented above. Thanks for creating this awesome resource, JAM, and RJW! ![:)](/wiki/europython/img/smile.png%20":)")
 
 Because I learned a lot from studying the one-liners, I thought why not revive the page (after almost ten years since the last change happened)?
 
@@ -407,4 +407,4 @@ This uses pyp\'s built-in string and list variables (p and pp), as well as the v
 
 - [JAM/Code/ComPYiler](../archive/JAM/Code/ComPYiler) - This program compiles every .py file in the Python directory.
 
-- [Powerful Python One-Liners/Hostname](Powerful Python One-Liners/Hostname) - This program tells you what your hostname is.
+- [Powerful Python One-Liners/Hostname](Powerful%20Python%20One-Liners/Hostname) - This program tells you what your hostname is.

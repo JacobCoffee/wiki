@@ -144,7 +144,7 @@ Agenda:
 
             - GA: a crazy idea!
               - estimated time of completion: If there\'s a way to check the dependency list, to tell how long it might take \-- a guesstimate?
-                - PG: not sure if that\'s possible by October. ![:)](/wiki/europython/img/smile.png ":)")
+                - PG: not sure if that\'s possible by October. ![:)](/wiki/europython/img/smile.png%20":)")
 
                 - TODO: Sumana: great idea! let\'s file a ticket! but for far future \-- DONE, Georgia filed [https://github.com/pypa/pip/issues/8943](https://github.com/pypa/pip/issues/8943)
 

@@ -32,7 +32,7 @@ Python as a language is great\...but cpython is very hard to push in a corporate
 
 **Why I like jython:**
 
-I love Python. My company use Java ![:)](/wiki/modernized/img/smile.png ":)")
+I love Python. My company use Java ![:)](/wiki/modernized/img/smile.png%20":)")
 
 The fact is, I\'m lazy. I don\'t want to learn [BeanShell](./BeanShell.html) just for the sake of using [BeanShell](./BeanShell.html). I don\'t want to learn Groovy just for the sake of using Groovy. I like Jython, however, because most of what I learn while using Jython transfers to CPython, which is pretty much a write once run anywhere language. My fluency in the language transfers to even to .NET with [IronPython](./IronPython.html).
 

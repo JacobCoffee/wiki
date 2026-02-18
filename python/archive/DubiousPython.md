@@ -316,7 +316,7 @@ Note that in pre-2.3 Pythons \'in\' only worked with single character strings. I
 
 ## Counting Items without Enumerate 
 
-It is often useful to keep track of the index of an item in an iterable, for example, for reporting the line number of a string in a file. As of Python 2.3 the preferred way to do this is using the builtin enumerate instead of a manually updated count variable. In versions of Python before 2.3, this is actually not all that dubious\... ![;-)](/wiki/europython/img/smile4.png ";-)")
+It is often useful to keep track of the index of an item in an iterable, for example, for reporting the line number of a string in a file. As of Python 2.3 the preferred way to do this is using the builtin enumerate instead of a manually updated count variable. In versions of Python before 2.3, this is actually not all that dubious\... ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
 ### Dubious Way 
 

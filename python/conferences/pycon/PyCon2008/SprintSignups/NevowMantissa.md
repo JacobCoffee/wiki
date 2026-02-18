@@ -22,7 +22,7 @@ See you at [PyCon](../../PyCon)!
 
 For the sprint, we are focusing efforts on improvements to the Twisted application server (Mantissa) and the templating Ajax/COMET engine (Nevow/Athena) for faster, easier, funner development.
 
-In particular, we are preparing for a \"Mantissa Community Release\" with in-progress and planned improvements covering the spectrum: from low-level cleanups and API improvements to example creation and tutorial authoring. There\'s something for everyone to work on ![:-)](/wiki/europython/img/smile.png ":-)")
+In particular, we are preparing for a \"Mantissa Community Release\" with in-progress and planned improvements covering the spectrum: from low-level cleanups and API improvements to example creation and tutorial authoring. There\'s something for everyone to work on ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 **Project URL**: [http://divmod.org](http://divmod.org)
 

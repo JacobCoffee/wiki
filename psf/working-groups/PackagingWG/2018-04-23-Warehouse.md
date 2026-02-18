@@ -39,7 +39,7 @@ Nicole:
 
 - Starting planning for next round of user tests (and user test training). 59 volunteers \\o/
 
-- No blockers ![:)](/wiki/europython/img/smile.png ":)")
+- No blockers ![:)](/wiki/europython/img/smile.png%20":)")
 
 Sumana:
 
@@ -66,7 +66,7 @@ Ernest:
 
 - Search Index - may be resolved, Memory Consumption, HTTP 5xx errors - trending toward 0 errors
 
-- Blocked: Just on time! April 30 can\'t come soon enough ![:)](/wiki/europython/img/smile.png ":)")
+- Blocked: Just on time! April 30 can\'t come soon enough ![:)](/wiki/europython/img/smile.png%20":)")
 
 Dustin:
 

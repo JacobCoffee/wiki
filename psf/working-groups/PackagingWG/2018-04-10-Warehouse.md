@@ -41,7 +41,7 @@ Absent but thank you all so much for taking care of stuff \-- Sumana
 
 **Ask Donald for**
 
-Input on sponsor outreach email ![:)](/wiki/europython/img/smile.png ":)")
+Input on sponsor outreach email ![:)](/wiki/europython/img/smile.png%20":)")
 
 **Issue triage if necessary**
 

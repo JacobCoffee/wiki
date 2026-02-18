@@ -63,7 +63,7 @@ Type:
 :::
 ::::
 
-You\'ll see beautiful HTML on the other side, ready for inclusion in a web page. ![:)](/wiki/europython/img/smile.png ":)")
+You\'ll see beautiful HTML on the other side, ready for inclusion in a web page. ![:)](/wiki/europython/img/smile.png%20":)")
 
 #### Options 
 

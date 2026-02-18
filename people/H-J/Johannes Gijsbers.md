@@ -16,7 +16,7 @@ See [JohannesGijsbers](http://c2.com/cgi/wiki?JohannesGijsbers "Wiki") for more 
 
 So, if we had a nice pattern repository wiki, we could write about *decorate-sort-undecorate* there and link to it\... *{;D}=* \-- [LionKimbro](LionKimbro) 2003-11-21 22:18:39
 
-[PortlandPatternRepository](http://c2.com/cgi/wiki?PortlandPatternRepository "Wiki")? ![;)](/wiki/europython/img/smile4.png ";)") \-- JohannesGijsbers
+[PortlandPatternRepository](http://c2.com/cgi/wiki?PortlandPatternRepository "Wiki")? ![;)](/wiki/europython/img/smile4.png%20";)") \-- JohannesGijsbers
 
 Two thoughts:
 
@@ -98,7 +98,7 @@ It\'d be nice to have a systematic way to teach those basic \"block\" patterns. 
 
 I see what you\'re getting at. How about \"[ProceduralPatterns](./ProceduralPatterns.html)\", with block patterns being one of the scopes involved. The other scope would probably be about splitting things up into functions. \-- JohannesGijsbers
 
-Yes, yes, that\'s exactly it. Though I don\'t think it should pollute *this* wiki. ![:)](/wiki/europython/img/smile.png ":)") \-- [LionKimbro](LionKimbro)
+Yes, yes, that\'s exactly it. Though I don\'t think it should pollute *this* wiki. ![:)](/wiki/europython/img/smile.png%20":)") \-- [LionKimbro](LionKimbro)
 
 ------------------------------------------------------------------------
 

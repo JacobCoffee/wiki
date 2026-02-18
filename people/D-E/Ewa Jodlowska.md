@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Email: `<ewa AT python DOT org>`
 
-![B-)](/wiki/europython/img/smile2.png "B-)")
+![B-)](/wiki/europython/img/smile2.png%20"B-)")
 
 - PSF Event Coordinator: 2011-2015
 - PSF Member: 2012-present

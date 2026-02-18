@@ -10,6 +10,6 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 Python and wiki enthusiast. [Wikipedia page](http://en.wikipedia.org/wiki/User:PhilipR)
 
-FWIW, i\'m now getting into Ruby\.... will the quest for The Perfect Scripting Language ever end? ![;-)](/wiki/europython/img/smile4.png ";-)")
+FWIW, i\'m now getting into Ruby\.... will the quest for The Perfect Scripting Language ever end? ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
 [CategoryHomepage](CategoryHomepage)

@@ -42,7 +42,7 @@ Pages containing additional information on scripting individual applications:
 
 - [../Apple Mail](./MacPython(2f)Apple(20)Mail.html)
 
-- [../Audio Hijack Pro](../../multimedia/MacPython/Audio Hijack Pro)
+- [../Audio Hijack Pro](../../multimedia/MacPython/Audio%20Hijack%20Pro)
 
 - [../Camino](Camino)
 
@@ -66,9 +66,9 @@ Pages containing additional information on scripting individual applications:
 
 - [../iView MediaPro](./MacPython(2f)iView(20)MediaPro.html)
 
-- [../Microsoft Powerpoint](Microsoft Powerpoint)
+- [../Microsoft Powerpoint](Microsoft%20Powerpoint)
 
-- [../Microsoft Word](Microsoft Word)
+- [../Microsoft Word](Microsoft%20Word)
 
 - [../OmniGraffle](OmniGraffle)
 

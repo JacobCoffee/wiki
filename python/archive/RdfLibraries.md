@@ -50,7 +50,7 @@ Abandoned:
 
 - [SemanticWebApplicationPlatform](./SemanticWebApplicationPlatform.html) - [http://www.w3.org/2000/10/swap/](http://www.w3.org/2000/10/swap/) - has a lot of stuff, feels like a big lump of code with little differentiation - looks great, but, what is it?
 
-  - It\'s a big lump of code. ![:)](/wiki/europython/img/smile.png ":)") It\'s the W3C-semweb-hacker\'s playground.
+  - It\'s a big lump of code. ![:)](/wiki/europython/img/smile.png%20":)") It\'s the W3C-semweb-hacker\'s playground.
 
   - It has migrated to [github](https://github.com/linkeddata/swap), but is described as historic
 

@@ -1421,7 +1421,7 @@ Handles HTML boilerplate at top and bottom of pages returned from CGI methods. W
 
 ## State Machine Implementaion 
 
-A much improved version of decorators for implementing state machines, too long to show here, is at [State Machine via Decorators](../people/State Machine via Decorators)
+A much improved version of decorators for implementing state machines, too long to show here, is at [State Machine via Decorators](../people/State%20Machine%20via%20Decorators)
 
 This example uses Decorators to facilitate the implementation of a state machine in Python. Decorators are used to specify which methods are the event handlers for the class. In this example, actions are associated with the transitions, but it is possible with a little consideration to associate actions with states instead.
 

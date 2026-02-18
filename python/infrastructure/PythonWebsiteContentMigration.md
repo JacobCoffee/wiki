@@ -18,7 +18,7 @@ New Style: /doc/mirrors/
 
 What would have been a single page in the old site is now a directory named after the old page (without \'.html\') containing index.html.
 
-In the source repository, the page is made up of several files that contain template information, content and maybe some sub-menu stuff and this is all whacked together by Pyramid to produce the new site. But you should know that already if you are editing links in pages.. ![:-)](/wiki/europython/img/smile.png ":-)")
+In the source repository, the page is made up of several files that contain template information, content and maybe some sub-menu stuff and this is all whacked together by Pyramid to produce the new site. But you should know that already if you are editing links in pages.. ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 A link on a page like \'\<a href=\"../Mirrors.html\"\>Blah\</a\>\' should be converted so that:
 

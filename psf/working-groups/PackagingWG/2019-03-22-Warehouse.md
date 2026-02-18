@@ -74,7 +74,7 @@ Warehouse issues to discuss:
 
   - chewy big system design \..... big enough to get financial help or see if partners will help by implementing it \-- Continuum maybe?
 
-  - TODO: Sumana to list as part of \"if we had money, we could have that thing\" list seeking grants and donations \-- **DONE** at [Fundable Packaging Improvements](../../packaging/Fundable Packaging Improvements)
+  - TODO: Sumana to list as part of \"if we had money, we could have that thing\" list seeking grants and donations \-- **DONE** at [Fundable Packaging Improvements](../../packaging/Fundable%20Packaging%20Improvements)
 
 - [https://github.com/pypa/warehouse/issues/3417](https://github.com/pypa/warehouse/issues/3417) Add ability to configure a redirect for documentation previously hosted by PyPI
 
@@ -93,7 +93,7 @@ Warehouse issues to discuss:
   - Is this a problem? Priority?
     - Dustin: this is easy, we should just do it. Why aren\'t we doing it right now? Just an oversight.
 
-    - Donald: legacy PyPI didn\'t do it; ported old behavior. Tarballs implemented 15 yrs ago, gzip 10 yrs ago ![:-)](/wiki/europython/img/smile.png ":-)")
+    - Donald: legacy PyPI didn\'t do it; ported old behavior. Tarballs implemented 15 yrs ago, gzip 10 yrs ago ![:-)](/wiki/europython/img/smile.png%20":-)")
 
     - Will: if easy to verify \.... in audits, people will accidentally bomb their sys in recursive validation process. Sandbox the process!
 

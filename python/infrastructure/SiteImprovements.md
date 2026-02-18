@@ -109,7 +109,7 @@ If you find stale pages, please add here, this might be useful work for voluntee
 
 ### Wiki Theme 
 
-- Upgrade the Python theme to the one used by [the EuroPython Wiki site](http://wiki.europython.eu/) ![(./)](/wiki/europython/img/checkmark.png "(./)") Added to [InterWikiMap](../archive/InterWikiMap) as `Issue`{.backtick}. For example: [7942](http://bugs.python.org/issue7942 "Issue") in the tracker. \-- [PaulBoddie](../people/PaulBoddie) 2010-03-15 15:32:26
+- Upgrade the Python theme to the one used by [the EuroPython Wiki site](http://wiki.europython.eu/) ![(./)](/wiki/europython/img/checkmark.png%20"(./)") Added to [InterWikiMap](../archive/InterWikiMap) as `Issue`{.backtick}. For example: [7942](http://bugs.python.org/issue7942 "Issue") in the tracker. \-- [PaulBoddie](../people/PaulBoddie) 2010-03-15 15:32:26
 
   - Even though natural syntax would be more welcomed this is a nice helper. Are there any side effects if the prefix is added lowercased? It seems like it is still not possible for it to show word \"issue\" automatically. \-- [techtonik](../archive/techtonik) 2010-03-15 16:47:59
 

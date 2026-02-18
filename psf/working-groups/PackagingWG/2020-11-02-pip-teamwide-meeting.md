@@ -17,7 +17,7 @@ Participants:
 Agenda:
 
 - Yay, beta is out!
-  - Feels like we checked the checkbox! ![:-)](/wiki/europython/img/smile.png ":-)")
+  - Feels like we checked the checkbox! ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 - Status & blockers
 
@@ -42,7 +42,7 @@ Agenda:
 
     - Have we resolved this with some other PR that maybe didn\'t get attached?
 
-    - We basically removed the `ResolutionTooDeep`{.backtick} error in [https://github.com/pypa/pip/pull/8275](https://github.com/pypa/pip/pull/8275), because we figured \"how many package names have we looked at\" is a bad metric. ![:)](/wiki/europython/img/smile.png ":)")
+    - We basically removed the `ResolutionTooDeep`{.backtick} error in [https://github.com/pypa/pip/pull/8275](https://github.com/pypa/pip/pull/8275), because we figured \"how many package names have we looked at\" is a bad metric. ![:)](/wiki/europython/img/smile.png%20":)")
 
       - We should probably to reintroduce this, as a hard-stop error at 1000 backtracks on the same package name.
 

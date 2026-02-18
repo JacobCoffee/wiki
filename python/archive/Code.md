@@ -10,7 +10,7 @@ There\'s a lot of useful code out there that\'s not big enough to be its own mod
 
 Until we get a lot of code, this little page can serve as a useful focal point.
 
-- [Powerful Python One-Liners](../guides/Powerful Python One-Liners)
+- [Powerful Python One-Liners](../guides/Powerful%20Python%20One-Liners)
 
 - [ThreadProgramming](../people/ThreadProgramming)
 

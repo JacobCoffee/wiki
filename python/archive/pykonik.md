@@ -10,7 +10,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ### where are we? 
 
-Basically in Krakow ![:-)](/wiki/europython/img/smile.png ":-)")
+Basically in Krakow ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 blog: [http://blog.pykonik.org/](http://blog.pykonik.org/)
 

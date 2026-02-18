@@ -12,7 +12,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 There a various tools which make it easier to bridge the gap between Python and C/C++:
 
-- [Pyrex](../implementations/Pyrex) - write your extension module on Python ![(!)](/wiki/europython/img/idea.png "(!)")
+- [Pyrex](../implementations/Pyrex) - write your extension module on Python ![(!)](/wiki/europython/img/idea.png%20"(!)")
 
 - [Cython](http://cython.org/) \-- Cython \-- an improved version of Pyrex
 

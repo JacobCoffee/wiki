@@ -46,7 +46,7 @@ I\'ll start it off with the question we all want to ask:
 
 ***Sun is very interested in making the JVM a rich environment for many languages. Certainly in the past the JVM was developed as a Java-only kind of place. This is no longer the case. There is some really interesting work going on to make the JVM a really great environment for languages like Jython. For more see the Da Vinci Machine project (also called the multi-language VM or mlvm \-- in my opinion \"Da Vinci Machine\" is a way cooler name): [http://openjdk.java.net/projects/mlvm/](http://openjdk.java.net/projects/mlvm/)***
 
-5.5) *(not related to q5, just days later ![:)](/wiki/modernized/img/smile.png ":)") ) Would the results of Java profiling tools like findbugs, Jprofiler or myKit be helpful or more importantly useful to you or one of the members of the development team?*
+5.5) *(not related to q5, just days later ![:)](/wiki/modernized/img/smile.png%20":)") ) Would the results of Java profiling tools like findbugs, Jprofiler or myKit be helpful or more importantly useful to you or one of the members of the development team?*
 
 ***Certainly \-- some of the Jython devs, particularly Nicholas Riley are using profiling tools already. Nicholas is using [YourKit](./YourKit.html) ([http://www.yourkit.com/java/profiler/index.jsp](http://www.yourkit.com/java/profiler/index.jsp)).***
 
@@ -105,7 +105,7 @@ thx, Berco Beute
 
 - 14\) Do you plan on releasing any milestones in the development of jython2.5?
 
-**Timely question ![:)](/wiki/modernized/img/smile.png ":)") \-- see [http://fwierzbicki.blogspot.com/2008/07/jython-25-alpha-released.html](http://fwierzbicki.blogspot.com/2008/07/jython-25-alpha-released.html) for the alpha announcement.**
+**Timely question ![:)](/wiki/modernized/img/smile.png%20":)") \-- see [http://fwierzbicki.blogspot.com/2008/07/jython-25-alpha-released.html](http://fwierzbicki.blogspot.com/2008/07/jython-25-alpha-released.html) for the alpha announcement.**
 
 Thanks, Allan Davis
 

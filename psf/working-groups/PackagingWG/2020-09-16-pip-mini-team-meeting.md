@@ -31,7 +31,7 @@ Agenda
   - Bernard: everything cooking nicely! \[checking whether UX studies has had more signups\]
     - Since PSF blogpost went out we got 9 more (290 in total now) sign-ups
 
-  - Georgia: catching up from trying to take off last week. ![:-)](/wiki/europython/img/smile.png ":-)") working on tweet drafts. adding to a Notion page \[INTERNAL LINK, not public please\] am working on wording, templates. Working to finish that today. Next: provide to Ernest. Ernest can please edit! ![:-)](/wiki/europython/img/smile.png ":-)")
+  - Georgia: catching up from trying to take off last week. ![:-)](/wiki/europython/img/smile.png%20":-)") working on tweet drafts. adding to a Notion page \[INTERNAL LINK, not public please\] am working on wording, templates. Working to finish that today. Next: provide to Ernest. Ernest can please edit! ![:-)](/wiki/europython/img/smile.png%20":-)")
 
   - Ernest: nothing. But: halfway through Sept. Please invoice for Aug. And it would be really nice if Sept invoices came by Oct 1st, to close out quarter.
 

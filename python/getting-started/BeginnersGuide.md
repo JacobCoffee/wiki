@@ -68,7 +68,7 @@ Once you have read a tutorial, you can browse through [Python\'s online document
 
 When you are ready to write your first program, you will need a [text editor](../editors/PythonEditors) or an [IDE](../editors/IntegratedDevelopmentEnvironments). If you don\'t want to use Thonny or something more advanced, then you can use [IDLE](https://docs.python.org/3/library/idle.html), which is bundled with Python and supports [extensions](http://idlex.sourceforge.net).
 
-This Python wiki also contains a page about [Python One-Liners](../guides/Powerful Python One-Liners) \-- an obscure but interesting subculture in Python.
+This Python wiki also contains a page about [Python One-Liners](../guides/Powerful%20Python%20One-Liners) \-- an obscure but interesting subculture in Python.
 
 ### Need Help? 
 

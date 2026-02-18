@@ -29,7 +29,7 @@ For an intranet solution for a company or organisation of almost any size, the p
 
     - You may be extracting data from different sources and then need to present it as Web pages. Here, the [DataRepresentation](../language/DataRepresentation) and [Templating](Templating) may provide good solutions. And there\'s probably lots of existing documents lying around anyway which can be served up as they are.
 
-5.  Integrate into business processes - not only merits a \"top level\" mention, but an entire Web site devoted to it. ![:)](/wiki/europython/img/smile.png ":)")
+5.  Integrate into business processes - not only merits a \"top level\" mention, but an entire Web site devoted to it. ![:)](/wiki/europython/img/smile.png%20":)")
 
 6.  Test! It\'s nice if your [WebProgramming](../web/WebProgramming) framework allows development and testing outside a Web browser, XML-RPC, SOAP, etc. Like from the command prompt, for example.
 

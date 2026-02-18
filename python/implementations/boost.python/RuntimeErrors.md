@@ -28,7 +28,7 @@ Attempt to instantiate a class with *no_init* descriptor. It may be private cons
 
 Boost.Python provides a default exception handler that translates selected standard exceptions, then gives up with that message.
 
-To install your own exception translator **don\'t** see [tutorial](http://www.boost.org/libs/python/doc/tutorial/doc/exception_translation.html). ![:)](/wiki/europython/img/smile.png ":)") (**&** missed in register_exception_translator call)\
+To install your own exception translator **don\'t** see [tutorial](http://www.boost.org/libs/python/doc/tutorial/doc/exception_translation.html). ![:)](/wiki/europython/img/smile.png%20":)") (**&** missed in register_exception_translator call)\
 Use that:
 
     struct PodBayDoorException;

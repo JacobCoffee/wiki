@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## Description 
 
-This is a response to the page wanting [Powerful Python One-Liners](../../../guides/Powerful Python One-Liners).\" It prints the user\'s platform to the screen. It is something that I felt would be a good start for the [Powerful Python One-Liners](../../../guides/Powerful Python One-Liners).
+This is a response to the page wanting [Powerful Python One-Liners](../../../guides/Powerful%20Python%20One-Liners).\" It prints the user\'s platform to the screen. It is something that I felt would be a good start for the [Powerful Python One-Liners](../../../guides/Powerful%20Python%20One-Liners).
 
 ## Code 
 

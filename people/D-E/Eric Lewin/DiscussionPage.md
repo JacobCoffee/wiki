@@ -14,7 +14,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 #### Just an exemple 
 
-Welcome ! and blablabla\... ![:-)](/wiki/europython/img/smile.png ":-)")
+Welcome ! and blablabla\... ![:-)](/wiki/europython/img/smile.png%20":-)")
 
 \-- Eric 2008-07-25 23:25:44
 

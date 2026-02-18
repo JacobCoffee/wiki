@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-I followed a link labelled \"macholib trac\", and it took me to this page, so here we go. ![;-)](/wiki/europython/img/smile4.png ";-)")
+I followed a link labelled \"macholib trac\", and it took me to this page, so here we go. ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
 issue #1: TypeError when macholib is just being installed due to setup_requires reporter: [zooko@zooko.com](mailto:zooko@zooko.com)
 

@@ -458,7 +458,7 @@ I\'m looking into an approach which adds explicit support for displaying iterato
 
 ### Scrap C-Style Formatting 
 
-What\'s one more strawman, right? ![:)](/wiki/europython/img/smile.png ":)") My approach is tailor-made for gettext (although I\'m no expert in gettext usage). Keywords become the default and positionals disappear completely.
+What\'s one more strawman, right? ![:)](/wiki/europython/img/smile.png%20":)") My approach is tailor-made for gettext (although I\'m no expert in gettext usage). Keywords become the default and positionals disappear completely.
 
 `>>> print('x = {x}, y = {y}, z = {z}', x=x, y=y, z=z)`
 

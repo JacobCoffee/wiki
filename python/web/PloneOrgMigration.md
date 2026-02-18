@@ -22,9 +22,9 @@ We will perform the migration on a backup instance to figure out the steps invol
 
 There is some crufty old software running on plone.org that needs special care:
 
-- **CMFCollector** - this is very old and about to die from the amount of issues we have in it. At the very minimum, we need to look at converting it to a BTree-based structure - \$DEITY knows why it wasn\'t in the first place. ![:)](/wiki/europython/img/smile.png ":)")
+- **CMFCollector** - this is very old and about to die from the amount of issues we have in it. At the very minimum, we need to look at converting it to a BTree-based structure - \$DEITY knows why it wasn\'t in the first place. ![:)](/wiki/europython/img/smile.png%20":)")
 
-- **CMFWorkspaces** - another old piece of software that nearly works. ![;)](/wiki/europython/img/smile4.png ";)") We need to evaluate whether we need this software anymore. My guess is no - since we have [ConstrainTypes](./ConstrainTypes.html) in the new 2.1 release, but this is something that we need to reach a decision on.
+- **CMFWorkspaces** - another old piece of software that nearly works. ![;)](/wiki/europython/img/smile4.png%20";)") We need to evaluate whether we need this software anymore. My guess is no - since we have [ConstrainTypes](./ConstrainTypes.html) in the new 2.1 release, but this is something that we need to reach a decision on.
 
 - **ZWiki** - ideally we should get rid of all wiki pages and turn them into normal documents. ZWiki doesn\'t work very well in Plone, and it\'s become a burden to support it. Also, it makes sense to reduce the number of external dependencies. The only Wiki feature we use is the link markup, and that can be replaced with products like Wicked later on.
 

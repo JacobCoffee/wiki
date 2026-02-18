@@ -8,7 +8,7 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## PSF Logos 
 
-If you are looking for a PSF press kit with descriptions and more pointers, please check our [PSF Press Kit](PSF Press Kit) page.
+If you are looking for a PSF press kit with descriptions and more pointers, please check our [PSF Press Kit](PSF%20Press%20Kit) page.
 
 *Note:* This page is readable without login.
 

@@ -36,7 +36,7 @@ Il [sito web Python italiano](http://www.python.it) è gestito dall\'associazion
 
 Per chi è completamente digiuno di programmazione, un buon inizio è il testo gratuito in italiano ![Pensare da Informatico](http://www.python.it/doc/Howtothink/Howtothink-html-it/index.htm "Pensare da Informatico"), traduzione di Alessandro Pocaterra del testo originale inglese di Allen B. Downey, Jeffrey Elkner e Chris Meyers.
 
-[Python-it.org](http://www.python-it.org) è un sito basato sulla comunità, creato da molti utilizzatori italiani di Python *per* utilizzatori di Python. Contiene molte risorse: un forum, una pagina sui progetti della comunità, una wiki, sondaggi, notizie relative a Python, mappa degli utenti, e molte altre. Venite a trovarci! ![;)](/wiki/europython/img/smile4.png ";)")
+[Python-it.org](http://www.python-it.org) è un sito basato sulla comunità, creato da molti utilizzatori italiani di Python *per* utilizzatori di Python. Contiene molte risorse: un forum, una pagina sui progetti della comunità, una wiki, sondaggi, notizie relative a Python, mappa degli utenti, e molte altre. Venite a trovarci! ![;)](/wiki/europython/img/smile4.png%20";)")
 
 Un [gruppo usenet, it.comp.lang.python](http://groups.google.it/group/it.comp.lang.python/topics) raccoglie la gran parte dei Pythonisti italiani.
 

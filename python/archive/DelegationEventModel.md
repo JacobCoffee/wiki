@@ -146,10 +146,10 @@ I\'d make *two* pages on this wiki; One for the [CommandPattern](./CommandPatter
 
 \-- [LionKimbro](../people/LionKimbro)
 
-I do not think so. Look at [DEMAtSun](http://java.sun.com/j2se/1.4.2/docs/guide/awt/1.3/designspec/events.html). Note that the [CommandPattern](http://c2.com/cgi/wiki?CommandPattern "Wiki") is slightly different but not that far or it might also be an instanciation of the DelegationEventModel\... What I\'m trying to do is to add usefull code here so I may be wrong on the name\... ![;-)](/wiki/europython/img/smile4.png ";-)")
+I do not think so. Look at [DEMAtSun](http://java.sun.com/j2se/1.4.2/docs/guide/awt/1.3/designspec/events.html). Note that the [CommandPattern](http://c2.com/cgi/wiki?CommandPattern "Wiki") is slightly different but not that far or it might also be an instanciation of the DelegationEventModel\... What I\'m trying to do is to add usefull code here so I may be wrong on the name\... ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
 \-- Loïc Fejoz
 
-So, adjust [CommandPattern](http://c2.com/cgi/wiki?CommandPattern "Wiki"), to include your case, or make a new page on C2? I guess my basic idea is: I think it would be cool to cooperate with C2. ![:)](/wiki/europython/img/smile.png ":)")
+So, adjust [CommandPattern](http://c2.com/cgi/wiki?CommandPattern "Wiki"), to include your case, or make a new page on C2? I guess my basic idea is: I think it would be cool to cooperate with C2. ![:)](/wiki/europython/img/smile.png%20":)")
 
 \-- [LionKimbro](../people/LionKimbro)

@@ -12,6 +12,6 @@ We are using Python to power our test automation framework. We use SQLObject lay
 
 By the way, we are always looking for really smart Test Engineers who are really super-competent in SQL and of course, Python knowledge is a HUGE plus! If you are interested (and are relatively local to our Bay area company), check out the website.
 
-This will be my first [PyCon](../conferences/pycon/PyCon) and I am looking forward to it. BTW, \"hello to Patrick\". (He should know who this is ![;-)](/wiki/europython/img/smile4.png ";-)") )
+This will be my first [PyCon](../conferences/pycon/PyCon) and I am looking forward to it. BTW, \"hello to Patrick\". (He should know who this is ![;-)](/wiki/europython/img/smile4.png%20";-)") )
 
 [CategoryHomepage](CategoryHomepage)

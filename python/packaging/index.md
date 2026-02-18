@@ -22,7 +22,7 @@ Python packaging has a long and tangled history. Distutils shipped in 1.6, setup
 
 - [PyPI](PyPI) -- overview of the Python Package Index
 - [PyPI subpages](PyPI/index) -- additional PyPI documentation
-- [A new pypi module](A new pypi module) -- draft PEP by Tarek Ziade for a `pypi` package in the standard library
+- [A new pypi module](A%20new%20pypi%20module) -- draft PEP by Tarek Ziade for a `pypi` package in the standard library
 - [CloudPyPI](CloudPyPI) -- canceled project to mirror PyPI on Amazon CloudFront (now unnecessary since PyPI uses Fastly)
 - [CloudPyPI subpages](CloudPyPI/index) -- additional CloudPyPI documentation
 - [PyPIComments](PyPIComments) -- discussion about per-package commenting and rating on PyPI
@@ -38,7 +38,7 @@ Python packaging has a long and tangled history. Distutils shipped in 1.6, setup
 - [DistutilsSprint](DistutilsSprint) -- distutils development sprint
 - [DistutilsTesting](DistutilsTesting) -- discussion of functional testing for distutils
 - [PackagingBOF](PackagingBOF) -- packaging birds-of-a-feather meeting summary
-- [Packaging Survey](Packaging Survey) -- community survey about packaging workflows
+- [Packaging Survey](Packaging%20Survey) -- community survey about packaging workflows
 - [PackagingPy2Porting](PackagingPy2Porting) -- strategy for backporting the `packaging` module to Python 2.4-3.2
 - [SummerOfCode subpages](SummerOfCode/index) -- Google Summer of Code packaging projects
 

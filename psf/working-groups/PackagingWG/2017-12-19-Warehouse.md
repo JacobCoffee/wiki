@@ -127,7 +127,7 @@ Maybe:
 
   - *Resolution:* Dustin - not part of MVP milestone
 
-Sumana wonders whether previous decision was correct ![:)](/wiki/europython/img/smile.png ":)") :
+Sumana wonders whether previous decision was correct ![:)](/wiki/europython/img/smile.png%20":)") :
 
 - [https://github.com/pypa/warehouse/issues/2486](https://github.com/pypa/warehouse/issues/2486) File size limit error message should include size of the limit
 
@@ -160,7 +160,7 @@ Sumana wonders whether previous decision was correct ![:)](/wiki/europython/img/
 
 - [https://github.com/pypa/warehouse/issues/789](https://github.com/pypa/warehouse/issues/789) Dependency and Reverse Dependency
 
-  - *Resolution:* Ernest: Definitely not MVP/milestone1, this is a new feature ![:)](/wiki/europython/img/smile.png ":)")
+  - *Resolution:* Ernest: Definitely not MVP/milestone1, this is a new feature ![:)](/wiki/europython/img/smile.png%20":)")
 
 **II. Discuss schedule and decide: what is our tentative deadline for the first milestone?** Assignments - what\'s on whose plate?
 

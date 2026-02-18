@@ -30,7 +30,7 @@ We did end up having a Jython BOF on Friday, March 28, at 9 a.m. It was attended
 
 I was at the Jython BOF:
 
-- [TomBryan](../../people/TomBryan) \-- I scheduled the BOF. ![:)](/wiki/europython/img/smile.png ":)")
+- [TomBryan](../../people/TomBryan) \-- I scheduled the BOF. ![:)](/wiki/europython/img/smile.png%20":)")
 
 ------------------------------------------------------------------------
 

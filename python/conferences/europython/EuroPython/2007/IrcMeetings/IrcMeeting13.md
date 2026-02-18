@@ -37,7 +37,7 @@ The meeting will take place on Monday 4th June (2007-06-04) 18:00 CEST (17:00 BS
 - Aiste will arrange printing facilities tomorrow and report back next Monday.
 
 - Keynotes
-  - Guido can be left unsupervised. ![;-)](/wiki/europython/img/smile4.png ";-)")
+  - Guido can be left unsupervised. ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
   - David will follow up on Simon.
 

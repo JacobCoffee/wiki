@@ -12,7 +12,7 @@ This is a summary of FSM implementations in Python right now. Licensing remains 
 
 For general information about finite state machines, see:
 
-- [Wikipedia:Finite_state_machine](http://www.wikipedia.com/wiki/Finite_state_machine "WikiPedia") \-- ![B)](/wiki/europython/img/smile2.png "B)") *excellent!* ![B)](/wiki/europython/img/smile2.png "B)")
+- [Wikipedia:Finite_state_machine](http://www.wikipedia.com/wiki/Finite_state_machine "WikiPedia") \-- ![B)](/wiki/europython/img/smile2.png%20"B)") *excellent!* ![B)](/wiki/europython/img/smile2.png%20"B)")
 
 - [Wiki:FiniteStateMachine](http://c2.com/cgi/wiki?FiniteStateMachine "Wiki")
 

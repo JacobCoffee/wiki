@@ -18,7 +18,7 @@ Job submissions are entered into a web form, the form creates a database record 
 
 2.  Submitters [create a job posting record](https://www.python.org/jobs/create/)
 
-3.  Submissions are checked against a list of quality criteria by the reviewers using the [review panel](https://www.python.org/jobs/review/); see the [/Reviewers](PSF Python Job Board/Reviewers) page for details on the review process
+3.  Submissions are checked against a list of quality criteria by the reviewers using the [review panel](https://www.python.org/jobs/review/); see the [/Reviewers](PSF%20Python%20Job%20Board/Reviewers) page for details on the review process
 
 4.  Submissions which need refinement are rejected together with a note mentioning the reason for rejection (using the \"review\" button on the review panel).
 
@@ -35,7 +35,7 @@ Remarks:
 
 The job board team has decreased a lot due to the long project run time. We will launch with a small team of reviewers:
 
-- [/Reviewers](PSF Python Job Board/Reviewers) - team members who review job postings The review process is also described on the above page.
+- [/Reviewers](PSF%20Python%20Job%20Board/Reviewers) - team members who review job postings The review process is also described on the above page.
 
 Issues we find are posted to the [python.org site\'s issue tracker](https://github.com/python/pythondotorg/issues)
 
@@ -65,7 +65,7 @@ In the years before the relaunch, the jobs board was run by single volunteers. S
 
 From 2014 to 2015, a team of volunteers worked to relaunch the job board using a jobs app on the new python.org website (which was launched in 2014).
 
-The relaunch project page is still available: [/Relaunch Project](PSF Python Job Board/Relaunch Project)
+The relaunch project page is still available: [/Relaunch Project](PSF%20Python%20Job%20Board/Relaunch%20Project)
 
 ### Resources 
 

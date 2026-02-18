@@ -145,7 +145,7 @@ Nicole: then another week or so to have templates merged.
 
 ### Miscellaneous 
 
-Ernest: **\*\*Important\*\*** INVOICES 4 JULY PLZZZZZZZ \<3 **\*\*Important\*\***: We need to update our view on runway ![:)](/wiki/europython/img/smile.png ":)")
+Ernest: **\*\*Important\*\*** INVOICES 4 JULY PLZZZZZZZ \<3 **\*\*Important\*\***: We need to update our view on runway ![:)](/wiki/europython/img/smile.png%20":)")
 
 ### TODOs 
 

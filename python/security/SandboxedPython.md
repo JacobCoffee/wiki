@@ -8,13 +8,13 @@ This page was migrated from the old MoinMoin-based wiki. Information may be outd
 
 ## Sandboxed Python 
 
-See also: [How can I run an untrusted Python script safely (i.e. Sandbox)](./Asking(20)for(20)Help(2f)How(20)can(20)I(20)run(20)an(20)untrusted(20)Python(20)script(20)safely(2028)i(2e)e(2e20)Sandbox(29).html) (from the [Asking for Help](../archive/Asking for Help) page), [Security](Security).
+See also: [How can I run an untrusted Python script safely (i.e. Sandbox)](./Asking(20)for(20)Help(2f)How(20)can(20)I(20)run(20)an(20)untrusted(20)Python(20)script(20)safely(2028)i(2e)e(2e20)Sandbox(29).html) (from the [Asking for Help](../archive/Asking%20for%20Help) page), [Security](Security).
 
 Is there such a thing as \"Sandboxed Python\"? Something where you can run a Python that is limited in what it can do.
 
 You could do all *sorts* of cool things with a sandboxed Python:
 
-- You could turn a wiki into an RAD development platform. You just draw up your interface with [WikiSyntax](http://c2.com/cgi/wiki?WikiSyntax "Wiki"), write up a little bit of Python code, and bam- instant application. ![:)](/wiki/europython/img/smile.png ":)")
+- You could turn a wiki into an RAD development platform. You just draw up your interface with [WikiSyntax](http://c2.com/cgi/wiki?WikiSyntax "Wiki"), write up a little bit of Python code, and bam- instant application. ![:)](/wiki/europython/img/smile.png%20":)")
 
   - This is somewhat similar to [TiddlyWiki](http://www.tiddlywiki.com/) - a [JavaScript](./JavaScript.html)-based Wiki which behaves like a Web-based sandboxed application - although that approach utilises the [JavaScript](./JavaScript.html) sandbox functionality in the Web browser, rather than accessing a sandboxed server-side application.
 

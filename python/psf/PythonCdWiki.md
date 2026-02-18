@@ -24,7 +24,7 @@ All the pages would be easier. So we could reference to other content about pyth
 
 Yeah, you never know when SCO is going to start contributing, and then say \"you can\'t do that!\" when you want to make use of what you wrote.
 
-It\'d be neat if wiki technology (What\'s this one running- [MoinMoin](MoinMoin)? ![;)](/wiki/europython/img/smile4.png ";)") ) had a \"copyright switch,\" in your [UserPreferences](./UserPreferences.html) section. The default setting of the switch is \"Default Copyright.\" If you were to make a page, in that state, then the page\'s copyright is \"Default Copyright.\" People have to go into \"default copyright\" mode to use that page.
+It\'d be neat if wiki technology (What\'s this one running- [MoinMoin](MoinMoin)? ![;)](/wiki/europython/img/smile4.png%20";)") ) had a \"copyright switch,\" in your [UserPreferences](./UserPreferences.html) section. The default setting of the switch is \"Default Copyright.\" If you were to make a page, in that state, then the page\'s copyright is \"Default Copyright.\" People have to go into \"default copyright\" mode to use that page.
 
 Yes, we could probably do more optimal things with diffs and what not, but this seems to me the easiest, simplest solution, but in terms of implementing it, and in terms of people being able to understand what\'s going on. And when it comes to legal stuff, we *definitely* want there to be no questions about what is going on.
 

@@ -12,7 +12,7 @@ Email: `<alex.nanou@gmail.com>`
 
 Interests (IT): Languages, Language Design, Paradigms, Teaching, Software Architecture
 
-I do mostly freelance/mercenary software stuff, a couple of pet projects and teach at the Moscow State University ![:)](/wiki/europython/img/smile.png ":)")
+I do mostly freelance/mercenary software stuff, a couple of pet projects and teach at the Moscow State University ![:)](/wiki/europython/img/smile.png%20":)")
 
 some related links:
 

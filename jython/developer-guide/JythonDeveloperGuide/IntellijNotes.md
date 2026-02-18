@@ -128,7 +128,7 @@ I think a JDK \>= 6 and CPython corresponting to the current Jython version (2.7
 
 The classes [InformixDataHandler](./InformixDataHandler.html) and [OracleDataHandler](./OracleDataHandler.html) depend on proprietary Jars. Downloading the Oracle odbc.jar for example requires a reqistration at Oracles Website.
 
-If you just want to get your project running, delete both classes ([InformixDataHandler](./InformixDataHandler.html) and [OracleDataHandler](./OracleDataHandler.html)). Thats it. ![:)](/wiki/modernized/img/smile.png ":)")
+If you just want to get your project running, delete both classes ([InformixDataHandler](./InformixDataHandler.html) and [OracleDataHandler](./OracleDataHandler.html)). Thats it. ![:)](/wiki/modernized/img/smile.png%20":)")
 
 If you\'re going to work in the area of JDBC data handlers, figure from build.xml out which jars you\'ll need (one for Infromix and one for Oracle), download them and put them into the extlibs directory.
 

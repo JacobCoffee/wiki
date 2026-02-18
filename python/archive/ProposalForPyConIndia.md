@@ -97,9 +97,9 @@ We have to decide who the target audience is, or at least the types of different
 
 - We should also involve all known companies who run as a python shop to increase the awareness within local communities.
 
-- A conference w/o tee is like having a south Indian meal w/o pickle. At least we can have pay for your tees or have delegate fees with and without goodies ![;-)](/wiki/europython/img/smile4.png ";-)")
+- A conference w/o tee is like having a south Indian meal w/o pickle. At least we can have pay for your tees or have delegate fees with and without goodies ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
-- If we consider [ConventionHowto](../people/ConventionHowto) , we have 18 months to September 2010 ![;-)](/wiki/europython/img/smile4.png ";-)")
+- If we consider [ConventionHowto](../people/ConventionHowto) , we have 18 months to September 2010 ![;-)](/wiki/europython/img/smile4.png%20";-)")
 
 #### Venkat (venkat83 at gmail dot com) 
 

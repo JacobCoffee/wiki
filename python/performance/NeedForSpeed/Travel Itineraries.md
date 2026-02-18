@@ -6,7 +6,7 @@
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
 ```
 
-Sue Illerhues and Patty Bunya-ananta will be confirming and dealing with all travel arrangements. Arrival times are shown on the [NeedForSpeed/Summary of arrivals](Summary of arrivals) page for those who want to meet up and travel to the hotel together.
+Sue Illerhues and Patty Bunya-ananta will be confirming and dealing with all travel arrangements. Arrival times are shown on the [NeedForSpeed/Summary of arrivals](Summary%20of%20arrivals) page for those who want to meet up and travel to the hotel together.
 
 Please contact [Sue@ewtllc.com](mailto:Sue@ewtllc.com) or 310-595-0115 with ANY questions!
 
