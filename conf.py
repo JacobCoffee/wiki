@@ -106,6 +106,7 @@ html_context = {
     "source_type": "github",
     "source_user": "JacobCoffee",
     "source_repo": "wiki",
+    "source_docs_path": "/",
 }
 
 html_theme_options = {
