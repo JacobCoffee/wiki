@@ -1,0 +1,145 @@
+# Packaging/2020-01-23-pip
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## pip test infrastructure planning 
+
+23 January 2020
+
+Participants: Pradyun, Sumana, Ernest
+
+### Agenda 
+
+Today: mostly exploratory/explanatory about what is running now
+
+Then: look into what the long-term goals are
+
+So:
+
+1.  Pipelines
+2.  Pain points
+3.  Goals
+
+### Pipelines 
+
+There are numerous different pipelines
+
+Documented already: [https://pip.pypa.io/en/latest/development/ci/](https://pip.pypa.io/en/latest/development/ci/)
+
+Pipelines:
+
+- the docs at pip.pypa.io and implied in NEWS provide context & info
+
+Pradyun: We use Azure, GitHub, and Travis as our 3 CI providers \-- see matrix at [https://pip.pypa.io/en/latest/development/ci/](https://pip.pypa.io/en/latest/development/ci/)
+
+### Pain points 
+
+#### Wait time 
+
+Pain point \# 1: reduce time between a pull request submission and [GitHub](./GitHub.html) reporting the success:
+
+- currently: 1 hour the tests on a single job might take 20 minutes these providers only give us so many free job executors so, going through the entire execution cycle is \~1hr
+
+Ernest: pretty much every project with a big enough matrix runs into that
+
+#### Inconsistent test environment 
+
+Pain point \# 2:
+
+- we don\'t have a consistent env of processes that ends up happening across multiple CI providers
+
+Sumana: other projects have surely resolved this somehow?
+
+Pradyun: Django has their own CI on Jenkins with a pretty big matrix
+
+Sumana: is it ridiculous for PSF to run our own Jenkins?
+
+Ernest: Linux, Mac, and Windows targeting \-- PSF Infra doesn\'t have any that is on Mac and Windows.
+
+So this is why most project end up relying on Travis/Azure/GitHub Actions
+
+Similar to the wheel-building block.
+
+We don\'t have the capacity to run the farm necessary
+
+- TODO - sumana: find stats request and send to Ernest (now done)
+
+Thus, PAIN POINT #2 is outside the scope of this project \-- future fundraising opportunity
+
+#### Automation snags and permissions 
+
+Pain point #3:
+
+- Automation and pip issue tracker - Pradyun has wanted to improve this for a while get access to relevant Heroku instances and what not would need access/credentials from Donald
+
+Ernest: PyPA bot and BrownTruck bot on Heroku
+
+the 2 projects have GitHub users that Donald has pw for
+
+- [https://github.com/orgs/pypa/people/BrownTruck](https://github.com/orgs/pypa/people/BrownTruck)
+
+- [https://github.com/orgs/pypa/people/pypa-bot](https://github.com/orgs/pypa/people/pypa-bot)
+
+- TODO: Sumana to bug Donald on this
+
+- TODO: Sumana: to invite Donald to a future call
+
+### Goals 
+
+A bunch of Warehouse improvements come to mind, such as:
+
+- 2-step release process \-- [https://github.com/pypa/warehouse/issues/726](https://github.com/pypa/warehouse/issues/726)
+
+- yanking \-- [https://github.com/pypa/warehouse/pull/5838](https://github.com/pypa/warehouse/pull/5838) (open PR)
+
+- Automated test of installability - Warehouse issue #194 [https://github.com/pypa/warehouse/issues/194](https://github.com/pypa/warehouse/issues/194)
+
+- (later, for resolver, Warehouse metadata API would help \-- [https://github.com/pypa/warehouse/issues/474](https://github.com/pypa/warehouse/issues/474) I believe )
+
+Do any of these Warehouse improvements seem to be on the horizon?
+
+Ernest: Yanking is closest to implementable. There\'s a PEP & a draft PR from Donald.
+
+2-step is next closest.
+
+Automated test of installability \-- much further away (complexity)
+
+How do we hit point #1?
+
+Pradyun\'s idea: Speeding up the test suite [https://github.com/pypa/pip/issues/4497](https://github.com/pypa/pip/issues/4497)
+
+(Pradyun is considering putting this up as a GSoC project \-- test suite stuff \-- working with PSF GSoC Admins)
+
+Sumana: Could we ask Azure and Travis for more slots?
+
+Ernest: Azure more likely. Travis: hard to get in contact with, especially since acquisition
+
+Ernest: we can ASK.
+
+What the current parallel jobs count is for Azure pipeline:
+
+PyPA has a single pool for a bunch of projects.
+
+- TODO: Sumana to seek out Travis contact to find way to increase or at least maintain pool
+
+(They\'re a sponsor via in-kind donation)
+
+### Conclusions 
+
+CONCLUSIONS
+
+- TODO: Sumana to share in community channels that speeding up test suite is our current approach re: these problems, and Pradyun (with colleagues) to work on that
+
+- TODO: group to reassess in \~6 weeks, see if that\'s still an approach we want to pursue
+
+- TODO: Sumana to bug Donald on Heroku/bot permissions
+
+- TODO: Sumana: to invite Donald to a future call
+
+- TODO: Sumana to seek out Travis contact to find way to increase or at least maintain pool
+
+- TODO: Sumana to note these meeting notes in [https://github.com/pypa/warehouse/issues/5837](https://github.com/pypa/warehouse/issues/5837) re yanking prioritization

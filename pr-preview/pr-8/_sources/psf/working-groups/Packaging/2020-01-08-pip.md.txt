@@ -1,0 +1,142 @@
+# Packaging/2020-01-08-pip
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## pip syncup meeting 
+
+Wednesday 8 January, 2020
+
+- Sumana Harihareswara
+- Paul Moore
+- Pradyun Gedam
+- Tzu-ping Chung
+
+Chatted about logistics for Tsu-ping\'s logistics, Paul\'s involvement, and Ilan\'s involvement
+
+### Ilan 
+
+During the project, the goals for Ilan\'s work are:
+
+- Improve robustness of new pip dependency resolver
+- Help prepare improved resolver for release in mid-2020
+- Improve pip's interoperability with conda
+
+Ilan will engage in various activities to support those goals, such as:
+
+- Collaborating with the project manager on a detailed task list/plan/schedule for my work
+
+- Writing or improving resolver specifications, test cases, and testing plan
+
+- Filing, reviewing, and replying to issues and pull requests
+
+- Testing in-progress versions of pip and filing bug reports
+
+- Improving pip developer documentation
+
+- Discussing pip architecture and the resolver in the Python developer Discourse forum
+
+- Potentially: devising a way to declare external dependencies that can be effectively consumed by the \"conda skeleton\" command, per [https://github.com/pypa/interoperability-peps/pull/30](https://github.com/pypa/interoperability-peps/pull/30)
+
+### Timing 
+
+\[discussion of timing. Better to do it in April/May? Feb/March? How many hours to use?\]
+
+What about test cases?
+
+We can harvest those early. There\'s existing prior art. Someone needs to polish up our existing testing setup for resolver tests.
+
+- [https://github.com/pradyunsg/zazo/tree/master/tests](https://github.com/pradyunsg/zazo/tree/master/tests)
+
+Other potential sources:
+
+- [https://github.com/CocoaPods/Resolver-Integration-Specs/](https://github.com/CocoaPods/Resolver-Integration-Specs/)
+
+- [https://github.com/pradyunsg/zazo/tree/master/tests/yaml](https://github.com/pradyunsg/zazo/tree/master/tests/yaml)
+
+- [https://github.com/apple/swift-package-manager/tree/master/Tests/PackageGraphTests](https://github.com/apple/swift-package-manager/tree/master/Tests/PackageGraphTests)
+
+- [https://github.com/rust-lang/cargo/blob/master/crates/resolver-tests/tests/resolve.rs](https://github.com/rust-lang/cargo/blob/master/crates/resolver-tests/tests/resolve.rs)
+
+How about we ask him to do \~35 hours of test case development in February?
+
+Let him write them in his own format? Then port our existing tests (there are not that many) to his format?
+
+And perhaps the pipeline/process improvement as well
+
+\- Write new tests? Improve/better testing setup/infrastructure?
+
+Then \~35 hours reserved for April/May testing and discussion
+
+- TODO: Sumana to have a chat with Ilan about whether the initial 35 hour chunk makes sense \-- probably test cases rather than infra, but put some thoughts into prose re infra/process, and whether he would do this in Feb or March
+
+### Overall timeline 
+
+What is realistic to get done between now and the end of May?
+
+\[discussion of a contractual timeline\]
+
+#### MOSS-funded developer 
+
+[https://github.com/python/request-for/blob/master/2020-pip/RFP.md#role-1-senior-developer](https://github.com/python/request-for/blob/master/2020-pip/RFP.md#role-1-senior-developer)
+
+Continue refactoring existing build logic - split between 2 MOSS-funded developers
+
+User types to consider:
+
+- general users
+- pip internals users
+- Python project maintainers
+- PyPA tools maintainers
+- redistributors
+
+Do test infrastructure building in March?
+
+What if we have a few hours of conversation in February with Ilan to get formats decided on, so Ilan\'s work doesn\'t need to be converted?
+
+- TODO - Sumana to mark this on calendar to happen, connect with other Ilan conversation
+
+\"alpha\" - how will we do that?
+
+experimental flag? git tags? prereleases?
+
+- TODO - group to talk with other pip maintainers to decide
+
+We haven\'t had a lot of luck getting people to test prereleases in the past; it is worth getting precommitments
+
+the pip 10 release (we were pulling internals away from user) - we publicized to mailing lists
+
+Suggestion: do it like we did for PyPI \-- outside packaging community, like on podcasts
+
+#### CZI-funded (Pradyun\'s) work 
+
+By April:
+
+- improve triage and architecture docs
+- also automation in issue tracker
+
+Combination of CZI & other hours: Consider him working something like 3/4 time between now and end of Feb, and full-time March-May
+
+- TODO: Sumana: set up Ernest chat about test infra with Pradyun
+
+From the proposal: \"We aim to get pip\'s resolver feature prepared for release in pip 20.2 in July. (Per the quarterly release cadence for pip, unforeseen difficulties may delay till 20.3 in the next quarter.)\" This still feels realistic to everyone in the call.
+
+PyPI does not have excellent metadata, and the pip resolver dealing with bad metadata \.... would be difficult.
+
+- TODO - Sumana to initiate: outside this call, let\'s talk about what to do with that
+
+### TODOs 
+
+Sumana:
+
+- Ilan chat
+- Mark calendar about test formats chat
+- set up Ernest chat with Pradyun about test infra
+- initiate discussion of improving PyPI metadata
+
+Others (Pradyun and Paul):
+
+- continue and resolve conversation with other pip maintainers about how we\'ll do alpha testing (prereleases? git tags? experimental flag?)

@@ -1,0 +1,116 @@
+# Summer of Code / 2007
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+This page coordinates the [Google \"Summer of Code\"](http://code.google.com/soc/) projects involving Python and mentored by the Python Software Foundation (PSF).
+
+Based on previous years, we are expecting a lot of competition so when making your application it is important to note that the PSF is looking for projects that:
+
+- enhance an existing Python project rather than start something complete from scratch;
+- contribute to the Python community rather than are merely written in Python.
+
+The 2007 PSF SoC coordinator is [JamesTauber](../../people/JamesTauber) (jtauber at jtauber dot com). Contact him if you have any questions.
+
+## Students: How to submit a proposal 
+
+Student applications are now open.
+
+[Google\'s Advice for Students](http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents)
+
+Looking at the list of PSF [SummerOfCode/Mentors](Mentors) can help you craft your proposal to match their interests.
+
+## Tips on participating 
+
+1.  Do not overbook yourself. Working on your project should be your main activity for the entire summer.
+2.  You must provide weekly status reports.
+3.  Participate in the developer community by joining python-dev, jython-dev, or whatever mailing list is appropriate.
+4.  If you get stuck, ask for help instead of silently struggling. You can ask your mentor for help, or post a question to the development mailing list.
+5.  You will be expected to learn how to use SVN.
+
+## Mentors: How to apply 
+
+The mentor\'s responsibility is to ensure the student makes progress. This could entail coaching them, providing motivation, making sure they aren\'t stuck, answering technical questions, or pointing the student to the proper resources.
+
+Mentors should expect to get a weekly status report from their students, and should badger students who are not communicating. The weekly status should be reported to the PSF SoC coordinator.
+
+However, the mentor is not expected to do work for the student.
+
+Mentoring duties are expected to take a couple of hours per week.
+
+See [Google\'s Advice for Mentors](http://code.google.com/p/google-summer-of-code/wiki/AdviceforMentors)
+
+If you are interested in becoming a mentor:
+
+- Add your name to the mentor list at [SummerOfCode/Mentors](Mentors).
+
+- join the [soc2007-mentors mailing list](http://mail.python.org/mailman/listinfo/soc2007-mentors)
+
+### Project ideas 
+
+For 2007, the PSF would like to concentrate on proposals that advance PSF projects (CPython and its documentation, Jython and its documentation, the Python web site). That said, projects relating to other Python libraries, applications or implementations ([PyPy](../../implementations/PyPy)) that are relevant to the promotion of the Python programming language are also encouraged.
+
+The following pages list some ideas:
+
+- [CodingProjectIdeas/PythonCore](../../getting-started/CodingProjectIdeas/PythonCore) \-- ideas for the CPython interpreter.
+
+- [CodingProjectIdeas/StandardLibrary](../../getting-started/CodingProjectIdeas/StandardLibrary)
+
+- [https://www.drproject.org/DrProject/wiki/DrProjectSoC2007](https://www.drproject.org/DrProject/wiki/DrProjectSoC2007) \-- [DrProject](./DrProject.html) ideas
+
+- [http://wiki.python.org/jython/SummerOfCode](http://wiki.python.org/jython/SummerOfCode) \-- Jython projects.
+
+- [http://codespeak.net/pypy/dist/pypy/doc/project-ideas.html](http://codespeak.net/pypy/dist/pypy/doc/project-ideas.html) \-- Some ideas for [PyPy](../../implementations/PyPy)
+
+- [http://code.google.com/p/sympy/wiki/SummerOfCode](http://code.google.com/p/sympy/wiki/SummerOfCode) \-- Ideas for [SymPy](../../people/SymPy)
+
+- [http://code.google.com/p/pyjamas/wiki/SummerOfCode](http://code.google.com/p/pyjamas/wiki/SummerOfCode) \-- Idea for Pyjamas
+
+- [The Docutils to-do list](http://docutils.sourceforge.net/docs/dev/todo.html) contains a wealth of ideas. Important projects are prioritized. Subscribe to the [docutils-develop](https://lists.sourceforge.net/lists/listinfo/docutils-develop) list and ask for advice.
+
+- [http://webpy.infogami.com/ideas](http://webpy.infogami.com/ideas) \-- ideas for web.py
+
+- [http://pyblosxom.sourceforge.net/blog/static/soc2007.html](http://pyblosxom.sourceforge.net/blog/static/soc2007.html) \-- ideas for [PyBlosxom](./PyBlosxom.html)
+
+- [http://code.google.com/p/crunchy/wiki/SummerOfCodeIdeas](http://code.google.com/p/crunchy/wiki/SummerOfCodeIdeas) \-- ideas for Crunchy (educational software).
+
+- [http://www.pysoy.org/wiki/SoC2007](http://www.pysoy.org/wiki/SoC2007) \-- ideas for [PySoy](../../people/PySoy) (3d engine)
+
+See also [SummerOfCode/Mentors](Mentors) where potential mentors have mentioned projects they are willing to mentor.
+
+### Other Organizations using Python 
+
+If you can\'t find a well-suited PSF project, but you still want to do something with Python for SOC 2007, you can also consider the projects offered by:
+
+- Bazaar ([http://code.google.com/soc/bzr/about.html](http://code.google.com/soc/bzr/about.html))
+
+- Django ([http://code.google.com/soc/django/about.html](http://code.google.com/soc/django/about.html))
+
+- Kamaelia, BBC Research ([http://code.google.com/soc/bbc/about.html](http://code.google.com/soc/bbc/about.html) and [http://kamaelia.sourceforge.net/SummerOfCode2007](http://kamaelia.sourceforge.net/SummerOfCode2007))
+
+- [MoinMoin](MoinMoin) (see [GoogleSoc2007](http://moinmo.in/GoogleSoc2007 "MoinMoin") )
+
+- Open Source Applications Foundation ([http://code.google.com/soc/osaf/about.html](http://code.google.com/soc/osaf/about.html))
+
+- Plone Foundation ([http://code.google.com/soc/plone/about.html](http://code.google.com/soc/plone/about.html))
+
+- SCons ([http://code.google.com/soc/scons/about.html](http://code.google.com/soc/scons/about.html) and [http://www.scons.org/wiki/GSoC2007](http://www.scons.org/wiki/GSoC2007))
+
+- Subversion ([http://code.google.com/soc/svn/about.html](http://code.google.com/soc/svn/about.html))
+
+- The Space Telescope Science Institute ([http://code.google.com/soc/stsci/about.html](http://code.google.com/soc/stsci/about.html))
+
+- wxPython ([http://code.google.com/soc/wxpython/about.html](http://code.google.com/soc/wxpython/about.html))
+
+- Zope Foundation ([http://code.google.com/soc/zope/about.html](http://code.google.com/soc/zope/about.html))
+
+All the mentoring organizations are listed here: [http://code.google.com/soc/](http://code.google.com/soc/)
+
+### Previous years 
+
+- [SummerOfCode/2005](2005)
+
+- [SummerOfCode/2006](2006)

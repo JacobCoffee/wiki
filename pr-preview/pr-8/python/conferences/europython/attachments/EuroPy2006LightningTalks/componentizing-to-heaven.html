@@ -1,0 +1,85 @@
+<html><title>Componentizing a Stairway to Heaven</title><body>
+<h1>Componentizing a Stairway to Heaven</h1>
+
+<h2>Why Componentize</h2>
+
+<p>Imagine yourself writing a "generic notifier". You have a "notifier
+object" with the notification configuration. Various specific notifiers
+would like to keep persistent information (the IRC notifier likes
+to keep the IRC connection, the mailer notifier keeps track
+of "unsent notifications" so it can aggregate notifications close
+in time in one mail, etc.) One way to do it, of course, is to keep
+.mailer, .ircer, etc. attributes on the notifier. Then you need
+to co-ordinate, and have built a dependency from the generic
+infrastructure to the specific implementations. That is bad?</p>
+
+<p>So, of course, you can let the mail infrastructure add the
+<code>.mailer</code> attribute. In a sense, that shifts the co-ordination
+problem from a centralized one to a decentralized one, with no means
+to co-ordinate. The "hope and prayer" strategy (each person has to make
+sure their attributes don't step on their neighbour's) has the problems
+that a) it usually works and b) when it breaks, it breaks in the
+most inscrutable ways.</p>
+
+<h2>How Components</h2>
+
+<p>Guidelines for doing that:</p>
+
+<ul>
+<li>Always access your object through an interface:
+<code>ISomethingDoer(o).doSomething()</code>.</li>
+<li>Think about an initialization scheme. The easiest way
+is to test-and-add:
+</ul>
+
+<pre>
+    def mail(self, o):
+        p = IMailer(o)
+        if p is None:
+            # This is where we decide our mail strategy:
+            p = DelayedMailer(o)
+            o.addComponent(p, ignoreClass=True)
+        p.sendmail()
+</pre>
+
+<p>This scales up a way to hang ad-hoc properties on <code>o</code>
+(so that, for example, if the same <code>o</code> is passed, the same value is
+used.</p>
+
+<p>Wait a minute, what about the stairway to heaven? Oh, right, then.</p>
+
+<pre>
+class IGlitter(Interface):
+    pass
+
+class Gold(object):
+    implements(IGlitter)
+</pre>
+
+<p>So, you see, all that glitters <em>is</em> gold.
+
+<h2>So is that the best part?</h2>
+
+<p>No!</p>
+
+<p>The really neat thing is that now modules who want to co-operate can
+do that easily. Ideally, it means reaching true "component nirvana".</p>
+
+<h2>But MosheZ! What is "component nirvana" please?</h2>
+
+<p>Am I glad you asked! Component Nirvana is the ideal of "zero
+infratructure": whether something is "infrastructure" or
+"application" is not encoded in the Python, but is only a human
+attribute: the mailer can use the IRC if it wants the dependency,
+or we can write an ISetttings interface all the modules use:
+or all the modules that are interested in those settings, in
+any case.</p>
+
+<p>This is the so-called "Raviolli" pattern (or, done badly, the
+"Risotto" pattern) as opposed to the classic "Lasagna" pattern
+(layered infrastructure, from generic to specific) or "Spaghetti"
+pattern (every object accesses every object it feels like,
+with no internal division).</p>
+
+</body>
+</html>

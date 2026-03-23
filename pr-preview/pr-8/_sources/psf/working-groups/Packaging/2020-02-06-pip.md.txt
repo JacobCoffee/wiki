@@ -1,0 +1,96 @@
+# Packaging/2020-02-06-pip
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## pip syncup meeting 
+
+Teamwide, 6 Feb 2020
+
+Attendees: (not explicitly marked, but: Ernest, Sumana, Tzu-Ping, Paul, Bernard, Pradyun, Georgia, Sumana)
+
+Topics:
+
+### Invoices and hours 
+
+Invoices should be sent to accounting\[at\]python.org CCing ewdurbin\[at\]pyfound.org.
+
+Sumana should direct you on which funding source the invoice should be associated with (MOSS vs CZI).
+
+Subject lines for invoice emails and the invoices should include Packaging-PIP-2020-MOSS or Packaging-PIP-2020-CZI.
+
+TP, Pradyun, Paul, SS to collaborate with Sumana re invoices
+
+### Adjusted timeline because of late start 
+
+probably more like late Jan to late May/mid June
+
+### PyCon travel 
+
+Waiting to hear back from Simply Secure
+
+Bernard would like to be there for sprints, core talks, talk with less-skilled users\.... discussion of Georgia also coming\....
+
+UX folks at Packaging Summit? [https://mail.python.org/archives/list/distutils-sig@python.org/thread/ZEZNY2MCUN3S3JGUFF6U6OWVEOKW2UAF/](https://mail.python.org/archives/list/distutils-sig@python.org/thread/ZEZNY2MCUN3S3JGUFF6U6OWVEOKW2UAF/)
+
+Research areas
+
+- UX research on \"professional\" workflows, closed-source/\"industry\" usage. That\'s a base of users that we have very little acess to.
+  - I\'m not sure what routes we can find into that
+
+TODO: Bernard will follow up with Paul and others on this
+
+UX training for packaging maintainers?
+
+- training maintainers in UX practices (happening in 2nd half of the year)
+
+### What are you blocked on? 
+
+Bernard: what part of pip functionality to start the research on
+
+- TODO: Bernard and Sumana separate call
+
+Paul\'s ok - I have been getting up to speed on resolvelib\'s API and architecture, had an overview of pip\'s resolver code with Pradyun, and I\'m now starting to work on refactorings and paying off technical debt to prepare for the new resolver.
+
+TP is ok - writing tests for resolver, integration into pip
+
+Pradyun: sort of good - been looking at how to structure arch docs
+
+- TODO: Pradyun and Sumana call about arch doc
+
+- TODO: Bernard: please file an issue in pip\'s issue tracker ( [https://github.com/pypa/pip/issues/new](https://github.com/pypa/pip/issues/new) ) with UX feedback on the getting started guide
+
+### Resolver roadmap 
+
+Wondering if it'd be particularly useful if I write up how the resolver works right now, and what public structures it should provide (I want to keep the public surface as small as possible so it's easier to change the internals if needed)
+
+Sequence between now and release:
+
+- \[already done: cleared up tangled code within pip\] \-- needs to continue
+- introduce the abstractions at least somewhat
+- looks like resolvelib is the way forward in the immediate term
+- Paul wants to work on designing interface between pip and resolvlib\..... there\'s going to be a lot of edge cases to take care of\.... stretch resolvlib API
+  - Pradyun: I have some ideas/experience, which would be worth discussing with me / making me write down.
+  - TP: There seems to be less discussion on what the resolver should return to pip, ordering - TODO - talk about that
+- Linking together in the middle (between resolvlib and pip) should be reasonably straightforward
+- wants to start having somehthing to start testing, something partly functional in place
+- In parallel with that! Look at how we do the rollout \.... need to think about that more
+
+#### Have we chosen Resolvlib? 
+
+least bad choice. Least blockers to overcome
+
+resolvlib API is most straightforward. Can plug something in later if we change our mind
+
+Paul put it well in tech decision thread in GitHub. We\'re choosing RL\'s \_API\_.
+
+### To Do (followup) 
+
+- Sumana to send TP and Pradyun an invoice template
+- check in with Ilan about his work from late Jan (test-related)
+- set up Feb Ilan chat about test formats
+- Sumana to talk with Paul about hours for Jan work
+- Talk about Simply Secure and Edu/Young Coders on Zulip

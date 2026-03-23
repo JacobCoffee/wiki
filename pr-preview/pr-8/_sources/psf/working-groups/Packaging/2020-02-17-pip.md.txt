@@ -1,0 +1,69 @@
+# Packaging/2020-02-17-pip
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Resolver meeting
+
+17 Feb 2020
+
+Participants: Paul, Pradyun, Tzu-Ping
+
+Some initial thoughts:
+
+- Existing upgrade strategies may not map nicely to new resolver
+  - Define new upgrade strategies that match new resolver ideas
+  - For new resolver, map existing strategies to \"best fit\" new ones as aliases
+  - Deprecate old strategies when used with new resolver (longer term)
+
+- Without `--upgrade`{.backtick}, we can just return installed versions as the only candidate in `find_distributions`{.backtick}
+
+  - Will make the solve faster, but might make reporting more difficult
+  - Cargo(?) does a two-pass resolution, the second pass only to collect errors. Could be a good idea?
+
+- Maybe possible to do similar for other options/upgrade strategies?
+
+Two scenarios:
+
+- I want to upgrade this, do the minimal possible to make it work
+  - This is usually what people want when they `pip install -U`{.backtick} globally
+- "Upgrade all" (which pip does not have right now)
+  - This is usually what people want when they `pip install -U`{.backtick} in a virtualenv
+
+<!-- -->
+
+- pip install -U foo
+  - Tells pip "Try what you need to make this work"
+
+  - Implication: If this can't work, error out
+
+  - pip can suggest `pip install -U foo bar`{.backtick} when it errors out to help the user
+
+  - don\'t automatically upgrade going \"up\" the dependency graph.
+
+\* Add a new \--upgrade-strategy that is even more conservative than only-if-needed that reports (instead of upgrade) if pip needs to upgrade
+
+- Probably doesn't need to, it's the user's responsibility
+
+iterating on upgrade strategies
+
+\--no-deps: for people doing resolution externally to pip
+
+Environment metadata issues:
+
+- No information about \"requested\" extras
+
+  - [https://github.com/pypa/packaging-problems/issues/215](https://github.com/pypa/packaging-problems/issues/215)
+
+  - Let\'s defer this; it\'d be nice to fix this but it\'ll be very tricky to do so on the time-boxed nature.
+
+  REQUESTED ([https://www.python.org/dev/peps/pep-0376/#requested](https://www.python.org/dev/peps/pep-0376/#requested))
+
+  - Pradyun: I want to flip the file, to indicate \"i was automatically installed\"
+    - Marking existing installed packages as \"requested\".
+    - Trimming installed-as-dependency packages.
+
+  Pradyun: How about we combine them both? \"REQUESTED\" serves as our manifest
