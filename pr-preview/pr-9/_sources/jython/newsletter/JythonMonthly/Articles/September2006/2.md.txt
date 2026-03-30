@@ -1,0 +1,49 @@
+# Jython Monthly / Articles / September 2006 / 2
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Closures in Jython - Simple Example 
+
+***Submitted By: Josh Juneau***
+
+There has been a lot of discussion regarding closures recently. The topic of closures being added to the a future JDK is hot, but many of you know that this methodology already exists in Jython and Python\...and it is quite easy to use.
+
+In case you are unfamiliar with the topic, please read more about closures and their usage [here](http://en.wikipedia.org/wiki/Closure_(computer_science)).
+
+This brief article was written to show a simple example of how to use closures in Jython. There are various different ways to write a closure in Jython and I will show you two such methods.
+
+This foundation for this example is based around the age old restaurant tip calculator. Many people suggest that a good waitor or waitress shall receive upwards to 20%, and others say that 15% is sufficient. This closure function would prove useful for porting into applications which may require such variations for tip calculation.
+
+Lets place our tip calculator into a module appropriately named calcTip.py and defined as follows:
+
+    def calcTip(x):
+       def multiplyTip(y):
+          return y + (x * y)
+       return multiplyTip
+
+As you can see, the closure is simply a function within a function. Using the popular lambda syntax, this closure can also be written as follows:
+
+    def calcTip(x):
+       return lambda y: y + (x * y)
+
+Obviously, using lambda cuts out some typing and it is the preferred method. Now, why would something like this be useful? If we look within the realm of our restaurant tip calculator mentioned above, we will see that this can be extremely useful. So lets say we wish to create an application which will print out a total restaurant bill including tip for three different categories: *Poor Service*, *Mediocre Service*, and *Excellent Service*. Completely defining this application is outside of the context of this brief article, but I can show you the idea with the following lines of code.
+
+Let\'s say we have defined our tip calculator using either of the two closure definitions listed above. We can use it in our example as follows:
+
+    # Calculate tip for bill total of $30.95
+    poor = calcTip(.15)             # tip 15 percent
+    mediocre = calcTip(.18)        # tip 18 percent
+    excellent = calcTip(.20)        # tip 20 percent
+    print 'Poor: %s, Mediocre: %s, Excellent %s' % (poor(30.95),mediocre(30.95), excellent(30.95))
+
+Result:
+
+    Poor: 35.5925, Mediocre: 36.521, Excellent 37.14
+
+Of course, you can format the output to suit the needs of your application. As ou can see, this simply spits out the unformatted bill + tip total. If we wanted to, we could pass these functions around just like a regular variable. The possibilities are endless..
+
+Now, hopefully you can appreciate the beauty of closures a bit more!

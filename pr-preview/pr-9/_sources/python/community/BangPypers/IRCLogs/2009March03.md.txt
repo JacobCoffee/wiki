@@ -1,0 +1,1357 @@
+# BangPypers / IRC Logs / 2009 March 03
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+    15:26:42 on < baijum1> Khmar: You are logging this channel ?
+    15:27:01 on < Khmar> Yes. Just enabled it.
+    15:27:07 on < techno_freak> baijum, am blogging the MoM :P
+    15:27:21 on < baijum1> techno_freak: Good :)
+    15:27:33 on < fever> crocin works?
+    15:27:42 on  * baijum1 going for food, will be back soon
+    15:28:05 on -!- mib_sliah4 [i=3b5ca096@gateway/web/ajax/mibbit.com/x-57738c5863db8472] has quit [Client Quit]
+    15:28:11 on < fever> I would believe if someone tells me windows works, but crocin,.. :D
+    15:28:11 on -!- baijum [n=baijum@121.245.29.157] has quit [Connection timed out]
+    15:28:18 on -!- Khmar-mibbit [i=7aa72f69@gateway/web/ajax/mibbit.com/x-f41d5335058b233d] has joined #BangPypers
+    15:28:41 on -!- Khmar-mibbit [i=7aa72f69@gateway/web/ajax/mibbit.com/x-f41d5335058b233d] has quit [Client Quit]
+    15:29:27 on -!- AssaultedPeanut [n=chatzill@122.167.222.106] has joined #bangpypers
+    15:31:04 on -!- anandbpillai [i=7d108523@gateway/web/ajax/mibbit.com/x-f62a9d56a9f8ea8c] has joined #BangPypers
+    15:31:19 on < anandbpillai> hi pypers
+    15:31:52 on < techno_freak> hi anandbpillai
+    15:32:28 on -!- Khmar [n=user@122.167.47.105] has quit [Read error: 60 (Operation timed out)]
+    15:32:32 on -!- falcon74 [i=7bed8aea@gateway/web/ajax/mibbit.com/x-999bc88356ead6f7] has joined #BangPypers
+    15:32:41 on < anandbpillai> are we like waiting for a quorum or for 9.00 pm ? :)
+    15:32:50 on < AssaultedPeanut> Hi Pythoneers
+    15:33:09 on < techno_freak> looks like we can start, or we wait baijum1 to have his dinner and return
+    15:33:18 on < techno_freak> for*
+    15:33:22 on -!- Khmar [n=user@122.167.23.101] has joined #BangPypers
+    15:33:29 on < anandbpillai> sure, let us wait for him
+    15:33:36 on < Khmar> Hello anandbpillai
+    15:33:39 on < anandbpillai> who is the moderator ? i guess we need one
+    15:34:06 on -!- mode/#bangpypers [+o techno_freak] by ChanServ
+    15:34:08 on -!- mode/#bangpypers [+o anandbpillai] by techno_freak
+    15:34:16 on -!- mode/#bangpypers [-o techno_freak] by techno_freak
+    15:34:34 on < Khmar> I could do it but I won't be around at 9:00.
+    15:34:41 on -!- techno_freak changed the topic of #bangpypers to: Welcome to #BangPypers -- Bangalore Python Users Group | http://wiki.python.org/moin/BangPypers | Proposal 
+              for PyCon India - http://wiki.python.org/moin/ProposalForPyConIndia |  IRC Discussion for PyCon March 3rd 9:00 PM IST | Topic: Soon to start |
+    15:34:45 on <@anandbpillai> ok
+    15:35:18 on <@anandbpillai> i have logged in using the mibbit interface, i hope someone can stay long and collect the log of the meeting and post it
+    15:36:14 on < techno_freak> am here until BESCOM decides otherwise, I will make a processed MoM, if required someone can post the logs too
+    15:36:35 on <@anandbpillai> Can we have an introduction ? I can make out some obvious members, but not all :)
+    15:37:11 on -!- techno_freak changed the topic of #bangpypers to: Welcome to #BangPypers -- Bangalore Python Users Group | http://wiki.python.org/moin/BangPypers | Proposal 
+              for PyCon India - http://wiki.python.org/moin/ProposalForPyConIndia |  IRC Discussion for PyCon March 3rd 9:00 PM IST | Topic: Soon to start ~ Introduct yourselves -           fullname and what you do |
+    15:37:17 on -!- techno_freak changed the topic of #bangpypers to: Welcome to #BangPypers -- Bangalore Python Users Group | http://wiki.python.org/moin/BangPypers | Proposal 
+              for PyCon India - http://wiki.python.org/moin/ProposalForPyConIndia |  IRC Discussion for PyCon March 3rd 9:00 PM IST | Topic: Soon to start ~ Introduce yourselves -           fullname and what you do |
+    15:37:23 on  * svaksha is vid 
+    15:37:27 on  * techno_freak is Parthan
+    15:37:45 on < falcon74> Hello all. This is banibrata_dutta@gmail.com from the list. Foo-bar programmer, well not much of a programmer anymore, enthusiast, yes. Details here: 
+                            http://www.linkedin.com/in/bdutta .
+    15:37:53 on  * svaksha can post logs (verbatim) on the wiki if its ok with all
+    15:37:55 on < Khmar> Khmar is Noufal Ibrahim
+    15:37:56 on -!- techno_freak changed the topic of #bangpypers to: Welcome to #BangPypers -- Bangalore Python Users Group | http://wiki.python.org/moin/BangPypers | Proposal 
+              for PyCon India - http://wiki.python.org/moin/ProposalForPyConIndia |  IRC Discussion for PyCon March 3rd 9:00 PM IST | Topic: Soon to start ~ Introduce yourselves -           /me is FullName |
+    15:38:10 on  * falcon74 is Banibrata Dutta
+    15:38:20 on <@anandbpillai> ok, thanks Banibrata
+    15:38:27 on < AssaultedPeanut> is Bharath Keshav... a Python, Django programmer.
+    15:38:29 on < techno_freak> svaksha, pleased if you can :)
+    15:40:04 on < falcon74> it might be a good idea to post a msg on BangPypers list, that the meeting is starting...
+    15:40:26 on < techno_freak> falcon74, baijum1 has done, with an mibbit link
+    15:41:41 on < svaksha> are we starting 50 min early ?
+    15:41:41 on <@anandbpillai> myself Anand Balachandran Pillai, generic jack-of-all-trades developer (prefers C/Python), one of the founders of the group, developer of 
+                                HarvestMan {http://harvestmanontheweb.com}, off and on Python consultant etc
+    15:41:54 on < techno_freak> svaksha, nope, we're waiting for baijum1 to return
+    15:42:39 on <@anandbpillai> Kenneth, are you there ?
+    15:42:51 on < techno_freak> lawgon, ping
+    15:44:08 on -!- Sup3rkiddo [n=sudharsh@unaffiliated/sudharsh] has joined #bangpypers
+    15:44:10 on  * svaksha notes that the logs will have UTC timings
+    15:44:36 on -!- rmz102 [n=ramdas@122.166.8.83] has joined #bangpypers
+    15:44:40 on  * Sup3rkiddo is Sudharshan S
+    15:44:50 on < rmz102> rmz102 is Ramdas S
+    15:45:11 on < rmz102> Hey guys start talking
+    15:45:18 on <@anandbpillai> hi ramdas
+    15:45:28 on < rmz102> hi anand
+    15:45:33 on <@anandbpillai> ok, currently we are in introduction stage
+    15:45:48 on <@anandbpillai> A few guys including myself have done the intro
+    15:45:54 on <@anandbpillai> could u ?
+    15:45:59 on < rmz102> Hi everyone
+    15:46:03 on < svaksha> anandbpillai: and gals
+    15:46:10 on -!- floyd_n_milan_ [n=mrugesh@59.184.58.217] has joined #bangpypers
+    15:46:16 on -!- lut4rp [n=pratul@drupal.org/user/162357/view] has joined #bangpypers
+    15:46:20 on < svaksha> lut4rp: 
+    15:46:24 on < lut4rp> hey svaksha
+    15:46:30 on < lut4rp> and hey everyone else
+    15:46:53 on  * lut4rp is Pratul Kalia
+    15:46:55 on < lut4rp> :P
+    15:46:59 on < lut4rp> hey lawgon !
+    15:47:02 on <@anandbpillai> hi pratul
+    15:47:07 on < lut4rp> hello
+    15:47:26 on <@anandbpillai> Is baijum back after dinner ? :)
+    15:47:40 on < rmz102> Anand is there any way someone joining can see the back log of discussions
+    15:47:55 on < techno_freak> rmz102, am afraid no
+    15:48:08 on -!- fever [n=sahasran@203.199.255.2] has left #BangPypers []
+    15:48:34 on <@anandbpillai> We haven't discussed anything solid yet
+    15:49:07 on -!- rmathews [n=rm@59.92.54.28] has joined #bangpypers
+    15:49:12 on < lut4rp> OMG September is awesome
+    15:49:12 on < lut4rp> 1
+    15:49:14 on < lut4rp> +1
+    15:49:39 on  * lut4rp cribs at foss.in people not realising December has college exams.
+    15:49:51 on < techno_freak> lut4rp, OT :P
+    15:49:53 on < rmathews> so has this channel been around for a while?  or was it just created for the PyCon discussion?
+    15:50:00 on < lut4rp> techno_freak: :P
+    15:50:06 on < techno_freak> rmathews, been around, but not used much
+    15:50:12 on < rmathews> huh
+    15:50:28 on < techno_freak> kushal was secretly owning it, until we bugged him and got the powers :P
+    15:50:29 on < rmathews> so are we starting early?
+    15:51:33 on < rmz102> yes, I think we can start
+    15:51:38 on < rmathews> as in Baiju sent a mail just now, and it's still 40 minutes to 9.
+    15:51:40 on <@anandbpillai> well, just getting our feet warmed up...
+    15:51:43 on < techno_freak> rmathews, read /topic ;)
+    15:52:07 on < rmathews> techno_freak: looks poetic, but I'd rather eat dinner.
+    15:52:25 on < techno_freak> rmathews, ahem.. introduce*
+    15:52:30 on  * rmathews is FullName
+    15:52:46 on < lut4rp> wow.
+    15:52:48 on < lut4rp> nice name.
+    15:52:52 on  * techno_freak send rmathews to LKG
+    15:53:49 on < rmathews> ahh, I see what you're doing ... /me is Roshan Mathews
+    15:54:42 on < rmz102> anand, can you start the proceedings and discuss individual topics which noufel had asked,
+    15:54:49 on <@anandbpillai> Is Anand Chitopothu around
+    15:54:58 on <@anandbpillai> sorry, Chittipothu
+    15:55:00 on < rmz102> anandology:
+    15:55:02 on < techno_freak> anandbpillai, can you start briefing what we are to discuss today
+    15:55:05 on <@anandbpillai> ok, got ua
+    15:55:12 on <@anandbpillai> got ya :)
+    15:55:18 on < rmathews> rmz102: hold your horses, you don't want people to show up at 9 and find us all going at full steam. :)
+    15:55:21 on < Khmar> I can start it off if you prefer?
+    15:55:50 on <@anandbpillai> Ramakrishna reddy ? (i am sounding like a nursery teacher doing roll call here ;)
+    15:56:07 on < techno_freak> anandbpillai, he is on his way home, he might join us a little later
+    15:56:18 on < techno_freak> ramkrsna*
+    15:56:20 on <@anandbpillai> well, let us wait for some more time before starting the proceedings
+    15:56:21 on -!- madrazr [n=madrazr@unaffiliated/madrazr] has joined #bangpypers
+    15:56:26 on < techno_freak> ok
+    15:56:30 on < Khmar> Sure thing.
+    15:56:39 on < rmathews> whoa, eager beavers, wasn't it supposed to start at *9*
+    15:56:44 on < rmathews> anandbpillai: thank you
+    15:57:14 on < madrazr> Hello all
+    15:57:19 on  * madrazr is Madhusudan.C.S
+    15:57:20 on < madrazr> :P
+    15:57:22 on < Khmar> Hello Madhu
+    15:57:26 on < madrazr> Khmar: Hi
+    15:57:31 on <@anandbpillai> how many ppl think 9 is a little late cuz u might miss something (bus, dinner, girlfriend, dog, beer ...) ?
+    15:57:31 on <@anandbpillai> (add python hacking also to the list ;)
+    15:57:37 on  * baijum1 is back 
+    15:57:39 on < baijum1> Hi all
+    15:57:42 on < techno_freak> ah we can now :d
+    15:57:43 on <@anandbpillai> hi baijum!
+    15:57:45 on < madrazr> I am one of the students who attended last BangPypers meet :)
+    15:57:47 on <@anandbpillai> ok, we can start
+    15:57:56 on < Khmar> Okay.
+    15:57:59 on  * Khmar rings the bell.
+    15:58:00 on <@anandbpillai> hi madrazr
+    15:58:05 on < lut4rp> no, let's not start yet.
+    15:58:08 on < madrazr> anandbpillai: Hi
+    15:58:09 on < lut4rp> the mail said 9.
+    15:58:10 on <@anandbpillai> i can't hear the sound! ;)
+    15:58:12 on -!- techno_freak changed the topic of #bangpypers to: Welcome to #BangPypers -- Bangalore Python Users Group | http://wiki.python.org/moin/BangPypers | Proposal 
+              for PyCon India - http://wiki.python.org/moin/ProposalForPyConIndia |  IRC Discussion for PyCon March 3rd 9:00 PM IST | Topic: Briefing the topics |
+    15:58:14 on  * Khmar stops it again.
+    15:58:24 on < lut4rp> let's wait for everyone else who might want to make it.
+    15:58:32 on < baijum1> Hey, should be wait till 9.00 to begin officially ?
+    15:58:37 on < AssaultedPeanut> I can afford to miss saas bhi kabhibahu thi for today.... :P
+    15:58:44 on < baijum1> lut4rp: +1
+    15:58:44 on < Khmar> Ideally, we should wait till 2110 or so.
+    15:58:46 on <@anandbpillai> we can start off i guess ?
+    15:58:47 on -!- munichlinux [n=munichli@122.162.52.199] has joined #bangpypers
+    15:58:49 on < techno_freak> baijum1, think we can begin, making 16 people wait they will become bored
+    15:59:01 on < rmathews> already, make up your mind, I can't keep coming back from dinner for this. :)
+    15:59:04 on < lut4rp> techno_freak: we can wait till 9.
+    15:59:06 on < Khmar> I think we can lay the ground.
+    15:59:14 on < lut4rp> people are still joining in.
+    15:59:17 on < techno_freak> lut4rp, 9 is too late, let them join when they come
+    15:59:17 on  * lut4rp points to munichlinux 
+    15:59:20 on < baijum1> techno_freak: But punctuality ? ;)
+    15:59:24 on < Khmar> Yes. That's also true.
+    15:59:31 on <@anandbpillai> i am still at office and i have my car, so i can go on waiting till 12 if needed :)
+    15:59:34 on  * munichlinux just reached home 
+    15:59:35 on < lut4rp> techno_freak: -.-
+    15:59:44 on < Khmar> What's the IRC client of choice here?
+    15:59:50 on < Khmar> Just curious
+    15:59:57 on < lut4rp> Colloquy?
+    15:59:58 on  * baijum1 use Gaim
+    15:59:59 on < lut4rp> :D
+    16:00:01 on -!- floyd_n_milan [n=mrugesh@unaffiliated/floydnmilan/x-000001] has quit [Connection timed out]
+    16:00:02 on < techno_freak> they can check the logs/MoM and pour their mind in the mailing list or come and discuss it here anytime
+    16:00:08 on < rmathews> rcirc
+    16:00:11 on < baijum1> s/Gaim/Pidgin
+    16:00:15 on  * techno_freak uses Xchat/irssi
+    16:00:18 on <@anandbpillai> i am using mibbit cuz all non-HTTP clients are blocked by firewall
+    16:00:35 on  * munichlinux uses xchat 
+    16:00:37 on <@anandbpillai> thanks baiju for the link
+    16:00:40 on < lut4rp> am i the only OS X open source fanboi here :
+    16:00:41 on < lut4rp> :/
+    16:00:42 on  * rmathews rushes off for dinner ... yum yum
+    16:00:46 on < Khmar> I usually ssh tunnel through hcoop when I want to chat from the office.
+    16:00:57 on  * Khmar uses erc
+    16:00:59 on < baijum1> anandbpillai: welcome :)
+    16:01:02 on -!- Casanova [n=prmohan@unaffiliated/casanova] has joined #bangpypers
+    16:01:06 on -!- floyd_n_milan_ [n=mrugesh@unaffiliated/floydnmilan/x-000001] has quit []
+    16:01:10 on < techno_freak> Casanova, whoa :D
+    16:01:13 on <@anandbpillai> i happen to work for a security company, tunnelling is also blocked ;)
+    16:01:14 on -!- jace [n=root@59.92.167.225] has joined #bangpypers
+    16:01:19 on < Casanova> techno_freak: :)
+    16:01:22 on < techno_freak> jace,
+    16:01:25 on < jace> techno_freak:
+    16:01:28 on <@anandbpillai> :(
+    16:01:29 on < rmathews> techno_freak: see?  see??  I had to tell that chump that you guys were starting early.
+    16:01:38 on < Khmar> You can't ssh anywhere?
+    16:01:38 on < techno_freak> rmathews, they came early, see see
+    16:01:40 on < jace> techno_freak: didn't hear back from you
+    16:01:43 on <@anandbpillai> hi jace
+    16:01:47 on < jace> anandbpillai:
+    16:01:48 on < rmathews> techno_freak: that is, Casanova, not jace ... :|
+    16:01:49 on <@anandbpillai> no ssh
+    16:01:54 on < munichlinux> see*2 ??
+    16:01:55 on < techno_freak> jace, outgoing not happening, i thought of getting you on irc rather
+    16:01:58 on < Khmar> k
+    16:02:01 on < jace> techno_freak: k
+    16:02:03 on <@anandbpillai> you mean not the original jace ?
+    16:02:04 on < baijum1> Hi jace
+    16:02:05 on <@anandbpillai> hmmm
+    16:02:11 on < jace> ok, got to go help in the kitchen
+    16:02:17 on < Casanova> whats with people calling me names today :P
+    16:02:26 on < rmathews> you're the man of the hour
+    16:02:35 on <@anandbpillai> import pykitchen
+    16:02:36 on < jace> anandbpillai: i am who you think i am
+    16:02:39 on <@anandbpillai> pykitchen.cook()
+    16:02:41 on < jace> baijum1: yo
+    16:02:56 on < Khmar> dir(pykitchen.menu)
+    16:02:58 on < lut4rp> jace: man, you didn't even meet me at Freed.
+    16:02:59 on <@anandbpillai> ok, gr8 :)
+    16:03:15 on < lut4rp> jace: and the photo you clicked was so good, I didn't even thank you for that :P
+    16:03:25 on < techno_freak> OT OT :p
+    16:03:26 on < jace> lut4rp: i missed the second day. bad cold.
+    16:03:27 on < Casanova> techno_freak: moved to chennai?
+    16:03:36 on < techno_freak> Casanova, not yet, gimme a month
+    16:03:38 on < jace> ok, be back by 9
+    16:03:40 on < lut4rp> techno_freak: thou needs an operation?
+    16:04:11 on < techno_freak> lut4rp, i thought you knew better places to talk OT :P
+    16:04:20 on -!- btbytes [i=a6d973ba@gateway/web/ajax/mibbit.com/x-518262fc7dfd5b36] has joined #BangPypers
+    16:04:45 on < baijum1> btbytes: Hi
+    16:04:50 on -!- anandology_ [n=anandolo@115.240.252.194] has joined #bangpypers
+    16:04:51 on < btbytes> hi
+    16:05:31 on -!- Khmar` [n=user@122.167.23.101] has joined #BangPypers
+    16:05:36 on  * lut4rp gently tells techno_freak to see the number of people that joined in over the past 5 minutes.
+    16:05:43 on < techno_freak> lut4rp, so?
+    16:05:52 on -!- Khmar [n=user@122.167.23.101] has quit [Nick collision from services.]
+    16:05:54 on < lut4rp> err.
+    16:05:55 on -!- Khmar` is now known as Khmar
+    16:06:01 on < lut4rp> phail.
+    16:06:03 on < lut4rp> :P
+    16:06:21 on < svaksha> http://wiki.python.org/moin/BangPypers/IRCLogs/2009March03#preview , for meeting logs 
+    16:06:38 on < svaksha> can someone say why the formatting breaks
+    16:06:58 on < techno_freak> svaksha, <pre> </pre> ?
+    16:06:59 on < svaksha> i have them in a text file which i pasted
+    16:07:29 on < lut4rp> should work without <pre> as well.
+    16:07:32 on < lut4rp> weird.
+    16:08:29 on -!- mib_echawu [i=7d108523@gateway/web/ajax/mibbit.com/x-72d7541083ab9c22] has joined #BangPypers
+    16:08:46 on -!- Netsplit kornbluth.freenode.net <-> irc.freenode.net quits: @anandbpillai, rmathews
+    16:08:59 on -!- Netsplit over, joins: rmathews
+    16:09:04 on < Khmar> I've preformatted it. It looks fine now
+    16:09:28 on < svaksha> Khmar: thanks
+    16:09:33 on < Khmar> yw
+    16:10:07 on < munichlinux> svaksha, page header looks broken
+    16:10:24 on -!- ramkrsna [n=ramkrsna@unaffiliated/ramkrsna] has joined #Bangpypers
+    16:10:28 on < techno_freak> ramkrsna,
+    16:10:41 on < ramkrsna> techno_freak,
+    16:10:52 on < svaksha> Khmar:  ...half the text was dinner?
+    16:10:55 on < svaksha> :)
+    16:10:57 on < ramkrsna> powers back in home just in time
+    16:11:12 on < techno_freak> we were waiting some more time
+    16:11:16 on < Khmar> Well, you can repaste it. I don't know if I did something stupid.
+    16:11:22 on < svaksha> np
+    16:11:33 on < ramkrsna> wow! this is highest logins this channel every had officially
+    16:11:46 on < techno_freak> :)
+    16:11:48 on < mib_echawu> cool
+    16:12:01 on < mib_echawu> hmmmm i became mib_echawu ;) (anandbpillai)
+    16:12:02 on < techno_freak> we can do better :P
+    16:12:07 on < mib_echawu> need to log in again!
+    16:12:13 on < techno_freak> oh thanks for letting us know
+    16:12:18 on -!- mib_echawu [i=7d108523@gateway/web/ajax/mibbit.com/x-72d7541083ab9c22] has quit [Client Quit]
+    16:12:34 on < ramkrsna> good to see all you folks around
+    16:12:39 on -!- anandbpillai [i=7d108523@gateway/web/ajax/mibbit.com/x-fad762216ab955be] has joined #BangPypers
+    16:12:47 on -!- mode/#bangpypers [+o techno_freak] by ChanServ
+    16:12:50 on -!- mode/#bangpypers [+o ramkrsna] by techno_freak
+    16:13:49 on < techno_freak> anandbpillai, if he still follows his standards, he should have gone to bed by now
+    16:14:05 on < Khmar> lawgon is Kenneth?
+    16:14:17 on < techno_freak> yes
+    16:14:25 on < munichlinux> Khmar, na kenneth is lawgon
+    16:14:32 on <@ramkrsna> anandbpillai, lawgon isnt there, he left a message before that he would be logging the discussion
+    16:14:43 on < Khmar> 'is' is symmetric in this context.
+    16:15:17 on < munichlinux> ok replace is with ==
+    16:15:21 on <@ramkrsna> heh
+    16:15:32 on -!- Casanova [n=prmohan@unaffiliated/casanova] has quit ["leaving"]
+    16:15:38 on <@ramkrsna> I guess we'll start at 9 sharp
+    16:16:07 on < munichlinux> ok
+    16:16:16 on < anandbpillai> fine
+    16:16:17 on < Khmar> from __future__ import meeting
+    16:16:30 on < anandbpillai> reddy, u be the mod, i can take over if u leave
+    16:17:17 on < Khmar> You can use the agenda I sent or another but I think it would be a good idea to sent it to the list beforehand so that we all stay on the same page.
+    16:17:20 on < anandbpillai> anyone want to leave anytime can >>>import antigravity
+    16:17:30 on -!- anandology [n=anandolo@59.92.160.150] has quit [Connection timed out]
+    16:17:48 on < Khmar> Is Sidu here?
+    16:17:57 on <@ramkrsna> okey. I might need someone else. I have a flaky power situation to moderate and a volunteer to log it
+    16:18:07 on <@ramkrsna> and post it back to the list
+    16:18:13 on < falcon74> do we have a "real member" count on this channel ?? 21 seems seeped with anand bloat :-)
+    16:18:17 on < techno_freak> ramkrsna, svaksha has volunteered to log, and i did for MoM
+    16:18:28 on <@ramkrsna> cool
+    16:18:29 on -!- n9986 [n=nandeep@59.176.80.223] has joined #bangpypers
+    16:18:33 on < svaksha> http://wiki.python.org/moin/BangPypers/IRCLogs
+    16:19:10 on <@ramkrsna> svaksha, techno_freak thank guys
+    16:19:14 on -!- jace_ [n=root@59.92.167.225] has joined #bangpypers
+    16:19:21 on < Khmar> I'll moderate then.
+    16:19:25 on < techno_freak> :)
+    16:19:32 on < jace_> i'm logging from here
+    16:19:34 on < Khmar> If I have to leave, can you take over Anand?
+    16:19:38 on < techno_freak> i will change the topic as well
+    16:19:41 on < anandbpillai> sure, anytime
+    16:19:45 on < Khmar> Okay then.
+    16:19:49 on -!- mode/#bangpypers [+o anandbpillai] by ramkrsna
+    16:19:52 on -!- mode/#bangpypers [+o Khmar] by ramkrsna
+    16:19:52 on <@Khmar> In 11 minutes, we'll start.
+    16:20:06 on < jace> can someone present the agenda once again?
+    16:20:12 on <@Khmar> Okay...
+    16:20:14 on < techno_freak> Khmar, please brief
+    16:20:17 on <@Khmar> Before that... ground rules.
+    16:20:20 on -!- baijum [n=baijum@122.167.73.47] has joined #BangPypers
+    16:20:43 on <@Khmar> Please say 'end' or something at the end of what you have to say so that there's less interruption.
+    16:20:45 on -!- techno_freak changed the topic of #bangpypers to: Welcome to #BangPypers -- Bangalore Python Users Group | http://wiki.python.org/moin/BangPypers | Proposal 
+              for PyCon India - http://wiki.python.org/moin/ProposalForPyConIndia |  IRC Discussion for PyCon March 3rd 9:00 PM IST | Topic: Briefing the topics for the day |
+    16:21:09 on <@anandbpillai> Hmmm, that is too ruby-ish, I prefer indenting my comments
+    16:21:09 on <@Khmar> And let's all agree not to monopolise the conversation.
+    16:21:15 on <@Khmar> *sigh*
+    16:21:17 on <@Khmar> :)
+    16:21:33 on < rmathews> am back
+    16:21:34 on < rmathews> end
+    16:21:35 on -!- mj0vy [n=mj0vy@115.240.228.138] has joined #bangpypers
+    16:21:47 on <@Khmar> Hello mj0vy.
+    16:21:48 on <@anandbpillai> yeah, that is not a good protocol. let us instead say "yield"
+    16:21:53 on  * lut4rp goes for a quick dinner
+    16:21:53 on <@anandbpillai> i am done; yield
+    16:21:55 on < mj0vy> Hey Khmar
+    16:22:00 on <@Khmar> Okay.
+    16:22:08 on <@anandbpillai> i was kidding; yield ;
+    16:22:09 on -!- baijum2 [n=baijum@121.245.32.197] has joined #BangPypers
+    16:22:10 on <@anandbpillai> ;)
+    16:22:22 on < techno_freak> ------ Briefing by Khmar ------------
+    16:22:24 on <@anandbpillai> Let us just use full stops Khmar. no need to end or yield
+    16:22:34 on < mj0vy> So you're discussing/promoting Python! Great. Let me be a silent listener
+    16:22:42 on <@Khmar> Fair enough
+    16:22:42 on <@ramkrsna> Khmar, thanks for the detailed post of what needs to be discussed
+    16:22:46 on <@Khmar> Let's start then.
+    16:22:48 on -!- mib_nq32pc [i=7aa7733f@gateway/web/ajax/mibbit.com/x-1589e09eb6f8081a] has joined #BangPypers
+    16:23:02 on <@Khmar> Hello mib_nq32pc
+    16:23:05 on < techno_freak> # please cut all random noise from now..
+    16:23:31 on <@Khmar> Okay. Thank you all for coming.
+    16:23:36 on <@anandbpillai> I suggest we discuss one after the other, i.e spent a few minutes on the proposal (theme  of the conf), then we can go to topics like sponsorship, finance etc
+    16:23:36 on <@Khmar> The first thing is the date.
+    16:23:42 on  * mib_nq32pc this is baiju , no power here :(
+    16:24:00 on <@Khmar> Okay.
+    16:24:07 on <@Khmar> I'm going as per the order in the mail I sent out.
+    16:24:08 on < techno_freak> ## Theme of the Conference ##
+    16:24:10 on <@anandbpillai> Can we set a sub-topic as date on the channel
+    16:24:12 on < mib_nq32pc> 3,4,5 september
+    16:24:12 on <@Khmar> so that we can stay on the same page.
+    16:24:15 on <@anandbpillai> ok, theme
+    16:24:32 on -!- mib_nq32pc is now known as baijum3
+    16:24:41 on <@Khmar> 3,4,5 September.
+    16:24:47 on <@Khmar> No arguments there.
+    16:24:53 on <@ramkrsna> Khmar, 2009
+    16:24:55 on -!- G0SUB [n=ghoseb@ubuntu/member/gosub] has joined #bangpypers
+    16:25:03 on -!- baijum [n=baijum@122.167.73.47] has quit [Read error: 104 (Connection reset by peer)]
+    16:25:05 on < rmathews> date sounds good
+    16:25:14 on <@Khmar> I don't seriously think there are any other Python conferences at that time.
+    16:25:16 on -!- baijum2 is now known as baijum
+    16:25:21 on <@Khmar> Do we need to check? Atleast some mails?
+    16:25:22 on <@anandbpillai> well, september is a good month, date is fine. Does it clash with other confs ?
+    16:25:30 on < techno_freak> i dont think so
+    16:25:37 on < mj0vy> Where in Bangalore?
+    16:25:40 on <@Khmar> lawgon might know. He maintains the calendar
+    16:25:43 on < G0SUB> 2010, right?
+    16:25:44 on <@Khmar> mj0vy: We'll come that.
+    16:25:46 on <@ramkrsna> Khmar, I'm sure there are no community run python conferences
+    16:26:00 on <@Khmar> mj0vy: We're discussing date.
+    16:26:01 on <@ramkrsna> by the indian python community afaik
+    16:26:03 on < rmathews> G0SUB: 2009
+    16:26:05 on <@Khmar> Okay.
+    16:26:09 on < techno_freak> not any big FOSS conference as well
+    16:26:13 on <@Khmar> Any other conferences in general?
+    16:26:15 on <@Khmar> Okay.
+    16:26:16 on <@Khmar> That's good.
+    16:26:21 on < G0SUB> rmathews: hmm, isn't that too early?
+    16:26:23 on <@Khmar> So, we'll settle with 3,4,5 Sep
+    16:26:30 on < jace> +1
+    16:26:33 on < techno_freak> +1
+    16:26:36 on < rmathews> G0SUB: now will be a good time to speak up
+    16:26:42 on < baijum> +1
+    16:26:46 on <@ramkrsna> Khmar, before we dive into the date. there are a few thinks all the participants in this room need to know
+    16:26:46 on < G0SUB> rmathews: are we well prepped for a conf of this scale?
+    16:26:47 on <@Khmar> G0SUB: You think it will be?
+    16:26:51 on <@ramkrsna> +1 for the day
+    16:26:55 on <@anandbpillai> note that 3,4,5 is thu,fri,sat
+    16:27:00 on <@anandbpillai> why not 4,5,6 then ?
+    16:27:06 on <@anandbpillai> so sunday is involved
+    16:27:09 on <@Khmar> One day to recover?
+    16:27:11 on < rmathews> ohh, right 4, 5, 6 then is better
+    16:27:22 on < G0SUB> Khmar: think about the scale ...
+    16:27:26 on < techno_freak> first half of september is good
+    16:27:27 on <@anandbpillai> i mean was there anything special about 3,4,5 by the original proposer ? please clarify
+    16:27:27 on < rmathews> two days leave?
+    16:27:34 on < jace> people need sunday off to recover. i prefer 3,4,5.
+    16:27:36 on < G0SUB> shouldn't we organise some smaller events first?
+    16:27:45 on < munichlinux> anandbpillai, +1 for the date
+    16:27:49 on <@ramkrsna> +1, for 3,4, 5
+    16:27:50 on <@Khmar> G0SUB: This needn't be larger than we can handle.
+    16:27:55 on <@Khmar> +1 for 3,4,5
+    16:27:56 on < techno_freak> +1 for 3,4,5
+    16:27:57 on < jace> G0SUB: it can be done if there's good management in place.
+    16:28:06 on < jace> and there's plenty of time for that
+    16:28:10 on < falcon74> +1 for 3,4,5
+    16:28:10 on < abhinav> +1 for 3,4,5
+    16:28:15 on < G0SUB> jace: That's a bit iffy...
+    16:28:18 on <@anandbpillai> well, smaller events do make sense, i mean we need to discuss that
+    16:28:22 on <@Khmar> G0SUB: We'll decide to scale it down or move it if we can't show any promise in a short while.
+    16:28:27 on < baijum> I suggest September 4,5,6 originally...
+    16:28:28 on <@Khmar> anandbpillai: We will.
+    16:28:29 on <@anandbpillai> something like a BoF for Py con india this barcamp makes sense
+    16:28:31 on < G0SUB> Khmar: makes sense
+    16:28:37 on < rmathews> I guess, that does it.  So 4, 5, 6 is out by vote.
+    16:28:39 on < G0SUB> anandbpillai: yeah
+    16:28:46 on <@anandbpillai> ok, 3,4,5 sounds good
+    16:28:46 on <@Khmar> 3,4,5 then.
+    16:28:49 on <@Khmar> That's settled.
+    16:28:54 on < techno_freak> ok more 3,4,5 and less 4,5,6
+    16:29:03 on <@Khmar> Anyone who doesn't like it can take a hike. :P
+    16:29:03 on < techno_freak> so it's September 3rd, 4th and 5th
+    16:29:21 on < rmathews> Khmar: goes without saying. :)
+    16:29:22 on < G0SUB> going straight for a PyCon without having any other smaller meets seems to be a very hasty attempt to me...
+    16:29:24 on <@anandbpillai> please, moderator, don't overlord
+    16:29:29 on <@anandbpillai> thanks :)
+    16:29:33 on <@Khmar> anandbpillai: Kidding. :)
+    16:29:36 on < G0SUB> we don't even have any idea about the audience
+    16:29:56 on < techno_freak> i rend to agree with G0SUB in that point
+    16:29:59 on < techno_freak> tend*
+    16:29:59 on < rmathews> G0SUB: you have a very valid point
+    16:30:06 on < jace> G0SUB: might as well aim for a significant event. this meeting and the next couple will decide if it can be done.
+    16:30:07 on < rmathews> Khmar: may we pause to discuss that?
+    16:30:28 on <@Khmar> I think that's an important point and I've got a bullet for that.
+    16:30:28 on <@anandbpillai> Folks, actually date should be one of the last items, thinking about it logically
+    16:30:30 on < jace> G0SUB: from my experience, organising a large event is less of a problem than preventing too many cooks from entering the kitchen
+    16:30:32 on < abhinav> G0SUB: smaller meet like?
+    16:30:35 on < rmathews> anandbpillai: yes
+    16:30:36 on <@anandbpillai> i mean let us discuss the meat, core first
+    16:30:44 on < G0SUB> abhinav: a barcamp style one?
+    16:30:46 on < techno_freak> yes, until we get all these fixed, date can't be fixed
+    16:30:47 on < rmathews> anandbpillai: yes!
+    16:30:48 on < G0SUB> jace: I agree
+    16:30:53 on < rmathews> techno_freak: yes!!!
+    16:30:58 on <@ramkrsna> G0SUB, the point being how big a event do you think  PyCon India is going to be ?
+    16:31:02 on < jace> G0SUB: BCB4 had 650+ participants. it only took 5-6 people and a couple of months to organise.
+    16:31:06 on < falcon74> very true, date should come last... first let's see what all we need to get there... a "tentative" date should be fine. better not "freeze" it.
+    16:31:07 on <@anandbpillai> i mean fix the girl, before you fix the wedding date man
+    16:31:12 on < techno_freak> ## What's about the PyCon India ##
+    16:31:20 on < G0SUB> ramkrsna: I am judging the scale by the name. International people will be looking
+    16:31:27 on < jace> PyCon will be different because it will have more order and international participants, but it can be done in the ~6 months we have
+    16:31:30 on < baijum> I guess, for PyCon India, we can expect around 600
+    16:31:56 on <@Khmar> Good point. We'll keep the date out of the way for now.
+    16:32:02 on <@Khmar> 600 people.
+    16:32:04 on < abhinav> 600 sound a bit more
+    16:32:05 on < G0SUB> can't we have some FOSSMeets before we try a FOSS.in ?
+    16:32:08 on <@ramkrsna> baijum, I would think  around 400, must be a good crowd
+    16:32:10 on <@anandbpillai> right, so as per prev discussion sep 3,4,5 is the tentative date. Let us say that is final.
+    16:32:20 on < techno_freak> so let us first decide what this PyCon India be like, what do we expect to do, whom do we expect to cater to
+    16:32:29 on <@ramkrsna> techno_freak, +1
+    16:32:33 on <@anandbpillai> +1
+    16:32:39 on <@anandbpillai> techno_freak +11
+    16:32:57 on < jace> since this is the first pycon india, there will have to be a newbie track, but that can only be a side event (even if an important one)
+    16:32:59 on <@Khmar> Okay. As far as my understanding goes, it's not going to be a purely evangelical or newbie event.
+    16:33:14 on <@ramkrsna> true
+    16:33:21 on < falcon74> if we are calling this "PyCon India", i presume the format/content would be (/should be) same as "PyCon"
+    16:33:26 on <@anandbpillai> I suggest we aim for the students, i mean target the newbies because they are the most enthusiastic
+    16:33:28 on < baijum> No need to consider international people, this is going to be an "Indian" PyCon like PyCon Italy, PyCon Brazil etc.
+    16:33:36 on <@ramkrsna> falcon74, yes
+    16:33:38 on < rmz102> Guys target somewhere between 250-400 only for the first meet
+    16:33:43 on <@anandbpillai> target them as audience, but content can be aimed at a higher level
+    16:33:45 on < techno_freak> we cater to what Indian community needs as of now wrt Python
+    16:33:46 on -!- rmathews` [n=rm@59.92.54.28] has joined #bangpypers
+    16:33:55 on <@Khmar> Let's say 300.
+    16:33:59 on <@Khmar> And now, keep that out of the way.
+    16:34:01 on < G0SUB> Khmar: I like the idea... but think about this. The FOSS.in guys have trouble in organising dev oriented conferences which are much more general than 
+                         Python. how will we do it differently?
+    16:34:03 on <@Khmar> content wise, what are we planning?
+    16:34:05 on <@ramkrsna> baijum, we would give emphasis more on indian speakers. We also need to have a CFP
+    16:34:19 on < baijum> ramkrsna: ok
+    16:34:41 on <@anandbpillai> +1 ramkrsna
+    16:34:44 on < rmathews`> ramkrsna: -1 for the Indian speakers part.
+    16:34:53 on < jace> if we're discussing students and newbies, lawgon should be involved.
+    16:35:01 on <@Khmar> rmathews`: Given our scale, I think most of the speakers will be Indian.
+    16:35:03 on <@anandbpillai> can someone wake him up
+    16:35:04 on < rmathews`> anandbpillai: why?  the pycon part is important, not the india part
+    16:35:06 on < G0SUB> ramkrsna: this indian, non indian thing is secondary.
+    16:35:18 on < jace> afaik, he has more experience with that demographic than any of us.
+    16:35:24 on < rmathews`> Khmar: true, but that shouldn't be a criteria for selecting speakers.
+    16:35:37 on <@Khmar> rmathews`: Yes, but the distinction will be theoretical.
+    16:35:41 on -!- Netsplit kornbluth.freenode.net <-> irc.freenode.net quits: rmathews
+    16:35:42 on < techno_freak> we also need to show what Indian python shops are doing as well
+    16:35:44 on <@anandbpillai> I think he was meaning like we don't do it the foss dot in way, i.e celebrity talkers from abroad. i agree with that
+    16:35:53 on < techno_freak> +1
+    16:35:54 on < G0SUB> why don't we admit that we are choosing the name PyCon just like that and don't want to attempt something like the real PyCons....
+    16:35:59 on < rmathews`> Khmar: yet, important
+    16:36:03 on <@ramkrsna> G0SUB, well i agree, not being a racist here :D
+    16:36:06 on < rmathews`> G0SUB: that's unfriendly
+    16:36:12 on <@Khmar> rmathews`: Yup. And I afree with you.
+    16:36:14 on -!- baijum1 [n=baijum@122.167.115.63] has quit [Connection timed out]
+    16:36:33 on < rmathews`> G0SUB: we wants to be cool too, stop being a party pooper.
+    16:36:34 on <@Khmar> G0SUB: Let's not call it PyCon then.
+    16:36:47 on < G0SUB> let's just think about organising a Python Conference.
+    16:36:49 on <@Khmar> But don't let hair splitting over the name suck up time.
+    16:36:56 on < G0SUB> this PyCon name is giving me jitters
+    16:36:57 on <@Khmar> Okay.
+    16:37:05 on <@anandbpillai> international participation is good for marketing and visibility, but we need to be practical abt it since this is the 1st edition and we may not 
+                                be able to attract a lot of international visibility right from the world go
+    16:37:09 on < jace> G0SUB: a Python Conference can't be abbreviated to PyCon?
+    16:37:20 on <@anandbpillai> so by design we will have more indian speakers i guess
+    16:37:21 on < rmathews`> G0SUB: me too, actually at first, but then maybe the added pressure will create something better
+    16:37:24 on <@Khmar> Please... No more discussion about using the name or not. Not till later.
+    16:37:33 on < G0SUB> jace: yes, but that name is already established as an uber Python Conference
+    16:37:33 on < jace> Khmar: +1
+    16:37:33 on < rmathews`> Khmar: okay
+    16:37:39 on -!- mib_x3pwqu [i=7c7dbd2e@gateway/web/ajax/mibbit.com/x-d53a866ad1bd9232] has joined #BangPypers
+    16:37:49 on < rmathews`> topics? speakers?
+    16:37:52 on < techno_freak> so more indian speakers, then..
+    16:37:56 on < techno_freak> what's the theme?
+    16:37:58 on < rmathews`> techno_freak: grrrr.
+    16:38:00 on <@Khmar> So, we'll have some dev stuff. Some newbie stuff and what else?
+    16:38:06 on -!- anandology_ [n=anandolo@115.240.252.194] has quit [Read error: 60 (Operation timed out)]
+    16:38:09 on < baijum> Actually Python developers and PSF encourage to use "PyCon" name
+    16:38:09 on < rmathews`> Khmar: -1 for the newbie stuff.
+    16:38:09 on < G0SUB> otherwise, I am perfectly fine with a python conference. the name just creates some false expectations
+    16:38:10 on < jace> Khmar: +1
+    16:38:13 on < abhinav> tutorials?
+    16:38:24 on < jace> dang up arrow
+    16:38:31 on <@anandbpillai> GOSUB, please drop the name reference.
+    16:38:32 on < techno_freak> workshops?
+    16:38:34 on <@ramkrsna> G0SUB, rmathews`  The rationale behind was to encourage python , how a local communities like bangpypers, chennaipy can help spread python with in india
+    16:38:40 on < jace> the question of indian or foreign speakers should be left to the speakers.
+    16:38:47 on < jace> no need to focus on one type
+    16:38:50 on < G0SUB> anandbpillai: yeah
+    16:38:51 on <@anandbpillai> +1 jace
+    16:38:59 on <@anandbpillai> that was what i was trying to say
+    16:39:09 on <@ramkrsna> jace, fair and simple call for cfp.
+    16:39:09 on < abhinav> code sprints?
+    16:39:10 on < jace> we're clearly after an indian /audience/, since the conf is in india
+    16:39:10 on < G0SUB> anandbpillai: it's a zero, btw. not O :)
+    16:39:18 on <@Khmar> The Indianness is a non-issue. Let's just keep that out of the way. When we get a chance to be racist, we'll bring it back on the table.
+    16:39:20 on <@Khmar> :)
+    16:39:26 on <@ramkrsna> heh
+    16:39:31 on -!- rmathews [n=rm@59.92.54.28] has joined #bangpypers
+    16:39:34 on < jace> so can we decide who the audience is?
+    16:39:38 on <@Khmar> So, can we attract a dev crowd?
+    16:39:46 on <@Khmar> Or should we focus more on the newbie thing?
+    16:39:49 on <@anandbpillai> -1 Khmar we should not aim for it
+    16:39:50 on < jace> taking a maxim from the advertising industry:
+    16:39:51 on < rmz102> The only connection with India is that its happening in India
+    16:39:51 on < techno_freak> One is Beginners of Python
+    16:39:52 on <@Khmar> What about things like coding sprints?
+    16:39:53 on -!- electracool [n=chatzill@122.167.22.253] has joined #bangpypers
+    16:39:54 on < G0SUB> jace: newbies. mainly.
+    16:39:57 on <@anandbpillai> i mean this should be about spreading awareness
+    16:40:07 on < jace> the lifestyles portrayed in the typical ad only apply to 10% of the target demographic
+    16:40:11 on <@anandbpillai> no omlettes in 1st edition ;)
+    16:40:13 on < rmathews`> ramkrsna: hmm ... maybe the Python groups can continue evangelizing, and leave the conference for users by users?  I'm just saying, targetting talks 
+                             for newbies generally brings the quality of things down, and it seems to happen all the time.  Given that this is a conference, not an unconference, 
+                             the direction it is given now, will decide how much of a success this will be.
+    16:40:27 on < jace> the remaining 90% are expected to aspire to be like the 10% and to thereby identify with the ad
+    16:40:28 on < G0SUB> Khmar: it's masochism to think that you will be able to attract quality dev crowd in India
+    16:40:34 on < techno_freak> well, you have to cover variety of people
+    16:40:35 on <@ramkrsna> rmathews, I agree with you
+    16:40:40 on < jace> aspiration is key
+    16:40:46 on < techno_freak> when you are beginning
+    16:40:49 on <@Khmar> Perhaps but the pessimism is not going to help us. :)
+    16:41:01 on < rmathews`> +1 for the code sprints
+    16:41:11 on < jace> a newbie-focused event will lose enthusiasm very quickly
+    16:41:20 on < techno_freak> so we have beginner talks for newbiews, and code sprints for the seasoned
+    16:41:21 on <@Khmar> Even non-python people who are into open source might be interested in a technically involved session rather than a newbie thing.
+    16:41:23 on <@anandbpillai> can we not have a specific target audience in mind ? i mean let that be hazy... i think it will help proceedings
+    16:41:23 on < abhinav> +1 jace
+    16:41:33 on <@anandbpillai> the python developer is our audience
+    16:41:33 on <@Khmar> +1 anandbpillai
+    16:41:38 on <@ramkrsna> rmathews, I didnt say anything about lowering standards. we need to have diffrent tracks, newbie, intermediate and expert/gurus track
+    16:41:39 on < jace> people supporting the event, even those in this room, want the event to represent their own aspirations
+    16:41:41 on <@anandbpillai> let him be new or raw or old
+    16:41:46 on < techno_freak> anandbpillai, like "already existing" python programmers in India?
+    16:41:55 on <@anandbpillai> kind of, right
+    16:42:02 on <@Khmar> techno_freak: Or good programmers looking for a FOSS atmosphere.
+    16:42:06 on <@anandbpillai> i mean guys who know something abt python at least, not raw newbies
+    16:42:07 on < rmathews`> ramkrsna: the tracks idea sounds nice, and I did think about it, but it's tricky to get right.
+    16:42:08 on < techno_freak> leave FOSS out of these
+    16:42:11 on < baijum> may be 1 day for newbies (tutorial day) 1 day conf day and last day sprint ?
+    16:42:18 on < rmathews`> jace: :D
+    16:42:19 on <@anandbpillai> +1 baijum
+    16:42:21 on <@Khmar> rmathews`: tracks?
+    16:42:24 on <@ramkrsna> rmathews, we would also need 'tutorials'
+    16:42:25 on <@Khmar> +1 baijum
+    16:42:28 on <@anandbpillai> good idea, implementable  i guess
+    16:42:28 on < rmathews`> Khmar: yes.
+    16:42:29 on < jace> target the uber coders, folks who are changing the face of python itself, while leaving some space for newbies
+    16:42:32 on <@Khmar> That's a 'neat' distinction.
+    16:42:37 on < rmz102> I think itsbetter to have seperate tracks
+    16:42:38 on < jace> and by the time event happens, it'll water itself down to the right proportions.
+    16:42:41 on < techno_freak> baijum, sprint needs to be in the middle, so we have one more day to polish up :D
+    16:42:47 on < G0SUB> jace: name 10 uber python coders from India
+    16:42:52 on < jace> G0SUB: irrelevent
+    16:42:55 on <@anandbpillai> jace, u mean the pypy folks for example ?
+    16:42:58 on <@Khmar> rmz102: Can you clarify what you mean by tracks? Parallel sessions?
+    16:42:58 on < G0SUB> jace: haha
+    16:43:06 on < rmathews`> Khmar: yes.
+    16:43:08 on < rmz102> yes parallel sessions
+    16:43:17 on -!- Netsplit kornbluth.freenode.net <-> irc.freenode.net quits: rmathews
+    16:43:22 on <@Khmar> That'll require more resources to keep going smoothly methinks.
+    16:43:28 on < jace> G0SUB: the uber programmers could come from anywhere in the world. it doesn't matter.
+    16:43:31 on -!- Netsplit over, joins: rmathews
+    16:43:31 on < rmathews`> Khmar: I think I saw that in the UK PyCon too.  Different rooms with simultanoues talks.
+    16:43:39 on < jace> what matters is the aspiration quality of the event
+    16:43:43 on < rmz102> You can have parallel sessions, do not divide them into newbie or experienced
+    16:43:46 on < rmz102> just halls
+    16:43:50 on < G0SUB> jace: I agree
+    16:43:52 on <@ramkrsna> G0SUB, please do not go off topic, help us plan it. I know you are a uber coder
+    16:43:52 on < techno_freak> too many parallel talks everything goes out of hand
+    16:43:53 on <@anandbpillai> +1 rmz102
+    16:43:53 on <@ramkrsna> :D
+    16:43:54 on < baijum> BTW, for other PyCons, including EuroPython, they used to conduct sprint on last day
+    16:43:55 on <@Khmar> Although we can accomplish more. I think it would better if we switch to that if we have sufficient topics
+    16:43:59 on <@Khmar> Hmmmm.
+    16:43:59 on < G0SUB> ramkrsna: lol
+    16:44:01 on <@Khmar> you're right
+    16:44:02 on < jace> anandbpillai: i'm not very familiar with pypy, unfortunately.
+    16:44:03 on <@Khmar> +1 rmz102
+    16:44:04 on <@anandbpillai> let others do the tagging, just present content
+    16:44:06 on <@anandbpillai> :)
+    16:44:20 on <@Khmar> Okay...
+    16:44:24 on <@Khmar> So.. let me summarise this.
+    16:44:31 on -!- n3oo3n [n=n3oo3n@gaia.xinh.org] has joined #bangpypers
+    16:44:33 on < techno_freak> baijum, the crowd comes on the first day and the last day, so have the sprint in the middle so we are at peace ;-)
+    16:44:35 on <@Khmar> So that we can focus a little.
+    16:44:38 on <@anandbpillai> ok, yield Khmar :)
+    16:44:41 on < falcon74> I think 'GOSUB's question is relevant...  "name 10 uber python coders in India"... i'd think that atleast 80% of that 10, are in this channel at the 
+                            moment. Let's not make this 'elitist'... but 'inclusive'.
+    16:44:58 on < G0SUB> falcon74: that's my idea.
+    16:44:59 on < rmz102> we can always move talks based on expected audience levels
+    16:45:05 on < baijum> Khmar: can you check we are on agenda ?
+    16:45:05 on < rmz102> across halls
+    16:45:11 on <@Khmar> We aren't really. :)
+    16:45:13 on <@ramkrsna> Khmar, wait , I guess we still need to discuss the rationale behind the conference
+    16:45:18 on < falcon74> which doesn't mean, that dilute content to make it anything else...
+    16:45:23 on <@Khmar> Okay okay!
+    16:45:27 on <@anandbpillai> i think that is fine, cmon this is a web-conf, we are broadly on the agenda
+    16:45:28 on < baijum> Khmar: so, please do a moderation :)
+    16:45:28 on < techno_freak> Khmar, declare tentative "Focus of PyCon"
+    16:45:48 on < rmathews`> Khmar: maybe you should just note down the pressure points this time, and call for another meet after discussing this on the mailing list/wiki
+    16:45:53 on <@Khmar> I am.
+    16:46:00 on < jace> falcon74: if you start elitist but egalitarian (ie, not explicitly excluding anyone), you'll automatically come down to normal levels. but if you start 
+                        low, you won't rise up.
+    16:46:05 on <@Khmar> But I think we have some meat that I think will be useful to summarise.
+    16:46:07 on <@anandbpillai> yes, folks, this is not going to be the meeting, but first of many meetings i would say
+    16:46:09 on <@ramkrsna> Lets talk about the audience , types of audience and different fields they come from
+    16:46:16 on < rmathews`> Khmar: meet?
+    16:46:23 on <@ramkrsna> most of them students, developers, sys admins
+    16:46:24 on <@Khmar> i mean content.
+    16:46:28 on <@anandbpillai> +1 ramkrsna
+    16:46:37 on < rmathews`> Khmar: just checking.
+    16:46:45 on <@Khmar> Okay. So the broad plan as I understand is that we invite presentations and just schedule them properly.
+    16:46:52 on -!- Netsplit kornbluth.freenode.net <-> irc.freenode.net quits: rmathews
+    16:46:52 on <@Khmar> No real lines between them.
+    16:46:56 on < techno_freak> students who want to know about Python, people who already code in Python
+    16:46:57 on <@ramkrsna> Khmar, yes
+    16:47:00 on <@Khmar> We parallelise based on resources and number of presentations.
+    16:47:06 on < jace> Khmar: "yes, but"
+    16:47:07 on < techno_freak> yes
+    16:47:14 on -!- Netsplit over, joins: rmathews
+    16:47:14 on <@anandbpillai> i would expect 50% students, 40% python developers (at work, IT admin , script kiddie etc) and 10% uber coders/guys who do Python for a living
+    16:47:16 on <@Khmar> If it takes up all 3 days, well and good
+    16:47:20 on < techno_freak> but we need to have a theme, say our target audience is THIS
+    16:47:21 on < rmathews`> just a thought, I enjoy those talks best which are a lil (just a lil over my head) gets me all excited, but the ones which just cover old ground make me nod offf
+    16:47:25 on <@Khmar> If not, we can have an explicit 'sprint' day.
+    16:47:30 on < G0SUB> rmathews: is your connection _so_ bad?
+    16:47:37 on <@ramkrsna> developers again fall into system programmers, web programmers...
+    16:47:45 on < techno_freak> ramkrsna, +1
+    16:47:46 on <@ramkrsna> ofcourse there is Django ;-)
+    16:47:48 on < rmathews`> G0SUB: don't ask. :)
+    16:47:51 on <@anandbpillai> do we need to discuss at that level ?
+    16:47:55 on -!- electracool_ [n=chatzill@122.167.22.253] has joined #bangpypers
+    16:47:58 on < techno_freak> we need Python for Web Development and Python for System Programming
+    16:48:03 on <@Khmar> I think when we send out for papers, the topics will reflect the crowd that will come.
+    16:48:09 on <@anandbpillai> from india i guess 80% of python programmers would fall to web programmer category
+    16:48:15 on < techno_freak> anandbpillai, we need to separate web, otherwise it will eat up the whole conf
+    16:48:18 on <@ramkrsna> anandbpillai, thats a higher level view
+    16:48:23 on <@anandbpillai> so we should focus on web part of it on that
+    16:48:32 on < techno_freak> that's to decide
+    16:48:33 on < rmz102> anandbpillai:not necessarily
+    16:48:39 on < rmathews`> okay, is there anyone from Google here?
+    16:48:43 on <@anandbpillai> separate track for that ? (Django, pylons etc)
+    16:48:48 on <@anandbpillai> btbytes ?
+    16:48:49 on <@ramkrsna> so keeping out audiance in mind. web programming might get a lot of papers
+    16:48:49 on < techno_freak> Web Frameworks
+    16:48:55 on < rmathews`> what are the odds of getting Guido to make a trip to see elephants and what not?
+    16:48:56 on <@anandbpillai> you are best to comment on it (btbytes)
+    16:49:13 on -!- Netsplit kornbluth.freenode.net <-> irc.freenode.net quits: rmathews
+    16:49:13 on <@ramkrsna> rmathews, I would love guido to be here
+    16:49:19 on < G0SUB> rmathews: don't even think of getting GvR here
+    16:49:21 on < rmz102> I think it is premature to discuss content right now
+    16:49:36 on < jace> G0SUB: why aim too low?
+    16:49:38 on <@anandbpillai> yield rmz102 :)
+    16:49:38 on < rmathews`> G0SUB: what did you eat, man ... think happy happy joy joy
+    16:49:38 on < rmz102> first look at the macro issues
+    16:49:41 on < techno_freak> ok...
+    16:49:42 on <@Khmar> We'll come to GvR later.
+    16:49:48 on < techno_freak> we have some clue of theme
+    16:49:50 on < techno_freak> what next..
+    16:49:55 on < baijum> Sponsorship ?
+    16:49:57 on <@ramkrsna> G0SUB, you could invite knuth here, you know him
+    16:49:57 on <@Khmar> I think the theme is broadly done.
+    16:50:01 on < G0SUB> jace: I mean isn't that irrelevant at this moment?
+    16:50:05 on <@Khmar> whois G0SUB
+    16:50:08 on < G0SUB> ramkrsna: DEK is too old
+    16:50:10 on < techno_freak> Reminder: This is Meet #1, we will get into details based next time
+    16:50:11 on < rmz102> Look at how much can be raised for the conference
+    16:50:19 on < G0SUB> Khmar: you forgot the /
+    16:50:20 on < rmz102> where do you want to do it
+    16:50:21 on <@ramkrsna> Khmar, you do not know G0SUB
+    16:50:21 on <@Khmar> Okay. Theme is done then.
+    16:50:24 on < jace> G0SUB: yes, but let it pass.
+    16:50:28 on < techno_freak> # Venue
+    16:50:35 on <@ramkrsna> okey lets get back to the topic
+    16:50:43 on < rmz102> in Bangalore the choices are
+    16:50:45 on < techno_freak> Where do you want it to happen?
+    16:50:46 on <@Khmar> theme is done.
+    16:50:47 on < rmathews`> companies with Python products?  I can ask someone from office to talk about Quillpad, if that isn't too hush hush.
+    16:50:49 on < techno_freak> Do we have hosts?
+    16:50:57 on < baijum> Bangalore
+    16:50:59 on <@Khmar> I'm not sure...
+    16:51:01 on < techno_freak> rmathews`, please stick with the topic
+    16:51:03 on <@Khmar> Where do you usually hold conferences?
+    16:51:06 on <@Khmar> IISc. ?
+    16:51:11 on < rmz102> IISc, any of the 5 star hotels
+    16:51:11 on <@Khmar> I didn't attend foss.in
+    16:51:14 on <@anandbpillai> +1 rmathews, would be nice to have a track for new Python products, so to speak
+    16:51:16 on < G0SUB> rmathews`: if Quillpad is not FOSS, how's that relevant?
+    16:51:26 on < jace> lots of venues, but if you want IISc JN Tata, you have to book now.
+    16:51:29 on < madrazr> IISC would be easier
+    16:51:34 on < G0SUB> if I can't see the source, how can I learn?
+    16:51:35 on < jace> lots of smaller venues within IISc too.
+    16:51:36 on < madrazr> err... better
+    16:51:38 on < rmathews`> G0SUB: Haha, non sequitor.  QP is in Python.
+    16:51:39 on < techno_freak> IISc is costlier if am not wrong
+    16:51:43 on < techno_freak> i mean the audi
+    16:51:44 on <@Khmar> IISc. looks like a popular choice
+    16:51:46 on < baijum> +1 for IISc
+    16:51:49 on <@anandbpillai> Folks, this is not a FOSS event, i dont think we have to enforce that anything discussed here is FOSS
+    16:51:51 on <@Khmar> rmathews`: Let's leave that thread please?
+    16:51:56 on < techno_freak> anandbpillai, +100
+    16:52:00 on < rmz102> JN Tata was costing around 40 k a day a few years back
+    16:52:01 on <@anandbpillai> it has to be Python and if it is FOSS, good, but not exclusively FOSS
+    16:52:03 on < rmathews`> Khmar: okay, this is going too fast for me. :(
+    16:52:15 on <@ramkrsna> okey folks. I would like to stop the discussions for a while
+    16:52:26 on < baijum> Any other venue suggestion ?
+    16:52:27 on <@Khmar> I think it'd be good to have some non FOSS python too.
+    16:52:28 on < techno_freak> are we looking at a proper Audi, or some classrooms are good enough with a central audi?
+    16:52:39 on < G0SUB> anandbpillai: how will it help if some company comes and talks about this cool non-free app written in Python?
+    16:52:42 on <@ramkrsna> Khmar, can you summarize the conference rationale
+    16:52:43 on <@anandbpillai> hmmm, venue so soon
+    16:52:47 on < rmz102> you can look at cheaper places like Bangalore colleges which will come between 8 and 15 k
+    16:52:51 on < rmz102> a day
+    16:52:52 on < jace> kitchen duty again. will catch up later.
+    16:52:58 on <@ramkrsna> folks venue can be discussed a bit later
+    16:53:03 on < techno_freak> it's on Python, not Python+FOSS
+    16:53:07 on <@Khmar> Colleges look like a popular choice.
+    16:53:07 on < rmathews`> G0SUB: actually you do have a point, lets get to this later.
+    16:53:16 on <@Khmar> Any others?
+    16:53:17 on < G0SUB> rmathews`: yeah :)
+    16:53:17 on < techno_freak> ??
+    16:53:21 on <@anandbpillai> G0SUB: how if the cool, non-free webapp is an online service, very usable like facebook, but can't be made free ?
+    16:53:28 on < baijum> ramkrsna: We will  be required to book earlier for venu like IISc
+    16:53:34 on < abhinav> what about IIMB?
+    16:53:35 on <@anandbpillai> G0SUB: you will flag it down ? i dont think so
+    16:53:42 on <@Khmar> IIMB, IISc.
+    16:53:44 on <@Khmar> PESIT?
+    16:53:45 on < madrazr> hello all, I come from BMSCE, if you guys are Ok, I can talk to our college management
+    16:53:45 on < rmz102> Go for a central place
+    16:53:51 on < G0SUB> anandbpillai: makes sense if some of it is free. facebook has thrift. which rocks.
+    16:53:53 on < n3oo3n> what about conf dates ?
+    16:53:56 on < rmz102> Pesit is a good choice
+    16:53:59 on < rmz102> will come free
+    16:54:02 on < madrazr> we have one central Audi, 2 small Audis and classrooms
+    16:54:02 on < techno_freak> so it is favoured to be in Bangalore? final.. let leave the details to next meeting on Venue fixing
+    16:54:03 on < rmathews`> thought for the hour:  given that everything is premature right now, how about just having a free for all and being all civilized later?
+    16:54:13 on <@anandbpillai> G0SUB: yes, i meant at least if part is free, we are not going to discuss any full proprietary stuff here
+    16:54:23 on <@ramkrsna> techno_freak, +1
+    16:54:24 on <@anandbpillai> G0SUB: If for example, the client is open and free,
+    16:54:37 on < n3oo3n> how much crowd is expected ?
+    16:54:39 on < G0SUB> anandbpillai: well, _then_ I am all for it. I should be able to take something home.
+    16:54:45 on < techno_freak> ## Venue - Bangalore - Details for specialised meeting ##
+    16:54:48 on < rmathews`> anandbpillai: yes, I was interested more in the aspects of machine learning and AI with python rather than the QP product itself.
+    16:54:53 on < techno_freak> ## Sponsors ##
+    16:55:05 on < rmathews`> n3oo3n: we don't know yet.
+    16:55:09 on < rmz102> Sponsors will depend on how much you want to raise
+    16:55:12 on < madrazr> and BMSCE is very much in the heart of the City - Bull Temple Road, Basavanagudi
+    16:55:19 on <@anandbpillai> G0SUB: yes, that is what i meant, let us not drag the topic, hope i am clear enough
+    16:55:20 on <@Khmar> Any suggestions for a venue other than colleges?
+    16:55:22 on < techno_freak> which will indirectly depend on what all we're going to do
+    16:56:07 on < rmz102> you need to also look at we are in middle of recession and some of the usual suspects may not cough up much
+    16:56:09 on <@Khmar> I guess not.
+    16:56:10 on <@anandbpillai> rmathews: I think people would like to take something back home, so if the product does not have an open client API at least, it may not be well  received
+    16:56:12 on <@ramkrsna> Okey for the venue, we could set up volunteer groups, to go to each of these places and find out the rates| bandwidth | facilities ( speaker room,  class rooms)
+    16:56:17 on < techno_freak> We need Sponsors for [1] Speaker Accommodation [2] Logistics [3] Venue [4] Media [5] Conference Kit?
+    16:56:20 on < n3oo3n> place we can decide after getting idea about the head count
+    16:56:23 on <@Khmar> anandbpillai: This is really off topic. :)
+    16:56:32 on < baijum> Hotel ?
+    16:56:37 on <@ramkrsna> techno_freak, lets roll back a bit
+    16:56:39 on <@anandbpillai> Khmar: I am not in the main topic thread ;)
+    16:56:45 on < techno_freak> ramkrsna, to.. ?
+    16:56:57 on <@ramkrsna> techno_freak, to the conference it self
+    16:56:59 on <@Khmar> techno_freak: that's a decent summary.
+    16:57:03 on < techno_freak> ok
+    16:57:14 on <@Khmar> ramkrsna: I think the birds eye view of the conference is done.
+    16:57:17 on < techno_freak> ramkrsna, then raise the topic you want to be discussed
+    16:57:18 on < rmz102> baijum: Hotel? you mean for stay or for conference
+    16:57:38 on <@Khmar> series of talks which we parallelise, and a separate day for sprints if the talks don't fill the thing.
+    16:57:40 on <@ramkrsna> CFP and a Open review Process
+    16:57:42 on <@anandbpillai> Hotels would be damn expensive for a conf like this
+    16:57:54 on <@ramkrsna> How many of you think having a CFP is a good idea
+    16:57:59 on <@anandbpillai> +1 CFP
+    16:57:59 on < techno_freak> +1
+    16:58:07 on < rmz102> yes it will cost between 500 and 1500 a day per person for 200+
+    16:58:08 on < G0SUB> ramkrsna: +1
+    16:58:09 on < btbytes> +1 for CFP
+    16:58:19 on <@Khmar> CFP?
+    16:58:24 on <@anandbpillai> call for proposals
+    16:58:27 on <@Khmar> Ah okay.
+    16:58:30 on <@Khmar> +1 CFP
+    16:58:36 on <@ramkrsna> Call For papers/propsals/ presentation
+    16:58:45 on < techno_freak> ramkrsna, CFP will help us decide upon the availability of speaker resources as well
+    16:58:47 on <@anandbpillai> +10 ramkrsna :)
+    16:58:53 on <@Khmar> That's the clearest way of getting participations.
+    16:59:07 on -!- baijum3 [i=7aa7733f@gateway/web/ajax/mibbit.com/x-1589e09eb6f8081a] has quit ["http://www.mibbit.com ajax IRC Client"]
+    16:59:12 on <@anandbpillai> CFP is also a good marketing tool , the web URL of the CFP is perhaps the first word out of a conf
+    16:59:16 on <@Khmar> If we are going to start off with a CFP, we'd need some kind of site, central point.
+    16:59:17 on < rmathews`> how does the CfP process work?  if we don't get responses will be have time to find alternatives?
+    16:59:20 on <@anandbpillai> happens most of the tim
+    16:59:21 on <@anandbpillai> time
+    16:59:23 on <@Khmar> So we'll have to work on that first.
+    16:59:30 on < rmathews`> in.pycon.org?
+    16:59:32 on < techno_freak> Important: We want a dedicated mailing list
+    16:59:38 on <@ramkrsna> CFP's also need have a open review process, unlike other indian conferences
+    16:59:42 on < rmathews`> techno_freak: no no, not yet.
+    16:59:49 on <@ramkrsna> I'm +1 for a Open review Process
+    16:59:54 on <@Khmar> techno_freak: We'll keep that on the same level as the site.
+    16:59:57 on < G0SUB> rmathews`: why not? (a mailing list)
+    16:59:58 on <@Khmar> +1 Open review process.
+    17:00:04 on <@Khmar> But how do we go about it?
+    17:00:07 on <@anandbpillai> +1 for open review, but we need a review committee then...
+    17:00:07 on < rmathews`> G0SUB: I might forget to join. :(
+    17:00:15 on < techno_freak> + for open review
+    17:00:17 on -!- baijum1 [i=79f53ad3@gateway/web/ajax/mibbit.com/x-80a42acd0814af6b] has joined #BangPypers
+    17:00:17 on <@anandbpillai> can't do review in a mailing list
+    17:00:20 on < G0SUB> rmathews`: bah!
+    17:00:28 on < rmathews`> what's open review?
+    17:00:40 on <@ramkrsna> Khmar, the pycon does a open review process. they have 3 votes for a paper to be accepted
+    17:00:42 on < techno_freak> everybody knows what has come, what's been selected and why
+    17:00:51 on < techno_freak> plus you can vote in and out a proposal
+    17:00:51 on <@anandbpillai> where is review done in pycon
+    17:00:53 on < rmathews`> review of talk proposals?  or are we asking for full fledged papers now?
+    17:01:03 on <@anandbpillai> i mean is there a committee ?
+    17:01:05 on <@Khmar> Well, a committe can be formed via our list and the wiki.
+    17:01:19 on <@anandbpillai> -1 rmathews none does that
+    17:01:23 on <@ramkrsna> anandbpillai, no, most of the volunteers do it and vote it via their conference system
+    17:01:25 on < techno_freak> i feel its better not to clog bangpypers mailing list
+    17:01:28 on <@anandbpillai> CFP are for abstracts
+    17:01:37 on -!- baijum2 [n=baijum@121.245.58.211] has joined #BangPypers
+    17:01:37 on < techno_freak> why dont we have a google group or something
+    17:01:39 on <@anandbpillai> full paper is requested only towards the fag end
+    17:02:04 on <@Khmar> techno_freak: We can do that but let's get to that later. We're going through the process of getting papers/presentations now.
+    17:02:05 on <@ramkrsna> anandbpillai, its not necessary that bangpypers will review, but python community can help us with this
+    17:02:11 on < svaksha> iirc, lawgon said the nrcfoss conference system software was available to be reused
+    17:02:22 on <@Khmar> Or the pycon thing.
+    17:02:25 on <@ramkrsna> call for volunteers to review the papers for pycon
+    17:02:34 on < techno_freak> call for reviewers
+    17:02:38 on -!- electracool [n=chatzill@122.167.22.253] has quit [Connection timed out]
+    17:02:39 on <@anandbpillai> +1 ramkrsna, but we need to decide who in the "python community" for it to be called sufficiently open
+    17:02:40 on < rmathews`> another idea:  all those companies listed on the wiki at python.org can be tapped for sponsorships, speakers, etc.
+    17:02:47 on < baijum1> PyCon software has review system
+    17:02:57 on < btbytes> The PyCon Conf tool is current and maintained.
+    17:03:02 on < btbytes> +1 for Pycon Conf tool
+    17:03:04 on <@anandbpillai> ramkrsna - selection of review members must be an open process
+    17:03:16 on <@Khmar> Hello btbytes. didn't notice you till now. :)
+    17:03:34 on < techno_freak> +1 for pyconf tool
+    17:03:35 on < rmathews`> anandbpillai: I'd say have review members, plus opinions from outsiders too.  (I'd like to have my say.)
+    17:03:43 on < svaksha> tell reviewers to register via the pycon system (or which ever you decide) and they can vote openly
+    17:03:50 on < baijum1> +1 for PyConf tool
+    17:03:52 on < rmathews`> svaksha: sounds good
+    17:03:55 on <@Khmar> +1 Pyconf tool
+    17:03:58 on < rmathews`> svaksha: are you Khmar?
+    17:04:02 on <@ramkrsna> anandbpillai, yeah. the point being, eg. I can say if a system programming proposal  is good or I will suck with web programming stuff
+    17:04:03 on < svaksha> no
+    17:04:20 on <@ramkrsna> rmathews`, lol
+    17:04:42 on < rmathews`> ramkrsna: they're on the wiki and mailing list, thought they were the same person
+    17:04:52 on <@Khmar> So, CFP via a site, get the proposals, use the pycon software to review them and shortlist. Right?
+    17:05:03 on < baijum1> We will require someone to setup this tool
+    17:05:05 on < techno_freak> right
+    17:05:08 on <@Khmar> rmathews`: I'm 'Noufal Ibrahim' on the list.
+    17:05:09 on < baijum1> any takers ?
+    17:05:18 on <@Khmar> baijum1: We'd need volunteers for many functional areas.
+    17:05:20 on <@ramkrsna> yeah, we can ask the ChiPy folks to help us out
+    17:05:23 on  * baijum1 is a Zope guy, no Django
+    17:05:33 on < G0SUB> baijum1: I am the Django guy
+    17:05:35 on <@Khmar> ChiPy?
+    17:05:43 on  * techno_freak is stuck between Pylons and Django
+    17:05:44 on <@ramkrsna> chicago python users group
+    17:05:50 on <@Khmar> k
+    17:06:04 on <@ramkrsna> they have been conducting pycon for the past 2 years
+    17:06:07 on <@Khmar> I think we'll keep the list of positions on the wiki and people can volunteer asynchronously.
+    17:06:11 on < techno_freak> [1] Volunteer for managing review tool? Takers
+    17:06:16 on  * G0SUB does the Django as a day job and beyond
+    17:06:25 on < G0SUB> techno_freak: I can help
+    17:06:41 on < techno_freak> ok G0SUB is tentatively taking care of it, who wants to join with him please do so
+    17:06:43 on < G0SUB> provided you have a sane, vps server
+    17:06:45 on < techno_freak> next..
+    17:06:45 on < baijum1> Khmar: that would be fine
+    17:06:46 on <@ramkrsna> okey G0SUB has volunteered for it
+    17:06:50 on -!- baijum [n=baijum@121.245.32.197] has quit [Read error: 60 (Operation timed out)]
+    17:06:57 on <@Khmar> I think we'll move on now.
+    17:07:02 on <@ramkrsna> G0SUB, haha uber coder to the rescue :D
+    17:07:04 on < techno_freak> ramkrsna, next topic?
+    17:07:10 on < G0SUB> ok
+    17:07:24 on < G0SUB> do we have a server?
+    17:07:36 on <@ramkrsna> CFP done
+    17:07:38 on < baijum1> G0SUB: We can get python.org server
+    17:07:42 on <@ramkrsna> Open review Process done
+    17:07:54 on < G0SUB> baijum1: OK. let's ask them. I will install, etc.
+    17:08:08 on <@Khmar> Okay...
+    17:08:17 on < baijum1> And they also ready to give, in.python.org domain
+    17:08:17 on -!- electracool_ [n=chatzill@122.167.22.253] has left #bangpypers []
+    17:08:20 on <@Khmar> Money matters.
+    17:08:25 on <@Khmar> What kind of budget are we looking at?
+    17:08:27 on < G0SUB> baijum1: nice
+    17:08:38 on < techno_freak> ramkrsna, do you have anything else other than sponsorship?
+    17:08:45 on <@ramkrsna> techno_freak, yeah
+    17:08:52 on <@Khmar> ramkrsna: Out with it! :)
+    17:09:04 on < techno_freak> still to come - Sponsorship, Goodies, Media
+    17:09:04 on < baijum1> BTW, PSF has some funding for local conf. but just don't depend on it
+    17:09:05 on <@ramkrsna> Types of talks:: Full Length, short/lighting talks, Tutorials
+    17:09:16 on <@ramkrsna> Sprints
+    17:09:21 on <@Khmar> ramkrsna: + sprints
+    17:09:24 on <@Khmar> Ah okay.
+    17:09:27 on < techno_freak> what proporions
+    17:09:47 on <@Khmar> techno_freak: As they come in. I don't expect too many so we don't want to publish proportions upfront.
+    17:09:49 on <@ramkrsna> techno_freak, as in time durations
+    17:09:53 on < techno_freak> yes
+    17:09:54 on <@ramkrsna> ?
+    17:10:05 on < techno_freak> or what's the % of importance
+    17:10:06 on <@Khmar> What do you think?
+    17:10:25 on < techno_freak> Khmar, when you make a CFP you also need to say what are the diff type of expectations
+    17:10:32 on < G0SUB> 1 hr, 30 mins, 10 mins
+    17:10:33 on < rmathews`> this has been fun, but I'm sleepy ... Khmar, you'll be posting minutes or something similar to the list right?
+    17:10:46 on <@ramkrsna> another thing, do the tutorail owners wanna charge for the tutorial they are doing
+    17:10:59 on <@Khmar> Oh yes. I think we can do that techno_freak. I just do't want to decide right now that we'll have 'x' full length and 'y' lightning.
+    17:11:00 on < G0SUB> ramkrsna: eww! none will pay.
+    17:11:03 on < techno_freak> ramkrsna, you mean separate paid tutorials
+    17:11:16 on <@Khmar> rmathews`: I will.
+    17:11:20 on < techno_freak> Khmar, not x or y, like what ramkrsna said
+    17:11:22 on < G0SUB> ramkrsna: this whole paid thingy won't work in India
+    17:11:28 on <@Khmar> Yes. Lengths etc.
+    17:11:33 on -!- rmathews` [n=rm@59.92.54.28] has quit ["rcirc on GNU Emacs 23.0.60.1"]
+    17:11:36 on <@ramkrsna> G0SUB, A nominal amount rs 800/- 1000/-
+    17:11:38 on <@Khmar> G0SUB: It might if there's someone offerring a certificate.
+    17:11:47 on < G0SUB> Khmar: lol
+    17:11:50 on < techno_freak> lol
+    17:11:51 on <@ramkrsna> that might filterout unwanted luckers
+    17:11:55 on <@Khmar> I don't think we need to say no to that but I don't expect too many.
+    17:11:56 on < G0SUB> Khmar: we can... btw.
+    17:12:15 on <@Khmar> Ah yes.
+    17:12:19 on <@Khmar> Do we have a registration fee?
+    17:12:25 on < techno_freak> of course
+    17:12:28 on < baijum1> +1 for charging a nominal  fee
+    17:12:38 on <@ramkrsna> Khmar, yeah for different kinds a audience
+    17:12:39 on < techno_freak> anything given free in india is considered low of quality
+    17:12:51 on <@Khmar> Purely to reduce unwanted crowd.
+    17:12:55 on < techno_freak> as well
+    17:12:56 on < G0SUB> techno_freak: like free software :) lol!
+    17:12:59 on <@ramkrsna> students, unemployed can get a discount
+    17:13:00 on <@Khmar> techno_freak: Like free sofware?
+    17:13:05 on < svaksha> Khmar: reg fee for audience ?
+    17:13:06 on <@anandbpillai> ok, folks, was on the phone
+    17:13:10 on -!- Sup3rkiddo [n=sudharsh@unaffiliated/sudharsh] has quit [Read error: 60 (Operation timed out)]
+    17:13:10 on -!- mib_x3pwqu [i=7c7dbd2e@gateway/web/ajax/mibbit.com/x-d53a866ad1bd9232] has quit ["http://www.mibbit.com ajax IRC Client"]
+    17:13:10 on < techno_freak> G0SUB, Free software confused with free ware ;)
+    17:13:24 on <@anandbpillai> this is a good start, but i need to leave, so will take it up from the logs posted on the mailing list later
+    17:13:29 on <@Khmar> Unemployed meaning, they don't have an employee id. Makes sense. :)
+    17:13:31 on <@Khmar> Sure anandbpillai
+    17:13:33 on < techno_freak> anandbpillai, sure
+    17:13:33 on < G0SUB> techno_freak: aren't they the same thing?
+    17:13:37 on -!- anandology [n=anandolo@59.92.174.245] has joined #bangpypers
+    17:13:39 on -!- anandbpillai [i=7d108523@gateway/web/ajax/mibbit.com/x-fad762216ab955be] has quit ["http://www.mibbit.com ajax IRC Client"]
+    17:13:41 on <@Khmar> wb anandology
+    17:13:42 on < techno_freak> that's what everybody thinks
+    17:13:57 on <@Khmar> Okay. Let's not get into Free software terminology here.
+    17:14:00 on <@Khmar> +1 for reg. fee.
+    17:14:01 on <@ramkrsna> G0SUB, there are some professional python tutors here
+    17:14:08 on < G0SUB> ramkrsna: hmm
+    17:14:09 on < techno_freak> actually you cant fix delegate fees until you know sponsorship and cost
+    17:14:14 on < baijum1> Can we accept donation ?
+    17:14:17 on -!- artagnon [i=cb6ef315@gateway/web/ajax/mibbit.com/x-71871da58912af70] has joined #BangPypers
+    17:14:22 on < techno_freak> baijum1, sure :)
+    17:14:25 on <@Khmar> Do we have anything like stalls or something?
+    17:14:25 on <@ramkrsna> G0SUB, so we can ask them to have reduced rates for PyCom
+    17:14:34 on < techno_freak> good point Khmar
+    17:14:36 on < G0SUB> ramkrsna: may be
+    17:14:49 on < techno_freak> Are we allowing paid stalls? if so, to whom? conditions?
+    17:14:53 on <@Khmar> There might be professional tutoris like ramkrsna said who might be interested in pitching themselves.
+    17:15:03 on <@Khmar> techno_freak: Highest bidder. ;)
+    17:15:19 on < techno_freak> you dont want someone unrelated being allowed
+    17:15:27 on <@ramkrsna> G0SUB, that will give them an audiance to reachout and a professional atmosphere for the conference itself
+    17:15:27 on < G0SUB> Khmar: yeah, and what will ramkrsna teach?
+    17:15:41 on < G0SUB> ramkrsna: makes sense
+    17:15:49 on <@ramkrsna> G0SUB, :q! a quick guide to emacs perhaps
+    17:15:55 on < techno_freak> ha ha
+    17:15:56 on <@Khmar> techno_freak: If they pay enough, we can make it related. :)
+    17:15:57 on < G0SUB> ramkrsna: lol
+    17:16:02 on <@Khmar> Kidding.
+    17:16:04 on <@Khmar> But seriously...
+    17:16:16 on < G0SUB> ramkrsna: make that an intro to viper mode. i bet you can do that well.
+    17:16:16 on <@Khmar> Do we want stalls at all? Will they kill the atmosphere?
+    17:16:26 on <@Khmar> Perhaps a general area where people can pitch commercial services?
+    17:16:38 on <@Khmar> Rather than formal stalls.
+    17:16:39 on < techno_freak> commercial with relation to python :P
+    17:16:50 on < techno_freak> or hunt for people to fill their python jobs ;)
+    17:16:53 on < baijum2> Sponsors may ask for Stalls
+    17:16:56 on <@Khmar> techno_freak: Yes. I expect it will mostly be training and we can't really police them.
+    17:17:02 on <@Khmar> techno_freak: That's a good thing. Isn't it?
+    17:17:11 on <@Khmar> baijum2: Good point.
+    17:17:16 on < techno_freak> Python training is no problem for us
+    17:17:22 on < techno_freak> baijum1, they will of course
+    17:17:26 on <@ramkrsna> Khmar, an Industry tack is not a bad idea at all
+    17:17:30 on <@ramkrsna> track
+    17:17:45 on < techno_freak> actually we need one, to show that we indeed have python jobs, really good ones
+    17:18:00 on <@ramkrsna> how companies use python in their mainstream business
+    17:18:11 on <@Khmar> Ah. A track is a good idea. I was thinking of an open area with some small stalls, open boards, chairs etc where the people can pitch their services but 
+                         making it a track is good reuse of infrastructure.
+    17:18:17 on < jace> back, briefly
+    17:18:27 on < rmz102> sorry to interrupt, how many bangalore guys are here?
+    17:18:31 on <@Khmar> techno_freak: Yes. I think it's a good thing to advertise the business value of the language.
+    17:18:45 on <@Khmar> Works as evangelism.
+    17:18:50 on <@Khmar> Can I get a vote on the stalls thing?
+    17:19:13 on <@ramkrsna> Khmar, stall are not a bad idea, as long as they give out swags with pycon india logo in them ;-)
+    17:19:14 on < techno_freak> we will think about it when venue gets fixed ;)
+    17:19:24 on < G0SUB> btw, I am going to talk on list comprehensions, iterators and generators. if somebody else was thinking the same, you might as well **** off :)
+    17:19:24 on < techno_freak> Stickers!!!!!
+    17:19:25 on < rmz102> Khmar:Stall will also depend on the venue
+    17:19:35 on < techno_freak> G0SUB, LOL
+    17:19:42 on < G0SUB> dibs on that topic.
+    17:19:47 on <@ramkrsna> G0SUB, send in a CFP, we'll decide
+    17:19:51 on <@Khmar> rmz102: or a comparable equivalent.
+    17:20:03 on <@Khmar> rmz102: We could make them desks if we're at a college.
+    17:20:05 on < G0SUB> ramkrsna: yeah, right :)
+    17:20:11 on <@Khmar> I'm more interested in what people think of the idea.
+    17:20:14 on < techno_freak> baijum1, get lots of stickers from PyCon :D
+    17:20:37 on < G0SUB> baijum1: are you attending PyCon?
+    17:20:38 on < baijum2> techno_freak: Sure :)
+    17:20:42 on <@Khmar> Or should we just have a 'industry' track and keep that part of the whole conference. That will be good for the show but I think sponsors will want more 
+                         like baijum2 said.
+    17:20:46 on <@ramkrsna> okey now lets move to the next topic " Venue City "
+    17:20:47 on < techno_freak> i have one ramkrsna brought last year
+    17:20:52 on < baijum2> G0SUB: yes, we three from BangPypers
+    17:20:53 on < jace> imo, content areas of the event: (a) newbies -- introduction to what is already standard, (b) technical -- for people interested in python itself, and (c) 
+                        application -- how python gets used in the real world. i'm myself an application guy. i've made no contributions to core python and am unlikely to do so, 
+                        but i will have good application stories. foss/no-foss is secondary to this main categorisation.
+    17:21:00 on < techno_freak> Venue City = Bangalore, decided isn't it?
+    17:21:01 on < jace> and now, gone again.
+    17:21:03 on < G0SUB> baijum1: who else?
+    17:21:06 on < baijum2> G0SUB: btbytes & Senthil
+    17:21:14 on < G0SUB> baijum1: nice
+    17:21:18 on <@Khmar> techno_freak: Yes
+    17:21:21 on <@ramkrsna> techno_freak, fall back city ;-)
+    17:21:24 on <@ramkrsna> chennai
+    17:21:34 on < techno_freak> ya, but we need lawgon for that
+    17:21:36 on -!- artagnon [i=cb6ef315@gateway/web/ajax/mibbit.com/x-71871da58912af70] has quit ["http://www.mibbit.com ajax IRC Client"]
+    17:21:39 on < baijum2> +1 for stalls for first two level sponsors (Pltinum & Gold)
+    17:21:44 on <@Khmar> I don' ttihnk we're done with te Stalls discussion yet.
+    17:21:52 on -!- mib_xqxfme [i=4366a721@gateway/web/ajax/mibbit.com/x-d397ce4c6c328ebd] has joined #BangPypers
+    17:21:56 on <@Khmar> +1 Stalls myself.
+    17:21:58 on <@Khmar> any others?
+    17:22:01 on < techno_freak> Khmar, stalls on the next stage as venue sponsors get fixed up
+    17:22:10 on <@ramkrsna> okey Bangalore for the venue
+    17:22:15 on <@ramkrsna> +1 for bangalore
+    17:22:15 on < techno_freak> stalls are inevitable and we will discuss that as it matures
+    17:22:30 on <@Khmar> techno_freak: We can always adapt them based on venue. The question is whether we should give sponsors special areas for their own pitches during the 
+                         conference or not?
+    17:22:38 on <@Khmar> Makes sense techno_freak
+    17:22:42 on <@Khmar> So, we're done with that.
+    17:22:45 on < techno_freak> Khmar, sponsors will ask for stalls, they're giving money
+    17:22:47 on <@Khmar> Venue city. Bangalore.
+    17:22:48 on <@ramkrsna> techno_freak, stalls are good for industry PR
+    17:22:53 on < baijum2> What about stalls for different Python User Groups ?
+    17:22:58 on -!- anandology [n=anandolo@59.92.174.245] has quit []
+    17:22:59 on <@Khmar> Okay. We're having Stalls.
+    17:23:12 on < techno_freak> baijum1, we have 2, 3? i think one is enough for PUG
+    17:23:15 on < baijum2> we don't have many user groups...
+    17:23:24 on <@Khmar> baijum2: If enough of them show up with stallworthy crowd. One guy in a stall is a waste of space.
+    17:23:42 on < techno_freak> we will have on spot resgistration to mailing list :P
+    17:23:51 on <@Khmar> We can have a stall or something for 'local user groups' or something.
+    17:24:00 on <@Khmar> What else?
+    17:24:10 on <@Khmar> svaksha: You logging this?
+    17:24:11 on < techno_freak> ok who's handling Media?
+    17:24:12 on < baijum2> I agree
+    17:24:24 on < techno_freak> we need more advertisement
+    17:24:27 on < svaksha> Khmar: http://wiki.python.org/moin/BangPypers/IRCLogs/2009March03
+    17:24:29 on <@Khmar>  :::: Media/Advertising ::::
+    17:24:35 on  * baijum2 agreed one stall for alll groups idea by Khmar
+    17:24:42 on <@ramkrsna> jace, we did discuss about a newbie, intermediate and expert tracks.   for students, developers, sys admins
+    17:25:03 on < techno_freak> We need Media Volunteers
+    17:25:14 on  * techno_freak looks at svaksha 
+    17:25:21 on < jace> ramkrsna: that's different. content level vs type
+    17:25:22 on  * svaksha can help partly
+    17:25:22 on  * ramkrsna looks at rmz102 
+    17:25:23 on <@Khmar> techno_freak: I think the details can be worked out on the mailing list.
+    17:25:39 on <@Khmar> But we need some overall view.
+    17:25:44 on < rmz102> ok we will give 2-3 magazines providing ads
+    17:25:47 on  * G0SUB leaves. will read the list.
+    17:25:49 on <@Khmar> Especially for the formal channels like mags.
+    17:25:54 on <@Khmar> Later G0SUB
+    17:25:56 on < rmz102> DIQ, LFY I will talk to few others
+    17:25:59 on < jace> anyway, i'll get back on that on the list
+    17:26:01 on < G0SUB> Khmar: ciao
+    17:26:05 on -!- G0SUB [n=ghoseb@ubuntu/member/gosub] has quit ["Ex-Chat"]
+    17:26:20 on < baijum2> Khmar: any more topics ?
+    17:26:25 on <@Khmar> rmz102: Can you own that up atleast tentatively?
+    17:26:33 on < svaksha> by advertising do you  mean writeups about the event or something else ? juts to be clear
+    17:26:33 on < rmz102> ok
+    17:26:36 on < svaksha> just*
+    17:26:44 on <@Khmar> baijum2: Yes. What kind of money are we looking at? We need to get a top level number so that we know what to try to raise.
+    17:26:46 on < rmz102> We can have 3-4 magazines as media partners
+    17:26:54 on < techno_freak> svaksha, mainly to let as many people to know about the event, it will attract sponsors
+    17:26:56 on < rmz102> so they give free ads/write ups
+    17:26:56 on <@Khmar> baijum2: And we need a date to decide whether this thing is going to fly or not.
+    17:26:56 on  * svaksha assumes its called media publicity
+    17:27:04 on <@ramkrsna> that will be great
+    17:27:12 on < rmz102> you give them space to display magazines
+    17:27:13 on < jace> do people read tech mags anymore?
+    17:27:15 on <@Khmar> svaksha: I think you and rmz102 should discuss that. What do you guys think?
+    17:27:24 on < techno_freak> +1
+    17:27:26 on  * Khmar not very media saavy. I don't read mags and don't have a TV. :)
+    17:27:32 on  * svaksha can help with media publicity
+    17:27:33 on < baijum2> +1
+    17:27:53 on < rmz102> I can help you with the sponsors
+    17:27:56 on <@Khmar> rmz102: You're good that this. :)
+    17:27:57 on < techno_freak> so if you want to involve in media/plublicity poke svaksha or rmz102
+    17:28:06 on <@Khmar> Okay. That's settled.
+    17:28:12 on <@ramkrsna> +1.
+    17:28:13 on < rmz102> if we have clear plans on the exact funds to be raised
+    17:28:21 on <@Khmar> I must say this is a breeze to moderate. You guys are really cool. :)
+    17:28:28 on <@Khmar> Let's try to arrive at something...
+    17:28:30 on < jace> asking google for adsense sponsorship may work better than magazines
+    17:28:44 on <@Khmar> How much does it cost to rent IISc. facilities for 3 days? Roughly?
+    17:28:46 on < rmz102> jace: I agree
+    17:28:55 on <@Khmar> + computer facilities
+    17:28:57 on < rmz102> IISC will be about 1.2 L
+    17:29:01 on < rmz102> for 3 days
+    17:29:02 on <@Khmar> + accomodatio for people
+    17:29:03 on <@ramkrsna> Khmar, IISC has issues with commercial stalls, stalls
+    17:29:03 on < techno_freak> define IISc facility, you mean Tata audi?
+    17:29:06 on < rmz102> that is just JN Tata
+    17:29:20 on < rmz102> my rate offer is 2 years old
+    17:29:21 on <@Khmar> We'll need more than just TN Tata. won't we?
+    17:29:23 on < techno_freak> JN tata doesnt allow commercial ventures
+    17:29:27 on <@ramkrsna> Khmar, IISC is good venue, but are we expecting that a big crowd
+    17:29:40 on < rmz102> JN tata offers commercial stuff
+    17:29:45 on < techno_freak> tata is enough one big hall and 3 small ones, grounds, lot of places to hand around, but..
+    17:29:46 on <@Khmar> ramkrsna: Well, I'm just trying to get a figure of our cost.
+    17:29:53 on <@Khmar> techno_freak: but?
+    17:30:02 on <@Khmar> The suspense is killing me. :)
+    17:30:03 on <@ramkrsna> techno_freak, "venue and sponsorship for next topic to be discussed
+    17:30:06 on <@ramkrsna> next week
+    17:30:06 on  * svaksha sleeps
+    17:30:09 on < techno_freak> but they dont allow selling stuff, they throw away people at 7.30 pm
+    17:30:21 on <@ramkrsna> yeah
+    17:30:23 on <@Khmar> Hmmm.
+    17:30:35 on < rmz102> I am not sure about 7.30 Pm
+    17:30:37 on <@Khmar> Do we have any venues that will allow late night stuff?
+    17:30:45 on < techno_freak> yes they do, i have been foss.in volunteer :P
+    17:30:46 on < rmz102> but no one is selling anything that is billing
+    17:30:56 on <@Khmar> ramkrsna: That will be too far away. I think we shoul dhave enough stuff generated here to beat around on the list. :)
+    17:31:14 on < jace> why not an overnight venue on the outskirts? plenty choices these days
+    17:31:25 on <@Khmar> jace: Like?
+    17:31:29 on < rmz102> St Joseph's cpogge PG has a decent auditoriaum will house 200 people
+    17:31:34 on < rmz102> and a min auditorium
+    17:31:45 on < rmz102> and you cant get a central place
+    17:31:54 on < jace> visthar, fireflies or the place info-activism camp used
+    17:32:12 on <@Khmar> Interesting jace. Can you post some more details?
+    17:32:13 on < jace> or the nimhans audi
+    17:32:16 on -!- dynamicproxy [n=dynamicp@124.247.216.162] has joined #bangpypers
+    17:32:33 on < jace> Khmar: later? eating; left-fingered now
+    17:32:45 on <@Khmar> jace: Sure. On the list perhaps. :)
+    17:32:48 on <@ramkrsna> jace, +1 fireflies
+    17:33:29 on <@Khmar> Okay.. alternate venues.
+    17:33:31 on <@Khmar> But let's say..
+    17:33:34 on <@Khmar> 1.5 L for 3 days
+    17:33:38 on < rmz102> nimhans is pretty good
+    17:33:45 on < rmz102> 1 l per day
+    17:33:49 on <@Khmar> What about for computers and stuff? What do we need?
+    17:33:55 on < rmz102> for main hall
+    17:33:59 on < jace> Khmar: 1.5L is a lot of money for the venue
+    17:34:17 on <@ramkrsna> can somebody post a mail regarding the possible venue and cost
+    17:34:19 on < techno_freak> think it's TIME UP, we will meet again to discuss on a specific topic born out of this discussion
+    17:34:19 on <@Khmar> rmz102 said that JN Tata is 1.1L per day
+    17:34:23 on < rmz102> + 3 halls
+    17:34:29 on <@Khmar> Okay...
+    17:34:41 on <@ramkrsna> we will also need bandwidth for the conference
+    17:34:41 on <@Khmar> I'll send a mail summarising our discussion and we can decide what to do from there
+    17:34:42 on < techno_freak> please collect details on whatever possible
+    17:34:45 on < techno_freak> in the mean time
+    17:34:53 on < techno_freak> so we have more solid data next time
+    17:35:08 on  * baijum2 just listening
+    17:35:12 on < techno_freak> ramkrsna, was it decent enough at foss.in this time?
+    17:35:14 on <@ramkrsna> o possibility of technology sponsor :: hadrware, bandwidth
+    17:35:21 on < rmz102> Guys, the rate for Nimhans is 1 L per day you get 1 main halls and 3 smaller halls
+    17:35:22 on < techno_freak> i was thinking of that
+    17:35:23 on <@Khmar> ramkrsna: that's a good point.
+    17:35:28 on <@Khmar> rmz102: Okay.
+    17:35:34 on <@Khmar> So that's 3L let's say.
+    17:35:34 on -!- falcon74 [i=7bed8aea@gateway/web/ajax/mibbit.com/x-999bc88356ead6f7] has quit ["http://www.mibbit.com ajax IRC Client"]
+    17:35:37 on <@ramkrsna> techno_freak, no they got half the bandwidth they were promised
+    17:35:42 on < techno_freak> ahh
+    17:35:47 on <@Khmar> What other costs will we incur?
+    17:35:51 on < rmz102> JN Tata is about 1.1 L plus but they give discounts for Linux conferences
+    17:35:54 on < techno_freak> logistics
+    17:35:54 on < techno_freak> food
+    17:36:02 on -!- mj0vy [n=mj0vy@115.240.228.138] has left #bangpypers []
+    17:36:07 on <@Khmar> logistics... How much?
+    17:36:14 on <@Khmar> accomodation for foreign people,
+    17:36:19 on <@Khmar> travel arrangements.
+    17:36:21 on < techno_freak> depends upon the venue and stuff
+    17:36:31 on <@Khmar> Venue is let's say IISc.
+    17:36:43 on <@Khmar> I just want to get an idea so that we can do some calculations.
+    17:36:56 on < jace> Khmar: we've done 8 barcamps now with zero cost for venue. community goodwill goes a long way if tapped well.
+    17:37:10 on <@Khmar> that's cool.
+    17:37:22 on < jace> even the bal bhawan in cubbon park is available for hire and can happily seat 300.
+    17:37:23 on <@ramkrsna> jace, IIM is also a decent venue
+    17:37:28 on < jace> we did an event there once.
+    17:37:40 on <@ramkrsna> yeah the world information city ?
+    17:37:44 on <@ramkrsna> 2005
+    17:37:49 on < rmz102> well a conference will cost a lot; unconferences dont
+    17:37:50 on < jace> ramkrsna: IIM will want a business management angle to the event if they are to give it free
+    17:37:59 on < jace> ramkrsna: yeah, WIC
+    17:38:05 on < jace> rmz102: venue != scheduling
+    17:38:07 on <@Khmar> We'll need someplace that can shield people from the heat actually.
+    17:38:20 on < jace> unconferences are un-scheduled, not un-located.
+    17:38:20 on < techno_freak> september is heat?
+    17:38:28 on <@ramkrsna> rain
+    17:38:31 on < lut4rp> shouldn't be that hot down south?
+    17:38:35 on < techno_freak> bloody rain here
+    17:39:00 on <@Khmar> heat/rain. I meant weather.
+    17:39:11 on <@Khmar> Okay.
+    17:39:21 on <@Khmar> I think we need to discuss more to get at money figures.
+    17:39:21 on < techno_freak> we need to look at other things, commute, connectivity, etc.
+    17:39:31 on <@Khmar> NExt meeting is probably mostly money discusssions. Thats good.
+    17:39:33 on <@ramkrsna> I guess we'll take another discussion on venues in bangalore + sponsorship in the next session
+    17:39:34 on < techno_freak> you can't really arrive at money
+    17:39:37 on <@Khmar> Shall we reture?
+    17:39:38 on <@ramkrsna> how about thrusday
+    17:39:41 on <@ramkrsna> ?
+    17:39:45 on <@Khmar> The day after?
+    17:39:49 on <@Khmar> We'll propose it on the list.
+    17:39:55 on < jace> connectivity will improve the more we wait
+    17:39:56 on < techno_freak> ramkrsna, thursday on what? we need to focus on topics from now onwards
+    17:40:03 on < baijum2> Thursday is fine for me
+    17:40:04 on <@ramkrsna> everything goes on the list
+    17:40:05 on < jace> already gprs is getting up to broadband speeds consistently
+    17:40:11 on <@Khmar> Okay.
+    17:40:13 on <@Khmar> So it's settled then.
+    17:40:21 on <@Khmar> We'll stop the discussion now.
+    17:40:25 on < techno_freak> Thursday 8.30 PM
+    17:40:26 on <@Khmar> I'll send the summary.
+    17:40:29 on < jace> Khmar: +1
+    17:40:34 on < rmz102> can we have a discussion on the choices arrived on the list
+    17:40:37 on < lut4rp> which list are we talking about here?
+    17:40:40 on < rmz102> and then take it up
+    17:40:41 on <@Khmar> techno_freak: I'll propose that. If everyone's fine, we can go ahead.
+    17:40:49 on <@Khmar> lut4rp: The bangalore python user group list
+    17:40:58 on <@ramkrsna> techno_freak, "venue" " rough estimation of the costs", "potential sponsors"
+    17:40:59 on < rmz102> guys leaving now
+    17:41:04 on <@Khmar> rmz102: I'll summarise what we have and send it.
+    17:41:06 on <@ramkrsna> rmz102, thanks for joining
+    17:41:07 on <@Khmar> rmz102: Bye
+    17:41:09 on < lut4rp> I see.
+    17:41:10 on <@Khmar> and thanks
+    17:41:11 on -!- rmz102 [n=ramdas@122.166.8.83] has quit ["Ex-Chat"]
+    17:41:17 on <@Khmar> Okay...
+    17:41:17 on -!- techno_freak changed the topic of #bangpypers to: Welcome to #BangPypers -- Bangalore Python Users Group | http://wiki.python.org/moin/BangPypers | Proposal 
+              for PyCon India - http://wiki.python.org/moin/ProposalForPyConIndia |  IRC Discussion for PyCon - Meeting II - March 5th 8:30 PM IST (tentative) |
+    17:41:18 on < lut4rp> Should we have a dedicated list for this?
+    17:41:38 on <@Khmar> lut4rp: We probably will make one.
+    17:41:51 on <@ramkrsna> lut4rp, we are discussing it on the bangpypers list for the timebeing
+    17:41:57 on <@Khmar> Okay.
+    17:42:01 on <@Khmar> We're done then.
+    17:42:01 on < lut4rp> OK.
+    17:42:06 on <@Khmar> Thanks everyone for joining.
+    17:42:08 on <@ramkrsna> Khmar, yeah
+    17:42:10 on < lut4rp> woot!
+    17:42:25 on <@Khmar> lut4rp: That's w00t
+    17:42:35 on < baijum2> Thanks Khmar !
+    17:42:45 on < lut4rp> l33t h4x0r...
+    17:42:47 on < lut4rp> :P
+    17:43:06 on <@ramkrsna> svaksha, techno_freak thanks for moderating and logging
+    17:43:12 on <@Khmar> Emacs h4x0r-region
+    17:43:14 on <@ramkrsna> lut4rp, http://mail.python.org/mailman/listinfo/bangpypers
+    17:43:15 on < svaksha> yw
+    17:43:18 on < techno_freak> ramkrsna, always :)
+    17:43:31 on <@Khmar> Yeah. Thanks svaksha techno_freak ramkrsna and everyone else.
+    17:43:33 on < lut4rp> thanks ramkrsna
+    17:43:48 on <@ramkrsna> jace, you can post the content vs the track once the minutes are out
+    17:43:59 on < jace> ramkrsna: will do
+    17:44:10 on -!- becomingGuru [i=7c7baaf3@gateway/web/ajax/mibbit.com/x-ea55222b72193947] has joined #BangPypers
+    17:44:13 on < jace> ramkrsna: btw, OT, but i have good pictures from dhanolti. yet to process and upload.
+    17:44:14 on <@ramkrsna> svaksha, post the logs to the wiki and pass the link to mailing list
+    17:44:25 on < svaksha> ramkrsna: its already done
+    17:44:30 on <@ramkrsna> jace, same here
+    17:44:34 on <@ramkrsna> svaksha, cool
+    17:44:43 on <@ramkrsna> thanks folks for joining
+    17:44:45 on < svaksha> http://wiki.python.org/moin/BangPypers/IRCLogs/2009March03
+    17:44:51 on <@Khmar> *yawn*
+    17:45:03 on <@Khmar> ttyl
+    17:45:09 on <@ramkrsna> good to end the day on a happy note
+    17:45:18 on <@ramkrsna> print 'iHappy'
+    17:45:23 on < becomingGuru> oops, I just joined when the chat is over :)
+    17:45:33 on < lut4rp> becomingGuru: see the logs.
+    17:45:43 on -!- baijum [n=baijum@122.167.98.130] has joined #BangPypers
+    17:45:58 on < becomingGuru> lut4rp: Where from? sorry.
+    17:46:16 on < lut4rp> becomingGuru: http://mail.python.org/mailman/listinfo/bangpypers
+    17:46:17 on <@ramkrsna> becomingGuru, http://wiki.python.org/moin/BangPypers/IRCLogs/2009March03
+    17:46:23 on < lut4rp> oops.
+    17:46:25 on < becomingGuru> Got it, Thanks lut4rp and svaksha
+    17:46:40 on < lut4rp> becomingGuru: the link that ramkrsna gave :-)
+    17:46:42 on < lut4rp> not mine.
+    17:46:45 on <@ramkrsna> okey lets have a general introduction of the folks here
+    17:46:58 on  * lut4rp is God.
+    17:47:09 on  * ramkrsna is satan
+    17:47:17 on < lut4rp> muhaha
+    17:47:19 on -!- baijum1 [i=79f53ad3@gateway/web/ajax/mibbit.com/x-80a42acd0814af6b] has quit ["http://www.mibbit.com ajax IRC Client"]
+    17:47:37 on -!- baijum1 [i=7aa76282@gateway/web/ajax/mibbit.com/x-7bc73f33e5c564d5] has joined #BangPypers
+    17:47:41 on < becomingGuru> Ok my name is Lakshman, I am a web app developer and partner at http://uswaretech.com
+    17:47:46 on -!- baijum1 [i=7aa76282@gateway/web/ajax/mibbit.com/x-7bc73f33e5c564d5] has quit [Client Quit]
+    17:48:08 on < becomingGuru> ramkrsna: You?
+    17:48:44 on < lut4rp> oh well, I'm Pratul, still in my 6th semester of CS Engineering and a f/ossy hacker
+    17:48:45 on <@ramkrsna> ramkrsna, I'm ramky, from the Indlinux Project, I also work at Red hat
+    17:49:06 on <@ramkrsna> Khmar, ?
+    17:49:09 on < lut4rp> ooh Red Hat.
+    17:49:15 on < lut4rp> ramkrsna: what do you do at RH?

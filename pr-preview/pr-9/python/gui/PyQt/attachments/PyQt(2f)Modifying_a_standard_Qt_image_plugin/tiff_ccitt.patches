@@ -1,0 +1,264 @@
+diff -r 84aae6605c33 main.cpp
+--- a/main.cpp	Fri Jul 18 01:39:54 2008 +0200
++++ b/main.cpp	Tue Jul 22 00:13:45 2008 +0200
+@@ -56,8 +56,8 @@ public:
+ 
+ QImageIOPlugin::Capabilities QTiffPlugin::capabilities(QIODevice *device, const QByteArray &format) const
+ {
+-    if (format == "tiff" || format == "tif")
+-        return Capabilities(CanRead | CanWrite);
++    if (format == "tiff_ccitt_group4")
++        return Capabilities(CanWrite);
+     if (!format.isEmpty())
+         return 0;
+     if (!device->isOpen())
+@@ -81,10 +81,10 @@ QImageIOHandler* QTiffPlugin::create(QIO
+ 
+ QStringList QTiffPlugin::keys() const
+ {
+-    return QStringList() << "tiff" << "tif";
++    return QStringList() << "tiff_ccitt_group4";
+ }
+ 
+ Q_EXPORT_STATIC_PLUGIN(QTiffPlugin)
+-Q_EXPORT_PLUGIN2(qtiff, QTiffPlugin)
++Q_EXPORT_PLUGIN2(qtiff_ccitt_group4, QTiffPlugin)
+ 
+ #endif /* QT_NO_IMAGEFORMATPLUGIN */
+diff -r 84aae6605c33 qtiffhandler.cpp
+--- a/qtiffhandler.cpp	Fri Jul 18 01:39:54 2008 +0200
++++ b/qtiffhandler.cpp	Tue Jul 22 00:13:45 2008 +0200
+@@ -95,70 +95,23 @@ void qtiffUnmapProc(thandle_t /*fd*/, td
+ 
+ QTiffHandler::QTiffHandler() : QImageIOHandler()
+ {
+-    compression = NoCompression;
+ }
+ 
+ bool QTiffHandler::canRead() const
+ {
+-    if (canRead(device())) {
+-        setFormat("tiff");
+-        return true;
+-    }
+     return false;
+ }
+ 
+ bool QTiffHandler::canRead(QIODevice *device)
+ {
+-    if (!device) {
+-        qWarning("QTiffHandler::canRead() called with no device");
+-        return false;
+-    }
+-
+-    // current implementation uses TIFFClientOpen which needs to be
+-    // able to seek, so sequential devices are not supported
+-    return !device->isSequential()
+-        && (device->peek(4) == "\x49\x49\x2A\x00" || device->peek(4) == "\x4D\x4D\x00\x2A");
++    Q_UNUSED(device)
++    return false;
+ }
+ 
+ bool QTiffHandler::read(QImage *image)
+ {
+-    if (!canRead())
+-        return false;
+-
+-    TIFF *tiff = TIFFClientOpen("foo",
+-                                "r",
+-                                this,
+-                                qtiffReadProc,
+-                                qtiffWriteProc,
+-                                qtiffSeekProc,
+-                                qtiffCloseProc,
+-                                qtiffSizeProc,
+-                                qtiffMapProc,
+-                                qtiffUnmapProc);
+-    QImage tiffImage;
+-    if (tiff) {
+-        uint32 width = 0;
+-        uint32 height = 0;
+-        TIFFGetField(tiff, TIFFTAG_IMAGEWIDTH, &width);
+-        TIFFGetField(tiff, TIFFTAG_IMAGELENGTH, &height);
+-        tiffImage = QImage(width, height, QImage::Format_ARGB32);
+-        size_t npixels = width * height;
+-        uint32 *raster = reinterpret_cast<uint32*>(_TIFFmalloc(tsize_t(npixels * sizeof(uint32))));
+-        if (raster != 0) {
+-            if (TIFFReadRGBAImage(tiff, width, height, raster, 0)) {
+-                for (uint32 y=0; y<height; ++y)
+-                    convert32BitOrder(&raster[(height-y-1)*width], tiffImage.scanLine(y), width);
+-            }
+-            _TIFFfree(raster);
+-        }
+-        TIFFClose(tiff);
+-    }
+-
+-    if (tiffImage.isNull())
+-        return false;
+-
+-    *image = tiffImage;
+-    return true;
++    Q_UNUSED(image)
++    return false;
+ }
+ 
+ bool QTiffHandler::write(const QImage &image)
+@@ -166,7 +119,7 @@ bool QTiffHandler::write(const QImage &i
+     if (!device()->isWritable())
+         return false;
+ 
+-    QImage convertedImage = image.convertToFormat(QImage::Format_ARGB32);
++    QImage convertedImage = image.convertToFormat(QImage::Format_Mono);
+ 
+     TIFF *tiff = TIFFClientOpen("foo",
+                                 "w",
+@@ -182,34 +135,25 @@ bool QTiffHandler::write(const QImage &i
+     if (tiff) {
+         int width = convertedImage.width();
+         int height = convertedImage.height();
+-        int depth = convertedImage.depth();
+-        int bytesPerLine = convertedImage.bytesPerLine();
+ 
+         if (!TIFFSetField(tiff, TIFFTAG_IMAGEWIDTH, width)
+                 || !TIFFSetField(tiff, TIFFTAG_IMAGELENGTH, height)
+-                || !TIFFSetField(tiff, TIFFTAG_PHOTOMETRIC, PHOTOMETRIC_RGB)
+-                || !TIFFSetField(tiff, TIFFTAG_COMPRESSION, compression == NoCompression ? COMPRESSION_NONE : COMPRESSION_LZW)
+-                || !TIFFSetField(tiff, TIFFTAG_SAMPLESPERPIXEL, depth/8)
++                || !TIFFSetField(tiff, TIFFTAG_PHOTOMETRIC, PHOTOMETRIC_MINISWHITE)
++                || !TIFFSetField(tiff, TIFFTAG_COMPRESSION, COMPRESSION_CCITTFAX4)
++                || !TIFFSetField(tiff, TIFFTAG_SAMPLESPERPIXEL, 1)
++                || !TIFFSetField(tiff, TIFFTAG_ROWSPERSTRIP, 1)
+                 || !TIFFSetField(tiff, TIFFTAG_PLANARCONFIG, PLANARCONFIG_CONTIG)
+-                || !TIFFSetField(tiff, TIFFTAG_BITSPERSAMPLE, 8)) {
++                || !TIFFSetField(tiff, TIFFTAG_BITSPERSAMPLE, 1)) {
+             TIFFClose(tiff);
+             return false;
+         }
+ 
+-        uint32 *bytes = reinterpret_cast<uint32*>(_TIFFmalloc(bytesPerLine));
+         for (int y=0; y < height; ++y) {
+-            if (QSysInfo::ByteOrder == QSysInfo::LittleEndian)
+-                convert32BitOrder(convertedImage.scanLine(y), bytes, width);
+-            else
+-                convert32BitOrderBigEndian(convertedImage.scanLine(y), bytes, width);
+-
+-            if (TIFFWriteScanline(tiff, bytes, y) != 1) {
+-                _TIFFfree(bytes);
++            if (TIFFWriteScanline(tiff, convertedImage.scanLine(y), y) != 1) {
+                 TIFFClose(tiff);
+                 return false;
+             }
+         }
+-        _TIFFfree(bytes);
+         TIFFClose(tiff);
+     } else {
+         return false;
+@@ -219,75 +163,5 @@ bool QTiffHandler::write(const QImage &i
+ 
+ QByteArray QTiffHandler::name() const
+ {
+-    return "tiff";
++    return "tiff_ccitt_group4";
+ }
+-
+-QVariant QTiffHandler::option(ImageOption option) const
+-{
+-    if (option == Size && canRead()) {
+-        QSize imageSize;
+-        qint64 pos = device()->pos();
+-        TIFF *tiff = TIFFClientOpen("foo",
+-                                    "r",
+-                                    const_cast<QTiffHandler*>(this),
+-                                    qtiffReadProc,
+-                                    qtiffWriteProc,
+-                                    qtiffSeekProc,
+-                                    qtiffCloseProc,
+-                                    qtiffSizeProc,
+-                                    qtiffMapProc,
+-                                    qtiffUnmapProc);
+-
+-        if (tiff) {
+-            uint32 width = 0;
+-            uint32 height = 0;
+-            TIFFGetField(tiff, TIFFTAG_IMAGEWIDTH, &width);
+-            TIFFGetField(tiff, TIFFTAG_IMAGELENGTH, &height);
+-            imageSize = QSize(width, height);
+-        }
+-        device()->seek(pos);
+-        if (imageSize.isValid())
+-            return imageSize;
+-    } else if (option == CompressionRatio) {
+-        return compression;
+-    }
+-    return QVariant();
+-}
+-
+-void QTiffHandler::setOption(ImageOption option, const QVariant &value)
+-{
+-    if (option == CompressionRatio && value.type() == QVariant::Int)
+-        compression = value.toInt();
+-}
+-
+-bool QTiffHandler::supportsOption(ImageOption option) const
+-{
+-    return (option == Size) || (option == CompressionRatio);
+-}
+-
+-void QTiffHandler::convert32BitOrder(const void *source, void *destination, int width)
+-{
+-    const uint32 *src = reinterpret_cast<const uint32 *>(source);
+-    uint32 *target = reinterpret_cast<uint32 *>(destination);
+-    for (int32 x=0; x<width; ++x) {
+-        uint32 p = src[x];
+-        // convert between ARGB and ABGR
+-        target[x] = (p & 0xff000000)
+-                    | ((p & 0x00ff0000) >> 16)
+-                    | (p & 0x0000ff00)
+-                    | ((p & 0x000000ff) << 16);
+-    }
+-}
+-
+-void QTiffHandler::convert32BitOrderBigEndian(const void *source, void *destination, int width)
+-{
+-    const uint32 *src = reinterpret_cast<const uint32 *>(source);
+-    uint32 *target = reinterpret_cast<uint32 *>(destination);
+-    for (int32 x=0; x<width; ++x) {
+-        uint32 p = src[x];
+-        target[x] = (p & 0xff000000) >> 24
+-                    | (p & 0x00ff0000) << 8
+-                    | (p & 0x0000ff00) << 8
+-                    | (p & 0x000000ff) << 8;
+-    }
+-}
+diff -r 84aae6605c33 qtiffhandler.h
+--- a/qtiffhandler.h	Fri Jul 18 01:39:54 2008 +0200
++++ b/qtiffhandler.h	Tue Jul 22 00:13:45 2008 +0200
+@@ -53,19 +53,6 @@ public:
+     QByteArray name() const;
+ 
+     static bool canRead(QIODevice *device);
+-
+-    QVariant option(ImageOption option) const;
+-    void setOption(ImageOption option, const QVariant &value);
+-    bool supportsOption(ImageOption option) const;
+-
+-    enum Compression {
+-        NoCompression = 0,
+-        LzwCompression = 1
+-    };
+-private:
+-    void convert32BitOrder(const void *source, void *destination, int width);
+-    void convert32BitOrderBigEndian(const void *source, void *destination, int width);
+-    int compression;
+ };
+ 
+ #endif // QTIFFHANDLER_H
+diff -r 84aae6605c33 tiff.pro
+--- a/tiff.pro	Fri Jul 18 01:39:54 2008 +0200
++++ b/tiff.pro	Tue Jul 22 00:13:45 2008 +0200
+@@ -1,4 +1,4 @@ TARGET  = qtiff
+-TARGET  = qtiff
++TARGET  = qtiff_ccitt_group4
+ include(../../qpluginbase.pri)
+ 
+ QTDIR_build:REQUIRES = "!contains(QT_CONFIG, no-tiff)"

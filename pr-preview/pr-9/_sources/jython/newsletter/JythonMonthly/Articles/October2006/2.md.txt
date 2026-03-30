@@ -1,0 +1,357 @@
+# Jython Monthly / Articles / October 2006 / 2
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Web Application Development with Jython, Struts, and Hibernate 
+
+***Submitted By: Berlin Brown***
+
+With all the discussion centered around the java web-application frameworks including Struts, SpringMVC and [WebWork](./WebWork.html), how does one interface these with Jython and why would you want to do so. Normally, you will do this the same way that you would in a typical standalone console application. You must find a way to invoke the Jython interpreter and then execute your Jython code. The same is done in a Servlet environment. This example demonstrates how to put together a web-application that uses the Struts MVC (model, view, controller) framework and also uses Hibernate for persisting our objects to the database. The JSP files make up all the of the View code and Jython is used for all the back-end work. The goal of the \'[BotList](./BotList.html) Link Aggregator Application\' is to create a web-app that stores a set of links associated with keywords and description and also presents an interface to delete, view, edit, and list the links for the user.
+
+The Stuts Action class contains the majority of the business logic for your web-application. In this example, the Jython classes are subclasses of the Action class. The one Java Action class acts as a controller; depending on the request from the user, this Action class invokes one of the Jython Action classes accordingly. Normally, an Action will just overwrite the execute method as shown in the Jython code below.
+
+    class SimpleStrutsAction (Action):
+
+            def execute(self, mapping, form, request, response):
+                print "Mapping GetParameter", mapping.getParameter()
+                url = form.url
+                keywords = form.keywords
+                description = form.description
+
+                messages = ActionMessages()
+                msg = ActionMessage("userLink.info.save", "Data Saved")
+                messages.add("messagesconfirm", msg)
+                self.saveMessages(request, messages)                
+                return mapping.findForward("success")               
+
+### Invoking the Interpreter 
+
+The Jython interpreter creates the java bytecode and executes. It is vital to the execution of the application and gets invoked for every Struts Action.
+
+     public ActionForward execute(ActionMapping mapping,
+                ActionForm form,
+                HttpServletRequest request,
+                HttpServletResponse response) throws Exception {
+            
+                    ServletContext context = null;
+                    context = this.getServlet().getServletContext();
+                                            
+                    Object objJyPlugin = context.getAttribute(JythonUtilPlugin.PLUGIN_NAME_KEY);
+                    log.info("Jy Executing=");
+                    
+                    // Get the python interpreter, reflection code added due to classloading issues.
+                    Class clJy1 = objJyPlugin.getClass().getClassLoader().loadClass("JythonUtilPlugin");
+                    Method m = clJy1.getMethod("getInterpreter", null);
+                    log.info("Method: " + m);
+                    PythonInterpreter interp = (PythonInterpreter) m.invoke(objJyPlugin, null);     
+                    
+            String rootPath = context.getRealPath("/");
+            String pyActionClassInterp = rootPath + "/py/" + "SimpleStrutsAction.py";
+            String pyClassName = "SimpleStrutsAction";    
+            String actionParameter = mapping.getParameter();
+            if (actionParameter != null) {
+                    if (actionParameter.equals("/actions/listlinks")) {
+                            pyActionClassInterp = rootPath + "/py/" + "ListLinksAction.py";
+                            pyClassName = "ListLinksAction";
+                    } 
+                    
+            }
+            interp.execfile(pyActionClassInterp);
+            
+            interp.set("mapping", mapping);
+            interp.set("form", form);
+            interp.set("req", request);
+            interp.set("res", response);
+            interp.set("servlet", this.getServlet());
+            interp.exec("simpl = " + pyClassName + "()");
+            interp.exec("simpl.setServlet(servlet)");
+            interp.exec("actionForward = simpl.execute(mapping, form, req, res)");
+            ActionForward forward = (ActionForward) interp.get("actionForward").__tojava__(org.apache.struts.action.ActionForward.class);
+            return forward;
+        }
+
+### Loading the Jython Plugin at Startup 
+
+In the previous code snippet, you might have noticed that we didn\'t just invoke the Jython Interpreter directly, we extracted an already instantiated instance from the [ServletContext](./ServletContext.html). We created a Jython Struts plugin that can load a Jython Interpreter instance at startup which we can get at a later time to avoid having to reload the object for every request. It is configured to launch at startup in the \'struts-config.xml\' file.
+
+            ServletContext context = null;
+            context = this.getServlet().getServletContext();
+            Object objJyPlugin = context.getAttribute(JythonUtilPlugin.PLUGIN_NAME_KEY);
+
+Here is the majority of the Jython plugin code:
+
+    public void init(ActionServlet actionServlet, ModuleConfig config) throws ServletException {                                    
+           
+           ServletContext context = null;
+           context = actionServlet.getServletContext();
+           context.setAttribute(PLUGIN_NAME_KEY, this);
+           
+            rootPath = context.getRealPath("/");
+            if (!rootPath.endsWith(File.separator))
+                    rootPath += File.separator;
+
+            if ((props.getProperty("python.home") == null) && (System.getProperty("python.home") == null)) {
+               props.put("python.home", PY_HOME_ABSOLUTE);
+            } // end of if
+
+            PythonInterpreter.initialize(System.getProperties(), props, new String[0]);
+            
+            interp = new PythonInterpreter(null, new PySystemState());
+            cache.clear();
+            PySystemState sys = Py.getSystemState();
+            sys.path.append(new PyString(rootPath));
+
+            //PySystemState sys = Py.getSystemState();
+            PySystemState.add_package("javax.servlet");
+            PySystemState.add_package("javax.servlet.http");
+            PySystemState.add_package("javax.servlet.jsp");
+            PySystemState.add_package("javax.servlet.jsp.tagext");
+
+            PySystemState.add_classdir(rootPath + "WEB-INF" + File.separator + "classes");
+    }
+
+### More on the Web Application Configuration including struts-config.xml 
+
+At the heart of the Struts application is the \'struts-config.xml\' which will normally be located in the \'WEB-INF\' directory of your web-application. It contains a container for defining your \'java form beans\', \'action mappings\', where your message resources are located, what plugins are loaded at startup and various other configurations.
+
+    <struts-config>
+     <action-mappings>
+                <!-- Default "Welcome" action -->
+                <!-- Forwards to Welcome.jsp -->
+            <action
+                path="/Welcome"
+                forward="/pages/Welcome.jsp"/>
+            <action path="/actions/simple"
+                    name="userLinksForm"
+                    parameter="/actions/simple"                     
+                    type="org.spirit.actions.DefaultActionHandler">
+                    <forward name="success" path="/pages/Confirm.jsp" />
+            </action>
+
+            <plug-in className="org.spirit.util.JythonUtilPlugin">
+                    <set-property property="configFile"
+                       value="/hibernate.cfg.xml"/>
+            </plug-in>
+    </struts-config>
+
+### More on the Struts web-application 
+
+We will talk more in detail about the hibernate components, but this application is simply a basic CRUD (create, read, update, and delete). We are saving website links along with description of the link and keywords. The index.jsp page only contains a link to the list of links page. From the list page, you can edit, view, or delete an individual link. From that same page you can also click to add a new link which will direct you to the Entry form page. Each of the links is a JSP page that contains some of the use of the Struts tags.
+
+For example, here is the \'Create\' Entry.jsp page:
+
+    <html:form action="/actions/simple.do" >
+     <table>
+      <tr>
+      <td>Main Url:</td>
+      <td><html:text property="url" /></td>
+      </tr>
+      <tr>
+       <td>Keywords:</td>
+       <td><html:text property="keywords" /></td>
+      </tr>
+      <tr>
+       <td>Description:</td> 
+       <td><html:text property="description" /></td>
+      </tr>
+     </table> 
+     <p>
+     <html:submit value="Submit" />
+     </html:form>
+
+When the user hits the submit button, they are invoking our [DefaultActionHandler](./DefaultActionHandler.html) which in turn invokes the Jython Action class that contains our Hibernate persistance code.
+
+### Jython and Hibernate 
+
+Our web-application would not be complete without a clear approach for persisting the link data. So we have used the Hibernate ORM (object relational mapping) library do the backend persistance work for us. It is not really necessary to use Hibernate for such a simple application, but as your enterprise application grows, the need for a more robust persistance mechanism will greatly become evident. MySQL 5.0.2 is used for our database and most of the recent MySQL connector APIs will work with this example.
+
+Almost like Struts, a lot of the hibernate settings are defined in a hibernate configuration file, \'hibernate.cfg.xml\' and your hibernate mapping file, \'Botlist.hbm.xml\'. Normally the most important settings for your application include what database dialect you are using; we are using MySQL and the definition of your hibernate POJO beans. The simple bean contains an almost one-to-one mapping between your database fields and the Java members, accompanied by the appropriate getters and setters.
+
+The hibernate configuration file:
+
+    <hibernate-configuration>
+            <!-- MYSQL Hibernate Config Options org/hibernate/dialect/MySQLDialect -->
+            <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+            <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+            <property name="connection.url">jdbc:mysql:///botlist_development</property>
+            <property name="connection.username">USER</property>
+            <property name="connection.password">PASSWORD</property>
+            <mapping resource="Botlist.hbm.xml"/>
+    </hibernate-configuration>
+
+The Botlist.hbm.xml hibernate mapping file:
+
+    <class name="org.spirit.bean.impl.BotListUserLink"
+                            table="user_links"
+                    dynamic-update="true" >
+            <id name="id" column="id">
+                <generator class="native"/>
+            </id>
+            <property name="createdOn" column="created_on" not-null="true" />
+            <property name="mainUrl" column="main_url" not-null="true"/>        
+            <property name="description" column="url_description" not-null="false" />
+            <property name="keywords" column="keywords" not-null="false" />
+    </class>
+
+### The Hibernate Plugin 
+
+Like the Struts plugin mentioned previously, the Hibernate plugin loads an instance of the Hibernate [SessionFactory](./SessionFactory.html) and saves it for later use through out the application.
+
+    public void init(ActionServlet servlet, ModuleConfig modConfig) throws ServletException {
+           config = new Configuration().configure();
+           factory = config.buildSessionFactory();
+           servlet.getServletContext().setAttribute(KEY_NAME, factory);
+    }
+
+### Jython and Hibernate CRUD Operations 
+
+We discussed earlier how Jython is basically used for the backend coding, that includes communicating with Hibernate. Here are the code snippets associated with each of those operations. Most of the code is fairly intuitive; at the heart of the create operation, you must get the Hibernate [SessionFactory](./SessionFactory.html) and initiate a transaction. Once that is done, create an instance of the Hibernate POJO bean and populate the bean with the data from the Struts [ActionForm](./ActionForm.html). Once that is taken care of, use the session and transaction object to save the data. The Edit operation probably contains the most code and is seperated into two Jython classes.
+
+Create Jython Action Class:
+
+    class SimpleStrutsAction (Action):
+
+            def execute(self, mapping, form, request, response):
+                    objFactory = context.getAttribute(HibernateUtilPlugin.KEY_NAME) 
+                    curSess = objFactory.openSession()
+                    curSess.beginTransaction()              
+                    link = BotListUserLink()                        
+                    link.mainUrl = url
+                    link.description = description
+                    link.keywords = keywords
+                    curSess.save(link)
+                    curSess.getTransaction().commit()
+
+Read Jython Action Class:
+
+    class ViewAction (Action):
+
+            def execute(self, mapping, form, request, response):
+                    objFactory = context.getAttribute(HibernateUtilPlugin.KEY_NAME) 
+                    curSess = objFactory.openSession()              
+                    tx = curSess.beginTransaction() 
+                    queryRes = curSess.createQuery("select l from org.spirit.bean.impl.BotListUserLink as l where l.id = :linkid")
+                    queryRes.setLong("linkid", Long(curId).longValue())
+                    resLink = queryRes.uniqueResult()
+                    httpSession.setAttribute(BotListConsts.BOT_SINGLE_LINK, resLink)
+                    tx.commit()
+
+Edit Jython Action Class:
+
+    class EditUpdateAction (Action):
+
+            def execute(self, mapping, form, request, response):
+                    objFactory = context.getAttribute(HibernateUtilPlugin.KEY_NAME)
+                    curSess = objFactory.openSession()              
+                    tx = curSess.beginTransaction()
+                    url = form.url
+                    keywords = form.keywords
+                    description = form.description
+
+                    queryRes = curSess.createQuery("select l from org.spirit.bean.impl.BotListUserLink as l where l.id = :linkid")
+                    queryRes.setLong("linkid", Long(curId).longValue())
+                    resLink = queryRes.uniqueResult()
+
+                    resLink.mainUrl = url
+                    resLink.keywords = keywords
+                    resLink.description = description
+                    
+                    httpSession.setAttribute(BotListConsts.BOT_SINGLE_LINK, resLink)
+                    tx.commit()             
+
+### Running the Example 
+
+It may take a bit to get your environment setup if you already don\'t have the applications or libraries running. First you will need to download and install the Tomcat Servlet Container and the MySQL database engine. If you are working on Win32, you can simply download the zipped archives and run the servers without installing them permanently. And of course, have Jython installed somewhere on your system, it doesnt matter where because you are going hardcode the path in one of your java classes.
+
+Launch MySQL and Tomcat.
+
+The only reference to the Jython installation is through the hardcoded member in the Plugin class, [JythonUtilPlugin](./JythonUtilPlugin.html). Point this value to your installation.
+
+private String PY_HOME_ABSOLUTE = \"C:/Jython2.2a\";
+
+Create the database and tables. There are two SQL scripts included with the download in the \'db\' directory. Make sure that the username and password for your database credentials are the same as those defined in your hibernate.cfg.xml file.
+
+Once the Tomcat Server is running, use the example build.xml build file to deploy the web-application files to the Tomcat webapps directory. There are really two approaches for deploying a web-application; you can create an individual WAR file and place all the appropriate files in there and deploy to your Servlet container or just use an expanded directory. Tomcat will recognize both. The approach defined in the build script uses an exploded directory. Invoking the Ant build target \'tomcat.deploy\' will setup your web-application for Tomcat.
+
+Once you have deployed your application, point your web browser to: [http://localhost:8080/botspiritlistbeta/](http://localhost:8080/botspiritlistbeta/)
+
+And assuming everything works properly, you should be able to test all the different CRUD operations.
+
+The following libraries will need to be downloaded and placed in the WEB-INF/lib directory of your application. They were all taken from the latest Struts, Hibernate, MySQLJavaConnector, and Jython releases.
+
+    antlr-2.7.2.jar, asm-attrs.jar, asm.jar, c3p0-0.9.0.jar
+    cglib-2.1.3.jar, commons-beanutils-1.7.0.jar, commons-chain-1.1.jar
+    commons-collections-2.1.1.jar, commons-digester-1.6.jar
+    commons-logging-1.0.4.jar, commons-validator-1.3.0.jar
+    dom4j-1.6.1.jar, ehcache-1.1.jar
+    hibernate3.jar, jta.jar
+    junit-3.8.1.jar, jython.jar
+    log4j-1.2.11.jar, mysql-connector-java-3.1.12-bin.jar
+    oro-2.0.8.jar, struts-core-1.3.5.jar, struts-taglib-1.3.5.jar
+    struts-tiles-1.3.5.jar
+
+    There is a directory included with the example called 'servletlib', place the servlet api
+    jar in this directory from your servlet container.  For example, 'servlet-api.jar' was placed
+    in this directory from Tomcat 5.0.28.
+
+### Summary for Running the Example Application 
+
+    - 1. Download MySQL and Tomcat (or other Servlet Container)
+    - 2. Download and install Jython 2.2
+    - 3. Download Hibernate, Struts, the MySQL Java Connector
+    - 4. Place the correct libraries in the example, WEB-INF/lib directory
+    - 5. Change the database scripts with a suitable username/password
+    - 6. Create the database with scripts in the 'db' directory
+    - 7. Modify the hibernate.cfg.xml file with the username and password
+    - 8. Modify the JythonUtilPlugin and add a location for you Jython home
+    - 9. Modify the Ant build.properties file to your Tomcat home
+    - 10. Launch the Ant build script with the target 'tomcat.deploy'
+    - 11. Point your browser to http://localhost:8080/botspiritlistbeta/
+
+### Summary 
+
+If you take a look at Sean [McGrath](./McGrath.html)\'s Jython and Servlet Example below, you get a pretty good understanding of how to integrate Jython and Servlets. This example takes another look at Java Web development by using the popular Struts framework. The concepts are similar, Jython is used for the backend development while the Struts JSPs are used for our view.
+
+Already, I bet you can see that you can take this example much further and implementing more of application through the use of Jython. The hibernate and form beans could probably be implemented with Jython, the Plugin code, and the Wrapper Action Class.
+
+### Full Source 
+
+Download the full source, note that the majority of the examples presented in the article above are presented as pseudo-code and may not work 100% directly from here, use the downloaded source for the complete application.
+
+[Hibernate Mapping Config File](http://www.newspiritcompany.com/src/jytut/Botlist.hbm.xml.html).
+
+[Hibernate Config File](http://www.newspiritcompany.com/src/jytut/hibernate.cfg.xml.html).
+
+[Struts Configuration file](http://www.newspiritcompany.com/src/jytut/struts-config.xml.html).
+
+[Example List JSP Page](http://www.newspiritcompany.com/src/jytut/ListLinks.jsp.html).
+
+[List Jython Action Class](http://www.newspiritcompany.com/src/jytut/ListLinksAction.py.html).
+
+[Create Jython Action Class](http://www.newspiritcompany.com/src/jytut/SimpleStrutsAction.py.html).
+
+[View Jython Action Class](http://www.newspiritcompany.com/src/jytut/ViewAction.py.html).
+
+[Full Zipped Source](http://www.newspiritcompany.com/src/jytut/BotSpiritListExample.zip).
+
+### Resources 
+
+[Jakarta Struts Home](http://struts.apache.org/)
+
+[Hibernate Home](http://www.hibernate.org/)
+
+[Jython Home](http://www.jython.org)
+
+[MySQL Home, Download the Java Connector](http://www.mysql.com/)
+
+[Jython Web Application From Sean McGrath](http://seanmcgrath.blogspot.com/JythonWebAppTutorialPart1.html)
+
+[Tomcat Servlet Container](http://tomcat.apache.org/)
+
+### Versions 
+
+As of 9/26/2006, this application was tested with JDK6(not needed), Jython 2.2a1, MySQL 5.0.21, MySQL Java Connector 3.1.12(5 will also work), Tomcat-5.0.28, Hibernate 3.1.3, and Struts 1.3.5.
