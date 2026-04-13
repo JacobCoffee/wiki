@@ -1,0 +1,81 @@
+# Packaging/2020-04-08-pip
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Dev mini syncup
+
+8 April 2020
+
+Participants: Paul, Pradyun, Tzu-Ping
+
+- Agenda
+  - Error messages and reporting / New resolver output messages
+    - \- How much do we need to replicate the old resolver's output?
+      - \- As long as it makes sense, otherwise we don't need to follow verbatim
+      - \- The old resolver outputs \"aleady installed\" at the start (checking whether to install) new would do it at the end
+      - \- We probably can\'t get things exactly the same
+      - \- Maybe we just add messages and see where it gets us?
+      - \- Any way to \"tag\" new resolver messages? (Pradyun) there\'s a PR for that
+        - \- probably over-engineering, let\'s just see how plain messages look for now.
+      - \- What should even be printed?
+        - \- Building in pip download.
+  - Digression into pip\'s CLI
+    - Do we actually know if there\'s an actual problem w/ the new resolver?
+    - Paul: I\'ll just try and see how pip download works after call.
+    - TP: I want to add a test to ensure the resolver prepares sdist and source correctly in \--no-deps mode
+  - Upgrade Strategies
+    - How would we implement the different upgrade strategies? (not the behavior, but implementation / code)
+    - Paul: Implement them in find_matches()
+    - to-satisfy-only: Return a single-element list containing the installed dist
+    - only-if-needed: Carefully order the already-installed dist to the end of the list (highest priority)
+    - eager: What we're doing right now
+    - Paul: I\'ll pick this up\...?
+      - Hide some stuff behind if False:
+  - Code structure
+    - Looks fine
+    - TP: The only thing I would consider moving is get_dependencies()
+    - Pradyun: Wants to thin out models, closer to plain data objects
+    - Paul: Requirements are simple, candidates are messy
+    - Let's revisit this once in a while and see what we think
+  - Installed Packages causing conflicts
+    - eager: Nothing to change, just upgrade anything if it wants to
+      - One question: this is an \"upgrade-strategy\" to upgrade eagerly. Should we downgrade?
+      - Paul: how about an allow-downgrade option? This will vastly reduce the candidate search size as well
+      - The name "upgrade-strategy" give the user expectation
+        - Rename it \--version-strategy or something? But that has much more implications
+      - We should bring this up at the UX meeting
+    - to-satisfy-only:
+  - canonicalize_name()
+    - Just wait for packaging to fix those types and maybe we get a release, vendor it eagerly, and work from there
+  - User testing:
+    - \- Should we error out proactively so that users in the beta have to ask for functionality and discuss their needs with us?
+    - \- Maybe don\'t implement upgrade strategy for beta, on that basis.
+    - \- Skip implementing \"eager\", just to-satisfy-only (pip install) and only-if-needed (pip install \--upgrade)
+    - Review upgrade strategies, get feedback from user research.
+  - pip install a, a depends on c 2.0, already installed b and c where b depends on c 1.0
+    - \- error or upgrade?
+    - \- Paul: error, but give the user an option to say \"it\'s OK to upgrade\". Is that one of the upgrade strategies?
+    - Do we have use cases for relaxing the graph?
+      - \- The a, b depend on different versions of c down
+
+      - \- this case [https://lwn.net/Articles/816044/](https://lwn.net/Articles/816044/)
+
+      - \- numpy, user has a carefully crafted build installed
+
+      - \- bad metadata. Overrides can be considered as something we should have a standardised metadata override mechanism for.
+        - \- To put it another way, treat it as YAGNI for now.
+
+      - \- Manifest, lock file, etc.
+        - \- Let's finish this resolver thing so we can work on those
+  - Beta release automation
+    - Doable (looks like)!
+  - Moar weekly calls
+    - w/ UX folks for figuring out UI/UX stuff with them. ![:)](/wiki/europython/img/smile.png%20":)")
+
+And:
+
+- Pradyun needs more sleep! (yes!)

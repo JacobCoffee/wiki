@@ -1,0 +1,65 @@
+# EuroPython / 2007
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## EuroPython 2007 
+
+[EuroPython]() 2007 will take place in Vilnius, Lithuania from Monday 9th July to Wednesday 11th July 2007.
+
+Information for participants is available on the [EuroPython2007](../EuroPython2007) page. Sprints are on the page [EuroPython2007Sprints](../EuroPython2007Sprints), for those of you looking in the wrong place. ![;-)](/wiki/europython/img/smile4.png%20";-)")
+
+If you merely attended the conference in previous years or are merely interested in attending future conferences, this might not be the right place for you. However, you might want to become involved in helping out with the organisation of future conferences as well: something that is definitely encouraged!
+
+The *centre of all things* of [EuroPython]() is the [mailing list](http://mail.python.org/mailman/listinfo/europython).
+
+- [/IrcMeetings](2007/IrcMeetings) \-- a record of meetings on the #europython channel on freenode.
+
+- [/People](./EuroPython(2f)2007(2f)People.html) \-- people involved somewhat in organising the conference.
+
+- [/PublicRelations](2007/PublicRelations) ([EuroPython/2006/PublicRelations2006](2006/PublicRelations2006)) \-- a place to discuss the marketing
+
+- [/SuggestionBox](2007/SuggestionBox) \-- ideas about improving the organisation for next time.
+
+### Issued Information 
+
+If you find yourself editing any of these, please consider the places where this information has already been published:
+
+- [/FinalCallForRegistration](2007/FinalCallForRegistration) \-- a draft.
+
+- [/CallForSponsorsMessage](2007/CallForSponsorsMessage) \-- a draft message for distribution.
+
+- [/RegistrationIsOpenMessage](2007/RegistrationIsOpenMessage) \-- a draft message for distribution.
+
+- [EuroPython2007/ArticleForPythonPapers](../EuroPython2007/ArticleForPythonPapers) \-- a draft of an article for The Python Papers.
+
+- [/TrackDescriptions](2007/TrackDescriptions) \-- a place for track chairs to put descriptions of their tracks.
+
+- [/CallForProposals](2007/CallForProposals) \-- a draft.
+
+- [/CallForSponsors](2007/CallForSponsors) \-- a draft.
+
+### Information Found Elsewhere 
+
+- [/LightningTalks](2007/LightningTalks)
+
+- [/OpenSpace](2007/OpenSpace)
+
+- [/Sprints](2007/Sprints)
+
+### Statistics from Previous Years 
+
+- 2006: 282 attendees
+
+- [2005](http://mail.python.org/pipermail/europython/2005-July/005419.html): 261 attendees
+
+- [2003](http://web.archive.org/web/20030905032130/http://www.europython.org/news/newsEntries/20030628/): 250 attendees
+
+### Statistical Observations 
+
+- [PyCon 2006, 2007](http://us.pycon.org/TX2007/Planning)
+
+- [PyCon 2003](http://mail.python.org/pipermail/conferences-discuss/2003-June/000197.html)

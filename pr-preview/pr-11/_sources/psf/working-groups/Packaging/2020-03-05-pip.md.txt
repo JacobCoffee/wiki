@@ -1,0 +1,144 @@
+# Packaging/2020-03-05-pip
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Resolver mini-syncup 
+
+Mini-syncup, 5 Mar 2020
+
+Paul, Pradyun, TP
+
+- TP: Initial effort posted. What's that PreviousBuildError about ![:(](/wiki/europython/img/sad.png ":(")
+
+- Paul: We will get into a mess (I can't prove it) if we ever reuse a build directory for two things. Maybe it will be easier if we ever only build InstallRequirement from a link, and nothing else.
+
+  - So only use InstallRequirement for Candidate, and not for Requirement
+
+  - TP: Now that I re-read the implementation, it would make sense to do that.
+
+- Paul and Pradyun will spend some time after the meeting to read the PR and work on that.
+
+- Pradyun wants to split the provider, requirement, candidate, etc. into different PRs, each with tests, and submit them separately.
+  - TP: Requirement and Candidate are very coupled so that'd probably be the most problematic to separate,
+  - Let's see what we can do
+
+- Someone from Twitter filed an issue within the last day saying: hey! we have implemented pip resolver that turns requirements into ? \.... [https://github.com/pypa/pip/issues/7819](https://github.com/pypa/pip/issues/7819)
+
+## Team syncup 
+
+Team syncup, 5 March 2020
+
+Participants:
+
+- Bernard
+- Pradyun
+- Tzu-Ping
+- Paul
+- Sumana
+- Georgia
+
+Agenda
+
+Bernard & Georgia are working to share their notes from CZI convening
+
+- Invoices
+  - TP - check
+
+  - Pradyun - started, can send Jan & Feb invoices within a day or two.
+
+    - Q: Invoicing the week at CZI EOSS?
+      - TODO - Sumana to follow up separately with Pradyun & Georgia about this \-- DONE
+
+  - Atos/Paul - please chase this to get a combined Jan/Feb invoice
+    - Atos invoice has gone through the system, but that copy may go to the formal invoicing address.
+    - Brian will follow up with a PDF copy to the requested names/emails, should go out today.
+
+  - Georgia for Simply Secure - adding details for Jan + Feb \-- by end of this week?
+
+  - Changeset - submitting this week
+
+- Blockers?
+  - Georgia & Bernard:
+
+    - Research plan? Spending some time in a longer catchup on Monday, thinking about tools, ongoing resources, etc.
+    - No particular blockers
+    - Coming up: B has finished recruitment survey, will make a personal blog post about it, would like to get it circulated widely! Will want input/help
+      - TODO: Sumana to help signal-boost and advise on publicity \-- DONE
+      - Pradyun: Let me know when you have that up; I\'ll signal boost on my blog too.
+
+  - Tzu-Ping:
+    - Things are moving along \.... reading some other implementations from Twitter: [https://github.com/pypa/pip/issues/7819](https://github.com/pypa/pip/issues/7819) \...
+
+    - resolver prototype\... now & next week ( [https://github.com/pypa/pip/pull/7799](https://github.com/pypa/pip/pull/7799) )
+
+  - Paul:
+    - this past week, been fragmented, other stuff in the way\.... pre-meeting chat, now knows what is next \... refactoring prototype implementation, look at [https://github.com/pypa/pip/issues/7819](https://github.com/pypa/pip/issues/7819) , get some tests of new implementation in place
+
+    - Was short on time this week, will grab time back from work NEXT week.
+
+  - Pradyun:
+    - not blocked on anything \.... not that I\'m aware of right now
+
+  - Sumana:
+    - TODO: get in touch with Bethanie, and Phyllis, for things TODO for PyCon plans
+
+      - PyCon registration fees refunded to individuals so cost is coming from donated funds \-- easier logistically; no effects.
+
+    - Personal errands taking up a lot of time \-- delegating where can.
+
+- pip logo issue [https://github.com/pypa/pip/pull/7754#issuecomment-588194568](https://github.com/pypa/pip/pull/7754#issuecomment-588194568)
+
+  - (last discussion) It\'s probably OK to delay \-- is that still True?
+    - Bernard previously said: ok to delay. Bernard notes: activity to come up with \"what pip is\" is an important activity, for SS\'s user-centered design, and later for branding
+
+    - Today: reiterating that. (And yes a logo is \_useful\_.) Logo design brief would be useful.
+
+    - if people feel very strongly to get a logo NOW, we can put it up as a job (free/paid) on OpenSourceDesign \-- logo design requests are common there \-- may or may not be picked up.
+
+      - Sumana: I don\'t think we urgently need it
+      - Georgia: As part of promoting the work, it might make sense to ask in interviews / collect ideas / bring engagement.
+      - Sumana: I have had past experiences where bikeshedding / untrained input about visual design has been noisy and drowned useful thought / caused burnout. If we can \"channel\" this appropriately, we might be able to do it \-- we may not be able to put in the time needed to do so.
+      - Georgia: If more people would want to give input; we could have that used to create a brief \-- we want people to understand that we are asking about the \"feeling\" that the logo conveys.
+      - Sumana: my memory was w.r.t. logo design contest \-- getting inputs from users would be better perhaps.
+      - Georgia: \[note taker was too slow\] we can do
+      - Sumana: we can talk about this more later.
+
+- Do we have any news on impact of corona virus on Python conferences? [https://pycon.blogspot.com/2020/03/march-2-update-on-covid-19.html](https://pycon.blogspot.com/2020/03/march-2-update-on-covid-19.html) currently says all AOK.
+
+  - PyCon plans: regular updates from PyCon
+
+  - None of the team is planning on cancelling NOW, but keeping an eye on it
+    - Pradyun: I\'ll need keep an eye out for it, in case the situation becomes drastically works, especially closer to the conference
+    - Bernard: agree with that.
+    - Paul: Being sponsored by work \-- will need to check with them \-- should likely be OK. I do have some concerns, and agree w/ Pradyun on taking a cautious approach.
+
+- Communication
+  - with stakeholders: [https://gist.github.com/brainwane/f5a3dd07099d56bd2cb1ec60e1650598](https://gist.github.com/brainwane/f5a3dd07099d56bd2cb1ec60e1650598)
+
+  - Need a way to describe what we are doing with the new resolver to scale down people\'s expectations.
+
+  - pip will not magically be able to read users\' minds and do the right thing when it isn\'t right now
+
+  - We\'ll need to involve Sumana in this, and provide the topics we want to send across to the users
+
+  - TODO: edit the gist to reflect that
+
+  - Paul notes: re branding: have a certain level of style, pulls together \"this is the new pip/info\" distinguishing us from old resolver\.... Warehouse rollout (not just calling it \"PyPI\") \... distinction between new & old \... consistent reference
+
+    - Georgia: opporunity to give whole new identity upon rollout
+
+  - Can we do this work in a collab doc instead of GitHub gist?
+
+    - Sure!
+
+    - TODO: Sumana to move to another document platform \-- DONE
+
+    - [https://hackmd.io/@pradyunsg/BJq9aKREI](https://hackmd.io/@pradyunsg/BJq9aKREI)
+
+  - TODO: question in Zulip - what other topics/points to cover?
+    - Call for input to interview?
+    - Input on the logo/brand ideas?

@@ -1,0 +1,21 @@
+# Pythonlibraryreference
+
+```{toctree}
+:maxdepth: 1
+
+GenericOperatingSystemServices
+GraphicalUserInterfacesWithTk
+HistoryAndLicense
+InternetDataHandling
+InternetProtocolsAndSupport
+MsWindowsSpecificServices
+OptionalOperatingSystemServices
+PythonCompilerPackage
+PythonLanguageServices
+SgiIrixSpecificServices
+StructuredMarkupProcessingTools
+SunOsSpecificServices
+ThePythonDebugger
+ThePythonProfiler
+UnixSpecificServices
+```

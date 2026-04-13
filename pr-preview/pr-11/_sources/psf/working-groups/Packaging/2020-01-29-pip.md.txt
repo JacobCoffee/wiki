@@ -1,0 +1,139 @@
+# Packaging/2020-01-29-pip
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+pip syncup meeting
+
+UX Bernard, Sumana, Georgia 29 Jan 2020
+
+- Go through the UX issues (from the wiki) and make sure that we understand each of them
+  - BT/GB do it later in detail.
+  - Simply Secure to review the tickets and write notes in the wiki
+
+- Understand the tagging system etc
+  - later - do in detail, maybe Zulip
+
+- Scheduling a telephone call with the maintainers
+  - to understand \"how does pip work\"
+    - Bernard read:
+      - start with [https://pip.pypa.io/en/latest/development/getting-started/](https://pip.pypa.io/en/latest/development/getting-started/)
+
+      - [https://www.pypa.io/en/latest/presentations/](https://www.pypa.io/en/latest/presentations/)
+
+      - [https://pip.pypa.io/en/latest/development/architecture/](https://pip.pypa.io/en/latest/development/architecture/)
+
+      - Also read [https://www.b-list.org/weblog/2020/jan/05/packaging/](https://www.b-list.org/weblog/2020/jan/05/packaging/)
+
+      - ask (better) questions to dev
+    - can we be onboarded as new-contributors
+  - their understanding of users issues and frustrations
+
+- Talk about collaboration modes, e.g. longer term work, shorter term needs
+  - Zulip & irc: Are there connected rooms? What rooms/streams are the right rooms?
+
+    - IRC is popular in the community, usually on freenode
+
+    - #debian-python on OFTC where some people are
+
+    - community/outreach/office hours: spend time in IRC to community (but also see \"User Interviews / Participant Outreach\" section below)
+
+    - devs/maintainers: comms via Zulip
+
+    - Can connect an irc client to Zulip \> Sumana will send to Bernard, but also look for that and see if you can find the tool
+
+      - Pradyun, barging in on these notes: PSF\'s zulip instance seems to have \"IRC\" stream with the \"#python-dev\" topic, watching Freenode\'s #python-dev.
+
+- PIP!
+  - pip download packages
+
+  - setuptools \-- part of making a package
+
+  - twine \> uploadibg package to to pypi website
+
+  - warehouse \> drives the db for pypi website
+
+  - Sumana has been sheparding all devs into zulip (not all are there yet)
+
+  - Bernard rtfm pip readme
+
+  - check out chat.zulip.org - Zulip about
+
+- GitHub: Can we have a UX project or some tags in some way on GitHub so we\'re in the same ecosystem? Should we just use the packaging-problems repo as our main place on GitHub? can we use issues in that repo: [https://github.com/pypa/packaging-problems/issues](https://github.com/pypa/packaging-problems/issues)?
+
+  - Go ahead and use pypa/packaging-problems.
+
+- User Interviews / Participant Outreach
+  - OK to go ahead and start doing outreach?
+    - pass the recruitment content via Sumana and she\'ll give us feedback about direct to or via Sumana
+  - Or should we go via Sumana/PyFo to start talking to potential users?
+  - Where should/can we discuss this outreach?
+  - Below are some places to start.
+    - mailing lists
+      - [https://groups.google.com/forum/#!forum/python-virtualenv](https://groups.google.com/forum/#!forum/python-virtualenv)
+
+      - [https://discuss.python.org/](https://discuss.python.org/) , in particular \"Packaging\" on discuss.python.org \<[https://discuss.python.org/c/packaging\>](https://discuss.python.org/c/packaging%3E) but also the Users area
+
+      - [https://mail.python.org/mailman/listinfo/python-list](https://mail.python.org/mailman/listinfo/python-list) a general list mentioned on [https://www.python.org/community/lists/](https://www.python.org/community/lists/)
+
+      - [https://mail.python.org/mailman3/lists/distutils-sig.python.org/](https://mail.python.org/mailman3/lists/distutils-sig.python.org/) Distutils-SIG on mail.python.org
+
+      - various venues for PyPA contributor/maintainer communication include pypa-dev on Google Groups \<[https://groups.google.com/forum/#!forum/pypa-dev\>](https://groups.google.com/forum/#!forum/pypa-dev%3E)
+
+      - Brazil list(s) like [https://groups.google.com/forum/#!forum/python-brasil](https://groups.google.com/forum/#!forum/python-brasil)
+
+      - language-specific lists like [https://mail.python.org/mailman/listinfo/python-de](https://mail.python.org/mailman/listinfo/python-de) and [https://mail.python.org/mailman/listinfo/python-es](https://mail.python.org/mailman/listinfo/python-es)
+
+      - wheel-builders [https://mail.python.org/mailman/listinfo/wheel-builders](https://mail.python.org/mailman/listinfo/wheel-builders) \-- people who make Python packages and distribute them as \"wheels\"
+
+      - a large, broad \"PSF community\" mailing list [https://mail.python.org/mailman/listinfo/psf-community](https://mail.python.org/mailman/listinfo/psf-community)
+
+      - the Carpentries \"discuss\" mailing list [https://carpentries.topicbox.com/groups/discuss](https://carpentries.topicbox.com/groups/discuss) which has lots of Python users who work in the sciences
+
+    - IRC channels
+      - \- #pypa-dev on freenode
+      - #debian-python on OFTC
+
+    - blogs
+      - pyfound.blogspot.com/
+
+      - [https://importpython.com/newsletter/](https://importpython.com/newsletter/)
+
+    - podcasts
+      - [https://talkpython.fm/](https://talkpython.fm/)
+
+      - [https://changelog.com/rfc](https://changelog.com/rfc)
+
+    - social media
+      - use #Python on Twitter, Mastodon
+      - I don\'t have good suggestions regarding Facebook
+
+    - conferences
+      - [https://scipy.org/](https://scipy.org/)
+
+      - local programming clubs that are not particularly about Python but that end up using it, like Machine Learning groups/meetups
+
+    - GitHub
+
+      - [https://github.com/pypa/packaging-problems/](https://github.com/pypa/packaging-problems/)
+
+      - particular issues marked \"ux\" or similar in [https://github.com/pypa/pip/](https://github.com/pypa/pip/)
+
+      - look for users in [https://github.com/pypa/packaging.python.org/](https://github.com/pypa/packaging.python.org/)
+
+    - \...\...
+
+- FOSDEM
+  - will everyone/anyone be there?
+    - not sure
+    - \* TODO: Sumana
+
+- Infrastructure: What should be our testing setup be to actually look at issues? (e.g. running locally)
+  - covered by developer setup [https://pip.pypa.io/en/latest/development/getting-started/](https://pip.pypa.io/en/latest/development/getting-started/)
+
+  - Confirm reported issues, experience them
+
+  - Looking at current development work

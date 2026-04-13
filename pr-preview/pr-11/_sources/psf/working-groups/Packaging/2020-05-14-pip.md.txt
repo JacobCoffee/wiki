@@ -1,0 +1,128 @@
+# Packaging/2020-05-14-pip
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+May 14th 2020
+
+## Resolver dev team chat 
+
+Resolver Dev Syncup
+
+Participants
+
+- Pradyun
+- Paul
+- Tzu-Ping
+
+Agenda:
+
+- Remaining test failures [https://hackmd.io/TkGB1hPQTcu9y_4JwAtGyA?view](https://hackmd.io/TkGB1hPQTcu9y_4JwAtGyA?view)
+
+- Constraints review + failures?
+
+Discussion of [https://github.com/pypa/pip/issues/14](https://github.com/pypa/pip/issues/14)
+
+## Teamwide meeting 
+
+14 May Teamwide meeting
+
+TODO:
+
+- TODO: Timing: let\'s work on that (the release of the resolver as the default)
+
+- TODO: Pradyun to follow up. (on testing of error messages by Ilan)
+
+- TODO: Pradyun & Paul to follow up (on documentation of error messages and incoproration into testing by Ilan)
+
+Participants:
+
+- Pradyun
+- Paul
+- Tzu-Ping
+- Sumana
+- Georgia
+- Bernard
+- Ilan
+
+Agenda:
+
+- Invoices
+  - waiting for Pradyun, Simply Secure, Changeset
+- Scheduling of meetings / co-working times
+  - Wed: 9am-10am ET (team meeting)
+  - Mon: 9am-11am ET (optional, drop in, coworking / chat)
+- Constraints and \"scope of project\" discussions
+  - Paul: this has come out of the implementation of constraints in the new resolver - the existing implementation is bad. inconsistent, bolted-on. \[see [https://github.com/pypa/pip/issues/8210#issuecomment-626129108](https://github.com/pypa/pip/issues/8210#issuecomment-626129108) \] \... there is behavior we don\'t like that people might be using. Paul believes we should implement the documented behavior of constraints. But that will be a regression. Question for this group (and for Sumana since this is a scoping question) - is the remit to replicate current/existing behavior or to implement new stuff. Because to replicate would be a bodge
+
+    - Sumana: How much can we guard unsuspecting users from using the undocumented features. If we can improve the document \... can point users to the expected features. At least in the near future, if the new resolver is behind a flag, people wanting to use the new resolver will need to actively ask. So it should not impact the users\' workflow if the new implementation is not botched, and we go through a deprecating statement.
+      - Paul: we can spot when people are using the feature that we believe should not be supported. If we were to NOT implement that in the new resolver, but issue a deprecation warning as part of new resolver: this feature is not supported, will be removed when old one is switched off\.... that gives users a chance to deal with the fact before they\'re hit with nonsupport for real.
+      - Other side of that: we would have to look at entertaining feature req to get functionality that users are using in a normal/better way
+      - 
+    - My assumption:
+      - Beta in May
+      - 20.2 in July \-- might change \"unstable\" to something else. New resolver available for use, but not default.
+      - Spread the word, get more people to use it.
+      - 20.3 (October?) becomes the default resolver.
+    - Paul says: that sequence sounds reasonable
+    - Pradyun: yes.
+    - Tzu-Ping: yes, sounds reasonable\.... if we make the new resolver default in 20.3, this will be the only release for Python 2 users to get new resolver. Seems a little off to me. Because 21.0 will drop Python 2 support.
+      - TODO: Timing: let\'s work on that
+      - Pradyun: wants to know more about TP\'s thoughts on that
+      - Georgia + Bernard: It\'d be helpful to understand this better from a UX perspective.
+      - TP: I'm expecting some bug reports for the new resolver to only pour in after the resolver is the default (because that's what people do), but we won't be able to fix any of those (for Python 2) if we're dropping support immediately after it. One way to do this may be to maintain a Python 2-only 20.x branch for a short while in parallel with 21.x.
+        - They\'d be 20.3.\* bugfixes?
+- UI cruft
+  - Paul: \"Is there a specific name for the sort of technical debt that means we\'ve got a load of crap in the user interface that should never have been there, we should tidy up and rationalise, but we\'ve never had the chance to? \"Backward compatibility\" doesn\'t seem strong enough to express my distaste for some of the user-facing junk pip has accumulated over time\...\" [https://python.zulipchat.com/#narrow/stream/218659-pip-development/topic/Current.20Resolver.20Behaviour/near/197513195](https://python.zulipchat.com/#narrow/stream/218659-pip-development/topic/Current.20Resolver.20Behaviour/near/197513195)
+
+  - Paul says: this came up because there\'s \-- the \--force-reinstall flag imples \"update\" and the only reason for that is, historically, people got bored of writing \"update force reinstall\" so someone decided to abbreciate it, but what it does in reality does not match what a reasonable person would expect! hallway tested with a person who agreed with Paul.
+
+  - Georgia: +100.
+    - \"UI cruft\" is a reasonable term. Allowed. This is something that Pradyun & Bernard & G & TP were talking about, looking through logic of a number of flags, shortcuts, etc. there are a few places, in overall info architecture of CLI, overlap and lack of clarity, led to cruft you are talking about. That\'s \-- high-level overall project. We\'re working on that this year. Absolutely
+
+    - +1 from Bernard - creating a [GitHub](./GitHub.html) issue - \"make foo does what it says it does\"
+
+  - CALL IT UI CRUFT. IT IS DECIDED.
+    - \"information architecture of the CLI\" is a \.... broader thing Simply Secure is working
+    - (yay!)
+
+  - Paul: this fits with question of bug compatibility in the new resolver. Don\'t want to suggest a HUGE rewrite of UI just to avoid rrewriting. balancing act
+- Current resolver failures - Ilan\'s work
+  - [https://hackmd.io/TkGB1hPQTcu9y_4JwAtGyA?view](https://hackmd.io/TkGB1hPQTcu9y_4JwAtGyA?view)
+
+    - is this something the team will update as we go?
+
+    - TP and Pradyun will update it once a while to see where we are for new resolver, try to decide whether we can drop some because they depend on a bug in the old resolver.
+
+    - Pradyun: I think the reason we decided to have this list & freeform text around tests - we had some discussions about grouping roughly, and never actually put it down in a structured form to reference later. Right now this is a replacement for the Trello board which did not work well. I don\'t expect Bernard or Georgia or anyone else to need to look at this
+
+    - Ilan - does this help you write more tests?
+      - I didn\'t do a lot of work this week; added one more big set of packages am now going to write test cases for. Part of PR 8194. It would be good for me to focus on the testing of the error messages.
+        - Pradyun: Ilan can keep testing the error messages. Based on conversation among Pradyun, Bernard, and Georgia?Nicole? based on \... from users, Ilan comes up with stuff from his experience, \.... continue with that.
+
+        - Ilan will focus on testing of error messages. Can do more work on testing error messages this week. Haven\'t actually done testing of error messages yet. just been ignoring error messages so far.
+
+        - TODO: Pradyun to follow up.
+
+        - Paul says: look more closely at error messages.
+
+        - Ilan: I made error messages for doc, haven\'t incorp those into the testing itself. I don\'t check currently for what the output of those error messages is.
+
+        - TODO: Pradyun & Paul to follow up
+
+TO ADDRESS IN SEPARATE CONVERSATIONS:
+
+- PubGrub discussion update! (not doing that) - we are not doing PubGrub. Please link to explanation
+
+- \"Release beta of resolver in May?\" [https://github.com/pypa/pip/issues/8206](https://github.com/pypa/pip/issues/8206)
+
+- UX team & outputs
+
+- Slight changes to tests for new resolver \-- new pytest option \-- \@llan!
+
+- Talk about timing of rollout (20.2/20.3 question)
+
+- Day off - to get scheduled within the next few days \... take a shared day off by the end of May

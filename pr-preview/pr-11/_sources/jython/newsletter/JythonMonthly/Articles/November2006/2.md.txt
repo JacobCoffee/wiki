@@ -1,0 +1,166 @@
+# Jython Monthly / Articles / November 2006 / 2
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Jython and SOAP Example 
+
+*Submitted by Claude Falbriard*
+
+I´ve integrated the APACHE SOAP package which provides a simple client for SOAP protocol. The sample program, listed below, delivers a \"Currency Converter\" in real-time . The webservice is available for public access from a site called: [xmethods.net](http://www.xmethods.net).
+
+The APACHE \"soap.jar\" library, was downloaded from [Apache](http://ws.apache.org/soap) and goes into the /ext directory of the application server.
+
+### Sample - Currency converter using SOAP 
+
+Type the name of two countries (english). Result: Conversion rate between two given countries.
+
+Public webservice provided by : [xmethods.net](http://www.xmethods.net)
+
+    from java.lang import * 
+    from java.net import URL 
+    from java.io import IOException 
+    from java.io import PrintWriter 
+    from java.io import Writer 
+    from java.util import Vector 
+    from java.util import Properties 
+    from java.util import Locale 
+    from java.util import ArrayList 
+    from java.text import NumberFormat 
+    from time import time, ctime 
+    from javax.servlet import ServletException 
+    from javax.servlet import http 
+    from javax.servlet.http import Cookie 
+    from javax.servlet.http import HttpServlet 
+    from javax.servlet.http import HttpServletRequest 
+    from javax.servlet.http import HttpServletResponse 
+    from org.apache.soap.util.xml import * 
+    from org.apache.soap import * 
+    from org.apache.soap.rpc import * 
+    from java.lang import String as javaString 
+
+    class SOAPCurrency(http.HttpServlet): 
+      head = "<head><title>SOAPCurrency</title></head>" 
+      title = "<center><H2>%s</H2></center>" 
+
+      def doGet(self,req, res): 
+        res.setContentType("text/html; charset=iso-8859-1") 
+        out = res.getWriter() 
+            
+        out.println('<html>') 
+        out.println(self.head) 
+        out.println("<body background='papyrus.gif' text='DimGray'>") 
+        out.println("<h2>Currency Converter</h2><br>") 
+        out.println("<form method=\"POST\" action=\"" + 
+                                      req.getContextPath() + req.getServletPath() + "\">") 
+        out.println("Country1: <input type=\"text\" name=\"country1\" value=\"\"><br>") 
+        out.println("Country2: <input type=\"text\" name=\"country2\" value=\"\"><br>") 
+        out.println("URL:&nbsp;&nbsp;&nbsp;&nbsp; <input type=\"text\" name=\"endpointURL\" value=\"http://services.xmethods.net:80/soap\"><br><br>") 
+        out.println("<input type=\"submit\" value=\" Get \"><br>") 
+        out.println("</form>") 
+        out.println("<font size='-1'>") 
+        out.println('<i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;') 
+        out.println('powerd by: Java, Jetty and Jython<i><br><br>') 
+        out.println('<i>by: IBM Brazil, dept.: GS AMS, autor: Claude Falbriard, version: 1.0 <i></font><br>') 
+        out.println("</font>") 
+        out.println('</center></body></html>') 
+        
+      def doPost(self, req, res): 
+        res.setContentType("text/html; charset=iso-8859-1"); 
+        out = res.getWriter() 
+
+        try: 
+           out.println('<html>') 
+           out.println(self.head) 
+           out.println("<body background='papyrus.gif'>") 
+           out.println("<font face='verdana' color='DimGray' size='-1'>") 
+           out.println(self.title % "SOAPCurrency - reply") 
+                
+           # read Post 
+           # SOAP provider 
+           url = req.getParameter("endpointURL") 
+           System.out.println("endpointURL = " + url) 
+           if url == None or len(url) == 0: 
+               # use hardcoded SOAP provider 
+               url = "http://services.xmethods.net:80/soap" 
+           endpointURL = URL(url) 
+           country1 = req.getParameter("country1") 
+           country2 = req.getParameter("country2") 
+           System.out.println("country1 = " + country1) 
+           System.out.println("country2 = " + country2) 
+            
+           # Initialize pseudo-constants 
+           encodingStyleURI = Constants.NS_URI_SOAP_ENC 
+           soapAction = "" 
+              
+           # Create call 
+           call = Call() 
+            
+           # Service uses standard SOAP encoding 
+           encodingStyleURI = Constants.NS_URI_SOAP_ENC 
+           call.setEncodingStyleURI(encodingStyleURI) 
+            
+           call.setTargetObjectURI("urn:xmethods-CurrencyExchange") 
+           call.setMethodName("getRate") 
+            
+           # Create input parameter vector 
+           params = Vector() 
+           myString = javaString("") 
+           params.addElement (Parameter("country1", myString.class, country1, None)); 
+           params.addElement (Parameter("country2", myString.class, country2, None)); 
+           call.setParams(params) 
+            
+           # Send the start of the response 
+           response = call.invoke(endpointURL, soapAction) 
+                
+           # Print response 
+           if response.generatedFault() == 1: 
+               fault = response.getFault() 
+               out.println("SOAP call generated a fault: " + fault.toString()) 
+           else: 
+               result = response.getReturnValue() 
+               float_value = result.getValue() 
+               value_str = str(float_value) 
+               out.println("Current rate for " + country1 + " " + country2 + " is " + value_str) 
+            
+           out.println("</BODY></HTML>") 
+           out.close()   
+           System.out.println("SOAPCurrency.py - end of query ")
+              
+              
+        # Catch - SOAP exception 
+        except SOAPException, e: 
+             errorfound = String.valueOf(e) 
+             errorfound_str = str(errorfound) 
+             out.println("<BR>SOAP exception: " + errorfound_str) 
+             out.println("<BR></BODY></HTML>") 
+             System.out.print("SOAP exception: " + errorfound_str) 
+             out.close()   
+              
+        # Catch Java Exceptions 
+        except Throwable, e: 
+             errorfound = String.valueOf(e) 
+             errorfound_str = str(errorfound) 
+             out.println("<BR>Java exception error " + errorfound_str) 
+             out.println("<BR></BODY></HTML>") 
+             System.out.print("Java exception error " + errorfound_str) 
+             out.close()     
+                      
+            # Catch Jython Exceptions 
+        except Exception, e: 
+            errorfound = String.valueOf(e) 
+            errorfound_str = str(errorfound) 
+            out.println("<BR>Jython run-time exception error " + errorfound_str) 
+            out.println("<BR></BODY></HTML>") 
+            System.out.print("Jython run-time exception error " + errorfound_str) 
+            out.close() 
+                
+            # Catch unexpected errors   
+        except: 
+            System.out.print("Unexpected Python language error:") 
+             out.println("Unexpected Python error:") 
+             out.close() 
+             raise     

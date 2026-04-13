@@ -1,0 +1,119 @@
+# Packaging/2020-02-20-pip
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## pip Team Meeting 
+
+Thursday, 20 Feb 2020
+
+Participants: Sumana, Ilan, Pradyun, Bernard, Tzu-Ping, Paul
+
+General TODO: Sumana: consolidate and post past notes (will do this on Friday)
+
+### Test case formats 
+
+- Ilan has been looking at the existing tests in pip, written in pytest (nice, useful functionality), can run units, integration tests. Running the whole tests suite with tox takes a long time \~ 1 hour on Ilan\'s machine.
+- Depends on how your dev. env. is setup. If you\'re working on something \"smaller\", you can get away with running fewer tests.
+- CI runs \*all\* tests on all the various platforms and combinations.
+- Ilan recommendations: pytest is fine.
+- TzP: Asking Ilan - I\'m not sure if you\'ve looked at the test helpers, currently a lot of tests are run in a subprocess. (Ilan: yes, I\'ve seen it) That\'s one thing that makes things slower.
+- TzP: Do you have some advice to avoid the subprocess slowdown issues?
+- Ilan: It\'s good to run pip in a subprocess for some tests; but the number of tests that run in a subprocess is very large. It might be possible to run some of these tests differently (like unit tests - for functions / classes / etc, testing differnet invocations). Makes sense, but not to the extent it\'s done today.
+- Paul: I agree, it\'d be good if we could do more testing without subprocesses. One of the diffuculties is we don\'t really have a \"clean\" API for testing \-- there\'s no supported way to call pip\'s internals \-- and the internals written in a fairly tangled and pre-condition-sensitive conditions. If we\'re going to more towards testable subfunctions, what refactoring do we have to do? I am hiting the same problem (trying to call a function and having to setup a lot of infrastructure to do this). Any suggestions on how to get to that position?
+- Ilan: That\'s a good question \-- you can get there by organizing the code in a better way, and making modules and certain functionality in pip easier to run by themselves.
+
+Sumana: Refactoring is a good long term goal, but we need something to work on in the next few months as well. Let Ilan write a few tests for pip?
+
+Resolver-specific test cases to look at & review:
+
+- Recent pip tests: [https://github.com/pradyunsg/pip/tree/resolver/make-it-inside/tests/yaml/](https://github.com/pradyunsg/pip/tree/resolver/make-it-inside/tests/yaml/)
+
+- Recent resolvelib tests: [https://github.com/sarugaku/resolvelib/tree/master/tests](https://github.com/sarugaku/resolvelib/tree/master/tests)
+
+Sumana said: I think Ilan needs to spend like 1-4 hours actually adding a new test and then coming back to us to give more thoughts\.... What do you think?
+
+### Timeline of the resolver\'s rollout 
+
+- revising Paul\'s draft announcement at [https://gist.github.com/pfmoore/4034f6077e5f97fbe1a056078ca8f353](https://gist.github.com/pfmoore/4034f6077e5f97fbe1a056078ca8f353)
+
+- TP: I don\'t have a good idea of how the refactoring has progressed \-- I might have a feel for it in a day or two.
+
+- Paul: feeling is if things go well it\'s achievablle, I don\'t have a feel for how things will go. We are in a phase of trying to figure out how to merge the 2 abstractions - he has ideas on how pulling apart the install requirements could work. Getting code will be the proof. In a week he\'ll have a better idea.
+
+- Bernard: usability testing of the pip resolver?
+
+- Paul: it\'s an open question, we haven\'t figured out the details of. How we transition, how we report output, how we
+
+- Bernard: we might want to have a call about the \"user centric\" design discussions.
+
+- Paul: we want to have this happen
+
+- TODO: Figure out who can be the person on the dev side, to have
+
+- Bernard: happy to run tests on alphas \-- to bounce ideas off of.
+
+- Someone can download \"super bleeding edge\" from a repo branch
+  - Pradyun: my estimate is mid-march for this.
+  - Paul: Agree with timeline. The concern is getting eyes on code. As we start refactoring, will there be a review bottleneck? Can we gentlely remind Chris Hunt to do reviews?
+  - Pradyun: Paul, Pradyun and TzP should be enough but Chris would be good too.
+
+- Someone who is downloading an easily installable beta , e.g. via pip install?
+  - Pradyun: 2nd half of April
+
+- TODO: Ping Ernest about possibility of getting Warehouse metadata API anytime soon
+
+\[Second part of meeting \-- Sumana and Bernard left meeting\]
+
+Participants: Paul / Pradyun / Tzu-Ping / Ilan
+
+### Dealing with metadata 
+
+- Pradyun: Ilan, can you give advice on how to deal with bad metadata - to give users some mechanisms how to deal with them.
+
+- Ilan: Metadata comes from [PyPi](./PyPi.html), sourced from devs who upload packages. conda approach is to have 1 file for metadata. There isn\'t an equivalent in pip.
+
+- Pradyun: There is infrastructure for the tests.
+
+- Ilan: Had a different though \-- PyPI has a separate interface for metadata (XMLRPC), we could add depedency metadata to that.
+
+- Paul: The issue with that is that we still have to support [DevPi](./DevPi.html), etc \-- which doesn\'t have this richer information. We might still hit issues with this, becuase some of the metadata is dynamic. We struggle to put too much dependence on the static-metadata plans. For this piece of work, we\'ll have to treat that getting-dependency-metadata will be expensive. We\'re going to live with that constraint.
+
+- Ilan: I know that this has been a very difficult problem for conda in the past. If we take everything installed in your environment, the error message wouldn\'t be very useful (it\'s say incompatible dependencies) and IDK how well conda does it today.
+
+- Pradyun: Wou {\...}
+
+- Ilan: I\'m aware that it\'s a problem, and it\'ll certainly depend on the type of resolver being used. It\'s an area where we can learn from the mistakes made in conda.
+
+- TzP: Does conda\'s curation of packages help with avoiding the diamond problem?
+
+- Ilan: We were indeed curating the depedndcy data, and we had the ability to change the deps info as well; but there are so many thousands of packages w/ diff versions and it\'s hard to test all combinations; to make sure everythong works together. With conda-forge, which has an even larger numebr of packages, things are worse there.
+
+- TzP: I guess that\'s an unavoidable problem.
+
+### Refactoring in pip 
+
+Paul: Ticked off all of the ideas that Chris wrote in Zulip. Waiting on Chris for reviews.
+
+(Later)
+
+Actually, (4) is still not done - `"n pip._internal.cli.req_command.RequirementCommand.populate_requirement_set`{.backtick}, populate a list with the ParsedRequirement from above instead of populating a RequirementSet with InstallRequirement - then this code can be common for both resolver initializations\" It\'s a follow-on from (3) so I can look at it when that\'s landed. And I\'ve not even touched (5) - \"move the downloading out of `pip._internal.operations.prepare.RequirementPreparer`{.backtick}\". I\'m not even sure what this one means, it sounds like a backward step to me making the individual commands do more work. Need clarification from Chris on this one. I\'m not actually sure how it will help the resolver, so I\'m not giving this priority at the moment.
+
+BTW, eww, this colour that got assigned to me is really ugly ![:-)](/wiki/europython/img/smile.png%20":-)")
+
+- Sumana notes: you can click on your colour (next to your name) in Etherpad and change it!
+
+Finder is easy to work with (yay refactoring Chris Jerdonek)
+
+The \"get all dependcies\" might be where all issue might be?
+
+get_abstract_dist \-- call the preparer
+
+(all of us stopped taking notes \~3 minutes into the refactoring discussion.)
+
+- TODO: Let pip committers know that we added Tzu-Ping to \"pip Helpers\" and changed the permissions of \"pip Helpers\" to Write. \-- Paul
+
+- TODO: Tell GitHub about the Triage permissions not including Project board access. \-- Pradyun

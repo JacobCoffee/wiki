@@ -1,0 +1,60 @@
+# Jython Monthly / Articles / July 2006 / 2
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Standalone mode - Libraries included 
+
+Jython has now a standalone mode, where the core part is all included in one single `jython.jar`{.backtick} file. This has two advantages:
+
+- simpler starting: `java -jar jython.jar`{.backtick}
+
+- simpler embedding: just put `jython.jar`{.backtick} onto your classpath. No setting of `python.home`{.backtick} nor `python.path`{.backtick} required.
+
+This really adds a Plug & Play feature to Jython.
+
+There is a preview available: [snapshot build](http://homepage.sunrise.ch/mysunrise/ohumbel/2837/jython_snapshot.jar), and an overview of the [test results](http://homepage.sunrise.ch/mysunrise/ohumbel/)
+
+A sample install and run session, after downloading `jython_snapshot.jar`{.backtick}:
+
+    [root@localhost downloads]# java -jar jython_snapshot.jar -s -d /tmp/jython_standalone -t standalone
+    Performing silent installation
+     10 %
+     20 %
+     30 %
+     40 %
+     50 %
+     60 %
+     70 %
+     80 %
+    Packing standalone jython.jar ...
+     90 %
+     100 %
+    Congratulations! You successfully installed Jython HEAD to directory /tmp/jython_standalone.
+
+    [root@localhost downloads]# cd /tmp/jython_standalone/
+    [root@localhost jython_standalone]# ls
+    jython.jar
+
+    [root@localhost jython_standalone]# java -jar jython.jar 
+    *sys-package-mgr*: processing new jar, '/tmp/jython_standalone/jython.jar'
+    *sys-package-mgr*: processing new jar, '/usr/java/jre1.5.0_07/lib/rt.jar'
+    *sys-package-mgr*: processing new jar, '/usr/java/jre1.5.0_07/lib/jsse.jar'
+    *sys-package-mgr*: processing new jar, '/usr/java/jre1.5.0_07/lib/jce.jar'
+    *sys-package-mgr*: processing new jar, '/usr/java/jre1.5.0_07/lib/charsets.jar'
+    *sys-package-mgr*: processing new jar, '/usr/java/jre1.5.0_07/lib/ext/sunjce_provider.jar'
+    *sys-package-mgr*: processing new jar, '/usr/java/jre1.5.0_07/lib/ext/localedata.jar'
+    *sys-package-mgr*: processing new jar, '/usr/java/jre1.5.0_07/lib/ext/sunpkcs11.jar'
+    *sys-package-mgr*: processing new jar, '/usr/java/jre1.5.0_07/lib/ext/dnsns.jar'
+    Jython 2.2a1 on java1.5.0_07 (JIT: null)
+    Type "copyright", "credits" or "license" for more information.
+    >>> import sys
+    >>> sys.path
+    ['', '/tmp/jython_standalone/.', '/tmp/jython_standalone/./Lib', '/tmp/jython_standalone/jython.jar/Lib']
+    >>> import getopt
+    >>> 
+
+One Open issue: the cachedir problem still remains. If the directory containing `jython.jar`{.backtick} is not writable, no cachedir will help importing java classes. This is a well known problem also persistent in non-standalone mode. We try to improve this in standalone mode.

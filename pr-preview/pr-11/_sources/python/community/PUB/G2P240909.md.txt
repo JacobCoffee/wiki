@@ -1,0 +1,125 @@
+# PUB/G2P240909
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+This PUN is organized by [Go2People](http://www.go2people.nl/) and held on september 24th 2009 starting from 19:30 (unless you want to join in on a couple of us having diner! then it\'s from 18:00) the venue is the Beurs van Berlage, see: [this maps on ur googlez](http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=113734030107816322248.0004524d0124bc1cf28f6&ll=52.377905,4.929085&spn=0.13539,0.363235&z=12)
+
+#### Summaries 
+
+Read summaries of the evening by [Reinout](http://reinout.vanrees.org/weblog/2009/09/25/pun-amsterdam-2009.html) and [Maurits](http://maurits.vanrees.org/weblog/archive/2009/09/pun-meeting).
+
+### Route 
+
+Will be posted here and on the mailing list once the location is definitive
+
+### Agenda 
+
+#### Presentations 
+
+2 half an hour slots
+
+in particular order:
+
+- Phatch 0.2 (Stani)
+
+- Python / MonetDB ([Gijs Molenaar](http://gijs.pythonic.nl))
+
+#### Lightning talks 
+
+5 five minute slots
+
+- Jasper Spaans: [PyCuda](./PyCuda.html): wat, waarom, hoe, toekomst
+
+- Wim Feijen: [Piccolo CMS](http://www.go2people.nl/page/piccolo-cms/)
+
+- Wim Feijen: [bzr](http://bazaar-vcs.org/) (versioning) en evt. [github](http://github.com) (social coding)
+
+- Remco Wendt: python libraries that everyone needs to checkout. 5 minutes for the crowd!
+
+- [Tim Molendijk](../../people/TimMolendijk): Debugging tactics in Python/Django
+
+- Maurits van Rees: international emails
+
+- \... you?
+
+## Attendee list 
+
+If you plan to attend please leave your name here:
+
+- Simon Hildebrandt
+
+- [Remco Wendt](http://www.maykinmedia.nl)
+
+- Maurits van Rees
+
+- [Kuno Woudt](../../archive/warp)
+
+- [ReinoutVanRees](../../archive/ReinoutVanRees)
+
+- [Niels van Dijk](http://www.leukeleu.nl/)
+
+- [Bart Heesink](http://www.leukeleu.nl/)
+
+- [Dennis Bunskoek](http://www.leukeleu.nl/)
+
+- Jasper Spaans
+
+- [Tim Molendijk](../../people/TimMolendijk) (eet graag mee)
+
+- Alex de Landgraaf
+
+- [Wim Feijen](http://www.go2people.nl)
+
+- Freark van der Bos
+
+- Floris van Manen
+
+- Hans Odijk
+
+- [Guido Kollerie](http://kollerie.wordpress.com/)
+
+- [Jan Schlatter](http://www.go2people.nl)
+
+- [Roel Blaauboer](http://www.go2people.nl)
+
+- Bas van Oostveen
+
+- [Ivo van der Wijk](http://www.m3r.nl/)
+
+- [Gijs Molenaar](http://gijs.pythonic.nl)
+
+- Arjan Nusselder
+
+- [Jelmer Vernooij](http://samba.org/~jelmer)
+
+- [Klaas van Schelven](http://www.legalsense.nl) (ook eten. maar pas om 18:30)
+
+- [Bram Braakman](http://www.legalsense.nl) (ook eten. maar pas om 18:30)
+
+- Stephan Preeker
+
+- Conrado Buhrer
+
+- Paul Koppen
+
+- Marijn Vriens
+
+- Jasper Op de Coul
+
+- Sylvain Viollon
+
+- [Guyon Moree](http://www.gumuz.nl/)
+
+- Vincent Pretre
+
+- Rob Tiggelman
+
+- Rene Harmsen
+
+- Thijs Coenen
+
+- [Joeri Bekker](http://www.maykinmedia.nl)

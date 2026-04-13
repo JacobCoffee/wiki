@@ -1,0 +1,147 @@
+# Packaging/2020-03-12-pip
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Mini-syncup, 12 March 2020 
+
+Paul, Pradyun, Tzu-Ping
+
+- Timezones are fun!
+
+- Paul: I think I might be throwing away a lot of code and having another go at it. My head might be exploding.
+
+- TP: Welcome to the club.
+
+- Paul: \[note taker not fast, Paul not finding it easy to work with extras\]
+
+- Paul: Communicating extras in `requirement-candidate`{.backtick} in resolvelib.
+
+- Drop extras for now, ship an \"alpha\" for UX testing?
+  - EVERYONE AGREES! YAY!
+
+- Paul: got the bits to put things together; actually writing code instead of throwing away half-written code.
+
+- Paul: smaller PRs vs bundling Provider-Candidate PR?
+  - It\'s all good; bigger PRs are fine (since boilerplate code for tests might be a bit much).
+  - Structure the (large) PR in smaller commits
+
+- TP: vendoring resolvelib?
+  - Ok to do \-- pin to a commit / tag.
+
+- TP: after this, I can write the resolver / requirement interaction.
+  - Need work from Paul
+  - Paul needs to find a way to \.... maybe publish some bits of code on gist or similar\.... a chance to see inside Paul\'s head. Trying to write in prose on Zulip, but don\'t want to end up flooding us with everything.
+  - Paul will write some notes on Zulip for TP to use. He understands TP\'s point. Wants to be able to keep install req as separate from resolvlib classes as possible. But if we want dependencies, we have to do a prepare. \.... candidate? \... eagerly on every candidate. If we ever want to be able to inspect things \.... have to have a hook in the candidate which, when it wants to get dependencies or name of version, can call out to the thing that is managing install reqs, and say, \"gimme the distribution object now\"
+  - Paul has just now finalized what\'s in his head into a design. Will write that up. Paul to work on classes.
+  - TP to work on that side of it.
+  - Re cloning install requirements: Paul has gotten further in thinking about that. It\'s a horrible dark art! The reason you were getting source directory errors: you are only allowed to have a src dir on an editable requirement?? \[disbelief, groans, laughs\]
+    - the place to look: the constructor for editable from line, the constructor for a noneditable req for line, the parameters they supply are ONLY SLIGHTLY DIFFERENT. Only editables get a src dir.
+  - TP: So what does src dir do? Thought it meant \.....
+    - Paul: for an editable, this is where the code is. For a sdist or URL, it\'s empty when you create the thing, but later, when you prepare it, it\'s (inaudible). So if you clone it after that point, you get a duplicate.
+    - \[gratitude that Paul has been initiated into this, Pradyun is not ALOOOOONE\]
+  - Effect on bus factor etc.
+
+## Team meeting 
+
+Team syncup, 12 March 2020
+
+Participants
+
+- Paul
+- Tzu-Ping
+- Pradyun
+- Sumana
+- Georgia
+- Bernard (not Voldemort)
+
+Agenda
+
+- Invoices
+
+- Blockers?
+
+- PyCon Plans and COVID-19
+
+- UX team findings
+
+**Invoices**
+
+Pradyun has not yet submitted invoice for Jan/Feb. waiting for accountant \.... Sumana says, separate Jan from Feb.
+
+- TODO: Pradyun: Ask PSF accounting what date to put on each invoice.
+
+**Blockers**
+
+Paul:
+
+- not blocked on anything. Was blocking other people maybe; resolved that just now
+
+Tzu-Ping:
+
+- like Paul; blockers just now resolved.
+
+Pradyun:
+
+- not blocked on anyone else. But having trouble with English \[writing documentation\]. Trying not to rewrite same sentence over and
+  - get bullet points out, timebox, \"get a lot of stuff out in the next 30 min, THEN do an editing pass\"
+  - might ask out of band for more tip/suggestions
+
+Georgia:
+
+- nothing as far as she knows. Just the constantly moving target that is adapting to COVID-19. ![:\\](/wiki/europython/img/ohwell.png ":\") New 50% job of rescheduling everything.
+
+Bernard:
+
+- an obstacle was lack of understanding on progress on the resolver. Am itching to Do Something With Users. But yesterday Paul patiently & helpfully explained a lot of background. What he, Pradyun, & Tzu-Ping, et alia are doing, and how/when Bernard will be able to do testing with resolver. Thank you Paul!!
+
+- He also explained Sumana\'s thread about deadlines, and why it was important to comment on the GitHub issue re the flag.
+
+- Now I can come up with some flags and test them with some users, on how to invoke legacy or not-legacy resolver!
+
+  - Pradyun: we need better names
+    - Bernard: it\'s ok! was following at a high level, now understand deeper.
+
+  but also: PyCon, COVID-19, etc.
+
+Sumana:
+
+- need one more look at [https://hackmd.io/7E6o2kSJRTS6jcIvHAfpIQ?both#what-will-change](https://hackmd.io/7E6o2kSJRTS6jcIvHAfpIQ?both#what-will-change) \-- example ok?
+
+  - Who can check for accuracy?
+    - TP checked. Says it is good.
+      - TODO: Sumana to publish today
+
+- Also: self, errands, etc.
+
+**PyCon & The Virus**
+
+We discussed the new travel bans (Europe (not UK), and India), and how those complicate our situation. It\'s very likely that, by next week, Pradyun will not want/be able to come, in case he can\'t get back home. And Tzu-Ping is in Taiwan, which has been taking aggressive measures, and might ban travel to the US.
+
+From a proximity perspective, Ernest, Georgia, and Sumana can easily go to Pittsburgh at the last minute. So, there is an option to scale back \-- no INTERNATIONAL travel to this particular meeting (that is, default to \"no\" for our international visitors).
+
+And of course we will want details about refunds of travel & accommodations. But we know we\'ll be able to get that sorted out once a decision is made.
+
+**UX findings so far:**
+
+Bernard: so far, we have done interviews with \~7-8 what I\'m calling \"Python maintainers\" (maintainers of various different projects). Tried to talk with them about understanding the Python packaging tools ecosystem, get THEIR understanding of the ecosystem, because there are many diff. tools. Wanted to understand what they are for, if they are categorized in any particular way \-- like \"building\". Wanted to understand issues they see with pip.
+
+Majority of them are about commands:
+
+- pip syntax that is NOT clear to users;
+- not understanding what a pip command does
+- complicated pip outputs, e.g., verbose output, unstructured pip outputs that are a dump of everything but may not actually say what phase of pip usage this has happened in, such as downloading, building, installing, resolving dependencies
+
+Also understanding (initially) - were gonna try to \"onboard\" as pip contributors. Bernard looked through pip contributing documentation on how to install/contrib, but it seemed kind of convoluted and lacking in clear steps (e.g., clone the pip repo, install tox with pip, but in order to do that, needed to install Python, then pip. chicken and egg, which comes first?)
+
+- from talking with maintainers: there was a reluctance to give very clear Step 1,2,3,4 instructions on how to contribute, stemming from: people install & use Python in so many diff ways. But that doesn\'t really help users, espec if I am \"new\" Python user. I need some help. (Sumana will respond on Zulip) (DONE: [https://python.zulipchat.com/#narrow/stream/218659-pip-development/topic/UX.20research.20topics.3A.20onboarding.20new.20contributors](https://python.zulipchat.com/#narrow/stream/218659-pip-development/topic/UX.20research.20topics.3A.20onboarding.20new.20contributors) )
+
+Continuing the UX discussion later:
+
+- Voice call would be best.
+- Not 5/10 minute \-- at least 30 minutes.
+
+(further Questions turned into [https://python.zulipchat.com/#narrow/stream/218659-pip-development/](https://python.zulipchat.com/#narrow/stream/218659-pip-development/) topics )
