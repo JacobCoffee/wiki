@@ -1,0 +1,243 @@
+# Packaging/2020-03-19-pip
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Dev mini syncup 
+
+19 Mar, PM, PG, TPC
+
+- Paul: How do we actually start testing the resolver? At the moment, we have a couple of little tests; other than that, nothing\'s testing it.
+
+- Paul: Ran the whole test suite on the new resolver \-- 135 tests failed. ![:)](/wiki/europython/img/smile.png%20":)")
+
+- Paul: How do we start switching over to the new mechanism?
+
+- Pradyun: Have an allow-failures CI job?
+
+- TP: We can selectively run part of the suite w/ new resolver \-- run only install related tests.
+
+- Paul/TP: See test counts in one place, without needing to click in / scroll through 1000s of lines of logs?
+
+- TP: Pretty sure that we can do that.
+
+- TP: Wondering what we would do next?
+
+- Paul: Current PRs are pretty much ready to go.
+
+- Paul: Going to start looking into adding support for
+  - extras
+    - \"easy\" because we\'re borrowing existing code.
+    - \"difficult\" because it\'s pretty tricky.
+  - already-installed packages
+    - Can bring out nice edge cases/assumptions in the code
+
+- TP: Work on the test setup while Paul's adding stuff
+
+- Handling already installed packages, in the return value of the Resolver.
+
+- Handling build requirement resolution
+  - Effectively making an internal API for \"hey, resolve this set of packages\"
+
+- Project model
+  - We\'re moving closer to it, slowly
+
+  - [https://github.com/pypa/pip/pulls?q=is%3Apr+download+is%3Aclosed](https://github.com/pypa/pip/pulls?q=is%3Apr+download+is%3Aclosed)
+
+  - [https://python.zulipchat.com/#narrow/stream/218659-pip-development/topic/Refactoring.20work.20behind.20the.20resolver.20prototyping](https://python.zulipchat.com/#narrow/stream/218659-pip-development/topic/Refactoring.20work.20behind.20the.20resolver.20prototyping)
+
+    - Paul: would like to be focused on Provider
+    - Pradyun: I can look into this
+
+[https://dev.azure.com/pypa/pip/\_build/results?buildId=20323&view=ms.vss-test-web.build-test-results-tab](https://dev.azure.com/pypa/pip/_build/results?buildId=20323&view=ms.vss-test-web.build-test-results-tab)
+
+[https://github.com/pypa/pip/runs/396903834?check_suite_focus=true](https://github.com/pypa/pip/runs/396903834?check_suite_focus=true)
+
+This is the test failures at the moment [https://gist.github.com/pfmoore/5fc59e04905c6f944b4e99a3d8ef7705](https://gist.github.com/pfmoore/5fc59e04905c6f944b4e99a3d8ef7705)
+
+## Team syncup, 19 March 2020 
+
+Participants
+
+- Paul
+- Tzu-Ping
+- Pradyun
+- Ernest (on call)
+- Sumana
+- Bernard
+
+Agenda
+
+### Invoices 
+
+- Gedam: submitted for Jan/Feb. will submit March one at end of March
+- Atos: Jan/Feb submitted (approved Sumana believes).
+- TP: awarded Golden Apple of Invoices for timely submission of invoices!
+  - TODO: check with Simply Secure re any delays/problems
+- Changeset: submitted Jan and Feb, awaiting payment, will submit March \[TODO: follow up with PSF\.... will be paid close to due date on invoice\]
+  - TODO: start putting a due date on invoices
+
+### PyCon and COVID-19 
+
+- Sumana:
+  - Taking inputs from Ernest on plans
+
+  - It seems extremely unlikely that PyCon US will happen in Pittsburgh.
+
+    - Ernest also said elsewhere that it\'s unlikely a lot of developers would attend PyCon 2020 anyway \[due to travel bans, concerns with travelling etc\].
+
+  - Plan A: Doing something online, to compensate for what we would\'ve done in person \-- online convening, talking w/ users and interaction.
+
+  - Plan B: Not doing anything, cutting out all the untested conf work, and plowing forward on the rest of the work.
+
+  - Attending PyCon is not part of any Plan A/B/C.
+- Ernest:
+  - right now, up to indivs and teams. Low likelihood everyone will be able to come to Pittsburgh\.....
+
+  - new info may happen in next day or 2
+
+  - Most up-to-date info is in most recent PyCon blog post [https://pycon.blogspot.com/2020/03/march-12-update-on-covid-19.html](https://pycon.blogspot.com/2020/03/march-12-update-on-covid-19.html)
+
+  - approaching replacement: this is in flux too. If PyCon is cancelled/rescheduled/stays, we\'ll announce what that looks like \..... good to be having conversations, Ernest cannot make recommendations
+- Sumana:
+  - Simply Secure isn\'t on call right now (UX folks)\... TODO: talk to Simply Secure regarding UX work that would happen/have happened at PyCon, and how/whether to replace it.
+
+  - Worth chatting as a group, about what are things we were looking forward to doing, regarding this work, so that we can explore replacements with this information.
+    - TP: honestly: not sure what to expect at PyCon, nothing particular in mind
+
+    - Paul: similar. wasn\'t going to be available for sprints. was more focused on getting chance to meet people who use pip, talk about what they did with it, packaging summit (not directly related to this work), talk \..... chance to speak to people in a general sense, face to face.
+
+    - Pradyun: similar to Paul, except he was also thinking \-- had some specific folks in mind, like users who we won\'t usually interact with on the issue tracker (eg. \"successful\" users, downstream package managers)
+- Sumana:
+  - We could do what US profs do: Conduct \"office hours\" (drop-in hours). In US university settings, professors hold \"office hours\" where students can come in and talk about coursework, homework difficulties, plans for future study, research questions, etc. Since we wanted to have open ended conversations, with few categories of people. We could do these things in the near future, online, instead of waiting for PyCon US.
+
+    - TP: Concall has a different dynamic from face-to-face communication (which is more relaxed and free-form), and they'll talk about different stuff if we switch format.
+      - So we'll need to think about things more if the goal is to achieve a similar result to what we would have during PyCon.
+
+      - But I'd be happy to join the call if that happens either way
+
+    - Paul: sounds like it could be useful \.... that sort of format would encourage people to come talk about issues they are having. But would also be useful for us to get in touch with people who are NOT having issues! pip is working for them, but they would like it if they could do things a bit more smoothly. That kind of person is hard to get in touch with. Pradyun mentioned that same category of users when discussing PyCon.
+
+      - TODO: talk with Simply Secure about addressing this issue, recruiting conversations with those users \-- DONE in second half of today\'s call
+      - Paul: Similar to TP, I\'d be happy to participate, I think they would be valuable as an exercise anyway
+      - Pradyun: same.
+
+    - Bernard heard about remote office hours \-- has some suggestions on how to do those
+      - a call would be good\..... would be quicker to do in a call \[we decided to do this in the last part of today\'s call; see below\]
+
+### Blockers 
+
+- Pradyun: no blockers really \-- \[discussion of planning integration, talking about maybe working on test frameworks\]
+
+- Paul: not blocked. First implementation of resolver looks like it can go in. merging later today. Managed to install things with it!!!!! Only simple things. Test suite: less than half of it fails!!
+  - \[\"Quite pleased with that\" \<- HUGE COMPLIMENT in British English, Sumana notes\]
+
+  - \"a big achievement we\'ve made to get to that\"
+
+  - now: tackling some bits we have deferred
+
+- Tzu-Ping: we have discussed what Paul and I will do individually in next few days. not blocked by anything
+
+- Sumana: WAS blocked by personal errands, now UNBLOCKED, moving onto announcement & project planning
+
+- Ernest:
+  - TODO for Sumana: a general summary of progress
+
+- Bernard - resolving a lot of dependencies, in a parallel manner, in other work
+  - planning & organizing things, audio or videocall would be best; otherwise, chat stuff, in Zulip.
+
+  - not waiting on anything from anyone. not blocked. Just trying to find hours.
+
+### Drop-in hours/conversation hours for the group (online) 
+
+- Bernard: first question: what is the purpose of this meeting between whoever comes & the team?
+
+- Sumana: \[too fast for note taker\] a few purposes, centering on relationship and content
+  - Relationship: We want people who are dependent on pip to have a relationship with us, and think of us as people, know that we\'re human on the other side, that we care, be more inclined to file bugs / avoid thinking of it as a void. We\'d like them to like us. And we want to get to know them. \[inaudible\] Have laughs, have some of the conversationsal lubricants that make it easier to deal with difficult problems online in the future.
+  - Content: I think we have 2 directions
+    - us to them: tell them things they might not realize (power tips) or other useful context, what\'s happening in Python Packaging \-- these arise more naturally in coversaiton
+
+    - them to us: unknown unknowns + what they want, what they do, what they like etc ([https://en.wikipedia.org/wiki/There_are_known_knowns](https://en.wikipedia.org/wiki/There_are_known_knowns))
+
+- Pradyun: +1 to most of what Sumana said.
+
+- Bernard: summarize & make some suggestions about approaches.
+
+  - part of that is user research + listening to users & finding out what they want, do, issues, etc \..... hearing from community
+
+    - Bernard has strong feelings and suggestions. needs to be in a semistructured way \-- if there\'s no structure, we hear lots of varying different things. not able to quantify whether an issue is big or small.
+    - Paul was asking about users using pip in their CI \-- The topic of our discussion is automated build pipelines. If we want to hear from users, that\'s essentially user research. Want structure in that. Topics/questions. Many ways to do that. Essentially what I\'m doing already. This morning, was interviewing an engineer about their automated CI/CD pipelines, over video call. Next week, will be doing again with a number of people in London. Would strongly welcome anyone who wants to join and listen. Can\'t give dates and times yet. Anything where we want to get feedback from users, want to do it in a structured way. Quantify and prioritize issues.
+
+  - another part: community outreach. the pip team are humans too! we cry when you say our stuff is bad. here\'s what\'s happening in pkging world. engagement/building
+    - SS: I could suggest/we could help with that if necessary & wanted
+
+    - Outreach - more freedom in how to do that.
+
+  - All of this involves users. Users appreciate some level of structure. Why are you talking to me? What do you want to hear from me?
+
+  - There is some decision paralysis in the team, and we don\'t have actionable evidence in order to make decisions. Any research we do with users, any feedback, let\'s do it structured. Can have many topics in a webcall/meeting.
+
+- What do you think?
+  - Concern (Paul): Users wanting to \"vent\" rather than interact/contribute?
+    - Paul: makes sense to me\..... being careful about how we make sure to get value from conversations and don\'t give people the opportunity to just vent; could be quite difficult to deal with; we don\'t want people telling us all the ways that things don\'t work.
+
+    - Bernard: agree. feel your pain & \.... having someone whine in a nonstructured, way\... unproductive \.... waste of time. cathartic but doesn\'t help dev make decisions.
+
+    - having some structure around community outreach is also helpful. it helps people see: they listened to me whining. So what do we need to fix/improve?
+      - need to think about best way to do that\.... also depends on team.
+      - could organize some lighthearted \.... tell us terrible things about pip and we\'ll tell you why they happen! would help people who can understand the prob because of their expertise. \"I did not understand the constraints they were under! my prob is not solved but I now understand why it\'s happening.\" also idea: interactive discussions/workshops\.... could turn it around \.... make a very simple brainstorming exercise\..... 30 peopel on the call. facilitator/moderator. ask: tell your problem, and turn the question around to people who are there. How might we solve this? might get some useful suggestions from folks. In a community, people want to help each other with problems
+
+    - Sumana: What makes you say it\'s a community?
+      - There\'s a community of 20 people who do packaging stuff. \_Those\_ people have a common goal.
+      - The users of pip, as a whole, aren\'t a community \-- it\'s multiple sub-communities.
+
+    - Bernard: I often make the mistake of using word \"community\"
+      - I wasn\'t suggesting that there\'s a 5 million strong community.
+
+      - You mentioned the \~20 person community.
+
+      - Virtual Packaging Summit.
+        - Don\'t see why not.
+        - That\'s gonna be easier to \"wrangle\" together.
+
+      - In terms of PyCon / community outreach
+
+        - Don\'t see why pacakging related sessions: talk-style (presentations) can\'t be run remotely
+
+    - Sumana: we\'d let PyCon figure that out.
+
+    - Bernard: \[inaudible\]
+
+    - Bernard: All of these are my short-period of thought ideas.
+      - There is an opportunity to do research at the end of these sessions.
+      - Happy to help w/ community stuff/outreach.
+
+    - \"Epic blocker\": What is the purpose of our interviews?
+      - \[see point Bernard made about need for structure in user research conversations\]
+
+    - Sumana: Bernard encouraged other members of the team to start attending the user research as observers.
+      - Pradyun: Interested!
+      - Paul: Interested!
+      - TP: Interested!
+
+    - Sumana: thinking about setting up a little socializing online with a few other packaging people about, like, books or something else non-pip-related
+  - Question (Pradyun): unknown unknowns \-- how would we deal with them in the semi-structured user research?
+    - TODO: bring this up on Zulip \-- DONE
+  - Question/Suggestion (Paul): Packaging community \"virtual meetup\" - integrate this work with \"the rest of the packaging people\"
+    - Resolver team have limited interaction w/ pip team, setuptools, etc\... It would be nice to get to meet all of these folks, to put a face to the name.
+      - TODO: Paul, let\'s talk (Paul & Pradyun & Sumana) on Zulip to generate a list of names/teams/projects and invite them in small batches to some calls
+
+### TODO followups 
+
+- Sumana: check with Simply Secure re any delays/problems in invoice payment
+
+- Sumana: start putting a due date on invoices
+
+- Sumana: give Ernest a general summary of progress/project status
+
+- Sumana: talk with Paul & Pradyun on Zulip to generate a list of names/teams/projects elsewhere in packaging, and invite them in small batches to some calls
+
+- Simply Secure: talk with team regarding UX work that would happen/have happened at PyCon, and how/whether to replace it.

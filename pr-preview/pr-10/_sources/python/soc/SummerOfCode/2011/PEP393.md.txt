@@ -1,0 +1,207 @@
+# Summer of Code / 2011 / PEP 393
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+SummerOfCode/2011/PEP393
+
+## PEP 393 --- Flexible String Representation 
+
+This document serves as the documentation for the initial implementation of [PEP 393](http://www.python.org/dev/peps/pep-0393/) during the Google Summer of Code 2011. The project\'s repository is hosted on [bitbucket in the pep-393 branch](https://bitbucket.org/t0rsten/pep-393).
+
+PEP 393 proposes to change Python\'s unicode string representation so that strings use a flexible character size and require only minimum necessary space to store. Strings containing only Latin-1 code points will use 1-byte wide characters, strings which contain code points with values less than 65536 will require 2-byte characters and all other ones 4-byte characters.
+
+Please see the [PEP document](http://www.python.org/dev/peps/pep-0393/) for details on the rationale and the proposed approach. The [announcement email on python-dev](http://mail.python.org/pipermail/python-dev/2011-January/thread.html#107641) also gives some more context information.
+
+### Implemented Features 
+
+During the Google Summer of Code all the changes to Python\'s structures and additional functions which have been specified in the PEP have been implemented. The update for the GDB debugging hooks is missing currently, though.
+
+New unicode objects are now allocated in one memory block instead of two. Previously one block was used for the struct and another for the unicode buffer.
+
+PEP 393 supports two string representations, the legacy Py_UNICODE representation and a new flexible representation. The patch is source code compatible with previous API, but using the legacy representation can be less efficient now because the Py_UNICODE representation might have to be computed on demand.
+
+The interpreter startup has been profiled and the most called functions for the interpreter start have been ported to the new unicode representation. Currently there are still about 3000 old representations being created for a startup and 200 old strings are created while about 62000 strings in the new representation are being created.
+
+Currently all unit tests besides test_packaging (which is also broken in the default branch) pass with the applied patch.
+
+### Changed Paradigms 
+
+Besides the changes which are already outlined in PEP 393, such as conversion to the old representation through PyUnicode_AsUnicodeSize(), the following paradigm changes take place when working with the new flexible string representation instead of Py_UNICODE buffers:
+
+1.  To access a string, it is not possible to access a string directly via C\'s vector operator. Instead use the PyUnicode_READ() macro or one of the PyUnicode_1BYTE_DATA(), PyUnicode_2BYTE_DATA(), or PyUnicode_4BYTE_DATA() macros. Use PyUnicode_KIND() to check for the string kind and PyUnicode_DATA() to access the data buffer.
+
+2.  Functions which are passed strings should call PyUnicode_FAST_READY() to ensure the canonical representation is initialized.
+
+3.  Use a for-loop with index based access instead of pointer based access to access all characters of a string. This sample code shows the above three methods in action:
+
+<!-- -->
+
+        int kind;
+        void *data;
+        Py_ssize_t i, size;
+        if (PyUnicode_FAST_READY(unicode_obj) == -1)
+            return NULL;
+        kind = PyUnicode_KIND(unicode_obj);
+        data = PyUnicode_DATA(unicode_obj);
+        size = PyUnicode_GET_LENGTH(unicode_obj);
+        for (i = 0; i < size; ++i) {
+            Py_UCS4 ch = PyUnicode_READ(kind, data, i);
+        }
+
+4.  PyUnicode_GET_LENGTH() returns the length of the canonical representation. Calling PyUnicode_GET_SIZE() will generate the legacy representation on demand and returns it\'s size.
+
+5.  Since Py_UNICODE might be 2 bytes only (depending on sizeof(wchar_t)), use Py_UCS4 to store individual characters.
+
+6.  The new preferred way of UTF-8 encoding unicode objects with custom error handlers from C code is now
+
+<!-- -->
+
+        PyObject *utf8 = PyUnicode_AsEncodedString(u, "utf8", "surrogatepass"); 
+
+instead of
+
+        PyObject *utf8 = PyUnicode_EncodeUTF8(PyUnicode_AS_UNICODE(u), PyUnicode_GET_SIZE(u), "surrogatepass");
+
+7.  Resizing strings is discouraged, because new unicode objects are allocated in one memory block and only Py_UNICODE representations are resizable. Resizing is however stil possible for unicode objects which were allocated using the old API such as PyUnicode_FromUnicode(NULL, len) and is used for error handlers in several locations for convenience.
+
+8.  Some functions such as PyUnicode_FromFormatV() and PyUnicode_DecodeUTF8Stateful() do an additional pre-processing step to calculate exactly how much space is required for the new string to avoid resizing.
+
+9.  It is possible to check if a string is ASCII only in constant time now with a check if `PyUnicode_MAX_CHAR_VALUE(u) < 128`.
+
+10. The autoconf script was changed. Py_UNICODE is now a typedef for wchar_t, Py_UNICODE_SIZE is the same as SIZEOF_WCHAR_T, and Py_UNICODE_WIDE is set when SIZEOF_WCHAR_T \>=4.
+
+### New Functions and Macros 
+
+New functions are documented in the source code ([diff of the unicodeobject.h header](https://bitbucket.org/t0rsten/pep-393/diff/Include/unicodeobject.h?diff2=pep-393&diff1=default)), but as a overview here are the most important new functions and macros:
+
+PyObject\* **PyUnicode_New**(Py_ssize_t size, Py_UCS4 maxchar)
+
+- Recommended way to create flexible unicode objects. maxchar is the maximum code point value in the newly allocated string. Unlike \_PyUnicode_New(Py_ssize_t size), this function will create a string which is not resizable.
+
+int **PyUnicode_Ready**(PyUnicodeObject \*unicode)
+
+- Return 0 on success and -1 on error. This function expects a string which has only the legacy representation and initializes the canonical representation. Afterwards it discards the Py_UNICODE representation.
+
+int **PyUnicode_FAST_READY**(unicode)
+
+- Return 0 on success and -1 on error. Like PyUnicode_Ready(), but it checks if the string is ready already and if so does not cause a function call.
+
+Py_ssize_t **PyUnicode_GET_SIZE**(unicode)\
+Py_UNICODE\* **PyUnicode_AS_UNICODE**(unicode)
+
+- These two macros continue to work as before and are the preferred method to access the Py_UNICODE representation. They will generate the legacy representation on first use, though.
+
+Py_ssize_t **PyUnicode_GET_LENGTH**(unicode)
+
+- Return the canonical representation\'s length, this might be shorter than the result of PyUnicode_GET_SIZE() if sizeof(wchar_t) is 2 and the string contains surrogate pairs. Also PyUnicode_GET_SIZE() will create the legacy representation whereas this macro will not.
+
+int **PyUnicode_KIND**(unicode)
+
+- Return PyUnicode_1BYTE_KIND, PyUnicode_2BYTE_KIND, or PyUnicode_4BYTE_KIND, depending on the kind of the unicode object. Calls PyUnicode_Ready() if unicode string is not yet ready.
+
+void \* **PyUnicode_DATA**(unicode)
+
+- Return a pointer to the flexible string representation. Calls PyUnicode_Ready() if unicode string is not yet ready.
+
+void **PyUnicode_WRITE**(kind, data, index, value)
+
+- Write into the unicode buffer identified by kind and data at index. The preferred way for per-character write access to a string.
+
+Py_UCS4 **PyUnicode_READ**(kind, data, index)
+
+- Return the code point value at index.
+
+Py_UCS4 **PyUnicode_READ_CHAR**(unicode, index)
+
+- Read a single character from index of unicode object. Use this when you do not want to cache kind and data and only need a few read accesses.
+
+Py_UCS4 **PyUnicode_MAX_CHAR_VALUE**(unicode)
+
+- Return 127, 255, 65535 or 1114111, a upper bound for the maximum character value of a string. This is an approximation and does not iterate over the whole string. Instead this macro checks the kind. This macro allows for constat time checks of the string contains only ASCII characters.
+
+int **PyUnicode_CHARACTER_SIZE**(unicode)
+
+- Returns 1, 2, or 4, the character size use by a string.
+
+int **PyUnicode_IS_COMPACT**(unicode)
+
+- Return 0 or 1 depending on if the unicode object uses two or one (compact) memory block.
+
+void **PyUnicode_CopyCharacters**(PyUnicodeObject \*to, Py_ssize_t to_start, PyUnicodeObject \*from, Py_ssize_t from_start, Py_ssize_t how_many)
+
+- Copies how_many characters from one string into another. If both strings are of the same kind, this results in a memcpy, otherwise values are converted up or down.
+
+### Removed Optimizations and Incompatible Changes 
+
+Some optimizations were removed during the implementation of PEP 393 and some changes are incompatible with previous behaviour:
+
+- The unicode free-list optimization was removed because re-using strings is more complicated with strings which have different representations. Also, the strings in the new representation are not resizable anymore.
+
+- The UTF-8 decoding fast path for ASCII only characters was removed and replaced with a memcpy if the entire string is ASCII.
+
+- ceval.c had a optimization where it would concatenate (+=, +) two strings in-place if possible. This is disabled because resizing strings is not possible anymore.
+
+- PyObject \* \_PyUnicode_AsDefaultEncodedString(PyObject \*unicode) which returned a borrowed reference is deprecated because the defec field is removed from the unicode struct. This function now leaks the the returned PyBytes representation as it is no longer cached in the unicode struct. Use the `char * PyUnicode_AsUTF8()` or `PyObject * PyUnicode_AsUTF8String()` functions instead.
+
+- \_PyUnicode_AsString is #defined as PyUnicode_AsUTF8 and will be supported under the new name. (\_PyUnicode_AsStringAndSize is #defined as PyUnicode_AsUTF8AndSize) PyUnicode_AsUTF8 and PyUnicode_AsUTF8AndSize cache the UTF-8 representation in the unicode struct or return the utf8 field, no memory management is required for the results of these functions.
+
+- Python 3.3 with PEP 393 is not link compatible with 3.2 anymore as the mangling of the unicode symbols is changed. The unicode struct changed anyways, so this is probably a feature to detect incompatibilities.
+
+- \_PyUnicode_New() and PyUnicode_FromUnicode(NULL, size) are the only ways to directly allocate a wstr representation for old functions and to generate strings which support resizes.
+
+- PyObject \* PyUnicode_EncodeUTF8(const Py_UNICODE \*s, size, char \*errors) is deprecated to generate a UTF-8 representation with a custom error handler as it requires the legacy representation. Use PyObject\* PyUnicode_AsEncodedString(PyObject \*unicode, \"utf-8\", char \*errors) instead.
+
+### Performance Measurements 
+
+Initial micro benchmarks show a reduction in CPU and memory for certain ported operations. No comprehensive overall benchmark has been done yet as not all functions are ported to the new representation. Some chains of operations cause the creation of many legacy representations and this unnecessary copying.
+
+The debug build has been instrumented with counters which measure how often certain key functions are being called:
+
+    pep-393$ gdb python.exe
+    (gdb) r
+    Python 3.3.0a0 (pep-393:c603eabf4a52+, Aug 22 2011, 12:17:59) 
+    [GCC 4.0.1 (Apple Inc. build 5493)] on darwin
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> ^Z
+    (gdb) p unicode_as_unicode_calls
+    $1 = 3244
+    (gdb) p unicode_ready_calls
+    $2 = 216
+    (gdb) p unicode_old_new_calls
+    $3 = 263
+    (gdb) p unicode_new_new_calls
+    $4 = 62321
+
+This shows that for a plain interpreter startup there are still 3244 Py_UNICODE representations being created. 62321 strings are created using the new representation and 263 using the old representation.
+
+Additionally, there exists a set of micro benchmarks to test the behaviour of the implementation in a separate [bitbucket repository](https://bitbucket.org/t0rsten/pep-393-bench).
+
+Runníng the measurement script via `./measure.py` produces the following output of measurements. The most impressive one is the join benchmarks which demonstrates CPU and memory reduction at the same time.
+
+    === Results ===
+     access.py with pep-393-release       : CPU_min=0.81904 MEM=5052 KiB
+     access.py with py3k-default-release  : CPU_min=0.86020 MEM=5120 KiB
+
+     concat.py with pep-393-release       : CPU_min=0.19980 MEM=4976 KiB
+     concat.py with py3k-default-release  : CPU_min=0.22005 MEM=4956 KiB
+
+       iter.py with pep-393-release       : CPU_min=0.39217 MEM=5048 KiB
+       iter.py with py3k-default-release  : CPU_min=0.38138 MEM=5120 KiB
+
+       join.py with pep-393-release       : CPU_min=1.89221 MEM=7180 KiB
+       join.py with py3k-default-release  : CPU_min=3.85390 MEM=9208 KiB
+
+I am positive that converting more of Python\'s code base will lead to memory reduction for more benchmarks.
+
+### Future Work 
+
+Most likely next parts of Python to port to the new string representation are:
+
+- stringlib: This mini-library is used by find, index, count, contains/in, etc. and is currently based on the old Py_UNICODE representation. The new flexible representation will allow for many optimizations such as early returns when two strings differ in the maximum character value.
+- \_sre.c / regular expression module: This module already supports a simple version of variable character size, but it currently does not support different sizes for the pattern and the target string.
+
+Profiling actual Python applications for further hot spots for conversions to the old string will lead to further porting targets.

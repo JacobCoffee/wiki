@@ -1,0 +1,59 @@
+backend:
+  name: github
+  repo: psf/wiki
+  branch: main
+  base_url: https://api.wiki.python.org
+
+search: false
+
+media_folder: _static/images
+public_folder: /_static/images
+
+collections:
+  - name: python-wiki
+    label: Python Wiki
+    label_singular: Python Wiki Page
+    folder: python
+    path: "{{dirname}}/{{filename}}"
+    create: true
+    extension: md
+    summary: "{{dirname}}/{{filename}}"
+    editor:
+      preview: false
+    fields:
+      - label: Body
+        name: body
+        widget: markdown
+        modes: [raw, rich_text]
+
+  - name: psf-wiki
+    label: PSF Wiki
+    label_singular: PSF Wiki Page
+    folder: psf
+    path: "{{dirname}}/{{filename}}"
+    create: true
+    extension: md
+    summary: "{{dirname}}/{{filename}}"
+    editor:
+      preview: false
+    fields:
+      - label: Body
+        name: body
+        widget: markdown
+        modes: [raw, rich_text]
+
+  - name: jython-wiki
+    label: Jython Wiki
+    label_singular: Jython Wiki Page
+    folder: jython
+    path: "{{dirname}}/{{filename}}"
+    create: true
+    extension: md
+    summary: "{{dirname}}/{{filename}}"
+    editor:
+      preview: false
+    fields:
+      - label: Body
+        name: body
+        widget: markdown
+        modes: [raw, rich_text]

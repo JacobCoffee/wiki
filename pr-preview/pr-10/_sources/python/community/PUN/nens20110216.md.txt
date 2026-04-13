@@ -1,0 +1,107 @@
+# PUN/nens20110216
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+The next PUN will be held on wednesday 16 February 2011 at [Nelen & Schuurmans](http://www.nelen-schuurmans.nl) in the center of Utrecht starting at 19:30. Please try to be on time, since we will start at exactly 19:30. If you plan on joining, put yourself on visitor list down below to give everybody an idea of how many people are coming and who. **Note: you\'re free to come in any case, registering is just to get a rough idea on the amount of people**.
+
+Route description (pdf): [http://www.nelen-schuurmans.nl/downloads/124/Routebeschrijving.pdf](http://www.nelen-schuurmans.nl/downloads/124/Routebeschrijving.pdf)
+
+If you come by train, just walk through the \"Hoog Catharijne\" shopping mall on the centre side of Utrecht centraal station. In the \"Zakkendragerssteeg\" you\'ll find a red fence in the wall: go through there and the office is directly in front of you. See [google maps](http://maps.google.nl/maps?q=Zakkendragershof+34-44,+utrecht&oe=utf-8&client=firefox-a&ie=UTF8&hq=&hnear=Zakkendragershof+34,+Binnenstad,+Utrecht&gl=nl&ll=52.091584,5.114404&spn=0.005531,0.016469&t=h&z=17) .
+
+### Presentations 
+
+- `30 min -`{.backtick} \"[Trac](http://trac.edgewall.org/) from a developers point of view\" - *Christo Butcher*
+
+- ` 5 min -`{.backtick} \"[Theming](https://github.com/mauritsvanrees/maurits-site-xdv) with xdv, Paste and fanstatic\" - *[Maurits van Rees](http://maurits.vanrees.org)*
+
+- ` 5 min -`{.backtick} \"Publish your CHANGES!\" - *Jan-Wijbrand Kolman*
+
+- ` 5 min -`{.backtick} \"[pypy](http://pypy.org/) rocks \-- even in the real world!\" - *Jasper Spaans*
+
+- break
+
+- `30 min -`{.backtick} \"Geographic information websites for water management\" - *[Reinout van Rees](http://reinout.vanrees.org)*
+
+- ` 5 min -`{.backtick} \"Using a python commandline in ArcGIS\" - *Coen Nengerman*
+
+- ` 5 min -`{.backtick} \"Fanstatic\" - *Jan-Jaap Driessen*
+
+- ` 5 min -`{.backtick} \"[Web2Py](../../archive/Web2Py), why another webframework?\" - *Nico de Groot*
+
+- ` 5 min -`{.backtick} \"Prettig personeel\" - *Jean-Paul Ladage*
+
+## Confirmed 
+
+1.  [Klaas van Schelven](http://www.legalsense.nl), [Legalsense](http://www.legalsense.nl)
+
+2.  [Bram Braakman](http://www.legalsense.nl), [Legalsense](http://www.legalsense.nl)
+
+3.  [Reinout van Rees](http://reinout.vanrees.org), [Nelen & Schuurmans](http://www.nelen-schuurmans.nl)
+
+4.  [Pieter Swinkels](http://www.nelen-schuurmans.nl/NL/bedrijfsprofiel/medewerkers/pieter-swinkels), [Nelen & Schuurmans](http://www.nelen-schuurmans.nl)
+
+5.  [Maurits van Rees](http://maurits.vanrees.org), [Zest Software](http://zestsoftware.nl)
+
+6.  [Jasper Spaans](http://jasper.es/), [Fox-IT](https://www.fox-it.com/)
+
+7.  [Mark van Lent](http://www.vlent.nl), [Edition1](http://edition1.nl)
+
+8.  Christo Butcher, [Fox-IT](https://www.fox-it.com/)
+
+9.  [Gijs Nijholt](http://nyholt.nl), [Nelen & Schuurmans](http://www.nelen-schuurmans.nl)
+
+10. Jack Ha, [Nelen & Schuurmans](http://www.nelen-schuurmans.nl)
+
+11. Coen Nengerman, [Nelen & Schuurmans](http://www.nelen-schuurmans.nl)
+
+12. Boaz Leskes, [Buzzcapture](http://www.buzzcapture.com)
+
+13. Tikitu de Jager, [Buzzcapture](http://www.buzzcapture.com)
+
+14. Vincent Hillenbrink [Goeie Jongens](http://www.goeiejongens.nl/)
+
+15. Geert Stappers, [benieuwd hoe developers tegen Trac aankijken](http://www.debwrt.net/trac/)
+
+16. [Fred van Dijk](http://indentfour.com/), [Zest Software](http://www.zestsoftware.nl)
+
+17. Albert Visser
+
+18. Raymond Roelands
+
+19. Jean-Paul Ladage, [Zest Software](http://zestsoftware.nl)
+
+20. Orne Brocaar, [Brocaar](http://brocaar.com)
+
+21. Zaheer Soebhan
+
+22. Arjan Verkerk
+
+23. Jan-Jaap Driessen
+
+24. Jan-Wijbrand Kolman
+
+25. Nico de Groot, [Universiteit van Tilburg](http://www.tilburguniversity.edu/nl/webwijs/show/?anr=948008&lan=nl)
+
+26. Alexandr Seleznev, Nelen & Schuurmans
+
+27. Vincent Pretre, Zest software
+
+28. You?
+
+## Most likely 
+
+## Unfortunately not :( 
+
+1.  [Remco Wendt](http://www.maykinmedia.nl), [Maykin Media](http://www.maykinmedia.nl)
+
+2.  Jeffrey Gelens ([Noppo](http://www.noppo.pro/))
+
+3.  Jeroen Dekkers ([StringIT](https://stringit.nl))
+
+4.  Aiko Mastboom ([Informaat](http://www.informaat.nl/))
+
+5.  Jan Murre, ([Pareto](http://www.pareto.nl))

@@ -1,0 +1,33 @@
+# EuroPython / 2008
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## EuroPython 2008 
+
+[EuroPython]() 2008 will take place in Vilnius, Lithuania.
+
+The *centre of all things* of [EuroPython]() is the [mailing list](http://mail.python.org/mailman/listinfo/europython).
+
+### Meetings 
+
+Details of the IRC meetings can be found here: [/IRCMeetings](2008/IRCMeetings)
+
+### Statistics from Previous Years 
+
+- 2007: 215 attendees
+
+- 2006: 282 attendees
+
+- [2005](http://mail.python.org/pipermail/europython/2005-July/005419.html): 261 attendees
+
+- [2003](http://web.archive.org/web/20030905032130/http://www.europython.org/news/newsEntries/20030628/): 250 attendees
+
+### Statistical Observations 
+
+- [PyCon 2006, 2007](http://us.pycon.org/TX2007/Planning)
+
+- [PyCon 2003](http://mail.python.org/pipermail/conferences-discuss/2003-June/000197.html)

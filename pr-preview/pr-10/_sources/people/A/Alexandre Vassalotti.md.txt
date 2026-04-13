@@ -1,0 +1,30 @@
+# Alexandre Vassalotti
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+Junior Python Developer.
+
+Specialities:
+
+- I/O libraries
+
+- The **pickle** module
+
+- Code reviewing
+
+- General C extension development
+
+::: {}
+  --------- ----------------------------------------------------------------
+  Email     [alexandre@peadrop.com](mailto:alexandre@peadrop.com)
+  Website   [http://peadrop.com/](http://peadrop.com/)
+  --------- ----------------------------------------------------------------
+:::
+
+------------------------------------------------------------------------
+
+[CategoryHomepage](CategoryHomepage)

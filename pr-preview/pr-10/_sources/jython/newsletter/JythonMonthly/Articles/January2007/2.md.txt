@@ -1,0 +1,242 @@
+# Jython Monthly / Articles / January 2007 / 2
+
+```{admonition} Legacy Wiki Page
+:class: note
+
+This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
+```
+
+## Proof of Concept: Using Jython with the JOGL API 
+
+*Submitted By: Josh Juneau*
+
+### Introduction 
+
+My everyday job consists of Java and/or PL/SQL programming and database development. That is why I thought it would be fun to start looking into Java and Jython game development for something fun. I\'ve chosen to implement a Jython program which utilizes the Java Binding for OpenGL (JOGL) API. This brief article is not meant to be a tutorial for using JOGL API as there are many good references already available (see below), but rather it is meant to be a \"proof-of-concept\" that Jython does work with JOGL *for the most part*.
+
+I say *for the most part* because I was unable to make the program work exactly as desired. What I did was translate a great tutorial JOGL demo application which was written by [Johannes Odland](http://folk.ntnu.no/johanno/joomla/content/view/15/45/) into Jython. I will tell you how I set up my environment, which IDE I used, and then I will give you my ***imperfect*** Jython source. I emphasize imperfect as I know that the code could have been written better as well as commented\...but I simply ran out of time and wanted to share the code in this distribution.
+
+### Setting Up The Environment 
+
+In order to utilize the JOGL API, you will need to download a version from the [JOGL Homepage](https://jogl.dev.java.net/) and install it into your JDK. I am using a Windows XP Professional OS, and downloaded the jogl-1.1.0-rc1-windows-i586 version of JOGL.
+
+If you are using Windows XP, you can simply place the dll files into your JDK\\JRE\\lib\\bin folder. You then place the JOGL jar files in your project classpath. For my demo, I used JDK 6.0 and it worked well.
+
+### IDE Recommendation 
+
+I recommend the [PyDev](http://pydev.sourceforge.net/) environment for Eclipse in this case simply because it offers code completion and easy project setup.
+
+### Example Code 
+
+The small program consists of three classes and one \"interface\". The end result is a JFrame which is supposed to have two rectangles in it and each rectangle should have a spinning square in it\'s center. However, as I stated previously I was unable to make the program function perfectly under Jython\...so only one of the rectangles shows up. I believe that the issue has to do with layout, but I attempted several changes and used several different Swing layout managers and all of them had the same result. Perhaps a follow-up article will include the fix for this issue.
+
+Another thing to note is that if you compare the Jython code with the Java code, you will see that I had to override the setSize() and setBounds() methods to make it function correcly. I believe that the JOGL implementation passes an incorrect number of parameters to the reshape() method because it is not passing \"self\" by default. Therefore, we have to override the methods mentioned above so that they can pass an appropriate number of parameters to the reshape() method.
+
+And now for the code:
+
+**Animated.py**
+
+This is the Jython interface which will be implemented by each of the rectangle JPanel classes below.
+
+    class Animated:
+        def __init__(self):
+          if not hasattr(self, "timeStep"):
+             raise AttributeError("Must implement timeStep")
+
+**GLPanel2A.py**
+
+One of the Jython rectangle JPanel classes. You can see that this class extends JPanel and renders an OpenGL object within it. We had to override the java.awt.Component *setSize()* and *setBounds()* methods within this class.
+
+    from javax.media.opengl import *
+    from javax.swing import *
+    from Animated import Animated
+    class GLPanel2A(JPanel, GLEventListener, Animated):
+        def __init__(self):
+            self.canvas = None
+            self.angle = 0
+            self.capabilities = GLCapabilities()
+            self.capabilities.setHardwareAccelerated(True)
+            self.capabilities.setDoubleBuffered(True)
+            self.canvas = GLCanvas()
+            self.canvas.addGLEventListener(self)
+            self.add(self.canvas)
+            self.setSize(320,480)
+            self.canvas.setSize(320,480)
+            self.canvas.setVisible(True)
+            
+        def init(self, glDrawable):
+            myGL = glDrawable.getGL()
+            width = self.canvas.getWidth()
+            height = self.canvas.getHeight()
+            myGL.glMatrixMode(GL.GL_PROJECTION)
+            myGL.glLoadIdentity()
+            myGL.glOrtho(-width / 2, width / 2, -height / 2, height / 2, -10, 10)
+            
+        def setSize(self, width, height):
+            self.reshape(self.canvas, 0, 0, width, height)
+            
+        def setBounds(self, x, y, w, h):
+            self.reshape(self.canvas, x, y, w, h)  
+            
+        def reshape(self, glDrawable, i, i1, i2, i3):
+            myGL = glDrawable.getGL()
+            width = self.canvas.getWidth()
+            height = self.canvas.getHeight()
+            myGL.glMatrixMode(GL.GL_PROJECTION)
+            myGL.glLoadIdentity();
+            myGL.glOrtho(-width / 2, width / 2, -height / 2, height / 2, -10, 10);
+                    
+        def display(self, glDrawable):
+            myGL = glDrawable.getGL()
+            width = self.canvas.getWidth()
+            height = self.canvas.getHeight()
+            myGL.glLoadIdentity()
+            myGL.glOrtho(-width / 2, width / 2, -height / 2, height / 2, -10, 10)
+            myGL.glRotatef(self.angle, 0, 0, 1)
+            myGL.glClear(GL.GL_COLOR_BUFFER_BIT);
+            myGL.glBegin(GL.GL_QUADS);
+            myGL.glVertex3f(-50, 50, 0);
+            myGL.glVertex3f(50, 50, 0);
+            myGL.glVertex3f(50, -50, 0);
+            myGL.glVertex3f(-50, -50, 0);
+            myGL.glEnd();
+            
+        def displayChanged(self, glDrawable, b, bl):
+            pass
+        
+        def timeStep(self, time):
+            self.angle += 2
+            self.canvas.repaint()
+
+**GLPanel2B.py**
+
+Almost identical to the previous code, this object also creates a rectangle\...but with a different color.
+
+    from javax.media.opengl import *
+    from javax.swing import *
+    from Animated import Animated
+
+    class GLPanel2B(JPanel, GLEventListener, Animated):
+        
+        def __init__(self):
+            self.canvas = None
+            self.angle = 0
+            self.capabilities = GLCapabilities()
+            self.capabilities.setHardwareAccelerated(True)
+            self.capabilities.setDoubleBuffered(True)
+            self.canvas = GLCanvas()
+            self.canvas.addGLEventListener(self)
+            self.add(self.canvas)
+            self.setSize(320,480)
+            self.canvas.setSize(320,480)
+            self.canvas.setVisible(True)
+
+        def init(self, glDrawable):
+            myGL = glDrawable.getGL()
+            myGL.glClearColor(0.0, 0.0, 1.0, 0.0)
+            myGL.glShadeModel(GL.GL_FASTEST)
+            
+        def setSize(self, width, height):
+            self.reshape(self.canvas, 0, 0, width, height)
+            
+        def setBounds(self, x, y, w, h):
+            self.reshape(self.canvas, x, y, w, h)  
+            
+        def reshape(self, x, y, w, h):
+            reshape(self.canvas, x, y, w, h)         
+            
+        def reshape(self, glDrawable, i, i1, i2, i3):
+            myGL = glDrawable.getGL()
+            width = self.canvas.getWidth()
+            height = self.canvas.getHeight()
+            myGL.glMatrixMode(GL.GL_PROJECTION)
+            myGL.glLoadIdentity();
+            myGL.glOrtho(-width / 2, width / 2, -height / 2, height / 2, -10, 10);
+            
+        def display(self, glDrawable):
+            myGL = glDrawable.getGL()
+            myGL.glMatrixMode(GL.GL_MODELVIEW);
+            myGL.glLoadIdentity();
+            myGL.glRotatef(self.angle,0,0,1);
+
+            myGL.glClear(GL.GL_COLOR_BUFFER_BIT);
+           
+            myGL.glBegin(GL.GL_QUADS);
+            myGL.glVertex3f(-50, 50, 0);
+            myGL.glVertex3f(50, 50, 0);
+            myGL.glVertex3f(50, -50, 0);
+            myGL.glVertex3f(-50, -50, 0);
+            myGL.glEnd();
+            
+        def displayChanged(self, glDrawable, b, bl):
+            pass
+        
+        def timeStep(self, time):
+            self.angle += 2
+            self.canvas.repaint()
+
+**JOGLTest.py**
+
+This is where my code differs a bit from the Java code example. In the Java tutorial, Johannes creates an applet to display the rectangles. I create a JFrame to display the rectangles. I tested the Java code utilizing a JFrame and it functioned just as the original applet does. However, when implemented in Jython we only see the one half rectangle. I believe the layout within this class must be causing an issue.
+
+    from javax.swing import *
+    from java.awt import *
+    from java.lang import InterruptedException
+    from java.lang import Runnable
+    from java.lang import Thread
+    from GLPanel2A import GLPanel2A
+    from GLPanel2B import GLPanel2B
+
+    class JOGLTest(JFrame, Runnable):
+        def __init__(self):
+            self.running = False
+            self.animThread = None
+            self.a = None
+            self.b = None
+            
+        def init(self):
+            glPanelA = GLPanel2A()
+            self.getContentPane().add(glPanelA)
+            self.a = glPanelA
+            glPanelB = GLPanel2B()
+            self.getContentPane().add(glPanelB)
+            self.b = glPanelB
+                   
+        def start(self):
+            if self.animThread == None:
+                animThread = Thread(self)
+                animThread.start()
+            
+        def run(self):
+            self.running = True
+            while self.running:
+                self.a.timeStep(10)
+                self.b.timeStep(10)
+                try:
+                    Thread.sleep(100)
+                except InterruptedException, e:
+                    print e
+                    
+        def stop(self):
+            self.running = False
+            if self.animThread != None:
+                self.animThread = None       
+                            
+    if __name__== "__main__":
+       jogl = JOGLTest()
+       jogl.init()
+       jogl.setSize(800, 500)
+       jogl.visible = True
+       jogl.run()
+
+### Conclusion 
+
+As you can see, the JOGL API does work with Jython. However, from my experiences it appears that the Jython code requires a bit more care than the Java version. Since I never coded the same program using [PyGame](./PyGame.html) (*in Python*), I do not know if a Python implementation would be easier. There are many powerful features included in the JOGL API, and I hope to explore them further in future articles using Jython.
+
+### Resources 
+
+[Johannes Odland Java/JOGL Tutorial](http://folk.ntnu.no/johanno/joomla/content/view/15/45/)
+
+[Jumping into JOGL by Chris Adamson](http://today.java.net/pub/a/today/2003/09/11/jogl2d.html)
+
+[JOGL Project](https://jogl.dev.java.net/)
