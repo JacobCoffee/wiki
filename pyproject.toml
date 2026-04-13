@@ -8,18 +8,18 @@ dependencies = []
 
 [dependency-groups]
 docs = [
-    "sphinx>=8.0",
+    "sphinx>=9.1.0",
     "shibuya",
-    "myst-parser>=4.0",
-    "sphinx-copybutton>=0.5.0",
-    "sphinx-design>=0.6.0",
-    "sphinx-autobuild>=2024.0.0",
-    "linkify-it-py>=2.0",
-    "litestar>=2.15",
-    "httpx>=0.28",
+    "myst-parser>=5.0.0",
+    "sphinx-copybutton>=0.5.2",
+    "sphinx-design>=0.7.0",
+    "sphinx-autobuild>=2025.8.25",
+    "linkify-it-py>=2.1.0",
+    "litestar>=2.21.1",
+    "httpx>=0.28.1",
 ]
 convert = [
-    "beautifulsoup4>=4.12",
+    "beautifulsoup4>=4.14.3",
 ]
 
 [tool.uv]
