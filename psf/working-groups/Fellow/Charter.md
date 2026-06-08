@@ -1,11 +1,5 @@
 # Fellow Charter
 
-```{admonition} Legacy Wiki Page
-:class: note
-
-This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
-```
-
 ## PSF Fellow Work Group Charter 
 
 ### Purpose & Common Goals 
@@ -109,15 +103,17 @@ No budget will be needed for this. Possibly in the future, this WG can address b
 
 ### Participants 
 
-- Kushal Das
-- Thomas Wouters
 - Bruno Rocha
-- Stéphane Wirtel
-- Łukasz Langa
 - Chukwudi Nwachukwu
 - David Markey
-- Ngazetungue Muheue
 - Jon Banafato
+- Kristian Glass
+- Kushal Das
+- Łukasz Langa
+- Mark Smith
+- Ngazetungue Muheue
+- Stéphane Wirtel
+- Thomas Wouters
 
 Former Participants:
 
