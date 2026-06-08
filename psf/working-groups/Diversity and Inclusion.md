@@ -69,42 +69,47 @@ The team will communicate via the [diversity-inclusion-wg@python.org](mailto:div
 
 Initially, the Workgroup is requesting $5000 annually (the budget will primarily be used to hire consultants where applicable.) This amount may be reevaluated if necessary.
 
-#### List of Members/Who we are 
+#### List of Members/Who We Are 
 
 Members:
 
 - Georgi Ker (Chair)
+- Nathan Bransby (Co-Chair)
+- Abhijeet Mote
 - Ali Tavallaie
 - Alla Barbala
-- Boluwaji Akinlade
-- Cynthia Xin
 - Débora Azevedo
 - Filipe Laíns
 - Jimena Bermúdez
 - Juliana (Jules) Barros Lima
+- Julio Batista Silva
+- Kalyan Prasad
 - Karo Ladino
 - Keanya Phelps
-- Marlene Mhangami
 - Marie Nordin
 - Mannie Young
-- Mariam Haji
-- Miguel Johnson
-- Nathan Bransby
 - Reuven Lerner
-- Sayantika Banik
+- Theresa Seyram Agbenyegah
+- Ugwu Emmanuel
 
 Past members:
 
 - Anna Ossowski
 - Anthony Shaw
+- Boluwaji Akinlade
 - Christian Heimes
+- Cynthia Xin
 - Dustin Ingram
 - Iqbal Abdullah
 - Katia Lira
 - Lorena Mesa
 - Manuel Kaufmann
+- Mariam Haji
+- Marlene Mhangami
+- Miguel Johnson
 - Phoebe Chua
 - Sara EL-ATEIF
+- Sayantika Banik
 - Tereza Iofciu
 
 #### Administration and Contact 
