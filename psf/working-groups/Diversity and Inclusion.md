@@ -1,6 +1,7 @@
 # Diversity and Inclusion
 
-```{admonition} Legacy Wiki Page
+```plain
+{admonition} Legacy Wiki Page
 :class: note
 
 This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
@@ -12,7 +13,7 @@ The Diversity and Inclusion Working Group is a volunteer workgroup of the Python
 
 ### Purpose 
 
-The workgroup\'s purpose is to further the PSF's mission to 'support and facilitate the growth of a diverse and international community of Python programmers.' We also aim to provide guidance to the PSF Board of Directors in line with this mandate.
+The workgroup's purpose is to further the PSF's mission to 'support and facilitate the growth of a diverse and international community of Python programmers.' We also aim to provide guidance to the PSF Board of Directors in line with this mandate.
 
 The Workgroup will pursue this goal in several ways including:
 
@@ -41,11 +42,8 @@ The workgroup adopts the PSF Code of Conduct ([https://www.python.org/psf/codeof
 ### Membership 
 
 - Diversity and Inclusion Workgroup voting members are required to confirm their intent to continue participating in the Workgroup within one month of a new PSF Board election. This will be led by chair/vice-chairs. If there is no response within two weeks, then the individual is automatically removed.
-
 - A member of the Diversity and Inclusion Workgroup can step down at any time, and the workgroup will work to replace that voting member.
-
 - Folks that would like to join the Diversity and Inclusion Work Group should send an email to the WG ([diversity-inclusion-wg@python.org](mailto:diversity-inclusion-wg@python.org)) introducing themselves. The WG will vote on new member requests verbally at meetings.
-
 - If a member fails to attend more than 50% of meetings over a 6-month span (4 out of 6 meetings), they will be moved to the Past Members list unless they make arrangements with the Workgroup in advance. They are welcome to rejoin at any time.
 
 #### Rules & Guidelines 
@@ -59,9 +57,9 @@ The workgroup adopts the PSF Code of Conduct ([https://www.python.org/psf/codeof
 
 - Discussions will happen via online communication platform, video chat, or mailing list.
 - With respect to new policy recommendations:
-  - The workgroup may solicit feedback on proposed drafts.
-  - The workgroup will consider outside input, edit the document, then vote for final approval.
-  - The workgroup will vote on new standards and will require a quorum of two-thirds of the voting members for approval of motions/content.
+    - The workgroup may solicit feedback on proposed drafts.
+    - The workgroup will consider outside input, edit the document, then vote for final approval.
+    - The workgroup will vote on new standards and will require a quorum of two-thirds of the voting members for approval of motions/content.
 
 #### Communication Plan 
 
@@ -69,14 +67,13 @@ The team will communicate via the [diversity-inclusion-wg@python.org](mailto:div
 
 #### Budget 
 
-Initially, the Workgroup is requesting \$5000 annually (the budget will primarily be used to hire consultants where applicable.) This amount may be reevaluated if necessary.
+Initially, the Workgroup is requesting $5000 annually (the budget will primarily be used to hire consultants where applicable.) This amount may be reevaluated if necessary.
 
 #### List of Members/Who we are 
 
 Members:
 
 - Georgi Ker (Chair)
-- Tereza Iofciu (Co-Chair)
 - Ali Tavallaie
 - Alla Barbala
 - Boluwaji Akinlade
@@ -108,13 +105,11 @@ Past members:
 - Manuel Kaufmann
 - Phoebe Chua
 - Sara EL-ATEIF
+- Tereza Iofciu
 
 #### Administration and Contact 
 
 - Georgi Ker (Chair) [georgi@python.org](mailto:georgi@python.org)
-
 - Marie Nordin (PSF Staff) [marie@python.org](mailto:marie@python.org)
-
 - [Diversity and Inclusion Work Group Charter](https://wiki.python.org/psf/DiversityandInclusionWG/Charter)
-
 - [diversity-inclusion-wg@python.org](mailto:diversity-inclusion-wg@python.org)
