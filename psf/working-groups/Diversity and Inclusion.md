@@ -1,12 +1,5 @@
 # Diversity and Inclusion
 
-```plain
-{admonition} Legacy Wiki Page
-:class: note
-
-This page was migrated from the old MoinMoin-based wiki. Information may be outdated or no longer applicable. For current documentation, see [python.org](https://www.python.org).
-```
-
 ## Diversity and Inclusion Working Group 
 
 The Diversity and Inclusion Working Group is a volunteer workgroup of the Python Software Foundation.
@@ -74,11 +67,12 @@ Initially, the Workgroup is requesting $5000 annually (the budget will primarily
 Members:
 
 - Georgi Ker (Chair)
-- Nathan Bransby (Co-Chair)
+- Nathan Bransby (Vice Chair)
 - Abhijeet Mote
 - Ali Tavallaie
-- Alla Barbala
+- Alla Barbalat
 - Débora Azevedo
+- Emmanuel Ugwu
 - Filipe Laíns
 - Jimena Bermúdez
 - Juliana (Jules) Barros Lima
@@ -88,9 +82,8 @@ Members:
 - Keanya Phelps
 - Marie Nordin
 - Mannie Young
-- Reuven Lerner
+- Reuven M. Lerner
 - Theresa Seyram Agbenyegah
-- Ugwu Emmanuel
 
 Past members:
 
