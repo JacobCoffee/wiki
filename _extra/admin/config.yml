@@ -1,8 +1,7 @@
 backend:
-  name: github
+  name: git-gateway
   repo: psf/wiki
   branch: main
-  base_url: https://api.wiki.python.org
 
 search: false
 
